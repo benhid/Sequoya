@@ -1,12 +1,12 @@
 <p align="center">
   <br/>
-  <img src="https://raw.githubusercontent.com/benhid/pyM2SA/master/resources/pym2sa.png" alt="PyM2SA">
+  <img src=resources/pym2sa.png alt="PyM2SA">
   <br/>
 </p>
 
-# Scoring Multiple Sequence Alignments with Python
+# Solving Multiple Sequence Alignments with Python
 
-PyM<sup>2</sup>SA is an open source software tool aimed at for solving 
+PyM<sup>2</sup>SA is an open source software tool aimed at for solving
 *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
 ## Features
@@ -22,9 +22,9 @@ PyM<sup>2</sup>SA is an open source software tool aimed at for solving
     * SMPSO
 * **Crossover operator**:
     * Single-point crossover
-* **Mutation operator**: 
+* **Mutation operator**:
     * Random gap insertion
-    
+
 ## Downloading
 To download PyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
 
