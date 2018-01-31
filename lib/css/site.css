@@ -13,9 +13,12 @@ html {
 
 img {
   display: block;
-  margin: 1rem auto;
-  padding: 0.5rem 2.5rem;
   max-width: 100%;
+}
+
+.logo{
+  margin: 0.5rem auto;
+  padding: 0.5rem 2.5rem;
 }
 
 h1 {
@@ -28,7 +31,7 @@ h1 {
 }
 
 p {
-  padding: 0 2.5rem 2.5rem;
+  padding: 0 2.5rem 1.5rem;
   margin: 0;
 }
 
@@ -60,7 +63,23 @@ p {
   box-shadow: 0px 1px 0px 0px;
 }
 
-.blue {
+.gradient {
   background-image: linear-gradient(120deg, #e15631 0%, #ff7c00 100%);
   box-shadow: 0px 3px 0px 0px #e15631;
+}
+
+.grid-container {
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 100%; /*25% 10% auto auto;*/
+  grid-template-rows: auto;
+}
+
+.grid-container > div {
+}
+
+.float{
+  position:fixed;
+  right:40px;
+  bottom:40px;
 }
