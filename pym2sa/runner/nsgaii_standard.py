@@ -1,10 +1,11 @@
 import logging
 from typing import List
 
+import os
 from jmetal.component.observer import BasicAlgorithmConsumer
-from jmetal.operator.selection import BinaryTournamentSelection
+from jmetal.operator.selection import BinaryTournament
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
-from pymsa.score import PercentageOfNonGaps, PercentageOfTotallyConservedColumns
+from pymsa.core.score import PercentageOfNonGaps, PercentageOfTotallyConservedColumns
 
 from pym2sa.algorithm.multiobjective.nsgaii import NSGA2MSA
 from pym2sa.problem.dynamic_msa import MSA
@@ -25,10 +26,11 @@ def main() -> None:
     algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
         problem=problem,
         population_size=100,
+        initial_population_path=os.path.dirname(__file__)+'/files',
         max_evaluations=3000,
         mutation=RandomGapInsertion(probability=0.1),
         crossover=SinglePointMSA(probability=0.8),
-        selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()))
+        selection=BinaryTournament(comparator=RankingAndCrowdingDistanceComparator()))
 
     basic_consumer = BasicAlgorithmConsumer()
     algorithm.observable.register(observer=basic_consumer)

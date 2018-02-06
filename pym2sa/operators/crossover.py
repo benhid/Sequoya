@@ -23,7 +23,7 @@ class SinglePointMSA(Crossover[MSASolution, MSASolution]):
         offspring = [copy.deepcopy(parents[0]), copy.deepcopy(parents[1])]
 
         if random.random() <= self.probability:
-            cx_point = random.randint(1, offspring[0].get_lengh_of_alignment() - 1)
+            cx_point = random.randint(1, offspring[0].get_length_of_alignment() - 1)
 
             left, right = [], []
             for solution in offspring:
