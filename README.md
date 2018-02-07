@@ -9,6 +9,7 @@
 [![PyPI](https://img.shields.io/pypi/l/pyM2SA.svg)]()
 [![PyPI](https://img.shields.io/pypi/v/pyM2SA.svg)]()
 
+
 pyM<sup>2</sup>SA is an open source software tool aimed at for solving
 *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
