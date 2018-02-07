@@ -34,9 +34,8 @@ class NSGA2MSA(NSGAII[S, R]):
 
                 fasta_file = read_fasta_file_as_list_of_pairs(file, self.initial_population_path)
 
-                msa = MSASolution(number_of_variables=len(fasta_file), number_of_objectives=2, number_of_constraints=0)
-                msa.header = list(pair[0] for pair in fasta_file)
-                msa.variables = list(pair[1] for pair in fasta_file)
+                msa = MSASolution(aligned_sequences=fasta_file,
+                                  number_of_objectives=2)
 
                 population.append(msa)
         except FileNotFoundError:
