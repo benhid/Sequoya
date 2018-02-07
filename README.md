@@ -1,11 +1,11 @@
 <p align="center">
   <br/>
-  <img src=resources/pym2sa.png alt="PyM2SA">
+  <img src=resources/pym2sa.png alt="pyM2SA">
   <br/>
 </p>
 
 # Solving Multiple Sequence Alignments with Python
-[![Build Status](https://travis-ci.org/benhid/pyM2SA.svg?branch=master)](https://travis-ci.org/benhid/pyMSA)
+[![Build Status](https://travis-ci.com/benhid/pyM2SA.svg?token=6p1jsqj6w1XK5sV6iy3j&branch=master)](https://travis-ci.com/benhid/pyM2SA)
 [![PyPI](https://img.shields.io/pypi/l/pyM2SA.svg)]()
 [![PyPI](https://img.shields.io/pypi/v/pyM2SA.svg)]()
 
