@@ -1,12 +1,16 @@
 <p align="center">
   <br/>
-  <img src=resources/pym2sa.png alt="PyM2SA">
+  <img src=resources/pym2sa.png alt="pyM2SA">
   <br/>
 </p>
 
-# Scoring Multiple Sequence Alignments with Python
+# Solving Multiple Sequence Alignments with Python
+[![Build Status](https://travis-ci.com/benhid/pyM2SA.svg?token=6p1jsqj6w1XK5sV6iy3j&branch=master)](https://travis-ci.com/benhid/pyM2SA)
+[![PyPI](https://img.shields.io/pypi/l/pyM2SA.svg)]()
+[![PyPI](https://img.shields.io/pypi/v/pyM2SA.svg)]()
 
-PyM<sup>2</sup>SA is an open source software tool aimed at for solving
+
+pyM<sup>2</sup>SA is an open source software tool aimed at for solving
 *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
 ## Features
@@ -26,7 +30,7 @@ PyM<sup>2</sup>SA is an open source software tool aimed at for solving
     * Random gap insertion
 
 ## Downloading
-To download PyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
+To download pyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
 
 ```bash
 $ git clone https://github.com/benhid/pyM2SA.git
@@ -34,7 +38,7 @@ $ python setup.py install
 ```
 
 ## Requirements
-PyM<sup>2</sup>SA has been developed with Python 3.6.0 :: [Anaconda](https://www.continuum.io) 4.3.0 (x86_64).
+pyM<sup>2</sup>SA has been developed with Python 3.6.0 :: [Anaconda](https://www.continuum.io) 4.3.0 (x86_64).
 
 To install all dependencies use:
 
@@ -43,11 +47,12 @@ $ pip install -r requirements.txt
 ```
 
 ## Usage
-Examples of running PyM<sup>2</sup>SA are located in the [`runner`](pym2sa/runner/) folder.
+Examples of running pyM<sup>2</sup>SA are located in the [`runner`](pym2sa/runner/) folder.
 
 ## Authors
 ### Active development team
 * Antonio Benítez <antonio.benitez@lcc.uma.es>
+* Antonio J. Nebro <antonio@lcc.uma.es>
 
 ## License
 This project is licensed under the terms of the MIT - see the [LICENSE](LICENSE) file for details.

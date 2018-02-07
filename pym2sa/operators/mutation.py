@@ -18,7 +18,6 @@ class RandomGapInsertion(Mutation[MSASolution]):
             for i in range(solution.number_of_variables):
                 solution_as_list = list(solution.variables[i])
                 solution_as_list.insert(random.randint(0, len(solution.variables[i])-1), self.__GAP_SYMBOL)
-                # solution_as_list[random.randint(0, len(solution.variables[i])-1)] = self.__GAP_SYMBOL
                 solution.variables[i] = ''.join(solution_as_list)
 
         return solution
