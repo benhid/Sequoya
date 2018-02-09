@@ -12,19 +12,17 @@ class MSASolution(Solution[str]):
         self.sequences_names = list(pair[0] for pair in aligned_sequences)
         self.original_sequences = list(pair[1] for pair in aligned_sequences)
         self.original_alignment_size = len(self.original_sequences[0])
-
-        self.encoded_sequences = []
         self.gaps_groups = []
 
         self.encode_alignment(self.original_sequences)
 
     def encode_alignment(self, aligned_sequences: list):
         # for each aligned sequence
-        for aligned_sequence in aligned_sequences:
+        for i in range(len(aligned_sequences)):
             # get gaps groups
-            self.gaps_groups.append(self.get_gaps_group(aligned_sequence))
+            self.gaps_groups.append(self.get_gaps_group(aligned_sequences[i]))
             # get encoded sequence
-            self.encoded_sequences.append(aligned_sequence.replace(self.GAP_IDENTIFIER, ""))
+            self.variables[i] = aligned_sequences[i].replace(self.GAP_IDENTIFIER, "")
 
     def get_gaps_group(self, sequence: str) -> list:
         gaps_group = []
@@ -58,23 +56,18 @@ class MSASolution(Solution[str]):
         aligned_sequences = []
 
         for i in range(self.number_of_variables):
-            aligned_sequences.append(self.decode(self.encoded_sequences[i],
+            aligned_sequences.append(self.decode(self.variables[i],
                                                  self.gaps_groups[i]))
 
         return aligned_sequences
 
-    def decode(self, encoded_sequence: str, gaps_groups: list) -> str:
+    def decode(self, encoded_sequence: str, gaps_group: list) -> str:
         aligned_sequence = list(encoded_sequence)
 
         # insert gap groups
-        for i in range(0, len(gaps_groups) - 1, 2):
-            for j in range(gaps_groups[i], gaps_groups[i + 1] + 1):
+        for i in range(0, len(gaps_group) - 1, 2):
+            for j in range(gaps_group[i], gaps_group[i + 1] + 1):
                 aligned_sequence.insert(j, '-')
-
-        # insert gap groups
-        # for i in range(0, len(gaps_groups)-1, 2):
-        #    for j in range(gaps_groups[i], gaps_groups[i+1]):
-        #        aligned_sequence[j] = '-'
 
         return ''.join(aligned_sequence)
 
@@ -82,7 +75,7 @@ class MSASolution(Solution[str]):
         list_of_pairs = []
 
         for i in range(self.number_of_variables):
-            sequence = self.decode(self.encoded_sequences[i], self.gaps_groups[i])
+            sequence = self.decode(self.variables[i], self.gaps_groups[i])
             list_of_pairs.append((self.sequences_names[i], sequence))
 
         return list_of_pairs
@@ -91,19 +84,24 @@ class MSASolution(Solution[str]):
         # e.g. [[2, 4, 4, 7], [2, 3], [5, 6, 6, 8]] = [[2, 7], [2, 3], [5, 8]]
 
         for i in range(self.number_of_variables):
-            for j in range(1, len(self.gaps_groups) - 2, 2):
-                if self.gaps_groups[i][j] == self.gaps_groups[i][j+1]:
-                    self.gaps_groups.remove(j)
-                    self.gaps_groups.remove(j+1)
-
-    def split_gap_column(self, column_index: int) -> None:
-        for i in range(self.number_of_variables):
             gaps_group = self.gaps_groups[i]
 
-            for j in range(0, len(self.gaps_groups) - 1, 2):
+            # for each gap on the gaps group
+            for j in range(0, len(gaps_group) - 1, 2):
+                if gaps_group[i][j] == gaps_group[i][j+1]:
+                    gaps_group.remove(j)
+                    gaps_group.remove(j+1)
+
+    def split_gap_column(self, column_index: int) -> None:
+        # for each sequence
+        for i in range(self.number_of_variables):
+            # get gaps group
+            gaps_group = self.gaps_groups[i]
+            # for each gap on the gaps group
+            for j in range(0, len(gaps_group) - 1, 2):
                 if gaps_group[j] < column_index < gaps_group[j + 1]:
-                    gaps_group.insert(1, column_index)
-                    gaps_group.insert(1, column_index)
+                    gaps_group.insert(j + 1, column_index)
+                    gaps_group.insert(j + 1, column_index)
 
     def remove_gap_column(self, column_index: int) -> None:
         for i in range(self.number_of_variables):
@@ -119,8 +117,8 @@ class MSASolution(Solution[str]):
                         gaps_group[j + 1] -= 1
                     else:
                         # e.g. index: 3, gaps_group: [[2, 5]] -> [[2, 2, 4, 5]]
-                        gaps_group.insert(1, column_index + 1)
-                        gaps_group.insert(1, column_index - 1)
+                        gaps_group.insert(j + 1, column_index + 1)
+                        gaps_group.insert(j + 1, column_index - 1)
 
     def is_gap_column(self, index: int) -> bool:
         # check if the column index is in all gaps groups
@@ -182,7 +180,7 @@ class MSASolution(Solution[str]):
         alignment_length = self.get_length_of_alignment()
 
         for i in range(self.number_of_variables):
-            if alignment_length != len(self.encoded_sequences[i]) + self.get_number_of_gaps_of_sequence(i):
+            if alignment_length != len(self.variables[i]) + self.get_number_of_gaps_of_sequence(i):
                 return False
 
         return True

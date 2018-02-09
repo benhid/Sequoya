@@ -93,13 +93,24 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_split_gap_column(self):
         # setup
-        msa = MSASolution(aligned_sequences=[('seq1', '---AC'), ('seq2', 'T---C'), ('seq3', '--A-A-')],
-                          number_of_objectives=2)
-        msa.split_gap_column(1)
-        msa.split_gap_column(2)
+        msa_1 = MSASolution(aligned_sequences=[('seq1', '---AC'), ('seq2', 'T---C'), ('seq3', '--A-A-')],
+                            number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('seq1', '---AC'), ('seq2', 'T---C'), ('seq3', '--A-A-')],
+                            number_of_objectives=2)
+        msa_3 = MSASolution(aligned_sequences=[('seq1', '---AC'), ('seq2', 'T---C'), ('seq3', '-A----')],
+                            number_of_objectives=2)
+
+        # actual = [[0, 2], [1, 3], [0, 1, 3, 3, 5, 5]]
+        msa_1.split_gap_column(1)
+        msa_2.split_gap_column(2)
+
+        # actual = [[0, 2], [1, 3], [0, 0, 2, 5]]
+        msa_3.split_gap_column(4)
 
         # check
-        self.assertEqual([[0, 1, 1, 2], [1, 2, 2, 3], [0, 1, 3, 3, 5, 5]], msa.gaps_groups)
+        self.assertEqual([[0, 1, 1, 2], [1, 3], [0, 1, 3, 3, 5, 5]], msa_1.gaps_groups)
+        self.assertEqual([[0, 2], [1, 2, 2, 3], [0, 1, 3, 3, 5, 5]], msa_2.gaps_groups)
+        self.assertEqual([[0, 2], [1, 3], [0, 0, 2, 4, 4, 5]], msa_3.gaps_groups)
 
     def test_should_remove_gap_column(self):
         # setup
