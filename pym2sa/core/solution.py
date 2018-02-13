@@ -49,9 +49,6 @@ class MSASolution(Solution[str]):
 
         return gaps_group
 
-    def get_gaps_groups(self) -> list:
-        return self.gaps_groups
-
     def decode_alignment(self):
         aligned_sequences = []
 
