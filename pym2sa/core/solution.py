@@ -96,8 +96,8 @@ class MSASolution(Solution[str]):
             gaps_group = self.gaps_groups[i]
             # for each gap on the gaps group
             for j in range(0, len(gaps_group) - 1, 2):
-                if gaps_group[j] < column_index < gaps_group[j + 1]:
-                    gaps_group.insert(j + 1, column_index)
+                if gaps_group[j] <= column_index < gaps_group[j + 1]:
+                    gaps_group.insert(j + 1, column_index + 1)
                     gaps_group.insert(j + 1, column_index)
 
     def remove_gap_column(self, column_index: int) -> None:

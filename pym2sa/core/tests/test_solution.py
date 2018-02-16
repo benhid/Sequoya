@@ -108,9 +108,9 @@ class MSASolutionTestCases(unittest.TestCase):
         msa_3.split_gap_column(4)
 
         # check
-        self.assertEqual([[0, 1, 1, 2], [1, 3], [0, 1, 3, 3, 5, 5]], msa_1.gaps_groups)
-        self.assertEqual([[0, 2], [1, 2, 2, 3], [0, 1, 3, 3, 5, 5]], msa_2.gaps_groups)
-        self.assertEqual([[0, 2], [1, 3], [0, 0, 2, 4, 4, 5]], msa_3.gaps_groups)
+        self.assertEqual([[0, 1, 2, 2], [1, 1, 2, 3], [0, 1, 3, 3, 5, 5]], msa_1.gaps_groups)
+        self.assertEqual([[0, 2], [1, 2, 3, 3], [0, 1, 3, 3, 5, 5]], msa_2.gaps_groups)
+        self.assertEqual([[0, 2], [1, 3], [0, 0, 2, 4, 5, 5]], msa_3.gaps_groups)
 
     def test_should_remove_gap_column(self):
         # setup
