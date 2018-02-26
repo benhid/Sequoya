@@ -78,14 +78,15 @@ class MSASolution(Solution[str]):
         return list_of_pairs
 
     def merge_gaps_groups(self) -> None:
-        # e.g. [[2, 4, 4, 7], [2, 3], [5, 6, 6, 8]] = [[2, 7], [2, 3], [5, 8]]
+        # e.g. [[2, 4, 4, 7], [2, 3], [5, 6, 7, 8]] = [[2, 7], [2, 3], [5, 8]]
+        #           ^  ^                  ^  ^
 
         for i in range(self.number_of_variables):
             gaps_group = self.gaps_groups[i]
 
             # for each gap on the gaps group
             for j in range(0, len(gaps_group) - 1, 2):
-                if gaps_group[i][j] == gaps_group[i][j+1]:
+                if gaps_group[i][j] == gaps_group[i][j+1] or gaps_group[i][j] + 1 == gaps_group[i][j+1] :
                     gaps_group.remove(j)
                     gaps_group.remove(j+1)
 
@@ -137,6 +138,16 @@ class MSASolution(Solution[str]):
 
         return True
 
+    def get_length_of_gaps(self, i: int) -> int:
+        # if no gaps (list is empty), return 0; else, return length
+        if not self.gaps_groups[i]:
+            length_of_gaps = 0
+        else:
+            length_of_gaps = \
+                sum([self.gaps_groups[i][j+1]-self.gaps_groups[i][j] for j in range(0, len(self.gaps_groups[i]) - 1, 2)]) + 1
+
+        return length_of_gaps
+
     def get_gap_columns(self) -> list:
         gap_columns_index = []
         alignment_length = self.get_length_of_alignment()
@@ -168,16 +179,19 @@ class MSASolution(Solution[str]):
 
         return number_of_gaps
 
-    def get_length_of_alignment(self) -> int:
+    def get_length_of_sequence(self, seq_index: int) -> int:
+        return len(self.variables[seq_index]) + self.get_length_of_gaps(seq_index)
+
+    def get_length_of_original_alignment(self) -> int:
         return self.original_alignment_size
 
     def is_valid(self) -> bool:
-        # a solution is valid if the length of the alignment is equals to the length of the encoded sequences (
-        # without gaps) + the number of gaps
-        alignment_length = self.get_length_of_alignment()
+        # a solution is valid if the length of the alignment is equals to the length of the encoded sequences
+        # (without gaps) + the number of gaps
+        alignment_length = self.get_length_of_original_alignment()
 
         for i in range(self.number_of_variables):
-            if alignment_length != len(self.variables[i]) + self.get_number_of_gaps_of_sequence(i):
+            if alignment_length != self.get_length_of_sequence(i):
                 return False
 
         return True
