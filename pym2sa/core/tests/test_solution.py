@@ -4,6 +4,7 @@ from pym2sa.core.solution import MSASolution
 
 
 class MSASolutionTestCases(unittest.TestCase):
+
     def setUp(self):
         print("setUp: RUNNING MSASolutionTestCases")
 
@@ -60,14 +61,12 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_is_valid(self):
         # setup
-        msa_valid = MSASolution(aligned_sequences=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')],
+        msa_valid = MSASolution(aligned_sequences=[('seq1', 'A'), ('seq2', 'A'), ('seq3', 'A')],
                                 number_of_objectives=2)
-        msa_not_valid = MSASolution(aligned_sequences=[('seq1', 'AC----TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')],
-                                    number_of_objectives=2)
 
-        # check
-        self.assertTrue(msa_valid.is_valid())
-        self.assertFalse(msa_not_valid.is_valid())
+        with self.assertRaises(Exception):
+            msa_not_valid = MSASolution(aligned_sequences=[('seq1', 'A'), ('seq2', 'A'), ('seq3', 'AA')],
+                                        number_of_objectives=2)
 
     def test_should_return_alignment_as_list_of_pairs(self):
         # setup
@@ -93,11 +92,11 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_split_gap_column(self):
         # setup
-        msa_1 = MSASolution(aligned_sequences=[('seq1', '---AC'), ('seq2', 'T---C'), ('seq3', '--A-A-')],
+        msa_1 = MSASolution(aligned_sequences=[('seq1', '----AC'), ('seq2', 'T----C'), ('seq3', '--A-A-')],
                             number_of_objectives=2)
-        msa_2 = MSASolution(aligned_sequences=[('seq1', '---AC'), ('seq2', 'T---C'), ('seq3', '--A-A-')],
+        msa_2 = MSASolution(aligned_sequences=[('seq1', '----AC'), ('seq2', 'T----C'), ('seq3', '--A-A-')],
                             number_of_objectives=2)
-        msa_3 = MSASolution(aligned_sequences=[('seq1', '---AC'), ('seq2', 'T---C'), ('seq3', '-A----')],
+        msa_3 = MSASolution(aligned_sequences=[('seq1', '----AC'), ('seq2', 'T----C'), ('seq3', '-A----')],
                             number_of_objectives=2)
 
         # actual = [[0, 2], [1, 3], [0, 1, 3, 3, 5, 5]]
@@ -108,14 +107,15 @@ class MSASolutionTestCases(unittest.TestCase):
         msa_3.split_gap_column(4)
 
         # check
-        self.assertEqual([[0, 1, 2, 2], [1, 1, 2, 3], [0, 1, 3, 3, 5, 5]], msa_1.gaps_groups)
-        self.assertEqual([[0, 2], [1, 2, 3, 3], [0, 1, 3, 3, 5, 5]], msa_2.gaps_groups)
-        self.assertEqual([[0, 2], [1, 3], [0, 0, 2, 4, 5, 5]], msa_3.gaps_groups)
+        self.assertEqual([[0, 1, 2, 3], [1, 1, 2, 4], [0, 1, 3, 3, 5, 5]], msa_1.gaps_groups)
+        self.assertEqual([[0, 2, 3, 3], [1, 2, 3, 4], [0, 1, 3, 3, 5, 5]], msa_2.gaps_groups)
+        self.assertEqual([[0, 3], [1, 4], [0, 0, 2, 4, 5, 5]], msa_3.gaps_groups)
 
     def test_should_remove_gap_column(self):
         # setup
         msa = MSASolution(aligned_sequences=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')],
                           number_of_objectives=2)
+
         msa.remove_gap_column(3)
 
         # check
@@ -128,6 +128,83 @@ class MSASolutionTestCases(unittest.TestCase):
 
         # check
         self.assertEqual([0, 1, 4], msa.get_gap_columns())
+
+    def test_should_is_gap_at_char_sequence_raise_exception_if_position_is_negative(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', '--AA-'), ('seq2', '--AA-'), ('seq3', '--AA-')],
+                          number_of_objectives=2)
+
+        # check
+        self.assertTrue(msa.is_gap_char_at_sequence(0, 0))
+        self.assertTrue(msa.is_gap_char_at_sequence(0, 1))
+        self.assertTrue(msa.is_gap_char_at_sequence(1, 4))
+        self.assertTrue(msa.is_gap_char_at_sequence(2, 1))
+
+        with self.assertRaises(Exception):
+            msa.is_gap_char_at_sequence(0, -1)
+
+    def test_remove_gap_group_at_column(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', '--AA-'), ('seq2', '---AA'), ('seq3', '--AA-')],
+                          number_of_objectives=2)
+
+        msa.remove_gap_group_from_sequence_at_column(0, 0)
+        msa.remove_gap_group_from_sequence_at_column(1, 0)
+        msa.remove_gap_group_from_sequence_at_column(2, 4)
+
+        # check
+        self.assertEqual([[4, 4], [], [0, 1]], msa.gaps_groups)
+
+    def test_should_get_the_right_char_position_in_the_original_sequence(self):
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('seq1', '-ABC')], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('seq1', 'A--B-C')], number_of_objectives=2)
+
+        # check
+        self.assertEqual(0, msa_1.get_char_position_in_original_sequence(seq_index=0, position=1))
+        self.assertEqual(1, msa_1.get_char_position_in_original_sequence(0, 2))
+        self.assertEqual(2, msa_1.get_char_position_in_original_sequence(0, 3))
+
+        self.assertEqual(0, msa_2.get_char_position_in_original_sequence(0, 0))
+        self.assertEqual(1, msa_2.get_char_position_in_original_sequence(0, 3))
+        self.assertEqual(2, msa_2.get_char_position_in_original_sequence(0, 5))
+
+    def test_should_get_next_char_position_after_gap(self):
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('seq1', '-ABC'), ('seq2', 'AB-C')], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('seq1', 'A--BC')], number_of_objectives=2)
+        msa_extra_gaps = MSASolution(aligned_sequences=[('seq1', '---A---BC--D---')], number_of_objectives=2)
+
+        # check
+        self.assertEqual(1, msa_1.get_next_char_position_after_gap(seq_index=0, gap_position=0))
+        self.assertEqual(3, msa_1.get_next_char_position_after_gap(seq_index=1, gap_position=2))
+
+        self.assertEqual(3, msa_2.get_next_char_position_after_gap(seq_index=0, gap_position=1))
+        self.assertEqual(3, msa_2.get_next_char_position_after_gap(seq_index=0, gap_position=2))
+
+        self.assertEqual(3, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=0))
+        self.assertEqual(3, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=1))
+        self.assertEqual(7, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=4))
+        self.assertEqual(7, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=6))
+        self.assertEqual(11, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=9))
+        self.assertEqual(11, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=10))
+        self.assertEqual(-1, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=12))
+
+    def test_should_get_original_char_position_in_aligned_sequence(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', '-ABC'), ('seq2', 'ABCD'), ('seq3', '--AB')], number_of_objectives=2)
+
+        # check
+        self.assertEqual(1, msa.get_original_char_position_in_aligned_sequence(seq_index=0, position=0))
+        self.assertEqual(2, msa.get_original_char_position_in_aligned_sequence(seq_index=0, position=1))
+        self.assertEqual(3, msa.get_original_char_position_in_aligned_sequence(seq_index=0, position=2))
+
+        self.assertEqual(0, msa.get_original_char_position_in_aligned_sequence(seq_index=1, position=0))
+        self.assertEqual(1, msa.get_original_char_position_in_aligned_sequence(seq_index=1, position=1))
+        self.assertEqual(2, msa.get_original_char_position_in_aligned_sequence(seq_index=1, position=2))
+
+        self.assertEqual(2, msa.get_original_char_position_in_aligned_sequence(seq_index=2, position=0))
+        self.assertEqual(3, msa.get_original_char_position_in_aligned_sequence(seq_index=2, position=1))
 
 
 if __name__ == "__main__":
