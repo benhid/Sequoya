@@ -5,19 +5,22 @@ from jmetal.core.operator import Mutation
 from pym2sa.core.solution import MSASolution
 
 
-class RandomGapInsertion(Mutation[MSASolution]):
-    """ Inserts a gap in a random position for each sequence. """
+class OneRandomGapInsertion(Mutation[MSASolution]):
 
-    __GAP_SYMBOL = '-'
-
-    def __init__(self, probability: float) -> None:
-        super(RandomGapInsertion, self).__init__(probability=probability)
+    def __init__(self, probability: float, remove_gap_columns: bool = False) -> None:
+        super(OneRandomGapInsertion, self).__init__(probability=probability)
+        self.remove_gap_columns = remove_gap_columns
 
     def execute(self, solution: MSASolution) -> MSASolution:
+        if solution is None:
+            raise Exception("Solution is none")
+
+        return self.do_mutation(solution)
+
+    def do_mutation(self, solution: MSASolution) -> MSASolution:
         if random.random() <= self.probability:
-            for i in range(solution.number_of_variables):
-                solution_as_list = list(solution.variables[i])
-                solution_as_list.insert(random.randint(0, len(solution.variables[i])-1), self.__GAP_SYMBOL)
-                solution.variables[i] = ''.join(solution_as_list)
+            for seq_index in range(0, solution.number_of_variables):
+                point = random.randint(0, solution.get_length_of_alignment() - 1)
+                solution.add_gap_to_sequence(seq_index, point)
 
         return solution

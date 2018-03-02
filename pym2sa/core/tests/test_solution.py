@@ -206,6 +206,48 @@ class MSASolutionTestCases(unittest.TestCase):
         self.assertEqual(2, msa.get_original_char_position_in_aligned_sequence(seq_index=2, position=0))
         self.assertEqual(3, msa.get_original_char_position_in_aligned_sequence(seq_index=2, position=1))
 
+    def test_should_increments_gaps_group(self):
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('seq1', 'A-')], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('seq1', '-A')], number_of_objectives=2)
+        msa_3 = MSASolution(aligned_sequences=[('seq1', 'A-C')], number_of_objectives=2)
+        msa_4 = MSASolution(aligned_sequences=[('seq1', 'A--C')], number_of_objectives=2)
+        msa_5 = MSASolution(aligned_sequences=[('seq1', 'A--C-')], number_of_objectives=2)
+
+        # run
+        msa_1.add_gap_to_sequence(seq_index=0, position=1)
+        msa_2.add_gap_to_sequence(seq_index=0, position=0)
+        msa_3.add_gap_to_sequence(seq_index=0, position=1)
+        msa_4.add_gap_to_sequence(seq_index=0, position=1)
+        msa_5.add_gap_to_sequence(seq_index=0, position=2)
+        msa_5.add_gap_to_sequence(seq_index=0, position=5)
+
+        # check
+        self.assertEqual([('seq1', 'A--')], msa_1.decode_alignment_as_list_of_pairs())
+        self.assertEqual([('seq1', '--A')], msa_2.decode_alignment_as_list_of_pairs())
+        self.assertEqual([('seq1', 'A--C')], msa_3.decode_alignment_as_list_of_pairs())
+        self.assertEqual([('seq1', 'A---C')], msa_4.decode_alignment_as_list_of_pairs())
+        self.assertEqual([('seq1', 'A---C--')], msa_5.decode_alignment_as_list_of_pairs())
+
+    def test_should_create_new_gaps_group(self):
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('seq1', 'A-')], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('seq1', '-A')], number_of_objectives=2)
+        msa_3 = MSASolution(aligned_sequences=[('seq1', 'A-C')], number_of_objectives=2)
+        msa_4 = MSASolution(aligned_sequences=[('seq1', 'AAA')], number_of_objectives=2)
+
+        # run
+        msa_1.add_gap_to_sequence(seq_index=0, position=0)
+        msa_2.add_gap_to_sequence(seq_index=0, position=2)
+        msa_3.add_gap_to_sequence(seq_index=0, position=3)
+        msa_4.add_gap_to_sequence(seq_index=0, position=1)
+
+        # check
+        self.assertEqual([('seq1', '-A-')], msa_1.decode_alignment_as_list_of_pairs())
+        self.assertEqual([('seq1', '-A-')], msa_2.decode_alignment_as_list_of_pairs())
+        self.assertEqual([('seq1', 'A-C-')], msa_3.decode_alignment_as_list_of_pairs())
+        self.assertEqual([('seq1', 'A-AA')], msa_4.decode_alignment_as_list_of_pairs())
+
 
 if __name__ == "__main__":
     unittest.main()
