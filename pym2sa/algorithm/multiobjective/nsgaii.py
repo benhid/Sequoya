@@ -1,5 +1,6 @@
 import logging
 import os
+import time
 from typing import List, TypeVar
 
 from jmetal.algorithm.multiobjective.nsgaii import NSGAII
@@ -17,8 +18,8 @@ R = TypeVar(List[S])
 
 
 class NSGA2MSA(NSGAII[S, R]):
-    def __init__(self, problem: Problem[S], population_size: int, initial_population_path: str, max_evaluations: int, mutation: Mutation[S],
-                 crossover: Crossover[S, S], selection: Selection[List[S], S]):
+    def __init__(self, problem: Problem[S], population_size: int, initial_population_path: str, max_evaluations: int,
+                 mutation: Mutation[S], crossover: Crossover[S, S], selection: Selection[List[S], S]):
         super().__init__(problem, population_size, max_evaluations, mutation, crossover, selection)
         self.initial_population_path = initial_population_path
 
@@ -45,3 +46,19 @@ class NSGA2MSA(NSGAII[S, R]):
             raise Exception("More than one precomputed alignment is needed!")
 
         return population
+
+    def run(self):
+        self.start_computing_time = time.time()
+
+        self.population = self.create_initial_population()  # Step One
+        self.population = self.evaluate_population(self.population)  # Step Two
+        self.init_progress()
+
+        while not self.is_stopping_condition_reached():  # Step Three
+            #mating_population = self.selection(self.population)  # Step Three.1
+            #offspring_population = self.reproduction(mating_population)  # Step Three.2
+            #offspring_population = self.evaluate_population(offspring_population)  # Step Three.3
+            #self.population = self.replacement(self.population, offspring_population)  # Step Three.4
+            self.update_progress()
+
+        self.total_computing_time = self.get_current_computing_time()
