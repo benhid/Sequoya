@@ -14,20 +14,21 @@ pyM<sup>2</sup>SA is an open source software tool aimed at for solving
 *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
 ## Features
-* The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA):
+* The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA) (v0.2):
     * Sum of pairs,
     * Star,
     * Minimum entropy,
     * Percentage of non-gaps,
     * Percentage of totally conserved columns,
     * STRIKE
-* The **algorithms** that are currently available are:
+* The **algorithms** that are currently available are those from [jMetalPy](https://github.com/Metal/MetalPy) (v0.2):
     * NSGA-II,
     * SMPSO
 * **Crossover operator**:
     * Single-point crossover
 * **Mutation operator**:
     * Random gap insertion
+    * Closed gap shifting 
 
 ## Downloading
 To download pyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
@@ -48,6 +49,11 @@ $ pip install -r requirements.txt
 
 ## Usage
 Examples of running pyM<sup>2</sup>SA are located in the [`runner`](pym2sa/runner/) folder.
+
+### Plotting solutions
+
+It's possible to visualize in real time the _Pareto Frontier_ using [`ScatterPlotMSA()`](pym2sa/util/graphic.py).
+This class creates a [Bokeh](https://bokeh.pydata.org/en/latest/) Server to allow visualization in the browser.
 
 ## Authors
 ### Active development team
