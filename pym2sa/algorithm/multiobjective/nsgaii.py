@@ -23,9 +23,17 @@ class NSGA2MSA(NSGAII[S, R]):
         super().__init__(problem, population_size, max_evaluations, mutation, crossover, selection)
         self.initial_population_path = initial_population_path
 
+    def evaluate_population(self, population: List[S]):
+        # self.pool.map(lambda solution: Evaluator[S].evaluate_solution(solution, problem), solution_list)
+
+        for solution in population:
+            self.problem.evaluate(solution)
+
+        return population
+
     def create_initial_population(self) -> List[MSASolution]:
         """ In this case, the initial population is not randomly generated but provided
-        (from precomputed alignments). """
+        (from pre-computed alignments). """
 
         population = []
 
@@ -43,7 +51,7 @@ class NSGA2MSA(NSGAII[S, R]):
             raise Exception("Invalid path provided: {0}".format(self.initial_population_path))
 
         if len(population) < 2:
-            raise Exception("More than one precomputed alignment is needed!")
+            raise Exception("More than one pre-computed alignment is needed!")
 
         return population
 
@@ -55,10 +63,10 @@ class NSGA2MSA(NSGAII[S, R]):
         self.init_progress()
 
         while not self.is_stopping_condition_reached():  # Step Three
-            #mating_population = self.selection(self.population)  # Step Three.1
-            #offspring_population = self.reproduction(mating_population)  # Step Three.2
-            #offspring_population = self.evaluate_population(offspring_population)  # Step Three.3
-            #self.population = self.replacement(self.population, offspring_population)  # Step Three.4
+            mating_population = self.selection(self.population)  # Step Three.1
+            offspring_population = self.reproduction(mating_population)  # Step Three.2
+            offspring_population = self.evaluate_population(offspring_population)  # Step Three.3
+            self.population = self.replacement(self.population, offspring_population)  # Step Three.4
             self.update_progress()
 
         self.total_computing_time = self.get_current_computing_time()

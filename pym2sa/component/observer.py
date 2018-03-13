@@ -15,5 +15,4 @@ class RealTimePlot(Observer):
 
     def update(self, *args, **kwargs):
         new_population = kwargs["population"]
-
         self.figure.replace_population(new_population)
