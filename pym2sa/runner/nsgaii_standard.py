@@ -2,6 +2,7 @@ import os
 import logging
 from typing import List
 
+from jmetal.component.observer import AlgorithmObserver
 from jmetal.operator.selection import BinaryTournament
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from pymsa.core.score import PercentageOfNonGaps, PercentageOfTotallyConservedColumns
@@ -26,12 +27,13 @@ def main() -> None:
         problem=problem,
         population_size=100,
         initial_population_path=os.path.dirname(__file__)+'/dummy_files/',
-        max_evaluations=3000,
+        max_evaluations=30000,
         mutation=OneRandomGapInsertion(probability=0.1),
         crossover=GapSequenceSolutionSinglePoint(probability=0.8),
         selection=BinaryTournament(comparator=RankingAndCrowdingDistanceComparator()))
 
-    graphic_consumer = RealTimePlot(title="NSGA-II")
+    #graphic_consumer = RealTimePlot(title="NSGA-II")
+    graphic_consumer = AlgorithmObserver(animation_speed=1 * 10e-8)
     algorithm.observable.register(observer=graphic_consumer)
 
     algorithm.run()

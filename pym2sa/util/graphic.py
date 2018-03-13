@@ -38,16 +38,6 @@ class ScatterPlotMSA:
         server.show('/pym2sa')
         server.run_until_shutdown()
 
-    '''
-    def update_data(self, solutions: List[MSASolution]) -> None:
-        new = {'x': [msa.objectives[0] for msa in solutions],
-               'y': [msa.objectives[1] for msa in solutions],
-               'seq_names': ['a' for msa in solutions]}
-
-        # keep only new solutions, remove old ones
-        self.source.stream(new, rollover=len(solutions))
-    '''
-
     def replace_population(self, population: List[MSASolution]) -> None:
         self.population = population
 
