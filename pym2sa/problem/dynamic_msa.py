@@ -11,16 +11,14 @@ class MSA(MSAProblem):
         self.score_list = []
 
     def evaluate(self, solution: MSASolution) -> None:
-        # self.pool.map(lambda solution: Evaluator[S].evaluate_solution(solution, problem), solution_list)
-
         for i in range(0, solution.number_of_objectives):
             if self.score_list[i].is_minimization():
-                solution.objectives[i] = self.score_list[i].compute(solution.decode_alignment_as_list_of_pairs())
+                solution.objectives[i] = self.score_list[i].compute(solution.decode_alignment())
             else:
-                solution.objectives[i] = self.score_list[i].compute(solution.decode_alignment_as_list_of_pairs())
+                solution.objectives[i] = -self.score_list[i].compute(solution.decode_alignment())
 
     def create_solution(self) -> None:
-        pass
+        raise Exception("Not able to create any solution to MSA!")
 
     def get_name(self) -> str:
         return "Multiple Sequence Alignment"
