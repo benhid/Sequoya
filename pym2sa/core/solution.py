@@ -10,12 +10,12 @@ class MSASolution(Solution[str]):
 
         self.original_sequences = list(pair[1] for pair in aligned_sequences)
 
-        if not all(len(seq) == len(self.original_sequences[0]) for seq in self.original_sequences):
-            raise Exception("Sequences have not the same length: {0}".format(self.original_sequences))
-        else:
-            self.original_alignment_size = len(self.original_sequences[0])
+        # if not all(len(seq) == len(self.original_sequences[0]) for seq in self.original_sequences):
+        #    raise Exception("Sequences have not the same length: {0}".format(self.original_sequences))
+        # else:
+        self.original_alignment_size = len(self.original_sequences[0])
 
-        self.GAP_IDENTIFIER = '-'
+        self.gap_identifier = '-'
 
         self.sequences_names = list(pair[0] for pair in aligned_sequences)
         self.gaps_groups = []
@@ -27,7 +27,7 @@ class MSASolution(Solution[str]):
             # get gaps groups
             self.gaps_groups.append(self.__get_gaps_group_of_sequence(aligned_sequences[i]))
             # get encoded sequence
-            self.variables[i] = aligned_sequences[i].replace(self.GAP_IDENTIFIER, "")
+            self.variables[i] = aligned_sequences[i].replace(self.gap_identifier, "")
 
     def decode_sequence(self, seq_index: int):
         return self.__decode(self.variables[seq_index], self.gaps_groups[seq_index])
@@ -68,36 +68,39 @@ class MSASolution(Solution[str]):
 
             # for each gap on the gaps group
             for j in range(0, len(gaps_group) - 1, 2):
-                if gaps_group[i][j] == gaps_group[i][j+1] or gaps_group[i][j] + 1 == gaps_group[i][j+1] :
+                if gaps_group[i][j] == gaps_group[i][j + 1] or gaps_group[i][j] + 1 == gaps_group[i][j + 1]:
                     gaps_group.remove(j)
-                    gaps_group.remove(j+1)
+                    gaps_group.remove(j + 1)
 
     def add_gap_to_sequence(self, seq_index: int, position: int):
-        gaps_group = self.gaps_groups[seq_index]
+        new_gaps_group = self.gaps_groups[seq_index]
 
         if self.is_gap_char_at_sequence(seq_index, position):
             # increments gaps group size
             gap_added = False
-            for j in range(0, len(gaps_group) - 1, 2):
+            for j in range(0, len(new_gaps_group) - 1, 2):
                 if gap_added:
-                    gaps_group[j] += 1
-                    gaps_group[j + 1] += 1
+                    new_gaps_group[j] += 1
+                    new_gaps_group[j + 1] += 1
 
-                if gaps_group[j] == position or gaps_group[j + 1] == position:
-                    gaps_group[j + 1] += 1
+                if new_gaps_group[j] == position or new_gaps_group[j + 1] == position:
+                    new_gaps_group[j + 1] += 1
+                    gap_added = True
+                elif new_gaps_group[j] < position < new_gaps_group[j + 1]:
+                    new_gaps_group[j + 1] += 1
                     gap_added = True
         else:
             # add new group at position
-            for j in range(0, len(gaps_group) - 1, 2):
-                if gaps_group[j] > position:
-                    gaps_group[j] += 1
-                    gaps_group[j + 1] += 1
+            for j in range(0, len(new_gaps_group) - 1, 2):
+                if new_gaps_group[j] > position:
+                    new_gaps_group[j] += 1
+                    new_gaps_group[j + 1] += 1
 
-            gaps_group.append(position)
-            gaps_group.append(position)
-            gaps_group.sort()
+            new_gaps_group.append(position)
+            new_gaps_group.append(position)
+            new_gaps_group.sort()
 
-        self.gaps_groups[seq_index] = gaps_group
+        self.gaps_groups[seq_index] = new_gaps_group
 
     def split_gap_column(self, column_index: int) -> None:
         # for each sequence
@@ -166,8 +169,10 @@ class MSASolution(Solution[str]):
     def is_gap_char_at_sequence(self, seq_index: int, index: int) -> bool:
         if seq_index > self.number_of_variables - 1:
             raise Exception("Sequence doesn't exist on this alignment!")
-        if index > self.get_length_of_alignment() or index < 0:
-            raise Exception("Index out of sequence")
+        if index > self.get_length_of_sequence(seq_index) or index < 0:
+            raise Exception(
+                "Index out of sequence: index {0}, alignment length: {1}, sequence: {2}"
+                    .format(index, self.get_length_of_alignment(), self.decode_sequence(seq_index)))
 
         gaps_group = self.gaps_groups[seq_index]
 
@@ -198,14 +203,14 @@ class MSASolution(Solution[str]):
         if not self.is_gap_char_at_sequence(seq_index, gap_position):
             raise Exception("Symbol in position {0} is not a gap!".format(gap_position))
 
-        position = 0
-        gaps_groups = self.gaps_groups[seq_index]
+        position = -1
+        gaps_group = self.gaps_groups[seq_index]
 
-        for j in range(0, len(gaps_groups) - 1, 2):
-            if gaps_groups[j] <= gap_position <= gaps_groups[j + 1]:
-                position = gaps_groups[j + 1] + 1
+        for j in range(0, len(gaps_group) - 1, 2):
+            if gaps_group[j] <= gap_position <= gaps_group[j + 1]:
+                position = gaps_group[j + 1] + 1
 
-        if position >= self.get_length_of_alignment():
+        if position == self.get_length_of_sequence(seq_index):
             position = -1
 
         return position
@@ -218,7 +223,7 @@ class MSASolution(Solution[str]):
             symbol_position = -1
         else:
             found = False
-            while symbol_position < self.get_length_of_alignment() and not found:
+            while symbol_position < self.get_length_of_sequence(seq_index) and not found:
                 if self.is_gap_char_at_sequence(seq_index, symbol_position):
                     symbol_position += 1
                 else:
@@ -235,9 +240,19 @@ class MSASolution(Solution[str]):
         if not self.gaps_groups[seq_index]:
             length_of_gaps = 0
         else:
-            length_of_gaps = \
-                sum([self.gaps_groups[seq_index][j+1] - self.gaps_groups[seq_index][j] for j in
-                     range(0, len(self.gaps_groups[seq_index]) - 1, 2)]) + 1
+            length_of_gaps = 0
+
+            gaps_group = self.gaps_groups[seq_index]
+
+            for j in range(0, len(gaps_group) - 1, 2):
+                if gaps_group[j + 1] != gaps_group[j]:
+                    length_of_gaps += gaps_group[j + 1] - gaps_group[j] + 1
+                else:
+                    length_of_gaps += 1
+
+            # length_of_gaps = \
+            #    sum([self.gaps_groups[seq_index][j+1] - self.gaps_groups[seq_index][j] for j in
+            #         range(0, len(self.gaps_groups[seq_index]) - 1, 2)]) + 1
 
         return length_of_gaps
 
@@ -297,10 +312,14 @@ class MSASolution(Solution[str]):
         return number_of_gaps
 
     def get_length_of_alignment(self) -> int:
-        return len(self.variables[0]) + self.get_length_of_gaps(0) + 1
+        return len(self.variables[0]) + self.get_length_of_gaps(0)
+
+    def get_length_of_sequence(self, seq_index: int) -> int:
+        return len(self.variables[seq_index]) + self.get_length_of_gaps(seq_index)
 
     def is_valid(self) -> bool:
         # Check if all sequences have the same length
-        if not all(len(seq) == len(self.variables[0]) for seq in self.variables):
+        if not all(self.get_length_of_sequence(seq_index) == self.get_length_of_sequence(0)
+                   for seq_index in range(1, self.number_of_variables)):
             return False
         return True
