@@ -2,7 +2,6 @@ from pym2sa.util.graphic import ScatterPlot
 
 
 def interactive() -> None:
-
     fig = ScatterPlot('Test plot')
     fig.interactive_plot()
 

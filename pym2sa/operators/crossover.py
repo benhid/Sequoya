@@ -13,6 +13,7 @@ class GapSequenceSolutionSinglePoint(Crossover[MSASolution, MSASolution]):
     def __init__(self, probability: float, remove_gap_columns: bool = False) -> None:
         if not 0 <= probability <= 1:
             raise Exception("Crossover probability value invalid: " + str(probability))
+
         self.remove_gap_columns = remove_gap_columns
         self.has_solution_been_crossed = None
         super(GapSequenceSolutionSinglePoint, self).__init__(probability=probability)

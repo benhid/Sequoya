@@ -2,13 +2,13 @@ import os
 import logging
 from typing import List
 
-from jmetal.component.observer import AlgorithmObserver
-from jmetal.operator.selection import BinaryTournament
+from jmetal.operator.selection import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
-from pymsa.core.score import PercentageOfNonGaps, SumOfPairs
+from jmetal.util.solution_list_output import SolutionListOutput
 
 from pym2sa.algorithm.multiobjective.nsgaii import NSGA2MSA
-from pym2sa.problem.multiple_sequence_alignment import MSA
+from pym2sa.component.observer import SpyPopulation
+from pym2sa.problem.MSA import MSA
 from pym2sa.core.solution import MSASolution
 from pym2sa.operators.crossover import GapSequenceSolutionSinglePoint
 from pym2sa.operators.mutation import OneRandomGapInsertion
@@ -18,26 +18,25 @@ logger = logging.getLogger(__name__)
 
 
 def main() -> None:
-
-    problem = MSA()
-    problem.score_list = [PercentageOfNonGaps(), SumOfPairs()]
+    problem = MSA(100)
 
     algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
         problem=problem,
         population_size=100,
         initial_population_path=os.path.dirname(__file__)+'/dummy_files/',
-        max_evaluations=30000,
-        mutation=OneRandomGapInsertion(probability=0.05),
+        max_evaluations=1000,
+        mutation=OneRandomGapInsertion(probability=0.1),
         crossover=GapSequenceSolutionSinglePoint(probability=0.8),
-        selection=BinaryTournament(comparator=RankingAndCrowdingDistanceComparator()))
-
-    # graphic_consumer = RealTimePlot(title="NSGA-II")
-    graphic_consumer = AlgorithmObserver(animation_speed=1 * 10e-8)
-    algorithm.observable.register(observer=graphic_consumer)
-
+        selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()))
+    #algorithm.observable.register(observer=SpyPopulation())
     algorithm.run()
 
-    logger.info("Algorithm (MSA problem): " + algorithm.get_name())
+    result = algorithm.get_result()
+    SolutionListOutput[MSASolution].plot_scatter_to_screen(result)
+
+    print(result[0].decode_alignment_as_list_of_pairs())
+
+    logger.info("Algorithm: " + algorithm.get_name())
     logger.info("Problem: " + problem.get_name())
 
 
