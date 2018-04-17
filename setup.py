@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyM2SA',
-    version='0.1.0',
+    version='0.3.0',
     description='Solving Multiple Sequence Alignments with Python',
     url='https://github.com/benhid/pyM2SA',
-    author='Antonio Benitez, Antonio J. Nebro',
+    author='Antonio Benitez',
     author_email='antonio.benitez@lcc.uma.es',
     license='MIT',
     python_requires='>=3',
