@@ -1,34 +1,35 @@
-import os
 import logging
 from typing import List
 
 from jmetal.operator.selection import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.solution_list_output import SolutionListOutput
+from jmetal.component.observer import AlgorithmObserver
 
 from pym2sa.algorithm.multiobjective.nsgaii import NSGA2MSA
 from pym2sa.component.observer import SpyPopulation
-from pym2sa.problem.MSA import MSA
+from pym2sa.problem.BalibaseMSA import BalisebaseMSA
 from pym2sa.core.solution import MSASolution
 from pym2sa.operators.crossover import GapSequenceSolutionSinglePoint
-from pym2sa.operators.mutation import OneRandomGapInsertion
+from pym2sa.operators.mutation import OneRandomGapInsertion, TwoRandomAdjacentGapGroup
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 def main() -> None:
-    problem = MSA(100)
+    problem = BalisebaseMSA(instance='BB11006', number_of_variables=100)
 
     algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
         problem=problem,
         population_size=100,
-        initial_population_path=os.path.dirname(__file__)+'/dummy_files/',
-        max_evaluations=1000,
-        mutation=OneRandomGapInsertion(probability=0.1),
-        crossover=GapSequenceSolutionSinglePoint(probability=0.8),
+        max_evaluations=25000,
+        mutation=TwoRandomAdjacentGapGroup(probability=0.2),
+        crossover=GapSequenceSolutionSinglePoint(probability=0.9),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()))
-    #algorithm.observable.register(observer=SpyPopulation())
+
+    algorithm.observable.register(observer=AlgorithmObserver(1*10e-3))
+    algorithm.observable.register(observer=SpyPopulation())
     algorithm.run()
 
     result = algorithm.get_result()

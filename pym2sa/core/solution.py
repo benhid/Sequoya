@@ -1,5 +1,7 @@
 from jmetal.core.solution import Solution
 
+GAP_IDENTIFIER = '-'
+
 
 class MSASolution(Solution[str]):
     """ Class representing MSA solutions """
@@ -9,14 +11,7 @@ class MSASolution(Solution[str]):
                                           number_of_objectives=number_of_objectives)
 
         self.original_sequences = list(pair[1] for pair in aligned_sequences)
-
-        # if not all(len(seq) == len(self.original_sequences[0]) for seq in self.original_sequences):
-        #    raise Exception("Sequences have not the same length: {0}".format(self.original_sequences))
-        # else:
         self.original_alignment_size = len(self.original_sequences[0])
-
-        self.gap_identifier = '-'
-
         self.sequences_names = list(pair[0] for pair in aligned_sequences)
         self.gaps_groups = []
         self.encode_alignment(self.original_sequences)
@@ -27,7 +22,7 @@ class MSASolution(Solution[str]):
             # get gaps groups
             self.gaps_groups.append(self.__get_gaps_group_of_sequence(aligned_sequences[i]))
             # get encoded sequence
-            self.variables[i] = aligned_sequences[i].replace(self.gap_identifier, "")
+            self.variables[i] = aligned_sequences[i].replace(GAP_IDENTIFIER, "")
 
     def decode_sequence(self, seq_index: int):
         return self.__decode(self.variables[seq_index], self.gaps_groups[seq_index])
@@ -113,9 +108,17 @@ class MSASolution(Solution[str]):
                     gaps_group.insert(j + 1, column_index + 1)
                     gaps_group.insert(j + 1, column_index)
 
+    def remove_full_of_gaps_columns(self) -> None:
+        gap_columns = self.get_gap_columns()
+        gap_columns.sort(reverse=True)
+
+        for col in gap_columns:
+            for seq_index in range(self.number_of_variables):
+                self.remove_gap_from_sequence(seq_index, col)
+
     def remove_gap_column(self, column_index: int) -> None:
         if not self.is_gap_column(column_index):
-            raise Exception("No gap group in position {0} at sequence {1}".format(column_index, seq_index))
+            raise Exception("No gap group in position {0}".format(column_index))
         else:
             for i in range(self.number_of_variables):
                 gaps_group = self.gaps_groups[i]
@@ -146,6 +149,21 @@ class MSASolution(Solution[str]):
 
                     break
 
+    def remove_gap_from_sequence(self, seq_index: int, position: int):
+        new_gaps_group = self.gaps_groups[seq_index]
+
+        if self.is_gap_char_at_sequence(seq_index, position):
+            # decrements gaps group size
+            for j in range(0, len(new_gaps_group) - 1, 2):
+                if new_gaps_group[j] == position or new_gaps_group[j + 1] == position:
+                    new_gaps_group[j + 1] -= 1
+                    break
+                elif new_gaps_group[j] < position < new_gaps_group[j + 1]:
+                    new_gaps_group[j + 1] -= 1
+                    break
+
+        self.gaps_groups[seq_index] = new_gaps_group
+
     def is_gap_column(self, index: int) -> bool:
         # check if the column index is in all gaps groups
 
@@ -171,8 +189,8 @@ class MSASolution(Solution[str]):
             raise Exception("Sequence doesn't exist on this alignment!")
         if index > self.get_length_of_sequence(seq_index) or index < 0:
             raise Exception(
-                "Index out of sequence: index {0}, alignment length: {1}, sequence: {2}"
-                    .format(index, self.get_length_of_alignment(), self.decode_sequence(seq_index)))
+                "Index out of sequence: index {0}, alignment length: {1}, sequence length: {2}".format(
+                    index, self.get_length_of_alignment(), self.get_length_of_sequence(seq_index)))
 
         gaps_group = self.gaps_groups[seq_index]
 

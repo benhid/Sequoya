@@ -3,18 +3,17 @@ import copy
 import random
 
 from jmetal.core.operator import Crossover
-
 from pym2sa.core.solution import MSASolution
 
 
 class GapSequenceSolutionSinglePoint(Crossover[MSASolution, MSASolution]):
     """ Implements a single point crossover for MSA representation. """
 
-    def __init__(self, probability: float, remove_gap_columns: bool = False) -> None:
+    def __init__(self, probability: float, remove_gap_columns: bool = True) -> None:
         if not 0 <= probability <= 1:
             raise Exception("Crossover probability value invalid: " + str(probability))
 
-        self.remove_gap_columns = remove_gap_columns
+        self.remove_full_of_gap_columns = remove_gap_columns
         self.has_solution_been_crossed = None
         super(GapSequenceSolutionSinglePoint, self).__init__(probability=probability)
 
@@ -38,6 +37,10 @@ class GapSequenceSolutionSinglePoint(Crossover[MSASolution, MSASolution]):
             offspring = self.cross_parents(parents, cutting_points_in_first_parent, column_positions_in_second_parent)
 
             self.has_solution_been_crossed = True
+
+            if self.remove_full_of_gap_columns:
+                offspring[0].remove_full_of_gaps_columns()
+                offspring[1].remove_full_of_gaps_columns()
         else:
             offspring = [copy.deepcopy(parents[0]), copy.deepcopy(parents[1])]
             self.has_solution_been_crossed = False
@@ -115,11 +118,11 @@ class GapSequenceSolutionSinglePoint(Crossover[MSASolution, MSASolution]):
 
         # Sanity check: alignment is valid (same length for all sequences)
         if not offspring_1.is_valid():
-            raise Exception("Offspring_1 solution is not valid! {0}"
-                            .format(offspring_1.decode_alignment_as_list_of_pairs()))
+            raise Exception("Offspring 1 is not valid! {0}".format(
+                offspring_1.decode_alignment_as_list_of_pairs()))
         if not offspring_2.is_valid():
-            raise Exception("Offspring_2 solution is not valid! {0}"
-                            .format(offspring_2.decode_alignment_as_list_of_pairs()))
+            raise Exception("Offspring 2 is not valid! {0}".format(
+                offspring_2.decode_alignment_as_list_of_pairs()))
 
         return [offspring_1, offspring_2]
 

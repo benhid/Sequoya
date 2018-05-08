@@ -141,6 +141,48 @@ class MSASolutionTestCases(unittest.TestCase):
         # check
         self.assertEqual([[2, 2, 4, 4], [2, 2, 6, 7], [4, 5]], msa.gaps_groups)
 
+    def test_should_remove_gap(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', 'AC---TGAC'), ('seq2', 'AC---TGAC'), ('seq3', 'AC---TGAC')],
+                          number_of_objectives=2)
+
+        msa.remove_gap_from_sequence(0, 2)
+        msa.remove_gap_from_sequence(1, 2)
+        msa.remove_gap_from_sequence(2, 2)
+
+        # check
+        self.assertEqual(['AC--TGAC', 'AC--TGAC', 'AC--TGAC'], msa.decode_alignment())
+
+    def test_should_remove_all_gap_columns(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', 'AC---TGAC'), ('seq2', 'AC---TGAC'), ('seq3', 'AC---TGAC')],
+                          number_of_objectives=2)
+
+        msa.remove_full_of_gaps_columns()
+
+        # check
+        self.assertEqual(['ACTGAC', 'ACTGAC', 'ACTGAC'], msa.decode_alignment())
+
+    def test_should_remove_all_gap_columns_case_b(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', 'AC--T--GC'), ('seq2', 'AC-----AC'), ('seq3', 'A---C--AC')],
+                          number_of_objectives=2)
+
+        msa.remove_full_of_gaps_columns()
+
+        # check
+        self.assertEqual(['ACTGC', 'AC-AC', 'A-CAC'], msa.decode_alignment())
+
+    def test_should_remove_all_gap_columns_case_c(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', '----'), ('seq2', '----'), ('seq3', '-AA-')],
+                          number_of_objectives=2)
+
+        msa.remove_full_of_gaps_columns()
+
+        # check
+        self.assertEqual(['--', '--', 'AA'], msa.decode_alignment())
+
     def test_should_return_gap_columns(self):
         # setup
         msa = MSASolution(aligned_sequences=[('seq1', '--AA-'), ('seq2', '--AA-'), ('seq3', '--AA-')],

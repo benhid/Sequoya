@@ -2,7 +2,40 @@ import unittest
 from unittest import mock
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operators.mutation import OneRandomGapInsertion
+from pym2sa.operators.mutation import OneRandomGapInsertion, TwoRandomAdjacentGapGroup
+
+
+class TwoRandomAdjacentGapGroupTestCases(unittest.TestCase):
+
+    def setUp(self):
+        print("setUp: RUNNING TwoRandomAdjacentGapGroupTestCases")
+
+    def tearDown(self):
+        print("tearDown: TEST ENDED")
+
+    @mock.patch('random.randint')
+    def test_should_execute_mutation_case_a(self, random_call):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', 'AAA--B--D')], number_of_objectives=2)
+        mutation = TwoRandomAdjacentGapGroup(probability=1.0)
+
+        # run
+        random_call.return_value = 1
+        solution = mutation.execute(msa)
+
+        # check
+        self.assertEqual([('seq1', 'AAA----BD')], solution.decode_alignment_as_list_of_pairs())
+
+    def test_should_execute_mutation_case_b(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', '--CD--')], number_of_objectives=2)
+        mutation = TwoRandomAdjacentGapGroup(probability=1.0)
+
+        # run
+        solution = mutation.execute(msa)
+
+        # check
+        self.assertEqual([('seq1', '----CD')], solution.decode_alignment_as_list_of_pairs())
 
 
 class OneRandomGapInsertionTestCases(unittest.TestCase):

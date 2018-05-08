@@ -10,5 +10,6 @@ class SpyPopulation(Observer):
     def update(self, *args, **kwargs):
         new_population = kwargs["population"]
 
-        for i in range(0, len(new_population)):
-            logger.info("{0}-individual: {1}".format(i, new_population[i].decode_alignment_as_list_of_pairs()))
+        for i in range(len(new_population)-1):
+            logger.info("{0}-individual: objectives {1}, length {2}"
+                        .format(i, new_population[i].objectives, new_population[i].get_length_of_alignment()))
