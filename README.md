@@ -21,14 +21,14 @@ pyM<sup>2</sup>SA is an open source software tool aimed at for solving
     * Percentage of non-gaps,
     * Percentage of totally conserved columns,
     * STRIKE.
-* The **algorithms** that are currently available are those from [jMetalPy](https://github.com/Metal/MetalPy) (v0.2):
+* The **algorithms** that are currently available are those from [jMetalPy](https://github.com/Metal/MetalPy) (v0.5):
     * NSGA-II,
     * SMPSO.
 * **Crossover operator**:
-    * Single-point crossover.
+    * Single-point crossover (`GapSequenceSolutionSinglePoint`).
 * **Mutation operator**:
-    * Random gap insertion,
-    * Closed gap shifting.
+    * Random gap insertion (`OneRandomGapInsertion`),
+    * Merge two random adjacent gaps group (`TwoRandomAdjacentGapGroup`).
 
 ## Downloading
 To download pyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
@@ -52,13 +52,15 @@ Examples of running pyM<sup>2</sup>SA are located in the [`runner`](pym2sa/runne
 
 ### Plotting solutions
 
+> This feature is still in development.
+
 It's possible to visualize in real time the _Pareto Frontier_ using [`ScatterPlot()`](pym2sa/util/graphic.py).
 This class is able to deploy a [Bokeh](https://bokeh.pydata.org/en/latest/) Server to allow visualization in real-time using your web browser _or_ just plot the
 final pareto frontier.
 
 ## Authors
 ### Active development team
-* Antonio Benítez <antonio.benitez@lcc.uma.es>
+* Antonio Benítez-Hidalgo <antonio.b@uma.es>
 * Antonio J. Nebro <antonio@lcc.uma.es>
 
 ## License
