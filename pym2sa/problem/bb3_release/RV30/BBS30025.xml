@@ -1,0 +1,888 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref3/test/2trx_ref3_truncated</aln-name>
+<sequence seq-type="Protein">
+<seq-name>1j0f_A</seq-name>
+<seq-info>
+<accession>1j0f_A</accession>
+<nid>1j0f_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>sglrvystsvtgsreiksqqsevtrildgkr-------iqyqlvdisqd--------------------nalrdemrtlagn--pkatppqivngn--------hycgd-yelfveaveqdtlq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SH3N_HUMAN</seq-name>
+<seq-info>
+<accession>Q9H299</accession>
+<nid>SH3N_HUMAN</nid>
+<definition>SH3 domain-binding glutamic acid-rich-like protein 3 (SH3 do</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>sglrvystsvtgsreiksqqsevtrildgkr-------iqyqlvdisqd--------------------nalrdemralagn--pkatppqivngd--------qycgd-yelfveaveqntlq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SH3B_DROME</seq-name>
+<seq-info>
+<accession>Q9NFP5</accession>
+<nid>SH3B_DROME</nid>
+<definition>SH3 domain-binding glutamic acid-rich protein homolog (SH3BG</definition>
+<organism>Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>mvlkvyvsgmsgnkevkkrqqrvlmildskn-------ikydtvditepgke----------sekelmqnkstsnggtvsdpeprhplppqlfndd--------eycgd-ydafdmaneidtle
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SH3M_HUMAN</seq-name>
+<seq-info>
+<accession>Q9UJC5</accession>
+<nid>SH3M_HUMAN</nid>
+<definition>SH3 domain-binding glutamic acid-rich-like protein 2 (Fovea-</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>mvirvfiasssgfvaikkkqqdvvrfleank-------iefeevditmseeq----------------rqwmyknvppekkptqgnplppqifngd--------rycgd-ydsffeskesntvf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SH3L_HUMAN</seq-name>
+<seq-info>
+<accession>O75368</accession>
+<nid>SH3L_HUMAN</nid>
+<definition>SH3 domain-binding glutamic acid-rich-like protein.</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>mvirvyiasssgstaikkkqqdvlgfleank-------igfeekdiaaneen----------------rkwmrenvpensrpatgyplppqifnes--------qyrgd-ydaffearennavy
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SH3B_HUMAN</seq-name>
+<seq-info>
+<accession>P55822</accession>
+<nid>SH3B_HUMAN</nid>
+<definition>SH3 domain-binding glutamic acid-rich protein (SH3BGR protei</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>mvikvfvatssgsiairkkqqevvgfleank-------idfkeldiagdedn----------------rrwmrenvpgekkpqngiplppqifnee--------qycgd-fdsffsakeeniiy
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1grx_</seq-name>
+<seq-info>
+<accession>1grx_</accession>
+<nid>1grx_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>mqtvifgrsgcp-ysvrakdlaeklsnerdd-------fqyqyvdiraeg--------------------itkedlqqkagk--pvetvpqifvdq--------qhigg-ytdfaawvkenlda
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1fov_A</seq-name>
+<seq-info>
+<accession>1fov_A</accession>
+<nid>1fov_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>anveiytketcp-ychrakallssk--------------gvsfqelpidg------------------naakreemikrs----grttvpqifida--------qhigg-yddlyaldarggld
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1b4q_A</seq-name>
+<seq-info>
+<accession>1b4q_A</accession>
+<nid>1b4q_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>gkvvvfikptcp-ysrraqeilsqlpikq---------gllefvditatn-----------------htneiqdylqqlt----gartvprvfigk--------dsigg-ssdlvslqqsgell
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_HAEIN</seq-name>
+<seq-info>
+<accession>P45242</accession>
+<nid>GLRX_HAEIN</nid>
+<definition>Glutaredoxin.</definition>
+<organism>Haemophilus influenzae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>mfvvifgrpgcp-ycvraknlaeklkgevad-------fdyryvdihaeg--------------------itkedlsksvgk--pvetvpqifide--------kpigg-ctdfealmkeqfgi
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLR1_SALTY</seq-name>
+<seq-info>
+<accession>Q9Z5Z3</accession>
+<nid>GLR1_SALTY</nid>
+<definition>Glutaredoxin 1 (Grx1).</definition>
+<organism>Salmonella typhimurium, andSalmonella typhi.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>mftvifgrpgcp-ycvrakelaeklskerdd-------fnyryidihaeg--------------------itkadlektvgk--pvetvpqifvdq--------khigg-ctdfeawakenlnl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_PSEAE</seq-name>
+<seq-info>
+<accession>Q9HU55</accession>
+<nid>GLRX_PSEAE</nid>
+<definition>Glutaredoxin.</definition>
+<organism>Pseudomonas aeruginosa.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ppvviyttawcp-ycirakqllqrk--------------gvdfqeiacdg------------------kpelraelarka----gsttvpqiwige--------thvgg-cddlhaleragkld
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLR3_ECOLI</seq-name>
+<seq-info>
+<accession>P37687</accession>
+<nid>GLR3_ECOLI</nid>
+<definition>Glutaredoxin 3 (Grx3).</definition>
+<organism>Escherichia coli,Escherichia coli O6, andEscherichia coli O1</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>anveiytketcp-ychrakallssk--------------gvsfqelpidg------------------naakreemikrs----grttvpqifida--------qhigg-cddlyaldarggld
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_CHICK</seq-name>
+<seq-info>
+<accession>P79764</accession>
+<nid>GLRX_CHICK</nid>
+<definition>Glutaredoxin (Thioltransferase) (TTase).</definition>
+<organism>Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>nkvtlfvkgscp-ycknaivllkefnflp---------gclevvditgmd--------------------diqdyfqktt----gqrtvprvfigt--------kcigg-fsdlqkmeqqlpmm
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_BOVIN</seq-name>
+<seq-info>
+<accession>P10575</accession>
+<nid>GLRX_BOVIN</nid>
+<definition>Glutaredoxin (Thioltransferase) (TTase).</definition>
+<organism>Bos taurus (Bovine).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>gkvvvfikptcp-ycrktqellsqlpfkq---------gllefvditaag-----------------niseiqdylqqlt----gartvprvfigq--------ecigg-ctdlvnmhergell
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLR2_SCHPO</seq-name>
+<seq-info>
+<accession>Q9UTI2</accession>
+<nid>GLR2_SCHPO</nid>
+<definition>Glutaredoxin 2.</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>npvtvfsksfcp-fckaakntltkys------------apykayeldkie-----------------ngsdiqaylhekt----kqstvpsiffrn--------qfigg-nsdlnklrssgtlt
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_RICCO</seq-name>
+<seq-info>
+<accession>P55143</accession>
+<nid>GLRX_RICCO</nid>
+<definition>Glutaredoxin.</definition>
+<organism>Ricinus communis (Castor bean).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>navvvfsktycp-yctsvkklldqlg------------akykvveldtes-----------------dgseiqtalaewt----gqrtvpnvfigg--------khigg-cdsttakhsqgqlv
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_VERFO</seq-name>
+<seq-info>
+<accession>O81187</accession>
+<nid>GLRX_VERFO</nid>
+<definition>Glutaredoxin.</definition>
+<organism>Vernicia fordii (Tung) (Aleurites fordii).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>nsvvvfsktfcp-yctsvkqllnqlg------------aqfkvieldses-----------------dgsdlqnalaewt----gqrtvpnvfigg--------khigg-cdkttgmhqegkli
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_LYCES</seq-name>
+<seq-info>
+<accession>Q9ZR41</accession>
+<nid>GLRX_LYCES</nid>
+<definition>Glutaredoxin.</definition>
+<organism>Lycopersicon esculentum (Tomato).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>npvavfsktycp-fcvsvkdllsklg------------atfkaveldsek-----------------dgseiqaalaewt----gqrtvpnvfigr--------khigg-cdattalhregkll
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_ORYSA</seq-name>
+<seq-info>
+<accession>P55142</accession>
+<nid>GLRX_ORYSA</nid>
+<definition>Glutaredoxin.</definition>
+<organism>Oryza sativa (Rice).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>apvvvysksycp-fcvrvkklfgqlg------------atfkaieldges-----------------dgselqsalaewt----gqrtvpnvfing--------khigg-cddtlalnnegklv
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLR1_SCHPO</seq-name>
+<seq-info>
+<accession>O36032</accession>
+<nid>GLR1_SCHPO</nid>
+<definition>Glutaredoxin 1.</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ndvvvfaksycp-ychatekviadkk------------ikaqvyqidlmn-----------------ngdeiqsyllkkt----gqrtvpnifihq--------khvgg-nsdfqalfkkgeld
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_NEIMA</seq-name>
+<seq-info>
+<accession>Q9JVU9</accession>
+<nid>GLRX_NEIMA</nid>
+<definition>Glutaredoxin.</definition>
+<organism>Neisseria meningitidis (serogroup A).Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>qtvtmytgpfcp-yctmakrllhaagv-----------ghideirvdasp--------------------eafaemqqls----gqrsvpqifige--------thvgg-ftdlyrlqqeggld
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GLRX_RICPR</seq-name>
+<seq-info>
+<accession>Q9ZDW1</accession>
+<nid>GLRX_RICPR</nid>
+<definition>Glutaredoxin.</definition>
+<organism>Rickettsia prowazekii.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>htiiiytlascp-ycikakalldk--------------knviyeeievsn----------------ltqeekekfikksg----gkstvpqifidn--------mhvgg-cddlfnlekegrld
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1kng_A</seq-name>
+<seq-info>
+<accession>1kng_A</accession>
+<nid>1kng_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>vslvnvwaswcv-pchdeaplltelgkdkr--------fqlvginykdaadnarrflgryg-npfgrvgvdangrasiew----gvygvpetfvvgr-egtivyklvgp--itpdnlrsvllpq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TYPX_TRYBB</seq-name>
+<seq-info>
+<accession>O77404</accession>
+<nid>TYPX_TRYBB</nid>
+<definition>Tryparedoxin.</definition>
+<organism>Trypanosoma brucei brucei.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>tvflyfsaswcp-pcrgftpvlaefyekhhvak----nfevvliswdenesdfhdyygkmpwlalpfdqrstvselgktf----gvesiptlitina----dtgaiigtqartrviedpdganf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RESA_BACAA</seq-name>
+<seq-info>
+<accession>RESA_BACAA</accession>
+<nid>RESA_BACAA</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>gvflnfwgtwck-pcekempymnelypkykek-----gveiialdadetdiavknfvnqyg--lkfpvaidkgqkiigty----gvgplptsflidk-dgkvveqiige--qtkeqlegylkki
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RESA_BACHD</seq-name>
+<seq-info>
+<accession>Q9KCJ4</accession>
+<nid>RESA_BACHD</nid>
+<definition>Thiol-disulfide oxidoreductase resA.</definition>
+<organism>Bacillus halodurans.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>gvflnfwgtycp-pceremphmeklygeykeq-----gveiiavnanepeltvqrfvdryg--lsfpividkglnviday----girplpttiline-hgeivkvhtgg--mteqmveefmeli
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RESA_BACSU</seq-name>
+<seq-info>
+<accession>P35160</accession>
+<nid>RESA_BACSU</nid>
+<definition>Thiol-disulfide oxidoreductase resA.</definition>
+<organism>Bacillus subtilis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>gvflnfwgtwce-pckkefpymanqykhfksq-----gveivavnvgeskiavhnfmksyg--vnfpvvldtdrqvlday----dvsplpttflinp-egkvvkvvtgt--mtesmihdymnli
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RESA_OCEIH</seq-name>
+<seq-info>
+<accession>Q8CXF3</accession>
+<nid>RESA_OCEIH</nid>
+<definition>Thiol-disulfide oxidoreductase resA.</definition>
+<organism>Oceanobacillus iheyensis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>gvmlnfwatwcd-pckaempymqdlyaeykek-----gveivavsldgtelvvdqfideyd--ltfpvphdkngevkdly----kigpmpttyfikp-ngeieeivqga--ltldrlegylndi
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CCMG_PARDE</seq-name>
+<seq-info>
+<accession>P52236</accession>
+<nid>CCMG_PARDE</nid>
+<definition>Thiol:disulfide interchange protein dsbE homolog precursor (</definition>
+<organism>Paracoccus denitrificans.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>vklvnfwaswcp-pcraehptltelsar----------lpvygvdlkdpegaalgflsehg-dpfhalaadprgrvaidw----gvtappetfimhg-sgrilhrhagp--lvredytnrflpe
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>HELX_RHOCA</seq-name>
+<seq-info>
+<accession>P36893</accession>
+<nid>HELX_RHOCA</nid>
+<definition>Thiol:disulfide interchange protein helX precursor (Cytochro</definition>
+<organism>Rhodobacter capsulatus (Rhodopseudomonas capsulata).Bacteria</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>iklvnfwaswca-pcrvehpnliglkqdg---------ieimgvnwkdtpdqaqgflaemg-spytrlgadpgnkmgldw----gvagvpetfvvdg-agriltriagp--ltedvitkkidpl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CYCY_RHILV</seq-name>
+<seq-info>
+<accession>P45409</accession>
+<nid>CYCY_RHILV</nid>
+<definition>Thiol:disulfide interchange protein cycY precursor (Cytochro</definition>
+<organism>Rhizobium leguminosarum (biovar viciae).Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ltlvnvfaswcl-pcrdehpvlkelakdgr--------lnivainykdqsdnalrflgelg-npyqaigidpngkaaidw----gvygipesylvga-dgtilykrvgp--stnislkeglvpa
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_PSEFL</seq-name>
+<seq-info>
+<accession>P52237</accession>
+<nid>DSBE_PSEFL</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Pseudomonas fluorescens.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>palvnvwatwci-scrvehpvlnklaekg---------vviyginykddnaaalkwlaefh-npyqldirdedgnlglnl----gvygapetffida-kgvirdkyvgv--idevvwrdelaak
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_PSEAE</seq-name>
+<seq-info>
+<accession>Q9I3N1</accession>
+<nid>DSBE_PSEAE</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Pseudomonas aeruginosa.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>palvnvwgtwcp-scrvehpeltrlaeqg---------vviyginykddnaaaikwlnelh-npyllsisdadgtlgldl----gvygapetylidk-qgiirhkivgv--vdqkvwreqlapl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_YERPE</seq-name>
+<seq-info>
+<accession>Q8ZD52</accession>
+<nid>DSBE_YERPE</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Yersinia pestis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pillnvwatwcp-tcraeheylnklaaqg---------irvvglnykddrskavqwlnslg-npyflslydgdgmlgldl----gvygapetflidg-qgviryrhagd--lndrvwqqeilpl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_ECOLI</seq-name>
+<seq-info>
+<accession>P33926</accession>
+<nid>DSBE_ECOLI</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Escherichia coli,Escherichia coli O157:H7, andShigella flexn</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvllnvwatwcp-tcraehqylnqlsaqg---------irvvgmnykddrqkaiswlkelg-npyalslfdgdgmlgldl----gvygapetflidg-ngiiryrhagd--lnprvweeeikpl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_PANCI</seq-name>
+<seq-info>
+<accession>Q9Z645</accession>
+<nid>DSBE_PANCI</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Pantoea citrea.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>plllnvwatwcp-tcraeheylntlaekg---------vrvvglnykdnrvkainwlntlg-npyalslydgdgmlgldl----gvygapetflidg-kgiiryrhagd--lnaevwkdevqpl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_VIBCH</seq-name>
+<seq-info>
+<accession>Q9KQE9</accession>
+<nid>DSBE_VIBCH</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Vibrio cholerae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>plllnvwatwcp-tcyaehqylnelakqg---------vkiiglnykdqrdkatqwlndlg-npylislfdgngmlgldl----gvygapetflida-ngviryrhvgd--vnsrnwqetlapl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_HAEIN</seq-name>
+<seq-info>
+<accession>P45038</accession>
+<nid>DSBE_HAEIN</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Haemophilus influenzae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvllnvwatwcp-tcyaehqylnklakeg---------vriigldykdespkamkwlkdlg-npyqvvlkdekgsfgldl----gvygapetfivdg-kgvihyryagd--vnekvwtqtlkpi
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_PASMU</seq-name>
+<seq-info>
+<accession>Q9CPM6</accession>
+<nid>DSBE_PASMU</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Pasteurella multocida.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pillnvwatwcp-tcyaehqylnklaqqg---------vtiigidykdksaqaikwlkdlg-npyqivlkdekgsngldl----gvygapetfvidg-qgiihyrhagd--lnqkvwdekiqpi
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_CHRVI</seq-name>
+<seq-info>
+<accession>Q46476</accession>
+<nid>DSBE_CHRVI</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Chromatium vinosum.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>vslvnvwaswcp-scrqehaelmriarehg--------vrvigfnwkdtrpealallqryg-dpytvslydpdnkagidw----gvygapetfivda-egiirhkrvgp--idaqvwa------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>NRFX_HAEIN</seq-name>
+<seq-info>
+<accession>P44943</accession>
+<nid>NRFX_HAEIN</nid>
+<definition>Probable thiol:disulfide interchange protein dsbE-2 (Cytochr</definition>
+<organism>Haemophilus influenzae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pfllnvwgswcg-yckeehpllieiakt----------lpivgvdyrdnrqngikmlkrmg-npfiltiddshgelglkl----gvdgapetylvde-ngviryrhsgl--ldketwqtvflpk
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>NRFX_PASMU</seq-name>
+<seq-info>
+<accession>Q9CPK9</accession>
+<nid>NRFX_PASMU</nid>
+<definition>Probable thiol:disulfide interchange protein dsbE-2 (Cytochr</definition>
+<organism>Pasteurella multocida.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>tfllnvwgswca-yckkehpflmqlaks----------mpivglnyrdnpqnalamlnqlg-npfqlvindsrgelalnl----gvdgapetylidq-ygviryrysgp--ltpevwqemfipe
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSBE_XYLFA</seq-name>
+<seq-info>
+<accession>Q9PAN4</accession>
+<nid>DSBE_XYLFA</nid>
+<definition>Thiol:disulfide interchange protein dsbE (Cytochrome c bioge</definition>
+<organism>Xylella fastidiosa.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pyllhvwgswca-acateqpvlthfalskr--------vrvigynwkdrredalqwleqlg-npylavvsdpegktamdw----gvtaapttflidg-rgivrwhhkga--lnqqiiehkllpi
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1mek_</seq-name>
+<seq-info>
+<accession>1mek_</accession>
+<nid>1mek_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>yllvefyapwcg-hckalapeyakaagklkaegse---irlakvdatee------------------------sdlaqqy----gvrgyptikffrngdtaspkeytag--readdivnwlkkr
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TXN4_HUMAN</seq-name>
+<seq-info>
+<accession>Q9BS26</accession>
+<nid>TXN4_HUMAN</nid>
+<definition>Thioredoxin domain containing protein 4 precursor (Endoplasm</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>valvnfyadwcr-fsqmlhpifeeasdvikeefpnenqvvfarvdcdqh------------------------sdiaqry----riskyptlklfrn-gmmmkreyrgq--rsvkaladyirqq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THI2_CORNE</seq-name>
+<seq-info>
+<accession>P07887</accession>
+<nid>THI2_CORNE</nid>
+<definition>Thioredoxin C-2.</definition>
+<organism>Corynebacterium nephridii.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvlvdfwagwca-pckaiapvleelsneyagk------vkivkvdvtsc------------------------edtavky----nirnipallmfkd--gevvaqqvga--aprsklaafidqn
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_MYCGA</seq-name>
+<seq-info>
+<accession>Q9R6P9</accession>
+<nid>THIO_MYCGA</nid>
+<definition>Thioredoxin (Trx).</definition>
+<organism>Mycoplasma gallisepticum.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>kvvvdfyanwcg-pckilgpifeevaqdkkd-------wtfvkvdvdqa------------------------neissey----eirsiptviffqd--gkmadkrigf--ipknelkellk--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_MYCGE</seq-name>
+<seq-info>
+<accession>P47370</accession>
+<nid>THIO_MYCGE</nid>
+<definition>Thioredoxin (Trx).</definition>
+<organism>Mycoplasma genitalium.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>nvivdfwaawcg-pckltspefqkaadefsd-------aqfvkvnvddh------------------------tdiaaay----nitslptivvfen--gvekkraigf--mpktkiidlfnn-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_MYCPN</seq-name>
+<seq-info>
+<accession>P75512</accession>
+<nid>THIO_MYCPN</nid>
+<definition>Thioredoxin (TRX).</definition>
+<organism>Mycoplasma pneumoniae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>kviidfwaewcg-pckitgpefakaasevst-------vafakvnvdeq------------------------tdiaaay----kitslptivlfek--gqekhraigf--mpkakivqlvsq-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRX2_YEAST</seq-name>
+<seq-info>
+<accession>P22803</accession>
+<nid>TRX2_YEAST</nid>
+<definition>Thioredoxin II (TR-II) (Thiredoxin 1).</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>lvvvdfyatwcg-pckmiapmiekfseqypq-------adfykldvdel------------------------gdvaqkn----evsamptlllfkn--gkevakvvga---npaaikqaiaan
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_COPCM</seq-name>
+<seq-info>
+<accession>Q9UW02</accession>
+<nid>THIO_COPCM</nid>
+<definition>Thioredoxin (Allergen Cop c 2).</definition>
+<organism>Coprinus comatus (Shaggy mane).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>iiiidfwatwcg-pcrvispifekfsekygann-----ivfakvdvdta------------------------sdiseea----kiramptfqvykd--gqkidelvga---nptaleslvqks
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_CHLPN</seq-name>
+<seq-info>
+<accession>Q9Z7P5</accession>
+<nid>THIO_CHLPN</nid>
+<definition>Thioredoxin (TRX).</definition>
+<organism>Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>lvlvdffaewcg-pcrmltpilenlaaelph-------vtigkiniden------------------------skpaety----evssiptlilfkd--gnevarvvgl--kdkefltnlinkh
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_CHLCV</seq-name>
+<seq-info>
+<accession>P52227</accession>
+<nid>THIO_CHLCV</nid>
+<definition>Thioredoxin (TRX).</definition>
+<organism>Chlamydophila caviae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>lvlidffaewcg-pckmltpvlesleaevss-------vligkvniddh------------------------papaeqy----gvssiptlilfkd--gkevdrvvgl--kdkdslirlinqh
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_ICTPU</seq-name>
+<seq-info>
+<accession>Q9DGI3</accession>
+<nid>THIO_ICTPU</nid>
+<definition>Thioredoxin.</definition>
+<organism>Ictalurus punctatus (Channel catfish).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>lvvvdftatwcg-pcqkigpifetlsksedyqn-----vvflkvdvdda------------------------advsshc----dikcmptfhfykn--gqkidefsga---neqtlkqkindh
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TXL2_HUMAN</seq-name>
+<seq-info>
+<accession>O76003</accession>
+<nid>TXL2_HUMAN</nid>
+<definition>Thioredoxin-like protein 2 (PKC-interacting cousin of thiore</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>llvvhfwapwap-qcaqmnevmaelakelpq-------vsfvkleaegv------------------------pevseky----eissvptflffk--nsqkidrldga---hapeltkkvqrh
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIM_CHLRE</seq-name>
+<seq-info>
+<accession>P23400</accession>
+<nid>THIM_CHLRE</nid>
+<definition>Thioredoxin M-type, chloroplast precursor (TRX-M) (Thioredox</definition>
+<organism>Chlamydomonas reinhardtii.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvlvdfwapwcg-pcriiapvvdeiageykdk------lkcvklntdes------------------------pnvasey----girsiptimvfkg--gkkcetiiga--vpkativqtveky
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_GRIPA</seq-name>
+<seq-info>
+<accession>P50338</accession>
+<nid>THIO_GRIPA</nid>
+<definition>Thioredoxin.</definition>
+<organism>Griffithsia pacifica (Red alga).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvlvdfwapwcg-pcrmiastideiahdykdk------lkvvkvntdqn------------------------ptiatey----girsiptvmifin--gkkvdtvvga--vpkltllntlqkh
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIM_PEA</seq-name>
+<seq-info>
+<accession>P48384</accession>
+<nid>THIM_PEA</nid>
+<definition>Thioredoxin M-type, chloroplast precursor (TRX-M).</definition>
+<organism>Pisum sativum (Garden pea).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvlvdfwapwcg-pcrmiapiidelakeyagk------ikcyklntdes------------------------pntatky----girsiptvlffkn--gerkdsviga--vpkatlsekveky
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIM_SPIOL</seq-name>
+<seq-info>
+<accession>P07591</accession>
+<nid>THIM_SPIOL</nid>
+<definition>Thioredoxin M-type, chloroplast precursor (TRX-M).</definition>
+<organism>Spinacia oleracea (Spinach).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvmvdfwapwcg-pckliapvidelakeysgk------iavyklntdea------------------------pgiatqy----nirsiptvlffkn--gerkesiiga--vpkstltdsieky
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIM_ORYSA</seq-name>
+<seq-info>
+<accession>Q9ZP20</accession>
+<nid>THIM_ORYSA</nid>
+<definition>Thioredoxin M-type, chloroplast precursor (TRX-M).</definition>
+<organism>Oryza sativa (Rice).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvlvefwapwcg-pcrmiapvidelakeyvgk------ikcckvntdds------------------------pniatny----girsiptvlmfkn--gekkesviga--vpkttlatiidky
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIM_MAIZE</seq-name>
+<seq-info>
+<accession>Q41864</accession>
+<nid>THIM_MAIZE</nid>
+<definition>Thioredoxin M-type, chloroplast precursor (TRX-M).</definition>
+<organism>Zea mays (Maize).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvlvefwapwcg-pcrmiapvidelakdyagk------itcckvntdds------------------------pnvasty----girsiptvlifkg--gekkesviga--vpkstlttlidky
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_BUCAI</seq-name>
+<seq-info>
+<accession>P57653</accession>
+<nid>THIO_BUCAI</nid>
+<definition>Thioredoxin (TRX).</definition>
+<organism>Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>fflvdfwaqwcn-pckilapileeiskeysnk------vivgklnieen------------------------pntapvy----sirsiptlllfnn--sevlatkvga--vsklelkeflden
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_RHORU</seq-name>
+<seq-info>
+<accession>P10473</accession>
+<nid>THIO_RHORU</nid>
+<definition>Thioredoxin (TRX).</definition>
+<organism>Rhodospirillum rubrum.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pnxvdfwaewcg-pcrqxapaleelatalgdk------vtvakiniden------------------------pqtpsky----gvrgiptlmifkd--gqvaatkiga--lpktklfewveas
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THM4_ARATH</seq-name>
+<seq-info>
+<accession>Q9SEU6</accession>
+<nid>THM4_ARATH</nid>
+<definition>Thioredoxin M-type 4, chloroplast precursor (TRX-M4).</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvlvefwapwcg-pcrmihpivdqlakdfagk------fkfykintdes------------------------pntanry----girsvptviifkg--gekkdsiiga--vpretlektierf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIM_BRANA</seq-name>
+<seq-info>
+<accession>Q9XGS0</accession>
+<nid>THIM_BRANA</nid>
+<definition>Thioredoxin M-type, chloroplast precursor (TRX-M).</definition>
+<organism>Brassica napus (Rape).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvvvdfwapwcg-pckmidpivnelaqqytgk------ikffklntdds------------------------patpgky----gvrsiptimifvk--gekkdtiiga--vpkttlatsidkf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THM2_ARATH</seq-name>
+<seq-info>
+<accession>Q9SEU8</accession>
+<nid>THM2_ARATH</nid>
+<definition>Thioredoxin M-type 2, chloroplast precursor (TRX-M2).</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pvvvdfwapwcg-pckmidplvndlaqhytgk------ikfyklntdes------------------------pntpgqy----gvrsiptimifvg--gekkdtiiga--vpkttltssldkf
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_ECHGR</seq-name>
+<seq-info>
+<accession>O17486</accession>
+<nid>THIO_ECHGR</nid>
+<definition>Thioredoxin.</definition>
+<organism>Echinococcus granulosus.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>llvcdffatwcg-pckslapkldamakenek-------vifvkldvdec------------------------qdvaeky----rvtamptlivfkn--gceighvvga---neagireliqan
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRX1_YEAST</seq-name>
+<seq-info>
+<accession>P22217</accession>
+<nid>TRX1_YEAST</nid>
+<definition>Thioredoxin I (TR-I) (Thioredoxin 2).</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>lvvvdffatwcg-pckmiapmiekfaeqysd-------aafykldvdev------------------------sdvaqka----evssmptlifykg--gkevtrvvga---npaaikqaiasn
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THIO_EMENI</seq-name>
+<seq-info>
+<accession>P29429</accession>
+<nid>THIO_EMENI</nid>
+<definition>Thioredoxin.</definition>
+<organism>Emericella nidulans (Aspergillus nidulans).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>fvvvdcfatwcg-pckaiaptvekfaqtytd-------asfyqidvdel------------------------sevaael----giramptfllfkd--gqkvsdvvga---npgaleagikal
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THH1_ARATH</seq-name>
+<seq-info>
+<accession>P29448</accession>
+<nid>THH1_ARATH</nid>
+<definition>Thioredoxin H-type 1 (TRX-H-1).</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>lvvvdftaswcg-pcrfiapffadlakklpn-------vlflkvdtdel------------------------ksvasdw----aiqamptfmflke--gkildkvvga---kkdelqstiakh
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THH2_TOBAC</seq-name>
+<seq-info>
+<accession>Q07090</accession>
+<nid>THH2_TOBAC</nid>
+<definition>Thioredoxin H-type 2 (TRX-H2).</definition>
+<organism>Nicotiana tabacum (Common tobacco).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>livvdftaswcg-pckfiasfyaelakkmpt-------vtflkvdvdel------------------------ksvatdw----aveamptfmflke--gkivdkvvga---kkdelqqtiakh
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THH1_TOBAC</seq-name>
+<seq-info>
+<accession>P29449</accession>
+<nid>THH1_TOBAC</nid>
+<definition>Thioredoxin H-type 1 (TRX-H1).</definition>
+<organism>Nicotiana tabacum (Common tobacco).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>lvvvdftaswcg-pcrfiapiladiakkmph-------viflkvdvdel------------------------ktvsaew----sveamptfvfikd--gkevdrvvga---kkeelqqtivkh
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>THI3_DICDI</seq-name>
+<seq-info>
+<accession>P29447</accession>
+<nid>THI3_DICDI</nid>
+<definition>Thioredoxin 3.</definition>
+<organism>Dictyostelium discoideum (Slime mold).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>rvvvdfsaewcg-pcraiapvfdklsneftt-------ftfvhvdidkv------------------------nthpigk----eirsvptfyfyvn--gakvsefsga---neatlrstlean
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

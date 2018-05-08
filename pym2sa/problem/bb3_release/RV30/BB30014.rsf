@@ -1,0 +1,882 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1ags_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ..................................AEKPKLH.YFNARGRMESTRWLLAAA
+  GVEFEEKFIKSAEDL...DKLRNDGYLMFQQVPMVEIDG.....MKLVQTRAILNYIASK
+  YN.......LYRKDI...KEKALIDMYIEG.IADLGEMILLLPFTQ..........PEEQ
+  DAKLALIKEKIKNRYFPAFEKVLKSHG..QDYLVGNKL.SRADIHLVELLYYVEELDS..
+  .........SLISSFPLLKALKTRISN.LPTVKKFLQPGSPRKPPMDEKSLEEARKIFRF
+  .......
+}
+{
+name GTA1_BOVIN
+descrip Glutathione S-transferase alpha 1 (EC 2.5.1.18) (GST class-a
+creator Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+sequence
+  ..................................AGKPTLH.YFNGRGRMECIRWLLAAA
+  GVEFEEKFIEKPEDL...DKLKNDGSLMFQQVPMVEIDG.....MKLVQTRAILNYIATK
+  YN.......LYGKDM...KERALIDMYSEG.VADLGEMIMHFPLCP..........PAEK
+  DAKLTLIREKTTNRYLPAFENVLKSHG..QDYLVGNKL.SRADIHLVELLYYVEELDP..
+  .........SLLANFPLLKALKARVSS.LPAVKKFLQPGSQRKPPTDEKKIEEARKVFKF
+  .......
+}
+{
+name GTA1_MOUSE
+descrip Glutathione S-transferase Ya chain (EC 2.5.1.18) (GST class-
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+sequence
+  ..................................AGKPVLH.YFNARGRMECIRWLLAAA
+  GVEFEEKFIQSPEDL...EKLKKDGNLMFDQVPMVEIDG.....MKLAQTRAILNYIATK
+  YD.......LYGKDM...KERALIDMYSEG.ILDLTEMIGQLVLCP..........PDQR
+  EAKTALAKDRTKNRYLPAFEKVLKSHG..QDYLVGNRL.TRVDIHLLEVLLYVEEFDA..
+  .........SLLTPFPLLKAFKSRISS.LPNVKKFLQPGSQRKPPMDAKQIQEARKAFKI
+  Q......
+}
+{
+name GTC1_RAT
+descrip Glutathione S-transferase Yc-1 (EC 2.5.1.18) (Chain 2) (GST 
+creator Rattus norvegicus (Rat).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+sequence
+  ..................................PGKPVLH.YFDGRGRMEPIRWLLAAA
+  GVEFEEQFLKTRDDL...ARLRNDGSLMFQQVPMVEIDG.....MKLVQTRAILNYIATK
+  YN.......LYGKDM...KERALIDMYAEG.VADLDEIVLHYPYIP..........PGEK
+  EASLAKIKDKARNRYFPAFEKVLKSHG..QDYLVGNRL.SRADVYLVQVLYHVEELDP..
+  .........SALANFPLLKALRTRVSN.LPTVKKFLQPGSQRKPLEDEKCVESAVKIFS.
+  .......
+}
+{
+name GTC_RABIT
+descrip Glutathione S-transferase Yc (EC 2.5.1.18) (Alpha II) (GST c
+creator Oryctolagus cuniculus (Rabbit).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+sequence
+  ..................................AGKPKLH.YFNARGRMESIRWLLTAA
+  GVEFEEKCMKTREDL...EKLRKDGVLMFQQVPMVEIDG.....MKLVQTRAIFNYIADK
+  HN.......LYGKDI...KERALIDMYTEG.IVDLNELILTRPFLP..........PEEQ
+  EAKLAQIKDKAKNRYFPAFEKVLKSHG..QDYLVGNKL.SKADILLVELLYNVEELNP..
+  .........GATASFPLLQALKTRISN.LPTVKKFLQPGSQRNPPDDEKCREEAKIIFH.
+  .......
+}
+{
+name GTA1_RABIT
+descrip Glutathione S-transferase alpha I (EC 2.5.1.18) (GSTA1-1) (G
+creator Oryctolagus cuniculus (Rabbit).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+sequence
+  .................................MARKPLLH.YFNGRGRMESIRWLLAAA
+  GEEFDEKFMETAEDL...DKLRNDGSLMYQQVPMVEIDG.....MKLVQTRAILNYVANK
+  HN.......LYGKDM...KERALIDMYTEG.VADLYELVLLLPLCP..........PEQK
+  DAKVDFIKEKIRTRYFPAFEKVLKSHG..QDYLVGNRL.SKADILLVELLYNVEELDP..
+  .........SAIASFPLLKALKTRISS.LPTVKKFLQPGSQRKPPMDEKNLEKAKKIFKI
+  P......
+}
+{
+name GTA1_CAVPO
+descrip Glutathione S-transferase A (EC 2.5.1.18) (GST A) (Class-alp
+creator Cavia porcellus (Guinea pig).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+feature 35 35 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine
+sequence
+  ..................................SGKPVLH.YFNVQGRMESIRWLLAAA
+  GVEFEEKLIMCQEDL...DKLKNDGLLMFQQVPMVEMDG.....MKMVQSRAILNYIATK
+  YN.......LYGKDT...KERLLIDMYTEG.MTDLYELFFKVILAP..........PEEK
+  DAAKSLIKDRAKNRFLPAFEKVLKSHG..QGYLVGNKL.SKADILLTELLYMVEEFDA..
+  .........SLLANFTLLQALKTRVSN.LPNVKKFLQPGSQRKPFPTQEMFEEMRKF...
+  .......
+}
+{
+name GTA3_RAT
+descrip Glutathione S-transferase 8 (EC 2.5.1.18) (GST 8-8) (Chain 8
+creator Rattus norvegicus (Rat).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+feature 34 34 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylmethionine
+sequence
+  .................................MEVKPKLY.YFQGRGRMESIRWLLATA
+  GVEFEEEFLETREQY...EKLQKDGCLLFGQVPLVEIDG.....MLLTQTRAILSYLAAK
+  YN.......LYGKDL...KERVRIDMYADG.TQDLMMMIIGAPFKA..........PQEK
+  EESLALAVKRAKNRYFPVFEKILKDHG..EAFLVGNQL.SWADIQLLEAILMVEEVSA..
+  .........PVLSDFPLLQAFKTRISN.IPTIKKFLQPGSQRKPPPDGHYVDVVRTVLKF
+  .......
+}
+{
+name GTA3_CHICK
+descrip Glutathione S-transferase 3 (EC 2.5.1.18) (GST-CL3) (GST cla
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+feature 35 35 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Blocked amino end Ala
+sequence
+  ..................................AAKPVLY.YFNGRGKMESIRWLLAAA
+  GVEFEEVFLETREQY...EKLLQSGILMFQQVPMVEIDG.....MKLVQTRAILNYIAGK
+  YN.......LYGKDL...KERALIDMYVGG.TDDLMGFLLSFPFLS..........AEDK
+  VKQCAFVVEKATSRYFPAYEKVLKDHG..QDFLVGNRL.SWADIHLLEAILMVEEKKS..
+  .........DALSGFPLLQAFKKRISS.IPTIKKFLAPGSKRKPISDDKYVETVRRVLRM
+  YYDVKPH
+}
+{
+name GTA2_CHICK
+descrip Glutathione S-transferase (EC 2.5.1.18) (Class-alpha).
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+sequence
+  .................................MAGKPKLH.YTRGRGKMESIRWLLAAA
+  GVEFEEEFIEKKEDL...EKLRNDGSLLFQQVPMVEIDG.....MKMVQSRAILCYIAGK
+  YN.......LYGKDL...KERAWIDMYVEG.TTDLMGMIMALPFQA..........ADVK
+  EKNIALITERATTRYFPVYEKALKDHG..QDYLVGNKL.SWADIHLLEAILMTEELKS..
+  .........DILSAFPLLQAFKGRMSN.VPTIKKFLQPGSQRKPPLDEKSIANVRKIFSF
+  .......
+}
+{
+name GTA1_CHICK
+descrip Glutathione S-transferase (EC 2.5.1.18) (GST class-alpha).
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+sequence
+  .................................MSGKPVLH.YANTRGRMESVRWLLAAA
+  GVEFEEKFLEKKEDL...QKLKSDGSLLFQQVPMVEIDG.....MKMVQTRAILNYIAGK
+  YN.......LYGKDL...KERALIDMYVEG.LADLYELIMMNVVQP..........ADKK
+  EEHLANALDKAANRYFPVFEKVLKDHG..HDFLVGNKL.SRADVHLLETILAVEESKP..
+  .........DALAKFPLLQSFKARTSN.IPNIKKFLQPGSQRKPRLEEKDIPRLMAIFH.
+  .......
+}
+{
+name GTA1_ANTST
+descrip Glutathione S-transferase (EC 2.5.1.18) (GST class-alpha).
+creator Antechinus stuartii (Brown marsupial mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        7     76  PF02798 GST_N
+feature 34 34 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylmethionine
+sequence
+  .................................MAGEQNIK.YFNIKGRMEAIRWLLAVA
+  GVEFEEKFFETKEQL...QKLKET.VLLFQQVPMVEIDG.....MKLVQTRAILHYIAEK
+  YN.......LLGKDM...KEHAQIIMYSEG.TMDLMELIMIYPFLK..........GEEK
+  KQRLVEIANKAKGRYFPAFENVLKTHG..QNFLVGNQL.SMADVQLFEAILMVEEKVP..
+  .........DALSGFPLLQAFKTRISN.IPTVKTFLAPGSKRKPVPDAKYVEDIIKIFYF
+  .......
+}
+{
+name GTA4_HUMAN
+descrip Glutathione S-transferase A4-4 (EC 2.5.1.18) (GST class-alph
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+sequence
+  .................................MAARPKLH.YPNGRGRMESVRWVLAAA
+  GVEFDEEFLETKEQL...YKLQDGNHLLFQQVPMVEIDG.....MKLVQTRSILHYIADK
+  HN.......LFGKNL...KERTLIDMYVEG.TLDLLELLIMHPFLK..........PDDQ
+  QKEVVNMAQKAIIRYFPVFEKILRGHG..QSFLVGNQL.SLADVILLQTILALEEKIP..
+  .........NILSAFPFLQEYTVKLSN.IPTIKRFLEPGSKKKPPPDEIYVRTVYNIFRP
+  .......
+}
+{
+name 1oe7_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 37 43 0 square solid STRUCT
+  FT   STRUCT        2      7  STRAND
+feature 51 59 3 square solid STRUCT
+  FT   STRUCT       15     23  HELIX
+feature 65 68 0 square solid STRUCT
+  FT   STRUCT       29     32  STRAND
+feature 71 86 3 square solid STRUCT
+  FT   STRUCT       35     44  HELIX
+feature 88 90 3 square solid STRUCT
+  FT   STRUCT       46     48  HELIX
+feature 94 98 0 square solid STRUCT
+  FT   STRUCT       52     56  STRAND
+feature 104 108 0 square solid STRUCT
+  FT   STRUCT       62     66  STRAND
+feature 110 120 3 square solid STRUCT
+  FT   STRUCT       68     78  HELIX
+feature 135 160 3 square solid STRUCT
+  FT   STRUCT       86    107  HELIX
+feature 179 188 3 square solid STRUCT
+  FT   STRUCT      116    125  HELIX
+feature 191 204 3 square solid STRUCT
+  FT   STRUCT      128    141  HELIX
+feature 221 236 3 square solid STRUCT
+  FT   STRUCT      155    170  HELIX
+feature 256 268 3 square solid STRUCT
+  FT   STRUCT      180    192  HELIX
+feature 270 279 3 square solid STRUCT
+  FT   STRUCT      194    203  HELIX
+sequence
+  ...................................DHIKVI.YFNGRGRAESIRMTLVAA
+  GVNYEDERISFQDW....PKIKP..TIPGGRLPAVKITDNHGHVKWMVESLAIARYMAKK
+  HH.......MMGGTE...EEYYNVEKLIGQ.AEDLEHEYYKTLMKP..........EEEK
+  QKIIKEILNGKVPVLLDIICESLKAST..GKLAVGDKV.TLADLVLIAVIDHVTDLDK..
+  ........EFLTGKYPEIHKHRENLLASSPRLAKYLSDRA....................
+  .......
+}
+{
+name GTP1_BUFBU
+descrip Glutathione S-transferase P 1 (EC 2.5.1.18) (BBGSTP1-1) (GST
+creator Bufo bufo (European toad).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       84    187  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        5     74  PF02798 GST_N
+sequence
+  ...................................PEYTII.YFNARGRCEAMRMLMADQ
+  GAQWKEEVVTSDDWQ..KGDLKK..AAVYGQLPGFKDGD.....FTLYQSNAMLRLLARN
+  HD.......LYGKNP...REASLIDMVNDG.VEDLRLKYLKMIYQN..............
+  YENGKDDYVKALPTNLGHFERLLASNNEGKGFVVGAHI.SFADYNLVDLLHNHLVLAP..
+  .........DCLSGFPLLCAYVKRISS.RPKLEAYLSSDAHKKRPINGNGKQQ.......
+  .......
+}
+{
+name GT28_SCHJA
+descrip Glutathione S-transferase 28 kDa (EC 2.5.1.18) (GST 28) (SJ2
+creator Schistosoma japonicum (Blood fluke).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 269 0 square solid PFAM-A
+  FT   PFAM-A       85    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        3     75  PF02798 GST_N
+sequence
+  .....................................VKLI.YFNGRGRAEPIRMILVAA
+  GVEFEDERIEFQDW....PKIKP..TIPGGRLPIVKITDKRGDVKTMSESLAIARFIARK
+  HN.......MMGDTD...DEYYIIEKMIGQ.VEDVESEYHKTLIKP..........PEEK
+  EKISKEILNGKVPILLQAICETLKEST..GNLTVGDKV.TLADVVLIASIDHITDLDK..
+  ........EFLTGKYPEIHKHRKHLLATSPKLAKYLSERHATAF................
+  .......
+}
+{
+name GTS1_ASCSU
+descrip Glutathione S-transferase 1 (EC 2.5.1.18) (GST class-sigma).
+creator Ascaris suum (Pig roundworm) (Ascaris lumbricoides).Eukaryot
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       82    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        5     72  PF02798 GST_N
+sequence
+  ...................................PQYKLT.YFDIRGLGEGARLIFHQA
+  GVKFEDNRLKREDW....PALKP..KTPFGQLPLLEVDG.....EVLAQSAAIYRYLGRQ
+  FG.......LAGKTP...MEEAQVDSIFDQ.FKDFMAELRPCFRVLAGFE......EGDK
+  EKVLKEVAVPARDKHLPLLEKFLAKSG..SEYMVGKSV.TWADLVITDSLASWESLIP..
+  .........DFLSGHLQLKKYIEHVRE.LPNIKKWIAERPKTPY................
+  .......
+}
+{
+name GTS9_CAEEL
+descrip Probable glutathione S-transferase 9 (EC 2.5.1.18) (GST clas
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 190 227 0 square solid PFAM-A
+  FT   PFAM-A      127    161  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     73  PF02798 GST_N
+feature 35 86 1 square solid VARSPLIC
+  FT   VARSPLIC      1     45  MVSYKLIYFQSRGNGEIARQVFAFAGQEFIDERISKEQWAE
+sequence
+  ..................................MVSYKLI.YFQSRGNGEIARQVFAFA
+  GQEFIDERISKEQW....AEIKN..MTPFGQVPVLEVDG.....RQLAQSITIVRYLSKQ
+  FG.......ISGKSS...WEEAQVDALGDQ.FKDYRVEARPFFRAKMGFS......DGDV
+  DQLYKDLFVPAFNKMYSIFTESLKSSG..SGFLVGDSL.TWMDLAIAQHSADLLEADG..
+  .........KILDTFLEMKDHQKKIHS.IPNVKKWIEKRPVTSR................
+  .......
+}
+{
+name GTS3_CAEEL
+descrip Glutathione S-transferase 3 (EC 2.5.1.18) (GST class-sigma).
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       83    193  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     73  PF02798 GST_N
+sequence
+  ..................................MVHYKLT.YFNARGLAEISRQLFHMA
+  GVEFEDERINEEKF....SQLKP..TFPSGQVPILCIDG.....AQFSQSTAIARYLARK
+  FG.......FVGQTA...EEELQADEVVDT.FKDFIESFRKFVIAVLSGES.....EEIL
+  KNIREEVIKPAVKTYTAYLKAILEKSS..SGYLVGNEL.TWADLVIADNLTTLINAEL..
+  .........LDIENDKLLKEFREKIIE.TPKLKEWLAKRPETRF................
+  .......
+}
+{
+name GTS5_CAEEL
+descrip Probable glutathione S-transferase 5 (EC 2.5.1.18) (GST clas
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       85    193  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     75  PF02798 GST_N
+sequence
+  ..................................MVSYKLT.YFNGRGAGEVSRQIFAYA
+  GQQYEDNRVTQEQW....PALKETCAAPFGQLPFLEVDG.....KKLAQSHAIARFLARE
+  FK.......LNGKTA...WEEAQVNSLADQ.YKDYSSEARPYFYAVMGFG......PGDV
+  ETLKKDIFLPAFEKFYGFLVNFLKASG..SGFLVGDSL.TWIDLAIAQHSADLIAKGG..
+  ..........DFSKFPELKAHAEKIQA.IPQIKKWIETRPVTPF................
+  .......
+}
+{
+name GTS6_CAEEL
+descrip Probable glutathione S-transferase 6 (EC 2.5.1.18) (GST clas
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       83    192  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        4     73  PF02798 GST_N
+sequence
+  ..................................MVHYKLV.YFPLRARAEIARQIFAYA
+  GQDYSEENLSFEQW....PARKN..NTPFGQLPILEVDG.....KPLGQSYAIARYLARE
+  FG.......IAGQND...TEAAEVDAIADQ.FKDYLNDVSPYLTVLAGFK......PGDK
+  DQLRTDVFVPAFKKNFEFFENILASNHS..GFFVGNSL.TWVDLLISQHVQDILDKDL..
+  .........AVVEEFKKVLAHRKKVQS.IDRIQKYIANRPDYPF................
+  .......
+}
+{
+name GTS4_CAEEL
+descrip Glutathione S-transferase 4 (EC 2.5.1.18) (GST class-sigma).
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 143 270 0 square solid PFAM-A
+  FT   PFAM-A       87    193  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     73  PF02798 GST_N
+sequence
+  ..................................MPNYKLL.YFDARALAEPIRIMFAML
+  NVPYEDYRVSVEEW....SKLKP..TTPFGQLPILQVDG.....EQFGQSMSITRYLARK
+  FG.......LAGKTA...EEEAYADSIVDQ.YRDFIFFFRQFTSSVFYGSD.....ADHI
+  NKVRFEVVEPARDDFLAIINKFLAKSK..SGFLVGDSL.TWADIVIADNLTSLLKNGF..
+  .........LDFNKEKKLEEFYNKIHS.IPEIKNYVATRKDSIV................
+  .......
+}
+{
+name GTS2_CAEEL
+descrip Glutathione S-transferase 2 (EC 2.5.1.18) (GST class-sigma).
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 139 261 0 square solid PFAM-A
+  FT   PFAM-A       83    184  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     73  PF02798 GST_N
+sequence
+  ..................................MVHYKLM.CFDVRGLGEVIRQLFYLG
+  DVSFEDFRVSREEF....KSLKS..NLPSGQLPVLEIDG.....VMISQSASIGRFLARQ
+  YG.......YSGKTP...TEEMQVDSIIDL.FKDFMLTFRQFFFAVIHGYP.....EYEK
+  ERMKRDIVKPAIKNYFIALNKILLRSK..SGFLVGDDL.TWADLQIADNLSTLINIRL..
+  ..........FAEKEPHLNVFIRKL...................................
+  .......
+}
+{
+name GTS1_CAEEL
+descrip Probable glutathione S-transferase R07B1.4 (EC 2.5.1.18) (GS
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 185 270 0 square solid PFAM-A
+  FT   PFAM-A      124    196  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     73  PF02798 GST_N
+sequence
+  ..................................MPHFKFY.YFDVRGRGEAIRLLFHLA
+  DEKFDDERFGMEQW....GVLKS..EMPLGQVPVLEIDG.....VKISQTTAIARYLGHQ
+  FH.......RAGTNA...VDCARLDMIAEV.IQEFMSSSGMGKFSRVLLGM....IQANK
+  EQFFKENVLPDVEKYAPIVEKFLLENGN.NGLLLGDRE.TWVDVFAAESFSKLIDYGSP.
+  .........DALDAYPHILALINRVFN.HPNIKKYVSQRKATPA................
+  .......
+}
+{
+name GTS_ANOGA
+descrip Glutathione S-transferase (EC 2.5.1.18) (GST class-sigma) (F
+creator Anopheles gambiae (African malaria mosquito).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       98    204  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A       21     88  PF02798 GST_N
+sequence
+  ...................LSSSSISRSSLKCNIMPDYKVY.YFNVKALGEPLRFLLSYG
+  NLPFDDVRITREEW....PALKP..TMPMRQMPVLEVDG.....KRVHQSLAMCRYVAKQ
+  IN.......LAGDNP...LEALQIDAIVDT.INDFRLKIAIVAYEPDD.........MVK
+  EKKMVTLNNEVIPFYLTKLNVIAKENN...GHLVLGKP.TWADVYFAGILDYLNYLTKT.
+  .........NLLENFPNLQEVVQKVLD.NENVKAYIAKRPITEV................
+  .......
+}
+{
+name GTS2_MANSE
+descrip Glutathione S-transferase 2 (EC 2.5.1.18) (GST class-sigma).
+creator Manduca sexta (Tobacco hawkmoth) (Tobacco hornworm).Eukaryot
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       82    189  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     72  PF02798 GST_N
+sequence
+  ..................................MPKVVFH.YFGAKGWARP.TMLLAYG
+  GQEFEDHRVEYEQW....PEFKP..NTPFGQMPVLEIDG.....KKYAQSLAISRYLGRK
+  YG.......LAGNDI...EEDFEIDQIVDF.VNDIRASAASVEYEQDAAN.........K
+  EVKHEENMKNKYPFQLNKLSEIITKNN...GFLALGRL.TWADFVFVGMFDYLKKMLR..
+  .......MPDLEEQYPIFKKPIETVLS.NPKLKAYLDSAPKKEF................
+  .......
+}
+{
+name GT1_ONCVO
+descrip Glutathione S-transferase 1 (EC 2.5.1.18) (Fragment).
+creator Onchocerca volvulus.Eukaryota;
+type    PROTEIN
+group 1
+feature 191 270 0 square solid PFAM-A
+  FT   PFAM-A      159    221  PF00043 GST_C
+feature 40 113 1 square solid PFAM-A
+  FT   PFAM-A       40    101  PF02798 GST_N
+sequence
+  FITMNFVVEAASSNANQAITSENSIKPKGKLQPQMEKYTLT.YFNGRGRAEVIRLLFALA
+  NVSYEDNRITRDEW....KYLKP..RTPFGHVPMLNVSG.....NVLGESHAIELLLGGR
+  FG.......LLGTND...WEEAKIMAVVLN.IDELFQKLIPWTHEKNTTK.........K
+  AELFRNLSESDVMPFLGRYEKFLKEST..TGHIVGNKV.SVADLTVFNMLMTLDDEVK..
+  ...........LEEYPQLASFVNKIGQ.MPGIKEWIKKRPKTYF................
+  .......
+}
+{
+name SC11_OMMSL
+descrip S-crystallin SL11 (Major lens polypeptide).
+creator Ommastrephes sloanei (Arrow squid) (Sloane's squid).Eukaryot
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       84    191  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     74  PF02798 GST_N
+sequence
+  ..................................MPSYTLY.YFNGRGRAEICRMLFAVA
+  SVQYQDKRIELAEW....TQFKT..KMPCHMLPILEIDT....ETQVPQSMAISRYLARE
+  FG.......FYGKNN...MDMFKVDCLCDS.LFELFNDYMAVYNEKDAA..........K
+  KTELQKRFQNTCLRVLPYMEKTLEANKGGAGWFIGDQI.LLCDMMTHAALENPIQENAN.
+  ..........LLKEYPKLAALRTRVAA.HPKIAAYIKKRNNTAF................
+  .......
+}
+{
+name SC2_OCTDO
+descrip S-crystallin 2 (OL2).
+creator Octopus dofleini (Giant octopus).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       84    201  PF00043 GST_C
+feature 40 119 1 square solid PFAM-A
+  FT   PFAM-A        6     74  PF02798 GST_N
+sequence
+  ..................................MPSYTLN.YFNHRGRAEICRMLFAAA
+  GVQYNDRRIETSEW....SNMRS..KMPCSMMPMLDIDN....RHQIPQTMAIARYLARE
+  FG.......FHGKNN...MEMARVEYISDC.FYDILDDYLRMYQDDNCRMMFQRSGDRNG
+  SSEKRTRYQETLRRILPFMERTLEMYKSGGQFFMGDQM.TMADMMCYCALENPIMEES..
+  .........SLLNSYPKLQALRTRVMS.HLKMSPYLKKRSSTEF................
+  .......
+}
+{
+name 1aw9_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 38 41 0 square solid STRUCT
+  FT   STRUCT        3      6  STRAND
+feature 48 59 3 square solid STRUCT
+  FT   STRUCT       12     23  HELIX
+feature 64 67 0 square solid STRUCT
+  FT   STRUCT       28     31  STRAND
+feature 81 83 3 square solid STRUCT
+  FT   STRUCT       45     47  HELIX
+feature 94 97 0 square solid STRUCT
+  FT   STRUCT       56     59  STRAND
+feature 105 108 0 square solid STRUCT
+  FT   STRUCT       62     65  STRAND
+feature 110 120 3 square solid STRUCT
+  FT   STRUCT       67     77  HELIX
+feature 140 153 3 square solid STRUCT
+  FT   STRUCT       92    104  HELIX
+feature 156 166 3 square solid STRUCT
+  FT   STRUCT      107    117  HELIX
+feature 168 171 3 square solid STRUCT
+  FT   STRUCT      119    122  HELIX
+feature 182 205 3 square solid STRUCT
+  FT   STRUCT      129    152  HELIX
+feature 221 224 3 square solid STRUCT
+  FT   STRUCT      163    166  HELIX
+feature 227 234 3 square solid STRUCT
+  FT   STRUCT      169    176  HELIX
+feature 250 253 3 square solid STRUCT
+  FT   STRUCT      182    185  HELIX
+feature 256 267 3 square solid STRUCT
+  FT   STRUCT      188    199  HELIX
+feature 270 278 3 square solid STRUCT
+  FT   STRUCT      201    209  HELIX
+sequence
+  ...................................APLKLY.GMPLSPNVVRVATVLNEK
+  GLDFEIVPVDLTTGAHKQPDFLA..LNPFGQIPALVDGD.....EVLFESRAINRYIASK
+  YASEG..TDLLPATA...SAAKL.EVWLEVESHHFYPNASPLVFQLLVRPLLG....GAP
+  DAAVVDKHAEQLAKVLDVYEAHLARN....KYLAGDEF.TLADANHASYLLYLSKTPK..
+  ........AGLVAARPHVKAWWEAIVA.RPAFQKTVAAIPLPPPP...............
+  .......
+}
+{
+name GTH3_ARATH
+descrip Glutathione S-transferase ERD13 (EC 2.5.1.18) (GST class-phi
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 142 270 0 square solid PFAM-A
+  FT   PFAM-A       92    201  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        2     74  PF02798 GST_N
+sequence
+  ....................................VLTIY..APLFASSKRAVVTLVEK
+  GVSFETVNVDLMKGEQRQPEYLA..IQPFGKIPVLVDGD.....YKIFESRAIMRYIAEK
+  YRSQG..PDLLGKTI...EERGQVEQWLDVEATSYHPPLLALTLNIVFAPLMG....FPA
+  DEKVIKESEEKLAEVLDVYEAQLSKNE....YLAGDFV.SLADLAHLPFTEYLVGPIG..
+  .......KAHLIKDRKHVSAWWDKISS.RAAWKEVSAKYSLPV.................
+  .......
+}
+{
+name GTH7_ARATH
+descrip Glutathione S-transferase (EC 2.5.1.18) (GST class-phi).
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 142 270 0 square solid PFAM-A
+  FT   PFAM-A       94    203  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        3     76  PF02798 GST_N
+sequence
+  ...................................MVVKVY.GQIKAANPQRVLLCFLEK
+  DIEFEVIHVDLDKLEQKKPQHLL..RQPFGQVPAIEDGY.....LKLFESRAIARYYATK
+  YADQG..TDLLGKTL...EGRAIVDQWVEVENNYFYAVALPLVMNVVFKPKSG....KPC
+  DVALVEELKVKFDKVLDVYENRLATNR....YLGGDEF.TLADLSHMPGMRYIMNETS..
+  .......LSGLVTSRENLNRWWNEISA.RPAWKKLMELAAY...................
+  .......
+}
+{
+name GTH6_ARATH
+descrip Glutathione S-transferase 6 (EC 2.5.1.18) (GST class phi).
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 142 270 0 square solid PFAM-A
+  FT   PFAM-A       96    204  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        4     77  PF02798 GST_N
+sequence
+  ..................................MASIKVH.GVPMSTATMRVLATLYEK
+  DLQFELIPVDMRAGAHKQEAHLA..LNPFGQIPALEDGD.....LTLFESRAITQYLAEE
+  YSEKG..EKLISQDCK..KVKATTNVWLQVEGQQFDPNASKLAFERVFKGMFG....MTT
+  DPAAVQELEGKLQKVLDVYEARLAKSE....FLAGDSF.TLADLHHLPAIHYLLGTDS..
+  ........KVLFDSRPKVSEWIKKISA.RPAWAKVIDLQKQ...................
+  .......
+}
+{
+name GTH_SILCU
+descrip Glutathione S-transferase (EC 2.5.1.18) (GST class-phi).
+creator Silene cucubalus (Alpen leimkraut).Eukaryota;
+type    PROTEIN
+group 1
+feature 142 270 0 square solid PFAM-A
+  FT   PFAM-A       95    204  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        2     75  PF02798 GST_N
+sequence
+  ....................................TIKVH.GNPRSTATQRVLVALYEK
+  HLEFEFVPIDMGAGGHKQPSYLA..LNPFGQVPALEDGE.....IKLFESRAITKYLAYT
+  HDHQNEGTSLIHKEK...HEMAAQLVWEEVEAHQFDPVASKLAWELVFKGIFG....MQT
+  DTTVVEENEAKLAKVLDVYEARLTESEY...LGANDSF.TLVDLHHLPLLGYLMGTQV..
+  ........KKLFEERAHVSAWCKKILA.RPSWEKTLALQKQA..................
+  .......
+}
+{
+name GTH1_ARATH
+descrip Glutathione S-transferase 1 (EC 2.5.1.18) (GST class-phi).
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 139 270 0 square solid PFAM-A
+  FT   PFAM-A       91    202  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        4     77  PF02798 GST_N
+sequence
+  ..................................MAGIKVF.GHPASTATRRVLIALHEK
+  NVDFEFVHVELKDGEHKKEPFIL..RNPFGKVPAFEDGD.....FKIFESRAITQYIAHE
+  FSDKG..NNLLSTG....KDMAIIAMGIEIESHEFDPVGSKLVWEQVLKPLYG....MTT
+  DKTVVEEEEAKLAKVLDVYEHRLGESK....YLASDHF.TLVDLHTIPVIQYLLGTPT..
+  ........KKLFDERPHVSAWVADITS.RPSAQKVL........................
+  .......
+}
+{
+name GTH4_ARATH
+descrip Glutathione S-transferase PM24 (EC 2.5.1.18) (24 kDa auxin-b
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 142 270 0 square solid PFAM-A
+  FT   PFAM-A       97    205  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        3     76  PF02798 GST_N
+sequence
+  ...................................AGIKVF.GHPASIATRRVLIALHEK
+  NLDFELVHVELKDGEHKKEPFLS..RNPFGQVPAFEDGD.....LKLFESRAITQYIAHR
+  YENQGT..NLLQTDSKNISQYAIMAIGMQVEDHQFDPVASKLAFEQIFKSIYG....LTT
+  DEAVVAEEEAKLAKVLDVYEARLKEFK....YLAGETF.TLTDLHHIPAIQYLLGTPT..
+  ........KKLFTERPRVNEWVAEITK.RPASEKVQ........................
+  .......
+}
+{
+name GTH4_MAIZE
+descrip Glutathione S-transferase IV (EC 2.5.1.18) (GST-IV) (GST-27)
+creator Zea mays (Maize).Eukaryota;
+type    PROTEIN
+group 1
+feature 142 270 0 square solid PFAM-A
+  FT   PFAM-A       94    202  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        5     78  PF02798 GST_N
+feature 34 34 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Blocked amino end Ala
+sequence
+  .................................ATPAVKVY.GWAISPFVSRALLALEEA
+  GVDYELVPMSRQDGDHRRPEHLA..RNPFGKVPVLEDGD.....LTLFESRAIARHVLRK
+  HKP.....ELLGGGRL..EQTAMVDVWLEVEAHQLSPPAIAIVVECVFAPFLG....RER
+  NQAVVDENVEKLKKVLEVYEARLATCT....YLAGDFL.SLADLSPFTIMHCLMATEY..
+  ........AALVHALPHVSAWWQGLAA.RPAANKVAQFMPVGAGAPKEQE..........
+  .......
+}
+{
+name GTH1_MAIZE
+descrip Glutathione S-transferase I (EC 2.5.1.18) (GST-I) (GST-29) (
+creator Zea mays (Maize).Eukaryota;
+type    PROTEIN
+group 1
+feature 142 270 0 square solid PFAM-A
+  FT   PFAM-A       92    200  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        3     76  PF02798 GST_N
+sequence
+  ...................................APMKLY.GAVMSWNLTRCATALEEA
+  GSDYEIVPINFATAEHKSPEHLV..RNPFGQVPALQDGD.....LYLFESRAICKYAARK
+  NKP.....ELLREGNL..EEAAMVDVWIEVEANQYTAALNPILFQVLISPMLG....GTT
+  DQKVVDENLEKLKKVLEVYEARLTKCK....YLAGDFL.SLADLNHVSVTLCLFATPY..
+  ........ASVLDAYPHVKAWWSGLME.RPSVQKVAALMKPSA.................
+  .......
+}
+{
+name GTH1_WHEAT
+descrip Glutathione S-transferase 1 (EC 2.5.1.18) (GST class-phi).
+creator Triticum aestivum (Wheat).Eukaryota;
+type    PROTEIN
+group 1
+feature 142 270 0 square solid PFAM-A
+  FT   PFAM-A       98    210  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        4     77  PF02798 GST_N
+sequence
+  ..................................MSPVKVF.GHPMLTNVARVLLFLEEV
+  GAEYELVPMDFVAGEHKRPQHVQ..LNPFAKMPGFQDGD.....LVLFESRAIAKYILRK
+  YGGTAG.LDLLGENSGI.EELAMVDVWTEVEAQQYYPAISPVVFECIIIPFIIPGGGAAP
+  NQTVVDESLERLRGVLGIYEARLEKSR....YLAGDSI.TFADLNHIPFTFYFMTTPY..
+  ........AKVFDDYPKVKAWWEMLMA.RPAVQRVCKHMPTEFKLGAQY...........
+  .......
+}
+{
+name GTH5_ARATH
+descrip Glutathione S-transferase PM239X14 (EC 2.5.1.18) (GST class-
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 146 262 0 square solid PFAM-A
+  FT   PFAM-A      102    198  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A        4     79  PF02798 GST_N
+sequence
+  ..................................MVTVKLY.GMAYSTCTKRVYTTAKEI
+  GVDVKIVPVDLMKGEHKEPAYLDN.YHPFGVIPVLEDEDG....TKIYESRAISRYLVAK
+  YGKGS...SLLPSPSDP.KAYGLFEQAASVEYSSFDPPASSLAYERVFAGMRG....LKT
+  NEELAKKYVDTLNAKMDGYERILSKQK....YLAGNDF.TLADLFHLPYGAMVAQLEP..
+  .........TVLDSKPHVKAWWAASLRVIPGRLLRNSSKEFM..................
+  .......
+}
+{
+name 1eem_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 38 43 0 square solid STRUCT
+  FT   STRUCT       20     24  STRAND
+feature 48 59 3 square solid STRUCT
+  FT   STRUCT       29     40  HELIX
+feature 64 68 0 square solid STRUCT
+  FT   STRUCT       45     49  STRAND
+feature 79 83 3 square solid STRUCT
+  FT   STRUCT       57     61  HELIX
+feature 94 97 0 square solid STRUCT
+  FT   STRUCT       70     73  STRAND
+feature 106 108 0 square solid STRUCT
+  FT   STRUCT       78     80  STRAND
+feature 110 120 3 square solid STRUCT
+  FT   STRUCT       82     92  HELIX
+feature 135 151 3 square solid STRUCT
+  FT   STRUCT      103    116  HELIX
+feature 155 162 3 square solid STRUCT
+  FT   STRUCT      119    126  HELIX
+feature 182 206 3 square solid STRUCT
+  FT   STRUCT      132    156  HELIX
+feature 221 233 3 square solid STRUCT
+  FT   STRUCT      168    180  HELIX
+feature 239 251 3 square solid STRUCT
+  FT   STRUCT      186    188  HELIX
+feature 256 266 3 square solid STRUCT
+  FT   STRUCT      193    203  HELIX
+feature 270 275 3 square solid STRUCT
+  FT   STRUCT      206    211  HELIX
+feature 279 291 3 square solid STRUCT
+  FT   STRUCT      215    227  HELIX
+feature 296 298 3 square solid STRUCT
+  FT   STRUCT      232    234  HELIX
+sequence
+  ..................SARSLGKGSAPPGPVPEGSIRIY.SMRFCPFAERTRLVLKAK
+  GIRHEVININLKNK...PEWFFK..KNPFGLVPVLENSQG....QLIYESAITCEYLDEA
+  YPGKK....LLPDDP...YEKACQKMILELF.SKVPSLVGSFIRS..............Q
+  NKEDYAGLKEEFRKEFTKLEEVLTNKK..TTFFGGNSI.SMIDYLIWPWFERLEAMKLN.
+  .........ECVDHTPKLKLWMAAMKE.DPTVSALLTSEKDWQGFLELYLQNSPEACDYG
+  L......
+}
+{
+name GTO1_MOUSE
+descrip Glutathione transferase omega 1 (EC 2.5.1.18) (GSTO 1-1) (p2
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 165 270 0 square solid PFAM-A
+  FT   PFAM-A      133    209  PF00043 GST_C
+feature 38 119 1 square solid PFAM-A
+  FT   PFAM-A       24     95  PF02798 GST_N
+feature 271 301 0 square solid PFAM-B
+  FT   PFAM-B      210    240  PB014676 Pfam-B_14676
+feature 47 47 0 square solid SITE
+  FT   SITE         32     32  ACT_SITE_By similarity
+sequence
+  ..............MSGESSRSLGKGSAPPGPVPEGQIRVY.SMRFCPFAQRTLMVLKAK
+  GIRHEVININLKNK...PEWFFE..KNPLGLVPVLENSQG....HLVTESVITCEYLDEA
+  YPEK....KLFPDDP...YKKARQKMTLESF.SKVPPLIASFVRS..............K
+  RKEDSPNLREALENEFKKLEEGMDNYK...SFLGGDSP.SMVDYLTWPWFQRLEALELK.
+  .........ECLAHTPKLKLWMAAMQQ.DPVASSHKIDAKTYREYLNLYLQDSPEACDYG
+  L......
+}
+{
+name GTO2_HUMAN
+descrip Glutathione transferase omega 2 (EC 2.5.1.18).
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 47 47 0 square solid SITE
+  FT   SITE         32     32  ACT_SITE_By similarity
+sequence
+  ..............MSGDATRTLGKGSQPPGPVPEGLIRIY.SMRFCPYSHRTRLVLKAK
+  DIRHEVVNINLRNK...PEWYYT..KHPFGHIPVLETSQC....QLIYESVIACEYLDDA
+  YPGR....KLFPYDP...YERARQKMLLELF.CKVPHLTKECLVA.............LR
+  CGRECTNLKAALRQEFSNLEEILEYQN..TTFFGGTCI.SMIDYLLWPWFERLDVYGIL.
+  .........DCVSHTPALRLWISAMKW.DPTVCALLMDKSIFQGFLNLYFQNNPNAFDFG
+  LC.....
+}
+{
+name YKJ3_CAEEL
+descrip Hypothetical protein C02D5.3 in chromosome III.
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 47 120 1 square solid PFAM-A
+  FT   PFAM-A       27     92  PF02798 GST_N
+sequence
+  ....................MTVLAGVNSKIVKNGCWNHSYLQHAILPVAQRALIYASVK
+  NIPSDVINVHLQEKP...DWYFS..KHYKGQVPTLEHDEGK...KHVIESAVIPEYLDDI
+  YPET....RILPTDP...YEKVQQKLLLDRISGQVSPAFYGVVQA.............VK
+  NPDLREEKFADIKKAYDNAEQLLTGD.....FYSGTSKPGFVDYLLYPNIQRAYWAAHIV
+  PDFPLEAESFPGPNYPRLSKWYKALESIPEVAAASQPTENGVGFFKDYLGGSPNYDYGLT
+  KLSETI.
+}

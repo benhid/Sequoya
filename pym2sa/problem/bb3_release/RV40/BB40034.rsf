@@ -1,0 +1,1434 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name DIN7_YEAST
+descrip DNA-damage inducible protein DIN7.
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 12 119 5 square solid DOMAIN
+  FT   DOMAIN        1     96  N-DOMAIN.
+feature 144 301 5 square solid DOMAIN
+  FT   DOMAIN      114    247  I-DOMAIN.
+feature 12 119 5 square solid DOMAIN
+  FT   DOMAIN        1     96  N-domain.
+feature 144 301 5 square solid DOMAIN
+  FT   DOMAIN      114    247  I-domain.
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      138    231  PF00867 XPG_I
+feature 12 122 4 square solid PFAM-A
+  FT   PFAM-A        1     99  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      138    231  PF00867 XPG_I
+feature 12 122 1 square solid PFAM-A
+  FT   PFAM-A        1     99  PF00752 XPG_N
+feature 123 156 0 square solid PFAM-B
+  FT   PFAM-B      100    124  PB003185 Pfam-B_3185
+feature 320 451 0 square solid PFAM-B
+  FT   PFAM-B      258    389  PB078967 Pfam-B_78967
+feature 123 156 0 square solid PFAM-B
+  FT   PFAM-B      100    124  PB003185 Pfam-B_3185
+feature 320 451 0 square solid PFAM-B
+  FT   PFAM-B      258    389  PB078967 Pfam-B_78967
+sequence
+  ...........MGIPGLLPQLK.RIQKQVSLKKYMYQTLAIDGYAWLHRASCACAF....
+  ....ELVMNKPTNKYLQFFIKRLQLLKRLK...IKPYIVFDGDSLFVKNHTETRRRKKRL
+  ENEMIAKK.......LWSAGNRYNAMEYFQ..KSVDITPEMAKCIIDYCKLHSIPYIVAP
+  FEADPQMVYLEKMG........LIQGIISEDSDLLVFGCKTLITKLNDQGK.........
+  ..ALEISKDDFSALPENFPLG.ELSEQQFRNLVCLAG.CDYT.SGIWKVGVVTAMKIVKR
+  YSEMKDILIQ........IERTEKLCFSKAFKQQVEFANYAFQYQRVFCPLSNQITTLNN
+  IPKAVTNSHAEIIKIMKCIGSVVERGSGVRKDVINTKNIDHKVHEMIAKGELHPVDMASK
+  LINRERKLKARKLFKVGLLGGESNSFNKKVEQPLVDTQDVLSERENSLDNKNASSIYMTS
+  PAAISGTVPSIF................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EXO1_YEAST
+descrip Exodeoxyribonuclease I (EC 3.1.11.-) (Exonuclease I) (EXO I)
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 12 119 5 square solid DOMAIN
+  FT   DOMAIN        1     96  N-DOMAIN.
+feature 144 301 5 square solid DOMAIN
+  FT   DOMAIN      114    247  I-DOMAIN.
+feature 601 620 5 square solid DOMAIN
+  FT   DOMAIN      501    520  Asp/Glu-rich (acidic).
+feature 637 653 5 square solid DOMAIN
+  FT   DOMAIN      537    553  Asp/Glu-rich (acidic).
+feature 718 725 5 square solid DOMAIN
+  FT   DOMAIN      618    625  Asp-rich (acidic).
+feature 12 119 5 square solid DOMAIN
+  FT   DOMAIN        1     96  N-domain.
+feature 144 301 5 square solid DOMAIN
+  FT   DOMAIN      114    247  I-domain.
+feature 601 620 5 square solid DOMAIN
+  FT   DOMAIN      501    520  Asp/Glu-rich (acidic).
+feature 637 653 5 square solid DOMAIN
+  FT   DOMAIN      537    553  Asp/Glu-rich (acidic).
+feature 718 725 5 square solid DOMAIN
+  FT   DOMAIN      618    625  Asp-rich (acidic).
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      138    231  PF00867 XPG_I
+feature 12 122 4 square solid PFAM-A
+  FT   PFAM-A        1     99  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      138    231  PF00867 XPG_I
+feature 12 122 1 square solid PFAM-A
+  FT   PFAM-A        1     99  PF00752 XPG_N
+feature 123 156 0 square solid PFAM-B
+  FT   PFAM-B      100    124  PB003185 Pfam-B_3185
+feature 320 449 0 square solid PFAM-B
+  FT   PFAM-B      258    387  PB078967 Pfam-B_78967
+feature 123 156 0 square solid PFAM-B
+  FT   PFAM-B      100    124  PB003185 Pfam-B_3185
+feature 320 449 0 square solid PFAM-B
+  FT   PFAM-B      258    387  PB078967 Pfam-B_78967
+sequence
+  ...........MGIQGLLPQLK.PIQNPVSLRRYEGEVLAIDGYAWLHRAACSCAY....
+  ....ELAMGKPTDKYLQFFIKRFSLLKTFK...VEPYLVFDGDAIPVKKSTESKRRDKRK
+  ENKAIAER.......LWACGEKKNAMDYFQ..KCVDITPEMAKCIICYCKLNGIRYIVAP
+  FEADSQMVYLEQKN........IVQGIISEDSDLLVFGCRRLITKLNDYG..........
+  .ECLEICRDNFIKLPKKFPLG.SLTNEEIITMVCLSG.CDYT.NGIPKVGLITAMKLVRR
+  FNTIERIILS........IQREGKLMIPDTYINEYEAAVLAFQFQRVFCPIRKKIVSLNE
+  IPLYLKDTESKRKRLYACIGFVIHRETQKKQIVHFDDDIDHHLHLKIAQGDLNPYDFHQP
+  LANREHKLQLASKSNIEFGKTNTTNSEAKVKPIESFFQKMTKLDHNPKVANNIHSLRQAE
+  DKLTMAIKRRKLSNANVVQETLKDTRSKFFNK............................
+  .........PSMTVVENFKEKGDSIQDFKEDTNSQSLEEPVSESQLSTQIPSSFITTN.L
+  EDDDNLSEEVSEVVSDIEEDRKNSEGKTIGNEIYNTDDDGDGDTSEDYSETAESRVPTSS
+  TTSFPGSSQRSISGCTKVLQKFRYSSSFSGVNANRQPLFPRHVNQKSRGMVYVNQNRDDD
+  CDDNDGKNQITQRPSLRKSLIGARSQRIVIDMKSVDERKSFNSSPILHEESKKRDIETTK
+  SSQARPAVRSISLLSQFVYKGK......................................
+  ............................................................
+  .......................................
+}
+{
+name EXO1_SCHPO
+descrip Exodeoxyribonuclease I (EC 3.1.11.-) (Exonuclease I) (EXO I)
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 12 119 5 square solid DOMAIN
+  FT   DOMAIN        1     96  N-DOMAIN.
+feature 144 301 5 square solid DOMAIN
+  FT   DOMAIN      114    245  I-DOMAIN.
+feature 12 119 5 square solid DOMAIN
+  FT   DOMAIN        1     96  N-domain.
+feature 144 301 5 square solid DOMAIN
+  FT   DOMAIN      114    245  I-domain.
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      138    229  PF00867 XPG_I
+feature 12 122 4 square solid PFAM-A
+  FT   PFAM-A        1     99  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      138    229  PF00867 XPG_I
+feature 12 122 1 square solid PFAM-A
+  FT   PFAM-A        1     99  PF00752 XPG_N
+feature 123 156 0 square solid PFAM-B
+  FT   PFAM-B      100    124  PB003185 Pfam-B_3185
+feature 123 156 0 square solid PFAM-B
+  FT   PFAM-B      100    124  PB003185 Pfam-B_3185
+sequence
+  ...........MGIKGLLGLLK.PMQKSSHVEEFSGKTLGVDGYVWLHKAVFTCAH....
+  ....ELAFNKETDKYLKYAIHQALMLQYYG...VKPLIVFDGGPLPCKASTEQKRKERRQ
+  EAFELGKK.......LWDEGKKSQAIMQFS..RCVDVTPEMAWKLIIALREHGIESIVAP
+  YEADAQLVYLEKEN........IIDGIITEDSDMLVFGAQTVLFKMDGFG..........
+  ....NCITIRRNDIANAQDLNLRLPIEKLRHMAIFSG.CDYT.DGVAGMGLKTALRYLQK
+  YPEPRAAIRA........MRLDKSLKVPVSFEKEFALADLAFRHQRVYCPKD...KTLVH
+  LSPPERELSVHEDAFIGSFFDNQLAIDIAEGRSNPITKCAFDIKDSSMQSFTKTTITISK
+  RKG..ISKTDISNFFMKSIPPSKRPTKSTSLIDVTNVKVQRTHLANDISSEKQSIKSANE
+  KAYVTPKSNSLKPG..............................................
+  ...............FGKSLSDISNSATKNENVPFLPPRTGVSKYFKLQKNTEKEIDEQV
+  PSQSNNTTPTSAKSDSASPQNWFSSFSYQTPNSASPPFSSLSHTLPISALAKIGHDALNR
+  KNHASLPSRRIVYKPPSSPSTPISMNPRPKGILSLQQYKFR...................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_ARCFU
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Archaeoglobus fulgidus.Archaea;
+type    PROTEIN
+group 1
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      139    239  PF00867 XPG_I
+feature 13 122 4 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      139    239  PF00867 XPG_I
+feature 13 122 1 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        153    153  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        153    153  METAL_Magnesium 1 By similarity
+sequence
+  ............MGADIGDLFE...REEVELEYFSGKKIAVDAFNTLYQFISIIRQPDG.
+  ..TPLKDSQGRITSHLSGILYRVSNMVEVG...IRPVFVFDGEPPEFKKAEIEERKKRRA
+  EAEEMWIAALQAG..D.KDAKKYAQAAGRV.......DEYIVDSAKTLLSYMGIPFVDAP
+  SEGEAQAAYMAAKG........DVEYTGSQDYDSLLFGSPRLARNLAITGKRKLPGKNVY
+  V.DVKPEIIILESNLKRLGLT....REQLIDIAILVG.TDYN.EGVKGVGVKKALNYIKT
+  YGDIFRALKA........LKVNIDHV.E..EIRNF..FLNPPVTDDYRIEFR...EPDFE
+  KAIEFLCEEHDFSRERVEKALEKLKALKSTQAT.......LERWF...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_METAC
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Methanosarcina acetivorans.Archaea;
+type    PROTEIN
+group 1
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      140    240  PF00867 XPG_I
+feature 13 122 4 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      140    240  PF00867 XPG_I
+feature 13 122 1 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        154    154  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        154    154  METAL_Magnesium 1 By similarity
+sequence
+  ............MGTDIGDLLQ...KRKIELSDLSNRVVAVDAFNTLHQFLSIIRQRDG.
+  ..SPLVNSRGKVTSHLSGLLYRTASLVEAG...IKPVFIFDGKPPDLKSETLSRRKEVRE
+  TSLEKWENAKAEG..DLEAAYKYAQASSRV.......DQEIVEDSKYLLGIMGIPWIQAP
+  CEGEAQAAHMVLKK........DADYVASQDYDSFLFGAPKVVRNMAVTGKRKLPGKNVY
+  V.DVELEVIELEETLRALEIN....RDQLIDIAICVG.TDYN.KGLEKVGPKTALKLIKK
+  HGDIHAVLRE........KDMEIEGL.D..RIRKL..FTHPEVTEDYEIKWT...KPDSE
+  KLIKFLCEENDFSTDRVEKAAERLKAASGARQK......TLDQWF...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_METTH
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Methanobacterium thermoautotrophicum.Archaea;
+type    PROTEIN
+group 1
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      140    230  PF00867 XPG_I
+feature 13 122 4 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      140    230  PF00867 XPG_I
+feature 13 122 1 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        154    154  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        154    154  METAL_Magnesium 1 By similarity
+sequence
+  ............MGVKLRDVVS...PRRIRLEDLRGRTVAVDAANTLYQFLSSIRQRDG.
+  ..TPLMDSRGRVTSHLSGILYRTAAVMERE...IRVIYVFDGRSHHLKGETVSRRADIRK
+  KSEVEWKRALEEG..DIDRAKKYAVRSSRM.......SSEILESSKRLLELLGIPYVQAP
+  GEGEAQASYMVKMG........DAWAVASQDYDCLLFGAPRVVRNLTLSG..........
+  K.LEDPEIIELESTLRELSIS....HTQLVDMALLVG.TDFN.EGVKGIGARRGLKLIRE
+  KGDIFKVIRD........LEADIGGDPQ..VLRRI..FLEPEVSEDYEIRWR...KPDVE
+  GVIEFLCTEHGFSEDRVRAALKKFEGASST.......QKSLEDWF...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_PYRAE
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Pyrobaculum aerophilum.Archaea;
+type    PROTEIN
+group 1
+feature 285 309 1 square solid PFAM-A
+  FT   PFAM-A      244    268  PF01367 5_3_exonuclease
+feature 170 284 3 square solid PFAM-A
+  FT   PFAM-A      144    243  PF00867 XPG_I
+feature 12 122 4 square solid PFAM-A
+  FT   PFAM-A        1    105  PF00752 XPG_N
+feature 285 309 2 square solid PFAM-A
+  FT   PFAM-A      244    268  PF01367 5_3_exonuclease
+feature 170 284 0 square solid PFAM-A
+  FT   PFAM-A      144    243  PF00867 XPG_I
+feature 12 122 1 square solid PFAM-A
+  FT   PFAM-A        1    105  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        158    158  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        158    158  METAL_Magnesium 1 By similarity
+sequence
+  ...........MGVTELGKLIGKEVRREVKLESLSGKCIALDAYNALYQFLASIRQPDG.
+  ..TPLMDRAGRITSHLSGLFYRTINLLEAG...IRPVYVFDGKPPEFKLAEIEERRKTRE
+  KAMEEVLRAIKEG..RREDVAKYAKRAVFI.......TSEMVDEAKRLLSYMGVPWVQAP
+  SEGEAQAAYMARKG........HCWAVGSQDYDSLLFGSPKLVRNLAVSPKRKIG..EEV
+  I.ELTPEIIELDAVLRALRLKN...REQLIDLAILLG.TDYNPDGVPGVGPQKALKLIWE
+  FGSLEKLLET........VLKGAYFPIDPLEIKKF..FLNPPVTDQYATEVR...DPDEA
+  ALKDFLIREHDFSEERVSKALERLRKARGKLK.....TSSLDSFF...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_AERPE
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Aeropyrum pernix.Archaea;
+type    PROTEIN
+group 1
+feature 170 284 3 square solid PFAM-A
+  FT   PFAM-A      144    244  PF00867 XPG_I
+feature 13 122 4 square solid PFAM-A
+  FT   PFAM-A        2    105  PF00752 XPG_N
+feature 170 284 0 square solid PFAM-A
+  FT   PFAM-A      144    244  PF00867 XPG_I
+feature 13 122 1 square solid PFAM-A
+  FT   PFAM-A        2    105  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        158    158  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        158    158  METAL_Magnesium 1 By similarity
+sequence
+  ...........MLGVNLRELIPPEARREVELRALSGYVLALDAYNMLYQFLTAIRQPDG.
+  ..TPLLDREGRVTSHLSGLFYRTINLVEEG...IKPVYVFDGKPPEMKSREVEERLRRKA
+  EAEARYRRAVEAG..EVEEARKYAMMAARL.......TSDMVEESKELLDAMGMPWVQAP
+  AEGEAQAAYMARKG........DAWATGSQDYDSLLFGSPRLVRNLAITGRRKLPGRDQY
+  V.EIKPEIIELEPLLSKLGIT....REQLIAVGILLG.TDYNPGGVRGYGPKTALRLVKS
+  LGDPMKVLAS........VPRGEYDPDYLRKVYEY..FLNPPVTDDYKIEFR...KPDQD
+  KVREILVERHDFNPERVERALERLGKAYREKLRG..RQSRLDMWFG..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_METKA
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Methanopyrus kandleri.Archaea;
+type    PROTEIN
+group 1
+feature 285 307 1 square solid PFAM-A
+  FT   PFAM-A      239    261  PF01367 5_3_exonuclease
+feature 170 284 3 square solid PFAM-A
+  FT   PFAM-A      137    238  PF00867 XPG_I
+feature 15 122 4 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 285 307 2 square solid PFAM-A
+  FT   PFAM-A      239    261  PF01367 5_3_exonuclease
+feature 170 284 0 square solid PFAM-A
+  FT   PFAM-A      137    238  PF00867 XPG_I
+feature 15 122 1 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        151    151  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        151    151  METAL_Magnesium 1 By similarity
+sequence
+  ..............MGLAELRELIEPEETDLRALAGREIAIDAFNALYQFLTTIMK.DG.
+  ..RPLMDSRGRITSHLNGLLYRTVNLVEEG...IKPVYVFDGEPPDLKRETLERRRERKE
+  EAMEKLRRAKTK.....EEREKYARQVARL.......DESLVEDAKRLLDLMGIPWVQAP
+  SEGEAQCAYMARCG........DVWATGSQDYDSLLFGSPRLVRNITIVGKRKHPHTGEI
+  I.EVKPEIMRLEDVLDQLGLES...REQLVDLAILLG.TDYNPDGVPGIGPKRALQLIRK
+  YGSLDELKDTDI.....WPKIERHLPVEPEKLRRL..FLEPEVTDDYELDWD...EPDEE
+  GLVEFLVEERDFSEDRVRRAVERLKEALQELRKGG.RQETLDAFF...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_SULSO
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Sulfolobus solfataricus.Archaea;
+type    PROTEIN
+group 1
+feature 170 284 3 square solid PFAM-A
+  FT   PFAM-A      140    240  PF00867 XPG_I
+feature 17 122 4 square solid PFAM-A
+  FT   PFAM-A        3    101  PF00752 XPG_N
+feature 170 284 0 square solid PFAM-A
+  FT   PFAM-A      140    240  PF00867 XPG_I
+feature 17 122 1 square solid PFAM-A
+  FT   PFAM-A        3    101  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        154    154  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        154    154  METAL_Magnesium 1 By similarity
+sequence
+  ..............MDLADLVK.DVKRELSFSELKGKRVSIDGYNALYQFLAAIRQPDG.
+  ..TPLMDSQGRVTSHLSGLFYRTINILEEG...VIPIYVFDGKPPEQKSEELERRRKAKE
+  EAERKLERAKSEG..KIEELRKYSQAILRL.......SNIMVEESKKLLRAMGIPIVQAP
+  SEGEAEAAYLNKLG........LSWAAASQDYDAILFGAKRLVRNLTITGKRKLPNKDVY
+  V.EIKPELIETEILLKKLGIT....REQLIDIGILIG.TDYNPDGIRGIGPERALKIIKK
+  YGKIEKAMEYGE.....ISKKDINFNID..EIRGL..FLNPQVVKPEEALDLN..EPNGE
+  DIINILVYEHNFSEERVKNGIERLTKAIKEAKGAS.RQTGLDRWF...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_SULTO
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Sulfolobus tokodaii.Archaea;
+type    PROTEIN
+group 1
+feature 170 284 3 square solid PFAM-A
+  FT   PFAM-A      142    242  PF00867 XPG_I
+feature 17 122 4 square solid PFAM-A
+  FT   PFAM-A        3    101  PF00752 XPG_N
+feature 170 284 0 square solid PFAM-A
+  FT   PFAM-A      142    242  PF00867 XPG_I
+feature 17 122 1 square solid PFAM-A
+  FT   PFAM-A        3    101  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        156    156  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        156    156  METAL_Magnesium 1 By similarity
+sequence
+  ..............MDLAELVE.EIKKELSFAELKGKKISIDAYNALYQFLAAIRQPDG.
+  ..TPLMDSQGRVTSHLNGLFYRTISILEEG...IIPIYVFDGKPPEQKAQELERRKKVKE
+  EAEKKLEQAKTEGSIKTSELKKYAQMSIRL.......TNEMAEESKELLKAMGIPVVQAP
+  SEGEAEAAYINILG........LSWATASQDYDSLLFGAKRLIRNLTLSGKRKLPGKDVY
+  V.EIKPELIELDTLLKKLGLT....REQLIDIGIIVG.TDYNPDGIKGYGVKTAYRIIKK
+  YGSLEKAIEKGE.....IPKIKVNFN..VEEIRSL..FLKPQVVEPKENLELV..DCDSN
+  KILDILVKTHDFNEERVKNGIERLEKAKREAKGAS.RQTGLDQWF...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_THEAC
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Thermoplasma acidophilum.Archaea;
+type    PROTEIN
+group 1
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      139    238  PF00867 XPG_I
+feature 13 122 4 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      139    238  PF00867 XPG_I
+feature 13 122 1 square solid PFAM-A
+  FT   PFAM-A        1    101  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        153    153  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        153    153  METAL_Magnesium 1 By similarity
+sequence
+  ............MGTDISDIVV...SHETSLKDQGNQTFSIDTYNILYQLLSNVRQYDG.
+  ..MPLMDSHGNVTSHLYGIFYRTINLLENR...IRPVYVFDGKPSPLKNRTISERQMMKE
+  KAKAELEEAIERG...EEDLRQYYSRINYI.......TPQIVDDTKKLLDYMGIPYVDAP
+  SEGEAQASYMTKKN.........VDGVISQDYDCLLFGARKILRNFAIYGRRKVPRKNIY
+  K.TVYPEYIILDEVLSANQIN....QDQLIGIGILVG.TDFN.EGIKGIGAKKALALIKK
+  EGDIKSVLKH........IGKNIEN...LDEIIDF..FKNPP.VVDYDFKFR...KPDTD
+  AIEHFLCDEHDFSRERIRDHLESLRKNDQASTQFR.....LDSFD...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN1_HUMAN
+descrip Flap endonuclease-1 (EC 3.-.-.-) (Maturation factor 1) (MF1)
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 8 119 5 square solid DOMAIN
+  FT   DOMAIN        1    104  N-DOMAIN.
+feature 139 301 5 square solid DOMAIN
+  FT   DOMAIN      122    253  I-DOMAIN.
+feature 8 119 5 square solid DOMAIN
+  FT   DOMAIN        1    104  N-domain.
+feature 139 301 5 square solid DOMAIN
+  FT   DOMAIN      122    253  I-domain.
+feature 384 416 5 square solid DOMAIN
+  FT   DOMAIN      328    355  Interaction with PCNA.
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      146    237  PF00867 XPG_I
+feature 8 122 4 square solid PFAM-A
+  FT   PFAM-A        1    107  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      146    237  PF00867 XPG_I
+feature 8 122 1 square solid PFAM-A
+  FT   PFAM-A        1    107  PF00752 XPG_N
+sequence
+  .......MGIQGLAKLIADVAP.SAIRENDIKSYFGRKVAIDASMSIYQFLIAVRQG.G.
+  ..DVLQNEEGETTSHLMGMFYRTIRMMENG...IKPVYVFDGKPPQLKSGELAKRSERRA
+  EAEKQLQQAQAAG..AEQEVEKFTKRLVKV.......TKQHNDECKHLLSLMGIPYLDAP
+  SEAEASCAALVKAG........KVYAAATEDMDCLTFGSPVLMRHLTASEAK........
+  ..KLPIQEFHLSRILQELGLN....QEQFVDLCILLG.SDYC.ESIRGIGPKRAVDLIQK
+  HKSIEEIVRRLD.....PNKYPVPENWLHKEAHQL..FLEPEVLDPESVELKW.SEPNEE
+  ELIKFMCGEKQFSEERIRSGVKRLSKSRQGSTQGR.....LDDFFKVTGSLSSAKRKEPE
+  PKGSTKKKAKTGAAGKFKRGK.......................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name RAD2_SCHPO
+descrip DNA repair protein rad2.
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 8 119 5 square solid DOMAIN
+  FT   DOMAIN        1    105  N-DOMAIN.
+feature 139 301 5 square solid DOMAIN
+  FT   DOMAIN      123    254  I-DOMAIN.
+feature 8 119 5 square solid DOMAIN
+  FT   DOMAIN        1    105  N-domain.
+feature 139 301 5 square solid DOMAIN
+  FT   DOMAIN      123    254  I-domain.
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      147    238  PF00867 XPG_I
+feature 8 122 4 square solid PFAM-A
+  FT   PFAM-A        1    108  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      147    238  PF00867 XPG_I
+feature 8 122 1 square solid PFAM-A
+  FT   PFAM-A        1    108  PF00752 XPG_N
+sequence
+  .......MGIKGLAQVLSEHAP.ASVKHNDIKNYFGRKVAIDASMSLYQFLIQVRSQDG.
+  ..QQLMNEQGETTSHLMGMFYRTLRIVDNG...IKPCFVFDGKPPTLKSGELAKRVARHQ
+  KAREDQEETKEVG..TAEMVDRFAKRTVKV.......TRQHNDEAKRLLELMGIPFVNAP
+  CEAEAQCAALARSG........KVYAAASEDMDTLCFQAPVLLRHLTFSEQR........
+  ..KEPISEYNIEKALNGLDMS....VEQFVDLCILLG.CDYC.EPIRGVGPARAVELIRQ
+  YGTLDRFVKEAD.....RSKYPIPEDWPYEDARRL..FLDAEVLPGEEIELKW.KSPDAD
+  GIIQFLVKEKGFNEDRVKLGINRLEKASKTIPQGR.....LDSFFKPVPSSPKKPVDTKS
+  KGSAKRKRDSNKGGESKKKR........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name RA27_YEAST
+descrip Structure specific endonuclease RAD27.
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 8 119 5 square solid DOMAIN
+  FT   DOMAIN        1    105  N-DOMAIN.
+feature 139 301 5 square solid DOMAIN
+  FT   DOMAIN      120    251  I-DOMAIN.
+feature 8 119 5 square solid DOMAIN
+  FT   DOMAIN        1    105  N-domain.
+feature 139 301 5 square solid DOMAIN
+  FT   DOMAIN      120    251  I-domain.
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      144    235  PF00867 XPG_I
+feature 8 122 4 square solid PFAM-A
+  FT   PFAM-A        1    108  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      144    235  PF00867 XPG_I
+feature 8 122 1 square solid PFAM-A
+  FT   PFAM-A        1    108  PF00752 XPG_N
+sequence
+  .......MGIKGLNAIISEHVP.SAIRKSDIKSFFGRKVAIDASMSLYQFLIAVRQQDG.
+  ..GQLTNEAGETTSHLMGMFYRTLRMIDNG...IKPCYVFDGKPPDLKSHELTKRSSRRV
+  ETEKKLAEATT.....ELEKMKQERRLVKV.......SKEHNEEAQKLLGLMGIPYIIAP
+  TEAEAQCAELAKKG........KVYAAASEDMDTLCYRTPFLLRHLTFSEAK........
+  ..KEPIHEIDTELVLRGLDLT....IEQFVDLCIMLG.CDYC.ESIRGVGPVTALKLIKT
+  HGSIEKIVEFIESGESNNTKWKIPEDWPYKQARML..FLDPEVIDGNEINLKW.SPPKEK
+  ELIEYLCDDKKFSEERVKSGISRLKKGLKSGIQGR.....LDGFFQVVPKTKEQLAAAAK
+  RAQENKKLNKNKNKVTKGRR........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name FEN_HALN1
+descrip Flap structure-specific endonuclease (EC 3.-.-.-).
+creator Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A
+type    PROTEIN
+group 1
+feature 170 285 3 square solid PFAM-A
+  FT   PFAM-A      142    230  PF00867 XPG_I
+feature 15 122 4 square solid PFAM-A
+  FT   PFAM-A        1    103  PF00752 XPG_N
+feature 170 285 0 square solid PFAM-A
+  FT   PFAM-A      142    230  PF00867 XPG_I
+feature 15 122 1 square solid PFAM-A
+  FT   PFAM-A        1    103  PF00752 XPG_N
+feature 184 184 1 square solid SITE
+  FT   SITE        156    156  METAL_Magnesium 1 By similarity
+feature 184 184 1 square solid SITE
+  FT   SITE        156    156  METAL_Magnesium 1 By similarity
+sequence
+  ..............MGNADLRQLAAIEETPFADLEGSVVAVDAHNWLYKYLTTTVQWTG.
+  .ADVYTTSDGTEVANLVGAVQGLPKFFEHG...LTPVFVWDGGVTELKDDEIADRREQRE
+  RYEEQLDDAREAG..DAAEAARLDARTQRL.......TPTIHETTRELFDLLDIPQVEAP
+  AEGEAQAAYMTRTDD.......AVDYAGSDDYDCLLLGSPVTLRQLTSSG..........
+  ....HPELMDFDATLAEHDLT....WEQLVDVGILCG.TDFN.PGIDGFGPTTALDAIGE
+  HGDLWDVLAAEG...........EHVAHGDRIREL..FLNPDVTDDYVIDPDVS..PAID
+  AARAFVTDEWEVDADAVARGFERIDAAAAQTG........LDRWT...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name 1a76_
+descrip    Flap structure-specific endonuclease (EC 3.-.-.-).
+creator    Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A
+type    PROTEIN
+group 1
+feature 18 21 3 square solid STRUCT
+  FT   STRUCT        5      8  HELIX
+feature 27 29 0 square solid STRUCT
+  FT   STRUCT       11     13  STRAND
+feature 32 35 3 square solid STRUCT
+  FT   STRUCT       16     19  HELIX
+feature 38 43 0 square solid STRUCT
+  FT   STRUCT       22     27  STRAND
+feature 43 54 3 square solid STRUCT
+  FT   STRUCT       27     38  HELIX
+feature 74 89 3 square solid STRUCT
+  FT   STRUCT       55     70  HELIX
+feature 95 101 0 square solid STRUCT
+  FT   STRUCT       73     79  STRAND
+feature 132 139 3 square solid STRUCT
+  FT   STRUCT      110    115  HELIX
+feature 144 148 3 square solid STRUCT
+  FT   STRUCT      120    124  HELIX
+feature 159 173 3 square solid STRUCT
+  FT   STRUCT      128    142  HELIX
+feature 176 179 0 square solid STRUCT
+  FT   STRUCT      145    148  STRAND
+feature 183 193 3 square solid STRUCT
+  FT   STRUCT      152    162  HELIX
+feature 206 209 0 square solid STRUCT
+  FT   STRUCT      167    170  STRAND
+feature 213 218 3 square solid STRUCT
+  FT   STRUCT      174    179  HELIX
+feature 221 225 0 square solid STRUCT
+  FT   STRUCT      182    186  STRAND
+feature 247 251 0 square solid STRUCT
+  FT   STRUCT      195    199  STRAND
+feature 251 259 3 square solid STRUCT
+  FT   STRUCT      199    207  HELIX
+feature 266 277 3 square solid STRUCT
+  FT   STRUCT      210    221  HELIX
+feature 291 301 3 square solid STRUCT
+  FT   STRUCT      234    244  HELIX
+feature 305 321 3 square solid STRUCT
+  FT   STRUCT      246    254  HELIX
+feature 325 340 3 square solid STRUCT
+  FT   STRUCT      257    266  HELIX
+feature 359 367 3 square solid STRUCT
+  FT   STRUCT      282    290  HELIX
+feature 374 392 3 square solid STRUCT
+  FT   STRUCT      297    315  HELIX
+sequence
+  .............GVQFGDFIP...KNIISFEDLKGKKVAIDGMNALYQFLTSIRLRDG.
+  ..SPLRNRKGEITSAYNGVFYKTIHLLEND...ITPIWVFDGEPPKLKEKTRKVRREMKE
+  KAELKMKEAIKKE..DFEEAAKYAKRVSYL.......TPKMVENCKYLLSLMGIPYVEAP
+  SEGEAQASYMAKKG........DVWAVVSQDYDALLYGAPRVVRNLTTTK..........
+  ...EMPELIELNEVLEDLRIS....LDDLIDIAIFMG.TDYNPGGVKGIGFKRAYELVRS
+  G..VAKDVLK........KEV.EYY..D..EIKRI..FKEPKVTDNYSLSLK...LPDKE
+  GIIKFLVDENDFNYDRVKKHVDKLYNLIANKT............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name 1b43_A
+descrip    Flap structure-specific endonuclease (EC 3.-.-.-).
+creator    Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A
+type    PROTEIN
+group 1
+feature 18 21 3 square solid STRUCT
+  FT   STRUCT        5      8  HELIX
+feature 27 29 0 square solid STRUCT
+  FT   STRUCT       11     13  STRAND
+feature 31 35 3 square solid STRUCT
+  FT   STRUCT       15     19  HELIX
+feature 38 43 0 square solid STRUCT
+  FT   STRUCT       22     27  STRAND
+feature 43 54 3 square solid STRUCT
+  FT   STRUCT       27     38  HELIX
+feature 74 89 3 square solid STRUCT
+  FT   STRUCT       55     70  HELIX
+feature 95 101 0 square solid STRUCT
+  FT   STRUCT       73     79  STRAND
+feature 121 133 3 square solid STRUCT
+  FT   STRUCT       99    111  HELIX
+feature 137 146 3 square solid STRUCT
+  FT   STRUCT      113    122  HELIX
+feature 148 158 3 square solid STRUCT
+  FT   STRUCT      124    127  HELIX
+feature 159 173 3 square solid STRUCT
+  FT   STRUCT      128    142  HELIX
+feature 176 179 0 square solid STRUCT
+  FT   STRUCT      145    148  STRAND
+feature 183 194 3 square solid STRUCT
+  FT   STRUCT      152    163  HELIX
+feature 206 209 0 square solid STRUCT
+  FT   STRUCT      167    170  STRAND
+feature 213 217 3 square solid STRUCT
+  FT   STRUCT      174    178  HELIX
+feature 221 225 0 square solid STRUCT
+  FT   STRUCT      182    186  STRAND
+feature 230 234 0 square solid STRUCT
+  FT   STRUCT      191    195  STRAND
+feature 240 245 0 square solid STRUCT
+  FT   STRUCT      201    205  STRAND
+feature 247 251 0 square solid STRUCT
+  FT   STRUCT      207    211  STRAND
+feature 251 259 3 square solid STRUCT
+  FT   STRUCT      211    219  HELIX
+feature 266 277 3 square solid STRUCT
+  FT   STRUCT      222    233  HELIX
+feature 291 300 3 square solid STRUCT
+  FT   STRUCT      246    255  HELIX
+feature 304 308 3 square solid STRUCT
+  FT   STRUCT      259    263  HELIX
+feature 309 320 3 square solid STRUCT
+  FT   STRUCT      264    267  HELIX
+feature 325 340 3 square solid STRUCT
+  FT   STRUCT      271    280  HELIX
+feature 359 367 3 square solid STRUCT
+  FT   STRUCT      296    304  HELIX
+feature 374 391 3 square solid STRUCT
+  FT   STRUCT      311    328  HELIX
+feature 393 401 3 square solid STRUCT
+  FT   STRUCT      330    333  HELIX
+sequence
+  .............GVPIGEIIP...RKEIELENLYGKKIAIDALNAIYQFLSTIRQKDG.
+  ..TPLMDSKGRITSHLSGLFYRTINLMEAG...IKPVYVFDGEPPEFKKKELEKRREARE
+  EAEEKWREALEKG..EIEEARKYAQRATRV.......NEMLIEDAKKLLELMGIPIVQAP
+  SEGEAQAAYMAAKG........SVYASASQDYDSLLFGAPRLVRNLTITGKRKLPGKNVY
+  V.EIKPELIILEEVLKELKLT....REKLIELAILVG.TDYNPGGIKGIGLKKALEIVRH
+  SKDPLAKFQK........QSD.VDL..Y..AIKEF..FLNPPVTDNYNLVWR...DPDEE
+  GILKFLCDEHDFSEERVKNGLERLKKAIKSGKQST.....LESWFKR.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX9_ECOLI
+descrip Exodeoxyribonuclease IX (EC 3.1.11.-) (Exonuclease IX) (Exo 
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 36 248 0 square solid PFAM-A
+  FT   PFAM-A       33    178  PF02739 5_3_exonuc_N
+feature 260 374 1 square solid PFAM-A
+  FT   PFAM-A      190    281  PF01367 5_3_exonuclease
+feature 36 248 3 square solid PFAM-A
+  FT   PFAM-A       33    178  PF02739 5_3_exonuc_N
+feature 260 374 2 square solid PFAM-A
+  FT   PFAM-A      190    281  PF01367 5_3_exonuclease
+feature 4 35 0 square solid PFAM-B
+  FT   PFAM-B        1     32  PB078966 Pfam-B_78966
+feature 4 35 0 square solid PFAM-B
+  FT   PFAM-B        1     32  PB078966 Pfam-B_78966
+sequence
+  ...MRGLFPISHPAVACSGIECYPYRLIFKGVIVAVHLLIVDALNLIRRIHAV.......
+  ..........QGSPCVETCQHALDQLIMHSQ.PTHAVAVFDDENR...............
+  ..SSGWRHQRLPDY.KAGRPP............MPEELHDEMPALRAAFEQRGVPCWSTS
+  .GNEADDLAATLAVKVTQAG..HQATIVSTDKGYCQLL.SPTLRIRDYFQK.........
+  ......RWLDAPFIDKEFGVQ....PQQLPDYWGLAGISSSKVPGVAGIGPKSATQLLVE
+  FQSLEGIYEN.......LDAVAEKWRKKLETHKEM.........AFLCRDIAR..LQTDL
+  HID.GNLQQLRLVR..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX9_VIBCH
+descrip Probable exodeoxyribonuclease IX (EC 3.1.11.-) (Exonuclease 
+creator Vibrio cholerae.Bacteria;
+type    PROTEIN
+group 1
+feature 36 253 0 square solid PFAM-A
+  FT   PFAM-A       27    182  PF02739 5_3_exonuc_N
+feature 260 372 1 square solid PFAM-A
+  FT   PFAM-A      189    277  PF01367 5_3_exonuclease
+feature 36 253 3 square solid PFAM-A
+  FT   PFAM-A       27    182  PF02739 5_3_exonuc_N
+feature 260 372 2 square solid PFAM-A
+  FT   PFAM-A      189    277  PF01367 5_3_exonuclease
+sequence
+  .......MGSNLDGFDYNKGLTSPY..FLWFLVMSLHLVIIDALNLIRRVHSA.......
+  .....QPDPNDITRTAETTTRTLQRIINEAQ.PSHMIAVFDHHLS...............
+  ..DRGWRAELLPTY.KANRKP............MPDVLQQGIDAIQDAWWQLGIDSLLSE
+  .GDEADDLVATLACKVAAHQ..EKVTIISTDKGYCQLL.SPTLQIRDYFQQR........
+  .......WLDEPFIAQEFGVT....PAQLTDYWGLTGVSSSQIPGVAGIGPKAAKEILNQ
+  FSSIEEAYAS........PELPAKYRKKLDPHIEM.........ARICKQVSA..LKTDI
+  ELG.FNLQDIRFNSSSAD..........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name 1exn_A
+descrip    Probable exodeoxyribonuclease IX (EC 3.1.11.-) (Exonuclease 
+creator    Vibrio cholerae.Bacteria;
+type    PROTEIN
+group 1
+feature 37 43 0 square solid STRUCT
+  FT   STRUCT        2      8  STRAND
+feature 43 54 3 square solid STRUCT
+  FT   STRUCT        8     19  HELIX
+feature 73 87 3 square solid STRUCT
+  FT   STRUCT       25     39  HELIX
+feature 89 100 0 square solid STRUCT
+  FT   STRUCT       41     48  STRAND
+feature 125 131 3 square solid STRUCT
+  FT   STRUCT       54     60  HELIX
+feature 137 145 3 square solid STRUCT
+  FT   STRUCT       65     73  HELIX
+feature 149 170 3 square solid STRUCT
+  FT   STRUCT       76     97  HELIX
+feature 176 178 0 square solid STRUCT
+  FT   STRUCT      102    104  STRAND
+feature 185 200 3 square solid STRUCT
+  FT   STRUCT      110    125  HELIX
+feature 203 207 0 square solid STRUCT
+  FT   STRUCT      128    132  STRAND
+feature 210 216 3 square solid STRUCT
+  FT   STRUCT      135    141  HELIX
+feature 222 227 0 square solid STRUCT
+  FT   STRUCT      145    150  STRAND
+feature 231 249 0 square solid STRUCT
+  FT   STRUCT      154    157  STRAND
+feature 250 258 3 square solid STRUCT
+  FT   STRUCT      158    166  HELIX
+feature 266 277 3 square solid STRUCT
+  FT   STRUCT      170    181  HELIX
+feature 279 282 3 square solid STRUCT
+  FT   STRUCT      183    186  HELIX
+feature 291 302 3 square solid STRUCT
+  FT   STRUCT      195    206  HELIX
+feature 305 320 3 square solid STRUCT
+  FT   STRUCT      208    215  HELIX
+feature 331 340 3 square solid STRUCT
+  FT   STRUCT      222    229  HELIX
+feature 345 359 3 square solid STRUCT
+  FT   STRUCT      231    242  HELIX
+feature 360 372 3 square solid STRUCT
+  FT   STRUCT      243    253  HELIX
+feature 375 389 3 square solid STRUCT
+  FT   STRUCT      256    270  HELIX
+sequence
+  ...................................RNLXIVDGTNLGFRFKHNNS.....
+  ........KKPFASSYVSTIQSLAKSYSA....RTTIVLGDKGK................
+  ...SVFRLEHLPEY.KGNRDEKYAQRT.EEEKALDEQFFEYLKDAFELCKTT.FPTFTIR
+  .GVEADDXAAYIVKLIGHLYDHVWLISTDGDWDTLLT..DKVSRFSFTTRR.........
+  ......EYHLRDXYEHHNVDD....VEQFISLKAIXGDLGDNIRGVEGIGAKRGYNIIRE
+  FG.NVLDIID........QLP.LPGK.Q..KYIQN..LNA...SEELLFRNL...ILVDL
+  PT..YCVDAIAAVGQDVLDKFTKDILEIAE..............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_BUCAI
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip
+type    PROTEIN
+group 1
+feature 36 258 0 square solid PFAM-A
+  FT   PFAM-A        7    170  PF02739 5_3_exonuc_N
+feature 260 383 1 square solid PFAM-A
+  FT   PFAM-A      172    278  PF01367 5_3_exonuclease
+feature 36 258 3 square solid PFAM-A
+  FT   PFAM-A        7    170  PF02739 5_3_exonuc_N
+feature 260 383 2 square solid PFAM-A
+  FT   PFAM-A      172    278  PF01367 5_3_exonuclease
+sequence
+  .............................MNHIKNNPVIIIDGSLYLYASYYAFCN....
+  ....LENTSGKPCGAIYGMLKIIDNIFKKYKNLKKIIIIFDSSR................
+  ...KTFRNKLFKEY.KKNRSS............MPDLLVMQIQPLFEILKKIGIKTLTIP
+  .GIEADDVIGSLSYQLEKQG..EKILILSHDKDMLQLV.TENINIFHKKNN.........
+  ......CIITSEIIQEKYGIK....PKEFIDFLALMGDATDNIPGVPKIGIKTALFLINK
+  FSNIENIYNNIEKIKSLPLRNAKNISIQLKNNKER.........ALLSYKLAR..IKLDI
+  PI..DIKLKDIILKKYCSKNTFQIFKNYFSS.............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_BUCAP
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Buchnera aphidicola (subsp. Schizaphis graminum).Bacteria;
+type    PROTEIN
+group 1
+feature 36 258 0 square solid PFAM-A
+  FT   PFAM-A        7    170  PF02739 5_3_exonuc_N
+feature 260 374 1 square solid PFAM-A
+  FT   PFAM-A      172    269  PF01367 5_3_exonuclease
+feature 36 258 3 square solid PFAM-A
+  FT   PFAM-A        7    170  PF02739 5_3_exonuc_N
+feature 260 374 2 square solid PFAM-A
+  FT   PFAM-A      172    269  PF01367 5_3_exonuclease
+sequence
+  .............................MPYTKKKPIIIVDGSLYLYRSYFTFQN....
+  ....FNSNEENPSGAIYGMLKTIQNILNKNYNSKKIIIIFDSSK................
+  ...KNFRNTIFKEY.KSNRSA............MPNKLYVQIQPLFKILEEIGIKTLSIL
+  .GIEADDIIGSLAYKLEQKG..EQVLIVSHDKDMIQLI.TDNINVLNISKN.........
+  ......SILTPEKIQEKYGIY....PKEFIDLLALMGDSSDNIPGVPKIGIKTALFLLKK
+  FSNIKNIYNNIEKIQSLPFRNAKNAAIQLKNYKKT.........AFLSYQLAK..IKLDV
+  PI..NITSEEITLKKTCFKKLSNLIRWYSFNE............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_BUCBP
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;
+type    PROTEIN
+group 1
+sequence
+  ............................MIIYKKNVNYLLIDGTSYLYRAYYAFLK....
+  ....FKNNFNKPCGAIYGMLNMLRSMLLKYP.YSNIVVIFDSPQ................
+  ...KTFRNELFIPY.KKNRPK............MPNDLKEQILPIHHIIKHIGIPIISIP
+  .HVEADDIIGTLATKLYKKK..YFILISTNDKDLAQLV.NIHIHVLIGTSN.........
+  ......IVLDESKVKKKYGII....PKLIPDLLGLMGDNSDNIPGVPTVGKKTALILLKT
+  FGSLENIYNNIEKIPKCLIKKAKTIYNNLHTYKKL.........AFLSQKLAT..IKTDI
+  NV..NITTKKIKMLPPCTTEISNFFLHYKFYNWNKLLKQGLWLKNCK.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_AQUAE
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Aquifex aeolicus.Bacteria;
+type    PROTEIN
+group 1
+feature 36 258 0 square solid PFAM-A
+  FT   PFAM-A        2    164  PF02739 5_3_exonuc_N
+feature 260 383 1 square solid PFAM-A
+  FT   PFAM-A      166    262  PF01367 5_3_exonuclease
+feature 36 258 3 square solid PFAM-A
+  FT   PFAM-A        2    164  PF02739 5_3_exonuc_N
+feature 260 383 2 square solid PFAM-A
+  FT   PFAM-A      166    262  PF01367 5_3_exonuclease
+sequence
+  ..................................MKTLYILDGSSFVYRSFFALPP....
+  ....LSTSKGFPTNAIYGFLRMLFSLIKKER.PQYLVVVFDAPA................
+  ...KTKREKIYADY.KKQRPK............APDPLKVQIPVIKEILKLAGIPLLELP
+  .GYEADDVIAYLAEKFSQKG..FKVKIYSPDKDLLQLV.SENVLVINPMND.........
+  ......EVFTKERVIKKFGVE....PQKIPDYLALVGDKVDNVPGIEGVGPKTAINILKK
+  YGSVENILKN..........WEKFQREFPRAKKED.........LELSYKLVK..LYTDL
+  DI..ELSEEDLKIKRPDLNKLKQKLQELEMKSLLKEVDKIFRQA...SQRSLF.......
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_MYCPU
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Mycoplasma pulmonis.Bacteria;
+type    PROTEIN
+group 1
+feature 36 258 0 square solid PFAM-A
+  FT   PFAM-A        9    168  PF02739 5_3_exonuc_N
+feature 260 383 1 square solid PFAM-A
+  FT   PFAM-A      170    272  PF01367 5_3_exonuclease
+feature 36 258 3 square solid PFAM-A
+  FT   PFAM-A        9    168  PF02739 5_3_exonuc_N
+feature 260 383 2 square solid PFAM-A
+  FT   PFAM-A      170    272  PF01367 5_3_exonuclease
+sequence
+  ...........................MTKSGSKSEKFLLIDGNYLVHRSYYVSFK....
+  .......FKNNFRSTIYLFFQTIIKIIKNLN.PENIFIAFDEEG................
+  ...GTWRHDLCKEY.KSQRSK............MEDEFWNIFKAIREILDSINLNSGGFR
+  .GHEADDVIATITSKFKDE...NQIYIFSRDKDLLQLI.DKNVYITHDNELKN.......
+  .......LISIENFYQNFQLE....PDQIVDFKAIAGDSSDNLKGIAGIGEKGAKNLLNN
+  FKSLEKIFDSLES....TNLISKAQKQKIRDGKEQ.........ALFLKKIVT..LNKEV
+  PM..KLEKELFAIKININEEILEKLDKYDSRYVLKQFEKALE.....SDDYLW.......
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_MYCPN
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Mycoplasma pneumoniae.Bacteria;
+type    PROTEIN
+group 1
+feature 36 259 0 square solid PFAM-A
+  FT   PFAM-A        2    173  PF02739 5_3_exonuc_N
+feature 261 383 1 square solid PFAM-A
+  FT   PFAM-A      175    274  PF01367 5_3_exonuclease
+feature 36 259 3 square solid PFAM-A
+  FT   PFAM-A        2    173  PF02739 5_3_exonuc_N
+feature 261 383 2 square solid PFAM-A
+  FT   PFAM-A      175    274  PF01367 5_3_exonuclease
+sequence
+  ..................................MKNAILIDGNSLAYRAYFATWQ....
+  QVEFAKLHNLPFNNAIRTMLMMCWNLLQSKQ.YDYGVISFDTKA................
+  ...PTFRDQLYSEY.KSKRSK............TPSELLVQIPVVKESLRHLGFLVCEQD
+  .GFEADDLIGSYARLMTQNN..VAVDIYSSDRDLLQLV.DSMTSVWLCVKG.........
+  ..TKEMKEYNTDNFAEQFFGLT...PKQVIEYKGLVGDNSDNLTGIKGIGPKKGIDLLKQ
+  YGTIDNIFAN.......FDKLSKALQTILQGQIDT.........AKKFSFLAS..IKTDI
+  KL..NDDIVHAALKPIDKQALLELLDKYGIKALAQKFSQL....................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_MYCGE
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Mycoplasma genitalium.Bacteria;
+type    PROTEIN
+group 1
+feature 36 259 0 square solid PFAM-A
+  FT   PFAM-A        2    173  PF02739 5_3_exonuc_N
+feature 261 383 1 square solid PFAM-A
+  FT   PFAM-A      175    274  PF01367 5_3_exonuclease
+feature 36 259 3 square solid PFAM-A
+  FT   PFAM-A        2    173  PF02739 5_3_exonuc_N
+feature 261 383 2 square solid PFAM-A
+  FT   PFAM-A      175    274  PF01367 5_3_exonuclease
+sequence
+  ..................................MKKAILIDGNSLAYRAYFATWK....
+  QVEYAKQNNLPFNNAIRTMLLMCWNLIKANV.YQYGIVSFDTKA................
+  ...PTFRDQIYEGY.KQKRVK............TPVELLVQIPLIKQALVYLGFLVCEKD
+  .GFEADDLIGSYANLFTKQE..ITVDIYSSDRDMLQLV.NAFTNVFLCIKG.........
+  ..TKEMVMYNNENFKSLFYGLA...PYQVVEYKGLVGDNSDNLAGIKGIGPIKGIELLQQ
+  YGTIDNIYTN.......FNNLPNQLQKLLNNQKEI.........AKTFSFLAK..IKTDI
+  EL..DQNIDLTGLKPIQKQALIQLLSENKINTLVEKFSKI....................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_UREPA
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Ureaplasma parvum (Ureaplasma urealyticum biotype 1).Bacteri
+type    PROTEIN
+group 1
+feature 36 258 0 square solid PFAM-A
+  FT   PFAM-A        2    172  PF02739 5_3_exonuc_N
+feature 261 383 1 square solid PFAM-A
+  FT   PFAM-A      175    274  PF01367 5_3_exonuclease
+feature 36 258 3 square solid PFAM-A
+  FT   PFAM-A        2    172  PF02739 5_3_exonuc_N
+feature 261 383 2 square solid PFAM-A
+  FT   PFAM-A      175    274  PF01367 5_3_exonuclease
+sequence
+  ..................................MKKAIVIDGNSLIYRAFHATYK....
+  QAEWAVEKQLMPTNAIKLVASMIFKILNQEQ.FTYGLIAMDASK................
+  ...QTFRAQEYAAY.KATRKP............MDAKLIVQLPYLKKLFVAMGFRIISQP
+  .GIEADDFVGSFSNLMNKFD..VDTTIYSSDRDMLQLI.NKNTKLKLLKTG.........
+  ..TSVMQEINLTNFSLLNNGIL...PYQIIEYKGLVGDSSDNLIGVKGIGPKTAINLLLK
+  YDNIENIYTN.......LEKIAPSVKNKLIEHKDM.........AFLSKKLAA..IQTDL
+  LF..DEKLENFVLKPYNTQELDELFTSLKINNMQNYYK......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_BACSU
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 36 258 0 square solid PFAM-A
+  FT   PFAM-A        4    173  PF02739 5_3_exonuc_N
+feature 260 383 1 square solid PFAM-A
+  FT   PFAM-A      175    273  PF01367 5_3_exonuclease
+feature 36 258 3 square solid PFAM-A
+  FT   PFAM-A        4    173  PF02739 5_3_exonuc_N
+feature 260 383 2 square solid PFAM-A
+  FT   PFAM-A      175    273  PF01367 5_3_exonuclease
+sequence
+  ................................MNNNKLLLVDGMALLFRAFFATAVH...
+  .RNFMINDSGVPTNGVNGFLKHLITAVETFQ.PTHVVCCWDMGS................
+  ...KTYRNDLFQDY.KANRSA............PPVELIPQFDLAKEAAAELGIMNIGFA
+  .GYEADDCIGTLADLFAN...EADITVVTGDRDLLQLL.TDKVSVALLQKG.........
+  ..IGNYKVYTKETFYEETGVM....PKALIDIKALMGDSSDNYPGVKGIGEKTAYKLIRE
+  YETIDRLLEN.......LSLLPKGQQGKIQQGLSD.........LEMSRKLAE..IHCSV
+  PL..ACTLK.DALFTLQMEQAADMLRRHQIKGIERMLEKLNAREIV..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_STRCO
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Streptomyces coelicolor.Bacteria;
+type    PROTEIN
+group 1
+feature 39 258 0 square solid PFAM-A
+  FT   PFAM-A        1    176  PF02739 5_3_exonuc_N
+feature 269 307 1 square solid PFAM-A
+  FT   PFAM-A      183    221  PF01367 5_3_exonuclease
+feature 39 258 3 square solid PFAM-A
+  FT   PFAM-A        1    176  PF02739 5_3_exonuc_N
+feature 269 307 2 square solid PFAM-A
+  FT   PFAM-A      183    221  PF01367 5_3_exonuclease
+sequence
+  ......................................MLLDTASLYFRAYFGVPDS...
+  ....VKAPDGTPVNAVRGLLDFIDRLVKDHR.PEHLVACMDADWR...............
+  ...PHWRVELIPSY.KAHRVAEERPAG.PDAEEVPDTLSPQVPVIEAVLDALGIARVGVA
+  .GYEADDVIGTYTARATG.....PVDIVTGDRDLYQLV.DDARGVRVLYPVKG.......
+  ..VGTLNLVDEAALREKYGVD....GAGYADLALLRGDPSDGLPGVPGIGEKTAAKLLAE
+  FGDLAGIQAAVD...DPKARLTPTQRKRLTEAGPY.........LAVAPKVVR..VAADV
+  PL..PDTGTALPHGPRDAAALEALAARWGLGGSLQRLLTTLTA.................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_MYCTU
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Mycobacterium tuberculosis.Bacteria;
+type    PROTEIN
+group 1
+feature 36 258 0 square solid PFAM-A
+  FT   PFAM-A        3    184  PF02739 5_3_exonuc_N
+feature 260 383 1 square solid PFAM-A
+  FT   PFAM-A      186    295  PF01367 5_3_exonuclease
+feature 36 258 3 square solid PFAM-A
+  FT   PFAM-A        3    184  PF02739 5_3_exonuc_N
+feature 260 383 2 square solid PFAM-A
+  FT   PFAM-A      186    295  PF01367 5_3_exonuclease
+sequence
+  .................................MRSPLVLLDGASMWFRSFFGVPS....
+  ...SITAPDGRPVNAVRGFIDSMAVVITQQR.PNRLAVCLDLDWR...............
+  ...PQFRVDLIPSY.KAHRVAEPEPNGQPDVEEVPDELTPQVDMIMELLDAFGIAMAGAP
+  .GFEADDVLGTLATRERR....DPVIVVSGDRDLLQVVADDPVPVRVLYLGRG.......
+  ..LAKATLFGPAEVAERYGLPAHRAGAAYAELALLRGDPSDGLPGVPGVGEKTAATLLAR
+  HGSLDQIMAAAD...DRKTTMAKGLRTKLLAASAY.........IKAADRVVR..VATDA
+  PVTLSTPTDRFPLVAADPERTAELATRFGVESSIARLQKALDTLPG..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name EX53_BACHD
+descrip Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator Bacillus halodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 36 258 0 square solid PFAM-A
+  FT   PFAM-A        4    177  PF02739 5_3_exonuc_N
+feature 260 361 1 square solid PFAM-A
+  FT   PFAM-A      179    261  PF01367 5_3_exonuclease
+feature 36 258 3 square solid PFAM-A
+  FT   PFAM-A        4    177  PF02739 5_3_exonuc_N
+feature 260 361 2 square solid PFAM-A
+  FT   PFAM-A      179    261  PF01367 5_3_exonuclease
+sequence
+  ................................MHSPVLLLIDGFNLLSRGYFATSYGK.D
+  EAQLPRNEAGYYINALRVFFPKLFQLIREHN.VTHVAVAWDVKRE...............
+  ...DSHRRQAFAFY.KASRGE............LPEALIEQYETATSLLEEIGVAQVTIP
+  .PYEADDTIGAFACRWAKEE.KGHCFIYSNDRDLLQLL.SKSTSQIISSKG.........
+  ....KDLIYTEENFRNDYNIS....PAQWVDVKALLGDKSDNIPGCPGVGEKSALPLIQQ
+  YGTIETLYEQIED....LDPKYKRYHKKLVAGEES.........VIISKELAT..ITTEI
+  EAI.SSFSLNSLVLTTPADLIIDTLARCGIRVKLAPVQTELKLG................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................
+}
+{
+name 1bgx_T
+descrip    Probable 5'-3' exonuclease (EC 3.1.11.-).
+creator    Bacillus halodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 46 50 3 square solid STRUCT
+  FT   STRUCT       22     26  HELIX
+feature 79 89 3 square solid STRUCT
+  FT   STRUCT       47     57  HELIX
+feature 129 133 3 square solid STRUCT
+  FT   STRUCT       76     80  HELIX
+feature 161 164 3 square solid STRUCT
+  FT   STRUCT       95     98  HELIX
+feature 165 172 3 square solid STRUCT
+  FT   STRUCT       99    106  HELIX
+feature 185 200 3 square solid STRUCT
+  FT   STRUCT      118    133  HELIX
+feature 254 258 3 square solid STRUCT
+  FT   STRUCT      168    172  HELIX
+feature 266 269 3 square solid STRUCT
+  FT   STRUCT      176    179  HELIX
+feature 298 301 3 square solid STRUCT
+  FT   STRUCT      208    211  HELIX
+feature 334 340 3 square solid STRUCT
+  FT   STRUCT      230    234  HELIX
+feature 348 351 3 square solid STRUCT
+  FT   STRUCT      242    245  HELIX
+feature 375 384 3 square solid STRUCT
+  FT   STRUCT      266    274  HELIX
+feature 405 408 0 square solid STRUCT
+  FT   STRUCT      295    298  STRAND
+feature 418 421 0 square solid STRUCT
+  FT   STRUCT      308    311  STRAND
+feature 433 436 0 square solid STRUCT
+  FT   STRUCT      323    326  STRAND
+feature 441 444 0 square solid STRUCT
+  FT   STRUCT      331    334  STRAND
+feature 448 455 3 square solid STRUCT
+  FT   STRUCT      338    345  HELIX
+feature 463 474 3 square solid STRUCT
+  FT   STRUCT      353    364  HELIX
+feature 484 492 3 square solid STRUCT
+  FT   STRUCT      373    381  HELIX
+feature 500 506 3 square solid STRUCT
+  FT   STRUCT      389    395  HELIX
+feature 513 532 3 square solid STRUCT
+  FT   STRUCT      402    421  HELIX
+feature 535 543 3 square solid STRUCT
+  FT   STRUCT      424    432  HELIX
+feature 545 559 3 square solid STRUCT
+  FT   STRUCT      434    448  HELIX
+feature 567 588 3 square solid STRUCT
+  FT   STRUCT      456    477  HELIX
+feature 598 602 3 square solid STRUCT
+  FT   STRUCT      487    491  HELIX
+feature 624 627 3 square solid STRUCT
+  FT   STRUCT      513    516  HELIX
+feature 633 636 3 square solid STRUCT
+  FT   STRUCT      522    525  HELIX
+feature 641 645 3 square solid STRUCT
+  FT   STRUCT      530    534  HELIX
+feature 646 650 3 square solid STRUCT
+  FT   STRUCT      535    539  HELIX
+feature 674 677 0 square solid STRUCT
+  FT   STRUCT      563    566  STRAND
+feature 686 689 0 square solid STRUCT
+  FT   STRUCT      575    578  STRAND
+feature 706 709 3 square solid STRUCT
+  FT   STRUCT      595    598  HELIX
+feature 717 723 0 square solid STRUCT
+  FT   STRUCT      606    612  STRAND
+feature 725 733 3 square solid STRUCT
+  FT   STRUCT      614    622  HELIX
+feature 739 746 3 square solid STRUCT
+  FT   STRUCT      628    635  HELIX
+feature 749 759 3 square solid STRUCT
+  FT   STRUCT      638    648  HELIX
+feature 769 780 3 square solid STRUCT
+  FT   STRUCT      658    669  HELIX
+feature 786 793 3 square solid STRUCT
+  FT   STRUCT      675    682  HELIX
+feature 797 811 3 square solid STRUCT
+  FT   STRUCT      686    700  HELIX
+feature 812 822 3 square solid STRUCT
+  FT   STRUCT      701    711  HELIX
+feature 823 827 3 square solid STRUCT
+  FT   STRUCT      712    716  HELIX
+feature 842 845 3 square solid STRUCT
+  FT   STRUCT      731    734  HELIX
+feature 849 860 3 square solid STRUCT
+  FT   STRUCT      738    749  HELIX
+feature 862 866 3 square solid STRUCT
+  FT   STRUCT      751    755  HELIX
+feature 867 874 3 square solid STRUCT
+  FT   STRUCT      756    763  HELIX
+feature 875 887 3 square solid STRUCT
+  FT   STRUCT      764    776  HELIX
+feature 889 895 0 square solid STRUCT
+  FT   STRUCT      778    784  STRAND
+feature 897 902 0 square solid STRUCT
+  FT   STRUCT      786    791  STRAND
+feature 904 916 3 square solid STRUCT
+  FT   STRUCT      793    805  HELIX
+feature 926 928 0 square solid STRUCT
+  FT   STRUCT      815    817  STRAND
+feature 930 932 0 square solid STRUCT
+  FT   STRUCT      819    821  STRAND
+feature 934 938 3 square solid STRUCT
+  FT   STRUCT      823    827  HELIX
+sequence
+  ........................MRGMLPLFEPKGRVLLVDGHHLAYRTFHALK.....
+  ..GLTTS.RGEPVQAVYGFAKSLLKALKEDG..DAVIVVFDAKA................
+  ...PSFRHEAYGGY.KAGRAP............TPEDFPRQLALIKELVDLLGLARLEVP
+  .GYEADDVLASLAKKAEKEG..YEVRILTADKDLYQL...LSDRIHVLH...........
+  ...PEGYLITPAWLWEKYGLR....PDQWADYRALTGDESDNLPGVKGIGEKTARKLLEE
+  WG.SLEALLK........NLDRLKP.....AIREK..ILAHMDDLKLSWDLAK..VRTDL
+  PLEV.DFAKRREPDRE.RLRAFLERLEFGSLLHEFGLLESPKALEEAPWPPPEGAFVGFV
+  LSRKEPMWADLLALAAARGGRVHRAPEPYKALRDLKEARGLLAKDLSVLALREGLGLP.P
+  GDDPMLLAYLLDPSNTTPEGVARRYGGEWTEEAGERAALSERLFANLWGRLEGEERLLWL
+  YREVERPLSAVLAHMEATGVRLDVAYLRALSLEVAEEIARLEAEVFRLAGHPFNLNSRDQ
+  LERVLFDELGLPAIGKTEKTGKRSTSAAVLEALREAHPIVEKILQYRELTKLKSTYIDPL
+  PDLIHPRTGRLHTRFNQTATATGRLSSSDPNLQNIPVRTPLGQRIRRAFIAEEGWLLVAL
+  DYSQIELRVLAHLSGDENLIRVFQEGRDIHTETASWMFGVPREAVDPLMRRAAKTINFGV
+  LYGMSAHRLSQELAIPYEEAQAFIERYFQSFPKVRAWIEKTLEEGRRRGYVETLFGRRRY
+  VPDLEARVKSVREAAERMAFNMPVQGTAADLMKLAMVKLFPRLEEMGARMLLQVHDELVL
+  EAAEAVARLAKEVMEGVYPLAVPLEVEVGIGEDWLSAKE
+}

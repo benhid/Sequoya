@@ -1,0 +1,943 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref2/test/1amk_ref2</aln-name>
+<sequence seq-type="Protein">
+<seq-name>1tim_A</seq-name>
+<seq-info>
+<accession>1tim_A</accession>
+<nid>1tim_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------aprkffvggnwkmn--gkrkslgelihtldgakls------adtevvcgapsiyldfarqkl--------dakigvaaqn-cykvpkgaftgeispamikdigaawvilghserrhv-------------fgesdeligqkvahalaeglgviacigekldereagitekvvfqetkaiadnvk------------------dwskvvlayepvwaig-tgktat---pqqaqevheklrgwlkthv--sdavavqsriiyggsvtg-gnckelasqhdvdgflvggaslk-----pefvdiinakh--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1tmh_D</seq-name>
+<seq-info>
+<accession>1tmh_D</accession>
+<nid>1tmh_D</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrhplvmgnwkln--gsrhmvhelvsnlrkelagv-----agcavaiappemyidmakreae-------gshimlgaqn-vdlnlsgaftgetsaamlkdigaqyiiighserrty-------------hkesdeliakkfavlkeqgltpvlcigeteaeneagkteevcarqidavlktqg----------------aaafegaviayepvwaig-tgksat---paqaqavhkfirdhiakv---daniaeqviiqyggsvna-snaaelfaqhdvdgflvggaslk-----pefvdiinaaeaakqa---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1lyx_A</seq-name>
+<seq-info>
+<accession>1lyx_A</accession>
+<nid>1lyx_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>3</fstart><fstop>8</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>15</fstart><fstop>27</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>35</fstart><fstop>40</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>43</fstart><fstop>52</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>58</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>78</fstart><fstop>83</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>88</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>94</fstart><fstop>98</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>104</fstart><fstop>116</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>120</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>129</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>137</fstart><fstop>146</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>149</fstart><fstop>151</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>158</fstart><fstop>162</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>165</fstart><fstop>167</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>176</fstart><fstop>194</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>196</fstart><fstop>201</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>204</fstart><fstop>207</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>215</fstart><fstop>219</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>226</fstart><fstop>229</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>231</fstart><fstop>234</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>238</fstart><fstop>243</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------rkyfvaanwkcn--gtlesiksltnsfnnldfdp-----skldvvvfpvsvhydhtrkll--------qskfstgiqn-vskfgngsytgevsaeiakdlnieyviighferrky-------------fhetdedvreklqaslknnlkavvcfgesleqreqnktievitkqvkafvdlid------------------nfdnvilvyeplwaig-tgktat---peqaqlvhkeirkivkdtc--gekqanqirilyggsvnt-encssliqqedidgflvgnaslk-----esfvdiiksam--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1m6j_A</seq-name>
+<seq-info>
+<accession>1m6j_A</accession>
+<nid>1m6j_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------gagkfvvggnwkcn--gtlasietltkgvaasvdaela---kkvevivgvpfiyipkvqqilag---eanganilvsaen-awtk-sgaytgevhvgmlvdcqvpyvilghserrqi-------------fhesneqvaekvkvaidaglkviacigeteaqrianqteevvaaqlkainnais----------------keawkniilayepvwaig-tgktat---pdqaqevhqyirkwmteni--skevaeatriqyggsvnp-ancnelakkadidgflvggasld----aakfktiinsvsekl-----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_PHOLL</seq-name>
+<seq-info>
+<accession>Q7MYB3</accession>
+<nid>TPIS_PHOLL</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Photorhabdus luminescens (subsp. laumondii).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>95</fstart><fstop>95</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>167</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrhplvmgnwkln--gsthmvnelitglrqelssv-----tgcdvaiappalylsqakqala-------gsrialgaqd-vdvnlsgaftgetsatmlkdigaeyiiighserrty-------------hqesdefiakkfailkqqglipvlcigeteqeneagqtesvcarqidavlntlg----------------vaafqgaviayepvwaig-tgksat---paqaqavhkfirdhiaqk---daaiaqqiiiqyggsvna-dnaaelfsqpdidgalvggaslk----anafavivkaaaaakka---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_HAEDU</seq-name>
+<seq-info>
+<accession>Q7VN27</accession>
+<nid>TPIS_HAEDU</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Haemophilus ducreyi.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>97</fstart><fstop>97</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------marrplvmgnwkln--gskaftqqliaelktelaei-----tgcdvaiappvmylseaeiala------gqstirlgaqn-vdintqgaftgdistamlqefcakyiiighserrty-------------haesdqfiakkfaalktagltpvlcigeteaeneagqtqqvcarqidaiinslg----------------veafnqaviayepiwaig-tgksat---paqaqavhafirqhiaek---sqavadqliiqyggsvnd-tnaaelfsqpdidgalvggaslk----atafaeivkaaekaka----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_VIBCH</seq-name>
+<seq-info>
+<accession>Q9KNR1</accession>
+<nid>TPIS_VIBCH</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Vibrio cholerae.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>252</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>97</fstart><fstop>97</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrrpvvmgnwkln--gskamvtdllnglnaelegv-----egvdvvvappamyldlaerlike-----ggnklilgaqn-tdthnsgaytgdmspamlkdfgashiiighserrdy-------------hkesdefvakkfaflkengltpvfcigeteaqneageteavcarqinavidayg----------------vealngaiiayepiwaig-tgkaat---addaqrihasiraliaak---daavaeqviiqyggsvkp-enaasyfaqpdidgalvggasld----akgfaaiakaaaeakka---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_CAEEL</seq-name>
+<seq-info>
+<accession>Q10657</accession>
+<nid>TPIS_CAEEL</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Caenorhabditis elegans.Eukaryota;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>247</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>94</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>164</fstart><fstop>164</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------mtrkffvggnwkmn--gdyasvdgivtflnasadn------ssvdvvvappapylayaksklk--------agvlvaaqn-cykvpkgaftgeispamikdlglewvilghserrhv-------------fgesdaliaektvhaleagikvvfcigekleereaghtkdvnfrqlqaivdkgv------------------sweniviayepvwaig-tgktas---geqaqevhewiraflkekv--spavadatriiyggsvta-dnaaelgkkpdidgflvggaslk-----pdfvkiinars--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_TAESO</seq-name>
+<seq-info>
+<accession>Q9GTX8</accession>
+<nid>TPIS_TAESO</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Taenia solium (Pork tapeworm).Eukaryota;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>94</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>167</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------mtrklfvggnwkmn--gsyshintffdtlqkadtd------pnadivigvpacylkyaqdkap--------kgikiaaen-cykvgsgaftgeistemikdcgcewvilghserrhi-------------fgesneligekvkhaldsglnvipcigellsereagktndvcfaqmdaiaknvps---------------keawdkvviayepvwaig-tgktat---paqaqevhkvvrdwirkhv--dagiadkvrilyggsvta-snakdlgtqpdvdgflvggaslk-----pdfitiinarr--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_RHOBA</seq-name>
+<seq-info>
+<accession>Q7UP89</accession>
+<nid>TPIS_RHOBA</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Rhodopirellula baltica.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>168</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------msrriliagnwkmn--mraesgaslakgivdavgks-----pavevvlcppsvylsgvadavv-------gtpvelgaqn-lyaaedgaftgevnasmltdvgcrfvilghserrql-------------mgetdacvakklhaalagnlvpivcvgetleqreaddtesvietqirgslegld----------------earaaniviayepvwaig-tgktas---keqaeavhafirellgkmf--stevaeqiriqyggsvkp-gnaeellsqpnidgalvggsslk----vddfagiikaapsa------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_XANAC</seq-name>
+<seq-info>
+<accession>Q8PJ38</accession>
+<nid>TPIS_XANAC</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Xanthomonas axonopodis (pv. citri).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>94</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>166</fstart><fstop>166</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrrkivagnwklh--gsrafatelvakvaahmpl------egvevvilpplpylgdliedfe-------ahhlsfgaqd-vssnekgaytgevsasmlvdvgagyglvghserrqy-------------hqesselvarkfaaalhaglipvlcvgesleqreagqteailraqldpvlalvg----------------sagfagavlayepiwaig-tgrtat---peqaqavhaflrgevaka---dariadslpilyggsvkp-dnagelfaqpdvdgglvggaslv----aedflaiaraaaac------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_SHEON</seq-name>
+<seq-info>
+<accession>Q8EHL9</accession>
+<nid>TPIS_SHEON</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Shewanella oneidensis.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>103</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>175</fstart><fstop>175</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------malrrpmvagnwkmn--gsaalaqelfkkfasklqn------dsaevvlcppsiylesvrqlleankealdgslvrmgaqn-lsqhdfgaytgevsgqmlkdcgcryviighserrrm-------------ygetsnivaekfaaaqkhgltpilcvgesgparearrtfeviaeeldiviqkng----------------tmafdnaiiayeplwavg-tgksat---peqaqevhafirkrlsev---spfigenirilyggsvtp-snaadlfaqpdvdggliggasln----steflslctiamsa------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_RALSO</seq-name>
+<seq-info>
+<accession>Q8XXP9</accession>
+<nid>TPIS_RALSO</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Ralstonia solanacearum (Pseudomonas solanacearum).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>247</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>95</fstart><fstop>95</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>167</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------msarpklvvgnwklh--gslngnaellekikaagq-------traalavcapfpylaqcqsvla-------gssvawgaqd-vsaetrgaftgevaasmlsefgcgyaivghserrty-------------hgetdaqvaikalralehgitpivcvgetlaqreagetelvvarqleavlesls----------------veqlghivvayepvwaig-tgktat---seqaqavhaflrgrvaac---dagvaqrmpilyggsvkp-dnaaelftmadidggliggaslk----aedflaigra----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_NITEU</seq-name>
+<seq-info>
+<accession>Q82TU1</accession>
+<nid>TPIS_NITEU</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Nitrosomonas europaea.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>168</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------mgragfvagnwkmh--gslvrnqelldavvsgtrsl-----qnvscvvcvpypyiaqtqsvle-------gshvlwggqn-vsqyhhgaytgevsadmladlgcryvivghserrtl-------------fgegnqvvaekfraaqersitpilcvgetlaqresdeteqviamqldavidlag----------------iealgqsviayepvwaig-tgktat---pqqaqdvhkfirsriavh---sggiaeniqilyggsvka-dnarelftmpdidggliggaslv----aaefisiclaaqn-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_BORBR</seq-name>
+<seq-info>
+<accession>Q7WCQ5</accession>
+<nid>TPIS_BORBR</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Bordetella bronchiseptica (Alcaligenes bronchisepticus).Bact</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>99</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>170</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------mttaenrarlvlgnwkmh--gnlaenaallaelraadaa------ahcemgvcvpfpylaqtaaalq-------gsaigwgaqd-vsahakgaytgevaapmlaefgcrwvlvghserrtl-------------haesdqlvadkaraaleagltpvvcvgeslqereggntlgvierqlepvlalgr-----------------dalvrmvlayepvwaig-tgrtas---peqaqevhsairvaldg------lqasqvrvlyggsvkg-anaaslfampdidgglvggaslv----aeeflriaaa----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_COXBU</seq-name>
+<seq-info>
+<accession>Q83BQ3</accession>
+<nid>TPIS_COXBU</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Coxiella burnetii.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------mqrrplvagnwkmh--gsresvgqllralkhgcerl-----etaelavfppfvflqqceealm-------rtqiswgaqd-vsefergaytgevsaamlrdfhcryvivghserrqr-------------hgetneqvaakvraalrcgirpiicvgetekqrnanqtlsvikeqlavvlqmndn---------------laslegmvvayepiwaig-tgknat---psqaeevhaalrdqlhrq---datlaestrllyggsvkp-dnaaalfempnidgalvggasle----aeqflkigqqcnqsf-----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_CHLTE</seq-name>
+<seq-info>
+<accession>Q8KCH7</accession>
+<nid>TPIS_CHLTE</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Chlorobium tepidum.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>91</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>161</fstart><fstop>161</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------mvgnwkmn--ntiaesvdlataiaekvgadg----vqcevgiaptfpalyevckvie-------wsgirlcaqn-chyesdgpftgevstrmlaaagcsyvilghserrql-------------fgetnatvnlkvkkalaeglsvilcvgetlderergvtgqivtaqvveglidvt------------------disklviayepvwaig-tgktat---keqaqevhalirakvtely--gqkaadhlriqyggsvkp-snaaelfampdidggliggasln----addfmaiveaag--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_PORGI</seq-name>
+<seq-info>
+<accession>Q7MWI7</accession>
+<nid>TPIS_PORGI</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Porphyromonas gingivalis (Bacteroides gingivalis).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>168</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrknivagnwkmn--ktlqeglalakeldaalkgrt----incdviigtpfihlasiaaaid-------ttrigvaaen-cadkesgaytgevsaamvastgaryviighserray-------------yhetspilmekvklalsngltpifcvgevleereagkhfevvarqveealftld----------------qtdfaklilayepvwaig-tgktat---adqaqemhahirksiaaky--gkevangcsilyggscna-anakelfsradvdggliggasls----vdkflpiieaf---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_LEPIN</seq-name>
+<seq-info>
+<accession>Q8F5I5</accession>
+<nid>TPIS_LEPIN</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Leptospira interrogans.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>168</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrktiiagnwkmn--lslkeavflahsirekipsis----kdkvsmvfpstlhlenvskile-------gssvivgaqn-cyhsglaaftgetspdqlkeigvkvvmvghserrqf-------------lgesnffcndkirfllkneftvlycvgetlseresgktlevlssqireglkgid----------------svffsnlilayepvwaig-tgkvat---psqaqevhsfirkeisglfvgassisesisilyggsvkp-dniqdllkekdidgglvggasqk----issfaelf------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_STRAW</seq-name>
+<seq-info>
+<accession>Q829W1</accession>
+<nid>TPIS_STRAW</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Streptomyces avermitilis.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>101</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>173</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------mtsrmplmagnwkmn--lnhleaiahvqklafaladkdy---eacevavlppytdlrsvqtlvdg-----dklkikygaqd-vsahdsgaytgeisgsmlaklkctyvavghserrqy-------------hhetdeivnakvkasfrhglipilcvgeelevreagnhvthtltqvegglkdvp----------------aeqaetiviayepvwaig-tgkvcg---addaqevcaairaklaely--sqeladqvriqyggsvks-gnvaeimakpdidgalvggasld----adefvkiarfrdq-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_BIFLO</seq-name>
+<seq-info>
+<accession>Q8G6D5</accession>
+<nid>TPIS_BIFLO</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Bifidobacterium longum.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>104</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>176</fstart><fstop>176</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------maskriplvagnwkmn--fdhleatyfvqklvwllrdahf-dfkrcevalfpsftslrsvqvlvea-----dklhvaygaqs-vsvttqgaftgdvsadmiahlgcsyvivghserrky-------------hpeddanivdqvravlaagmqpilcvgesfeerrqgieldfavgqvrdvtrdln----------------eeqaaklivayepvwaig-tgmvat---pqsaqdaanairndlkttf--gtkvsdsvrilyggsvts-knaaelisqpdvdgfliggaald----veelakiarlalkstksrn-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_AQUAE</seq-name>
+<seq-info>
+<accession>O66686</accession>
+<nid>TPIS_AQUAE</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Aquifex aeolicus.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>94</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>165</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrr-liaanwkmn--ktvketeeyintflkfvehp-----esreilicppftslyvagkmlq-------gtgvklgaqn-chyekrgaftgeisipmlqevgceyvivghserrhi-------------fgesdelihkkivaclemgirpilcvgekkeereagmtfkvietqiklaltgve-----------------ehtdkidiayepvwaig-tgtpat---pedavevhtfirnlinqln---pknegktrilyggsvnp-qnakefmkheeingllvgtasld----pesfakivysf---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_SYNY3</seq-name>
+<seq-info>
+<accession>Q59994</accession>
+<nid>TPIS_SYNY3</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Synechocystis sp. (strain PCC 6803).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>165</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrkiiiagnwkmh--ktqaeaqaflqgfkpliedaa----esrevvlcvpftdlsgmsqqlh-------ggrvrlgaqn-vhweasgaytgeisaamlteigihyvvighserrqy-------------fgetdetanlrvlaaqkaglipilcvgeskaqrdageteqvivdqvkkglvnvd-------------------qsnlviayepiwaig-tgdtca---ateanrviglireqltn---------sqvtiqyggsvna-nnvdeimaqpeidgalvggasle----pqsfarivnfqp--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_ANASP</seq-name>
+<seq-info>
+<accession>Q8YP17</accession>
+<nid>TPIS_ANASP</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Anabaena sp. (strain PCC 7120).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>165</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrkiviagnwkmf--ktqaesqeflkeflpaleetp----qerevllcvpftdlailsqslh-------gslvqlgaqn-vhwaengaytgeisgpmlteigvryvivghserrqf-------------fgetdetvnlrlqaaqkygltpilcvgetkqqrdsgeteslivsqldkdlinvd-------------------qtnlviayepiwaig-tgdtce---tteanrviglirsqlkn---------sdvpiqyggsvkp-nnideimaqpeidgvlvggasle----aasfarivnyl---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_SYNEL</seq-name>
+<seq-info>
+<accession>Q8DKA0</accession>
+<nid>TPIS_SYNEL</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Synechococcus elongatus (Thermosynechococcus elongatus).Bact</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>118</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>187</fstart><fstop>187</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mirdnpcgtldqvkfrrgksrgvrpkvlagnwkmh--ktqqeavaflqeflgelvdtp----sdrevvlcvpytclsvlskslh-------gtrvklgaqn-vhwadqgaftgeisppmlvelgvryviighserrqy-------------fgetdatvnqrlraaqshgltpilcvgetkaqraagetenhifqqlaldlvdvd-------------------qtnlviayepiwaig-tgdtce---eteanrviglirsqlhn---------pdvpiqyggsvna-nnidaimaqpeidgvlvggaslq----pqsfgrivnykpl-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_GLOVI</seq-name>
+<seq-info>
+<accession>Q7NLT1</accession>
+<nid>TPIS_GLOVI</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Gloeobacter violaceus.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>94</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>163</fstart><fstop>163</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrrkvlagnwkmy--ktrgearafleafvplispga----enrevilcgpftcldllsaqag---------pyavgaqn-vhwadhgaytgeiapqmlvelgvhyvivghserrey-------------fnetdstvnrrlnnaqdhdlvpilcvgetesvrkdgiteahirsqldrdlelvd-------------------mrrliiayepiwaig-tgktce---aneanrvcamirkhvn---------fegvpilyggsvkp-enidelmaqsdidgvlvggasle----aksfarivnfev--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_SYNPX</seq-name>
+<seq-info>
+<accession>Q7U804</accession>
+<nid>TPIS_SYNPX</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Synechococcus sp. (strain WH8102).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>165</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrrpviagnwkmh--mtcaqardymaaflpqierap----qdreivlappftalstmaaaae-------hsvvglasqn-vhwqdhgaftaeisaemllehgvaytivghseprky-------------fsesdeqinhrarcsqakglipivcvgesdeqrergeaervirrqieqglegld-------------------anklvvayepiwaig-tgktce---aaeanricglirswvg---------atdliiqyggsvkp-tnidelmamsdidgvlvggaslk----pdsfarianyqai-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_PROMA</seq-name>
+<seq-info>
+<accession>Q7VC41</accession>
+<nid>TPIS_PROMA</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Prochlorococcus marinus.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>165</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrktviagnwkmh--mtcssakeyidkfipfskefp----sdrhvviappftaistlasllq-------gtniqlssqn-vhwedtgaftaeispsmllehdvryaivghseprky-------------fsesdeqinlrarsaqsnglipivcvgesieqrergeaervirrqveqgleqtd-------------------ltklviayepiwaig-tgktce---sneanricglirewag---------fsdliiqyggsvkp-anideimsmsdidgvlvggasld----penfarianyqsi-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_PROMP</seq-name>
+<seq-info>
+<accession>Q7V1N4</accession>
+<nid>TPIS_PROMP</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Prochlorococcus marinus subsp. pastoris (strain CCMP 1378 / </organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>165</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrksviagnwkmh--mtcadtkkyleeflplieeip----ndrkiviappftaistfsnytn-------fdylniasqn-ihwedkgaftaeispnmliehkvkyaivghseprky-------------fsesdeqinkravfaqssgltpivcvgetleqrergeadrvitrqveqglentd-------------------psnlivayepiwaig-tgktce---asdankicalirslig---------fsdviiqyggsvkp-nnideimsmsdidgvlvggssld----pisfsrianfe---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_MYCPU</seq-name>
+<seq-info>
+<accession>Q98QA8</accession>
+<nid>TPIS_MYCPU</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Mycoplasma pulmonis.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>246</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>101</fstart><fstop>101</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>170</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mkklliignwkmn--ktydeardfinafsnayalngakisenieygiapsftnmslfnkelle------ktninlvaqn-inenrsgaftgeisaqmlksinakyvivghserrqn-------------yretnkivnqkakaaienglipiicvgesleeyeagktkavikkqikqsleald-------------------lskivvayepiwaig-tgkvat---aevaqqickfirsits----------kdliiqyggsvsp-snienlmkqedidgalvggasle----vdsffelitfnalk------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_MYCHR</seq-name>
+<seq-info>
+<accession>P50919</accession>
+<nid>TPIS_MYCHR</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Mycoplasma hyorhinis.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>243</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>98</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>167</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------msktiiignwkmn--ktftqtkeffsafnqlyienknkinqnldfavalpainvaafskntt---------klelavqn-msqfekgaytgeisaqmlldlnvkyaiighserrqy-------------fketdldvnaktqqaiknniipvvcvgetleeyeaqktsqvieyqlknslkdvd-------------------lskvivayepiwaig-tgktat---peqaqqvckfirkqtn----------knltilyggsvsq-enieqllnqadingalvggaslk----vdsfiklltlnk--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_MYCFL</seq-name>
+<seq-info>
+<accession>P48779</accession>
+<nid>TPIS_MYCFL</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Mycoplasma flocculare.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>241</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>98</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>167</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------mkkiiignwkmn--ktvhetrdfiqkfdifysknlgkikdnldfaiapsftslalistski--------dklkvaaqn-lsqfdsgaftgeisakmlqdlavhyviighserrei-------------fkeigedltnkilqaqkynlipvfcvgeslsefeanetekviigqinevksvln-------------------fekaiiayepiwaig-tgktat---aqiaeqvckliknnfg----------knirviyggsvns-kninelllqknidgalvgkasld----peefvkilani---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPI1_RHILO</seq-name>
+<seq-info>
+<accession>Q98ME7</accession>
+<nid>TPI1_RHILO</nid>
+<definition>Triosephosphate isomerase 1 (EC 5.3.1.1) (TIM 1) (Triose-pho</definition>
+<organism>Rhizobium loti (Mesorhizobium loti).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>99</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------mtpgirplvagnwkmn--gtsaslnelrmigngfmsgld----aetealvcvpatllshaaeils-------rtpvhagged-chtkesgaytgcisaemlkdagashvivghsecreq-------------rgeddatvqakaaaawraglvaiicigetqqqreagatlevlsrqvagsvppsa------------------tpsntviayepvwaig-tgltpt---aadvaeahahirerlsekl---gasaaktrilyggsvkp-snavellgvrnvdgalvggaslk----aadflgiaeayrsisg----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPI1_RHIME</seq-name>
+<seq-info>
+<accession>Q92QA1</accession>
+<nid>TPI1_RHIME</nid>
+<definition>Triosephosphate isomerase 1 (EC 5.3.1.1) (TIM 1) (Triose-pho</definition>
+<organism>Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>99</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------mtpdirplvagnwkmn--gtrasldqikamaegvkgdls----arvdalicppatllyvatalcd-------dsplmigaqd-chqkqsgahtgevsaemvadcfgthvivghserrtd-------------hgegdalvrakteaahgadlvaivcvgeteeerkagrtldilkrqlseslpdqa------------------taentviayepvwaig-tgltpt---vsdveeahafmrrelvsrf---gaeggkmrilyggsvkp-snakelmgvanvdgaliggaslk----addflaiyrayeelta----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_BARHE</seq-name>
+<seq-info>
+<accession>Q8L1Z5</accession>
+<nid>TPIS_BARHE</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Bartonella henselae (Rochalimaea henselae).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>99</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------mspnirpfiagnwkmn--gtgeslgelraiaagissdlg----rlfealicvpatllsrafdilg-------genillggqn-chfddygpytgdisafmlkeagashviighserrtv-------------yqesdaivrakvqaawraglvalicvgetleerksnkvldvltrqlegslpdga------------------taeniiiayepvwavg-tgntat---sadvaevhafihhkmhsrf---gdegakirllyggsvkp-snafellstahvngaliggaslk----aidflticdvyrkl------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_CHLTR</seq-name>
+<seq-info>
+<accession>O84332</accession>
+<nid>TPIS_CHLTR</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Chlamydia trachomatis.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>24</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>118</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>188</fstart><fstop>188</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mftdkethrkpfptwahllhsepskqfvfgnwkmn--ktlteaqtflksfissdilsn----pqiitgiippftllsacqqavs-------dspiflgaqt-theadsgaftgeisapmlkdigvdfvlighserrhi-------------fheqnpvlaekaaaaihsgmipvlcigetleeqesgatqdillnqlttglsklp------------------eqasfilayepvwaig-tgkvah---pdlvqethafcrktiaslf--skdiaertpilyggsvka-dnarslslcpdvngllvggasls----senflsiiqqidip------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_CHLMU</seq-name>
+<seq-info>
+<accession>Q9PK66</accession>
+<nid>TPIS_CHLMU</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Chlamydia muridarum.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>20</fstart><fstop>268</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>114</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>184</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----mltdkkssptwssllpsetsqyfvfgnwkmn--ktfseaqtflkdfvsceilsn----pkiitgiippftllsscqqiikn-------tpirlgaqt-lhevdsgaftgeisapmlkdigvdfvlighserrhi-------------fheqnhslaekllaairngivpvlcigetleeqeagatqdilleqltvglsrlp------------------ehapfilayepvwaig-tgkvan---pdlvqeihafcrnvvkdli--skdaaertpilyggsvka-dntraltlcpdvngllvggasls----vesflaiiqqiavs------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_CHLPN</seq-name>
+<seq-info>
+<accession>Q9Z6J6</accession>
+<nid>TPIS_CHLPN</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>253</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>99</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------mtrqsyvlgnwkmh--ktiqeakeyvqtlasllqgep----lsctigiaspftslraihemintt-----gaflwlgaqn-vhpelsgaftgeislpmlkevgvefvlvghserrhi-------------fgesdafiaskvksvaqaglvpvlcvgeslevreegkahqvikkqlllgleqmd------------------ngsefliayepvwaig-tgkvae---asdvqdihmfcrevvaerf--seataeeisilyggsvkv-dnaqrfgqcsdvdgllvggasle----gqsffevaknfnv-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_MYCPN</seq-name>
+<seq-info>
+<accession>P78010</accession>
+<nid>TPIS_MYCPN</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Mycoplasma pneumoniae.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>93</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>160</fstart><fstop>160</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrtkylignwktn--kdlhqalafveqfkqhpakt------kavlgiapvhvhltevnkvlp--------nnllllaqd-anfiasgsytgtvsytqlqdikvnsviighserrky-------------fnetaqvinqklkaclqagmlvvlcigete-----gqpisflkedltqvlqgid----------------lsllkqlviayepiwaig-tgktat---peianntiaqirvylsely--nkeiaqqtsilyggsvak-dnikelaqteqidgflvgkasld----vndflvmaqvya--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_MYCPE</seq-name>
+<seq-info>
+<accession>Q8EW34</accession>
+<nid>TPIS_MYCPE</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Mycoplasma penetrans.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>93</fstart><fstop>93</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>165</fstart><fstop>165</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------mkkliianwkmf--ktlndiktfkeefdkniknvk----vnadysvgvpsiylnqakeilk---------gikviaqd-ahfknegaytgniswsqlkdcgidgsiighserrqm-------------fnetdetvnlktislvennmqavvcvgetleeyeanksfdvvwnqtkkalanvs----------------eaqlknvviayepvwaig-tgkvpt---gkevddliqkvrdelskly--skqaveslvvlyggsvnd-knaeeffkqkningalvgsfclk----aenfvklielggn-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_NEIMA</seq-name>
+<seq-info>
+<accession>Q9JW31</accession>
+<nid>TPIS_NEIMA</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Neisseria meningitidis (serogroup A).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>249</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>99</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>167</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------mwdqkwvignwkmn--grlqnnnslmhrfrilptaer------vliglaaptvyllqlhnamqiv----lnnriltcaqdvsrfpdngaytgevsaemladtgtdivlighsersly-------------fgekneiqrrkmenvlnvglipllcvgesleereagkeheviahql-silqgld-------------------tkniavayepvwaig-tgkvat---veqiadmhafiykeilslc----gsdvkirvlyggsvka-dnaadifavpyvdgalvggasls----ydsftaiisaaqna------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_BUCAI</seq-name>
+<seq-info>
+<accession>P57393</accession>
+<nid>TPIS_BUCAI</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>168</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mkkffitanwkln--gnikmissffkylklysssyl----ekntviiapptiylervcknis-------nmniflgsqn-vdinlngaftgetsilmlrdigvkyviighserrfl-------------hhetddiiakkfhlikksnltpilcvgeteiekkhnqteqviqrqlnlilknlg----------------tsafkniiiayepiwaig-tgvsad---pehvqlihvfiknyilkys---sinrndiiiqyggsinh-tnvkkfieqpdingllignssls----akefleiikiahehys----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_BUCAP</seq-name>
+<seq-info>
+<accession>Q59179</accession>
+<nid>TPIS_BUCAP</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Buchnera aphidicola (subsp. Schizaphis graminum).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>168</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mkkkiiaanwkln--gsiktisyfltflksqissfl----knniiiiapptvflervykdin-------sinihlaaqn-idvnltgaftgensalmmkdigvkyiiighserrll-------------hnenneiiakkfclvknlnlvpilcigeteaekksnktekilkeqlnsifnsfg----------------ekafrnaviayepiwsig-tgvsad---pknvqlihkfiknyikky---divsaenlivqyggsvts-lnagnflkqpdidglligsaslk----heeflkiikisdsfl-----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_CANBF</seq-name>
+<seq-info>
+<accession>Q7VRL0</accession>
+<nid>TPIS_CANBF</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Candidatus Blochmannia floridanus.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>99</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>171</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mknlsiianwkln--gnkntitnslinlttqltnip----qyikiaiappilyidmvknhltsyn----nktielcsqn-vdihlsgaftgdisasmlkdlsvkyvlighserriy-------------hkennsliaqkfsiikqtelipilcigenkeerdsgstqsiciqqidsiiklvg----------------ikafentiiayepvwaig-sgssas---prnvqsihqfirnyiaqy---dktianqisiqyggsitt-dnvlefitqkdidgvlvgsasld----irnlikiinlssnlikktyq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_BUCBP</seq-name>
+<seq-info>
+<accession>P59462</accession>
+<nid>TPIS_BUCBP</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>251</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00121 TIM</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>98</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>170</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mkkkiiianwkln--gniqllqtllkplvnfyirhknk--ssiklvimppyvylypmksiis-------hssillgsqn-vdinligaftgevsinmlkdvgvsyvlvghserrqy-------------hrendviiakkfkivkdshlipvlcigeteheylscktekickfqidaifdllg----------------psgfnnsviayepkwaig-tntips---infiqkilmfiqnyifnkq---nstiklfslqyggsvne-hniielydvknidgflvgsasls----ldffkkllnnc---------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPI2_RHIME</seq-name>
+<seq-info>
+<accession>Q92NH8</accession>
+<nid>TPI2_RHIME</nid>
+<definition>Triosephosphate isomerase 2 (EC 5.3.1.1) (TIM 2) (Triose-pho</definition>
+<organism>Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>98</fstart><fstop>98</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>171</fstart><fstop>171</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------msksglwvgtswkmn--ktlaeamvfadglaaaddard----qriqrfvippftaarqvkerlk-------atsvkvgaqn-mhwddagawtgeispvmlsdcdldivelghserreh-------------fgetdrtvglktaaavkhglvplicigetlaqreageadtvlkrqvegafafleg---------------aarkapvllayepvwaigvngipat---adyadarhrligevaer------algvkvpvlyggsvnp-qnceelilqphidglfigrsawd----vggyldilqrvarai-----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPI2_BRUME</seq-name>
+<seq-info>
+<accession>Q8YCV3</accession>
+<nid>TPI2_BRUME</nid>
+<definition>Triosephosphate isomerase 2 (EC 5.3.1.1) (TIM 2) (Triose-pho</definition>
+<organism>Brucella melitensis.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mtkfwigtswkmn--ktlaearlfaealkaadagrs----pdiqrfvippftavrevkeilsg-------tsvkvgaqn-mhwadqgtwtgeisplmlkdcnldivelghserreh-------------fgetnetvglkveaavrhgliplicigetledcesgraaavleeevrgalskls---------------eaqkqaeilfayepvwaigengipas---adyadarqaeiiavaqs------vlarrvpclyggsvnp-gnceeliacphidglfigrsawn----vegyldilarcatkvqan--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPI2_LISIN</seq-name>
+<seq-info>
+<accession>Q92EU4</accession>
+<nid>TPI2_LISIN</nid>
+<definition>Triosephosphate isomerase 2 (EC 5.3.1.1) (TIM 2) (Triose-pho</definition>
+<organism>Listeria innocua.Bacteria;</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>168</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------mrkplvginmkny-intraqtsewleatipllenfs-----dvdtfifpsmgtlettanllag-------tsfgfgpqn-mapeksgpltgefsvesiidlnanyveighaerknl-------------fhektseiakkiklaldekitpvvcvgeevhandtnelknalkkqiealfqtin----------------laqwenvvlayepewaigkassaet----nyiesahqalreiirelg----gdetlvriiyggsvsk-enaaeivrqknvdglfvgrfghk----pqnfadivsivsktkg----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_UREPA</seq-name>
+<seq-info>
+<accession>Q9PQW2</accession>
+<nid>TPIS_UREPA</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Ureaplasma parvum (Ureaplasma urealyticum biotype 1).Bacteri</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>91</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>158</fstart><fstop>158</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------mkyiianfkmn--atqelinhflnnltlfdeqk-------iiiglapgdlylktfvnlaei-------kkvnlyaqn-pslhnkgpytgqisclqlldiniknalvghseir---------------idfsqsiidqkikismdlleqviicvgetfdaykqnkslnfvlnqlaniinykg-------------------lkkiiiayepiwaig-tdleld---fkhinymiegiktylyn------ctginipilyggsvnd-nninelcnqklidgflignasld----vnvfnkiidkck--------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TPIS_TROW8</seq-name>
+<seq-info>
+<accession>Q83HP9</accession>
+<nid>TPIS_TROW8</nid>
+<definition>Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha</definition>
+<organism>Tropheryma whipplei (strain TW08/27) (Whipple's bacillus).Ba</organism>
+<ec>5.3.1.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>SITE</ftype><fstart>117</fstart><fstop>117</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>218</fstart><fstop>218</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------mlpkraypvqdsnvhsqekkiiagnwkmn--inhsqavsylqelnwrlidnghd-fdaceiavfppftdlrsvqtlvas-----ddiqisygaqd-vsafsdgahtgqisaqflkdldckyvlighseqrclpcypgnnsainelnnkhdgliankllrsfaagicpilcigdispgdhfdatlsrfrsvlshlkaisdkkhsigyalgskthfldsdqlhmlvayepssain-sgncan---sgdivrmaaaikdivn------------vrvlygggvnl-fnasavfnedlldgilvgrasln----asdfasliktccl-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1hg3_A</seq-name>
+<seq-info>
+<accession>1hg3_A</accession>
+<nid>1hg3_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<length>336</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------aklkepiiainfktyieatgkraleiakaaekvyket------gvtivvapqlvdlrmiaesv----------eipvfaqh-idpikpgshtghvlpeavkeagavgtllnhsenrmi-----------------ladleaairraeevglmtmvcsnn-----------pavsaavaaln-------------------------pdyvaveppelig-tgipvskakpevitntvelvkkvn-----------pevkvlcgagistgedvkkaielg-tvgvllasgvtkakdpekaiwdlvsgi---------
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

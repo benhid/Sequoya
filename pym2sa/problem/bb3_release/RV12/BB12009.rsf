@@ -1,0 +1,119 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1csp
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  .......MLEGKVKWFNSEKGFGFIEV.EGQDDVFVHFSAIQGEGFKTLEEGQAVSFEIV
+  EGNR.GPQAANVTKEA............................................
+  ............................................................
+  ................
+}
+{
+name CSPD_HAEIN
+descrip Cold shock-like protein cspD.
+creator Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 71 132 5 square solid DOMAIN
+  FT   DOMAIN        4     64  CSD.
+feature 71 132 5 square solid DOMAIN
+  FT   DOMAIN        4     64  CSD.
+feature 68 135 0 square solid PFAM-A
+  FT   PFAM-A        1     67  PF00313 CSD
+feature 68 135 0 square solid PFAM-A
+  FT   PFAM-A        1     67  PF00313 CSD
+sequence
+  ............................................................
+  .......MEIGIVKWFNNAKGFGFISAEGVDADIFAHYSVIEMDGYRSLKAGQKVQFEVL
+  HSDK.GSHATKIIPIADTQE........................................
+  ............................................................
+  ................
+}
+{
+name GR2B_ARATH
+descrip Glycine-rich protein 2b (AtGRP2b).
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 68 136 5 square solid DOMAIN
+  FT   DOMAIN       14     81  CSD.
+feature 146 189 5 square solid DOMAIN
+  FT   DOMAIN       91    134  Gly-rich.
+feature 191 208 0 square solid DOMAIN
+  FT   DOMAIN      136    153  ZN_FINGCCHCtype 1
+feature 209 234 5 square solid DOMAIN
+  FT   DOMAIN      154    179  Gly-rich.
+feature 235 252 0 square solid DOMAIN
+  FT   DOMAIN      180    197  ZN_FINGCCHCtype 2
+feature 68 136 5 square solid DOMAIN
+  FT   DOMAIN       14     81  CSD.
+feature 146 189 5 square solid DOMAIN
+  FT   DOMAIN       91    134  Gly-rich.
+feature 191 208 0 square solid DOMAIN
+  FT   DOMAIN      136    153  ZN_FINGCCHCtype 1
+feature 209 234 5 square solid DOMAIN
+  FT   DOMAIN      154    179  Gly-rich.
+feature 235 252 0 square solid DOMAIN
+  FT   DOMAIN      180    197  ZN_FINGCCHCtype 2
+feature 68 136 0 square solid PFAM-A
+  FT   PFAM-A       14     81  PF00313 CSD
+feature 191 208 1 square solid PFAM-A
+  FT   PFAM-A      136    153  PF00098 zf-CCHC
+feature 235 252 1 square solid PFAM-A
+  FT   PFAM-A      180    197  PF00098 zf-CCHC
+feature 68 136 0 square solid PFAM-A
+  FT   PFAM-A       14     81  PF00313 CSD
+feature 191 208 1 square solid PFAM-A
+  FT   PFAM-A      136    153  PF00098 zf-CCHC
+feature 235 252 1 square solid PFAM-A
+  FT   PFAM-A      180    197  PF00098 zf-CCHC
+sequence
+  ......................................................MSGGGD
+  VNMSGGDRRKGTVKWFDTQKGFGFITPSDGGDDLFVHQSSIRSEGFRSLAAEESVEFDVE
+  VDNS.GRPKAIEVSGPDGAPVQGNSGGGGSSGGRGGFGGGGGRGGGRGGGSYGGGYGGRG
+  SGGRGGGGGDNSCFKCGEPGHMARECSQGGGGYSGGGGGGRYGSGGGGGGGGGGLSCYSC
+  GESGHFARDCTSGGAR
+}
+{
+name CSPF_ECOLI
+descrip Cold shock-like protein cspF (CSP-F).
+creator Escherichia coli, andEscherichia coli O6.Bacteria;
+type    PROTEIN
+group 1
+feature 71 132 5 square solid DOMAIN
+  FT   DOMAIN        7     67  CSD.
+feature 71 132 5 square solid DOMAIN
+  FT   DOMAIN        7     67  CSD.
+feature 68 135 0 square solid PFAM-A
+  FT   PFAM-A        4     70  PF00313 CSD
+feature 68 135 0 square solid PFAM-A
+  FT   PFAM-A        4     70  PF00313 CSD
+sequence
+  ............................................................
+  ....MSRKMTGIVKTFDGKSGKGLITPSDGRIDVQLHVSALNLRDAEEITTGLRVEFCRI
+  NGLR.GPSAANVYLS.............................................
+  ............................................................
+  ................
+}
+{
+name PIPI_HUMAN
+descrip RNA-binding protein PIPPin.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 68 135 5 square solid DOMAIN
+  FT   DOMAIN       68    135  CSD.
+feature 68 135 5 square solid DOMAIN
+  FT   DOMAIN       68    135  CSD.
+sequence
+  MTSESTSPPVVPPLHSPKSPVWPTFPFHREGSRVWERGGVPPRDLPSPLPTKRTRTYSAT
+  ARASAGPVFKGVCKQFSRSQGHGFITPENGSEDIFVHVSDIEGEYVPVEGDEVTYKMCPI
+  PPKNQKFQAVEVVLTQLAPHTPHETWSGQVVGS...........................
+  ............................................................
+  ................
+}

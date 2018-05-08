@@ -1,0 +1,390 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1cpj_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 221 223 0 square solid STRUCT
+  FT   STRUCT        5      7  STRAND
+feature 223 226 3 square solid STRUCT
+  FT   STRUCT        7     10  HELIX
+feature 232 234 3 square solid STRUCT
+  FT   STRUCT       16     18  HELIX
+feature 248 264 3 square solid STRUCT
+  FT   STRUCT       29     45  HELIX
+feature 276 282 3 square solid STRUCT
+  FT   STRUCT       56     62  HELIX
+feature 290 292 3 square solid STRUCT
+  FT   STRUCT       70     72  HELIX
+feature 296 306 3 square solid STRUCT
+  FT   STRUCT       76     85  HELIX
+feature 383 389 0 square solid STRUCT
+  FT   STRUCT      147    153  STRAND
+feature 394 404 3 square solid STRUCT
+  FT   STRUCT      157    167  HELIX
+feature 407 410 0 square solid STRUCT
+  FT   STRUCT      170    173  STRAND
+feature 413 416 0 square solid STRUCT
+  FT   STRUCT      176    178  STRAND
+feature 416 418 3 square solid STRUCT
+  FT   STRUCT      178    180  HELIX
+feature 425 426 0 square solid STRUCT
+  FT   STRUCT      187    188  STRAND
+feature 441 443 0 square solid STRUCT
+  FT   STRUCT      195    197  STRAND
+feature 446 455 0 square solid STRUCT
+  FT   STRUCT      200    209  STRAND
+feature 464 470 0 square solid STRUCT
+  FT   STRUCT      212    218  STRAND
+feature 482 486 0 square solid STRUCT
+  FT   STRUCT      230    234  STRAND
+feature 499 501 3 square solid STRUCT
+  FT   STRUCT      239    241  HELIX
+feature 506 511 0 square solid STRUCT
+  FT   STRUCT      246    251  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................................LPESFDAREQWSNCPTIAQIRDQG
+  ...SCGSCWAFGAVEAMSDRICIHTNG.RVNVEVSAEDLLTCCGIQCGDGCNGGYPSGAW
+  .NFWTRKGLVSGGVYNSHIGCLPYTIPPCEHHVNG.ARPPCT...GEGDTPKCN......
+  .....KMCEAGYSTSYKEDKHYGYTSYSV.SDSEKEIMAEIYKNGPVEGAFTVF.SDFLT
+  YKSGVYKHEA........GDVMGGHAIRILGWGIEN......GVPYWLVANSWNADWGDN
+  GFFKILRG........ENHCGIESEIVAGIPRT......
+}
+{
+name TNAG_HUMAN
+descrip Tubulointerstitial nephritis antigen (TIN-Ag).
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 59 107 5 square solid DOMAIN
+  FT   DOMAIN       59    107  SMB.
+feature 49 50 12 square solid SITE
+  FT   SITE         49     50  SITE_Cleavage by furin Potential
+feature 38 38 5 square solid SITE
+  FT   SITE         38     38  CARBOHYD_Nlinked GlcNAc Potential
+feature 175 175 5 square solid SITE
+  FT   SITE        175    175  CARBOHYD_Nlinked GlcNAc Potential
+feature 329 329 5 square solid SITE
+  FT   SITE        314    314  CARBOHYD_Nlinked GlcNAc Potential
+feature 393 393 5 square solid SITE
+  FT   SITE        360    360  CARBOHYD_Nlinked GlcNAc Potential
+feature 498 498 5 square solid SITE
+  FT   SITE        455    455  CARBOHYD_Nlinked GlcNAc Potential
+feature 119 169 1 square solid VARSPLIC
+  FT   VARSPLIC    119    169  Missing (in isoform TIN2).
+feature 209 308 1 square solid VARSPLIC
+  FT   VARSPLIC    209    300  Missing (in isoform TIN2).
+sequence
+  MWTGYKFSIFSYLTTEIWMEKQYLSQREVDLEAYFTRNHTVLQGTRFKRAIFQGQYCRNF
+  GCCEDRDDGCVTEFYAANALCYCDKFCDRENSDCCPDYKSFCREEKEWPPHTQPWYPEGC
+  FKDGQHYEEGSVIKENCNSCTCSGQQWKCSQHVCLVRPELIEQVNKGDYGWTAQNYSQFW
+  GMTLEDGFKFRLGTLPPSPMLLSMNEMTASLPATTDLPEFFVASYKWP..GWTHGPLDQK
+  ...NCAASWAFSTASVAADRIAIQSKG.RYTANLSPQNLISCCAK.NRHGCNSGSIDRAW
+  .WYLRKRG.......LVSHACYPLFKDQNATNNGCAMASRSDGRGKRDATKPCP......
+  ......NNVEKSNRIYQCSPPYRVS......SNETEIMKEIMQNGPVQAIMQVR.EDFFH
+  YKTGIYRHVTSTNKESEKYRKLQTHAVKLTGWGTLRG.AQGQKEKFWIAANFWGKSWGEN
+  GYFRILRG........VNESDIEKLVIAAWGQLTSSDEP
+}
+{
+name 1jqp_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 75 78 3 square solid STRUCT
+  FT   STRUCT        8     11  HELIX
+feature 80 86 0 square solid STRUCT
+  FT   STRUCT       13     19  STRAND
+feature 105 112 0 square solid STRUCT
+  FT   STRUCT       38     45  STRAND
+feature 116 118 0 square solid STRUCT
+  FT   STRUCT       49     51  STRAND
+feature 125 131 0 square solid STRUCT
+  FT   STRUCT       57     63  STRAND
+feature 135 140 0 square solid STRUCT
+  FT   STRUCT       67     72  STRAND
+feature 143 163 0 square solid STRUCT
+  FT   STRUCT       75     86  STRAND
+feature 166 177 0 square solid STRUCT
+  FT   STRUCT       89     97  STRAND
+feature 180 184 0 square solid STRUCT
+  FT   STRUCT      100    104  STRAND
+feature 194 201 0 square solid STRUCT
+  FT   STRUCT      110    117  STRAND
+feature 221 222 0 square solid STRUCT
+  FT   STRUCT      125    126  STRAND
+feature 248 264 3 square solid STRUCT
+  FT   STRUCT      148    164  HELIX
+feature 276 282 3 square solid STRUCT
+  FT   STRUCT      175    181  HELIX
+feature 296 299 3 square solid STRUCT
+  FT   STRUCT      193    196  HELIX
+feature 302 306 3 square solid STRUCT
+  FT   STRUCT      199    203  HELIX
+feature 316 317 0 square solid STRUCT
+  FT   STRUCT      206    207  STRAND
+feature 319 321 3 square solid STRUCT
+  FT   STRUCT      209    211  HELIX
+feature 376 384 0 square solid STRUCT
+  FT   STRUCT      229    237  STRAND
+feature 394 404 3 square solid STRUCT
+  FT   STRUCT      247    257  HELIX
+feature 407 411 0 square solid STRUCT
+  FT   STRUCT      260    264  STRAND
+feature 416 419 3 square solid STRUCT
+  FT   STRUCT      268    271  HELIX
+feature 425 426 0 square solid STRUCT
+  FT   STRUCT      277    278  STRAND
+feature 445 454 0 square solid STRUCT
+  FT   STRUCT      290    299  STRAND
+feature 465 470 0 square solid STRUCT
+  FT   STRUCT      306    311  STRAND
+feature 482 486 0 square solid STRUCT
+  FT   STRUCT      323    327  STRAND
+feature 499 501 3 square solid STRUCT
+  FT   STRUCT      332    334  HELIX
+feature 507 512 0 square solid STRUCT
+  FT   STRUCT      340    345  STRAND
+sequence
+  ............................................................
+  .......DTPANCTYPDLLGTWVFQVGPRHPRSHINCSVMEPTEEKVVIHLKKLDTAY.D
+  EVGNSGYFTLIYNQGFEIVLNDYKWFAFFK.........YEVKGSRAIS.YCH..ETMTG
+  WVHD....VLGRNWACFVGKKM............LSLPESWDWRNVR.GINFVSPVRNQE
+  ...SCGSCYSFASLGMLEARIRILTNNS.QTPILSPQEVVSCSP..YAQGCDGGFPYLIA
+  GKYAQDF.......GVVEENCFPYTA......................TDAPCK......
+  .........PKENCLRYYSSEYYYVGGFYGGCNEALMKLELVKHGPMAVAFEVH.DDFLH
+  YHSGIYHHPFNPF.......ELTNHAVLLVGYGKDPVT....GLDYWIVKNSWGSQWGES
+  GYFRIRRG........TDECAIESIAMAAIPIPKL....
+}
+{
+name CAL2_GIALA
+descrip Cathepsin B-like CP2 precursor (EC 3.4.22.-) (Cathepsin B-li
+creator Giardia lamblia (Giardia intestinalis).Eukaryota;
+type    PROTEIN
+group 1
+feature 248 248 0 square solid SITE
+  FT   SITE        101    101  ACT_SITE_By similarity
+feature 445 445 0 square solid SITE
+  FT   SITE        245    245  ACT_SITE_By similarity
+feature 471 471 0 square solid SITE
+  FT   SITE        266    266  ACT_SITE_By similarity
+feature 232 262 3 square solid SITE
+  FT   SITE         88    115  DISULFID_By similarity
+feature 245 291 3 square solid SITE
+  FT   SITE         98    141  DISULFID_By similarity
+feature 282 353 3 square solid SITE
+  FT   SITE        134    177  DISULFID_By similarity
+feature 117 135 4 square solid SIGNAL
+  FT   SIGNAL        1     19  Potential.
+sequence
+  ............................................................
+  ........................................................MKLF
+  LLAAAAFSAPALTVSELNHIKSLNPR................WKAGIPKRFEGLTKDEIS
+  SLLMPVSFLKNAKGAAPRGTFTDK..........DDVPESFDFREEYP..HCIPEVVDQG
+  ...GCGSCWAFSSVATFGDRRCVAGLD.KKPVKYSPQYVVSCDH..GDMACNGGWLPNVW
+  .KFLTKTG.......TTTDECVPYKSGS..................TTLRGTCPTKCAD.
+  .........GSSKVHLATATSYKDYG.....LDIPAMMKALSTSGPLQVAFLVH.SDFMY
+  YESGVYQHTY........GYMEGGHAVEMVGYGTDDD.....GVDYWIIKNSWGPDWGED
+  GYFRMIRG........INDCSIEEQAYAGFFDE......
+}
+{
+name 1deu_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 221 222 0 square solid STRUCT
+  FT   STRUCT        5      6  STRAND
+feature 248 262 3 square solid STRUCT
+  FT   STRUCT       31     45  HELIX
+feature 276 282 3 square solid STRUCT
+  FT   STRUCT       59     65  HELIX
+feature 289 290 0 square solid STRUCT
+  FT   STRUCT       69     70  STRAND
+feature 293 294 0 square solid STRUCT
+  FT   STRUCT       73     74  STRAND
+feature 296 305 3 square solid STRUCT
+  FT   STRUCT       76     84  HELIX
+feature 319 321 3 square solid STRUCT
+  FT   STRUCT       91     93  HELIX
+feature 355 358 3 square solid STRUCT
+  FT   STRUCT      105    108  HELIX
+feature 360 364 0 square solid STRUCT
+  FT   STRUCT      110    114  STRAND
+feature 367 370 0 square solid STRUCT
+  FT   STRUCT      117    120  STRAND
+feature 379 385 0 square solid STRUCT
+  FT   STRUCT      129    135  STRAND
+feature 394 404 3 square solid STRUCT
+  FT   STRUCT      138    148  HELIX
+feature 407 411 0 square solid STRUCT
+  FT   STRUCT      151    155  STRAND
+feature 416 419 3 square solid STRUCT
+  FT   STRUCT      159    162  HELIX
+feature 425 426 0 square solid STRUCT
+  FT   STRUCT      168    169  STRAND
+feature 445 455 0 square solid STRUCT
+  FT   STRUCT      180    190  STRAND
+feature 465 471 0 square solid STRUCT
+  FT   STRUCT      194    200  STRAND
+feature 482 486 0 square solid STRUCT
+  FT   STRUCT      211    215  STRAND
+feature 490 492 3 square solid STRUCT
+  FT   STRUCT      219    221  HELIX
+feature 494 496 3 square solid STRUCT
+  FT   STRUCT      223    225  HELIX
+feature 506 511 0 square solid STRUCT
+  FT   STRUCT      235    240  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................................LPKSWDWRNVD.GVNYASITRNQH
+  IPQYCGSCWAHASTSAMADRINIKRKGAWPSTLLSVQNVIDCGN...AGSCEGGNDLSVW
+  .DYAHQH.......GIPDETCNNYQA......................KDQECDKFNQCG
+  TCNEFKECHAIRNYTLWRVGDYGSLS......GREKMMAEIYANGPISCGIMAT.ERLAN
+  YTGGIYAEYQ........DTTYINHVVSVAGWGISD......GTEYWIVRNSWGEPWGER
+  GWLRIVTSTYKDGKGARYNLAIEEHCTFGDPIV......
+}
+{
+name 1ppn_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 221 222 0 square solid STRUCT
+  FT   STRUCT        5      6  STRAND
+feature 248 265 3 square solid STRUCT
+  FT   STRUCT       25     42  HELIX
+feature 276 282 3 square solid STRUCT
+  FT   STRUCT       50     56  HELIX
+feature 296 306 3 square solid STRUCT
+  FT   STRUCT       68     77  HELIX
+feature 370 372 3 square solid STRUCT
+  FT   STRUCT       98    100  HELIX
+feature 381 385 0 square solid STRUCT
+  FT   STRUCT      109    113  STRAND
+feature 394 404 3 square solid STRUCT
+  FT   STRUCT      118    127  HELIX
+feature 407 411 0 square solid STRUCT
+  FT   STRUCT      130    134  STRAND
+feature 416 419 3 square solid STRUCT
+  FT   STRUCT      139    142  HELIX
+feature 425 426 0 square solid STRUCT
+  FT   STRUCT      148    149  STRAND
+feature 445 453 0 square solid STRUCT
+  FT   STRUCT      159    167  STRAND
+feature 466 470 0 square solid STRUCT
+  FT   STRUCT      170    174  STRAND
+feature 482 486 0 square solid STRUCT
+  FT   STRUCT      186    190  STRAND
+feature 499 501 3 square solid STRUCT
+  FT   STRUCT      199    201  HELIX
+feature 506 510 0 square solid STRUCT
+  FT   STRUCT      206    210  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................................IPEYVDWRQK....GAVTPVKNQG
+  ...SCGSCWAFSAVVTIEGIIKIRTG...NLNEYSEQELLDCDR..RSYGCNGGYPWSAL
+  .QLVAQY.......GIHYRNTYPYEG......................VQRYCR......
+  ........SREKGPYAAKTDGVRQVQ....PYNEGALLYSIA.NQPVSVVLEAAGKDFQL
+  YRGGIFVGP........CGN.KVDHAVAAVGYGP..........NYILIKNSWGTGWGEN
+  GYIRIKRG....TGNSYGVCGLYTSSFYPVKN.......
+}
+{
+name 1aim_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 220 222 0 square solid STRUCT
+  FT   STRUCT        4      6  STRAND
+feature 224 226 3 square solid STRUCT
+  FT   STRUCT        8     10  HELIX
+feature 248 263 3 square solid STRUCT
+  FT   STRUCT       25     40  HELIX
+feature 276 282 3 square solid STRUCT
+  FT   STRUCT       50     56  HELIX
+feature 290 292 3 square solid STRUCT
+  FT   STRUCT       62     64  HELIX
+feature 296 307 3 square solid STRUCT
+  FT   STRUCT       68     78  HELIX
+feature 315 317 0 square solid STRUCT
+  FT   STRUCT       79     81  STRAND
+feature 319 321 3 square solid STRUCT
+  FT   STRUCT       83     85  HELIX
+feature 375 386 0 square solid STRUCT
+  FT   STRUCT      102    113  STRAND
+feature 394 404 3 square solid STRUCT
+  FT   STRUCT      116    126  HELIX
+feature 407 411 0 square solid STRUCT
+  FT   STRUCT      129    133  STRAND
+feature 416 420 3 square solid STRUCT
+  FT   STRUCT      136    140  HELIX
+feature 425 426 0 square solid STRUCT
+  FT   STRUCT      145    146  STRAND
+feature 445 454 0 square solid STRUCT
+  FT   STRUCT      155    164  STRAND
+feature 466 470 0 square solid STRUCT
+  FT   STRUCT      166    170  STRAND
+feature 482 486 0 square solid STRUCT
+  FT   STRUCT      182    186  STRAND
+feature 499 501 3 square solid STRUCT
+  FT   STRUCT      191    193  HELIX
+feature 506 510 0 square solid STRUCT
+  FT   STRUCT      198    202  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................................APAAVDWRAR....GAVTAVKDQG
+  ...QCGSCWAFSAIGNVECQWFLAGH...PLTNLSEQMLVSCDK..TDSGCSGGLMNNAF
+  .EWIVQE.......AVYTEDSYPYAG......................ISPPCT......
+  .........TSGHTVGATITGHVELP.....QDEAQIAAWLAVNGPVAVAVDA..SSWMT
+  YTGGVMTS.........CVS.ELDHGVLLVGYNV..........PYWIIKNSWTTQWGEE
+  GYIRIAKG........SNQCLVKEEASSAVVG.......
+}
+{
+name CATO_HUMAN
+descrip Cathepsin O precursor (EC 3.4.22.42).
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 217 510 0 square solid PFAM-A
+  FT   PFAM-A      108    320  PF00112 Peptidase_C1
+feature 248 248 0 square solid SITE
+  FT   SITE        132    132  ACT_SITE_By similarity
+feature 445 445 0 square solid SITE
+  FT   SITE        269    269  ACT_SITE_By similarity
+feature 471 471 0 square solid SITE
+  FT   SITE        289    289  ACT_SITE_By similarity
+feature 245 291 3 square solid SITE
+  FT   SITE        129    170  DISULFID_By similarity
+feature 282 353 3 square solid SITE
+  FT   SITE        163    204  DISULFID_By similarity
+feature 438 500 3 square solid SITE
+  FT   SITE        262    310  DISULFID_By similarity
+feature 141 141 5 square solid SITE
+  FT   SITE         62     62  CARBOHYD_Nlinked GlcNAc Potential
+feature 204 204 5 square solid SITE
+  FT   SITE        105    105  CARBOHYD_Nlinked GlcNAc Potential
+feature 80 102 4 square solid SIGNAL
+  FT   SIGNAL        1     23  Potential.
+sequence
+  ............................................................
+  ...................MDVRALPWLPWLLWLLCRGGGDADSRAPFTPTWPRSREREA
+  AAFRESLNRHRYLNSLFPSENS...................TAFYGINQ.FSYLFPEEFK
+  AIYLRSKPSKFPRYSAEVHMSIPN..........VSLPLRFDWRDK....QVVTQVRNQQ
+  ...MCGGCWAFSVVGAVESAYAIKGK...PLEDLSVQQVIDCSY..NNYGCNGGSTLNAL
+  .NWLNKMQV.....KLVKDSEYPFKA......................QNGLCH......
+  ........YFSGSHSGFSIKGYSAYDFS...DQEDEMAKALLTFGPLVVIVDA..VSWQD
+  YLGG.IIQHH.......CSSGEANHAVLITGFDKTG......STPYWIVRNSWGSSWGVD
+  GYAHVKMG........SNVCGIADSVSSIFV........
+}

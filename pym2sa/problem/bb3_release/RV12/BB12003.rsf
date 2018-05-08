@@ -1,0 +1,166 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1aho_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 21 24 0 square solid STRUCT
+  FT   STRUCT        2      5  STRAND
+feature 42 51 3 square solid STRUCT
+  FT   STRUCT       19     28  HELIX
+feature 56 63 0 square solid STRUCT
+  FT   STRUCT       33     40  STRAND
+feature 66 74 0 square solid STRUCT
+  FT   STRUCT       43     51  STRAND
+sequence
+  ...................VKDGYIVDD.VNCTYFCG...RNAYCNEECTKLKGESGYCQ
+  WASPYGNACYCYKLPDHVRTKG.PGR.CH...
+}
+{
+name 1bmr_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 21 25 0 square solid STRUCT
+  FT   STRUCT        2      6  STRAND
+feature 43 52 3 square solid STRUCT
+  FT   STRUCT       21     30  HELIX
+feature 56 62 0 square solid STRUCT
+  FT   STRUCT       34     40  STRAND
+feature 66 74 0 square solid STRUCT
+  FT   STRUCT       44     52  STRAND
+sequence
+  ...................VRDGYIAQP.ENCVYHCFP..GSSGCDTLCKEKGGTSGHCG
+  FKVGHGLACWCNALPDNVGIIVEGEK.CHS..
+}
+{
+name 1i6f_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 22 25 0 square solid STRUCT
+  FT   STRUCT        2      5  STRAND
+feature 42 51 3 square solid STRUCT
+  FT   STRUCT       18     27  HELIX
+feature 58 60 0 square solid STRUCT
+  FT   STRUCT       34     36  STRAND
+feature 68 72 0 square solid STRUCT
+  FT   STRUCT       39     43  STRAND
+feature 80 81 0 square solid STRUCT
+  FT   STRUCT       51     52  STRAND
+sequence
+  ....................KDGYPVDS.KGCKLSCV...ANNYCDNQCKMKKASGGHCY
+  A.....MSCYCEGLPENAKVSDSATNICG...
+}
+{
+name AEP_MESMA
+descrip Anti-epilepsy peptide precursor (BmK AEP).
+creator Mesobuthus martensii (Manchurian scorpion) (Buthus martensii
+type    PROTEIN
+group 1
+feature 1 53 0 square solid PFAM-A
+  FT   PFAM-A        1     50  PF00537 toxin_3
+feature 32 88 3 square solid SITE
+  FT   SITE         31     81  DISULFID_By similarity
+feature 36 59 3 square solid SITE
+  FT   SITE         35     56  DISULFID_By similarity
+feature 45 69 3 square solid SITE
+  FT   SITE         42     63  DISULFID_By similarity
+feature 49 71 3 square solid SITE
+  FT   SITE         46     65  DISULFID_By similarity
+feature 1 21 4 square solid SIGNAL
+  FT   SIGNAL        1     21  annel inhibitor; Toxin.
+feature 89 89 0 square solid MOD_RES
+  FT   MOD_RES      82     82  Glycine amide G83 provides amide
+sequence
+  MKLFLLLVISASMLIDGLVNADGYIRGS.NGCKVSCLL..GNEGCNKECRAYGASYGYCW
+  T...WKLACWCQGLPDDKTWKS.ESNTCGGKK
+}
+{
+name SCAT_MESMA
+descrip Neurotoxin BmK AS-1 precursor.
+creator Mesobuthus martensii (Manchurian scorpion) (Buthus martensii
+type    PROTEIN
+group 1
+feature 21 88 0 square solid PFAM-A
+  FT   PFAM-A       20     81  PF00537 toxin_3
+feature 32 88 3 square solid SITE
+  FT   SITE         31     81  DISULFID_Neurotoxin BmK AS1
+feature 36 59 3 square solid SITE
+  FT   SITE         35     56  DISULFID_Neurotoxin BmK AS1
+feature 45 69 3 square solid SITE
+  FT   SITE         42     63  DISULFID_Neurotoxin BmK AS1
+feature 49 71 3 square solid SITE
+  FT   SITE         46     65  DISULFID_Neurotoxin BmK AS1
+feature 2 20 4 square solid SIGNAL
+  FT   SIGNAL        1     19  urotoxin; Signal; Toxin.
+sequence
+  .MKIIIFLIVCSFVLIGVKADNGYLLNKYTGCKIWCVI..NNESCNSECKLRRGNYGYCY
+  F...WKLACYCEGAPKSELWAY.ETNKCNGKM
+}
+{
+name SCX6_ANDAU
+descrip Neurotoxin VI (AaH VI) (AaHVI) (AaH6).
+creator Androctonus australis (Sahara scorpion).Eukaryota;
+type    PROTEIN
+group 1
+feature 21 88 0 square solid PFAM-A
+  FT   PFAM-A        2     64  PF00537 toxin_3
+feature 32 88 3 square solid SITE
+  FT   SITE         13     64  DISULFID_ycoprotein Toxin
+feature 36 59 3 square solid SITE
+  FT   SITE         17     40  DISULFID_ycoprotein Toxin
+feature 45 69 3 square solid SITE
+  FT   SITE         26     45  DISULFID_ycoprotein Toxin
+feature 49 71 3 square solid SITE
+  FT   SITE         30     47  DISULFID_ycoprotein Toxin
+feature 28 28 5 square solid SITE
+  FT   SITE          9      9  CARBOHYD_Nlinked GlcNAc
+sequence
+  ...................GRDGYVVKNGTNCKYSCEIGSEYEYCGPLCKRKNAKTGYCY
+  A.....FACWCIDVPDDVKLYGDDGTYCSS..
+}
+{
+name SCX6_CENLL
+descrip Sodium-channel modifier toxin Cll6 precursor.
+creator Centruroides limpidus limpidus (Mexican scorpion).Eukaryota;
+type    PROTEIN
+group 1
+feature 32 88 3 square solid SITE
+  FT   SITE         31     82  DISULFID_By similarity
+feature 36 59 3 square solid SITE
+  FT   SITE         35     58  DISULFID_By similarity
+feature 45 69 3 square solid SITE
+  FT   SITE         44     63  DISULFID_By similarity
+feature 49 71 3 square solid SITE
+  FT   SITE         48     65  DISULFID_By similarity
+feature 2 20 4 square solid SIGNAL
+  FT   SIGNAL        1     19  By similarity.
+feature 89 89 0 square solid MOD_RES
+  FT   MOD_RES      83     83  Serine amide G84 provides amide group
+sequence
+  .MNSLLMIIGCLVLIGTVWTKEGYLVNMKTGCKYGCYELGDNGYCDRKCKAESGNYGYCY
+  T.....VGCWCEGLPNSKPTWPLPGKSCSGK.
+}
+{
+name BIRT_PARTR
+descrip Birtoxin.
+creator Parabuthus transvaalicus (South African fattail scorpion).Eu
+type    PROTEIN
+group 1
+feature 24 78 0 square solid PFAM-A
+  FT   PFAM-A        7     55  PF00537 toxin_3
+feature 36 59 3 square solid SITE
+  FT   SITE         18     41  DISULFID_By similarity
+feature 45 69 3 square solid SITE
+  FT   SITE         27     46  DISULFID_By similarity
+feature 49 71 3 square solid SITE
+  FT   SITE         31     48  DISULFID_By similarity
+sequence
+  .................ADVPGNYPLDK.DGNTYKCFLLGGNEECLNVCKLHGVQYGYCY
+  A.....SKCWCEYLEDDKDSV...........
+}

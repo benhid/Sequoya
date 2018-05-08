@@ -1,0 +1,194 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1cb9_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 23 25 0 square solid STRUCT
+  FT   STRUCT        2      4  STRAND
+feature 37 39 0 square solid STRUCT
+  FT   STRUCT       11     13  STRAND
+feature 46 52 0 square solid STRUCT
+  FT   STRUCT       20     26  STRAND
+feature 63 69 0 square solid STRUCT
+  FT   STRUCT       33     39  STRAND
+feature 81 86 0 square solid STRUCT
+  FT   STRUCT       49     54  STRAND
+sequence
+  .....................LKCKKLV.....PLFSKTCPAGKNLCYKMFMVAA....P
+  HVPVKRGCIDVCPK..SSLLVKYVCCNT.DKCN.........
+}
+{
+name 1kba_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 23 26 0 square solid STRUCT
+  FT   STRUCT        2      5  STRAND
+feature 36 39 0 square solid STRUCT
+  FT   STRUCT       10     13  STRAND
+feature 46 52 0 square solid STRUCT
+  FT   STRUCT       20     26  STRAND
+feature 57 60 3 square solid STRUCT
+  FT   STRUCT       31     34  HELIX
+feature 63 69 0 square solid STRUCT
+  FT   STRUCT       37     43  STRAND
+feature 80 86 0 square solid STRUCT
+  FT   STRUCT       53     59  STRAND
+sequence
+  .....................RTCLISP.....SSTPQTCPNGQDICFLKAQCDKFCSIR
+  GPVIEQGCVATCPQF.RSNYRSLLCCTT.DNCNH........
+}
+{
+name 1fas_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 23 25 0 square solid STRUCT
+  FT   STRUCT        2      4  STRAND
+feature 37 39 0 square solid STRUCT
+  FT   STRUCT       14     16  STRAND
+feature 47 52 0 square solid STRUCT
+  FT   STRUCT       22     27  STRAND
+feature 63 68 0 square solid STRUCT
+  FT   STRUCT       34     39  STRAND
+feature 81 86 0 square solid STRUCT
+  FT   STRUCT       48     53  STRAND
+sequence
+  .....................TMCYSHTTTSR..AILTNC..GENSCYRKSRRHP....P
+  KMVLGRGCG..CPP..GDDYLEVKCCTSPDKCNY........
+}
+{
+name 1drs_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 23 25 0 square solid STRUCT
+  FT   STRUCT        2      4  STRAND
+feature 37 39 0 square solid STRUCT
+  FT   STRUCT       14     16  STRAND
+feature 47 49 0 square solid STRUCT
+  FT   STRUCT       22     24  STRAND
+feature 67 68 0 square solid STRUCT
+  FT   STRUCT       36     37  STRAND
+feature 83 86 0 square solid STRUCT
+  FT   STRUCT       50     52  STRAND
+sequence
+  .....................RICYNHLGTKP..PTTETC..QEDSCYKNIWTF......
+  DNIIRRGCG..CFTPRGDMPGPY.CCES.DKCNL........
+}
+{
+name 1cod_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 24 27 0 square solid STRUCT
+  FT   STRUCT        3      6  STRAND
+feature 35 38 0 square solid STRUCT
+  FT   STRUCT       12     15  STRAND
+feature 47 52 0 square solid STRUCT
+  FT   STRUCT       24     29  STRAND
+feature 63 65 0 square solid STRUCT
+  FT   STRUCT       36     38  STRAND
+feature 82 86 0 square solid STRUCT
+  FT   STRUCT       51     55  STRAND
+sequence
+  .....................LECHNQQSSQT..PTTTGCSGGETNCYKKRWRDH....R
+  GYRTERGCG..CPS..VKNGIEINCCTT.DRCNN........
+}
+{
+name NXL3_OPHHA
+descrip Long neurotoxin 3 (Neurotoxin CM-9).
+creator Ophiophagus hannah (King cobra) (Naja hannah).Eukaryota;
+type    PROTEIN
+group 1
+feature 22 94 0 square solid PFAM-A
+  FT   PFAM-A        1     65  PF00087 toxin
+feature 24 47 3 square solid SITE
+  FT   SITE          3     21  DISULFID_ltigene family Neurotoxin Toxin
+feature 40 68 3 square solid SITE
+  FT   SITE         14     42  DISULFID_ltigene family Neurotoxin Toxin
+feature 53 57 3 square solid SITE
+  FT   SITE         27     31  DISULFID_ltigene family Neurotoxin Toxin
+feature 72 85 3 square solid SITE
+  FT   SITE         46     57  DISULFID_ltigene family Neurotoxin Toxin
+feature 86 92 3 square solid SITE
+  FT   SITE         58     63  DISULFID_ltigene family Neurotoxin Toxin
+sequence
+  .....................TKCYVTP.....DVKSETCPAGQDLCYTETWCVAWCTVR
+  GKRVSLTCAAICPI..VPPKVSIKCCST.DACGPFPTWPNVR
+}
+{
+name CADO_BUNCA
+descrip Candoxin precursor.
+creator Bungarus candidus (Malayan krait).Eukaryota;
+type    PROTEIN
+group 1
+feature 25 93 0 square solid PFAM-A
+  FT   PFAM-A        4     66  PF00087 toxin
+feature 45 72 3 square solid SITE
+  FT   SITE         24     47  DISULFID_Candoxin
+feature 48 53 3 square solid SITE
+  FT   SITE         27     32  DISULFID_Candoxin
+feature 65 91 3 square solid SITE
+  FT   SITE         40     64  DISULFID_Candoxin
+feature 103 104 3 square solid SITE
+  FT   SITE         68     80  DISULFID_Candoxin
+feature 103 104 3 square solid SITE
+  FT   SITE         81     86  DISULFID_Candoxin
+feature 22 42 4 square solid SIGNAL
+  FT   SIGNAL        1     21  urotoxin; Postsynaptic neurotoxin;
+sequence
+  .....................MKCKICNFDTCRAGELKVCASGEKYCFKESWREA....R
+  GTRIERGCAATCPKG.SVYGLYVLCCTT.DDCN.........
+}
+{
+name NXSH_BUNMU
+descrip Short neurotoxin homolog precursor.
+creator Bungarus multicinctus (Many-banded krait).Eukaryota;
+type    PROTEIN
+group 1
+feature 22 94 0 square solid PFAM-A
+  FT   PFAM-A       22     83  PF00087 toxin
+feature 1 21 0 square solid PFAM-B
+  FT   PFAM-B        1     21  PB000594 Pfam-B_594
+feature 24 47 3 square solid SITE
+  FT   SITE         24     45  DISULFID_By similarity
+feature 40 68 3 square solid SITE
+  FT   SITE         39     63  DISULFID_By similarity
+feature 72 85 3 square solid SITE
+  FT   SITE         67     75  DISULFID_By similarity
+feature 86 92 3 square solid SITE
+  FT   SITE         76     81  DISULFID_By similarity
+feature 1 21 4 square solid SIGNAL
+  FT   SIGNAL        1     21  Potential.
+sequence
+  MKTLLLTLVVVTIVCLDLGYTIICRTRDTYQI.PITFTNCE.EGHVCYKYSTTET...PN
+  RILIHRGCAAKCPK.....RLRVICCST.DKCNK........
+}
+{
+name TXM2_NAJKA
+descrip Muscarinic toxin-like protein 2 (MTLP-2).
+creator Naja kaouthia (Monocled cobra) (Naja siamensis).Eukaryota;
+type    PROTEIN
+group 1
+feature 22 94 0 square solid PFAM-A
+  FT   PFAM-A        1     65  PF00087 toxin
+feature 24 47 3 square solid SITE
+  FT   SITE          3     24  DISULFID_By similarity
+feature 40 68 3 square solid SITE
+  FT   SITE         17     42  DISULFID_By similarity
+feature 72 85 3 square solid SITE
+  FT   SITE         46     57  DISULFID_By similarity
+feature 86 92 3 square solid SITE
+  FT   SITE         58     63  DISULFID_By similarity
+sequence
+  .....................LTCVKEKSIF..GVTTEDCPDGQNLCFKRWHMIV...PG
+  RYKKTRGCAATCPI..AENRDVIECCST.DKCNL........
+}

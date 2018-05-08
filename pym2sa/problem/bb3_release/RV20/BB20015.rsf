@@ -1,0 +1,667 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1hst_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 66 75 3 square solid STRUCT
+  FT   STRUCT        5     14  HELIX
+feature 84 86 0 square solid STRUCT
+  FT   STRUCT       22     24  STRAND
+feature 86 96 3 square solid STRUCT
+  FT   STRUCT       24     34  HELIX
+feature 107 121 3 square solid STRUCT
+  FT   STRUCT       41     54  HELIX
+feature 125 128 0 square solid STRUCT
+  FT   STRUCT       58     61  STRAND
+feature 144 147 0 square solid STRUCT
+  FT   STRUCT       69     72  STRAND
+sequence
+  ............................................................
+  .SHPTYSEMIAAAIRAEKSRGG.SSRQSIQKYIKSHYKV....GHNADLQIKLSIRR.LL
+  AAGVLKQTKG........VGASGSFRLAK...............................
+  ............................................................
+  .....................................................
+}
+{
+name H5A_XENLA
+descrip Histone H5A (XLH5A) (H1D) (H1-SA).
+creator Xenopus laevis (African clawed frog).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       24     97  PF00538 linker_histone
+sequence
+  ......................................MAENSAATPAAKPKRSKALKKS
+  TDHPKYSDMILAAVQAEKSRSG.SSRQSIQKYIKNHYKV....GENADSQIKLSIKR.LV
+  TSGALKQTKG........VGASGSFRLAKADE.GKKPAKKP.KKEIKKAVSPKKVA..KP
+  KKAAKSPAKAKKPKVAEKKVKKVAKKKPAPSPKKAKKTKTVKAKPVRASKVKKAKPSKPK
+  AKASPKKSGRKK.........................................
+}
+{
+name H1D_STRPU
+descrip Histone H1-delta.
+creator Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       32    105  PF00538 linker_histone
+sequence
+  ..............................MADTDAAPAAPAPSTPKKAAKKKASKPKTP
+  ASHPKYSDMIASALESLKEKKG.SSRQAILKYVKANFTV....GDNANVHIKQALKR.GV
+  TSGQLRHVKG........SGASGSFLLAEKTK....TPKKAAAKKATPKKKPAAKKTKKP
+  AAKKATKKPAKKPAAKKKVAKPAAKKAAKPVAKKATPKKKVVKKAAKGKGKKK.......
+  .....................................................
+}
+{
+name H1_TIGCA
+descrip Histone H1.
+creator Tigriopus californicus (Marine copepod).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       20     94  PF00538 linker_histone
+sequence
+  ..........................................MTETTSAKPKKVSKPKAK
+  PTHPPTSVMVMAAIKALKERNG.SSLPAIKKYIAANYKV...DVVKNAHFIKKALKS.LV
+  EKKKLVQTKG........AGASGSFKLAAAAK.AEKPKAVA.KPKKAKTPKKKAAA..TK
+  KPTGEKKAKTPKKKPAAKKPAAAKPKKAKTPKKKAAPAKKTPVKKVKKTSPKKKAAPKKK
+  .....................................................
+}
+{
+name H1_DROHY
+descrip Histone H1.
+creator Drosophila hydei (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       45    119  PF00538 linker_histone
+feature 193 260 0 square solid PFAM-B
+  FT   PFAM-B      159    226  PB024138 Pfam-B_24138
+feature 18 61 0 square solid PFAM-B
+  FT   PFAM-B        1     44  PB031456 Pfam-B_31456
+sequence
+  .................MSDSVVAVSASPVTPQTASAEKKVAAKKPASASASKAKKTTAP
+  PTHPPTQQMVDASIQNLKERGG.SSLLAIKKYISATYKC...DAQKLAPFIKKYLKN.SV
+  ANGKLIQTKG........KGASGSFKLSASSK.KEPKPKVS.SVEKKSKKVTSSAA..AA
+  KKKTISATKKPKGVADKKLSKAVVTKKSVDKKKAEKAKAKDAKKVGTIKAKPTTAKAKSS
+  AAKPKTPKPKTTSAKPKKVVAAASPKKAAAKKPKAKTASATKK..........
+}
+{
+name H11_DROVI
+descrip Histone H1.1.
+creator Drosophila virilis (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       44    118  PF00538 linker_histone
+feature 193 283 0 square solid PFAM-B
+  FT   PFAM-B      160    250  PB024138 Pfam-B_24138
+feature 18 61 0 square solid PFAM-B
+  FT   PFAM-B        1     43  PB031456 Pfam-B_31456
+sequence
+  .................MSDSAVATSASPVIAQAASGEKKVSTKK.GSSTPESKKSTAAP
+  PSHPPTQQMVDASIKNLKERGG.SSLLAIKKYIGATYKC...DAQKLAPFIKKYLKN.AV
+  ANGNVIQTKG........KGASGSFKLSASAN.KDAKPKAS.AVEKKTKKVNASAARATK
+  SKSSTSTTKKAAGAADKKLSKSAAAKKNVEKKKADKEKAKDAKKTGTIKAKPTTAKAKSS
+  ATKPKTPKPKTTSAKPKKVVSATTPKKTAVKKPKAKTASATKK..........
+}
+{
+name H1_DROME
+descrip Histone H1.
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       45    119  PF00538 linker_histone
+sequence
+  .................MSDSAVATSASPVAAPPATVEKKVVQKKASGSAGTKAKKASAT
+  PSHPPTQQMVDASIKNLKERGG.SSLLAIKKYITATYKC...DAQKLAPFIKKYLKS.AV
+  VNGKLIQTKG........KGASGSFKLSASAK.KEKDPKAKSKVLSAEKKVQSKKVASKK
+  IGVSSKKTAVGAADKKPKAKKAVATKKTAENKKTEKAKAKDAKKTGIIKSKPAATKAKVT
+  AAKPKAVVAKASKAKPAVSAKPKKTVKKASVSATAKKPKAKTTAAKK......
+}
+{
+name H1G_STRPU
+descrip Histone H1-gamma, late.
+creator Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       17     91  PF00538 linker_histone
+sequence
+  .............................................MSAAKPKVAKKARVA
+  PAHPPSSQMVVAAVTALKERGG.SSTQAIKKYIAANYTV...DMTKQGPFIRRALVK.GV
+  ASGALVQTKG........KGASGSFKLGKKKE.GKSDAQKARIAAKKAKLAAKKKEQREK
+  KALKTKARKEKVAAKKAAKKATKKTKKVKKPAAKKAKKPAAKKPAAKKPAAKKAKKPAKK
+  VAKPAKKAAAKPAKKAAKPAKKAAKPAKKAAKPAKK.................
+}
+{
+name H1B_STRPU
+descrip Histone H1-beta, late embryonic.
+creator Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       17     91  PF00538 linker_histone
+sequence
+  .............................................MAAEQKKVAKKPRAK
+  PAHPSSSEMVLAAITALKERGG.SSAQAIRKYIEKNYTV...DIKKQAIFIKRALIT.GV
+  EKGTLVQVKG........KGASGSFKLGKKKE.GKSDAQKAPDAAKKAKLAAKKKEAKEK
+  KAARSKAKKEKLAAKKASKKTTKKVKKPAAKKAKKPAAKKAAKKPAAKKPAAKKAAAKPA
+  PAKKAAKKPAAKKAAKKVAKKPAAKKAAKK.......................
+}
+{
+name H1E_CHIPA
+descrip Histone H1E.
+creator Chironomus pallidivittatus (Midge).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       50    124  PF00538 linker_histone
+feature 13 61 0 square solid PFAM-B
+  FT   PFAM-B        1     49  PB009523 Pfam-B_9523
+sequence
+  ............MSDPAQEVEAPVEAAPVASSPKGKKEKAPKAPKAEKPKSDKPKKPKAA
+  PTHPPVSEMVVNAITTLKERGG.SSLIAIKKFVAAQYKV...DVEKLVPFIKKFLKA.SV
+  AKGTLLQAKG........KGASGSFKLPPAAK.KVDKPKKAPAAPKPKSTNKRVTGEKKV
+  VKKPAAKKPEAKKATKAAKPAAKKVAAKPAAKKAAAPKPKPAAKPKKEVKPKEEAKPKKA
+  AAKPAKPAAKPAKKPAAKKAK................................
+}
+{
+name H12_GLYBA
+descrip Histone H1-II.
+creator Glyptotendipes barbipes.Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       39    114  PF00538 linker_histone
+feature 150 206 0 square solid PFAM-B
+  FT   PFAM-B      115    170  PB070254 Pfam-B_70254
+sequence
+  .......................MSDPAPEVAPAAPVASPAKAKKEKKPKSDKPKKPKAP
+  RTHPPVSEMVVNAIKTLKERGG.SSLQAIKKFLVAQYKV...DVEKLAPFIKKYLKGGAV
+  VKGELLQTKG........KGASGSFKLPAAAK.KEKVAKKPMKATGEKKPKAAAKPKKAG
+  EKKKSIAKKPKAATATKVKKPVAKSTKKQAAVKPAAKKAAPKPKAVPKPKAAKPKKEAKP
+  KKAAAPKAAKKPAQKKPKATKKPAAKKA.........................
+}
+{
+name H11_GLYBA
+descrip Histone H1-I.
+creator Glyptotendipes barbipes.Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       51    125  PF00538 linker_histone
+feature 12 61 0 square solid PFAM-B
+  FT   PFAM-B        1     50  PB009523 Pfam-B_9523
+sequence
+  ...........MSDSAPEIETPVEEAPKAASPAKSPAKSPGRAKKAKKDGSDKPKKPKAI
+  PTHPPVSEMVVNALKTLNEKGG.SSVIAIKKFLVATYKV...EIEKLLPFIKKFLKG.AV
+  LKGEVLQVKG........TGASGSFKMPPPAK.KVDRPESAPKKKATKTKTRVERKEKKV
+  VAKKPKPAVEKKAAKPAAKKAAAKPAAKKAAAKPAAKKPAAKASPKKAAAKPKAKPTPKK
+  STPAKPKAAARKPAKKSK...................................
+}
+{
+name H1A_PLADU
+descrip Histone H1A, sperm.
+creator Platynereis dumerilii (Dumeril's clam worm).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 149 5 square solid DOMAIN
+  FT   DOMAIN        9     79  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       10     79  PF00538 linker_histone
+sequence
+  ....................................................ARRRKTAA
+  AAHPPVATMVVTAILGLKERKG.SSMVAIKKYIAANYRV...DVARLAPFIRKFIR....
+  ..KAVKQTKG........TGASGSFRVNKTAV.PKKKKAAKKPKAKKVKKPKSAAKKKTN
+  RARKPKTKKNRN................................................
+  .....................................................
+}
+{
+name H1E_STRPU
+descrip Histone H1, early embryonic.
+creator Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       17     91  PF00538 linker_histone
+sequence
+  .............................................MAEKNSSKKVTTKKP
+  AAHPPAAEMVATAITELKDRNG.SSLQAIKKYIATNFDV...QMDRQLLFIKRALKS.GV
+  EKGKLVQTKG........KGASGSFKVNVQAA.KAQASEKAKKEKEKAKLLAQREKAKEK
+  GCSEEGETAEGSRPKKVKAAPKKAKKPVKKTTEKKEKKKTPKKAPKKPAAKKSTPKKTPK
+  KAAAKKPKTAKPKKPAXKKAAKSK.............................
+}
+{
+name H1_PARAN
+descrip Histone H1, gonadal.
+creator Parechinus angulosus (Angulate sea urchin).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       41    115  PF00538 linker_histone
+sequence
+  .....................PGSPQKRAASPRKSPRKSPKKSPRKASASPRRKAKRARA
+  STHPPVLEMVQAAITAMKERKG.SSAAKIKSYMAANYRV...DMNVLAPHVRRALRN.GV
+  ASGALKQVTG........TGASGRFRVGAVAKPKKAKKTSAAAKAKKAKAAAAKKARKAK
+  AAAKRKAALAKKKAAAAKRKAAAKAKKAKKPKKKAAKKAKKPAKKSPKKAKKPAKKSPKK
+  KKAKRSPKKAKKAAGKRKPAAKKARRSPRKAGKRRSPKKARK...........
+}
+{
+name H1_ECHCR
+descrip Histone H1, gonadal (Fragment).
+creator Echinolampas crassa (Sea urchin).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       37    111  PF00538 linker_histone
+sequence
+  .........................AASPQKRAASPRKSPKKSPRKSPKKKSPRKRKARS
+  AAHPPVIDMITAAIAAQKERRG.SSVAKIQSYIAAKYRC...DINALNPHIRRALKN.QV
+  KSGALKQVSG........VGATGRFRVGAVKR...SAASANKLKATREKARARAKAKKAK
+  AAARRKAAAAKRKAAAAKRRAAKKARKAKAKP............................
+  .....................................................
+}
+{
+name H12_CAEEL
+descrip Histone H1.2.
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 5 square solid DOMAIN
+  FT   DOMAIN       36    112  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       36    112  PF00538 linker_histone
+feature 27 61 0 square solid PFAM-B
+  FT   PFAM-B        1     35  PB045110 Pfam-B_45110
+feature 27 27 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine Probable
+sequence
+  ..........................SDVTVAETPAVKTPTKAPKAPKSKTTTEPSSKVA
+  AAHPPFINMIKEAIKQLKERKG.SSKIAILKYITANYKVG.DQLTRINSRLRAALNK.GV
+  ASKALVQSVG........NGASGRFRVPEKAA...ATKKPVAKKPVAKKAATGEKKAKKT
+  TVAKKTGDKVKKAKSPKKIAKPAAKKVAKSPAKKAAPKKAPAKKAAAPKA..........
+  .....................................................
+}
+{
+name H11_CAEEL
+descrip Histone H1.1.
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 5 square solid DOMAIN
+  FT   DOMAIN       36    112  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       36    112  PF00538 linker_histone
+feature 27 27 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine Probable
+sequence
+  ..........................SDSAVVAAAVEPKVPKAKAAKAAKPTKVAKAKAP
+  VAHPPYINTIKEAIKQLKDRKG.ASKQAILKFISQNYKLG.DNVIQINAHHRQALKR.GV
+  TSKALVQARG........SGANGRFRVPEKAAAAKKPAAAKKPAAAKKPAAAKKATGEKK
+  AKKPAAAKPKKAATGDKKVKKAKSPKKVAKPAAKKVAKSPAKKAAPKKIAKPAAKKAAKP
+  AAKA.................................................
+}
+{
+name H11_BOVIN
+descrip Histone H1.1 (Fragment).
+creator Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 145 0 square solid PFAM-A
+  FT   PFAM-A       35    104  PF00538 linker_histone
+feature 28 28 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine
+feature 62 62 0 square solid MOD_RES
+  FT   MOD_RES      35     35  Phosphoserine Potential
+feature 144 144 0 square solid MOD_RES
+  FT   MOD_RES     103    103  Phosphoserine by PKC
+sequence
+  ...........................SETAPAAPAAAPPAEKTPVKKKAAKKPAGARRK
+  ASGPPVSELITKAVAASKERSG.VSLAALKKALAAAGY....DVEKNNSRIKLGLKS.LV
+  SKGTLVQTKG........TGASGSF...................................
+  ............................................................
+  .....................................................
+}
+{
+name H11_MOUSE
+descrip Histone H1.1 (H1 VAR.3) (H1a).
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       37    110  PF00538 linker_histone
+feature 26 26 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine By similarity
+sequence
+  .........................SETAPVAQAASTATEKPAAAKKTKKPAKAAAPRKK
+  PAGPSVSELIVQAVSSSKERSG.VSLAALKKSLAAAGY....DVEKNNSRIKLGLKS.LV
+  NKGTLVQTKG........TGAAGSFKLNKKAESKAITTKVSVKAKASGAAKKPKKTAGAA
+  AKKTVKTPKKPKKPAVSKKTSKSPKKPKVVKAKKVAKSPAKAKAVKPKASKAKVTKPKTP
+  AKPKKAAPKKK..........................................
+}
+{
+name H11_HUMAN
+descrip Histone H1.1.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       38    111  PF00538 linker_histone
+feature 25 25 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine By similarity
+sequence
+  ........................SETVPPAPAASAAPEKPLAGKKAKKPAKAAAASKKK
+  PAGPSVSELIVQAASSSKERGG.VSLAALKKALAAAGY....DVEKNNSRIKLGIKS.LV
+  SKGTLVQTKG........TGASGSFKLNKKASSVETKPGASKVATKTKATGASKKLKKAT
+  GASKKSVKTPKKAKKPAATRKSSKNPKKPKTVKPKKVAKSPAKAKAVKPKAAKARVTKPK
+  TAKPKKAAPKKK.........................................
+}
+{
+name H101_CHICK
+descrip Histone H1.01.
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 5 square solid DOMAIN
+  FT   DOMAIN       36    109  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       36    109  PF00538 linker_histone
+feature 27 27 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine By similarity
+sequence
+  ..........................SETAPAAAPDAPAPGAKAAAKKPKKAAGGAKARK
+  PAGPSVTELITKAVSASKERKG.LSLAALKKALAAGGY....DVEKNNSRIKLGLKS.LV
+  SKGTLVQTKG........TGASGSFRLNKKPGEVKEKAPRKRATAAKPKKPAAKKPAAAA
+  KKPKKAAAVKKSPKKAKKPAAAATKKAAKSPKKAAKAGRPKKAAKSPAKAKAVKPKAAKP
+  KATKPKAAKAKKTAAKKK...................................
+}
+{
+name H1_ONCMY
+descrip Histone H1 [Contains: Oncorhyncin II].
+creator Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).Eukary
+type    PROTEIN
+group 1
+feature 62 149 5 square solid DOMAIN
+  FT   DOMAIN       27    100  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       27    100  PF00538 linker_histone
+feature 186 187 12 square solid SITE
+  FT   SITE        137    138  SITE_Cleavage Probable
+feature 36 36 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylalanine By similarity
+sequence
+  ...................................AEVAPAPAAAAPAKAPKKKAAAKPK
+  KAGPSVGELIVKAVSASKERSG.VSLAALKKSLAAGGY....DVEKNNSRVKIAVKS.LV
+  TKGTLVQTKG........TGASGSFKLNKKAVEAKKPAKKAAAPKAKKVAAKKPAAAKKP
+  KKVAAKKAVAAKKSPKKAKKPATPKKAAKSPKKVKKPAAAAKKAAKSPKKATKAAKPKAA
+  KPKAAKAKKAAPKKK......................................
+}
+{
+name H1B_XENLA
+descrip Histone H1B.
+creator Xenopus laevis (African clawed frog).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 5 square solid DOMAIN
+  FT   DOMAIN       39    112  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       39    112  PF00538 linker_histone
+sequence
+  .......................TATTETAPVAPPAEPAAAKKTKKQQPKKVAGGAKAKK
+  PSGPSASELIVKAVSSSKERSG.VSLAALKKALAAGGY....DVDKNNSRLKLALKA.LV
+  TKGTLTQVKG........SGASGSFKLNKKQLETKDKAAKKKPAAPKAKKTAAGAKKAPK
+  SPKKPKKVSAAAKSPKKVKKLAKAAKSPKKPKAVKAKKVAKSPAKKATKPKTAKSPAKAK
+  VAKPKAAKAKKPAPKK.....................................
+}
+{
+name H1A_XENLA
+descrip Histone H1A.
+creator Xenopus laevis (African clawed frog).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 5 square solid DOMAIN
+  FT   DOMAIN       41    112  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       41    112  PF00538 linker_histone
+sequence
+  .....................AEAAESAPAPPPAEPAAKKKKQQPKKAAAARGAAKSKKP
+  SSGPSVSEQIVTAVSASKERSG.VSLAALKKTLAAGGY....DVDKNNSRLKLALK...V
+  TKETLLQVKG........SGASGSFKLNKKQLQSKDKAAAKKKAPLAAEAKKPAAAAKKT
+  AKSPKKPKKVSAAAKSPKKLKKPAKAAKSPAKKTAVKPKVAAKSPAKAKAAKPKVAKAKK
+  AAPKKK...............................................
+}
+{
+name H1T_PIG
+descrip Histone H1t.
+creator Sus scrofa (Pig).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 5 square solid DOMAIN
+  FT   DOMAIN       39    112  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       39    112  PF00538 linker_histone
+feature 150 248 0 square solid PFAM-B
+  FT   PFAM-B      113    211  PB015135 Pfam-B_15135
+feature 25 61 0 square solid PFAM-B
+  FT   PFAM-B        2     38  PB027589 Pfam-B_27589
+feature 24 24 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylalanine
+sequence
+  .......................AETAPAAPADSVPASVEKPPAKKRGKKPVGLTGTSRK
+  APSASVSKLITEALSVSQERAG.MSLAALKKALAAAGY....DVEKNNSRIKLGLKS.LV
+  GKGILVQTRG........TGASGSFKLSKKAAPEPRKGKVKKPAAAKTKKLVLSRDSKSP
+  KSAKANKRAKKSRTTAAQKAARSGRKTKEAKVKQQRKSPAKARAAKPKAGNPKLTQQKTN
+  PRKATNRK.............................................
+}
+{
+name H1T_HUMAN
+descrip Histone H1t (Testicular H1 histone).
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 5 square solid DOMAIN
+  FT   DOMAIN       39    112  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       39    112  PF00538 linker_histone
+feature 150 243 0 square solid PFAM-B
+  FT   PFAM-B      113    206  PB015135 Pfam-B_15135
+feature 24 61 0 square solid PFAM-B
+  FT   PFAM-B        1     38  PB027589 Pfam-B_27589
+feature 24 24 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine By similarity
+sequence
+  .......................SETVPAASASAGVAAMEKLPTKKRGRKPAGLISASRK
+  VPNLSVSKLITEALSVSQERVG.MSLVALKKALAAAGY....DVEKNNSRIKLSLKS.LV
+  NKGILVQTRG........TGASGSFKLSKKVIPKSTRSKAKKSVSAKTKKLVLSRDSKSP
+  KTAKTNKRAKKPRATTPKTVRSGRKAKGAKGKQQQKSPVKARASKSKLTQHHEVNVRKAT
+  SKK..................................................
+}
+{
+name H1T_MOUSE
+descrip Histone H1t (Testicular H1 histone).
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 5 square solid DOMAIN
+  FT   DOMAIN       37    110  Globular.
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       37    110  PF00538 linker_histone
+feature 173 246 0 square solid PFAM-B
+  FT   PFAM-B      134    207  PB015135 Pfam-B_15135
+feature 26 61 0 square solid PFAM-B
+  FT   PFAM-B        1     36  PB053201 Pfam-B_53201
+feature 26 26 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine By similarity
+sequence
+  .........................SETAPAASSTLVPAPVEKPSSKRRGKKPGLAPARK
+  PRGFSVSKLIPEALSTSQERAG.MSLAALKKALAAAGY....DVEKNNSRIKLALKR.LV
+  NKGVLVQTKG........TGASGSFKLSKKAASGNDKGKGKKSASAKAKKMGLPRASRSP
+  KSSKTKAVKKPKATPTKASGSRRKTKGAKGVQQRKSPAKARAANPNSGKAKMVMQKTDLR
+  KAAGRK...............................................
+}
+{
+name H1L_MYTCA
+descrip Sperm-specific protein PHI-2B (PL-II*) (Sperm-specific linke
+creator Mytilus californianus (California mussel).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       40    119  PF00538 linker_histone
+sequence
+  ......................PSPSRRSRSRSRSRSKSPKRSPAKKARKTPKKRRATGG
+  AKKPSTLSMIVAAIQAMKNRKG.SSVQAIRKYILANNK......GINTSRLGSAMKL.AF
+  AKGLKSGVLVRPKTSAGASGATGSFRVGKAPSSPKKKAKKAKSPKKKSSKKSSNKSNN..
+  ............................................................
+  .....................................................
+}
+{
+name H1_WHEAT
+descrip Histone H1.
+creator Triticum aestivum (Wheat).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       54    124  PF00538 linker_histone
+feature 9 61 0 square solid PFAM-B
+  FT   PFAM-B        1     53  PB023006 Pfam-B_23006
+sequence
+  ........MSTDVAAADIPVPQVEVAADAAVDTPAAKPAKAPKAAKAKKSTPGPKKPRVT
+  PAHPSYAEMVSEAIAALKERSG.SSTIAIGKFIEDKHKA..HLPANFRKILLTQIKK.LV
+  AAGKLTKVKG.............SYKLAKAPAAVKPKTATKKKPAAKPKAKAPAKKTAAK
+  SPAKKAAAKPKAKAPAKAKAVAKPKAAAKPKAAAKPKAKAAAKKAPAAATPKKPAARKPP
+  TKRATPVKKAAPAKKPAAKKAKK..............................
+}
+{
+name H1_DICDI
+descrip Histone H1.
+creator Dictyostelium discoideum (Slime mold).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       22     91  PF00538 linker_histone
+sequence
+  ........................................GPKAPTTPTKKAAATKSKPK
+  PNHPTYQVMISTAIAHYKDRTG.SSQPAIIKYIEANYN...VAPDTFKTQLKLALKR.LV
+  AKGTLTMVKA.............SYKLSEEGKKEHQATLGPVAKKPKAKTTATSTETTAA
+  PPATPTKKAAPKKPAAKAASTSTKTAAAKKNSAKVTKAVSKKPAAKKAPSKKVAAKK...
+  .....................................................
+}
+{
+name H11_ARATH
+descrip Histone H1.1.
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       61    130  PF00538 linker_histone
+sequence
+  .MSEVEIENAATIEGNTAADAPVTDAAVEKKPAAKGRKTKNVKEVKEKKTVAAAPKKRTV
+  SSHPTYEEMIKDAIVTLKERTG.SSQYAIQKFIEEKRK...ELPPTFRKLLLLNLKR.LV
+  ASGKLVKVKA.............SFKLPSASAKASSPKAAAEKSAPAKKKPATVAVTKAK
+  RKVAAASKAKKTIAVKPKTAAAKKVTAKAKAKPVPRATAAATKRKAVDAKPKAKARPAKA
+  AKTAKVTSPAKKAVAATKKVATVATKKKTPVKKVVKPKTVKSPAKRASSRVKK
+}
+{
+name H1_NEUCR
+descrip Histone H1.
+creator Neurospora crassa.Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       36    111  PF00538 linker_histone
+sequence
+  ..........................MPPKKTETKAADASAAAAPAPAAAPTSAPKTKSP
+  STHASYLDMITDAIVALKDRAG.SSRQALKKYVRANNTLGNVTDNMFDSLFNKALKN.GV
+  DKGVFEQPKG..........PSGGTKLAKKVAKPAPKKAAPKKETKEKKPAAAKKEGAAK
+  KETKEKKAPAAKKAAAPKKAAAPKKEVKEKKAAAPKKKAAAPAVADKETVLTKTKSGRVA
+  KSTAKPAAAKKAAAPKKAAASKKAEKAEPAAEKA...................
+}
+{
+name H1_EMENI
+descrip Histone H1.
+creator Emericella nidulans (Aspergillus nidulans).Eukaryota;
+type    PROTEIN
+group 1
+feature 62 149 0 square solid PFAM-A
+  FT   PFAM-A       18     93  PF00538 linker_histone
+sequence
+  ............................................MPPKKAPTTAKKAASG
+  PTHTSYRDMIKDAILNLKERNG.SSRQSIKKYVLANNKLAPASQNAFDSQFNKAIKA.GV
+  EKGDFIQPKG..........TSGPVKLAKKQAPAKPAPKKPATTTKTAAPKKTATKKADK
+  AEKAEKPKTKKTNAGVKKPAGRPKANTAKPRKASTAAPAVVDKPKVVSVTKSGRKTTTTA
+  KPTEKATKKTAKNKKA.....................................
+}
+{
+name 1aoy_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 70 79 3 square solid STRUCT
+  FT   STRUCT       10     19  HELIX
+feature 86 96 3 square solid STRUCT
+  FT   STRUCT       26     36  HELIX
+feature 107 117 3 square solid STRUCT
+  FT   STRUCT       43     53  HELIX
+feature 121 124 0 square solid STRUCT
+  FT   STRUCT       56     59  STRAND
+feature 130 141 0 square solid STRUCT
+  FT   STRUCT       65     68  STRAND
+sequence
+  ............................................................
+  MRSSAKQEELVKAFKALLKEEKFSSQGEIVAALQEQGFD....NINQSKVSRMLTKF.GA
+  VRTRNAKMEM........VYCLPAELGVPTT.............................
+  ............................................................
+  .....................................................
+}
+{
+name 1jhg_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 25 47 3 square solid STRUCT
+  FT   STRUCT        2     24  HELIX
+feature 51 58 3 square solid STRUCT
+  FT   STRUCT       28     35  HELIX
+feature 61 79 3 square solid STRUCT
+  FT   STRUCT       38     56  HELIX
+feature 86 93 3 square solid STRUCT
+  FT   STRUCT       61     68  HELIX
+feature 107 120 3 square solid STRUCT
+  FT   STRUCT       72     84  HELIX
+feature 123 141 3 square solid STRUCT
+  FT   STRUCT       87     97  HELIX
+sequence
+  .......................SAAMAEQRHQEWLRFVDLLKNAYQNDLHLPLLNLMLT
+  PDEREALGTRVRIIEELLRGE..MSQRELKNELG..........AGIATITRGSNSL.KA
+  APVELRQWLE........EVLLKSD...................................
+  ............................................................
+  .....................................................
+}
+{
+name 1idy_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 68 80 3 square solid STRUCT
+  FT   STRUCT       10     22  HELIX
+feature 86 92 3 square solid STRUCT
+  FT   STRUCT       27     33  HELIX
+feature 108 117 3 square solid STRUCT
+  FT   STRUCT       39     48  HELIX
+feature 120 122 3 square solid STRUCT
+  FT   STRUCT       50     52  HELIX
+sequence
+  ..........................................................ME
+  VKKTSWTEEEDRILYQAHKRLG.NRWAEIAKLLP..........GRTDNAIKNHWNS.TM
+  RRKV........................................................
+  ............................................................
+  .....................................................
+}

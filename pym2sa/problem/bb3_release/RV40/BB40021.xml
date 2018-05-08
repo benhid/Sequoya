@@ -1,0 +1,867 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref4/test/1havA_ref4</aln-name>
+<sequence seq-type="Protein">
+<seq-name>CTRA_GADMO</seq-name>
+<seq-info>
+<accession>P47796</accession>
+<nid>CTRA_GADMO</nid>
+<definition>Chymotrypsin A precursor (EC 3.4.21.1).</definition>
+<organism>Gadus morhua (Atlantic cod).Eukaryota;</organism>
+<ec>3.4.21.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>34</fstart><fstop>256</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>75</fstart><fstop>75</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>120</fstart><fstop>120</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>213</fstart><fstop>213</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>19</fstart><fstop>140</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>60</fstart><fstop>76</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>219</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>186</fstart><fstop>200</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>209</fstart><fstop>238</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>18</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>gen.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mghevdsvlpglfrrtygcgrpaispvitg-----------------------ysrivngeeavphswswqvslqdq---tgfhfcggslinenwvvtaahcnvk------nyhrvvlgehdrssns-egvqvmtvgqvfkhpryngfti-------------nndillvklatp-------atlnmr-vspvclaetdd--vfeggmkcvtsgwgltryna-adtpallqqaalplltneqckk--fwgn-------kisdlmicaga---agasscmgdsggplvcqkag----swtlvgivswg--sgtctptmpgvyarvtelrawvdqtiaan-------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TMS3_HUMAN</seq-name>
+<seq-info>
+<accession>P57727</accession>
+<nid>TMS3_HUMAN</nid>
+<definition>Transmembrane protease, serine 3 (EC 3.4.21.-) (Serine prote</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>48</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>70</fstart><fstop>454</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Extracellular (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>72</fstart><fstop>108</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>LDL-receptor class A.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>109</fstart><fstop>205</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>SRCR.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>217</fstart><fstop>454</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>71</fstart><fstop>109</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00057 ldl_recept_a</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>217</fstart><fstop>444</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB032922 Pfam-B_32922</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>257</fstart><fstop>257</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>304</fstart><fstop>304</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>401</fstart><fstop>401</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>216</fstart><fstop>217</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Cleavage Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>73</fstart><fstop>85</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>79</fstart><fstop>98</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>92</fstart><fstop>107</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>129</fstart><fstop>194</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>142</fstart><fstop>204</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>207</fstart><fstop>324</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>242</fstart><fstop>258</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>338</fstart><fstop>407</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>370</fstart><fstop>386</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>397</fstart><fstop>425</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>221</fstart><fstop>221</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>49</fstart><fstop>69</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Signal-anchor for type II membrane</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>1</fstart><fstop>127</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform B).</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>318</fstart><fstop>454</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>EMIQPVCLPNSEENFPDGKVCWTSGWGATEDGAGDASPVLN</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>261</fstart><fstop>293</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DLYLPKSWTIQVGLVSLLDNPAPSHLVEKIVYH -> EIVA</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>294</fstart><fstop>454</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform T).</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgendppaveapfsfrslfglddlkispvapdadavaaqilsllplkffpiivigiialilalaiglgihfdcsgkyrcrssfkcieliarcdgvsdckdgedeyrcvrvggqnavlqvftaaswktmcsddwkghyanvacaqlgfpsyvssdnlrvsslegqfreefvsidhllpddkvtalhhsvyvregcasghvvtlqc--------tacghrrgyssrivggnmsllsqwpwqaslqf----qgyhlcggsvitplwiitaahcvyd--lylpkswtiqvglvslldnp---apshlvekivyhskykpkrlg-------------ndialmklagp-------ltfnem-iqpvclpnsee--nfpdgkvcwtsgwgatedgag-daspvlnhaavplisnkicnhrdvygg-------iispsmlcagylt-ggvdscqgdsggplvcqerr----lwklvgatsfg--igcaevnkpgvytrvtsfldwiheqmerdlkt----------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PLMN_BOVIN</seq-name>
+<seq-info>
+<accession>P06868</accession>
+<nid>PLMN_BOVIN</nid>
+<definition>Plasminogen precursor (EC 3.4.21.7).</definition>
+<organism>Bos taurus (Bovine).Eukaryota;</organism>
+<ec>3.4.21.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>29</fstart><fstop>105</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PAN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>110</fstart><fstop>188</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Kringle 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>192</fstart><fstop>269</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Kringle 2.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>282</fstart><fstop>359</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Kringle 3.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>384</fstart><fstop>461</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Kringle 4.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>485</fstart><fstop>564</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Kringle 5.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>584</fstart><fstop>812</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>24</fstart><fstop>106</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00024 PAN</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>110</fstart><fstop>188</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00051 kringle</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>192</fstart><fstop>269</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00051 kringle</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>282</fstart><fstop>359</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00051 kringle</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>384</fstart><fstop>461</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00051 kringle</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>485</fstart><fstop>564</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00051 kringle</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>584</fstart><fstop>805</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>315</fstart><fstop>315</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>365</fstart><fstop>365</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Olinked GalNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>624</fstart><fstop>624</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>667</fstart><fstop>667</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>762</fstart><fstop>762</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>26</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>mogen.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mlpaspkmehkavvfllllflksglgdllddyvntqgasllslsrknlagrsvedcaakceeetdfvcrafqyhskeqqcvvmaenskntpvfrmrdvilyekriyllecktgngqtyrgttaetksgvtcqkwsatsphvpkfspekfplagleenycrnpdndengpwcyttdpdkrydycdipecedkcmhcsgenyegkiaktmsgrdcqawdsqsphahgyipskfpnknlkmnycrnpdgeprpwcfttdpqkrwefcdiprcttpppssgpkyqclkgtgknyggtvavtesghtcqrwseqtphkhnrtpenfpcknleenycrnpngekapwcyttnsevrweyctipscessplste--rmdvpvppeqtpvpqdcyhgngqsyrgtssttitgrkcqswssmtphrhlktpenypnagltmnycrnpdadkspwcyttdprvrwefcnlkkcs--etpeqvpaapqapgvenppeadcmigtgksyrgkkattvagvpcqewaaqephqhsiftpetnpqsglernycrnpdgdvngpwcytmnprkpfdycdvpqcess-fdcgkpkvepkkcsgrivggcvskphswpwqvslrr----ssrhfcggtlispkwvltaahcldn--ilalsfykvilgahnekvre-qsvqeipvsrlfreps-------------------qadiallklsrp-------aiitke-vipaclpppny--mvaartecyitgwgetqgtfg---egllkeahlpvienkvcnrneyldg-------rvkptelcaghli-ggtdscqgdsggplvcfekd----kyilqgvtswg--lgcarpnkpgvyvrvspyvpwieetmrrn-------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRYP_ASTFL</seq-name>
+<seq-info>
+<accession>P00765</accession>
+<nid>TRYP_ASTFL</nid>
+<definition>Trypsin I (EC 3.4.21.4).</definition>
+<organism>Astacus fluviatilis (Broad-fingered crayfish) (Astacus astac</organism>
+<ec>3.4.21.4</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>232</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>45</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>64</fstart><fstop>64</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Calcium By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>69</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Calcium via carbonyl oxygen By</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>74</fstart><fstop>74</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Calcium By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>189</fstart><fstop>189</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>30</fstart><fstop>46</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>159</fstart><fstop>174</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>185</fstart><fstop>213</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>183</fstart><fstop>183</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Required for specificity By similarity</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ivggtdavlgefpyqlsfqetflgfsfhfcgasiynenyaitaghcvygddyenpsglqivageldmsvne-gseqtitvskiilhenfdydll-------------dndisllklsgs-------ltfnnn-vapialpaqg----htatgnvivtgwgttsegg--ntpdvlqkvtvplvsdaecrddygad--------eifdsmicagvpe-ggkdscqgdsggplaasdtg----stylagivswg--ygcarpgypgvytevsyhvdwikanav---------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TMS5_HUMAN</seq-name>
+<seq-info>
+<accession>Q9H3S3</accession>
+<nid>TMS5_HUMAN</nid>
+<definition>Transmembrane protease, serine 5 (EC 3.4.21.-) (Spinesin).</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>71</fstart><fstop>457</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Extracellular (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>112</fstart><fstop>207</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>SRCR.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>218</fstart><fstop>457</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>218</fstart><fstop>448</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB053138 Pfam-B_53138</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>113</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB005943 Pfam-B_5943</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>258</fstart><fstop>258</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>308</fstart><fstop>308</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>405</fstart><fstop>405</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>217</fstart><fstop>218</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Cleavage Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>135</fstart><fstop>196</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>148</fstart><fstop>206</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>209</fstart><fstop>328</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>243</fstart><fstop>259</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>374</fstart><fstop>390</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>401</fstart><fstop>429</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>163</fstart><fstop>163</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>170</fstart><fstop>170</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>195</fstart><fstop>195</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>319</fstart><fstop>319</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>375</fstart><fstop>375</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>50</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Signal-anchor for type II membrane</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mslmlddqppmeaqyaeegpgpgifraepgdqqhpisqavcwrsmrrgcavlgalgllagagvgswllvlylcpaasqpisgtlqdeeitlscseasaeeallpalpktvsfrinsedflleaqvrdqprwllvchegwspalglqicwslghlrlthhkgvnltdiklnssqefaqlsprlggfleeawqprnnctsgqvvslrcsecgarplasrivggqsvapgrwpwqasvalg----frhtcggsvlaprwvvtaahcmhsfrlarlsswrvhaglvshsavr--phqgalveriiphplysaqnh-------------dydvallrlqta-------lnfsdt-vgavclpakeq--hfpkgsrcwvsgwghthpsh-tyssdmlqdtvvplfstqlcnsscvysg-------altprmlcagyld-gradacqgdsggplvcpdgd----twrlvgvvswg--racaepnhpgvyakvaefldwihdtaqdsll-----------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>KAL_HUMAN</seq-name>
+<seq-info>
+<accession>P03952</accession>
+<nid>KAL_HUMAN</nid>
+<definition>Plasma kallikrein precursor (EC 3.4.21.34) (Plasma prekallik</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>3.4.21.34</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>21</fstart><fstop>104</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Apple 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>111</fstart><fstop>194</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Apple 2.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>201</fstart><fstop>284</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Apple 3.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>292</fstart><fstop>375</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Apple 4.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>389</fstart><fstop>621</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>21</fstart><fstop>104</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00024 PAN</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>111</fstart><fstop>194</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00024 PAN</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>201</fstart><fstop>284</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00024 PAN</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>292</fstart><fstop>375</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00024 PAN</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>391</fstart><fstop>621</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>127</fstart><fstop>127</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>308</fstart><fstop>308</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>396</fstart><fstop>396</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>453</fstart><fstop>453</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>494</fstart><fstop>494</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>434</fstart><fstop>434</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>483</fstart><fstop>483</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>578</fstart><fstop>578</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>21</fstart><fstop>104</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>47</fstart><fstop>77</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>51</fstart><fstop>57</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>111</fstart><fstop>194</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>137</fstart><fstop>166</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>141</fstart><fstop>147</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>201</fstart><fstop>284</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>227</fstart><fstop>256</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>231</fstart><fstop>237</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>292</fstart><fstop>375</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>318</fstart><fstop>347</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>322</fstart><fstop>328</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>340</fstart><fstop>345</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>383</fstart><fstop>503</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>419</fstart><fstop>435</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>517</fstart><fstop>584</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>548</fstart><fstop>563</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>574</fstart><fstop>602</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>19</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>al; Zymogen.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------milfkqatyfislfatvscgcltqlyenaffrggdvasmytpnaqycqmrctfhprcllfsflpassindmekrfgcflkdsvtgtlpkvhrtgavsghslkqcghqisachrdiykgvdmrgvnfnvskvssveecqkrctnnircqffsyatqtfhkaeyrnncllkyspggtptaikvlsnvesgfslkpcalseigchmnifqhlafsdvdvarvltpdafvcrtictyhpnclfftfytnvwkiesqrnvcllktsesgtpssstpqentisgyslltckrtlpepchskiypgvdfggeelnvtfvkgvnvcqetctkmircqfftysllpedckeekckcflrlsmdgsptriaygtqgssgyslrlcntgdnsvcttktstrivggtnsswgewpwqvslqvkl-taqrhlcggslighqwvltaahcfdg--lplqdvwriysgilnlsdit-kdtpfsqikeiiihqnykvseg-------------nhdialiklqap-------lnytef-qkpiclpskgd--tstiytncwvtgwgfskekg--eiqnilqkvniplvtneecqkryqdy--------kitqrmvcagyke-ggkdackgdsggplvckhng----mwrlvgitswg--egcarreqpgvytkvaeymdwilektqssdgkaqmqspa---------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRY5_AEDAE</seq-name>
+<seq-info>
+<accession>P29787</accession>
+<nid>TRY5_AEDAE</nid>
+<definition>Trypsin 5G1 precursor (EC 3.4.21.4) (Fragment).</definition>
+<organism>Aedes aegypti (Yellowfever mosquito).Eukaryota;</organism>
+<ec>3.4.21.4</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>12</fstart><fstop>232</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>53</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>97</fstart><fstop>97</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>193</fstart><fstop>193</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>38</fstart><fstop>54</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>162</fstart><fstop>178</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>189</fstart><fstop>213</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>187</fstart><fstop>187</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Required for specificity By similarity</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------tmversdssg--------------------------rivggfevpveevpfqvslsg---vgsshfcggsllserwvmtaghcaasg----qtnlqvrigssqhasgg----qlikvkkvnrhpkydevtt-------------dydfalleleet-------vtfsds-capvklpqkdt--pvnegtclqvsgwgntqnps--essevlraayvpavsqkechkaylsfg-------gvtdrmvcagfke-ggkdscqgdsggplvhd--------ntlvgvvswg--ygcaqagypgvyarvasvrdwvkevsgl--------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRY3_AEDAE</seq-name>
+<seq-info>
+<accession>P29786</accession>
+<nid>TRY3_AEDAE</nid>
+<definition>Trypsin 3A1 precursor (EC 3.4.21.4).</definition>
+<organism>Aedes aegypti (Yellowfever mosquito).Eukaryota;</organism>
+<ec>3.4.21.4</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>28</fstart><fstop>248</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>68</fstart><fstop>68</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>113</fstart><fstop>113</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>209</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>53</fstart><fstop>69</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>178</fstart><fstop>194</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>205</fstart><fstop>229</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>203</fstart><fstop>203</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Required for specificity By similarity</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mnqflfvsfcalldsakvsaatlssg--------------------------rivggfqidiaevphqvslqr----sgrhfcggsiisprwvltrahcttnt---dpaaytiragstdrtngg----iivkvksviphpqyngdty-------------nydfslleldes-------igfsrs-ieaialpdase--tvadgamctvsgwgdtknvf--emntllravnvpsynqaecaaalvnvv-------pvteqmicagyaa-ggkdscqgdsggplvsg--------dklvgvvswg--kgcalpnlpgvyarvstvrqwirevsev--------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>GILX_HELHO</seq-name>
+<seq-info>
+<accession>P43685</accession>
+<nid>GILX_HELHO</nid>
+<definition>Gilatoxin (EC 3.4.21.-).</definition>
+<organism>Heloderma horridum horridum (Mexican beaded lizard).Eukaryot</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>234</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>41</fstart><fstop>41</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>196</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>209</fstart><fstop>209</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>7</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>244</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>135</fstart><fstop>202</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>167</fstart><fstop>181</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>192</fstart><fstop>216</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------iiggqecdetghpwlallhr----segstwsgvllnrdwiltaahceel------gpmkicfgmknrnvlr----gdeqvkvaavkkcypatagtiyncnyvntvlmnndllkrelfpmlikldssvdyner-vaplslptsp---aslgaecs-vlgwgtttpdd-vtlpdvpvcvnieifnnavcqvardl---------wkftnklcagvdf-ggkdsckgdsggplvcd--------nqltgnvswg--fnceqgekyg-yiklikfnfwiqniiqggttcp---------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRYT_PIG</seq-name>
+<seq-info>
+<accession>Q9N2D1</accession>
+<nid>TRYT_PIG</nid>
+<definition>Tryptase precursor (EC 3.4.21.59).</definition>
+<organism>Sus scrofa (Pig).Eukaryota;</organism>
+<ec>3.4.21.59</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>31</fstart><fstop>267</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>74</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>121</fstart><fstop>121</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>224</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>59</fstart><fstop>75</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>155</fstart><fstop>230</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>188</fstart><fstop>211</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>220</fstart><fstop>248</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>132</fstart><fstop>132</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>233</fstart><fstop>233</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mlnllvlalpllvslvhtapapgqaler------------------------agivggkeapghkwpwqvslrcld-qywkhfcggslihpqwvltaahcfgp-ekadplyirvqlgeqhlyyqd----rlllvsriivhpnyydevn-------------gadialleledp-------vnlssh-vqpvtlppase--tfpkgtrcwvtgwgdvhsgwplpppyplkqvrvpivensecdmqyhlglstgdnipivrddmlcags---eghdscqgdsggplvcrvng----twlqagvvswg--egcalpnrpgiytrvthyldwihqcipres------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TMS2_MOUSE</seq-name>
+<seq-info>
+<accession>Q9JIQ8</accession>
+<nid>TMS2_MOUSE</nid>
+<definition>Transmembrane protease, serine 2 (EC 3.4.21.-) (Epitheliasin</definition>
+<organism>Mus musculus (Mouse).Eukaryota;</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>83</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>105</fstart><fstop>490</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Extracellular (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>111</fstart><fstop>149</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>LDL-receptor class A.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>150</fstart><fstop>242</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>SRCR.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>254</fstart><fstop>490</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>156</fstart><fstop>191</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00530 SRCR</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>110</fstart><fstop>149</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00057 ldl_recept_a</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>254</fstart><fstop>482</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031792 Pfam-B_31792</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>294</fstart><fstop>294</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>343</fstart><fstop>343</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>439</fstart><fstop>439</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>253</fstart><fstop>254</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Cleavage Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>76</fstart><fstop>125</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>119</fstart><fstop>138</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>132</fstart><fstop>147</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>171</fstart><fstop>230</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>184</fstart><fstop>240</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>243</fstart><fstop>363</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Interchain By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>279</fstart><fstop>295</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>408</fstart><fstop>424</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>435</fstart><fstop>463</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>111</fstart><fstop>111</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>212</fstart><fstop>212</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>474</fstart><fstop>474</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>84</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Signal-anchor for type II membrane</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------malnsgsppgigpcyenhgyqsehicpprppvapngynlypaqyypspvpqyaprittqastsvihthpkssgapctskskkslclalalgtvltgaavaavllwrfwdsncstsemecgssgtcissslwcdgvahcpngedenrcvrlygqsfilqvyssqrkawypvcqddwsesygraackdmgyknnfyssqgipdqsgatsfmklnvssgnvdlykklyhsdscssrmvvslrciecgvrsvkrqsrivgglnaspgdwpwqvslhvq----gvhvcggsiitpewivtaahcvee-plsgprywtafagilrqslmf--ygsrhqvekvishpnydsktk-------------nndialmklqtp-------lafndl-vkpvclpnpgm--mldldqecwisgwgatyekg--ktsdvlnaamvpliepskcnskyiyn-------nlitpamicagflq-gsvdscqgdsggplvtlkng----iwwligdtswg--sgcakalrpgvygnvtvftdwiyqqmrans------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CFAD_MOUSE</seq-name>
+<seq-info>
+<accession>P03953</accession>
+<nid>CFAD_MOUSE</nid>
+<definition>Complement factor D precursor (EC 3.4.21.46) (C3 convertase </definition>
+<organism>Mus musculus (Mouse).Eukaryota;</organism>
+<ec>3.4.21.46</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>26</fstart><fstop>249</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>66</fstart><fstop>66</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>115</fstart><fstop>115</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>209</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>51</fstart><fstop>67</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>149</fstart><fstop>215</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>180</fstart><fstop>196</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>205</fstart><fstop>230</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>46</fstart><fstop>46</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>124</fstart><fstop>124</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>176</fstart><fstop>176</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>251</fstart><fstop>251</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>256</fstart><fstop>256</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Or 19 (Potential).</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>20</fstart><fstop>20</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 2).</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mhssvyfvalvilgaavcaaqprgril--------------------------ggqeaaaharpymasvqvn----gthvcggtlldeqwvlsaahcmdg--vtdddsvqvllgahslsape-pykrwydvqsvvphpgsrpdsl-------------eddlilfklsqn-------aslgph-vrplplqyedk--evepgtlcdvagwgvvthag--rrpdvlhqlrvsimnrttcnlrtyhdg-------vvtinmmcaes---nrrdtcrgdsgsplvcg--------davegvvtwg-srvcgngkkpgvytrvssyrmwienitngnmts----------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DER3_DERPT</seq-name>
+<seq-info>
+<accession>P39675</accession>
+<nid>DER3_DERPT</nid>
+<definition>Mite allergen Der p 3 precursor (EC 3.4.21.-) (Der p III).</definition>
+<organism>Dermatophagoides pteronyssinus (House-dust mite).Eukaryota;</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>30</fstart><fstop>255</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>69</fstart><fstop>69</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>114</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>214</fstart><fstop>214</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>54</fstart><fstop>70</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>181</fstart><fstop>198</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>210</fstart><fstop>236</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>208</fstart><fstop>208</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Required for specificity</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>18</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------miiynilivlllaintlanpilpaspna------------------------tivggekalagecpyqislqs-----sshfcggtildeywiltaahcvag---qtasklsirynslkhslgg----ekisvakifahekydsyqi-------------dndialiklksp-------mklnqknakavglpakgs--dvkvgdqvrvsgwgyleegs-yslpselrrvdiavvsrkecnelyskan------aevtdnmicggdvanggkdscqgdsggpvvdvkn------nqvvgivswg--ygcarkgypgvytrvgnfidwieskrsq--------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DEF3_DERFA</seq-name>
+<seq-info>
+<accession>P49275</accession>
+<nid>DEF3_DERFA</nid>
+<definition>Mite allergen Der f 3 precursor (EC 3.4.21.-) (Der f III).</definition>
+<organism>Dermatophagoides farinae (House-dust mite).Eukaryota;</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>28</fstart><fstop>253</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>67</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>112</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>212</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>52</fstart><fstop>68</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>179</fstart><fstop>196</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>208</fstart><fstop>234</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>206</fstart><fstop>206</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Required for specificity</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>16</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mmiltivvllaanilatpilpsspna------------------------tivggvkaqagdcpyqislqs-----sshfcggsildeywiltaahcvng---qsakklsiryntlkhasgg----ekiqvaeiyqhenydsmti-------------dndvaliklktp-------mtldqtnakpvplpaqgs--dvkvgdkirvsgwgylqegs-yslpselqrvdidvvsreqcdqlyskag------advsenmicggdvanggvdscqgdsggpvvdvat------kqivgivswg--ygcarkgypgvytrvgnfvdwieskrsq--------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>HEPS_HUMAN</seq-name>
+<seq-info>
+<accession>P05981</accession>
+<nid>HEPS_HUMAN</nid>
+<definition>Serine protease hepsin (EC 3.4.21.-) (Transmembrane protease</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>17</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>45</fstart><fstop>417</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Extracellular (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>163</fstart><fstop>417</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>163</fstart><fstop>400</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>4</fstart><fstop>162</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB089560 Pfam-B_89560</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>203</fstart><fstop>203</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>257</fstart><fstop>257</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>353</fstart><fstop>353</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>153</fstart><fstop>277</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Interchain By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>188</fstart><fstop>204</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>322</fstart><fstop>338</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>349</fstart><fstop>381</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>112</fstart><fstop>112</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>18</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Signal-anchor for type II membrane</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------maqkeggrtvpccsrpkvaaltagtlllltaigaaswaivavllrsdqeplypvqvssadarlmvfdktegtwrllcssrsnarvaglsceemgflralthseldvrtagangtsgffcvdegrlphtqrllevisvcdcprgrflaaicqdcgrrklpvdrivggrdtslgrwpwqvslry----dgahlcggsllsgdwvltaahcfpe-rnrvlsrwrvfagavaqasph---glqlgvqavvyhggylpfrdpnse-------ensndialvhlssp-------lpltey-iqpvclpaagq--alvdgkictvtgwgntqyyg--qqagvlqearvpiisndvcngadfyg-------nqikpkmfcagype-ggidacqgdsggpfvcedsisrtprwrlcgivswg--tgcalaqkpgvytkvsdfrewifqaikthseasgmvtql---------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PSS8_HUMAN</seq-name>
+<seq-info>
+<accession>Q16651</accession>
+<nid>PSS8_HUMAN</nid>
+<definition>Prostasin precursor (EC 3.4.21.-).</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>45</fstart><fstop>286</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>45</fstart><fstop>281</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB027143 Pfam-B_27143</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>282</fstart><fstop>324</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031036 Pfam-B_31036</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>37</fstart><fstop>154</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Interchain By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>70</fstart><fstop>86</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>168</fstart><fstop>244</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>201</fstart><fstop>223</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>234</fstart><fstop>262</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>134</fstart><fstop>134</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>238</fstart><fstop>238</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>159</fstart><fstop>159</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>320</fstart><fstop>340</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>29</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------maqkgvlgpgqlgavaillylgllrsgtgaegaeapcg----------------vapqaritggssavagqwpwqvsity----egvhvcggslvseqwvlsaahcfps--ehhkeayevklgahqldsys-edakvstlkdiiphpsylqegs-------------qgdiallqlsrp-------itfsry-irpiclpaana--sfpnglhctvtgwghvapsvslltpkplqqlevplisretcnclynidakpeep-hfvqedmvcagyve-ggkdacqgdsggplscpveg----lwyltgivswg--dacgarnrpgvytlassyaswiqskvtelqprvvpqtqesqpdsnlcgshlafssapaqgllrpilflplglalgllspwlseh
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FA9_RAT</seq-name>
+<seq-info>
+<accession>P16296</accession>
+<nid>FA9_RAT</nid>
+<definition>Coagulation factor IX (EC 3.4.21.22) (Christmas factor) (Fra</definition>
+<organism>Rattus norvegicus (Rat).Eukaryota;</organism>
+<ec>3.4.21.22</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>56</fstart><fstop>282</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>96</fstart><fstop>96</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>144</fstart><fstop>144</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>240</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>25</fstart><fstop>25</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>36</fstart><fstop>36</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>42</fstart><fstop>42</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>135</fstart><fstop>135</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------rvsvaynskkitraetvfsntdygnstelildditnstildnltensepindftrvvggenakpgqipwqvilng----eieafcggaiinekwivtaahclk-----pgdkievvagehnideke-dteqrrnvirtiphhqynatin-----------kyshdialleldkp-------lilnsy-vtpicvankeytniflkfgsgyvsgwgkvfnkg--rqasilqylrvplvdratclrstkf---------siynnmfcagyre-ggkdscegdsggphvteveg----tsfltgiiswg--eecamkgkygiytkvsryvnw---------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FA9_BOVIN</seq-name>
+<seq-info>
+<accession>P00741</accession>
+<nid>FA9_BOVIN</nid>
+<definition>Coagulation factor IX (EC 3.4.21.22) (Christmas factor).</definition>
+<organism>Bos taurus (Bovine).Eukaryota;</organism>
+<ec>3.4.21.22</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>46</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Gla.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>47</fstart><fstop>83</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>EGF-like 1, calcium-binding (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>84</fstart><fstop>125</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>EGF-like 2.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>182</fstart><fstop>416</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>51</fstart><fstop>82</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PF00008 EGF</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>88</fstart><fstop>124</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PF00008 EGF</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>47</fstop><fcolor>6</fcolor><fscore>0.00</fscore><fnote>PF00594 gla</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>182</fstart><fstop>409</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>125</fstart><fstop>175</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB015348 Pfam-B_15348</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>146</fstart><fstop>147</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Cleavage by factor XIa</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>181</fstart><fstop>182</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Cleavage by factor XIa</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>18</fstart><fstop>23</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>51</fstart><fstop>62</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>56</fstart><fstop>71</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>73</fstart><fstop>82</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>88</fstart><fstop>99</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>95</fstart><fstop>109</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>111</fstart><fstop>124</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>53</fstart><fstop>53</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Olinked Glc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>158</fstart><fstop>158</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>168</fstart><fstop>168</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>173</fstart><fstop>173</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>261</fstart><fstop>261</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>222</fstart><fstop>222</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>270</fstart><fstop>270</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>366</fstart><fstop>366</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>7</fstart><fstop>7</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>8</fstart><fstop>8</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>15</fstart><fstop>15</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>17</fstart><fstop>17</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>20</fstart><fstop>20</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>21</fstart><fstop>21</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>26</fstart><fstop>26</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>27</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>30</fstart><fstop>30</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>33</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>36</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>40</fstart><fstop>40</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4carboxyglutamate</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>64</fstart><fstop>64</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>3hydroxyaspartate</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ynsgkleefvrgnlereckeekcsfeearevfentekttefwkqyvdgdqcesnpclnggmckddinsyecwcqagfegtnceldatcsikngrckqfckrdtdnkvvcsctdgyrlaedqkscepavpfpcgrvsvshiskkltraetifsntnyensseaeiiwdnvtqsnqsfdefsrvvggedaergqfpwqvllhg----eiaafcggsivnekwvvtaahcik-----pgvkitvvagehntekpe-pteqkrnviraipyhsynasin-----------kyshdialleldep-------lelnsy-vtpiciadrdytnifskfgygyvsgwgkvfnrg--rsasilqylkvplvdratclrstkfs---------iyshmfcagyhe-ggkdscqgdsggphvteveg----tsfltgiiswg--eecamkgkygiytkvsryvnwikektklt-------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FA12_CAVPO</seq-name>
+<seq-info>
+<accession>Q04962</accession>
+<nid>FA12_CAVPO</nid>
+<definition>Coagulation factor XII precursor (EC 3.4.21.38) (Hageman fac</definition>
+<organism>Cavia porcellus (Guinea pig).Eukaryota;</organism>
+<ec>3.4.21.38</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>46</fstart><fstop>87</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Fibronectin type-II.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>93</fstart><fstop>130</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>EGF-like 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>132</fstart><fstop>172</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Fibronectin type-I.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>173</fstart><fstop>209</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>EGF-like 2.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>216</fstart><fstop>294</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Kringle.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>312</fstart><fstop>342</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Pro-rich.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>359</fstart><fstop>603</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>97</fstart><fstop>129</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PF00008 EGF</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>177</fstart><fstop>208</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PF00008 EGF</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>134</fstart><fstop>169</fstop><fcolor>7</fcolor><fscore>0.00</fscore><fnote>PF00039 fn1</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>46</fstart><fstop>87</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PF00040 fn2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>216</fstart><fstop>294</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00051 kringle</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>359</fstart><fstop>597</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>398</fstart><fstop>398</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>447</fstart><fstop>447</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>551</fstart><fstop>551</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>97</fstart><fstop>109</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>103</fstart><fstop>118</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>120</fstart><fstop>129</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>134</fstart><fstop>162</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>160</fstart><fstop>169</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>177</fstart><fstop>188</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>182</fstart><fstop>197</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>199</fstart><fstop>208</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>216</fstart><fstop>294</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>237</fstart><fstop>276</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>265</fstart><fstop>289</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>345</fstart><fstop>472</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>383</fstart><fstop>399</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>391</fstart><fstop>461</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>422</fstart><fstop>425</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>488</fstart><fstop>557</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>520</fstart><fstop>536</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>547</fstart><fstop>578</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>248</fstart><fstop>248</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>270</fstart><fstop>270</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>419</fstart><fstop>419</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------grlllgsllvslesalsapppwkapkerrhraeeftvgltvtgepcyfpfqynrqlyhhcihkgrpgprpwcattpnfdqdqqwayclepkkvkdhcskhnpcqrggicvntlssphclcpdhltgkhcqrekcfepqlhrffheneiwfrtgpagvakchckgpdahckqmhsqecqtnpclnggrcleveghhlcdcpmgytgpfcdldttascyegrgvsyrgmarttvsgakcqrwaseatyrnmtaeqalrrglghhtfcrnpdndtrpwcfvwmgnrlsweycdlaqcqyppqptatphdrfehpklpssrlsilqtpqpttqnqalanelpetssllcgqrlrkrlsslsrivgglvalpgahpyiaalyw-----gsnfcsgsliapcwvltaahclqnrpapeelkvvlgqdrhnqsceh---cqtlavhsyrlheafspssy-------------lndlallrlqksadgsc--aqlspy-vqtvclpsgpappsesettccevagwghqfega-eeyssflqeaqvplissercsspevhg-------daflsgmlcagfle-ggtdacqgdsggplvcedea-aehrlilrgivswg--sgcgdrnkpgvytdvasyltwiqkhtas--------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>HGFA_HUMAN</seq-name>
+<seq-info>
+<accession>Q04756</accession>
+<nid>HGFA_HUMAN</nid>
+<definition>Hepatocyte growth factor activator precursor (EC 3.4.21.-) (</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>108</fstart><fstop>148</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Fibronectin type-II.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>160</fstart><fstop>198</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>EGF-like 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>200</fstart><fstop>240</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Fibronectin type-I.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>241</fstart><fstop>279</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>EGF-like 2.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>286</fstart><fstop>367</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Kringle.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>408</fstart><fstop>655</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Serine protease.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>164</fstart><fstop>197</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PF00008 EGF</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>245</fstart><fstop>278</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PF00008 EGF</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>202</fstart><fstop>237</fstop><fcolor>7</fcolor><fscore>0.00</fscore><fnote>PF00039 fn1</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>108</fstart><fstop>148</fstop><fcolor>8</fcolor><fscore>0.00</fscore><fnote>PF00040 fn2</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>286</fstart><fstop>367</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00051 kringle</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>408</fstart><fstop>641</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>80</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB034387 Pfam-B_34387</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>368</fstart><fstop>406</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB039908 Pfam-B_39908</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>447</fstart><fstop>447</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>497</fstart><fstop>497</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>598</fstart><fstop>598</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>108</fstart><fstop>133</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>122</fstart><fstop>148</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>164</fstart><fstop>175</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>186</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>188</fstart><fstop>197</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>202</fstart><fstop>230</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>228</fstart><fstop>237</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>245</fstart><fstop>256</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>250</fstart><fstop>267</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>269</fstart><fstop>278</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>286</fstart><fstop>367</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>307</fstart><fstop>349</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>338</fstart><fstop>362</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>394</fstart><fstop>521</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Interchain By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>432</fstart><fstop>448</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>440</fstart><fstop>510</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>535</fstart><fstop>604</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>567</fstart><fstop>583</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>594</fstart><fstop>622</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>48</fstart><fstop>48</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>290</fstart><fstop>290</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>468</fstart><fstop>468</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>492</fstart><fstop>492</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>546</fstart><fstop>546</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>35</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>ne protease; Signal; Zymogen.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgrwawvpspwpppglgpfllllllllllprgfqpqpggnrtespepnatatpaiptilvtsvtsetpatsapeaegpqsgglppppravpsssspqaqaltedgrpcrfpfryggrmlhactsegsahrkwcatthnydrdrawgycveatpppggpaaldpcasgpclnggscsntqdpqsyhcscpraftgkdcgtekcfdetryeyleggdrwarvrqghveqcecfggrtwcegtrhtaclsspclnggtchlivatgttvcacppgfagrlcniepdercflgngtgyrgvastsasglsclawnsdllyqelhvdsvgaaallglgphaycrnpdnderpwcyvvkdsalsweycrleacesltrvqlspdllatlpepaspgrqacgrrhkkrtflrpriiggssslpgshpwlaaiyi-----gdsfcagslvhtcwvvsaahcfshs--pprdsvsvvlgqhffnrtt-dvtqtfgiekyipytlysvfnps------------dhdlvlirlkkkgdr-c--atrsqf-vqpiclpepgs--tfpaghkcqiagwghldenv-sgyssslrealvplvadhkcsspevyg-------adispnmlcagyfd-cksdacqgdsggplacekng----vaylygiiswg--dgcgrlhkpgvytrvanyvdwindrirpprrlvaps------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>VSP3_BOTJA</seq-name>
+<seq-info>
+<accession>Q9PTU8</accession>
+<nid>VSP3_BOTJA</nid>
+<definition>Venom serine proteinase A precursor (EC 3.4.21.-).</definition>
+<organism>Bothrops jararaca (Jararaca).Eukaryota;</organism>
+<ec>3.4.21.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>25</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>65</fstart><fstop>65</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>110</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>204</fstart><fstop>204</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>31</fstart><fstop>163</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>50</fstart><fstop>66</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>98</fstart><fstop>256</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>142</fstart><fstop>210</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>174</fstart><fstop>189</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>200</fstart><fstop>225</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>32</fstart><fstop>32</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>44</fstart><fstop>44</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>103</fstart><fstop>103</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>121</fstart><fstop>121</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>170</fstart><fstop>170</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>211</fstart><fstop>211</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>251</fstart><fstop>251</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>18</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>By similarity.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mvlirvianllilqlsnaqkss-------------------------elviggdecnitehrflveifn----ssglfcggtlidqewvlsaahcdmr-------nmriylgvhnegvqhadqqrrfarekffclssrnytkw-------------dkdimlirlnrp-------vnnseh-iaplslpsnp----psvgsvcrimgwgtitspn-atfpdvphcaninlfnytvcrgahag--------lpatsrtlcagvlq-ggidtcggdsggplicn--------gtfqgivswg-ghpcaqpgepalytkvfdylpwiqsiiagnttatcpp------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>VSP1_AGKCO</seq-name>
+<seq-info>
+<accession>P09872</accession>
+<nid>VSP1_AGKCO</nid>
+<definition>Ancrod (EC 3.4.21.74) (Venombin A) (Protein C activator) (AC</definition>
+<organism>Agkistrodon contortrix contortrix (Southern copperhead).Euka</organism>
+<ec>3.4.21.74</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>217</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>40</fstart><fstop>40</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>85</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>177</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>7</fstart><fstop>138</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>25</fstart><fstop>41</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>73</fstart><fstop>229</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>117</fstart><fstop>183</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>149</fstart><fstop>162</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>173</fstart><fstop>198</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>21</fstart><fstop>21</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Probable</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>78</fstart><fstop>78</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>129</fstart><fstop>129</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------viggdecninehrflalvya-----ngslcggtlinqewvltarhcdrg-------nmriylgmhnlkvlnkdalrrfpkekyfclntrndtiw-------------dkdimlirlnrp-------vrnsah-iaplslpsnp----psvgsvcrimgwgtitspn-atlpdvphcaninildyavcqaaykg----------laattlcagile-ggkdtckgdsggplicn--------gqfqgilsvg-gnpcaqprkpgiytkvfdytdwiqsiisgntdatcpp------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRY1_RAT</seq-name>
+<seq-info>
+<accession>P00762</accession>
+<nid>TRY1_RAT</nid>
+<definition>Trypsin I, anionic precursor (EC 3.4.21.4) (Pretrypsinogen I</definition>
+<organism>Rattus norvegicus (Rat).Eukaryota;</organism>
+<ec>3.4.21.4</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>24</fstart><fstop>239</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>63</fstart><fstop>63</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>75</fstart><fstop>75</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Calcium</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>77</fstart><fstop>77</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Calcium via carbonyl oxygen</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>80</fstart><fstop>80</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Calcium via carbonyl oxygen</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>85</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Calcium</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>107</fstart><fstop>107</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>200</fstart><fstop>200</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>30</fstart><fstop>160</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>48</fstart><fstop>64</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>132</fstart><fstop>233</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>139</fstart><fstop>206</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>171</fstart><fstop>185</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>196</fstart><fstop>220</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_Charge relay system</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>194</fstart><fstop>194</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Required for specificity</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>15</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>gen.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------msallilalvgaavafpl-eddd---------------------------kivggytcpehsvpyqvslns-----gyhfcggslindqwvvsaahcyks-------riqvrlgehninvle-gdeqfinaakiikhpnysswtl-------------nndimliklssp-------vklnar-vapvalpsac----apagtqclisgwgntlsng-vnnpdllqcvdapvlsqadceaaypg---------eitssmicvgfle-ggkdscqgdsggpvvcn--------gqlqgivswg--ygcalpdnpgvytkvcnfvgwiqdtiaan-------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CTR1_PENVA</seq-name>
+<seq-info>
+<accession>Q00871</accession>
+<nid>CTR1_PENVA</nid>
+<definition>Chymotrypsin BI precursor (EC 3.4.21.1).</definition>
+<organism>Penaeus vannamei (Penoeid shrimp) (European white shrimp).Eu</organism>
+<ec>3.4.21.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>46</fstart><fstop>263</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00089 trypsin</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>36</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB027137 Pfam-B_27137</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>86</fstart><fstop>86</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>132</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>223</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Charge relay system By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>71</fstart><fstop>87</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>196</fstart><fstop>209</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>219</fstart><fstop>245</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>DISULFID_By similarity</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>15</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------migklslllvcvavasgnpaagkpwhwkspkplvdprihvn--------atprivggveatphswphqaalfi----ddmyfcggslissewvltaahcmd-----gagfvevvlgahnirqne-asqvsitstdffthenwnswll-------------tndialirlpsp-------vslnsn-iktvklpssd----vsvgttvtptgwgrpsdsas-gisdvlrqvnvpvmtnadcdsvyg----------ivgdgvvcidgt--ggkstcngdsggplnln--------gmtygitsfgssagcek-gypaaftrvyyyldwiqqktgvtp------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>5ptp_</seq-name>
+<seq-info>
+<accession>5ptp_</accession>
+<nid>5ptp_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>5</fstart><fstop>6</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>15</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>31</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>34</fstart><fstop>37</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>39</fstart><fstop>41</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>47</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>63</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>86</fstart><fstop>90</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>115</fstart><fstop>120</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>135</fstart><fstop>140</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>144</fstart><fstop>150</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>159</fstart><fstop>162</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>177</fstart><fstop>180</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>183</fstart><fstop>190</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>200</fstart><fstop>204</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>205</fstart><fstop>217</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>925</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ivggytcgantvpyqvslns-----gyhfcggslinsqwvvsaahcyk--------sgiqvlgedninvve-gneqfisasksivhpsynsntl-------------nndimliklksa-------aslnsr-vasislptsc----asagtqclisgwgntkssg-tsypdvlkclkapilsdsscksayp---------gqitsnmfcagl---eggdscqgdxggpvvcs--------gklqgivswg--sgcak-nkpgvytkvcnyvswikqtiasn-------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 
+1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

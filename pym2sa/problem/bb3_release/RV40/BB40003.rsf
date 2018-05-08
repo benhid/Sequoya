@@ -1,0 +1,648 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1ysc_
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................KIKDPKILGIDPNVTQYTGYLDVE.DE
+  DKHFFFWTFESRN..DPAKDPVILWLNGGPGCSSLT.GLFFELGPSSIGPDL.KPIGNPY
+  SWNSNATVIFLDQPVNVGFSYSG...SSGVSNTVAAGKDVYNFLELFFDQFPEYVNKGQD
+  FHIAGESYAGHYIPVFASEILSHK..............DRNFNLTSVLIGNGLTDPLTQY
+  NYYEPMACGEGGEPSVLPSEECSAMEDSLERCLGLIE.SCYDSQSVWSCVPATIYCNNAQ
+  LAPYQRTG...RNVYDIRKD.CEGG...............................NLCY
+  PTLQDIDDYLNQDYVKEAVGAE....VDHYESCNFDINRNFLFAGDWMKPYHTAVTDLLN
+  Q.DLPILVYAGDKDFICNWLGNKAWTDVLPWKYDEEFASQKVRNWTAS..ITDEVAGEVK
+  SYK..HFTYLRVFNGGHMVPFDVPENALSMVNEWIHGGFSL..................
+}
+{
+name YBY9_YEAST
+descrip Putative serine carboxypeptidase in ESR1-IRA1 intergenic reg
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A       83    494  PF00450 serine_carbpept
+feature 727 727 0 square solid SITE
+  FT   SITE        219    219  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        415    415  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        474    474  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............MKYLNLVFVLQLLISIKYASFGRAFSLFEDDTTFANLDKQLKLPQ
+  NTQQTLKLDRLNHDDPLFTTFISSVDTDYSLRLRTVDPSKLGID.TVKQWSGYMDYK..D
+  SKHFFYWFFESRN..DPANDPIILWLNGGPGCSSFT.GLLFELGPSSIGADM.KPIHNPY
+  SWNNNASMIFLEQPLGVGFSYGD....EKVSSTKLAGKDAYIFLELFFEAFPHLRS..ND
+  FHIAGESYAGHYIPQIAHEIVVKN.............PERTFNLTSVMIGNGITDPLIQA
+  DYYEPMACGKGGYHPVLSSEECEKMSKAAGRCRRLNK.LCYASKSSLPCIVATAYCDSAL
+  LEPYINTG...LNVYDIRGP.CEDNS............................TDGMCY
+  TGLRYVDQYMNFPEVQETLGSD....VHNYSGCDNDVFTGFLFTGDGSKPFQQYIAELLN
+  H.NIPVLIYAGDKDYICNWLGNHAWSNELEWINKRRYQRRMLRPWVSK..ETGEELGQVK
+  NYG..PFTFLRIYDAGHMVPYDQPEASLEMVNSWISGNRAFSDLSTLENAS........
+}
+{
+name CBPY_CANAL
+descrip Carboxypeptidase Y precursor (EC 3.4.16.5) (Carboxypeptidase
+creator Candida albicans (Yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 446 571 1 square solid PFAM-A
+  FT   PFAM-A        1    126  PF05388 Carbpep_Y_N
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A      132    538  PF00450 serine_carbpept
+feature 727 727 0 square solid SITE
+  FT   SITE        269    269  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        461    461  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        518    518  ACT_SITE_By similarity
+feature 977 977 12 square solid SITE
+  FT   SITE        464    464  BINDING_Substrate By similarity
+feature 1038 1038 12 square solid SITE
+  FT   SITE        519    519  BINDING_Substrate By similarity
+feature 632 933 3 square solid SITE
+  FT   SITE        182    421  DISULFID_By similarity
+feature 788 802 3 square solid SITE
+  FT   SITE        316    330  DISULFID_By similarity
+feature 812 836 3 square solid SITE
+  FT   SITE        340    363  DISULFID_By similarity
+feature 820 829 3 square solid SITE
+  FT   SITE        347    356  DISULFID_By similarity
+feature 862 899 3 square solid SITE
+  FT   SITE        385    391  DISULFID_By similarity
+feature 665 665 5 square solid SITE
+  FT   SITE        213    213  CARBOHYD_Nlinked GlcNAc Potential
+feature 763 763 5 square solid SITE
+  FT   SITE        291    291  CARBOHYD_Nlinked GlcNAc Potential
+feature 446 466 4 square solid SIGNAL
+  FT   SIGNAL        1     21  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................MKLSKSTLIATLALTATSTNALVVQNPFSNIQQAL
+  KLDLSYDKLTSKLTDTFEQGKANIISTIAKVMNEPLDGLTPEIKNIWSEMLMKFPNSITE
+  LNFKAPPKKGKITTQQFDFHVTDAQVPNHKLRIK.STPKDLGID.TVKQYSGYLDVV.DE
+  DKHFFYYFFESRN..DPKNDPVILWLNGGPGCSSLT.GLFFELGPSSIDKNL.KPVYNPH
+  SWNANASVIFLDQPINVGYSYSS....QSVSNTIAAGKDVYAFLQLFFKNFPEYAN..LD
+  FHIAGESYAGHYIPAFASEILTHP..............ERNFNLTSVLIGNGLTDPLVQY
+  EYYEPMACGEGGEPSVLEPEECDGMLNSLPRCLSLIE.SCYESGSVWSCVPATIYCNNGQ
+  MGPYQKTG...RNVYDIRTM.CE...............................GSSLCY
+  SQLEYIDQYLNLPEVKKALGAE....VDEYQSCNFDINRNFMFAGDWMKPYQKNVIDLLE
+  K.ELPVLIYAGDKDFICNWLGNQAWTNRLEWSGSKGFTKAPVKSWKV....GKNAAGEVK
+  NYK..HFTFLRVFGGGHMVPYDQPENALDMVNRWISGDYKY..................
+}
+{
+name CBPY_PICPA
+descrip Carboxypeptidase Y precursor (EC 3.4.16.5) (Carboxypeptidase
+creator Pichia pastoris (Yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 467 571 1 square solid PFAM-A
+  FT   PFAM-A        1    105  PF05388 Carbpep_Y_N
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A      112    518  PF00450 serine_carbpept
+feature 727 727 0 square solid SITE
+  FT   SITE        249    249  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        441    441  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        498    498  ACT_SITE_By similarity
+feature 632 933 3 square solid SITE
+  FT   SITE        162    401  DISULFID_By similarity
+feature 788 802 3 square solid SITE
+  FT   SITE        296    310  DISULFID_By similarity
+feature 812 836 3 square solid SITE
+  FT   SITE        320    343  DISULFID_By similarity
+feature 820 829 3 square solid SITE
+  FT   SITE        327    336  DISULFID_By similarity
+feature 862 899 3 square solid SITE
+  FT   SITE        365    371  DISULFID_By similarity
+feature 665 665 5 square solid SITE
+  FT   SITE        193    193  CARBOHYD_Nlinked GlcNAc Potential
+feature 763 763 5 square solid SITE
+  FT   SITE        271    271  CARBOHYD_Nlinked GlcNAc Potential
+feature 1021 1021 5 square solid SITE
+  FT   SITE        484    484  CARBOHYD_Nlinked GlcNAc Potential
+feature 1026 1026 5 square solid SITE
+  FT   SITE        487    487  CARBOHYD_Nlinked GlcNAc Potential
+feature 467 486 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................................MILHTYIILSLLTI
+  FPKAIGLSLQMPMALEASYASLVEKATLAVGQEIDAIQKGIQQGWLEVETRFPTIVSQLS
+  YSTGPKFAIKKKDATFWDFYVESQELPNYRLRVKRNNPEVLKVD.FTKQYSGYLDVE.AD
+  DKHFFYWFFESRN..DPQNDPIILWLNGGPGCSSLT.GLFFELGSSRINENL.KPIFNPY
+  SWNGNASIIYLDQPVNVGFSYSS....SSVSNTVVAGEDVYAFLQLFFQHFPEYQT..ND
+  FHIAGESYAGHYIPVFADEILSQK..............NRNFNLTSVLIGNGLTDPLTQY
+  RYYEPMACGEGGAPSVLPADECENMLVTQDKCLSLIQ.ACYDSQSAFTCAPAAIYCNNAQ
+  MGPYQRTG...KNVYDIRKE.CD...............................GGSLCY
+  KDLEFIDTYLNQKFVQDALGAE....VDTYESCNFEINRNFLFAGDWMKPYHEHVSSLLN
+  K.GLPVLIYAGDKDFICNWLGNRAWTDVLPWVDADGFEKAEVQDWLV....NGRKAGEFK
+  NYS..NFTYLRVYDAGHMAPYDQPENSHEMVNRWISGDFSFH.................
+}
+{
+name CBPX_ORYSA
+descrip Serine carboxypeptidase-like precursor (EC 3.4.16.-).
+creator Oryza sativa (Rice).Eukaryota;
+type    PROTEIN
+group 1
+feature 576 1057 0 square solid PFAM-A
+  FT   PFAM-A        4    413  PF00450 serine_carbpept
+feature 727 727 0 square solid SITE
+  FT   SITE        148    148  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        336    336  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        393    393  ACT_SITE_By similarity
+feature 977 977 12 square solid SITE
+  FT   SITE        339    339  BINDING_Substrate By similarity
+feature 651 651 5 square solid SITE
+  FT   SITE         76     76  CARBOHYD_Nlinked GlcNAc Potential
+feature 1058 1058 5 square solid SITE
+  FT   SITE        414    414  CARBOHYD_Nlinked GlcNAc Potential
+feature 1061 1061 5 square solid SITE
+  FT   SITE        417    417  CARBOHYD_Nlinked GlcNAc Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................MATGKSGGSSAE.DLGHHAGYYRLPNTH
+  DARLFYFFFESRG.SKGEDDPVVIWLTGGPGCSSEL.ALFYENGPFHIADNM.SLVWNDF
+  GWDQESNLIYVDQPTGTGFSYSS.NPRDTRHDEAGVSNDLYAFLQAFFTEHPNFAK..ND
+  FYITGESYAGHYIPAFASRVYKGNKNS..........EGIHINLKGFAIGNGLTDPAIQY
+  KAYTDYSLDM....GLITKSQFNRINKIVPTCELAIK.LCGTSG.TISCLGAYVVCNLIC
+  SSIETIIG..KKNYYDIRKP.CV................................GSLCY
+  D.LSNMEKFLQLKSVRESLGVG....DIQFVSCSPTVY.QAMLL.DWMRNLEVGIPELLE
+  N.DIKVLIYAGEYDLICNWLGNSRWVNSMEWSGKEAFVSSSEEPFTV....DGKEAGILK
+  SYG..PLSFLKVHDAGHMVPMDQPKVALEMLMRWTSGNLSNASSSFQRLDFTM......
+}
+{
+name CBP3_HORVU
+descrip Serine carboxypeptidase III precursor (EC 3.4.16.5) (CP-MIII
+creator Hordeum vulgare (Barley).Eukaryota;
+type    PROTEIN
+group 1
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A       82    488  PF00450 serine_carbpept
+feature 522 577 0 square solid PFAM-B
+  FT   PFAM-B       27     81  PB039014 Pfam-B_39014
+feature 727 727 0 square solid SITE
+  FT   SITE        223    223  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        411    411  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        468    468  ACT_SITE_By similarity
+feature 977 977 12 square solid SITE
+  FT   SITE        414    414  BINDING_Substrate
+feature 651 651 5 square solid SITE
+  FT   SITE        151    151  CARBOHYD_Nlinked GlcNAc
+feature 496 514 4 square solid SIGNAL
+  FT   SIGNAL        1     19  Potential.
+feature 577 577 0 square solid MOD_RES
+  FT   MOD_RES      81     81  Blocked amino end Leu
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............MVTTPRLVSLLLLLALCAAAAGALRLPPDASFPGAQAERLIRALN
+  LLPK.DSSSSSGRHGARVGEGNEDVAPGQLLERRVTLPGLPEGVADLGHHAGYYRLPNTH
+  DARMFYFFFESRG...KKEDPVVIWLTGGPGCSSEL.AVFYENGPFTIANNM.SLVWNKF
+  GWDKISNIIFVDQPTGTGFSYSS.DDRDTRHDETGVSNDLYDFLQVFFKKHPEFIK..ND
+  FFITGESYAGHYIPAFASRVHQGNKKN..........EGTHINLKGFAIGNGLTDPAIQY
+  KAYTDYALEM....NLIQKADYERINKFIPPCEFAIK.LCGTNG.KASCMAAYMVCNTIF
+  NSIMKLVG..TKNYYDVRKE.CE................................GKLCY
+  D.FSNLEKFFGDKAVRQAIGVG....DIEFVSCSTSVY.QAMLT.DWMRNLEVGIPALLE
+  D.GINVLIYAGEYDLICNWLGNSRWVHSMEWSGQKDFAKTAESSFLV....DDAQAGVLK
+  SHG..ALSFLKVHNAGHMVPMDQPKAALEMLRRFTQGKLKEAVPEEESSTTSFYAAM..
+}
+{
+name CBPX_ARATH
+descrip Serine carboxypeptidase precursor (EC 3.4.16.-).
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 573 1057 0 square solid PFAM-A
+  FT   PFAM-A       84    494  PF00450 serine_carbpept
+feature 527 572 0 square solid PFAM-B
+  FT   PFAM-B       38     83  PB039020 Pfam-B_39020
+feature 727 727 0 square solid SITE
+  FT   SITE        229    229  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        417    417  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        474    474  ACT_SITE_By similarity
+feature 977 977 12 square solid SITE
+  FT   SITE        420    420  BINDING_Substrate By similarity
+feature 651 651 5 square solid SITE
+  FT   SITE        157    157  CARBOHYD_Nlinked GlcNAc Potential
+feature 632 933 3 square solid SITE
+  FT   SITE        139    379  DISULFID_By similarity
+feature 812 836 3 square solid SITE
+  FT   SITE        300    322  DISULFID_By similarity
+feature 820 829 3 square solid SITE
+  FT   SITE        307    315  DISULFID_By similarity
+feature 490 511 4 square solid SIGNAL
+  FT   SIGNAL        1     22  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........MEKLTFLSLLLHFVVFIASTIPSSSFLLNDRTFERSNLPSTRAEKLIRELN
+  LFPQQDLNVIDVADLPLTAAEGPGIVERKFVFPNILADGGPTVD.DLGHHAGYYKLPKSR
+  GASMFYFFFESRN...KKDAPVVIWLTGGPGCSSEL.AVFYENGPFKITSNM.SLAWNEY
+  GWDQVSNLLYVDQPVGTGFSYTT.DKSDIRHDETGVSNDLYDFLQAFFAEHPKLAK..ND
+  FYITGESYAGHYIPAFASRVHKGNKAN..........EGVHINLKGFAIGNGLTDPALQY
+  PAYPDYALEM....GLITQKEHDRLEKIVPLCELSIK.LCGTDG.TTSCLASYLVCNSLF
+  SGVMSHAG..GVNYYDIRKK.CV................................GSLCY
+  D.FSNMEKFLNLQSVRKSLGVG....DIDFVSCSTSVY.QAMLV.DWMRNLEVGIPTLLE
+  D.GISLLVYAGEYDLICNWLGNSRWVNAMEWSGKTNFGAAKEVPFIV....DGKEAGLLK
+  TYE..QLSFLKVRDAGHMVPMDQPKAALKMLKRWMENSLIEDATVTVAAQGGEELVAQM
+}
+{
+name YSS2_CAEEL
+descrip Putative serine carboxypeptidase K10B2.2 precursor (EC 3.4.1
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A       30    461  PF00450 serine_carbpept
+feature 727 727 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        380    380  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        441    441  ACT_SITE_By similarity
+feature 688 688 5 square solid SITE
+  FT   SITE        132    132  CARBOHYD_Nlinked GlcNAc Potential
+feature 904 904 5 square solid SITE
+  FT   SITE        316    316  CARBOHYD_Nlinked GlcNAc Potential
+feature 990 990 5 square solid SITE
+  FT   SITE        396    396  CARBOHYD_Nlinked GlcNAc Potential
+feature 549 567 4 square solid SIGNAL
+  FT   SIGNAL        1     19  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ........MKLLSILFIFVSSYSFCLAAPATDKVNDLPGLTFTP.DFFHYSGYLRAW..T
+  DKYLHYWLTESSR..APTQDPLVLWLNGGPGCSSLD.GLIEELGPFHVKDFGNSIYYNEY
+  AWNKFANVLFLESPAGVGYSYST..NFNLTVSDDEVSLHNYMALLDFLSKFPEYKG..RD
+  FWITGESYAGVYIPTLAVRILNDK..............KNFPNFKGVAIGNGALNFPNNY
+  NTMVPFYYYH....ALVR...DDLYNDIARNCCNNNIGTCD.....IYSKFFDPNCRDKV
+  INALDGTN..ELNMYNLYDV.CYYNPTTNLKKAFIERQMRIAVGLPARKHNAATTVPLCA
+  Q.TNNTHVYLNRADVRKSLHIP..SSLPAWEECSDQVGKNYV...VTHFNVIPEFQTMIA
+  A.GIKILVYNGDVDTACNSIMNQQFLTSLNLT.VLGEQEKVNEAWHYSGQTGTAVAGFQT
+  KFAG.NVDFLTVRGSGHFVPEDKPKESQQMIFNFINNKDYSTPIQL.............
+}
+{
+name YUA6_CAEEL
+descrip Putative serine carboxypeptidase F13S12.6 precursor (EC 3.4.
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A       28    451  PF00450 serine_carbpept
+feature 727 727 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        377    377  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        431    431  ACT_SITE_By similarity
+feature 665 665 5 square solid SITE
+  FT   SITE        110    110  CARBOHYD_Nlinked GlcNAc Potential
+feature 815 815 5 square solid SITE
+  FT   SITE        236    236  CARBOHYD_Nlinked GlcNAc Potential
+feature 551 571 4 square solid SIGNAL
+  FT   SIGNAL        1     21  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........MVMSRTLVLVALLGFAYVCESALITNLPGAPIS..NFKQYSGYYNVGTKK
+  NHMLHYWFVESQS..NPSTDPVLLWLTGGPGCSGLS.ALLTEWGPWNVNTDGATLRTNPY
+  SWNKNASILTLEAPAGVGYSYAT..DNNIATGDDQTASENWEALVAFFNEFPQYKG..ND
+  FYVTGESYGGIYVPTLVQTILDRQ.............SQSHINIKGLAIGNGCVSANEGV
+  DSLVNFLYHH....GVVD...QAKWEHMKTSCCHNDTDAC.....PWHSFSEFSACGEFV
+  EATQQTAWNGGLNPYNMYAD.CISTSASFR......FGMEYERRFNKKYTPEVLGTVPCL
+  D.ESPVTNYLNRQDVRKALGIP..SSLPAWSICSNAISYGYKR...QYGDMTSRVLNAVN
+  NNNLKMMLYNGDVDLACNALMGQRFTDKLGLT.....LSKKKTHFTVK....GQIGGYVT
+  QYKGSQVTFATVRGAGHMVPTDKPAVAEHIIQSFLFNKAF...................
+}
+{
+name CP23_HORVU
+descrip Serine carboxypeptidase II-3 precursor (EC 3.4.16.6) (CP-MII
+creator Hordeum vulgare (Barley).Eukaryota;
+type    PROTEIN
+group 1
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A       90    504  PF00450 serine_carbpept
+feature 727 727 0 square solid SITE
+  FT   SITE        236    236  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        427    427  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        484    484  ACT_SITE_By similarity
+feature 632 933 3 square solid SITE
+  FT   SITE        143    391  DISULFID_Interchain By similarity
+feature 812 836 3 square solid SITE
+  FT   SITE        300    315  DISULFID_By similarity
+feature 862 899 3 square solid SITE
+  FT   SITE        339    359  DISULFID_By similarity
+feature 683 683 5 square solid SITE
+  FT   SITE        194    194  CARBOHYD_Nlinked GlcNAc Potential
+feature 694 694 5 square solid SITE
+  FT   SITE        205    205  CARBOHYD_Nlinked GlcNAc Potential
+feature 813 813 5 square solid SITE
+  FT   SITE        301    301  CARBOHYD_Nlinked GlcNAc Potential
+feature 922 922 5 square solid SITE
+  FT   SITE        380    380  CARBOHYD_Nlinked GlcNAc Potential
+feature 483 502 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..MKCTVVALVLLVAVQCLVLGAGPAAAAKARRTRQGDYLNRLRGSPSSRASWESLAAVE
+  EQTTTKAAGRPAPVAAAVEA......GRKEADRVEALPGHPRGV.DFAQYAGYVTVDAAA
+  GRALFYYLAEAVGGNGDKTKPLLLWLNGGPGCSSLGYGAMEELGPFRVMSDGKTLYSNPY
+  SWNHAANVLFLESPAGVGYSYSNTTADYGRSGDNGTAEDAYQFLDNWLERFPEYKG..RE
+  FYITGESYAGHYVPQLAHAILRHAS..............PDINLKGIMIGNAVINDWTDS
+  KGMYDFFWTH....ALIS...DETADGISKNCNFT.........AYGAGVASNALCDAAS
+  DEVGESLA..DIDIYNIYAPNCQSEK.................LVTPPIAPSIDNFDPCT
+  ..DYYVEAYLNRPDVQKALHANVTRLDHPWSACSDVLTRWVD....SAKTVLPIIQELMK
+  N.SIRVWVYSGDTDGRVPVTSSRLSVNQLQLP.....VAAKWRPWFSSTKGAGEVGGYIV
+  QYKG.DLSLVTVRGAGHEVPSYQPRRALVLVQNFLAGKALPDCKECEQD..........
+}
+{
+name CP22_HORVU
+descrip Serine carboxypeptidase II-2 precursor (EC 3.4.16.6) (CP-MII
+creator Hordeum vulgare (Barley).Eukaryota;
+type    PROTEIN
+group 1
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A        5    423  PF00450 serine_carbpept
+feature 727 727 0 square solid SITE
+  FT   SITE        149    149  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        350    350  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        403    403  ACT_SITE_By similarity
+feature 632 933 3 square solid SITE
+  FT   SITE         56    313  DISULFID_Interchain By similarity
+feature 812 836 3 square solid SITE
+  FT   SITE        217    229  DISULFID_By similarity
+feature 862 899 3 square solid SITE
+  FT   SITE        253    281  DISULFID_By similarity
+feature 683 683 5 square solid SITE
+  FT   SITE        107    107  CARBOHYD_Nlinked GlcNAc Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................VPRVPGQ.AFDASFAHYAGYVTVSEDR
+  GAALFYWFFEAAH..DPASKPLLLWLNGGPGCSSIAFGVGEEVGPFHVNADGKGVHMNPY
+  SWNQVANILFLDSPVGVGYSYSNTSADILSNGDERTAKDSLVFLTKWLERFPQYKE..RE
+  FYLTGESYAGHYVPQLAQAIKRHHEATG..........DKSINLKGYMVGNALTDDFHDH
+  YGIFQYMWTT....GLIS...DQTYKLLNIFCDFE............SFVHTSPQCDKIL
+  DIASTEAG..NIDSYSIFTPTCHSSFAS.........SRNKVVKRLRSVGKMGEQYDPCT
+  ..EKHSIVYFNLHEVQKALHVNPVIGKSKWETCSEVINTNWK...DCERSVLHIYHELIQ
+  Y.GLRIWMFSGDTDAVIPVTSTRYSIDALKLP.....TVTPWHAWYD...DDGEVGGWTQ
+  GYK..GLNFVTVRGAGHEVPLHRPKQALTLIKSFLAGRPMPVLSDLRSDM.........
+}
+{
+name CBPY_SCHPO
+descrip Carboxypeptidase Y precursor (EC 3.4.16.5) (CPY).
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 208 341 5 square solid DOMAIN
+  FT   DOMAIN      208    341  Pro-rich.
+feature 225 341 5 square solid DOMAIN
+  FT   DOMAIN      225    341  9 X 13 AA TANDEM REPEATS OF M-H-H-E-P-G-
+feature 361 423 5 square solid DOMAIN
+  FT   DOMAIN      361    423  7 X 9 AA TANDEM REPEATS OF D-K-E-H-H-K-
+feature 208 341 5 square solid DOMAIN
+  FT   DOMAIN      208    341  Pro-rich.
+feature 225 341 5 square solid DOMAIN
+  FT   DOMAIN      225    341  9 X 13 AA tandem repeats of M-H-H-E-P-G-
+feature 361 423 5 square solid DOMAIN
+  FT   DOMAIN      361    423  7 X 9 AA tandem repeats of D-K-E-H-H-K-G-
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A      578    998  PF00450 serine_carbpept
+feature 578 1057 0 square solid PFAM-A
+  FT   PFAM-A      578    998  PF00450 serine_carbpept
+feature 207 274 0 square solid PFAM-B
+  FT   PFAM-B      207    274  PB001315 Pfam-B_1315
+feature 285 341 0 square solid PFAM-B
+  FT   PFAM-B      285    341  PB001315 Pfam-B_1315
+feature 343 439 0 square solid PFAM-B
+  FT   PFAM-B      343    439  PB076786 Pfam-B_76786
+feature 207 274 0 square solid PFAM-B
+  FT   PFAM-B      207    274  PB001315 Pfam-B_1315
+feature 285 341 0 square solid PFAM-B
+  FT   PFAM-B      285    341  PB001315 Pfam-B_1315
+feature 343 439 0 square solid PFAM-B
+  FT   PFAM-B      343    439  PB076786 Pfam-B_76786
+feature 727 727 0 square solid SITE
+  FT   SITE        715    715  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        921    921  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        978    978  ACT_SITE_By similarity
+feature 977 977 12 square solid SITE
+  FT   SITE        924    924  BINDING_Substrate By similarity
+feature 1038 1038 12 square solid SITE
+  FT   SITE        979    979  BINDING_Substrate By similarity
+feature 632 933 3 square solid SITE
+  FT   SITE        627    880  DISULFID_By similarity
+feature 788 802 3 square solid SITE
+  FT   SITE        776    789  DISULFID_By similarity
+feature 812 836 3 square solid SITE
+  FT   SITE        799    822  DISULFID_By similarity
+feature 820 829 3 square solid SITE
+  FT   SITE        806    815  DISULFID_By similarity
+feature 862 899 3 square solid SITE
+  FT   SITE        844    851  DISULFID_By similarity
+feature 665 665 5 square solid SITE
+  FT   SITE        659    659  CARBOHYD_Nlinked GlcNAc   Potential
+feature 727 727 0 square solid SITE
+  FT   SITE        715    715  ACT_SITE_By similarity
+feature 974 974 0 square solid SITE
+  FT   SITE        921    921  ACT_SITE_By similarity
+feature 1037 1037 0 square solid SITE
+  FT   SITE        978    978  ACT_SITE_By similarity
+feature 977 977 12 square solid SITE
+  FT   SITE        924    924  BINDING_Substrate By similarity
+feature 1038 1038 12 square solid SITE
+  FT   SITE        979    979  BINDING_Substrate By similarity
+feature 632 933 3 square solid SITE
+  FT   SITE        627    880  DISULFID_By similarity
+feature 788 802 3 square solid SITE
+  FT   SITE        776    789  DISULFID_By similarity
+feature 812 836 3 square solid SITE
+  FT   SITE        799    822  DISULFID_By similarity
+feature 820 829 3 square solid SITE
+  FT   SITE        806    815  DISULFID_By similarity
+feature 862 899 3 square solid SITE
+  FT   SITE        844    851  DISULFID_By similarity
+feature 665 665 5 square solid SITE
+  FT   SITE        659    659  CARBOHYD_Nlinked GlcNAc Potential
+feature 225 237 1 square solid REPEAT
+  FT   REPEAT      225    237  1-1.
+feature 238 250 1 square solid REPEAT
+  FT   REPEAT      238    250  1-2.
+feature 251 263 1 square solid REPEAT
+  FT   REPEAT      251    263  1-3.
+feature 264 276 1 square solid REPEAT
+  FT   REPEAT      264    276  1-4.
+feature 277 289 1 square solid REPEAT
+  FT   REPEAT      277    289  1-5.
+feature 290 302 1 square solid REPEAT
+  FT   REPEAT      290    302  1-6.
+feature 303 315 1 square solid REPEAT
+  FT   REPEAT      303    315  1-7.
+feature 316 328 1 square solid REPEAT
+  FT   REPEAT      316    328  1-8.
+feature 329 341 1 square solid REPEAT
+  FT   REPEAT      329    341  1-9.
+feature 361 369 1 square solid REPEAT
+  FT   REPEAT      361    369  2-1.
+feature 370 378 1 square solid REPEAT
+  FT   REPEAT      370    378  2-2.
+feature 379 387 1 square solid REPEAT
+  FT   REPEAT      379    387  2-3.
+feature 388 396 1 square solid REPEAT
+  FT   REPEAT      388    396  2-4.
+feature 397 405 1 square solid REPEAT
+  FT   REPEAT      397    405  2-5.
+feature 406 414 1 square solid REPEAT
+  FT   REPEAT      406    414  2-6.
+feature 415 423 1 square solid REPEAT
+  FT   REPEAT      415    423  2-7 (APPROXIMATE).
+feature 225 237 1 square solid REPEAT
+  FT   REPEAT      225    237  1-1.
+feature 238 250 1 square solid REPEAT
+  FT   REPEAT      238    250  1-2.
+feature 251 263 1 square solid REPEAT
+  FT   REPEAT      251    263  1-3.
+feature 264 276 1 square solid REPEAT
+  FT   REPEAT      264    276  1-4.
+feature 277 289 1 square solid REPEAT
+  FT   REPEAT      277    289  1-5.
+feature 290 302 1 square solid REPEAT
+  FT   REPEAT      290    302  1-6.
+feature 303 315 1 square solid REPEAT
+  FT   REPEAT      303    315  1-7.
+feature 316 328 1 square solid REPEAT
+  FT   REPEAT      316    328  1-8.
+feature 329 341 1 square solid REPEAT
+  FT   REPEAT      329    341  1-9.
+feature 361 369 1 square solid REPEAT
+  FT   REPEAT      361    369  2-1.
+feature 370 378 1 square solid REPEAT
+  FT   REPEAT      370    378  2-2.
+feature 379 387 1 square solid REPEAT
+  FT   REPEAT      379    387  2-3.
+feature 388 396 1 square solid REPEAT
+  FT   REPEAT      388    396  2-4.
+feature 397 405 1 square solid REPEAT
+  FT   REPEAT      397    405  2-5.
+feature 406 414 1 square solid REPEAT
+  FT   REPEAT      406    414  2-6.
+feature 415 423 1 square solid REPEAT
+  FT   REPEAT      415    423  2-7 (approximate).
+feature 1 18 4 square solid SIGNAL
+  FT   SIGNAL        1     18  Potential.
+feature 1 18 4 square solid SIGNAL
+  FT   SIGNAL        1     18  Potential.
+sequence
+  MLMKQTFLYFLLTCVVSAQFNGYVPPEQNGGDIVVPKDFYEKFGEDFIREQEESSAPLMN
+  PVPERDEAEAPHHPKGHHEFNDDFEDDTALEHPGFKDKLDSFLQPARDFLHTVSDRLDNI
+  FDDDEDEHVREKRPHDSADEDAPRRKHGKCKGKGKHHKGKHAKGKGKKSHPKPEDDSVFF
+  DDERPKHHEFDDEDREFPAHHEPGEHMPPPPMHHKPGEHMPPPPMHHEPGEHMPPPPMHH
+  EPGEHMPPPPMHHEPGEHMPPPPMHHEPGEHMPPPPMHHEPGEHMPPPPMHHEPGEHMPP
+  PPMHHEPGEHMPPPPMHHEPGEHMPPPPMHHEPGEHMPPPPFKHHELEEHEGPEHHRGPE
+  DKEHHKGPKDKEHHKGPKDKEHHKGPKDKEHHKGPKDKEHHKGPKDKEHHKGPKDKEHHQ
+  GPKEKHNERPEQNMQSSHELLVIEAFADLINSVPVEEIAEEFSRFLDTLGIEYYGNIPVH
+  IQENAPKDSSIPPLFEFDDDLELSDLTPEQFAYLEMLKAEGIDPMTAFRDQSHPAKPSNA
+  QPADSSRPYAVFSQEENGEHVNLKAFPDHTLRVKDSKPESLGID.TVKQYTGYLDVE..D
+  DRHLFFWFFESRN..DPENDPVVLWLNGGPGCSSLT.GLFMELGPSSINIETLKPEYNPH
+  SWNSNASVIFLDQPINTGFSNGD....DSVLDTVTAGKDVYAFLNLFFAKFPQYAH..LD
+  FHIAGESYAGHYIPQFAKEIMEHNQGANFFVASGYEMEKQYINLKSVLIGNGLTDPLVQY
+  YFYGKMACES.PYGPIMSQEECDRITGAYDTCAKLIT.GCYQTGFTPVCIGASLYCNNAM
+  IGPFTKTG...LNIYDIREE.CRD..............................QEHLCY
+  PETGAIESYLNQEFVQEALGVE.....YDYKGCNTEVNIGFLFKGDWMRKTFRDDVTAIL
+  EAGLPVLIYAGDADYICNYMGNEAWTDALEWAGQREFYEAELKPWSP....NGKEAGRGK
+  SFK..NFGYLRLYEAGHMVPFNQPEASLEMLNSWIDGSLFA..................
+}

@@ -1,0 +1,934 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:  1361  Type: P  octubre 20, 2015 18:59  Check:    0  ..
+
+ Name: 1acj_      Len:  1361  Check: 9202  Weight:  1.00
+ Name: 1dx4_A     Len:  1361  Check: 7572  Weight:  1.00
+ Name: 1akn_      Len:  1361  Check: 7387  Weight:  1.00
+ Name: CEL_MOUSE  Len:  1361  Check: 2149  Weight:  1.00
+ Name: CEL_HUMAN  Len:  1361  Check: 3181  Weight:  1.00
+ Name: NLG3_HUMAN Len:  1361  Check: 1892  Weight:  1.00
+ Name: EST1_CAEBR Len:  1361  Check: 9561  Weight:  1.00
+ Name: ACES_BRARE Len:  1361  Check: 6428  Weight:  1.00
+ Name: ACES_ELEEL Len:  1361  Check: 3392  Weight:  1.00
+ Name: ACES_CHICK Len:  1361  Check:  356  Weight:  1.00
+ Name: SASB_ANAPL Len:  1361  Check: 9154  Weight:  1.00
+ Name: CRYS_DICDI Len:  1361  Check: 4474  Weight:  1.00
+ Name: D2_DICDI   Len:  1361  Check: 9506  Weight:  1.00
+ Name: 1k4y_A     Len:  1361  Check: 1465  Weight:  1.00
+ Name: ES22_MOUSE Len:  1361  Check: 1880  Weight:  1.00
+ Name: EST4_RAT   Len:  1361  Check: 3351  Weight:  1.00
+ Name: EST1_PIG   Len:  1361  Check: 4256  Weight:  1.00
+ Name: ES10_RAT   Len:  1361  Check: 3713  Weight:  1.00
+ Name: EST1_RAT   Len:  1361  Check: 3500  Weight:  1.00
+ Name: EST2_RABIT Len:  1361  Check: 5616  Weight:  1.00
+ Name: EST1_MESAU Len:  1361  Check: 9809  Weight:  1.00
+ Name: ESTM_MOUSE Len:  1361  Check: 1037  Weight:  1.00
+ Name: 1cle_A     Len:  1361  Check: 6913  Weight:  1.00
+ Name: LIP1_GEOCN Len:  1361  Check:  838  Weight:  1.00
+ Name: ESTE_MYZPE Len:  1361  Check: 4870  Weight:  1.00
+ Name: 1c7i_A     Len:  1361  Check:  326  Weight:  1.00
+ Name: EST2_CAEEL Len:  1361  Check: 8125  Weight:  1.00
+ Name: ESTJ_HELVI Len:  1361  Check: 3438  Weight:  1.00
+ Name: EST1_CULPI Len:  1361  Check: 3023  Weight:  1.00
+ Name: PCD_ARTOX  Len:  1361  Check: 2388  Weight:  1.00
+
+//
+
+           1                                                   50
+1acj_      ---------- ---------- ---------- ---------- ----------
+1dx4_A     ---------- ---------- ---------- ---------- ----------
+1akn_      A--------- ---------- ---------- ---------- ----------
+CEL_MOUSE  MGRLEV---- ---------- -LFLG-L--- ----TCCLA- AA---CA---
+CEL_HUMAN  MGRLQL---- ---------- -VVLG-L--- ----TCCWA- VA---SA---
+NLG3_HUMAN MWLRLGPPSL SLSPKPTVGR SLCLT-LW-F L---SLALR- AS---TQ---
+EST1_CAEBR MRVL------ ---------- --LAS-LL-I F--------- -G---AC---
+ACES_BRARE MKTSDI---- ---------- -LLLP-TV-L L-TFLFHNC- FA---QA---
+ACES_ELEEL MKILDA---- ---------- -LLFP-VI-F I-MFFIHLS- IA---QT---
+ACES_CHICK MAPLFL---- ---------- -LLLL-LL-S P-SPTSAHR- FA--YSA---
+SASB_ANAPL MATEKN---- ---------- -TLLS-LI-L TAGITALVA- TG---QK---
+CRYS_DICDI MNKIII---- ---------- -LLII-LL-- --S-FDIIS- AA---KKFGR
+D2_DICDI   MNKLLV---- ---------- -FILL-LL-- --L-LINIS- FA---RKR--
+1k4y_A     ---------- ---------- ---------- ---------- ----------
+ES22_MOUSE MCLSAL---- ---------- -ILV------ --SLAAFTAG AG---HP---
+EST4_RAT   MCLSFL---- ---------- -ILV------ --SLATCVV- YG---NP---
+EST1_PIG   MWLLPL---- ---------- -VLT------ --SLASSATW AG---QP---
+ES10_RAT   MRLYPL---- ---------- -VWL------ --FLAACTA- WG---YP---
+EST1_RAT   MWLCAL---- ---------- -VWA------ --SLAVCPI- WG---HP---
+EST2_RABIT ---------- ---------- ---------- ---------- -----QD---
+EST1_MESAU MPLNRF---- ---------- -PCWRYAVAC GLLLLLVHV- HG---QD---
+ESTM_MOUSE MACLLL---- ---------- -IFP------ --T----TV- IG---PK---
+1cle_A     ---------- ---------- ---------- ---------- ----------
+LIP1_GEOCN MVSKTF---- ---------- -FLAA-A--- -----LNV-- VG---TL---
+ESTE_MYZPE MKNTCG---- ---------- -ILLN-LF-L F---IGCFL- TC---SA---
+1c7i_A     ---------- ---------- ---------- ---------- ----------
+EST2_CAEEL GGFLS----- ---------- ---------- ---------- --HLTPE---
+ESTJ_HELVI MTSHV----- ---------- --LAL-AF-L L---HACTA- LAWQETN---
+EST1_CULPI MSL------- ---------- ---------- ---------- ----------
+PCD_ARTOX  MIT------- ---------- ---------- ---------- ----------
+
+           51                                                 100
+1acj_      ------SELL VNTKSG-KVM GTRVPVL--- SSHISAFLGI PFAEPPVGNM
+1dx4_A     ------DRLV VQTSSG-PVR GRSVTVQ--- GREVHVYTGI PYAKPPVEDL
+1akn_      ------KLGS VYTEGG-FVE GVNKKLSLF- GDSIDIFKGI PFAAAPK---
+CEL_MOUSE  -----AKLGA VYTEGG-FVE GVNKKLSLLG GDSVDIFKGI PFATAK----
+CEL_HUMAN  -----AKLGA VYTEGG-FVE GVNKKLGLL- GDSVDIFKGI PFAAPTK---
+NLG3_HUMAN -----APAPT VNTHFG-KLR GARVPLPSEI LGPVDQYLGV PYAAPPIGEK
+EST1_CAEBR -----WAGPV VNTNYG-KVE GFE------- YGAAEVFLAI PFAKPPVDNL
+ACES_BRARE -----EPDLV VATRLG-RVQ GTRLPVPD-- RSHVIAFLGI PYAEPPIGKR
+ACES_ELEEL -----DPELT IMTRLG-QVQ GTRLPVPD-- RSHVIAFLGI PFAEPPLGKM
+ACES_CHICK -----PNRPE VRTTTG-SVR GLLIPAGPS- GSTAAAFLGI PFAVPPLGPL
+SASB_ANAPL -----AEQPE VVTNYG-SVR GYQVKVNAA- ERSVNVFLGL PFAKPPVGPL
+CRYS_DICDI KGIRTLGDNE VLLSDG-AIR GTV------- TDTHRVFYGI PFARPPIDEL
+D2_DICDI   SYIKNTDASI VVTQFG-AIK GIV------- EDTHRVFYGI PFAQPPVNQL
+1k4y_A     -------PPV VDTVHG-KVL GKFVSLEGF- AQPVAVFLGV PFAKPPLGSL
+ES22_MOUSE -----SSPPM VDTVQG-KVL GKYISLEGF- TQPVAVFLGV PFAKPPLGSL
+EST4_RAT   -----SSPPV VDTTKG-KVL GKYVSLEGV- TQSVAVFLGV PFAKPPLGSL
+EST1_PIG   -----ASPPV VDTAQG-RVL GKYVSLEGL- AQPVAVFLGV PFAKPPLGSL
+ES10_RAT   -----SSPPV VNTVKG-KVL GKYVNLEGF- AQPVAVFLGI PFAKPPLGSL
+EST1_RAT   -----SSPPV VDTTKG-KVL GKYVSLEGF- TQPVAVFLGV PFAKPPLGSL
+EST2_RABIT -----SASPI RNTHTG-QVR GSLVHVEGT- DAGVHTFLGI PFAKPPLGPL
+EST1_MESAU -----SVSPI RNTHTG-QVR GKLVYVKEG- VTGVYAFLGI PFAKPPVGPL
+ESTM_MOUSE -----VTQPE VDTPLG-RVR GRQVGVKDT- DRMVNVFLGI PFAQAPLGPL
+1cle_A     -------APT AKLANGDTIT GLN------- AIINEAFLGI PFAEPPVGNL
+LIP1_GEOCN -----AQAPT AVLNGNEVIS GVL------- EGKVDTFKGI PFADPPVGDL
+ESTE_MYZPE -----SNTPK VQVHSG-EIA GGFEYT-YN- GRKIYSFLGI PYASPPVQNN
+1c7i_A     ------THQI VTTQYG-KVK GTT------- ENGVHKWKGI PYAKPPVGQW
+EST2_CAEEL -----QNVEA LKASCG-PVR GNI-YK-HD- DVIVDGYLGI PYAKPPVGEL
+ESTJ_HELVI -----SRSVV AHLDSG-IIR GVP-RS-AD- GIKFASFLGV PYAKQPVGEL
+EST1_CULPI ------ESLT VQTKYG-PVR GKRNVS-LL- GQEYVSFQGI PYARAPEGEL
+PCD_ARTOX  -------RPI AHTTAG-DLG GCL------- EDGLYVFRGV PYAEPPVGDL
+
+           101                                                150
+1acj_      RFRRPEPK-K PWSGVWNAST YPNNCQQYVD EQF--P---G FSG-------
+1dx4_A     RFRKPVPA-E PWHGVLDATG LSATCVQERY EYF--P---G FSG-------
+1akn_      ALEKPERH-P GWQGTLKAKS FKKRCLQATL T--------- ----------
+CEL_MOUSE  TLENPQRH-P GWQGTLKATN FKKRCLQATI T--------- ----------
+CEL_HUMAN  ALENPQPH-P GWQGTLKAKN FKKRCLQATI T--------- ----------
+NLG3_HUMAN RFLPPEPP-P SWSGIRNATH FPPVCPQNIH TAV--P---E VML-------
+EST1_CAEBR RFEKPEAP-E PWEDVYQATQ FRNDCTPHYR LV-------- ----------
+ACES_BRARE RFKRAEPK-K PWNNVFEAKE FSNACYQFVD TSY--P---G FPG-------
+ACES_ELEEL RFKPPEPK-K PWNDVFDARD YPSACYQYVD TSY--P---G FSG-------
+ACES_CHICK RFRPPLPIPT PWTGIRDADS QPFACYQMVD TTF--P---G FQG-------
+SASB_ANAPL RFSEPQPP-E PWKGVRDAAS YPPMCLQDKV LGQYLS---D AITN------
+CRYS_DICDI RYEDPQPP-K PWSYVRDGTK QRDQCIQDCK LGK------G ----------
+D2_DICDI   RWENPIDL-K PWENVRETLT QKSQCAQKCN LGP------G ----------
+1k4y_A     RFAPPQPA-E SWSHVKNTTS YPPMCSQDAV SGHMLS---E LFTN------
+ES22_MOUSE RFAPPQPA-E PWSSVKNATS YPPMCFQDPV TGQIVN---D LLTN------
+EST4_RAT   RFAPPQPA-E PWSFVKNTTT YPPMCSQDAA KGQRMN---D LLTN------
+EST1_PIG   RFAPPQPA-E PWSFVKNTTS YPPMCCQDPV VEQMTS---D LFTN------
+ES10_RAT   RFAPPQPA-E PWNFVKNTTS YPPMCSQDAV GGQVLS---E LFTN------
+EST1_RAT   RFAPPEPA-E PWSFVKNTTT YPPMCSQDGV VGKLLA---D MLST------
+EST2_RABIT RFAPPEPA-E AWSGVRDGTS LPAMCLQNLA IMDQ-----D VLLL------
+EST1_MESAU RFAPPEPP-E PWSGVRDGTS EPAMCLQTDF MRP------Q ISKE------
+ESTM_MOUSE RFSAPLPP-Q PWEGVRDASI NPPMCLQDVE RMS--N---S RFTL------
+1cle_A     RFKDPVPY-S GSLNGQKFTS YGPSCMQQNP EGT-FE---E NL--GKTALD
+LIP1_GEOCN RFKHPQPF-T GSYQGLKAND FSSACMQLDP GNA-ISLLDK VVGLGKIIPD
+ESTE_MYZPE RFKEPQPV-Q PWLGVWNATV PGSACLGIEF GS-------- ----------
+1c7i_A     RFKAPEPP-E VWEDVLDATV YGPVCPQPSD LLS------- ----------
+EST2_CAEEL RFKKPVTV-D VWTEIKDCYK YGPACVQTGG FEQ------- I---------
+ESTJ_HELVI RFKELEPL-E PWDNILNATN EGPICFQTDV LYG------- R---------
+EST1_CULPI RFKAPVPP-Q KWTETLDCTQ QCEPCYHFDR RL-------- ----------
+PCD_ARTOX  RWRAARPH-A GWTGVRDASA YGPSAPQPVE PGG--S---P IL--------
+
+           151                                                200
+1acj_      ------SEMW N--------- PNREMSEDCL YLNIWVPSPR P---------
+1dx4_A     ------EEIW N--------- PNTNVSEDCL YINVWAPATT ----------
+1akn_      ---------- Q--------- DSTYGNEDCL YLNIWVPQGR KE--------
+CEL_MOUSE  ---------- Q--------- DNTYGQEDCL YLNIWVPQGR KQ--------
+CEL_HUMAN  ---------- Q--------- DSTYGDEDCL YLNIWVPQGR KQ--------
+NLG3_HUMAN ------PVWF TANLDIVA-T YIQEPNEDCL YLNVYVPTED VKRISKECAR
+EST1_CAEBR ---------- -------A-Q FSSYSGEDCL TLNVIKPKTI ----------
+ACES_BRARE ------IEMW N--------- PNRVMSEDCL YLNVWVPPTP R---------
+ACES_ELEEL ------TEMW N--------- PNRMMSEDCL YLNVWVPATP R---------
+ACES_CHICK ------SEMW N--------- PNREMSEDCL YLNVWTQKGD P---------
+SASB_ANAPL -------RKE K--------- VRLQISEDCL YLNVYTPVST EE--------
+CRYS_DICDI ---------S C--------- SEVGTSEDCL YLDVFIPRTV NP--------
+D2_DICDI   ---------V C--------- SPIGTSEDCL YLDVFTPKDA TP--------
+1k4y_A     -------RKE N--------- IPLKFSEDCL YLNIYTPADL TK--------
+ES22_MOUSE -------RKE K--------- IPLQFSEDCL YLNIYTPADL TK--------
+EST4_RAT   -------RKE K--------- IHLEFSEDCL YLNIYTPADF TK--------
+EST1_PIG   -------GKE R--------- LTLEFSEDCL YLNIYTPADL TK--------
+ES10_RAT   -------RKE N--------- IPLQFSEDCL YLNVYTPADL TK--------
+EST1_RAT   -------GKE S--------- IPLEFSEDCL YLNIYSPADL TK--------
+EST2_RABIT -------HFT P--------- PSIPMSEDCL YLNIYSPAHA RE--------
+EST1_MESAU ------RKII L--------- PTISMSEDCL YLNIYTPAHA HE--------
+ESTM_MOUSE -------NEK M--------- KIFPISEDCL TLNIYSPTEI TA--------
+1cle_A     LVM--QSKVF Q--------- AVLPQSEDCL TINVVRPPGT KA--------
+LIP1_GEOCN NLRGPLYDMA Q--------- GSVSMNEDCL YLNVFRPAGT KP--------
+ESTE_MYZPE ---------- ---------G SKIIGQEDCL FLNVYTPKLP QEN-------
+1c7i_A     ---------- -L----SY-K ELPRQSEDCL YVNVFAPDTP ----------
+EST2_CAEEL ---------- ------AGPR TPTPEEAGCL TLNVFTPRNA SSE-------
+ESTJ_HELVI ---------- ------L--M AASEMSEACI YANIHVPWQS LPRV------
+EST1_CULPI ---------- ---------- QKIVGCEDSL KINVFAKE-I NP--------
+PCD_ARTOX  --------GT H--------- GDPPFDEDCL TLNLWTPNLD ----------
+
+           201                                                250
+1acj_      ---------- ---------- ---------- -----KSTTV MVWIYGGGFY
+1dx4_A     ---------- ---------- ---------- -----NGLPI LIWIYGGGFM
+1akn_      --V------- ---------- ---------- ----SHDLPV MIWIYGGAFL
+CEL_MOUSE  --V------- ---------- ---------- ----SHNLPV MVWIYGGAFL
+CEL_HUMAN  --V------- ---------- ---------- ----SRDLPV MIWIYGGAFL
+NLG3_HUMAN KPNKKICRKG GSGAKKQGED LADNDGDEDE DIRDSGAKPV MVYIHGGSYM
+EST1_CAEBR ---------- ---------- ---------- ----EKKLPV LFWVHGGGYE
+ACES_BRARE ---------- ---------- ---------- ----PQNLTV MVWIYGGGFY
+ACES_ELEEL ---------- ---------- ---------- ----PHNLTV MVWIYGGGFY
+ACES_CHICK ---------- ---------- ---------- -----TEPPV LVWIYGGGFT
+SASB_ANAPL ---------- ---------- ---------- ----QEKLPV FVWIHGGGLV
+CRYS_DICDI ---------- ---------- ---------- ----GSKVPV MVFIPGGAFT
+D2_DICDI   ---------- ---------- ---------- ----NSKYPV IVYIPGGAFS
+1k4y_A     ---------- ---------- ---------- ----RGRLPV MVWIHGGGLM
+ES22_MOUSE ---------- ---------- ---------- ----SDRLPV MVWIHGGGLV
+EST4_RAT   ---------- ---------- ---------- ----NSRLPV MVWIHGGGMT
+EST1_PIG   ---------- ---------- ---------- ----RGRLPV MVWIHGGGLV
+ES10_RAT   ---------- ---------- ---------- ----NSRLPV MVWIHGGGLV
+EST1_RAT   ---------- ---------- ---------- ----NSRLPV MVWIHGGGLI
+EST2_RABIT ---------- ---------- ---------- ----GSDLPV MVWIHGGGLT
+EST1_MESAU ---------- ---------- ---------- ----GSNLPV MVWIHGGALV
+ESTM_MOUSE ---------- ---------- ---------- ----GDKRPV MVWIHGGSLR
+1cle_A     ---------- ---------- ---------- ----GANLPV MLWIFGGGFE
+LIP1_GEOCN ---------- ---------- ---------- ----DAKLPV MVWIYGGAFV
+ESTE_MYZPE ---------- ---------- ---------- --SAGDLMNV IVHIHGGGYY
+1c7i_A     ---------- ---------- ---------- ----SQNLPV MVWIHGGAFY
+EST2_CAEEL ---------- ---------- ---------- ---FKNGRPV MVYIHGGGYE
+ESTJ_HELVI ---------- ---------- ---------- -RGTTPLRPI LVFIHGGGFA
+EST1_CULPI ---------- ---------- ---------- ----STPLPV MLYIYGGGFT
+PCD_ARTOX  ---------- ---------- ---------- ----GGSRPV LVWIHGGGLL
+
+           251                                                300
+1acj_      SGSSTL---- --DVYNGK-- ---YL---AY TEEVVLVSLS YRVGAFGFLA
+1dx4_A     TGSATL---- --DIYNAD-- ---IM---AA VGNVIVASFQ YRVGAFGFLH
+1akn_      MGASQGANFL SNYLYDGE-- ---EI---AT RGNVIVVTFN YRVGPLGFLS
+CEL_MOUSE  MGSGQGANFL KNYLYDGE-- ---EI---AT RGNVIVVTFN YRVGPLGFLS
+CEL_HUMAN  MGSGHGANFL NNYLYDGE-- ---EI---AT RGNVIVVTFN YRVGPLGFLS
+NLG3_HUMAN EGTGN----- ---MIDGS-- ---IL---AS YGNVIVITLN YRVGVLGFLS
+EST1_CAEBR IGSGS----- ---QHGYE-- ---FFADRYT SQGVIVVTIQ YRLGFMGFFS
+ACES_BRARE SGSSSL---- --DVYDGR-- ---YL---AY TEKVVVVSMN YRVGAFGFLA
+ACES_ELEEL SGSSSL---- --DVYDGR-- ---YL---AH SEKVVVVSMN YRVSAFGFLA
+ACES_CHICK GGSVSL---- --DVYDGR-- ---YL---AA AEEAVVVSMN YRVGSLGFLA
+SASB_ANAPL SGAAS----- ---SYDGS-- ---ALA---A FDNVVVVTIQ YRLGIAGYFS
+CRYS_DICDI QGTGSC---- --PLYDGL-- ---KF----A NSSVIVVNVN YRLGVLGFLC
+D2_DICDI   VGSGSV---- --PLYDAT-- ---KF----A QSSVIVVNIN YRLGVLGFMG
+1k4y_A     VGGAS----- ---TYDGL-- ---ALS---A HENVVVVTIQ YRLGIWGFFS
+ES22_MOUSE LGGAS----- ---TYDGL-- ---VLS---T HENVVVVVIQ YRLGIWGFFS
+EST4_RAT   LGGAS----- ---TYDGR-- ---VLS---A YENVVVVAIQ YRLGIWGFFS
+EST1_PIG   LGGAP----- ---MYDGV-- ---VLA---A HENVVVVAIQ YRLGIWGFFS
+ES10_RAT   VGGAS----- ---TYDGQ-- ---VLS---A HENVVVVTIQ YRLGIWGFFS
+EST1_RAT   IGGAS----- ---PYSGL-- ---ALS---A HENVVVVTIQ YRLGIWGLFS
+EST2_RABIT MGMAS----- ---MYDGS-- ---ALA---A FEDVVVVTIQ YRLGVLGFFS
+EST1_MESAU MGMAS----- ---MNDGS-- ---LLA---A TEDIVIVSIQ YRLGILGFFS
+ESTM_MOUSE VGSST----- ---SHDGS-- ---ALA---A YGDVVVVTVQ YRLGIFGFLS
+1cle_A     IGSPTI---- ----FPPAQM VTKSV---LM GKPIIHVAVN YRVASWGFLA
+LIP1_GEOCN FGSSAS---- ----YPGNGY VKESL---EM GQPVVFVSIN YRTGPYGFLG
+ESTE_MYZPE FGEGI----- ---LYGPH-- ---YL---LD NNDFVYVSIN YRLGVLGFAS
+1c7i_A     LGAGSE---- --PLYDGS-- ---KL---AA QGEVIVVTLN YRLGPFGFMH
+EST2_CAEEL LCASSD---- -FCAYSLS-- ---GT---LP LKDVVVVSIN YRLGVFGFLT
+ESTJ_HELVI FGSGHE---- --DLHGP--- ---EY---LV TKNVIVITFN YRLNVFGFLS
+EST1_CULPI EGTSGT---- --ELYGP--- ---DF---LV QKDIVLVSFN YRIGALGFLC
+PCD_ARTOX  TGSGNL---- --PNYATD-- ---TF---AR DGDLVGISIN YRLGPLGFLA
+
+           301                                                350
+1acj_      --LH------ GS--Q--EAP GNVGLLDQRM ALQWVHDNIQ FFGGDPKTVT
+1dx4_A     --LAPEMPSE FA--E--EAP GNVGLWDQAL AIRWLKDNAH AFGGNPEWMT
+1akn_      --T------- GD--S--NLP GNYGLWDQHM AIAWVKRNIE AFGGDPDNIT
+CEL_MOUSE  --T------- GD--A--NLP GNFGLRDQHM AIAWVKRNIA AFGGDPDNIT
+CEL_HUMAN  --T------- GD--A--NLP GNYGLRDQHM AIAWVKRNIA AFGGDPNNIT
+NLG3_HUMAN --T------- GD--Q--AAK GNYGLLDQIQ ALRWVSENIA FFGGDPRRIT
+EST1_CAEBR --E------- GT--S--DAP GNYGLFDQAA ALRFVKENIG NFGGDPDDIT
+ACES_BRARE --LN------ GS--S--DAP GNVGLYDQRL ALQWVQENIH FFGGNPKQVT
+ACES_ELEEL --LN------ GS--A--EAP GNVGLLDQRL ALQWVQDNIH FFGGNPKQVT
+ACES_CHICK --LA------ GH--R--DAP GNVGLWDQRL ALQWVRDNAE AFGGDPDLIT
+SASB_ANAPL --T------- GD--K--HAR GNWGYLDQVA ALQWIQENII HFRGDPGSVT
+CRYS_DICDI --T------- G------LLS GNFGFLDQVM ALDWVQENIE VFGGDKNQVT
+D2_DICDI   --T------- D------LMH GNYGFLDQIK ALEWVYNNIG SFGGNKEMIT
+1k4y_A     --T------- GD--E--HSR GNWGHLDQVA ALRWVQDNIA NFGGDPGSVT
+ES22_MOUSE --T------- GD--E--HSR GNWGHLDQVA ALHWVQDNIA KFGGDPGSVT
+EST4_RAT   --T------- GD--E--HSR GNWGHLDQVA ALHWVQDNIA NFGGDPGSVT
+EST1_PIG   --T------- GD--E--HSR GNWGHLDQVA ALHWVQENIA NFGGDPGSVT
+ES10_RAT   --T------- GD--E--HSR GNWGHLDQVA ALHWVQDNIA NFGGNPGSVT
+EST1_RAT   --T------- GD--E--HSR GNWAHLDQLA ALRWVQDNIA NFGGNPDSVT
+EST2_RABIT --T------- GD--Q--HAT GNHGYLDQVA ALRWVQKNIA HFGGNPGRVT
+EST1_MESAU --T------- GD--E--HAR GNWGYLDQVA ALHWVQQNIA SFGGNPGQVT
+ESTM_MOUSE --T------- GD--K--HMP GNRGFLDVVA ALRWVQGNIA PFGGDPNCVT
+1cle_A     --G------- DD--IKAEGS GNAGLKDQRL GMQWVADNIA GFGGDPSKVT
+LIP1_GEOCN --G------- DA--ITAEGN TNAGLHDQRK GLEWVSDNIA NFGGDPDKVM
+ESTE_MYZPE --T------- GD--G--VLT GNNGLKDQVA ALKWIQQNIV AFGGDPNSVT
+1c7i_A     LSS------- FD--E--AYS DNLGLLDQAA ALKWVRENIS AFGGDPDNVT
+EST2_CAEEL --T------- GD--N--VCP GNFGLWDQTL ALKWVQKHIS SFGGDPNCVT
+ESTJ_HELVI --M------- NT--T--KIP GNAGLRDQVT LLRWVQRNAK NFGGDPSDIT
+EST1_CULPI --C------- QSEQD--GVP GNAGLKDQNL AIRWVLENIA AFGGDPKRVT
+PCD_ARTOX  --GM------ GD-------- ENVWLTDQVE ALRWIADNVA AFGGDPNRIT
+
+           351                                                400
+1acj_      IFGESAGGAS VGMHILSP-- ----GSRDLF RRAILQSGSP NCPWASVSVA
+1dx4_A     LFGESAGSSS VNAQLMSP-- ----VTRGLV KRGMMQSGTM NAPWSHMTSE
+1akn_      LFGESAGGAS VSLQTLSP-- ----YNKGLI KRAISQSGVG LCPWAIQQ--
+CEL_MOUSE  IFGESAGAAS VSLQTLSP-- ----YNKGLI RRAISQSGMA LSPWAIQK--
+CEL_HUMAN  LFGESAGGAS VSLQTLSP-- ----YNKGLI RRAISQSGVA LSPWVIQK--
+NLG3_HUMAN VFGSGIGASC VSLLTLSH-- ----HSEGLF QRAIIQSGSA LSSWAVNYQ-
+EST1_CAEBR IWGYSAGAAS VSQLTMSP-- ----YTHDLY SKAIIMSASS FVGWATGPN-
+ACES_BRARE IFGESAGAAS VGMHVLSP-- ----DSRPLF TRAILQSGVP NTPWATVTFD
+ACES_ELEEL IFGESAGAAS VGMHLLSP-- ----DSRPKF TRAILQSGVP NGPWRTVSFD
+ACES_CHICK LFGESAGAAS VGFHLLSP-- ----HSKGLF RRAVLQSGSP NGPWATIGAA
+SASB_ANAPL IFGESAGGVS VSALVLSP-- ----LAKGLF HKAISESGTA VRIL-FTE--
+CRYS_DICDI IYGESAGAFS VAAHLSSE-- ----KSEGKF HRAILSSTPY TVGLKSQT--
+D2_DICDI   IWGESAGAFS VSAHLTFT-- ----YSRQYF NAAISSSSPL TVGLKDKT--
+1k4y_A     IFGESAGGQS VSILLLSP-- ----LTKNLF HRAISESGVA LLSSLFRK--
+ES22_MOUSE IFGESAGGES VSVLVLSP-- ----LAKNLF QRAISESGVA LTAGLVKK--
+EST4_RAT   IFGESAGGFS VSVLVLSP-- ----LTKNLF HRAISESGVV FLPGLLTK--
+EST1_PIG   IFGESAGGES VSVLVLSP-- ----LAKNLF HRAISESGVA LTVALVRK--
+ES10_RAT   IFGESAGGFS VSALVLSP-- ----LAKNLF HRAISESGVV LTSALITT--
+EST1_RAT   IFGESAGGVS VSALVLSP-- ----LAKNLF HRAISESGVV LTTNLDKK--
+EST2_RABIT IFGESAGGTS VSSHVLSP-- ----MSQGLF HGAIMESLVA LLPGLITS--
+EST1_MESAU IFGVSAGGTS VSSLVVSP-- ----MSKGLF HGAIMQSGVA LLPDLISD--
+ESTM_MOUSE IFGNSAGGII VSSLLLSP-- ----MSAGLF HRAISQSGVV ISKILEDL--
+1cle_A     IFGESAGSMS VLCHLIWNDG DNTYKGKPLF RAGIMQSGAM VPSDPVDG-T
+LIP1_GEOCN IFGESAGAMS VAHQLVAYGG DNTYNGKQLF HSAILQSGGP LPYFDSTS-V
+ESTE_MYZPE ITGMSAGASS VHNHLISP-- ----MSKGLF NRAIIQSGSA FCHWSTAEN-
+1c7i_A     VFGESAGGMS IAALLAMP-- ----AAKGLF QKAIMESGAS RTM--TKEQ-
+EST2_CAEEL VFGQSAGGAS TDLLSLSP-- ----HSRDLF QRFIPISGTA HCDFAIRASE
+ESTJ_HELVI IAGQSAGASA AHLLTLSK-- ----ATEGLF KRAILMSGTG MSYFFTTSPL
+EST1_CULPI LAGHSAGAAS VQYHLISD-- ----ASKDLF QRRIVMSGST YSSWSLTRQR
+PCD_ARTOX  LVGQSGGAYS IAALAQHP-- ----VARQLF HRAILQSPPF GMQPHTVE--
+
+           401                                                450
+1acj_      EGRR-RAVEL GRNLNCNL-- --NS-DEELI HCLREKKPQE LIDVEW-NV-
+1dx4_A     KAVE-IGKAL INDCNCNASM LKTN-PAHVM SCMRSVDAKT ISVQQW-N--
+1akn_      DPLF-WAKRI AEKVGCPV-- --DD-TSKMA GCLKITDPRA LTLAYK-LP-
+CEL_MOUSE  NPLF-WAKTI AKKVGCPT-- --ED-TGKMA ACLKITDPRA LTLAYK-LP-
+CEL_HUMAN  NPLF-WAKKV AEKVGCPV-- --GD-AARMA QCLKVTDPRA LTLAYK-VP-
+NLG3_HUMAN -PVK-YTSLL ADKVGCNV-- --LD-TVDMV DCLRQKSAKE LVEQD--IQP
+EST1_CAEBR -VID-TSKQL AEILGCPW-- --PG-A---K ECMKKKTLHE IFDAVE-TQG
+ACES_BRARE EARR-RTTKL GKLVGCTW-- --GN-DTELI DCLRNKHPQE LIDQEW-QV-
+ACES_ELEEL EARR-RAIKL GRLVGCPD-- --GN-DTDLI DCLRSKQPQD LIDQEW-LV-
+ACES_CHICK EGRR-RAAAL GRAVGCPY-- --GN-ETEFL GCLRGKEAAD VLEGEG-VV-
+SASB_ANAPL QPEE-QAQRI AAAAGCEK-- --SS-SAALV ECLREKTEAE MEQITL-KMP
+CRYS_DICDI VARG-FAGRF SSKIGCDL-- --E-----DI DCHRSKSPEE ILAIQK-ELG
+D2_DICDI   TARG-NANRF ATNVGCNI-- --E-----DL TCLRGKSMDE ILDAQE-KVG
+1k4y_A     NTKS-LAEKI AIEAGCKT-- --TT-SAVMV HCLRQKTEEE LMEVTL-KMK
+ES22_MOUSE NTRP-LAEKI AVISGCKN-- --TT-SAAMV HCLRQKTEEE LLGTTL-KLN
+EST4_RAT   DVRP-AAKQI ADMAGCET-- --TT-SAIIV HCLRQKTEEE LLEIMK-KMN
+EST1_PIG   DMKA-AAKQI AVLAGCKT-- --TT-SAVFV HCLRQKSEDE LLDLTL-KMK
+ES10_RAT   DSKP-IAKLI ATLSGCKT-- --TT-SAVMV HCLRQKTEDE LLETSL-KLN
+EST1_RAT   NTQA-VAQMI ATLSGCNN-- --TS-SAAMV QCLRQKTEAE LLELTV-KLD
+EST2_RABIT SSEV-VSTVV ANLSRCGQ-- --VD-SETLV RCLRAKSEEE MLAITQ-V--
+EST1_MESAU TPEAVYTPVV ANQSGCEA-- --KD-SEALV HCLREKTEAE ILAINQ-V--
+ESTM_MOUSE NAWS-EAQNF ANSVACGS-- --AS-PAELV QCLLQKEGKD LITKKN----
+1cle_A     YGNE-IYDLF VSSAGCGS-- --A---SDKL ACLRSASSDT LLDATN-NTP
+LIP1_GEOCN GPES-AYSRF AQYAGCDA-- --SAGDNETL ACLRSKSSDV LHSAQN-SYD
+ESTE_MYZPE -VAQ-KTKYI ANLMGCPT-- --NN-SVEIV ECLRSRPAKA IAKSY--LNF
+1c7i_A     -AAS-TAAAF LQVLGINE-- --SQ-----L DRLHTVAAED LLKAADQLRI
+EST2_CAEEL NQAK-IFREF AEFHGFSG-- --RD-SSALF KWYQEQSPET LSNVK--GYK
+ESTJ_HELVI FAAY-ISKQL LQILGINE-- --TD-PEEIH RQLIDLPAEK LNEAN--AVL
+EST1_CULPI ---N-WVEKL AKAIGWDGQ- --GG-ESGAL RFLRRAKPED IVAHQE-KLL
+PCD_ARTOX  ESTA-RTKAL ARHLGHD--- --------DI EALRHEPWER LIQGTI-GVL
+
+           451                                                500
+1acj_      L---PF--D- SIFRF-SFVP VID------G EFFPTSLESM LN--------
+1dx4_A     ----SY--S- GILSF-PSAP TID------G AFLPADPMTL MKT-------
+1akn_      LGSTEY--P- KLHYL-SFVP VID------G DFIPDDPVNL YA--------
+CEL_MOUSE  VKKQEY--P- VVHYL-AFIP VID------G DFIPDDPINL YN--------
+CEL_HUMAN  LAGLEY--P- MLHYV-GFVP VID------G DFIPADPINL YA--------
+NLG3_HUMAN ---------- ARYHV-AFGP VID------G DVIPDDPEIL ME--------
+EST1_CAEBR W-T--T--G- TIDIL-RWSP VID------G DYLPKNPENL IN--------
+ACES_BRARE L---PW--S- SLFRF-SFVP VVD------G VFFPDTPDAM IS--------
+ACES_ELEEL L---PF--S- GLFRF-SFVP VID------G VVFPDTPEAM LN--------
+ACES_CHICK M---PP--Q- SVFRF-AFVP VVD------G DFVVDSPDVA LWGDYGVKGG
+SASB_ANAPL ---------- ----PMFISA SLD------G VFFPKSPRQL LSE-------
+CRYS_DICDI LAIGDK--I- LDAFT-IWSP VVD------G INVNEQPLTM IK--------
+D2_DICDI   LTFGDK--I- LDAFT-IWSP VID------G DIIPMQPLTA VK--------
+1k4y_A     FMALDLVGD- PKENTAFLTT VID------G VLLPKAPAEI LAE-------
+ES22_MOUSE LFKLDLHGD- SRQSHPFVPT VLD------G VLLPKMPEEI LAE-------
+EST4_RAT   LIKLSSQRD- NKESYHFLST VVD------N VVLPKDPKEI LAE-------
+EST1_PIG   FLTLDFHGD- QRESHPFLPT VVD------G VLLPKMPEEI LAE-------
+ES10_RAT   LFKLDLLGN- PKESYPFLPT VID------G VVLPKTPEEI LAE-------
+EST1_RAT   ---------- ----NTSMST VID------G VVLPKTPEEI LTE-------
+EST2_RABIT ---------- ----FMLIPG VVD------G VFLPRHPEEL LAL-------
+EST1_MESAU ---------- ----FIMTPG VVD------G IFLPRHPQEL LAS-------
+ESTM_MOUSE ---------- -----VNISY TVN------D SFFPQRPQKL LAN-------
+1cle_A     G-FLAY--S- -SLRL-SYLP RPD------G KNITDDMYKL VR--------
+LIP1_GEOCN L-KDLF--GL LPQFL-GFGP RPD------G NIIPDAAYEL YR--------
+ESTE_MYZPE M-P--W--R- NFPFT-PFGP TVEVA--GYE KFLPDIPEKL VP--------
+1c7i_A     A-E--K--E- NIFQL-FFQP ALD------P KTLPEEPEKS IA--------
+EST2_CAEEL K-------S- ISGFL-TFIP NLD------G DFFPKPLDEL RK--------
+ESTJ_HELVI I-------E- QIGLT-TFLP IVESPLPGVT TIIDDDPEIL IA--------
+EST1_CULPI T-DQDM--Q- DDIFT-PFGP TVEPYLTE-Q CIIPKAPFEM AR--------
+PCD_ARTOX  MEHTKF--G- -EWPL-AFYP VFD------E ATIPRHPIES II--------
+
+           501                                                550
+1acj_      ---------- ---------- -----SGNF- ---------- ----------
+1dx4_A     ---------- ---------- ------ADL- ---------- ----------
+1akn_      ---------- ---------- -----N--A- ---------- ----------
+CEL_MOUSE  ---------- ---------- -----N--T- ---------- ----------
+CEL_HUMAN  ---------- ---------- -----N--A- ---------- ----------
+NLG3_HUMAN ---------- ---------- -----QGEF- ---------- ----------
+EST1_CAEBR ---------- ---------- -----DAP-- ---------- ----------
+ACES_BRARE ---------- ---------- -----SGNF- ---------- ----------
+ACES_ELEEL ---------- ---------- -----SGNF- ---------- ----------
+ACES_CHICK EGGHGVEGGD GGYGVKGGDG VKGGYGGGYG ARGVREGDGD GGYGVKEGLR
+SASB_ANAPL ---------- ---------- ------KVI- ---------- ----------
+CRYS_DICDI ---------- ---------- -----QGTT- ---------- ----------
+D2_DICDI   ---------- ---------- -----EGKT- ---------- ----------
+1k4y_A     ---------- ---------- ------KKY- ---------- ----------
+ES22_MOUSE ---------- ---------- ------KNF- ---------- ----------
+EST4_RAT   ---------- ---------- ------KNF- ---------- ----------
+EST1_PIG   ---------- ---------- ------KDF- ---------- ----------
+ES10_RAT   ---------- ---------- ------KSF- ---------- ----------
+EST1_RAT   ---------- ---------- ------KSF- ---------- ----------
+EST2_RABIT ---------- ---------- ------ADF- ---------- ----------
+EST1_MESAU ---------- ---------- ------VDF- ---------- ----------
+ESTM_MOUSE ---------- ---------- ------KQF- ---------- ----------
+1cle_A     ---------- ---------- -----DGKY- ---------- ----------
+LIP1_GEOCN ---------- ---------- -----SGRY- ---------- ----------
+ESTE_MYZPE ---------- ---------- ---------- ---------- ----------
+1c7i_A     ---------- ---------- -----EGAA- ---------- ----------
+EST2_CAEEL ---------- ---------- -----EA--- ---------- ----------
+ESTJ_HELVI ---------- ---------- -----EGRG- ---------- ----------
+EST1_CULPI ---------- ---------- -----TAWG- ---------- ----------
+PCD_ARTOX  ---------- ---------- -----DS--- ---------- ----------
+
+           551                                                600
+1acj_      ---------- ---------- ---------- ---------- ----------
+1dx4_A     ---------- ---------- ---------- ---------- ----------
+1akn_      ---------- ---------- ---------- ---------- ----------
+CEL_MOUSE  ---------- ---------- ---------- ---------- ----------
+CEL_HUMAN  ---------- ---------- ---------- ---------- ----------
+NLG3_HUMAN ---------- ---------- ---------- ---------- ----------
+EST1_CAEBR ---------- ---------- ---------- ---------- ----------
+ACES_BRARE ---------- ---------- ---------- ---------- ----------
+ACES_ELEEL ---------- ---------- ---------- ---------- ----------
+ACES_CHICK EGYGVKEGYG VEGDGANAYG ARVPPRPHRD ETPPDAYGAK GSADAYGAKA
+SASB_ANAPL ---------- ---------- ---------- ---------- ----------
+CRYS_DICDI ---------- ---------- ---------- ---------- ----------
+D2_DICDI   ---------- ---------- ---------- ---------- ----------
+1k4y_A     ---------- ---------- ---------- ---------- ----------
+ES22_MOUSE ---------- ---------- ---------- ---------- ----------
+EST4_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_PIG   ---------- ---------- ---------- ---------- ----------
+ES10_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_RAT   ---------- ---------- ---------- ---------- ----------
+EST2_RABIT ---------- ---------- ---------- ---------- ----------
+EST1_MESAU ---------- ---------- ---------- ---------- ----------
+ESTM_MOUSE ---------- ---------- ---------- ---------- ----------
+1cle_A     ---------- ---------- ---------- ---------- ----------
+LIP1_GEOCN ---------- ---------- ---------- ---------- ----------
+ESTE_MYZPE ---------- ---------- ---------- ---------- ----------
+1c7i_A     ---------- ---------- ---------- ---------- ----------
+EST2_CAEEL ---------- ---------- ---------- ---------- ----------
+ESTJ_HELVI ---------- ---------- ---------- ---------- ----------
+EST1_CULPI ---------- ---------- ---------- ---------- ----------
+PCD_ARTOX  ---------- ---------- ---------- ---------- ----------
+
+           601                                                650
+1acj_      ---------- ---------- ---------- ---------- ----------
+1dx4_A     ---------- ---------- ---------- ---------- ----------
+1akn_      ---------- ---------- ---------- ---------- ----------
+CEL_MOUSE  ---------- ---------- ---------- ---------- ----------
+CEL_HUMAN  ---------- ---------- ---------- ---------- ----------
+NLG3_HUMAN ---------- ---------- ---------- ---------- ----------
+EST1_CAEBR ---------- ---------- ---------- ---------- ----------
+ACES_BRARE ---------- ---------- ---------- ---------- ----------
+ACES_ELEEL ---------- ---------- ---------- ---------- ----------
+ACES_CHICK APRPHRDETS PDAYGAKMPP RPHRDEASPD TYGAKMPPRP HRDETSPDAY
+SASB_ANAPL ---------- ---------- ---------- ---------- ----------
+CRYS_DICDI ---------- ---------- ---------- ---------- ----------
+D2_DICDI   ---------- ---------- ---------- ---------- ----------
+1k4y_A     ---------- ---------- ---------- ---------- ----------
+ES22_MOUSE ---------- ---------- ---------- ---------- ----------
+EST4_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_PIG   ---------- ---------- ---------- ---------- ----------
+ES10_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_RAT   ---------- ---------- ---------- ---------- ----------
+EST2_RABIT ---------- ---------- ---------- ---------- ----------
+EST1_MESAU ---------- ---------- ---------- ---------- ----------
+ESTM_MOUSE ---------- ---------- ---------- ---------- ----------
+1cle_A     ---------- ---------- ---------- ---------- ----------
+LIP1_GEOCN ---------- ---------- ---------- ---------- ----------
+ESTE_MYZPE ---------- ---------- ---------- ---------- ----------
+1c7i_A     ---------- ---------- ---------- ---------- ----------
+EST2_CAEEL ---------- ---------- ---------- ---------- ----------
+ESTJ_HELVI ---------- ---------- ---------- ---------- ----------
+EST1_CULPI ---------- ---------- ---------- ---------- ----------
+PCD_ARTOX  ---------- ---------- ---------- ---------- ----------
+
+           651                                                700
+1acj_      ---------- --KKTQILLG VNKDEGSFFL LY--GAP-GF ---SKDSESK
+1dx4_A     ---------- --KDYDILMG NVRDEGTYFL LY--DFIDYF ---DKDDATA
+1akn_      ---------- --ADVDYIAG TNDMDGHLFV GM--DVP-AI ---NSNKQD-
+CEL_MOUSE  ---------- --ADIDYIAG INNMDGHLFA TI--DVP-AV ---DKTKQT-
+CEL_HUMAN  ---------- --ADIDYIAG TNNMDGHIFA SI--DMP-AI ---NKGNKK-
+NLG3_HUMAN ---------- --LNYDIMLG VNQGEGLKFV EG--VVD-PE ---DGVS---
+EST1_CAEBR ---------- ---IKPTLIG MSNKEGSYFA TM--NMG-RV IADFGLS---
+ACES_BRARE ---------- --KYTQILLG VNQDEGSYFL LY--GAP-GF ---SKDNESL
+ACES_ELEEL ---------- --KDTQILLG VNQNEGSYFL IY--GAP-GF ---SKDNESL
+ACES_CHICK GAKMPPRPHR AGGEVEVLLG AVRVEGSYFL VY--GVP-GF ---GKDNESL
+SASB_ANAPL ---------- --NAVPYIIG VNNCEFGWIL PR--MMK-FP ----EFTEG-
+CRYS_DICDI ---------- --HDVPTIIG DNQDEAILFV YM--TYK-NV ---VIP----
+D2_DICDI   ---------- --YDVPTIIG NVKHEAIPFI YS--FFQ-DS ---VGI----
+1k4y_A     ---------- --NMLPYMVG INQQEFKL-- ---------- ----------
+ES22_MOUSE ---------- --NTVPYIVG INKQEFGWIL PT--MMN-YP ----PSDVK-
+EST4_RAT   ---------- --NTVPYIVG INKQECGWLL PT--MMG-FV ----PADVE-
+EST1_PIG   ---------- --NTVPYIVG INKQEFGWLL PT--MMG-FP ----LSEGK-
+ES10_RAT   ---------- --NTVPYIVG INKQEFGWII PT--LMG-YP ----LSEGK-
+EST1_RAT   ---------- --NTVPYIVG FNKQEFGWII PT--MMG-NL ----LSEGR-
+EST2_RABIT ---------- --QPVPSIIG INNDEYGWII PK--LLL-AI ----DPQEE-
+EST1_MESAU ---------- --HPVPSIIG VDSDECGWGV PL--FMG-LD ----HVIKN-
+ESTM_MOUSE ---------- --PTVPYLLG VTNHEFGWLL LK--FWN-IL ----DKMEH-
+1cle_A     ---------- --ASVPVIIG DQNDEGTVFG LS--SLN-VT ---T---NA-
+LIP1_GEOCN ---------- --AKVPYITG NQEDEGTILA PV--AIN-AT ---T---TP-
+ESTE_MYZPE ---------- --HDIPVLIS IAQDEGLIFS TFLGLEN-GF ---NELNNN-
+1c7i_A     ---------- --SGIPLLIG TTRDEGYFFF TP--DSD-VY ---S------
+EST2_CAEEL ---------- --PKKQMMTG VTEYEGLMLA SM--NPA-FS PAD-------
+ESTJ_HELVI ---------- --KNVPLLIG FTSSECETFR NR--LLN-FD LVKKIQD---
+EST1_CULPI ---------- --DKIDIMIG GTSEEGLLLL QK--IKL-HP ----------
+PCD_ARTOX  ---------- ---DIEIIIG WTRDEGTFPF AF--DPQ-VS ---Q-ADRD-
+
+           701                                                750
+1acj_      I------SRE DFMSG-VKLS V--------- PHA------N DLGLDAVTLQ
+1dx4_A     L------PRD KYLEI-MNNI F--------- GKA------T QAEREAIIFQ
+1akn_      V------TEE DFYKL-VSGL T--------- VTK------G LRGANATYEV
+CEL_MOUSE  V------TEE DFYRL-VSGH T--------- VAK------G LKGAQATFDI
+CEL_HUMAN  V------TEE DFYKL-VSEF T--------- ITK------G LRGAKTTFDV
+NLG3_HUMAN -GTDFDYS-- --VSNFVD-- ----NLYGY- PEG------K DTLRETIKFM
+EST1_CAEBR -PEEIPKVDE DFISEIIDRK LLYNNRYGE- N--------R QKVWDQILDY
+ACES_BRARE I------SRE DFLES-VKMG V--------- PHA------N DIGLEAVILQ
+ACES_ELEEL I------TRE DFLQG-VKMS V--------- PHA------N EIGLEAVILQ
+ACES_CHICK I------SRE EFLGG-VRMG V--------- PQA------T ELAAEAVVLH
+SASB_ANAPL L------EKD VARQV-LQST L------AL- SFKG----AP SDIVDLVYNE
+CRYS_DICDI -------S-- SYRTM-VHVL F--------- G--------- IANGNKVLEH
+D2_DICDI   -------D-- YYRVL-VAIV F--------- P--------- L-NAMKILPL
+1k4y_A     -------DQK TATEL-LWKS Y------P-- -IVN----VS KELTPVATEK
+ES22_MOUSE L------DQM TAMSL-LKKS S------F-- -LLN----LP EDAIAVAIEK
+EST4_RAT   L------DKK MAITL-LEKF A------S-- -LYG----IP EDIIPVAIEK
+EST1_PIG   L------DQK TATSL-LWKS Y------P-- -IAN----IP EELTPVATDK
+ES10_RAT   L------DQK TAKSL-LWKS Y------P-- -TLK----IS EKMIPVVAEK
+EST1_RAT   M------NEK MASSF-LKRF S------P-- -NLN----IS ESVIPAIIEK
+EST2_RABIT R------DRQ AMREI-MHQA T------K-- -QLM----LP PALGDLLMDE
+EST1_MESAU I------TRE TLPAF-LKSR A------E-- -HMM----LP PECSDLLMQE
+ESTM_MOUSE L------SQE DLLEN-SRPL L------A-- -HMQ----LP PEIMPTVIDE
+1cle_A     ---------- QARAY-FKQS F--------- IHA------S DAEIDTLMAA
+LIP1_GEOCN ---------- HVKKW-LKYI C--------- SEA------S DASLDRVLSL
+ESTE_MYZPE WNEHLPH--- -----ILD-- ----YNYTI- SNE------N LRF-KTAQDI
+1c7i_A     -QETLDA--- -----ALE-- ----YLLGK- P--------- --LAEKVADL
+EST2_CAEEL ---VGLTL-- -----MPQ-- ----GIYGK- DVVS----NP DEIQKIFYEK
+ESTJ_HELVI -NPTIIIP-- ------PK-- ----LLFMTP PELL------ MELAKTIERK
+EST1_CULPI ---ELLSH-- -----PHL-- ----FLGNVP PNLKISMEKR IEFAAKLKQR
+PCD_ARTOX  ---------- QVESW-LQKR F--------- G--------- ----DHAASA
+
+           751                                                800
+1acj_      YTD-WM--DD NNGIK----- ------NRDG LDDIVGDHNV ICPLMHFVNK
+1dx4_A     YTS-WE--G- NPGYQ----- ------NQQQ IGRAVGDHFF TCPTNEYAQA
+1akn_      YTEPWA--QD SSQET----- ------RKKT MVDLETDILF LIPTKIAVAQ
+CEL_MOUSE  YTESWA--QD PSQEN----- ------MKKT VVAFETDVLF LIPTEIALAQ
+CEL_HUMAN  YTESWA--QD PSQEN----- ------KKKT VVDFETDVLF LVPTEIALAQ
+NLG3_HUMAN YTD-WA--DR DNPET----- ------RRKT LVALFTDHQW VEPSVVTADL
+EST1_CAEBR YTK-QGKPER DLNGF----- ------YVDR YAELLSDITF NVPILREITA
+ACES_BRARE YTD-WM--DE NNGQK----- ------NRDA MDDIVGDQNV ICPLQHFAKS
+ACES_ELEEL YTD-WM--DE DNPIK----- ------NREA MDDIVGDHNV VCPLQHFAKM
+ACES_CHICK YTD-WL--DA DNPVK----- ------NREA LDDIVGDHNV VCPLMAFAQR
+SASB_ANAPL YIG-----VA ENRAQ----- ------VRDG LLDSIADPLF VFSAVEVARH
+CRYS_DICDI YPL------P GFLKD----- ------SRPI LSKLLTDYLF RCPGRYHVSK
+D2_DICDI   YPA------A PRGQD----- ------SRPI LSELITDYLF RCPDRYHTVT
+1k4y_A     YLG-----GT DDPVK----- ------KKDL FLDMLADLLF GVPSVNVARH
+ES22_MOUSE YLR-----DK DYTGR----- ------NKDQ LLELIGDVVF GVPSVIVSRG
+EST4_RAT   YRK-----GS DDSIK----- ------IRDG ILAFIGDVSF SIPSVMVSRD
+EST1_PIG   YLG-----GT DDPVK----- ------KKDL FLDLMGDVVF GVPSVTVARQ
+ES10_RAT   YFG-----GT DDPAK----- ------RKDL FQDLVADVIF GVPSVMVSRS
+EST1_RAT   YLR-----GT DDPAK----- ------KKEL LLDMFSDVFF GIPAVLMSRS
+EST2_RABIT YMG-----SN EDPKH----- ------LMAQ FQEMMADAMF VMPALRVAHL
+EST1_MESAU YMG-----DV EDPQT----- ------LQAQ FRELMKDFMF VIPALKVAYF
+ESTM_MOUSE YLD-----NG SDESA----- ------TRYA LQELLGDITL VIPTLIFSKY
+1cle_A     YPQ-DI--T- -QGSPFDTGI FNAITPQFKR ISAVLGDLAF IHARRYFLNH
+LIP1_GEOCN YPG-SW--S- -EGAPFRTGI LNALTPQFKR IAAIFTDLLF QSPRRVMLNA
+ESTE_MYZPE KEFYFG--DK PISKE----- ------TKSN LSKMISDRSF GYGTSKAAQH
+1c7i_A     ---------- --YPR----- ------SLES QIHMVTDLLF WRPAVAFASA
+EST2_CAEEL YVE-GV--DK SDELA----- ------MRKK LCEALGDEFF NVGVIQAAKN
+ESTJ_HELVI YYN-G----- ---TI----- ------SIDN FVKSCSDGFY EYPALKLAQK
+EST1_CULPI YYP-D----S IPSME----- ------NNLG YVHMMSDRVF WHGLHRTILA
+PCD_ARTOX  YEA-HA--G- -DGTS----- ------PWTV IANVVGDELF HSAGYRVADE
+
+           801                                                850
+1acj_      YT-------- ---------- ---------- --KFGNGTYL YFFNHRA---
+1dx4_A     LA-------- ---------- ---------- --ERGASVHY YYFTHRT---
+1akn_      HKS------- ---------- ---------- -HAKSANTYT YLFSQPS---
+CEL_MOUSE  HKA------- ---------- ---------- -HAKSAKTYS YLFSHPS---
+CEL_HUMAN  HRA------- ---------- ---------- -NAKSAKTYA YLFSHPS---
+NLG3_HUMAN H--------- ---------- ---------- -ARYGSPTYF YAFYHHC---
+EST1_CAEBR R--------- ---------- ---------- -VERKTPVWT YRFDHYN---
+ACES_BRARE YAQYAALHAQ SSAAAPGTLG WGNSGPTGYN SGNSHGAVYL YLFDHRA---
+ACES_ELEEL YAQYSILQGQ TGTASQGNLG WGN-SGSASN SGNSQVSVYL YMFDHRA---
+ACES_CHICK WA-------- ---------- ---------- --QRGGKVYA YLFDHRS---
+SASB_ANAPL HR-------- ---------- ---------- --DAGNPVYF YEFQHRP---
+CRYS_DICDI SA-------- ---------- ---------- -QANESPIYH YQYKQVL---
+D2_DICDI   NA-------- ---------- ---------- -KKLSSPTYH YHYVHVK---
+1k4y_A     HR-------- ---------- ---------- --DAGAPTYM YEYR------
+ES22_MOUSE HR-------- ---------- ---------- --DAGAPTYM YEFQYSP---
+EST4_RAT   HR-------- ---------- ---------- --DAGAPTYM YEYQYYP---
+EST1_PIG   HR-------- ---------- ---------- --DAGAPTYM YEFQYRP---
+ES10_RAT   HR-------- ---------- ---------- --DAGAPTFM YEFEYRP---
+EST1_RAT   LR-------- ---------- ---------- --DAGAPTYM YEFQYRP---
+EST2_RABIT QR-------- ---------- ---------- ---SHAPTYF YEFQHRP---
+EST1_MESAU QR-------- ---------- ---------- ---SHAPVYF YEFQHQS---
+ESTM_MOUSE LQ-------- ---------- ---------- --DAGCPVFL YEFQHTP---
+1cle_A     FQ-------- ---------- ---------- ---G-GTKYS FLSKQLS---
+LIP1_GEOCN TK-------- ---------- ---------- ---D-VNRWT YLATQLH---
+ESTE_MYZPE IA-------- ---------- ---------- -AKNTAPVYF YEFGYSG---
+1c7i_A     ---------- ---------- ---------- -QSHYAPVWM YRFDWHP---
+EST2_CAEEL A--------- ---------- ---------- -AKHGNEVYF YTFEYVN---
+ESTJ_HELVI RA-------- ---------- ---------- -ETGGAPLYL YRFAYEG---
+EST1_CULPI RA-------- ---------- ---------- -ARSRARTFV YRICLDSEFY
+PCD_ARTOX  RA-------- ---------- ---------- ---TRRPVRA YQFDVVS---
+
+           851                                                900
+1acj_      ----SNL--- -VWP-----E -WMGVIHGYE IEFV---F-- -----GLPLV
+1dx4_A     ----STS--- -LWG-----E -WMGVLHGDE IEYF---F-- -----GQPLN
+1akn_      ----RMP--- -IYP-----K -WMGADHADD LQYV---F-- -----GKPFA
+CEL_MOUSE  ----RMP--- -IYP-----K -WMGADHADD LQYV---F-- -----GKPFA
+CEL_HUMAN  ----RMP--- -VYP-----K -WVGADHADD IQYV---F-- -----GKPFA
+NLG3_HUMAN ----QSL--- -MKP-----A -WSDAAHGDE VPYV---F-- -----GVPMV
+EST1_CAEBR ----EQIWKK -YIP-----E QAKGSPHANE YHYL---F-- -----NMPVM
+ACES_BRARE ----SNL--- -AWP-----E -WMGVIHGYE IEFV---F-- -----GLPLE
+ACES_ELEEL ----SNL--- -VWP-----E -WMGVIHGYE IEFV---F-- -----GLPLE
+ACES_CHICK ----STL--- -LWP-----S -WMGVPHGYE IEFV---F-- -----GLPLE
+SASB_ANAPL ----SSA--A GVVP-----E -FVKADHADE IAFV---F-- -----GKPFL
+CRYS_DICDI ----SGG--H SFEA-----C -EGLVCHGTE LPMV---F-- -----NTYES
+D2_DICDI   ----STG--H SLDA-----C -DDKVCHGTE LSLF---F-- -----NSYEL
+1k4y_A     ---------- ---------- ------HGDE IFSV---L-- -----GAPFL
+ES22_MOUSE ----SFS--S EMKP-----D -TVVGDHGDE IYSV---F-- -----GAPIL
+EST4_RAT   ----SFS--S PQRP-----K -HVVGDHADD LYSV---F-- -----GAPIL
+EST1_PIG   ----SFS--S DKKP-----K -TVIGDHGDE IFSV---F-- -----GFPLL
+ES10_RAT   ----SFV--S AMRP-----K -TVIGDHGDE LFSV---F-- -----GSPFL
+EST1_RAT   ----SFV--S DQRP-----Q -TVQGDHGDE IFSV---F-- -----GTPFL
+EST2_RABIT ----SFT--K DLRP-----P -HVRADHGDE VVFV---F-- -----RSHLF
+EST1_MESAU ----SFIKNK DARP-----S -HVRADHGDH VAFV---F-- -----GSDFW
+ESTM_MOUSE ----SSF--A KFKP-----A -WVKADHSSE NAFV---F-- -----GGPFL
+1cle_A     ---------- --GL-----P -IMGTFHAND IVWQDYLLG- --------S-
+LIP1_GEOCN ----N----- --LV-----P -FLGTFHGSD LLFQ--YYAG -------PW-
+ESTE_MYZPE ----NYSYVA FFDPKS-YSR -GSSPTHGDE TSYV---L-- -----KMDGF
+1c7i_A     ----E----- --KP-----P -YNKAFHTLE LPFV---F-- -----GNLDE
+EST2_CAEEL --PDSFG--- -MWDGM--MP -FKAAVHCTE LRYL---L-- -----GEGVY
+ESTJ_HELVI ----QNS--- -IIKKVMGLN -HEGVGHIED LTYV---F-- -----KVNSM
+EST1_CULPI NHYRIMM--- -IDPK----- -LRGTAHADE LSYL---F-- -----SNFTQ
+PCD_ARTOX  ----P----- -LSD-----G -ALGAVHCIE MPFT---FAN LDRWTGKPFV
+
+           901                                                950
+1acj_      K-----E--- ---LNYT-AE EEALSRRIMH YWATFAKTGN PNEP------
+1dx4_A     N-----S--- ---LQYR-PV ERELGKRMLS AVIEFAKTGN PAQD------
+1akn_      T-----P--- ---LGYR-AQ DRTVSKAMIA YWTNFARTGD PNTGHS----
+CEL_MOUSE  T-----P--- ---LGYR-PQ DRAVSKAMIA YWTNFARSGD PNMGNS----
+CEL_HUMAN  T-----P--- ---TGYR-PQ DRTVSKAMIA YWTNFAKTGD PNMGDS----
+NLG3_HUMAN GPTDLFP--- ---CNFS-KN DVMLSAVVMT YWTNFAKTGD PNKPVPQDTK
+EST1_CAEBR A-----Q--- ---IDFKKEP ESWLQRDLID MVVSFAKTGV PHIQD-----
+ACES_BRARE K-----R--- ---LNYT-AE EEKLSRRIMR YWANFARTGN PNVNTD----
+ACES_ELEEL K-----R--- ---LNYT-LE EEKLSRRMMK YWANFARTGN PNINVD----
+ACES_CHICK P-----R--- ---NNYT-RE EVELSRRIMR YWGNFARTGD PNGGV-----
+SASB_ANAPL A--------- ---GNAT-EE EAKLSRTVMK YWTNFARNGN PNGEG-----
+CRYS_DICDI AL----D--- ---LDLE-EE EEEFAEQLNN YFVNFIKYSN PSHPNGL---
+D2_DICDI   -M----G--- ---ERLD-ND EKELAIDINN YIVNFATTHN PNTGLSV---
+1k4y_A     K--------- ---EGAT-EE EIKLSKMVMK YWANFARNGN PNGEG-----
+ES22_MOUSE R--------- ---GGTS-EE EINLSKMMMK FWANFARNGN PNGQG-----
+EST4_RAT   R--------- ---DGAS-EE EIKLSKMVMK FWANFARNGN PNGRG-----
+EST1_PIG   K--------- ---GDAP-EE EVSLSKTVMK FWANFARSGN PNGEG-----
+ES10_RAT   K--------- ---DGAS-EE ETNLSKMVMK YWANFARNGS PNGGG-----
+EST1_RAT   K--------- ---EGAS-EE ETNLSKLVMK FWANFARNGN PNGEG-----
+EST2_RABIT GS----K--- ---VPLT-EE EELLSRRVMK YWANFARNRN PNGEG-----
+EST1_MESAU GL----K--- ---IDLT-EE EKLLNKRMMK YWANFARHGN PNSEG-----
+ESTM_MOUSE TD----ESSL LAFPEAT-EE EKQLSLTMMA QWSQFARTGN PNGKG-----
+1cle_A     ---------- ---------- ---GSVIYNN AFIAFATDLD PNTAG-----
+LIP1_GEOCN ---------- ---------- ---SSSAYRR YFISFANHHD PNVGT-----
+ESTE_MYZPE Y--------- ---VYDN-EE DRKMIKTMVN IWATFIKSGV PDTENS----
+1c7i_A     LER-MAK--- ---AEIT-DE VKQLSHTIQS AWTTFAKTGN PSTEA-----
+EST2_CAEEL -S----K--- ---FEPT-EE DRKVMETTTT LFSNFAKYGN PNGKGAT---
+ESTJ_HELVI SEA--LH--- ---ASPS-EN DVKMKNLMTG YFLNFIKCSQ PTCEDNN---
+EST1_CULPI -Q---VP--- ---GKE--TF EYRGLQTLVD VFSAFVINGD PNCGMTAK--
+PCD_ARTOX  D-----G--- ---L-DP-DV VARVTNVLHQ AWIAFVRTGD PTHDQ-----
+
+           951                                               1000
+1acj_      ---------- -SKWPL-FTT KE-QKFIDLN -T-EP--MKV H----QRL-R
+1dx4_A     ---------G -EEWPN-FSK ED-PVYYIFS -T-DDKIEKL A----RGP-L
+1akn_      --------TV PANWDP-YTL ED-DNYLEIN -K-QMDSNSM K----LHL-R
+CEL_MOUSE  --------PV PTHWYP-YTL EN-GNYLDIT -K-TITSASM K----EHL-R
+CEL_HUMAN  --------AV PTHWEP-YTT EN-SGYLEIT -K-KMGSSSM K----RSL-R
+NLG3_HUMAN FIHTKANRFE EVAWSK-YNP RD-QLYLHIG -L-KP---RV R----DHY-R
+EST1_CAEBR ---------- -VEWRPVSDP DD-VNFLNFQ -S-SG--VSV K----HGL-F
+ACES_BRARE -----GTMDS RRRWPQ-FSA NE-QKHVGLN -T-EP--MKV H----KGL-R
+ACES_ELEEL -----GSIDS RRRWPV-FTS TE-QKHVGLN -T-DS--LKV H----KGL-K
+ACES_CHICK ---------G GPRWPP-YTP SG-QRYAHLN -A-RP--LSV G----HGL-R
+SASB_ANAPL ---------- LVHWPQ-YDM DE--RYLEID -L-TQ---KA A----KKL-K
+CRYS_DICDI --------PT PKVWNP-TTK TT-NTSLVMK -L-GF---EV K----DLI-T
+D2_DICDI   --------P- -VQWRQ-VTS TQ-NSTLILE -T-TI---ET K----DTF-T
+1k4y_A     ---------- LPQWPA-YDY KE--GYLQIG -A-TT---QA A----QKL-K
+ES22_MOUSE ---------- LPHWPE-YDQ KE--GYLQIG -A-TT---QQ A----QKL-K
+EST4_RAT   ---------- LPHWPQ-YDQ KE--EYLQIG -A-TT---QQ S----QRL-K
+EST1_PIG   ---------- LPHWPM-YDQ EE--GYLQIG -V-NT---QA A----KRL-K
+ES10_RAT   ---------- LPHWPE-YDQ KE--GYLKIG -A-ST---QA A----QRL-K
+EST1_RAT   ---------- LPHWPK-YDQ KE--GYLQIG -A-TT---QQ A----QKL-K
+EST2_RABIT ---------- LAHWPL-FDL DQ--RYLQLN -M-QP---AV G----QAL-K
+EST1_MESAU ---------- LPYWPE-LVH DD--QYLKLD -I-QP---AV G----RAL-K
+ESTM_MOUSE ---------- LPPWPQ-LNQ LE--QYLEIG -L-EP---RT G----VKL-K
+1cle_A     ---------L LVNWPK-YTS SS-QSGNNLM -MINA--LGL Y---------
+LIP1_GEOCN ---------N LKQWDM-YTD SG-KEMLQIH -M-IG--NSM R---------
+ESTE_MYZPE ---------- -EIWLP-VSK NL-ADPFRFT KI-TQ---QQ TFEAREQS-T
+1c7i_A     ---------- -VNWPA-YHE ES-RETVILD -S-EI---TI E----NDPES
+EST2_CAEEL ---------- AEIWEK-YSL NRPERHYRIS -Y-PK--CEM ----RDVY-H
+ESTJ_HELVI ---------S LEVWPA-NNG M--Q-YEDIV -S-PT--IIR SKE-FASR-Q
+EST1_CULPI ---------G GVVFEPNAQT K--PTFKCLN -I-AN--DGV AF--VDYP-D
+PCD_ARTOX  ---------- LPVWPT-FRA DD-PAVLVVG -D-EG--AEV A---------
+
+           1001                                              1050
+1acj_      V-QMCVFWNQ FLPKLLNA-T ---------- ---------- ----------
+1dx4_A     A-ARCSFWND YLPKVRSW-- ---------- ---------- ----------
+1akn_      T-NYLQFWTQ TYQALPTV-T SAG-----AS LL-PPED-NS Q---------
+CEL_MOUSE  E-KFLKFWAV TFEVLPTV-T GDQ-----DT LT-PPED-DS E---------
+CEL_HUMAN  T-NFLRYWTL TYLALPTV-T DQE-----AT PV-PPTG-DS E---------
+NLG3_HUMAN A-TKVAFWKH LVPHLYNL-H DMFHYTSTTT KVPPPDTTHS SHITRRPNGK
+EST1_CAEBR Q-EPLDFWNN LREREGFDLV ---------- --DPAY---- ----------
+ACES_BRARE T-QFCALWNR FLPRLLNI-T D--------- ---NIDD--- ----------
+ACES_ELEEL S-QFCALWNR FLPRLLNV-T E--------- ---NIDD--- ----------
+ACES_CHICK T-QICAFWTR FLPKLLNA-T G--------- ---PPED--- ----------
+SASB_ANAPL E-RKMEFWMQ LTEQIMSD-- ---------- ---------- ----------
+CRYS_DICDI NDPKCDLFDS LSYNGYTKDQ ---------- ---------- ----------
+D2_DICDI   NDPKCNALDL TYYRNQVR-- ---------- ---------- ----------
+1k4y_A     D-KEVAFWTE LWAKEAA--- ---------- ---------- ----------
+ES22_MOUSE E-KEVAFWTE LLAKKQLP-- ---------- ---------- ----------
+EST4_RAT   A-EEVAFWTQ LLAKRQPQ-- ---------- ---------- ----------
+EST1_PIG   G-EEVAFWND LLSKEAAK-- K--------- ---------- ----------
+ES10_RAT   D-KEVAFWSE LRAKEAAE-- E--------- ---------- ----------
+EST1_RAT   G-EEVAFWTE LLAKNPPQ-- ---------- ---------- ----------
+EST2_RABIT A-RRLQFWTH TLPQRVQE-L R--------- ---------- ----------
+EST1_MESAU S-RKLHFWTK ILPQKIQE-L K--------- ---------- ----------
+ESTM_MOUSE K-GRLQFWTE TLPRKIQE-W H--------- ---R-E---- ----------
+1cle_A     T-GKDNFRTA GYDALMTN-P ---------- ---------- ----------
+LIP1_GEOCN T-DD--FRIE GISNFESD-- ---------- ---------- ----------
+ESTE_MYZPE T-GIMNFGVA YH-------- ---------- ---------- ----------
+1c7i_A     E-KRQKL--- ---------- ---------- ---------- ----------
+EST2_CAEEL E-GRIQFLEK IDGD------ ---------- -----SDKY- ---------Q
+ESTJ_HELVI Q-DIIEFFDS FTSR------ ---------- ---------- ----------
+EST1_CULPI A-DRLDMWDA MYVN------ ---------- ---------- ----------
+PCD_ARTOX  --RD--LA-- -----RPD-H ---------- ---------- ----------
+
+           1051                                              1100
+1acj_      ---------- ---------- ---------- ---------- ----------
+1dx4_A     ---------- ---------- ---------- ---------- ----------
+1akn_      ---------- ---------- ---------- ---------- ----------
+CEL_MOUSE  -----VAPD- ---------- ---------- ---------- ----------
+CEL_HUMAN  -----ATPVP PTGDSETAPV PPTGDSGAPP VPPTGDSGAP PVPPTGDSGA
+NLG3_HUMAN TWSTKR---- ---------- --------PA ISPAYS---- ----------
+EST1_CAEBR ---------- ---------- ---------- ---------- ----------
+ACES_BRARE ---------- ---------- ---------- ---------- ----------
+ACES_ELEEL ---------- ---------- ---------- ---------- ----------
+ACES_CHICK ---------- ---------- ---------- ---------- ----------
+SASB_ANAPL ---------- ---------- ---------- ---------- ----------
+CRYS_DICDI ---------- ---------- ---------- ---------- ----------
+D2_DICDI   ---------- ---------- ---------- ---------- ----------
+1k4y_A     ---------- ---------- ---------- ---------- ----------
+ES22_MOUSE ---------- ---------- ---------- ---------- ----------
+EST4_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_PIG   ---------- ---------- ---------- ---------- ----------
+ES10_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_RAT   ---------- ---------- ---------- ---------- ----------
+EST2_RABIT ---------- ---------- ---------- ---------- ----------
+EST1_MESAU ---------- ---------- ---------- ---------- ----------
+ESTM_MOUSE ---------- ---------- ---------- ---------- ----------
+1cle_A     ---------- ---------- ---------- ---------- ----------
+LIP1_GEOCN ---------- ---------- ---------- ---------- ----------
+ESTE_MYZPE ---------- ---------- ---------- ---------- ----------
+1c7i_A     ---------- ---------- ---------- ---------- ----------
+EST2_CAEEL NWSM------ ---------- ---------- ---------- ----------
+ESTJ_HELVI ---------- ---------- ---------- ---------- ----------
+EST1_CULPI ---------- ---------- ---------- ---------- ----------
+PCD_ARTOX  ---------- ---------- ---------- ---------- ----------
+
+           1101                                              1150
+1acj_      ---------- ---------- ---------- ---------- ----------
+1dx4_A     ---------- ---------- ---------- ---------- ----------
+1akn_      ---------- ---------- ---------- ---------- ----------
+CEL_MOUSE  ---------- ---------- ---------- ---------- ----------
+CEL_HUMAN  PPVPPTGDSG APPVPPTGDS GAPPVPPTGD SGAPPVPPTG DSGAPPVPPT
+NLG3_HUMAN ---------- ---------- ---------- ---------- ----------
+EST1_CAEBR ---------- ---------- ---------- ---------- ----------
+ACES_BRARE ---------- ---------- ---------- ---------- -V--------
+ACES_ELEEL ---------- ---------- ---------- ---------- -A--------
+ACES_CHICK ---------- ---------- ---------- ---------- -A--------
+SASB_ANAPL ---------- ---------- ---------- ---------- ----------
+CRYS_DICDI ---------- ---------- ---------- ---------- ----------
+D2_DICDI   ---------- ---------- ---------- ---------- ----------
+1k4y_A     ---------- ---------- ---------- ---------- ----------
+ES22_MOUSE ---------- ---------- ---------- ---------- ----------
+EST4_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_PIG   ---------- ---------- ---------- ---------- ----------
+ES10_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_RAT   ---------- ---------- ---------- ---------- ----------
+EST2_RABIT ---------- ---------- ---------- ---------- ----------
+EST1_MESAU ---------- ---------- ---------- ---------- ----------
+ESTM_MOUSE ---------- ---------- ---------- ---------- ----------
+1cle_A     ---------- ---------- ---------- ---------- ----------
+LIP1_GEOCN ---------- ---------- ---------- ---------- ----------
+ESTE_MYZPE ---------- ---------- ---------- ---------- ----------
+1c7i_A     ---------- ---------- ---------- ---------- ----------
+EST2_CAEEL ---------- ---------- ---------- ---------- ----------
+ESTJ_HELVI ---------- ---------- ---------- ---------- ----------
+EST1_CULPI ---------- ---------- ---------- ---------- ----------
+PCD_ARTOX  ---------- ---------- ---------- ---------- ----------
+
+           1151                                              1200
+1acj_      ---------- ---------- ---------- ---------- ----------
+1dx4_A     ---------- ---------- ---------- ---------- ----------
+1akn_      ---------- ---------- ---------- ---------- ----------
+CEL_MOUSE  ----PP---- ---------- ---------- ---------- ----------
+CEL_HUMAN  GDAGPPPVPP TGDS---GAP PVPPTGDSGA PPVTPTGDSE TAPVP-----
+NLG3_HUMAN ---------- ---NENAQGS ---------- ---------- ---WNGDQDA
+EST1_CAEBR ---------- ---------- ---------- ---------- ----------
+ACES_BRARE ---------- -------ERQ ---------- ---------- ---WK-----
+ACES_ELEEL ---------- -------ERQ ---------- ---------- ---WK-----
+ACES_CHICK ---------- -------ERE ---------- ---------- ---WR-----
+SASB_ANAPL ---------- ---------- ---------- ---------- ----------
+CRYS_DICDI ---------- ---------- ---------- ---------- ----------
+D2_DICDI   ---------- ---------- ---------- ---------- ----------
+1k4y_A     ---------- ---------- ---------- ---------- ----------
+ES22_MOUSE ---------- ---------- ---------- ---------- ----------
+EST4_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_PIG   ---------- ---------- ---------- ---------- ----------
+ES10_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_RAT   ---------- ---------- ---------- ---------- ----------
+EST2_RABIT ---------- ---------- ---------- ---------- ----------
+EST1_MESAU ---------- ---------- ---------- ---------- ----------
+ESTM_MOUSE ---------- ---------- ---------- ---------- ----------
+1cle_A     ---------- ---------- ---------- ---------- ----------
+LIP1_GEOCN ---------- ---------- ---------- ---------- ----------
+ESTE_MYZPE ---------- ---------- ---------- ---------- ----------
+1c7i_A     ---------- ---------- ---------- ---------- ----------
+EST2_CAEEL ---------- ---------- ---------- ---------- ----------
+ESTJ_HELVI ---------- ---------- ---------- ---------- ----------
+EST1_CULPI ---------- ---------- ---------- ---------- ----------
+PCD_ARTOX  ---------- ---------- ---------- ---------- ----------
+
+           1201                                              1250
+1acj_      ---------- ---------- ---------- ---------- ----------
+1dx4_A     ---------- ---------- ---------- ---------- ----------
+1akn_      ---------- ---------- ---------- ---------- ----------
+CEL_MOUSE  ---------- ---------- ---------- ---------- ----------
+CEL_HUMAN  ---------- ---------- -------PTG DSGAPPVPP- ----------
+NLG3_HUMAN GPLLVENPRD YSTELSVTIA VGASLLFLN- ----VLAFAA LYYRKDKRRQ
+EST1_CAEBR ---------- ---------- ---------- ---------- ---SKTTS--
+ACES_BRARE ---------- ---------- -------V-- -----EFHRW SSY-------
+ACES_ELEEL ---------- ---------- -------A-- -----EFHRW SSY-------
+ACES_CHICK ---------- ---------- -------L-- -----EFHRW SSY-------
+SASB_ANAPL ---------- ---------- ---------- ---------- ----------
+CRYS_DICDI ---------- ---------- ---------- ---------- ----------
+D2_DICDI   ---------- ---------- ---------- ---------- ----------
+1k4y_A     ---------- ---------- ---------- ---------- ----------
+ES22_MOUSE ---------- ---------- ---------- ---------- ----------
+EST4_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_PIG   ---------- ---------- ---------- ---------- ------P---
+ES10_RAT   ---------- ---------- ---------- ---------- ------P---
+EST1_RAT   ---------- ---------- ---------- ---------- ----------
+EST2_RABIT ---------- ---------- ---------- ---------- ------G---
+EST1_MESAU ---------- ---------- ---------- ---------- ------G---
+ESTM_MOUSE ---------- ---------- ---------- ---------- -----QR---
+1cle_A     ---------- ---------- ---------- ---------- ----------
+LIP1_GEOCN ---------- ---------- ---------- ---------- ----------
+ESTE_MYZPE ---------- ---------- ---------- ---------- ----------
+1c7i_A     ---------- ---------- ---------- ---------- ----------
+EST2_CAEEL ---------- ---------- ---------- ---------- ----ERRSRQ
+ESTJ_HELVI ---------- ---------- ---------- ---------- --------S-
+EST1_CULPI ---------- ---------- ---------- ---------- --------D-
+PCD_ARTOX  ---------- ---------- ---------- ---------- ----------
+
+           1251                                              1300
+1acj_      ---------- ---------- ---------- ---------- ----------
+1dx4_A     ---------- ---------- ---------- ---------- ----------
+1akn_      ---------- ---------- ---------- ---------- ----------
+CEL_MOUSE  ---------- ---------- -S-------- ---------- ---DDSQV--
+CEL_HUMAN  ---------- ---------- -T-------- ---------- ---GDSEA--
+NLG3_HUMAN EPLRQPSPQR GAGAPELGAA PEEELAALQL GPTHHECEAG PPHDTLRLTA
+EST1_CAEBR ---------- ---------- ---------- NS-------- -EK-------
+ACES_BRARE -----MM--- ---------- -H-------- ---------- ---WKSQF--
+ACES_ELEEL -----MM--- ---------- -H-------- ---------- ---WKNQF--
+ACES_CHICK -----MG--- ---------- -R-------- ---------- ---WRTQF--
+SASB_ANAPL ---------- ---------- ---------- ---------- ----------
+CRYS_DICDI ---------- ---------- ---------- ---------- ----------
+D2_DICDI   ---------- ---------- ---------- ---------- ----------
+1k4y_A     ---------- ---------- ---------- ---------- ----------
+ES22_MOUSE ---------- ---------- ---------- ---------- ----------
+EST4_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_PIG   ---------- ---------- ---------- ---------- ----------
+ES10_RAT   ---------- ---------- ---------- ---------- ----------
+EST1_RAT   ---------- ---------- ---------- ---------- ----------
+EST2_RABIT ---------- ---------- ---------- ---------- ----------
+EST1_MESAU ---------- ---------- ---------- ---------- ----------
+ESTM_MOUSE ---------- ---------- ---------- ---------- ----------
+1cle_A     ---------- ---------- ---------- ---------- ----------
+LIP1_GEOCN ---------- ---------- ---------- ---------- ----------
+ESTE_MYZPE ---------- ---------- ---------- ---------- ----------
+1c7i_A     ---------- ---------- ---------- ---------- ----------
+EST2_CAEEL ---------- ---------- ---------- ---------- -RF-------
+ESTJ_HELVI ---------- ---------- ---------- ---------- ----------
+EST1_CULPI ---------- ---------- ---------- ---------- ----------
+PCD_ARTOX  ---------- ---------- ---------- ---------- ----------
+
+           1301                                              1350
+1acj_      ---------- ---------- ---------- ---------- ----------
+1dx4_A     ---------- ---------- ---------- ---------- ----------
+1akn_      ---------- ---------- ---------- ---------- ----------
+CEL_MOUSE  --VPV-P-PT -DDSVEAQMP AT-------- ---------- ----------
+CEL_HUMAN  --APV-P-PT -DDSKEAQMP AV-------- ---------- ----------
+NLG3_HUMAN LPDYTLTLRR SPDDIPLMTP NTITMIPNSL VGLQTLHPYN TFAAGFNSTG
+EST1_CAEBR ---------- ---------- ---------- ---------- ----------
+ACES_BRARE --DHY-S-KQ --------ER C--------- ---------- ----------
+ACES_ELEEL --DHY-S-KQ --------ER C--------- ---------- ----------
+ACES_CHICK --EHY-S-RQ --------QP C--------- ---------- ----------
+SASB_ANAPL --------RR --------RK H--------- ---------- ----------
+CRYS_DICDI --------NR --------MR KS-------- ---------- ----------
+D2_DICDI   ---------- ---------- ---------- ---------- ----------
+1k4y_A     ---------- ---------- ---------- ---------- ----------
+ES22_MOUSE ---------- --------TE H--------- ---------- ----------
+EST4_RAT   ---------- --------PH H--------- ---------- ----------
+EST1_PIG   --------PK --------IK H--------- ---------- ----------
+ES10_RAT   --------SH --------WK H--------- ---------- ----------
+EST1_RAT   ---------- --------TE H--------- ---------- ----------
+EST2_RABIT --------TE --------QK H--------- ---------- ----------
+EST1_MESAU --------AQ --------GK H--------- ---------- ----------
+ESTM_MOUSE --------SR --------KV P--------- ---------- ----------
+1cle_A     ---------- --------SS F--------- ---------- ----------
+LIP1_GEOCN ---------- --------VT L--------- ---------- ----------
+ESTE_MYZPE ---------- ---------- ---------- ---------- ----------
+1c7i_A     ---------- ---------- ---------- ---------- ----------
+EST2_CAEEL ---------- ---------- ---------- ---------- ----------
+ESTJ_HELVI ---------- ---------- ---------- ---------- ----------
+EST1_CULPI ---------- ---------- ---------- ---------- ----------
+PCD_ARTOX  ---------- --------VS V--------- ---------- ----------
+
+           1351    1361
+1acj_      ---------- - 
+1dx4_A     ---------- - 
+1akn_      ---------- - 
+CEL_MOUSE  -------IG- F 
+CEL_HUMAN  -------IR- F 
+NLG3_HUMAN LPHSHSTTR- V 
+EST1_CAEBR -------DE- L 
+ACES_BRARE -------TD- L 
+ACES_ELEEL -------TN- L 
+ACES_CHICK -------AT- L 
+SASB_ANAPL -------TD- L 
+CRYS_DICDI --------KK - 
+D2_DICDI   ---------P - 
+1k4y_A     ---------- R 
+ES22_MOUSE -------TE- L 
+EST4_RAT   -------NEL - 
+EST1_PIG   -------AE- L 
+ES10_RAT   -------VE- L 
+EST1_RAT   -------TEH T 
+EST2_RABIT -------TE- L 
+EST1_MESAU -------SE- L 
+ESTM_MOUSE -------EEL - 
+1cle_A     -------F-- V 
+LIP1_GEOCN -------F-- G 
+ESTE_MYZPE ---------- - 
+1c7i_A     ---------- F 
+EST2_CAEEL --------NF F 
+ESTJ_HELVI --------PL E 
+EST1_CULPI --------EL F 
+PCD_ARTOX  -------RT- L 
+

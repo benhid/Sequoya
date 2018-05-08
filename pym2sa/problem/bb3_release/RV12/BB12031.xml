@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref1/v2/1taq_ref1</aln-name>
+<sequence seq-type="Protein">
+<seq-name>1bgx_T</seq-name>
+<seq-info>
+<accession>1bgx_T</accession>
+<nid>1bgx_T</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------mrgmlplfepkgrvllvdghhlayrtfhalk----gltts-rgepvqavygfaksllkalkedg--------davivvfdakapsfrheaygg-ykagraptpedfprqlalikelvdllglarlevpgyeaddvlaslakkaekeg--yevriltadkdlyql--lsdrihvlh---------pegylitpawlwekyglr-pdqwadyraltgdesdnlpgvkgigektarklleewgsleallk-----------nldrlkp--airekil---ahmddlklswdlakvrtdlplev-dfakrrepdre-rlraflerlefgsllhefgllespkaleeap---------------------------------------------------------------------------------------------------------wpppegafvgfvlsr---------kepmwadllalaaar----------------------------------------------------ggrvhrapepykalrdlkea-----------rgllakdlsvlalreglglp-pgddpmllaylldpsnttpegvarryg-----------------gewteeageraalserlfanlwg-rlegeerllwlyreverplsavlahmeatgvrldvaylralslevaeeiarleaevfrlaghpfnlnsrdqlervlfdelglpaigkte---ktgkrstsaavlealrea--hpivekilqyreltklkstyidplpdlihprtgrlhtrfnqtatatgrlsssdpnlqnipvrtplgqrirrafi---aeegw-llvaldysqielrvlahlsgdenlirvfqegrdihtetaswmfgvp-reavdplmrraaktinfgvlygmsahrlsqelaipyeeaqafieryfqsfpkvrawiektleegrrrgyvetlfgrrryvpdlearvksvreaae------------------rmafnmpvqgtaadlmklamvklfprleemgarm----llqvhdelvlea----aeavarlakevmegvy----plavplevevgigedwlsake
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DPO1_RHILE</seq-name>
+<seq-info>
+<accession>Q9S1G2</accession>
+<nid>DPO1_RHILE</nid>
+<definition>DNA polymerase I (EC 2.7.7.7) (POL I).</definition>
+<organism>Rhizobium leguminosarum.Bacteria;</organism>
+<ec>2.7.7.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>308</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>5'-3' exonuclease (By similarity).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>394</fstart><fstop>630</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>3'-5' exonuclease (By similarity).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>768</fstart><fstop>1016</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Polymerase (By similarity).</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>391</fstart><fstop>599</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01612 3_5_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>22</fstart><fstop>192</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>194</fstart><fstop>294</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>628</fstart><fstop>1015</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00476 DNA_pol_A</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>299</fstart><fstop>341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB024375 Pfam-B_24375</fnote></fitem>
+</ftable>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mpnsiwtssdaraiharmkkgdhlflvdgsgfifrafhalpp----ltrktdglpigavsgfcnmlwkllrdarntdvgvtpthlavifdysaktfrkdlyda-ykanrsappeelipqfglireatrafnlpcietegfeaddiiatyarqaeatg--advtivssdkdlmqlvspnvhmydsmkd----------kqigipdviekwgvp-pekmidlqamtgdsvdnvpgipgigpktaaqlleeygdldtller-----------ateikq-vkrretil---anidmarlsrdlvrlrtdvpldldldalvlepqngpkligflktmefttltrrvaeacdcdasaiepaivriewgetargpdldaaepepvaggipevsgesvpmpprakaksavegafspadlakaraeafatlpfdhsayvtirdlvtldrwiadaratglvafdtettsldamqaelvgfslaiadntadptgtkiraayvplvhkngvgdllgg------------------------gladnqipmrdalprlkalledesvlkvaqnlkydylllkr----ygie----trsfddtmlisyvldagtgahgmdplsekflghtpipykdvagsgkanvtfdlvdi--------drathyaaedadvtlrlwlvlkp-rla-aagltsvyerlerpllpvlarmeargitvdrqilsrlsgelaqgaarledeiyvlagerfnigspkqlgdilfgkmglsggsktktg----qwstsaqvledl-aaagfelprkivdwrqvtklkstytdalpgyvhpetkrvhtsyslastttgrlsssepnlqnipvrtaegrkirtafi---stpgh-klisadysqielrvlahvaeipqltkafedgvdihamtasemfgvp-vegmpgevrrrakainfgiiygisafglanqlsierseagdyikkyferfpgirdymesrkamardkgyvetifgrrinypeirssnpsvrafne------------------raainapiqgsaadvirramikiepalvevgladrvrmllqvhdelifevedqdvekampvivsvmenatmpalemrvplrvdaraatnwdeah-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DPO1_ANATH</seq-name>
+<seq-info>
+<accession>Q59156</accession>
+<nid>DPO1_ANATH</nid>
+<definition>DNA polymerase I (EC 2.7.7.7) (POL I).</definition>
+<organism>Anaerocellum thermophilum.Bacteria;</organism>
+<ec>2.7.7.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>288</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>5'-3' exonuclease (By similarity).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>470</fstart><fstop>850</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Polymerase (By similarity).</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>169</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>171</fstart><fstop>270</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>470</fstart><fstop>849</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00476 DNA_pol_A</fnote></fitem>
+</ftable>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------mklvifdgnsilyraffalp-----elttsnniptnaiygfvnvilkyleqek-------pdyvavafdkrgrearkseyee-ykanrkpmpdnlqvqipyvreilyafnipiiefegyeaddvigslvnqfkntg--ldiviitgdrdtlqlldknvvvkivstkfd----ktvedlytvenvkekygvw-anqvpdykalvgdqsdnipgvkgigeksaqklleeyssleeiyqnld-------kikssirekleagkdmaf-----lskrlativ----cdlplnvkledlrtkewnkerlyeilvqlefksiikrlglsevvqfefvqqrtdipdve-------------------------------------------------------------------------------------------qkelesisqirskeiplmfvqg---------ekcfylydqesntvf-------------------------------------------itsnkllieeilksdtvkimydlknifhqlnledtn---nikncedvmiasyvldstrssyeletlfvsylnt----dieavkkdkk------------------------ivsvvllkrlwdellr-lid-lnscqflyesierplipvlyemektgfkvdrdaliqytkeienkilkletqiyqiagewfninspkqlsyilfeklklpvikk-----tktgystdaevleelfdk--heivplildyrmytkilttycqgllqainpssgrvhttfiqtgtatgrlassdpnlqnipvkydegklirkvfv---peggh-vlidadysqielrilahisederlisafknnvdihsqtaaevfgvd-iadvtpemrsqakavnfgivygisdyglardikisrkeaaefinkyferypkvkeyldntvkfardngfvltlfnrkryikdikstnrnlrgyae------------------riamnspiqgspadimklamikvyqklkennlkski--ilqvhdellieapyeekdivkeivkremenavr----lkvplvvevkeglnwyetk-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DPO1_LACLA</seq-name>
+<seq-info>
+<accession>Q9CDS1</accession>
+<nid>DPO1_LACLA</nid>
+<definition>DNA polymerase I (EC 2.7.7.7) (POL I).</definition>
+<organism>Lactococcus lactis (subsp. lactis) (Streptococcus lactis).Ba</organism>
+<ec>2.7.7.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>177</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>179</fstart><fstop>279</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>497</fstart><fstop>876</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00476 DNA_pol_A</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>283</fstart><fstop>348</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB005944 Pfam-B_5944</fnote></fitem>
+</ftable>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------menkdrlllidgssvafraffalyn-qidrfkapnglhtnaifafhtmlsslmerie-------pthvliafdagkttfrtemfad-ykggrsktpdefreqlpfikemieklgirhyelanyeaddiigtldkmaeapnvnfdvtivtgdkdmiqlvdgntrveiskkg------vaefeeftpdyllekmglt-paqfidlkalmgdssdnypgvtkvgektglkllqefgslenlyen-v-------dslkaskmkenliadkem---aflsqqlatin----tkapieiglddtllkgkkvdelsqfydemgfaqfkskllaeaggevtdekvvdeidfeivtd-------------------------------------------------------------------------------------gsisekvnaddffyletlgenyhr----------eqivafawgnaek----------------------------------------------iyvsknidlltkmkfpentydfkknrvllshldie---lplvkfdamlakylistted-nkistiarlfnsghlatdeeifgkgtkia-----------lpddavlfehlarkikvlalakekmma-ell-eneqehllsdmelplaevlakmeitgiavsqntleeigaeneeklasltreiydlageefninspkqlgvilfeklqlpvgkktktg-----ystavdvledlaal--spvvakileyrqinkvqstyvkglip-qiaddgkihtryvqdltqtgrlssvdpnlqnipvrleegrkirkafv---pskds-lllssdysqielrvlahisgdehlidafkhgadihtstamrvfgiekaedvtandrrnakavnfgvvygisdfglarnlgitrkdaknyietyferypgiktymenivreardkgfvetmshrrrkipdinarnfnvrgfae------------------rtainspiqgsaadilkiaminldkalsardfkskl--llqvhdeiildvpleeldeikvlvkqtmeeaie---lavp-lkvdentgktwyeak-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DPO1_RICFE</seq-name>
+<seq-info>
+<accession>Q9RAA9</accession>
+<nid>DPO1_RICFE</nid>
+<definition>DNA polymerase I (EC 2.7.7.7) (POL I).</definition>
+<organism>Rickettsia felis (Rickettsia azadi).Bacteria;</organism>
+<ec>2.7.7.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>283</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Exonuclease.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>439</fstart><fstop>487</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>RPE1 insert.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>167</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>169</fstart><fstop>269</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>541</fstart><fstop>921</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00476 DNA_pol_A</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>500</fstart><fstop>540</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB006297 Pfam-B_6297</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>446</fstart><fstop>499</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB007942 Pfam-B_7942</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>270</fstart><fstop>439</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB008765 Pfam-B_8765</fnote></fitem>
+</ftable>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------mtqkntlllidgygfvfrayyaqqp-----ltspkgepvgalygfasmllkllsdfk------p-khvavvfdsggknfrhhiype-ykanrppppedlvvqlplvrdvasnlnfpilekngyeaddiiatfaaktaalg--edvvvissdkdllqlmgenikiydplkg----------kyiteddvvkkfgtt-sdklrevmaligdrsdnipgvpsigpktasslitqfgsvenifns--------leqvsslkqretlqnskea---aliswqligld----snvdldfqlnnlewsppnsdkltgflqeygfkslykraenlfdikindhkeivenkvtea-----------------------keisnaseladfakkaekigifgiyllqhkgdnvalilslqnqsyiikisntshdlfsyntknnndwfsdiifnlltdksirkitysl---------kpllkfyaeqsheitaie-------------------------------------dlelmqyalsaglsqknlfeealkednrhlsk----payr----eefkgdtealataayksvredastgstsklp------letkfgkms-------------------nvinesarivaeftslykqnil-elk-dnkafrlysnidlpicfildkmekigikvdanylnqlsaefgaeilkleeeifalsgtkfnigspkqlgeilfekmqlpfgkasakas---systgaeileklsehg-yniadlllrwrqltklkntytdslpkqidnithrvhttflqtstttgrlssqepnlqnvpirssegnkirqafi---aeegy-klisadysqielrilshianidalkqafinkddihtqtacqifnlq-kheltsehrrkakainfgiiygisafglakqlnvsngeaseyikkyfaeykgvqeymeqtkafassngyvinffgrkcfvp--lihdkklkqfae------------------raainapiqgtnadiikiaminldqeieknnlktrl--vlqihdellfevpedevelvtpiikkimenstn----mdvpiiteirvgnnwmeih-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DPO1_TREPA</seq-name>
+<seq-info>
+<accession>P74933</accession>
+<nid>DPO1_TREPA</nid>
+<definition>DNA polymerase I (EC 2.7.7.7) (POL I).</definition>
+<organism>Treponema pallidum.Bacteria;</organism>
+<ec>2.7.7.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>404</fstart><fstop>589</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01612 3_5_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>172</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>174</fstart><fstop>273</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>618</fstart><fstop>996</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00476 DNA_pol_A</fnote></fitem>
+</ftable>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------mqekktlylldaygliyrsyhafar---aplindsganvsavygffrslhtllchyr-------pryfvavfdsltptfrhvqypa-ykakrdktsaelyaqiplieeilcalgitvlrhdgfeaddliatlakrvaaeh--chvviissdkdvlqlvcdtvqvlrldid--------hkwtccdaayvqqrwtvmptqlldlfslmgdssdnvpgvrgigpktaahllhcfgtldgiyrhtyslkealrtkivcgkkdaffsrslie-lrddvpcvfsleds---ccipldvtsaarifvreglhalaqqyracvqeidteatndtlqmtessvltsgrcanecf----------------lsqvegrastpevnsvlkselktsavsgaipienrdlrqdvmlarsaghyrgvtdpvelkriidcacangvvafdcetdglhphdtrlvgfsicf---------qeaeafyvplivpdvslhtestqctcarstnvetekecteqhgvsasavqdpayvqavmhqlrrlwndetltlvmhngkfdyhvmhr---agvfe--hcacnifdtmvaawlldpdrgtygmdvlaasffqirtitfeevvakgqt-----------fahvpyecavryaaedaditfrlyhylkl-rle-tagllsvfetiempllpilarmeevgiflrkdvvqqltrsfsdliqqyehdifslaghefnigspkqlqtvlfqelhlppgkkntqg-----ystdhsvlkklark--hpiaekillfrdlsklrstyt-eslakladqtgrvhtsfvqigtatgrlssrnpnlqnipikstegrkirqafq---atvgh-elisadytqielvvlahlsqdrnllnafrqhidihaltaayifnvs-iddvqpamrriaktinfgivygmsafrlsdelkisqkeaqsfiyryfetypgvyafstqvaeqtrktgyvtslagrrryirtidsrntlerarae------------------rmalntqiqssaadivkiamiaiqrafarrplraql--llqvhdelifeapaaetaivkeilfaemehave---ls-iplrihvesgnswgdfh-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DPO1_BORBU</seq-name>
+<seq-info>
+<accession>O51498</accession>
+<nid>DPO1_BORBU</nid>
+<definition>DNA polymerase I (EC 2.7.7.7) (POL I).</definition>
+<organism>Borrelia burgdorferi (Lyme disease spirochete).Bacteria;</organism>
+<ec>2.7.7.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>318</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>5'-3' exonuclease.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>319</fstart><fstop>531</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>3'-5' exonuclease.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>532</fstart><fstop>908</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Polymerase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>316</fstart><fstop>500</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01612 3_5_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>168</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>170</fstart><fstop>267</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>529</fstart><fstop>907</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00476 DNA_pol_A</fnote></fitem>
+</ftable>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------mkelylidalniifrnyhvmkn---ypllntqgenvnafigffktlffiikekn-------pehliitfdsevptfrkqkyps-ykatrdlppddlipqigwikegllkakipifemegyeaddllasfakkaaknn--yltyiispdkdllqtmseyvkilkienn--------sfiemdneyvtkkfgvn-sfqikdylaivgdrsdnipgikgigakgaanllrefktldgiysn-----------leiinkkhrellikekenaflsyelvsleen---lkipeienfalknfseeiislfekhsaialiktykkdilkqekenadqkslf----------------------------------------------------kqepttnslddintidtenvkyrsittkielddlieslkkakyisidtetssldtytakligisisf---------kefegyyipieakgkiyi-----------------------------------eknyiiqkfnnlfesnp-kiigqnykfdykilkn----ngfn---pippyfdtmiaaylidtnskvs-ldflaekylmhknikyedviqkndn-----------fanislematsyssedaditfrlfniftk-klk-edkldklmheiempfnkviiemeengiyldkeylkeygkelgkeleaieneiiksigidfnlnspkqmheilfeklnlklpekmkkd------stdikvleslreq--hesienlikyrqiaklkstytdnlielinyktnrlhtsfiqtktatgritsinpnlqnipikdekgrkirkafk---pengn-ifisadysqielailahlsqdevlikafennkdihtetasklfkie-ekeitpnlrriaksinfgiiyrmsdfrlakelgitkeeakgfinsyfdsypkikefiinqinfvrnagysetilkrrryikeinsnnylersaae------------------riainsiiqgsaadimkiamvkvfnefkskkmeski--llqvhdemliespieeenevkkilkimmetayt---ln-lplranietgkswgeih-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DPO1_SYNY3</seq-name>
+<seq-info>
+<accession>Q55971</accession>
+<nid>DPO1_SYNY3</nid>
+<definition>DNA polymerase I (EC 2.7.7.7) (POL I).</definition>
+<organism>Synechocystis sp. (strain PCC 6803).Bacteria;</organism>
+<ec>2.7.7.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>303</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>5'-3' exonuclease.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>304</fstart><fstop>592</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>3'-5' exonuclease.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>593</fstart><fstop>986</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Polymerase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>367</fstart><fstop>560</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01612 3_5_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>185</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>187</fstart><fstop>286</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>590</fstart><fstop>985</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00476 DNA_pol_A</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>566</fstart><fstop>589</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB065820 Pfam-B_65820</fnote></fitem>
+</ftable>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------mfmsakspllllvdghslafrayyafglskkgplrttagiptsvcfgflnslmqvmesqk-------paaiaiafdrreptfrheadga-yksnrqetpedfaedlsylqqllealnlqtityagyeaddilgtlacqgsdag--yqvkilsgdrdlfqlvspeknisvlyltrnpfssntgydeldwqgvvdkmgvt-paqivdfkalcgdksdcipgingigektaikllaeyetlekvyen-----------laqikgalktrldngk-ddamhsqmlariv----vdvplpvtwedlqltgfstdrlvplleklelrtfidkiqafhrnfsdnqspvpmgneadn------------gepkktvkakkskekvnpddsqqlslfdgvpvvnqedglitiqlpkqiqpqiittiaqlealveelkkhtdadfpvawdtetdsldplvanlvgigcaw-------gqepnqvayiplkhhqgeqls-----------------------------------lgiikdllgeilgnaiypkvlqnakfdrrvlah----hgiel---ggvvldtmlasyvlqpee-thnltdlcrrynlg----lvalsykdlglkkd-----qtiadlpletagqycgldcyatyllasklqk-eldqypelkeilkeieqplekilaamedrgiridcdylqtlsqqlaenlltietaayeaagesfnlsspkqlgtilfdklgldrkksrktkt---gystdhatleklqgd--hpiidailehrtlaklkstyvdalpelvngqtqrihtdfnqavtstgrlsssnpnlqnipirsdfsrqirrafl---pqkdw-llvsadysqielrilahlsqepvllqaygdrqdvhgvtakllfgke---ditpaernlgktinfgviygmgaqrfaretgisavegrefidryhrtyaqvfdyletmkleaiakgyvttivgrrryfnfvtealrqlrgktvteldlvdvkmnyndaqllrsaanapiqgssadiikiamvklakllesyqtr----mllqvhdelifemppeeweelapliqntmeqalt----lsvplvvemhrgsnwmeak-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DPO1_MYCLE</seq-name>
+<seq-info>
+<accession>P46835</accession>
+<nid>DPO1_MYCLE</nid>
+<definition>DNA polymerase I (EC 2.7.7.7) (POL I).</definition>
+<organism>Mycobacterium leprae.Bacteria;</organism>
+<ec>2.7.7.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>16</fstart><fstop>184</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>285</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>526</fstart><fstop>909</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00476 DNA_pol_A</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>413</fstart><fstop>525</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB024376 Pfam-B_24376</fnote></fitem>
+</ftable>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------msaamtaevcedhtkpmlmlldgnslafrafyalpte---nfktrgglttnavygftamlinllreeap-------thiaaafdvsrktfrsecyag-ykanrssipaefhgqiditkevlgalgitvfaeagfeaddliatlatqaeneg--yrvlvvtgdrdalqlvsndvtvlyprkg------vseltrftpeaviekygvt-paqypdlaalrgdpsdnlpgipgvgektaakwivdygslqglvdn---------vesvrgkvgealrthlas---vvrnreltel----vkdvplvqtsdtlrlqpwdrdrihrlfdnlefrvlrdrlfealaaagervpevdegfdvrg-------------------------------------------------------------------gllesgtvgrwlakhaddgrrsglaivgthlphggdatalavaaa---------dgnggyidtamltpdddd-----------------------------------------alaawladpdnpkalheaklamhdlag----rgwt---lggitsdtalaaylvrpgqrsftlddlslrylrrelraetpeqeqfslldn---------vdevdkqaiqtlilraravvdlaaalda-eld-lidstsllgemelpvqqvladmekagiaadlrlltelqsqfgdqirdaaeaayavigkqinlsspkqlqvvlfeelgmpktkrtktg-----yttdadalqslfcktehpflqhllthrdvtrlk-vtvdglln-avaadgrihttfnqtiattgrlsstepnlqnipirtnagrqirdafvvgsenngytelmtadysqiemrimahlsrdeglieafhtgedlhsfvasrafgip-ieditpelrrrvkamsyglayglsayglatqlkisteeaklqmeqyfarfggvrdylmdvveqarkdgytstvlgrrrylpeldssnrqireaae------------------raalnapiqgsaadiikvamiavdkslkqaklasrm--llqvhdellfevaigereqieamvreqmgsayp----ldvplevsvgfgrswgaaah
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DPO1_HELPJ</seq-name>
+<seq-info>
+<accession>Q9ZJE9</accession>
+<nid>DPO1_HELPJ</nid>
+<definition>DNA polymerase I (EC 2.7.7.7) (POL I).</definition>
+<organism>Helicobacter pylori J99 (Campylobacter pylori J99).Bacteria;</organism>
+<ec>2.7.7.7</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>170</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>172</fstart><fstop>275</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>524</fstart><fstop>895</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00476 DNA_pol_A</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>276</fstart><fstop>427</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB065840 Pfam-B_65840</fnote></fitem>
+</ftable>
+<length>1120</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------meqpvikegtlalidtfaylfrsyymsak--nkpltndkgfptglltglvgmvkkfykdrk------nmpfivfalesq-tktkraeklgeykqnrkdapkemllqipialewlqkmgftcvevggfeaddviaslatlsp-----yktriyskdkdfnqllsdkialfdg------------kteflakdcvekygil-psqftdyqgivgdssdnykgvkgigsknakellqrlgslekiyen---ldl--aknllspkmyqaliqdkgs---aflskelatl-----ergcikefdflscafpsenpllkikdelkeygfistlrdlenspfivenvpilnstpild---------------------------------------------------------ntpaldnapkksrmivlesaeplsmfleklenpnarvfmrlvldkdkkilalafl--------lqdqgyflpleealfspf-------------------------------------sleflqnafsqmlqhaciighdlkpllsflka---kyqvple--niriqdtqilaflknpek--vgfdevlkeylkedliphekikdfktkskaek---------------sellsmelnalkrlceyfekggle--edlltlardietpfvkvlmgmefqgfkidapyfkrleqefknelnvlerqildligvdfnlnspkqlgevlydklglpknks---------hstdeknllkildk--hpsiplileyrelnklfntyttpllr-lkdkddkihttfiqtgtatgrlsshspnlqnipvrspkgllirkgfi--asskey-cllgvdysqielrllahfsqdkdlmeaflkgrdihletskalfg----edlakekrsiaksinfglvygmgskklsetlsiplseaksyieayfkrfpsikdylngmreeilktskaftllgryrvfdftgvndyvkgnylr-------------------egvnaifqgsasdllklgmlkvserfkn---npsvrlllqvhdelifeieeknapelqqeiqrilndevyp---lrvpletsafiakrwnelkg
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 -1 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

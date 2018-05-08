@@ -1,0 +1,1670 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:  1515  Type: P  octubre 20, 2015 11:15  Check:    0  ..
+
+ Name: 1amu_A     Len:  1515  Check: 8277  Weight:  1.00
+ Name: DLTA_BACSU Len:  1515  Check: 7621  Weight:  1.00
+ Name: DLTA_STRA5 Len:  1515  Check: 9604  Weight:  1.00
+ Name: 1lci_      Len:  1515  Check: 2299  Weight:  1.00
+ Name: LUCI_LUCCR Len:  1515  Check: 2012  Weight:  1.00
+ Name: LUCI_PHOPE Len:  1515  Check: 7502  Weight:  1.00
+ Name: ACSA_PYRAE Len:  1515  Check: 1192  Weight:  1.00
+ Name: ACSA_METSO Len:  1515  Check: 1767  Weight:  1.00
+ Name: ACSA_SYNEL Len:  1515  Check: 1002  Weight:  1.00
+ Name: ACSA_SYNY3 Len:  1515  Check: 4001  Weight:  1.00
+ Name: ACSA_RHOBA Len:  1515  Check: 9024  Weight:  1.00
+ Name: ACSA_CHLTE Len:  1515  Check: 6578  Weight:  1.00
+ Name: ACSA_DEIRA Len:  1515  Check: 3208  Weight:  1.00
+ Name: ACSA_STRAW Len:  1515  Check: 3232  Weight:  1.00
+ Name: ACSA_MYCBO Len:  1515  Check: 1100  Weight:  1.00
+ Name: ACSA_CAMJE Len:  1515  Check: 9033  Weight:  1.00
+ Name: ACSA_HELPY Len:  1515  Check: 8562  Weight:  1.00
+ Name: ACSA_PASMU Len:  1515  Check: 9543  Weight:  1.00
+ Name: ACSA_NITEU Len:  1515  Check: 2291  Weight:  1.00
+ Name: ACSA_ALCEU Len:  1515  Check: 6660  Weight:  1.00
+ Name: 1pg3_A     Len:  1515  Check: 4385  Weight:  1.00
+ Name: ACSA_VIBCH Len:  1515  Check: 2269  Weight:  1.00
+ Name: ACSA_SHEON Len:  1515  Check:  811  Weight:  1.00
+ Name: ACS1_PSEAE Len:  1515  Check: 1697  Weight:  1.00
+ Name: ACSA_BRAJA Len:  1515  Check: 8661  Weight:  1.00
+ Name: ACS2_RHIME Len:  1515  Check: 6626  Weight:  1.00
+ Name: ACSA_RHOCA Len:  1515  Check: 1995  Weight:  1.00
+ Name: ACSA_XANAC Len:  1515  Check: 4392  Weight:  1.00
+ Name: ACSA_XYLFA Len:  1515  Check: 5251  Weight:  1.00
+ Name: ACSA_CAUCR Len:  1515  Check: 1183  Weight:  1.00
+ Name: ACS2_PSEAE Len:  1515  Check:  670  Weight:  1.00
+ Name: ACS2_PSEPK Len:  1515  Check: 7834  Weight:  1.00
+ Name: ACSA_PRB01 Len:  1515  Check: 3759  Weight:  1.00
+ Name: ACSA_LEPIN Len:  1515  Check: 3024  Weight:  1.00
+ Name: ACSA_DROME Len:  1515  Check: 4531  Weight:  1.00
+ Name: ACSA_HUMAN Len:  1515  Check: 2068  Weight:  1.00
+ Name: ACSA_PHYBL Len:  1515  Check: 4274  Weight:  1.00
+ Name: ACSA_COPCI Len:  1515  Check: 8591  Weight:  1.00
+ Name: ACSA_EMENI Len:  1515  Check: 8263  Weight:  1.00
+ Name: ACSA_NEUCR Len:  1515  Check: 4738  Weight:  1.00
+ Name: ACS2_KLULA Len:  1515  Check:  154  Weight:  1.00
+ Name: ACSA_CANAL Len:  1515  Check:  643  Weight:  1.00
+ Name: ACS1_YEAST Len:  1515  Check: 5114  Weight:  1.00
+ Name: ACS1_KLULA Len:  1515  Check: 8093  Weight:  1.00
+ Name: ACSA_SCHPO Len:  1515  Check: 8746  Weight:  1.00
+ Name: ACSA_CRYPV Len:  1515  Check: 9283  Weight:  1.00
+ Name: AC2L_HUMAN Len:  1515  Check: 1271  Weight:  1.00
+ Name: YZ68_PSEAE Len:  1515  Check: 2839  Weight:  1.00
+ Name: PRPE_ECOLI Len:  1515  Check: 5010  Weight:  1.00
+ Name: ENTF_ECO57 Len:  1515  Check: 7177  Weight:  1.00
+
+//
+
+           1                                                   50
+1amu_A     GT-------- ---------- ---------- -------H-- ----------
+DLTA_BACSU MK-------- ---------- ---------- ---------- ----------
+DLTA_STRA5 MI-------- ---------- ---------- -------H-- ----------
+1lci_      ---------- ---------- ---------- ---------- ----------
+LUCI_LUCCR ME-------- ---------- ---------- ---------- ----------
+LUCI_PHOPE ME-------- ---------- ---------- ---------- ----------
+ACSA_PYRAE MS-------- ---------- ------LELK EKESELPF-- ----------
+ACSA_METSO ML-------- ---------- -------KLA GKEDKKLK-- ----------
+ACSA_SYNEL MS-------- ---------- ---------H PTIESILQ-- ----------
+ACSA_SYNY3 MS-------- ---------- ---------- DTIESILQ-- ----------
+ACSA_RHOBA MP-------- --TASASESS SNQPESSNAS GSIDHVLV-- ----------
+ACSA_CHLTE MA-------- ---------- -TEQTKGQSS ESISSVLS-- ----------
+ACSA_DEIRA MT-------- ---------- -------HPN DHIDAMLH-- ----------
+ACSA_STRAW MS-------- ---------- ---------N ESLANLLK-- ----------
+ACSA_MYCBO MS-------- ---------- ---------- ---ESTPE-- ----------
+ACSA_CAMJE ML-------- ---------- ---------- -----NQN-- ----------
+ACSA_HELPY MQ-------- ---------- ---------- -LDEDLEF-- ----------
+ACSA_PASMU MP-------- ---------- ---------- --HNSMLK-- ----------
+ACSA_NITEU MA-------- ---------- ---------- -TIESILH-- ----------
+ACSA_ALCEU MS-------- ---------- ---------- -AIESVMQ-- ----------
+1pg3_A     HK-------- ---------- ---------- ---------- ----------
+ACSA_VIBCH MS-------- ---------- ---------- ---------- ----------
+ACSA_SHEON MS-------- ---------- ---------- ---------- ----------
+ACS1_PSEAE MS-------- ---------- ---------- ---------- ----------
+ACSA_BRAJA MS-------- ---------- ---------- ---------- ----------
+ACS2_RHIME MD-------- ---------- ---------- ---------- ----------
+ACSA_RHOCA MG-------- ---------- ---------- -----VQG-- ----------
+ACSA_XANAC MA-------- ---------- ---------- ---------- ----------
+ACSA_XYLFA MS-------- ---------- ---------- ---------- ----------
+ACSA_CAUCR MV-------- ---------- ---------- -------S-- ----------
+ACS2_PSEAE MF-------- ---------- ---------- ---------- ----------
+ACS2_PSEPK MF-------- ---------- ---------- ---------- ----------
+ACSA_PRB01 MP-------- ---------- ---------- ---------- ----------
+ACSA_LEPIN MP-------- ---------- ---------- -NSEEVMA-- ----------
+ACSA_DROME MP-------- ---------- ---------- -------A-- ----------
+ACSA_HUMAN MG-------- ------LPEE RVRSGSGSRG QEEAGAGG-- ----------
+ACSA_PHYBL MLDKT----- ---------- -------TID GQEDIVTH-- ----------
+ACSA_COPCI MSEGP----- ---------- ---------- --IRVAPH-- ----------
+ACSA_EMENI MSDGP----- ---------- -----IAPPK PAVVAEAH-- ----------
+ACSA_NEUCR MRQTL----- ---------- ---------- ---------- ----------
+ACS2_KLULA MSSDK----- ---------- ---------L HKVVHEAH-- ----------
+ACSA_CANAL MPEST----- ---------- ---------Q QSHLSLDH-- ----------
+ACS1_YEAST MSPSAVQSSK LEEQSSEIDK LKAKMSQSAA TAQRKKEH-- ----------
+ACS1_KLULA MKSNA----- ---------- -------SAA AADQIKTH-- ----------
+ACSA_SCHPO MTKNP----- ---------- ---------- -----VDH-- ----------
+ACSA_CRYPV MSDKR----- ---------- -----PRSPC SNNNDELN-- ----------
+AC2L_HUMAN MAART----- ---------- -----LGRGV GRLLGSLR-- ----------
+YZ68_PSEAE MT-------- ---------- ---------- ---------- ----------
+PRPE_ECOLI MS-------- ---------- ---------- ---------- ----------
+ENTF_ECO57 MSQHLPLVAA QPGIWMAEKL SELPSAWSVA HYVELTGEVD APLLARAVVA
+
+           51                                                 100
+1amu_A     ---------- ---------- ----EEEQY- ---------- ----------
+DLTA_BACSU ---------- ---------- ---------- ---------- ----------
+DLTA_STRA5 ---------- ---------- ----DMIKT- ---------- ----------
+1lci_      ---------- ---------- ---------- ---------- ----------
+LUCI_LUCCR ---------- ---------- ---------- ---------- ----------
+LUCI_PHOPE ---------- ---------- ---------- ---------- ----------
+ACSA_PYRAE ---------- ---------- ----DEQII- -------N-D KWRSK-----
+ACSA_METSO ---------- --------TT VFQDETRIF- -------NPP KELVE-----
+ACSA_SYNEL ---------- ---------- ----ENRLF- -------YPP DDFVA-----
+ACSA_SYNY3 ---------- ---------- ----EERLF- -------DPP TEFSE-----
+ACSA_RHOBA ---------- ---------- ----EDRLF- -------HPS AEFTS-----
+ACSA_CHLTE ---------- ---------- ----ERRKF- -------PPP EAFSS-----
+ACSA_DEIRA ---------- ---------- ----ETRVI- -------HPS AEFQA-----
+ACSA_STRAW ---------- ---------- ----EERRF- -------APP ADLAA-----
+ACSA_MYCBO ---------- ---------- ----VSSSY- -------PPP AHFAE-----
+ACSA_CAMJE ---------- ---------- ----NQELF- -------KPS KEFSR-----
+ACSA_HELPY ---------- ---------- ----AKKIF- -------NPN RAFAK-----
+ACSA_PASMU ---------- ---------- ----ENRLF- -------KPT DEFRR-----
+ACSA_NITEU ---------- ---------- ----ENRIF- -------PPA SEFVR-----
+ACSA_ALCEU ---------- ---------- ----EHRVF- -------NPP EGFAS-----
+1pg3_A     ---------- ---------- --------H- -------AIP ANIAD-----
+ACSA_VIBCH ---------- ---------- ----EAHIY- -------PVK QNIKA-----
+ACSA_SHEON ---------- ---------- ----SQSLY- -------KVS GNIAA-----
+ACS1_PSEAE ---------- ---------- ----AASLY- -------PVH PEAVA-----
+ACSA_BRAJA ---------- ---------- -----EKIY- -------DVP AEWAK-----
+ACS2_RHIME ---------- ---------- -----VKTY- -------PVL EAAKN-----
+ACSA_RHOCA ---------- ---------- ----QPSVA- -------PAL REVPAGFE--
+ACSA_XANAC ---------- ---------- ------DVY- -------PVD PAFAA-----
+ACSA_XYLFA ---------- ---------- ------DLY- -------TID PMLAK-----
+ACSA_CAUCR ---------- ---------- ----DGQVF- -------PVP ADLAR-----
+ACS2_PSEAE ---------- ---------- ----EISVH- -------PVP DAVRQ-----
+ACS2_PSEPK ---------- ---------- ----DIRKY- -------PQA LAVSQ-----
+ACSA_PRB01 ---------- ---------- -----RKLY- -------SPK H--SS-----
+ACSA_LEPIN ---------- ---------- ----KERVV- -------SPS AEFKK-----
+ACSA_DROME ---------- ---------- ----EKSIY- -------DPN PAISQ-----
+ACSA_HUMAN ---------- ---------- ----RARSW- -------SPP PEVSR-----
+ACSA_PHYBL ---------- ---------- ---------- -------PVP KRLLN--SAE
+ACSA_COPCI ---------- ---------- ---------- -------PIA KRVKH--GCK
+ACSA_EMENI ---------- ---------- ----EVDTF- -------HVP KAFFDK-HPS
+ACSA_NEUCR ---------- ---------- ---------- -------RST RSYTS--SP-
+ACS2_KLULA ---------- ---------- ----DVEAR- -------HAP EHFYNS-QPG
+ACSA_CANAL ---------- ---------- ----EKMQ-- -------QPP KGFTER-SKT
+ACS1_YEAST ---------- ---------- ----EYEHLT SVKI---VPQ RPISDRLQPA
+ACS1_KLULA ---------- ---------- ----EYEHLT SVPI---VQP LPITDRLSSE
+ACSA_SCHPO ---------- ---------- -----TLII- -------EPP VRLHG--DPT
+ACSA_CRYPV ---------- ---------- ----DSSVLT ENMD---TVA TRSKN--LPF
+AC2L_HUMAN ---------- ---------- ----GLSGQP ARPPCGVSAP RRAAS--GPS
+YZ68_PSEAE ---------- ---------- ---------- ---------- ----------
+PRPE_ECOLI ---------- ---------- ---------- ---------- ----------
+ENTF_ECO57 GLAQADTLRM RFTEDNGEVW QWVDDALIF- -------ELP EIIDL-----
+
+           101                                                150
+1amu_A     ------LFAV NN-------- ---------- ---------- ----------
+DLTA_BACSU ------LLHA IQ-------- ---------- ---------- ----------
+DLTA_STRA5 ------IEHF AE-------- ---------- ---------- ----------
+1lci_      ---------- -A-------- ---------- ---------- ----------
+LUCI_LUCCR ------NMEN DE-------- ---------- ---------- ----------
+LUCI_PHOPE ---------- -D-------- ---------- ---------- ----------
+ACSA_PYRAE ------YTPI DA-------- ---------- ---------- ----------
+ACSA_METSO ------KSIV MQ-------- ---------- ---------- ----------
+ACSA_SYNEL ------KARI HS-------- ---------- ---------- ----------
+ACSA_SYNY3 ------RAYV RS-------- ---------- ---------- ----------
+ACSA_RHOBA ------KAVI ST-------- ---------- ---------- ----------
+ACSA_CHLTE ------QSHI SS-------- ---------- ---------- ----------
+ACSA_DEIRA ------GTRV SR-------- ---------- ---------- ----------
+ACSA_STRAW ------NANV TA-------- ---------- ---------- ----------
+ACSA_MYCBO ------HANA RA-------- ---------- ---------- ----------
+ACSA_CAMJE ------NARI KN-------- ---------- ---------- ----------
+ACSA_HELPY ------QARI KN-------- ---------- ---------- ----------
+ACSA_PASMU ------QANI SG-------- ---------- ---------- ----------
+ACSA_NITEU ------NANL SG-------- ---------- ---------- ----------
+ACSA_ALCEU ------QAAI PS-------- ---------- ---------- ----------
+1pg3_A     ------RCLI NP-------- ---------- ---------- ----------
+ACSA_VIBCH ------HTHA DN-------- ---------- ---------- ----------
+ACSA_SHEON ------NALV NN-------- ---------- ---------- ----------
+ACS1_PSEAE ------RTFT DE-------- ---------- ---------- ----------
+ACSA_BRAJA ------RAWV DQ-------- ---------- ---------- ----------
+ACS2_RHIME ------RTLL DN-------- ---------- ---------- ----------
+ACSA_RHOCA ------TAHA NG-------- ---------- ---------- ----------
+ACSA_XANAC ------DARV TR-------- ---------- ---------- ----------
+ACSA_XYLFA ------DAHV DR-------- ---------- ---------- ----------
+ACSA_CAUCR ------DAHI DA-------- ---------- ---------- ----------
+ACS2_PSEAE ------RAYL ND-------- ---------- ---------- ----------
+ACS2_PSEPK ------SAAL TP-------- ---------- ---------- ----------
+ACSA_PRB01 ------NPYI KD-------- ---------- ---------- ----------
+ACSA_LEPIN ------NANI SL-------- ---------- ---------- ----------
+ACSA_DROME ------NAYI SS-------- ---------- ---------- ----------
+ACSA_HUMAN ------SAHV PS-------- ---------- ---------- ----------
+ACSA_PHYBL CP----TPHV NS-------- ---------- ---------- ----------
+ACSA_COPCI ------TPHV SH-------- ---------- ---------- ----------
+ACSA_EMENI ------GPHL KN-------- ---------- ---------- ----------
+ACSA_NEUCR ------S--- ---------- ---------- ---------- ----------
+ACS2_KLULA ------KSYC TD-------- ---------- ---------- ----------
+ACSA_CANAL ------KPNL AD-------- ---------- ---------- ----------
+ACS1_YEAST IATHY-SPHL DG-------- ---------- ---------- ----------
+ACS1_KLULA AAQKY-KPNL PG-------- ---------- ---------- ----------
+ACSA_SCHPO VP----KPNI AS-------- ---------- ---------- ----------
+ACSA_CRYPV HETYKSKPTP AD-------- ---------- ---------- ----------
+AC2L_HUMAN GS----APAV AA-------- ---------- ---------- ----------
+YZ68_PSEAE ---------- ---------- ---------- ---------- ----------
+PRPE_ECOLI ---------- ---------- ---------- ---------- ----------
+ENTF_ECO57 ------RTNI DPHGTAQALM QADLQQDLRV DSGKPLVFHQ LIQVADNRWY
+
+           151                                                200
+1amu_A     ---------- ---------- ---------- ---------- ----------
+DLTA_BACSU ---------- ---------- ---------- ---------- ----------
+DLTA_STRA5 ---------- ---------- ---------- ---------- ----------
+1lci_      ---------- ---------- ---------- ---------- ----------
+LUCI_LUCCR ---------- ---------- ---------- ---------- ----------
+LUCI_PHOPE ---------- ---------- ---------- ---------- ----------
+ACSA_PYRAE ---------- ---------- ---------- ---------- ---------Y
+ACSA_METSO ---------- ---------- ---------- ---------- ----WMKKKG
+ACSA_SYNEL ---------- ---------- ---------- ---------- ------LEAY
+ACSA_SYNY3 ---------- ---------- ---------- ---------- ------GREY
+ACSA_RHOBA ---------- ---------- ---------- ---------- ------EEQY
+ACSA_CHLTE ---------- ---------- ---------- ---------- ------MEQY
+ACSA_DEIRA ---------- ---------- ---------- ---------- -------AEY
+ACSA_STRAW ---------- ---------- ---------- ---------- ----------
+ACSA_MYCBO ---------- ---------- ---------- ---------- ----------
+ACSA_CAMJE ---------- ---------- ---------- ---------- ------LCEY
+ACSA_HELPY ---------- ---------- ---------- ---------- ------MCEY
+ACSA_PASMU ---------- ---------- ---------- ---------- ------LETY
+ACSA_NITEU ---------- ---------- ---------- ---------- ------REAY
+ACSA_ALCEU ---------- ---------- ---------- ---------- ------MEAY
+1pg3_A     ---------- ---------- ---------- ---------- -------EQY
+ACSA_VIBCH ---------- ---------- ---------- ---------- -------DTY
+ACSA_SHEON ---------- ---------- ---------- ---------- -------DQY
+ACS1_PSEAE ---------- ---------- ---------- ---------- -------ATY
+ACSA_BRAJA ---------- ---------- ---------- ---------- -------AKY
+ACS2_RHIME ---------- ---------- ---------- ---------- -------ATY
+ACSA_RHOCA ---------- ---------- ---------- ---------- -------AKY
+ACSA_XANAC ---------- ---------- ---------- ---------- -------EQY
+ACSA_XYLFA ---------- ---------- ---------- ---------- -------AHY
+ACSA_CAUCR ---------- ---------- ---------- ---------- -------AAY
+ACS2_PSEAE ---------- ---------- ---------- ---------- -------DDY
+ACS2_PSEPK ---------- ---------- ---------- ---------- -------EDY
+ACSA_PRB01 ---------- ---------- ---------- ---------- ------FDEY
+ACSA_LEPIN ---------- ---------- ---------- ---------- -------KNY
+ACSA_DROME ---------- ---------- ---------- ---------- ------FEEY
+ACSA_HUMAN ---------- ---------- ---------- ---------- ------LQRY
+ACSA_PHYBL ---------- ---------- ---------- ---------- ------LEQY
+ACSA_COPCI ---------- ---------- ---------- ---------- ------IDDY
+ACSA_EMENI ---------- ---------- ---------- ---------- ------LDEY
+ACSA_NEUCR ---------- ---------- ---------- ---------- ----------
+ACS2_KLULA ---------- ---------- ---------- ---------- ------EEHY
+ACSA_CANAL ---------- ---------- ---------- ---------- ------FETY
+ACS1_YEAST ---------- ---------- ---------- ---------- ------LQDY
+ACS1_KLULA ---------- ---------- ---------- ---------- -----GFEEY
+ACSA_SCHPO ---------- ---------- ---------- ---------- ------LDEY
+ACSA_CRYPV ---------- ---------- ---------- ---------K PYRVDGIDKY
+AC2L_HUMAN ---------- ---------- ---------- ---------A AAQ---PGSY
+YZ68_PSEAE ---------- ---------- ---------- ---------- ---------Y
+PRPE_ECOLI ---------- ---------- ---------- ---------- ---------F
+ENTF_ECO57 WYQRYHHLLV DGFSFPAITR QIANIYCALL RGEQTPASPF TPFADVVEEY
+
+           201                                                250
+1amu_A     ----TK---- --AE---YP- -------RD- ---------- ----------
+DLTA_BACSU ----TH---- --AE--TYP- ---------- ---------- ----------
+DLTA_STRA5 ----TQ---- --AD---FP- ---------- ---------- ----------
+1lci_      ----KN---- --IK--KGP- ---------- ---------- ----------
+LUCI_LUCCR -----N---- --IV--VGP- ---------- ---------- ----------
+LUCI_PHOPE ----KN---- --IL--YGP- ---------- ---------- ----------
+ACSA_PYRAE FKFHRQ---- --TV--ENLE SFWESVAKE- ---------- ----------
+ACSA_METSO FKTEKEMRAW CSSD--EHYL EFWDEMAKT- ---------- ---------Y
+ACSA_SYNEL NALYEK---- --AK--ADPA AFWGELAQQ- ---------- ---------E
+ACSA_SYNY3 EQLYSR---- --AA--SNPE KFWGELAEQ- ---------- ---------E
+ACSA_RHOBA EKLATA---- --AR--ENPD EFWRAEALE- ---------- ---------H
+ACSA_CHLTE EKLYAD---- --AA--ADPD KYWGDLAEQ- ---------- ----------
+ACSA_DEIRA ERRYRQ---- --SL--DQPD DFWSEVAHD- ---------- ----------
+ACSA_STRAW -EAYEQ---- --AK--ADRL GFWAEQARR- ---------- ----------
+ACSA_MYCBO -ELYRE---- --AE--EDRL AFWAKQANR- ---------- ----------
+ACSA_CAMJE YDLCDE---- --AK--EDFE GFWKRQAFE- ---------- ---------K
+ACSA_HELPY KDLVHE---- --AN--EDYE HFWGDLAKQ- ---------- ---------K
+ACSA_PASMU QALWEF---- --AD--KDYL TYWSDLARE- ---------- ---------L
+ACSA_NITEU ETLRQE---- --AE--HDYT GFWAKLAQQ- ---------- ---------Y
+ACSA_ALCEU QALCDE---- --AE--RDYE GFWARHARE- ---------- ---------L
+1pg3_A     ETKYKQ---- --SI--NDPD TFWGEQGKI- ---------- ----------
+ACSA_VIBCH LAMYQQ---- --SI--KDPE GFWSEHGKI- ---------- ----------
+ACSA_SHEON KTMYQE---- --SI--VNPE GFWREHGKR- ---------- ----------
+ACS1_PSEAE KTMYQQ---- --SV--VNPD GFWREQAQR- ---------- ----------
+ACSA_BRAJA KEMYAR---- --SI--SDPN GFWAEQAKR- ---------- ----------
+ACS2_RHIME LEWYRE---- --SV--ADPE KFWGEHGKR- ---------- ----------
+ACSA_RHOCA LEMYRE---- --SL--ENPD AFWGREGKR- ---------- ----------
+ACSA_XANAC AALYRE---- --SI--QHPE QFWGKAAQR- ---------- ----------
+ACSA_XYLFA KTLYHE---- --SL--EQPE AFWSNIAQR- ---------- ----------
+ACSA_CAUCR DAALAR---- --VE--ADPE GYWRDIAAR- ---------- ----------
+ACS2_PSEAE QRLYRQ---- --SV--ENPD EFWGEQAKA- ---------- ---------F
+ACS2_PSEPK RRLYRQ---- --SV--EDPD TFWAEQAKR- ---------- ----------
+ACSA_PRB01 KELYKQ---- --SI--EDPS KFFKNLANE- ---------- ---------N
+ACSA_LEPIN KSLYKE---- --SI--ENPN KFWAREANR- ---------- ----------
+ACSA_DROME QKFYQE---- --SL--DNPA EFWSRVAKQ- ---------- ----------
+ACSA_HUMAN RELHRR---- --SV--EEPR EFWGDIAKE- ---------- ----------
+ACSA_PHYBL KSMWKE---- --SV--EQPE KFFGNLGRE- ---------- ---------L
+ACSA_COPCI RSQHRE---- --TI-GHESD KWWAKKAHE- ---------- ---------L
+ACSA_EMENI KKLYEE---- --SI--RSPD VFWARKARE- ---------- ---------L
+ACSA_NEUCR ---------- ------PSPT MFWAERARE- ---------- ---------L
+ACS2_KLULA REMYTQ---- --SI--EDPA GFFGPLAKE- ---------- ---------Y
+ACSA_CANAL QKLYKQ---- --SI--ENPN EFFTQQAKE- ---------- ---------N
+ACS1_YEAST QRLHKE---- --SI--EDPA KFFGSKATQ- ---------- ---------F
+ACS1_KLULA KSLHKE---- --SL--ENPA KFYHERAQ-- ---------- ---------L
+ACSA_SCHPO KRMYEE---- --SI--NDPS TFWGNMARD- ---------- ---------M
+ACSA_CRYPV KELYEQ---- --SI--RDPE GFWSQMARK- ---------- ---------E
+AC2L_HUMAN PALSAQ---- --AA--REPA AFWGPLARD- ---------- ---------T
+YZ68_PSEAE LQQHAR---- --SI--AEPA AFWAEQARS- ---------- ----------
+PRPE_ECOLI SEFYQR---- --SI--NEPE QFWAEQARR- ---------- ----------
+ENTF_ECO57 QQ-YRE---- --SEAWQRDA AFWAEQRRQL PPPASLSPAP LAGRSASADI
+
+           251                                                300
+1amu_A     -------KT- ---------- ---------- ---------- ----------
+DLTA_BACSU ---------- ---------- ---------- ---------- ----------
+DLTA_STRA5 ---------- ---------- ---------- ---------- ----------
+1lci_      ----APFYP- ---------- ---------- ---------- ----------
+LUCI_LUCCR ----KPFYP- ---------- ---------- ---------- ----------
+LUCI_PHOPE ----EPFHP- ---------- ---------- ---------- ----------
+ACSA_PYRAE LEWFKPWDK- ---------- ---------- ---------- ----------
+ACSA_METSO VDWHKPYTK- ---------- ---------- ---------- ----------
+ACSA_SYNEL LEWFQPWEQ- ---------- ---------- ---------- ----------
+ACSA_SYNY3 LHWFKKWDQ- ---------- ---------- ---------- ----------
+ACSA_RHOBA LHWFEPFGT- ---------- ---------- ---------- ----------
+ACSA_CHLTE FHWFKKWDS- ---------- ---------- ---------- ----------
+ACSA_DEIRA LHWMKDWDR- ---------- ---------- ---------- ----------
+ACSA_STRAW LTWATEPTE- ---------- ---------- ---------- ----------
+ACSA_MYCBO LSWTTPFTE- ---------- ---------- ---------- ----------
+ACSA_CAMJE IEWFSPFSR- ---------- ---------- ---------- ----------
+ACSA_HELPY LTWFKPFDK- ---------- ---------- ---------- ----------
+ACSA_PASMU ITWKKPFMH- ---------- ---------- ---------- ----------
+ACSA_NITEU IAWHKPFTR- ---------- ---------- ---------- ----------
+ACSA_ALCEU LHWTKPFTK- ---------- ---------- ---------- ----------
+1pg3_A     LDWITPYQK- ---------- ---------- ---------- ----------
+ACSA_VIBCH VDWIKPFTK- ---------- ---------- ---------- ----------
+ACSA_SHEON IDWIKPYTK- ---------- ---------- ---------- ----------
+ACS1_PSEAE IDWIKPFEK- ---------- ---------- ---------- ----------
+ACSA_BRAJA IDWMKAPTK- ---------- ---------- ---------- ----------
+ACS2_RHIME IEWFEPYTK- ---------- ---------- ---------- ----------
+ACSA_RHOCA LDWITPYTK- ---------- ---------- ---------- ----------
+ACSA_XANAC LEWFKQPTQ- ---------- ---------- ---------- ----------
+ACSA_XYLFA LEWFKTPTK- ---------- ---------- ---------- ----------
+ACSA_CAUCR LDWITPPTK- ---------- ---------- ---------- ----------
+ACS2_PSEAE LDWFKPWHS- ---------- ---------- ---------- ----------
+ACS2_PSEPK LDWIKPWSS- ---------- ---------- ---------- ----------
+ACSA_PRB01 ISWMEDFKT- ---------- ---------- ---------- ----------
+ACSA_LEPIN LIWFKKWTK- ---------- ---------- ---------- ----------
+ACSA_DROME FHWETPADQD KFL------- ---------- ---------- ----------
+ACSA_HUMAN FYWKTPCPG- PFL------- ---------- ---------- ----------
+ACSA_PHYBL LSWSKPFET- ---------- ---------- ---------- ----------
+ACSA_COPCI LYWDRPFHT- ---------- ---------- ---------- ----------
+ACSA_EMENI LTFDKDFQT- ---------- ---------- ---------- ----------
+ACSA_NEUCR LSWSKDFQT- ---------- ---------- ---------- ----------
+ACS2_KLULA LDWDRPFTQ- ---------- ---------- ---------- ----------
+ACSA_CANAL LDWFKPFDL- ---------- ---------- ---------- ----------
+ACS1_YEAST LNWSKPFDK- ---------- ---------- ---------- ----------
+ACS1_KLULA LNWFKPYDQ- ---------- ---------- ---------- ----------
+ACSA_SCHPO MTWDKQFST- ---------- ---------- ---------- ----------
+ACSA_CRYPV LRWLRDFTK- ---------- ---------- ---------- ----------
+AC2L_HUMAN LVWDTPYHT- ---------- ---------- ---------- ----------
+YZ68_PSEAE LAWYQAPAN- ---------- ---------- ---------- ----------
+PRPE_ECOLI IDWQTPFTQ- ---------- ---------- ---------- ----------
+ENTF_ECO57 LRLKLEFTDG EFRQLATQLS GVQRTDLALA LAAFWLGRLC NRMDYAAGFI
+
+           301                                                350
+1amu_A     ---------- ---------- ---------- ---------- ----------
+DLTA_BACSU ---------- ---------- ---------- ---------- ----------
+DLTA_STRA5 ---------- ---------- ---------- ---------- ----------
+1lci_      ---------- ---------- ---------- ---------- ----------
+LUCI_LUCCR ---------- ---------- ---------- ---------- ----------
+LUCI_PHOPE ---------- ---------- ---------- ---------- ----------
+ACSA_PYRAE ---------- ---------- ---------- ---------- ----------
+ACSA_METSO ---------- ---------- ---------- ---------- ----------
+ACSA_SYNEL ---------- ---------- ---------- ---------- ----------
+ACSA_SYNY3 ---------- ---------- ---------- ---------- ----------
+ACSA_RHOBA ---------- ---------- ---------- ---------- ----------
+ACSA_CHLTE ---------- ---------- ---------- ---------- ----------
+ACSA_DEIRA ---------- ---------- ---------- ---------- ----------
+ACSA_STRAW ---------- ---------- ---------- ---------- ----------
+ACSA_MYCBO ---------- ---------- ---------- ---------- ----------
+ACSA_CAMJE ---------- ---------- ---------- ---------- ----------
+ACSA_HELPY ---------- ---------- ---------- ---------- ----------
+ACSA_PASMU ---------- ---------- ---------- ---------- ----------
+ACSA_NITEU ---------- ---------- ---------- ---------- ----------
+ACSA_ALCEU ---------- ---------- ---------- ---------- ----------
+1pg3_A     ---------- ---------- ---------- ---------- ----------
+ACSA_VIBCH ---------- ---------- ---------- ---------- ----------
+ACSA_SHEON ---------- ---------- ---------- ---------- ----------
+ACS1_PSEAE ---------- ---------- ---------- ---------- ----------
+ACSA_BRAJA ---------- ---------- ---------- ---------- ----------
+ACS2_RHIME ---------- ---------- ---------- ---------- ----------
+ACSA_RHOCA ---------- ---------- ---------- ---------- ----------
+ACSA_XANAC ---------- ---------- ---------- ---------- ----------
+ACSA_XYLFA ---------- ---------- ---------- ---------- ----------
+ACSA_CAUCR ---------- ---------- ---------- ---------- ----------
+ACS2_PSEAE ---------- ---------- ---------- ---------- ----------
+ACS2_PSEPK ---------- ---------- ---------- ---------- ----------
+ACSA_PRB01 ---------- ---------- ---------- ---------- ----------
+ACSA_LEPIN ---------- ---------- ---------- ---------- ----------
+ACSA_DROME ---------- ---------- ---------- ---------- ----------
+ACSA_HUMAN ---------- ---------- ---------- ---------- ----------
+ACSA_PHYBL ---------- ---------- ---------- ---------- ----------
+ACSA_COPCI ---------- ---------- ---------- ---------- ----------
+ACSA_EMENI ---------- ---------- ---------- ---------- ----------
+ACSA_NEUCR ---------- ---------- ---------- ---------- ----------
+ACS2_KLULA ---------- ---------- ---------- ---------- ----------
+ACSA_CANAL ---------- ---------- ---------- ---------- ----------
+ACS1_YEAST ---------- ---------- ---------- ---------- ----------
+ACS1_KLULA ---------- ---------- ---------- ---------- ----------
+ACSA_SCHPO ---------- ---------- ---------- ---------- ----------
+ACSA_CRYPV ---------- ---------- ---------- ---------- ----------
+AC2L_HUMAN ---------- ---------- ---------- ---------- ----------
+YZ68_PSEAE ---------- ---------- ---------- ---------- ----------
+PRPE_ECOLI ---------- ---------- ---------- ---------- ----------
+ENTF_ECO57 FMRRLGSAAL TATGPVLNVL PLGIHIAAQE TLPELATRLA AQLKKMRRHQ
+
+           351                                                400
+1amu_A     -------IH- ------Q--- ---------- ---------- ----------
+DLTA_BACSU -------QT- ------D--- ---------- ---------- ----------
+DLTA_STRA5 -------VY- ------D--- ---------- ---------- ----------
+1lci_      -------LE- ------DGTA GE-------- ---------- ----------
+LUCI_LUCCR -------IE- ------EGSA GT-------- ---------- ----------
+LUCI_PHOPE -------LA- ------DGTA GE-------- ---------- ----------
+ACSA_PYRAE -------VL- ------DASN PP-------- ---------- ----------
+ACSA_METSO -------VM- ------DDSE MP-------- ---------- ----------
+ACSA_SYNEL -------VL- ------DWQ- PP-------- ---------- ----------
+ACSA_SYNY3 -------VL- ------DWQ- PP-------- ---------- ----------
+ACSA_RHOBA -------VC- ------DWQ- PP-------- ---------- ----------
+ACSA_CHLTE -------VL- ------EWN- AP-------- ---------- ----------
+ACSA_DEIRA -------VL- ------DWQ- EP-------- ---------- ----------
+ACSA_STRAW -------TL- ------DWSN PP-------- ---------- ----------
+ACSA_MYCBO -------VL- ------DWSE AP-------- ---------- ----------
+ACSA_CAMJE -------VL- ------NEDK AP-------- ---------- ----------
+ACSA_HELPY -------VL- ------NSDN AP-------- ---------- ----------
+ACSA_PASMU -------IF- ------DDSE AP-------- ---------- ----------
+ACSA_NITEU -------VL- ------NDAN PP-------- ---------- ----------
+ACSA_ALCEU -------VL- ------DQSN AP-------- ---------- ----------
+1pg3_A     -------VK- ------NTSF APGNV----- ---------- ----------
+ACSA_VIBCH -------VK- ------HTSF DPGHI----- ---------- ----------
+ACSA_SHEON -------IK- ------KTTF DDHNL----- ---------- ----------
+ACS1_PSEAE -------VK- ------QTSF DDHHV----- ---------- ----------
+ACSA_BRAJA -------IE- ------NVSF APGNV----- ---------- ----------
+ACS2_RHIME -------VK- ------NTSF E-GDV----- ---------- ----------
+ACSA_RHOCA -------VK- ------NTDF TFGKV----- ---------- ----------
+ACSA_XANAC -------IK- ------DVSY ALDDF----- ---------- ----------
+ACSA_XYLFA -------IK- ------DVSY QLEDV----- ---------- ----------
+ACSA_CAUCR -------IK- ------DVSY AKEDF----- ---------- ----------
+ACS2_PSEAE -------VH- ------HGDL RKG------- ---------- ----------
+ACS2_PSEPK -------VQ- ------QCDL HTG------- ---------- ----------
+ACSA_PRB01 -------TF- ------NNQF N--------- ---------- ----------
+ACSA_LEPIN -------VL- ------SHDF KNA------- ---------- ----------
+ACSA_DROME -------KY- ------NFNI SKGPI----- ---------- ----------
+ACSA_HUMAN -------RY- ------NFDV TKGKI----- ---------- ----------
+ACSA_PHYBL -------VQ- ------YGSF EAG------- ---------- ----------
+ACSA_COPCI -------VR- ------SGSF ENG------- ---------- ----------
+ACSA_EMENI -------TR- ------IGSL ENG------- ---------- ----------
+ACSA_NEUCR -------VH- ------SGSL ANG------- ---------- ----------
+ACS2_KLULA -------VQ- ------SGSL EHG------- ---------- ----------
+ACSA_CANAL -------ARF PVDP--KDDY KNG------- ---------- ----------
+ACS1_YEAST -------VFI PDPKTGRPSF QNN------- ---------- ----------
+ACS1_KLULA -------VFI PDTEG-KPTF ENN------- ---------- ----------
+ACSA_SCHPO -------VV- ------QGSI DKA------- ---------- ----------
+ACSA_CRYPV -------VR- ---------- SSGTCLQD-- ---------- ----------
+AC2L_HUMAN -------VW- ------DCDF STG------- ---------- ----------
+YZ68_PSEAE -------IL- ------E-SL PDG------- ---------- ----------
+PRPE_ECOLI -------TL- ------DHSN PP-------- ---------- ----------
+ENTF_ECO57 RYDAEQIVR- ------DSGR AAGDEPLFGP VLNIKVFDYQ LDIPGVQAQT
+
+           401                                                450
+1amu_A     ---------- -LF------- ---------E EQVSK-R--P NNVAI-----
+DLTA_BACSU ---------- -AF------- ---------- ---------- ----------
+DLTA_STRA5 ---------- -IL------- ---------- ---------- ----------
+1lci_      ---------- -QL------- -----HKAMK RYAL--V--P GTIAF----T
+LUCI_LUCCR ---------- -QL------- -----RKYME RYA---K--L GAIAF----T
+LUCI_PHOPE ---------- -QM------- -----FYALS RYAD--I--S GCIAL----T
+ACSA_PYRAE ---------- -FY-KWFVGG RLNLSYLAVD RHVKTWR--K NKLAIEWEGE
+ACSA_METSO ---------- -YF-HWFTGG EINITYNAVD RHAKGAK--K DKVAYIWIPE
+ACSA_SYNEL ---------- -NA-KWFVNG KINITYNCLD RHLKTWR--K NKAALIWEGE
+ACSA_SYNY3 ---------- -FA-KWFVGG QLNISHNCLD RHLTTWR--R NKAAIIWEGE
+ACSA_RHOBA ---------- -HA-KWFVNG KTNACYNSVD AHVAAGR--G DRTAIIWEGE
+ACSA_CHLTE ---------- -YA-KWFNGG TTNIAYNCLD VHVGSWR--K NKAAIIWEGE
+ACSA_DEIRA ---------- -HA-QWFVGG QTNIAYNALD RNVQRGL--G DKRAIIWEGE
+ACSA_STRAW ---------- -FA-KWFKDG KLNVAYNCVD RHVEAGH--G DRVAIHFEGE
+ACSA_MYCBO ---------- -FA-KWFVGG ELNVAYNCVD RHVEAGH--G DRVAIHWEGE
+ACSA_CAMJE ---------- -FY-KWFEGG TLNVSYQCLD RHMKT-R--R NKAALIFEGE
+ACSA_HELPY ---------- -FF-KWFENG KINVSYNCID RHLKD-K--K NKVAIIFEGE
+ACSA_PASMU ---------- -FY-KWFSDG TLNVSYNCLD RHLPD-K--A DKTALIFESD
+ACSA_NITEU ---------- -FY-KWFDDG ELNISWNCLD RHLAT-Q--A DKTAIIFESD
+ACSA_ALCEU ---------- -FY-KWFEDG ELNASYNCLD RNLQNGN--A DKVAIVFEAD
+1pg3_A     ---------- -SI-KWYEDG TLNLAANCLD RHLQE-N--G DRTAIIWEGD
+ACSA_VIBCH ---------- -DI-RWFEDG TLNVSANCID RHLAT-R--G DQVAIIWEGD
+ACSA_SHEON ---------- -SI-NWFYDG TLNASANCLD RHLAA-H--S DRVAIIWEGD
+ACS1_PSEAE ---------- -DI-KWFADG TLNVSHNCLD RHLAE-R--G DQVAIIWEGD
+ACSA_BRAJA ---------- -SI-KWFEDG VLNVAHNCID RHLHK-R--A NQTAIIWEGD
+ACS2_RHIME ---------- -SI-KWFEDG LTNVSYNCID RHLKT-H--G EKTAIIWEGD
+ACSA_RHOCA ---------- -SI-KWFEDG VLNASVNCID RHLRD-R--A LQTAIIFEPD
+ACSA_XANAC ---------- -HI-RWFGDG ELNASVNCLD RQLAT-R--G DKTALLFEPD
+ACSA_XYLFA ---------- -HI-RWFEDG ELNASVNCLD RHLTL-R--G DKTALLFEPD
+ACSA_CAUCR ---------- -RI-RWYEDG VLNVSANCID RHLPA-K--K DDVALVFEGD
+ACS2_PSEAE ---------- -QA-TWFKGG QLNVAYNCID RHLER-R--G EQIAIVWEGD
+ACS2_PSEPK ---------- -KA-RWFDGA QLNVSYNCID RHLAQ-R--G EQTALLWEGD
+ACSA_PRB01 ---------- -NA-KWFEGG KTNISLNCID RHLEN-D--P NKIALIWEGD
+ACSA_LEPIN ---------- -KV-EWFKGG KLNVSYNCLD RHISTPL--K NKAALIWEGD
+ACSA_DROME ---------- -SI-KWMEGA STNLCYNLLD RNVRNGL--G DQIAYYWEGN
+ACSA_HUMAN ---------- -FI-EWMKGA TTNICYNVLD RNVHE-KKLG DKVAFYWEGN
+ACSA_PHYBL ---------- -DV-AWFLEG ELNASYNCVD RHAFK-N--P DKIAIIHEGD
+ACSA_COPCI ---------- -DI-AWFPEG GLNASYNCVD RWAFK-H--P EKTAIIYEAD
+ACSA_EMENI ---------- -DV-AWFPEG RLNASFNCVD RHAIK-N--P NKVAIIYEAD
+ACSA_NEUCR ---------- -DN-AWFVEG ELNASYNCVD KR-HK-D--P NRVAIIYEAD
+ACS2_KLULA ---------- -DI-AWFLNG ELNASYNCVD RHAFA-N--P DKPALIYEAD
+ACSA_CANAL ---------- -DLPAWFING QLNACYNAVD RWAIK-N--P DKPAIIYEGD
+ACS1_YEAST ---------- ----AWFLNG QLNACYNCVD RHALK-T--P NKKAIIFEGD
+ACS1_KLULA ---------- ----AWFTNG QLNACYNLVD RHAFT-Q--P NKVAILYEAD
+ACSA_SCHPO ---------- -DS-AWFADG AISPCYNLVD RHAIA-R--P DAVALIYEAD
+ACSA_CRYPV ---------- -RL-AWFLNG KLNVCDNCVD RWAEI-Q--P NTTALIWEGD
+AC2L_HUMAN ---------- -KI-GWFLGG QLNVSVNCLD QHVRK-S--P ESVALIWERD
+YZ68_PSEAE ---------- -TH-RWFADG RLNSAYLALD RQIEEGR--G EQTALIYDSP
+PRPE_ECOLI ---------- -FA-RWFCEG RTNLCHNAID RWLEK-Q--P EALALIAVSS
+ENTF_ECO57 HTLATGPVND LEL-ALFPDE HGDLSIEILA N--KQ-H--Y DEPTLIQHAE
+
+           451                                                500
+1amu_A     ---------- ---------- ----V-CE-N --EQL----- ----------
+DLTA_BACSU ---------- ---------- ----R-SQ-G --QSL----- ----------
+DLTA_STRA5 ---------- ---------- ---------G --EVH----- ----------
+1lci_      D--------- ---------- ----A-HI-E --VNI----- ----------
+LUCI_LUCCR N--------- ---------- ----A-VT-G --VDY----- ----------
+LUCI_PHOPE N--------- ---------- ----A-HT-K --ENV----- ----------
+ACSA_PYRAE PVDENGY--- ---------- ----P-TD-R --RKL----- ----------
+ACSA_METSO ---------- ---------- ----P-TD-Q PVQKI----- ----------
+ACSA_SYNEL ---------- ---------- ----P-GD-S --RTL----- ----------
+ACSA_SYNY3 ---------- ---------- ----P-GD-S --RII----- ----------
+ACSA_RHOBA PVEDGQ---- ---------- ----P-RD-Q --RTL----- ----------
+ACSA_CHLTE ---------- ---------- ----E-GN-E --RIL----- ----------
+ACSA_DEIRA ---------- ---------- ----D-GE-V --RTY----- ----------
+ACSA_STRAW ---------- ---------- ----P-GD-S --RAI----- ----------
+ACSA_MYCBO ---------- ---------- ----PVGD-R --RTL----- ----------
+ACSA_CAMJE ---------- ---------- ----M-GD-Y --EVY----- ----------
+ACSA_HELPY ---------- ---------- ----M-GD-Y --NVI----- ----------
+ACSA_PASMU ---------- ---------- ----F-GQ-V --QLY----- ----------
+ACSA_NITEU ---------- ---------- ----A-GE-V --NHC----- ----------
+ACSA_ALCEU ---------- ---------- ----D-GS-V --TRV----- ----------
+1pg3_A     D--------- ---------- ----T-SQ-S --KHI----- ----------
+ACSA_VIBCH D--------- ---------- ----P-TQ-D --KTL----- ----------
+ACSA_SHEON N--------- ---------- ----A-NE-Q --RKI----- ----------
+ACS1_PSEAE D--------- ---------- ----P-AD-H --QEI----- ----------
+ACSA_BRAJA D--------- ---------- ----P-SQ-S --RHI----- ----------
+ACS2_RHIME N--------- ---------- ----P-YL-D --KKI----- ----------
+ACSA_RHOCA D--------- ---------- ----P-KEPA --RHI----- ----------
+ACSA_XANAC S--------- ---------- ----P-DAAS --YPV----- ----------
+ACSA_XYLFA A--------- ---------- ----P-DAPS --SRI----- ----------
+ACSA_CAUCR E--------- ---------- ----P-GT-S --STL----- ----------
+ACS2_PSEAE N--------- ---------- ----P-SE-S --AHI----- ----------
+ACS2_PSEPK D--------- ---------- ----P-KD-S --KAI----- ----------
+ACSA_PRB01 D--------- ---------- ----P-AD-S --KEL----- ----------
+ACSA_LEPIN N--------- ---------- ----P-TE-S --RVL----- ----------
+ACSA_DROME H--------- ---------- ----P-DDYS --RGL----- ----------
+ACSA_HUMAN E--------- ---------- ----P-GE-T --TQI----- ----------
+ACSA_PHYBL E--------- ---------- ----P-DQ-V --RRI----- ----------
+ACSA_COPCI E--------- ---------- ----P-GE-G --REI----- ----------
+ACSA_EMENI E--------- ---------- ----P-NE-G --RTI----- ----------
+ACSA_NEUCR E--------- ---------- ----P-VR-- --RNV----- ----------
+ACS2_KLULA D--------- ---------- ----E-SE-N --KVI----- ----------
+ACSA_CANAL E--------- ---------- ----P-DQ-G --RII----- ----------
+ACS1_YEAST E--------- ---------- ----P-GQ-G --YSI----- ----------
+ACS1_KLULA E--------- ---------- ----P-GQ-G --YSL----- ----------
+ACSA_SCHPO E--------- ---------- ----P-NQ-G --RYI----- ----------
+ACSA_CRYPV D--------- ---------- ----P-SS-I --RHI----- ----------
+AC2L_HUMAN E--------- ---------- ----P-GT-E --VRI----- ----------
+YZ68_PSEAE V--------- ---------- ----T-GT-Q --DRY----- ----------
+PRPE_ECOLI E--------- ---------- ----T-EE-E --RTF----- ----------
+ENTF_ECO57 RLKMLIAQFA ADPALLCGDV DIMLP-GE-Y --AQLAQINA TQVEIPETTL
+
+           501                                                550
+1amu_A     ---------- ---------- ----TYHELN VKANQLARIF I-EK--GIGK
+DLTA_BACSU ---------- ---------- ----TYQELW EQSDRAAAAI Q-KRISG-EK
+DLTA_STRA5 ---------- ---------- ----TYGQLK VDSDSLAAHI D-SL--GLVE
+1lci_      ---------- ---------- ----TYAEYF EMSVRLAEAM K-RY--GLNT
+LUCI_LUCCR ---------- ---------- ----SYAEYL EKSCCLGKAL Q-NY--GLVV
+LUCI_PHOPE ---------- ---------- ----LYEEFL KLSCRLAESF K-KY--GLKQ
+ACSA_PYRAE ---------- ---------- ----TYYDLY REVNRVAYML KQNF--GVKK
+ACSA_METSO ---------- ---------- ----TYGDLY KEVNKFANGL K-SL--GLKK
+ACSA_SYNEL ---------- ---------- ----TYAQLH REVCQFANVL K-QL--GVKK
+ACSA_SYNY3 ---------- ---------- ----TYAQLH REVCQFANAL K-SL--GVQK
+ACSA_RHOBA ---------- ---------- ----TYAELQ TEVAKCAEGL T-QL--GIGV
+ACSA_CHLTE ---------- ---------- ----TYGELH RQVSKFANVL K-IA--GIKP
+ACSA_DEIRA ---------- ---------- ----TYAELL REVCKAANAL E-EL--GVVA
+ACSA_STRAW ---------- ---------- ----TYAELK DEVSKAANAL T-EL--GVQK
+ACSA_MYCBO ---------- ---------- ----TYSDLL AEVSKAANAL T-DL--GLVA
+ACSA_CAMJE ---------- ---------- ----TYRRLL HETCKAANLL K-KF--GVKK
+ACSA_HELPY ---------- ---------- ----TYRKLH SEVNKTANLL KNEF--NVKK
+ACSA_PASMU ---------- ---------- ----TYAKLH NRVCRFANAL R-EL--GIKK
+ACSA_NITEU ---------- ---------- ----SYRELH RQVCHFANGL K-SL--GIRQ
+ACSA_ALCEU ---------- ---------- ----TYRELH GKVCRFANGL K-AL--GIRK
+1pg3_A     ---------- ---------- ----SYRELH RDVCRFANTL L-DL--GIKK
+ACSA_VIBCH ---------- ---------- ----TYKQLH QEVCRFANAL K-EQ--GVRK
+ACSA_SHEON ---------- ---------- ----TYGELH TQVCKFANAL R-SQ--GVRR
+ACS1_PSEAE ---------- ---------- ----TYRQLH EQVCKFANAL R-GQ--DVHR
+ACSA_BRAJA ---------- ---------- ----TYKELH DEVCRMANIL R-TR--NVKK
+ACS2_RHIME ---------- ---------- ----TYNELY DKVCRLANVL K-EQ--GVKK
+ACSA_RHOCA ---------- ---------- ----TYKELS EKVNRMANVL L-SQ--GIMR
+ACSA_XANAC ---------- ---------- ----TYRELY ERVCKLGNAL R-NL--GVKK
+ACSA_XYLFA ---------- ---------- ----TYRELY ERVCQLGNAL R-HL--NIEK
+ACSA_CAUCR ---------- ---------- ----TYGQLH EEVCRMANVL K-AQ--GVKK
+ACS2_PSEAE ---------- ---------- ----TYRKLH HNVCRLANVL K-SR--GVEK
+ACS2_PSEPK ---------- ---------- ----TYRELH RQVCRLANAM K-AR--GVKK
+ACSA_PRB01 ---------- ---------- ----TYKELH DEVCKFANVL K-DL--GVQK
+ACSA_LEPIN ---------- ---------- ----TYYDVY REVNRFANIL K-KF--GVKK
+ACSA_DROME ---------- ---------- ----TYRKLL EEVCRFANVL K-DH--GIRK
+ACSA_HUMAN ---------- ---------- ----TYHQLL VQVCQFSNVL R-KQ--GIQK
+ACSA_PHYBL ---------- ---------- ----TYGELL REVCRMANVL K-GL--GVRK
+ACSA_COPCI ---------- ---------- ----SYAELL REVCSIANVL K-SF--GVKK
+ACSA_EMENI ---------- ---------- ----TYGELL REVSRVAWVL K-QR--GVKK
+ACSA_NEUCR ---------- ---------- ----TYGELL REVSKLAMSS P-TW--VIRK
+ACS2_KLULA ---------- ---------- ----TFGELL RQVSEVAGVL Q-SW--GVKK
+ACSA_CANAL ---------- ---------- ----TYGELL KQVSKLAQAL T-KL--GVKK
+ACS1_YEAST ---------- ---------- ----TYKELL EEVCQVAQVL TYSM--GVRK
+ACS1_KLULA ---------- ---------- ----TYAELL EQVCKVAQIL QYSM--NVKK
+ACSA_SCHPO ---------- ---------- ----TYRELL ASVSQCAGAL Q-SM--GVGM
+ACSA_CRYPV ---------- ---------- ----SYIELF RNVCKMANVL K-RF--GIKK
+AC2L_HUMAN ---------- ---------- ----TYRELL ETTCRLANTL K-RH--GVHR
+YZ68_PSEAE ---------- ---------- ----SYLRLR DEVARLAGAL R-AL--GVGK
+PRPE_ECOLI ---------- ---------- ----TFRQLH DEVNAVASML R-SL--GVQR
+ENTF_ECO57 SALVAEQAAK TPDAPALADA RYQFSYREMR EQVVALANLL R-EH--GVKP
+
+           551                                                600
+1amu_A     DTLVGIMMEK SIDLFIGILA VLKAGGAYVP IDIEYPKERI QYILDDSQAR
+DLTA_BACSU KSPILVYGHM EPHMIVSFLG SVKAGHPYIP VDLSIPSERI AKIIESSGAE
+DLTA_STRA5 KSPVLVFGGQ EYEMLATFVA LTKSGHAYIP VDQHSALDRI QAIMTVAQPS
+1lci_      NHRIVVCSEN SLQFFMPVLG ALFIGVAVAP ANDIYNEREL LNSMNISQPT
+LUCI_LUCCR DGRIALCSEN CEEFFIPVIA GLFIGVGVAP TNEIYTLREL VHSLGISKPT
+LUCI_PHOPE NDTIAVCSEN GLQFFLPLIA SLYLGIIAAP VSDKYIEREL IHSLGIVKPR
+ACSA_PYRAE GDKITLYLPM VPELPITMLA AWRIGAITSV VFSGFSADAL AERINDSQSR
+ACSA_METSO GDRVSIYMPM IPQLPIAMLA CAKLGVSHIV VFSGFSSKGL MDRAAHCGSR
+ACSA_SYNEL GDRVGIYMPM IPEAAIAMLA CARIGAPHSV VFGGFSAEAL RDRLIDAQAK
+ACSA_SYNY3 GDRVAIYLPM IPEAAITMLA CSRIGAPHSV VFGGFSAEAL RDRLVDAEAK
+ACSA_RHOBA GDVVSIYMPM TPELAVAMLA CARIGAIHSV IFAGFSAESI AERNNDASAK
+ACSA_CHLTE GDKVAIYMGM VPELVIAVLA CARVGAVHNV IFAGFAAHAI TERVNDSRAK
+ACSA_DEIRA GDRVTLYMPL IPEAAIAMLA CARIGAVHSI VFGGFSVSAL ADRINNAQSK
+ACSA_STRAW GDRVAVYLPM IPEAVVAMLA CARIGAAHSV VFGGFSADAI AARIKDADAK
+ACSA_MYCBO GDRVAIYLPL IPEAVIAMLA CARLGIMHSV VFGGFTAAAL QARIVDAQAK
+ACSA_CAMJE GDRVVIYMPM IPETAIVMLA CARIGAIHSV VFGGFSPEAL RDRIIDAGAK
+ACSA_HELPY GDRVIIYMPM IVESVYMMLA CTRIGAIHSI VFAGFSPEAL RDRINDAQAK
+ACSA_PASMU GDRVIIYLPM LVEAVIAMQA CARIGAVHSV VFGGFSASAL RDRIEDAEAK
+ACSA_NITEU GDRVVIYMPM RIEAVVAMQA CARIGAIHSV VFGGFSAKSV YERIIDAGAS
+ACSA_ALCEU GDRVVIYMPM SVEGVVAMQA CARLGATHSV VFGGFSAKSL QERLVDVGAV
+1pg3_A     GDVVAIYMPM VPEAAVAMLA CARIGAVHSV IFGGFSPEAV AGCIIDSSSR
+ACSA_VIBCH GDVVCIYMPM VPEAAVAMLA CTRIGAVHTI VFGGFSPEAL AGRIIDSNAK
+ACSA_SHEON GDIVTIYMPM VPEAAVAMLA CARIGAVHSV VFGGFSPDSI ASRVIDGKSK
+ACS1_PSEAE GDVVTIYMPM IPEAVVAMLA CTRIGAIHSV VFGGFSPEAL AGRIIDCKSK
+ACSA_BRAJA GDRVTIYLPM IPEAAYAMLA CARIGAIHSV VFAGFSPDSL AQRINDCQSK
+ACS2_RHIME GDRVTIYMPM IPEAAYAMLA CARIGAIHSV VFGGFSPEAL AGRIVDCEST
+ACSA_RHOCA GDRVVIYLPM IPEAAYAMLA CARIGAIHSI VFAGFSPDAL ANRINDCGAK
+ACSA_XANAC GDRVTIYLPM IVDAAVAMLA CARIGAVHSV VFGGFAANSI ADRVIDCQSK
+ACSA_XYLFA GDRVTIYLPM IPDAVVAILA CARIGAIHSV VFGGFAPNSI ADRINDCGSK
+ACSA_CAUCR GDRVTIYLPM VPLAAVAMLA CARIGAVHSV VFGGFSPDSI AGRIQDCASH
+ACS2_PSEAE GDRVCIYMPM IPEAAYAMLA CARIGAVHSV VFGGFSPDSL RDRILDADCR
+ACS2_PSEPK GDRVSIYMPM IPEAAFAMLA CTRIGAIHSV VFGGFSPDAL RDRILDADCR
+ACSA_PRB01 GSRVCIYMPM IIETAFAMLA CTRIGAVHSV VFGGFSPESL KDRILDADCK
+ACSA_LEPIN GDRVLVYLPM IPELAITILA CTRIGAIHSV VFGGFSPEAL QSRIDDCKPK
+ACSA_DROME GDRVSIYMPM ILELPIAMLA CARIGAVHSI VFAGFSPDSL AERMFDCKAK
+ACSA_HUMAN GDRVAIYMPM IPELVVAMLA CARIGALHSI VFAGFSSESL CERILDSSCS
+ACSA_PHYBL GDPVAIYMPM IPETIVAILA CARIGAIHSV VFAGFSAEIL RDRVVDCATR
+ACSA_COPCI GDTVSVYLPM TWQAVAAFLA CARIGAIHSV VFAGFSAEAL RDRMQDCKSR
+ACSA_EMENI GDTVAIYLPM IPEAIIAFLA CSRIGAVHSV VFAGFSSDSL RDRVLDAGSK
+ACSA_NEUCR GDTVAIYLPM IPEAIVAMLA CTRIGAIHSV VFAGFSSDSL RDRVVDAQSK
+ACS2_KLULA GDTVAVYLPM IPAAVVAMLA VARLGAIHSV IFAGFSAGSL KERVVDAGCK
+ACSA_CANAL GDSVAVYLPM IPEAIVTLLA IVRIGAMHSV VFAGFSSASL RDRILDADSR
+ACS1_YEAST GDTVAVYMPM VPEAIITLLA ISRIGAIHSV VFAGFSSNSL RDRINDGDSK
+ACS1_KLULA GDTVAVYMPM IPQALITLLA ITRIGAIHSV VFAGFSSNSL RDRINDAYSK
+ACSA_SCHPO GDRVAIYMPM IPETIIAMLA IVRLGAIHSV IFAGFSAESV ADRVNDSECK
+ACSA_CRYPV GDSVGIYMPM IPETIYTMLA CARIGAVHMV VFAGFAAQNL LERLVNARCK
+AC2L_HUMAN GDRVAIYMPV SPLAVAAMLA CARIGAVHTV IFAGFSAESL AGRINDAKCK
+YZ68_PSEAE GDRVIIYMPM VPQAAMAMLA CARLGAVHSV VFGGFAPYEL ALRIDDATPK
+PRPE_ECOLI GDRVLVYMPM IAEAHITLLA CARIGAIHSV VFGGFASHSV AARIDDAKPV
+ENTF_ECO57 GDSVAVALPR SVFLTLALHA IVEAGAAWLP LDTGYPDDRL KMMLEDARPS
+
+           601                                                650
+1amu_A     MLLTQKH--- ---------- --------LV H--L----IH NI----QFN-
+DLTA_BACSU LLIHA----- ---------- --------AG L--S----ID AV------G-
+DLTA_STRA5 LIISIGE--- ---------- --------FP L--E----VD NV--------
+1lci_      VVFVSKKGLQ --KILNVQK- --------KL P--I----IQ KIIIMD-SK-
+LUCI_LUCCR IVFSSKKGLD --KVITVQK- --------TV T--T----IK TIVILD-SK-
+LUCI_PHOPE IIFCSKNTFQ --KVLNVKS- --------KL K--Y----VE TIIILD-LN-
+ACSA_PYRAE IVITADGFWR RGRVVRLKEV VDAALE--KA T--G----VE SVIVLPRLGL
+ACSA_METSO AIITVDGFYR RGKPVPLKPN ADEAAG--GA P--S----VE KIIVYKRAG-
+ACSA_SYNEL LVVTADGGWR KDAIVPLKDQ VDKALAHQGV P--S----VE NVLVVQRTQ-
+ACSA_SYNY3 LVITADGGFR KDKAIALKQE VDKALEH-GA P--S----VE NVIVVQRTK-
+ACSA_RHOBA LVITSDGLYR RGKVLPLKAT VDEALE--KS P--T----VE KCLVLRRTG-
+ACSA_CHLTE IVICADGTRR RGSTINLKNI VDEAII--NT P--S----VK NVIVLKVTG-
+ACSA_DEIRA LLITADAGYR RGKPVTLKIN ADEAAK--LA P--C----LE HVLVVKRAG-
+ACSA_STRAW LVITADGGYR RGKPSALKPA VDDAVS--RG D--G----VE KVLVVRRTG-
+ACSA_MYCBO LLITADGQFR RGKPSPLKAA ADEALA--AI PDCS----VE HVLVVRRTG-
+ACSA_CAMJE LVVTADGAFR RGKPYMLKPA VDKALSE-GC E--S----VE KVLIVIRNN-
+ACSA_HELPY LVITADGTFR KGKPYMLKPA LDKALENNAC P--S----VE KALIVIRNA-
+ACSA_PASMU LVITANAGLR GGKIIPLKET VDEALEM-GC K--T----IE NVIVFHRVN-
+ACSA_NITEU AVITADEQIR GGRYHPLKAT VDEALAMGDT A--T----VH SVIVFRHTG-
+ACSA_ALCEU ALITADEQMR GGKALPLKAI ADDALALGGC E--A----VR NVIVYRRTG-
+1pg3_A     LVITADEGVR AGRSIPLKKN VDDALKNPNV T--S----VE HVIVLKRTG-
+ACSA_VIBCH LVITADEGVR GGRAVPLKKN VDEALCNPEV K--N----IS KVMVLKRTG-
+ACSA_SHEON IVITSDEGMR GGRAIPLKRN IDDALKHPDV T--S----VE KVIVLKRTG-
+ACS1_PSEAE VVITADEGVR GGKRTPLKAN VDDALTNPET S--S----VQ KIIVCKRTG-
+ACSA_BRAJA VIITADEGLR GGKKVPLKAN VDAALA--KA D--G----VD WVVVVKRTG-
+ACS2_RHIME FVITCDEGVR GGKPVALKEN TDTAID--IA A--RQHVTVS KVLVVRRTG-
+ACSA_RHOCA LVITADTAPR GGRRTPLKAN TDAALL--HC S--D----KV RCLVVKHTG-
+ACSA_XANAC LIITADEGLR GGKKIPLKAN VDAALKIPGT N--T----VE TVLVVRHTG-
+ACSA_XYLFA LIITADEGLR GGRKIPLKAN VDAALKIHGT Q--S----VE TVLVVRHTG-
+ACSA_CAUCR FVITADEGRR GGRRVPLKAN IDEALK--HC P--W----VG KVLMIRWTG-
+ACS2_PSEAE TVITADEGVR GGKYIPLKQN VEKALK--DC P--D----VS TVVVVERTQ-
+ACS2_PSEPK TVITADEGVR GGKRIPLKQN VDKALA--SC P--A----VS SVLVVRRTG-
+ACSA_PRB01 IVITADEGLR GGKKVPLKSN VDEALL--GC P--D----VK NTLVIKRTG-
+ACSA_LEPIN LVVTADGGFR GGKPIELKKN VDLALE--KS K--EK---VK TVIVVRRTG-
+ACSA_DROME LLITADGAWR GEKPLYLKAL CDTALE--KV E--EMGHSVE KCIVVSHLKR
+ACSA_HUMAN LLITTDAFYR GEKLVNLKEL ADEALQ--KC Q--EKGFPVR CCIVVKHLGR
+ACSA_PHYBL VVLTSDEGRR GGKNIATKCI VDEALRDYEN H--S----VE HVLVFRRTG-
+ACSA_COPCI VLITSDEGRR GGKAIATKAI ADAALK--EC P--A----VE KVLVLKRTG-
+ACSA_EMENI VVITTDEGKR GGKVIGTKRI VDEGLK--QC P--D----VS TVLVYKRTG-
+ACSA_NEUCR VVITTDEGKR GGKLIGTKKI VDEALQ--QC P--D----VR NVLVYKRTG-
+ACS2_KLULA VVITCDEGKR GGKTVHTKKI VDEGLA--GV D--S----VS KILVFQRTG-
+ACSA_CANAL IVITADESKR GGKTIETKKI VDDALK--EC P--K----VR NVIVFKRTG-
+ACS1_YEAST VVITTDESNR GGKVIETKRI VDDALR--ET P--G----VR HVLVYRKTN-
+ACS1_KLULA TVITTDESKR GGKTIETKRI VDEALK--DT P--Q----VT NVLVFKRTH-
+ACSA_SCHPO VIITADESHR GGKRIPLKGV VNKALT--EC P--T----IK KVLVFQRSA-
+ACSA_CRYPV IVVTADQGSR GKKIINLKDV VDKALE--KI P--E----IK TCIVFRHLN-
+AC2L_HUMAN VVITFNQGLR GGRVVELKKI VDEAVK--HC P--T----VQ HVLVAHRTD-
+YZ68_PSEAE LVLTASCGLE FDRVIEYKPL VDKALEL-AI H--Q----PA HVMVWQRPQ-
+PRPE_ECOLI LIVSADAGAR GGKIIPYKKL LDDAISQ-AQ H--Q----PR HVLLVDRGL-
+ENTF_ECO57 LLITTDD--- ---------- --------QL P--R----FA DV--------
+
+           651                                                700
+1amu_A     ---------- ---------- -GQ--VE-IF EEDT--IKI- ---REGTN--
+DLTA_BACSU ---------- ---------- -QQ--IQ-TV SAEE--LLE- ---NEGGS--
+DLTA_STRA5 ---------- ---------- --P--IL-DV SQVS--AIF- ---EEKTP--
+1lci_      ---------- ---------- -TD--YQ-GF QSMYTFVTS- ---HLPPG--
+LUCI_LUCCR ---------- ---------- -VD--YR-GY QCLDTFIKR- ---NTPPG--
+LUCI_PHOPE ---------- ---------- -ED--LG-GY QCLNNFISQ- ---NSDIN--
+ACSA_PYRAE ---------- ---------- -KD--VP-MT EGRD--YWW- ---NKLMQ--
+ACSA_METSO ---------- ---------- -VD--VS-MK EGRD--VWW- ---HDLVK--
+ACSA_SYNEL ---------- ---------- -QP--VT-MV PGRD--HWW- ---HDLQK--
+ACSA_SYNY3 ---------- ---------- -AD--VT-MT AGRD--HWW- ---HELQP--
+ACSA_RHOBA ---------- ---------- -DD--AP-MQ EGRD--VWW- ---HDVVE--
+ACSA_CHLTE ---------- ---------- -EE--IH-MH DGMD--HWW- ---HDLMG--
+ACSA_DEIRA ---------- ---------- -IP--LEWWT EGRD--LWW- ---HDVVD--
+ACSA_STRAW ---------- ---------- -QE--VA-WT EGRD--VWW- ---HEITA--
+ACSA_MYCBO ---------- ---------- -IE--MA-WS EGRD--LWW- ---HHVVG--
+ACSA_CAMJE ---------- ---------- -EP--IE-YI KGRD--YVY- ---NELVK--
+ACSA_HELPY ---------- ---------- -KE--ID-YV RGRD--FVY- ---NEMVN--
+ACSA_PASMU ---------- ---------- -ID--TP-WK KGRD--LWW- ---NELTA--
+ACSA_NITEU ---------- ---------- -TG--IT-WQ PERD--HWW- ---HDLIA--
+ACSA_ALCEU ---------- ---------- -GK--VA-WT EGRD--RWM- ---EDVSA--
+1pg3_A     ---------- ---------- -SD--ID-WQ EGRD--LWW- ---RDLIE--
+ACSA_VIBCH ---------- ---------- -GN--VA-WH EHRD--IWW- ---HEATA--
+ACSA_SHEON ---------- ---------- -GK--ID-WV EGRD--VWW- ---HSLVE--
+ACS1_PSEAE ---------- ---------- -AE--IK-WN QHRD--VWY- ---DDLMK--
+ACSA_BRAJA ---------- ---------- -GK--ID-MN PTRD--LWY- ---HEAAA--
+ACS2_RHIME ---------- ---------- -GK--VG-WA PGRD--LWY- ---HQETA--
+ACSA_RHOCA ---------- ---------- -DQ--IS-WV HGRD--VDL- ---LYLME--
+ACSA_XANAC ---------- ---------- -GA--VE-MQ APRD--RWF- ---HDVVD--
+ACSA_XYLFA ---------- ---------- -GT--IN-MH TPRD--RWF- ---HHVVD--
+ACSA_CAUCR ---------- ---------- -AD--VP-LK AGRD--IVW- ---QDVRD--
+ACS2_PSEAE ---------- ---------- -GD--IP-WV EGRD--IWY- ---HEALH--
+ACS2_PSEPK ---------- ---------- -GD--VA-WT EGRD--LWY- ---HEATK--
+ACSA_PRB01 ---------- ---------- -GE--IN-WD DKKD--VWY- ---EDLVK--
+ACSA_LEPIN ---------- ---------- -NESGLT-WK DGQD--YWY- ---HFLMNDP
+ACSA_DROME VTPCQPDHVE ---------- -EE--IP-WT DDRD--YWW- ---HEEME--
+ACSA_HUMAN AELGMGDSTS QSPPIKRSCP DVQ--IS-WN QGID--LWW- ---HELMQ--
+ACSA_PHYBL ---------- ---------- -SP--VP-WV QGRD--VWW- ---HEEMA--
+ACSA_COPCI ---------- ---------- -NP--VP-WT EGRD--VWW- ---HEAVA--
+ACSA_EMENI ---------- ---------- -AE--VP-WT EGRD--IWW- ---HEEVE--
+ACSA_NEUCR ---------- ---------- -PI--IS-MT PGRD--LWW- ---HEEVE--
+ACS2_KLULA ---------- ---------- -TQG-IP-MK PARD--FWW- ---HEECV--
+ACSA_CANAL ---------- ---------- -NSH-VP-FS PGRD--LWW- ---HDEMA--
+ACS1_YEAST ---------- ---------- -NPS-VA-FH APRD--LDW- ---ATEKK--
+ACS1_KLULA ---------- ---------- -NEN-IK-YI PGRD--LDW- ---DEEVK--
+ACSA_SCHPO ---------- ---------- -EPT-AS-MV EGRD--VWW- ---HDIIP--
+ACSA_CRYPV ---------- ---------- -GP--IE-FV KGRD--FDG- ---ETLMR--
+AC2L_HUMAN ---------- ---------- -NK--VH-MG D-LD--VPL- ---EQEMA--
+YZ68_PSEAE ---------- ---------- -AP--AR-LH PGRD--LDW- ---QDCLA--
+PRPE_ECOLI ---------- ---------- -AK--MA-RV SGRD--VDFA SLRHQHIG--
+ENTF_ECO57 ---------- ---------- -PD--LT--- ---N--LCY- ---NAPLT--
+
+           701                                                750
+1amu_A     LHVP------ --SKSTDLAY VIY-TS---- -PKGTMLEHK G-ISNLKVFF
+DLTA_BACSU VSQD------ QWVKEHETFY IIY-TSGSTG NPKGVQISAA N-LQSFTDWI
+DLTA_STRA5 YEVT------ HSVKGDDNYY IIF-TSGTTG LPKGVQISHD N-LLSFTNWM
+1lci_      FNEY--DFVP ESFDRDKTIA LIM-NS---- LPKGVALPHR TACVRFSHAR
+LUCI_LUCCR FQAS--SFKT VEVDRKEQVA LIMNSSGSTG LPKGVQLTHE NTVTRFSHAR
+LUCI_PHOPE LDVK--KFKP NSFNRDDQVA LVMFSSGTTG VSKGVMLTHK NIVARFSHCK
+ACSA_PYRAE GIPPNAYIEP EPVESEHPSF ILY-TSGTTG KPKGIVHDTG GWAVHVYATM
+ACSA_METSO GQSE--ECEP VWVDPEHRLY ILY-TSGTTG KPKGIEHATG GNAVGPAQTL
+ACSA_SYNEL GVSA--DCPA EPMDSEDLLF ILY-TSGSTG KPKGVVHTTA GYNLYTHITT
+ACSA_SYNY3 QQSA--HCPA EPIDSEDMLF ILY-TSGSTG KPKGVVHTTG GYNLYTHMTT
+ACSA_RHOBA NQPG--EMAA KPLDSETPLF ILY-TSGSTG KPKGILHTTA GYNLWAKRTF
+ACSA_CHLTE LAVD--ECEP AQVDSEHPLF LLY-TSGSTG KPKGILHTTA GYMVHAASSF
+ACSA_DEIRA RQSD--QHEA TALDSEHPLF ILY-TSGSTG APKGVQHTTG GYMVGTYLTT
+ACSA_STRAW KQSA--EHTP EAFDAEHPLF ILY-TSGTTG KPKGILHTSG GYLTQTSYTH
+ACSA_MYCBO SASP--AHTP EPFDSEHPLF LLY-TSGTTG KPKGIMHTSG GYLTQCCYTM
+ACSA_CAMJE NESY--KCEP EIMDSEDLLF LLY-TSGSTG KPKGVMHASA GYILWAQMTM
+ACSA_HELPY YQSD--KCEP EMMDSEDPLF LLY-TSGSTG KPKGVQHSSA GYLLWAQMTM
+ACSA_PASMU NQPA--FCEP EWMNAEDPLF ILY-TSGSTG KPKGIVHSTG GYLLGALNSF
+ACSA_NITEU GQPD--ECEP AWINAEHPLF TLY-TSGSTG KPKGVQHSSA GYLLGAVTSM
+ACSA_ALCEU GQPD--TCEA EPVSAEHPLF VLY-TSGSTG KPKGVQHSTG GYLLWALMTM
+1pg3_A     KASP--EHQP EAMNAEDPLF ILY-TSGSTG KPKGVLHTTG GYLVYAATTF
+ACSA_VIBCH KASD--NCPP EEMKAEDPLF ILY-TSGSTG KPKGVLHTTG GYLVYATMTF
+ACSA_SHEON TASE--HCAV EEMGAEDPLF LLY-TSGSTG NPKGVLHTTG GYMVYASMTH
+ACS1_PSEAE VAGS--TCAP KEMGAEDPLF ILY-TSGSTG KPKGVLHTTG GYLVYASLTH
+ACSA_BRAJA MVTT--ECPV EHMHAEDPLF ILY-TSGSTG QPKGVLHTSA GYLVYAAMTH
+ACS2_RHIME AAEP--HCPP EKMNAEDPLF ILY-TSGSTG KPKGVLHTTG GYLVYASMTH
+ACSA_RHOCA HVSP--ECPP RPMNAEDPLF ILY-TSGSTG KPKGVVHTTG GYLVYAAMTH
+ACSA_XANAC GQPA--ACEP ERMNAEDPLF ILY-TSGSTG KPKGVLHTTA GYLLFASYTH
+ACSA_XYLFA IQAT--ECAP ERMNAEDPLF ILY-TSGSTG KPKGVLHTTG GYLVYTSYTH
+ACSA_CAUCR TVSA--DCPP EPMNAEDPLF ILY-TSGSTG KPKGVLHTTG GYLAWASWTF
+ACS2_PSEAE AASA--DCPA EAMDAEDPLF ILY-TSGSTG KPKGVLHTTG GYLLGAAMTH
+ACS2_PSEPK DAGD--DCPP EPMEAEDPLF ILY-TSGSTG KPKGVLHTTG GYLLQATMTF
+ACSA_PRB01 DVSN--KCAP EPMDSEDPLF ILY-TSGSTG KPKGVLHTTA GYLLGAHISF
+ACSA_LEPIN ELSA--YCKP EEMDAEDPLF ILY-TSGSTG KPKGVLHTTG GYLLGANLTF
+ACSA_DROME DKEP--ACYP EWMDAEDPLF MLY-TSGSTG KPKGVLHTTA GYLLYAATTF
+ACSA_HUMAN EAGD--ECEP EWCDAEDPLF ILY-TSGSTG KPKGVVHTVG GYMLYVATTF
+ACSA_PHYBL KART--FCSP EPMSAEDPLF LLY-TSGSTG TPKGILHTTG GYLLGVAATV
+ACSA_COPCI RVPR--YCPP EVMASEDPLF ILY-TSGSTG KPKGVVHTTG GYLLCAALTV
+ACSA_EMENI KYPA--YIAP DSVNSEDPLF LLY-TSGSTG KPKGVMHTTA GYLLGAAMTG
+ACSA_NEUCR KYPA--YYTP VAMASEDPLF LLY-TSGSTG KPKGVAHSTG GYLLRA-MTG
+ACS2_KLULA KQRG--YLPP VPVNSEDPLF LLY-TSGSTG SPKGVVHSTA GYLLGSALTT
+ACSA_CANAL KYGP--YFPP VPVNSEDPLF LLY-TSGSTG KPKGVQHNTA GYLLGAVLTT
+ACS1_YEAST KYKT--YYPC TPVDSEDPLF LLY-TSGSTG APKGVQHSTA GYLLGALLTM
+ACS1_KLULA KYKS--YTPC EPVDSEHPLF LLY-TSGSTG APKGVQHSTA GYLLQALLSM
+ACSA_SCHPO KFPR--YCPP AVVNPEHPLF LLY-TSGSTG KPKGVVHCTG GYLLGAAATC
+ACSA_CRYPV SEKP--YCPL EDMDSEDPLF YLY-TSGSTG TPKGVQHSTA GYLLYAAVTQ
+AC2L_HUMAN KEDP--VCAP ESMGSEDMLF MLY-TSGSTG MPKGIVHTQA GYLLYAALTH
+YZ68_PSEAE AAEP---ADP LPVASGDPLY IMY-TSGTTG KPKGIVRDNG GHAVAVRYAV
+PRPE_ECOLI ARVP-----V AWLESNETSC ILY-TSGTTG KPKGVQRDVG GYAVALATSM
+ENTF_ECO57 PQGS---APL QLSQPHHTAY IIF-TSGSTG RPKGVMVGQT A-IVNRLLWM
+
+           751                                                800
+1amu_A     --ENSLNVT- EKDRIG---- QFASISFDAS -----VWEMF MALLTGASLY
+DLTA_BACSU --CADFPVS- GGKIFL---- NQAPFSFDLS -----VMDLY PCLQSGGTLH
+DLTA_STRA5 ISDDEFSVP- ERPQML---- AQPPYSFDLS -----VMYWA PTLAMGGTLF
+1lci_      --DPIF---- GNQIIP---- DTAILSVVPF HHGFGMFTTL GYLICGFRV-
+LUCI_LUCCR --DPIY---- GNQVSP---- GTAVLTVVPF HHGFGMFTTL GYLICGFRV-
+LUCI_PHOPE --DPTF---- GNAINP---- TTAILTVIPF HHGFGMTTTL GYFTCGFRV-
+ACSA_PYRAE --KWVFDIR- DDDIFW---- CTADIGWVTG H----SYVVL GPLLMGATE-
+ACSA_METSO --HWVFDLK- DDDVWW---- CTADIGWVTG H----SYIVY APLILGMTS-
+ACSA_SYNEL --QWVFDLQ- DTDVYW---- CTADVGWITG H----SYIVY GPLSNGATT-
+ACSA_SYNY3 --KWIFDLK- DTDVYW---- CTADVGWITG H----SYIVY GPLSNGATT-
+ACSA_RHOBA --EWVFDHR- EGDVYW---- CTADCGWITG H----SYVVY GPLSAGATC-
+ACSA_CHLTE --KYVFDIK- DEDIYF---- CTADIGWITG H----TYIIY GPLLNGATV-
+ACSA_DEIRA --QTVFDLR- DDDIYW---- CTADIGWITG H----SYSVY GPLLNGATV-
+ACSA_STRAW --HAVFDLKP ETDVYW---- CTADIGWVTG H----SYITY GPLSNGATQ-
+ACSA_MYCBO --RTIFDVKP DSDVFW---- CTADIGWVTG H----TYGVY GPLCNGVTE-
+ACSA_CAMJE --EWVFDIK- DYDNYW---- CSADVGWITG H----TYVVY GPLACGATT-
+ACSA_HELPY --EWVFDIR- DNDNFW---- CTADIGWITG H----TYVVY GPLACGATT-
+ACSA_PASMU --RNVFDNK- PNDIFW---- CTADVGWITG H----SYVCY GPLANGATQ-
+ACSA_NITEU --QWVFDYH- ADDVFW---- CTADVGWVTG H----SYVAY GPLAIGATQ-
+ACSA_ALCEU --KWTFDIK- PDDLFW---- CTADIGWVTG H----TYIAY GPLAAGATQ-
+1pg3_A     --KYVFDYH- PGDIYW---- CTADVGWVTG H----SYLLY GPLACGATT-
+ACSA_VIBCH --KYVFDYQ- PNEVFW---- CTADVGWITG H----SYLVY GPLANGAKT-
+ACSA_SHEON --EYVFDYK- PGEIYW---- CTADVGWITG H----SYMVY GPLANGATV-
+ACS1_PSEAE --ERVFDYR- PGEVYW---- CTADIGWVTG H----TYIVY GPLANGATT-
+ACSA_BRAJA --QYVFDYH- DGDIYW---- CTADVGWVTG H----SYILY GPLANGATT-
+ACS2_RHIME --QYVFDYQ- DGDIYW---- CTADVGWVTG H----SYIVY GPLANAATT-
+ACSA_RHOCA --QYTFDYK- DGDVFW---- CTADVGWVTG H----SYIIY GPLANGATT-
+ACSA_XANAC --EVVFDLR- EDDIYW---- CTADVGWVTG H----SYIVY GPLANGATA-
+ACSA_XYLFA --ETVFDLR- ENDIYW---- CTADIGWITG H----SYIVY GPLANGATV-
+ACSA_CAUCR --WAVFDYK- PGEVFW---- CTADVGWVTG H----SYVVY GPLANGGTS-
+ACS2_PSEAE --KYVFDYH- DGDVYW---- CTADVGWVTG H----SYIVY GPLANGATT-
+ACS2_PSEPK --KVVFDYR- DGEVFW---- CTADVGWVTG H----SYIVY GPLANGAIS-
+ACSA_PRB01 --KYLFGIR- PEDKYW---- CTADVGWITG H----TYILY GPLSNGATT-
+ACSA_LEPIN --HYVFDIK- PEDTYW---- CTADIGWVTG H----SYLVY GPLSNGASS-
+ACSA_DROME --KIVFDYK- PGDIYW---- CTADVGWITG H----TYVVY GPLANGATS-
+ACSA_HUMAN --KYVFDFH- AEDVFW---- CTADIGWITG H----SYVTY GPLANGATS-
+ACSA_PHYBL --KYIFDYQ- ENDIYA---- CMADIGWVTG H----SYIVY GPLTLGATT-
+ACSA_COPCI --KYVFDVH- PDDRFA---- CMADVGWITG H----TYIVY GPLAIGATT-
+ACSA_EMENI --KYVFDIH- DDDRYF---- CGGDVGWITG H----TYVVY APLLLGVST-
+ACSA_NEUCR --KYVFDIH- DGDRYF---- CGGDVGWITG P----HYVLS APLLLGVST-
+ACS2_KLULA --RFVFDIH- PEDVLF---- TAGDVGWITG H----TYALY GPLTLGTAT-
+ACSA_CANAL --KYTFDVH- EDDILF---- TAGDIGWITG H----TYCVY GPLLAGATS-
+ACS1_YEAST --RYTFDTH- QEDVFF---- TAGDIGWITG H----TYVVY GPLLYGCAT-
+ACS1_KLULA --KYTFDIQ- NDDIFF---- TAGDIGWITG H----TYCVY GPLLQGCTT-
+ACSA_SCHPO --KYVFDLH- PTDRMG---- CAGDVGWITG H----TYIVY GPLMLGAAT-
+ACSA_CRYPV --KYLFNIH- PGDIFG---- CAGDIGWITG H----SYLVY APLCNGITT-
+AC2L_HUMAN --KLVFDHQ- PGDIFG---- CVADIGWITG H----SYVVY GPLCNGATS-
+YZ68_PSEAE --RTIYGMQ- AGDVWW---- GISDVGWVVG H----SLIVY GPLMCGCTT-
+PRPE_ECOLI --DTIFGGK- AGSVFF---- CASDIGWVVG H----SYIVY APLLAGMAT-
+ENTF_ECO57 --QNHYPLT- GEDVVAQKTP CSFDVS---- -----VWEFF WPFIAGAKL-
+
+           801                                                850
+1amu_A     IILKDTI-N- -DFVKFEQYI NQKEITVITL PPTYV----- -----V----
+DLTA_BACSU CVTKDAV-N- -KPKVLFEEL KKSGLNVWTS TPSFVQMCLM --D--P----
+DLTA_STRA5 ALPKTVV-N- -DFKKLFATI NELPIQVWTS TPSFADMALL --S--N----
+1lci_      VLMY----RF -EEELFLRSL QDYKIQSALL VPTLFSFFAK --S--T----
+LUCI_LUCCR VMLT----KF -DEETFLKTL QDYKCTSVIL VPTLFAILNK --S--E----
+LUCI_PHOPE ALMH----TF -EEKLFLQSL QDYKVESTLL VPTLMAFFPK --S--A----
+ACSA_PYRAE VIYEGAP-DY PQPDRWWSII ERYGVTIFYT SPTAIRMFMR YGE--E----
+ACSA_METSO LMYEGAA-DY PDFGRWWKNI QDHKVTVLYT APTAVRMFMK QGA--E----
+ACSA_SYNEL LMYEGAP-RP SNPGCFWDVI EKYGVTIFYT APTAIRAFIK MGE--H----
+ACSA_SYNY3 VMYEGVP-RP SNPGCFWDVI ERYGVNIFYT APTAIRAFIR MGE--A----
+ACSA_RHOBA LMYEGAP-NF PAEDRFWDIV ERHKVSILYT APTAVRAFIK WGD--E----
+ACSA_CHLTE FMYEGAP-NY PQWDRFWDII NRHKITILYT APTAIRAFIR AGN--E----
+ACSA_DEIRA VMYEGAP-NQ PDWGRFWDIV QKHRVTILYT APTAIRSFMQ HGD--E----
+ACSA_STRAW VMYEGTP-DT PHQGRFWEIV QKYGVTILYT APTAIRTFMK WGD--D----
+ACSA_MYCBO VLYEGTP-DT PDRHRHFQII EKYGVTIYYT APTLIRMFMK WGR--E----
+ACSA_CAMJE IMHEGTP-TY PNSGRWWRMI EEYQISKFYT SPTAIRMLHA DAP--N----
+ACSA_HELPY LILEGTM-SY PDYGRWWRMI EEYRVDKFYT SPTAIRMLHA KGE--N----
+ACSA_PASMU VIFEGVP-TY PDPGRIWRMI QRHKINVFYT SPTLIRSLTR LGD--H----
+ACSA_NITEU VIFEGTP-TH PHAGRFWEII QKHRITTFYT APTAIRSLIK LGS--D----
+ACSA_ALCEU VVFEGVP-TY PNAGRFWDMI ARHKVSIFYT APTAIRSLIK AAE--ADEKI
+1pg3_A     LMFEGVP-NW PTPARMCQVV DKHQVNILYT APTAIRALMA EGD--K----
+ACSA_VIBCH ILFEGVP-NY PTTARMSEVV DKHKVNILYT APTAIRALMA KGD--E----
+ACSA_SHEON LIHEGVP-NH PSPARLGEMI DRHKVNILYT APTLIRALMA EGK--Q----
+ACS1_PSEAE ILFEGVP-NY PDVTRVAKII DKHKVNILYT APTAIRAMMA EGK--A----
+ACSA_BRAJA LMFEGVP-NY PDNSRFWNVI DKHKVNTFYT APTAIRALMQ GGD--E----
+ACS2_RHIME LMFEGVP-NF PDAGRFWEVV DKHKVNIFYT APTAIRSLMG AGD--D----
+ACSA_RHOCA LMFEGVP-TF PDAGRFWAVC EKHKVNQFYT APTAIRALMG QGP--E----
+ACSA_XANAC VMFEGVP-NY PNVSRFWEVI DKHQVTIFYT APTAIRALMR DGA--D----
+ACSA_XYLFA LLFEGVP-HY PTVSRFWEVI DKHHVTLFYT APTAIRALMR EGD--T----
+ACSA_CAUCR LIFEGVP-NY PTPSRFWEVI DKHQVSIFYT APTALRALMR EGD--A----
+ACS2_PSEAE LMFEGVP-NY PDASRFWQVI DKHQVNIFYT APTAIRALMR EGD--A----
+ACS2_PSEPK LMFEGVP-NY PDTSRFWQVV DKHQVNIFYT APTALRALMR EGS--A----
+ACSA_PRB01 LMFEGVP-TY PSASRCWEIC DKHDISIFYT APTAIRALMA QGD--D----
+ACSA_LEPIN VMFEGVP-SY PDAGRFWDVI DKYGVNIFYT APTAIRALMR EGL--N----
+ACSA_DROME VIFEGTP-FF PGNDRYWSVI DKYKVTQFYT APTAIRALMK FGE--G----
+ACSA_HUMAN VLFEGIP-TY PDVNRLWSIV DKYKVTKFYT APTAIRLLMK FGD--E----
+ACSA_PHYBL VLFESTP-TY PNPSRFWQLI EKHKITQFYT APTAIRALQR LGD--Q----
+ACSA_COPCI TVFESTP-VY PTPSRYWETV EKYKLTQFYS APTAIRLLRR LGH--E----
+ACSA_EMENI VVFESTP-AY PDFSRYWDVI EKHKVTQFYV APTALRLLKR AGD--H----
+ACSA_NEUCR VVFEGTP--- PTNSPYWDII EEHKVTQFSV APTALRLLKR AGD--H----
+ACS2_KLULA IIFESTP-AY PDYGRYWRII ERHRATHFYV APTALRLIKR VGE--E----
+ACSA_CANAL VVFEGTP-AY PNYSRYWEIV DKYKVNQFYV APTALRLLKR AGT--K----
+ACS1_YEAST LVFEGTP-AY PNYSRYWDII DEHKVTQFYV APTALRLLKR AGD--S----
+ACS1_KLULA LVFEGTP-AY PNFSRYWEIV DKYQVTQFYV APTALRLLKR AGD--S----
+ACSA_SCHPO LVFESTP-AY PDYSRYWSVV ERHRLTQWYI APTAIRLLQR AGN--E----
+ACSA_CRYPV LIFEGVP-TY PNAGRYWEMV ERHRITHFYA APTAIRTLKR LGD--D----
+AC2L_HUMAN VLFESTP-VY PNAGRYWETV ERLKINQFYG APTAVRLLLK YGD--A----
+YZ68_PSEAE VFYEGKPVRT PDAGAYWRVI EEHRVNSLFC APTAIRAIRK EDPHGE----
+PRPE_ECOLI IVYEGLP-TW PDCGVWWTIV EKYQVSRMFS APTAIRVLKK FPT--A----
+ENTF_ECO57 VMAE--PEAH RDPLAMQQFF AEYGVTTTHF VPSMLAAFVA SLT--P----
+
+           851                                                900
+1amu_A     HLDPERILSI QTLITAGSAT SPSLVNKWKE -----KVT-Y INAYGPTET-
+DLTA_BACSU GFSQDLLPHA DTFMFCGEVL PVSVAKALLE RFP--KAK-I FNTYGPTEA-
+DLTA_STRA5 DFNSETLPQL THFYFDGEEL TVKTAQKLRQ RFP--KAR-I VNAYGPTEA-
+1lci_      LIDKYDLSNL HEIASGGAPL SKEVGEAVAK RF---HLPGI RQGYGLTETT
+LUCI_LUCCR LLNKYDLSNL VEIASGGAPL SKEVGEAVAR RF---NLPGV RQGYGLTETT
+LUCI_PHOPE LVEKYDLSHL KEIASGGAPL SKEIGEMVKK RF---KLNFV RQGYGLTETT
+ACSA_PYRAE WPRKHDLSTL RIIHSVGEPI NPEAWRWAYR VLGNEKVA-F GSTWWMTET-
+ACSA_METSO WPDKYDLSSL RLLGSVGEPI NPEAWMWYRE HIGRGELQ-I MDTWWQTET-
+ACSA_SYNEL LPRARDLSSL RLLGTVGEPI NPEAWMWYYR VIGGERCP-I VDTWWQTET-
+ACSA_SYNY3 VPNARDLSSL RLLGTVGEPI NPEAWMWYHR VIGGGKCP-I VDTWWQTET-
+ACSA_RHOBA HVDKHDLSSL RLLGSVGEGI NPEAWMWYHK KIGGEKCP-I VDTWWQTET-
+ACSA_CHLTE WVTKHDLSSL RLLGTVGEPI NPEAWMWYHK YVGQEKCP-I VDTWWQTET-
+ACSA_DEIRA IPGRYDLASL RLLGSVGEPI NPEAWMWYYR VIGGERCP-V VDTWWQTET-
+ACSA_STRAW IPAKFDLSSL RVLGSVGEPI NPEAWIWYRK HIGGDRTP-I VDTWWQTET-
+ACSA_MYCBO IPDSHDLSSL RLLGSVGEPI NPEAWRWYRD VIGGGRTP-L VDTWWQTET-
+ACSA_CAMJE EPRKYDLSTL EVLGTVGEPI NPSAWKWFYD EIGGTKSP-I VDTWWQTET-
+ACSA_HELPY EPSKYNLESL KVLGTVGEPI NPTAWKWFYE KIGNSKCS-I VDTWWQTET-
+ACSA_PASMU IPNKYDLSSL RLLGSVGEPI NPSAWMWFYE VVGKSRCP-I VDTWWQTET-
+ACSA_NITEU LPAKYDLSSL RLLGSVGEPI NPEAWMWYYT VVGQSRCP-V VDTWWQTET-
+ACSA_ALCEU HPKQYDLSSL RLLGTVGEPI NPEAWMWYYK NIGNERCP-I VDTFWQTET-
+1pg3_A     AIEGTDRSSL RILGSVGEPI NPEAWEWYWK KIGKEKCP-V VDTWWQTET-
+ACSA_VIBCH AIKGTSRDSL RIMGSVGEPI NPEAWEWYYR TIGNEKSP-I VDTWWQTET-
+ACSA_SHEON HFDKYNGSSL RIMGSVGEPI NPEAWRWYHE VIGHEHCP-I VDTWWQTET-
+ACS1_PSEAE AVAGADGSSL RLLGSVGEPI NPEAWQWYYE TVGQSRCP-I VDTWWQTET-
+ACSA_BRAJA PVKKTSRASL RLLGSVGEPI NPEAWEWYHR VVGEDRCP-I VDTWWQTET-
+ACS2_RHIME FVKRSSRSSL RLLGTVGEPI NPEAWEWYYH VVGDERCP-V VDTWWQTET-
+ACSA_RHOCA WVEKYDLSSL RVLGSVGEPI NPEAWVWYDK YVGKGKCP-I VDTFWQTET-
+ACSA_XANAC PVKKTSRKSL RLLGSVGEPI NPEAWRWYYE VVGDSRCP-I VDTWWQTET-
+ACSA_XYLFA PVKKTSRKSL RLLGSVGEPI NPEAWHWYYT IVGNGRCP-I VDTWWQTET-
+ACSA_CAUCR HVTKNDLSSL RLLGSVGEPI NPEAWLWYHR VVGKEKLP-I VDTWWQTET-
+ACS2_PSEAE PVRQTSRSSL RLLGSVGEPI NPEAWEWYYQ VVGEKRCP-I LDTWWQTET-
+ACS2_PSEPK PLQSTSRKSL RLLGSVGEPI NPEAWEWYFE EVGQKRCP-I VDTWWQTET-
+ACSA_PRB01 PVKKTKRDSL RILGTVGEPI NPEAWDWYYS VVGKSNCE-V IDTWWQTET-
+ACSA_LEPIN HIQKRDLSSL RLLGSVGEPI NPEAWEWYFK NIGKGKCP-I VDTWWQTET-
+ACSA_DROME PVLKHNLSGL KVLGSVGEPI NPEAWLWYYK YIGKEQCS-I VDTFWQTET-
+ACSA_HUMAN PVTKHSRASL QVLGTVGEPI NPEAWLWYHR VVGAQRCP-I VDTFWQTET-
+ACSA_PHYBL WLDNIDMSSL RVLGSVGEPI NREAWDWYNE KVGKGRCA-V VDTYWQTET-
+ACSA_COPCI HVNKHDLSSL RVLGSVGEPI NPEAWHWYNE HVGKTECA-I VDTFWQTET-
+ACSA_EMENI HI-HHKMEHL RVLGSVGEPI AAEVWKWYFE KVGKEEAH-I CDTYWQTET-
+ACSA_NEUCR HV-RNEMKHL RVLGSVGEPS AAEVWKWYYD VVGKAAAQ-I CDTYWQTET-
+ACS2_KLULA EIAKYDTSSL RVLGSVGEPI SPDLWEWYHE KVGKNNCV-I CDTMWQTES-
+ACSA_CANAL YVEKYDLSSL RVLGSVGEPI AAEVWHWYND NIGRGQAH-I VDTYWQTES-
+ACS1_YEAST YIENHSLKSL RCLGSVGEPI AAEVWEWYSE KIGKNEIP-I VDTYWQTES-
+ACS1_KLULA FTEGFSLKSL RSLGSVGEPI AAEVWEWYSE KIGKNELP-I VDTYWQTES-
+ACSA_SCHPO FV-KHDRSSL RVLGSVGEPI APESFMWYYE VVGEKRCA-V ADTYWQTET-
+ACSA_CRYPV FVKKHDRSSL RVLGSVGEPI NPSAWRWYHS VVGEERCS-I VDTYWQTET-
+AC2L_HUMAN WVKKYDRSSL RTLGSVGEPI NCEAWEWLHR VVGDSRCT-L VDTWWQTET-
+YZ68_PSEAE RVKRYDLGSL RHLFLAGEKL DSSTQHWLEE HTG---RP-V HDHWWQTET-
+PRPE_ECOLI EIRKHDLSSL EVLYLAGEPL DEPTASWVSN TLD---VP-V IDNYWQTES-
+ENTF_ECO57 QTARQNCATL KQVFCSGEAL PADLCREWQQ LTG---AP-L HNLYGPTEA-
+
+           901                                                950
+1amu_A     -TICAT--TW VA--TK--ET IGHS----VP I-GAPIQNTQ IYIVD--ENL
+DLTA_BACSU -TVAVT--SV EI--TN--DV ISRSES--LP V-GFAKPDMN IFIMD--EEG
+DLTA_STRA5 -TVALS--AV AI--TD--EM LETCKR--LP I-GYTKDDSP TYVID--EEG
+1lci_      SAILIT--P- ----EG---- -PGAVGKVVP FF-------E AKVVDL-DTG
+LUCI_LUCCR SAIIIT--P- ----EG--DD KPGASGKVVP LF-------K AKVIDL-DTK
+LUCI_PHOPE SAVLIT--P- ----DT--DV RPGSTGKIVP FH-------A VKVVDP-TTG
+ACSA_PYRAE GGIVIS--HA PGLYLV--PM KPGTNG--PP LPGF-----E VDVVD--ENG
+ACSA_METSO GTFLNS--PL P---IT--PL KPGSCT--FP LPGY-----D ISILD--EEG
+ACSA_SYNEL GGHMIT--SL PG--AL--PM KPGSAS--KP FPGI-----L ADVVD--LEG
+ACSA_SYNY3 GGIMLT--PL PG--AI--PT KPGSCT--KP FPGI-----V AEIVD--LDG
+ACSA_RHOBA GGIMMS--PL PG--IT--PT KPGSCT--RP LPGV-----V PSIVD--ELG
+ACSA_CHLTE GGIMIS--PM PG--AT--PT KPGTAT--RP LPGI-----M VDVVR--KDG
+ACSA_DEIRA GSIMLT--TL PG--AF--PS KPGSAG--LP MFGV-----E PALMT--RDG
+ACSA_STRAW GAMMIS--PL PG--VT--ET KPGSAQ--RP LPGI-----S ATVVD--DEA
+ACSA_MYCBO GSAMIS--PL PG--IA--AA KPGSAM--TP LPGI-----S AKIVD--DHG
+ACSA_CAMJE GGHMIT--PL PG--AT--PL KPGCAT--LP LPGI-----F AEVID--EEG
+ACSA_HELPY GGHIIS--PL PG--AT--PI RASCAT--LP LPGI-----H AEVLN--EDG
+ACSA_PASMU GSIMLA--PI PG--VT--AT KPGSCT--LP LPGI-----M AEVLD--ENG
+ACSA_NITEU GCHMIA--PA PG--AI--ST KPGSCT--LP LPGI-----D AAVVD--ETG
+ACSA_ALCEU GGHMIT--PL PG--AT--PL VPGSCT--LP LPGI-----M AAIVD--ETG
+1pg3_A     GGFMIT--PL PG--AI--EL KAGSAT--RP FFGV-----Q PALVD--NEG
+ACSA_VIBCH GGILIT--PL PG--AT--AL KPGSAT--RP FFGV-----Q PALVD--NMG
+ACSA_SHEON GGILIT--PL PG--AT--DT KPGSAT--RP FFGV-----Q PALVD--NMG
+ACS1_PSEAE GACLMT--PL PG--AH--AM KPGSAA--KP FFGV-----V PALVD--NLG
+ACSA_BRAJA GGILIT--PL PG--AT--KL KPGSAT--QP FFGV-----V PEIVD--ADG
+ACS2_RHIME GGILIT--PL PG--AT--DL KPGSAT--RP FFGV-----Q PQIVD--SDG
+ACSA_RHOCA GGHMIT--PL PG--AT--PT KPGSAT--NP FFGV-----K PVVLDPQTAV
+ACSA_XANAC GGILIS--PL AG--AV--DL KPGSAT--LP FFGV-----Q PALVD--AEG
+ACSA_XYLFA GGILIT--PL IG--AT--DL KPGSVT--LP FFGI-----R PALVD--TNG
+ACSA_CAUCR GGMLIT--PL PG--AT--AL KPGSAS--KP LPGV-----K PQLVD--AEG
+ACS2_PSEAE GSILIT--PL PG--AT--AL KPGSAT--RP FFGV-----Q PVLLD--EKG
+ACS2_PSEPK GGIMLT--PL PG--TQ--SL KPGCAT--QP MFGV-----Q PVLLD--EKG
+ACSA_PRB01 GSVLIS--PI AG--IT--PT KPGSAT--LP FFGV-----K PSLYD--EHG
+ACSA_LEPIN GSIMIT--AL PG--AI--PQ KPGSAT--LP FFGV-----Q PVLVD--NDG
+ACSA_DROME GGHVIT--PL PG--AT--PM KPGSAS--FP FFGV-----K PTLLD--ECG
+ACSA_HUMAN GGHMLT--PL PG--AT--PM KPGSAT--FP FFGV-----A PAILN--ESG
+ACSA_PHYBL GSIIVS--PL PG--AT--PT KPGSAT--LP FFGI-----D PVLLDP-TTG
+ACSA_COPCI GSIVVT--PF PG--AI--ET KPGAAT--VP FFGI-----E PAILEP-TTG
+ACSA_EMENI GSNVIT--PL AG--VT--PT KPGSAS--LP FFGI-----E PAIIDP-VSG
+ACSA_NEUCR GSNVIT--PL AG--VT--PT KPGSAS--FP FFGI-----E PALVDP-VTG
+ACS2_KLULA GSHLIA--PL AG--AV--PT KPGSAT--VP FFGI-----N ACIIDP-VSG
+ACSA_CANAL GSHLLT--PL AG--IT--PT KPGSAS--LP FFGV-----D PKILDP-TTG
+ACS1_YEAST GSHLVT--PL AGG-VT--PM KPGSAS--FP FFGI-----D AVVLDP-NTG
+ACS1_KLULA GSHLVT--PL AGG-AT--PM KPGAAA--FP FFGI-----D LAVLDP-TTG
+ACSA_SCHPO GSHIVT--SL GP--VT--PM KPGSAT--LP FFGI-----D AVIIDP-LTG
+ACSA_CRYPV GGIVIA--PI PG--CF--DT KPGSAT--FP FFGI-----E PAILDP-DTG
+AC2L_HUMAN GGICIA--PR PSEEGA--EI LPAMAM--RP FFGI-----V PVLMD--EKG
+YZ68_PSEAE GWPVTA--PC IG--IAGHDL RAGSTN--RA VPGY-----H VQVLD--DEG
+PRPE_ECOLI GWPIMA--IA RG--LDDRPT RLGSPG--VP MYGY-----N VQLLNE-VTG
+ENTF_ECO57 -AVDVSWYPA FGEELA--QV RGSSVPIGYP VWNT-----G LRILD--AMM
+
+           951                                               1000
+1amu_A     QLK--SVGE- A-----GELC IGG---EGLA RGYWKRPELT SQKFV-DNPF
+DLTA_BACSU QPL--PEGE- K-----GEIV IAG---PSVS RGYLGEPELT EKAFF-S---
+DLTA_STRA5 HKL--PNGE- Q-----GEII IAG---PAVS KGYLNNPEKT AEAFF-Q---
+1lci_      KTL--GVNQ- R-----GELC VRG---PMIM SGYVNNPEA- TNALI-DK--
+LUCI_LUCCR KSL--GPNR- R-----GEVC VKG---PMLM KGYVNNPEA- TKELI-DE--
+LUCI_PHOPE KIL--GPNE- T-----GELY FKG---DMIM KSYYNNEEA- TKAII-NK--
+ACSA_PYRAE NPA--PPGV- K-----GYLV IKKPW-PGML HGIWGDPERY IKTYW-SR--
+ACSA_METSO NEV--PLGS- G-----GNIV ALKPY-PSML RAFWGDKERF MKEYW-QF--
+ACSA_SYNEL NPV--GVNE- G-----GYLV IRHPW-PGMM RTVYGDPDRF RRTYW-EH--
+ACSA_SYNY3 NPV--ESDQ- G-----GFLV IKQPW-PSMI RDVYGDTDRF RHTYW-EH--
+ACSA_RHOBA NSV--DSEH- G-----GKLC ISQPW-PGML RGIYGDEERF VEQYW-SD--
+ACSA_CHLTE TPC--NANE- G-----GYLV VKRPW-PSML RTIYGDNERY EKTYW-SE--
+ACSA_DEIRA EEI--GDDD- G-----GLLV IKRPW-PSML RTVYGDDERY RKSYW-GE--
+ACSA_STRAW REV--PNGG- G-----GYLV LTEPW-PSML RTIWGDDQRF LDTYW-SR--
+ACSA_MYCBO DPL--PPHTE GAQHVTGYLV LDQPW-PSML RGIWGDPARY WHSYW-SK--
+ACSA_CAMJE NKK--DEGE- D-----GLLC ITKPW-PSMI RGIWGNDERY IESYF-SQ--
+ACSA_HELPY TKT--KPGE- Q-----GFLC ITKPW-PSMI RNIWGDEKRY IDSYF-SQ--
+ACSA_PASMU QKC--AVEQ- G-----GALA IKRPF-PSML RTIWNDPERY KSTYFPAE--
+ACSA_NITEU HPV--EQGK- G-----GFLV IKRPF-PSML RTLWNDPERF RKTYFPTD--
+ACSA_ALCEU HDV--PNGN- G-----GILV VKRPW-PAMI RTIWGDPERF RKSYFPEE--
+1pg3_A     HPQ--EGAT- E-----GNLV ITDSW-PGQA RTLFGDHERF EQTYF-ST--
+ACSA_VIBCH EIV--EGAT- E-----GNLV LLDSW-PGQM RTVYGDHDRF EQTYF-ST--
+ACSA_SHEON NIL--EGAT- E-----GNLV LLDSW-PGQM RTVYGDHERF VLTYF-KT--
+ACS1_PSEAE NLI--EGAA- E-----GNLV ILDSW-PGQA RTLFGDHDRF VDTYF-KT--
+ACSA_BRAJA KVL--EGET- T-----GNLC LTRAW-PGMM RTVYGDHARF EQTYF-ST--
+ACS2_RHIME KVV--DGAA- D-----GNLC ITDSW-PGQM RTVYGDHERF IQTYF-ST--
+ACSA_RHOCA RIG--EVEC- E-----GVLC ISDSW-PGQM RTVWGDHDRF QETYF-GQ--
+ACSA_XANAC KIL--EGAT- E-----GNLV LLDSW-PGQM RSVYGDHQRF IDTYF-RT--
+ACSA_XYLFA QIL--DGPA- A-----GNLV LLDSW-PGQM RTVYGDHQRF IDTYF-RT--
+ACSA_CAUCR KFL--DGAT- E-----GNLV ITDSW-PGQM RTVYGDHQRF FETYF-ST--
+ACS2_PSEAE KEI--DGAG- S-----GVLA IKASW-PSQI RSVYGDHQRM IDTYF-KP--
+ACS2_PSEPK KLI--EGPG- A-----GVLA IKASW-PGQI RSVYGDHQRM VDTYF-KP--
+ACSA_PRB01 NTL--EGSN- A-----GNLV IEQSW-PSQI RSIYGDHQRM IDTYF-GM--
+ACSA_LEPIN KEITDKGEV- S-----GNLC IKGPW-PSMM RGVYGDPKRF FETYF-SQ--
+ACSA_DROME IEI--KGEG- E-----GYLV FSQPW-PGMM RTLYNNHERF EDTYF-SK--
+ACSA_HUMAN EEL--EGEA- E-----GYLV FKQPW-PGIM RTVYGNHERF ETTYF-KK--
+ACSA_PHYBL KEL--TATGQ T-----GVLA IRKPR-PSMA RSVYNNHSRF VETYL-KP--
+ACSA_COPCI KVL--EGNDV E-----GVLT IAHPW-PSIA RTIYGDHQRY LETYM-KP--
+ACSA_EMENI EEI--SGNDV E-----GVLA FKQPW-PSMA RTVWGAHKRY MDTYL-QV--
+ACSA_NEUCR EEI--RGNDV E-----GVLA FKQPW-PSMA RTVWGAHKRY METYL-HV--
+ACS2_KLULA EEL--KGNDV E-----GVLA VKSPW-PSMD RSVWNNHARY FETYL-KP--
+ACSA_CANAL EEL--PDNDV E-----GVLA IKSAW-PSIT RGIYNDYNRF IDTYL-AP--
+ACS1_YEAST EEL--NTSHA E-----GVLA VKAAW-PSFA RTIWKNHDRY LDTYL-NP--
+ACS1_KLULA IEQ--TGEHA E-----GVLA IKRPW-PSFA RTIWKNNDRF LDTYL-KP--
+ACSA_SCHPO KII--EGNDV E-----GVLA IRSPW-PSAA RTVWRGHDRY IDTYL-KP--
+ACSA_CRYPV KEI--DGPG- S-----GVLC IKNSW-PGMF RGIFGAHYLH -EIYT-KP--
+AC2L_HUMAN SVV--EGSNV S-----GALC ISQAW-PGMA RTIYGDHQRF VDAYF-KA--
+YZ68_PSEAE RPL--GANR- Q-----GAIV IALPLPPGCA QTLWGDHPRY LQAYL-GN--
+PRPE_ECOLI EPC--GVNE- K-----GMLV VEGPLPPGCI QTIWGDDGRF VKTYW-SL--
+ENTF_ECO57 HPV--PPGV- A-----GDLY LTG---IQLA QGYLGRPDLT ASRFI-ADPF
+
+           1001                                              1050
+1amu_A     V---PGEK-- -LYKTGDQAR WLSD-GNIEY LGRIDNQVKI RGHRVELEEV
+DLTA_BACSU H---EGQW-- -AYRTGD-AG FIQD-GQIFC QGRLDFQIKL HGYRMELEEI
+DLTA_STRA5 F---EGLP-- -AYHTGDLGS MTDE-GLLLY GGRMDFQIKF NGYRIELEDV
+1lci_      ----DG---- -WLHSGDIAY WDED-EHFFI V-----LIKY KGYQVAPAEL
+LUCI_LUCCR ----EG---- -WLHTGDIGY YDEE-KHFFI VDRLKSLIKY KGYQVPPAEL
+LUCI_PHOPE ----DG---- -WLRSGDIAY YDND-GHFYI VDRLKSLIKY KGYQVAPAEI
+ACSA_PYRAE F---PG---- -MFYAGDYAI KDKD-GYIWV LGRADEVIKV AGHRLGTYEL
+ACSA_METSO YWDVPGRRG- -VYLAGDKAQ RDKD-GYFFI QGRIDDVLSV AGHRIANAEV
+ACSA_SYNEL I---PPRDGQ YFYFAGDGAR RDED-GYFWV MGRVDDVINV SGHRLGTMEI
+ACSA_SYNY3 I---QPKEGQ YLYFAGDGAR RDKD-GYFWV MGRVDDVINV SGHRLGTMEI
+ACSA_RHOBA V---PD---- -KYLTGDNAR CDTD-GYYWI MGRIDDVINV SGHRLSTIEV
+ACSA_CHLTE F---PG---- -MYFTGDGAR KDDD-GYIWI MGRVDDVVNV SGHRLGTSEV
+ACSA_DEIRA I---PH---- -VYFAGDGAR RDHD-GYYTI VGRVDDVLNV SGHRLGTMEI
+ACSA_STRAW F---EG---- -KYFAGDGAK KDED-GDIWL LGRVDDVMLV SGHNISTTEV
+ACSA_MYCBO F---SDKG-- -YYFAGDGAR IDPD-GAIWV LGRIDDVMNV SGHRISTAEV
+ACSA_CAMJE AKK-DGKA-- -VYFSGDGAF YDKN-GYITI TGRTDDVVNV AGHRIGTAEI
+ACSA_HELPY IKL-NGEY-- -VYLSGDGAI VDEN-GYITI IGRTDDIVNV SGHRIGTAEV
+ACSA_PASMU Y---GGK--- -YYIAGDNAH RDKD-GYFWI LGRTDDVLNV SGHRLGTMEI
+ACSA_NITEU I---AGGR-- -YYLAGDSAH RDQD-GYFWI MGRVDDVLNV SGHRLGTMEI
+ACSA_ALCEU L---GGK--- -LYLAGDGSI RDKDTGYFTI MGRIDDVLNV SGHRMGTMEI
+1pg3_A     F---KN---- -MYFSGDGAR RDED-GYYWI TGRVDDVLNV SGHRLGTAEI
+ACSA_VIBCH F---KG---- -MYFTGDGAR RDED-GYYWI TGRVDDVLNV SGHRMGTAEI
+ACSA_SHEON F---RG---- -MYFTGDGAR RDED-GYYWI TGRVDDVINV SGHRLGTAEV
+ACS1_PSEAE F---KG---- -MYFTGDGAR RDED-GYYWI TGRVDDVLNV SGHRMGTAEV
+ACSA_BRAJA Y---KG---- -KYFTGDGCR RDAD-GYYWI TGRVDDVINV SGHRMGTAEV
+ACS2_RHIME Y---KG---- -KYFTGDGCR RDED-GYYWI TGRVDDVLNV SGHRLGTAEV
+ACSA_RHOCA Y---RG---- -YYFTGDGCR RDKD-GYYWI TGRVDDVINV SGHRMGTAEV
+ACSA_XANAC Y---PG---- -SYFTGDGCR RDAD-GYYWI TGRVDDVINV SGHRIGTAEV
+ACSA_XYLFA Y---PN---- -TYFTGDGCR RDAD-GYYWI TGRVDDVINI SGHRIGTAEI
+ACSA_CAUCR Y---PG---- -KYFTGDGCR RDAD-GYYWI TGRVDDVINV SGHRLGTAEI
+ACS2_PSEAE Y---PG---- -YYFSGDGAR RDED-GYYWI TGRVDDVINV SGHRIGTAEV
+ACS2_PSEPK L---PG---- -YYFTGDGAR RDAD-GDYWI TGRIDDVINV SGHRIGTAEV
+ACSA_PRB01 Y---KD---- -IYFTGDGAR RDED-GYFWI TGRVDDVLNV SGHRLGTAEI
+ACSA_LEPIN F---KG---- -YYFTGDGAR RDKD-GYFWI TGRVDDVINV SGHRIGSAEV
+ACSA_DROME F---PG---- -YYCTGDGAR RDAD-GYLWI TGRVDDMLNV SGHLMSTAEV
+ACSA_HUMAN F---PG---- -YYVTGDGCQ RDQD-GYYWI TGRIDDMLNV SGHLLSTAEV
+ACSA_PHYBL Y---PG---- -YYFTGDGAL RDDD-GYIWI RGRVDDVINV SGHRLSTSEI
+ACSA_COPCI Y---PG---- -YFYTGDGAA RDED-GYIWI KGRVDDVINV SGHRLSTAEI
+ACSA_EMENI Y---KG---- -YYFTGDGAG RDHE-GYYWI RGRVDDVVNV SGHRLSTAEI
+ACSA_NEUCR Y---KG---- -YYFTGDGAA RDHE-GFYWI RGRVDRV-NV SGHRLSTAEI
+ACS2_KLULA Y---PG---- -YYFTGDGAG RDHD-GYYWI RGRVDDVVNV SGHRLSTAEI
+ACSA_CANAL Y---AN---- -YYFSGDGAA RDRD-GFYWI LGRVDDVVNV SGHRLSTAEI
+ACS1_YEAST Y---PG---- -YYFTGDGAA KDKD-GYIWI LGRVDDVVNV SGHRLSTAEI
+ACS1_KLULA Y---PG---- -YYFTGDGVA RDKD-GFFWI LGRVDDVVNV SGHRLSTAEI
+ACSA_SCHPO Y---PG---- -FYFTGDGAT RDKD-GYIWI RGRVDDVVNI SGHRLSTAEI
+ACSA_CRYPV F---PK---- -YYFTGDGVL RDQD-GYLWI TGRIDDTINV SGHRLSSKEI
+AC2L_HUMAN Y---PG---- -YYFTGDGAY RTEG-GYYQI TGRMDDVINI SGHRLGTAEI
+YZ68_PSEAE Y---PG---- -YYHTGDGGY LDED-GFVYI MGRTDDVINV SGHRLSTGEM
+PRPE_ECOLI F---SRP--- -VYATFDWGI RDAD-GYHFI LGRTDDVINV AGHRLGTREI
+ENTF_ECO57 V---PGER-- -MYRTGDVAR WLDN-GAVEY LGRSDDQLKI RGQRIELGEI
+
+           1051                                              1100
+1amu_A     ESILLK---- HMYISET-AV S-VHKDHQEQ PY--LCAYFV SEKHIPLE--
+DLTA_BACSU EFHVRQ---- SQYVRSAVVI P-YQPNGTVE -Y--LIAAIV PEEH---E--
+DLTA_STRA5 SQNLNK---- SQYVKSAVAV PRYNKDHKVQ -N--LLAYIV LKEGVRDD--
+1lci_      ESILLQ---- HPNIFDAGVA G-LPDDDAGE -L--PAAVVV LEHGKTMT--
+LUCI_LUCCR ESVLLQ---- HPSIFDAGVA G-VPDPVAGE -L--PGAVVV LESGKNMT--
+LUCI_PHOPE EGILLQ---- HPYIVDAGVT G-IPDEAAGE -L--PAAGVV VQTGKYLN--
+ACSA_PYRAE ESALIS---- HPAVAESAVV G-VPDAIKGE -V--PIAFVV LKQGVAPS--
+ACSA_METSO ESALVA---- HPKIAEAAVV G-KPDEVKGE -S--IVAFVI LRVGNEPS--
+ACSA_SYNEL ESALVS---- HPAVAEAAVV G-KPDEVKGE -E--IVAFVI LEGSATPS--
+ACSA_SYNY3 ESALVS---- HPLVAEAAVV G-RPDELTGE -A--IFAFVS LEGNAEPS--
+ACSA_RHOBA ESALVS---- HPDVCEAAVV G-RPHDLKGQ -A--IAAFVT SNDRGH-D--
+ACSA_CHLTE ESALVS---- HEAVAEAAVV S-RPDEIKGN -A--LVAFVT LKDGYEGD--
+ACSA_DEIRA ESALVA---- HPDVSEAAVV G-RPDPVKGE -S--VVAYVL LQDGHTAD--
+ACSA_STRAW ESALVS---- HPSVAEAAVV G-AADETTGQ -A--IVAFVI LRGTANAE--
+ACSA_MYCBO ESALVA---- HSGVAEAAVV G-VTDETTTQ -A--ICAFVV LRANYAPH--
+ACSA_CAMJE ESAIAK---- HPSVAESAVV S-ILDTIKGE -S--LFAFVV LSPASSCD--
+ACSA_HELPY ESAISK---- HEMVAECAVV G-IPDAIKGE -G--LFAFVV LCDGAKCN--
+ACSA_PASMU ESALVA---- SPKVAEAAVV G-KPDEIKGE -A--IVAFVV LNDFRPEG--
+ACSA_NITEU ESALVA---- HPLVAEAAVV G-KPHEIKGE -V--VVAFVT LREKLPDD--
+ACSA_ALCEU ESALVS---- NPLVAEAAVV G-RPDDMTGE -A--ICAFVV LKRSRPTG--
+1pg3_A     ESALVA---- HPKIAEAAVV G-IPHAIKGQ -A--IYAYVT LNHGEEPS--
+ACSA_VIBCH ESALVA---- FNKIAEAAVV G-VPHDIKGQ -A--IYAYIT LNDGVYPS--
+ACSA_SHEON ESALVS---- HELVAEAAVV G-YPHDIKGQ -G--IYAYVT LTRGTEES--
+ACS1_PSEAE ESAMVA---- HPKVAEAAVV G-MQHDIKGQ -G--IYVYVT LNSGVEPS--
+ACSA_BRAJA ESALVA---- HEKVSEAAVV G-FPHDIKGQ -G--IYAYVT LMAGVQPT--
+ACS2_RHIME ESALVS---- HNLVSEAAVV G-YPHPIKGQ -G--IYCYVS LMAGEVGD--
+ACSA_RHOCA ESALVA---- HPQVAEAAVV G-YPHDIKGQ -G--IYAYVT LMNGIEPS--
+ACSA_XANAC ESALVS---- HPKVAEAAVV G-FPHDVKGQ -G--IYAYVT LIAGQTPS--
+ACSA_XYLFA ESTLVA---- HPKVAEAAVV G-FPHPIKGQ -G--IYAYVT LITGETPS--
+ACSA_CAUCR ESALVA---- HETVAEAAVV G-YPHDIKGQ -G--VYAYVT LKAGIEAT--
+ACS2_PSEAE ESALVL---- HDAVAEAAVV G-CPHDVKGQ -A--IYAFVT LMAGSQPS--
+ACS2_PSEPK ESALVL---- HDSVAEAAVV G-YPHDLKGQ -G--VYAFVT TMNGVTPD--
+ACSA_PRB01 ESALVL---- HPKIAEAAVV G-FDHPIKGQ -G--IYAFVT LMINESFD--
+ACSA_LEPIN ESALVE---- NKSVAEAAVV G-FPHDIKGQ -G--IYAYVT VKEGVTTN--
+ACSA_DROME ESVLTE---- HPRVAESAVV S-RPHPVKGE -C--LYCFIT PNENEVFD--
+ACSA_HUMAN ESALVE---- HEAVAEAAVV G-HPHPVKGE -C--LYCFVT LCDGHTFS--
+ACSA_PHYBL ESALVN---- HEAVAESAVV G-AHDDLTGQ -C--IHAFVS LKPHIQIA--
+ACSA_COPCI ESALIT---- HTGVAETAVI G-TADELTGQ -A--VYAFVT LKPEFKFD--
+ACSA_EMENI EAALIE---- HPMVAEAAVV G-IADELTGQ -A--VNAFVS LKEGNETN--
+ACSA_NEUCR EAALIE---- HHSIAEAAVV G-VADELTGQ -A--VNAFVA VKEGTQIN--
+ACS2_KLULA EAALAE---- HEGVSEAAVV G-ITDELTGQ -A--VIAFVS LKDGYLSENA
+ACSA_CANAL EAALIE---- HPIVGESAVV G-YADELTGQ -A--VAAYVS LKKDKAVG--
+ACS1_YEAST EAAIIE---- DPIVAECAVV G-FNDDLTGQ -A--VAAFVV LKNKSSWSTA
+ACS1_KLULA EAAIIE---- DDMVAECAVV G-FNDELTGQ -A--VAAFVV LKNKSSLTAA
+ACSA_SCHPO EAALLS---- HDAVAESAVV G-VHDELTGQ -A--VNAFIL LKPGYEAT--
+ACSA_CRYPV EDALTN---- HFGIAEAAAV A-IDHDVKGN -A--LVCFVV LKDSGNRT--
+AC2L_HUMAN EDAIAD---- HPAVPESAVI G-YPHDIKGE -A--AFAFIV VKDSAGDS--
+YZ68_PSEAE EERVAQ---- HQAVAECAVI G-VRDELKGH -V--PLGLVV LKDDAGIA--
+PRPE_ECOLI EESISS---- HPGVAEVAVV G-VKDALKGQ -V--AVAFVI PKESDSLE--
+ENTF_ECO57 DRVMQALPDV EQAVTHACVI N-QAAATGGD -ARQLVGYLV SQSGLPLD--
+
+           1101                                              1150
+1amu_A     ---------- ---------- -------QL- RQFSSEELPT ----YMIPSY
+DLTA_BACSU ---------- F----EKEF- -------QL- TSAIKKELAA SLPAYMIPRK
+DLTA_STRA5 ---------- F----ERDL- -------DL- TKAIKEDLKD IMMDYMMPSK
+1lci_      ---------- E-------K- -------EI- VDYVASQVTT ----AKKLRG
+LUCI_LUCCR ---------- E-------K- -------EV- MDYVASQVSN ----AKRLRG
+LUCI_PHOPE ---------- E-------Q- -------IV- QNFVSSQVST ----AKWLRG
+ACSA_PYRAE ---------- D----ELRK- -------EL- REHVRRTIGP ----IAEPAQ
+ACSA_METSO ---------- P----ELAK- -------DA- IAFVRKTLGP ----VAAPTE
+ACSA_SYNEL ---------- D----ALQQ- -------EL- KQHVVNEIGA ----LARPAE
+ACSA_SYNY3 ---------- E----ELKK- -------DL- VKHVTEEIGA ----IARPAE
+ACSA_RHOBA ---------- D----EFRN- -------EL- KQHVRKQIGA ----LAQPDD
+ACSA_CHLTE ---------- A----KLRD- -------SL- GKHVAKEIGA ----IAKPDE
+ACSA_DEIRA ---------- P-------A- -------AL- RAHVSSEIGA ----LARPDA
+ACSA_STRAW ---------- D---DNLVA- -------DL- RNHVGTTLGP ----IAKPKR
+ACSA_MYCBO ---------- D----RTAE- -------EL- RTEVARVISP ----IARPRD
+ACSA_CAMJE ---------- LGGAIETLK- -------EL- NDILRVEIGP ----IAKIEK
+ACSA_HELPY ---------- LGESLELLK- -------EM- NHILSIEIGK ----IAKLDN
+ACSA_PASMU ---------- E-EARQLAE- -------EL- KAWVSNEIGK ----IARPED
+ACSA_NITEU ---------- Q-RAAEIAA- -------TL- REWVASEIGA ----IARPEE
+ACSA_ALCEU ---------- E-EAVKIAT- -------EL- RNWVGKEIGP ----IAKPKD
+1pg3_A     ---------- P----ELYA- -------EV- RNWVRKEIGP ----LATPDV
+ACSA_VIBCH ---------- A----ELHK- -------EV- KDWVRKEIGA ----IATPDV
+ACSA_SHEON ---------- E----ELRQ- -------EL- RQWVRKEIGA ----LATPDL
+ACS1_PSEAE ---------- E----ALRQ- -------EL- KQWVRREIGP ----IATPDV
+ACSA_BRAJA ---------- E----DLRK- -------EL- VTWVRKEIGP ----IASPDQ
+ACS2_RHIME ---------- D----ELRQ- -------AL- VKHVRSEIGP ----IATPDK
+ACSA_RHOCA ---------- E----DLRK- -------DL- VKWVRTEIGP ----IASPDL
+ACSA_XANAC ---------- E----DLHK- -------EL- VSWVRKEIGP ----IASPDH
+ACSA_XYLFA ---------- E----ALHQ- -------EL- LTWVRKEIGA ----IATPDH
+ACSA_CAUCR ---------- D----ALRK- -------DL- VLWVRHEIGP ----FAAPDV
+ACS2_PSEAE ---------- E----ALQQ- -------EL- LALVGKEIGS ----FAKPDH
+ACS2_PSEPK ---------- D----TLKA- -------EL- LALVSKEIGS ----FAKPEL
+ACSA_PRB01 ---------- D----NFSY- -------EL- KQFVAKEIGA ----IAKPDL
+ACSA_LEPIN ---------- D----VLKK- -------EL- ISTVEKMIGK ----IARPDV
+ACSA_DROME ---------- Q----KLIS- -------DL- KKMVRERIGP ----FAMPDV
+ACSA_HUMAN ---------- P----KLTE- -------EL- KKQIREKIGP ----IATPDY
+ACSA_PHYBL ---------- D----GLEK- -------VL- TLQVRKTIGP ----FAAPRR
+ACSA_COPCI AENE------ A----GLSK- -------EL- ILQVRKIIGP ----FAAPKR
+ACSA_EMENI ---------- D----QVRK- -------DL- ILQVRKSIGP ----FAAPKA
+ACSA_NEUCR ---------- D----ALRK- -------ESP SLQVRRSIGP ----FAAPKA
+ACS2_KLULA VEGDSTHISP D----NLRR- -------EL- ILQVRGEIGP ----FAAPKT
+ACSA_CANAL --EDV----- E----NIKK- -------EM- ILTVRKEIGP ----FAAPKM
+ACS1_YEAST TDDEL----- Q----DIKK- -------HL- VFTVRKDIGP ----FAAPKL
+ACS1_KLULA SESEL----- Q----DIKK- -------HL- IITVRKDIGP ----FAAPKL
+ACSA_SCHPO ---------- V----ELEK- -------EL- IMAVRSTIGP ----FASPRK
+ACSA_CRYPV ---------- F----DLNNS SPHPFEYEL- RMCVRTQIGP ----VATPDH
+AC2L_HUMAN ---------- D----VVVQ- -------EL- KSMVATKIAK ----YAVPDE
+YZ68_PSEAE ----A----- E----QLQR- -------EL- VALVREQIGA ----LACFQR
+PRPE_ECOLI DRDVA----- H----SQEK- -------AI- MALVDSQIGN ----FGRPAH
+ENTF_ECO57 ---------- T-------S- -------AL- QAQLRETLPP ----HMAPVV
+
+           1151                                              1200
+1amu_A     -FIQLDKMPL TSNGKIDRK- ---------- ---------- ----------
+DLTA_BACSU -FIYQDHIQM TANGKIDRK- ---------- ---------- ----------
+DLTA_STRA5 -FIYREDLPL TPNGKIDIK- ---------- ---------- ----------
+1lci_      GVVFVDEVP- ----KLDAR- ---------- ---------- ----------
+LUCI_LUCCR GVRFVDEVPK GLTGKIDGR- ---------- ---------- ----------
+LUCI_PHOPE GVKFLDEIPK GSTGKIDRK- ---------- ---------- ----------
+ACSA_PYRAE -IFFVTKLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_METSO -VHFVNDLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_SYNEL -IRFTDALPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_SYNY3 -IRFTDVLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_RHOBA -IRFTAALPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_CHLTE -IRWAKGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_DEIRA -IYIADALPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_STRAW -ILPVAELPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_MYCBO -VHVVPELPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_CAMJE -ILYTPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_HELPY -VMYVPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_PASMU -IRFADNLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_NITEU -IRFGENLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_ALCEU -IRFGDNLPK TRSGKIMRR- ---------- ---------- ----------
+1pg3_A     -LHWTDSLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_VIBCH -LHWTDALPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_SHEON -IQWATGLPK TRSGKIMRR- ---------- ---------- ----------
+ACS1_PSEAE -IQWAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_BRAJA -IQFAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACS2_RHIME -IQFAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_RHOCA -IQWAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_XANAC -LQWAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_XYLFA -VQWAPNLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_CAUCR -IQWAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACS2_PSEAE -LQWAPSLPK TRSGKIMRR- ---------- ---------- ----------
+ACS2_PSEPK -IQWAPALPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_PRB01 -IQNAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_LEPIN -IHWAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_DROME -IQNAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_HUMAN -IQNAPGLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_PHYBL -IYIVSDHPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_COPCI -IYIVSDLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_EMENI -VFVVDDLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_NEUCR -IYIVPDLPK TLSGKIMRR- ---------- ---------- ----------
+ACS2_KLULA -VVVVNDLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_CANAL -ILLVDDLPK TRSGKIMRR- ---------- ---------- ----------
+ACS1_YEAST -IILVDDLPK TRSGKIMRR- ---------- ---------- ----------
+ACS1_KLULA -IVLVDDLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_SCHPO -LIF-SDLPK TRSGKIMRR- ---------- ---------- ----------
+ACSA_CRYPV -IIVVENIPK TRSGKVVRR- ---------- ---------- ----------
+AC2L_HUMAN -ILVVKRLPK TRSGKVMRR- ---------- ---------- ----------
+YZ68_PSEAE -VVVVKRLPK TRSGKILRA- ---------- ---------- ----------
+PRPE_ECOLI -VWFVSQLPK TRSGKMLRR- ---------- ---------- ----------
+ENTF_ECO57 -LLQLPQLPL SANGKLDRKA LPLPELKAQT PGRAPKAGSE TIIAAAFASL
+
+           1201                                              1250
+1amu_A     ---------- ---------- ---------- ---------- ----------
+DLTA_BACSU ---------- ---------- ---------- ---------- ----------
+DLTA_STRA5 ---------- ---------- ---------- ---------- ----------
+1lci_      ---------- ---------- ---------- ---------- ---------K
+LUCI_LUCCR ---------- ---------- ---------- ---------- ---------A
+LUCI_PHOPE ---------- ---------- ---------- ---------- ---------V
+ACSA_PYRAE ---------- ---------- ---------- ---------- ---------L
+ACSA_METSO ---------- ---------- ---------- ---------- ---------V
+ACSA_SYNEL ---------- ---------- ---------- ---------- ---------L
+ACSA_SYNY3 ---------- ---------- ---------- ---------- ---------L
+ACSA_RHOBA ---------- ---------- ---------- ---------- ---------L
+ACSA_CHLTE ---------- ---------- ---------- ---------- ---------L
+ACSA_DEIRA ---------- ---------- ---------- ---------- ---------F
+ACSA_STRAW ---------- ---------- ---------- ---------- ---------L
+ACSA_MYCBO ---------- ---------- ---------- ---------- ---------L
+ACSA_CAMJE ---------- ---------- ---------- ---------- ---------I
+ACSA_HELPY ---------- ---------- ---------- ---------- ---------L
+ACSA_PASMU ---------- ---------- ---------- ---------- ---------L
+ACSA_NITEU ---------- ---------- ---------- ---------- ---------L
+ACSA_ALCEU ---------- ---------- ---------- ---------- ---------L
+1pg3_A     ---------- ---------- ---------- ---------- ---------I
+ACSA_VIBCH ---------- ---------- ---------- ---------- ---------I
+ACSA_SHEON ---------- ---------- ---------- ---------- ---------F
+ACS1_PSEAE ---------- ---------- ---------- ---------- ---------I
+ACSA_BRAJA ---------- ---------- ---------- ---------- ---------I
+ACS2_RHIME ---------- ---------- ---------- ---------- ---------I
+ACSA_RHOCA ---------- ---------- ---------- ---------- ---------I
+ACSA_XANAC ---------- ---------- ---------- ---------- ---------I
+ACSA_XYLFA ---------- ---------- ---------- ---------- ---------I
+ACSA_CAUCR ---------- ---------- ---------- ---------- ---------I
+ACS2_PSEAE ---------- ---------- ---------- ---------- ---------I
+ACS2_PSEPK ---------- ---------- ---------- ---------- ---------I
+ACSA_PRB01 ---------- ---------- ---------- ---------- ---------I
+ACSA_LEPIN ---------- ---------- ---------- ---------- ---------I
+ACSA_DROME ---------- ---------- ---------- ---------- ---------V
+ACSA_HUMAN ---------- ---------- ---------- ---------- ---------V
+ACSA_PHYBL ---------- ---------- ---------- ---------- ---------I
+ACSA_COPCI ---------- ---------- ---------- ---------- ---------I
+ACSA_EMENI ---------- ---------- ---------- ---------- ---------I
+ACSA_NEUCR ---------- ---------- ---------- ---------- ---------I
+ACS2_KLULA ---------- ---------- ---------- ---------- ---------V
+ACSA_CANAL ---------- ---------- ---------- ---------- ---------I
+ACS1_YEAST ---------- ---------- ---------- ---------- ---------I
+ACS1_KLULA ---------- ---------- ---------- ---------- ---------I
+ACSA_SCHPO ---------- ---------- ---------- ---------- ---------I
+ACSA_CRYPV ---------- ---------- ---------- ---------- ---------L
+AC2L_HUMAN ---------- ---------- ---------- ---------- ---------L
+YZ68_PSEAE ---------- ---------- ---------- ---------- ---------V
+PRPE_ECOLI ---------- ---------- ---------- ---------- ---------T
+ENTF_ECO57 LGCDVQDADA DFFALGGHSL LAMKLAAQLS RQFARQVTPG QVMVASTVAK
+
+           1251                                              1300
+1amu_A     ---------- QL-------- ---------- ---------- ----------
+DLTA_BACSU ---------- RI-------- ---------- ---------- ----------
+DLTA_STRA5 ---------- GL-------- ---------- ---------- ----------
+1lci_      IREILI---- ---------- ---------- ---------- ----------
+LUCI_LUCCR IREILKKP-- ---------- ---------- ---------- ----------
+LUCI_PHOPE LRQMFEKH-- ---------- ---------- ---------- ----------
+ACSA_PYRAE LKAVATGA-- PL-------- ---------- ---------- ----------
+ACSA_METSO VKARALGN-- PV-------- ---------- ---------- ----------
+ACSA_SYNEL LRSLAAGQ-- EV-------- ---------- ---------- ----------
+ACSA_SYNY3 LRSLASGQ-- EI-------- ---------- ---------- ----------
+ACSA_RHOBA LRDVAAGR-- EL-------- ---------- ---------- ----------
+ACSA_CHLTE LRELATSN-- EI-------- ---------- ---------- ----------
+ACSA_DEIRA LRQLAAGQ-- PV-------- ---------- ---------- ----------
+ACSA_STRAW LRDVAENR-- AL-------- ---------- ---------- ----------
+ACSA_MYCBO LRDVAENR-- EL-------- ---------- ---------- ----------
+ACSA_CAMJE LRTIARGE-- EI-------- ---------- ---------- ----------
+ACSA_HELPY LKSIAKKE-- PI-------- ---------- ---------- ----------
+ACSA_PASMU LRSIAKNE-- MI-------- ---------- ---------- ----------
+ACSA_NITEU LRALARGE-- TI-------- ---------- ---------- ----------
+ACSA_ALCEU LRSLAKGE-- EI-------- ---------- ---------- ----------
+1pg3_A     LRKIAA---- ---------- ---------- ---------- ----------
+ACSA_VIBCH LRKIATGDTS NL-------- ---------- ---------- ----------
+ACSA_SHEON LRKIAANEVT NL-------- ---------- ---------- ----------
+ACS1_PSEAE LRKIAAAEYD TL-------- ---------- ---------- ----------
+ACSA_BRAJA LRKIAEDEPG SL-------- ---------- ---------- ----------
+ACS2_RHIME LRKIAEDDFG SL-------- ---------- ---------- ----------
+ACSA_RHOCA LRKIAENDYG AL-------- ---------- ---------- ----------
+ACSA_XANAC LRKIAENAPD QL-------- ---------- ---------- ----------
+ACSA_XYLFA LRKIAENAPD QL-------- ---------- ---------- ----------
+ACSA_CAUCR LRKIAENELG SL-------- ---------- ---------- ----------
+ACS2_PSEAE LRKIACNELD SL-------- ---------- ---------- ----------
+ACS2_PSEPK LRKIACNELE NL-------- ---------- ---------- ----------
+ACSA_PRB01 LRKIAENDLS NL-------- ---------- ---------- ----------
+ACSA_LEPIN LRKIVSGEFE GL-------- ---------- ---------- ----------
+ACSA_DROME LRKIAVND-R NV-------- ---------- ---------- ----------
+ACSA_HUMAN LRKIAQND-H DL-------- ---------- ---------- ----------
+ACSA_PHYBL LRKIVNGEHD QL-------- ---------- ---------- ----------
+ACSA_COPCI LRKIVAGEAD QL-------- ---------- ---------- ----------
+ACSA_EMENI LRKILSGEED SL-------- ---------- ---------- ----------
+ACSA_NEUCR LRKIVAGEED QL-------- ---------- ---------- ----------
+ACS2_KLULA LRKVASKEAD QL-------- ---------- ---------- ----------
+ACSA_CANAL LRKVLAGEED QL-------- ---------- ---------- ----------
+ACS1_YEAST LRKILAGESD QL-------- ---------- ---------- ----------
+ACS1_KLULA LRKILAGESD QL-------- ---------- ---------- ----------
+ACSA_SCHPO LRKILAGEVD QI-------- ---------- ---------- ----------
+ACSA_CRYPV LRKIATGC-N DY-------- ---------- ---------- ----------
+AC2L_HUMAN LRKIITSEAQ EL-------- ---------- ---------- ----------
+YZ68_PSEAE LRKIADGE-- DY-------- ---------- ---------- ----------
+PRPE_ECOLI IQAICEGR-- DP-------- ---------- ---------- ----------
+ENTF_ECO57 LATIIDGEED SSRRMGFETI LPLREGNGPT LFCFHPASGF AWQFSVLSRY
+
+           1301                                              1350
+1amu_A     ---------- ---------- ---------- ---------- ----------
+DLTA_BACSU ---------- ---------- ---------- ---------- ----------
+DLTA_STRA5 ---------- ---------- ---------- ---------- ----------
+1lci_      ---------- ---------- ---------- ---------- ----------
+LUCI_LUCCR ---------- ---------- ---------- ---------- ----------
+LUCI_PHOPE ---------- ---------- ---------- ---------- ----------
+ACSA_PYRAE ---------- ---------- ---------- ---------- ----------
+ACSA_METSO ---------- ---------- ---------- ---------- ----------
+ACSA_SYNEL ---------- ---------- ---------- ---------- ----------
+ACSA_SYNY3 ---------- ---------- ---------- ---------- ----------
+ACSA_RHOBA ---------- ---------- ---------- ---------- ----------
+ACSA_CHLTE ---------- ---------- ---------- ---------- ----------
+ACSA_DEIRA ---------- ---------- ---------- ---------- ----------
+ACSA_STRAW ---------- ---------- ---------- ---------- ----------
+ACSA_MYCBO ---------- ---------- ---------- ---------- ----------
+ACSA_CAMJE ---------- ---------- ---------- ---------- ----------
+ACSA_HELPY ---------- ---------- ---------- ---------- ----------
+ACSA_PASMU ---------- ---------- ---------- ---------- ----------
+ACSA_NITEU ---------- ---------- ---------- ---------- ----------
+ACSA_ALCEU ---------- ---------- ---------- ---------- ----------
+1pg3_A     ---------- ---------- ---------- ---------- ----------
+ACSA_VIBCH ---------- ---------- ---------- ---------- ----------
+ACSA_SHEON ---------- ---------- ---------- ---------- ----------
+ACS1_PSEAE ---------- ---------- ---------- ---------- ----------
+ACSA_BRAJA ---------- ---------- ---------- ---------- ----------
+ACS2_RHIME ---------- ---------- ---------- ---------- ----------
+ACSA_RHOCA ---------- ---------- ---------- ---------- ----------
+ACSA_XANAC ---------- ---------- ---------- ---------- ----------
+ACSA_XYLFA ---------- ---------- ---------- ---------- ----------
+ACSA_CAUCR ---------- ---------- ---------- ---------- ----------
+ACS2_PSEAE ---------- ---------- ---------- ---------- ----------
+ACS2_PSEPK ---------- ---------- ---------- ---------- ----------
+ACSA_PRB01 ---------- ---------- ---------- ---------- ----------
+ACSA_LEPIN ---------- ---------- ---------- ---------- ----------
+ACSA_DROME ---------- ---------- ---------- ---------- ----------
+ACSA_HUMAN ---------- ---------- ---------- ---------- ----------
+ACSA_PHYBL ---------- ---------- ---------- ---------- ----------
+ACSA_COPCI ---------- ---------- ---------- ---------- ----------
+ACSA_EMENI ---------- ---------- ---------- ---------- ----------
+ACSA_NEUCR ---------- ---------- ---------- ---------- ----------
+ACS2_KLULA ---------- ---------- ---------- ---------- ----------
+ACSA_CANAL ---------- ---------- ---------- ---------- ----------
+ACS1_YEAST ---------- ---------- ---------- ---------- ----------
+ACS1_KLULA ---------- ---------- ---------- ---------- ----------
+ACSA_SCHPO ---------- ---------- ---------- ---------- ----------
+ACSA_CRYPV ---------- ---------- ---------- ---------- ----------
+AC2L_HUMAN ---------- ---------- ---------- ---------- ----------
+YZ68_PSEAE ---------- ---------- ---------- ---------- ----------
+PRPE_ECOLI ---------- ---------- ---------- ---------- ----------
+ENTF_ECO57 LDPLWSIIGI QSPRPHGPMQ TATNLDEVCE AHLATLLEQQ PHGPYYLLGY
+
+           1351                                              1400
+1amu_A     ---------- ---------- ---------- ---------P E------P--
+DLTA_BACSU ---------- ---------- ---------- ---------G E---------
+DLTA_STRA5 ---------- ---------- ---------- ---------M S---------
+1lci_      ---------- ---------- ---------- ---------- ----------
+LUCI_LUCCR ---------- ---------- ---------- ---------- ----------
+LUCI_PHOPE ---------- ---------- ---------- ---------- ----------
+ACSA_PYRAE ---------- ---------- ---------- ---------G DVTTLEDETS
+ACSA_METSO ---------- ---------- ---------- ---------G DISTLMNPEA
+ACSA_SYNEL ---------- ---------- ---------- --------VG DTSTLEDRSV
+ACSA_SYNY3 ---------- ---------- ---------- --------SG DTSTLEDRTV
+ACSA_RHOBA ---------- ---------- ---------- --------VG DTSTLEDLSS
+ACSA_CHLTE ---------- ---------- ---------- --------KG DVTTLEDLGV
+ACSA_DEIRA ---------- ---------- ---------- --------QG DTSTLEDPTV
+ACSA_STRAW ---------- ---------- ---------- ---------G DVTTLTDSSV
+ACSA_MYCBO ---------- ---------- ---------- ---------G DTSTLLDPTV
+ACSA_CAMJE ---------- ---------- ---------- --------KQ DISTLEDSKV
+ACSA_HELPY ---------- ---------- ---------- --------TQ DLSTLEDVNV
+ACSA_PASMU ---------- ---------- ---------- --------TQ DISTLENPQI
+ACSA_NITEU ---------- ---------- ---------- --------TQ DVSTLENPVI
+ACSA_ALCEU ---------- ---------- ---------- --------TQ DTSTLENPAI
+1pg3_A     ---------- ---------- ---------- ---------G D---LADPGV
+ACSA_VIBCH ---------- ---------- ---------- ---------G DTSTLADPSV
+ACSA_SHEON ---------- ---------- ---------- ---------G DASTLADPAV
+ACS1_PSEAE ---------- ---------- ---------- ---------G DISTLADPGV
+ACSA_BRAJA ---------- ---------- ---------- ---------G DTSTLADPAV
+ACS2_RHIME ---------- ---------- ---------- ---------G DTSTLADPGV
+ACSA_RHOCA ---------- ---------- ---------- ---------G DISTLADPGV
+ACSA_XANAC ---------- ---------- ---------- ---------G DTSTLADPSV
+ACSA_XYLFA ---------- ---------- ---------- ---------G DTSTLADPSI
+ACSA_CAUCR ---------- ---------- ---------- ---------G DTSTLADPSV
+ACS2_PSEAE ---------- ---------- ---------- ---------G DTSTLADPGV
+ACS2_PSEPK ---------- ---------- ---------- ---------G DTSTLADPSV
+ACSA_PRB01 ---------- ---------- ---------- ---------G DTTTLADPSV
+ACSA_LEPIN ---------- ---------- ---------- ---------G DTSTLADPSV
+ACSA_DROME ---------- ---------- ---------- ---------G DTSTLADEQI
+ACSA_HUMAN ---------- ---------- ---------- ---------G DMSTVADPSV
+ACSA_PHYBL ---------- ---------- ---------- ---------G DISTLADPSI
+ACSA_COPCI ---------- ---------- ---------- ---------G DLSTFADPGI
+ACSA_EMENI ---------- ---------- ---------- ---------G SISTLSDPSV
+ACSA_NEUCR ---------- ---------- ---------- ---------G DITTLSDPSV
+ACS2_KLULA ---------- ---------- ---------- ---------G DLSTLANADV
+ACSA_CANAL ---------- ---------- ---------- ---------G DISTLSNPGV
+ACS1_YEAST ---------- ---------- ---------- ---------G DVSTLSNPGI
+ACS1_KLULA ---------- ---------- ---------- ---------- -ATSPHYPTL
+ACSA_SCHPO ---------- ---------- ---------- ---------G DLSTLADPKV
+ACSA_CRYPV ---------- ---------- ---------- ---------G DISTVANPEC
+AC2L_HUMAN ---------- ---------- ---------- ---------G DTTTLEDPSI
+YZ68_PSEAE ---------- ---------- ---------- ---------A APSTIDDPTI
+PRPE_ECOLI ---------- ---------- ---------- ---------G DLTTIDDPAS
+ENTF_ECO57 SLGGTLAQGI AARLRARGEQ VAFLGLLDTW PPETQNWQEK EANGL-DPEV
+
+           1401                                              1450
+1amu_A     ---------- ---------- ---------- ---------- ----------
+DLTA_BACSU ---------- ---------- ---------- ---------- ----------
+DLTA_STRA5 ---------- ---------- ---------- ---------- ----------
+1lci_      ---------- ---------- ---------- ---------- ----------
+LUCI_LUCCR ---------- ---------- ---------- ---------- ----------
+LUCI_PHOPE ---------- ---------- ---------- ---------- ----------
+ACSA_PYRAE VEEA------ ---------- ---------- ---------- ----------
+ACSA_METSO VDGI------ ---------- ---------- ---------- ----------
+ACSA_SYNEL LDRL------ ---------- ---------- ---------- ----------
+ACSA_SYNY3 LDKL------ ---------- ---------- ---------- ----------
+ACSA_RHOBA LAKL------ ---------- ---------- ---------- ----------
+ACSA_CHLTE IENL------ ---------- ---------- ---------- ----------
+ACSA_DEIRA LERL------ ---------- ---------- ---------- ----------
+ACSA_STRAW MDLI------ ---------- ---------- ---------- ----------
+ACSA_MYCBO FDAI------ ---------- ---------- ---------- ----------
+ACSA_CAMJE VETIVKLA-- ---------- ---------- ---------- ----------
+ACSA_HELPY VKEIMSIA-- ---------- ---------- ---------- ----------
+ACSA_PASMU IGQL------ ---------- ---------- ---------- ----------
+ACSA_NITEU LEQL------ ---------- ---------- ---------- ----------
+ACSA_ALCEU LEQL------ ---------- ---------- ---------- ----------
+1pg3_A     VEKLLEE--- ---------- ---------- ---------- ----------
+ACSA_VIBCH VDRLIAE--- ---------- ---------- ---------- ----------
+ACSA_SHEON IETLIET--- ---------- ---------- ---------- ----------
+ACS1_PSEAE VQHLIETH-- ---------- ---------- ---------- ----------
+ACSA_BRAJA VDDLVKN--- ---------- ---------- ---------- ----------
+ACS2_RHIME VDDLIAN--- ---------- ---------- ---------- ----------
+ACSA_RHOCA VQELIDN--- ---------- ---------- ---------- ----------
+ACSA_XANAC VDSLVNE--- ---------- ---------- ---------- ----------
+ACSA_XYLFA VDLLLNE--- ---------- ---------- ---------- ----------
+ACSA_CAUCR VDDLVKN--- ---------- ---------- ---------- ----------
+ACS2_PSEAE VQGLIDN--- ---------- ---------- ---------- ----------
+ACS2_PSEPK VQGLIDK--- ---------- ---------- ---------- ----------
+ACSA_PRB01 VESLIEN--- ---------- ---------- ---------- ----------
+ACSA_LEPIN VQKLIED--- ---------- ---------- ---------- ----------
+ACSA_DROME VEQLFAN--- ---------- ---------- ---------- ----------
+ACSA_HUMAN ISHLFSH--- ---------- ---------- ---------- ----------
+ACSA_PHYBL VAVLINKVQR LNTEA----- ---------- ---------- ----------
+ACSA_COPCI VEVIKEKV-- ---------- ---------- ---------- ----------
+ACSA_EMENI VERIIATVHA ---------- ---------- ---------- ----------
+ACSA_NEUCR VAKIIDVVHA ---------- ---------- ---------- ----------
+ACS2_KLULA VPSIISAVEN QFFS------ ---------- ---------- ----------
+ACSA_CANAL VQQIIDVVH- ---------- ---------- ---------- ----------
+ACS1_YEAST VRHLIDSV-- ---------- ---------- ---------- ----------
+ACS1_KLULA V--------- ---------- ---------- ---------- ----------
+ACSA_SCHPO VEHIIHAVHY AH-------- ---------- ---------- ----------
+ACSA_CRYPV IKSIESSWAQ ---------- ---------- ---------- ----------
+AC2L_HUMAN IAEILSVYQK CKDKQ----- ---------- ---------- ----------
+YZ68_PSEAE LGEIEAAL-- ---------- ---------- ---------- ----------
+PRPE_ECOLI LDQI------ ---------- ---------- ---------- ----------
+ENTF_ECO57 LAEINREREA FLAAQQGSTS TELFTTIEGN YADAVRLLTT AHSVPFDGKA
+
+           1451                                              1500
+1amu_A     ---------- ---------- ---------- ---------- ----------
+DLTA_BACSU ---------- ---------- ---------- ---------- ----------
+DLTA_STRA5 ---------- ---------- ---------- ---------- ----------
+1lci_      ---------- ---------- ---------- ---------- ----------
+LUCI_LUCCR ---------- ---------- ---------- ---------- ----------
+LUCI_PHOPE ---------- ---------- ---------- ---------- ----------
+ACSA_PYRAE ---------- ---------- ---------- ---------- ----------
+ACSA_METSO ---------- ---------- ---------- ---------- ----------
+ACSA_SYNEL ---------- ---------- ---------- ---------- ----------
+ACSA_SYNY3 ---------- ---------- ---------- ---------- ----------
+ACSA_RHOBA ---------- ---------- ---------- ---------- ----------
+ACSA_CHLTE ---------- ---------- ---------- ---------- ----------
+ACSA_DEIRA ---------- ---------- ---------- ---------- ----------
+ACSA_STRAW ---------- ---------- ---------- ---------- ----------
+ACSA_MYCBO ---------- ---------- ---------- ---------- ----------
+ACSA_CAMJE ---------- ---------- ---------- ---------- ----------
+ACSA_HELPY ---------- ---------- ---------- ---------- ----------
+ACSA_PASMU ---------- ---------- ---------- ---------- ----------
+ACSA_NITEU ---------- ---------- ---------- ---------- ----------
+ACSA_ALCEU ---------- ---------- ---------- ---------- ----------
+1pg3_A     ---------- ---------- ---------- ---------- ----------
+ACSA_VIBCH ---------- ---------- ---------- ---------- ----------
+ACSA_SHEON ---------- ---------- ---------- ---------- ----------
+ACS1_PSEAE ---------- ---------- ---------- ---------- ----------
+ACSA_BRAJA ---------- ---------- ---------- ---------- ----------
+ACS2_RHIME ---------- ---------- ---------- ---------- ----------
+ACSA_RHOCA ---------- ---------- ---------- ---------- ----------
+ACSA_XANAC ---------- ---------- ---------- ---------- ----------
+ACSA_XYLFA ---------- ---------- ---------- ---------- ----------
+ACSA_CAUCR ---------- ---------- ---------- ---------- ----------
+ACS2_PSEAE ---------- ---------- ---------- ---------- ----------
+ACS2_PSEPK ---------- ---------- ---------- ---------- ----------
+ACSA_PRB01 ---------- ---------- ---------- ---------- ----------
+ACSA_LEPIN ---------- ---------- ---------- ---------- ----------
+ACSA_DROME ---------- ---------- ---------- ---------- ----------
+ACSA_HUMAN ---------- ---------- ---------- ---------- ----------
+ACSA_PHYBL ---------- ---------- ---------- ---------- ----------
+ACSA_COPCI ---------- ---------- ---------- ---------- ----------
+ACSA_EMENI ---------- ---------- ---------- ---------- ----------
+ACSA_NEUCR ---------- ---------- ---------- ---------- ----------
+ACS2_KLULA ---------- ---------- ---------- ---------- ----------
+ACSA_CANAL ---------- ---------- ---------- ---------- ----------
+ACS1_YEAST ---------- ---------- ---------- ---------- ----------
+ACS1_KLULA ---------- ---------- ---------- ---------- ----------
+ACSA_SCHPO ---------- ---------- ---------- ---------- ----------
+ACSA_CRYPV ---------- ---------- ---------- ---------- ----------
+AC2L_HUMAN ---------- ---------- ---------- ---------- ----------
+YZ68_PSEAE ---------- ---------- ---------- ---------- ----------
+PRPE_ECOLI ---------- ---------- ---------- ---------- ----------
+ENTF_ECO57 TLFVAERTLQ EGMSPERAWS PWIAELDIYR QDCAHVDIIS PGAFEKIGPI
+
+           1501        1515
+1amu_A     -DLTF----- ----- 
+DLTA_BACSU -EVLV----- ----- 
+DLTA_STRA5 -EVNK----- ----- 
+1lci_      -KAKK----- ----- 
+LUCI_LUCCR -VAKM----- ----- 
+LUCI_PHOPE -KSKL----- ----- 
+ACSA_PYRAE -KRAYEEIKA EMART 
+ACSA_METSO -PKIV----- ----- 
+ACSA_SYNEL -RQGS----- ----- 
+ACSA_SYNY3 -REG------ ----- 
+ACSA_RHOBA -REED----- ----- 
+ACSA_CHLTE -REQE----- --DEG 
+ACSA_DEIRA -QASP----- ---AL 
+ACSA_STRAW -QSKL---PA APSED 
+ACSA_MYCBO -RAAK----- ----- 
+ACSA_CAMJE -KAEF----- ----E 
+ACSA_HELPY -QMEE----- ----- 
+ACSA_PASMU -QQQW----- ----L 
+ACSA_NITEU -SQTV----- ----- 
+ACSA_ALCEU -KQAQ----- ----- 
+1pg3_A     -KQA------ ----- 
+ACSA_VIBCH -KAQL----- ----K 
+ACSA_SHEON -RLNR----- ---NE 
+ACS1_PSEAE -RSMQ----- ---AA 
+ACSA_BRAJA -RQNK----- --KSA 
+ACS2_RHIME -RQNR----- ----A 
+ACSA_RHOCA -RMNR----- ----A 
+ACSA_XANAC -RLAR----- ----- 
+ACSA_XYLFA -RLTH----- ----- 
+ACSA_CAUCR -RAGT----- ----- 
+ACS2_PSEAE -RLNR----- ----- 
+ACS2_PSEPK -RLNQ----- ----- 
+ACSA_PRB01 -KQSL----- ----- 
+ACSA_LEPIN -KKKF----- ---HS 
+ACSA_DROME -RPVE----- ---AK 
+ACSA_HUMAN -RCLT----- ---IQ 
+ACSA_PHYBL -NIYI----- ----- 
+ACSA_COPCI -ASAA----- ----- 
+ACSA_EMENI -SRGK----- ----- 
+ACSA_NEUCR -HQ------- ----- 
+ACS2_KLULA -QQKK----- ----- 
+ACSA_CANAL -HAKK----- ----- 
+ACS1_YEAST -KL------- ----- 
+ACS1_KLULA -SLST----- ----- 
+ACSA_SCHPO -QKKP----- ----- 
+ACSA_CRYPV -YLKR----- ----- 
+AC2L_HUMAN -AAAK----- ----- 
+YZ68_PSEAE -RVRK----- ---AG 
+PRPE_ECOLI -RQAM----- ---EE 
+ENTF_ECO57 IRATL----- ---NR 
+

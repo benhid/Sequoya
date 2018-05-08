@@ -1,0 +1,37 @@
+******************************************************************************
+
+	        bali_score evaluation program
+                  (version 3.01, Jan 2008)
+
+******************************************************************************
+
+This README contains help with INSTALLATION
+
+Please e-mail bug reports/complaints/suggestions to
+	   Julie Thompson at julie@igbmc.u-strasbg.fr
+ 
+******************************************************************************
+
+Compilation:
+------------
+
+First of all, you need the expat XML parser installed on your machine. If
+this is not already done, you can get the parser from http://expat.sourceforge.net/
+You should then edit the makefile supplied, changing the EXPAT_INC and EXPAT_LIB paths for your
+system.
+
+You make the program with:
+make -f makefile
+
+This produces the executable file bali_score. 
+
+Usage:
+______
+
+Usage: bali_score ref_aln test_aln [-v]
+                where ref_aln       reference alignment in xml/msf format 
+                      test_aln      test alignment in msf format 
+                      -v            verbose mode
+
+
+

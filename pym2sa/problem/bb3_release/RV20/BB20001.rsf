@@ -1,0 +1,480 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1aab_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 572 584 3 square solid STRUCT
+  FT   STRUCT       14     26  HELIX
+feature 599 606 3 square solid STRUCT
+  FT   STRUCT       41     48  HELIX
+feature 613 631 3 square solid STRUCT
+  FT   STRUCT       55     73  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSK
+  KCSERWKTMSAKEKGKFEDMAKADKARYEREMKTYIPPKGE...................
+  ............................................................
+  ............................................................
+}
+{
+name 1e7j_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 572 579 3 square solid STRUCT
+  FT   STRUCT       11     18  HELIX
+feature 581 587 3 square solid STRUCT
+  FT   STRUCT       20     26  HELIX
+feature 595 607 3 square solid STRUCT
+  FT   STRUCT       32     44  HELIX
+feature 615 637 3 square solid STRUCT
+  FT   STRUCT       50     72  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................MSDKPKRPLSAYMLWLNSARESIKRENP..GIKVTEVAK
+  RGGELWRAMK..DKSEWEAKAAKAKDDYDRAVKEFEANG.....................
+  ............................................................
+  ............................................................
+}
+{
+name HMGA_CHITE
+descrip Mobility group protein 1A.
+creator Chironomus tentans (Midge).Eukaryota;
+type    PROTEIN
+group 1
+feature 566 636 1 square solid DOMAIN
+  FT   DOMAIN        5     71  DNA_BINDHMG box
+feature 670 679 5 square solid DOMAIN
+  FT   DOMAIN      105    114  Asp/Glu-rich (acidic).
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A        5     71  PF00505 HMG_box
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................MAEKPKRPLSAYMLWLNSARESIKKENP..DFKVTEIAK
+  KGGELWRGMK..DKSEWEAKAAKMKEEYEKAMKEFERNGGDKSSGASTKKRGKAAEKKKP
+  AKKSKKKDSEDDEEEDESD.........................................
+  ............................................................
+}
+{
+name SP10_GORGO
+descrip Nuclear autoantigen Sp-100 (Speckled 100 kDa) (Nuclear dot-a
+creator Gorilla gorilla gorilla (Lowland gorilla).Eukaryota;
+type    PROTEIN
+group 1
+feature 600 617 5 square solid DOMAIN
+  FT   DOMAIN       66     83  Nuclear localization signal (Potential).
+feature 560 636 1 square solid DOMAIN
+  FT   DOMAIN       26    102  DNA_BINDHMG box 1
+feature 652 726 1 square solid DOMAIN
+  FT   DOMAIN      118    186  DNA_BINDHMG box 2
+feature 697 764 5 square solid DOMAIN
+  FT   DOMAIN      157    224  Coiled coil (Potential).
+feature 585 765 5 square solid DOMAIN
+  FT   DOMAIN       51    225  Asp/Glu/Lys-rich.
+feature 582 636 0 square solid PFAM-A
+  FT   PFAM-A       48    102  PF00505 HMG_box
+feature 652 726 0 square solid PFAM-A
+  FT   PFAM-A      118    186  PF00505 HMG_box
+feature 535 559 1 square solid PFAM-A
+  FT   PFAM-A        1     25  PF01342 SAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......................................................SKNWKL
+  SIRCGGYTLKVLMENKLLPEPPSTRKKRILESHNNTLVDPCEEHKKKNPDASVKFSEFLK
+  KCSEMWKTIFAKEKGKFEDMAKADKAHYEREMKTYIPPKGEKKKKFKDPNAPKRP.....
+  .PLAFFLFCSEYRPKIKGEHPGLSIDDVVKKLAGMWNNTAAADKQFYEKKAAKLKEKYKK
+  DIAAYRAKGMPNSAKKRAVKAEKSKKKREEEEDEEDEQEEENEEE...............
+}
+{
+name HMGH_STRPU
+descrip High mobility group protein 1 homolog.
+creator Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;
+type    PROTEIN
+group 1
+feature 566 636 1 square solid DOMAIN
+  FT   DOMAIN       11     81  DNA_BINDHMG box 1
+feature 655 726 1 square solid DOMAIN
+  FT   DOMAIN      100    168  DNA_BINDHMG box 2
+feature 738 758 5 square solid DOMAIN
+  FT   DOMAIN      180    200  Asp/Glu-rich (acidic).
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A       11     81  PF00505 HMG_box
+feature 655 726 0 square solid PFAM-A
+  FT   PFAM-A      100    168  PF00505 HMG_box
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............MGKKDRDSSKPRGRMSAYAYFVQDSRAEHGKNHPNSPVRFAEFSK
+  DCSARWKALEEKGKGVFHEKSMRDKVRYDREMQSYKPPKGEKNKRRRRRKDPDAP...KR
+  NLSAFFIFSGENRAAIKSVHPNWSVGDIAKELAVRWRAMTAGEKIPFDKGAAKDKERYIK
+  AMAEYKAKAKPMKRQVKESSSSSSSDSSSDDSSSDDSD......................
+}
+{
+name HMG2_DROME
+descrip High mobility group protein DSP1 (Dorsal switch protein 1).
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 566 636 1 square solid DOMAIN
+  FT   DOMAIN      179    249  DNA_BINDHMG box 1
+feature 658 726 1 square solid DOMAIN
+  FT   DOMAIN      271    339  DNA_BINDHMG box 2
+feature 383 549 5 square solid DOMAIN
+  FT   DOMAIN        7    162  Gln-rich.
+feature 476 491 5 square solid DOMAIN
+  FT   DOMAIN       99    106  Poly-Ala.
+feature 763 778 5 square solid DOMAIN
+  FT   DOMAIN      376    391  Asp/Glu-rich (acidic).
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A      179    249  PF00505 HMG_box
+feature 658 726 0 square solid PFAM-A
+  FT   PFAM-A      271    339  PF00505 HMG_box
+feature 384 390 1 square solid VARSPLIC
+  FT   VARSPLIC      8     14  Missing (in isoform D).
+feature 384 391 1 square solid VARSPLIC
+  FT   VARSPLIC      8     15  Missing (in isoform A).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................MEHFHQIQQTIQHYQQQLAAQQQQQVQQQQLQQHQVVVQQNQQ.
+  QAHQNSSNTTAGVGTQQLFTYKMASSFPNPATTMAQVVATSNAAGTTGYDYRLNMAQ...
+  .....AAAAAAVPGSQWWYSAAN..QGQVDANTAAQLQHQQQQQQQQQQQQQQQHQQQQQ
+  MQQQQQQQNVINSASPMSRVKADAKPRGRMTAYAYFVQTCREEHKKKHPDETVIFAEFSR
+  KCAERWKTMVDKEKKRFHEMAEKDKQRYEAEMQNYVPPKGAVVGRGKKRKQIKDPNAPKR
+  SLSAFFWFCNDERNKVKALNPEFGVGDIAKELGRKWSDVDPEVKQKYESMAERDKARYER
+  EMTEYKTSGKIAMSAPSMQASMQAQAQKAALLAAAAQQQHQQLEEQHDDDDGDGDDDENQ
+}
+{
+name HMGC_TETTH
+descrip High-mobility-group protein C (Nonhistone chromosomal protei
+creator Tetrahymena thermophila.Eukaryota;
+type    PROTEIN
+group 1
+feature 574 644 1 square solid DOMAIN
+  FT   DOMAIN       12     80  DNA_BINDHMG box
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A        4     72  PF00505 HMG_box
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......................PAPPKRPLSAFFLFKQHNYEQVKKENP..NAKITELTS
+  MIAEKWKAVGEKEKKKYETLQSEAKAKYEKALQAYEKKYGKPEKQKKIKKNKKGSK....
+  ............................................................
+  ............................................................
+}
+{
+name HG12_CAEEL
+descrip High mobility group protein 1.2.
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 478 548 1 square solid DOMAIN
+  FT   DOMAIN       47    117  DNA_BINDHMG box 1
+feature 566 636 1 square solid DOMAIN
+  FT   DOMAIN      135    203  DNA_BINDHMG box 2
+feature 480 548 0 square solid PFAM-A
+  FT   PFAM-A       49    117  PF00505 HMG_box
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A      135    203  PF00505 HMG_box
+feature 456 456 1 square solid VARSPLIC
+  FT   VARSPLIC     25     25  Missing (in isoform B).
+feature 542 543 1 square solid VARSPLIC
+  FT   VARSPLIC    111    112  Missing (in isoform C).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........MNSGYSANIFPSSSSPTLYQSHQLQPNPSATMYQATPRDMGKPPVRGKT
+  SPYGFFVKMCYEEHKKKYPNENVQVTEISKKCSEKWKTMVDDEKRRFYELAQKDAERYQA
+  EVSVAAYGGEDAMRKRKRAKKDPHAPKRALSAFFFYSQDKRPEIQAGHP..DWKVGQVAQ
+  ELGKMWKLVPQETKDMYEQKAQADKDRYADEMRNYKAEMQKMSGMDHYDDDNIHHVVHVE
+  DINSQNIS....................................................
+  ............................................................
+}
+{
+name HMGL_VICFA
+descrip HMG1/2-like protein.
+creator Vicia faba (Broad bean).Eukaryota;
+type    PROTEIN
+group 1
+feature 566 636 1 square solid DOMAIN
+  FT   DOMAIN       45    114  DNA_BINDHMG box
+feature 643 671 5 square solid DOMAIN
+  FT   DOMAIN      121    149  Asp/Glu-rich (acidic).
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A       45    114  PF00505 HMG_box
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................MKGGKSKGESKKAETKLAV
+  NKKGAAATKGGKKPAKGKEPKDPNKPKRPPSAFFVFMADFREQYKKDHPN.NKSVAAVGK
+  ACGEEWKSLSEEEKAPYVDRALKKKEEYEITLQAYNKKLEGKDDEEGSDKSKSEVNDEDE
+  DEEDEEDEDDD.................................................
+  ............................................................
+}
+{
+name HMGL_SOYBN
+descrip HMG1/2-like protein (SB11 protein).
+creator Glycine max (Soybean).Eukaryota;
+type    PROTEIN
+group 1
+feature 566 636 1 square solid DOMAIN
+  FT   DOMAIN       44    113  DNA_BINDHMG box
+feature 647 675 5 square solid DOMAIN
+  FT   DOMAIN      124    152  Asp/Glu-rich (acidic).
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A       44    113  PF00505 HMG_box
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................................MKGGKSKTESKRADPKLA
+  VNKKGAATKARKPAGKGKAAKDPNKPKRPPSAFFVFMEEFRKVFNKEHPE.NKAVSAVGK
+  AAGAKWKTMSDAEKAPYVAKSEKRKVEYEKNMRAYNKKQAEGPTGGDEEESEKSVSEVND
+  EDDDEEGSGEEEDDD.............................................
+  ............................................................
+}
+{
+name HMGL_TRYBR
+descrip High mobility group protein homolog TDP-1.
+creator Trypanosoma brucei rhodesiense.Eukaryota;
+type    PROTEIN
+group 1
+feature 566 636 1 square solid DOMAIN
+  FT   DOMAIN      118    186  DNA_BINDHMG box 1
+feature 656 726 1 square solid DOMAIN
+  FT   DOMAIN      206    270  DNA_BINDHMG box 2
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A      118    186  PF00505 HMG_box
+feature 656 726 0 square solid PFAM-A
+  FT   PFAM-A      206    270  PF00505 HMG_box
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................MATELKKGPLPTDIEETVITIMREEGVRYITA
+  KILRMRLESKYQMEFGPHKAAIDDIVARAMQRPEFKKQLELALKEKDASKSSGGKGSKRA
+  RSAGAEAPSKTKKEMTEKPKKPADYPKPAVSSYLLFVADQREELKAKNP..GMQNTAILQ
+  TLGKMWSDASDDVKEHYRKKAEEDKARFRREVDEYKRQGGKEYGRGGKIKKDSNAP..KR
+  AMTSFMFFSSDFRSKH....SDLSIVEMSKAAGAAWKELGPEERKVYEEMAEKDKERYKR
+  EMAALPK.....................................................
+}
+{
+name SSRP_ARATH
+descrip Structure-specific recognition protein 1 homolog (HMG protei
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 565 636 1 square solid DOMAIN
+  FT   DOMAIN      561    630  DNA_BINDHMG box
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A      562    630  PF00505 HMG_box
+feature 219 434 2 square solid PFAM-A
+  FT   PFAM-A      219    434  PF03531 SSrecog
+feature 467 511 0 square solid PFAM-B
+  FT   PFAM-B      467    511  PB021171 Pfam-B_21171
+feature 21 218 0 square solid PFAM-B
+  FT   PFAM-B       21    218  PB004350 Pfam-B_4350
+sequence
+  MADGHSFNNISLSGRGGKNPGLLKINSGGIQWKKQGGGKAVEVDRSDIVSVSWTKVTKSN
+  QLGVKTKDGLYYKFVGFRDQDVPSLSSFFQSSYGKTPDEKQLSVSGRNWGEVDLHGNTLT
+  FLVGSKQAFEVSLADVSQTQLQGKNDVTLEFHVDDTAGANEKDSLMEISFHIPNSNTQFV
+  GDENRPPSQVFNDTIVAMADVSPGVEDAVVTFESIAILTPRGRYNVELHLSFLRLQGQAN
+  DFKIQYSSVVRLFLLPKSNQPHTFVVISLDPPIRKGQTMYPHIVMQFETDTVVESELSIS
+  DELMNTKFKDKLERSYKGLIHEVFTTVLRWLSGAKITKPGKFRSSQDGFAVKSSLKAEDG
+  VLYPLEKGFFFLPKPPTLILHDEIDYVEFERHAAGGANMHYFDLLIRLKTDHEHLFRNIQ
+  RNEYHNLYTFISSKGLKIMNLGGAGTADGVAAVLGDNDDDDAVDPHLTRIRNQAADESDE
+  EDEDFVMGEDDDGGSPTDDSGGDDSDASEGGVG....EIKEKSIKKEPKKEASSSKGLPP
+  KRKTVAADEGSSKRKKPKKKKDPNAPKRAMSGFMFFSQMERDNIKKEHP..GIAFGEVGK
+  VLGDKWRQMSADDKEPYEAKAQVDKQRYKDEISDYKNPQPMNVDSGNDSDSN........
+  ............................................................
+  ............................................................
+}
+{
+name SSTP_CATRO
+descrip Structure-specific recognition protein 1 homolog (HMG protei
+creator Catharanthus roseus (Rosy periwinkle) (Madagascar periwinkle
+type    PROTEIN
+group 1
+feature 565 636 1 square solid DOMAIN
+  FT   DOMAIN      555    623  DNA_BINDHMG box
+feature 565 636 0 square solid PFAM-A
+  FT   PFAM-A      555    623  PF00505 HMG_box
+feature 219 434 2 square solid PFAM-A
+  FT   PFAM-A      219    434  PF03531 SSrecog
+feature 473 520 0 square solid PFAM-B
+  FT   PFAM-B      473    510  PB021171 Pfam-B_21171
+feature 21 218 0 square solid PFAM-B
+  FT   PFAM-B       21    218  PB004350 Pfam-B_4350
+sequence
+  MADGHLFNNITLGGRGGTNPGQLRVHSGGILWKKQGGAKAVEVDKSDMVGLTWMKVPRSN
+  QLGVRIKDGLFYKFTGFRDQDVASLTSYLQSTCGITPEEKQLSVSGKNWGEVDLNGNMLT
+  FLVGSKQAFEVSLADVAQTQLQGKNDVMLEFMWMILLEQMRKNSLMEISFHVPNSNTQFV
+  GDENRPPAQVFRDKIMSMADVGAGGEDAVVTFEGIAILTPRGRYNVELHLSFLRLQGQAN
+  DFKIQYSSVVRLFLLPKSNQPHTFVVVTLDPPIRKGQTLYPHIVLQFETDYVVDSSLSIS
+  EDLLSTKYKDKLEPTYKGLIHEVFTMILRGLSGAKVTRPGKFRSCQDGYAVKSSLKAEDG
+  VLYPLEKSFFFLPKPPTLILHEEIDYVEFERHAAGGSNMHYFDLLIRLKTEQEHLFRNIQ
+  RNEYHNLFDFISSKGLKIMNLGADKAADAITAVLQEDDDDAVDPHLERIKNEAGGDESDE
+  EDEDFVADIDDEGSPTDDSGEGESDGS..........DSGNEEIPTKKKPKKEASAPKVP
+  LSRKKVGDDDNMKKKKQKKKKDPNAPKS.ISAFMFFSQTERENVKKDNP..GIAFTDVGK
+  VLGDRCNKCQLRKKHLLKQRLVADKKRYTDEISNYKNPQPMNVDSGNDSDSA........
+  ............................................................
+  ............................................................
+}
+{
+name SSRP_CHICK
+descrip Structure-specific recognition protein 1 (SSRP1) (Recombinat
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 566 636 1 square solid DOMAIN
+  FT   DOMAIN      508    576  DNA_BINDHMG box
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A      508    576  PF00505 HMG_box
+feature 219 431 2 square solid PFAM-A
+  FT   PFAM-A      171    383  PF03531 SSrecog
+sequence
+  ......................................IPDNIQASELAEGVWRRVALGH
+  GLKLLTKNGHVYKYDGFRESEFDKLSDFFKAHYRLELAEKDLCVKGWNWGTVRFGGQLLS
+  FDIGEQPVFEIPLSNVSQCTTGKNEVTLEFHQNDDAE........VSLMEVRFYVPPTQE
+  DGV..DPVEAFAQNVLSKADVIQATGDAICIFRELQCLTPRGRYDIRIYPTFLHLHGKTF
+  DYKIPYTTVLRLFLLPHKDQRQMFFVISLDPPIKQGQTRYHFLILLFSKDEDISLTLNMN
+  EEEVEKRFEGRLTKNMSGSLYEMVSRVMKALVNRKITVPGNFQGHSGAQCITCSYKASSG
+  LLYPLERGFIYVHKPPVHIRFDEISFVNFARGTTTTRSFDFEIETKQGTQYTFSSIEREE
+  YGKLFDFVNAKKLNIKNRGLKEGMKQSYDEYADSDEDQHDAYLERMKEEGKIREENANDS
+  SDGSGEETDESFNPGEEDDDVAE.EFD.........SNASSSSSSGDGDSDRGEKKSSQE
+  GPKIVKDRKPRKKQVESKKGKDPNVPKRPMSAYMLWLNANREKIKSDHP..GISITDLSK
+  KAGELWKAMSKEKKEEWDRKAEDAKRDYEKAMKEYSVGNKSESSKMERSKKKKKKQEKQM
+  KGKGEKKGSPSKSSSSTKSSAKTMSESFKSKEFVSSDESSSAESKKEDSEDERGASPAQS
+  SEDSASGSD...................................................
+}
+{
+name SSRP_CAEEL
+descrip Probable structure-specific recognition protein 1 (SSRP1)(Re
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 566 636 1 square solid DOMAIN
+  FT   DOMAIN      556    622  DNA_BINDHMG box
+feature 566 636 0 square solid PFAM-A
+  FT   PFAM-A      556    622  PF00505 HMG_box
+feature 219 433 2 square solid PFAM-A
+  FT   PFAM-A      210    423  PF03531 SSrecog
+feature 2 218 0 square solid PFAM-B
+  FT   PFAM-B        1    209  PB004350 Pfam-B_4350
+feature 495 527 0 square solid PFAM-B
+  FT   PFAM-B      485    517  PB088953 Pfam-B_88953
+sequence
+  .MAELQFPGVYVEDVGHLAFGTLKLTEKSLNFKGDKGGKSVNVTGSDIDKLKWQKLGNKP
+  GLRVGLNDGGAHRFGGFKDTDLEKIQSFTSSNWSQSIDQSNLFIKGWNYGQAEVKGKTVE
+  FSWEDKPIFEIPCTNVSNVIANKNEAVLEFHQNDDSK........VQLMEMRFHMPIDLE
+  NEEDADKVEEFKKAVLAYAGLEAETEQPICLLTDILCTTPRGRYDIKVYPTSIALHGKTY
+  DYKIPIKSINRLFLVPHKDGRHVYFVLSLNPPIRQGQTRYS.YLIFEFGKDEEQDLELAL
+  TDEQLESSNGNLRRDMTGPIYETISILFKSICNLKITVPGRFLGSSGTPAIQCTHRQNPG
+  LLYPMEKGFLFIHKPAMYIRFEEISSCHFARSDSGTVTRTFDFEIDLKYGGPLTFNAMEK
+  EENNKLFDYLNKKNIKIRNSQRVENTVADSSDDEIDPYKAAVTAEGRQRDDSDDDSTDED
+  YDLDKDIKKKKEDKESSEGTGSEPDDEYDSGSEQDSSGTGESEPDSEQDVPSKRRKGEPK
+  EKREKKEKREKKEGKKGKKDKDPNAPKRATSAYMQWFLASRNELKEDGD....SVADVAK
+  KGGAKWKTMSSDDKKKWEEKAEEDKSRYEKEMKEYRKNGPPSSSSKPSSSKTSKKSSGPS
+  SSKAISKEYISDSDDSDDEEPKKKEKKAAPKEESEESNNGSDGSDESDDSD.........
+  ............................................................
+}
+{
+name 2lef_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 572 587 3 square solid STRUCT
+  FT   STRUCT        9     24  HELIX
+feature 595 606 3 square solid STRUCT
+  FT   STRUCT       30     41  HELIX
+feature 611 631 3 square solid STRUCT
+  FT   STRUCT       46     66  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................MHIKKPLNAFMLYMKEMRANVVAEST..LKESAAINQ
+  ILGRRWHALSREEQAKYYELARKERQLHMQLYPGWSARDNYGKKKKRKREK.........
+  ............................................................
+  ............................................................
+}

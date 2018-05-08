@@ -1,0 +1,1569 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1a7n_L
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 45 48 0 square solid STRUCT
+  FT   STRUCT        4      7  STRAND
+feature 52 55 0 square solid STRUCT
+  FT   STRUCT       10     13  STRAND
+feature 61 67 0 square solid STRUCT
+  FT   STRUCT       19     25  STRAND
+feature 81 86 0 square solid STRUCT
+  FT   STRUCT       33     38  STRAND
+feature 93 97 0 square solid STRUCT
+  FT   STRUCT       45     49  STRAND
+feature 101 102 0 square solid STRUCT
+  FT   STRUCT       53     54  STRAND
+feature 113 118 0 square solid STRUCT
+  FT   STRUCT       62     67  STRAND
+feature 123 128 0 square solid STRUCT
+  FT   STRUCT       70     75  STRAND
+feature 133 135 3 square solid STRUCT
+  FT   STRUCT       80     82  HELIX
+feature 137 143 0 square solid STRUCT
+  FT   STRUCT       84     90  STRAND
+feature 161 165 0 square solid STRUCT
+  FT   STRUCT      102    106  STRAND
+sequence
+  .........................................DIVLTQS.PASLSASVGET
+  VTITCRASGNIH......NYLAWYQQKQGKSPQLLVYYTTTLADGV...PSRFSGSGSG.
+  .TQYSLKINSLQPDDFGSYYCQHFWSTP......RTFGGGTKLEIK..
+}
+{
+name KV1G_HUMAN
+descrip Ig kappa chain V-I region Gal.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................DIQMTQS.PSSLSASVGDR
+  VTIICRASQGIR......NDLTWYQQKPGKAPKELIYAASNLQSGV...PSRFSGSGAG.
+  .TEFTLTISSLQPEDFATYYCLQQNSYP......RSFGQGTKVEIKR.
+}
+{
+name KV1V_HUMAN
+descrip Ig kappa chain V-I region BAN.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................DIQLTQS.PSSLSASVGDR
+  VTITCRASQSVY......NYVAWFQQKPGKAPKSLIYDASTLQSGV...PSNFTGSGSG.
+  .TDFILTISSLQPEDFATYYCQQYNSYP......YTFGQGTKVQIKR.
+}
+{
+name KV1L_HUMAN
+descrip Ig kappa chain V-I region Kue.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................DIQMTQS.PSTQPASVGDR
+  VTITCRASQSIN......IWLAWYQQKPEKAPKLLIYKASTLETGV...PSRFSGSGSG.
+  .TEFTLTINSLQPDDFATYYCQQYSRYP......YTFGQGTKLDIKR.
+}
+{
+name KV1D_HUMAN
+descrip Ig kappa chain V-I region CAR.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 70 70 5 square solid SITE
+  FT   SITE         28     28  CARBOHYD_Nlinked GlcNAc
+sequence
+  .........................................DIQMTQS.PSTLSASVGDR
+  VAITCRASQNIS......SWLAWYQQKPGKAPKVLIYKSSSLESGV...PSRFSGSGSG.
+  .TDFTLTISSLZPBBFATYYCQQYNTF.......FTFGPGTKVDIKR.
+}
+{
+name KV1X_HUMAN
+descrip Ig kappa chain V-I region Daudi precursor.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN       23     45  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       46     56  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       57     71  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       72     78  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       79    110  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN      111    119  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      120    129  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       38    112  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         45    110  DISULFID_By similarity
+feature 20 41 4 square solid SIGNAL
+  FT   SIGNAL        1     22  al.
+sequence
+  ...................MDMRVPAQLLGLLLLWLRRVRCDIQMTQS.PSSLSASVGDR
+  VTITCRAGHNIT......NFLSWYQQKPGKAPTLLIYAVSNLQVGV...PSRFSGSGSG.
+  .AEFTLTISSLQPEDFATYYCQQNYNFS......FTFGGGTKVDNK..
+}
+{
+name KV1C_HUMAN
+descrip Ig kappa chain V-I region Bi.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................DIQMTQS.PSPLSASVGDS
+  VTITCQASQDIR......NSLIWYQQKPGKAPKFLIYDAENLEIGV...PSRFRGSGSG.
+  .TDFALSISSLQPEDFATYYCQQYYNLP......YTFGQGTKLEIKR.
+}
+{
+name KV3P_MOUSE
+descrip Ig kappa chain V-III region PC 7210.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     38  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       39     53  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       54     60  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       61     92  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       93    100  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      101    110  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     94  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     92  DISULFID_By similarity
+sequence
+  .........................................DIVLTQS.PASLAVSLGQR
+  ATISCKASQSLDYD..GDSYMNWYQQKPGQPPKLLIYAASNLESGI...PARFSGSGSG.
+  .TDFTLNIHPVEEEDAATYYCHQSED.P......WTFGSGTKLEIK..
+}
+{
+name KV3F_HUMAN
+descrip Ig kappa chain V-III region POM.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     91  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     89  DISULFID_By similarity
+sequence
+  .........................................EIVMTQS.PVTLSVSPGER
+  ATLSCRASQSISN.....SYLAWYQQKPSGSPRLLIYGASTRATGI...PARFSGSGSG.
+  .TEFTLTISSLQSEDFAVYYCQQYNNWP......PTFGQGTRVEIKR.
+}
+{
+name KV3K_HUMAN
+descrip Ig kappa chain V-III region IARC/BL41 precursor.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN       21     43  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       44     54  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       55     69  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       70     76  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       77    108  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN      109    117  Complementarity-determining-3.
+feature 157 167 5 square solid DOMAIN
+  FT   DOMAIN      118    128  JK1 SEGMENT.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       36    110  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         43    108  DISULFID_By similarity
+feature 22 41 4 square solid SIGNAL
+  FT   SIGNAL        1     20  al.
+sequence
+  .....................METPAQLLFLLLLWLPDTTGEIVLTQS.PGTLSLSPGES
+  ATLSCRASQSVSS......NLAWYQQKRGQSPRLLIRDASSRANGI...PDRFSGSGSG.
+  .TDFTLIISRLEPEDFAVYYCQQYSTSP......YTFGQGTKLEIKR.
+}
+{
+name KV3A_HUMAN
+descrip Ig kappa chain V-III region B6.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     91  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     89  DISULFID_By similarity
+sequence
+  .........................................ZIVLTZS.PGTLSLSPGZR
+  AALSCRASQSLSGN.....YLAWYQQKPGQAPRLLMYGVSSRATGI...PDRFSGSGSG.
+  .ADFTLTISRLZPEDFAVYYCQQYGSSP......FTFGQGSKLEIK..
+}
+{
+name LV1H_HUMAN
+descrip Ig lambda chain V-I region MEM.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 161 5 square solid DOMAIN
+  FT   DOMAIN        1    106  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     92  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     90  DISULFID_By similarity
+feature 42 42 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .........................................QSVLTQ..PPSASGTPGGR
+  VTISCSGSSSNVGSN...ZPAYWYQQLPGTAPKLLIYNYNQRPSGV...PDRFSASRSG.
+  .TSASLAISGLQSEDEADYYCAAWDDSLD....GYVFGTGTKVTVLR.
+}
+{
+name LV2C_HUMAN
+descrip Ig lambda chain V-II region BOH.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 162 5 square solid DOMAIN
+  FT   DOMAIN        1    106  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     92  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     90  DISULFID_By similarity
+feature 42 42 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .........................................QSALTQ..PRSVSGSPGQS
+  VTISCAGTSSDVGGN...HFVSWYQQHPGKAPKLIIYGVNKRPSGV...PYRFSGSKSG.
+  .NTASLTISGLQAEDEAHYYCCSYAGRFT.....WVFGGGTNLTVLG.
+}
+{
+name LV2K_HUMAN
+descrip Ig lambda chain V-II region NIG-84.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 157 5 square solid DOMAIN
+  FT   DOMAIN        1    102  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     92  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     90  DISULFID_By similarity
+sequence
+  .........................................QSALTQ..PASVSGSPGQS
+  ITISCTGTTSDVGGY...DFVSWYQQHPGKAPKLLIYDVNSRPSGI...SNRFSGSKSG.
+  .NTASLTISGLQAEDEADYYCSSFTTTNS....RAVFGGGTKLSVLG.
+}
+{
+name LV2B_HUMAN
+descrip Ig lambda chain V-II region NEI.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 162 5 square solid DOMAIN
+  FT   DOMAIN        1    106  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     92  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     90  DISULFID_By similarity
+feature 147 147 5 square solid SITE
+  FT   SITE         96     96  CARBOHYD_Nlinked GlcNAc
+feature 42 42 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .........................................QSALTQ..PASVSGSPGQS
+  ITISCTGTTSDVGSY...NFVSWYQQNPGKAPKLMIYEGNKRPSGV...SNRFSGSKSG.
+  .KTASLTISGLQVEDEADYYCCSYAGNST.....RVFGGGTRVTVLS.
+}
+{
+name LV2I_HUMAN
+descrip Ig lambda chain V-II region WIN.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 162 5 square solid DOMAIN
+  FT   DOMAIN        1    106  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     92  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     90  DISULFID_By similarity
+feature 42 42 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .........................................QSALTQ..PPRVSGSPGQS
+  VTISCTGSYSNVTGY...NHVSWYQQDPGKVPKLMIYDVDKRPSGV...PDRFSGSKSA.
+  .NTASLTISGLQANNEADYYCSSYGGTYS.....LIFGGGTKLTVLG.
+}
+{
+name KV03_RABIT
+descrip Ig kappa chain V region 3374.
+creator Oryctolagus cuniculus (Rabbit).Eukaryota;
+type    PROTEIN
+group 1
+feature 41 65 5 square solid DOMAIN
+  FT   DOMAIN        1     24  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       25     35  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       36     50  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       51     57  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       58     89  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       90     98  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       99    108  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       17     91  PF00047 ig
+sequence
+  ........................................ADIVMTQT.PASVSAAVGGT
+  VTINCQASQNID......SWLAWYQQKPGQPPKVLIYRTSTLASGV...PSRFKGSRSG.
+  .TEFTLTISDLECADAATYYCQSYYSIS......SAFGGGTEVVVKG.
+}
+{
+name KV05_RABIT
+descrip Ig kappa chain V region BS-1.
+creator Oryctolagus cuniculus (Rabbit).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_Framework4
+sequence
+  .........................................DVVMTQT.PASVSEPVGGT
+  VTIKCQASQSIY......SGLAWYQZKPGQPPKLLIYKASTLASGV...SSRFKGSGSG.
+  .TEFTLTISDLECADAATYFCZGSTYGG......GYFGGGTEVVVKG.
+}
+{
+name KV16_RABIT
+descrip Ig kappa chain V region AH80-5.
+creator Oryctolagus cuniculus (Rabbit).Eukaryota;
+type    PROTEIN
+group 1
+feature 43 65 5 square solid DOMAIN
+  FT   DOMAIN        1     22  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       23     35  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       36     50  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       51     57  Complementarity-determining-2.
+feature 105 142 5 square solid DOMAIN
+  FT   DOMAIN       58     93  Framework-3.
+feature 143 156 5 square solid DOMAIN
+  FT   DOMAIN       94    103  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      104    113  Framework-4.
+feature 58 144 0 square solid PFAM-A
+  FT   PFAM-A       15     95  PF00047 ig
+sequence
+  ..........................................IVMTQT.PSSKSVPVGDT
+  VTINCQAAQSVYSN....NRLSWFQQKPGQPPKGLIYYASTLASGVQQDPSRFKGSGSG.
+  .TQFTLTISDVQCBBAATVYYCQGYKSS....DTRAFGGGTEVVVKG.
+}
+{
+name KV01_RABIT
+descrip Ig kappa chain V region 2717.
+creator Oryctolagus cuniculus (Rabbit).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     36  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       37     51  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       52     58  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       59     90  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       91     99  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      100    109  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     92  PF00047 ig
+feature 155 155 12 square solid SITE
+  FT   SITE         98     98  SITE_AT THE HAPTEN COMBINING SITE
+sequence
+  .........................................VEVLTQT.PSPVSAAVGGT
+  VTISCQSTKSIYBB....BYLAWYQZKPGQPPKALIYTASSLASGV...PSRFTGSGSG.
+  .TZFTLTLSDVZCDDAATYYCGGADYTG......YSFGGGTEVVVKG.
+}
+{
+name KV1A_HUMAN
+descrip Ig kappa chain V-I region AG.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_Framework4
+sequence
+  .........................................DIQMTQS.PSSLSASVGDR
+  VTITCQASQDIN......HYLNWYQQGPKKAPKILIYDASNLETGV...PSRFSGSGFG.
+  .TDFTFTISGLQPEDIATYYCQQYDTLP......RTFGQGTKLEIKR.
+}
+{
+name KV1E_HUMAN
+descrip Ig kappa chain V-I region DEE.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................BIZMTQS.PSSLSASVGDR
+  VTITCRAGQSVN......KYLNWYQQKPGKAPKVLIFAASSLKSGV...PSRFSGSGSG.
+  .TDFTLTISGLLPEDFATYYCQQSYTTP......YTFGPGTKVEMTR.
+}
+{
+name KV5P_MOUSE
+descrip Ig kappa chain V-V regions (Anti-arsonate antibodies).
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 167 5 square solid DOMAIN
+  FT   DOMAIN       98    108  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................DIQMTQT.PSSLSASLGDR
+  VSISCRASQDLS......QYLFWYQQKPGQPPKLLIYRVSRLTNGV...PDRFSGSGSG.
+  .TDFTLTIDPMEEDDTATYFCQQSRLIP......RTFGGGTKLEIKR.
+}
+{
+name KV5J_MOUSE
+descrip Ig kappa chain V-V region MOPC 173.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 167 5 square solid DOMAIN
+  FT   DOMAIN       98    108  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................DIQMTQT.TSSLSASLGDR
+  VTISCSASQSIG......NYLBWYQQKPDGTVKLLIYYTSSLHSGV...PSRFSGSGSG.
+  .TDYSLTISBLZPZBIATYYCQQYSKLP......RTFGGGTKLEIKR.
+}
+{
+name KV5G_MOUSE
+descrip Ig kappa chain V-V region MOPC 41 precursor.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN       23     45  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       46     56  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       57     71  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       72     78  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       79    110  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN      111    119  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      120    129  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       38    112  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         45    110  DISULFID_By similarity
+feature 20 41 4 square solid SIGNAL
+  FT   SIGNAL        1     22  al.
+sequence
+  ...................MDMRAPAQIFGFLLLLFQGTRCDIQMTQS.PSSLSASLGER
+  VSLTCRASQDIG......SSLNWLQQEPDGTIKRLIYATSSLDSGV...PKRFSGSRSG.
+  .SDYSLTISSLESEDFVDYYCLQYASSP......WTFGGGTKLEIKR.
+}
+{
+name KV3A_MOUSE
+descrip Ig kappa chain V-III region PC 2880/PC 1229.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     38  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       39     53  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       54     60  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       61     92  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       93    101  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      102    111  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     94  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     92  DISULFID_By similarity
+sequence
+  .........................................DIVLTQS.PASLAVSLGQR
+  ATISCRASESVDNY..GISFMNWFQQKPGQPPKLLIYAASNQGSGV...PARFSGSGSG.
+  .TDFSLNIHPMEEDDTAMYFCQQSKEVP......WTFGGGTKLEIK..
+}
+{
+name KV6F_MOUSE
+descrip Ig kappa chain V-VI region NQ2-17.4.1.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     33  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       34     48  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       49     55  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       56     87  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       88     96  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       97    106  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     89  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     87  DISULFID_By similarity
+sequence
+  .........................................QIVLTQS.PAIMSASPGQK
+  VTMTCSASSSVS.......YMHWYQQKSGTSPKRWIYDTSKLASGV...PARFSGSGSA.
+  .TSYSLTITSMQAEDAATYYCQQWSSNP......LTFGAGTKLELKR.
+}
+{
+name KV4A_MOUSE
+descrip Ig kappa chain V-IV region S107B precursor.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN       23     45  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       46     57  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       58     72  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       73     79  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       80    111  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN      112    118  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      119    128  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       38    113  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         45    111  DISULFID_By similarity
+feature 20 41 4 square solid SIGNAL
+  FT   SIGNAL        1     22  al.
+sequence
+  ...................MDLQVQIIXFLLISVTVIMSRGENVLTQS.PAIMAASLGQK
+  VTMTCSASSSVSSS.....YLHWYQQKSGASPKPLIHRTSNLASGV...PARFSGSGSG.
+  .TSYSLTISSVEAEDDATYYCQQWSG........YPFGSGTKLEIKR.
+}
+{
+name KV5B_MOUSE
+descrip Ig kappa chain V-V region MOPC 21 precursor.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN       30     52  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       53     63  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       64     78  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       79     85  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       86    117  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN      118    126  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      127    136  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       45    119  PF00047 ig
+feature 13 41 4 square solid SIGNAL
+  FT   SIGNAL        1     29  sequencing; Immunoglobulin V region;
+sequence
+  ............MHQTSMGIKMESHTLVFISILLCLYGADGNIVMTQS.PKSMSMSVGER
+  VTLTCKASENVVT......YVSWYQQKPEQSPKLLIYGASNRYTGV...PDRFTGSGSA.
+  .TDFTLTISSVQAEDLADYHCGQGYSYP......YTFGGGTKLEIK..
+}
+{
+name KV5A_MOUSE
+descrip Ig kappa chain V-V region MPC11 precursor.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN       42     64  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       65     75  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       76     90  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       91     97  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       98    129  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN      130    138  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      139    148  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       57    131  PF00047 ig
+feature 26 35 1 square solid REPEAT
+  FT   REPEAT       26     35  Framework-4.
+feature 38 47 1 square solid REPEAT
+  FT   REPEAT       38     47  Framework-4.
+feature 1 29 4 square solid SIGNAL
+  FT   SIGNAL        1     29  munoglobulin V region; Repeat; Signal.
+sequence
+  MHHTSMGIKMESQIQVFVFVFLWLSGVDGDIVMTQFAGVDGDIVMTQS.HKFMSTSVGDR
+  VSITCKASQDVST......TVAWYQQKPGQSPKLLIYSASYRYTGV...PDRFTGSGSG.
+  .TDFTFTISSVQAEDLAVYYCQQHYSTP......PTFGGGTKLEIKR.
+}
+{
+name KV2F_HUMAN
+descrip Ig kappa chain V-II region RPMI 6410 precursor.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN       21     43  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       44     59  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       60     74  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       75     81  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       82    113  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN      114    122  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      123    132  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       36    115  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         43    113  DISULFID_By similarity
+feature 22 41 4 square solid SIGNAL
+  FT   SIGNAL        1     20  al.
+sequence
+  .....................MRLPAQLLGLLMLWVPGSSGDVVMTQS.PLSLPVTLGQP
+  ASISCRSSQSLVYSD.GNTYLNWFQQRPGQSPRRLIYKVSNRDSGV...PDRFSGSGSG.
+  .TDFTLKISRVEAEDVGVYYCMQGTHWS......WTFGQGTKVEIKR.
+}
+{
+name KV2B_HUMAN
+descrip Ig kappa chain V-II region FR.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     39  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       40     54  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       55     61  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       62     93  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       94    102  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      103    112  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     95  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     93  DISULFID_By similarity
+sequence
+  .........................................DVVMTQS.PLFLPVTLGEP
+  ASIQCRSSQSLVYRB.GBTYLBWYLQKPGQSPELLIYLSSYRDSGV...PDRFSDSGSG.
+  .TDFTLKITRVQAEDVGVYYCMQATZSP......YTFGQGTKLZIKR.
+}
+{
+name KV2D_MOUSE
+descrip Ig kappa chain V-II region 2S1.3.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     39  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       40     54  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       55     61  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       62     93  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       94    102  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      103    112  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     95  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     93  DISULFID_By similarity
+sequence
+  .........................................DIVMTQA.AFSNPVTLGTS
+  ASFSCRSSKSLQQSK.GITYLYWYLQKPGQSPQLLIYQMSNLASGV...PDRFSGSGSG.
+  .TDFTLRISRVEAEDVGVYYCANLQELP......YTFGGGTKLEIK..
+}
+{
+name KV1_CANFA
+descrip Ig kappa chain V region GOM.
+creator Canis familiaris (Dog).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................DIVMTQT.PLSLSVSPGEP
+  ASISCRSSQSNLD......YLNWYLQKAGQSPRLLPEQDSQRASGV...PDRFSGSGSG.
+  .TDFTLRIGRVEAEDAGIYYCMQRSFYP......YTFGQGTRLEVRR.
+}
+{
+name LV7A_HUMAN
+descrip Ig lambda chain V-VII region MOT.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 40 161 5 square solid DOMAIN
+  FT   DOMAIN        1    105  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       17     91  PF00047 ig
+sequence
+  .......................................VTFYELTQ..PPSVSLAAGQT
+  AMITCEGNDIGER......SVHWYQQKPGQAPVPVIYDDADRPSGV...PARFSGYNSG.
+  .NSAILTINRVEAGDEADYFCQSWDNGSY....EVVFGTGTMVTVLG.
+}
+{
+name LV1I_HUMAN
+descrip Ig lambda chain V-I region EPS.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 163 5 square solid DOMAIN
+  FT   DOMAIN        1    105  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     91  PF00047 ig
+feature 162 162 5 square solid SITE
+  FT   SITE        104    104  CARBOHYD_Nlinked GlcNAc
+feature 65 141 3 square solid SITE
+  FT   SITE         22     89  DISULFID_By similarity
+sequence
+  .........................................QSVLTQ..PPSLSAAPGQR
+  VSISCSGSSSNIGKN....YVDWYQQLPGTAPKLLIFNNNKRPSGI...PDRFSGSKSG.
+  .TSATLGITGLQTGDEAIYYCGTWDNRR......SVFGGGTNVTVVG.
+}
+{
+name LV1B_HUMAN
+descrip Ig lambda chain V-I region HA.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 161 5 square solid DOMAIN
+  FT   DOMAIN        1    106  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     92  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     90  DISULFID_By similarity
+feature 42 42 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .........................................QSVLTQ..PPSVSGTPGQR
+  VTISCSGGSSNGTGN...NYVYWYQQLPGTAPKLLIYRDDKRPSGV...PDRFSGSKSG.
+  .TSASLAISGLRSEDEAHYHCAAWDYRLS....AVVFGGGTQLTVLR.
+}
+{
+name LV1A_HUMAN
+descrip Ig lambda chain V-I region VOR.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 161 5 square solid DOMAIN
+  FT   DOMAIN        1    105  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     91  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     89  DISULFID_By similarity
+feature 42 42 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .........................................QSVLTQ..PPSASGTPGQR
+  VTISCSGGNFDIGRN....SVNWYQVHPGTAPRLLIYSSDQRSSGV...PDRFSGSKSG.
+  .TSASLAISGLQSENEADYFCATWDDSLD....GPVFGGGTKVTVLG.
+}
+{
+name LV1E_HUMAN
+descrip Ig lambda chain V-I region NEWM.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 163 5 square solid DOMAIN
+  FT   DOMAIN        1     99  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     85  PF00047 ig
+feature 42 42 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .........................................QSVLTQ..PPSVSGAPGQR
+  VTISCTGSSSNIGAG...NHVKWYQQLPGTAPKLLIFHNN..........ARFSVSKSG.
+  .SSATLAITGLQAEDEADYYCQSYDRSL......RVFGGGTKLTVLR.
+}
+{
+name LV2F_HUMAN
+descrip Ig lambda chain V-II region MGC.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 164 5 square solid DOMAIN
+  FT   DOMAIN        1    108  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     92  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     90  DISULFID_By similarity
+feature 42 42 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .........................................QSALTQ..PPSASGSLGQS
+  VTISCTGTSSDVGGY...NYVSWYQQHAGKAPKVIIYEVNKRPSGV...PDRFSGSKSG.
+  .NTASLTVSGLQAEDEADYYCSSYEGSDN.....FVFGTGTKVTVLG.
+}
+{
+name LV2L_HUMAN
+descrip Ig gamma lambda chain V-II region DOT.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 162 5 square solid DOMAIN
+  FT   DOMAIN        1    106  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     92  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     90  DISULFID_By similarity
+sequence
+  .........................................ASALTQ..PRSLSGSPGQA
+  VTISCTGLPSVVDDD...NFVSWYQQTPGRAPRLLIYDDSLRPSGV...PNRFSGSKSD.
+  .TKAALTISGLQPDDEATYFCCSYVGNYI.....FVFGQGTDLTVLG.
+}
+{
+name LV6E_HUMAN
+descrip Ig lambda chain V-VI region EB4 precursor.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN       20     41  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       42     54  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       55     69  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       70     76  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       77    110  Framework-3.
+feature 142 149 5 square solid DOMAIN
+  FT   DOMAIN      111    118  Complementarity-determining-3.
+feature 155 167 5 square solid DOMAIN
+  FT   DOMAIN      119    131  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       34    112  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         41    110  DISULFID_By similarity
+feature 23 41 4 square solid SIGNAL
+  FT   SIGNAL        1     19  al.
+sequence
+  ......................MAWAPLLLTLLAHCTDCWANFMLTQ..PHSVSESPGKT
+  VTISCTGNSGSIASN....YVQWYQQRRVSAPTIVIYEDNQRPLGV...PDRFSGSIDSS
+  SNSASLTISGLKTEDEADYYCQSFDNTNQ.....GVFGGGTKLTVLG.
+}
+{
+name TVA3_MOUSE
+descrip T-cell receptor alpha chain V region CTL-F3 precursor.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 43 144 5 square solid DOMAIN
+  FT   DOMAIN       23    114  V segment.
+feature 145 167 5 square solid DOMAIN
+  FT   DOMAIN      115    132  J segment.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       37    113  PF00047 ig
+feature 64 64 5 square solid SITE
+  FT   SITE         43     43  CARBOHYD_Nlinked GlcNAc Potential
+feature 65 141 3 square solid SITE
+  FT   SITE         44    111  DISULFID_Potential
+feature 20 42 4 square solid SIGNAL
+  FT   SIGNAL        1     22  mmunoglobulin domain; Receptor; Signal;
+sequence
+  ...................MNMRPDTCSVLVLLLMLRR.NNGDSVTQT.EGLVTLTEGLP
+  VMLNCTYQSTYS......PFLFWYVQHLNEAPKLLFKSFTDNKRPE...HQGFHATLHKS
+  SSSFHLQKSSAQLSDSALYYCALSNAGA.....KLTFGGGTRLTVRP.
+}
+{
+name TVA1_RABIT
+descrip T-cell receptor alpha chain V region RL-5 precursor.
+creator Oryctolagus cuniculus (Rabbit).Eukaryota;
+type    PROTEIN
+group 1
+feature 41 144 5 square solid DOMAIN
+  FT   DOMAIN       21    114  V segment.
+feature 145 168 5 square solid DOMAIN
+  FT   DOMAIN      115    134  J segment.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       37    113  PF00047 ig
+feature 168 168 5 square solid SITE
+  FT   SITE        134    134  CARBOHYD_Nlinked GlcNAc Potential
+feature 20 40 4 square solid SIGNAL
+  FT   SIGNAL        1     20  domain; Receptor; Signal; T-cell.
+sequence
+  ...................MFSASCSVTVVVLLITVRR.TNGASVTQT.EGPVILSEGSS
+  LTLNCNYQTSYS......GFLFWYVQYLHEGPQLLLQSTTENQRME...HQGFHATFVKK
+  DSSFHLHKSSLQLSDSAVYYCALRRGAS....NKLTLGTGTLLKVELN
+}
+{
+name TVA1_MOUSE
+descrip T-cell receptor alpha chain V region PHDS58 precursor.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 43 145 5 square solid DOMAIN
+  FT   DOMAIN       21    114  V segment.
+feature 146 166 5 square solid DOMAIN
+  FT   DOMAIN      115    130  J segment.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       35    112  PF00047 ig
+feature 121 121 5 square solid SITE
+  FT   SITE         90     90  CARBOHYD_Nlinked GlcNAc
+feature 22 42 4 square solid SIGNAL
+  FT   SIGNAL        1     20  mmunoglobulin domain; Receptor; Signal;
+sequence
+  .....................MLLALLPVLGIHFVLRD.AQAQSVTQP.DARVTVSEGAS
+  LQLRCKYSYSAT......PYLFWYVQYPRQGLQLLLKYYSGDPVVQG..VNGFEAEFSKS
+  NSSFHLRKASVHWSDSAVYFCAVSGFAS.....ALTFGSGTKVIVL..
+}
+{
+name TVA3_HUMAN
+descrip T-cell receptor alpha chain V region PY14 precursor.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 43 143 5 square solid DOMAIN
+  FT   DOMAIN       21    112  V segment.
+feature 144 149 5 square solid DOMAIN
+  FT   DOMAIN      113    118  D segment.
+feature 150 166 5 square solid DOMAIN
+  FT   DOMAIN      119    135  J segment.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       35    112  PF00047 ig
+feature 22 42 4 square solid SIGNAL
+  FT   SIGNAL        1     20  or; Signal; T-cell.
+sequence
+  .....................MLLLLVPVLEVIFTLGG.TRAQSVTQL.GSHVSVSEGAL
+  VLLRCNYSSSVP......PYLFWYVQYPNQGLQLLLKYTSAATLVKG..INGFEAEFKKS
+  ETSFHLTKPSAHMSDAAEYFCAVSDLEPNSSASKIIFGSGTRLSIR..
+}
+{
+name KV1N_HUMAN
+descrip Ig kappa chain V-I region OU.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................DIQMTZS.PSSLSASVGBR
+  VTITCRASZTIS......SYLBWYZZKPGKAPBLLIYAASBLHSGV...PSRFSGSGSG.
+  .TBFTFTISSLZPZBFATYYCZZSYSSP......TTFGZGTRLZIKR.
+}
+{
+name KV1A_MOUSE
+descrip Ig kappa chain V-I region S107A.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     40  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       41     55  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       56     62  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       63     94  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       95    103  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      104    113  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     96  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     94  DISULFID_By similarity
+sequence
+  .........................................DIVMTQS.PTFLAVTASKK
+  VTISCTASESLYSSKHKVHYLAWYQKKPEQSPKLLIYGASNRYIGV...PDRFTGSGSG.
+  .TDFTLTISSVQVEDLTHYYCAQFYSYP......LTFGAGTKLELKR.
+}
+{
+name KV2A_MOUSE
+descrip Ig kappa chain V-II region MOPC 167.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     39  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       40     54  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       55     61  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       62     93  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       94    102  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      103    112  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     95  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     93  DISULFID_By similarity
+sequence
+  .........................................DIVITQD.ELSNPVTSGES
+  VSISCRSSKSLLYKD.GKTYLNWFLQRPGQSPQLLISLMSTRASGV...SDRFSGSGSR.
+  .TDFTLEISRVKAEDVGVYYCQQLVEYP......LTFGAGTKLELK..
+}
+{
+name LV1C_HUMAN
+descrip Ig lambda chain V-I region NEW.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 161 5 square solid DOMAIN
+  FT   DOMAIN        1    105  Ig-like.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       15     91  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         22     89  DISULFID_By similarity
+feature 42 42 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .........................................QSVLTQP..PSVSAAPGQK
+  VTISCSGGSTNIGNN....YVSWHQHLPGTAPKLLIYEDNKRPSGI...PDRISASKSG.
+  .TSATLGITGLRTGDEADYYCATWDSSLN....AVVFGGGTKVTVLG.
+}
+{
+name KV1K_HUMAN
+descrip Ig kappa chain V-I region Ka.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     34  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       35     49  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       50     56  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       57     88  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       89     97  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN       98    107  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     90  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     88  DISULFID_By similarity
+sequence
+  .........................................DIQMTQS.PSTLSVSVGDR
+  VTITCEASQTVL......SYLNWYQQKPGKAPKLLIYAASSLETGV...PSRFSGQGSG.
+  .TBFTFTISSVZPZBFATYYCQZYLDLP......RTFGQGTKVDLKR.
+}
+{
+name KV3F_MOUSE
+descrip Ig kappa chain V-III region MOPC 321 precursor.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN       21     43  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       44     58  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       59     73  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       74     80  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       81    112  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN      113    121  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      122    131  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       36    114  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         43    112  DISULFID_By similarity
+feature 22 41 4 square solid SIGNAL
+  FT   SIGNAL        1     20  al.
+sequence
+  .....................METDTLLLWVLLLWVPGSTGDIVLTQS.PASLAVSLGQR
+  ATISCRASKSVNTY..GNSFMZWYZZKPGZPPKLLIYRASNLZSGI...PARFSGSGSR.
+  .TBFTLTIBPVZABDVATYFCZZSBZBP......WTFGSGTKLEIKR.
+}
+{
+name KV2D_HUMAN
+descrip Ig kappa chain V-II region TEW.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     39  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       40     54  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       55     61  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       62     93  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       94    102  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      103    112  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     95  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     93  DISULFID_By similarity
+sequence
+  .........................................DIVMTQS.PLSLPVTPGEP
+  ASISCRSSQSLLHSD.GFDYLNWYLQKPGQSPZLLIYALSNRASGV...PDRFSGSGSG.
+  .TDFTLKISRVEAEDVGVYYCMZALQAP......ITFGQGTRLEIKR.
+}
+{
+name KV2C_HUMAN
+descrip Ig kappa chain V-II region MIL.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     38  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       39     53  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       54     60  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       61     92  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       93    101  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      102    111  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     94  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     92  DISULFID_By similarity
+sequence
+  .........................................DIVLTQS.PLSLPVTPGEP
+  ASISCRSSQNLLZSB..GBYLDWYLZKPGZSPZLLIYLGSNRASGV...PNRFSGSGSG.
+  .TBFTLKISRVZAZBVGVYYCMQALQTP......LTFGGGTNVEIKR.
+}
+{
+name KV2G_MOUSE
+descrip Ig kappa chain V-II region 26-10.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     39  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       40     54  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       55     61  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       62     93  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       94    102  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      103    112  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     95  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     93  DISULFID_By similarity
+sequence
+  .........................................DVVMTQT.PLSLPVSLGDQ
+  ASISCRSSQSLVHSN.GNTYLNWYLQKAGQSPKLLIYKVSNRFSGV...PDRFSGSGSG.
+  .TDFTLKISRVEAEDLGIYFCSQTTHVP......PTFGGGTKLEIKR.
+}
+{
+name KV1U_HUMAN
+descrip Ig kappa chain V-I region Ni.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     94  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     92  DISULFID_By similarity
+sequence
+  .........................................DIQMTQS.PSSLSATVGDR
+  VTLLCEASQSVLES..GNTFLAWYQQKPKKAPKLLIYDASNLETGV...PSRFSESGSG.
+  .TDFTFTISGLZPZBFAVYYCQZYDTLP......STFGVASKVESKR.
+}
+{
+name KV2F_MOUSE
+descrip Ig kappa chain V-II region 7S34.1.
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 42 65 5 square solid DOMAIN
+  FT   DOMAIN        1     23  Framework-1.
+feature 66 82 5 square solid DOMAIN
+  FT   DOMAIN       24     39  Complementarity-determining-1.
+feature 83 97 5 square solid DOMAIN
+  FT   DOMAIN       40     54  Framework-2.
+feature 98 104 5 square solid DOMAIN
+  FT   DOMAIN       55     61  Complementarity-determining-2.
+feature 105 141 5 square solid DOMAIN
+  FT   DOMAIN       62     93  Framework-3.
+feature 142 156 5 square solid DOMAIN
+  FT   DOMAIN       94    102  Complementarity-determining-3.
+feature 157 166 5 square solid DOMAIN
+  FT   DOMAIN      103    112  Framework-4.
+feature 58 143 0 square solid PFAM-A
+  FT   PFAM-A       16     95  PF00047 ig
+feature 65 141 3 square solid SITE
+  FT   SITE         23     93  DISULFID_By similarity
+sequence
+  .........................................DIVMTQT.APSALVTPGES
+  VSISCRSSKSLLHSN.GNTYLYWFLQRPGQCPQLLIYRMSNLASGV...PDRFSGSGSG.
+  .TAFTLRISRVEAEDVGVYYCMQQREYP......YTFGGGTKLEIKR.
+}
+{
+name 1tlk_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 41 47 0 square solid STRUCT
+  FT   STRUCT        8     14  STRAND
+feature 53 56 0 square solid STRUCT
+  FT   STRUCT       19     22  STRAND
+feature 61 70 0 square solid STRUCT
+  FT   STRUCT       27     36  STRAND
+feature 80 85 0 square solid STRUCT
+  FT   STRUCT       40     45  STRAND
+feature 92 93 0 square solid STRUCT
+  FT   STRUCT       48     49  STRAND
+feature 113 117 0 square solid STRUCT
+  FT   STRUCT       56     60  STRAND
+feature 123 128 0 square solid STRUCT
+  FT   STRUCT       65     70  STRAND
+feature 133 135 3 square solid STRUCT
+  FT   STRUCT       75     77  HELIX
+feature 137 145 0 square solid STRUCT
+  FT   STRUCT       79     87  STRAND
+feature 148 166 0 square solid STRUCT
+  FT   STRUCT       90    101  STRAND
+sequence
+  .................................VAEEKPHVKPYFTKT.ILDMDVVEGSA
+  ARFDCKVEGY......PDPEVMWFKD....DNPVKE.............SRHFQIDYDEE
+  .GNCSLTISEVCGDDDAKYTCKAVNSLG.......EATCTAELLVETM
+}
+{
+name 1wit_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 43 44 0 square solid STRUCT
+  FT   STRUCT        4      5  STRAND
+feature 52 55 0 square solid STRUCT
+  FT   STRUCT       11     14  STRAND
+feature 62 68 0 square solid STRUCT
+  FT   STRUCT       21     27  STRAND
+feature 80 84 0 square solid STRUCT
+  FT   STRUCT       33     37  STRAND
+feature 114 118 0 square solid STRUCT
+  FT   STRUCT       50     54  STRAND
+feature 123 127 0 square solid STRUCT
+  FT   STRUCT       57     61  STRAND
+feature 133 135 3 square solid STRUCT
+  FT   STRUCT       67     69  HELIX
+feature 137 145 0 square solid STRUCT
+  FT   STRUCT       71     79  STRAND
+feature 148 165 0 square solid STRUCT
+  FT   STRUCT       82     92  STRAND
+sequence
+  .......................................LKPKILTAS..RKIKIKAGFT
+  HNLEVDFIGA......PDPTATWTVG....DSGAAL.............APELLVDAKS.
+  .STTSIFFPSAKRADSGNYKLKVKNELG.......EDEAIFEVIVQ..
+}
+{
+name 2ncm_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 41 45 0 square solid STRUCT
+  FT   STRUCT        4      8  STRAND
+feature 52 56 0 square solid STRUCT
+  FT   STRUCT       11     15  STRAND
+feature 61 68 0 square solid STRUCT
+  FT   STRUCT       20     27  STRAND
+feature 80 85 0 square solid STRUCT
+  FT   STRUCT       34     39  STRAND
+feature 92 93 0 square solid STRUCT
+  FT   STRUCT       43     44  STRAND
+feature 113 117 0 square solid STRUCT
+  FT   STRUCT       52     56  STRAND
+feature 124 128 0 square solid STRUCT
+  FT   STRUCT       62     66  STRAND
+feature 137 144 0 square solid STRUCT
+  FT   STRUCT       75     82  STRAND
+feature 156 166 0 square solid STRUCT
+  FT   STRUCT       88     98  STRAND
+sequence
+  .....................................RVLQVDIVP....SQGEISVGES
+  KFFLCQVAGDA.....KDKDISWFSP...NGEKLSPN............QQRISVVWNDD
+  .DSSTLTIYNANIDDAGIYKCVVTAEDGT......QSEATVNVKIFQ.
+}
+{
+name 1a64_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 52 56 0 square solid STRUCT
+  FT   STRUCT        2      6  STRAND
+feature 61 63 0 square solid STRUCT
+  FT   STRUCT       11     13  STRAND
+feature 78 85 0 square solid STRUCT
+  FT   STRUCT       24     31  STRAND
+feature 89 95 0 square solid STRUCT
+  FT   STRUCT       34     40  STRAND
+feature 99 100 0 square solid STRUCT
+  FT   STRUCT       44     45  STRAND
+feature 113 115 0 square solid STRUCT
+  FT   STRUCT       50     52  STRAND
+feature 126 128 0 square solid STRUCT
+  FT   STRUCT       58     60  STRAND
+feature 133 135 3 square solid STRUCT
+  FT   STRUCT       65     67  HELIX
+feature 137 145 0 square solid STRUCT
+  FT   STRUCT       69     77  STRAND
+feature 155 166 0 square solid STRUCT
+  FT   STRUCT       82     93  STRAND
+sequence
+  ..................................................GTVWGALGHG
+  INLNIPNFQMTD....DIDEVRWERG.STLVAEFKRKPFLK........SGAFEILAN..
+  ...GDLKIKNLTRDDSGTYNVTVYSTNGT.....RILDKALDLRILE.
+}

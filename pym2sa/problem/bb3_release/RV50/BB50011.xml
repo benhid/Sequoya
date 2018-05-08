@@ -1,0 +1,899 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref5/test/1taq_ref5</aln-name>
+<sequence seq-type="Protein">
+<seq-name>DIN7_YEAST</seq-name>
+<seq-info>
+<accession>Q12086</accession>
+<nid>DIN7_YEAST</nid>
+<definition>DNA-damage inducible protein DIN7.</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>96</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>114</fstart><fstop>247</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>96</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>114</fstart><fstop>247</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-domain.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>138</fstart><fstop>231</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>99</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>138</fstart><fstop>231</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>99</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>100</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB003185 Pfam-B_3185</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>258</fstart><fstop>389</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078967 Pfam-B_78967</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>100</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB003185 Pfam-B_3185</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>258</fstart><fstop>389</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078967 Pfam-B_78967</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------mgipgllpqlk-riqkqvslkkymyqtlaidgyawlhrascacafelv-------mnkptnkylqffikrlqllkrlk---ikpyivfdgdslfvknhtetrrrkkrlenemiakk------------lwsagnrynameyf------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------qksvditpemakciidycklhsipyivap-feadpqmvylekmg--------liqgiisedsdllvfgcktlitklndqgk----------aleiskddfsalpenfplg-elseqqfrnlvclag-cdyt-sgiwkvgvvtamkivkrysemkdiliqie--------rteklcfskafkqqvefanyafqyqrvfcplsnqittlnnipkavtnshaeiikimkcigsvvergsgvrkdvintknidhkvhemiakgelhpvdmasklinrerklkarklfkvgllggesnsfnkkveqplvdtqdvlserensldnknassiymtspaaisgtvpsif------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RA13_SCHPO</seq-name>
+<seq-info>
+<accession>P28706</accession>
+<nid>RA13_SCHPO</nid>
+<definition>DNA repair protein rad13.</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>395</fstart><fstop>414</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>UIM.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>742</fstart><fstop>870</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>395</fstart><fstop>414</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>UIM.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>742</fstart><fstop>870</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-domain.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>394</fstart><fstop>411</fstop><fcolor>6</fcolor><fscore>0.00</fscore><fnote>PF02809 UIM</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>765</fstart><fstop>853</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>394</fstart><fstop>411</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF02809 UIM</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>765</fstart><fstop>853</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>878</fstart><fstop>989</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016466 Pfam-B_16466</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>259</fstart><fstop>393</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB083819 Pfam-B_83819</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>412</fstart><fstop>751</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB084284 Pfam-B_84284</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>878</fstart><fstop>989</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016466 Pfam-B_16466</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>259</fstart><fstop>393</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB083819 Pfam-B_83819</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>412</fstart><fstop>751</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB084284 Pfam-B_84284</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------mgvsglwdile-pvkrpvkletlvnkrlaidasiwiyqflkavrdkeg--------nqlksshvvgffrrickllffg---ikpvfvfdggapslkrqtiqkrqarrldreenatvtankllalqmrhqamlleennkkatal---anasvqner--qmpssmtl-dnseikpvlnqrknylkpdpyqlpemdvsfdklgssydprimsqdeltqyvssftkiedinlfdfsnidfdselfqslpdtdkysilsaarlrsrlrmglsseqlsemfpnrmdfsrfqierlkerndltqrlmdftgmnefgpsrvvseknreyilvknegae----ggwalgvisgstnnepiiidde----atklssnlidededeafydvplpsrshsmnprelvaaklkeikensfse-----nqqsdeadynvtddlilqlatqqsleenkkskelfslsasefdklnsekktfeilstdipaedsmnsllndeenlklehvgdvsndslafaekkhpengtsifmdalpsasrekktndlidplpfqpmdwgksiffeklkkptetfmdsktdipseapdnsklvedtnlhtinatvniesdldaakpgienpiispllpvkddekdldlrelnplepfenmkeqaddgtvtnplnvssdkamsvyllssenakdtgdiksesid-----------avlptletsspslsiptdfqkeaspnkgaaalsskve--------------------------------------------------------------pevveklldeeeeemiirmaeeekeydrfvselnqrheteewnqeafekrlkelknqkrsekrdadevtqvmikecqellrlfglpyivap-qeaeaqcskllelk--------lvdgivtddsdvflfggtrvyrnmfnqn------------kfvelylmddmkrefnvn----qmdliklahllg-sdyt-mglsrvgpvlaleilhefpgdtglfefkk--------wfqrlstghasknd--vntpvkkrinklvg----kiilpsefpnplvdeaylhpavddskqsfqwgipdldelrqflmatvgwskqrtnevllpviqdmhkkqfvgtqsnltqffeggntnvyaprvayhfkskrlenalssfknqisnqspmseeiqadadafgeskgsdelqs-----rilrrkkmmasknssdsdsdsednflasltpktnsssisienlprktklstsllkkpskrrrk-------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RAD2_YEAST</seq-name>
+<seq-info>
+<accession>P07276</accession>
+<nid>RAD2_YEAST</nid>
+<definition>DNA repair protein RAD2.</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>756</fstart><fstop>884</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>756</fstart><fstop>884</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-domain.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>780</fstart><fstop>868</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>780</fstart><fstop>868</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>890</fstart><fstop>1002</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016466 Pfam-B_16466</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>228</fstart><fstop>381</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB083819 Pfam-B_83819</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>402</fstart><fstop>766</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB084284 Pfam-B_84284</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>382</fstart><fstop>401</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB094276 Pfam-B_94276</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>890</fstart><fstop>1002</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016466 Pfam-B_16466</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>228</fstart><fstop>381</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB083819 Pfam-B_83819</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>402</fstart><fstop>766</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB084284 Pfam-B_84284</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>382</fstart><fstop>401</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB094276 Pfam-B_94276</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------mgvhsfwdiag-ptarpvrlesledkrmavdasiwiyqflkavrdqeg--------navknshitgffrrickllyfg---irpvfvfdggvpvlkretirqrkerrqgkresakstarkllalqlqngsndnvknstpssgs---svqifkpqdewdlpdipgfkydkedarvnsnktfeklmnsingdgledidldtinpasaefeelpkatqylilsslrlksrlrmgyskeqletifp----------------------------------nsmdfsrfqidmvkrrnfftqklinttgfqdggasklneevinrisgqkskeyk---ltktnngwil--glgand---------gsdaqkaividdkdagalvkqldsnaedgdvlrwddlednslkivrhessnattapqkrsnrsede-gcdsdeceweevelkpknvkfvedfslkaarlpymgqslnnagsksfldkrhdqaspskttptmrisrisvedddedylkqieeiemmeavqlskmekkpeaddkskiakpvtskgtearppivqygllgaqpdskqpyhvtnlnsksesvikrtsktvlsefrppsqqedkgailtegeqnlnfishkipqfdfnnensllfqkntesnvs-qeatkekspipempswfsstasqqlynpy--------------------nttnfvedknvrneqesgaettnkgssyelltglnateileresekessndenkdddlevlseelfedvptks----qiskeaedndsrkvesinkehrkplifdydfsedeednivenmikeqeefdtfknttlstsaernvaenafvedelfeqqmkdkrdsdevtmdmikevqellsrfgipyitap-meaeaqcaellqln--------lvdgiitddsdvflfggtkiyknmfhek------------nyvefydaesilkllgld----rknmielaqllg-sdyt-nglkgmgpvssieviaefgnlknfkdwyn--------ngqfdkrkqetenk---fekdlrkklvnne-----iildddfpsvmvydaymrpevdhdttpfvwgvpdldmlrsfmktqlgwpheksdeiliplirdvnkrkkkgkqkrineffpreyisgdkkln-tskristatgklkkrkm---------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>XPG_HUMAN</seq-name>
+<seq-info>
+<accession>P28715</accession>
+<nid>XPG_HUMAN</nid>
+<definition>DNA-repair protein complementing XP-G cells (Xeroderma pigme</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>753</fstart><fstop>881</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1057</fstart><fstop>1073</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Nuclear localization signal (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>753</fstart><fstop>881</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>981</fstart><fstop>1009</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Interaction with PCNA.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1057</fstart><fstop>1073</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Nuclear localization signal (Potential).</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>777</fstart><fstop>865</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>777</fstart><fstop>865</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>997</fstart><fstop>1145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031069 Pfam-B_31069</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>225</fstart><fstop>763</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031900 Pfam-B_31900</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>997</fstart><fstop>1145</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031069 Pfam-B_31069</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>225</fstart><fstop>763</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031900 Pfam-B_31900</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------mgvqglwklle-csgrqvspealegkilavdisiwlnqalkgvrdrhg--------nsienphlltlfhrlckllffr---irpifvfdgdapllkkqtlvkrrqrkdlassdsrkttekllktflkrqaiktafrskrdea----lpsltqvrrendlyvlpplqeeekhsseeedekewqermnqkqalqeeffhnpqaidiesedfsslppevkheiltdmkeftkrrrtlfeampe------------------------------------esddfsqyqlkgllkknylnqhiehvqkemnqqhsghirrqyedeggflkevesrrvvsedtshyilikgiqaktvae------vdseslpssskmhgmsfdvksspceklktekepdatppsprtllamqaallgssseeelesenrrqargrnapaavdegsisprtlsaikraldddedvkvcagddvqtggpgaeemrinsstensdeglkvrdgkgipftatlasssvnsaeehvastnegreptdsvpkeqmslvhvgteafpisdesmikdrkdrlplesavvrhsdapglpngreltpasptctnsvsknethaevleqqnelcpyeskfdssllssddetkckpnsasevigpvslqetssivsvpseav----------------------------------dnvenvvsfnakehenfletiqeqqttesagqdlisipkavepmeidseesesdgsfievqsvisdeelqaefpetskppseqgeeelvgtregeapaesesllrdnserddvdgepqeaekdaedslhewqdinleeletlesnllaqqnslkaqkqqqeriaatvtgqmflesqellrlfgipyiqap-meaeaqcaildltd--------qtsgtitddsdiwlfgarhvyrnffnkn------------kfveyyqyvdfhnqlgld----rnklinlayllg-sdyt-egiptvgcvtameilnefpghglepllkf--------sewwheaqknpkir--pnphdtkvkkklrt-----lqltpgfpnpavaeaylkpvvddskgsflwgkpdldkirefcqryfgwnrtktdeslfpvlkqld---aqqtqlridsffrlaqqekedakriksqrlnravtcmlrkekeaaaseieavsvamekefelldkakrktqkrgitntleessslkrkrlsdskrkntcggflgetclsessdgsssehaessslmnvqrrtaakepktsasdsqnsvkeapvknggattssssdsdddggkekmvlvtarsvfgkkrrklrrargrkrkt
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>XPG_MOUSE</seq-name>
+<seq-info>
+<accession>P35689</accession>
+<nid>XPG_MOUSE</nid>
+<definition>DNA-repair protein complementing XP-G cells homolog (Xeroder</definition>
+<organism>Mus musculus (Mouse).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>752</fstart><fstop>882</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1049</fstart><fstop>1065</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Nuclear localization signal (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>752</fstart><fstop>882</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1049</fstart><fstop>1065</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Nuclear localization signal (Potential).</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>776</fstart><fstop>864</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>776</fstart><fstop>864</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>996</fstart><fstop>1122</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031069 Pfam-B_31069</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>225</fstart><fstop>762</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031900 Pfam-B_31900</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>996</fstart><fstop>1122</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031069 Pfam-B_31069</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>225</fstart><fstop>762</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031900 Pfam-B_31900</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------mgvqglwklle-csghrvspealegkvlavdisiwlnqalkgvrdshg--------nvienahlltlfhrlckllffr---irpifvfdgdapllkkqtlakrrqrkdsasidsrkttekllktflkrqalktafrssrhea----ppsltqvqrqddiyvlpplpeeekhsseeedekqwqarmdqkqalqeeffhnpqaidiesedfsslppevkheiltdmkeftkrrrtlfeampe------------------------------------esndfsqyqlkgllkknylnqhienvqkemnqqhsgqiqrqyqdeggflkevesrrvvsedtshyilikgiqgkkvmd------vdseslpsssnvhsvssnlkssphekvkperepeaappsprtllaiqaamlgsssedepesregrqskernsgatadagsisprtraaiqkaldddndekvsgssddlaekmllgsrleqeehadetaergggvpfdtapltpsvtevkecvtsgssaneqtdsahsfttashrcdtpketvslasavkeasqissecevegrpaalspafigtpsshvsgvlsereptlappttrthsdqgidihpedpelqnglypletkcnssrlssddeteggqnpapkacstvhvpaeam----------------------------------snlenalpsnaeergdfqetiqlrevpeaaarelisapkpmgpmemeseesesdgsfievqsvvsnselqtesseasthlsekdaeepreileegtsrdtecllqdssdieameghr-eadidaedmpnewqdinleeldalesnllaeqnslkaqkqqqdriaasvtgqmflesqellrlfgvpyiqap-meaeaqcamldlsd--------qtsgtitddsdiwlfgarhvyknffnkn------------kfveyyqyvdfysqlgld----rnklinlayllg-sdyt-egiptvgcvtameilnefpgrgldpllkf--------sewwheaqnnkkva--enpydtkvkkklrk-----lqltpgfpnpavadaylrpvvddsrgsflwgkpdvdkirefxqryfgwnrmktdeslypvlkhln---ahqtqlridsffrlaqqekqdaklikshrlsravtcmlrkereekapeltkvtealddakgktqkrelp--------------ykketsvpkrrrpsgnggflgdpycsespqesscedgegssvmsarqrsaaesskigcsdvpdlvrdsphgrqgcvstssssedge-dkaktvlvtarpvfgkkklklksmkrrkkkt
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>XPG_XENLA</seq-name>
+<seq-info>
+<accession>P14629</accession>
+<nid>XPG_XENLA</nid>
+<definition>DNA-repair protein complementing XP-G cells homolog (Xeroder</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>786</fstart><fstop>914</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>936</fstart><fstop>952</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Nuclear localization signal (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1079</fstart><fstop>1095</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Nuclear localization signal (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>95</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>786</fstart><fstop>914</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>936</fstart><fstop>952</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Nuclear localization signal (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1079</fstart><fstop>1095</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Nuclear localization signal (Potential).</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>810</fstart><fstop>898</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>810</fstart><fstop>898</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>98</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>925</fstart><fstop>1033</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016466 Pfam-B_16466</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1034</fstart><fstop>1146</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031069 Pfam-B_31069</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>229</fstart><fstop>400</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031900 Pfam-B_31900</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>680</fstart><fstop>796</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031900 Pfam-B_31900</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>925</fstart><fstop>1033</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016466 Pfam-B_16466</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1034</fstart><fstop>1146</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031069 Pfam-B_31069</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>229</fstart><fstop>400</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031900 Pfam-B_31900</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>680</fstart><fstop>796</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031900 Pfam-B_31900</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------mgvqglwklle-csgrpinpgtlegkilavdisiwlnqavkgardrqg--------naiqnahlltlfhrlckllffr---irpifvfdgeapllkrqtlakrrqrtdkasndarktnekllrtflkrqaikaalsgnkqsneelpsfsqvprketedlyilpplednennsseeeeereweermnqkqrlqedffanpssvdieseefkslppevkheiltdmkdftkrrrtlfeampe------------------------------------dssdfsqyqlkgllkkndlnkcidnvrkelnqqysgevqaqfeseggflkevetrrlvseddshyilikgiqskqeekkvdsppqsitfnssqtpktyldlklasahktkplqtssaeaappsprtlfaiqeamaeswdhekhekp--------svsgceaegnvsprtlqaiyqvlaedeagesnkikvvlqsdeerkpktkvlvisssdeeddclnyqdgtkttlgasliksispssmqcqestadslpnytrskpvsqieepmadhnlqgdncnvpnakdklivppslgnvdkpiilsntipvnsefripllpvnmsmretviipnntgslgssryislerdatkqgfsdnpvgdlvrspdepalnassalsdrktsatqsllcnniecteqsmvqgcsntldvtqttqpsggsevnkpaeynpqdkkvfgsndssamyvpmtpesiivsdeefvnekedsdsddsfievdsefstsnsqhvvf---kepgdtretatnfqaveegnsgsqdiplehdsgepheqsnseeskdlddvsnewqdisveeleslennlyvqqtslqaqqqqqeriaatvtgqmclesqellqlfgipyivap-meaeaqcaildltd--------qtsgtitddsdiwlfgarhvyknffsqn------------khveyyqyadihnqlgld----rsklinlayllg-sdyt-egiptvgyvsameilnefpgqgleplvkf--------kewwseaqkdkkmr--pnpndtkvkkklrl-----ldlqqsfpnpavasaylkpvvdesksafswgrpdleqirefcesrfgwyrlktdevllpvlkqln---aqqtqlridsffrleqheaaglks---qrlrravtcmkrkerdveaeeveaavavmerectnqrkgqktntk-------sqgtkrrkptecsqedqdpgggfigielktlsskayssdgsssdaedlpsglidkqsqsgiv---------grqkasnkvesssssd----dedrtvmvtakpvfqgkktksktmketvkrk
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_ARCFU</seq-name>
+<seq-info>
+<accession>O29975</accession>
+<nid>FEN_ARCFU</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Archaeoglobus fulgidus.Archaea;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>139</fstart><fstop>239</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>139</fstart><fstop>239</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>153</fstart><fstop>153</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>153</fstart><fstop>153</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------mgadigdlfe---reeveleyfsgkkiavdafntlyqfisiirqpdg--tplkdsqgritshlsgilyrvsnmvevg---irpvfvfdgeppefkkaeieerkkrraeaeemwiaalqag--d-kdakkyaqaa----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------grvdeyivdsaktllsymgipfvdap-segeaqaaymaakg--------dveytgsqdydsllfgsprlarnlaitgkrklpgknvyvdvkpeiiilesnlkrlglt----reqlidiailvg-tdyn-egvkgvgvkkalnyiktygdifralkalk--------vnidh---veeirnfflnppvtddyriefr-----epdfekaieflceehdfsrervekaleklkalkstqat-------lerwf---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_METAC</seq-name>
+<seq-info>
+<accession>Q8TIY5</accession>
+<nid>FEN_METAC</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Methanosarcina acetivorans.Archaea;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>140</fstart><fstop>240</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>140</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------mgtdigdllq---krkielsdlsnrvvavdafntlhqflsiirqrdg--splvnsrgkvtshlsgllyrtaslveag---ikpvfifdgkppdlksetlsrrkevretslekwenakaeg--dleaaykyaqas----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------srvdqeivedskyllgimgipwiqap-cegeaqaahmvlkk--------dadyvasqdydsflfgapkvvrnmavtgkrklpgknvyvdvelevieleetlralein----rdqlidiaicvg-tdyn-kglekvgpktalklikkhgdihavlrekd--------meieg---ldrirklfthpevtedyeikwt-----kpdseklikflceendfstdrvekaaerlkaasgarqk------tldqwf---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_METTH</seq-name>
+<seq-info>
+<accession>O27670</accession>
+<nid>FEN_METTH</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Methanobacterium thermoautotrophicum.Archaea;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>140</fstart><fstop>230</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>140</fstart><fstop>230</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------mgvklrdvvs---prrirledlrgrtvavdaantlyqflssirqrdg--tplmdsrgrvtshlsgilyrtaavmere---irviyvfdgrshhlkgetvsrradirkksevewkraleeg--didrakkyavrs----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------srmsseilesskrllellgipyvqap-gegeaqasymvkmg--------dawavasqdydcllfgaprvvrnltlsg----------kledpeiielestlrelsis----htqlvdmallvg-tdfn-egvkgigarrglklirekgdifkvirdle--------adiggd--pqvlrriflepevsedyeirwr-----kpdvegvieflctehgfsedrvraalkkfegasst-------qksledwf---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_PYRAE</seq-name>
+<seq-info>
+<accession>Q8ZYN2</accession>
+<nid>FEN_PYRAE</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Pyrobaculum aerophilum.Archaea;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>244</fstart><fstop>268</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>144</fstart><fstop>243</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>105</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>244</fstart><fstop>268</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>144</fstart><fstop>243</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>105</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>158</fstart><fstop>158</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>158</fstart><fstop>158</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------mgvtelgkligkevrrevkleslsgkcialdaynalyqflasirqpdg--tplmdragritshlsglfyrtinlleag---irpvyvfdgkppefklaeieerrktrekameevlraikeg--rredvakyakra----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------vfitsemvdeakrllsymgvpwvqap-segeaqaaymarkg--------hcwavgsqdydsllfgspklvrnlavspkrkig--eevieltpeiieldavlralrlkn---reqlidlaillg-tdynpdgvpgvgpqkalkliwefgsleklletvl--------kgayfpidpleikkfflnppvtdqyatevr-----dpdeaalkdflirehdfseervskalerlrkargklk-----tssldsff---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_AERPE</seq-name>
+<seq-info>
+<accession>Q9YFY5</accession>
+<nid>FEN_AERPE</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Aeropyrum pernix.Archaea;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>144</fstart><fstop>244</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>105</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>144</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>105</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>158</fstart><fstop>158</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>158</fstart><fstop>158</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------mlgvnlrelippearrevelralsgyvlaldaynmlyqfltairqpdg--tplldregrvtshlsglfyrtinlveeg---ikpvyvfdgkppemksreveerlrrkaeaearyrraveag--eveearkyamma----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------arltsdmveeskelldamgmpwvqap-aegeaqaaymarkg--------dawatgsqdydsllfgsprlvrnlaitgrrklpgrdqyveikpeiielepllsklgit----reqliavgillg-tdynpggvrgygpktalrlvkslgdpmkvlasvp--------rgeydpdylrkvyeyflnppvtddykiefr-----kpdqdkvreilverhdfnperveralerlgkayreklrg--rqsrldmwfg--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_METKA</seq-name>
+<seq-info>
+<accession>Q8TXU4</accession>
+<nid>FEN_METKA</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Methanopyrus kandleri.Archaea;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>239</fstart><fstop>261</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>137</fstart><fstop>238</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>239</fstart><fstop>261</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>137</fstart><fstop>238</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>151</fstart><fstop>151</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>151</fstart><fstop>151</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------mglaelreliepeetdlralagreiaidafnalyqflttimk-dg--rplmdsrgritshlngllyrtvnlveeg---ikpvyvfdgeppdlkretlerrrerkeeameklrraktk-----eerekyarqv----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------arldeslvedakrlldlmgipwvqap-segeaqcaymarcg--------dvwatgsqdydsllfgsprlvrnitivgkrkhphtgeiievkpeimrledvldqlgles---reqlvdlaillg-tdynpdgvpgigpkralqlirkygsldelkdtdi-----wpkierhlpvepeklrrlflepevtddyeldwd-----epdeeglveflveerdfsedrvrraverlkealqelrkgg-rqetldaff---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_SULSO</seq-name>
+<seq-info>
+<accession>Q980U8</accession>
+<nid>FEN_SULSO</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Sulfolobus solfataricus.Archaea;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>140</fstart><fstop>240</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>101</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>140</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>154</fstart><fstop>154</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------mdladlvk-dvkrelsfselkgkrvsidgynalyqflaairqpdg--tplmdsqgrvtshlsglfyrtinileeg---vipiyvfdgkppeqkseelerrrkakeeaerklerakseg--kieelrkysqai----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------lrlsnimveeskkllramgipivqap-segeaeaaylnklg--------lswaaasqdydailfgakrlvrnltitgkrklpnkdvyveikpelieteillkklgit----reqlidigilig-tdynpdgirgigperalkiikkygkiekameyge-------iskkdinfnideirglflnpqvvkpeealdln----epngediinilvyehnfseervkngierltkaikeakgas-rqtgldrwf---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_SULTO</seq-name>
+<seq-info>
+<accession>Q976H6</accession>
+<nid>FEN_SULTO</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Sulfolobus tokodaii.Archaea;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>142</fstart><fstop>242</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>101</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>142</fstart><fstop>242</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>156</fstart><fstop>156</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>156</fstart><fstop>156</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------mdlaelve-eikkelsfaelkgkkisidaynalyqflaairqpdg--tplmdsqgrvtshlnglfyrtisileeg---iipiyvfdgkppeqkaqelerrkkvkeeaekkleqaktegsiktselkkyaqms----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------irltnemaeeskellkamgipvvqap-segeaeaayinilg--------lswatasqdydsllfgakrlirnltlsgkrklpgkdvyveikpelieldtllkklglt----reqlidigiivg-tdynpdgikgygvktayriikkygslekaiekge-------ipkikvnfnveeirslflkpqvvepkenlelv----dcdsnkildilvkthdfneervkngierlekakreakgas-rqtgldqwf---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_THEAC</seq-name>
+<seq-info>
+<accession>Q9HJD4</accession>
+<nid>FEN_THEAC</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Thermoplasma acidophilum.Archaea;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>139</fstart><fstop>238</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>139</fstart><fstop>238</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>101</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>153</fstart><fstop>153</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>153</fstart><fstop>153</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------mgtdisdivv---shetslkdqgnqtfsidtynilyqllsnvrqydg--mplmdshgnvtshlygifyrtinllenr---irpvyvfdgkpsplknrtiserqmmkekakaeleeaierg---eedlrqyysri----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------nyitpqivddtkklldymgipyvdap-segeaqasymtkkn---------vdgvisqdydcllfgarkilrnfaiygrrkvprkniyktvypeyiildevlsanqin----qdqligigilvg-tdfn-egikgigakkalalikkegdiksvlkhig-----------knienldeiidffknpp-vvdydfkfr-----kpdtdaiehflcdehdfsrerirdhleslrkndqastqfr-----ldsfd---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN1_HUMAN</seq-name>
+<seq-info>
+<accession>P39748</accession>
+<nid>FEN1_HUMAN</nid>
+<definition>Flap endonuclease-1 (EC 3.-.-.-) (Maturation factor 1) (MF1)</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>104</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>122</fstart><fstop>253</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>104</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>122</fstart><fstop>253</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>328</fstart><fstop>355</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Interaction with PCNA.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>146</fstart><fstop>237</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>107</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>146</fstart><fstop>237</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>107</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----mgiqglakliadvap-sairendiksyfgrkvaidasmsiyqfliavrqg-g--dvlqneegettshlmgmfyrtirmmeng---ikpvyvfdgkppqlksgelakrserraeaekqlqqaqaag--aeqevekftkrl----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------vkvtkqhndeckhllslmgipyldap-seaeascaalvkag--------kvyaaatedmdcltfgspvlmrhltaseak---------klpiqefhlsrilqelgln----qeqfvdlcillg-sdyc-esirgigpkravdliqkhksieeivrrld-----pnkypvpenwlhkeahqlflepevldpesvelkw---sepneeelikfmcgekqfseerirsgvkrlsksrqgstqgr-----lddffkvtgslssakrkepepkgstkkkaktgaagkfkrgk---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RAD2_SCHPO</seq-name>
+<seq-info>
+<accession>P39750</accession>
+<nid>RAD2_SCHPO</nid>
+<definition>DNA repair protein rad2.</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>105</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>123</fstart><fstop>254</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>105</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>123</fstart><fstop>254</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-domain.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>147</fstart><fstop>238</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>108</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>147</fstart><fstop>238</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>108</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----mgikglaqvlsehap-asvkhndiknyfgrkvaidasmslyqfliqvrsqdg--qqlmneqgettshlmgmfyrtlrivdng---ikpcfvfdgkpptlksgelakrvarhqkaredqeetkevg--taemvdrfakrt----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------vkvtrqhndeakrllelmgipfvnap-ceaeaqcaalarsg--------kvyaaasedmdtlcfqapvllrhltfseqr---------kepiseyniekalngldms----veqfvdlcillg-cdyc-epirgvgparavelirqygtldrfvkead-----rskypipedwpyedarrlfldaevlpgeeielkw---kspdadgiiqflvkekgfnedrvklginrlekasktipqgr-----ldsffkpvpsspkkpvdtkskgsakrkrdsnkggeskkkr----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RA27_YEAST</seq-name>
+<seq-info>
+<accession>P26793</accession>
+<nid>RA27_YEAST</nid>
+<definition>Structure specific endonuclease RAD27.</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>105</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>120</fstart><fstop>251</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-DOMAIN.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>105</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>N-domain.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>120</fstart><fstop>251</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>I-domain.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>144</fstart><fstop>235</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>108</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>144</fstart><fstop>235</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>108</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----mgikglnaiisehvp-sairksdiksffgrkvaidasmslyqfliavrqqdg--gqltneagettshlmgmfyrtlrmidng---ikpcyvfdgkppdlksheltkrssrrvetekklaeatt-----elekmkqerrl----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------vkvskehneeaqkllglmgipyiiap-teaeaqcaelakkg--------kvyaaasedmdtlcyrtpfllrhltfseak---------kepiheidtelvlrgldlt----ieqfvdlcimlg-cdyc-esirgvgpvtalklikthgsiekivefiesgesnntkwkipedwpykqarmlfldpevidgneinlkw---sppkekelieylcddkkfseervksgisrlkkglksgiqgr-----ldgffqvvpktkeqlaaaakraqenkklnknknkvtkgrr----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FEN_HALN1</seq-name>
+<seq-info>
+<accession>Q9HQ27</accession>
+<nid>FEN_HALN1</nid>
+<definition>Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>142</fstart><fstop>230</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>103</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>142</fstart><fstop>230</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00867 XPG_I</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>103</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00752 XPG_N</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>156</fstart><fstop>156</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>156</fstart><fstop>156</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Magnesium 1 By similarity</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------mgnadlrqlaaieetpfadlegsvvavdahnwlykyltttvqwtg-advyttsdgtevanlvgavqglpkffehg---ltpvfvwdggvtelkddeiadrreqreryeeqlddareag--daaeaarldart----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------qrltptihettrelfdlldipqveap-aegeaqaaymtrtdd-------avdyagsddydclllgspvtlrqltssg-------------hpelmdfdatlaehdlt----weqlvdvgilcg-tdfn-pgidgfgpttaldaigehgdlwdvlaaeg--------ehvah---gdrirelflnpdvtddyvidpdv----spaidaarafvtdewevdadavargferidaaaaqtg--------ldrwt---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1a76_</seq-name>
+<seq-info>
+<accession>1a76_</accession>
+<nid>1a76_</nid>
+<definition>   Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>   Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>5</fstart><fstop>8</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>11</fstart><fstop>13</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>16</fstart><fstop>19</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>22</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>55</fstart><fstop>70</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>73</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>110</fstart><fstop>115</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>120</fstart><fstop>124</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>128</fstart><fstop>142</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>145</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>152</fstart><fstop>162</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>167</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>174</fstart><fstop>179</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>182</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>195</fstart><fstop>199</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>199</fstart><fstop>207</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>210</fstart><fstop>221</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>234</fstart><fstop>244</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>246</fstart><fstop>254</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>257</fstart><fstop>266</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>282</fstart><fstop>290</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>297</fstart><fstop>315</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------gvqfgdfip---kniisfedlkgkkvaidgmnalyqfltsirlrdg--splrnrkgeitsayngvfyktihllend---itpiwvfdgeppklkektrkvrremkekaelkmkeaikke--dfeeaakyakrvs----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------yltpkmvenckyllslmgipyveap-segeaqasymakkg--------dvwavvsqdydallygaprvvrnltttk------------empelielnevledlris----lddlidiaifmg-tdynpggvkgigfkrayelvrsg-vakdvlkkevey--------------ydeikrifkepkvtdnyslslk-----lpdkegiikflvdendfnydrvkkhvdklynliankt----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1b43_A</seq-name>
+<seq-info>
+<accession>1b43_A</accession>
+<nid>1b43_A</nid>
+<definition>   Flap structure-specific endonuclease (EC 3.-.-.-).</definition>
+<organism>   Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A</organism>
+<ec>3.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>5</fstart><fstop>8</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>11</fstart><fstop>13</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>15</fstart><fstop>19</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>22</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>27</fstart><fstop>38</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>55</fstart><fstop>70</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>73</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>99</fstart><fstop>111</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>113</fstart><fstop>122</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>124</fstart><fstop>127</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>128</fstart><fstop>142</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>145</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>152</fstart><fstop>163</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>167</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>174</fstart><fstop>178</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>182</fstart><fstop>186</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>191</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>201</fstart><fstop>205</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>207</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>211</fstart><fstop>219</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>222</fstart><fstop>233</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>246</fstart><fstop>255</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>259</fstart><fstop>263</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>264</fstart><fstop>267</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>271</fstart><fstop>280</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>296</fstart><fstop>304</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>311</fstart><fstop>328</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>330</fstart><fstop>333</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------gvpigeiip---rkeielenlygkkiaidalnaiyqflstirqkdg--tplmdskgritshlsglfyrtinlmeag---ikpvyvfdgeppefkkkelekrreareeaeekwrealekg--eieearkyaqra----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------trvnemliedakkllelmgipivqap-segeaqaaymaakg--------svyasasqdydsllfgaprlvrnltitgkrklpgknvyveikpeliileevlkelklt----reklielailvg-tdynpggikgiglkkaleivrhskdplakfqkqsdvd-------------lyaikefflnppvtdnynlvwr-----dpdeegilkflcdehdfseervknglerlkkaiksgkqst-----leswfkr-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX9_ECOLI</seq-name>
+<seq-info>
+<accession>P38506</accession>
+<nid>EX9_ECOLI</nid>
+<definition>Exodeoxyribonuclease IX (EC 3.1.11.-) (Exonuclease IX) (Exo </definition>
+<organism>Escherichia coli.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>33</fstart><fstop>178</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>190</fstart><fstop>281</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>33</fstart><fstop>178</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>190</fstart><fstop>281</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>32</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078966 Pfam-B_78966</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>32</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078966 Pfam-B_78966</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mrglfpishpavacsgiecypyrlifkgvivavhllivdalnlirrihavqgsp----------------cvetcqhaldqlimhsq-pthavavfddenrs-----------------sgwrhqrlpdy-kagrpp---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mpeelhdempalraafeqrgvpcwsts--gneaddlaatlavkvtqag--hqativstdkgycqllsptlrirdyfqk---------------rwldapfidkefgvq----pqqlpdywglagissskvpgvagigpksatqllvefqslegiyenldav--------------aekwrkklethkemaflcrdiar----lqtdlhid-gnlqqlrlvr----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX9_VIBCH</seq-name>
+<seq-info>
+<accession>Q9KTK4</accession>
+<nid>EX9_VIBCH</nid>
+<definition>Probable exodeoxyribonuclease IX (EC 3.1.11.-) (Exonuclease </definition>
+<organism>Vibrio cholerae.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>27</fstart><fstop>182</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>189</fstart><fstop>277</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>27</fstart><fstop>182</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>189</fstart><fstop>277</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----mgsnldgfdynkgltspy--flwflvmslhlviidalnlirrvhsaqpdpn-----------ditrtaetttrtlqriineaq-pshmiavfdhhlsd-----------------rgwraellpty-kanrkp---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mpdvlqqgidaiqdawwqlgidsllse--gdeaddlvatlackvaahq--ekvtiistdkgycqllsptlqirdyfqqr---------------wldepfiaqefgvt----paqltdywgltgvsssqipgvagigpkaakeilnqfssieeayaspelp---------------akyrkkldphiemarickqvsa----lktdielg-fnlqdirfnsssad------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1exn_A</seq-name>
+<seq-info>
+<accession>1exn_A</accession>
+<nid>1exn_A</nid>
+<definition>   Probable exodeoxyribonuclease IX (EC 3.1.11.-) (Exonuclease </definition>
+<organism>   Vibrio cholerae.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>2</fstart><fstop>8</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>8</fstart><fstop>19</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>25</fstart><fstop>39</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>41</fstart><fstop>48</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>60</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>65</fstart><fstop>73</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>76</fstart><fstop>97</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>102</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>110</fstart><fstop>125</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>128</fstart><fstop>132</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>135</fstart><fstop>141</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>145</fstart><fstop>150</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>154</fstart><fstop>157</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>158</fstart><fstop>166</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>170</fstart><fstop>181</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>183</fstart><fstop>186</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>195</fstart><fstop>206</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>208</fstart><fstop>215</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>222</fstart><fstop>229</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>231</fstart><fstop>242</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>243</fstart><fstop>253</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>256</fstart><fstop>270</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------rnlxivdgtnlgfrfkhnns---------------kkpfassyvstiqslaksys-arttivlgdkgk-------------------svfrlehlpey-kgnrdekyaqrt----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------eeekaldeqffeylkdafelcktt-fptftir--gveaddxaayivklighlydhvwlistdgdwdtllt-dkvsrfsft---------------trreyhlrdxyehhnvdd----veqfislkaixgdlgdnirgvegigakrgyniirefgnvldiidqlplp-------------gkqkyiqnlnaseellfrnl--------ilvdlpt--ycvdaiaavgqdvldkftkdileiae------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_BUCAI</seq-name>
+<seq-info>
+<accession>P57506</accession>
+<nid>EX53_BUCAI</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>172</fstart><fstop>278</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>170</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>172</fstart><fstop>278</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------mnhiknnpviiidgslylyasyyafcn-------lentsgkpcgaiygmlkiidnifkkyknlkkiiiifdssr-------------------ktfrnklfkey-kknrss---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mpdllvmqiqplfeilkkigiktltip--gieaddvigslsyqlekqg--ekililshdkdmlqlvteninifhkknn---------------ciitseiiqekygik----pkefidflalmgdatdnipgvpkigiktalflinkfsnieniynnieki----kslplrnaknisiqlknnkerallsyklar-------ikldipi--diklkdiilkkycskntfqifknyfss-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_BUCAP</seq-name>
+<seq-info>
+<accession>Q8K9D0</accession>
+<nid>EX53_BUCAP</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Buchnera aphidicola (subsp. Schizaphis graminum).Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>172</fstart><fstop>269</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>170</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>172</fstart><fstop>269</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------mpytkkkpiiivdgslylyrsyftfqn-------fnsneenpsgaiygmlktiqnilnknynskkiiiifdssk-------------------knfrntifkey-ksnrsa---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mpnklyvqiqplfkileeigiktlsil--gieaddiigslaykleqkg--eqvlivshdkdmiqlitdninvlniskn---------------siltpekiqekygiy----pkefidllalmgdssdnipgvpkigiktalfllkkfsnikniynnieki----qslpfrnaknaaiqlknykktaflsyqlak-------ikldvpi--nitseeitlkktcfkklsnlirwysfne----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_BUCBP</seq-name>
+<seq-info>
+<accession>Q89AD1</accession>
+<nid>EX53_BUCBP</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------miiykknvnyllidgtsylyrayyaflk-------fknnfnkpcgaiygmlnmlrsmllkyp-ysnivvifdspq-------------------ktfrnelfipy-kknrpk---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mpndlkeqilpihhiikhigipiisip--hveaddiigtlatklykkk--yfilistndkdlaqlvnihihvligtsn---------------ivldeskvkkkygii----pklipdllglmgdnsdnipgvptvgkktalillktfgsleniynnieki----pkclikkaktiynnlhtykklaflsqklat-------iktdinv--nittkkikmlppctteisnfflhykfynwnkllkqglwlknck-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_AQUAE</seq-name>
+<seq-info>
+<accession>O67550</accession>
+<nid>EX53_AQUAE</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Aquifex aeolicus.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>164</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>166</fstart><fstop>262</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>164</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>166</fstart><fstop>262</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------mktlyildgssfvyrsffalpp-------lstskgfptnaiygflrmlfslikker-pqylvvvfdapa-------------------ktkrekiyady-kkqrpk---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------apdplkvqipvikeilklagipllelp--gyeaddviaylaekfsqkg--fkvkiyspdkdllqlvsenvlvinpmnd---------------evftkervikkfgve----pqkipdylalvgdkvdnvpgiegvgpktainilkkygsvenilkn--------------wekfqrefprakkedlelsyklvk-------lytdldi--elseedlkikrpdlnklkqklqelemksllkevdkifrqa---sqrslf-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_MYCPU</seq-name>
+<seq-info>
+<accession>Q98PK2</accession>
+<nid>EX53_MYCPU</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Mycoplasma pulmonis.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>170</fstart><fstop>272</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>168</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>170</fstart><fstop>272</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------mtksgsksekfllidgnylvhrsyyvsfk----------fknnfrstiylffqtiikiiknln-penifiafdeeg-------------------gtwrhdlckey-ksqrsk---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------medefwnifkaireildsinlnsggfr--gheaddviatitskfkde---nqiyifsrdkdllqlidknvyithdnelkn--------------lisienfyqnfqle----pdqivdfkaiagdssdnlkgiagigekgaknllnnfkslekifdsles--------tnliskaqkqkirdgkeqalflkkivt-------lnkevpm--klekelfaikinineeilekldkydsryvlkqfekale-----sddylw-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_MYCPN</seq-name>
+<seq-info>
+<accession>P75403</accession>
+<nid>EX53_MYCPN</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Mycoplasma pneumoniae.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>175</fstart><fstop>274</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>173</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>175</fstart><fstop>274</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------mknailidgnslayrayfatwq---qvefaklhnlpfnnairtmlmmcwnllqskq-ydygvisfdtka-------------------ptfrdqlysey-kskrsk---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------tpsellvqipvvkeslrhlgflvceqd--gfeaddligsyarlmtqnn--vavdiyssdrdllqlvdsmtsvwlcvkg-----------tkemkeyntdnfaeqffglt---pkqvieykglvgdnsdnltgikgigpkkgidllkqygtidnifan-----------fdklskalqtilqgqidtakkfsflas-------iktdikl--nddivhaalkpidkqallelldkygikalaqkfsql--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_MYCGE</seq-name>
+<seq-info>
+<accession>Q49406</accession>
+<nid>EX53_MYCGE</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Mycoplasma genitalium.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>175</fstart><fstop>274</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>173</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>175</fstart><fstop>274</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------mkkailidgnslayrayfatwk---qveyakqnnlpfnnairtmllmcwnlikanv-yqygivsfdtka-------------------ptfrdqiyegy-kqkrvk---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------tpvellvqiplikqalvylgflvcekd--gfeaddligsyanlftkqe--itvdiyssdrdmlqlvnaftnvflcikg-----------tkemvmynnenfkslfygla---pyqvveykglvgdnsdnlagikgigpikgiellqqygtidniytn-----------fnnlpnqlqkllnnqkeiaktfsflak-------iktdiel--dqnidltglkpiqkqaliqllsenkintlvekfski--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_UREPA</seq-name>
+<seq-info>
+<accession>Q9PQ75</accession>
+<nid>EX53_UREPA</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Ureaplasma parvum (Ureaplasma urealyticum biotype 1).Bacteri</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>175</fstart><fstop>274</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>172</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>175</fstart><fstop>274</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------mkkaividgnsliyrafhatyk---qaewavekqlmptnaiklvasmifkilnqeq-ftygliamdask-------------------qtfraqeyaay-katrkp---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mdaklivqlpylkklfvamgfriisqp--gieaddfvgsfsnlmnkfd--vdttiyssdrdmlqlinkntklkllktg-----------tsvmqeinltnfsllnngil---pyqiieykglvgdssdnligvkgigpktainlllkydnieniytn-----------lekiapsvknkliehkdmaflskklaa-------iqtdllf--deklenfvlkpyntqeldelftslkinnmqnyyk----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_BACSU</seq-name>
+<seq-info>
+<accession>P54161</accession>
+<nid>EX53_BACSU</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Bacillus subtilis.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>173</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>175</fstart><fstop>273</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>173</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>175</fstart><fstop>273</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------mnnnklllvdgmallfraffatavh---rnfmindsgvptngvngflkhlitavetfq-pthvvccwdmgs-------------------ktyrndlfqdy-kanrsa---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ppvelipqfdlakeaaaelgimnigfa--gyeaddcigtladlfan---eaditvvtgdrdllqlltdkvsvallqkg-----------ignykvytketfyeetgvm----pkalidikalmgdssdnypgvkgigektayklireyetidrllen-----------lsllpkgqqgkiqqglsdlemsrklae-------ihcsvpl--actlk-dalftlqmeqaadmlrrhqikgiermleklnareiv--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_STRCO</seq-name>
+<seq-info>
+<accession>Q9RJ79</accession>
+<nid>EX53_STRCO</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Streptomyces coelicolor.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>176</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>183</fstart><fstop>221</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>176</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>183</fstart><fstop>221</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------mlldtaslyfrayfgvpds------vkapdgtpvnavrglldfidrlvkdhr-pehlvacmdadwr------------------phwrvelipsy-kahrvaeerpag----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------pdaeevpdtlspqvpvieavldalgiarvgva--gyeaddvigtytaratg-----pvdivtgdrdlyqlvddargvrvlypvkg---------vgtlnlvdeaalrekygvd----gagyadlallrgdpsdglpgvpgigektaakllaefgdlagiqaavd-------dpkarltptqrkrlteagpylavapkvvr-------vaadvpl--pdtgtalphgprdaaalealaarwglggslqrllttlta-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_MYCTU</seq-name>
+<seq-info>
+<accession>Q10699</accession>
+<nid>EX53_MYCTU</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Mycobacterium tuberculosis.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>295</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>184</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>295</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------mrsplvlldgasmwfrsffgvps------sitapdgrpvnavrgfidsmavvitqqr-pnrlavcldldwr------------------pqfrvdlipsy-kahrvaepepng---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------qpdveevpdeltpqvdmimelldafgiamagap--gfeaddvlgtlatrerr----dpvivvsgdrdllqvvaddpvpvrvlylgrg--------lakatlfgpaevaeryglpahragaayaelallrgdpsdglpgvpgvgektaatllarhgsldqimaaad-------drkttmakglrtkllaasayikaadrvvr-------vatdapvtlstptdrfplvaadpertaelatrfgvessiarlqkaldtlpg--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EX53_BACHD</seq-name>
+<seq-info>
+<accession>Q9KAV6</accession>
+<nid>EX53_BACHD</nid>
+<definition>Probable 5'-3' exonuclease (EC 3.1.11.-).</definition>
+<organism>Bacillus halodurans.Bacteria;</organism>
+<ec>3.1.11.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>177</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>179</fstart><fstop>261</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>177</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF02739 5_3_exonuc_N</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>179</fstart><fstop>261</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01367 5_3_exonuclease</fnote></fitem>
+</ftable>
+<length>1331</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------mhspvlllidgfnllsrgyfatsygkdeaqlprneagyyinalrvffpklfqlirehn-vthvavawdvkre------------------dshrrqafafy-kasrge---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------lpealieqyetatslleeigvaqvtip--pyeaddtigafacrwakee-kghcfiysndrdllqllskstsqiisskg-------------kdliyteenfrndynis----paqwvdvkallgdksdnipgcpgvgeksalpliqqygtietlyeqied--------ldpkykryhkklvageesviiskelat-------itteieai-ssfslnslvlttpadliidtlarcgirvklapvqtelklg----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 1 1 1 1 1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

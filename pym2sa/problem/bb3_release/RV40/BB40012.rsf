@@ -1,0 +1,726 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1ekf_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 223 225 3 square solid STRUCT
+  FT   STRUCT        7      9  HELIX
+feature 227 228 0 square solid STRUCT
+  FT   STRUCT       11     12  STRAND
+feature 253 259 0 square solid STRUCT
+  FT   STRUCT       37     43  STRAND
+feature 269 272 0 square solid STRUCT
+  FT   STRUCT       52     55  STRAND
+feature 276 278 0 square solid STRUCT
+  FT   STRUCT       59     61  STRAND
+feature 283 286 3 square solid STRUCT
+  FT   STRUCT       66     69  HELIX
+feature 290 292 0 square solid STRUCT
+  FT   STRUCT       73     75  STRAND
+feature 295 299 0 square solid STRUCT
+  FT   STRUCT       78     82  STRAND
+feature 305 308 0 square solid STRUCT
+  FT   STRUCT       88     91  STRAND
+feature 310 323 3 square solid STRUCT
+  FT   STRUCT       93    106  HELIX
+feature 332 345 3 square solid STRUCT
+  FT   STRUCT      114    127  HELIX
+feature 347 349 3 square solid STRUCT
+  FT   STRUCT      129    131  HELIX
+feature 358 367 0 square solid STRUCT
+  FT   STRUCT      139    148  STRAND
+feature 383 392 0 square solid STRUCT
+  FT   STRUCT      161    170  STRAND
+feature 405 408 0 square solid STRUCT
+  FT   STRUCT      182    185  STRAND
+feature 428 431 3 square solid STRUCT
+  FT   STRUCT      204    206  HELIX
+feature 435 443 3 square solid STRUCT
+  FT   STRUCT      210    218  HELIX
+feature 454 459 0 square solid STRUCT
+  FT   STRUCT      224    229  STRAND
+feature 465 469 0 square solid STRUCT
+  FT   STRUCT      234    238  STRAND
+feature 472 479 0 square solid STRUCT
+  FT   STRUCT      241    248  STRAND
+feature 486 490 0 square solid STRUCT
+  FT   STRUCT      254    258  STRAND
+feature 502 514 3 square solid STRUCT
+  FT   STRUCT      269    281  HELIX
+feature 522 525 0 square solid STRUCT
+  FT   STRUCT      285    288  STRAND
+feature 530 537 3 square solid STRUCT
+  FT   STRUCT      293    300  HELIX
+feature 542 548 0 square solid STRUCT
+  FT   STRUCT      305    311  STRAND
+feature 555 561 0 square solid STRUCT
+  FT   STRUCT      318    324  STRAND
+feature 572 574 0 square solid STRUCT
+  FT   STRUCT      329    331  STRAND
+feature 583 596 3 square solid STRUCT
+  FT   STRUCT      340    353  HELIX
+feature 607 609 0 square solid STRUCT
+  FT   STRUCT      362    364  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................................ASSSFKAADLQLEMTQKPHKKPGP
+  GEPLVFGKTFTDHMLMVEWNDK.GWGQPRIQPFQNLTLHPASSSLHYSLQLFEGMKAFKG
+  KDQQVRLFRPWLNMDRMLRSAMRLCLPSFD.KLELLECIRRLIEVDKDWVPDAA.GTSLY
+  VRPVLIGNEPSLGVSQP...RRALLFVILCPVGAYFPGG.SVTPVSLLADPAFIRAWVGG
+  .VGNYKLGG.NYGPTVLVQQEALKRG.....CEQVLWLYGPDH.QLTEVGTMNIFVYWTH
+  .EDGVLELVTPPLN.GVILPGVVRQSLLDMAQTWGE....FRVVERTITMKQLLRALEEG
+  RVREVFGSGTACQVCPVHRILYK......DRNLHIPTMENGPELILRFQKELKEIQYGIR
+  ..AHEWMFPV......
+}
+{
+name P54687
+descrip Branched-chain-amino-acid aminotransferase, cytosolic (EC 2.
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       68    368  PF01063 aminotran_4
+feature 192 233 0 square solid PFAM-B
+  FT   PFAM-B        2     35  PB042032 Pfam-B_42032
+feature 234 266 0 square solid PFAM-B
+  FT   PFAM-B       36     67  PB007963 Pfam-B_7963
+feature 428 428 12 square solid SITE
+  FT   SITE        222    222  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........MDCSNG........SAECTGEGGSKEVVGTFKAKDLIVTPATILKEKPDP
+  .NNLVFGTVFTDHMLTVEWSSEFGWEKPHIKPLQNLSLHPGSSALHYAVELFEGLKAFRG
+  VDNKIRLFQPNLNMDRMYRSAVRATLPVFD.KEELLECIQQLVKLDQEWVPYST.SASLY
+  IRPAFIGTEPSLGVKKP...TKALLFVLLSPVGPYFSSG.TFNPVSLWANPKYVRAWKGG
+  .TGDCKMGG.NYGSSLFAQCEDVDNG.....CQQVLWLYGRDH.QITEVGTMNLFLYWIN
+  .EDGEEELATPPLD.GIILPGVTRRCILDLAHQWGE....FKVSERYLTMDDLTTALEGN
+  RVREMFSSGTACVVCPVSDILYK......GETIHIPTMENGPKLASRILSKLTDIQYGRE
+  ..ESDWTIVLS.....
+}
+{
+name P54690
+descrip Branched-chain-amino-acid aminotransferase, cytosolic (EC 2.
+creator Rattus norvegicus (Rat).Eukaryota;
+type    PROTEIN
+group 1
+feature 197 202 5 square solid DOMAIN
+  FT   DOMAIN       26     31  Poly-Glu.
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       95    395  PF01063 aminotran_4
+feature 185 233 0 square solid PFAM-B
+  FT   PFAM-B       14     62  PB081626 Pfam-B_81626
+feature 426 426 12 square solid SITE
+  FT   SITE        247    247  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ...................................................MAYLSRATA
+  TLARQDCSNGCSASYAEEEELEASTESYDEEGGSEASTQTFRAKDLIITKADVLKKKPDP
+  .SSLVFGASFTDHMLMVEWTSKYGWDKPHIKPFENLSIHPAASVLHYAVELFEGLKAFRG
+  VDNKIRLFRPDLNMKRMCRSAVRTTLPEFD.KEELLQCVLQLIQLDREWVPYST.SASLY
+  IRPTFIGIEPSLGVKKP...SKALLFVILSPVGSYFSNG.TFSPVSLWANPKFVRSWKGG
+  .TGDFKMGC.NYGSSLLAQCEAAENG.....CHQVLWLYGKEN.RITEVGTMNLFLYWIN
+  .KDGEEELATPPLD.GVILPGVTRQSILELGEEWGE....FKVCERHITMDDLSTALEEN
+  RVKEMFGSGTACVVCPVASILYK......GQMLHIPTMENGHKLSSRIMAKLTDIQYGRI
+  .KSE.WTLELP.....
+}
+{
+name P54688
+descrip Branched-chain-amino-acid aminotransferase, cytosolic (EC 2.
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 267 574 0 square solid PFAM-A
+  FT   PFAM-A       93    380  PF01063 aminotran_4
+feature 234 266 0 square solid PFAM-B
+  FT   PFAM-B       60     92  PB007963 Pfam-B_7963
+feature 426 426 12 square solid SITE
+  FT   SITE        244    244  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ......................................................MPAILS
+  RVAPRTFNLVGSRLMASAARLETVPREEIHKEYDRKKTFYHRDLEIQLAGPTQLKTKPLD
+  PTKLKFGHTYADYMMTCDWDAERGWHHPKIEPIGELKIHPGAKVLHYASELFEGMKAYRG
+  IDNKIRMFRPEMNMARMKRTALRAALPDFD.SEEMINVLTELLRLDQEWVPNSD.VCSLY
+  LRPTLIGTDPTLGVGCA...TEAKMFVITGPVGAYYSTG..FQPVSLLADSRFIRAFPGG
+  .VGAYKMGC.NYAPTIWVGKEAASKN.....CQQVLWLYGENE.DLTEVGTMNIFLFWKN
+  .EEGDMELITPPLHRGLILPGVTRDSLLELGREWGE....YKVTERTLNMEEVKKALSEK
+  RLYEMFGSGTACVVSPVGKILYHNKVTDEYEELHIPTMSSKFGVMQKFYNTINDIQYGRI
+  .IKDGWMRDI......
+}
+{
+name P38891
+descrip Branched-chain-amino-acid aminotransferase, mitochondrial pr
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       68    373  PF01063 aminotran_4
+feature 594 614 0 square solid PFAM-B
+  FT   PFAM-B      374    393  PB081603 Pfam-B_81603
+feature 426 426 12 square solid SITE
+  FT   SITE        219    219  BINDING_Pyridoxal phosphate By similarity
+feature 199 214 12 square solid SIGNAL
+  FT   SIGNAL        1     16  Mitochondrion (Potential).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................MLQRHSLKLGKFSIRTLATGAPLDASKLKITRNPNPSK.PRP
+  NEELVFGQTFTDHMLTIPWSAKEGWGTPHIKPYGNLSLDPSACVFHYAFELFEGLKAYRT
+  PQNTITMFRPDKNMARMNKSAARICLPTFE.SEELIKLTGKLIEQDKHLVPQGN.GYSLY
+  IRPTMIGTSKGLGVGTP...SEALLYVITSPVGPYYKTG..FKAVRLEATDYATRAWPGG
+  .VGDKKLGA.NYAPCILPQLQAAKRG.....YQQNLWLFGPEK.NITEVGTMNVFFVFLN
+  KVTGKKELVTAPLD.GTILEGVTRDSVLTLARDKLDP.QEWDINERYYTITEVATRAKQG
+  ELLEAFGSGTAAVVSPIKEIGWNN....EDIHVPLLPGEQCGALTKQVAQWIADIQYGRV
+  .NYGNWSKTVADLN..
+}
+{
+name Q99w55
+descrip Probable branched-chain-amino-acid aminotransferase (EC 2.6.
+creator Staphylococcus aureus (strain Mu50 / ATCC 700699),Staphyloco
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       45    338  PF01063 aminotran_4
+feature 225 266 0 square solid PFAM-B
+  FT   PFAM-B        3     44  PB007963 Pfam-B_7963
+feature 426 426 12 square solid SITE
+  FT   SITE        196    196  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................................MSQAVKVERRETLKQKPN
+  TSQLGFGKYFTDYMLSYDYDADKGWHDLKIVPYGPIEISPAAQGVHYGQSVFEGLKAYKR
+  D.GEVALFRPEENFKRLNNSLARLEMPQVD.EAELLEGLKQLVDIERDWIPEGE.GQSLY
+  IRPFVFATEGALGVGAS...HQYKLLIILSPSGAYYGGE.TLKPTKIYVEDEYVRAVRGG
+  .VGFAKVAG.NYAASLLAQTNANKLG.....YDQVLWLDGVEQKYIEEVGSMNIFFVEN.
+  .....GKVITPELN.GSILPGITRKSIIELAKNLG.....YEVEERRVSIDELFESYDKG
+  ELTEVFGSGTAAVISPVGTLRYE......DREIVIN.NNETGEITQKLYDVYTGIQNGTL
+  EDKNGWRVVVPKY...
+}
+{
+name O86505
+descrip Probable branched-chain-amino-acid aminotransferase (EC 2.6.
+creator Streptomyces coelicolor.Bacteria;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       50    344  PF01063 aminotran_4
+feature 231 266 0 square solid PFAM-B
+  FT   PFAM-B       14     49  PB015740 Pfam-B_15740
+feature 426 426 12 square solid SITE
+  FT   SITE        202    202  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................................MTTPTIELKPSAHPLSDSERAAI
+  LANPGFGRHFTDHMVTIKWTEGRGWHDGQLVPYAPLSLDPATMVLHYAQEIFEGLKAYRR
+  PDGSVATFRPEKNGARFQASSRRLGMPELP.VDTFIEACDALVAQDEKWVPAHGGEESLY
+  LRPFMIATEVGLGVRPA...NEYLFIVIASPAGAYFPGG..VKPVSIWVSEDRVRAVPGG
+  .MGDAKTGG.NYAASLLAQAEAAAKG.....CDQVCYLDAIERKWVEELGGMNLYFVYG.
+  .....NKIVTPSLT.GSILEGVTRDSLLTVARDLG.....YEAEEGRVSVDQWQRDSENG
+  TLTEVFACGTAAVITPVGTVKRA......GAQWQQS.GGETGEVTQRLRDALLDIQRGTV
+  ADPHGWMHTLA.....
+}
+{
+name O32954
+descrip Probable branched-chain-amino-acid aminotransferase (EC 2.6.
+creator Mycobacterium leprae.Bacteria;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       52    350  PF01063 aminotran_4
+feature 221 266 0 square solid PFAM-B
+  FT   PFAM-B        6     51  PB015740 Pfam-B_15740
+feature 426 426 12 square solid SITE
+  FT   SITE        204    204  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................MTSGFLEFTVSLSAHPVTDAERESI
+  LAEPGFGKYHTDHMVSIDYIDGRGWHDARVIPYGPIQLDPSAIVLHYAQEVFEGLKAYRW
+  ADGSIVSFRPDANAARLRSSARRIAIPELP.DELFIDSLCQLIAVDNAWVPRVGGEEALY
+  LRPFIFATEPGLGVRPA...KQYRYLLIASPVGAYFKGG..INPVTVWVSMEYVRASPGG
+  .TGAAKFGG.NYAASLLAQTEAAANG.....CDQVVWLDAVERRFVEEMGGMNIFFVLGS
+  ..GGSARLVTPELS.GSLLPGVTRASLLQLAIDAG.....FSVEERKIDIDEWQKKAAAG
+  EITEVFACGTAAFITPVSRVKYG......DTEFTIA.GGAPGEVTMALRDTLTGIQRGTF
+  ADTHGWMARLG.....
+}
+{
+name P54689
+descrip Branched-chain-amino-acid aminotransferase (EC 2.6.1.42) (BC
+creator Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       31    325  PF01063 aminotran_4
+feature 237 262 0 square solid PFAM-B
+  FT   PFAM-B        2     27  PB013214 Pfam-B_13214
+feature 426 426 12 square solid SITE
+  FT   SITE        182    182  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................................MKDLD
+  WNNLGFSYIKTDYRFIAHWKDG.KWDEGKLTTDSTLHIHEGSTALHYGQQCFEGLKAYRC
+  KDGSINLFRPQANAERMQRTADRLLMPRVP.TELFVRACKEVVKANQDWLGPYGSGATLY
+  LRPFLIGVGENIGVKTA...PEFIFSVFCCPVGAYFKGG..LAPSN.FITTDYDRAAPMG
+  .TGGVKVGG.NYAASLLPHELAAEQGTPERKFADAIYLDPKTHTKIEEVGAANFFGITK.
+  ....DNKFITPKS..ESILPSITKYSLLHIAKERLG....MEAIEGDVYIDQLDQ.....
+  .FVEAGACGTAAVITPVGGIQHN......GKFHVFDSETEVGPVTRRLYDELTGIQFGDI
+  EAPEGWIVKVE.....
+}
+{
+name Q9fya6
+descrip Branched-chain-amino-acid aminotransferase 5, chloroplast pr
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A      110    397  PF01063 aminotran_4
+feature 226 261 0 square solid PFAM-B
+  FT   PFAM-B       69    104  PB020101 Pfam-B_20101
+feature 426 426 12 square solid SITE
+  FT   SITE        261    261  BINDING_Pyridoxal phosphate By similarity
+feature 158 222 12 square solid SIGNAL
+  FT   SIGNAL        1     65  Chloroplast (Potential).
+sequence
+  ............................................................
+  ............................................................
+  .....................................MERSAVASGFHRNYILCASRAAT
+  STTRLHSLSSLRNFPSSSLRIRHCPSPISSNFIVSEVSRNRRCDAVSSSTTDVTELAEID
+  WDKIDFGLKPTDYMYAMKCSRDGEFSQGQLQPFGNIDINPAAGVLNYGQGLFEGLKAYRK
+  QDGNILLFRPEENAIRMRNGAERMCMPSPT.VEQFVEAVKTTVLANKRWIPPPG.KGSLY
+  IRPLLMGTGAVLGLAPA...PEYTFLIFVSPVGNYFKEG..VAPINLIVETEFHRATPGG
+  .TGGVKTIG.NYAAVLKAQSIAKAKG.....YSDVLYLDCLHKRYLEEVSSCNIFIVKD.
+  .....NVISTPEIK.GTILPGITRKSIIEVARSQG.....FKVEERNVTVDELVE.....
+  .ADEVFCTGTAVVLSPVGSITYK......SQRFSYG.EDGFGTVSKQLYTSLTSLQMGLS
+  EDNMNWTVQLS.....
+}
+{
+name 1a3g_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 264 266 0 square solid STRUCT
+  FT   STRUCT        5      7  STRAND
+feature 269 271 0 square solid STRUCT
+  FT   STRUCT       10     12  STRAND
+feature 273 275 3 square solid STRUCT
+  FT   STRUCT       14     16  HELIX
+feature 283 287 3 square solid STRUCT
+  FT   STRUCT       24     28  HELIX
+feature 290 292 0 square solid STRUCT
+  FT   STRUCT       31     33  STRAND
+feature 295 298 0 square solid STRUCT
+  FT   STRUCT       36     39  STRAND
+feature 306 308 0 square solid STRUCT
+  FT   STRUCT       46     48  STRAND
+feature 310 324 3 square solid STRUCT
+  FT   STRUCT       50     64  HELIX
+feature 332 345 3 square solid STRUCT
+  FT   STRUCT       72     85  HELIX
+feature 359 367 0 square solid STRUCT
+  FT   STRUCT       91     99  STRAND
+feature 383 391 0 square solid STRUCT
+  FT   STRUCT      114    122  STRAND
+feature 407 409 0 square solid STRUCT
+  FT   STRUCT      128    130  STRAND
+feature 428 443 3 square solid STRUCT
+  FT   STRUCT      148    162  HELIX
+feature 454 458 0 square solid STRUCT
+  FT   STRUCT      168    172  STRAND
+feature 466 469 0 square solid STRUCT
+  FT   STRUCT      178    181  STRAND
+feature 473 477 0 square solid STRUCT
+  FT   STRUCT      185    189  STRAND
+feature 493 496 3 square solid STRUCT
+  FT   STRUCT      199    201  HELIX
+feature 502 513 3 square solid STRUCT
+  FT   STRUCT      207    218  HELIX
+feature 532 535 3 square solid STRUCT
+  FT   STRUCT      232    235  HELIX
+feature 544 549 0 square solid STRUCT
+  FT   STRUCT      238    243  STRAND
+feature 553 556 0 square solid STRUCT
+  FT   STRUCT      247    250  STRAND
+feature 559 560 0 square solid STRUCT
+  FT   STRUCT      253    254  STRAND
+feature 573 574 0 square solid STRUCT
+  FT   STRUCT      257    258  STRAND
+feature 583 597 3 square solid STRUCT
+  FT   STRUCT      266    280  HELIX
+feature 607 609 0 square solid STRUCT
+  FT   STRUCT      290    292  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................KADYIWFNGEMVRWEDAKVHVMSHALHYGTSVFEGIRCYDS
+  HK.GPVVFRHREHMQRLHDSAKIYRFPVSQSIDELMEACRDVIRKNN........LTSAY
+  IRPLIFVGDVGMGVNPPA.GYSTDVIIAAFPW..........QGIDAMVSS.WNRAAPNT
+  IPTAAKAGG.NYLSSLLVGSEARRHG.....YQEGIALDVNG..YISEGAGENLFEVKD.
+  .....GVLFTPPFT.SSALPGITRDAIIKLAKELG.....IEVREQVLSRESLYL.....
+  .ADEVFMSGTAAEITPVRSVD..........GIQVG.EGRCGPVTKRIQQAFFGLFTGET
+  EDKWGWLDQVNQ....
+}
+{
+name O27481
+descrip Putative branched-chain-amino-acid aminotransferase (EC 2.6.
+creator Methanobacterium thermoautotrophicum.Archaea;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       12    289  PF01063 aminotran_4
+feature 426 426 12 square solid SITE
+  FT   SITE        159    159  BINDING_Pyridoxal phosphate Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............MSCEASGKIWLNGEMVEWEEATVHVLSHVVHYGSSVFEGIRCYRN
+  SK.GSAIFRLREHVKRLFDSAKIYRMDIPYTQEQICDAIVETVRENG........LEECY
+  IRPVVFRGYGEMGVHPVN..CPVDVAVAAWEWGAYLGAEALEVGVDAGVST.WRRMAPNT
+  MPNMAKAGG.NYLNSQLAKMEAVRHG.....YDEAIMLDYHG..YISEGSGENIFLVSE.
+  .....GEIYTPPVS.SSLLRGITRDSVIKIARTEG.....VTVHEEPITREMLYI.....
+  .ADEAFFTGTAAEITPIRSVD..........GIEIG.AGRRGPVTKLLQDEFFRIIRAET
+  EDSFGWLTYI......
+}
+{
+name O86428
+descrip Branched-chain-amino-acid aminotransferase (EC 2.6.1.42) (BC
+creator Pseudomonas aeruginosa.Bacteria;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       13    289  PF01063 aminotran_4
+feature 426 426 12 square solid SITE
+  FT   SITE        160    160  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............MSMADRDGVIWYDGELVQWRDATTHVLTHTLHYGMGVFEGVRAYDT
+  PQ.GTAIFRLQAHTDRLFDSAHIMNMQIPYSRDEINEATRAAVRENN........LESAY
+  IRPMVFYGSEGMGLRASG..LKVHVIIAAWSWGAYMGEEALQQGIKVRTSS.FTRHHVNI
+  SMTRAKSNG.AYINSMLALQEAISGG.....ADEAMMLDPEG..YVAEGSGENIFIIKD.
+  .....GVIYTPEVT..ACLNGITRNTILTLAAEHG.....FKLVEKRITRDEVYI.....
+  .ADEAFFTGTAAEVTPIREVD..........GRKIG.AGRRGPVTEKLQKAYFDLVSGKT
+  EAHAEWRTLVK.....
+}
+{
+name Q8l493
+descrip Branched-chain-amino-acid aminotransferase-like protein 3, c
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 266 593 0 square solid PFAM-A
+  FT   PFAM-A       83    357  PF01063 aminotran_4
+feature 426 426 12 square solid SITE
+  FT   SITE        222    222  BINDING_Pyridoxal phosphate By similarity
+feature 184 240 12 square solid SIGNAL
+  FT   SIGNAL        1     57  Chloroplast (Potential).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...MAGLSLEFTVNTWNLRSLSQVPCPLRHGFRFPRRLTRRRTILMCSDSSSQSWNVPVL
+  SSYEVGERLKLARGGQQFLAMYSSVVDGITTDPAAMVLPLDDHMVHRGHGVFDTALIIN.
+  ....GYLYELDQHLDRILRSASMAKIPLPFDRETIKRILIQTVSVSG........CRDGS
+  LRYWLSAGPGDFLLSPSQ.CLKPTLYAIVIKTNFAIN....PIGVKVVTSS..IPIKPPE
+  .FATVKSV..NYLPNVLSQMEAEAKG.....AYAGIWVCKDG..FIAEGPNMNVAFVVN.
+  ...GGKELVMPRFD..NVLSGCTAKRTLTLAEQLVSKGILKTVKVMDVTVEDGKK.....
+  .ADEMMLIGSGIPIRPVIQWD..........EEFIG.EGKEGPIAKALLDLLLEDMRSGP
+  PSVRVLVPY.......
+}
+{
+name P74921
+descrip Probable branched-chain-amino-acid aminotransferase (EC 2.6.
+creator Thermotoga maritima.Bacteria;
+type    PROTEIN
+group 1
+feature 269 593 0 square solid PFAM-A
+  FT   PFAM-A        8    260  PF01063 aminotran_4
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................MLIWWRGKFRRADEISLDFSLFEKSLQGAVYETLRTYS.
+  ....RAPFAAYKHYTRLKRSADFFNLPLSLSFDEFTKVLKAGADEFK.........QEVR
+  IKVYLFPDSGE.........VLFVFSPLNIP........DLETGVEVKISN.VRRIPDLS
+  TPPALKIT..GRTDIVLARREIVDCY.......DVILLGLNG..QVCEGSFSNVFLVKE.
+  .....GKLITPSLD.SGILDGITRENVIKLAKSLE.....IPVEERVVWVWELFE.....
+  .ADEMFLTHTSAGVVPVRRLN.........EHSFFE..EEPGPVTATLMENFEPFVLNLE
+  ...ENWVGI.......
+}
+{
+name Q92i26
+descrip Probable branched-chain-amino-acid aminotransferase (EC 2.6.
+creator Rickettsia conorii.Bacteria;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       16    285  PF01063 aminotran_4
+feature 426 426 12 square solid SITE
+  FT   SITE        155    155  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........MTMVKLEQIFWHVWINGDLVPYQFARIHVLTHSLHYSGSVFEGERAYN.
+  ....GKVFKLKEHTARLIKSAEALGLKVPYNVDEIIKAHECVIKQNN........IKDAY
+  IRPLIWCGDESLNITNQY..LSTNLLIAGIPSMPRS....FEKGINLHVSR.WRKAMPDS
+  TPVQSKSAA.QYNMAITSKKEAKALG.....YEDALLLDYEG..YIAECTTTNIFFVKD.
+  .....KILYTPIAD..RFLNGITRQTIIEIAKDLG.....LEVKEERLKLEQIED.....
+  .FTGCFVTGTAIEVQNIDSIDLG......NKKIIFD....DHKIADRLKEEYRRVVRE..
+  ................
+}
+{
+name O05970
+descrip Probable branched-chain-amino-acid aminotransferase (EC 2.6.
+creator Rickettsia prowazekii.Bacteria;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A       16    285  PF01063 aminotran_4
+feature 426 426 12 square solid SITE
+  FT   SITE        155    155  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........MTMIKLDQIYGYIWINGDLIPYQFARIHVLTHSLHYSGSVFEGERAYN.
+  ....GKVFKLKEHTERLIQSAESLGLKVPYSVDEIIKAHELLIIQNN........IKDAY
+  IRPLIWCGDESLNITNPD..LSTNFLIASISSMPRS....CEQSVHLHVSR.WRKAMPNS
+  TPVQSKSAA.QYNMAITSKKEAKALG.....YDDALLLDYEG..FIAECTTTNIFFVKD.
+  .....KTLYTPIAD..RFLNGITRKTIIEIAKSLC.....LEVKEERLKLAQIEH.....
+  .FTGCFVTGTAIEVQNISSIDLG......NKKILFE....DNKIADLLKREYWRIVRG..
+  ................
+}
+{
+name 1et0_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 264 266 0 square solid STRUCT
+  FT   STRUCT        2      4  STRAND
+feature 269 271 0 square solid STRUCT
+  FT   STRUCT        7      9  STRAND
+feature 283 287 3 square solid STRUCT
+  FT   STRUCT       17     21  HELIX
+feature 290 298 0 square solid STRUCT
+  FT   STRUCT       24     32  STRAND
+feature 306 307 0 square solid STRUCT
+  FT   STRUCT       35     36  STRAND
+feature 310 323 3 square solid STRUCT
+  FT   STRUCT       39     52  HELIX
+feature 332 346 3 square solid STRUCT
+  FT   STRUCT       60     74  HELIX
+feature 359 366 0 square solid STRUCT
+  FT   STRUCT       77     84  STRAND
+feature 384 390 0 square solid STRUCT
+  FT   STRUCT      101    107  STRAND
+feature 406 409 0 square solid STRUCT
+  FT   STRUCT      110    113  STRAND
+feature 433 442 3 square solid STRUCT
+  FT   STRUCT      133    142  HELIX
+feature 454 458 0 square solid STRUCT
+  FT   STRUCT      149    153  STRAND
+feature 466 468 0 square solid STRUCT
+  FT   STRUCT      159    161  STRAND
+feature 473 478 0 square solid STRUCT
+  FT   STRUCT      166    171  STRAND
+feature 487 491 0 square solid STRUCT
+  FT   STRUCT      174    178  STRAND
+feature 502 513 3 square solid STRUCT
+  FT   STRUCT      188    199  HELIX
+feature 522 526 0 square solid STRUCT
+  FT   STRUCT      203    207  STRAND
+feature 530 533 3 square solid STRUCT
+  FT   STRUCT      211    214  HELIX
+feature 544 548 0 square solid STRUCT
+  FT   STRUCT      219    223  STRAND
+feature 554 556 0 square solid STRUCT
+  FT   STRUCT      229    231  STRAND
+feature 559 560 0 square solid STRUCT
+  FT   STRUCT      234    235  STRAND
+feature 583 592 3 square solid STRUCT
+  FT   STRUCT      244    253  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......................MFLINGHKQE....SLAVSDRATQFGDGCFTTARVID.
+  ....GKVSLLSAHIQRLQDACQRLMISCDF.WPQLEQEMKTLAAEQQ..........NGV
+  LKVVISRGSGGRGYSTLN.SGPATRILSVTA.............ITLALSP..VRLGRNP
+  HLAGIKHL..NRLEQVLIRSHLEQTN.....ADEALVLDSEG..WVTECCAANLFWRKG.
+  .....NVVYTPRLD.QAGVNGIMRQFCIRLLAQSS.....YQLVEVQASLEESLQ.....
+  .ADEMVICNALMPVMPVCACG..........DVSFS....SATLYEYLAPLCE.......
+  ................
+}
+{
+name Q9asr4
+descrip Branched-chain-amino-acid aminotransferase-like protein 2.
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A      264    536  PF01063 aminotran_4
+feature 115 264 0 square solid PFAM-B
+  FT   PFAM-B      112    261  PB049395 Pfam-B_49395
+feature 5 83 0 square solid PFAM-B
+  FT   PFAM-B        2     80  PB049396 Pfam-B_49396
+feature 84 114 0 square solid PFAM-B
+  FT   PFAM-B       81    111  PB091707 Pfam-B_91707
+sequence
+  ...MEVIHAWSAPRSLSTTLMYSFAQRDDIEVLDEPLYAAFLKSTGVDRPYKDELLSKME
+  CDGEKVVKDIIYGPGKKKYRFCKHISKQRLLGLPSELMSEGKHFILIRNPLNILPSFEKI
+  HPSSFHELGLGELVSIYSDLCQMGTPPAIIDADELQRDPEATLRSLCDDLEIPFQASMLK
+  WEAGPIPEDGLWAPWWYETLHKSTGFSSPQKYPQTFPLMHYDLLEQCLPLYNILRCHMKH
+  KSSLLSSTLPPPSLPVPENAKLLAWVGDEIVPREMAKVSVFDSVVQGGDSVWEGLRIYK.
+  ....GKVFKLEEHLDRLSDSAKALAFNNVPTREEIKEAIFRTLITNG.......MFDNTH
+  IRLSLTRGKKVTSGMSPAFNRYGCTLIVLAEWKPP...VYDNDGGIVLVTA.TTRRNSPN
+  .NLDSKIHHNNLLNNILAKIESNNAN.....VDDAIMLDKDG..FVSETNATNIFMVKK.
+  .....DRVLTPHAD..YCLPGITRATVMELVVKEN.....FILEERRISLSEFHT.....
+  .ADEVWTTGTMGELSPVVKID..........GRVIG.EGKVGPVTRRLQNAYKKLTDGSG
+  VPIPTYQEVKNLEPCV
+}
+{
+name Q8w0z7
+descrip Branched-chain-amino-acid aminotransferase-like protein 1 (A
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A      267    539  PF01063 aminotran_4
+feature 115 264 0 square solid PFAM-B
+  FT   PFAM-B      115    264  PB049395 Pfam-B_49395
+feature 1 83 0 square solid PFAM-B
+  FT   PFAM-B        1     83  PB049396 Pfam-B_49396
+feature 84 114 0 square solid PFAM-B
+  FT   PFAM-B       84    114  PB091707 Pfam-B_91707
+sequence
+  MAEPEVIHSWSAPRSLSTSLMYSFAQRLDTEVVDEPLYASFLKATGFDRPYRDEVLSKME
+  CNGEKVVKDVIYGSGSKKYRYCKHISKQRLFGLPSELMSRGKHFILIRNPLNILPSFEKV
+  HPPSFLELGLGELVSIYSDLCQMGTPPAVIDADELQRDPETTLRGLCDDLEIPFQASMLK
+  WKAGPIPEDGVWAPWWYKSVHESTGFSSPKKYPRTFPLSHYDLLERSLPLYNILRSHVKH
+  SSSLLSSPLPPPSLPVPENAKLLAWVGDEILPREMAKVSVFDSVVQGGDSVWEGLRIYK.
+  ....GKIFKLEEHLDRLFDSAKALAFDNVPAREEVKEAIFRTLITNG.......MFDNTH
+  IRLSLTRGKKVTSGMSPAYNRYGCTLIVLAEWKPP...VYDNEGGIVLVTA.TTRRNSPN
+  .NLDSKIHHNNLLNNILAKIESNNTN.....AADAIMLDKDG..YVSETNATNIFMVKK.
+  .....GCVLTPHAD..YCLPGITRATVMELVVKEN.....FILEERRISLSEFHT.....
+  .ANEVWTTGTMGELSPVVKID..........GRVIG.DGKVGPVTRTLQNAYKKLTEDSG
+  VPIPTYQEP.......
+}
+{
+name 1daa_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 263 266 0 square solid STRUCT
+  FT   STRUCT        2      5  STRAND
+feature 269 273 0 square solid STRUCT
+  FT   STRUCT        8     12  STRAND
+feature 273 275 3 square solid STRUCT
+  FT   STRUCT       12     14  HELIX
+feature 283 287 3 square solid STRUCT
+  FT   STRUCT       22     26  HELIX
+feature 290 298 0 square solid STRUCT
+  FT   STRUCT       29     37  STRAND
+feature 306 307 0 square solid STRUCT
+  FT   STRUCT       40     41  STRAND
+feature 310 323 3 square solid STRUCT
+  FT   STRUCT       44     57  HELIX
+feature 332 346 3 square solid STRUCT
+  FT   STRUCT       66     80  HELIX
+feature 359 366 0 square solid STRUCT
+  FT   STRUCT       85     92  STRAND
+feature 384 391 0 square solid STRUCT
+  FT   STRUCT      110    117  STRAND
+feature 398 403 3 square solid STRUCT
+  FT   STRUCT      122    127  HELIX
+feature 405 411 0 square solid STRUCT
+  FT   STRUCT      129    135  STRAND
+feature 433 444 3 square solid STRUCT
+  FT   STRUCT      150    161  HELIX
+feature 454 459 0 square solid STRUCT
+  FT   STRUCT      166    171  STRAND
+feature 465 469 0 square solid STRUCT
+  FT   STRUCT      174    178  STRAND
+feature 473 478 0 square solid STRUCT
+  FT   STRUCT      182    187  STRAND
+feature 487 490 0 square solid STRUCT
+  FT   STRUCT      190    193  STRAND
+feature 502 513 3 square solid STRUCT
+  FT   STRUCT      204    215  HELIX
+feature 523 524 0 square solid STRUCT
+  FT   STRUCT      220    221  STRAND
+feature 530 534 3 square solid STRUCT
+  FT   STRUCT      227    231  HELIX
+feature 544 549 0 square solid STRUCT
+  FT   STRUCT      235    240  STRAND
+feature 553 560 0 square solid STRUCT
+  FT   STRUCT      244    251  STRAND
+feature 573 574 0 square solid STRUCT
+  FT   STRUCT      254    255  STRAND
+feature 583 592 3 square solid STRUCT
+  FT   STRUCT      263    272  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................GYTLWNDQIVKDEEVKIDKEDRGYQFGDGVYEVVKVYN.
+  ....GEMFTVNEHIDRLYASAEKIRITIPYTKDKFHQLLHELVEKNE........LNTGH
+  IYFQVTRGTSPRAHQFPENTVKPVIIGYTKENPRP..LENLEKGVKATFVE.DIRWLRCD
+  ....IKSL..NLLGAVLAKQEAHEKG.....CYEAILHRNN...TVTEGSSSNVFGIKD.
+  .....GILYTHPAN.NMILKGITRDVVIACANEIN.....MPVKEIPFTTHEALK.....
+  .MDELFVTSTTSEITPVIEID..........GKLIR.DGKVGEWTRKLQKQFETKIP...
+  ................
+}
+{
+name P54694
+descrip D-alanine aminotransferase (EC 2.6.1.21) (D-aspartateaminotr
+creator Staphylococcus haemolyticus.Bacteria;
+type    PROTEIN
+group 1
+feature 267 593 0 square solid PFAM-A
+  FT   PFAM-A        7    274  PF01063 aminotran_4
+feature 426 426 12 square solid SITE
+  FT   SITE        146    146  BINDING_Pyridoxal phosphate Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................MTKVFINGEFIDQNEAKVSYEDRGYVFGDGIYEYIRAYD.
+  ....GKLFTVTEHFERFIRSASEIQLDLGYTVEELIDVVRELLKVNN........IQNGG
+  IYIQATRGVAPRNHSFPTPEVKPVIMAFAKSYDRPY..DDLENGINAATVE.DIRWLRCD
+  ....IKSL..NLLGNVLAKEYAVKYN.....AGEAIQHRGE...TVTEGASSNVYAIKD.
+  .....GAIYTHPVN.NYILNGITRKVIKWISEDED.....IPFKEETFTVEFLKN.....
+  .ADEVIVSSTSAEVTPVVKID..........GEQVG.DGKVGPVTRQLQEGFNKYIESRS
+  S...............
+}

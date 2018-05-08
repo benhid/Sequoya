@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref4/test/1adj_ref4</aln-name>
+<sequence seq-type="Protein">
+<seq-name>1evk_A</seq-name>
+<seq-info>
+<accession>1evk_A</accession>
+<nid>1evk_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------rdhrkigkqldlyhmqeea-pgmvfwhndgwtifrelevfvrsklkey-qyqevkgpfmmdrvlwektghwdnykda-mfttsse-------------nreycikpmncpghvqif--nqglks-yrdlplrmaefg-schrnepsgs-lhglmrvrgftqddahifct-eeqirdevngcirlvydmyst-fgfe--------kivvklstrpek-------rigsdemwdraeadlavaleenn------ipfeyqlgegafygpkieftlydc---ldrawqcgtvqldfslpsrls--asyvge-----------dnerkvpvmihrailgsmerfigilteefag--------ffptwlapvqvvimnit------dsqseyvneltqklsnag--------------irvkadlrnek-igfkireht-lrrvpymlvcgdkevesg--kvavrtr-----rgkdlgsmdvnevieklqqeirsrslkqlee------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYT1_AERPE</seq-name>
+<seq-info>
+<accession>Q9YDW0</accession>
+<nid>SYT1_AERPE</nid>
+<definition>Probable threonyl-tRNA synthetase 1 (EC 6.1.1.3) (Threonine-</definition>
+<organism>Aeropyrum pernix.Archaea;</organism>
+<ec>6.1.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>33</fstart><fstop>346</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Catalytic.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>348</fstart><fstop>455</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>53</fstart><fstop>212</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>264</fstart><fstop>306</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000237 Pfam-B_237</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>125</fstart><fstop>125</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>179</fstart><fstop>179</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>323</fstart><fstop>323</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgvgvspfhgdwslasgqdkthidyayelditvkpdsrvpvfnrefatftgagvplfslgggpiryalaevlakfharr-gyyvvetpiiastelfkvsghiefyrnn-mylfdie-------------ghefavkpmncpyhillflnevakhrsklplpfkvfefg-rvhryepsg-siygllrvrgftqddahiivp-ggrvidvvydvfeemklvler-lfkl---gvssetfkvrlsmsdkslig--kefmgskeewegaeealreaasrin--ekygidivelegeaafygpkldfimmveesgvskewqmgtiqfdfnlprrfr--lydvvre----------efgieevyiihrallgsierflgvylehrrg--------rmpftlapiqfaviavktggevdreiedlassiakglldkg--------------frvavkgssktglssdvrhiestakpavnvfigakevrek--vldvrvfd-lesmkrrrlaiaygdaadavenlaavaeelespvrslsgqapripadfsfml
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYT_PYRAB</seq-name>
+<seq-info>
+<accession>Q9UZ14</accession>
+<nid>SYT_PYRAB</nid>
+<definition>Threonyl-tRNA synthetase (EC 6.1.1.3) (Threonine--tRNA ligas</definition>
+<organism>Pyrococcus abyssi.Archaea;</organism>
+<ec>6.1.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>206</fstart><fstop>505</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Catalytic.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>507</fstart><fstop>602</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>226</fstart><fstop>381</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>140</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB010298 Pfam-B_10298</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>391</fstart><fstop>466</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016181 Pfam-B_16181</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>185</fstart><fstop>225</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016595 Pfam-B_16595</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>148</fstart><fstop>184</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB038309 Pfam-B_38309</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>298</fstart><fstop>298</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>350</fstart><fstop>350</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>474</fstart><fstop>474</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------mrvllihsdyieyevkdkalknpepisedmkrgrmeevlvafisvekvdeknpeevslkaieeiskvaeqvkaenvfvypfahlsselakp-svamdilnrvyqglkergfnvgkapfgyykafkisckghplaelsrtivpeearveevp-----------ealrkeeeelvsywyiltpegelievdkfdftg-----yenlrkfvnyeiaknriae-kepphvklmlehelvdyepgsdpgnlryypkgrlikslleqyvtekviey-gamevetpimydfehpalekylnrfpar-qyivlsg-------------dkryflrfaacfgqfmik--kdaiis-yrnlplrmyeltrysfrrekrg-elsglrrlraftmpdmhtlakdieqakeefkkqfklsmevleg-vglt--------pedyevair------------ftedfwkehkdfivelvklig------kpvliemwkqrffyfilkfefnfvdn-ldkaaalstvqidvenaerfg--ityyden-----------geekyplilhcspsgaiervmyailekqaklmnegkkpmfplwlspiqvrvipvsee------yldyalyvagklegak--------------irvdvddeder-lnkkirrae-kewipyivvvgarekeng--titvrrr-----edgkqyetrieelikeikektegfpykprplplllskrpkfrg------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYT_METAC</seq-name>
+<seq-info>
+<accession>Q8TLX7</accession>
+<nid>SYT_METAC</nid>
+<definition>Threonyl-tRNA synthetase (EC 6.1.1.3) (Threonine--tRNA ligas</definition>
+<organism>Methanosarcina acetivorans.Archaea;</organism>
+<ec>6.1.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>215</fstart><fstop>514</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Catalytic.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>516</fstart><fstop>613</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>235</fstart><fstop>390</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>307</fstart><fstop>307</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>359</fstart><fstop>359</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>483</fstart><fstop>483</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------mqlllihsdyieyetkkqtpvaekie-eslksgrleealtaftavesvdeanpeeaiekavseiekvaaqvktnrimlypyahlssdlssp-kvavqvlkgieaalsg-kyevkrapfgwykaftvsckghplselsrsihpegtakaavkpeaagekeevvsealkaegtarsywriltpdgelhevetfdltp-----ypklqqfvnyeisksrave-rapphvelmrrleladyepgsdsgnmryypkgrlvksllenyvldvatef-gamevetplmydmnhptlkkyldrfpar-qysiesd-------------krqmflrfaacfgqflmn--hdmtis-yknlplrmiemtrysfrkeqrg-elvglrrlraftmpdmhtlcedmnqavsqfkeqydlcidvlen-vgih--------iddyevair------------ftrdfyesnkelvvnmaktvn------kpvlvemwdtrffyfvlkfefnfvda-lakasalstvqidvenaeryd--isyvnad-----------gklerpivlhcspsgaierciyallekaameteegkvpmlpvwlsptqvrivpisek------hlafaeevskkld-----------------crvdiddrdls-igkkvreag-rewvpyvvvigdkemeeg--tinvtvraeseqnkpskvqitpeelnarirgeiagkpyrklplakylsarpkff-------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYTM_SCHPO</seq-name>
+<seq-info>
+<accession>O13969</accession>
+<nid>SYTM_SCHPO</nid>
+<definition>Probable threonyl-tRNA synthetase, mitochondrial precursor(E</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>355</fstart><fstop>468</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>66</fstart><fstop>227</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>261</fstart><fstop>312</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000237 Pfam-B_237</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mklkkfqlhtpfahscnrveiytarfgptpfstkannlkqpestln--dhrtiaarqklyttsilt-pgsifflphgtriynrlvdflraqyqih-gfeeiitplifkkdlweksghwqnyeke-ifrvees-----rnvedehsnatyglkpmncpghcivy--asters-ykelplrfadfs-plhrneasg-alsgltrlrcfhqddghifcs-pesikdeikntltfvkqvysl-lgmn--------klklylstrpeehig-------sldtwneaenglrealqesg------etwiinegdgafygpkidvmvada---rgkwhqtatiqldfnlpqrfk--lyyrtdagdn----agseklikqpvmihraifgslerfmgiliehlng--------hwpfwlsprhavilpvnq----tdriltyakqvqkelsnqev-neseflplnkntyyvdinaeaqs-igkrlresr-llnynyeivigedevdkeilsvssrhn----hnsrdtrkmtiqqlkkefienvkayr------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYTM_YEAST</seq-name>
+<seq-info>
+<accession>P07236</accession>
+<nid>SYTM_YEAST</nid>
+<definition>Threonyl-tRNA synthetase, mitochondrial precursor (EC 6.1.1.</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>6.1.1.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>344</fstart><fstop>457</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>57</fstart><fstop>213</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>257</fstart><fstop>311</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000237 Pfam-B_237</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>45</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>Mitochondrion (Potential).</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mkiqlvrwhcsrnalwnrafystrkatknassatpatmts------mvsqrqdlfmtdpls-pgsmfflpngakifnkliefmklqqkfkfgfnevvtpliykktlweksghwenyadd-mfkvett----------deekeeyglkpmncpghclif--gkkdrs-ynelplrfsdfs-plhrneasg-alsgltrlrkfhqddghifct-psqvkseifnslklidivynkifpfvkggsgaesnyfinfstrpd-------hfigdlkvwnhaeqvlkeileesg------kpwklnpgdgafygpkldimvtdh---lrkthqvatiqldfqlperfd--lkfkdqd-----------nsykrpimihratfgsierfmallidsneg--------rwpfwlnpyqaviipvnt---knvqqldmctalqkklrneleaddmepvplndwhfnvdldirnep-vgyriksai-lknysyliivgdeevqlq--kynirer----dnrksfekltmsqiwekfieleknyk------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYTC_YEAST</seq-name>
+<seq-info>
+<accession>P04801</accession>
+<nid>SYTC_YEAST</nid>
+<definition>Threonyl-tRNA synthetase, cytoplasmic (EC 6.1.1.3) (Threonin</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>6.1.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>624</fstart><fstop>723</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>71</fstart><fstop>135</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF02824 TGS</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>348</fstart><fstop>501</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>539</fstart><fstop>591</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000237 Pfam-B_237</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>156</fstart><fstop>209</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB003298 Pfam-B_3298</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>210</fstart><fstop>242</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB003555 Pfam-B_3555</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>256</fstart><fstop>309</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000365 Pfam-B_365</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------msaseagvteqvkklsvkdssndavkpnkkenkkskqqslyldpeptfieeriemfdrlqkeyndkvasmprvplkivlkdgavkeatswettpmdiakgisksladrlciskvngqlwdldrpfegeaneeiklelldfesdeg-kkvfwhssahvlgescechl---------gahiclgppt--ddgffyemavrdsmkdisespertvsqadfpglegvaknvi--------kqkqkferlvmskedllkmfhyskyktylvqtkvpdggattvyrcgklidlcvgphiphtgrik--afkllknsscyflgdatndslqrvygisfpdkklmdahlkflaeasmrdhrkigkeqelflfnems-pgscfwlphgtriyntlvdllrteyrkr-gyeevitpnmynsklwetsghwanyken-mftfeve-------------ketfglkpmncpghclmf--ksrers-yrelpwrvadfg-vihrnefsg-alsgltrvrrfqqddahifct-hdqieseienifnflqyiygv-fgf---------efkmelstrpekyvg-------kietwdaaesklesalkkwg------gnweinagdgafygpkidimisda---lrrwhqcatiqldfqlpnrfe--lefkskdqd--------sesyerpvmihrailgsvermtailtehfag--------kwpfwlsprqvlvvpvgv------kyqgyaedvrnklhdag--------------fyadvdltgnt-lqkkvrngq-mlkynfifivgeqemnek--svnirnr-----dvmeqqgknatvsveevlkqlrnlkdekrgdnvla--------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYT1_BACSU</seq-name>
+<seq-info>
+<accession>P18255</accession>
+<nid>SYT1_BACSU</nid>
+<definition>Threonyl-tRNA synthetase 1 (EC 6.1.1.3) (Threonine--tRNA lig</definition>
+<organism>Bacillus subtilis.Bacteria;</organism>
+<ec>6.1.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>245</fstart><fstop>542</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Catalytic.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>544</fstart><fstop>640</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>64</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF02824 TGS</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>265</fstart><fstop>419</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>98</fstart><fstop>153</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB001634 Pfam-B_1634</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>464</fstart><fstop>509</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000237 Pfam-B_237</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>171</fstart><fstop>225</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000365 Pfam-B_365</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>338</fstart><fstop>338</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>389</fstart><fstop>389</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>519</fstart><fstop>519</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------msdmvkitfpdg-avkefakgtttediaasispglkkkslagklngkeidlrtpinedgtvei----itegseeg-lqimrhsaahllaqaikriyk--------dvkfgvgpvi--engfyydvemdeaitpedlpkiekemkkivnan------------------lpivrkevsreeakarfaeigddlklelldaipegetvsiyeqgeffdlcrgvhvpstgkike--fkllslagaywrgdsknqmlqrvygtaffkkadleehlrmleeakerdhrklgkelklfansqkvgqglplwlpkgatirrvieryivdkeisl-gyehvytpvlgskelyetsghwdhyqeg-mfppmem------------dnetlvlrpmncphhmmiy--kqdihs-yrelpiriaelg-tmhryemsg-alsglqrvrgmtlndahifvr-pdqikdefirtvrliqdvyed-fgls--------dytfrlsyrdpedte---kyfdddemwnkaqsmlkeamdeig------hdyyeaegeaafygpkldvqvkta---igkeetlstvqldfllperfd--ltyiged-----------gkqhrpvvihrgvvstmerfvaflieehkg--------alptwlapvqfqvipvspa-----vhldyakkvqerlqceg--------------lrvevdsrdek-igykireaq-mqkipymlvvgdqeaeng--avnvrky-----geqnsetisldefvkkavaeakk--------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYT_BUCAI</seq-name>
+<seq-info>
+<accession>P57225</accession>
+<nid>SYT_BUCAI</nid>
+<definition>Threonyl-tRNA synthetase (EC 6.1.1.3) (Threonine--tRNA ligas</definition>
+<organism>Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip</organism>
+<ec>6.1.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>243</fstart><fstop>534</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Catalytic.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>536</fstart><fstop>631</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>262</fstart><fstop>415</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>78</fstart><fstop>164</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB012879 Pfam-B_12879</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>457</fstart><fstop>505</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000237 Pfam-B_237</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>171</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000365 Pfam-B_365</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>334</fstart><fstop>334</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>385</fstart><fstop>385</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>511</fstart><fstop>511</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------mpvirfydg-sqqvyehsvslieiiknkkpsimksliaisvnnhfsnlntfiredafiefvd-----qknykalniiryscaqllsyaikniwp--------laqiatsnii--edgfycdidfkrsisekdlillenqmkmlvkreyniln-----------------klisyseareifqkcfekykvslidenincnskvslyyhenyadidiglqvfnikfcky--fklqkiggvywkknknnkmlqriygtawtnkqeldkhldylnelekrdhrkigkflqlyhmqees-pgmifwhnkgwiifnelqnfvrvklkey-kyeevktpllidkliwkqsghwdnykna-ifttlse-------------hreycikpmncpghvqif--nsrlks-yrdlpirmaefg-schrnepsg-slhglmrvrnftqddahifct-reqvrseindcikmiydlyst-fhfk--------kilvklstrpe-------krigtdslwnesekdlsdmlien------hlsfeyqsgegafygpkiefilqds---ldrnwqcgtiqldfylplrls--sfyinek-----------nekkvpviihrailgsierfigilieecsg--------nlptwlspvqvviisitd------issgyvkelfkkfsdvn--------------iriecdlrnek-igfkireht-lrripyilicgekesssk--kisvrnr-----qghnfgmidvdffikklqkeiitrnfyqmee------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYT_BUCBP</seq-name>
+<seq-info>
+<accession>P59554</accession>
+<nid>SYT_BUCBP</nid>
+<definition>Threonyl-tRNA synthetase (EC 6.1.1.3) (Threonine--tRNA ligas</definition>
+<organism>Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;</organism>
+<ec>6.1.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>244</fstart><fstop>535</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Catalytic.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>537</fstart><fstop>632</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>263</fstart><fstop>416</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>335</fstart><fstop>335</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>386</fstart><fstop>386</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>512</fstart><fstop>512</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------mptikfidg-tcrvypgsisvldilkdvspnsvqdfmfgcvngisvdrnaivtndsivk-----fvyktdqstldiiryscicllgkavkklwp--------sskigesdvl--engffcdievdfsfnetslhlleacmrqminkkykiytktfs----------------lkkastifknrnetyklflldrlvnfsnqvvslcfheeyidiqkkisvpniflcrn--frlqkfsgvywkgkrenkvlqriygtswitriqlekhldnvkkldsrdhrkiskildlyhiqedl-pgmifwhrngwivfqelkklirvklrky-nyqevktpvmmnkkiwkdsghldnykes-mfmvcss-------------nfeygikpmncpghvqif--nhvvrs-yrdlpirisefg-schrnepsg-alhglmrirnftqddahifcr-edqicsevsncirmvyeiyki-fgfk--------kilvrlstrpk-------nrigndniwdkaendlatslresk------iefeyqhgegafygpkielslfds---lgrvwqcatiqldfclpinlk--afyidhn-----------nerkvpiivhravlgsierfigilieeyig--------nfptwlapiqvvlanvns------nhlqyikllykefyalg--------------irseidsrnet-isykirehi-arkipyiiicgdkevknn--titlrtr-----sgknfycidvqffisklckeinsyscslmee------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYT_WIGBR</seq-name>
+<seq-info>
+<accession>Q8D3C0</accession>
+<nid>SYT_WIGBR</nid>
+<definition>Threonyl-tRNA synthetase (EC 6.1.1.3) (Threonine--tRNA ligas</definition>
+<organism>Wigglesworthia glossinidia brevipalpis.Bacteria;</organism>
+<ec>6.1.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>242</fstart><fstop>533</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Catalytic.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>535</fstart><fstop>630</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>261</fstart><fstop>414</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>333</fstart><fstop>333</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>384</fstart><fstop>384</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>510</fstart><fstop>510</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Zinc catalytic By similarity</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------mpiinfnn-keilfnypisiieiikkfdknlsenciaakingklldvseiinydgslelvk-----penkigiriircscshllgyaikqlwp--------tskmatnnit--engfyydidlnhklskndlkliekkmhqllkinfkinkin-----------------vtwgkayemfknlneiykikilednisknsslyiyhqeqyvdlctlphvpnikfcmf--fkiqkisgaywkgnkknkmlqriyvtswdsnsklknfiknikelehrdhrkigkkldlfhiyens-pgmvfwhhngwiifrilekfirkklkkf-yyqevktpciidhdlwrlsghldnykny-mfhtnse-------------nkqycikpmncpahvlif--kkkirs-ykelpfrisefg-schrnepsg-slhglmrirnftqddahifcm-hdqilsevsscikmiyevysc-fgfk--------kilvklstrpe-------nrigsdeiwdfaekqlelslkknk------ilfkidlnegafygpkieftllds---lnrkwqcgtiqldlclanklq--ayyinnk-----------nektnpviihrailgsmerfigiiteefsg--------kyplwispiqvgvinvsv------dqidyvkkitkfflqkk--------------iriisdlrnek-isfkireyt-lrfipyiiicgkkemesn--sisvrnk-----ygkqlkysslekfynviyeeikqkkt-----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SYT_ARATH</seq-name>
+<seq-info>
+<accession>O04630</accession>
+<nid>SYT_ARATH</nid>
+<definition>Threonyl-tRNA synthetase, mitochondrial precursor (EC 6.1.1.</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).Eukaryota;</organism>
+<ec>6.1.1.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>609</fstart><fstop>704</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF03129 HGTP_anticodon</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>71</fstart><fstop>135</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF02824 TGS</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>335</fstart><fstop>488</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00587 tRNA-synt_2b</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>521</fstart><fstop>578</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000237 Pfam-B_237</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>242</fstart><fstop>296</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000365 Pfam-B_365</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>34</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB076591 Pfam-B_76591</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>152</fstart><fstop>198</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB093493 Pfam-B_93493</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>21</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>Mitochondrion.</fnote></fitem>
+</ftable>
+<length>872</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------mllrltarsirrfttsssslpllssssfctvptmaanhpkdeaylsavipkriklfeqiqanqlenlkslphdpikvtlpdgnvkegkkwettpmdiaaqiskglansalisavddvlwdmnrplegdckle-----lfkfdsdkgrdtlwhssahilgqaleqeygc---------qlcigpcttrgegfyydgfygelglsdnhfpsieagaakaakeaqpfe-------------------rievtkdqalemfsennfkvelinglpadmtitvyrcgplvdlcrgphipntsfvka--fkclrassaywkgdkdreslqrvygisypdqkqlkkylqfleeakkydhrllgqkqelffshqls-pgsyfflplgtrvynrlmdfiknqywhr-gytevitpnmynmelwqtsghadnykdn-mftfnie-------------kqefglkpmncpghclif--qhrvrs-yrelpmrladfg-vlhrneasg-alsgltrvrrfqqddahifct-teqvkgevqgvlefidyvykv-fgf---------tyelklstrpekylg-------dletwdkaeadlkeaieafg------kplvlnegdgafygpkiditvsda---mnrkfqcatlqldfqlpirfnleyaaedea------------kksrpvmihravlgsvermfaillehykg--------kwpfwisprqaivcpise------ksqqyaekvqkqikdag--------------fyvdadltdrk-idkkvreaq-laqynyilvvgeteaatg--qvsvrvr-----dnaahsvksiedlleefkaktaefv------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

@@ -1,0 +1,1218 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1a7x_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 314 320 0 square solid STRUCT
+  FT   STRUCT        2      8  STRAND
+feature 333 342 0 square solid STRUCT
+  FT   STRUCT       21     30  STRAND
+feature 348 351 0 square solid STRUCT
+  FT   STRUCT       35     38  STRAND
+feature 353 357 3 square solid STRUCT
+  FT   STRUCT       40     42  HELIX
+feature 361 364 0 square solid STRUCT
+  FT   STRUCT       46     49  STRAND
+feature 372 379 3 square solid STRUCT
+  FT   STRUCT       57     63  HELIX
+feature 393 398 0 square solid STRUCT
+  FT   STRUCT       71     76  STRAND
+feature 400 402 3 square solid STRUCT
+  FT   STRUCT       78     80  HELIX
+feature 424 433 0 square solid STRUCT
+  FT   STRUCT       97    106  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............GVQVETISPGDGRTFPKRGQTCVVHYTGMLED.GKKFDSSRD..RNKP
+  FKFMLGKQEVIR.GWEEGVAQ......MSVGQRAKLTISPDYAYGATGHP.....GIIPP
+  HATLVFDVELLKLE..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name 1fd9_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 214 233 3 square solid STRUCT
+  FT   STRUCT        2     21  HELIX
+feature 239 251 3 square solid STRUCT
+  FT   STRUCT       27     39  HELIX
+feature 259 301 3 square solid STRUCT
+  FT   STRUCT       47     89  HELIX
+feature 305 307 0 square solid STRUCT
+  FT   STRUCT       93     95  STRAND
+feature 315 320 0 square solid STRUCT
+  FT   STRUCT      101    106  STRAND
+feature 333 342 0 square solid STRUCT
+  FT   STRUCT      118    127  STRAND
+feature 348 352 0 square solid STRUCT
+  FT   STRUCT      132    136  STRAND
+feature 352 357 3 square solid STRUCT
+  FT   STRUCT      136    139  HELIX
+feature 361 365 0 square solid STRUCT
+  FT   STRUCT      143    147  STRAND
+feature 365 369 3 square solid STRUCT
+  FT   STRUCT      147    149  HELIX
+feature 372 379 3 square solid STRUCT
+  FT   STRUCT      152    158  HELIX
+feature 393 398 0 square solid STRUCT
+  FT   STRUCT      166    171  STRAND
+feature 400 402 3 square solid STRUCT
+  FT   STRUCT      173    175  HELIX
+feature 424 434 0 square solid STRUCT
+  FT   STRUCT      192    202  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................TDKDKLSYSIGADLGKNFKNQGIDVNPE
+  AMAKGMQDAMSGAQLALTEQQMKDVLNKFQKDLMAKRTAEFNKKADENKVKGEAFLTENK
+  NKPGVVVL..PSGLQYKVINSGNG.VKPGKSDTVTVEYTGRLID.GTVFDSTEK..TGKP
+  ATFQV..SQVIP.GWTEALQL......MPAGSTWEIYVPSGLAYGPRSVG.....GPIGP
+  NETLIFKIHLISVKKS............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name 1jvw_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 280 301 3 square solid STRUCT
+  FT   STRUCT        4     25  HELIX
+feature 305 307 0 square solid STRUCT
+  FT   STRUCT       29     31  STRAND
+feature 315 320 0 square solid STRUCT
+  FT   STRUCT       37     42  STRAND
+feature 334 341 0 square solid STRUCT
+  FT   STRUCT       56     63  STRAND
+feature 348 352 0 square solid STRUCT
+  FT   STRUCT       69     73  STRAND
+feature 352 357 3 square solid STRUCT
+  FT   STRUCT       73     76  HELIX
+feature 361 363 0 square solid STRUCT
+  FT   STRUCT       80     82  STRAND
+feature 365 369 3 square solid STRUCT
+  FT   STRUCT       84     86  HELIX
+feature 372 379 3 square solid STRUCT
+  FT   STRUCT       89     95  HELIX
+feature 393 398 0 square solid STRUCT
+  FT   STRUCT      103    108  STRAND
+feature 400 402 3 square solid STRUCT
+  FT   STRUCT      110    112  HELIX
+feature 424 434 0 square solid STRUCT
+  FT   STRUCT      129    139  STRAND
+feature 434 436 3 square solid STRUCT
+  FT   STRUCT      139    141  HELIX
+feature 442 454 3 square solid STRUCT
+  FT   STRUCT      147    159  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................................AASHEERMNNYRKRVGRLFMEQKA
+  AQPDAVKL..PSGLVFQRIARGSGKRAPAIDDKCEVHYTGRLRD.GTVFDSSRE..RGKP
+  TTFRP..NEVIK.GWTEALQL......MREGDRWRLFIPYDLAYGVTGGG.....GMIPP
+  YSPLEFDVELISIKDGGKGRTAEEVDEILRKAEED.........................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB4_HUMAN
+descrip FK506-binding protein 4 (EC 5.2.1.8) (Peptidyl-prolyl cis-tr
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 214 302 5 square solid DOMAIN
+  FT   DOMAIN       49    137  PPIase, FKBP-type 1.
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      166    252  PPIase, FKBP-type 2.
+feature 205 299 0 square solid PFAM-A
+  FT   PFAM-A       40    134  PF00254 FKBP
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      157    249  PF00254 FKBP
+feature 451 484 1 square solid PFAM-A
+  FT   PFAM-A      269    302  PF00515 TPR
+feature 500 533 1 square solid PFAM-A
+  FT   PFAM-A      318    351  PF00515 TPR
+feature 534 567 1 square solid PFAM-A
+  FT   PFAM-A      352    385  PF00515 TPR
+feature 571 640 0 square solid PFAM-B
+  FT   PFAM-B      389    458  PB043864 Pfam-B_43864
+feature 451 484 1 square solid REPEAT
+  FT   REPEAT      269    302  TPR 1.
+feature 500 533 1 square solid REPEAT
+  FT   REPEAT      318    351  TPR 2.
+feature 534 567 1 square solid REPEAT
+  FT   REPEAT      352    385  TPR 3.
+feature 307 307 0 square solid MOD_RES
+  FT   MOD_RES     142    142  Phosphothreonine by CK2 By
+sequence
+  ............................................................
+  ............................................................
+  .............................................TAEEMKATESGAQSA
+  PLPMEGVDISPKQDEGVLKVIKREGTGTEMPMIGDRVFVHYTGWLLDGTKFDSSLDRKDK
+  FSFDLGKGEVIKAWDIAIATMKVGEVCHITCKPEYAYGSAGSPPKIPPNATLVFEVELFE
+  FKGEDLTEEEDGGIIRRIQTRGEGYAKPNEGAIVEVALEGYYK..DKLFDQR.....ELR
+  FEIGEGENLDLPYGLERAIQR......MEKGEHSIVYLKPSYAFGSVGKE....KFQIPP
+  NAELKYELHLKSFEKAKESWEMNSEEKLEQSTIVKERGTVYFKEGKYKQALLQYKKIVSW
+  LEYESSFSNEEAQKAQALRLASHLNLAMCHLKLQAFSAAIESCNKALELDSNNEKGLFRR
+  GEAHLAVNDFELARADFQKVLQLYPNNKAAKTQLAVCQQRIRRQLAREKKLYANMFERLA
+  EEENKAKAEASSGDHPTDTEMKEEQKSNTAGSQSQVETEA....................
+  .................................
+}
+{
+name 1q6h_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................AFKNDDQKSAYALGASLGRYXENSLKEQEKLGIKLDK
+  DQLIAGVQDAFADKSKLSDQEIEQTLQAFEARVKSSAQAKXEKDAADNEAKGKEYREKFA
+  KEKGVKTS..STGLVYQVVEAGKG.EAPKDSDTVVVNYKGTLID.GKEFDNSYT..RGEP
+  LSFRL..DGVIP.GWTEGLKN......IKKGGKIKLVIPPELAYGKAGV......PGIPP
+  NSTLVFDVELLDVK..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name 1r9h_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  KIDITPKK..DGGVLKLIKKEGQGVVKPTTGTTVKVHYVGTLEN.GTKFDSSRD..RGDQ
+  FSFNLGRGNVIK.GWDLGVAT......MTKGEVAEFTIRSDYGYGDAGSP.....PKIPG
+  GATLIFEVELFEWSA.............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name 1yat_
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........GNVKIDRISPGDGATFPKTGDLVTIHYTGTLEN.GQKFDSSVD..RGSP
+  FQCNIGVGQVIK.GWDVGIPK......LSVGEKARLTIPGPYAYGPRGFP.....GLIPP
+  NSTLVFDVELLKVN..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB2_NEUCR
+descrip FK506-binding protein 2 precursor (EC 5.2.1.8) (Peptidyl-pro
+creator Neurospora crassa.Eukaryota;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN       41    129  PPIase, FKBP-type.
+feature 320 431 0 square solid PFAM-A
+  FT   PFAM-A       32    126  PF00254 FKBP
+feature 519 522 12 square solid SITE
+  FT   SITE        214    217  SITE_Prevent secretion from ER Potential
+feature 289 308 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................................MKSIFLSLSLLA
+  SATVGVLAAEELGIDVTVPV.ECD.RKTRKGDKINVHYRGTLQSNGQQFDASYD..RGTP
+  FSFKLGGGQVIK.GWDEGLVD......MCIGEKRTLTVPPSYGYGQRSI......GPIPA
+  GSTLIFETELIGIDGVPKPESIVYKQAAEKAEEAASAVEEKVAEATDKAGGKIADATKKV
+  EEKAEEASANVVEKVASVVSGAAEAVKTVVADTDDVQEHNEL..................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB2_HUMAN
+descrip FK506-binding protein 2 precursor (EC 5.2.1.8) (Peptidyl-pro
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 321 431 0 square solid PFAM-A
+  FT   PFAM-A       40    134  PF00254 FKBP
+feature 436 439 12 square solid SITE
+  FT   SITE        139    142  SITE_Prevent secretion from ER Potential
+feature 282 302 4 square solid SIGNAL
+  FT   SIGNAL        1     21  ase; Polymorphism; Rotamase; Signal.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................MRLSWFRVLTVLSICLSAV
+  ATATGAEGKRKLQIGVKKRVDHCP.IKSRKGDVLHMHYTGKLED.GTEFDSSLP..QNQP
+  FVFSLGTGQVIK.GWDQGLLG......MCEGEKRKLVIPSELGYGERGAP.....PKIPG
+  GATLVFEVELLKIERRTEL.........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB2_VICFA
+descrip FK506-binding protein 2 precursor (EC 5.2.1.8) (Peptidyl-pro
+creator Vicia faba (Broad bean).Eukaryota;
+type    PROTEIN
+group 1
+feature 321 431 0 square solid PFAM-A
+  FT   PFAM-A       40    134  PF00254 FKBP
+feature 445 448 12 square solid SITE
+  FT   SITE        148    151  SITE_Prevent secretion from ER Potential
+feature 282 303 4 square solid SIGNAL
+  FT   SIGNAL        1     22  doplasmic reticulum; Isomerase; Rotamase;
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................MKLFSIFLIFTIFIIASAL
+  VAAKSAADVTELQIGVKYKPASCE.VQAHKGDKVKVHYRGKLTD.GTVFDSSFE..RNSP
+  IDFELGGGQVIK.GWDQGLLG......MCLGEKRKLKIPAKLGYGEQGSP.....PTIPG
+  GATLIFDTELVGVNDKSLSEEKSTSSEL................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FK22_ARATH
+descrip FK506-binding protein 2-2 precursor (EC 5.2.1.8) (Peptidyl-p
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 321 431 0 square solid PFAM-A
+  FT   PFAM-A       43    137  PF00254 FKBP
+feature 454 457 12 square solid SITE
+  FT   SITE        160    163  SITE_Prevent secretion from ER Potential
+feature 279 303 4 square solid SIGNAL
+  FT   SIGNAL        1     25  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......................................MASKMSLRYSLFLIFFSLISLQ
+  GFAKKTGDVSELQIGVKFKPKTCE.VQAHKGDTIKVHYRGKLTD.GTVFDSSFE..RGDP
+  FEFKLGSGQVIK.GWDQGLLG......ACVGEKRKLKIPAKLGYGEQGSP.....PTIPG
+  GATLIFDTELIAVNEKPAGGEEYGGDEDDEGYGNDEL.......................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FK21_ARATH
+descrip FK506-binding protein 2-1 precursor (EC 5.2.1.8) (Peptidyl-p
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 321 431 0 square solid PFAM-A
+  FT   PFAM-A       43    137  PF00254 FKBP
+feature 444 447 12 square solid SITE
+  FT   SITE        150    153  SITE_Prevent secretion from ER Potential
+feature 279 303 4 square solid SIGNAL
+  FT   SIGNAL        1     25  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......................................MMSSASAMKAVGFLLLLTILTL
+  AYAKKSGDVTELQIGVKYKPQKCD.LQAHKGDKIKVHYRGKLTD.GTVFDSSFE..RGDP
+  IEFELGTGQVIP.GWDQGLLG......ACVGEKRKLKIPSKLGYGDNGSP.....PKIPG
+  GATLIFDTELVAVNGEPSSEAKSKNEL.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB2_YEAST
+descrip FK506-binding protein 2 precursor (EC 5.2.1.8) (Peptidyl-pro
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 321 431 0 square solid PFAM-A
+  FT   PFAM-A       34    129  PF00254 FKBP
+feature 288 304 4 square solid SIGNAL
+  FT   SIGNAL        1     17  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................................MMFNIYLFVTFFS
+  TILAGSLSDLEIGIIKRIPVEDCL.IKAMPGDKVKVHYTGSLLESGTVFDSSYS..RGSP
+  IAFELGVGRVIK.GWDQGVAG......MCVGEKRKLQIPSSLAYGERGVP.....GVIPP
+  SADLVFDVELVDVKSAA...........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FK14_HUMAN
+descrip FK506 binding protein 14 precursor (EC 5.2.1.8) (Peptidyl-pr
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN       45    135  PPIase, FKBP-type.
+feature 321 431 0 square solid PFAM-A
+  FT   PFAM-A       36    132  PF00254 FKBP
+feature 438 466 2 square solid PFAM-A
+  FT   PFAM-A      139    167  PF00036 efhand
+feature 482 508 2 square solid PFAM-A
+  FT   PFAM-A      183    209  PF00036 efhand
+feature 447 458 8 square solid SITE
+  FT   SITE        148    159  CA_BIND_EFhand 1 Potential
+feature 491 502 8 square solid SITE
+  FT   SITE        192    203  CA_BIND_EFhand 2 Potential
+feature 507 510 12 square solid SITE
+  FT   SITE        208    211  SITE_Prevent secretion from ER Potential
+feature 475 475 5 square solid SITE
+  FT   SITE        176    176  CARBOHYD_Nlinked GlcNAc Potential
+feature 286 304 4 square solid SIGNAL
+  FT   SIGNAL        1     19  at; Rotamase; Signal.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................................MRLFLWNAVLTLFVT
+  SLIGALIPEPEVKIEVLQKPFICH.RKTKGGDLMLVHYEGYLEKDGSLFHSTHKHNNGQP
+  IWFTLGILEALK.GWDQGLKG......MCVGEKRKLIIPPALGYGKEGK......GKIPP
+  ESTLIFNIDLLEIRNGPRSHESFQEMDLNDDWKLSKDEVKAYLKKEFEKHGAVVNESHHD
+  ALVEDIFDKEDEDKDGFISAREFTYKHDEL..............................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBP_SCHPO
+descrip FK506-binding protein (FKBP) (Peptidyl-prolyl cis-trans isom
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A       11    105  PF00254 FKBP
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........MGVEKQVISSGNGQDFPKPGDRITMHYTGTLTN.GKKFDSSVD..RGSP
+  FVCTIGVGQLIR.GWDEGVPK......MSLGEKAKLTITPDYGYGPRGFP.....GLIPP
+  NSTLLFDVELLAINDKKA..........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB1_DROME
+descrip 12 kDa FK506-binding protein (FKBP) (Peptidyl-prolyl cis-tra
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A       11    105  PF00254 FKBP
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........MGVQVVPIAPGDGSTYPKNGQKVTVHYTGTLDD.GTKFDSSRD..RNKP
+  FKFTIGKGEVIR.GWDEGVAQ......LSVGQSAKLICSPDYAYGSRGHP.....GVIPP
+  NSTLTFDVELLKVE..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBP_NEUCR
+descrip FK506-binding protein (FKBP) (Peptidyl-prolyl cis-trans isom
+creator Neurospora crassa.Eukaryota;
+type    PROTEIN
+group 1
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A       17    111  PF00254 FKBP
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....MTIPQLDGLQIEVQQEGQGTRETRRGDNVDVHYKGVLTS.GKKFDASYD..RGEP
+  LNFTVGQGQVIK.GWDEGLLG......MKIGEKRKLTIAPHLAYGNRAVG.....GIIPA
+  NSTLIFETELVGIKGVQKGE........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBP_NEIMA
+descrip FK506-binding protein (Peptidyl-prolyl cis-trans isomerase) 
+creator Neisseria meningitidis (serogroup A).Bacteria;
+type    PROTEIN
+group 1
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A       12    105  PF00254 FKBP
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........MGSLIIEDLQEGFG.KEAVKGKEITVHYTGWLEN.GTKFDSSLD..RRQP
+  LTITLGVGQVIK.GWDEGFGG......MKEGGKRKLTIPSEMGYGARGAG.....GVIPP
+  HATLIFEVELLKVYE.............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBP_STRCH
+descrip FK506-binding protein (Peptidyl-prolyl cis-trans isomerase) 
+creator Streptomyces chrysomallus.Bacteria;
+type    PROTEIN
+group 1
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A       27    122  PF00254 FKBP
+feature 298 321 0 square solid PFAM-B
+  FT   PFAM-B        3     26  PB028154 Pfam-B_28154
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................................MSIEK
+  PEVDFPGGEPPADLAIKDIWEGDG.PVAQAGQTVSVHYVGVAFSTGEEFDASWN..RGTP
+  LQFQLGAGQVIS.GWDQGVQG......MKVGGRRELIIPAHLAYGDRGAG....GGKIAP
+  GETLIFVCDLVAV...............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBP_CORGL
+descrip Probable FK506-binding protein (Peptidyl-prolyl cis-trans is
+creator Corynebacterium glutamicum (Brevibacterium flavum).Bacteria;
+type    PROTEIN
+group 1
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A       25    116  PF00254 FKBP
+feature 299 321 0 square solid PFAM-B
+  FT   PFAM-B        2     24  PB028154 Pfam-B_28154
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................................MEK
+  PQIELPVGPAPEDLVISDIIVGEG.AEARPGGEVEVHYVGVDFETGEEFDSSWD..RGQT
+  SQFPL..NGLIA.GWQEGIPG......MKVGGRRQLTIPPEAAYGPEGSG.....HPLS.
+  GRTLVFIIDLISA...............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB6_HUMAN
+descrip FK506-binding protein 6 (EC 5.2.1.8) (Peptidyl-prolyl cis-tr
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN       54    143  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A       46    140  PF00254 FKBP
+feature 488 616 0 square solid PFAM-B
+  FT   PFAM-B      197    325  PB021428 Pfam-B_21428
+feature 434 487 0 square solid PFAM-B
+  FT   PFAM-B      143    196  PB022594 Pfam-B_22594
+feature 280 321 0 square solid PFAM-B
+  FT   PFAM-B        4     45  PB028502 Pfam-B_28502
+feature 462 495 1 square solid REPEAT
+  FT   REPEAT      171    204  TPR 1.
+feature 510 543 1 square solid REPEAT
+  FT   REPEAT      219    252  TPR 2.
+feature 544 577 1 square solid REPEAT
+  FT   REPEAT      253    286  TPR 3.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................................MGGSALNQGVLEGDDAPGQSLYER
+  LSQRMLDISGDRGVLKDVIREGAG.DLVAPDASVLVKYSGYLEHMDRPFDSNYF..RKTP
+  RLMKLGEDITLW.GMELGLLS......MRRGELARFLFKPNYAYGTLGCP.....PLIPP
+  NTTVLFEIELLDFLDCAESDKFCALSAEQQDQFPLQKVLKVAATEREFGNYLFRQNRFYD
+  AKVRYKRALLLLRRRSAPPEEQHLVEAAKLPVLLNLSFTYLKLDRPTIALCYGEQALIID
+  QKNAKALFRCGQACLLLTEYQKARDFLVRAQKEQPFNHDINNELKKLASCYRDYVDKEKE
+  MWHRMFAPCGDGSTAGES..........................................
+  .................................
+}
+{
+name FKB3_ARATH
+descrip FKBP-type peptidyl-prolyl cis-trans isomerase 3, chloroplast
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      109    208  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      101    205  PF00254 FKBP
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................MSSLGFSVGTCSPPSEKRKCR
+  FLVNNSLNKA..EAINLRNKQKVSSDPELSFAQLSSCGRREAIIGFGFSIGLLDNVSALA
+  ETTSCEFSVSPSGLAFCDKVVGYG.PEAVKGQLIKAHYVGKLEN.GKVFDSSYN..RGKP
+  LTFRIGVGEVIK.GWDQGILGSDGIPPMLTGGKRTLRIPPELAYGDRGAGCKGGSCLIPP
+  ASVLLFDIEYIGKA..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB2_ARATH
+descrip Probable FKBP-type peptidyl-prolyl cis-trans isomerase 2, ch
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      124    216  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      116    213  PF00254 FKBP
+feature 265 321 0 square solid PFAM-B
+  FT   PFAM-B       59    115  PB081483 Pfam-B_81483
+feature 205 240 12 square solid SIGNAL
+  FT   SIGNAL        1     36  Chloroplast (Potential).
+feature 241 283 12 square solid SIGNAL
+  FT   SIGNAL       37     77  Thylakoid.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ........................MAASSPSLLLPLGSASRNGLTTKNPNSSRYIAARVI
+  ASETREQSCK..ISNLSSRREAMLLVLGVSGGLSMSSLAAYAAGLPPEDKPRLCEAECEK
+  ELENVPMVTTESGLQYKDIKVGRG.PSPPVGFQVAANYVAMVPS.GQIFDSSLE..KGLP
+  YLFRVGSGQVIK.GLDEGILS......MKAGGKRRLYIPGPLAFPKGLVSAP.GRPRVAP
+  NSPVIFDVSLEFIPGLDSEEE.......................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBB_ECOLI
+descrip FKBP-type 22 kDa peptidyl-prolyl cis-trans isomerase (EC 5.2
+creator Escherichia coli, andShigella flexneri.Bacteria;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      119    205  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      111    202  PF00254 FKBP
+feature 210 318 3 square solid PFAM-A
+  FT   PFAM-A        1    107  PF01346 FKBP_N
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................TTPTFDTIEAQASYGIGLQVGQQLSESGLEG
+  LLPEALVAGI..ADALEGKHPAVPVDVVHRALREIHERADAVRRQRFQAMAAEGVKYLEE
+  NAKKEGVNSTESGLQFRVINQGEG.AIPARTDRVRVHYTGKLID.GTVFDSSVA..RGEP
+  AEFPV..NGVIP.GWIEALTL......MPVGSKWELTIPQELAYGERGAG.....ASIPP
+  FSTLVFEVELLEIL..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBA_AERHY
+descrip FKBP-type peptidyl-prolyl cis-trans isomerase fkpA precursor
+creator Aeromonas hydrophila.Bacteria;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      172    257  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      164    254  PF00254 FKBP
+feature 189 318 3 square solid PFAM-A
+  FT   PFAM-A       33    160  PF01346 FKBP_N
+feature 157 176 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ....................................MNNFLKVSLLAAAVAVSLTACQKD
+  EKTAANTAEVKAEASKPAEAPKAEAKSFEEQSGYAIGLSMGRYIANTLERQQELGIKLDN
+  SVILKGVTDG..LGKEAKMTDEEIQKVLQQYDAKINELTKAKADKDAVENQKKGEEYLAA
+  NAKKEGVKSTESGLQYQVEKMGTG.AKPKATDIVKVHYTGTLTD.GTKFDSSVD..RGEP
+  ATFPL..NQVIP.GWTEGVQL......MPVGSKFKFFLPSKLAYGEHGAG......SIPA
+  NAVLVFDVELLAIEKPAADGDNAKK...................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBY_HAEIN
+descrip Probable FKBP-type peptidyl-prolyl cis-trans isomerase (EC 5
+creator Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 331 439 5 square solid DOMAIN
+  FT   DOMAIN      150    241  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      142    233  PF00254 FKBP
+feature 191 318 3 square solid PFAM-A
+  FT   PFAM-A       13    138  PF01346 FKBP_N
+sequence
+  ............................................................
+  ............................................................
+  ..........................................................ML
+  KIQKLSIAALMVSAVISGQVFAEDNTFDEKAASYAVGTLMGSQMKDLVDSHKEVIKYDNA
+  RILDGLKDAL..EGKVDVRKDEKIQKTLESIEAKLVAASKAKAESIAKQAKEEGDKFRAE
+  FAKGKDVKTTQSGLMYKIESAGKG.DTIKSTDTVKVHYTGKLPN.GKVFDSSVE..RGQP
+  VEFQL..DQVIK.GWTEGLQL......VKKGGKIQFVIAPELGYGEQGAG.....ASIPP
+  NSTLIFDVEVLDVNPKSEK.........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name MIP_COXBU
+descrip Peptidyl-prolyl cis-trans isomerase Mip precursor (EC 5.2.1.
+creator Coxiella burnetii.Bacteria;
+type    PROTEIN
+group 1
+feature 331 436 5 square solid DOMAIN
+  FT   DOMAIN      142    230  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      134    225  PF00254 FKBP
+feature 196 318 3 square solid PFAM-A
+  FT   PFAM-A       10    130  PF01346 FKBP_N
+feature 187 207 4 square solid SIGNAL
+  FT   SIGNAL        1     21  
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ......MKRLILPFLSVGLLLGTTAHAATPLKTEQDKLSYSMGVMTGKAFRKHDIKIDPQ
+  TFSMGLSDAY..LGKETQMTEAEMRQTLQQFEKQSLQKMQHKMKQTAQQNAEKSRAFLTA
+  NKNKPGVKTLANGLQYKVLQAGQG.QSPTLNDEVTVNYEGRLIN.GTVFDSSYK..RGQP
+  ATFPL..KSVIK.GWQEALTR......MKPGAIWEIYVPPQLAYGEQGAP.....GVIGP
+  NEALIFKVNLISVKKK............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBA_BUCAI
+descrip FKBP-type peptidyl-prolyl cis-trans isomerase fkpA (EC 5.2.1
+creator Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip
+type    PROTEIN
+group 1
+feature 331 437 5 square solid DOMAIN
+  FT   DOMAIN      153    241  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      145    235  PF00254 FKBP
+feature 185 318 3 square solid PFAM-A
+  FT   PFAM-A       10    141  PF01346 FKBP_N
+sequence
+  ............................................................
+  ............................................................
+  .......................................................MILYV
+  PKSFSISAPISDIHLQSVLETKNTFHNNNEKLGYILGLSFGNYVNQTFEKQKKIGIELDR
+  NSLLKGIQDA..ISGNLKLSHQDISSGLKELEKKLKHATKIQLKKNAKENFIQGELYMKN
+  FSKLKGVKKTSSGLLYLLERAGEG.EALKDETKITVHYKGTLIN.GLEFDNSYK..RGRP
+  VSLRL..KDVIL.GWKEGLKY......IKKGGKIKLVIPPNLAYGTEEVN......GIPA
+  NSTLIFDIELLDVVNGV...........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBA_BUCAP
+descrip FKBP-type peptidyl-prolyl cis-trans isomerase fkpA (EC 5.2.1
+creator Buchnera aphidicola (subsp. Schizaphis graminum).Bacteria;
+type    PROTEIN
+group 1
+feature 331 436 5 square solid DOMAIN
+  FT   DOMAIN      165    252  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      156    247  PF00254 FKBP
+feature 187 318 3 square solid PFAM-A
+  FT   PFAM-A       23    152  PF01346 FKBP_N
+sequence
+  ............................................................
+  ............................................................
+  ............................................MIVFLLKRILLLYLIF
+  FVPKSFSENLPFFKIKSYSEKKEFFQNDNEKVGYSLGVSLGNYVNESFERQKKMGINLDK
+  YNILLGVQDAISGNLKLSNEEISTILQKLEKNLKNAAKIEFEKSE..KENLIQGKLYMKK
+  FSEMKGVSKTSSGLLYIIDKLGEGEEIKTKNAEITVHYKGSLIN.GTEFDSSYK..RGKP
+  ITLML..KDVIL.GWQEGLKY......IKKGGKIKLIIPPNLGYGSNRIN......EIPA
+  NSILIFDIELLDIKNI............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FK11_HUMAN
+descrip FK506 binding protein 11 precursor (EC 5.2.1.8) (Peptidyl-pr
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN       57    144  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A       48    141  PF00254 FKBP
+feature 295 321 0 square solid PFAM-B
+  FT   PFAM-B       21     47  PB046314 Pfam-B_46314
+feature 432 478 0 square solid PFAM-B
+  FT   PFAM-B      142    188  PB069750 Pfam-B_69750
+feature 275 301 4 square solid SIGNAL
+  FT   SIGNAL        1     27  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................MTLRPSLLPLHLLLLLLLSAAVCRAE
+  AGLETESPVRTLQVETLVEPPEPCAEPAAFGDTLHIHYTGSLVD.GRIIDTSLT...RDP
+  LVIELGQKQVIP.GLEQSLLD......MCVGEKRRAIIPSHLAYGKRGFP.....PSVPA
+  DAVVQYDVELIALIRANYWLKLVKGILPLVGMAMVPALLGLIGYHLYRKANRPKVSKKKL
+  KEEKRNKSKKK.................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name MIP_CHLPN
+descrip Peptidyl-prolyl cis-trans isomerase Mip precursor (EC 5.2.1.
+creator Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      160    243  PPIase, FKBP-type.
+feature 320 431 0 square solid PFAM-A
+  FT   PFAM-A      150    240  PF00254 FKBP
+feature 282 318 3 square solid PFAM-A
+  FT   PFAM-A      112    148  PF01346 FKBP_N
+feature 170 184 4 square solid SIGNAL
+  FT   SIGNAL        1     15  Potential.
+sequence
+  ............................................................
+  ............................................................
+  .................................................MNRRWNLVLAT
+  VALALSVASCDVRSKDKDKDQGSLVEYKDNKDTNDIELSDNQKLSRTFGHLLARQLRKSE
+  DMFFDIAEVA.KGLQAELVCKSAPLTETEYEEKMAEVQKLVFEKKSKENLSLAEKFLKEN
+  SKNAGVVEVQPSKLQYKIIKEGAG.KAISGKPSALLHYKGSFIN.GQVFSSSEG..NNEP
+  ILLPL..GQTIP.GFALGMQG......MKEGETRVLYIHPDLAYGTAG........QLPP
+  NSLLIFEINLIQASADEVAAVPQEGNQGE...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name MIP_CHLMU
+descrip Peptidyl-prolyl cis-trans isomerase Mip precursor (EC 5.2.1.
+creator Chlamydia muridarum.Bacteria;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      152    235  PPIase, FKBP-type.
+feature 320 431 0 square solid PFAM-A
+  FT   PFAM-A      142    232  PF00254 FKBP
+feature 203 318 3 square solid PFAM-A
+  FT   PFAM-A       26    140  PF01346 FKBP_N
+feature 178 201 0 square solid PFAM-B
+  FT   PFAM-B        1     24  PB045587 Pfam-B_45587
+feature 178 191 4 square solid SIGNAL
+  FT   SIGNAL        1     14  Potential.
+sequence
+  ............................................................
+  ............................................................
+  .........................................................MKN
+  ILSWMLMFAVALPILGCDNNGGSQTSAMGKDMVEDSVLTDNQKLSRTFGHLLARQLSSTE
+  DFTLDLTEVI.KGMQSEIEGKSAPLTDSEYETQMALVQKASFEKKCSENLASAEKFLKEN
+  KDKEGVIELEPNKLQYRIVKEGTG.RVLTGKPNALLHYTGSFIN.GKVFDTSEK..NKDP
+  ILLPL..TKVIS.GFSQGMQG......MREGEVRVLYIHPDLAYGTSG........QLPP
+  NSLLIFEVKLIEANDDNVSVAE......................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBZ_PSEAE
+descrip Probable FKBP-type 25 kDa peptidyl-prolyl cis-trans isomeras
+creator Pseudomonas aeruginosa.Bacteria;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      144    227  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      136    224  PF00254 FKBP
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ....MLQATCARIARRFVWRNRMPRRLFIGLFLLPLPLFAAPPKDELAYAVGARLGMRLQ
+  QEMPGLELSE.LLLGLRQAYRGEALEIPPERIEQLLLQHENATTET.PRTTPAEARFLAN
+  EKARFGVRELTGGVLVSELRRGQG.NGIGAATQVHVRYRGLLAD.GQVFDQSES.....A
+  EWFAL..DSVIE.GWRTALRA......MPVGARWRVVIPSAQAYGHEGAG.....DLIPP
+  DAPLVFEIDLLGFR..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB4_DROME
+descrip 39 kDa FK506-binding nuclear protein (EC 5.2.1.8) (Peptidyl-
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 150 160 5 square solid DOMAIN
+  FT   DOMAIN       89     99  Asp/Glu-rich (highly acidic).
+feature 180 244 5 square solid DOMAIN
+  FT   DOMAIN      119    183  Asp/Glu-rich (highly acidic).
+feature 247 308 5 square solid DOMAIN
+  FT   DOMAIN      186    247  Lys-rich (basic).
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      269    357  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      261    354  PF00254 FKBP
+feature 291 321 0 square solid PFAM-B
+  FT   PFAM-B      230    260  PB019585 Pfam-B_19585
+feature 62 148 0 square solid PFAM-B
+  FT   PFAM-B        3     87  PB056711 Pfam-B_56711
+sequence
+  ...........................................................M
+  SMFWGLNMKPERKYSQT..IIKSFHISGVALDKGQEAKLYLAAEKQEYIVATVTKAIPQV
+  ALDLNFSKGDRIMFYTAGDASVSLLGYLHDIDSEDDEDDDQMTIENLLNSKAIKNSKKSE
+  DDEDENESGEEDEEDTDDDSQIIEEYESFLENGEEEDDDDVDEDNEESGEEDEQDSDDSE
+  AEEEQPKAKVAKLSPGASAKKSGKEQNGVAKKEEAKQQQKKKEKPEAKKEQPKAKEPAKQ
+  QPASKDPRTITGGVKIVDQVVGKG.EEAKQGKRVSVYYIGRLQSNNKTFDSLL...KGKP
+  FKFALGGGEVIK.GWDVGVAG......MKVGGKRVITCPPHMAYGARGAP.....PKIGP
+  NSTLVFEVELKAVH..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB4_SPOFR
+descrip 46 kDa FK506-binding nuclear protein (EC 5.2.1.8) (Peptidyl-
+creator Spodoptera frugiperda (Fall armyworm).Eukaryota;
+type    PROTEIN
+group 1
+feature 93 114 5 square solid DOMAIN
+  FT   DOMAIN       91    112  Asp/Glu-rich (highly acidic).
+feature 122 147 5 square solid DOMAIN
+  FT   DOMAIN      120    145  Lys-rich (basic).
+feature 154 218 5 square solid DOMAIN
+  FT   DOMAIN      152    216  Asp/Glu-rich (highly acidic).
+feature 221 308 5 square solid DOMAIN
+  FT   DOMAIN      219    302  Lys-rich (basic).
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      324    412  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      316    409  PF00254 FKBP
+feature 1 92 0 square solid PFAM-B
+  FT   PFAM-B        1     90  PB056711 Pfam-B_56711
+sequence
+  MFWGLIMEPNKRYTQVVEKPFHISQAAMDISTGDNDPCQVMVVVDGKNFLVCTLQKGKII
+  QVPLDLYFKSGDSVSFL..TNGKCNVHLTGYLDPEFEEDLEDEEEAEEEEEEEEAPPLVP
+  AKNKRKLENANDATANKKAKPDKKAGKNSAPAAESDSDDDDEDQLQKFLDGEDIDTDEND
+  ESFKMNTSAEGDDSDEEDDDEDEEDEEDDDEDDEEEEEAPKKKKKQPAAEQDSTLDTSKE
+  SVDMSKLSKSQ....KRRLKKKLQQQAKQQPQVNGVDKPKKEEPQQKAEKKKPEAKKEEA
+  PVEKKEKKQIAGGVSIEDLKVGSG.PVAKAGKVVMVYYEGRLKQNNKMFDNCV...KGPG
+  FKFRLGSKEVIS.GWDVGIAG......MKVGGKRKIVCPPAMAYGAKGSP.....PVIPP
+  NSTLVFEVDLKNVK..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB4_SCHPO
+descrip FK506-binding protein 39 kDa (EC 5.2.1.8) (Peptidyl-prolyl c
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 168 175 5 square solid DOMAIN
+  FT   DOMAIN      125    132  Poly-Glu.
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      275    361  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      267    358  PF00254 FKBP
+feature 281 321 0 square solid PFAM-B
+  FT   PFAM-B      226    266  PB019585 Pfam-B_19585
+feature 43 166 0 square solid PFAM-B
+  FT   PFAM-B        1    123  PB078471 Pfam-B_78471
+sequence
+  ..........................................MSLPIAVYSLSVKGKDVP
+  AVEESTDASIHLTMASI.DAGEKSNKPTTLLVKVRPRIPVEDEDDEELDEQMQELLEESQ
+  REFVLCTLKPGSLYQQPLNLTITPGDEVFFSASGDATIHLSGNFLVDEEDEEEEESDEDY
+  DLSPTEEDLVETVSGDEESEEESESEDNSASEEDELDSAPAKKAQVKKKRTKDESEQEEA
+  ASPKKNNTKK............QKVEGTPVKEKKVAFAEKLEQGPTGPAAKKEKQQASSN
+  APSSPKTRTLKGGVVVTDVKTGSG.ASATNGKKVEMRYIGKLEN.GKVFDKNT...KGKP
+  FAFILGRGEVIR.GWDVGVAG......MQEGGERKITIPAPMAYGNQSIP......GIPK
+  NSTLVFEVKLVRVH..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKB3_YEAST
+descrip FK506-binding nuclear protein (EC 5.2.1.8) (Peptidyl-prolyl 
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 90 5 square solid DOMAIN
+  FT   DOMAIN       60     87  Asp/Glu-rich (highly acidic).
+feature 91 102 5 square solid DOMAIN
+  FT   DOMAIN       88     99  Lys-rich (highly basic).
+feature 104 122 5 square solid DOMAIN
+  FT   DOMAIN      101    119  Asp/Glu-rich (highly acidic).
+feature 176 251 5 square solid DOMAIN
+  FT   DOMAIN      173    248  Asp/Glu-rich (highly acidic).
+feature 256 304 5 square solid DOMAIN
+  FT   DOMAIN      250    298  Lys-rich (highly basic).
+feature 262 277 5 square solid DOMAIN
+  FT   DOMAIN      256    271  Nuclear localization signal (Potential).
+feature 331 435 5 square solid DOMAIN
+  FT   DOMAIN      324    411  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      316    407  PF00254 FKBP
+feature 299 321 0 square solid PFAM-B
+  FT   PFAM-B      293    315  PB019585 Pfam-B_19585
+feature 2 71 0 square solid PFAM-B
+  FT   PFAM-B        1     70  PB080835 Pfam-B_80835
+feature 120 170 0 square solid PFAM-B
+  FT   PFAM-B      117    167  PB088569 Pfam-B_88569
+feature 187 187 0 square solid MOD_RES
+  FT   MOD_RES     184    184  Phosphotyrosine by CK2
+feature 189 189 0 square solid MOD_RES
+  FT   MOD_RES     186    186  Phosphoserine by CK2
+sequence
+  .MSDLLPLATYSLNVEPYTPVPAIDVTMPITVRITMAALNPEAIDEENKPSTLRIIKRNP
+  DFEDDDFLGGDFDEDEI..DEESSEEEEEEKTQKKKKSKGKKAESESEDDEEDDDEDDEF
+  QESVLLTLSPEAQYQQSLDLTITPEEEVQFIVTGSYAISLSGNYVKHPFDTPMGVEGEDE
+  DEDADIYDSEDYDLTPDEDEIIGDDMDDLDDEEEEEVRIEEVQEEDEEDNDGEEEQEEEE
+  EEEQKEEVKPE...PKKSKKEKKRKHEEKEEEKKAKKVKKVEFKKDLEEGPTKPKSKKEQ
+  DKHKPKSKVLEGGIVIEDRTIGDG.PQAKRGARVGMRYIGKLKN.GKVFDKNT...SGKP
+  FAFKLGRGEVIK.GWDIGVAG......MSVGGERRIIIPAPYAYGKQALP......GIPA
+  NSELTFDVKLVSMKN.............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name FKBH_SCHPO
+descrip Probable peptidyl-prolyl cis-trans isomerase C27F1.06c (EC 5
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 331 434 5 square solid DOMAIN
+  FT   DOMAIN      276    362  PPIase, FKBP-type.
+feature 322 431 0 square solid PFAM-A
+  FT   PFAM-A      268    359  PF00254 FKBP
+feature 286 321 0 square solid PFAM-B
+  FT   PFAM-B      232    267  PB019585 Pfam-B_19585
+feature 45 167 0 square solid PFAM-B
+  FT   PFAM-B        1    123  PB078471 Pfam-B_78471
+sequence
+  ............................................MSKEETLYSVKVDQER
+  VPLFDEDFYKGFRSELSVRFTMAALDPRAKSNDAVTVNVITRLEHPEEDGEESDEELFQE
+  EKFTLCTLKKGSVYQQPIDIIFSPGEEVFFERVGGDIPVYLSGTCIITNIPEEEDSSDLE
+  NDFLYGADEFSSDEEEMDDISVTSSEEEEEENGARIEELNSDEEDAEQAEEEILEKPVPK
+  DEVAEKHSKDK..........LKKEEKEKKTAVDVSDSVNGKKRKTEPAGEGEQTEKKSK
+  STKTYPKQVLEGNVTVQDKVKGDG.PAAKRKKRVSMRYIGRLTN.GKVFDKNI...TGKP
+  FTFNLGLEEVIK.GWDVGIVG......MQVGGERTIHIPAAMAYGSKRLP......GIPA
+  NSDLVFDVKLLAVN..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name 1hxv_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 332 342 0 square solid STRUCT
+  FT   STRUCT        6     16  STRAND
+feature 346 347 0 square solid STRUCT
+  FT   STRUCT       19     20  STRAND
+feature 360 365 0 square solid STRUCT
+  FT   STRUCT       28     33  STRAND
+feature 375 380 3 square solid STRUCT
+  FT   STRUCT       42     47  HELIX
+feature 392 396 0 square solid STRUCT
+  FT   STRUCT       53     57  STRAND
+feature 418 420 3 square solid STRUCT
+  FT   STRUCT       69     71  HELIX
+feature 425 430 0 square solid STRUCT
+  FT   STRUCT       76     81  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................KLANGDIAIIDFTGIVDN.KKLASAS.....AQN
+  YELTIGSNSFIK.GFETGLIA......MKVNQKKTLALTFPSDYHVK..........ELQ
+  SKPVTFEVVLKAIK..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}
+{
+name TIG_SYNP7
+descrip Trigger factor (TF).
+creator Synechococcus sp. (strain PCC 7942) (Anacystis nidulans R2).
+type    PROTEIN
+group 1
+feature 331 439 5 square solid DOMAIN
+  FT   DOMAIN      171    258  PPIase, FKBP-type.
+sequence
+  ............................................................
+  ............................................................
+  ..................................MSIKVTQEKLPASRVGLQIEVSGEQS
+  RQVYERTLTRLSREVRFPGFRPGKVP...RPVLIQRLGETALKANAIEDLVQQSLESAIA
+  QESIPAIGNYQLSSDFETLVAAFQPGESFSFEASVDVQPTATLA..QYTGLTVEVAEVPF
+  DANRVDNVLAEQQKQMATLVPVEG.RNAAIGDVAVIDFQGILVESGEEIPGG....SGTD
+  FQIEVEEDRFIP.GFISGIVG......MAIEETRTVDATFPETYAQE..........EVA
+  GKAAQFTITLKELKTRDLPELDDAFAQEASQYETIEELKTALTERFQAEHESEVKASKRD
+  AILTALADQLD......VEIPESLLQREISAMINETASRLSGQGMDVRKLFTEEVLER..
+  LRENSKDEAEQRLRRTIALGELAK.....VTETQVDDEAVKARAAELLSNYPRPQEIDRD
+  RLNTVVREELLEDKLLEWFEANNSVTFVAPKAAETEVDAASATVETTATETAEEAPEAPK
+  AKKGKKKA.........................
+}
+{
+name TIG_RHILO
+descrip Trigger factor (TF).
+creator Rhizobium loti (Mesorhizobium loti).Bacteria;
+type    PROTEIN
+group 1
+feature 330 439 5 square solid DOMAIN
+  FT   DOMAIN      169    254  PPIase, FKBP-type.
+feature 320 431 0 square solid PFAM-A
+  FT   PFAM-A      160    246  PF00254 FKBP
+feature 432 623 4 square solid PFAM-A
+  FT   PFAM-A      247    422  PF05698 Trigger_C
+feature 157 319 5 square solid PFAM-A
+  FT   PFAM-A        1    159  PF05697 Trigger_N
+sequence
+  ............................................................
+  ............................................................
+  ....................................MQVTETLNSGLKREIKITVPAGDM
+  EAKLMARLSDARNKVRINGFRPGKVPVQHLRKVYGKSFMAEVVNEILNDSTRSIITGRGE
+  ..KAAMQPEVIMTEDEKEAEKILAGGTDFEFRLNYEVIPAIEIK..DFSDIKVTRQVFDV
+  PDAEIDDQVKRVAESARSYEPKTG.KAAEG.DRVSIDYVGKID..GEAFAGG....AGTD
+  QLLVLGSKEFIP.GFEDQLIG......TKAGDEKQVTVTFPENYQAA..........HLA
+  GKEATFDVTVKEVSKPGELEINDETAKNLGLESLERLREIVRGQIENQFGSMTRQKVKRQ
+  LLDQLDAAYS...........FEAPSKLIDAEFNNIWAQVTRDLEAAGRTFADEETTEEE
+  ARAEYLRLAERRVRLGLVLAEIG.....EKAGVTVSDEELQRGLFEQVRRFPANQQQEAF
+  EFYRSNPEALNALRAPMFEEKVVDHLLGQISVTDVKVSKEELMADDEDAETTTKAKPAKK
+  AAAKKAEAKANEDEAEEPKKKAAPKKKAAKDAE
+}
+{
+name 1l1p_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 332 339 0 square solid STRUCT
+  FT   STRUCT       19     26  STRAND
+feature 357 365 0 square solid STRUCT
+  FT   STRUCT       38     46  STRAND
+feature 375 378 3 square solid STRUCT
+  FT   STRUCT       55     58  HELIX
+feature 394 398 0 square solid STRUCT
+  FT   STRUCT       68     72  STRAND
+feature 424 434 0 square solid STRUCT
+  FT   STRUCT       88     98  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............GSHMQATWKEKD.GAVEAEDRVTIDFTGSVD..GEEFEGG....KASD
+  FVLAMGQGRMIP.GFEDGIKG......HKAGEEFTIDVTFPEEYHAE..........NLK
+  GKAAKFAINLKKVEERELPELT......................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................
+}

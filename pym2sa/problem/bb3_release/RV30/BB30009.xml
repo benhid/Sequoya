@@ -1,0 +1,698 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref3/test/1idy_ref3</aln-name>
+<sequence seq-type="Protein">
+<seq-name>1hst_A</seq-name>
+<seq-info>
+<accession>1hst_A</accession>
+<nid>1hst_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>5</fstart><fstop>14</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>22</fstart><fstop>24</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>24</fstart><fstop>34</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>41</fstart><fstop>54</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>58</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>69</fstart><fstop>72</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------shptysemiaaairaeksrgg-ssrqsiqkyikshykv---ghnadlqiklsirr-llaagvlkqtkgvgasgsfrlak------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H5A_XENLA</seq-name>
+<seq-info>
+<accession>P22844</accession>
+<nid>H5A_XENLA</nid>
+<definition>Histone H5A (XLH5A) (H1D) (H1-SA).</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>24</fstart><fstop>97</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------maensaatpaakpkrskalkkstdhpkysdmilaavqaeksrsg-ssrqsiqkyiknhykv---genadsqiklsikr-lvtsgalkqtkgvgasgsfrlakade-gkkpakkp-kkeikkavspkkva--kpkkaakspakakkpkvaekkvkkvakkkpapspkkakktktvkakpvraskvkkakpskpkakaspkksgrkk-----------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1D_STRPU</seq-name>
+<seq-info>
+<accession>P15870</accession>
+<nid>H1D_STRPU</nid>
+<definition>Histone H1-delta.</definition>
+<organism>Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>32</fstart><fstop>105</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------madtdaapaapapstpkkaakkkaskpktpashpkysdmiasaleslkekkg-ssrqailkyvkanftv---gdnanvhikqalkr-gvtsgqlrhvkgsgasgsfllaektk----tpkkaaakkatpkkkpaakktkkpaakkatkkpakkpaakkkvakpaakkaakpvakkatpkkkvvkkaakgkgkkk------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_TIGCA</seq-name>
+<seq-info>
+<accession>P35060</accession>
+<nid>H1_TIGCA</nid>
+<definition>Histone H1.</definition>
+<organism>Tigriopus californicus (Marine copepod).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>20</fstart><fstop>94</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------mtettsakpkkvskpkakpthpptsvmvmaaikalkerng-sslpaikkyiaanykv--dvvknahfikkalks-lvekkklvqtkgagasgsfklaaaak-aekpkava-kpkkaktpkkkaaa--tkkptgekkaktpkkkpaakkpaaakpkkaktpkkkaapakktpvkkvkktspkkkaapkkk-----------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_DROHY</seq-name>
+<seq-info>
+<accession>P17268</accession>
+<nid>H1_DROHY</nid>
+<definition>Histone H1.</definition>
+<organism>Drosophila hydei (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>45</fstart><fstop>119</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>159</fstart><fstop>226</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB024138 Pfam-B_24138</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031456 Pfam-B_31456</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------msdsvvavsaspvtpqtasaekkvaakkpasasaskakkttappthpptqqmvdasiqnlkergg-ssllaikkyisatykc--daqklapfikkylkn-svangkliqtkgkgasgsfklsassk-kepkpkvs-svekkskkvtssaa--aakkktisatkkpkgvadkklskavvtkksvdkkkaekakakdakkvgtikakpttakakssaakpktpkpkttsakpkkvvaaaspkkaaakkpkaktasatkk----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_DROVI</seq-name>
+<seq-info>
+<accession>Q24704</accession>
+<nid>H11_DROVI</nid>
+<definition>Histone H1.1.</definition>
+<organism>Drosophila virilis (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>44</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>160</fstart><fstop>250</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB024138 Pfam-B_24138</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB031456 Pfam-B_31456</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------msdsavatsaspviaqaasgekkvstkk-gsstpeskkstaappshpptqqmvdasiknlkergg-ssllaikkyigatykc--daqklapfikkylkn-avangnviqtkgkgasgsfklsasan-kdakpkas-avekktkkvnasaaratksksststtkkaagaadkklsksaaakknvekkkadkekakdakktgtikakpttakakssatkpktpkpkttsakpkkvvsattpkktavkkpkaktasatkk----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_DROME</seq-name>
+<seq-info>
+<accession>P02255</accession>
+<nid>H1_DROME</nid>
+<definition>Histone H1.</definition>
+<organism>Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>45</fstart><fstop>119</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------msdsavatsaspvaappatvekkvvqkkasgsagtkakkasatpshpptqqmvdasiknlkergg-ssllaikkyitatykc--daqklapfikkylks-avvngkliqtkgkgasgsfklsasak-kekdpkakskvlsaekkvqskkvaskkigvsskktavgaadkkpkakkavatkktaenkktekakakdakktgiikskpaatkakvtaakpkavvakaskakpavsakpkktvkkasvsatakkpkakttaakk
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1G_STRPU</seq-name>
+<seq-info>
+<accession>P07796</accession>
+<nid>H1G_STRPU</nid>
+<definition>Histone H1-gamma, late.</definition>
+<organism>Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>17</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------msaakpkvakkarvapahppssqmvvaavtalkergg-sstqaikkyiaanytv--dmtkqgpfirralvk-gvasgalvqtkgkgasgsfklgkkke-gksdaqkariaakkaklaakkkeqrekkalktkarkekvaakkaakkatkktkkvkkpaakkakkpaakkpaakkpaakkakkpakkvakpakkaaakpakkaakpakkaakpakkaakpakk-----------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1B_STRPU</seq-name>
+<seq-info>
+<accession>P15869</accession>
+<nid>H1B_STRPU</nid>
+<definition>Histone H1-beta, late embryonic.</definition>
+<organism>Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>17</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------maaeqkkvakkprakpahpsssemvlaaitalkergg-ssaqairkyieknytv--dikkqaifikralit-gvekgtlvqvkgkgasgsfklgkkke-gksdaqkapdaakkaklaakkkeakekkaarskakkeklaakkaskkttkkvkkpaakkakkpaakkaakkpaakkpaakkaaakpapakkaakkpaakkaakkvakkpaakkaakk-----------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1E_CHIPA</seq-name>
+<seq-info>
+<accession>P40262</accession>
+<nid>H1E_CHIPA</nid>
+<definition>Histone H1E.</definition>
+<organism>Chironomus pallidivittatus (Midge).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>50</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB009523 Pfam-B_9523</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------msdpaqeveapveaapvasspkgkkekapkapkaekpksdkpkkpkaapthppvsemvvnaittlkergg-ssliaikkfvaaqykv--dveklvpfikkflka-svakgtllqakgkgasgsfklppaak-kvdkpkkapaapkpkstnkrvtgekkvvkkpaakkpeakkatkaakpaakkvaakpaakkaaapkpkpaakpkkevkpkeeakpkkaaakpakpaakpakkpaakkak--------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H12_GLYBA</seq-name>
+<seq-info>
+<accession>P40264</accession>
+<nid>H12_GLYBA</nid>
+<definition>Histone H1-II.</definition>
+<organism>Glyptotendipes barbipes.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>39</fstart><fstop>114</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>115</fstart><fstop>170</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB070254 Pfam-B_70254</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------msdpapevapaapvaspakakkekkpksdkpkkpkaprthppvsemvvnaiktlkergg-sslqaikkflvaqykv--dveklapfikkylkggavvkgellqtkgkgasgsfklpaaak-kekvakkpmkatgekkpkaaakpkkagekkksiakkpkaatatkvkkpvakstkkqaavkpaakkaapkpkavpkpkaakpkkeakpkkaaapkaakkpaqkkpkatkkpaakka-------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_GLYBA</seq-name>
+<seq-info>
+<accession>P40263</accession>
+<nid>H11_GLYBA</nid>
+<definition>Histone H1-I.</definition>
+<organism>Glyptotendipes barbipes.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>51</fstart><fstop>125</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>50</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB009523 Pfam-B_9523</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------msdsapeietpveeapkaaspakspakspgrakkakkdgsdkpkkpkaipthppvsemvvnalktlnekgg-ssviaikkflvatykv--eiekllpfikkflkg-avlkgevlqvkgtgasgsfkmpppak-kvdrpesapkkkatktktrverkekkvvakkpkpavekkaakpaakkaaakpaakkaaakpaakkpaakaspkkaaakpkakptpkkstpakpkaaarkpakksk-----------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1A_PLADU</seq-name>
+<seq-info>
+<accession>P06894</accession>
+<nid>H1A_PLADU</nid>
+<definition>Histone H1A, sperm.</definition>
+<organism>Platynereis dumerilii (Dumeril's clam worm).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>9</fstart><fstop>79</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Globular.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>10</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------arrrktaaaahppvatmvvtailglkerkg-ssmvaikkyiaanyrv--dvarlapfirkfir------kavkqtkgtgasgsfrvnktav-pkkkkaakkpkakkvkkpksaakkktnrarkpktkknrn-----------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1E_STRPU</seq-name>
+<seq-info>
+<accession>P19375</accession>
+<nid>H1E_STRPU</nid>
+<definition>Histone H1, early embryonic.</definition>
+<organism>Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>17</fstart><fstop>91</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------maeknsskkvttkkpaahppaaemvataitelkdrng-sslqaikkyiatnfdv--qmdrqllfikralks-gvekgklvqtkgkgasgsfkvnvqaa-kaqasekakkekekakllaqrekakekgcseegetaegsrpkkvkaapkkakkpvkkttekkekkktpkkapkkpaakkstpkktpkkaaakkpktakpkkpaxkkaaksk-----------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_PARAN</seq-name>
+<seq-info>
+<accession>P02256</accession>
+<nid>H1_PARAN</nid>
+<definition>Histone H1, gonadal.</definition>
+<organism>Parechinus angulosus (Angulate sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>41</fstart><fstop>115</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------pgspqkraasprksprkspkksprkasasprrkakrarasthppvlemvqaaitamkerkg-ssaakiksymaanyrv--dmnvlaphvrralrn-gvasgalkqvtgtgasgrfrvgavakpkkakktsaaakakkakaaaakkarkakaaakrkaalakkkaaaakrkaaakakkakkpkkkaakkakkpakkspkkakkpakkspkkkkakrspkkakkaagkrkpaakkarrsprkagkrrspkkark-----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_ECHCR</seq-name>
+<seq-info>
+<accession>P02257</accession>
+<nid>H1_ECHCR</nid>
+<definition>Histone H1, gonadal (Fragment).</definition>
+<organism>Echinolampas crassa (Sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>37</fstart><fstop>111</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------aaspqkraasprkspkksprkspkkksprkrkarsaahppvidmitaaiaaqkerrg-ssvakiqsyiaakyrc--dinalnphirralkn-qvksgalkqvsgvgatgrfrvgavkr---saasanklkatrekararakakkakaaarrkaaaakrkaaaakrraakkarkakakp---------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H12_CAEEL</seq-name>
+<seq-info>
+<accession>P15796</accession>
+<nid>H12_CAEEL</nid>
+<definition>Histone H1.2.</definition>
+<organism>Caenorhabditis elegans.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>36</fstart><fstop>112</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Globular.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>36</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>35</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB045110 Pfam-B_45110</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine Probable</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------sdvtvaetpavktptkapkapksktttepsskvaaahppfinmikeaikqlkerkg-sskiailkyitanykvgdqltrinsrlraalnk-gvaskalvqsvgngasgrfrvpekaa---atkkpvakkpvakkaatgekkakkttvakktgdkvkkakspkkiakpaakkvakspakkaapkkapakkaaapka---------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_CAEEL</seq-name>
+<seq-info>
+<accession>P10771</accession>
+<nid>H11_CAEEL</nid>
+<definition>Histone H1.1.</definition>
+<organism>Caenorhabditis elegans.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>36</fstart><fstop>112</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Globular.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>36</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine Probable</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------sdsavvaaavepkvpkakaakaakptkvakakapvahppyintikeaikqlkdrkg-askqailkfisqnyklgdnviqinahhrqalkr-gvtskalvqargsgangrfrvpekaaaakkpaaakkpaaakkpaaakkatgekkakkpaaakpkkaatgdkkvkkakspkkvakpaakkvakspakkaapkkiakpaakkaakpaaka-------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_BOVIN</seq-name>
+<seq-info>
+<accession>P02253</accession>
+<nid>H11_BOVIN</nid>
+<definition>Histone H1.1 (Fragment).</definition>
+<organism>Bos taurus (Bovine).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>35</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>35</fstart><fstop>35</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine Potential</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>103</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine by PKC</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------setapaapaaappaektpvkkkaakkpagarrkasgppvselitkavaaskersg-vslaalkkalaaagy---dveknnsriklglks-lvskgtlvqtkgtgasgsf----------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_MOUSE</seq-name>
+<seq-info>
+<accession>P43275</accession>
+<nid>H11_MOUSE</nid>
+<definition>Histone H1.1 (H1 VAR.3) (H1a).</definition>
+<organism>Mus musculus (Mouse).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>37</fstart><fstop>110</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine By similarity</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------setapvaqaastatekpaaakktkkpakaaaprkkpagpsvselivqavssskersg-vslaalkkslaaagy---dveknnsriklglks-lvnkgtlvqtkgtgaagsfklnkkaeskaittkvsvkakasgaakkpkktagaaakktvktpkkpkkpavskktskspkkpkvvkakkvakspakakavkpkaskakvtkpktpakpkkaapkkk------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_HUMAN</seq-name>
+<seq-info>
+<accession>Q02539</accession>
+<nid>H11_HUMAN</nid>
+<definition>Histone H1.1.</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>38</fstart><fstop>111</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine By similarity</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------setvppapaasaapekplagkkakkpakaaaaskkkpagpsvselivqaassskergg-vslaalkkalaaagy---dveknnsriklgiks-lvskgtlvqtkgtgasgsfklnkkassvetkpgaskvatktkatgaskklkkatgaskksvktpkkakkpaatrkssknpkkpktvkpkkvakspakakavkpkaakarvtkpktakpkkaapkkk-----------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H101_CHICK</seq-name>
+<seq-info>
+<accession>P08284</accession>
+<nid>H101_CHICK</nid>
+<definition>Histone H1.01.</definition>
+<organism>Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>36</fstart><fstop>109</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Globular.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>36</fstart><fstop>109</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylserine By similarity</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------setapaaapdapapgakaaakkpkkaaggakarkpagpsvtelitkavsaskerkg-lslaalkkalaaggy---dveknnsriklglks-lvskgtlvqtkgtgasgsfrlnkkpgevkekaprkrataakpkkpaakkpaaaakkpkkaaavkkspkkakkpaaaatkkaakspkkaakagrpkkaakspakakavkpkaakpkatkpkaakakktaakkk-----------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_ONCMY</seq-name>
+<seq-info>
+<accession>P06350</accession>
+<nid>H1_ONCMY</nid>
+<definition>Histone H1 [Contains: Oncorhyncin II].</definition>
+<organism>Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).Eukary</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>27</fstart><fstop>100</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Globular.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>27</fstart><fstop>100</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>137</fstart><fstop>138</fstop><fcolor>13</fcolor><fscore>0.00</fscore><fnote>SITE_Cleavage Probable</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>1</fstart><fstop>1</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Nacetylalanine By similarity</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------aevapapaaaapakapkkkaaakpkkagpsvgelivkavsaskersg-vslaalkkslaaggy---dveknnsrvkiavks-lvtkgtlvqtkgtgasgsfklnkkaveakkpakkaaapkakkvaakkpaaakkpkkvaakkavaakkspkkakkpatpkkaakspkkvkkpaaaakkaakspkkatkaakpkaakpkaakakkaapkkk--------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1B_XENLA</seq-name>
+<seq-info>
+<accession>P06893</accession>
+<nid>H1B_XENLA</nid>
+<definition>Histone H1B.</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>39</fstart><fstop>112</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Globular.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>39</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------tattetapvappaepaaakktkkqqpkkvaggakakkpsgpsaselivkavssskersg-vslaalkkalaaggy---dvdknnsrlklalka-lvtkgtltqvkgsgasgsfklnkkqletkdkaakkkpaapkakktaagakkapkspkkpkkvsaaakspkkvkklakaakspkkpkavkakkvakspakkatkpktakspakakvakpkaakakkpapkk-------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1A_XENLA</seq-name>
+<seq-info>
+<accession>P06892</accession>
+<nid>H1A_XENLA</nid>
+<definition>Histone H1A.</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>41</fstart><fstop>112</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Globular.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>41</fstart><fstop>112</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00538 linker_histone</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------aeaaesapapppaepaakkkkqqpkkaaaargaakskkpssgpsvseqivtavsaskersg-vslaalkktlaaggy---dvdknnsrlklalk---vtketllqvkgsgasgsfklnkkqlqskdkaaakkkaplaaeakkpaaaakktakspkkpkkvsaaakspkklkkpakaakspakktavkpkvaakspakakaakpkvakakkaapkkk-----------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1aoy_</seq-name>
+<seq-info>
+<accession>1aoy_</accession>
+<nid>1aoy_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>10</fstart><fstop>19</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>26</fstart><fstop>36</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>43</fstart><fstop>53</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>56</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>65</fstart><fstop>68</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------mrssakqeelvkafkallkeekfssqgeivaalqeqgf---dninqskvsrmltkf-gavrtrnakmemvyclpaelgvptt----------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ARGR_HAEIN</seq-name>
+<seq-info>
+<accession>P45110</accession>
+<nid>ARGR_HAEIN</nid>
+<definition>Arginine repressor.</definition>
+<organism>Haemophilus influenzae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>70</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01316 Arg_repressor</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>76</fstart><fstop>146</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF02863 Arg_repressor_C</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------mtenltrafkellnqerfgsqseivdalkkqgf---tginqskisrmlskf-gavrtrntkmemvyclpnelsvpnts-splknlvl-dvdhnamliviktt--pgaaqliarlldsigksegilgtiagddtifvtptnnkpidellqniqrlfentl------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ARGR_PASMU</seq-name>
+<seq-info>
+<accession>P57850</accession>
+<nid>ARGR_PASMU</nid>
+<definition>Arginine repressor.</definition>
+<organism>Pasteurella multocida.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>74</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF01316 Arg_repressor</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>80</fstart><fstop>150</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF02863 Arg_repressor_C</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------mnyekqdnllnafkellaqerfgsqseivqalqelgf---tqinqskvsrmltkf-gavrtrntrmemvyclpnelsvpntk-splknlvl-didhnhfvvvirtt--pgaaqliarlldsigkadgilgtiagddtifvtptldaniadliksirnlfetsi------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ARGR_SHEON</seq-name>
+<seq-info>
+<accession>Q8EIR6</accession>
+<nid>ARGR_SHEON</nid>
+<definition>Arginine repressor.</definition>
+<organism>Shewanella oneidensis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------mqttknqddlvrifkailkeerfgsqseivtalqaegf---tninqskvsrmlskf-gavrtrnakqemvyclpaelgvptag-splknlvl-dvdhnqamivvrts--pgaaqliarlldsigkpegilgtiagddtificpssiqdiadtletikslfnyae------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1jhg_A</seq-name>
+<seq-info>
+<accession>1jhg_A</accession>
+<nid>1jhg_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>2</fstart><fstop>24</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>28</fstart><fstop>35</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>38</fstart><fstop>56</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>61</fstart><fstop>68</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>72</fstart><fstop>84</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>87</fstart><fstop>97</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------saamaeqrhqewlrfvdllknayqndlhlpllnlmltpderealgtrvriieellrge--msqrelknelg---------agiatitrgsnsl-kaapvelrqwleevllksd----------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_YERPE</seq-name>
+<seq-info>
+<accession>P58700</accession>
+<nid>TRPR_YERPE</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Yersinia pestis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>84</fstart><fstop>107</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDBy similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>33</fstart><fstop>120</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01371 Trp_repressor</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mtdekqvsdslnrqtagnpysaadpalsaednqhwlsfvallqnaitqdlhlpllqlmltpdertalgtrvriieelmrge--lsqrelksqlg---------agiatitrgsnsl-ktappqlkswleaqllankr---------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_VIBPA</seq-name>
+<seq-info>
+<accession>Q87S71</accession>
+<nid>TRPR_VIBPA</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Vibrio parahaemolyticus.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>59</fstart><fstop>82</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDBy similarity</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------mshepeyrdwqqivelirssvdsqqhemlltmlmtpderesltarvnilnellkge--lsqrqisqmlg---------vgiatitrgsnel-kskseaekdklk-llleqvaqvak-----------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_VIBVU</seq-name>
+<seq-info>
+<accession>Q8DEU5</accession>
+<nid>TRPR_VIBVU</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Vibrio vulnificus.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>59</fstart><fstop>82</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDBy similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>95</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01371 Trp_repressor</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------msqqpeytdwqqivdlvkhsveqkqhdmlltmlmtpderealvsrvnivrellkge--lsqrqisqmlg---------vgiatitrgsnel-klksdedkarln-qllegtkkgg------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_VIBCH</seq-name>
+<seq-info>
+<accession>Q9KU28</accession>
+<nid>TRPR_VIBCH</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Vibrio cholerae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>59</fstart><fstop>82</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDBy similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>95</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01371 Trp_repressor</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------mvqqpsfsewqqvldlvkqavqqeqhemlltmlmtpderealvarvnivhellqge--lsqrqisqmlg---------vgiatitrgsnel-ksrsedekaala-qllmpppssea-----------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_CHLTR</seq-name>
+<seq-info>
+<accession>O84171</accession>
+<nid>TRPR_CHLTR</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Chlamydia trachomatis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>58</fstart><fstop>81</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDBy similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>94</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01371 Trp_repressor</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------mknqeesgwqafltlcskmqkekflqdlfslflsfserkdvasryhiirallege--ltqreiaekyg---------vsiaqitrgsnal-kgldpqfkeflqkei--------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_CHLCV</seq-name>
+<seq-info>
+<accession>Q822W7</accession>
+<nid>TRPR_CHLCV</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Chlamydophila caviae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>59</fstart><fstop>82</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDBy similarity</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------maqesnengwgdflelcskiktpeafhdffalfltfgeresmasrflivqallaeq--ltqreiaqkyg---------vsiaqitrgsnal-kaidpkfkeflk-nlnrkygnq-------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_PASMU</seq-name>
+<seq-info>
+<accession>Q9CNU9</accession>
+<nid>TRPR_PASMU</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Pasteurella multocida.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>59</fstart><fstop>82</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDBy similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>95</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01371 Trp_repressor</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------mylsrnleqwhafvemlrtafaqgkeqeiltllltpderdsvglrlqivaqlldks--vpqreiqqnln---------tsaatitrgsnmi-ktmppefmawvkeqldeqakkd-------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_HAEIN</seq-name>
+<seq-info>
+<accession>P44889</accession>
+<nid>TRPR_HAEIN</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Haemophilus influenzae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>59</fstart><fstop>82</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDBy similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>95</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01371 Trp_repressor</fnote></fitem>
+</ftable>
+<length>278</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------myisrnleqwnaflqmlkiafeenkaqefltllltaderdavglrlqivsqlidkn--mpqreiqqnln---------tsaatitrgsnmi-ktmdpdfmqwmkqhldliekn--------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

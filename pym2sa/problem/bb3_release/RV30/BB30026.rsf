@@ -1,0 +1,2880 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1nhp_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 215 219 0 square solid STRUCT
+  FT   STRUCT        2      6  STRAND
+feature 223 235 3 square solid STRUCT
+  FT   STRUCT       10     22  HELIX
+feature 240 245 0 square solid STRUCT
+  FT   STRUCT       27     32  STRAND
+feature 262 269 3 square solid STRUCT
+  FT   STRUCT       41     48  HELIX
+feature 317 319 3 square solid STRUCT
+  FT   STRUCT       55     57  HELIX
+feature 325 330 3 square solid STRUCT
+  FT   STRUCT       63     68  HELIX
+feature 336 339 0 square solid STRUCT
+  FT   STRUCT       72     75  STRAND
+feature 341 347 0 square solid STRUCT
+  FT   STRUCT       77     83  STRAND
+feature 355 360 0 square solid STRUCT
+  FT   STRUCT       88     93  STRAND
+feature 375 379 0 square solid STRUCT
+  FT   STRUCT       99    103  STRAND
+feature 382 385 0 square solid STRUCT
+  FT   STRUCT      106    109  STRAND
+feature 389 391 0 square solid STRUCT
+  FT   STRUCT      113    115  STRAND
+feature 426 427 0 square solid STRUCT
+  FT   STRUCT      128    129  STRAND
+feature 431 442 3 square solid STRUCT
+  FT   STRUCT      133    144  HELIX
+feature 450 454 0 square solid STRUCT
+  FT   STRUCT      151    155  STRAND
+feature 458 469 3 square solid STRUCT
+  FT   STRUCT      159    170  HELIX
+feature 476 481 0 square solid STRUCT
+  FT   STRUCT      174    179  STRAND
+feature 493 504 3 square solid STRUCT
+  FT   STRUCT      191    202  HELIX
+feature 509 513 0 square solid STRUCT
+  FT   STRUCT      206    210  STRAND
+feature 517 521 0 square solid STRUCT
+  FT   STRUCT      214    218  STRAND
+feature 534 537 0 square solid STRUCT
+  FT   STRUCT      225    228  STRAND
+feature 552 554 0 square solid STRUCT
+  FT   STRUCT      232    234  STRAND
+feature 557 560 0 square solid STRUCT
+  FT   STRUCT      237    240  STRAND
+feature 565 567 0 square solid STRUCT
+  FT   STRUCT      244    246  STRAND
+feature 572 574 3 square solid STRUCT
+  FT   STRUCT      249    251  HELIX
+feature 611 613 0 square solid STRUCT
+  FT   STRUCT      276    278  STRAND
+feature 615 617 3 square solid STRUCT
+  FT   STRUCT      280    282  HELIX
+feature 620 623 0 square solid STRUCT
+  FT   STRUCT      285    288  STRAND
+feature 623 630 3 square solid STRUCT
+  FT   STRUCT      288    290  HELIX
+feature 632 634 0 square solid STRUCT
+  FT   STRUCT      292    294  STRAND
+feature 639 652 3 square solid STRUCT
+  FT   STRUCT      299    311  HELIX
+feature 670 674 0 square solid STRUCT
+  FT   STRUCT      327    331  STRAND
+feature 677 683 0 square solid STRUCT
+  FT   STRUCT      334    340  STRAND
+feature 689 695 3 square solid STRUCT
+  FT   STRUCT      343    349  HELIX
+feature 701 708 0 square solid STRUCT
+  FT   STRUCT      354    361  STRAND
+feature 719 726 0 square solid STRUCT
+  FT   STRUCT      372    379  STRAND
+feature 734 741 0 square solid STRUCT
+  FT   STRUCT      386    393  STRAND
+feature 749 758 3 square solid STRUCT
+  FT   STRUCT      400    409  HELIX
+feature 765 769 3 square solid STRUCT
+  FT   STRUCT      414    418  HELIX
+feature 785 797 3 square solid STRUCT
+  FT   STRUCT      434    445  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................MKVIVLGSSHGGYEAVEELLNLHPDAE
+  IQWYEKG........DFISFLSAGMQLYLEGKVK..........................
+  ...............DVNSVRYMTGEKMESR..GVNVFSNTEITAIQPKE...HQVTVKD
+  L.........VSGEERVENYDKLIISPGAVPFEL.................DIPGKD...
+  ..LDNIYLMRGRQWAIKLKQKTVDPEV.NNVVVIGSGYIGIEAAEAFAKAG...KKVTVI
+  DILDRPLGVYLDKEFTDVLTEEMEANN.ITIATGETVERYEGD......GRVQKVVTDKN
+  ...........AYDADLVVVAVG.VRPNT..AWLKG..TLELHPN.....GLIKTDEYM.
+  ....RTSEPDVFAVGDATLIKYNP.....ADTEVNIALATNARKQGR.FAVKNLEEPVKP
+  ..FPGVQGSSGLAVFDYKFASTGI...NEVMAQKLGKET.KAVTVVEDYLMDFNPDKQKA
+  WFKLVYDPE.TTQILGAQLMSKA.DLTANINAISLAIQA..KMTIEDLAYADFFFQPAFD
+  KPWNIINTAA.LEAVKQER................................
+}
+{
+name NAOX_ENTFA
+descrip NADH oxidase (EC 1.6.99.3) (NOXase).
+creator Enterococcus faecalis (Streptococcus faecalis).Bacteria;
+type    PROTEIN
+group 1
+feature 215 632 0 square solid PFAM-A
+  FT   PFAM-A        2    292  PF00070 pyr_redox
+feature 670 800 1 square solid PFAM-A
+  FT   PFAM-A      326    434  PF02852 pyr_redox_dim
+feature 215 245 4 square solid SITE
+  FT   SITE          2     32  NP_BIND_FAD ADP part Probable
+feature 223 223 0 square solid SITE
+  FT   SITE         10     10  ACT_SITE_Base By similarity
+feature 263 263 0 square solid SITE
+  FT   SITE         42     42  ACT_SITE_Redoxactive
+feature 451 466 4 square solid SITE
+  FT   SITE        150    165  NP_BIND_NAD By similarity
+feature 606 616 4 square solid SITE
+  FT   SITE        271    281  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................MKVVVVGCTHAGTSAVKSILANHPEAE
+  VTVYERN........DNISFLSCGIALYVGGVVK..........................
+  ...............NAADLFYSNPEELASL..GATVKMEHNVEEINVDD...KTVTAKN
+  L.........QTGATETVSYDKLVMTTGSWPIIP.................PIPGID...
+  ..AENILLCKNYSQANVIIEKAKDA...KRVVVVGGGYIGIELVEAFVESG...KQVTLV
+  DGLDRILNKYLDKPFTDVLEKELVDRG.VNLALGENVQQFVADEQG....KVAKVITPSQ
+  ...........EFEADMVIMCVG.FRPNT..ELLKD..KVDMLPN.....GAIEVNEYM.
+  ....QTSNPDIFAAGDSAVV.....HYNPSQTKNYIPLATNAVRQGM.LVGRNLTEQK..
+  .LAYRGTQGTSGLYLFGWKIGSTGVTKESAKL.....NGLDVEATVFEDNYRPEFMPT..
+  ...........TEKVLMELVYEKGT.QRIVGGQLMSKYD.ITQSANTLSLAVQNK..MTV
+  EDLAISDFFFQPHFDRPWNYLNLLAQAALENM...................
+}
+{
+name NAOX_MYCGE
+descrip Probable NADH oxidase (EC 1.6.99.3) (NOXase).
+creator Mycoplasma genitalium.Bacteria;
+type    PROTEIN
+group 1
+feature 215 631 0 square solid PFAM-A
+  FT   PFAM-A        3    315  PF00070 pyr_redox
+feature 671 799 1 square solid PFAM-A
+  FT   PFAM-A      352    459  PF02852 pyr_redox_dim
+feature 632 668 0 square solid PFAM-B
+  FT   PFAM-B      316    349  PB084488 Pfam-B_84488
+feature 215 245 4 square solid SITE
+  FT   SITE          3     33  NP_BIND_FAD ADP part Probable
+feature 223 223 0 square solid SITE
+  FT   SITE         11     11  ACT_SITE_Base By similarity
+feature 263 263 0 square solid SITE
+  FT   SITE         43     43  ACT_SITE_Redoxactive
+feature 451 466 4 square solid SITE
+  FT   SITE        170    185  NP_BIND_NAD By similarity
+feature 606 616 4 square solid SITE
+  FT   SITE        295    305  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................MKKVIVIGINHAGTSFIRTLLSKSKDFK
+  VNAYDRN........TNISFLGCGIALAVSGVVK..........................
+  ...............NTDDLFYSNPEELKQM..GANIFMSHDVTNIDLIK...KQVTVRD
+  L.........TSNKEFTDQFDQLVIASGAWPICMNVENKVTHKPLEFNYTDKYCGNV...
+  ..K.NLISCKLYQHALTLIDSFRKDKTIKSVAIVGSGYIGLELAEAAWLCK...KQVTVI
+  DLLDKPAGNNFDHEFTDELEKVMQKDG.LKLMMGCSVKGFVVDSTN....NVVKGVETDK
+  ..........GIVNADLVNQSIG.FRPST..KFVPKDQNFEFIHN.....GSIKVNEFL.
+  ...QALNHKDVYVIGGCAAI.....YNAASEQYENIDLATNAVKSGL.VAAMHIIGSNQ.
+  .VKLQSIVGTNALHIFGLNLAACGLTEQRAKK.....LGFDVGISVVDDNDRPEFMGS..
+  ...........YDKVRFKLVYDKKT.LRILGAQLLSWNTNHSEIIFYIALAIQKQ..MLL
+  TELGLVDVYFLPHYNKPFNFVLATVLQALGFSYYIPKK.............
+}
+{
+name 1d7y_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 216 219 0 square solid STRUCT
+  FT   STRUCT        6      9  STRAND
+feature 223 235 3 square solid STRUCT
+  FT   STRUCT       13     25  HELIX
+feature 241 245 0 square solid STRUCT
+  FT   STRUCT       31     35  STRAND
+feature 263 266 3 square solid STRUCT
+  FT   STRUCT       45     48  HELIX
+feature 269 272 3 square solid STRUCT
+  FT   STRUCT       51     54  HELIX
+feature 317 319 3 square solid STRUCT
+  FT   STRUCT       57     59  HELIX
+feature 328 330 3 square solid STRUCT
+  FT   STRUCT       64     66  HELIX
+feature 336 339 0 square solid STRUCT
+  FT   STRUCT       71     74  STRAND
+feature 343 347 0 square solid STRUCT
+  FT   STRUCT       78     82  STRAND
+feature 355 358 0 square solid STRUCT
+  FT   STRUCT       87     90  STRAND
+feature 377 379 0 square solid STRUCT
+  FT   STRUCT       95     97  STRAND
+feature 382 385 0 square solid STRUCT
+  FT   STRUCT      100    103  STRAND
+feature 389 391 0 square solid STRUCT
+  FT   STRUCT      107    109  STRAND
+feature 411 413 3 square solid STRUCT
+  FT   STRUCT      113    115  HELIX
+feature 426 428 0 square solid STRUCT
+  FT   STRUCT      122    124  STRAND
+feature 432 441 3 square solid STRUCT
+  FT   STRUCT      128    137  HELIX
+feature 450 454 0 square solid STRUCT
+  FT   STRUCT      143    147  STRAND
+feature 458 469 3 square solid STRUCT
+  FT   STRUCT      151    162  HELIX
+feature 476 481 0 square solid STRUCT
+  FT   STRUCT      166    171  STRAND
+feature 493 504 3 square solid STRUCT
+  FT   STRUCT      183    194  HELIX
+feature 510 513 0 square solid STRUCT
+  FT   STRUCT      199    202  STRAND
+feature 517 521 0 square solid STRUCT
+  FT   STRUCT      206    210  STRAND
+feature 534 537 0 square solid STRUCT
+  FT   STRUCT      213    216  STRAND
+feature 552 554 0 square solid STRUCT
+  FT   STRUCT      221    223  STRAND
+feature 557 560 0 square solid STRUCT
+  FT   STRUCT      226    229  STRAND
+feature 565 567 0 square solid STRUCT
+  FT   STRUCT      233    235  STRAND
+feature 572 576 3 square solid STRUCT
+  FT   STRUCT      238    242  HELIX
+feature 592 593 0 square solid STRUCT
+  FT   STRUCT      251    252  STRAND
+feature 611 613 0 square solid STRUCT
+  FT   STRUCT      264    266  STRAND
+feature 615 618 3 square solid STRUCT
+  FT   STRUCT      268    271  HELIX
+feature 618 621 0 square solid STRUCT
+  FT   STRUCT      271    274  STRAND
+feature 633 635 0 square solid STRUCT
+  FT   STRUCT      281    283  STRAND
+feature 639 655 3 square solid STRUCT
+  FT   STRUCT      287    302  HELIX
+feature 674 679 0 square solid STRUCT
+  FT   STRUCT      314    319  STRAND
+feature 682 688 0 square solid STRUCT
+  FT   STRUCT      322    328  STRAND
+feature 697 703 0 square solid STRUCT
+  FT   STRUCT      334    340  STRAND
+feature 710 717 0 square solid STRUCT
+  FT   STRUCT      347    354  STRAND
+feature 720 727 0 square solid STRUCT
+  FT   STRUCT      357    364  STRAND
+feature 730 741 3 square solid STRUCT
+  FT   STRUCT      367    378  HELIX
+feature 748 752 3 square solid STRUCT
+  FT   STRUCT      385    389  HELIX
+feature 757 763 3 square solid STRUCT
+  FT   STRUCT      394    400  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................ALKAPVVVLGAGLASVSFVAELRQAGYQGL
+  ITVVGDE........AERPYDRPPLSKDFMAHG...........................
+  ...............DAEKIRL....DCKRAP.EVEWLLGVTAQSFDPQA...HTVALSD
+  ..............GRTLPYGTLVLATGAAPRAL................PTLQGA....
+  ..TMPVHTLRTLEDARRIQAGLRPQ...SRLLIVGGGVIGLELAATARTAG...VHVSLV
+  ETQPRLMSRAAPATLADFVARYHAAQG.VDLRFERSVTGSVDG..........VVLLDDG
+  ..........TRIAADMVVVGIG.VLAND..ALARAA.GLACDD......GIFVDAYG..
+  ....RTTCPDVYALGDVTRQRNPL.....SGRFERIETWSNAQNQGI.AVARHLVDPTAP
+  GYA.......ELPWYWSDQGALRIQVAGLASG...DEEIVRGEVSLDAPKFTLIELQKGR
+  IVGATCVNNARDFAPLRRLLAVGAKPDRAALADPATDLRKLAAA................
+  ...................................................
+}
+{
+name YDGE_SCHPO
+descrip Putative flavoprotein C26F1.14C.
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 73 170 2 square solid PFAM-A
+  FT   PFAM-A       17    114  PF00355 Rieske
+feature 215 625 0 square solid PFAM-A
+  FT   PFAM-A      159    446  PF00070 pyr_redox
+feature 674 739 0 square solid PFAM-B
+  FT   PFAM-B      490    552  PB016030 Pfam-B_16030
+sequence
+  ........................................................MSSS
+  SGLKQQGLAQKKKFQLEFDPSSVSKNGTKTEAKVVGTEFGVLLVRARNTYFATAGKCSHY
+  GAPLAKGVVTSDGHIVCPWHGACFNAATGDVEDTPAIAALRTFPVTEEGDGSLWIEVEDK
+  NDNGASVLQPEGCWRNKATEVYNKGSVETEVTAPHVCIIGGGKGASVAAEYLREKNFKGK
+  ITIFTRE........DEVPYDRPKLSKSLLHDI...........................
+  ...............SKLALRSKE..YYDDLDISFHFNTDVTKIDLAEKK...IYCGSDE
+  ..............KPTESYTKLILATGGEPNKL.................PIPGLD...
+  ..SKNVYLLRSIADASKLAAVTTEAGDKKNIVIIGSSFIGLELAVVLKDHN...VSVIGM
+  ESIPFEKVMG..KEVGTALKALHEQNG.IAFYLENSIKEVKTSSND..SSKAEHIVLKDG
+  ..........QSIPADVVILAAG.VKPNL..RYLGNAVSLEKDG......GVKVDEHCR.
+  ....VLGAEDVYAVGDIAHAPFAGLPSSGEKSHTRIEHWDVAGNLGR.VAADHILFGNKA
+  GYT....TKSFTPYFWSAQGK.QLRYCGNNAAEGFDDVVIQGSLS..DYKFACFFTKGEK
+  VVGVCSIMKDPVVSQCARLFIKDAMPSKSQLKENFDVLSIPL..................
+  ...................................................
+}
+{
+name HCAD_ECOLI
+descrip 3-phenylpropionate dioxygenase ferredoxin--NAD(+) reductase 
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 215 633 0 square solid PFAM-A
+  FT   PFAM-A        5    286  PF00070 pyr_redox
+feature 674 761 0 square solid PFAM-B
+  FT   PFAM-B      318    400  PB016128 Pfam-B_16128
+feature 215 246 4 square solid SITE
+  FT   SITE          5     36  NP_BIND_FAD ADP part Potential
+feature 450 481 4 square solid SITE
+  FT   SITE        146    174  NP_BIND_NAD ADP part Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................MKEKTIIIVGGGQAAAMAAASLRQQGFTGE
+  LHLFSDE........RHLPYERPPLSKSMLLEDSPQ........................
+  ...............LQQVLPAN...WWQEN..NVHLHSGVTIKTLGRDT...RELVLTN
+  ..............GESWHWDQLFIATGAAARPL.................PLLDAL...
+  ..GERCFTLRHAGDAARLREVLQPE...RSVVIIGAGTIGLELAASATQRR...CKVTVI
+  ELAATVMGRNAPPPVQRYLLQRHQQAG.VRILLNNAIEHVVDG.......EKVELTLQSG
+  ..........ETLQADVVIYGIG.ISANE..QLAREA.NLDTAN......GIVIDEAC..
+  ....RTCDPAIFAGGDVAITRLDN......GALHRCESWENANNQAQ.IAAAAMLGLPLP
+  LL........PPPWFWSDQYSDNLQFIGDMRG...DDWLCRGNPE..TQKAIWFNLQNGV
+  LIGAVTLNQGREIRPIRKWIQSGKTFDAKLLIDENIALKSL...................
+  ...................................................
+}
+{
+name THCD_RHOER
+descrip Rhodocoxin reductase (EC 1.18.1.-).
+creator Rhodococcus erythropolis.Bacteria;
+type    PROTEIN
+group 1
+feature 215 632 0 square solid PFAM-A
+  FT   PFAM-A        1    285  PF00070 pyr_redox
+feature 714 763 0 square solid PFAM-B
+  FT   PFAM-B      354    403  PB039546 Pfam-B_39546
+feature 215 247 4 square solid SITE
+  FT   SITE          1     33  NP_BIND_FAD ADP part Potential
+feature 450 481 4 square solid SITE
+  FT   SITE        143    171  NP_BIND_NAD ADP part Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................SIVIIGSGQAGFEAAVSLRSHGFSGT
+  ITLVGDE........PGVPYQRPPLSKAYLHSDPDR........................
+  ...............ESLALRPAQ..YFDDH..RITLTCGKPVVRIDRDA...QRVELID
+  ..............ATAIEYDHLILATGARNRLL.................PVPGAN...
+  ..LPGVHYLRTAGEAESLTSSMASC...SSLVVIGAGFIGLEVAAAARKKG...LDVTVV
+  EAMDRPMARALSSVMSGYFSTAHTEHG.VHMRLSTGVKTINAADG.....RAAGVTTNSG
+  ..........DVIHADAVVVGIG.VVPNI..ELAALT.GLPVDN......GIVVDEYL..
+  ....RTPDENISAIGDCAAYPIPG.....KAGLVRLESVQNAVDQAR.CLAAQLTGTSTH
+  YR........SVPWFWSEQYESKLQMAGLTAGA..DTHVVRGSVD..SGVFSIFCFLGTR
+  LLGVESVNKPRDHMAARKILATEMPLTPEQAADTDFDLKLAIARHKDTHKDEVASADIGE
+  RQVVAS.............................................
+}
+{
+name CAMA_PSEPU
+descrip Putidaredoxin reductase (EC 1.18.1.-).
+creator Pseudomonas putida.Bacteria;
+type    PROTEIN
+group 1
+feature 215 632 0 square solid PFAM-A
+  FT   PFAM-A        6    295  PF00070 pyr_redox
+feature 674 740 0 square solid PFAM-B
+  FT   PFAM-B      328    390  PB009500 Pfam-B_9500
+feature 215 246 4 square solid SITE
+  FT   SITE          6     37  NP_BIND_FAD ADP part Potential
+feature 455 464 4 square solid SITE
+  FT   SITE        156    165  NP_BIND_NAD ADP part Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MNANDNVVIVGTGLAGVEVAFGLRASGWEGN
+  IRLVGDA........TVIPHHLPPLSKAYLAGKATA........................
+  ...............ESLYLRTPD..AYAAQ..NIQLLGGTQVTAINRDR...QQVILSD
+  ..............GRALDYDRLVLATGGRPRPL.............PVASGAVGK....
+  ..ANNFRYLRTLEDAECIRRQLIAD...NRLVVIGGGYIGLEVAATAIKAN...MHVTLL
+  DTAARVLERVTAPPVSAFYEHLHREAG.VDIRTGTQVCGFEMSTDQ...QKVTAVLCEDG
+  ..........TRLPADLVIAGIG.LIPNC..ELASAA.GLQVDN......GIVINEHM..
+  ....QTSDPLIMAVGDCARFHSQL.....YDRWVRIESVPNALEQAR.KIAAILCGKVPR
+  DE........AAPWFWSDQYEIGLKMVGLSEGY..DRIIVRGSLA..QPDFSVFYLQGDR
+  VLAVDTVNRPVEFNQSKQIITDRLPVEPNLLGDESVPLKEIIAAAKAELSSA........
+  ...................................................
+}
+{
+name TERA_PSESP
+descrip Terpredoxin reductase (EC 1.18.1.-).
+creator Pseudomonas sp.Bacteria;
+type    PROTEIN
+group 1
+feature 215 632 0 square solid PFAM-A
+  FT   PFAM-A        7    290  PF00070 pyr_redox
+feature 215 246 4 square solid SITE
+  FT   SITE          7     38  NP_BIND_FAD ADP part Potential
+feature 455 463 4 square solid SITE
+  FT   SITE        151    159  NP_BIND_NAD ADP part Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................MGERRDTTVIVGAGHAGTAAAFFLREFGYHGR
+  VLLLSAE........TQHPYQRPPLSKEYLLAQH.S........................
+  ...............TPSLLKGKD..SYARA..DIELCLQDDVLSITPAS...RQVKSSQ
+  ...............GSYTYDHLILATGSHPRFM.................ATLGQ....
+  ..ADNLCYLSDWDDAGRIRQQLGEA...SRIVVLGGGFIGLEIASSACKMG...KHVTVI
+  ERAPRLLSRVVSEAFATFIGDIHLGNG.IELRLGEEVREVRRCTSG...VRVDAVFLSDG
+  ..........QLLECDMLVIGVG.SEPRM..ELATAA.GLACAS......GVLVDEHC..
+  ....HTSDPFISAIGDCVAVCPSP.....GHQLPRRESVQNATEQAR.LVAARLSGRPVP
+  PV........QTPWFWSDQLQARINLAGERPAQ..GQVIVRRYGG...DKVSMLYLQDQQ
+  LVAIEACNMPGDCLLARRAIGQNHSLDLARLVDADVPLKDALHFA...............
+  ...................................................
+}
+{
+name BEDA_PSEPU
+descrip Benzene 1,2-dioxygenase system ferredoxin--NAD(+) reductase 
+creator Pseudomonas putida.Bacteria;
+type    PROTEIN
+group 1
+feature 215 633 0 square solid PFAM-A
+  FT   PFAM-A        4    286  PF00070 pyr_redox
+feature 675 764 0 square solid PFAM-B
+  FT   PFAM-B      319    404  PB003140 Pfam-B_3140
+feature 215 246 4 square solid SITE
+  FT   SITE          4     35  NP_BIND_FAD ADP part Potential
+feature 450 481 4 square solid SITE
+  FT   SITE        145    173  NP_BIND_NAD ADP part Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................MANHVAIIGNGVAGFTTAQALRAEGYEGR
+  ISLIGEE........QHLPYDRPSLSKAVLDGSFEQ........................
+  ...............PPRLAEAD...WYSEA..SIEMLTGSEVTDLDTQK...KMISLND
+  ..............GSTISADAIVIATGSRARML.................SLPGSQ...
+  ..LPGVVTLRTYGDVQLLRDSWTPN...TRLLIVGGGLIGCEVATTARKLG...LSVTIL
+  EAGDELLVRVLGRRIGAWLRGLLTEQG.VQVELKTGVSGFSGEGQ......LEKVMVNDG
+  ..........RSFIADNALICVG.ADPAD..QLARQA.GLECDR......GVVVDHRG..
+  ....ATSAKGIFAVGDVATWPLHS......GGKRSLETYMNAQRQAT.AVAKAILGKEVS
+  AP........QLPVSWTEIAGHRMQMAGDIEGP..GEYVLRGTLG..IGSALLFRLLDGR
+  IQAVVAVDAPRDFALANRLVEAQVIIEPEKLADVSNNMRDIVRANEGNQK..........
+  ...................................................
+}
+{
+name RURE_PSEOL
+descrip Rubredoxin-NAD(+) reductase (EC 1.18.1.1).
+creator Pseudomonas oleovorans.Bacteria;
+type    PROTEIN
+group 1
+feature 215 632 0 square solid PFAM-A
+  FT   PFAM-A        2    286  PF00070 pyr_redox
+feature 674 744 0 square solid PFAM-B
+  FT   PFAM-B      319    385  PB052314 Pfam-B_52314
+feature 215 247 4 square solid SITE
+  FT   SITE          2     34  NP_BIND_FAD ADP part Potential
+feature 450 481 4 square solid SITE
+  FT   SITE        144    172  NP_BIND_NAD ADP part Potential
+feature 606 616 4 square solid SITE
+  FT   SITE        265    275  NP_BIND_FAD flavin part
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................MAIVVVGAGTAGVNAAFWLRQYGYKGE
+  IRIFSRE........SVAPYQRPPLSKAFLTSEIAE........................
+  ...............SAVPLKPEG..FYTNN..NITISLNTPIVSIDVGR...KIVSSKD
+  ..............GKEYAYEKLILATPASARRL.................TCEGSE...
+  ..LSGVCYLRSMEDAKNLRRKLVES...ASVVVLGGGVIGLEVASAAVGLG...KRVTVI
+  EATPRVMARVVTPAAANLVRARLEAEG.IEFKLNAKLTSIKGRNG.....HVEQCVLESG
+  ..........EEIQADLIVVGIG.AIPEL..ELATEA.ALEVSN......GVVVDDQM..
+  ....CTSDTSIYAIGDCAMARNPF.....WGTMVRLETIHNAVTHAQ.IVASSICGTSTP
+  AP........TPPRFWSDLKGMALQGLGALKDYD.KLVVAINNET...LELEVLAYKQER
+  LIATETINLPKRQGALAGSIKLPD....................................
+  ...................................................
+}
+{
+name 1vdc_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 207 216 0 square solid STRUCT
+  FT   STRUCT        2     11  STRAND
+feature 220 231 3 square solid STRUCT
+  FT   STRUCT       15     26  HELIX
+feature 239 241 0 square solid STRUCT
+  FT   STRUCT       32     34  STRAND
+feature 259 262 3 square solid STRUCT
+  FT   STRUCT       47     50  HELIX
+feature 265 266 0 square solid STRUCT
+  FT   STRUCT       53     54  STRAND
+feature 276 278 0 square solid STRUCT
+  FT   STRUCT       64     66  STRAND
+feature 278 329 3 square solid STRUCT
+  FT   STRUCT       66     79  HELIX
+feature 333 335 0 square solid STRUCT
+  FT   STRUCT       83     85  STRAND
+feature 341 343 0 square solid STRUCT
+  FT   STRUCT       91     93  STRAND
+feature 349 356 0 square solid STRUCT
+  FT   STRUCT       99    102  STRAND
+feature 360 382 0 square solid STRUCT
+  FT   STRUCT      106    115  STRAND
+feature 386 388 0 square solid STRUCT
+  FT   STRUCT      119    121  STRAND
+feature 423 424 0 square solid STRUCT
+  FT   STRUCT      141    142  STRAND
+feature 427 430 3 square solid STRUCT
+  FT   STRUCT      145    148  HELIX
+feature 434 436 3 square solid STRUCT
+  FT   STRUCT      152    154  HELIX
+feature 440 451 0 square solid STRUCT
+  FT   STRUCT      158    162  STRAND
+feature 455 464 3 square solid STRUCT
+  FT   STRUCT      166    175  HELIX
+feature 470 477 0 square solid STRUCT
+  FT   STRUCT      181    185  STRAND
+feature 487 497 3 square solid STRUCT
+  FT   STRUCT      195    202  HELIX
+feature 502 509 0 square solid STRUCT
+  FT   STRUCT      207    210  STRAND
+feature 512 519 0 square solid STRUCT
+  FT   STRUCT      213    220  STRAND
+feature 526 534 0 square solid STRUCT
+  FT   STRUCT      227    234  STRAND
+feature 547 551 0 square solid STRUCT
+  FT   STRUCT      240    244  STRAND
+feature 554 557 0 square solid STRUCT
+  FT   STRUCT      247    250  STRAND
+feature 561 563 0 square solid STRUCT
+  FT   STRUCT      254    256  STRAND
+feature 567 569 3 square solid STRUCT
+  FT   STRUCT      259    261  HELIX
+feature 608 610 0 square solid STRUCT
+  FT   STRUCT      287    289  STRAND
+feature 612 615 3 square solid STRUCT
+  FT   STRUCT      291    294  HELIX
+feature 636 657 3 square solid STRUCT
+  FT   STRUCT      301    321  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................MNGLETHNTRLCIVGSGPAAHTAAIYAARAE..LK
+  PLLFEGWMAN.....DIAPGGQLTTTTDVENFPGFPEG......................
+  ................ILGVELTDKFRKQSERFGTTIFTETVTKVDFSSK....PFKLFT
+  D.............SKAILADAVILAIGAVAKR...............LSFVGSGEVLGG
+  FWNRGISACAVCDGAAPIFRN.......KPLAVIGGGDSAMEEANFLTKYG...SKVYII
+  HRRDAFRA...SKIMQQRALSNPK....IDVIWNSSVVEAYGDGER.DVLGGLKVKNVV.
+  ......TGDVSDLKVSGLFFAIG.HEPAT..KFLDG..GVELDSD.....GYVVTKP...
+  .GTTQTSVPGVFAAGDVQD..............KKYRQAITAAGTGC.MAALDAEHYLQE
+  IGSQEGKSD...................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_SCHPO
+descrip Thioredoxin reductase (EC 1.8.1.9) (Caffeine resistance prot
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        5    299  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         33     45  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        142    145  DISULFID_Redoxactive
+feature 616 639 4 square solid SITE
+  FT   SITE        288    297  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................MTHNKVVIIGSGPAGHTAAIYLARGE..LK
+  PVMYEGMLAN.....GIAAGGQLTTTTDVENFPGFPDG......................
+  ................INGTTLTENFRAQSLRFGTEIITETVSKLDLSSR....PFKYWL
+  EG.........AEEEEPHTADSVILATGASAR.................RLHITGEDT..
+  YWQAGISACAVCDGAVPIYRN.......KPLAVVGGGDSAAEEAQFLTKYG...SKVYVL
+  VRRDKLRA...SPIMAKRLLANPK....VEVLWNTVAEEAQGDGK...LLNNLRIKNTN.
+  ......TNEVSDLQVNGLFYAIG.HIPAT..KLVAE..QIELDEA.....GYIKTIN...
+  .GTPRTSIPGFFAAGDVQD..............KVFRQAITSAGSGC.QAALLAMHYLEE
+  LEDTD.......................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRB1_YEAST
+descrip Thioredoxin reductase 1 (EC 1.8.1.9).
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        4    298  PF00070 pyr_redox
+feature 429 432 3 square solid SITE
+  FT   SITE        141    144  DISULFID_Redoxactive
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................VHNKVTIIGSGPAAHTAAIYLARAE..IK
+  PILYEGMMAN.....GIAAGGQLTTTTEIENFPGFPDG......................
+  ................LTGSELMDRMREQSTKFGTEIITETVSKVDLSSK....PFKLWT
+  EFN.........EDAEPVTTDAIILATGASAK.................RMHLPGEET..
+  YWQKGISACAVCDGAVPIFRN.......KPLAVIGGGDSACEEAQFLTKYG...SKVFML
+  VRKDHLRA...STIMQKRAEKNEK....IEILYNTVALEAKGDGK...LLNALRIKNTK.
+  ......KNEETDLPVSGLFYAIG.HTPAT..KIVAG..QVDTDEA.....GYIKTVP...
+  .GSSLTSVPGFFAAGDVQD..............SKYRQAITSAGSGC.MAALDAEKYLTS
+  LE..........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_NEUCR
+descrip Thioredoxin reductase (EC 1.8.1.9).
+creator Neurospora crassa.Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        4    298  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         32     44  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        140    143  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        287    296  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................MHSKVVIIGSGPAAHTAAIYLARAE..LK
+  PVLYEGFMAN.....GIAAGGQLTTTTEIENFPGFPDG......................
+  ................IMGQELMDKMKAQSERFGTQIISETVAKVDLSAR....PFKYAT
+  EW..........SPEEYHTADSIILATGASAR.................RLHLPGEEK..
+  YWQNGISACAVCDGAVPIFRN.......KHLVVIGGGDSAAEEAMYLTKYG...SHVTVL
+  VRKDKLRA...SSIMAHRLLNHEK....VTVRFNTVGVEVKGDDKG..LMSHLVVKDVT.
+  ......TGKEETLEANGLFYAIG.HDPAT..ALVKG..QLETDAD.....GYVVTKP...
+  .GTTLTSVEGVFAAGDVQD..............KRYRQAITSAGTGC.MAALDAEKFLSE
+  HEETPAEHRDTSAVQGNL..........................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_PENCH
+descrip Thioredoxin reductase (EC 1.8.1.9).
+creator Penicillium chrysogenum (Penicillium notatum).Eukaryota;
+type    PROTEIN
+group 1
+feature 264 267 5 square solid DOMAIN
+  FT   DOMAIN       46     49  Poly-Thr.
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        4    304  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         32     44  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        144    147  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        293    302  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................VHSKVVIIGSGAGAHTAAIYLSRAE..LQ
+  PVLYEGMLAN.....GTAAGGQLTTTTDVENFPGFPSG......................
+  ................IGGAELMDNMRAQSERFGTEIITETISKLDLSSR....PFKMWT
+  EWN......DDEGSEPVRTADAVIIATGANAR.................RLNLPGEET..
+  YWQNGISACAVCDGAVPIFRN.......KPLYVIGGGDSAAEEAMFLAKYG...SSVTVL
+  VRKDKLRA...SNIMADRLLAHPK....CKVRFNTVATEVIGENKPNGLMTHLRVKDVL.
+  ......SNAEEVVEANGLFYAVG.HDPAS..GLVKG..QVELDDE.....GYIITKP...
+  .GTSFTNVEGVFACGDVQD..............KRYRQAITSAGSGC.VAALEAEKFIAE
+  TETHQEAKPVL.................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRB1_ARATH
+descrip Thioredoxin reductase 1 (EC 1.8.1.9) (NADPH-dependent thiore
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       10    306  PF00070 pyr_redox
+feature 429 432 3 square solid SITE
+  FT   SITE        147    150  DISULFID_Redoxactive
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................MNGLETHNTRLCIVGSGPAAHTAAIYAARAE..LK
+  PLLFEGWMAN.....DIAPGGQLTTTTDVENFPGFPEG......................
+  ................ILGVELTDKFRKQSERFGTTIFTETVTKVDFSSK....PFKLFT
+  .............DSKAILADAVILATGAVAKR...............LSFVGSGEASGG
+  FWNRGISACAVCDGAAPIFRN.......KPLAVIGGGDSAMEEANFLTKYG...SKVYII
+  HRRDAFRA...SKIMQQRALSNPK....IDVIWNSSVVEAYGDGER.DVLGGLKVKNVV.
+  ......TGDVSDLKVSGLFFAIG.HEPAT..KFLDG..GVELDSD.....GYVVTKP...
+  .GTTQTSVPGVFAAGDVQD..............KKYRQAITAAGTGC.MAALDAEHYLQE
+  IGSQQGKSD...................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_MYCSM
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Mycobacterium smegmatis.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        9    291  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         37     44  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        137    140  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        280    289  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................MSTSQTVHDVIIIGSGPAGYTAAIYAARAQ..LK
+  PLVFEG..........TQFGGALMTTTEVENYPGFREG......................
+  ................ITGPELMDQMREQALRFRADLRMEDVDAVQLEGP....VKTVVV
+  .............GDETHQARAVILAMGAAAR.................HLGVPGEEA..
+  LTGMGVSTCATCDG..FFFRD.......QDIVVVGGGDSAMEEATFLTRFA...RSVTLI
+  HRRDEFRA...SKIMLERARANEK....ITFLTNTEITQIEGDPK....VTGVRLRDTV.
+  ......TGEESKLDVTGVFVAIG.HDPRS..ELVRG..QVELDDE.....GYVKVQG...
+  .RTTYTSLDGVFAAGDLVD..............HTYRQAITAAGSGC.AASIDAERWLAE
+  QD..........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_MYCLE
+descrip Bifunctional thioredoxin reductase/thioredoxin [Includes: Th
+creator Mycobacterium leprae.Bacteria;
+type    PROTEIN
+group 1
+feature 203 667 5 square solid DOMAIN
+  FT   DOMAIN        1    321  Thioredoxin reductase.
+feature 668 693 5 square solid DOMAIN
+  FT   DOMAIN      322    347  Linker.
+feature 694 804 5 square solid DOMAIN
+  FT   DOMAIN      348    458  Thioredoxin.
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       13    296  PF00070 pyr_redox
+feature 696 801 3 square solid PFAM-A
+  FT   PFAM-A      350    455  PF00085 thiored
+feature 245 262 4 square solid SITE
+  FT   SITE         41     48  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        142    145  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        285    294  NP_BIND_FAD pyrimidine part By similarity
+feature 725 728 3 square solid SITE
+  FT   SITE        379    382  DISULFID_Redoxactive By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ......................MNTTPSAHETIHEVIVIGSGPAGYTAALYAARAQ..LT
+  PLVFEG..........TSFGGALMTTTEVENYPGFRNG......................
+  ................ITGPELMDDMREQALRFGAELRTEDVESVSLRGP....IKSVVT
+  ............AEGQTYQARAVILAMGTS.................VRYLQIPGEQE..
+  LLGRGVSACATCDG..SFFRG.......QDIAVIGGGDSAMEEALFLTRFA...RSVTLV
+  HRRDEFRA...SKIMLGRARNNDK....IKFITNHTVVAVNGYTT....VTGLRLRNTT.
+  ......TGEETTLVVTGVFVAIG.HEPRS..SLVSD..VVDIDPD.....GYVLVKG...
+  .RTTSTSMDGVFAAGDLVD..............RTYRQAITAAGSGC.AAAIDAERWLAE
+  HAGSKANETTEETGDVDSTDTTDWSTAMTDAKNAGVTIEVTDASFFADVLSSNKPVLVDF
+  WATWCGPCKMVAPVLEEIASEQRNQLTVAKLDVDTNPEMAREFQVVSIPTMILFQGGQPV
+  KRIVGAKGKAALLRDLSDVVPNLN...........................
+}
+{
+name TRXB_STRCL
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Streptomyces clavuligerus.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        5    289  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         33     41  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        135    138  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        278    287  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................SDVRNVIIIGSGPAGYTAALYTARAS..LQ
+  PLVFEGA.........VTAGGALMNTTDVENFPGFRDG......................
+  ................IMGPDLMDNMRAQAERFGAELIPDDVVSVDLTGD....IKTVTD
+  ............SAGTVHRAKAVIVTTGSQH.................RKLGLPREDA..
+  LSGRGVSWCATCDG..FFFKD.......QDIVVVGGGDTAMEEATFLSRFA...KSVTIV
+  HRRDSLRA...SKAMQDRAFADPK....ISFAWNSEVATIHGEQK....LTGLTLRDTK.
+  ......TGETRELAATGLFIAVG.HDPRT..ELFKG..QLDLDDE.....GYLKVAS...
+  .PSTRTNLTGVFAAGDVVD..............HTYRQAITAAGTGC.SAALDAERYLAA
+  LADSEQIAEPAPAV..............................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_RICCN
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Rickettsia conorii.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    292  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         34     41  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        135    138  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        281    290  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MKITTKVLIIGSGPAGLSAAIYTARAA..LK
+  PILING..........MQPGGQLTITTDVENYPGFAET......................
+  ................VQGPWLMEQMYMQAKNVGTEIVSDYVEKVDLSKR....PFKVFT
+  G............AGNEYDAESIIICTGAEA.................KWLGIASEQK..
+  FRGFGVSACATCDG..FFFKN.......QEIVVVGGGNSAVEEALYLTNHA...NKVTIV
+  HRRDSFRA...EKILQDRLFKNSK....ISVIWDHVVDEIVGSNKP.KSVTGVKIQNVH.
+  ......TKEISLLNCSGVFIAIG.HAPNT..GLFTG..QIVMDDD.....NYIITKS...
+  .GTTRTSVEGVFAAGDVQD..............KIYRQAVTAAGTGC.MAALEAEKFLNK
+  ............................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_SPIBA
+descrip Thioredoxin reductase (EC 1.8.1.9) (L-TrxR) (Fragment).
+creator Spironucleus barkhanus.Eukaryota;
+type    PROTEIN
+group 1
+feature 245 262 4 square solid SITE
+  FT   SITE         28     35  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        129    132  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        272    281  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................LVIVGGGPGGLAAAIYAGRAG..LT
+  PVIFLG..........IETSSQLMTTTEVENYPGFKT.......................
+  ................IQGPDLVQNQVDQAEHCGAQLFYEDVTKIDATAR....PFKITH
+  G...........YENEIMTCDALIFATGST.................AQRLDVIGEKQ..
+  FWQKGVSACAVCDS..MMAKN.......KDTVVVGGGDVACEEASYLSNIA...SKVYLI
+  LRRDAFRA...SAAMVQRVKSNPK....IEIIYNSAVQEIKGETR....VNQILVKNLK.
+  ......SGDITPLKVEALFWCIG.HTPQT..RLLKG..QVKMSEN.....GYILVEN...
+  .QTQYTNVPGIFAAGDCCD..............WIYRQAIVAAGSGC.KAALDAERWLAS
+  NGGH........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_CHLPN
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        5    294  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         33     43  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        138    141  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        283    292  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................MIHSRLIIIGSGPSGYTAAIYASRAL..LH
+  PLLFEGFFS.......GISGGQLMTTTEVENFPGFPEG......................
+  ................ILGPKLMNNMKEQAVRFGTKTLAQDIISVDFSVR....PFILKS
+  .............KEETYSCDACIIATGASAKR...............LEIPGAGNDE..
+  FWQKGVTACAVCDGASPIFKN.......KDLYVIGGGDSALEEALYLTRYG...SHVYVV
+  HRRDKLRA...SKAMEARAQNNEK....ITFLWNSEIVKISGDSI....VRSVDIKNVQ.
+  ......TQEITTREAAGVFFAIG.HKPNT..DFLGG..QLTLDES.....GYIVTEK...
+  .GTSKTSVPGVFAAGDVQD..............KYYRQAVTSAGSGC.IAALDAERFLG.
+  ............................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_CHLMU
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Chlamydia muridarum.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        5    294  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         33     43  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        138    141  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        283    292  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................MTHVKLAIIGSGPAGYTAAIYASRAL..LT
+  PILFEGFFS.......GIAGGQLMTTTEVENFPGFPQG......................
+  ................VLGHQLMENMKMQAQRFGTQVIAKDITSVDFSVR....PFVLKS
+  .............GEDTFTCDACIIATGASAKR...............LSIPGAGDNE..
+  FWQKGVTACAVCDGASPIFRD.......RDLFVIGGGDSALEEAMFLTRYG...KRVFVV
+  HRRDTLRA...SKAMVNKAQANEK....IVFLWNSEVVKILGDSL....VRSIDIFNNV.
+  ......EKTTVTMEAAGVFFAIG.HQPNT..AFLGG..QLSLDEN.....GYIITEK...
+  .GSSRTSVPGVFAAGDVQD..............KYYRQAITSAGSGC.MAALDAERFLEK
+  ............................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_METJA
+descrip Putative thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Methanococcus jannaschii.Archaea;
+type    PROTEIN
+group 1
+feature 245 262 4 square solid SITE
+  FT   SITE         32     39  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        130    133  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        272    280  NP_BIND_FAD flavin part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................MIHDTIIIGAGPGGLTAGIYAMRGK..LN
+  ALCIEK..........ENAGGRIAEAGIVENYPGFEE.......................
+  ................IRGYELAEKFKNHAEKFKLPIIYDEVIKIETKER....PFKVIT
+  .............KNSEYLTKTIVIATGTK..................PKKLGLNEDK..
+  FIGRGISYCTMCDA..FFYLN.......KEVIVIGRDTPAIMSAINLKDIA...KKVIVI
+  TDKSELKAA..ESIMLDKLKEANN....VEIIYNAKPLEIVGEER....AEGVKISVN..
+  .......GKEEIIKADGIFISLG.HVPNT..EFLKDS.GIELDKK.....GFIKTDE...
+  ..NCRTNIDGIYAVGDVRG...............GVMQVAKAVGDGC.VAMANIIKYLQK
+  L...........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_CLOLI
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Clostridium litorale (Bacterium W6).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    293  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         34     41  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        134    137  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        282    291  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MENVYDIAIIGSGPAGLAAALYGARAK..MK
+  TLLLEG..........MKVGGQIVITHEVANYPGSVPE......................
+  ................ATGPSLIGRMEEQVEEFGAERVMDNIVDVDFTD.....KIKVLK
+  G............AKGEYKAKAVIVATGASP.................KLAGCPGEKE..
+  LTGKGVSYCATCDA..DFFED.......MEVFVIGGGDTAVEEAMFLTKFA...RKVTIV
+  HRRAELRA...AKSIQEKAFKNEK....LNFMWNTVIEEIKGDGI....VESAVFKNRET
+  GEVTEF.VAPEEDGTFGIFVFIG.YDPKS..ALVEG..KLELDET.....GYIPTDD...
+  ..NMKTNVEGVFAAGDIRV..............KSLRQVVTATADGA.IAAVQAEKYIEE
+  LFAE........................................................
+  ............................................................
+  ...................................................
+}
+{
+name R34K_CLOPA
+descrip 34.2 kDa protein in rubredoxin operon (EC 1.6.4.-) (ORF A).
+creator Clostridium pasteurianum.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        8    289  PF00070 pyr_redox
+feature 429 432 3 square solid SITE
+  FT   SITE        136    139  DISULFID_Redoxactive By similarity
+feature 606 616 4 square solid SITE
+  FT   SITE        268    278  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MKEEKQLDLVIIGAGPAGLTAAIYAIRAK..LN
+  TLVLEN..........ELVGGQIRETYTVENFPGFNV.......................
+  ................ISGADLADKMEEHAASIGVNIDQFSNIEKIKLSD....DEKIIE
+  T............EDVIYKVKALIIATGAKS.................RRLPIPEEEK..
+  LHGKVIHYCELCDG..ALYQG.......KDLVVVGGGNSAVEAAIFLTKYA...RNITIV
+  HQFDYLQA...QKYSQDELFKHKN....VKIIWDSEIRNIVGENE....IEKIVVENVK.
+  ......TKQKTELKADGVFVYIG.YEPKT..ELFKD..SININKW.....GYIETDE...
+  ..NMETNIKGVFAAGDVRS..............KLIRQLTTAVSDGT.VAALMAEKYIGG
+  K...........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_TREPA
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Treponema pallidum.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    286  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         34     41  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        134    137  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        275    284  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................METDYDVIIVGAGAAGLSAAQYACRAN..LR
+  TLVIES..........KAHGGQALLIDSLENYPGYATP......................
+  ................ISGFEYAENMKKQAVAFGAQIAYEEVTTIGKRDS....VFHITT
+  G.............TGAYTAMSVILATGAEH.................RKMGIPGESE..
+  FLGRGVSYCATCDG..PFFRN.......KHVVVIGGGDAACDESLVLSRLT...DRVTMI
+  HRRDTLRA...QKAIAERTLKNPH....IAVQWNTTLEAVRGETK....VSSVLLKDVK.
+  ......TGETRELACDAVFFFIG.MVPIT..GLLP...DAEKDST.....GYIVTDD...
+  ..EMRTSVEGIFAAGDVRA..............KSFRQVITATSDGA.LAAHAAASYIDT
+  LQN.........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_BORBU
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Borrelia burgdorferi (Lyme disease spirochete).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       27    309  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         55     62  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        156    159  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        298    307  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ........MLEFETIDINLTKKKNLSQKEVDFIEDVIIVGSGPAGLTAGIYSVMSN..YK
+  AAILEG..........PEPGGQLTTTTEVYNYPGFKNG......................
+  ................ISGRNLMLNMREQVVNLGAKTFPETVFSIKRKGN....IFYLYT
+  .............ENYIYKSKAVIIAVGSKP................KKLETLKNSGL..
+  FWNKGISVCAICDG..HLFKG.......KRVAVIGGGNTALSESIYLSKLV...DKVYLI
+  VRKNNLRA...IAMLRDSVAKLPN....IEILYNSEAIEVDGKSS....VSSVKIFNKK.
+  ......DNVVYELEVSAVFMAVG.YKPNT..EFLKG..FLDLDEE.....GFIVTKD...
+  ..VVKTSVDGVFSCGDVSN..............KLYAQAITAAAEGF.IASVELGNFLK.
+  ............................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_HELPJ
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Helicobacter pylori J99 (Campylobacter pylori J99).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        3    292  PF00070 pyr_redox
+feature 244 262 4 square solid SITE
+  FT   SITE         31     39  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        133    136  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        281    290  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................MIDCAIIGGGPAGLSAGLYATRGG.VKN
+  AVLFEK..........GMPGGQITGSSEIENYPGVKEV......................
+  ................VSGLDFMQPWQEQCFRFGLKHEMTAIQRVSKKGS....HFVILA
+  ............EDGKTFEAKSVIIATGGS.................PKRTGIKGESE..
+  YWGKGVSTCATCDG..FFYKN.......KEVAVLGGGDTAVEEAIYLANIC...KKVYLI
+  HRRDGFRC...APITLEHAKNNSK....IEFLTPYVVEEIKGDASG...VSSLSIKNTA.
+  ......TNEKRELVVPGLFIFVG.YDVNN..AVLKQ..EDNSMLCECDEYGSIVVDF...
+  ..SMKTNVQGLFAAGDIRI..............FAPKQVVCAASDGA.TAALSVISYLEH
+  H...........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_AQUAE
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Aquifex aeolicus.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       14    297  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         42     49  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        143    146  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        286    295  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................MAVSLMQQPDKVYDVIIIGAGPAGTTAAIYTARAG..WK
+  TLVLYR..........AEADGALGVTQKIENYPGVPGP......................
+  ................LSGYELLKIMREQAKSFGAEFVRGKVIATDLNSD....PKKVYT
+  ............IDGREFRGKTIIVASGAMER.................ANKFKGEEE..
+  FLGRGVSYCGVCDA..AFFKD.......QPVAVIGDDDYAIEEAEFIARFA...NKVFFV
+  VPGSKIKA...PPEVIEHFEKLPN....VEILLRHRPIEIVGDQV....VKGIKLKDLE.
+  ......KKEEKLLEVNGVFIFLGGTKPSV..DFLMG..QVEMTEG.....DCIVVNE...
+  ..EMMTSVPGVFAAGDVLC..............NEVKQAVVAAAMGC.KAALAVDKFLSG
+  KKKIVPQW....................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_LISIN
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Listeria innocua.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        9    290  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         37     44  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        136    139  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        279    288  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................MASEEKIYDVIIIGAGPAGMTAALYTSRAD..LD
+  TLMIER..........GVPGGQMVNTAEVENYPGFDS.......................
+  ................ILGPDLSDKMLSGAKQFGAEYAYGDIKEVIDGK.....EFKTVT
+  A............GSKTYKARAIIIATGAEH.................RKLGAAGEEE..
+  LSGRGVSYCAVCDG..AFFKN.......RELVVVGGGDSAVEEGTYLTRYA...DKVTIV
+  HRRDKLRA...QQILQDRAFKDEK....VDFIWNNTVEEIIGDGKK...VTSVKLVSTV.
+  ......DGSESIMPVDGVFIYVG.LVPLTK.AFLSL..GITDEE......GYIVTDE...
+  ..EMRTNLPGIFAAGDVRA..............KSLRQIVTATGDGG.LAGQNAQKYVEE
+  LKEALEAEAAK.................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_BACSU
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR) (General stress pr
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        7    288  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         35     42  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        134    137  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        277    286  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................SEEKIYDVIIIGAGPAGMTAAVYTSRAN..LS
+  TLMIER..........GIPGGQMANTEDVENYPGFES.......................
+  ................ILGPELSNKMFEHAKKFGAEYAYGDIKEVIDGK.....EYKVVK
+  A............GSKEYKARAVIIAAGAEY.................KKIGVPGEKE..
+  LGGRGVSYCAVCDG..AFFKG.......KELVVVGGGDSAVEEGVYLTRFA...SKVTIV
+  HRRDKLRA...QSILQARAFDNEK....VDFLWNKTVKEIHEENGK...VGNVTLVDTV.
+  ......TGEESEFKTDGVFIYIG.MLPLSK.PFENL..GITNEE......GYIETND...
+  ..RMETKVEGIFAAGDIRE..............KSLRQIVTATGDGS.IAAQSVQHYVEE
+  LQETLKTLK...................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_STAAM
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Staphylococcus aureus (strain Mu50 / ATCC 700699),Staphyloco
+type    PROTEIN
+group 1
+feature 245 262 4 square solid SITE
+  FT   SITE         35     42  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        134    137  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        277    286  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................MTEIDFDIAIIGAGPAGMTAAVYASRAN..LK
+  TVMIER..........GIPGGQMANTEEVENFPGFEM.......................
+  ................ITGPDLSTKMFEHAKKFGAVYQYGDIKSVEDKG.....EYKVIN
+  F............GNKELTAKAVIIATGAEY.................KKIGVPGEQE..
+  LGGRGVSYCAVCDG..AFFKN.......KRLFVIGGGDSAVEEGTFLTKFA...DKVTIV
+  HRRDELRA...QRILQDRAFKNDK....IDFIWSHTLKSINEKDGK...VGSVTLTSTK.
+  ......DGSEETHEADGVFIYIG.MKPLTA.PFKDL..GITNDV......GYIVTKD...
+  ..DMTTSVPGIFAAGDVRD..............KGLRQIVTATGDGS.IAAQSAAEYIEH
+  LNDQA.......................................................
+  ............................................................
+  ...................................................
+}
+{
+name AHPF_PSEPK
+descrip Alkyl hydroperoxide reductase subunit F (EC 1.6.4.-).
+creator Pseudomonas putida (strain KT2440), andPseudomonas putida.Ba
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A      213    497  PF00070 pyr_redox
+feature 121 193 0 square solid PFAM-B
+  FT   PFAM-B      119    191  PB002100 Pfam-B_2100
+feature 3 116 0 square solid PFAM-B
+  FT   PFAM-B        2    114  PB002233 Pfam-B_2233
+feature 215 230 4 square solid SITE
+  FT   SITE        213    228  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        343    346  DISULFID_Redoxactive By similarity
+feature 450 464 4 square solid SITE
+  FT   SITE        355    369  NP_BIND_NAD or NADP By similarity
+feature 606 616 4 square solid SITE
+  FT   SITE        476    486  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  .MLDATLKSQLKTYLERVTQPIEIVASLDDGAKSRELHDLLVEIASLSNLITFSADGTD.
+  ARRPSFSLNRPGADISLRFAGIPMGHEFTSLVLALLQVGGHPSKASAEVIEQIQALEGEF
+  NFETYFSLSCQNCPDVVQALNLMAVLNPNVRHVAIDGALFQDEVESRKIMAVPSIYLNGE
+  VFGQGRMGLEEILGKIDTNAGARQAEKINAKEAFDVLVVGGGPAGAAAAIYAARKG..IR
+  TGVAAE...........RFGGQVLDTLAIENFISVQE.......................
+  ................TEGPKLATALEEHVKQYDVDIMNLQRGEALIPAA.EGGLHEVRL
+  A............GGASLKAKTVILATGAR.................WREMNVPGEQE..
+  YRGRGVAYCPHCDG..PLFKG.......KRVAVIGGGNSGVEAAIDLAGIV...AQVTLI
+  EFDSQLRA...DAVLQRKLRSLPN....VNVITSALTTEVLGNGEK...VTGLRYKDRS.
+  ......TDEQHEVALEGIFVQIG.LLPNT..DWLKG..TVELSPR.....GEIIVDA...
+  ..KGQTSIPGVFAAGDVTT..............VPYKQIVIAVGEGA.KASLAAFDHLIR
+  TSAPA.......................................................
+  ............................................................
+  ...................................................
+}
+{
+name AHPF_XANCH
+descrip Alkyl hydroperoxide reductase subunit F (EC 1.6.4.-).
+creator Xanthomonas campestris (pv. phaseoli).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A      214    498  PF00070 pyr_redox
+feature 122 195 0 square solid PFAM-B
+  FT   PFAM-B      121    194  PB002100 Pfam-B_2100
+feature 3 114 0 square solid PFAM-B
+  FT   PFAM-B        2    113  PB002233 Pfam-B_2233
+feature 215 230 4 square solid SITE
+  FT   SITE        214    229  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        344    347  DISULFID_Redoxactive By similarity
+feature 450 464 4 square solid SITE
+  FT   SITE        356    370  NP_BIND_NAD or NADP By similarity
+feature 606 616 4 square solid SITE
+  FT   SITE        477    487  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  .MLDANLKTQLTAYLERVTRPIQINASIDDSAGSREMLDLLEELVLLSDKISLDIHRDDN
+  QRKPSFALTTPGQDISLRFAGLPMGHEFTSLVLALLQVGGHPSKAAAELIEQVQHLEGDY
+  QFETYFSLSCQNCPDVVQALNLAAVLNPRIKHVAIDGAWFQDEVQARQIMSVPTVYLNGE
+  LFDQGRMTLEQIVAKLDTNAAKRDAAKIAAKEAFDVLVVGGGPAGSAAAVYAARKG..IR
+  TGVAAE...........RFGGQVLDTMSIENFISVPE.......................
+  ................TEGPKMAAALEQHVRQYDVDIMNLQRAEQLIPAG.ADGLIEIKL
+  A............NGASLKSKTVILSTGAR.................WRQMNVPGEDQ..
+  YKNKGVAYCPHCDG..PLFKG.......KRVAVIGGGNSGVEAAIDLAGIV...AHVTLV
+  EFDDKLRA...DEVLQRKLRSLHN....VRIITSAQTTEVLGDGQK...VTGLVYKDRT.
+  ......GGDIQHIELEGVFVQIG.LLPNT..EFLRG..TVALSPR.....GEIIVDD...
+  ..RGQTDVPGVFAAGDATT..............VPYKQIVIAMGEGS.KAALSAFDHLIR
+  TSAPATADSVAQAA..............................................
+  ............................................................
+  ...................................................
+}
+{
+name AHPF_ECOLI
+descrip Alkyl hydroperoxide reductase subunit F (EC 1.6.4.-) (Alkylh
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A      214    499  PF00070 pyr_redox
+feature 122 196 0 square solid PFAM-B
+  FT   PFAM-B      121    195  PB002100 Pfam-B_2100
+feature 3 116 0 square solid PFAM-B
+  FT   PFAM-B        2    115  PB002233 Pfam-B_2233
+feature 215 230 4 square solid SITE
+  FT   SITE        214    229  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        345    348  DISULFID_Redoxactive By similarity
+feature 450 464 4 square solid SITE
+  FT   SITE        357    371  NP_BIND_NAD or NADP By similarity
+feature 606 616 4 square solid SITE
+  FT   SITE        478    488  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  .MLDTNMKTQLKAYLEKLTKPVELIATLDDSAKSAEIKELLAEIAELSDKVTFKEDNSLP
+  VRKPSFLITNPGSNQGPRFAGSPLGHEFTSLVLALLWTGGHPSKEAQSLLEQIRHIDGDF
+  EFETYYSLSCHNCPDVVQALNLMSVLNPRIKHTAIDGGTFQNEITDRNVMGVPAVFVNGK
+  EFGQGRMTLTEIVAKIDTGAEKRAAEELNKRDAYDVLIVGSGPAGAAAAIYSARKG..IR
+  TGLMGE...........RFGGQILDTVDIENYISVPK.......................
+  ................TEGQKLAGALKVHVDEYDVDVIDSQSASKLIPAAVEGGLHQIET
+  A............SGAVLKARSIIVATGAK.................WRNMNVPGEDQ..
+  YRTKGVTYCPHCDG..PLFKG.......KRVAVIGGGNSGVEAAIDLAGIV...EHVTLL
+  EFAPEMKA...DQVLQDKLRSLKN....VDIILNAQTTEVKGDGSK...VVGLEYRDRV.
+  ......SGDIHNIELAGIFVQIG.LLPNT..NWLEG..AVERNRM.....GEIIIDA...
+  ..KCETNVKGVFAAGDCTT..............VPYKQIIIATGEGA.KASLSAFDYLIR
+  TKTA........................................................
+  ............................................................
+  ...................................................
+}
+{
+name AHPF_STAAM
+descrip Alkyl hydroperoxide reductase subunit F (EC 1.6.4.-).
+creator Staphylococcus aureus (strain Mu50 / ATCC 700699),Staphyloco
+type    PROTEIN
+group 1
+feature 215 230 4 square solid SITE
+  FT   SITE        207    222  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        335    338  DISULFID_Redoxactive By similarity
+feature 450 464 4 square solid SITE
+  FT   SITE        347    361  NP_BIND_NAD or NADP By similarity
+feature 606 616 4 square solid SITE
+  FT   SITE        467    477  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  .MLNADLKQQLKQLLELMEGNVEFVASLGSDEKSKELKELLTEISDMSPR..LSLSEKSL
+  KRTPSFSVNRPGEETGVTFAGIPLGHEFNSLVLAILQVSGRAPKEKQSIIDQIKNLEGSF
+  HFETFISLTCQKCPDVVQALNLMSVINPNITHSMIDGAVFREE..SENIMAVPAVFLNGE
+  EFGNGRMTIQDILS...KLGSTADASEFENKEPYDVLIVGGGPASGSAAIYTARKG..LR
+  TGIVAD...........RIGGQVNDTAGIENFITVKE.......................
+  ................TTGSEFSSNLAAHIDQYDIDAMTGIRATDIEKTD...EAIKVTL
+  E............NGAVLESKTVIIATGAG.................WRKLNIPGEEQ..
+  LINKGVAFCPHCDG..PLFEN.......KDVAVIGGGNSGVEAAIDLAGIV...NHVTLF
+  EFASELKA...DNVLQDRLRSLSN....VDIKTNAKTTEVVGEDH....VTGIRYEDMS.
+  ......TGEEHLLNLDGIFVQIG.LLPNT..SWLKD..AVELNER.....GEIVIDR...
+  ..NNNTNVPGIFAAGDVTD..............QKNKQIIISMGAGA.NAALNAFDYIIR
+  N...........................................................
+  ............................................................
+  ...................................................
+}
+{
+name DHNA_BACSP
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A      210    490  PF00070 pyr_redox
+feature 126 193 0 square solid PFAM-B
+  FT   PFAM-B      124    191  PB002100 Pfam-B_2100
+feature 1 116 0 square solid PFAM-B
+  FT   PFAM-B        1    114  PB002233 Pfam-B_2233
+sequence
+  MVLEPQIKSQLNQYLQLMEGDVLLKVSAGNDKVSEDMLSLVDELASMS..SRITVEKTNL
+  ERTPSFSVNRPGEDTGIVFAGIPLGHEFTSLVLALLQVSGRAPKAEQNVIDQIKNIEGEY
+  HFESYISLSCQNCPDVVQALNLMSVLNPGISHTMIDGAAFKDEVESKDIMAVPTVYLNGE
+  SFTSGRMTVEEILAQLGSGPD...ASELADKDPFDVLVVGGGPAGASSAIYAARKG..IR
+  TGIVAD...........RFGGQIMDTLSIENFISQKY.......................
+  ................TEGPKLAASLEEHVKEYDIDVMKLQRAKRLEKKD....LIEIEL
+  EN............GAVLKSKSVILSTGAR.................WRNVGVPGEQE..
+  FKNKGVAYCPHCDG..PLFEG.......KDVAVIGGGNSGVEAAIDLAGIV...NHVTVL
+  EFMPELKA...DEVLQERLNSLPN....VTVIKNAQTKEITGDDK....VNGISYMDRD.
+  ......TEEVHHIELAGVFVQIG.LVPNT..DWLDG..TLERNRF.....GEIVVDS...
+  ..HGATNVPGVFAAGDCTN..............SAYKQIIISMGSGA.TAALGAFDYLIR
+  NTTPAESAAAK.................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_UREPA
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Ureaplasma parvum (Ureaplasma urealyticum biotype 1).Bacteri
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        7    288  PF00070 pyr_redox
+feature 642 662 0 square solid PFAM-B
+  FT   PFAM-B      289    308  PB052313 Pfam-B_52313
+feature 245 262 4 square solid SITE
+  FT   SITE         35     42  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        134    137  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        277    286  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................MNQEVYDLVIIGAGPAGLAAAVYAKRSG..LN
+  VIIVEK..........QFPGGKIALTSNVENYLGINS.......................
+  ................IPGPELAYKMYEQVLNLNVSIIYEAADEISLKEK....YKKIKL
+  T.............TQTLITKTVIIATGTEN.................RRLNILGELE..
+  FENKGISYCAICDG..PLYKN.......KAVSVIGSGNSAVEEAIYLATIA...KEVHLI
+  ANKPQFKA...EQQLVQIANNTPN....IKIYYNKQTFEFFGHQF....LEGLKFRDLI.
+  ......TNEVTTLNIEANFTFIG.LLPSRI.NTNNL..CIFNEVN.....GFITTDK...
+  ..NMQTSVCGIFAAGDIVD..............KNVRQIATATNDGV.IAALYAKEYITR
+  NNW.........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_MYCPN
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Mycoplasma pneumoniae.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       17    299  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         45     52  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        145    148  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        288    297  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................MLKVKSDFLTKDQVIYDVAIVGAGPAGIAAGIYGKRAN..LN
+  LAIIEG..........STPGGKVVKTNIVENYPGYKS.......................
+  ................ITGPDLGLEMYNHLIDLEPTFFYANLIKLDKAAD....TFILYL
+  D............DKTVVFAKTVIYATGMLER.................KLGVAKEDH..
+  FYGKGISYCAICDG..SLYKD.......QVVGVVGGGNSAIQEALYLASMA...KTVHLI
+  HRREGFRA...DETALNKLRNLPN....VVFHLNYTVKELLGNNT....LNGIVLQNTL.
+  ......DHSTKQIDLNCVFPYIG.FESITK.PVEHL..NLKLDPQ.....GFLITNE...
+  ..QMETSLKGLFAAGDCRS..............KHFRQIGTAINDGI.IAVLTIRDVL..
+  ............................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_MYCGE
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Mycoplasma genitalium.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       17    299  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         45     52  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        145    148  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        288    297  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................MLKVNADFLTKDQVIYDLVIVGAGPAGIASAIYGKRAN..LN
+  LAIIEG..........NTPGGKIVKTNIVENYPGFKT.......................
+  ................ITGPELGLEMYNHLLAFEPVVFYNNLIKIDHLND....TFILYL
+  D............NKTTVFSKTVIYATGMEE.................RKLGIEKEDY..
+  FYGKGISYCAICDA..ALYKG.......KTVGVVGGGNSAIQEAIYLSSIA...KTVHLI
+  HRREVFRS...DALLVEKLKKISN....VVFHLNATVKQLIGQEK....LQTVKLASTV.
+  ......DKSESEIAIDCLFPYIG.FESNNK.PVLDL..KLNLDQN.....GFILGDE...
+  ..NMQTNIKGFYVAGDCRS..............KSFRQIATAISDGV.TAVLKVRDDI..
+  ............................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_MYCPU
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Mycoplasma pulmonis.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        8    289  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         36     43  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        138    141  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        278    287  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MSQNKIYDVAIIGAGPGALTAAIYTSRGN..LD
+  TVFIDN..........AAPGGKLIYASKIENWPGDTI.......................
+  ................VKGTDLAIRFFEHAQAFGAKYEYGKVVDLINIKD...DLKELVL
+  E............DGKKIQAKSVIIASGMVS................RKPREILNYDE..
+  FENRGVSYCVICDG..PMYGH.......NPAIIIGGGNSAVEEGTFLSSIA...SKVYVI
+  VRDSDFIA...EKALVNDLKSRKN....IEVLFNASVKELHGKDA....LEYAIVNHN..
+  .......GKEVKLEVASLFPYIG.FLPSA..EYAKN..AGVLEPN.....GFIKTDE...
+  ..FMETKVPGIYAIGDIRI..............KDIRQILTATSDGT.IAGKILTNRIKK
+  ............................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_HAEIN
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        8    297  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         36     43  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        136    139  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        286    295  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MSDIKHAKLLILGSGPAGYTAAIYAARAN..LK
+  PVLVTG..........LQQGGQLTTTDEIENWPGDFEM......................
+  ................TTGSGLMQRMLQHAEKFETEIVFDHINRVDLSSR....PFKLFG
+  .............DVQNFTCDALIIATGAS.................ARYIGLPSEEN..
+  YKGRGVSACATCDG..FFYRN.......KPVGVIGGGNTAVEEALYLANIA...STVHLI
+  HRRDSFRA...EKILIDRLYKKVEEGK.IVLHTDRTLDEVLGDNMG...VTGLRLANTK.
+  ......TGEKEELKLDGLFVAIG.HSPNT..EIFQG..QLELNN......GYIVVKSGLD
+  GNATATSVEGVFAAGDVMD..............HNYRQAITSAGTGC.MAALDAERYLDA
+  QEA.........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_COXBU
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Coxiella burnetii.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        8    298  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         36     43  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        136    139  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        287    296  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MNKPQHHSLIILGSGPAGYTAAIYAARAN..LK
+  PIMITG..........MEQGGQLMTTTDVDNWPGEAPG......................
+  ................LQGPQLMERMQKHAERLDTQFIFDHINEADLNQR....PFLLKG
+  .............DNATYSCDALIIATGAS.................ARYLGLPSEKA..
+  YMGKGVSACATCDG..FFYRG.......KKVAVVGGGNTAVEEALYLSHIA...SHVTLI
+  HRRDKLRA...EKMLSAQLIKKVEEGK.VAIVWSHVIEEVLGDDQG...VTGVHLKHVK.
+  ......EEKTQDLTIDGLFIAIG.HDPNT..KIFKE..QLEMDEA.....GYLRAKSGLQ
+  GNATATNIPGVFAAGDVTD..............HVYRQAITAAGMGC.MAALDAERYLDS
+  LNQA........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_BUCAI
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        8    299  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         36     43  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        136    139  DISULFID_Redoxactive
+feature 616 639 4 square solid SITE
+  FT   SITE        288    297  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MDKVKHSKIIILGSGPAGYTAAIYAARAN..LD
+  PFLITG..........TNKGGQLMNTNEIENWPGDYNK......................
+  ................ISGSELMNRMYKHAIELKTKVICDTVISVNFKKN....PFFLIG
+  .............ENNKYTADSVIIATGAN.................PRYLGLQSESL..
+  FKGKGVSTCAVCDG..FFYKN.......KEVAVVGGGNTAIEETLYLSNFV...KKVHLI
+  HRGINFRA...EKILLDRLEKKIKSQK.IIIYLNSIVKNILGNSSG...VTALLIEQKNS
+  K.....EKTESKIQVSGLFVAIG.YTPNT..NIFVN..KLKMKD......GYIQVTRQEH
+  GNYTQTSIPGIFAAGDVID..............HVYRQAITSSASGC.MAALDSERYINS
+  LV..........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_BUCAP
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Buchnera aphidicola (subsp. Schizaphis graminum).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        8    299  PF00070 pyr_redox
+feature 245 262 4 square solid SITE
+  FT   SITE         36     43  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        136    139  DISULFID_Redoxactive
+feature 616 639 4 square solid SITE
+  FT   SITE        288    297  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MELKNHKKIIILGSGPAGYTAAIYSSRAN..LN
+  PLLITG..........INKGGQLMNTNEIENWPGDFKK......................
+  ................ITGPELMNRMHEHSLKFKTEIVYDNIISVEFKKK....PFFLLG
+  .............EYNKYTCDAVIIATGAN.................PRYLGLSSENK..
+  FKGKGISTCAVCDG..FFYKN.......KEIAVVGGGNTAIEETLYLSNFV...KKIYLI
+  HRRNNFKA...EKILIDRLLKIVKTKK.VILHLNSTIEDILGNNKG...VTHLLIKNKNL
+  K.....EKKKLKIAVSGLFVAIG.YIPNT..DIFTD..QLKMKD......GYIKIKKGTH
+  GNYTQTNIPGVFAAGDVID..............HVYRQAITSSASGC.MAALDSERYLNS
+  LS..........................................................
+  ............................................................
+  ...................................................
+}
+{
+name TRXB_BUCBP
+descrip Thioredoxin reductase (EC 1.8.1.9) (TRXR).
+creator Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;
+type    PROTEIN
+group 1
+feature 245 262 4 square solid SITE
+  FT   SITE         40     47  NP_BIND_FAD ADP part By similarity
+feature 429 432 3 square solid SITE
+  FT   SITE        141    144  DISULFID_Redoxactive By similarity
+feature 616 639 4 square solid SITE
+  FT   SITE        291    300  NP_BIND_FAD pyrimidine part By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................MIENTLKIEHHKLIILGSGPAGYTAAIYSARAN..LE
+  PLLFTG..........NNKGGQLINTNEIENWPGDSKS......................
+  ................LTGLELMERMHNHAKSLNTKIIPNEIIRVNFFKI....PFLLVS
+  ............DTNQYYTSDSVIIATGAS.................PKYLGLTSESK..
+  FIGKGVSVCAVCDG..FFYKN.......EDVAVVGGGNTALEEALYLSNIA...RKVYLI
+  HRRKTFSA...EKILISRMLNKTKKN..IILRTGCIVNKIIGGVNG...VRGVQITCNDS
+  K......ENKCLINLSGVFIAIG.HAPNT..KLFKN..QLFMKN......DYILVKSGIH
+  GNVTQTNIPGIFAAGDVID..............HVYKQAITSSASGC.MAALDAEKYIDQ
+  KYGFKI......................................................
+  ............................................................
+  ...................................................
+}
+{
+name 3grs_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 212 213 0 square solid STRUCT
+  FT   STRUCT        2      3  STRAND
+feature 216 219 0 square solid STRUCT
+  FT   STRUCT        6      9  STRAND
+feature 223 234 3 square solid STRUCT
+  FT   STRUCT       13     24  HELIX
+feature 241 245 0 square solid STRUCT
+  FT   STRUCT       29     33  STRAND
+feature 261 266 3 square solid STRUCT
+  FT   STRUCT       39     44  HELIX
+feature 268 285 3 square solid STRUCT
+  FT   STRUCT       46     63  HELIX
+feature 291 293 3 square solid STRUCT
+  FT   STRUCT       66     68  HELIX
+feature 307 332 3 square solid STRUCT
+  FT   STRUCT       79    103  HELIX
+feature 336 339 0 square solid STRUCT
+  FT   STRUCT      107    110  STRAND
+feature 343 344 0 square solid STRUCT
+  FT   STRUCT      114    115  STRAND
+feature 356 359 0 square solid STRUCT
+  FT   STRUCT      122    125  STRAND
+feature 376 379 0 square solid STRUCT
+  FT   STRUCT      128    131  STRAND
+feature 383 385 0 square solid STRUCT
+  FT   STRUCT      135    137  STRAND
+feature 389 391 0 square solid STRUCT
+  FT   STRUCT      141    143  STRAND
+feature 426 428 3 square solid STRUCT
+  FT   STRUCT      154    156  HELIX
+feature 432 435 3 square solid STRUCT
+  FT   STRUCT      160    163  HELIX
+feature 450 454 0 square solid STRUCT
+  FT   STRUCT      172    176  STRAND
+feature 458 469 3 square solid STRUCT
+  FT   STRUCT      180    191  HELIX
+feature 476 480 0 square solid STRUCT
+  FT   STRUCT      195    199  STRAND
+feature 493 505 3 square solid STRUCT
+  FT   STRUCT      211    223  HELIX
+feature 510 512 0 square solid STRUCT
+  FT   STRUCT      227    229  STRAND
+feature 515 523 0 square solid STRUCT
+  FT   STRUCT      232    240  STRAND
+feature 526 537 0 square solid STRUCT
+  FT   STRUCT      243    250  STRAND
+feature 548 555 0 square solid STRUCT
+  FT   STRUCT      258    265  STRAND
+feature 557 560 0 square solid STRUCT
+  FT   STRUCT      267    270  STRAND
+feature 565 567 0 square solid STRUCT
+  FT   STRUCT      274    276  STRAND
+feature 574 576 3 square solid STRUCT
+  FT   STRUCT      283    285  HELIX
+feature 611 613 0 square solid STRUCT
+  FT   STRUCT      309    311  STRAND
+feature 615 618 3 square solid STRUCT
+  FT   STRUCT      313    316  HELIX
+feature 639 655 3 square solid STRUCT
+  FT   STRUCT      322    337  HELIX
+feature 672 674 0 square solid STRUCT
+  FT   STRUCT      352    354  STRAND
+feature 680 684 0 square solid STRUCT
+  FT   STRUCT      360    364  STRAND
+feature 687 694 3 square solid STRUCT
+  FT   STRUCT      367    374  HELIX
+feature 698 701 3 square solid STRUCT
+  FT   STRUCT      376    379  HELIX
+feature 701 723 0 square solid STRUCT
+  FT   STRUCT      379    386  STRAND
+feature 726 730 3 square solid STRUCT
+  FT   STRUCT      389    393  HELIX
+feature 741 748 0 square solid STRUCT
+  FT   STRUCT      400    407  STRAND
+feature 754 761 0 square solid STRUCT
+  FT   STRUCT      412    419  STRAND
+feature 766 778 3 square solid STRUCT
+  FT   STRUCT      423    435  HELIX
+feature 785 789 3 square solid STRUCT
+  FT   STRUCT      440    444  HELIX
+feature 799 803 3 square solid STRUCT
+  FT   STRUCT      454    458  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................VASYDYLVIGGGSGGLASARRAAELG..AR
+  AAVVES..........HKLGGTCVNVGCVPKKVMWNTAVHSEFMH...DHADYGFPSCEG
+  ...KFNWRVIKEKRDAYVSRLNAIYQNNL.TKSHIEIIRGHAAFTSDPK.....PTIEVS
+  ..............GKKYTAPHILIATGGMP..............STPHESQIPG.....
+  .....ASLGITSDGFFQLEELP......GRSVIVGAGYIAVEMAGILSALG...SKTSLM
+  IRHDKVLRSF.DSMISTNCTEELENAG.VEVLKFSQVKEVKKTLSG....LEVSMVTAVP
+  GRL...PVMTMIPDVDCLLWAIG.RVPNTKDLSLNKL.GIQTDDK.....GHIIVDE...
+  ..FQNTNVKGIYAVGDVCGK...............ALLTPVAIAAGR.KLAHRLFEYK..
+  EDSKLDYNNIPTVVFSHPPIGTVGLTEDEAIHKYG..IENVKTYSTS.............
+  ..FTPMYHAVTKR....KTKCVMKMVCANKE.EKVVGIHMQGLG.CDEMLQGFAVAVKMG
+  ..ATKADFDNTVAIHPTSSEELVTLR.........................
+}
+{
+name 1bhy_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 211 219 0 square solid STRUCT
+  FT   STRUCT        4     12  STRAND
+feature 223 234 3 square solid STRUCT
+  FT   STRUCT       16     27  HELIX
+feature 241 245 0 square solid STRUCT
+  FT   STRUCT       32     36  STRAND
+feature 261 266 3 square solid STRUCT
+  FT   STRUCT       43     48  HELIX
+feature 268 293 3 square solid STRUCT
+  FT   STRUCT       50     72  HELIX
+feature 307 332 3 square solid STRUCT
+  FT   STRUCT       83    107  HELIX
+feature 336 346 0 square solid STRUCT
+  FT   STRUCT      111    121  STRAND
+feature 355 365 0 square solid STRUCT
+  FT   STRUCT      124    134  STRAND
+feature 368 385 0 square solid STRUCT
+  FT   STRUCT      137    154  STRAND
+feature 389 391 0 square solid STRUCT
+  FT   STRUCT      158    160  STRAND
+feature 429 430 0 square solid STRUCT
+  FT   STRUCT      172    173  STRAND
+feature 432 435 3 square solid STRUCT
+  FT   STRUCT      175    178  HELIX
+feature 450 454 0 square solid STRUCT
+  FT   STRUCT      187    191  STRAND
+feature 458 470 3 square solid STRUCT
+  FT   STRUCT      195    207  HELIX
+feature 476 480 0 square solid STRUCT
+  FT   STRUCT      210    214  STRAND
+feature 493 507 3 square solid STRUCT
+  FT   STRUCT      226    240  HELIX
+feature 507 512 0 square solid STRUCT
+  FT   STRUCT      240    244  STRAND
+feature 516 523 0 square solid STRUCT
+  FT   STRUCT      248    255  STRAND
+feature 526 536 0 square solid STRUCT
+  FT   STRUCT      258    264  STRAND
+feature 553 555 0 square solid STRUCT
+  FT   STRUCT      273    275  STRAND
+feature 558 560 0 square solid STRUCT
+  FT   STRUCT      278    280  STRAND
+feature 565 567 0 square solid STRUCT
+  FT   STRUCT      284    286  STRAND
+feature 569 571 3 square solid STRUCT
+  FT   STRUCT      288    290  HELIX
+feature 574 576 3 square solid STRUCT
+  FT   STRUCT      293    295  HELIX
+feature 611 613 0 square solid STRUCT
+  FT   STRUCT      319    321  STRAND
+feature 615 617 3 square solid STRUCT
+  FT   STRUCT      323    325  HELIX
+feature 639 654 3 square solid STRUCT
+  FT   STRUCT      332    346  HELIX
+feature 672 674 0 square solid STRUCT
+  FT   STRUCT      360    362  STRAND
+feature 680 684 0 square solid STRUCT
+  FT   STRUCT      368    372  STRAND
+feature 687 693 3 square solid STRUCT
+  FT   STRUCT      375    381  HELIX
+feature 701 723 0 square solid STRUCT
+  FT   STRUCT      385    392  STRAND
+feature 723 725 3 square solid STRUCT
+  FT   STRUCT      392    394  HELIX
+feature 727 731 3 square solid STRUCT
+  FT   STRUCT      396    400  HELIX
+feature 742 748 0 square solid STRUCT
+  FT   STRUCT      407    413  STRAND
+feature 755 761 0 square solid STRUCT
+  FT   STRUCT      419    425  STRAND
+feature 766 778 3 square solid STRUCT
+  FT   STRUCT      429    441  HELIX
+feature 785 789 3 square solid STRUCT
+  FT   STRUCT      446    450  HELIX
+feature 801 810 3 square solid STRUCT
+  FT   STRUCT      462    471  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................GSADAEYDVVVLGGGPGGYSAAFAAADEG..LK
+  VAIVERY.........KTLGGVCLNVGCIPSKALLHNAAVIDEVR...HLAANGIKYPEP
+  ...ELDIDMLRAYKDGVVSRLTGGLAGMA.KSRKVDVIQGDGQFLDPH......HLEVSL
+  TAGDAYEQAAPTGEKKIVAFKNCIIAAGSRV................TKLPFIP......
+  ....EDPRIIDSSGALALKEVP......GKLLIIGGGIIGLEMGTVYSTLG...SRLDVV
+  EMMDGLMQGA.DRDLVKVWQKQNEYRF.DNIMVNTKTVAVEPKEDG....VYVTFEGAN.
+  .......APKEPQRYDAVLVAAG.RAPNGKLISAEKA.GVAVTDR.....GFIEVDK...
+  ..QMRTNVPHIYAIGDIVGQ...............PMLAHKAVHEGH.VAAENCAGH...
+  .KAYFDARVIPGVAYTSPEVAWVGETELSAKAS....ARKITKANFP.............
+  ..WAASGRAIANG....CDKPFTKLIFDAET.GRIIGGGIVGPN.GGDMIGEVYLAIEMG
+  ..CDAADIGKTIHPHPTLGESIGMAAEVALG.TCTDLPPQKK.........
+}
+{
+name TYTR_TRYBB
+descrip Trypanothione reductase (EC 1.8.1.12) (TR) (N(1),N(8)-bis(gl
+creator Trypanosoma brucei brucei.Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    337  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      362    472  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         35     52  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         52     57  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        461    461  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MSKIFDLVVIGAGSGGLEAGWNAATLY.KKR
+  VAVIDVQTHHG.PPHYAALGGTCVNVGCVPKKLMVTGAQYMDHLR...ESAGFGWEFDGS
+  S.VKANWKKLIAAKNEAVLDINKSYEGMFNDTEGLDFFLGWGSLESKN......VVVVRE
+  TADP......KSAVKERLQADHILLATGSWP.................QMPAIPG.....
+  .....VEHCISSNEAFYLPEPP......RRVLTVGGGFISVEFAGIFNAYKPPGGKVTLC
+  YRNNLILRGF.DETIREEVTKQLTANG.IEIMTNENPAKVSLNTDG...SKHVTFES...
+  .........GKTLDVDVVMMAIG.RIPRTNDLQLGNV.GVKLTPK.....GGVQVDE...
+  ..FSRTNVPNIYAIGDITDR...............LMLTPVAINEGA.ALVDTVFGNK..
+  .PRKTDHTRVASAVFSIPPIGTCGLIEEVAAKEF....EKVAVYMSS.............
+  ..FTPLMHNISGSK...YKKFVAKIVTNHSD.GTVLGVHLLGDG.APEIIQAVGVCLRLN
+  ..AKISDFYNTIGVHPTSAEELCSMRTPSYYYLKGEKMETLPESSL.....
+}
+{
+name TYTR_CRIFA
+descrip Trypanothione reductase (EC 1.8.1.12) (TR) (N(1),N(8)-bis(gl
+creator Crithidia fasciculata.Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    337  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      362    472  PF02852 pyr_redox_dim
+feature 245 262 4 square solid SITE
+  FT   SITE         35     51  NP_BIND_FAD ADP part
+feature 263 268 3 square solid SITE
+  FT   SITE         52     57  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        461    461  ACT_SITE_Proton acceptor
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MSRAYDLVVIGAGSGGLEAGWNAASLH.KKR
+  VAVIDLQKHHG.PPHYAALGGTCVNVGCVPKKLMVTGANYMDTIR...ESAGFGWELDRE
+  S.VRPNWKALIAAKNKAVSGINDSYEGMFADTEGLTFHQGFGALQDNH......TVLVRE
+  SADP......NSAVLETLDTEYILLATGSWP.................QHLGIEG.....
+  .....DDLCITSNEAFYLDEAP......KRALCVGGGYISIEFAGIFNAYKARGGQVDLA
+  YRGDMILRGF.DSELRKQLTEQLRANG.INVRTHENPAKVTKNADG...TRHVVFES...
+  .........GAEADYDVVMLAIG.RVPRSQTLQLDKA.GVEVAKN.....GAIKVDA...
+  ..YSKTNVDNIYAIGDVTDR...............VMLTPVAINEGA.AFVDTVFANK..
+  .PRATDHTKVACAVFSIPPMGVCGYVEEDAAKKY....DQVAVYESS.............
+  ..FTPLMHNISGS...TYKKFMVRIVTNHAD.GEVLGVHMLGDS.SPEIIQSVAICLKMG
+  ..AKISDFYNTIGVHPTSAEELCSMRTPAYFYQKGKRVEKIDSNL......
+}
+{
+name TYTR_LEIDO
+descrip Trypanothione reductase (EC 1.8.1.12) (TR) (N(1),N(8)-bis(gl
+creator Leishmania donovani.Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    336  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      362    472  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         35     52  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         52     57  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        461    461  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MSRAYDLVVLGAGSGGLEAGWNAAVTH.KKK
+  VAVVDVQATHG.PPALVALGGTCVNVGCVPKKLMVTGAQYMDLIR...ESGGFGWEMDRE
+  S.LCPNWKTLIAAKNKVVNSINESYKSMFADTEGLSFHMGFGALQDAH......TVVVRK
+  SEDP......HSDVLETLDTEYILIATGSWP.................TRLGVPG.....
+  .....DEFCITSNEAFYLEDAP......KRMLCVGGGYIAVEFAGIFNGYKPCGGYVDLC
+  YRGDLILRGF.DTEVRKSLTKQLGANG.IRVRTNLNPTKITKNEDG...SNHVHFND...
+  .........GTEEDYDQVMLAIG..VPRSQALQLDKA.GVRTGKN.....GAVQVDA...
+  ..YSKTSVDNIYAIGDVTN...............RVMLTPVAINEGACVLLETVFGGK..
+  .PRATDHTKVACAVFSIPPIGTCGMTEEEAAKN....YETVAVYASS.............
+  ..FTPLMHNISGSK...HKEFMIRIITNESN.GEVLGVHMLGDS.APEIIQSVGICMKMG
+  ..AKISDFHSTIGVHPTSAEELCSMRTPAYFYESGKRVEKLSSNL......
+}
+{
+name GSHR_SCHPO
+descrip Glutathione reductase (EC 1.8.1.7) (GR) (GRase).
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        9    325  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      351    464  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         37     46  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         46     51  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        453    453  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................MAPISKVFDYLVIGGGSGGLASARRAAKHG..AK
+  VALIEA.........SGRLGGTCVNYGCVPKKIMWNIADLVAKMK...TAKQNGFPNSQL
+  G..SFDWGMIKRKRDAYIGRLNGIYERNV.NKDGVAYISGHASFVSPT......EVAVDM
+  ND.........GSGTQVFSAKYILIAVGGHP................IWPSHIPG.....
+  .....AEYGIDSDGFFELESQP......KRVAIVGAGYIAVELAGVFAALG...TETHMF
+  IRQSKFLRKF.DPIISDGIMDHFQHIGINVHTNSLEFKKVEKLPSG...ELCIHQQD...
+  .........GSTFNVDTLLWAIG.RAPKIQGLRLEKA.GVKTLPN.....GIIIADT...
+  ..YQRTNVPTVLSLGDVCG...............KLELTPVAIAAGR.RLSDRLFGGI..
+  KDAHLDYEEVPSVVFAHPEAGTIGLTEQEAIDKYG..ESQIKVYNTK.............
+  ..FNGLNYSMVEQED..KVPTTYKLVCAGPL.QKVVGLHLVG.DFSAEILQGFGVAIKMG
+  ..ATKSDFDSCVAIHPTSAEELVTLV.........................
+}
+{
+name YKGC_ECOLI
+descrip Probable pyridine nucleotide-disulfide oxidoreductase ykgC.
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        5    302  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      328    437  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         33     43  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         43     48  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        426    426  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................MNKYQAVIIGFGKAGKTLAVTLAKAG..WR
+  VALIEQS........NAMYGGTCINIGCIPTKTLVHDAQQHTDFV.RAIQRKNEVVNFLR
+  .....NKNFHNLADMPNIDVIDGQAEFIN..NHSLRVHRPE...................
+  .............GNLEIHGEKIFINTGAQ.................TVVPPIPG.....
+  ..ITTTPGVYDSTGLLNLKELP......GHLGILGGGYIGVEFASMFANFG...SKVTIL
+  EAASLFLPRE.DRDIADNIATILRDQG.VDIILNAHVERISHHENQ....VQVHSE....
+  .........HAQLAVDALLIASG.RQPATASLHPENA.GIAVNER.....GAIVVDK...
+  ..RLHTTADNIWAMGDVTG...............GLQFTYISLDDYR.IVRDELLGEGK.
+  .RSTDDRKNVPYSVFMTPPLSRVGMTEEQARES....GADIQVVTLP.............
+  ..VAAIPRARVMN....DTRGVLKAIVDNKT.QRMLGASLLCVD.SHEMINIVKMVMDAG
+  ..LPYSILRDQIFTHPSMSESLNDLFSLVK.....................
+}
+{
+name DLDH_SYNY3
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (E3 component of py
+creator Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        7    332  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      356    469  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         35     43  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         43     48  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        458    458  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................SQDFDYDLVIIGAGVGGHGAALHAVKCG..LK
+  TAIIEA..........KDMGGTCVNRGCIPSKALLAASGRVREMSDQDHLQQLGIQING.
+  ..VTFTREAIAAHANDLVSKIQSDLTNSL.TRLKVDTIRGWGKVSGPQ......EVTVIG
+  DN...........ETRILKAKEIMLCPGSVP................FVPPGIEI.....
+  ....DHKTVFTSDEAVKLETLP......QWIAIIGSGYIGLEFSDVYTALG...CEVTMI
+  EALPDLMPGF.DPEIAKIAERVLIKSRDIETYTGVFATKIKAGSPV...EIELTDAKTKE
+  V........IDTLEVDACLVATG.RIPATKNLGLETV.GVETDRR.....GFIEVNDQMQ
+  VIKDGKPVPHLWAVGDATG...............KMMLAHAASGQGV.VAVENICGR...
+  .KTEVDYRAIPAAAFTHPEISYVGLTEAQAKELGEKEGFVVSTAKTY.............
+  ..FKGNSKALAEK....ETDGIAKVVYRQDT.GELLGAHIIGIH.ASDLIQEAAQAIADR
+  ..KSVRELAFHVHAHPTLSEVLDEAYKRAV.....................
+}
+{
+name GSHR_PSEAE
+descrip Glutathione reductase (EC 1.8.1.7) (GR) (GRase).
+creator Pseudomonas aeruginosa.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    312  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      338    447  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         34     42  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         42     47  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        436    436  ACT_SITE_Proton acceptor Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MSFDFDLFVIGAGSGGVRAARFAAGFG..AR
+  VAVAES..........RYLGGTCVNVGCVPKKLLVYGAHFSEDFE...QARAYGWSAGE.
+  ..AQFDWATLIGNKNREIQRLNGIYRNLL.VNSGVTLLEGHARLLDAH......SVEVDG
+  ...............QRFSAKHILVATGGWP................QVP.DIPG.....
+  .....KEHAITSNEAFFLERLP......RRVLVVGGGYIAVEFASIFNGLG...AETTLL
+  YRRDLFLRGF.DRSVREHLRDELGKKG.LDLQFNSDIARIDKQADG....SLAATLKD..
+  .........GRVLEADCVFYATG.RRPMLDDLGLENT.AVKLTDK.....GFIAVDE...
+  ..HYQTSEPSILALGDVIG...............RVQLTPVALAEGM.AVARRLFKPE..
+  EYRPVDYKLIPTAVFSLPNIGTVGLTEEEALSA....GHKVKIFESR.............
+  ..FRPMKLTLTDD....QEKTLMKLVVDAHD.DRVLGCHMVGAEAG.EILQGIAVAMKAG
+  ..ATKQAFDETIGIHPTAAEEFVTLRTPTR.....................
+}
+{
+name GSHC_SPIOL
+descrip Glutathione reductase, chloroplast precursor (EC 1.8.1.7) (G
+creator Spinacia oleracea (Spinach).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       17    338  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      363    473  PF02852 pyr_redox_dim
+feature 254 263 4 square solid SITE
+  FT   SITE         54     63  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         63     68  DISULFID_Redoxactive By similarity
+feature 482 482 12 square solid SITE
+  FT   SITE        224    224  BINDING_NADP By similarity
+feature 488 488 12 square solid SITE
+  FT   SITE        230    230  BINDING_NADP By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        462    462  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................EDNHSTVEDDAANYDFDLFVIGAGSGGVRAARFSANLG..AK
+  VGICELPFHPISSEVIGGVGGTCVIRGCVPKKILVYGASFGGELE...DAKNYGWELNE.
+  .KIDFNWKKLLQKKTDEIIRLNNIYKRLL.SNAGVKLYEGEGKIVGPN......EVQVTQ
+  LDG..........TKLSYSAKHILIATGSRA................QRP.NIPG.....
+  .....QELAITSDEALSLEEFP......KRVVILGGGYISVEFASIWRGMG...ADVNLC
+  FRKELPLRGF.DDEMRAAVARNLEGRG.VNVHPRTTLTELVKTDGG....VVARTDH...
+  .........GEEIEADVVLFATG.RSPNTKRLNLEAL.GVELDRT.....GAVKVDE...
+  ..YSRTSVPSIWAIGDVTN...............RMNLTPVALMEGT.CFAKTVFGGQ..
+  .NSKPDYSNIACAVFSIPPLAVVGLSEEQAIEQA...SGDILVFTSS.............
+  ..FNPMKNTISGR....QEKTIMKLVVDAET.DKVLGASMCGPD.AAEIMQGIAIALKFG
+  ..ATKAQFDSTVGIHPSAAEEFVTMREPSRRVPGAGKPKTNL.........
+}
+{
+name GSHR_BRARP
+descrip Glutathione reductase, cytosolic (EC 1.8.1.7) (GR) (GRase).
+creator Brassica rapa subsp. pekinensis (Chinese cabbage) (Celery ca
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       30    351  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      376    486  PF02852 pyr_redox_dim
+feature 254 263 4 square solid SITE
+  FT   SITE         67     76  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         76     81  DISULFID_Redoxactive By similarity
+feature 482 482 12 square solid SITE
+  FT   SITE        237    237  BINDING_NADP By similarity
+feature 488 488 12 square solid SITE
+  FT   SITE        243    243  BINDING_NADP By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        475    475  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .....MARKMLSDGELNKAAAAGEEATTETHYDFDLFVIGAGSGGVRAARFSANNG..AK
+  VGICELPFHPISSEEIGGVGGTCVIRGCVPKKILVYGATYGGELE...DARNYGWEING.
+  .NVDFNWKKLLQKKTDEILRLNNIYKRLL.ANAAVKLYEGEGRIVGPN......EVEVRQ
+  IDG..........TKISYTAKHILIATGSRA................QKP.NIPG.....
+  .....HELAITSDEALSLEEFP......KRAIVLGGGYIAVEFASIWRGMG...ATVDLF
+  FRKELPLRGF.DDEMRALVARNLEGRG.INLHPQTSLAELIKTDDG....IKVISSH...
+  .........GEEFVADVVLFATG.RIPNTKRLNLEAV.GVELDQA.....GAVKVDE...
+  ..YSRTNIPSIWAVGDATN...............RINLTPVALMEAT.CFANTVFGGK..
+  .PAKADYTNVACAVFCIPPLAVVGLSEEEAVEKA...TGDILVFTSG.............
+  ..FNPMKNTISGR....QEKSLMKLIVDEKT.DKVIGASMCGPD.AAEIMQGIAIALKCG
+  ..ATKAQFDSTVGIHPSSAEEFVTMRTVTRRIAYKAKPQTSL.........
+}
+{
+name GSHR_ORYSA
+descrip Glutathione reductase, cytosolic (EC 1.8.1.7) (GR) (GRase).
+creator Oryza sativa (Rice).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       24    345  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      370    480  PF02852 pyr_redox_dim
+feature 254 263 4 square solid SITE
+  FT   SITE         61     70  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         70     75  DISULFID_Redoxactive
+feature 482 482 12 square solid SITE
+  FT   SITE        231    231  BINDING_NADP
+feature 488 488 12 square solid SITE
+  FT   SITE        237    237  BINDING_NADP
+feature 795 795 0 square solid SITE
+  FT   SITE        469    469  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........MARKMLKDEEVEVAVTDGGSYDYDLFVIGAGSGGVRGSRTSASFG..AK
+  VAICELPFHPISSDWQGGHGGTCVIRGCVPKKILVYGSSFRGEFE...DAKNFGWEING.
+  .DINFNWKRLLENKTQEIVRLNGVYQRIL.GNSGVTMIEGAGSLVDAH......TVEVTK
+  PDG..........SKQRYTAKHILIATGSRA................QRV.NIPG.....
+  .....KELAITSDEALSLEELP......KRAVILGGGYIAVEFASIWKGMG...AHVDLF
+  YRKELPLRGF.DDEMRTVVASNLEGRG.IRLHPGTNLSELSKTADG....IKVVTDK...
+  .........GEEIIADVVLFATG.RTPNSQRLNLEAA.GVEVDNI.....GAIKVDD...
+  ..YSRTSVPNIWAVGDVTN...............RINLTPVALMEAT.CFSKTVFGGQ..
+  .PTKPDYRDVPCAVFSIPPLSVVGLSEQQALEEA...KSDVLVYTSS.............
+  ..FNPMKNSISKR....QEKTVMKLVVDSET.DKVLGASMCGPD.APEIIQGMAVALKCG
+  ..ATKATFDSTVGIHPSAAEEFVTMRTLTRRVSPSSKPKTNL.........
+}
+{
+name DLDH_ACHLA
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (E3 component of py
+creator Acholeplasma laidlawii.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    314  PF00070 pyr_redox
+feature 245 263 4 square solid SITE
+  FT   SITE         34     42  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         42     47  DISULFID_Redoxactive By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MSKEYEIIIVGGGPGGYVAAIKAAQYG..AK
+  VALVEK..........EVVGGICLNHGCIPTKTFLKSAKVFNTVK...KSMDFGVSTSGE
+  ..VGFDWSKIVSRKDGVVKQLTNGVAFLL.KKNGVDVYNGFGDIKSAN......EVVVNG
+  ...............ESLKTKNVIIATGSSA..............VVPPIPGVKE.....
+  ..AYEKGIVVTSRELLNVKNYP......KSIVIVGGGVIGVEFATVFNSFG...SKVTII
+  EMMDGILPTM.DDDIRVAYAKTLKRDG.IEILTKAEVKKVDD........HKVTYSLDG.
+  ........KETTIEGDLILMSVG.TRANS..KGLEHL.GLEMDRA......NIKTNE...
+  ..YLQTNVPGVYAIGDVNG...............KFMLAHVAEHEGI.TAVQHILKI...
+  .GHAKMNY....................................................
+  ............................................................
+  ...................................................
+}
+{
+name DLD1_BACST
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (E3 component of py
+creator Bacillus stearothermophilus.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       11    324  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      348    457  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         39     47  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         47     52  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        446    446  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ........................MVVGDFAIETETLVVGAGPGGYVAAIRAAQLG..QK
+  VTIVEK..........GNLGGVCLNVGCIPSKALISASHRYEQAK...HSEEMGIKAEN.
+  ..VTIDFAKVQEWKASVVKKLTGGVEGLL.KGNKVEIVKGEAYFVDAN......TVRVVN
+  GD...........SAQTYTFKNAIIATGSRP................IELPNFK......
+  ....FSNRILDSTGALNLGEVP......KSLVVIGGGYIGIELGTAYANFG...TKVTIL
+  EGAGEILSGF.EKQMAAIIKKRLKKKG.VEVVTNALAKGAEEREDG....VTVTYEANG.
+  ........ETKTIDADYVLVTVG.RRPNTDELGLEQI.GIKMTNR.....GLIEVDQ...
+  ..QCRTSVPNIFAIGDIVP...............GPALAHKASYEGK.VAAEAIAGH...
+  .PSAVDYVAIPAVVFSDPECASVGYFEQQAKDE....GIDVIAAKFP.............
+  ..FAANGRALALN....DTDGFLKLVVRKED.GVIIGAQIIGPN.ASDMIAELGLAIEAG
+  ..MTAEDIALTIHAHPTLGEIAMEAAEVALG.TPIHIITK...........
+}
+{
+name DLD1_BACSU
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (E3 component of py
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       11    325  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      349    458  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         39     47  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         47     52  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        447    447  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ........................MVVGDFPIETDTLVIGAGPGGYVAAIRAAQLG..QK
+  VTVVEK..........ATLGGVCLNVGCIPSKALINAGHRYENAK...HSDDMGITAEN.
+  ..VTVDFTKVQEWKASVVNKLTGGVAGLL.KGNKVDVVKGEAYFVDSN......SVRVMD
+  EN...........SAQTYTFKNAIIATGSRP................IELPNFK......
+  ....YSERVLNSTGALALKEIP......KKLVVIGGGYIGTELGTAYANFG...TELVIL
+  EGGDEILPGF.EKQMSSLVTRRLKKKGNVEIHTNAMAKGVEERPDG....VTVTFEVKG.
+  ........EEKTVDADYVLITVG.RRPNTDELGLEQV.GIEMTDR.....GIVKTDK...
+  ..QCRTNVPNIYAIGDIIE...............GPPLAHKASYEGK.IAAEAIAGE...
+  .PAEIDYLGIPAVVFSEPELASVGYTEAQAKEE....GLDIVAAKFP.............
+  ..FAANGRALSLN....ETDGFMKLITRKED.GLVIGAQIAGAS.ASDMISELSLAIEGG
+  ..MTAEDIAMTIHAHPTLGEITMEAAEVAIG.SPIHIVK............
+}
+{
+name DLDH_STAAM
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (E3 component of py
+creator Staphylococcus aureus (strain Mu50 / ATCC 700699),Staphyloco
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       11    324  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      348    457  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         39     47  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         47     52  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        446    446  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ........................MVVGDFPIETDTIVIGAGPGGYVAAIRAAQLG..QK
+  VTIVEK..........GNLGGVCLNVGCIPSKALLHASHRFVEAQ...HSENLGVIAES.
+  ..VSLNFQKVQEFKSSVVNKLTGGVEGLL.KGNKVNIVKGEAYFVDNN......SLRVMD
+  EK...........SAQTYNFKNAIIATGSRP................IEIPNFK......
+  ....FGKRVIDSTGALNLQEVP......GKLVVVGGGYIGSELGTAFANFG...SEVTIL
+  EGAKDILGGF.EKQMTQPVKKGMKEKG.VEIVTEAMAKSAEETDNG....VKVTYEAKG.
+  ........EEKTIEADYVLVTVG.RRPNTDELGLEEL.GVKFADR.....GLLEVDK...
+  ..QSRTSISNIYAIGDIVP...............GLPLAHKASYEAK.VAAEAIDGQ...
+  .AAEVDYIGMPAVCFTEPELATVGYSEAQAKEE....GLAIKASKFP.............
+  ..YAANGRALSLD....DTNGFVKLITLKED.DTLIGAQVVGTG.ASDIISELGLAIEAG
+  ..MNAEDIALTIHAHPTLGEMTMEAAEKAIG.YPIHTM.............
+}
+{
+name DLDH_HALVO
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (Dihydrolipoamidede
+creator Halobacterium volcanii (Haloferax volcanii).Archaea;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       10    328  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      352    461  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         38     46  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         46     51  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        450    450  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................VVGDIATGTELLVIGAGPGGYVAAIRAAQNG..ID
+  TTLVEK..........DAYGGTCLNYGCIPSKALITGANLAHEAG...NAEEMGIHADP.
+  ...VVDMSQLRDWKSGVVDQLTGGVEKLC.KANGVNLVEGTARFKDEN......AVRIAH
+  GGEG........QGSETIEFEHCIIATGSRV................IQIPGFDF.....
+  ....GDEPVWSSRDALEADTVP......ERLVVVGGGYIGMELSTTFAKLG...ADVTVV
+  EMLDDILPGY.ESDVARVVRKRAEELG.IDMHLGEGATGWREEDDG....IMVTTETEDG
+  ........EENEYRADKVLVAVG.RSPVTDTMDIENA.GLEADDR.....GFLSVDD...
+  ..RRRTDVEHIYAVGDVVED..............TPMLAHVASKEGI.VAAEHVAGE...
+  .PVAFDSQAVPAAVFTDPEIGTVGMTEADAEEA....GFTPVVGQMP.............
+  ..FRASGRALTTN....HADGFVRVVADEES.GFVLGAQIVGPE.ASELIAELAFAIEMG
+  ..ATLEDVASTIHTHPTLAEAVMEAAENALG.QAIHTLNR...........
+}
+{
+name DLDH_PEA
+descrip Dihydrolipoyl dehydrogenase, mitochondrial precursor (EC 1.8
+creator Pisum sativum (Garden pea).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       39    358  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      382    491  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         67     76  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         76     81  DISULFID_Redoxactive
+feature 177 207 12 square solid SIGNAL
+  FT   SIGNAL        1     31  Mitochondrion (Potential).
+sequence
+  ............................................................
+  ............................................................
+  ........................................................MAMA
+  NLARRKGYSLLSSETLRYSFSLRSRAFASGSDENDVVIIGGGPGGYVAAIKAAQLG..FK
+  TTCIEKR.........GALGGTCLNVGCIPSKALLHSSHMYHEAK..HSFANHGVKVSN.
+  ..VEIDLAAMMGQKDKAVSNLTRGIEGLF.KKNKVTYVKGYGKFVSPS......EISVDT
+  IEG..........ENTVVKGKHIIIATGSDV................KSLPGVTI.....
+  ....DEKKIVSSTGALALSEIP......KKLVVIGAGYIGLEMGSVWGRIG...SEVTVV
+  EFASEIVPTM.DAEIRKQFQRSLEKQG.MKFKLKTKVVGVDTSGDG....VKLTVEPSAG
+  G.......EQTIIEADVVLVSAG.RTPFTSGLNLDKI.GVETDKL.....GRILVNE...
+  ..RFSTNVSGVYAIGDVIP...............GPMLAHKAEEDGV.ACVEYLAGK...
+  .VGHVDYDKVPGVVYTNPEVASVGKTEEQVKET....GVEYRVGKFP.............
+  ..FMANSRAKAID....NAEGLVKIIAEKET.DKILGVHIMAPN.AGELIHEAAIALQYD
+  ..ASSEDIARVCHAHPTMSEAIKEAAMATYD.KPIHI..............
+}
+{
+name DLD3_PSEPU
+descrip Dihydrolipoyl dehydrogenase 3 (EC 1.8.1.4) (LPD-3) (Dihydrol
+creator Pseudomonas putida.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        5    323  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      347    456  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         33     42  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         42     47  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        445    445  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................MKSYDVVIIGGGPGGYNAAIRAGQLG..LT
+  VACVEGR.........STLGGTCLNVGCMPSKALLHASELYEAAS.GDEFAHLGIEVKP.
+  ...TLNLAQMMKQKDESVTGLTKGIEYLF.RKNKVDWIKGWGRLDGVG......KVVVKA
+  EDG..........SETALQAKDIVIATGSEP................TPLPGVTI.....
+  ....DNQRIIDSTGALSLPQVP......KHLVVIGAGVIGLELGSVWRRLG...SQVTVI
+  EYLDRICPGT.DTETAKTLQKALAKQG.MVFKLGSKVTQATASADG....VSLVLEPAAG
+  G.......TAESLQADYVLVAIG.RRPYTKGLNLESV.GLETDKR......GMLAQR...
+  ..TPPTSVPGVWVIGDVTS...............GPMLAHKAEDEAV.ACIERIAGK...
+  .PHEVNYNLIPGVIYTRPELATVGKTEEQLKAE....GRAYKVGKFP.............
+  ..FTANSRAKINH....ETEGFAKVIADAET.DEVLGVHLVGPS.VSEMIGEFCVAMEFS
+  ..ASAEDIALTCHPHPTRSEALRQAAMNVDG.MAMQI..............
+}
+{
+name DLHD_MANSE
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (Dihydrolipoamidede
+creator Manduca sexta (Tobacco hawkmoth) (Tobacco hornworm).Eukaryot
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       32    353  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      377    486  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         60     69  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         69     74  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        475    475  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...MGYKFLKLASASFRNGGVRIVSRQYSTTHDADLVVIGAGPGGYVAAIKAAQLG..MK
+  VVSVEKE.........PSLGGTCLNVGCIPSKALLHNTHLYHMAK..HDFKHRGIETGE.
+  ..VKFNFKAMMDYKVNAVKALTGGIAMLF.QKNKVKLVRGAGTIVAPN......KVEVKG
+  EK...........GVETVNTKNILIATGSEV................TPFPGVTF.....
+  ....DEKQIITSTGALSLESVP......KKMLVIGAGVIGLELGSVYQRLG...ADVTAI
+  EFLGSIGGIGIDMEVSKDY.RILAKQG.MKFKLETKVLGVKKEGST.VKVEDVSIEGAKG
+  G.......NKETMDCDVVLISIG.RRPYTKDLGLDKV.GIALDDR.....GRVPVNN...
+  ..KFQTTVPGIYAIGDVIH...............GPMLAHKAEDEGI.VCVEGIKGM...
+  .PVHFNYDAIPSVIYTSPEVGWVRKTEEDLKKE....GKAYKVRKFP.............
+  ..FLANSRAKTNG....EPDGFVKVLSDKAT.DVILGTHIIGPG.GGELINEAVLAQEYG
+  ..AAAEDVARVCHAHPTCAEALREANLAAYCGKPINF..............
+}
+{
+name DLDH_CANFA
+descrip Dihydrolipoyl dehydrogenase, mitochondrial precursor (EC 1.8
+creator Canis familiaris (Dog).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       43    365  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      389    498  PF02852 pyr_redox_dim
+feature 173 214 0 square solid PFAM-B
+  FT   PFAM-B        1     42  PB016141 Pfam-B_16141
+feature 245 263 4 square solid SITE
+  FT   SITE         71     80  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         80     85  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        487    487  ACT_SITE_Proton acceptor By similarity
+feature 173 207 12 square solid SIGNAL
+  FT   SIGNAL        1     35  Mitochondrion.
+sequence
+  ............................................................
+  ............................................................
+  ....................................................MQSWSRVY
+  CSLAKRGHFSRISHGLQAVSAVPLRTYADQPIDADVTVIGSGPGGYVAAIKAAQLG..FK
+  TVCVEKN.........ETLGGTCLNVGCIPSKALLNNSHYYHMAH.GKDFASRGIEMSE.
+  ..VRLNLEKMMEQKSTAVKALTGGIAHLF.KQNKVVHVNGYGKITGKN......QVTAKK
+  ADG..........STQVIDTKNILIATGSEV................TPFPGITI.....
+  ....DEDTIVSSTGALSLKKVP......EKMVVIGAGVIGVELGSVWQRLG...ADVTAV
+  EFLGHVGGVGIDMEISKNFQRILQKQG.FKFKLNTKVTGATKKSDG...KIDVSIEGASG
+  G.......KAEVITCDVLLVCIG.RRPFTQNLGLEEL.GIELDPR.....GRIPVNT...
+  ..RFQTKIPNIYAIGDVVA...............GPMLAHKAEDEGI.ICVEGMAGG...
+  .AVPIDYNCVPSVIYTHPEVAWVGKSEEQLKEE....GIEYKVGKFP.............
+  ..FAANSRAKTNA....DTDGMVKILGQKST.DRVLGAHILGPG.AGEMVNEAALALEYG
+  ..ASCEDIARVCHAHPTLSEAFREANLAASFGKSINF..............
+}
+{
+name DLDH_CHLTE
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (E3 component of py
+creator Chlorobium tepidum.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       12    327  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      352    461  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         40     48  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         48     53  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        450    450  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................MQQADTLAAQFDVAVIGSGPGGYEAAIHAARYG..LK
+  TCIVEK..........AVLGGVCVNWGCIPTKALLRSAEVFDLAK...NPETFGVNVGN.
+  ..VSFDLAQAVKRSRNVALKSSKGVAYLL.KKAAVEVLAGEAVLTGGA......GVMVTM
+  PDG..........SVRMLGAKNIIVATGSTP................RVIPGLEP.....
+  ....DGKKIITSREALILKEVP......KSMIVVGGGAIGVEMAWFYAKAG...SKVTIV
+  ELMPRMLPAE.EAEVSEALKRSFEKAG.ITVHCGAKLDNVAVSESG..VSAELVVEGSA.
+  .........PQTLNASCLLVAVG.VTGAIDGLGLDAV.GVETER......GFIRTDG...
+  ..QCRTSAPGIYAIGDVRG...............GMLLAHKASAEAA.IAVEAIAGKS..
+  .PEPLSEPLIPRCVYAQPSVASVGLTEEAAVNA....GYQVAVGRSQ.............
+  ..FAASGKANAYG....QLEGFVKLVFDAAT.GKMLGGHLIGHD.AVELIGELGLACRYG
+  ..VTAGGLVNTVHAHPTLSETVREAAFDALQSMG.................
+}
+{
+name DLD3_BACSU
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (E3 component of ac
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        2    315  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      339    448  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         30     38  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         38     43  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        437    437  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .................................MTLAIIGGGPAGYAAAVSAAQQG..RN
+  VLLIDK..........GKLGGTCLNEGCIPTKSLLESANVLDKIK...HADSFGIELPAG
+  A.ISVDWSKMQSRKQQVVSQLVQGVQYLM.KKNQIQVVKGTASFLSER......KLLIEG
+  EN...........GKEIREADQVLIASGSEP................IELPFAPF.....
+  ....DGEWILDSKDALSLSEIP......SSLVIVGGGVIGCEYAGLFARLG...SQVTII
+  ETADRLIPAE.DEDIARLFQEKLEEDG.VEVHTSSRLGRVDQTAK.....TAIWKSGQ..
+  ........REFKTKADYVLVAIG.RKPRLDGLQLEQA.GVDFSPK.....G.IPVNG...
+  ..HMQTNVPHIYACGDAIG...............GIQLAHAAFHEGI.IAASHASGR...
+  .DVKINEKHVPRCIYTSPEIACIGMTERQARSI....YGDVKIGEFS.............
+  ..FSANGKALIKQ....QAEGKVKIMAEPEF.GEIVGVSMIGPD.VTELIGQAAAIMNGE
+  ..MTADMAEHFIAAHPTLSETLHEALLSTIG.LAVHA..............
+}
+{
+name DLD2_PSEPU
+descrip Dihydrolipoamide dehydrogenase (EC 1.8.1.4) (E3 component of
+creator Pseudomonas putida.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        5    328  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      352    461  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         33     48  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         48     53  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        450    450  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................TQKFDVVVIGAGPGGYVAAIKAAQLG..LK
+  TACIEKYTDA...EGKLALGGTCLNVGCIPSKALLDSSWKYKEAK..ESFNVHGISTGE.
+  ..VKMDVAAMVGRKAGIVKNLTGGVATLF.KANGVTSIQGHGKLLAGK......KVEVTK
+  ADG..........TTEVIEAENVILASGSRP................IDIPPAPV.....
+  ....DQNVIVDSTGALEFQAVP......KRLGVIGAGVIGLELGSVWARLG...AEVTVL
+  EALDTFLMAA.DTAVSKEAQKTLTKQG.LDIKLGARVTGSKVNGNE.VEVTYTNAEGEQ.
+  ...........KITFDKLIVAVG.RRPVTTDLLAADS.GVTIDER.....GYIFVDD...
+  ..YCATSVPGVYAIGDVVR...............GMMLAHKASEEGI.MVVERIKGH...
+  .KAQMNYDLIPSVIYTHPEIAWVGKTEQALKAE....GVEVNVGTFP.............
+  ..FAASGRAMAAN....DTGGFVKVIADAKT.DRVLGVHVIGPS.AAELVQQGAIAMEFG
+  ..TSAEDLGMMVFSHPTLSEALHEAALAVNG.GAIHVANRKKR........
+}
+{
+name GSHR_STRTR
+descrip Glutathione reductase (EC 1.8.1.7) (GR) (GRase).
+creator Streptococcus thermophilus.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    313  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      339    450  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         34     42  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         42     47  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        439    439  ACT_SITE_Proton acceptor Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MVKEYDYIVIGGGSGGIASANRAAMHG..AK
+  VILFEG..........KEVGGTCVNVGCVPKKVMWYGAQVAETLH..RYAGEYGFDVTIN
+  ...NFDFATLKANRQAYIDRIHGSFERGF.DSNGVERVYEYARFVDPH......TVEVAG
+  ...............ELYTAPHILIATGGHP................LYP.NIPG.....
+  .....SEYGITSDGFFELDEVP......KRTAVIGAGYIAVEVAGVLNALG...SDTHLF
+  VRKDRPLRTF.DKDIIDVLVDEMAKSG.PTLHMHANATEVVKNADD..SLTISFDNEE..
+  ...........TITVDCLIWAVG.RAANTSGFGLEKT.GVELTER.....GNIYSDE...
+  ..FENTSVPGIYALGDVTG...............KLDLTPVAVKAGR.QLSERLFNNK..
+  VDAKLDYTDVATVVFSHPAIGAIGLTEEKAIAKYG..AENIKVYKSS.............
+  ..FTPMYTALGDN....RQLSTMKLVTLGED.EKIIGLHGIGYG.VDEMIQGFSVAIKMG
+  ..ATKADFDNTVAIHPTGSEEFVTMR.........................
+}
+{
+name GSHR_ECOLI
+descrip Glutathione reductase (EC 1.8.1.7) (GR) (GRase).
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    313  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      339    450  PF02852 pyr_redox_dim
+feature 245 262 4 square solid SITE
+  FT   SITE         34     41  NP_BIND_FAD ADP part
+feature 263 268 3 square solid SITE
+  FT   SITE         42     47  DISULFID_Redoxactive
+feature 795 795 0 square solid SITE
+  FT   SITE        439    439  ACT_SITE_Proton acceptor
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MTKHYDYIAIGGGSGGIASINRAAMYG..QK
+  CALIEA..........KELGGTCVNVGCVPKKVMWHAAQIREAIH..MYGPDYGFDTTIN
+  ...KFNWETLIASRTAYIDRIHTSYENVL.GKNNVDVIKGFARFVDAK......TLEVNG
+  ...............ETITADHILIATGGRP................SHP.DIPG.....
+  .....VEYGIDSDGFFALPALP......ERVAVVGAGYIAVELAGVINGLG...AKTHLF
+  VRKHAPLRSF.DPMISETLVEVMNAEG.PQLHTNAIPKAVVKNTDG..SLTLELEDGR..
+  ...........SETVDCLIWAIG.REPANDNINLEAA.GVKTNEK.....GYIVVDK...
+  ..YQNTNIEGIYAVGDNTG...............AVELTPVAVAAGR.RLSERLFNNK..
+  PDEHLDYSNIPTVVFSHPPIGTVGLTEPQAREQYG..DDQVKVYKSS.............
+  ..FTAMYTAVTTH....RQPCRMKLVCVGSE.EKIVGIHGIGFG.MDEMLQGFAVALKMG
+  ..ATKKDFDNTVAIHPTAAEEFVTMR.........................
+}
+{
+name GSHR_HAEIN
+descrip Glutathione reductase (EC 1.8.1.7) (GR) (GRase).
+creator Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    319  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      345    456  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         34     42  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         42     47  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        445    445  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MTKHYDYIAIGGGSGGIASLNRAASYG..KK
+  CAIIEA..........KHLGGTCVNVGCVPKKVMFYGAHIAEAIN..NYAPDYGFDVEVK
+  ...KFDFSKLIESRQAYISRIHTSYNNVL.AKNNIDVINGFGKFVDAH......TIEVTL
+  ADG..........TKEQVTADHILIATGGRP................YRP.NIKG.....
+  .....QEYGIDSDGFFALTELP......KRAAVIGAGYIAVELSGVLNSLG...VETHLL
+  VRRHAPMRNQ.DPLIVETLVEVLAQDG.IQLHTNSTPSEIVKNADG..SLTVRCDGQS..
+  ...........DVTVDCVIWAAG.RVPTTDKIGLENA.GVETNEH.....GYVKVDK...
+  ..YQNTNVKGIYAVGDIIEN..............GIELTPVAVAAGR.RLSERLFNNK..
+  PTEYLDYSLVPTVVFSHPPIGTVGLTEPQAIEQYG..AENVKVYKSS.............
+  ..FTAMYTAVTQH....RQPCKMKLVCVGKD.EKVVGLHGIGFG.VDEMIQGFAVAIKMG
+  ..ATKADFDNTVAIHPTGSEEFVTMR.........................
+}
+{
+name GSHC_TOBAC
+descrip Glutathione reductase, chloroplast precursor (EC 1.8.1.7) (G
+creator Nicotiana tabacum (Common tobacco).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       81    398  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      423    532  PF02852 pyr_redox_dim
+feature 254 263 4 square solid SITE
+  FT   SITE        118    127  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE        127    132  DISULFID_Redoxactive By similarity
+feature 482 482 12 square solid SITE
+  FT   SITE        283    283  BINDING_NADP By similarity
+feature 488 488 12 square solid SITE
+  FT   SITE        289    289  BINDING_NADP By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        521    521  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ..............ATSLSTPKLSTTLSSPTLHSLLYKHKFSLLSLSNPIKPLHFNFLTH
+  SRSTPSSLSCTRRRFTAPRAESSNGADAPRHYDFDLFTIGAGSGGVRASRFASNFG..AS
+  VAVCELPFSTISSDSTGGVGGTCVLRGCVPKKLLVYASKYSHEFE...ESCGFGWNYDV.
+  .EPRFDWSTLIANKNAELQRLTGIYKNIL.KNAGVTLIEGRGKVVDPH......TVDVDG
+  ...............KLYSAKNILISVGGRP................FIP.DIPG.....
+  .....SEYAIDSDAALDLPTKP......NKIAIVGGGYIALEFAGIFNGLK...SEVHVF
+  IRQKKVLRGF.DEEIRDFVGEQMSLRG.IEFHTEESPQAIVKSADG..SLSLKTSRGT..
+  ............VEGFSHIMFATGRRPNTKNLGLETV.GVKMTKN.....GAIEVDE...
+  ..YSRTSVPSIWAVGDVTDR...............INLTPVALMEGG.ALAKTIFAHE..
+  .PTKPDYRNVPAAVFSQPPIGQVGLMEEQAIKEFG....DVDVYTAN.............
+  ..FRPLKATISGLP....DRVFMKLIVCAKT.SKVLGLHMCGDD.APEIVQGFAIAVKAG
+  ..LTKADFDATVGIHPTSAEEFVTMRTPTRKVRSSPSEGKAEHDIKAAAGV
+}
+{
+name GSHC_ARATH
+descrip Glutathione reductase, chloroplast precursor (EC 1.8.1.7) (G
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A       89    406  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      431    540  PF02852 pyr_redox_dim
+feature 127 209 0 square solid PFAM-B
+  FT   PFAM-B        1     83  PB030755 Pfam-B_30755
+feature 254 263 4 square solid SITE
+  FT   SITE        126    135  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE        135    140  DISULFID_Redoxactive
+feature 482 482 12 square solid SITE
+  FT   SITE        291    291  BINDING_NADP
+feature 488 488 12 square solid SITE
+  FT   SITE        297    297  BINDING_NADP
+feature 795 795 0 square solid SITE
+  FT   SITE        529    529  ACT_SITE_Proton acceptor By similarity
+feature 127 200 12 square solid SIGNAL
+  FT   SIGNAL        1     74  Chloroplast (Potential).
+sequence
+  ............................................................
+  ............................................................
+  ......MASTPKLTSTISSSSPSLQFLCKKLPIAIHLPSSSSSSFLSLPKTLTSLYSLRP
+  RIALLSNHRYYHSRRFSVCASTDNGAESDRHYDFDLFTIGAGSGGVRASRFATSFG..AS
+  AAVCELPFSTISSDTAGGVGGTCVLRGCVPKKLLVYASKYSHEFE...DSHGFGWKYET.
+  .EPSHDWTTLIANKNAELQRLTGIYKNIL.SKANVKLIEGRGKVIDPH......TVDVDG
+  ...............KIYTTRNILIAVGGRP................FIP.DIPG.....
+  .....KEFAIDSDAALDLPSKP......KKIAIVGGGYIALEFAGIFNGLN...CEVHVF
+  IRQKKVLRGF.DEDVRDFVGEQMSLRG.IEFHTEESPEAIIKAGDG..SFSLKTSKGT..
+  ............VEGFSHVMFATGRKPNTKNLGLENV.GVKMAKN.....GAIEVDE...
+  ..YSQTSVPSIWAVGDVTDR...............INLTPVALMEGG.ALAKTLFQNE..
+  .PTKPDYRAVPCAVFSQPPIGTVGLTEEQAIEQYG....DVDVYTSN.............
+  ..FRPLKATLSGLP....DRVFMKLIVCANT.NKVLGVHMCGED.SPEIIQGFGVAVKAG
+  ..LTKADFDATVGVHPTAAEEFVTMRAPTRKFRKDSSEGKASPEAKTAAGV
+}
+{
+name DLDH_CHLMU
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (E3 component of 2-
+creator Chlamydia muridarum.Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    317  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      341    450  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         34     42  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         42     47  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        439    439  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MNEAFDCVVIGAGPGGYVAAITAAQAG..LK
+  TALIEE..........REAGGTCLNRGCIPSKALLASAEIVAQIR...HADQFGIHING.
+  ..FSIDYPAMVQRKDTVVRSIRDGLNGLI.RSNKITVFSGRGSLISST......EVKILG
+  E............TPSVIKAQSIILATGSEP................RAFPGVPF.....
+  ..SQQSPRILCSTGVLNLKEIP......QKMAIIGGGVIGCEFASLFHTLG...SEVSVI
+  EASQQILALN.NPDISKTMFDKFTRHG.IRFMLGASVSSIEDMGDR....VRLTINGNI.
+  ............EEYDYVLVSIG.RRLNTENIGLDKA.GVICDER.....GVIPTDS...
+  ..TMRTNVPNIYAIGDITG...............KWQLAHVASHQGI.VAARNIAGH...
+  .KDEIDYSAVPSVIFTFPEVASVGLSPTSAQQQ....GIPVKVTKFP.............
+  ..FRAIGKAVAMG....ESDGFAAIISHETS.QQILGAYVIGPH.ASSLISEITLAIRNE
+  ..LTLPCIYETIHAHPTLAEVWAESALLAVD.TPLHMPPTRK.........
+}
+{
+name DLDH_CHLPN
+descrip Dihydrolipoyl dehydrogenase (EC 1.8.1.4) (E3 component of 2-
+creator Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    314  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      338    447  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         34     42  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         42     47  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        436    436  ACT_SITE_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MTQEFDCVVIGAGPSGYVAAITAAQSK..LR
+  TALIEE..........DQAGGTCLNRGCIPSKALIAGANVVSHIK...HAEQFGIHVDG.
+  ..YTIDYPAMAKRKNTVVQGIRQGLEGLI.RSNKITVLKGTGSLVSST......EVKVIG
+  Q............DTTIIKANHIILATGSEP................RPFPGVPF.....
+  .....SSRILSSTGILELEVLP......KKLAIIGGGVIGCEFASLFHTLG...VEITVI
+  EALDHILAVN.NKEVSQTVTNKFTKQG.IRILTKASISAIEESQNQ....VRITVNDQV.
+  ............EEFDYVLVAIG.RQFNTASIGLDNA.GVIRDDR.....GVIPVDE...
+  ..TMRTNVPNIYAIGDITG...............KWLLAHVASHQGV.IAAKNISGH...
+  .HEVMDYSAIPSVIFTHPEIAMVGLSLQEAEQQ....NLPAKLTKFP.............
+  ..FKAIGKAVALG....ASDGFAAIVSHEIT.QQILGAYVIGPH.ASSLIGEMTLAIRNE
+  ..LTLPCIYETVHAHPTLSEVWAEGALLATN.HPLHFPPKS..........
+}
+{
+name GSHR_BURCE
+descrip Glutathione reductase (EC 1.8.1.7) (GR) (GRase).
+creator Burkholderia cepacia (Pseudomonas cepacia).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        7    312  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      337    446  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         35     43  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         43     48  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        435    435  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................MQKYDFDLFVIGAGSGGVRAARIAAGHG..AK
+  VAIAEE..........YRFGGTCVIRGCVPKKLLMYASQYGQGFE...DAAGFGWHSAAT
+  S...HSWTSLIAAKDAEIARLEGVYQRLI.ENANVEIFKGRAQIAGPN......RVTVTG
+  ...............ASVSARTILIATGARP................VMP.PVAG.....
+  .....ANLMITSDDVFDLPVGP......PRIAIIGGGYIACEFAGIFNGLG...RHVVQL
+  HRGSQVLRGF.DDELREHLGDELKKSG.IDLRLGVDVVAVERQRGA...LSVQLTTGDA.
+  ............MEVDAVMAATG.RLPNTWGLGLETV.DVGLDQN.....GAIKVDE...
+  ..YSRTSSPGIYAVGDVTN...............RLNLTPVAIHEGH.AFADTVFGGK..
+  .ALPTEHENVPFAVFSQPQAASVGLSEAQARDR....YSNVEIYGSA.............
+  ..FRPMRAALSGR....DEKALVKLVVNGSN.DRVVGAHIVGAD.AAEIIQGIAVAIKAR
+  ..ATKADFDATLGVHPTLAEEFVTLRNRR......................
+}
+{
+name GSHR_ANASP
+descrip Glutathione reductase (EC 1.8.1.7) (GR) (GRase).
+creator Anabaena sp. (strain PCC 7120).Bacteria;
+type    PROTEIN
+group 1
+feature 215 641 0 square solid PFAM-A
+  FT   PFAM-A        6    323  PF00070 pyr_redox
+feature 670 806 1 square solid PFAM-A
+  FT   PFAM-A      348    459  PF02852 pyr_redox_dim
+feature 245 263 4 square solid SITE
+  FT   SITE         34     42  NP_BIND_FAD ADP part By similarity
+feature 263 268 3 square solid SITE
+  FT   SITE         42     47  DISULFID_Redoxactive By similarity
+feature 795 795 0 square solid SITE
+  FT   SITE        448    448  ACT_SITE_Proton acceptor By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................MTFDYDLFVIGAGSGGLAASKRAASYG..AK
+  VAIAEN..........DLVGGTCVIRGCVPKKLMVYGSHFPALFE...DAAGYGWQVGKA
+  ...ELNWEHFITSIDKEVRRLSQLHISFL.EKAGVELISGRATLVDNH......TVEVGE
+  ...............RKFTADKILIAVGGRP................IKP.ELPG.....
+  .....MEYGITSNEIFHLKTQP......KHIAIIGSGYIGTEFAGIMRGLG...SQVTQI
+  TRGDKILKGF.DEDIRTEIQEGMTNHG.IRIIPKNVVTAIEQVPEG....LKISLSGEDQ
+  EP..........IIADVFLVATG.RVPNVDGLGLENA.GVDVVDSSIEGPGYSTMNAIAV
+  NEYSQTSQPNIYAVGDVTDR...............LNLTPVAIGEGR.AFADSEFGNN..
+  .RREFSHETIATAVFSNPQASTVGLTEAEARAKLG..DDAVTIYRTR.............
+  ..FRPMYHSFTGK....QERIMMKLVVDTKT.DKVLGAHMVGEN.AAEIIQGVAIAVKMG
+  ..ATKKDFDATVGIHPSSAEEFVTMR.........................
+}

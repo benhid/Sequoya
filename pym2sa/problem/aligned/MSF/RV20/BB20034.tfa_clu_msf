@@ -1,0 +1,921 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:   671  Type: P  octubre 20, 2015 11:12  Check:    0  ..
+
+ Name: 1o5i_A     Len:   671  Check: 7134  Weight:  1.00
+ Name: 1ae1_A     Len:   671  Check: 6095  Weight:  1.00
+ Name: 1h5q_A     Len:   671  Check: 2264  Weight:  1.00
+ Name: 1doh_A     Len:   671  Check: 5938  Weight:  1.00
+ Name: BDHA_ALCEU Len:   671  Check: 4364  Weight:  1.00
+ Name: FABG_MYCAV Len:   671  Check: 2608  Weight:  1.00
+ Name: FABG_ECOLI Len:   671  Check: 1261  Weight:  1.00
+ Name: FABG_VIBHA Len:   671  Check: 3845  Weight:  1.00
+ Name: FABG_BUCAP Len:   671  Check: 2925  Weight:  1.00
+ Name: FABG_BUCAI Len:   671  Check: 8729  Weight:  1.00
+ Name: FABG_BUCBP Len:   671  Check: 9817  Weight:  1.00
+ Name: FABG_RICPR Len:   671  Check: 3682  Weight:  1.00
+ Name: PHAB_ACISP Len:   671  Check: 4563  Weight:  1.00
+ Name: DHB8_HUMAN Len:   671  Check: 8150  Weight:  1.00
+ Name: FABG_CHLPN Len:   671  Check: 3740  Weight:  1.00
+ Name: PHAB_PARDE Len:   671  Check: 3306  Weight:  1.00
+ Name: YD50_MYCTU Len:   671  Check: 8835  Weight:  1.00
+ Name: NODG_AZOBR Len:   671  Check:  772  Weight:  1.00
+ Name: PHBB_ALCEU Len:   671  Check: 8942  Weight:  1.00
+ Name: PHBB_CHRVI Len:   671  Check: 7812  Weight:  1.00
+ Name: YWFD_BACSU Len:   671  Check:  666  Weight:  1.00
+ Name: YXBG_BACSU Len:   671  Check: 5604  Weight:  1.00
+ Name: YK02_MYCTU Len:   671  Check: 6222  Weight:  1.00
+ Name: DHBA_BACSU Len:   671  Check: 1957  Weight:  1.00
+ Name: ENTA_ECOLI Len:   671  Check: 2590  Weight:  1.00
+ Name: DHMA_FLAS1 Len:   671  Check: 5566  Weight:  1.00
+ Name: YJGI_ECOLI Len:   671  Check: 1732  Weight:  1.00
+ Name: Y4VI_RHISN Len:   671  Check: 3813  Weight:  1.00
+ Name: BUTA_STAAM Len:   671  Check: 7285  Weight:  1.00
+ Name: DHG2_BACSU Len:   671  Check: 5084  Weight:  1.00
+ Name: YGFF_ECOLI Len:   671  Check: 6253  Weight:  1.00
+ Name: HDHA_ECOLI Len:   671  Check: 4757  Weight:  1.00
+ Name: DHS4_BOVIN Len:   671  Check: 1365  Weight:  1.00
+ Name: DHS4_PIG   Len:   671  Check: 3594  Weight:  1.00
+ Name: DHS4_MOUSE Len:   671  Check: 2169  Weight:  1.00
+ Name: DHS2_HUMAN Len:   671  Check: 1493  Weight:  1.00
+ Name: SORD_KLEPN Len:   671  Check:  458  Weight:  1.00
+ Name: FAG2_SYNY3 Len:   671  Check: 1441  Weight:  1.00
+ Name: FABG_ACTAC Len:   671  Check:  539  Weight:  1.00
+ Name: NODG_RHIME Len:   671  Check: 6494  Weight:  1.00
+ Name: NOG4_RHIME Len:   671  Check:  658  Weight:  1.00
+ Name: HDHA_CLOSO Len:   671  Check: 1327  Weight:  1.00
+ Name: DHK2_STRVN Len:   671  Check:  202  Weight:  1.00
+ Name: SOU1_CANAL Len:   671  Check: 7071  Weight:  1.00
+ Name: SOU2_CANAL Len:   671  Check: 3253  Weight:  1.00
+ Name: MTDH_UROFA Len:   671  Check: 4284  Weight:  1.00
+ Name: ARDH_CANAL Len:   671  Check: 8743  Weight:  1.00
+ Name: YWFH_BACSU Len:   671  Check: 5914  Weight:  1.00
+ Name: CMTB_PSEPU Len:   671  Check: 8250  Weight:  1.00
+ Name: GS39_BACSU Len:   671  Check: 7054  Weight:  1.00
+ Name: YHDF_BACSU Len:   671  Check: 5660  Weight:  1.00
+ Name: TRN2_DATST Len:   671  Check: 2832  Weight:  1.00
+ Name: TRNH_DATST Len:   671  Check: 7902  Weight:  1.00
+ Name: FIXR_BRAJA Len:   671  Check: 5487  Weight:  1.00
+ Name: YGHA_ECOLI Len:   671  Check: 3746  Weight:  1.00
+ Name: 1rkx_A     Len:   671  Check: 7334  Weight:  1.00
+ Name: 1kep_A     Len:   671  Check: 2360  Weight:  1.00
+ Name: 1dhr_      Len:   671  Check: 4495  Weight:  1.00
+ Name: 1i24_A     Len:   671  Check: 1015  Weight:  1.00
+
+//
+
+           1                                                   50
+1o5i_A     ---------- ---------- ---------- ---------- -----GIRDK
+1ae1_A     ---------- ---------- ---------- ---------- ---RWSLKGT
+1h5q_A     ---------- ---------P GFT------- ---------- ----ISFVNK
+1doh_A     ---------- ---------- ---------- SKYDAIPGPL GPQSASLEGK
+BDHA_ALCEU ---------- ---------- ---------- ---------- -----MLNGK
+FABG_MYCAV ---------- ---------- ------MTDT ATENTTESAA DYGRPAFVSR
+FABG_ECOLI ---------- ---------- ---------- ---------- ----MNFEGK
+FABG_VIBHA ---------- ---------- ---------- ---------- ----MNLEGK
+FABG_BUCAP ---------- ---------- ---------- ---------- ----MKIEKK
+FABG_BUCAI ---------- ---------- ---------- ---------- ----MNINRQ
+FABG_BUCBP ---------- ---------- ---------- ---------- ----MKTTKK
+FABG_RICPR ---------- ---------- ---------- ---------- ---MIDLTGK
+PHAB_ACISP ---------- ---------- ---------- ---------- -----MSEQK
+DHB8_HUMAN ---------- ---------- ---------- --------MA SQLQNRLRSA
+FABG_CHLPN ---------- ---------- ---------- ---------- --MDITLVGK
+PHAB_PARDE ---------- ---------- ---------- ---------- -------MAK
+YD50_MYCTU ---------- ---------- ---------- --------MA SLLNART---
+NODG_AZOBR ---------- ---------- ---------- ---------- ------MSQK
+PHBB_ALCEU ---------- ---------- ---------- ---------- ------MTQR
+PHBB_CHRVI ---------- ---------- ---------- ---------- -------MAR
+YWFD_BACSU ---------- ---------- ---------- ---------- --MIMNLTDK
+YXBG_BACSU ---------- ---------- ---------- ---------- ---MGRLENK
+YK02_MYCTU ---------- ---------- ---------- ---------- --MSGRLIGK
+DHBA_BACSU ---------- ---------- ---------- ---------- -MNAKGIEGK
+ENTA_ECOLI ---------- ---------- ---------- ---------- -MDFS---GK
+DHMA_FLAS1 ---------- ---------- ---------- -----TTAGV SRRPGRLAGK
+YJGI_ECOLI ---------- ---------- ---------- ---------- ---MGAFTGK
+Y4VI_RHISN ---------- ---------- ---------- ---------- MDDRQVQPGR
+BUTA_STAAM ---------- ---------- ---------- ---------- --MTN---NK
+DHG2_BACSU ---------- ---------- ---------- ---------- --MYKDLTGK
+YGFF_ECOLI ---------- ---------- ---------- ---------- --------MA
+HDHA_ECOLI ---------- ---------- ---------- --------MF NSDNLRLDGK
+DHS4_BOVIN ---------- ---------- ---------- -----MASCG MARRNPLDNK
+DHS4_PIG   ---------- ---------- ---------- -----MASTG VERRKPLENK
+DHS4_MOUSE ---------- ---------- ---------- -----MASSG LTRRNPLSNK
+DHS2_HUMAN ---------- ---------- ---------- ------SSTG IDRKGVLANR
+SORD_KLEPN ---------- ---------- ---------- ---------- MNTWLNLKDN
+FAG2_SYNY3 ---------- ---------- ---------- ---------- -MLSLGLEDK
+FABG_ACTAC ---------- ---------- ---------- ---------- -------MSE
+NODG_RHIME ---------- ---------- ---------- ---------- ---MFELTGR
+NOG4_RHIME ---------- ---------- ---------- ---------- ---MFELTGR
+HDHA_CLOSO ---------- ---------- ---------- ---------- ---MNKLENK
+DHK2_STRVN ---------- ---------- ---------- ---------- -MATDAPEAP
+SOU1_CANAL ---------- ----MSEEII SFTNPALGPL PTKAPQLPSN VLDLFSLKGK
+SOU2_CANAL ---------- ----MSKETT SYTNAKLGPL PTKAATIPDN ILDAFSLKGK
+MTDH_UROFA ---------- ---------M TFT------- ---------- ----IDLKDQ
+ARDH_CANAL ---------- ----MDSAYW SYDN------ ---------- IVPSFRLDGK
+YWFH_BACSU ---------- ---------- ---------- ---------- ------MSKR
+CMTB_PSEPU ---------- ---------- ---------- ------MSTL SRNALPLEGQ
+GS39_BACSU --------AN YPKELPAQTQ SRQPGIESEM NPSPVYEYED YKGADKLKGK
+YHDF_BACSU ----MNPMDR QTEGQEPQHQ DRQPGIESKM NPLPLSEDED YRGSGKLKGK
+TRN2_DATST ---------- ---------- ---------- --MAG----- ---RWNLEGC
+TRNH_DATST ---------- ---------- ---------- --MAGREIGG GDRRWSLRGM
+FIXR_BRAJA ---------- ---MGLDLPN DNLIRGPLPE AHLDRLVDAV NARVDRGEPK
+YGHA_ECOLI MSHLKDPTTQ YYTGEYPKQK QPTPGIQAKM TPVPDCGEKT YVGSGRLKDR
+1rkx_A     ---------- ---------I NNSFWQGKRV FVTGHTGFKG GWLSLWLQTM
+1kep_A     ---------- ---------- QFKNIIVTGG AGFIGSNFVH YVYNNHPDVH
+1dhr_      ---------- ---------- ---------- ---------- -------EAR
+1i24_A     -----GSRVM VIGGDGYCGW ATALHLSKKN YEVCIVDNLV RRLFDHQLGL
+
+           51                                                 100
+1o5i_A     GVLVLAASRG IGRAVADVLS -QEGAEVTIC ARNEELLKRS GHRY------
+1ae1_A     TALVTGGSKG IGYAIVEELA -GLGARVYTC SRNEKELDEC LEIWREKGLN
+1h5q_A     TIIVTGGNRG IGLAFTRAVA -AAGANVAVI YRSAADAVEV TEKVGKEFGV
+1doh_A     VALVTGAGRG IGREMAMELG RRGCKVIVNY ANSTESAEEV VAAIKKNGSD
+BDHA_ALCEU TALVTGSTSG IGLGIAKALA AQGANIIVNG FGDAD-AAKA EIAQAGQGIR
+FABG_MYCAV SVLVTGGNRG IGLAIAQRLA -AEAHKVAVT HRGSGAPDG- ----------
+FABG_ECOLI IALVTGASRG IGRAIAETLA -ARGAKVIGT ATSENGAQAI SDYLGANG--
+FABG_VIBHA IALVTGASRG IGRAIAELLV -ERGATVIGT ATSEGGAAAI SEYLGENG--
+FABG_BUCAP TALVTGANQG LGKEIAIKLS -QKGIQVIGT STTVDGVKTI NKYLKKNG--
+FABG_BUCAI TAFITGANQG IGKAIAKKLI -KKGIQVIGT STTEDGVKRI NDYLEGNG--
+FABG_BUCBP IAVITGANRG LGKGIAEELS NTNNITVIGT STSQKGCKII NKYLKNNG--
+FABG_RICPR TSLITGASSG IGSAIARLLH -KLGSKVIIS GSNEEKLKSL GNALKDNY--
+PHAB_ACISP VALVTGALGG IGSEICRQLV -TAGYKIIAT VVPREEDREK QWLQSEGFQD
+DHB8_HUMAN LALVTGAGSG IGRAVSVRLA -GEGATVAAC DLDRAAAQET VRLLGGPGSK
+FABG_CHLPN KVIVTGGSRG IGLGIVKLFL -ENGADVEIW GLNEERGQAV IESLTGLGGE
+PHAB_PARDE VALVTGGSRG IGAAISKALK -EAGYTVAAN YAG-NDDAAR AFTEET----
+YD50_MYCTU -AVITGGAQG LGLAIGQRFV -AEGARVVLG DVNLEATEVA AKRLGGDD--
+NODG_AZOBR IALVTGAMGG LGTAICQALA -KDGCIVAAN CLP-NFEPAA AWLGQQEALG
+PHBB_ALCEU IAYVTGGMGG IGTAICQRLA -KDGFRVVAG CGP-NSPRRE KWLEQQKALG
+PHBB_CHRVI IALVTGGIGG IGTSICTRLA -KDGCTVVAN CHPSEAAAAE EWKQARAAEG
+YWFD_BACSU TVLITGGASG IGYAAVQAFL GQQANVVVA- DIDEAQGEAM VR--KENNDR
+YXBG_BACSU TAVITGAATG IGQATAEVFA NEGARVIIG- DINKDQMEET VDAIRKNGGQ
+YK02_MYCTU VALVSGGARG MGASHVRAMV AEGAKVVFGD ILDEE-GKAV AAELAD---A
+DHBA_BACSU IAFITGAAQG IGEAVARTLA SQGAHIAAVD YNPEKLEK-V VSSLKAEARH
+ENTA_ECOLI NVWVTGAGKG IGYATALAFV EAGAKVTGFD ---------- -QAFTQEQYP
+DHMA_FLAS1 AAIVTGAAGG IGRATVEAYL REGASVVAMD LAPR---LAA TRYEEPGAIP
+YJGI_ECOLI TVLILGGSRG IGAAIVRRFV TDGANVRFTY AGSKDAAKRL AQETG-----
+Y4VI_RHISN VIVVTGAAGG IGRALVDIFA ANGDVVVAVD LPDSG----V IELGQNLGEP
+BUTA_STAAM VALVTGGAQG IGFKIAERLV EDGFKVAVVD FNEEG-AKAA ALKLSSDGTK
+DHG2_BACSU TAIVTGSSKG IGKAIAERFG KEKMNVVVNY HSDPSGADET LEIIKQNGGK
+YGFF_ECOLI IALVTGGSRG IGRATALLLA QEGYTVAVNY QQNLHAAQEV MNLITQAGGK
+HDHA_ECOLI CAIITGAGAG IGKEIAITFA -TAGASVVVS DINADAANHV VDEIQQLGGQ
+DHS4_BOVIN VALVTASTDG IGFAIARRLA -QDGAHVVVS SRKQQNVDRA VATLKGEGLS
+DHS4_PIG   VALVTASTDG IGLAIARRLA -QDGAHVVVS SRKQENVDRT VATLQGEGLS
+DHS4_MOUSE VALVTASTDG IGFAIARRLA -EDGAHVVVS SRKQQNVDRA VATLQGEGLS
+DHS2_HUMAN VAVVTGSTSG IGFAIARRLA -RDGAHVVIS SRKQQNVDRA MAKLQGEGLS
+SORD_KLEPN VIIVTGGASG IGLAIVDELL SQGAHVQMID IHGG------ --DRHHNGDN
+FAG2_SYNY3 VIVVTGGNRG IGAAIVKLLQ -EMGAKVAFT DLATDGGNT- ----------
+FABG_ACTAC TILITGSSRG IGKAIALRLA -QAGFDIVVH CRS-RIEEAE AVAQAVRELG
+NODG_RHIME KALVTGASGA IGGAIARVLH -AQGAIVGLH GTQIEKLETL ATELGDRV--
+NOG4_RHIME KALVTGASGA IGGAIARVLH -AQGAIVGLH GTQMKNWRHW QLSLETGS--
+HDHA_CLOSO VALVTSATRG IGLASAIKLA -QNGAIVYMG VRRLEATQEI CDKYKEEGLI
+DHK2_STRVN VALVTGSSSG IGQTVAQRLA -AEGYRVVVN SARSVEDGEK TAAALPDALY
+SOU1_CANAL VASVTGSSGG IGWAVAEAFA -QAGADVAIW YNSKP-ADAK AEYLTEKYGV
+SOU2_CANAL VASVTGSSGG IGWAVAEGYA -QAGADVAIW YNSHP-ADDK AEYLTKTYGV
+MTDH_UROFA CIIVTGGNRG IGLAMSQACA -DAGAAVGII YNSAKDAEDR ASEISKKYGV
+ARDH_CANAL LVILTGGSGG LAAVVSRALL -AKGADVALV DMNLERTQQA ARDVLQWGEE
+YWFH_BACSU TAFVMGASQG IGKAIALKLA DQHFSLVINS RNLDNIESVK EDILAKHPEA
+CMTB_PSEPU VAVVTGGAHG IGLGIVERLL GLGARVTASD IDESGLSLLC ERLAAKHADA
+GS39_BACSU VALITGGDSG IGRAVSVAYA KEGADIAIVY K-DEHEDAEE TKKRVEQEGV
+YHDF_BACSU VAIITGGDSG IGRAAAIAFA KEGADISILY L-DEHSDAEE TRKRIEKENV
+TRN2_DATST TALVTGGSRG IGYGIVEELA -SLGASVYTC SRNQKELNDC LTQWRSKGFK
+TRNH_DATST TALVTGGTRG IGYAIVEELA -NFGAEVYTC SRSQNDLDEC LEKWRRKGFK
+FIXR_BRAJA VMLLTGASRG IGHATAKLFS EAGWRIISCA RQPFDGER-- ---CPWEAGN
+YGHA_ECOLI KALVTGGDSG IGRAAAIAYA REGADVAISY LPVEEEDAQD VKKIIEECGR
+1rkx_A     GATVKGYSLT APTVPSLFET ARVADGMQSE IGDIRDQNKL LESIREFQPE
+1kep_A     VTVLDKLTYA GNKANLEAIL GDRVELVVGD IADAELVDKL AAKADAIVHY
+1dhr_      RVLVYGGRGA LGSRCVQAFR ARNWWVASID VVENEEASAS VIVKMTDS--
+1i24_A     ESLTPIASIH DRISRWKALT GKSIELYVGD ICDFEFLAES FKSFEPDSVV
+
+           101                                                150
+1o5i_A     ---------- -----VVCDL R--KDLDLLF EKVK------ EVDILVL-NA
+1ae1_A     V--------- ---EGSVCDL LSRTERDKLM QTVAHV-FDG KLNILVN-NA
+1h5q_A     KTK------- ----AYQCDV SNTDIVTKTI QQIDAD-LGP -ISGLIA-NA
+1doh_A     A--------- ---ACVKANV GVVEDIVRMF EEAVKI--FG KLDIVCS-NS
+BDHA_ALCEU VGYH------ ------GADM SKAAEIEDMM RYAQSD--FG GADILVN-NA
+FABG_MYCAV ---------- --LFGVECDV TDNDAVDRAF TEVEEH-QGP -VEVLVS-NA
+FABG_ECOLI ---------- ---KGLMLNV TDPASIESVL EKIRAE-FGE -VDILVN-NA
+FABG_VIBHA ---------- ---KGLALNV TDVESIEATL KTINDE-CGA -IDILVN-NA
+FABG_BUCAP ---------- ---FGFILDL KDTDSILEKM KEICQK-KYS -IDILIN-NA
+FABG_BUCAI ---------- ---FGFVLNL KNIDSITEKI QEIYKK-KHS -IDILIN-NA
+FABG_BUCBP ---------- ---IGIKLDI TNPNEITKTM DFVYKN-FGR -VDILIN-NA
+FABG_RICPR ---------- ---TIEVCNL ANKEECSNLI SKTS-----N -LDILVC-NA
+PHAB_ACISP S--------- -DVRFVLTDL NNHEAATAAI QEAIAA-EGR -VDVLVN-NA
+DHB8_HUMAN EGP-----PR GNHAAFQADV SEARAARCLL EQVQAC-FSR PPSVVVS-CA
+FABG_CHLPN V--------- ---SFARVDV SHNGGVKDCV QKFLDK-HNK -IDILVN-NA
+PHAB_PARDE ---------- -GIKTYKWSV ADYDACAAGI KQVEEE-LGP -IAVLVN-NA
+YD50_MYCTU ---------- -VALAVRCDV TQADDVDILI RTAVER-FGG -LDVMVN-NA
+NODG_AZOBR F--------- -KFYVAEGDV SDFESCKAMV AKIEAD-LGP -VDILVN-NA
+PHBB_ALCEU F--------- -DFIASEGNV ADWDSTKTAF DKVKSE-VGE -VDVLIN-NA
+PHBB_CHRVI F--------- -DIAVFTADV SSFDDSARMV REITEQ-VGP -IDILVN-CA
+YWFD_BACSU L--------- ---HFVQTDI TDEAACQHAV ESAVHT--FG GLDVLIN-NA
+YXBG_BACSU A--------- ---ESFHLDV SDENSVKAFA DQIKDA--CG TIDILFN-NA
+YK02_MYCTU ARYV------ ------HLDV TQPAQWTAAV DTAVTA--FG GLHVLVN-NA
+DHBA_BACSU A--------- ---EAFPADV RDSAAIDEIT ARIER--EMG PIDILVN-VA
+ENTA_ECOLI F--------- ---ATEVMDV ADAAQVAQVC QRLLA--ETE RLDALVN-AA
+DHMA_FLAS1 IACD------ ------LADR ---AAIDAAM ADAVAR--LG GLDILVAGGA
+YJGI_ECOLI ---------- -----ATAVF TDSADRDAVI DVVRKS---G ALDILVV-NA
+Y4VI_RHISN H--------- ---LGLEVDV SREDDVVALR ALLEK--RFS RIEVLVN-NA
+BUTA_STAAM AIAI------ ------KADV SNRDDVFNAV RQTAAQ--FG DFHVMVN-NA
+DHG2_BACSU A--------- ---VSVEADV SKEEGIQALL DTALEH--FG TLDVMVN-NS
+YGFF_ECOLI A--------- ---FVLQADI SDENQVVAMF TAIDQ--HDE PLAALVN-NA
+HDHA_ECOLI A--------- ---FACRCDI TSEQELSALA DFAISK--LG KVDILVN-NA
+DHS4_BOVIN V--------- ---TGTVCHV GKAEDRERLV ATAVKL--HG GVDILIS-NA
+DHS4_PIG   V--------- ---TGTVCHV GKAEDRERLV AMAVNL--HG GVDILVS-NA
+DHS4_MOUSE V--------- ---TGIVCHV GKAEDREKLI TTALKR--HR GIDILVS-NA
+DHS2_HUMAN V--------- ---AGIVCHV GKAEDREQLV AKALEH--CG GVDFLVC-SA
+SORD_KLEPN Y--------- ---HFWSTDI SSATEVQQTI DAIIQ--RWS RIDGLVN-NA
+FAG2_SYNY3 ---------- -EALGVVANV TDLESMTAAA AEITDK-LGP -VYGVVA-NA
+FABG_ACTAC Q--------- -NARVLQFDV SCRSEAADKL TADVEA-HGA -YYGVVL-NA
+NODG_RHIME ---------- ---KLFPANL ANRDEVKALG QRAEAD-LEG -VDILVN-NA
+NOG4_RHIME ---------- ---SCSRLIW PIETKSRRLV RERKPI-LKA -STSWST-NA
+HDHA_CLOSO L--------- ---KPVFFDA YNIDIYKEMI DTIIKN--EG KIDILVN-NF
+DHK2_STRVN V--------- ---R---ADV SEEADARRLV DTAVEH--YG RLDVLVN-NA
+SOU1_CANAL KAK------- ----AYKCNV TDPNDVSKVI NEIEKD-FGT -IDIFVA-NA
+SOU2_CANAL KSK------- ----AYKCNV TDFQDVEKVV KQIESD-FGT -IDIFVA-NA
+MTDH_UROFA KCK------- ----AYQCDV GQQHKVKEVF KKINEE-LGP -VTGLIA-NA
+ARDH_CANAL QMKGKYESPI GQVSAWSCNI GDAEAVDLTF KAINEH-HGK -ISSVLV-NT
+YWFH_BACSU S--------- --VIVLAGDM SDQHTRAGIF QKIESQ--CG RLDVLINNIP
+CMTB_PSEPU IAVH------ ------AADL SEEQGAQGLH RAAVER--FG SVQILVN-CA
+GS39_BACSU K--------- --CLLIAGDV GEEEFCNEAV EKTVKE--LG GLDILVNNAG
+YHDF_BACSU R--------- --CLLIPGDV GDENHCEQAV QQTVDH--FG KLDILVNNAA
+TRN2_DATST V--------- ---EASVCDL SSRSERQELM NTVANH-FHG KLNILVN-NA
+TRNH_DATST V--------- ---SGPVCDV SSISQRQTLM ESVTSS-FNG KLNILIN-NA
+FIXR_BRAJA D--------- ---DHFQVDL GDHRMLPRAI TEVKKRLAGA PLHALVN-NA
+YGHA_ECOLI K--------- --AVLLPGDL SDEKFARSLV HEAHKA--LG GLDIMALVAG
+1rkx_A     IVFHMAAQPL VRLSYSEPVE TYSTNVMGTV YLLEAIRHVG GVKAVVNITS
+1kep_A     AAES------ --HNDNSLND PSPFIHTNFI GTYTLLEAAR KYDIRFHHVS
+1dhr_      ---------- --------FT EQADQVTAEV GKLLGD---Q KVDAILCVAG
+1i24_A     HFGEQRSAPY SMIDRSRAVY TQHNNVIGTL NVLFAIKEFG EECHLVKLGT
+
+           151                                                200
+1o5i_A     GGPKAGF--- FDELTN---- --EDFKEAID SLFLNMIKIV RNYLPAMKEK
+1ae1_A     GVVIHKE--- AKDFTE---- --KDYNIIMG TNFEAAYHLS QIAYPLLKAS
+1h5q_A     GVSVVK-PAT ELT-H----- --EDFAFVYD VNVFGVFNTC RAVAKLWLQK
+1doh_A     GVVSFGHVKD VTP------- --EEFDRVFT INTRGQFFVA REAYKHLEIG
+BDHA_ALCEU GIQHVAAIED FPP------- --ERWDAIIA INLTSAFHTT RLALPGMKQK
+FABG_MYCAV GISKDAFLIR MTE------- --ERFTEVIN ANLTGAFRVT QRAARSMQKK
+FABG_ECOLI GITRDNLLMR MKD------- --EEWNDIIE TNLSSVFRLS KAVMRAMMKK
+FABG_VIBHA GITRDNLLMR MKD------- --DEWNDIIN TNLTPIYRMS KAVLRGMMKK
+FABG_BUCAP GITSDNLLVY MSN------- --KEWENVIK INLTSVFYMS KSVIRSMIKK
+FABG_BUCAI GIKEDNLLVN MKS------- --TEWDDVIK TNLSSVFHLV KSVIRSMIKK
+FABG_BUCBP GIIRDKLLIN MKT------- --QDWNSVLN VNLNSIFYMS KSVIRNMIKN
+FABG_RICPR GITSDTLAIR MKD------- --QDFDKVID INLKANFILN REAIKKMIQK
+PHAB_ACISP GITRDATFKK MSY------- --EQWSQVID TNLKTLFTVT QPVFNKMLEQ
+DHB8_HUMAN GITQDEFLLH MSE------- --DDWDKVIA VNLKGTFLVT QAAAQALVSN
+FABG_CHLPN GITRDNLLMR MSE------- --DDWQSVIS TNLTSLYYTC SSVIRHMIKA
+PHAB_PARDE GITRDAMFHK MTP------- --QQWKEVID TNLTGLFNMT HPVWSGMRDR
+YD50_MYCTU GITRDATMRT MTE------- --EQFDQVIA VHLKGTWNGT RLAA-AIMRE
+NODG_AZOBR GITRDKFFAK MDK------- --AQWDAVIA TNLSSLFNVT QQVSPKMAER
+PHBB_ALCEU GITRDVVFRK MTR------- --ADWDAVID TNLTSLFNVT KQVIDGMADR
+PHBB_CHRVI GITRDKTFKK MEQ------- --AHWEAVIN VNLNSVFNVT RQVWDGMLER
+YWFD_BACSU GIEIVAP-IH EME------- -LSDWNKVLQ VNLTGMFLMS KHALKHMLAA
+YXBG_BACSU GVDQEGGKVH EYP------- -VDLFDRIIA VDLRGTFLCS KYLIPLMLEN
+YK02_MYCTU GILNIGTIED YAL------- --TEWQRILD VNLTGVFLGI RAVVKPMKEA
+DHBA_BACSU GVLR-PGLIH SLSDEE---- ----WEATFS VNSTGVFNAS RSVSKYMMDR
+ENTA_ECOLI GILR-MGATD QLSKED---- ----WQQTFA VNVGGAFNLF QQTMNQFRRQ
+DHMA_FLAS1 LKGGTGNFLD LSD------- --ADWDRYVD VNMTGTFLTC RAGARAMVAA
+YJGI_ECOLI GIGVFGEALE LNA------- --DDIDRLFK INIHAPYHAS VEAARQMPEG
+Y4VI_RHISN GIGPTMAATA DTALED---- ----FQRALA INLVGAYSVA CETAKLMKPG
+BUTA_STAAM GLGPTTPIDT ITE------- --EQFKTVYG VNVAGVLWGI QAAHEQFKKF
+DHG2_BACSU GFNGVEAMPH EMS------- -LEDWQRVID VNVTGTFLGA KAALNHMMKN
+YGFF_ECOLI GILFTQCTVE NLTAERIN-- -RVLSTNVTG YFLCCREAVK R-MALKNGGS
+HDHA_ECOLI GGGGPKP--- -FDMPM---- --ADFRRAYE LNVFSFFHLS QLVAPEMEKN
+DHS4_BOVIN AVSPFFG--S LMDVPE---- --EVWDKILD VNVKATALLT KAVVPEMAKR
+DHS4_PIG   AVNPFFG--N IIDATE---- --EVWDKILH VNVKATVLMT KAVVPEMEKR
+DHS4_MOUSE AVNPFFG--N LMDVTE---- --EVWDKVLS INVTATAMMI KAVVPEMEKR
+DHS2_HUMAN GVNPLVG--S TLGTSE---- --QIWDKILS VNVKSPALLL SQLLPYMENR
+SORD_KLEPN GVNFPRLLVD EKAPAGRYEL NEAAFEKMVN INQKGVFFMS QAVARQMVKQ
+FAG2_SYNY3 GITKDNFFPK LTP------- --ADWDAVLN VNLKGVAYSI KPFIEGMYER
+FABG_ACTAC GLTRDNAFPA LTD------- --EDWDRVLR TNLDGFYNVL HPIMMPMIRR
+NODG_RHIME GITKDGLFLH MAD------- --PDWDIVLE VNLTAMFRLT REITQQMIRR
+NOG4_RHIME GITKDGLFLH MAD------- --PDWDIVLE VNLTAMFRLT REITQQMIRR
+HDHA_CLOSO GTGRPEKDLD LVNGDE---- --DTFFELFN YNVGSVYRLS KLIIPHMIEN
+DHK2_STRVN GRTRAIPHAD LAAATP---- --EVWREILG LNVIGTWQTT VAAMPHLARS
+SOU1_CANAL GVAWTDGPEI DVQGY----- --DQWKKIVD CDLNGVYYCA HTVGQIFKKN
+SOU2_CANAL GVAWTEGPKF DVKGV----- --DKWNKVVD VDLNSVYYCA HVVGPIFRKK
+MTDH_UROFA GVSVVK-EAL QYN-K----- --DDFNKIFD VNVFGVFNCA QAMAQIWTDT
+ARDH_CANAL AGYAENFPAE EYP-A----- --KNAENLMK VNGLGSFYVS QAFARPLIQN
+YWFH_BACSU GGAPDTFDNC NIE------- ---DMTATFT QKTVAYIDAI KRASSLMKQN
+CMTB_PSEPU GGGVIRPFLE HTP------- --ETLKATID RNLWTALWCS RVFLPDMLAR
+GS39_BACSU EQHPKESIKD ITS------- --EQLHRTFK TNFYSQFYLT KKAIDYLKPG
+YHDF_BACSU EQHPQDSILN IST------- --EQLEKTFR TNIFSMFHMT KKALPHLQEG
+TRN2_DATST GIVIYKE--- AKDYTV---- --EDYSLIMS INFEAAYHLS VLAHPFLKAS
+TRNH_DATST GTTIPKE--- ATNFTA---- --EDYSIIMG TNFEASYNLC QLAHPLLKAS
+FIXR_BRAJA GVSPKTPTGD RMTSLTTS-- -TDTWMRVFH LNLVAPILLA QGLFDELRAA
+YGHA_ECOLI KQVAIPDIAD LTS------- --EQFQKTFA INVFALFWLT QEAIPLLPKG
+1rkx_A     DKCYDNKEWI WGYRENE--- AMGGYDPYSN SKGCAELVTS SYRNSFFNPA
+1kep_A     TDEVYGDLPL REDLPGHGEG PGEKFTAETN YNPSSPYSST KAASDLIVKA
+1dhr_      GWAGGNAKSK SLF------- --KNCDLMWK QSIWTSTISS HLATKHLKEG
+1i24_A     MGEYGTPNID IEEGYITITH NGRTDTLPYP KQASSFYHLS KVHDSHNIAF
+
+           201                                                250
+1o5i_A     --GW----GR IVAITSFSVI SPIE------ ---------- ----------
+1ae1_A     --QN----GN VIFLSSIAGF SALP------ ---------- ----------
+1h5q_A     -QQK----GS IVVTSSMSSQ IINQSSLNGS L--------- ----------
+1doh_A     --------GR LILMGSITGQ AKAVP----- ---------- ----------
+BDHA_ALCEU DWG------R IINVASTHGL VASA------ ---------- ----------
+FABG_MYCAV --RF----GR IIYIGSVSGM WGIG------ ---------- ----------
+FABG_ECOLI --RH----GR IITIGSVVGT MGNG------ ---------- ----------
+FABG_VIBHA --RA----GR IINVGSVVGT MGNA------ ---------- ----------
+FABG_BUCAP --RY----GR IVTIGSVIGY LGNR------ ---------- ----------
+FABG_BUCAI --RQ----GR IITIGSVIAY TGNK------ ---------- ----------
+FABG_BUCBP --KQ----GK IITIGSVIAH IGNC------ ---------- ----------
+FABG_RICPR --RY----GR IINISSIVGI AGNP------ ---------- ----------
+PHAB_ACISP --KS----GR IVNISSVNGL KGQF------ ---------- ----------
+DHB8_HUMAN G-CR----GS IINISSIVGK VGNV------ ---------- ----------
+FABG_CHLPN --RS----GS IINVASIVAK IGSA------ ---------- ----------
+PHAB_PARDE --KY----GR IVNISSINGQ KGQA------ ---------- ----------
+YD50_MYCTU R-KR----GA IVNMSSVSGK VGMV------ ---------- ----------
+NODG_AZOBR --GW----GR IINISSVNGV KGQA------ ---------- ----------
+PHBB_ALCEU --GW----GR IVNISSVNGQ KGQF------ ---------- ----------
+PHBB_CHRVI --GF----GR IINISSVNGQ RGQF------ ---------- ----------
+YWFD_BACSU GK------GN IINTCSVGGL VAWP------ ---------- ----------
+YXBG_BACSU G-------GS IINTSSMSGR AADL------ ---------- ----------
+YK02_MYCTU GRG------S IINISSIEGL AGTV------ ---------- ----------
+DHBA_BACSU R--S----GS IVTVGSNPAG VPRT------ ---------- ----------
+ENTA_ECOLI R--G----GA IVTVASDAAH TPRI------ ---------- ----------
+DHMA_FLAS1 GAGKDGRSAR IITIGSVNSF MAEP------ ---------- ----------
+YJGI_ECOLI --------GR ILIIGSVNGD RMPVA----- ---------- ----------
+Y4VI_RHISN --------AA IVNVASLAGL LGNP------ ---------- ----------
+BUTA_STAAM NHGG-----K IINATSQAGV EGNP------ ---------- ----------
+DHG2_BACSU NIK-----GN VLNISSVHQQ IPRP------ ---------- ----------
+YGFF_ECOLI ---G----GA IVNVSSVASR LGSPG----- ---------- ----------
+HDHA_ECOLI --GG----GV ILTITSMAAE NKNI------ ---------- ----------
+DHS4_BOVIN --GG----GS IVIVSSIAAY SPFP------ ---------- ----------
+DHS4_PIG   --GG----GS VLIVSSVGAY HPFP------ ---------- ----------
+DHS4_MOUSE --GG----GS VVIVGSVAGF TRFP------ ---------- ----------
+DHS2_HUMAN --RG-----A VILVSSIAAY NPVV------ ---------- ----------
+SORD_KLEPN R--A----GV IVNVSSESGL EGSE------ ---------- ----------
+FAG2_SYNY3 --KA----GS IVAISSISGE RGNV------ ---------- ----------
+FABG_ACTAC R-KA----GR IVCITSVSGL IGNR------ ---------- ----------
+NODG_RHIME --RN----GR IINVTSVAGA IGNP------ ---------- ----------
+NOG4_RHIME --RN----GR IINVTSVAGA IGNP------ ---------- ----------
+HDHA_CLOSO --KG----GS IVNISSVGGS IPDI------ ---------- ----------
+DHK2_STRVN --GN----GS VVNVSSIAGS RPAG------ ---------- ----------
+SOU1_CANAL --KS----GS LIITSSMSGT IVNI-----P Q--------- ----------
+SOU2_CANAL --GK----GS FIFTASMSAS IVNV-----P Q--------- ----------
+MTDH_UROFA GFQR----GS VVIISSMSSQ ICNR-----P L--------- ----------
+ARDH_CANAL -NMT----GS IILIGSMSGT IVND-----P Q--------- ----------
+YWFH_BACSU E------FGR IINIVGNLWK EPGAN----- ---------- ----------
+CMTB_PSEPU QYG------R IINIGADSVR NGLP------ ---------- ----------
+GS39_BACSU --------SA IINTTSINPY VGNP------ ---------- ----------
+YHDF_BACSU --------CA IINTTSITAY EGDT------ ---------- ----------
+TRN2_DATST --ER----GN VVFISSVSGA LAVP------ ---------- ----------
+TRNH_DATST --GN----AS IVFNSSAAGV IAVP------ ---------- ----------
+FIXR_BRAJA ---S----GS IVNVTSIAGS RVHPF----- ---------- ----------
+YGHA_ECOLI --------AS IITTSSIQAY QPSP------ ---------- ----------
+1rkx_A     NYGQHGTAVA TVRAGNVIGG GDWALDRIVP D--------- ----------
+1kep_A     WVRSFGVKAT ISNCSNNYGP YQHIEKFIPR Q--------- ----------
+1dhr_      --------GL LTLAGAKAAL DGTP------ ---------- ----------
+1i24_A     TCKAWGIRAT DLNQGVVYGV KTDETEMHEE LRNRLDYDAV FGTALNRFCV
+
+           251                                                300
+1o5i_A     -NLYTSNSAR MALTGFLK-T LSFEVAPYGI TVNCVAPG-- ----------
+1ae1_A     -SVSLYSASK GAINQMTK-S LACEWAKDNI RVNSVAPG-- ----------
+1h5q_A     -TQVFYNSSK AACSNLVK-G LAAEWASAGI RVNALSPG-- ----------
+1doh_A     -KHAVYSGSK GAIETFAR-C MAIDMADKKI TVNVVAPGG- ----------
+BDHA_ALCEU -QKSAYVAAK HGIVGFTK-V TALETAQTGV TANAICPGW- ----------
+FABG_MYCAV -NQANYAAAK AGLIGMAR-S ISRELSKAGV TANVVAPG-- ----------
+FABG_ECOLI -GQANYAAAK AGLIGFSK-S LAREVASRGI TVNVVAPG-- ----------
+FABG_VIBHA -GQTNYAAAK AGVIGFTK-S MAREVASRGV TVNTVAPG-- ----------
+FABG_BUCAP -GQINYSASK SGLIGFHK-S LALEVAQKGI TVNIVSPG-- ----------
+FABG_BUCAI -GQVNYSASK SGLIGFHK-S LALEVASKGI TVNIVSPG-- ----------
+FABG_BUCBP -GQTNYSAAK LGLVGFHK-S LALELAPKGI TVNMIAPG-- ----------
+FABG_RICPR -GQANYCASK AGLIGMTK-S LSYEVATRGI TVNAVAPG-- ----------
+PHAB_ACISP -GQANYSASK AGIIGFTK-A LAQEGARSNI CVNVVAPG-- ----------
+DHB8_HUMAN -GQTNYAASK AGVIGLTQ-T AARELGRHGI RCNSVLPG-- ----------
+FABG_CHLPN -GQTNYAAAK AGIIAFTK-S LAKEVAARNI RVNCLAPG-- ----------
+PHAB_PARDE -GQANYSAAK AGDLGFTK-A LAQEGARAGI TVNAICPG-- ----------
+YD50_MYCTU -GQTNYSAAK AGIVGMTK-A AAKELAHLGI RVNAIAPG-- ----------
+NODG_AZOBR -GQTNYSAAK AGVIGFTK-A LAAELATKGV TVNAIAPG-- ----------
+PHBB_ALCEU -GQTNYSTAK AGLHGFTM-A LAQEVATKGV TVNTVSPG-- ----------
+PHBB_CHRVI -GQANYSAAK AGMHGFTM-A LAQEGASKGV TVNTISPG-- ----------
+YWFD_BACSU -DIPAYNASK GGVLQLTK-S MAVDYAKHQI RVNCVCPG-- ----------
+YXBG_BACSU -DRSGYNAAK GGITNLTK-A MAIDYARNGI RVNSISPG-- ----------
+YK02_MYCTU -ACHGYTATK FAVRGLTK-S TALELGPSGI RVNSIHPG-- ----------
+DHBA_BACSU -SMAAYASSK AAAVMFTK-C LGLELAEYNI RCNIVSPG-- ----------
+ENTA_ECOLI -GMSAYGASK AALKSLAL-S VGLELAGSGV RCNVVSPG-- ----------
+DHMA_FLAS1 -EAAAYVAAK GGVAMLTR-A MAVDLARHGI LVNMIAP--- ----------
+YJGI_ECOLI -GMAAYAASK SALQGMAR-G LARDFGPRGI TINVVQPG-- ----------
+Y4VI_RHISN -KRSAYAASK AGLISITK-S LACRWASRGI RVTAVAPGHV RTPMVAELER
+BUTA_STAAM -GLSLYCSTK FAVRGLTQ-V AAQDLASEGI TVNAFAPG-- ----------
+DHG2_BACSU -VNVQYSTSK GGIKMMTE-T LALNYADKGI RVNAIAPG-- ----------
+YGFF_ECOLI -EYVDYAASK GAIDTLTT-G LSLEVAAQGI RVNCVRPG-- ----------
+HDHA_ECOLI -NMTSYASSK AAASHLVR-N MAFDLGEKNI RVNGIAPG-- ----------
+DHS4_BOVIN -SLGPYNVSK TALLGLTK-N LALELAESNV RVNCLAPG-- ----------
+DHS4_PIG   -NLGPYNVSK TALLGLTK-N LAVELAPRNI RVNCLAPG-- ----------
+DHS4_MOUSE -SLGPYNVSK TALLGLTK-N FAAELAPKNI RVNCLAPG-- ----------
+DHS2_HUMAN -ALGVYNVSK TALLGLTR-T LALELAPKDI RVNCVVPG-- ----------
+SORD_KLEPN -GQSCYAATK AALNSFTR-S WSKELGKYGI RVVGVAP--- ----------
+FAG2_SYNY3 -GQTNYSATK AGVIGMMK-S LAREGARYGV RANAVAPG-- ----------
+FABG_ACTAC -GQVNYSASK AGIIGAAK-A LAVELAKRKI TVNCVAPG-- ----------
+NODG_RHIME -GQTNYCASK AGMIGFSK-S LAQEIATRNI TVNCVAPG-- ----------
+NOG4_RHIME -GQTNYCASK AGMIGFSK-S WRRR-STRNI TVNCVAPG-- ----------
+HDHA_CLOSO -SRIGYGVSK SGVNNITK-Q IAIQYAKYGI RCNAVLPG-- ----------
+DHK2_STRVN -SSIPYAVSN GGHRAQTR-L LANTVG-PAV RVNAVAPG-- ----------
+SOU1_CANAL -LQAPYNAAK AACTHLAK-S LSVEWASFGA RVNSISPG-- ----------
+SOU2_CANAL -LQAAYNARK AGVKHLSK-S FTVEWAPF-A RVNSVSPG-- ----------
+MTDH_UROFA -TQCFYNSSK AAVSNLGK-C LAAEWAEKSI RVNMLSPG-- ----------
+ARDH_CANAL -PQCMYNMSK AGVIHLAR-S LACEWAKYNI RVNTLSPG-- ----------
+YWFH_BACSU --MFTNSMMN AALINASK-N ISIQLAPHNI TVNCLNPG-- ----------
+CMTB_PSEPU -DHAAYNAAK GGMHGLTT-G LAREFARQGV TVNTVAP--- ----------
+GS39_BACSU -TLIDYTATK GAINAFTR-T MAQALVKDGI RVNAVAPG-- ----------
+YHDF_BACSU -ALIDYSSTK GAIVSFTR-S MAKSLADKGI RVNAVAPG-- ----------
+TRN2_DATST -YEAVYGATK GAMDQLTR-C LAFEWAKDNI RVNGVGPG-- ----------
+TRNH_DATST -LSSIYAASK GAINQVTK-S LACEWAKDSI RVNAVAPW-- ----------
+FIXR_BRAJA -AGSAYATSK AALASLTR-E LAHDYAPHGI RVNAIAPG-- ----------
+YGHA_ECOLI -HLLDYAATK AAILNYSR-G LAKQVAEKGI RVNIVAPG-- ----------
+1rkx_A     -ILRAFEQSQ PVIIRNPH-A IRPWQHVLEP LSGYLLLAQ- ----------
+1kep_A     -ITNILAGIK PKLYGEGK-N VRDWIHTNDH STGVWAILT- ----------
+1dhr_      -GMIGYGMAK GAVHQLCQ-S LAGKNSGMPS GAAAIAVLP- ----------
+1i24_A     QAAVGHPLTV YGKGGQTRGY LDIRDTVQCV EIAIANPAKA G---------
+
+           301                                                350
+1o5i_A     ---------- ---------- ---------- ---------- ----------
+1ae1_A     ---------- ---------- ---------- ---------- ----------
+1h5q_A     ---------- ---------- ---------- ---------- ----------
+1doh_A     ---------- ---------- ---------- ---------- ----------
+BDHA_ALCEU ---------- ---------- ---------- ---------- ----------
+FABG_MYCAV ---------- ---------- ---------- ---------- ----------
+FABG_ECOLI ---------- ---------- ---------- ---------- ----------
+FABG_VIBHA ---------- ---------- ---------- ---------- ----------
+FABG_BUCAP ---------- ---------- ---------- ---------- ----------
+FABG_BUCAI ---------- ---------- ---------- ---------- ----------
+FABG_BUCBP ---------- ---------- ---------- ---------- ----------
+FABG_RICPR ---------- ---------- ---------- ---------- ----------
+PHAB_ACISP ---------- ---------- ---------- ---------- ----------
+DHB8_HUMAN ---------- ---------- ---------- ---------- ----------
+FABG_CHLPN ---------- ---------- ---------- ---------- ----------
+PHAB_PARDE ---------- ---------- ---------- ---------- ----------
+YD50_MYCTU ---------- ---------- ---------- ---------- ----------
+NODG_AZOBR ---------- ---------- ---------- ---------- ----------
+PHBB_ALCEU ---------- ---------- ---------- ---------- ----------
+PHBB_CHRVI ---------- ---------- ---------- ---------- ----------
+YWFD_BACSU ---------- ---------- ---------- ---------- ----------
+YXBG_BACSU ---------- ---------- ---------- ---------- ----------
+YK02_MYCTU ---------- ---------- ---------- ---------- ----------
+DHBA_BACSU ---------- ---------- ---------- ---------- ----------
+ENTA_ECOLI ---------- ---------- ---------- ---------- ----------
+DHMA_FLAS1 ---------- ---------- ---------- ---------- ----------
+YJGI_ECOLI ---------- ---------- ---------- ---------- ----------
+Y4VI_RHISN AGKLDVSAIR RRVPLGRIAR PDEIARAVRF LASAQASYIT GSTLVVDGGW
+BUTA_STAAM ---------- ---------- ---------- ---------- ----------
+DHG2_BACSU ---------- ---------- ---------- ---------- ----------
+YGFF_ECOLI ---------- ---------- ---------- ---------- ----------
+HDHA_ECOLI ---------- ---------- ---------- ---------- ----------
+DHS4_BOVIN ---------- ---------- ---------- ---------- ----------
+DHS4_PIG   ---------- ---------- ---------- ---------- ----------
+DHS4_MOUSE ---------- ---------- ---------- ---------- ----------
+DHS2_HUMAN ---------- ---------- ---------- ---------- ----------
+SORD_KLEPN -GILEKTGLR ---------- ---------- ---------- ----------
+FAG2_SYNY3 ---------- ---------- ---------- ---------- ----------
+FABG_ACTAC ---------- ---------- ---------- ---------- ----------
+NODG_RHIME ---------- ---------- ---------- ---------- ----------
+NOG4_RHIME ---------- ---------- ---------- ---------- ----------
+HDHA_CLOSO ---------- ---------- ---------- ---------- ----------
+DHK2_STRVN ---------- ---------- ---------- ---------- ----------
+SOU1_CANAL ---------- ---------- ---------- ---------- ----------
+SOU2_CANAL ---------- ---------- ---------- ---------- ----------
+MTDH_UROFA ---------- ---------- ---------- ---------- ----------
+ARDH_CANAL ---------- ---------- ---------- ---------- ----------
+YWFH_BACSU ---------- ---------- ---------- ---------- ----------
+CMTB_PSEPU ---------- ---------- ---------- ---------- ----------
+GS39_BACSU ---------- ---------- ---------- ---------- ----------
+YHDF_BACSU ---------- ---------- ---------- ---------- ----------
+TRN2_DATST ---------- ---------- ---------- ---------- ----------
+TRNH_DATST ---------- ---------- ---------- ---------- ----------
+FIXR_BRAJA ---------- ---------- ---------- ---------- ----------
+YGHA_ECOLI ---------- ---------- ---------- ---------- ----------
+1rkx_A     ---------- ---------- ---------- ---------- ----------
+1kep_A     ---------- ---------- ---------- ---------- ----------
+1dhr_      ---------- ---------- ---------- ---------- ----------
+1i24_A     ---------- ---------- ---------- ---------- ----------
+
+           351                                                400
+1o5i_A     ---------- ---------- ---------- ---------- ----------
+1ae1_A     ---------- ---------- ---------- ---------- ----------
+1h5q_A     ---------- ---------- ---------- ---------- ----------
+1doh_A     ---------- ---------- ---------- ---------- ----------
+BDHA_ALCEU ---------- ---------- ---------- ---------- ----------
+FABG_MYCAV ---------- ---------- ---------- ---------- ----------
+FABG_ECOLI ---------- ---------- ---------- ---------- ----------
+FABG_VIBHA ---------- ---------- ---------- ---------- ----------
+FABG_BUCAP ---------- ---------- ---------- ---------- ----------
+FABG_BUCAI ---------- ---------- ---------- ---------- ----------
+FABG_BUCBP ---------- ---------- ---------- ---------- ----------
+FABG_RICPR ---------- ---------- ---------- ---------- ----------
+PHAB_ACISP ---------- ---------- ---------- ---------- ----------
+DHB8_HUMAN ---------- ---------- ---------- ---------- ----------
+FABG_CHLPN ---------- ---------- ---------- ---------- ----------
+PHAB_PARDE ---------- ---------- ---------- ---------- ----------
+YD50_MYCTU ---------- ---------- ---------- ---------- ----------
+NODG_AZOBR ---------- ---------- ---------- ---------- ----------
+PHBB_ALCEU ---------- ---------- ---------- ---------- ----------
+PHBB_CHRVI ---------- ---------- ---------- ---------- ----------
+YWFD_BACSU ---------- ---------- ---------- ---------- ----------
+YXBG_BACSU ---------- ---------- ---------- ---------- ----------
+YK02_MYCTU ---------- ---------- ---------- ---------- ----------
+DHBA_BACSU ---------- ---------- ---------- ---------- ----------
+ENTA_ECOLI ---------- ---------- ---------- ---------- ----------
+DHMA_FLAS1 ---------- ---------- ---------- ---------- ----------
+YJGI_ECOLI ---------- ---------- ---------- ---------- ----------
+Y4VI_RHISN MSVNQPGGAH QAQDRTPGAE FMRPVEDTDA RTVIVMGGAT GVGAAIARRF
+BUTA_STAAM ---------- ---------- ---------- ---------- ----------
+DHG2_BACSU ---------- ---------- ---------- ---------- ----------
+YGFF_ECOLI ---------- ---------- ---------- ---------- ----------
+HDHA_ECOLI ---------- ---------- ---------- ---------- ----------
+DHS4_BOVIN ---------- ---------- ---------- ---------- ----------
+DHS4_PIG   ---------- ---------- ---------- ---------- ----------
+DHS4_MOUSE ---------- ---------- ---------- ---------- ----------
+DHS2_HUMAN ---------- ---------- ---------- ---------- ----------
+SORD_KLEPN ---------- ---------- ---------- ---------- ----------
+FAG2_SYNY3 ---------- ---------- ---------- ---------- ----------
+FABG_ACTAC ---------- ---------- ---------- ---------- ----------
+NODG_RHIME ---------- ---------- ---------- ---------- ----------
+NOG4_RHIME ---------- ---------- ---------- ---------- ----------
+HDHA_CLOSO ---------- ---------- ---------- ---------- ----------
+DHK2_STRVN ---------- ---------- ---------- ---------- ----------
+SOU1_CANAL ---------- ---------- ---------- ---------- ----------
+SOU2_CANAL ---------- ---------- ---------- ---------- ----------
+MTDH_UROFA ---------- ---------- ---------- ---------- ----------
+ARDH_CANAL ---------- ---------- ---------- ---------- ----------
+YWFH_BACSU ---------- ---------- ---------- ---------- ----------
+CMTB_PSEPU ---------- ---------- ---------- ---------- ----------
+GS39_BACSU ---------- ---------- ---------- ---------- ----------
+YHDF_BACSU ---------- ---------- ---------- ---------- ----------
+TRN2_DATST ---------- ---------- ---------- ---------- ----------
+TRNH_DATST ---------- ---------- ---------- ---------- ----------
+FIXR_BRAJA ---------- ---------- ---------- ---------- ----------
+YGHA_ECOLI ---------- ---------- ---------- ---------- ----------
+1rkx_A     ---------- ---------- ---------- ---------- ----------
+1kep_A     ---------- ---------- ---------- ---------- ----------
+1dhr_      ---------- ---------- ---------- ---------- ----------
+1i24_A     ---------- ---------- ---------- ---------- ----------
+
+           401                                                450
+1o5i_A     ---------- ---------- ---------- ---------- ----------
+1ae1_A     ---------- ---------- ---------- ---------- ----------
+1h5q_A     ---------- ---------- ---------- ---------- ----------
+1doh_A     ---------- ---------- ---------- ---------- ----------
+BDHA_ALCEU ---------- ---------- ---------- ---------- ----------
+FABG_MYCAV ---------- ---------- ---------- ---------- ----------
+FABG_ECOLI ---------- ---------- ---------- ---------- ----------
+FABG_VIBHA ---------- ---------- ---------- ---------- ----------
+FABG_BUCAP ---------- ---------- ---------- ---------- ----------
+FABG_BUCAI ---------- ---------- ---------- ---------- ----------
+FABG_BUCBP ---------- ---------- ---------- ---------- ----------
+FABG_RICPR ---------- ---------- ---------- ---------- ----------
+PHAB_ACISP ---------- ---------- ---------- ---------- ----------
+DHB8_HUMAN ---------- ---------- ---------- ---------- ----------
+FABG_CHLPN ---------- ---------- ---------- ---------- ----------
+PHAB_PARDE ---------- ---------- ---------- ---------- ----------
+YD50_MYCTU ---------- ---------- ---------- ---------- ----------
+NODG_AZOBR ---------- ---------- ---------- ---------- ----------
+PHBB_ALCEU ---------- ---------- ---------- ---------- ----------
+PHBB_CHRVI ---------- ---------- ---------- ---------- ----------
+YWFD_BACSU ---------- ---------- ---------- ---------- ----------
+YXBG_BACSU ---------- ---------- ---------- ---------- ----------
+YK02_MYCTU ---------- ---------- ---------- ---------- ----------
+DHBA_BACSU ---------- ---------- ---------- ---------- ----------
+ENTA_ECOLI ---------- ---------- ---------- ---------- ----------
+DHMA_FLAS1 ---------- ---------- ---------- ---------- ----------
+YJGI_ECOLI ---------- ---------- ---------- ---------- ----------
+Y4VI_RHISN AENGDTVVIA DGDGEEAVKL AGLLGDKHLS RRVDRTVETE VVSLFEELRE
+BUTA_STAAM ---------- ---------- ---------- ---------- ----------
+DHG2_BACSU ---------- ---------- ---------- ---------- ----------
+YGFF_ECOLI ---------- ---------- ---------- ---------- ----------
+HDHA_ECOLI ---------- ---------- ---------- ---------- ----------
+DHS4_BOVIN ---------- ---------- ---------- ---------- ----------
+DHS4_PIG   ---------- ---------- ---------- ---------- ----------
+DHS4_MOUSE ---------- ---------- ---------- ---------- ----------
+DHS2_HUMAN ---------- ---------- ---------- ---------- ----------
+SORD_KLEPN ---------- ---------- ---------- ---------- ----------
+FAG2_SYNY3 ---------- ---------- ---------- ---------- ----------
+FABG_ACTAC ---------- ---------- ---------- ---------- ----------
+NODG_RHIME ---------- ---------- ---------- ---------- ----------
+NOG4_RHIME ---------- ---------- ---------- ---------- ----------
+HDHA_CLOSO ---------- ---------- ---------- ---------- ----------
+DHK2_STRVN ---------- ---------- ---------- ---------- ----------
+SOU1_CANAL ---------- ---------- ---------- ---------- ----------
+SOU2_CANAL ---------- ---------- ---------- ---------- ----------
+MTDH_UROFA ---------- ---------- ---------- ---------- ----------
+ARDH_CANAL ---------- ---------- ---------- ---------- ----------
+YWFH_BACSU ---------- ---------- ---------- ---------- ----------
+CMTB_PSEPU ---------- ---------- ---------- ---------- ----------
+GS39_BACSU ---------- ---------- ---------- ---------- ----------
+YHDF_BACSU ---------- ---------- ---------- ---------- ----------
+TRN2_DATST ---------- ---------- ---------- ---------- ----------
+TRNH_DATST ---------- ---------- ---------- ---------- ----------
+FIXR_BRAJA ---------- ---------- ---------- ---------- ----------
+YGHA_ECOLI ---------- ---------- ---------- ---------- ----------
+1rkx_A     ---------- ---------- ---------- ---------- ----------
+1kep_A     ---------- ---------- ---------- ---------- ----------
+1dhr_      ---------- ---------- ---------- ---------- ----------
+1i24_A     ---------- ---------- ---------- ---------- ----------
+
+           451                                                500
+1o5i_A     ---------- ---------- ---------- ---------- ----------
+1ae1_A     ---------- ---------- ---------- ---------- ----------
+1h5q_A     ---------- ---------- ---------- ---------- ----------
+1doh_A     ---------- ---------- ---------- ---------- ----------
+BDHA_ALCEU ---------- ---------- ---------- ---------- ----------
+FABG_MYCAV ---------- ---------- ---------- ---------- ----------
+FABG_ECOLI ---------- ---------- ---------- ---------- ----------
+FABG_VIBHA ---------- ---------- ---------- ---------- ----------
+FABG_BUCAP ---------- ---------- ---------- ---------- ----------
+FABG_BUCAI ---------- ---------- ---------- ---------- ----------
+FABG_BUCBP ---------- ---------- ---------- ---------- ----------
+FABG_RICPR ---------- ---------- ---------- ---------- ----------
+PHAB_ACISP ---------- ---------- ---------- ---------- ----------
+DHB8_HUMAN ---------- ---------- ---------- ---------- ----------
+FABG_CHLPN ---------- ---------- ---------- ---------- ----------
+PHAB_PARDE ---------- ---------- ---------- ---------- ----------
+YD50_MYCTU ---------- ---------- ---------- ---------- ----------
+NODG_AZOBR ---------- ---------- ---------- ---------- ----------
+PHBB_ALCEU ---------- ---------- ---------- ---------- ----------
+PHBB_CHRVI ---------- ---------- ---------- ---------- ----------
+YWFD_BACSU ---------- ---------- ---------- ---------- ----------
+YXBG_BACSU ---------- ---------- ---------- ---------- ----------
+YK02_MYCTU ---------- ---------- ---------- ---------- ----------
+DHBA_BACSU ---------- ---------- ---------- ---------- ----------
+ENTA_ECOLI ---------- ---------- ---------- ---------- ----------
+DHMA_FLAS1 ---------- ---------- ---------- ---------- ----------
+YJGI_ECOLI ---------- ---------- ---------- ---------- ----------
+Y4VI_RHISN RFGHLDVFVN GMNEILVPNT EESPEVLKRI LDVNLTGAFT CVREAAISMR
+BUTA_STAAM ---------- ---------- ---------- ---------- ----------
+DHG2_BACSU ---------- ---------- ---------- ---------- ----------
+YGFF_ECOLI ---------- ---------- ---------- ---------- ----------
+HDHA_ECOLI ---------- ---------- ---------- ---------- ----------
+DHS4_BOVIN ---------- ---------- ---------- ---------- ----------
+DHS4_PIG   ---------- ---------- ---------- ---------- ----------
+DHS4_MOUSE ---------- ---------- ---------- ---------- ----------
+DHS2_HUMAN ---------- ---------- ---------- ---------- ----------
+SORD_KLEPN ---------- ---------- ---------- ---------- ----------
+FAG2_SYNY3 ---------- ---------- ---------- ---------- ----------
+FABG_ACTAC ---------- ---------- ---------- ---------- ----------
+NODG_RHIME ---------- ---------- ---------- ---------- ----------
+NOG4_RHIME ---------- ---------- ---------- ---------- ----------
+HDHA_CLOSO ---------- ---------- ---------- ---------- ----------
+DHK2_STRVN ---------- ---------- ---------- ---------- ----------
+SOU1_CANAL ---------- ---------- ---------- ---------- ----------
+SOU2_CANAL ---------- ---------- ---------- ---------- ----------
+MTDH_UROFA ---------- ---------- ---------- ---------- ----------
+ARDH_CANAL ---------- ---------- ---------- ---------- ----------
+YWFH_BACSU ---------- ---------- ---------- ---------- ----------
+CMTB_PSEPU ---------- ---------- ---------- ---------- ----------
+GS39_BACSU ---------- ---------- ---------- ---------- ----------
+YHDF_BACSU ---------- ---------- ---------- ---------- ----------
+TRN2_DATST ---------- ---------- ---------- ---------- ----------
+TRNH_DATST ---------- ---------- ---------- ---------- ----------
+FIXR_BRAJA ---------- ---------- ---------- ---------- ----------
+YGHA_ECOLI ---------- ---------- ---------- ---------- ----------
+1rkx_A     ---------- ---------- ---------- ---------- ----------
+1kep_A     ---------- ---------- ---------- ---------- ----------
+1dhr_      ---------- ---------- ---------- ---------- ----------
+1i24_A     ---------- ---------- ---------- ---------- ----------
+
+           501                                                550
+1o5i_A     ---------- ---------- ---------- ---------- ----------
+1ae1_A     ---------- ---------- ---------- ---------- ----------
+1h5q_A     ---------- ---------- ---------- ---------- ----------
+1doh_A     ---------- ---------- ---------- ---------- ----------
+BDHA_ALCEU ---------- ---------- ---------- ---------- ----------
+FABG_MYCAV ---------- ---------- ---------- ---------- ----------
+FABG_ECOLI ---------- ---------- ---------- ---------- ----------
+FABG_VIBHA ---------- ---------- ---------- ---------- ----------
+FABG_BUCAP ---------- ---------- ---------- ---------- ----------
+FABG_BUCAI ---------- ---------- ---------- ---------- ----------
+FABG_BUCBP ---------- ---------- ---------- ---------- ----------
+FABG_RICPR ---------- ---------- ---------- ---------- ----------
+PHAB_ACISP ---------- ---------- ---------- ---------- ----------
+DHB8_HUMAN ---------- ---------- ---------- ---------- ----------
+FABG_CHLPN ---------- ---------- ---------- ---------- ----------
+PHAB_PARDE ---------- ---------- ---------- ---------- ----------
+YD50_MYCTU ---------- ---------- ---------- ---------- ----------
+NODG_AZOBR ---------- ---------- ---------- ---------- ----------
+PHBB_ALCEU ---------- ---------- ---------- ---------- ----------
+PHBB_CHRVI ---------- ---------- ---------- ---------- ----------
+YWFD_BACSU ---------- ---------- ---------- ---------- ----------
+YXBG_BACSU ---------- ---------- ---------- ---------- ----------
+YK02_MYCTU ---------- ---------- ---------- ---------- ----------
+DHBA_BACSU ---------- ---------- ---------- ---------- ---------S
+ENTA_ECOLI ---------- ---------- ---------- ---------- ---------S
+DHMA_FLAS1 ---------- ---------- ---------- ---------- ----------
+YJGI_ECOLI ---------- ---------- ---------- ---------- ----------
+Y4VI_RHISN SGSVILNLGA SLSLSPLAPS HAYGAYNAGI DMLTRCTAAE LGPLGIRTAT
+BUTA_STAAM ---------- ---------- ---------- ---------- ----------
+DHG2_BACSU ---------- ---------- ---------- ---------- ----------
+YGFF_ECOLI ---------- ---------- ---------- ---------- ----------
+HDHA_ECOLI ---------- ---------- ---------- ---------- ----------
+DHS4_BOVIN ---------- ---------- ---------- ---------- ----------
+DHS4_PIG   ---------- ---------- ---------- ---------- ----------
+DHS4_MOUSE ---------- ---------- ---------- ---------- ----------
+DHS2_HUMAN ---------- ---------- ---------- ---------- ----------
+SORD_KLEPN ---------- ---------- ---------- ---------- ----------
+FAG2_SYNY3 ---------- ---------- ---------- ---------- ----------
+FABG_ACTAC ---------- ---------- ---------- ---------- ----------
+NODG_RHIME ---------- ---------- ---------- ---------- ----------
+NOG4_RHIME ---------- ---------- ---------- ---------- ----------
+HDHA_CLOSO ---------- ---------- ---------- ---------- ----------
+DHK2_STRVN ---------- ---------- ---------- ---------- ----------
+SOU1_CANAL ---------- ---------- ---------- ---------- ----------
+SOU2_CANAL ---------- ---------- ---------- ---------- ----------
+MTDH_UROFA ---------- ---------- ---------- ---------- ----------
+ARDH_CANAL ---------- ---------- ---------- ---------- ----------
+YWFH_BACSU ---------- ---------- ---------- ---------- ----------
+CMTB_PSEPU ---------- ---------- ---------- ---------- ----------
+GS39_BACSU ---------- ---------- ---------- ---------- ----------
+YHDF_BACSU ---------- ---------- ---------- ---------- ----------
+TRN2_DATST ---------- ---------- ---------- ---------- ----------
+TRNH_DATST ---------- ---------- ---------- ---------- ----------
+FIXR_BRAJA ---------- ---------- ---------- ---------- ----------
+YGHA_ECOLI ---------- ---------- ---------- ---------- ----------
+1rkx_A     ---------- ---------- ---------- ---------- ----------
+1kep_A     ---------- ---------- ---------- ---------- ----------
+1dhr_      ---------- ---------- ---------- ---------- ----------
+1i24_A     ---------- ---------- ---------- ---------- ----------
+
+           551                                                600
+1o5i_A     ----WTETER ----VKELLS E------EKK KQVESQIPMR RMAKPE-EIA
+1ae1_A     ----VIL--- ---------Q K------EEI DNFIVKTPMG RAGKPQ-EVS
+1h5q_A     ----YVNTDQ TA--HMDK-- -------KIR DHQASNIPLN RFAQPE-EMT
+1doh_A     IKTDMYHAVC REYIPNGENL SN---EEVDE YAAVQWSPLR RVGLPI-DIA
+BDHA_ALCEU -VLTPLVQKQ VEARAQKEGI PV---EQAKR ELVLEKQPSG QFVTPD-ELG
+FABG_MYCAV ----YIDTEM TR--ALDERI --------QA G-ALEFIPAK RVGTAA-EVP
+FABG_ECOLI ----FIETDM TR--ALSDDQ --------RA G-ILAQVPAG RLGGAQ-EIA
+FABG_VIBHA ----FIETDM TK--ALNDDQ --------RA A-TLSNVPAG RLGDPR-EIA
+FABG_BUCAP ----FIKTNL TK--NLNVFQ --------YK K-HLSKIPMK RIGTAE-EIA
+FABG_BUCAI ----LIKTNF TE--KLNSIQ --------YQ K-YLSNIPMK RFGQKE-EVA
+FABG_BUCBP ----LIKTGM TN--NLSQKQ --------LS K-YLSKIPMK RLGTIK-EIS
+FABG_RICPR ----FIKSDM TD--KLNEKQ --------RE A-IVQKIPLG TYGIPE-DVA
+PHAB_ACISP ----YTATPM VT--AMREDV --------IK S-IEAQIPLQ RLAAPA-EIA
+DHB8_HUMAN ----FIATPM TQ--KVPQKV --------VD K-ITEMIPMG HLGDPE-DVA
+FABG_CHLPN ----FIETDM TS--VLNDNL --------KA E-WLKSIPLG RAGTPE-DVA
+PHAB_PARDE ----YIGTEM VR--AIDEKV --------LN EGIIPQIPVA AWAEPE-EIA
+YD50_MYCTU ----LIRSAM TE--AMPQRI --------WD Q-KLAEVPMG RAGEPS-EVA
+NODG_AZOBR ----YIGTDM VM--AIREDI --------RQ A-ITDSVPMK RLGRPD-EIG
+PHBB_ALCEU ----YIATDM VK--AIRQDV --------LD K-IVATIPVK RLGLPE-EIA
+PHBB_CHRVI ----YVETAM TL--AMNDDV --------RN S-IISGIPMR RMAQPN-EIA
+YWFD_BACSU ----IIDTPL NEKSFLENNE GT---LEEIK KEKAKVNPLL RLGKPE-EIA
+YXBG_BACSU ----TIETPL IDKLAGTKEQ EM---GEQFR EANKWITPLG RLGQPK-EMA
+YK02_MYCTU -LVKTPMTDW VPED------ ---------- ---IFQTALG RAAEPV-EVS
+DHBA_BACSU TETDMQWSLW ADENGAEQVI K------GSL ETFKTGIPLK KLAKPS-DIA
+ENTA_ECOLI TDTDMQRTLW VSDDAEEQRI R------GFG EQFKLGIPLG KIARPQ-EIA
+DHMA_FLAS1 --------GP VDVTGNN-TG YS---EPRLA EQVLDEVALG RPGLPE-EVA
+YJGI_ECOLI ----PIDTDA NP---ANGPM R--------- DMLHSLMAIK RHGQPE-EVA
+Y4VI_RHISN VAPGYIRTCA ANRLAAVAGM D--------S ASLRQRIPLG RVGDAE-EVA
+BUTA_STAAM -IVQTPMMES IAVATAEEAG KP---EAWGW EQFTSQIALG RVSQPE-DVS
+DHG2_BACSU ----TIAT-- -ESNVDTKK- ------EESR QKQLKKIPMK AFGKPE-EVA
+YGFF_ECOLI --------FI YTEMHASGGE P------GRV DRVKSNIPMQ RGGQAE-EVA
+HDHA_ECOLI ----AILTDA L---KSVITP E------IEQ K-MLQHTPIR RLGQPQ-DIA
+DHS4_BOVIN ----LIRTSF S---RVLWED P------ARQ ESIKATFQIK RIGKPE-ECA
+DHS4_PIG   ----LIKTNF S---QVLWMD K------ARK EYMKESLRIR RLGNPE-DCA
+DHS4_MOUSE ----LIKTRF S---SVLWEE K------ARE DFIKEAMQIR RLGKPE-DCA
+DHS2_HUMAN ----IIKTDF S---KVFHGN E------SLW KNFKEHHQLQ RIGESE-DCA
+SORD_KLEPN -TPEYEEALA WTRNITVEQL R--------E GYTKNAIPIG RAGKLS-EVA
+FAG2_SYNY3 ----FIDTEM TL--AIREDI --------RE K-ITKEIPFR RFGKPE-EIA
+FABG_ACTAC ----LIDTDI -----LDENV --------PI DEILKMIPAG RMGDPE-EVA
+NODG_RHIME ----FIESAM TD--KLNHKQ --------KE K-IMVAIPIH RMGTGT-EVA
+NOG4_RHIME ----FIESAM TD--KLNHKQ --------KE K-IMVAIPIH RMGTGT-EVA
+HDHA_CLOSO ----LIATDA A---MNS-MP D------EFR KSFLSHVPLN RIGNPE-DIA
+DHK2_STRVN ----LIETPW T---QNSDFF A------PIA EHVRQTTPLR RTGRPE-DVA
+SOU1_CANAL ----YILTDI AD--FADP-- -------EMK KKWWQLTPLG REGLPQ-ELV
+SOU2_CANAL ----YIATHL SE--FADP-- -------DVK SKWLQLTPLG REAKPR-ELV
+MTDH_UROFA ----YVKTDQ TS--HMDQ-- -------KLR DFQADGVPLK RFAEPE-EMA
+ARDH_CANAL ----YILTPL TR--NVISGH T------EMK TEWESKIPMK RMAEPK-EFV
+YWFH_BACSU ----FIATDR YHQFVENVMK KNSISKQKAE EQIASGIPMK RVGSAE-ETA
+CMTB_PSEPU --------CA VNTEVWVRIK NA---NPELA QRFLDVIPMG RVGEIE-EVA
+GS39_BACSU ----PIWTPL -IPATFPEET ---------V AQFGQDTPMG RPGQPV-EHV
+YHDF_BACSU ----PIWTPL -IPATFPEEK ---------V KQHGLDTPMG RPGQPV-EHA
+TRN2_DATST ----VIATSL VEMTIQDPEQ K------ENL NKLIDRCALR RMGEPK-ELA
+TRNH_DATST ----IINTPI IEAACQVPSQ K------KNI ESLIGRAPMK RAGEPS-EVS
+FIXR_BRAJA --------EI RTDMLS---- P------DAE ARVVASIPLR RVGTPD-EVA
+YGHA_ECOLI ----PIWTAL QISGGQTQDK ---------I PQFGQQTPMK RAGQPA-ELA
+1rkx_A     ----KLYTDG AEYAEGWNFG PNDADATPVK NIVEQMVKYW GEGASW-QLE
+1kep_A     ------KGRM GETYLIGADG E-------KN NKEVLELILE KMGQPK-DAY
+1dhr_      ---VTLDTPM NR-------- ---------- KSMPEADFSS WTPLEF-LVE
+1i24_A     --EFRVFNQF TEQFSVNELA S-----LVTK AGSKLGLDVK KMTVPNPRVE
+
+           601                                                650
+1o5i_A     SVVAFLCS-E KASYLTG-QT IVVDGGLSKF PL-------- ----------
+1ae1_A     ALIAFLCF-P AASYITG-QI IWADGGFTAN GGF------- ----------
+1h5q_A     GQAILLLSDH AT-YMTG-GE YFIDGGQLIW ---------- ----------
+1doh_A     RVVCFLASND GG-WVTG-KV IGIDGGACM- ---------- ----------
+BDHA_ALCEU ALAVFQSSEA AR-QVRG-AI WNMDG----G WVAQ------ ----------
+FABG_MYCAV GAVSFLASED AS-YIAG-AV IPVDGGMGMG H--------- ----------
+FABG_ECOLI NAVAFLASDE AA-YITG-ET LHVNGGMYMV ---------- ----------
+FABG_VIBHA SAVVFLASPE AA-YITG-ET LHVNGGMYMV ---------- ----------
+FABG_BUCAP NAVIFLSSEK AS-YITG-QT IHVNGGMYMT ---------- ----------
+FABG_BUCAI DAVIFLASKK AS-YITG-HT LHVNGGMYMI ---------- ----------
+FABG_BUCBP KITLFLISND AN-YITG-QV IHVNGGMYMP ---------- ----------
+FABG_RICPR YAVAFLASNN AS-YITG-QT LHVNGGMLMV ---------- ----------
+PHAB_ACISP AAVMYLVSEH GA-YVTG-ET LSINGGLYMH ---------- ----------
+DHB8_HUMAN DVVAFLASED SG-YITG-TS VEVTGGLFM- ---------- ----------
+FABG_CHLPN RVALFLASQL SS-YMTA-QT LVVDGGLTY- ---------- ----------
+PHAB_PARDE RCVVFLASED AG-FITGSTH QAPNGGQFFV ---------- ----------
+YD50_MYCTU SVAVFLASDL SS-YMTG-TV LDVTGGRFI- ---------- ----------
+NODG_AZOBR GAVSYLASEI AG-YVTG-ST LNINGGLNYQ ---------- ----------
+PHBB_ALCEU SICAWLSSEE SG-FSTG-AD FSLNGGLHMG ---------- ----------
+PHBB_CHRVI AAIAFLAGDE SG-YMTG-AN LPVNGGLFMH ---------- ----------
+YWFD_BACSU NVMLFLASDL SS-YMTG-SA ITADGGYTAQ ---------- ----------
+YXBG_BACSU TVALFLASDD SS-YVTG-ED ITADGGIMAY TWPGKMLIEE KWKEETK---
+YK02_MYCTU NLVVYLASDE SS-YSTG-AE FVVDGGTVAG LAHNDFGAVE VSSQPEWVT-
+DHBA_BACSU DAVLFLVSGQ AG-HITM-HN LCVDGGATLG V--------- ----------
+ENTA_ECOLI NTILFLASDL AS-HITL-QD IVVDGGSTLG A--------- ----------
+DHMA_FLAS1 TAAVFLAEDG SS-FITG-ST ITIDG----G LSAMIFGGMR EGRR------
+YJGI_ECOLI GMVAWLAGPE AS-FVTG-AM HTIDGAFGA- ---------- ----------
+Y4VI_RHISN EAAYFLASFD AS-YING-SI LHVDGGLISS REAGWGSEVD GAISAEMRPQ
+BUTA_STAAM NVVSFLAGKD SD-YITG-QT IIVDG----G MRFR------ ----------
+DHG2_BACSU AAAAWLVSEE AS-YVTG-AT LFVDGGMTLY PSQLE----- ----------
+YGFF_ECOLI QAIVWLLSDK AS-YVTG-SF IDLAGGK--- ---------- ----------
+HDHA_ECOLI NAALFLCS-P AASWVSG-QI LTVSGGGVQE LN-------- ----------
+DHS4_BOVIN GIVSFLCS-E DASYITG-ET VVVAGGSLSH L--------- ----------
+DHS4_PIG   GIVSFLCS-E DASYITG-ET VVVGGGTASR L--------- ----------
+DHS4_MOUSE GIVSFLCS-E DASYING-ET VVVGGGTPSR L--------- ----------
+DHS2_HUMAN GIVSFLCS-P DASYVNG-EN IAVAG-YSTR L--------- ----------
+SORD_KLEPN DFVCYLLSAR AS-YITG-VT TNIAGGKTRG ---------- ----------
+FAG2_SYNY3 WAVAFLLSPV ASSYVTG-EV LRVNGAHHT- ---------- ----------
+FABG_ACTAC HAVNFLMGEK AA-YVTR-QV IAVNGGLC-- ---------- ----------
+NODG_RHIME SAVAYLASDH AA-YVTG-QT IHVNGGMAMI ---------- ----------
+NOG4_RHIME SAVAYLASDH AA-YVTG-QT IHVNGGMAMI ---------- ----------
+HDHA_CLOSO NSVLFFVPSE DSSYITG-SI LEVSGGYNLG TPQYAEFVGS KVVE------
+DHK2_STRVN EAVLGLVR-- -ATYTTG-QV LLVDGGAHLL ---------- ----------
+SOU1_CANAL GAYLYLASNA ST-YTTG-SN IAVDGGYTCP ---------- ----------
+SOU2_CANAL GAYLYLASDA AS-YTTG-AD LAVDGGYTVI ---------- ----------
+MTDH_UROFA GQAILLLSPK AS-YMTG-GE YFVDGGNLVW ---------- ----------
+ARDH_CANAL GSILYLASES ASSYTTG-HN LVVDGGYECW ---------- ----------
+YWFH_BACSU ALAAFLASEE AS-YITG-QQ ISADGGSMKS I--------- ----------
+CMTB_PSEPU SMVGYLAQPE AA-FVTG-QV ISVNG----G STML------ ----------
+GS39_BACSU GCYVLLASDE SS-YMTG-QT LHVNGGNFVT T--------- ----------
+YHDF_BACSU GAYVLLASDE SS-YMTG-QT IHVNGGRFIS T--------- ----------
+TRN2_DATST AMVAFLCF-P AASYVTG-QI IYVDGGLMAN CGF------- ----------
+TRNH_DATST SLVTYLCL-P TASYITG-QI ICVDGGYTVN -GFI------ ----------
+FIXR_BRAJA KVIFFLCSDA AS-YVTG-AE VPINGGQHL- ---------- ----------
+YGHA_ECOLI PVYVYLASQE SS-YVTA-EV HGVCGGEHLG ---------- ----------
+1rkx_A     AHYLKLDCSK AKMQLGWHPR WNLNTTLEYI VGWHKNWLSG TDMHEYSITE
+1kep_A     DHVTDRAGHD LR-YAIDASK LRDELGWTPQ FTDFSEGLEE TIQWYTDNQD
+1dhr_      TFHDWITGNK RPNSGSLIQV VTTDGKTELT PAYF------ ----------
+1i24_A     AEEHYYNAKH TKLMELGLEP HYLSDSLLDS LLNFAVQFKD RVDTKQIMPS
+
+           651                 671
+1o5i_A     ---------- ---------- - 
+1ae1_A     ---------- ---------- - 
+1h5q_A     ---------- ---------- - 
+1doh_A     ---------- ---------- - 
+BDHA_ALCEU ---------- ---------- - 
+FABG_MYCAV ---------- ---------- - 
+FABG_ECOLI ---------- ---------- - 
+FABG_VIBHA ---------- ---------- - 
+FABG_BUCAP ---------- ---------- - 
+FABG_BUCAI ---------- ---------- - 
+FABG_BUCBP ---------- ---------- - 
+FABG_RICPR ---------- ---------- - 
+PHAB_ACISP ---------- ---------- - 
+DHB8_HUMAN ---------- ---------- - 
+FABG_CHLPN ---------- ---------- - 
+PHAB_PARDE ---------- ---------- - 
+YD50_MYCTU ---------- ---------- - 
+NODG_AZOBR ---------- ---------- - 
+PHBB_ALCEU ---------- ---------- - 
+PHBB_CHRVI ---------- ---------- - 
+YWFD_BACSU ---------- ---------- - 
+YXBG_BACSU ---------- ---------- - 
+YK02_MYCTU ---------- ---------- - 
+DHBA_BACSU ---------- ---------- - 
+ENTA_ECOLI ---------- ---------- - 
+DHMA_FLAS1 ---------- ---------- - 
+YJGI_ECOLI ---------- ---------- - 
+Y4VI_RHISN RRPAARWRLL SP-------- - 
+BUTA_STAAM ---------- ---------- - 
+DHG2_BACSU ---------- ---------- - 
+YGFF_ECOLI ---------- ---------- - 
+HDHA_ECOLI ---------- ---------- - 
+DHS4_BOVIN ---------- ---------- - 
+DHS4_PIG   ---------- ---------- - 
+DHS4_MOUSE ---------- ---------- - 
+DHS2_HUMAN ---------- ---------- - 
+SORD_KLEPN ---------- ---------- - 
+FAG2_SYNY3 ---------- ---------- - 
+FABG_ACTAC ---------- ---------- - 
+NODG_RHIME ---------- ---------- - 
+NOG4_RHIME ---------- ---------- - 
+HDHA_CLOSO ---------- ---------- - 
+DHK2_STRVN ---------- ---------- - 
+SOU1_CANAL ---------- ---------- - 
+SOU2_CANAL ---------- ---------- - 
+MTDH_UROFA ---------- ---------- - 
+ARDH_CANAL ---------- ---------- - 
+YWFH_BACSU ---------- ---------- - 
+CMTB_PSEPU ---------- ---------- - 
+GS39_BACSU ---------- ---------- - 
+YHDF_BACSU ---------- ---------- - 
+TRN2_DATST ---------- ---------- - 
+TRNH_DATST ---------- ---------- - 
+FIXR_BRAJA ---------- ---------- - 
+YGHA_ECOLI ---------- ---------- - 
+1rkx_A     INNYMNTK-- ---------- - 
+1kep_A     WWKAEKEAVE ANYAKTQEVI K 
+1dhr_      ---------- ---------- - 
+1i24_A     VSWKKIGVKT KSM------- - 
+

@@ -1,0 +1,1450 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1cpj_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 416 418 0 square solid STRUCT
+  FT   STRUCT        5      7  STRAND
+feature 418 421 3 square solid STRUCT
+  FT   STRUCT        7     10  HELIX
+feature 428 430 3 square solid STRUCT
+  FT   STRUCT       16     18  HELIX
+feature 441 457 3 square solid STRUCT
+  FT   STRUCT       29     45  HELIX
+feature 468 474 3 square solid STRUCT
+  FT   STRUCT       56     62  HELIX
+feature 490 492 3 square solid STRUCT
+  FT   STRUCT       70     72  HELIX
+feature 496 506 3 square solid STRUCT
+  FT   STRUCT       76     85  HELIX
+feature 572 578 0 square solid STRUCT
+  FT   STRUCT      147    153  STRAND
+feature 587 597 3 square solid STRUCT
+  FT   STRUCT      157    167  HELIX
+feature 600 603 0 square solid STRUCT
+  FT   STRUCT      170    173  STRAND
+feature 606 609 0 square solid STRUCT
+  FT   STRUCT      176    178  STRAND
+feature 609 611 3 square solid STRUCT
+  FT   STRUCT      178    180  HELIX
+feature 619 620 0 square solid STRUCT
+  FT   STRUCT      187    188  STRAND
+feature 636 638 0 square solid STRUCT
+  FT   STRUCT      195    197  STRAND
+feature 641 650 0 square solid STRUCT
+  FT   STRUCT      200    209  STRAND
+feature 659 665 0 square solid STRUCT
+  FT   STRUCT      212    218  STRAND
+feature 677 681 0 square solid STRUCT
+  FT   STRUCT      230    234  STRAND
+feature 691 693 3 square solid STRUCT
+  FT   STRUCT      239    241  HELIX
+feature 698 703 0 square solid STRUCT
+  FT   STRUCT      246    251  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................................LPESFDARE
+  QWS.NCPTIAQIRDQGSCGSCWAFGAVEAMSDRICIHTNGRVNVEVSAEDLLTCCGIQ..
+  ......CGDGCNGGYPSGAW.NFWTRKGLVSGGVYNSHIGCLPYTIPPCEHHVNG.ARPP
+  CT...GEGDTPKCNKMCEAGYSTSYKEDKHYGYTSYSVS.....DSEKEIMAEIYKNGPV
+  EGAFTVF.SDFLTYKSG.VYKHEA.........GDVMGGHAIRILGWGIEN......GVP
+  YWLVANSWNADWGDNGFFKILRG.....ENHCGIESEIVAGIPRT...............
+  ............................................................
+  ......................................
+}
+{
+name CATB_CHICK
+descrip Cathepsin B precursor (EC 3.4.22.1) (Cathepsin B1).
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 702 0 square solid PFAM-A
+  FT   PFAM-A       80    330  PF00112 Peptidase_C1
+feature 308 396 0 square solid PFAM-B
+  FT   PFAM-B        1     76  PB013948 Pfam-B_13948
+feature 441 441 0 square solid SITE
+  FT   SITE        108    108  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        279    279  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        299    299  ACT_SITE_By similarity
+feature 426 455 3 square solid SITE
+  FT   SITE         93    122  DISULFID_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        105    150  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        141    208  DISULFID_By similarity
+feature 475 487 3 square solid SITE
+  FT   SITE        142    146  DISULFID_By similarity
+feature 521 557 3 square solid SITE
+  FT   SITE        179    212  DISULFID_By similarity
+feature 529 541 3 square solid SITE
+  FT   SITE        187    198  DISULFID_By similarity
+feature 346 346 5 square solid SITE
+  FT   SITE         38     38  CARBOHYD_Nlinked GlcNAc Potential
+feature 534 534 5 square solid SITE
+  FT   SITE        192    192  CARBOHYD_Nlinked GlcNAc Potential
+feature 308 325 4 square solid SIGNAL
+  FT   SIGNAL        1     17  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......MSWSRSILCL.LGAFANARSIPYYPPLSSDLVNHINKLNTTG.....RAGHNF
+  HNTD.MSY..VKKLCGTFL....GGPKAPERVDFAED............MDLPDTFDTRK
+  QWP.NCPTISEIRDQGSCGSCWAFGAVEAISDRICVHTNAKVSVEVSAEDLLSCCGFE..
+  ......CGMGCNGGYPSGAW.RYWTERGLVSGGLYDSHVGCRAYTIPPCEHHVNG.SRPP
+  CT..GEGGETPRCSRHCEPGYSPSYKEDKHYGITSYGVP.....RSEKEIMAEIYKNGPV
+  EGAFIVY.EDFLMYKSG.VYQHVS.........GEQVGGHAIRILGWGVEN......GTP
+  YWLAANSWNTDWGITGFFKILRG.....EDHCGIESEIVAGVPRMEQYWTRV........
+  ............................................................
+  ......................................
+}
+{
+name TNAG_HUMAN
+descrip Tubulointerstitial nephritis antigen (TIN-Ag).
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 253 301 5 square solid DOMAIN
+  FT   DOMAIN       59    107  SMB.
+feature 243 244 12 square solid SITE
+  FT   SITE         49     50  SITE_Cleavage by furin Potential
+feature 232 232 5 square solid SITE
+  FT   SITE         38     38  CARBOHYD_Nlinked GlcNAc Potential
+feature 370 370 5 square solid SITE
+  FT   SITE        175    175  CARBOHYD_Nlinked GlcNAc Potential
+feature 529 529 5 square solid SITE
+  FT   SITE        314    314  CARBOHYD_Nlinked GlcNAc Potential
+feature 586 586 5 square solid SITE
+  FT   SITE        360    360  CARBOHYD_Nlinked GlcNAc Potential
+feature 690 690 5 square solid SITE
+  FT   SITE        455    455  CARBOHYD_Nlinked GlcNAc Potential
+feature 313 364 1 square solid VARSPLIC
+  FT   VARSPLIC    119    169  Missing (in isoform TIN2).
+feature 404 508 1 square solid VARSPLIC
+  FT   VARSPLIC    209    300  Missing (in isoform TIN2).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............MWTGYKFSIFSYLTTEIWMEKQYLSQREVDLEAYFTRNHTVLQGTR
+  FKRAIFQGQYCRNFGCCEDRDDGCVTEFYAANALCYCDKFCDRENSDCCPDYKSFCREEK
+  EWPPHTQPWYPEGCFKDGQHYEEGSVIKENCNSCTCSGQQWKCSQHVCLVRP.ELIEQVN
+  KGDYGWTAQNYSQFWGMTLEDGFKFRLGTLPPSPMLLSMNEMTASLPATTDLPEFFVASY
+  KWP...GWTHGPLDQKNCAASWAFSTASVAADRIAIQSKGRYTANLSPQNLISCCAK...
+  ......NRHGCNSGSIDRAW.WYLRKRG.......LVSHACYPLFKDQNATNNGCAMASR
+  SDGRGKRDATKPCPNN.......VEKSNRIYQCSPPYRVS....SNETEIMKEIMQNGPV
+  QAIMQVR.EDFFHYKTG.IYRHVTS.TNKESEKYRKLQTHAVKLTGWGTLRGAQG.QKEK
+  FWIAANFWGKSWGENGYFRILRG.....VNESDIEKLVIAAWGQLTSSDEP.........
+  ............................................................
+  ......................................
+}
+{
+name CATC_SCHMA
+descrip Cathepsin C precursor (EC 3.4.22.-).
+creator Schistosoma mansoni (Blood fluke).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 702 0 square solid PFAM-A
+  FT   PFAM-A      218    451  PF00112 Peptidase_C1
+feature 193 402 0 square solid PFAM-B
+  FT   PFAM-B        4    213  PB007195 Pfam-B_7195
+feature 441 441 0 square solid SITE
+  FT   SITE        247    247  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        398    398  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        420    420  ACT_SITE_By similarity
+feature 495 495 12 square solid SITE
+  FT   SITE        291    291  BINDING_Chloride By similarity
+feature 577 577 12 square solid SITE
+  FT   SITE        337    337  BINDING_Chloride By similarity
+feature 215 296 3 square solid SITE
+  FT   SITE         26    107  DISULFID_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        244    287  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        280    321  DISULFID_By similarity
+feature 214 214 5 square solid SITE
+  FT   SITE         25     25  CARBOHYD_Nlinked GlcNAc Potential
+feature 459 459 5 square solid SITE
+  FT   SITE        265    265  CARBOHYD_Nlinked GlcNAc Potential
+feature 566 566 5 square solid SITE
+  FT   SITE        326    326  CARBOHYD_Nlinked GlcNAc Potential
+feature 190 209 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .........MHWVFHCILIILACLRFTCADTPANCTYEDAHGRWKFHIGDYQSKCPEKLN
+  SKQSVVISLLYPDIAIDEFGNRGHWTLIYNQGFEVTINHRKWLVIFAYKSNGEFNCHKSM
+  PMWTHDTLIDSGSVCSGKIGVHDKFHINKLFGSKSFGRTLYHINPSFVGKINAHQKSWRG
+  EIYPELSKYTIDELRNRAGGVKSMVTRPSVLNRKTPSKELIS.....LTGNLPLEFDWTS
+  PPDGSRSPVTPIRNQGICGSCYASPSAAALEARIRLVSNFSEQPILSPQTVVDCSPY...
+  .......SEGCNGGFPFLIAGKYGEDFG.......LPQKIVIPYTG..............
+  .......EDTGKCTVS........KNCTRYYTTDYSYIGGYYGATNEKLMQLELISNGPF
+  PVGFEVY.EDFQFYKEG.IYHHTTVQTDHYNFNPFELTNHAVLLVGYGVDKLS....GEP
+  YWKVKNSWGVEWGEQGYFRILRG.....TDECGVESLGVRFDPVL...............
+  ............................................................
+  ......................................
+}
+{
+name 1jqp_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 289 292 3 square solid STRUCT
+  FT   STRUCT        8     11  HELIX
+feature 294 300 0 square solid STRUCT
+  FT   STRUCT       13     19  STRAND
+feature 319 326 0 square solid STRUCT
+  FT   STRUCT       38     45  STRAND
+feature 330 332 0 square solid STRUCT
+  FT   STRUCT       49     51  STRAND
+feature 338 344 0 square solid STRUCT
+  FT   STRUCT       57     63  STRAND
+feature 348 353 0 square solid STRUCT
+  FT   STRUCT       67     72  STRAND
+feature 356 367 0 square solid STRUCT
+  FT   STRUCT       75     86  STRAND
+feature 370 378 0 square solid STRUCT
+  FT   STRUCT       89     97  STRAND
+feature 381 385 0 square solid STRUCT
+  FT   STRUCT      100    104  STRAND
+feature 391 398 0 square solid STRUCT
+  FT   STRUCT      110    117  STRAND
+feature 416 417 0 square solid STRUCT
+  FT   STRUCT      125    126  STRAND
+feature 441 457 3 square solid STRUCT
+  FT   STRUCT      148    164  HELIX
+feature 468 474 3 square solid STRUCT
+  FT   STRUCT      175    181  HELIX
+feature 496 499 3 square solid STRUCT
+  FT   STRUCT      193    196  HELIX
+feature 502 506 3 square solid STRUCT
+  FT   STRUCT      199    203  HELIX
+feature 516 517 0 square solid STRUCT
+  FT   STRUCT      206    207  STRAND
+feature 519 521 3 square solid STRUCT
+  FT   STRUCT      209    211  HELIX
+feature 569 577 0 square solid STRUCT
+  FT   STRUCT      229    237  STRAND
+feature 587 597 3 square solid STRUCT
+  FT   STRUCT      247    257  HELIX
+feature 600 604 0 square solid STRUCT
+  FT   STRUCT      260    264  STRAND
+feature 609 612 3 square solid STRUCT
+  FT   STRUCT      268    271  HELIX
+feature 619 620 0 square solid STRUCT
+  FT   STRUCT      277    278  STRAND
+feature 640 649 0 square solid STRUCT
+  FT   STRUCT      290    299  STRAND
+feature 660 665 0 square solid STRUCT
+  FT   STRUCT      306    311  STRAND
+feature 677 681 0 square solid STRUCT
+  FT   STRUCT      323    327  STRAND
+feature 691 693 3 square solid STRUCT
+  FT   STRUCT      332    334  HELIX
+feature 699 704 0 square solid STRUCT
+  FT   STRUCT      340    345  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................DTPANCTYPDLLGTWVFQV
+  GPRHPRSHINCSVMEPTEEKVVIHLKKLDTAYDEVGNSGYFTLIYNQGFEIVLNDYKWFA
+  FFKYEVKGSRAISYCHETMTGWVHDVLGRNWACFVGKKM..........LSLPESWDWRN
+  VRG..INFVSPVRNQESCGSCYSFASLGMLEARIRILTNNSQTPILSPQEVVSCSP....
+  ......YAQGCDGGFPYLIAGKYAQDF.......GVVEENCFPYTA..............
+  ........TDAPCKPK........ENCLRYYSSEYYYVGGFYGGCNEALMKLELVKHGPM
+  AVAFEVH.DDFLHYHSG.IYHHPFNPF........ELTNHAVLLVGYGKDPVT....GLD
+  YWIVKNSWGSQWGESGYFRIRRG.....TDECAIESIAMAAIPIPKL.............
+  ............................................................
+  ......................................
+}
+{
+name CAL2_GIALA
+descrip Cathepsin B-like CP2 precursor (EC 3.4.22.-) (Cathepsin B-li
+creator Giardia lamblia (Giardia intestinalis).Eukaryota;
+type    PROTEIN
+group 1
+feature 441 441 0 square solid SITE
+  FT   SITE        101    101  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        245    245  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        266    266  ACT_SITE_By similarity
+feature 428 455 3 square solid SITE
+  FT   SITE         88    115  DISULFID_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE         98    141  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        134    177  DISULFID_By similarity
+feature 316 334 4 square solid SIGNAL
+  FT   SIGNAL        1     19  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............MKLFLLAAAAFSAPALTVSELNHIKSLNPR............WKA
+  GIPKRFEGLTKDEISSLLMPVSFLKNAKGAAPRGTFTDK..........DDVPESFDFRE
+  EYP...HCIPEVVDQGGCGSCWAFSSVATFGDRRCVAGLDKKPVKYSPQYVVSCDHG...
+  .......DMACNGGWLPNVW.KFLTKTG.......TTTDECVPYKSGS............
+  ......TTLRGTCPTKCAD...GSSKVHLATATSYKDYG.....LDIPAMMKALSTSGPL
+  QVAFLVH.SDFMYYESG.VYQHTY.........GYMEGGHAVEMVGYGTDDD.....GVD
+  YWIIKNSWGPDWGEDGYFRMIRG.....INDCSIEEQAYAGFFDE...............
+  ............................................................
+  ......................................
+}
+{
+name CAL1_GIALA
+descrip Cathepsin B-like CP1 precursor (EC 3.4.22.-) (Cathepsin B-li
+creator Giardia lamblia (Giardia intestinalis).Eukaryota;
+type    PROTEIN
+group 1
+feature 441 441 0 square solid SITE
+  FT   SITE        105    105  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        249    249  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        270    270  ACT_SITE_By similarity
+feature 428 455 3 square solid SITE
+  FT   SITE         92    119  DISULFID_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        102    145  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        138    181  DISULFID_By similarity
+feature 368 368 5 square solid SITE
+  FT   SITE         41     41  CARBOHYD_Nlinked GlcNAc Potential
+feature 316 334 4 square solid SIGNAL
+  FT   SIGNAL        1     19  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............MALSLLLAVVCAKPLVSRAELRRIQALNPP............WKA
+  GMPKRFENVTEDEFRSMLIRPDRLRARSGSLPPISITEVQ......ELVDPIPPQFDFRD
+  EYP...QCVKPALDQGSCGSCWAFSAIGVFGDRRCAMGIDKEAVSYSQQHLISCSLE...
+  .......NFGCDGGDFQPTW.SFLTFTG.......ATTAECVKYVDYG............
+  ......HTVASPCPAVCD....DGSPIQLYKAHGYGQVS.....KSVPAIMGMLVAGGPL
+  QTMIVVY.ADLSYYESG.VYKHTY........GTINLGFHALEIVGYGTTDD.....GTD
+  YWIIKNSWGPDWGENGYFRIVRG.....VNECRIEDEIYAVYLD................
+  ............................................................
+  ......................................
+}
+{
+name 1nb3_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 416 418 0 square solid STRUCT
+  FT   STRUCT        5      7  STRAND
+feature 418 421 3 square solid STRUCT
+  FT   STRUCT        7     10  HELIX
+feature 442 459 3 square solid STRUCT
+  FT   STRUCT       26     43  HELIX
+feature 469 474 3 square solid STRUCT
+  FT   STRUCT       51     56  HELIX
+feature 476 489 3 square solid STRUCT
+  FT   STRUCT       58     61  HELIX
+feature 496 506 3 square solid STRUCT
+  FT   STRUCT       68     77  HELIX
+feature 520 522 3 square solid STRUCT
+  FT   STRUCT       84     86  HELIX
+feature 566 568 3 square solid STRUCT
+  FT   STRUCT       99    101  HELIX
+feature 573 578 0 square solid STRUCT
+  FT   STRUCT      106    111  STRAND
+feature 588 597 3 square solid STRUCT
+  FT   STRUCT      117    126  HELIX
+feature 602 606 0 square solid STRUCT
+  FT   STRUCT      130    134  STRAND
+feature 611 615 3 square solid STRUCT
+  FT   STRUCT      138    142  HELIX
+feature 621 622 0 square solid STRUCT
+  FT   STRUCT      147    148  STRAND
+feature 640 649 0 square solid STRUCT
+  FT   STRUCT      156    165  STRAND
+feature 660 665 0 square solid STRUCT
+  FT   STRUCT      166    171  STRAND
+feature 677 681 0 square solid STRUCT
+  FT   STRUCT      183    187  STRAND
+feature 691 693 3 square solid STRUCT
+  FT   STRUCT      192    194  HELIX
+feature 700 703 0 square solid STRUCT
+  FT   STRUCT      201    204  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................................YPPSMDWRK
+  K.....NFVSPVKNQGSCGSCWTFSTTGALESAVAIATG..KMLSLAEQQLVDCAQN...
+  .......NHGCQGGLPSQAF.EYIRYN.......GIMGEDTYPYKG..............
+  ........QDDHCK.........FQPDAIAFVKDVANIT....MNDEEAMVEAVAYN.PV
+  SFAFEVTN.DFLMYRKG.IYSSTS........CH..KVNHAVLAVGYGE..........P
+  YWIVKNSWGPQWGMNGYFLIERG.....KNMCGLAACASYPIPL................
+  ............................................................
+  ......................................
+}
+{
+name 1m6d_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 416 418 0 square solid STRUCT
+  FT   STRUCT        5      7  STRAND
+feature 418 421 3 square solid STRUCT
+  FT   STRUCT        7     10  HELIX
+feature 441 458 3 square solid STRUCT
+  FT   STRUCT       25     42  HELIX
+feature 468 474 3 square solid STRUCT
+  FT   STRUCT       50     56  HELIX
+feature 496 506 3 square solid STRUCT
+  FT   STRUCT       68     77  HELIX
+feature 564 566 3 square solid STRUCT
+  FT   STRUCT       96     98  HELIX
+feature 574 577 0 square solid STRUCT
+  FT   STRUCT      106    109  STRAND
+feature 587 597 3 square solid STRUCT
+  FT   STRUCT      114    124  HELIX
+feature 600 604 0 square solid STRUCT
+  FT   STRUCT      127    131  STRAND
+feature 607 613 3 square solid STRUCT
+  FT   STRUCT      134    138  HELIX
+feature 619 620 0 square solid STRUCT
+  FT   STRUCT      143    144  STRAND
+feature 624 638 3 square solid STRUCT
+  FT   STRUCT      148    150  HELIX
+feature 646 648 0 square solid STRUCT
+  FT   STRUCT      158    160  STRAND
+feature 659 665 0 square solid STRUCT
+  FT   STRUCT      161    167  STRAND
+feature 677 682 0 square solid STRUCT
+  FT   STRUCT      179    184  STRAND
+feature 691 693 3 square solid STRUCT
+  FT   STRUCT      188    190  HELIX
+feature 699 702 0 square solid STRUCT
+  FT   STRUCT      196    199  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................................APPEWDWRS
+  K.....GAVTKVKDQGMCGSCWAFSVTGNVEGQWFLNQG..TLLSLSEQELLDCDK....
+  ......MDKACMGGLPSNAY.SAIKN........GLETEDDYSYQH..............
+  .........MQSCQ........FSAEKAKVYIQDSVELS.....QNEQKLAAWLAKRGPI
+  SVAINAFG..MQFYRHG.ISRPSP............WIDHAVLLVGYG..........VP
+  FWAIKNSWGTDWGEKGYYYLHRG.....SGACGVNTMASSAVVD................
+  ............................................................
+  ......................................
+}
+{
+name CYS1_LEIPI
+descrip Cysteine proteinase 1 precursor (EC 3.4.22.-) (Amastigote cy
+creator Leishmania pifanoi.Eukaryota;
+type    PROTEIN
+group 1
+feature 412 705 0 square solid PFAM-A
+  FT   PFAM-A      129    340  PF00112 Peptidase_C1
+feature 270 315 0 square solid PFAM-B
+  FT   PFAM-B        4     49  PB012444 Pfam-B_12444
+feature 316 381 0 square solid PFAM-B
+  FT   PFAM-B       50    106  PB000548 Pfam-B_548
+feature 441 441 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        289    289  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        309    309  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        150    191  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        184    229  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        282    330  DISULFID_By similarity
+feature 509 509 5 square solid SITE
+  FT   SITE        208    208  CARBOHYD_Nlinked GlcNAc Potential
+feature 267 290 4 square solid SIGNAL
+  FT   SIGNAL        1     24  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................MARRNPLLFAIVVTILFVVCYGSALIAQTPPPVD
+  NFVASAHYGSFKKRHGKAFGGDAEEGHRFNAFKQNMQTAYFLNTQN........PHAHYD
+  VSGK.FADLTPQEFAKLYLNPDYYARHLKDHKEDVHVDDS........APSGVMSVDWRD
+  K.....GAVTPVKNQGLCGSCWAFSAIGNIEGQWAASGH..SLVSLSEQMLVSCDN....
+  ......IDEGCNGGLMDQAM.NWIMQSHN....GSVFTEASYPYTSGG............
+  .......GTRPPCH.........DEGEVGAKITGFLSLP.....HDEERIAEWVEKRGPV
+  AVAVDAT..TWQLYFGG.VVSL..........CLAWSLNHGVLIVGFNKNA......KPP
+  YWIVKNSWGSSWGEKGYIRLAMG.....SNQCMLKN...YPVSATVESPHTPHVPTTTA.
+  ............................................................
+  ......................................
+}
+{
+name CYSP_TRYBB
+descrip Cysteine proteinase precursor (EC 3.4.22.-).
+creator Trypanosoma brucei brucei.Eukaryota;
+type    PROTEIN
+group 1
+feature 707 814 5 square solid DOMAIN
+  FT   DOMAIN      343    450  108-RESIDUE EXTENSION.
+feature 708 716 5 square solid DOMAIN
+  FT   DOMAIN      344    352  Poly-Pro.
+feature 412 702 0 square solid PFAM-A
+  FT   PFAM-A      126    338  PF00112 Peptidase_C1
+feature 311 378 0 square solid PFAM-B
+  FT   PFAM-B       44    101  PB000027 Pfam-B_27
+feature 273 310 0 square solid PFAM-B
+  FT   PFAM-B        6     43  PB037704 Pfam-B_37704
+feature 703 814 0 square solid PFAM-B
+  FT   PFAM-B      339    450  PB006002 Pfam-B_6002
+feature 441 441 0 square solid SITE
+  FT   SITE        150    150  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        287    287  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        307    307  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        147    188  DISULFID_By similarity
+feature 397 397 5 square solid SITE
+  FT   SITE        120    120  CARBOHYD_Nlinked GlcNAc Potential
+feature 761 761 5 square solid SITE
+  FT   SITE        397    397  CARBOHYD_Nlinked GlcNAc Potential
+feature 268 287 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Probable.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MPRTEMVRFVRLPVVLLAMAACLASVALGSLHV
+  EESLEMRFAAFKKKYGKVYKDAKEEAFRFRAFEENMEQAKIQAAAN.........PYATF
+  GVTP.FSDMTREEFRARYRNGASYFAAAQKRLRKTVNVTTG.........RAPAAVDWRE
+  K.....GAVTPVKVQGQCGSCWAFSTIGNIEGQWQVAGN..PLVSLSEQMLVSCDTI...
+  .......DSGCNGGLMDNAF.NWIVNSNG....GNVFTEASYPYVSGN............
+  .......GEQPQCQ........MNGHEIGAAITDHVDLP.....QDEDAIAAYLAENGPL
+  AIAVDAE..SFMDYNGG.ILTS..........CTSKQLDHGVLLVGYNDNS......NPP
+  YWIIKNSWSNMWGEDGYIRIEKG.....TNQCLMNQAVSSAVVGGPTPPPPPPPPPSATF
+  TQDFCEGKGCTKGCSHATFPTGECVQTTGVGSVIATCGASNLTQIIYPLSRSCSGPSVPI
+  TVPLDKCIPILIGSVEYHCSTNPPTKAARLVPHQ....
+}
+{
+name CYS2_LEIPI
+descrip Cysteine proteinase 2 precursor (EC 3.4.22.-) (Amastigote cy
+creator Leishmania pifanoi.Eukaryota;
+type    PROTEIN
+group 1
+feature 412 705 0 square solid PFAM-A
+  FT   PFAM-A      126    340  PF00112 Peptidase_C1
+feature 723 809 0 square solid PFAM-B
+  FT   PFAM-B      358    444  PB014873 Pfam-B_14873
+feature 315 392 0 square solid PFAM-B
+  FT   PFAM-B       45    112  PB003247 Pfam-B_3247
+feature 441 441 0 square solid SITE
+  FT   SITE        150    150  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        289    289  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        309    309  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        147    188  DISULFID_By similarity
+feature 555 555 5 square solid SITE
+  FT   SITE        228    228  CARBOHYD_Nlinked GlcNAc Potential
+feature 737 737 5 square solid SITE
+  FT   SITE        372    372  CARBOHYD_Nlinked GlcNAc Potential
+feature 271 289 4 square solid SIGNAL
+  FT   SIGNAL        1     19  Or 27.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............................MATSRAALCAVAVVCVVLAAACAPARAIHV
+  GTPAAALFEEFKRTYGRAYETLAEEQQRLANFERNLELMREHQARN.........PHAQF
+  GITK.FFDLSEAEFAARYLNGAAYFAAAKRHAAQHYRKAR......ADLSAVPDAVDWRE
+  K.....GAVTPVKDQGACGSCWAFSAVGNIEGQWYLAGH..ELVSLSEQQLVSCDDM...
+  .......NDGCDGGLMLQAF.DWLLQNTN....GHLHTEDSYPYVSGN............
+  .......GYVPECSN......SSEELVVGAQIDGHVLIG.....SSEKAMAAWLAKNGPI
+  AIALDAS..SFMSYKSG.VLTA..........CIGKQLNHGVLLVGYDMTG......EVP
+  YWVIKNSWGGDWGEQGYVRVVMG.....VNACLLSE...YPVSAHVRESAAPGTSTSSET
+  PAPRPVMVEQVICFDKNCTQGCRKTLIKANECHKNGGGGASMIKCSPQKVTMCTYSNEFC
+  VGGGLCFETPDGKCAPYFLGSIMNTCHYT.........
+}
+{
+name CATL_CHICK
+descrip Cathepsin L (EC 3.4.22.15) (Fragments).
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 441 441 0 square solid SITE
+  FT   SITE         25     25  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        165    165  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        185    185  ACT_SITE_By similarity
+feature 571 571 5 square solid SITE
+  FT   SITE        109    109  CARBOHYD_Nlinked GlcNAc
+feature 438 491 3 square solid SITE
+  FT   SITE         22     65  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE         56     99  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        158    207  DISULFID_Interchain By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................................APRSVDWRE
+  K.....GYVTPVKDQGQCGSCWAFSTTGALEGQHFRTKG..KLVSLSEQNLVDCSRP...
+  .....EGNQGCNGGLMDQAF.QYVQDNG......GIDSEESYPYTAK.............
+  ........DDEDCR........YKAEYNAANDTGFVDIP....QGHERALMKAVASVGPV
+  SVAIDAGHSSFQFYQSG.IYYEPD........CSSEDLDHGVLVVGYGFEG......GKK
+  YWIVKNSWGEKWGDKGYIYMAKD....RKNHCGIATAASYPLV.................
+  ............................................................
+  ......................................
+}
+{
+name CYSP_THEPA
+descrip Cysteine proteinase precursor (EC 3.4.22.-).
+creator Theileria parva.Eukaryota;
+type    PROTEIN
+group 1
+feature 349 365 5 square solid DOMAIN
+  FT   DOMAIN      165    181  INVOLVED IN PROCESSING TO YIELD ACTIVE
+feature 412 702 0 square solid PFAM-A
+  FT   PFAM-A      228    437  PF00112 Peptidase_C1
+feature 223 411 0 square solid PFAM-B
+  FT   PFAM-B       39    227  PB069696 Pfam-B_69696
+feature 441 441 0 square solid SITE
+  FT   SITE        252    252  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        381    381  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        403    403  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        249    290  DISULFID_By similarity
+feature 389 389 5 square solid SITE
+  FT   SITE        205    205  CARBOHYD_Nlinked GlcNAc Potential
+feature 185 243 4 square solid SIGNAL
+  FT   SIGNAL        1     59  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ....MVSSVVSNPNERLVNNRVENDLESSDDTLSTQAKPVSRLLTRKLLLGVVVLFFLAG
+  VSVVSYFLFSKYKMLNKFKRELDDHLTKDFPNLERSKRDTCFDELTRLFGDGFLSDDPKL
+  EYEVYREFEEFNSKYNRRHATQQERLNRLVTFRSNYLEVKEQKGDEPYVKGINRFSDLTE
+  REFYKLFPVMKPPKATYSNGYYLLSHMANKTYLKNLKKALNTDEDVDLAKLTGENLDWRR
+  S.....SSVTSVKDQSNCGGCWAFSTVGSVEGYYMSHFD..KSYELSVQELLDCDSF...
+  .......SNGCQGGLLESAY.EYVRKYG.......LVSAKDLPFVD..............
+  ........KARRCS.........VPKAKKVSVPSYHVFK.......GKEVMTRSLTSSPC
+  SVYLSVS.PELAKYKSG.VFTGE.........CGK.SLNHAVVLVGEGYDEVT....KKR
+  YWVVQNSWGTDWGENGYMRLERTN..MGTDKCGVLDTSMSAFEL................
+  ............................................................
+  ......................................
+}
+{
+name ORYA_ORYSA
+descrip Oryzain alpha chain precursor (EC 3.4.22.-).
+creator Oryza sativa (Rice).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      129    344  PF00112 Peptidase_C1
+feature 739 786 1 square solid PFAM-A
+  FT   PFAM-A      379    426  PF00396 granulin
+feature 310 375 0 square solid PFAM-B
+  FT   PFAM-B       42    101  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        289    289  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        309    309  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        150    192  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        184    225  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        283    334  DISULFID_By similarity
+feature 805 805 5 square solid SITE
+  FT   SITE        445    445  CARBOHYD_Nlinked GlcNAc Potential
+feature 269 289 4 square solid SIGNAL
+  FT   SIGNAL        1     21  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................MRISMALAAAALLLLLSLAAADMSIVSYGERS
+  EEEARRLYAEWKAEHGKSYNAVGEEERRYAAFRDNLRYIDEHNAAADAG.....VHSFRL
+  GLNR.FADLTNEEYRDTYLGLRNKPRRERKVSDRYLAADN.........EALPESVDWRT
+  K.....GAVAEIKDQGGCGSCWAFSAIAAVEDINQIVTG..DLISLSEQELVDCDTS...
+  ......YNEGCNGGLMDYAF.DFIINNG......GIDTEDDYPYKG..............
+  ........KDERCD.......VNRKNAKVVTIDSYEDVT.....PNSETSLQKAVRNQPV
+  SVAIEAGGRAFQLYSSG.IFTGK.........CGT.ALDHGVAAVGYGTEN......GKD
+  YWIVRNSWGKSWGESGYVRMERN.IKASSGKCGIAV..EPSYPLKKGENPPNPGPTPPSP
+  TPPPTVCDNYYTCPDSTTCCCIYEYGKYCYAWGCCPLEGATCCDDHYSCCPHEYPICNVQ
+  QGTCLMAKDSPLAVKALKRTLAKPNLSFLFGNGKKSSA
+}
+{
+name PAP3_CARPA
+descrip Caricain precursor (EC 3.4.22.30) (Papaya proteinase omega) 
+creator Carica papaya (Papaya).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      133    346  PF00112 Peptidase_C1
+feature 261 308 0 square solid PFAM-B
+  FT   PFAM-B        1     48  PB013106 Pfam-B_13106
+feature 309 378 0 square solid PFAM-B
+  FT   PFAM-B       49    108  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        157    157  ACT_SITE_Caricain
+feature 640 640 0 square solid SITE
+  FT   SITE        291    291  ACT_SITE_Caricain
+feature 666 666 0 square solid SITE
+  FT   SITE        311    311  ACT_SITE_Caricain
+feature 438 491 3 square solid SITE
+  FT   SITE        154    195  DISULFID_Caricain
+feature 474 553 3 square solid SITE
+  FT   SITE        188    227  DISULFID_Caricain
+feature 633 692 3 square solid SITE
+  FT   SITE        285    336  DISULFID_Caricain
+feature 261 276 4 square solid SIGNAL
+  FT   SIGNAL        1     16  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................MAMIPSISKLLFVAICLFVHMSVSFGDFSIVGYSQDDLTS
+  TERLIQLFNSWMLNHNKFYENVDEKLYRFEIFKDNLNYIDETNKK.........NNSYWL
+  GLNE.FADLSNDEFNEKYVGSLIDATIEQSYDEEFINEDT.........VNLPENVDWRK
+  K.....GAVTPVRHQGSCGSCWAFSAVATVEGINKIRTG..KLVELSEQELVDCERR...
+  .......SHGCKGGYPPYAL.EYVAKNG.......IHLRSKYPYKA..............
+  ........KQGTCR.......AKQVGGPIVKTSGVGRVQ.....PNNEGNLLNAIAKQPV
+  SVVVESKGRPFQLYKGG.IFEGP.........CGT.KVDHAVTAVGYGKSG......GKG
+  YILIKNSWGTAWGEKGYIRIKRAP.GNSPGVCGLYK..SSYYPTKN..............
+  ............................................................
+  ......................................
+}
+{
+name PAP4_CARPA
+descrip Papaya proteinase IV precursor (EC 3.4.22.25) (PPIV) (Papaya
+creator Carica papaya (Papaya).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      133    346  PF00112 Peptidase_C1
+feature 261 308 0 square solid PFAM-B
+  FT   PFAM-B        1     48  PB013106 Pfam-B_13106
+feature 309 378 0 square solid PFAM-B
+  FT   PFAM-B       49    108  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        291    291  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        311    311  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        154    195  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        188    227  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        285    336  DISULFID_By similarity
+feature 261 278 4 square solid SIGNAL
+  FT   SIGNAL        1     18  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................MAIICSFSKLLFVAICLFGHMSLSYCDFSIVGYSQDDLTS
+  TERLIQLFNSWMLKHNKNYKNVDEKLYRFEIFKDNLKYIDERNKMIN.........GYWL
+  GLNE.FSDLSNDEFKEKYVGSLPEDYTNQPYDEEFVNED.........IVDLPESVDWRA
+  K.....GAVTPVKHQGYCESCWAFSTVATVEGINKIKTG..NLVELSEQELVDCDKQ...
+  .......SYGCNRGYQSTSL.QYVAQNG.......IHLRAKYPYIA..............
+  ........KQQTCR.......ANQVGGPKVKTNGVGRVQ.....SNNEGSLLNAIAHQPV
+  SVVVESAGRDFQNYKGG.IFEGS.........CGT.KVDHAVTAVGYGKSG......GKG
+  YILIKNSWGPGWGENGYIRIRRAS.GNSPGVCGVYR..SSYYPIKN..............
+  ............................................................
+  ......................................
+}
+{
+name 1glo_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 416 418 0 square solid STRUCT
+  FT   STRUCT        5      7  STRAND
+feature 418 421 3 square solid STRUCT
+  FT   STRUCT        7     10  HELIX
+feature 441 458 3 square solid STRUCT
+  FT   STRUCT       25     42  HELIX
+feature 468 474 3 square solid STRUCT
+  FT   STRUCT       50     56  HELIX
+feature 477 486 3 square solid STRUCT
+  FT   STRUCT       59     61  HELIX
+feature 496 507 3 square solid STRUCT
+  FT   STRUCT       71     81  HELIX
+feature 516 517 0 square solid STRUCT
+  FT   STRUCT       84     85  STRAND
+feature 565 568 3 square solid STRUCT
+  FT   STRUCT      103    106  HELIX
+feature 568 570 0 square solid STRUCT
+  FT   STRUCT      106    108  STRAND
+feature 574 577 0 square solid STRUCT
+  FT   STRUCT      112    115  STRAND
+feature 587 596 3 square solid STRUCT
+  FT   STRUCT      121    130  HELIX
+feature 600 604 0 square solid STRUCT
+  FT   STRUCT      134    138  STRAND
+feature 609 613 3 square solid STRUCT
+  FT   STRUCT      143    147  HELIX
+feature 619 620 0 square solid STRUCT
+  FT   STRUCT      152    153  STRAND
+feature 640 650 0 square solid STRUCT
+  FT   STRUCT      164    174  STRAND
+feature 659 665 0 square solid STRUCT
+  FT   STRUCT      177    183  STRAND
+feature 677 681 0 square solid STRUCT
+  FT   STRUCT      195    199  STRAND
+feature 691 693 3 square solid STRUCT
+  FT   STRUCT      205    207  HELIX
+feature 701 704 0 square solid STRUCT
+  FT   STRUCT      213    216  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................................LPDSVDWRE
+  K.....GCVTEVKYQGSCGASWAFSAVGALEAQLKLKTG..KLVSLSAQNLVDCSTEK..
+  .....YGNKGCNGGFMTTAF.QYIIDNK......GIDSDASYPYKA..............
+  ........MDLKCQ........YDSKYRAATCSKYTELP....YGREDVLKEAVANKGPV
+  SVGVDARHPSFFLYRSG.VYYEPS........CTQ.NVNHGVLVVGYGDLN......GKE
+  YWLVKNSWGHNFGEEGYIRMARN....KGNHCGIAS..FPSYPEI...............
+  ............................................................
+  ......................................
+}
+{
+name CATJ_MOUSE
+descrip Cathepsin J precursor (EC 3.4.22.-) (Cathepsin P) (Catlrp-p)
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      113    331  PF00112 Peptidase_C1
+feature 304 376 0 square solid PFAM-B
+  FT   PFAM-B       25     89  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        137    137  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        275    275  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        299    299  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        134    177  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        168    210  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        268    321  DISULFID_By similarity
+feature 357 357 5 square solid SITE
+  FT   SITE         71     71  CARBOHYD_Nlinked GlcNAc Potential
+feature 567 567 5 square solid SITE
+  FT   SITE        216    216  CARBOHYD_Nlinked GlcNAc Potential
+feature 571 571 5 square solid SITE
+  FT   SITE        220    220  CARBOHYD_Nlinked GlcNAc Potential
+feature 624 624 5 square solid SITE
+  FT   SITE        267    267  CARBOHYD_Nlinked GlcNAc Potential
+feature 280 296 4 square solid SIGNAL
+  FT   SIGNAL        1     17  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................MTPTVLLLILCFGVASGAQAH
+  DPKLDAEWKDWKTKYAK.SYSP.EEALRRAVWEENMRMIKLHNKENSLG.....KNNFTM
+  KMNK.FGDQTSEEFRKSIDNIPIPAAMTDPHAQNHVS............IGLPDYKDWRE
+  E.....GYVTPVRNQGKCGSCWAFAAAGAIEGQMFWKTG..NLTPLSVQNLLDCSKT...
+  .....VGNKGCQSGTAHQAF.EYVLKNK......GLEAEATYPYEG..............
+  ........KDGPCR........YRSENASANITDYVNLP.....PNELYLWVAVASIGPV
+  SAAIDASHDSFRFYNGG.IYYEPN........CSSYFVNHAVLVVGYGSEGDVKD..GNN
+  YWLIKNSWGEEWGMNGYMQIAKD....HNNHCGIAS..LASYPNIF..............
+  ............................................................
+  ......................................
+}
+{
+name CATR_MOUSE
+descrip Cathepsin R precursor (EC 3.4.22.-).
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      115    333  PF00112 Peptidase_C1
+feature 300 377 0 square solid PFAM-B
+  FT   PFAM-B       21     91  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        139    139  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        277    277  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        301    301  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        136    179  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        170    212  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        270    323  DISULFID_By similarity
+feature 624 624 5 square solid SITE
+  FT   SITE        269    269  CARBOHYD_Nlinked GlcNAc Potential
+feature 280 296 4 square solid SIGNAL
+  FT   SIGNAL        1     17  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................MAAVVFIAFLYLGVASGVPVL
+  DSSLDAEWQDWKIKYNK.SYSLKEEKLKRVVWEEKLKMIKLHNRENSLG.....KNGFTM
+  KMNE.FGDQTDEEFRKMMIEISVWTHREGKSIMKREAG...........SILPKFVDWRK
+  K.....GYVTPVRRQGDCDACWAFAVTGAIEAQAIWQTG..KLTPLSVQNLVDCSKP...
+  .....QGNNGCLGGDTYNAF.QYVLHNG......GLESEATYPYEG..............
+  ........KDGPCR........YNPKNSKAEITGFVSLP.....QSEDILMAAVATIGPI
+  TAGIDASHESFKNYKGG.IYHEPN........CSSDTVTHGVLVVGYGFKGIETD..GNH
+  YWLIKNSWGKRWGIRGYMKLAKD....KNNHCGIAS..YAHYPTI...............
+  ............................................................
+  ......................................
+}
+{
+name CATQ_RAT
+descrip Cathepsin Q precursor (EC 3.4.22.-).
+creator Rattus norvegicus (Rat).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      125    342  PF00112 Peptidase_C1
+feature 300 374 0 square solid PFAM-B
+  FT   PFAM-B       21     88  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        149    149  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        286    286  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        310    310  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        146    189  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        180    222  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        280    332  DISULFID_By similarity
+feature 567 567 5 square solid SITE
+  FT   SITE        228    228  CARBOHYD_Nlinked GlcNAc Potential
+feature 652 652 5 square solid SITE
+  FT   SITE        298    298  CARBOHYD_Nlinked GlcNAc Potential
+feature 280 299 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................MTPAVFLVILCLGVVPGASAL
+  DLSLDVQWQEWKIKYEK.LYSPEEEVLKRVVWEENVKKIELHNRENSLG.....KNTYTM
+  EIND.FADMTDEEFKDMIIGFQLPVHNTEKRLWKRALGSFFPNSWNW.RDALPKFVDWRN
+  E.....GYVTRVRKQGGCSSCWAFPVTGAIEGQMFKKTG..KLIPLSVQNLIDCSKP...
+  .....QGNRGCLWGNTYNAF.QYVLHNG......GLEAEATYPYER..............
+  ........KEGVCR........YNPKNSSAKITGFVVLP.....ESEDVLMDAVATKGPI
+  ATGVHVISSSFRFYQKG.VYHEPK........CSS.YVNHAVLVVGYGFEGNETD..GNN
+  YWLIKNSWGKRWGLRGYMKIAKD....RNNHCAIAS..LAQYPTV...............
+  ............................................................
+  ......................................
+}
+{
+name CATM_MOUSE
+descrip Cathepsin M precursor (EC 3.4.22.-).
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      114    332  PF00112 Peptidase_C1
+feature 301 376 0 square solid PFAM-B
+  FT   PFAM-B       22     90  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        138    138  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        276    276  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        300    300  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        135    178  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        169    211  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        269    322  DISULFID_By similarity
+feature 280 294 4 square solid SIGNAL
+  FT   SIGNAL        1     15  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................MTSAIFLAMLCLGMALPSPAP
+  DPILDVEWQKWKIKYGK.AYSLEEEGQKRAVWEDNMKKIKLHNGENGLG.....KHGFTM
+  EMNA.FGDMTLEEFRKVMIEIPVPTVKKGKSVQKRLS............VNLPKFINWKK
+  R.....GYVTPVQTQGRCNSCWAFSVTGAIEGQMFRKTG..QLIPLSVQNLVDCSRP...
+  .....QGNWGCYLGNTYLAL.HYVMENG......GLESEATYPYEE..............
+  ........KDGSCR........YSPENSTANITGFEFVP.....KNEDALMNAVASIGPI
+  SVAIDARHASFLFYKRG.IYYEPN........CSSCVVTHSMLLVGYGFTGRESD..GRK
+  YWLVKNSMGTQWGNKGYMKISRD....KGNHCGIAT..YALYPRV...............
+  ............................................................
+  ......................................
+}
+{
+name CYS1_DICDI
+descrip Cysteine proteinase 1 precursor (EC 3.4.22.-).
+creator Dictyostelium discoideum (Slime mold).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      118    342  PF00112 Peptidase_C1
+feature 310 375 0 square solid PFAM-B
+  FT   PFAM-B       31     89  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        142    142  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        286    286  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        311    311  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        139    190  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        173    224  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        279    332  DISULFID_By similarity
+feature 280 297 4 square solid SIGNAL
+  FT   SIGNAL        1     18  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................MKVILLFVLAVFTVFVSSRGI
+  PPEEQSQFLEFQDKFNK.KYSHEEYLERFEIFKSNLGKIEELNLIAIN.....HKADTKF
+  GVNK.FADLSSDEFKNYYLNNKEAIFTDDLPVADYLDDEFIN........SIPTAFDWRT
+  R.....GAVTPVKNQGQCGSCWSFSTTGNVEGQHFISQN..KLVSLSEQNLVDCDHECME
+  YEGEEACDEGCNGGLQPNAY.NYIIKNG......GIQTESSYPYTA..............
+  .......ETGTQCN........FNSANIGAKISNFTMIP.....KNETVMAGYIVSTGPL
+  AIAADAV..EWQFYIGG.VFDIP.........CNPNSLDHGILIVGYSAKNTIFR.KNMP
+  YWIVKNSWGADWGEQGYIYLRRG.....KNTCGVSN..FVSTSII...............
+  ............................................................
+  ......................................
+}
+{
+name CATL_SARPE
+descrip Cathepsin L precursor (EC 3.4.22.15).
+creator Sarcophaga peregrina (Flesh fly) (Boettcherisca peregrina).E
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      122    338  PF00112 Peptidase_C1
+feature 306 376 0 square solid PFAM-B
+  FT   PFAM-B       26     90  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        146    146  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        285    285  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        306    306  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        143    186  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        177    219  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        278    328  DISULFID_Interchain By similarity
+feature 382 382 5 square solid SITE
+  FT   SITE         96     96  CARBOHYD_Nlinked GlcNAc Potential
+feature 281 297 4 square solid SIGNAL
+  FT   SIGNAL        1     17  some; Signal; Thiol protease; Zymogen.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ........................................MRTVLVALLALVALTQAISP
+  LDLIKEEWHTYKLQHRKNYANEVEERFRMKIFNENRHKIAKHNQLFAQG.....KVSYKL
+  GLNK.YADMLHHEFKETMNGYNHTLRQLMRERTGLVGATYIP.PA...HVTVPKSVDWRE
+  H.....GAVTGVKDQGHCGSCWAFSSTGALEGQHFRKAG..VLVSLSEQNLVDCSTK...
+  .....YGNNGCNGGLMDNAF.RYIKDNG......GIDTEKSYPYEG..............
+  ........IDDSCH........FNKATIGATDTGFVDIP....EGDEEKMKKAVATMGPV
+  SVAIDASHESFQLYSEG.VYNEPE........CDEQNLDHGVLVVGYGTDES.....GMD
+  YWLVKNSWGTTWGEQGYIKMARN....QNNQCGIAT..ASSYPTV...............
+  ............................................................
+  ......................................
+}
+{
+name CATL_DROME
+descrip Cathepsin L precursor (EC 3.4.22.15) (Cysteine proteinase 1)
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 298 334 2 square solid PFAM-A
+  FT   PFAM-A       19     55  PF01352 KRAB
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      124    340  PF00112 Peptidase_C1
+feature 441 441 0 square solid SITE
+  FT   SITE        148    148  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        287    287  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        308    308  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        145    188  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        179    221  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        280    330  DISULFID_Interchain By similarity
+feature 382 382 5 square solid SITE
+  FT   SITE         97     97  CARBOHYD_Nlinked GlcNAc Potential
+feature 280 297 4 square solid SIGNAL
+  FT   SIGNAL        1     18  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................MRTAVLLPLLALLAVAQAVSF
+  ADVVMEEWHTFKLEHRKNYQDETEERFRLKIFNENKHKIAKHNQRFAEG.....KVSFKL
+  AVNK.YADLLHHEFRQLMNGFNYTLHKQLRAADESFKGVTFISPA...HVTLPKSVDWRT
+  K.....GAVTAVKDQGHCGSCWAFSSTGALEGQHFRKSG..VLVSLSEQNLVDCSTK...
+  .....YGNNGCNGGLMDNAF.RYIKDNG......GIDTEKSYPYEA..............
+  ........IDDSCH........FNKGTVGATDRGFTDIP....QGDEKKMAEAVATVGPV
+  SVAIDASHESFQFYSEG.VYNEPQ........CDAQNLDHGVLVVGFGTDES.....GED
+  YWLVKNSWGTTWGDKGFIKMLRN....KENQCGIAS..ASSYPLV...............
+  ............................................................
+  ......................................
+}
+{
+name CATL_BRUPA
+descrip Cathepsin L-like precursor (EC 3.4.22.15).
+creator Brugia pahangi (Filarial nematode worm).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      182    395  PF00112 Peptidase_C1
+feature 305 383 0 square solid PFAM-B
+  FT   PFAM-B       88    159  PB000027 Pfam-B_27
+feature 218 304 0 square solid PFAM-B
+  FT   PFAM-B        1     87  PB030613 Pfam-B_30613
+feature 441 441 0 square solid SITE
+  FT   SITE        206    206  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        342    342  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        363    363  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        203    246  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        237    278  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        337    385  DISULFID_By similarity
+feature 218 233 4 square solid SIGNAL
+  FT   SIGNAL        1     16  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................................MWTIAQLAVFAILALADFAVAGE
+  IEQLKEVLGKFNKDYKQGNMTRLASDFRSALKEYGDGQQGESTVVQEFLKKTEDNGEQRA
+  MEKLETEWKDYVTALGK.HYDQKENNFRMAIFESNELMTERINKKYEQG.....LVSYTT
+  ALND.LADLTDEEFMVRNGLRLPNQTDLRGKRQTSEFYRYD...K...SERLPDQVDWRT
+  K.....GAVTPVRNQGECGSCYAFATAAALEAYHKQMTG..RLLDLSPQNIVDCTRN...
+  .....LGNNGCSGGYMPTAF.QYASRYG.......IAMESRYPYVG..............
+  ........TEQRCR........WQQSIAVVTDNGFNEIQ....PGDELALKHAVAKRGPV
+  VVGISGSKRSFRFYKDG.VYSEGN........CGR..PDHAVLAVGYGTHPS.....YGD
+  YWIVKNSWGTDWGKDGYVYMARN....RGNMCHIAS..AASFPI................
+  ............................................................
+  ......................................
+}
+{
+name CYS1_HOMAM
+descrip Digestive cysteine proteinase 1 precursor (EC 3.4.22.-).
+creator Homarus americanus (American lobster).Eukaryota;
+type    PROTEIN
+group 1
+feature 397 704 0 square solid PFAM-A
+  FT   PFAM-A      103    321  PF00112 Peptidase_C1
+feature 308 374 0 square solid PFAM-B
+  FT   PFAM-B       20     80  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        129    129  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        269    269  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        289    289  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        126    170  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        160    203  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        262    311  DISULFID_By similarity
+feature 289 304 4 square solid SIGNAL
+  FT   SIGNAL        1     16  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................................MKVVALFLFGLA
+  LAAANPSWEEFKGKFGRKYVDLEEERYRLNVFLDNLQYIEEFNKKYERG.....EVTYNL
+  AINQ.FSDMTNEKFNAVMKGYKKGPRPAAVFTSTDAAP.............ESTEVDWRT
+  K.....GAVTPVKDQGQCGSCWAFSTTGGIEGQHFLKTG..RLVSLSEQQLVDCAGGS..
+  .....YYNQGCNGGWVERAI.MYVRDNG......GVDTESSYPYEAR.............
+  .........DNTCR........FNSNTIGATCTGYVGIA....QGSESALKTATRDIGPI
+  SVAIDASHRSFQSYYTG.VYYEPS........CSSSQLDHAVLAVGYGSEG......GQD
+  FWLVKNSWATSWGESGYIKMARN....RNNNCGIAT..DACYPTV...............
+  ............................................................
+  ......................................
+}
+{
+name CYS2_HOMAM
+descrip Digestive cysteine proteinase 2 precursor (EC 3.4.22.-).
+creator Homarus americanus (American lobster).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      107    322  PF00112 Peptidase_C1
+feature 308 374 0 square solid PFAM-B
+  FT   PFAM-B       20     80  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        131    131  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        270    270  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        290    290  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        128    171  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        162    204  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        263    312  DISULFID_By similarity
+feature 289 304 4 square solid SIGNAL
+  FT   SIGNAL        1     16  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................................MKVAVLFLCGVA
+  LAAASPSWEHFKGKYGRQYVDAEEDSYRRVIFEQNQKYIEEFNKKYENG.....EVTFNL
+  AMNK.FGDMTLEEFNAVMKGNIPRRSAPVSVFYPKKETG...........PQATEVDWRT
+  K.....GAVTPVKDQGQCGSCWAFSTTGSLEGQHFLKTG..SLISLAEQQLVDCSRP...
+  .....YGPQGCNGGWMNDAF.DYIKANN......GIDTEAAYPYEAR.............
+  .........DGSCR........FDSNSVAATCSGHTNIA....SGSETGLQQAVRDIGPI
+  SVTIDAAHSSFQFYSSG.VYYEPS........CSPSYLDHAVLAVGYGSEG......GQD
+  FWLVKNSWATSWGDAGYIKMSRN....RNNNCGIAT..VASYPLV...............
+  ............................................................
+  ......................................
+}
+{
+name CYS3_HOMAM
+descrip Digestive cysteine proteinase 3 precursor (EC 3.4.22.-).
+creator Homarus americanus (American lobster).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      106    320  PF00112 Peptidase_C1
+feature 308 374 0 square solid PFAM-B
+  FT   PFAM-B       20     80  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        130    130  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        268    268  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        288    288  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        127    170  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        161    203  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        261    310  DISULFID_By similarity
+feature 289 304 4 square solid SIGNAL
+  FT   SIGNAL        1     16  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................................MKVAALFLCGLA
+  LATASPSWDHFKTQYGRKYGDAKEELYRQRVFQQNEQLIEDFNKKFENG.....EVTFKV
+  AMNQ.FGDMTNEEFNAVMKGYKKGSRGEPKAVFTAEAG............PMAADVDWRT
+  K.....ALVTPVKDQEQCGSCWAFSATGALEGQHFLKND..ELVSLSEQQLVDCSTD...
+  .....YGNDGCGGGWMTSAF.DYIKDNG......GIDTESSYPYEAE.............
+  .........DRSCR........FDANSIGAICTGSVEVQ.....HTEEALQEAVSGVGPI
+  SVAIDASHFSFQFYSSG.VYYEQN........CSPTFLDHGVLAVGYGTES......TKD
+  YWLVKNSWGSSWGDAGYIKMSRN....RDNNCGIAS..EPSYPTV...............
+  ............................................................
+  ......................................
+}
+{
+name CPR2_ARATH
+descrip Putative cysteine proteinase At3g43960 precursor (EC 3.4.22.
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A      127    346  PF00112 Peptidase_C1
+feature 309 374 0 square solid PFAM-B
+  FT   PFAM-B       42     98  PB000027 Pfam-B_27
+feature 441 441 0 square solid SITE
+  FT   SITE        152    152  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        290    290  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        311    311  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        149    192  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        183    226  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        283    336  DISULFID_By similarity
+feature 355 355 5 square solid SITE
+  FT   SITE         80     80  CARBOHYD_Nlinked GlcNAc Potential
+feature 608 608 5 square solid SITE
+  FT   SITE        270    270  CARBOHYD_Nlinked GlcNAc Potential
+feature 707 707 5 square solid SITE
+  FT   SITE        349    349  CARBOHYD_Nlinked GlcNAc Potential
+feature 268 281 4 square solid SIGNAL
+  FT   SIGNAL        1     14  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MAISFRTLALLTLSVLLISISLGVVTATESQRN
+  EGEVLTMYEQWLVENGKNYNGLGEKERRFKIFKDNLKRIEEHNSDP........NRSYER
+  GLNK.FSDLTADEFQASYLGGKMEKKSLSDVAERYQYKEG.........DVLPDEVDWRE
+  R....GAVVPRVKRQGECGSCWAFAATGAVEGINQITTG..ELVSLSEQELIDCDRG...
+  .....NDNFGCAGGGAVWAF.EFIKENG......GIVSDEVYGYTG..............
+  .......EDTAACK......AIEMKTTRVVTINGHEVVP.....VNDEMSLKKAVAYQPI
+  SVMISAAN..MSDYKSG.VYKGA.........CSNLWGDHNVLIVGYGTSSD.....EGD
+  YWLIRNSWGPEWGEGGYLRLQRN.FHEPTGKCAVAV..APVYPIKSNSSSHLLSPSVFKL
+  VVLFVFQLISLALL..............................................
+  ......................................
+}
+{
+name ACP1_ENTHI
+descrip Cysteine proteinase ACP1 precursor (EC 3.4.22.-).
+creator Entamoeba histolytica.Eukaryota;
+type    PROTEIN
+group 1
+feature 412 704 0 square solid PFAM-A
+  FT   PFAM-A       93    303  PF00112 Peptidase_C1
+feature 441 441 0 square solid SITE
+  FT   SITE        115    115  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        251    251  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        271    271  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        112    153  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        146    186  DISULFID_By similarity
+feature 291 303 4 square solid SIGNAL
+  FT   SIGNAL        1     13  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................MFALILFVSL
+  ACANEVAFKQWAATHNKVFANRAEYLYRFAVFLDNKKFVEANANT...............
+  ELNV.FADMTHEEFIQTHLGMTYEVPETTSNVKAAVK.............AAPESVDWRS
+  I.......MNPAKDQGQCGSCWTFCTTAVLEGRVNKDLG..KLYSFSEQQLVDCDAS...
+  .......DNGCEGGHPSNSL.KFIQENN......GLGLESDYPYKA..............
+  ........VAGTCK..........KVKNVATVTGSRRVT....DGSETGLQTIIAENGPV
+  AVGMDASRPSFQLYKKGTIYSDTK........CRSRMMNHCVTAVGYGSNS......NGK
+  YWIIRNSWGTSWGDAGYFLLARD....SNNMCGIGR..DSNYPTGVKLI...........
+  ............................................................
+  ......................................
+}
+{
+name CPR1_DROME
+descrip Putative cysteine proteinase CG12163 precursor (EC 3.4.22.-)
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 441 441 0 square solid SITE
+  FT   SITE        418    418  ACT_SITE_By similarity
+feature 640 640 0 square solid SITE
+  FT   SITE        555    555  ACT_SITE_By similarity
+feature 666 666 0 square solid SITE
+  FT   SITE        581    581  ACT_SITE_By similarity
+feature 438 491 3 square solid SITE
+  FT   SITE        415    456  DISULFID_By similarity
+feature 474 553 3 square solid SITE
+  FT   SITE        449    489  DISULFID_By similarity
+feature 633 692 3 square solid SITE
+  FT   SITE        548    602  DISULFID_By similarity
+feature 151 151 5 square solid SITE
+  FT   SITE        151    151  CARBOHYD_Nlinked GlcNAc Potential
+feature 564 564 5 square solid SITE
+  FT   SITE        492    492  CARBOHYD_Nlinked GlcNAc Potential
+feature 586 586 5 square solid SITE
+  FT   SITE        510    510  CARBOHYD_Nlinked GlcNAc Potential
+feature 1 20 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Potential.
+feature 37 175 1 square solid VARSPLIC
+  FT   VARSPLIC     37    175  Missing (in isoform B).
+sequence
+  MRLFAAATVALVLLLGQAAGEELAEERAGQAQGDAESTESSETTTDQAVSEPPITLVHVL
+  NPGEREYLSPNLIGVQNIAMTFLPLSMNFVNIIDAFREITAGVRYEILLNALDTKAIQPA
+  EADIVCRLVILEKPWLRTQWGDKHRELVTSNCTDPAVNSVAGDPAEKARLLNEKYVHRSR
+  RSANDILGRHKPYDEEAAKAQLQKSLDKLTAGEGPHYKIVKVYSASRQVDSGILTRIDAD
+  LIDGSEEQHRCIVDIWTKVWVRKDEHEITFKCRNQPVVQARHTRSVEWAEKKTHKKHSHR
+  FDKVDHLFYKFQVRFGRRYVSTAERQMRLRIFRQNLKTIEELNAN.........EMGSAK
+  YGITEFADMTSSEYKERTGLWQRDEAKATGGSAAVVPAYHG.........ELPKEFDWRQ
+  K.....DAVTQVKNQGSCGSCWAFSVTGNIEGLYAVKTG..ELKEFSEQELLDCDTT...
+  .......DSACNGGLMDNAY.KAIKDIG......GLEYEAEYPYKAK.............
+  .........KNQCH........FNRTLSHVQVAGFVDLP....KGNETAMQEWLLANGPI
+  SIGINAN..AMQFYRGG.VSHPWKAL......CSKKNLDHGVLVVGYGVSDYPNFHKTLP
+  YWIVKNSWGPRWGEQGYYRVYRG.....DNTCGVSE..MATSAVLA..............
+  ............................................................
+  ......................................
+}

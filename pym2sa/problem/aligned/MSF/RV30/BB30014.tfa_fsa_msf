@@ -1,0 +1,650 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:   647  Type: P  octubre 20, 2015 11:16  Check:    0  ..
+
+ Name: 1ags_A     Len:   647  Check:  417  Weight:  1.00
+ Name: GTA1_BOVIN Len:   647  Check: 9873  Weight:  1.00
+ Name: GTA1_MOUSE Len:   647  Check: 1726  Weight:  1.00
+ Name: GTC1_RAT   Len:   647  Check: 8615  Weight:  1.00
+ Name: GTC_RABIT  Len:   647  Check: 7495  Weight:  1.00
+ Name: GTA1_RABIT Len:   647  Check: 2901  Weight:  1.00
+ Name: GTA1_CAVPO Len:   647  Check: 4299  Weight:  1.00
+ Name: GTA3_RAT   Len:   647  Check:   54  Weight:  1.00
+ Name: GTA3_CHICK Len:   647  Check:  401  Weight:  1.00
+ Name: GTA2_CHICK Len:   647  Check: 9985  Weight:  1.00
+ Name: GTA1_CHICK Len:   647  Check: 6590  Weight:  1.00
+ Name: GTA1_ANTST Len:   647  Check: 7338  Weight:  1.00
+ Name: GTA4_HUMAN Len:   647  Check: 4279  Weight:  1.00
+ Name: 1oe7_A     Len:   647  Check: 3636  Weight:  1.00
+ Name: GTP1_BUFBU Len:   647  Check: 9206  Weight:  1.00
+ Name: GT28_SCHJA Len:   647  Check: 3771  Weight:  1.00
+ Name: GTS1_ASCSU Len:   647  Check: 5152  Weight:  1.00
+ Name: GTS9_CAEEL Len:   647  Check: 5111  Weight:  1.00
+ Name: GTS3_CAEEL Len:   647  Check: 9637  Weight:  1.00
+ Name: GTS5_CAEEL Len:   647  Check: 1532  Weight:  1.00
+ Name: GTS6_CAEEL Len:   647  Check: 1646  Weight:  1.00
+ Name: GTS4_CAEEL Len:   647  Check: 3876  Weight:  1.00
+ Name: GTS2_CAEEL Len:   647  Check: 1626  Weight:  1.00
+ Name: GTS1_CAEEL Len:   647  Check: 9804  Weight:  1.00
+ Name: GTS_ANOGA  Len:   647  Check: 7691  Weight:  1.00
+ Name: GTS2_MANSE Len:   647  Check: 5386  Weight:  1.00
+ Name: GT1_ONCVO  Len:   647  Check: 4123  Weight:  1.00
+ Name: SC11_OMMSL Len:   647  Check: 3387  Weight:  1.00
+ Name: SC2_OCTDO  Len:   647  Check:  810  Weight:  1.00
+ Name: 1aw9_      Len:   647  Check:  181  Weight:  1.00
+ Name: GTH3_ARATH Len:   647  Check: 7494  Weight:  1.00
+ Name: GTH7_ARATH Len:   647  Check:  759  Weight:  1.00
+ Name: GTH6_ARATH Len:   647  Check: 2562  Weight:  1.00
+ Name: GTH_SILCU  Len:   647  Check:  183  Weight:  1.00
+ Name: GTH1_ARATH Len:   647  Check: 1225  Weight:  1.00
+ Name: GTH4_ARATH Len:   647  Check: 8285  Weight:  1.00
+ Name: GTH4_MAIZE Len:   647  Check: 6344  Weight:  1.00
+ Name: GTH1_MAIZE Len:   647  Check: 2215  Weight:  1.00
+ Name: GTH1_WHEAT Len:   647  Check: 2676  Weight:  1.00
+ Name: GTH5_ARATH Len:   647  Check: 1281  Weight:  1.00
+ Name: 1eem_A     Len:   647  Check: 7039  Weight:  1.00
+ Name: GTO1_MOUSE Len:   647  Check: 7484  Weight:  1.00
+ Name: GTO2_HUMAN Len:   647  Check: 1131  Weight:  1.00
+ Name: YKJ3_CAEEL Len:   647  Check:  246  Weight:  1.00
+
+//
+
+           1                                                   50
+1ags_A     AE-------- ---------- ---------- ---------- ----------
+GTA1_BOVIN AG-------- ---------- ---------- ---------- ----------
+GTA1_MOUSE AG-------- ---------- ---------- ---------- ----------
+GTC1_RAT   PG-------- ---------- ---------- ---------- ----------
+GTC_RABIT  AG-------- ---------- ---------- ---------- ----------
+GTA1_RABIT MAR------- ---------- ---------- ---------- ----------
+GTA1_CAVPO SG-------- ---------- ---------- ---------- ----------
+GTA3_RAT   MEV------- ---------- ---------- ---------- ----------
+GTA3_CHICK AA-------- ---------- ---------- ---------- ----------
+GTA2_CHICK MAG------- ---------- ---------- ---------- ----------
+GTA1_CHICK MSG------- ---------- ---------- ---------- ----------
+GTA1_ANTST MAG------- ---------- ---------- ---------- ----------
+GTA4_HUMAN MAA------- ---------- ---------- ---------- ----------
+1oe7_A     D--------- ---------- ---------- ---------- ----------
+GTP1_BUFBU P--------- ---------- ---------- ---------- ----------
+GT28_SCHJA V--------- ---------- ---------- ---------- ----------
+GTS1_ASCSU P--------- ---------- ---------- ---------- ----------
+GTS9_CAEEL MV-------- ---------- ---------- ---------- ----------
+GTS3_CAEEL MV-------- ---------- ---------- ---------- ----------
+GTS5_CAEEL MV-------- ---------- ---------- ---------- ----------
+GTS6_CAEEL MV-------- ---------- ---------- ---------- ----------
+GTS4_CAEEL MP-------- ---------- ---------- ---------- ----------
+GTS2_CAEEL MV-------- ---------- ---------- ---------- ----------
+GTS1_CAEEL MP-------- ---------- ---------- ---------- ----------
+GTS_ANOGA  LSS------- ---------- ---------- ---------- -SSISRSSLK
+GTS2_MANSE MP-------- ---------- ---------- ---------- ----------
+GT1_ONCVO  FI-TMNFVVE AASSNANQAI TSENSIKPKG KLQPQ----- ----------
+SC11_OMMSL MP-------- ---------- ---------- ---------- ----------
+SC2_OCTDO  MP-------- ---------- ---------- ---------- ----------
+1aw9_      AP-------- ---------- ---------- ---------- ----------
+GTH3_ARATH VL-------- ---------- ---------- ---------- ----------
+GTH7_ARATH MV-------- ---------- ---------- ---------- ----------
+GTH6_ARATH MA-------- ---------- ---------- ---------- ----------
+GTH_SILCU  T--------- ---------- ---------- ---------- ----------
+GTH1_ARATH MA-------- ---------- ---------- ---------- ----------
+GTH4_ARATH AG-------- ---------- ---------- ---------- ----------
+GTH4_MAIZE ATP------- ---------- ---------- ---------- ----------
+GTH1_MAIZE AP-------- ---------- ---------- ---------- ----------
+GTH1_WHEAT MS-------- ---------- ---------- ---------- ----------
+GTH5_ARATH MV-------- ---------- ---------- ---------- ----------
+1eem_A     SA-------- ---------- ---------- ---------- -RSLGKGSAP
+GTO1_MOUSE MSG------- ---------- ---------- --------ES SRSLGKGSAP
+GTO2_HUMAN MSG------- ---------- ---------- --------DA TRTLGKGSQP
+YKJ3_CAEEL MT-V------ ---------- ---------- -----LAGVN SK--------
+
+           51                                                 100
+1ags_A     ---------- ---------- -KP------- ---------- KLHYFNARGR
+GTA1_BOVIN ---------- ---------- -KP------- ---------- TLHYFNGRGR
+GTA1_MOUSE ---------- ---------- -KP------- ---------- VLHYFNARGR
+GTC1_RAT   ---------- ---------- -KP------- ---------- VLHYFDGRGR
+GTC_RABIT  ---------- ---------- -KP------- ---------- KLHYFNARGR
+GTA1_RABIT ---------- ---------- -KP------- ---------- LLHYFNGRGR
+GTA1_CAVPO ---------- ---------- -KP------- ---------- VLHYFNVQGR
+GTA3_RAT   ---------- ---------- -KP------- ---------- KLYYFQGRGR
+GTA3_CHICK ---------- ---------- -KP------- ---------- VLYYFNGRGK
+GTA2_CHICK ---------- ---------- -KP------- ---------- KLHYTRGRGK
+GTA1_CHICK ---------- ---------- -KP------- ---------- VLHYANTRGR
+GTA1_ANTST ---------- ---------- -EQ------- ---------- NIKYFNIKGR
+GTA4_HUMAN ---------- ---------- -RP------- ---------- KLHYPNGRGR
+1oe7_A     ---------- ---------- -HI------- ---------- KVIYFNGRGR
+GTP1_BUFBU ---------- ---------- -EY------- ---------- TIIYFNARGR
+GT28_SCHJA ---------- ---------- ---------- ---------- KLIYFNGRGR
+GTS1_ASCSU ---------- ---------- -QY------- ---------- KLTYFDIRGL
+GTS9_CAEEL ---------- ---------- -SY------- ---------- KLIYFQSRGN
+GTS3_CAEEL ---------- ---------- -HY------- ---------- KLTYFNARGL
+GTS5_CAEEL ---------- ---------- -SY------- ---------- KLTYFNGRGA
+GTS6_CAEEL ---------- ---------- -HY------- ---------- KLVYFPLRAR
+GTS4_CAEEL ---------- ---------- -NY------- ---------- KLLYFDARAL
+GTS2_CAEEL ---------- ---------- -HY------- ---------- KLMCFDVRGL
+GTS1_CAEEL ---------- ---------- -HF------- ---------- KFYYFDVRGR
+GTS_ANOGA  CNIMP----- ---------- -DY------- ---------- KVYYFNVKAL
+GTS2_MANSE ---------- ---------- -KV------- ---------- VFHYFGAKGW
+GT1_ONCVO  ---ME----- ---------- -KY------- ---------- TLTYFNGRGR
+SC11_OMMSL ---------- ---------- -SY------- ---------- TLYYFNGRGR
+SC2_OCTDO  ---------- ---------- -SY------- ---------- TLNYFNHRGR
+1aw9_      ---------- ---------- ---LKLYGMP LSPNVVRVAT ----------
+GTH3_ARATH ---------- ---------- -T---IYA-P LFASSKRAVV ----------
+GTH7_ARATH ---------- ---------- ---VKVYGQI KAANPQRVLL ----------
+GTH6_ARATH ---------- ---------- -S-IKVHGVP MSTATMRVLA ----------
+GTH_SILCU  ---------- ---------- ---IKVHGNP RSTATQRVLV ----------
+GTH1_ARATH ---------- ---------- -G-IKVFGHP ASTATRRVLI ----------
+GTH4_ARATH ---------- ---------- ---IKVFGHP ASIATRRVLI ----------
+GTH4_MAIZE ---------- ---------- -A-VKVYGWA ISPFVSRALL ----------
+GTH1_MAIZE ---------- ---------- ---MKLYGAV MSWNLTRCAT ----------
+GTH1_WHEAT ---------- ---------- -P-VKVFGHP MLTNVARVLL ----------
+GTH5_ARATH ---------- ---------- -T-VKLYGMA YSTCTKRVYT ----------
+1eem_A     PGP---VPEG S--------- ---IRIYSMR FCPFAERTRL ----------
+GTO1_MOUSE PGP---VPEG Q--------- ---IRVYSMR FCPFAQRTLM ----------
+GTO2_HUMAN PGP---VPEG L--------- ---IRIYSMR FCPYSHRTRL ----------
+YKJ3_CAEEL -----IVKNG CWNHSYLQHA I--------- -LPVAQRALI ----------
+
+           101                                                150
+1ags_A     MESTRWLLAA AGVEFEEKFI KSAEDLDKL- -RNDGY---- ----------
+GTA1_BOVIN MECIRWLLAA AGVEFEEKFI EKPEDLDKL- -KNDGS---- ----------
+GTA1_MOUSE MECIRWLLAA AGVEFEEKFI QSPEDLEKL- -KKDGN---- ----------
+GTC1_RAT   MEPIRWLLAA AGVEFEEQFL KTRDDLARL- -RNDGS---- ----------
+GTC_RABIT  MESIRWLLTA AGVEFEEKCM KTREDLEKL- -RKDGV---- ----------
+GTA1_RABIT MESIRWLLAA AGEEFDEKFM ETAEDLDKL- -RNDGS---- ----------
+GTA1_CAVPO MESIRWLLAA AGVEFEEKLI MCQEDLDKL- -KNDGL---- ----------
+GTA3_RAT   MESIRWLLAT AGVEFEEEFL ETREQYEKL- -QKDGC---- ----------
+GTA3_CHICK MESIRWLLAA AGVEFEEVFL ETREQYEKL- -LQSGI---- ----------
+GTA2_CHICK MESIRWLLAA AGVEFEEEFI EKKEDLEKL- -RNDGS---- ----------
+GTA1_CHICK MESVRWLLAA AGVEFEEKFL EKKEDLQKL- -KSDGS---- ----------
+GTA1_ANTST MEAIRWLLAV AGVEFEEKFF ETKEQLQKL- -KET-V---- ----------
+GTA4_HUMAN MESVRWVLAA AGVEFDEEFL ETKEQLYKL- -QDGNH---- ----------
+1oe7_A     AESIRMTLVA AGVNYEDERI S-FQDWPK-- IKPT------ ----------
+GTP1_BUFBU CEAMRMLMAD QGAQWKEEVV T-SDDWQKGD LKKA------ ----------
+GT28_SCHJA AEPIRMILVA AGVEFEDERI E-FQDWPK-- IKPT------ ----------
+GTS1_ASCSU GEGARLIFHQ AGVKFEDNRL K-REDWPA-- LKPK------ ----------
+GTS9_CAEEL GEIARQVFAF AGQEFIDERI S-KEQWAE-- IKNM------ ----------
+GTS3_CAEEL AEISRQLFHM AGVEFEDERI N-EEKFSQ-- LKPT------ ----------
+GTS5_CAEEL GEVSRQIFAY AGQQYEDNRV T-QEQWPAL- -KETCA---- ----------
+GTS6_CAEEL AEIARQIFAY AGQDYSEENL S-FEQWPA-- RKNN------ ----------
+GTS4_CAEEL AEPIRIMFAM LNVPYEDYRV S-VEEWSK-- LKPT------ ----------
+GTS2_CAEEL GEVIRQLFYL GDVSFEDFRV S-REEFKS-- LKSN------ ----------
+GTS1_CAEEL GEAIRLLFHL ADEKFDDERF G-MEQWGV-- LKSE------ ----------
+GTS_ANOGA  GEPLRFLLSY GNLPFDDVRI T-REEWPA-- LKPT------ ----------
+GTS2_MANSE ARPT-MLLAY GGQEFEDHRV E-YEQWPE-- FKPN------ ----------
+GT1_ONCVO  AEVIRLLFAL ANVSYEDNRI T-RDEWKY-- LKPR------ ----------
+SC11_OMMSL AEICRMLFAV ASVQYQDKRI E-LAEWTQ-- FKTK------ ----------
+SC2_OCTDO  AEICRMLFAA AGVQYNDRRI E-TSEWSN-- MRSK------ ----------
+1aw9_      ------VLNE KGLDFEIV-- ---------- ------PVDL TTGAHKQPD-
+GTH3_ARATH ------TLVE KGVSFETV-- ---------- ------NVDL MKGEQRQPE-
+GTH7_ARATH ------CFLE KDIEFEVI-- ---------- ------HVDL DKLEQKKPQ-
+GTH6_ARATH ------TLYE KDLQFELI-- ---------- ------PVDM RAGAHKQEA-
+GTH_SILCU  ------ALYE KHLEFEFV-- ---------- ------PIDM GAGGHKQPS-
+GTH1_ARATH ------ALHE KNVDFEFV-- ---------- ------HVEL KDGEHKKEP-
+GTH4_ARATH ------ALHE KNLDFELV-- ---------- ------HVEL KDGEHKKEP-
+GTH4_MAIZE ------ALEE AGVDYELV-- ---------- ------PMSR QDGDHRRPE-
+GTH1_MAIZE ------ALEE AGSDYEIV-- ---------- ------PINF ATAEHKSPE-
+GTH1_WHEAT ------FLEE VGAEYELV-- ---------- ------PMDF VAGEHKRPQ-
+GTH5_ARATH ------TAKE IGVDVKIV-- ---------- ------PVDL MKGEHKEPA-
+1eem_A     ------VLKA KGIRHEVI-- ---------- ------NINL K----NKPEW
+GTO1_MOUSE ------VLKA KGIRHEVI-- ---------- ------NINL K----NKPEW
+GTO2_HUMAN ------VLKA KDIRHEVV-- ---------- ------NINL R----NKPEW
+YKJ3_CAEEL ------YASV KNIPSDV--- -I-------- ------NVHL Q----EKPDW
+
+           151                                                200
+1ags_A     -----LMF-- QQVPMVEIDG --------MK LVQTRAILNY IASKYN---L
+GTA1_BOVIN -----LMF-- QQVPMVEIDG --------MK LVQTRAILNY IATKYN---L
+GTA1_MOUSE -----LMF-- DQVPMVEIDG --------MK LAQTRAILNY IATKYD---L
+GTC1_RAT   -----LMF-- QQVPMVEIDG --------MK LVQTRAILNY IATKYN---L
+GTC_RABIT  -----LMF-- QQVPMVEIDG --------MK LVQTRAIFNY IADKHN---L
+GTA1_RABIT -----LMY-- QQVPMVEIDG --------MK LVQTRAILNY VANKHN---L
+GTA1_CAVPO -----LMF-- QQVPMVEMDG --------MK MVQSRAILNY IATKYN---L
+GTA3_RAT   -----LLF-- GQVPLVEIDG --------ML LTQTRAILSY LAAKYN---L
+GTA3_CHICK -----LMF-- QQVPMVEIDG --------MK LVQTRAILNY IAGKYN---L
+GTA2_CHICK -----LLF-- QQVPMVEIDG --------MK MVQSRAILCY IAGKYN---L
+GTA1_CHICK -----LLF-- QQVPMVEIDG --------MK MVQTRAILNY IAGKYN---L
+GTA1_ANTST -----LLF-- QQVPMVEIDG --------MK LVQTRAILHY IAEKYN---L
+GTA4_HUMAN -----LLF-- QQVPMVEIDG --------MK LVQTRSILHY IADKHN---L
+1oe7_A     -----IPG-- GRLPAVKITD NHGHV---KW MVESLAIARY MAKKHH---M
+GTP1_BUFBU -----AVY-- GQLPGFKDGD --------FT LYQSNAMLRL LARNHD---L
+GT28_SCHJA -----IPG-- GRLPIVKITD KRGDV---KT MSESLAIARF IARKHN---M
+GTS1_ASCSU -----TPF-- GQLPLLEVDG --------EV LAQSAAIYRY LGRQFG---L
+GTS9_CAEEL -----TPF-- GQVPVLEVDG --------RQ LAQSITIVRY LSKQFG---I
+GTS3_CAEEL -----FPS-- GQVPILCIDG --------AQ FSQSTAIARY LARKFG---F
+GTS5_CAEEL -----APF-- GQLPFLEVDG --------KK LAQSHAIARF LAREFK---L
+GTS6_CAEEL -----TPF-- GQLPILEVDG --------KP LGQSYAIARY LAREFG---I
+GTS4_CAEEL -----TPF-- GQLPILQVDG --------EQ FGQSMSITRY LARKFG---L
+GTS2_CAEEL -----LPS-- GQLPVLEIDG --------VM ISQSASIGRF LARQYG---Y
+GTS1_CAEEL -----MPL-- GQVPVLEIDG --------VK ISQTTAIARY LGHQFH---R
+GTS_ANOGA  -----MPM-- RQMPVLEVDG --------KR VHQSLAMCRY VAKQIN---L
+GTS2_MANSE -----TPF-- GQMPVLEIDG --------KK YAQSLAISRY LGRKYG---L
+GT1_ONCVO  -----TPF-- GHVPMLNVSG --------NV LGESHAIELL LGGRFG---L
+SC11_OMMSL -----MPC-- HMLPILEIDT E-------TQ VPQSMAISRY LAREFG---F
+SC2_OCTDO  -----MPC-- SMMPMLDIDN R-------HQ IPQTMAIARY LAREFG---F
+1aw9_      FL-ALNPF-- GQIPALVDGD --------EV LFESRAINRY IASKYA---S
+GTH3_ARATH YL-AIQPF-- GKIPVLVDGD --------YK IFESRAIMRY IAEKYR---S
+GTH7_ARATH HL-LRQPF-- GQVPAIEDGY --------LK LFESRAIARY YATKYA---D
+GTH6_ARATH HL-ALNPF-- GQIPALEDGD --------LT LFESRAITQY LAEEYS---E
+GTH_SILCU  YL-ALNPF-- GQVPALEDGE --------IK LFESRAITKY LAYTH-DHQN
+GTH1_ARATH FI-LRNPF-- GKVPAFEDGD --------FK IFESRAITQY IAHEFS---D
+GTH4_ARATH FL-SRNPF-- GQVPAFEDGD --------LK LFESRAITQY IAHRYE---N
+GTH4_MAIZE HL-ARNPF-- GKVPVLEDGD --------LT LFESRAIARH VLRKH-KP--
+GTH1_MAIZE HL-VRNPF-- GQVPALQDGD --------LY LFESRAICKY AARKN-KP--
+GTH1_WHEAT HV-QLNPF-- AKMPGFQDGD --------LV LFESRAIAKY ILRKYG--GT
+GTH5_ARATH YLDNYHPF-- GVIPVLEDED G-------TK IYESRAISRY LVAKYG--K-
+1eem_A     FF-KKNPF-- GLVPVLENSQ G-------QL IYESAITCEY LDEAY-----
+GTO1_MOUSE FF-EKNPL-- GLVPVLENSQ G-------HL VTESVITCEY LDE-------
+GTO2_HUMAN YY-TKHPF-- GHIPVLETSQ C-------QL IYESVIACEY LDD-------
+YKJ3_CAEEL YF-SKH--YK GQVPTLEHDE G----KKH-- VIESAVIPEY L-----DD--
+
+           201                                                250
+1ags_A     YRKD------ ---IKEK--A LIDMYIEGIA DLGEM--ILL ----------
+GTA1_BOVIN YGKD------ ---MKER--A LIDMYSEGVA DLGEM--IMH ----------
+GTA1_MOUSE YGKD------ ---MKER--A LIDMYSEGIL DLTEM--IGQ ----------
+GTC1_RAT   YGKD------ ---MKER--A LIDMYAEGVA DLDEI--VLH ----------
+GTC_RABIT  YGKD------ ---IKER--A LIDMYTEGIV DLNEL--ILT ----------
+GTA1_RABIT YGKD------ ---MKER--A LIDMYTEGVA DLYEL--VLL ----------
+GTA1_CAVPO YGKD------ ---TKER--L LIDMYTEGMT DLYEL--FFK ----------
+GTA3_RAT   YGKD------ ---LKER--V RIDMYADGTQ DLMMM--IIG ----------
+GTA3_CHICK YGKD------ ---LKER--A LIDMYVGGTD DLMGF--LLS ----------
+GTA2_CHICK YGKD------ ---LKER--A WIDMYVEGTT DLMGM--IMA ----------
+GTA1_CHICK YGKD------ ---LKER--A LIDMYVEGLA DLYEL--IMM ----------
+GTA1_ANTST LGKD------ ---MKEH--A QIIMYSEGTM DLMEL--IMI ----------
+GTA4_HUMAN FGKN------ ---LKER--T LIDMYVEGTL DLLEL--LIM ----------
+1oe7_A     MGGT------ ---EEEY--Y NVEKLIGQAE DLEHE--YYK ----------
+GTP1_BUFBU YGKN------ ---PREA--S LIDMVNDGVE DLRLK--YLK ----------
+GT28_SCHJA MGDT------ ---DDEY--Y IIEKMIGQVE DVESE--YHK ----------
+GTS1_ASCSU AGKT------ ---PMEE--A QVDSIFDQFK DFMAE--LR- ----------
+GTS9_CAEEL SGKS------ ---SWEE--A QVDALGDQFK DYRVE--AR- ----------
+GTS3_CAEEL VGQT------ ---AEEE--L QADEVVDTFK DFIES--FRK ----------
+GTS5_CAEEL NGKT------ ---AWEE--A QVNSLADQYK DYSSE--AR- ----------
+GTS6_CAEEL AGQN------ ---DTEA--A EVDAIADQFK DYLND--VS- ----------
+GTS4_CAEEL AGKT------ ---AEEE--A YADSIVDQYR DFIFF--FR- ----------
+GTS2_CAEEL SGKT------ ---PTEE--M QVDSIIDLFK DFMLT--FR- ----------
+GTS1_CAEEL AGTN------ ---AVDC--A RLDMIAEVIQ EFMSSSG--- ----------
+GTS_ANOGA  AGDN------ ---PLEA--L QIDAIVDTIN DFRLK--IAI ----------
+GTS2_MANSE AGND------ ---IEED--F EIDQIVDFVN DIRAS--AAS ----------
+GT1_ONCVO  LGTN------ ---DWEE--A KIMAVVLNID ELFQK--LIP ----------
+SC11_OMMSL YGKN------ ---NMDM--F KVDCLCDSLF ELFND--YMA ----------
+SC2_OCTDO  HGKN------ ---NMEM--A RVEYISDCFY DILDD--YLR MYQDDNCRMM
+1aw9_      EGTD-LLPAT A------SAA ---------- ---------- ----------
+GTH3_ARATH QGP-DLLGKT ---IEER--G QVEQWL---- ---------- ----------
+GTH7_ARATH QGT-DLLGKT ---LEGR--A IVDQWV---- ---------- ----------
+GTH6_ARATH KGE-KLISQD CKK----VKA ---------- ---------- ----------
+GTH_SILCU  EGT-SLIHKE KHE---MAA- ---------- ---------- ----------
+GTH1_ARATH KGNN-LLSTG K----DM--A II-------- ---------- ----------
+GTH4_ARATH QGTN-LLQTD SKNIS--QYA ---------- ---------- ----------
+GTH4_MAIZE ----ELLGG- -GRLEQT--A MVDVWL---- ---------- ----------
+GTH1_MAIZE ----ELLRE- -GNLEEA--A MVDVWI---- ---------- ----------
+GTH1_WHEAT AGL-DLLGEN S-GIEEL--A MVDVWT---- ---------- ----------
+GTH5_ARATH -GS-SLLPSP S-DPK--AYG ---------- ---------- ----------
+1eem_A     ---------- ---------- ---------- ---------- ----------
+GTO1_MOUSE ---------- ---------- ---------- ---------- ----------
+GTO2_HUMAN ---------- ---------- ---------- ---------- ----------
+YKJ3_CAEEL ---------- ---------- ---------- ---------- ----------
+
+           251                                                300
+1ags_A     ---------- --LPFTQP-- ---------- ---------- ----------
+GTA1_BOVIN ---------- --FPLCPP-- ---------- ---------- ----------
+GTA1_MOUSE ---------- --LVLCPP-- ---------- ---------- ----------
+GTC1_RAT   ---------- --YPYIPP-- ---------- ---------- ----------
+GTC_RABIT  ---------- --RPFLPP-- ---------- ---------- ----------
+GTA1_RABIT ---------- --LPLCPP-- ---------- ---------- ----------
+GTA1_CAVPO ---------- --VILAPP-- ---------- ---------- ----------
+GTA3_RAT   ---------- --APFKAP-- ---------- ---------- ----------
+GTA3_CHICK ---------- --FPFLSA-- ---------- ---------- ----------
+GTA2_CHICK ---------- --LPFQAA-- ---------- ---------- ----------
+GTA1_CHICK ---------- --NVVQPA-- ---------- ---------- ----------
+GTA1_ANTST ---------- --YPFLKG-- ---------- ---------- ----------
+GTA4_HUMAN ---------- --HPFLKP-- ---------- ---------- ----------
+1oe7_A     ---------- --TLMKPE-- ---------- ---------- ----------
+GTP1_BUFBU ---------- --MIYQNY-- ---------- ---------- ----------
+GT28_SCHJA ---------- --TLIKPP-- ---------- ---------- ----------
+GTS1_ASCSU ---------- --------P- ---------- ---------- -------CF-
+GTS9_CAEEL ---------- --------P- ---------- ---------- -------FF-
+GTS3_CAEEL ---------- --FVIA---- ---------- ---------- ----------
+GTS5_CAEEL ---------- --------P- ---------- ---------- -------YF-
+GTS6_CAEEL ---------- --------P- ---------- ---------- -------YL-
+GTS4_CAEEL ---------- --------Q- ---------- ---------- -------FTS
+GTS2_CAEEL ---------- --------Q- ---------- ---------- -------FFF
+GTS1_CAEEL ---------- --------M- ---------- ---------- -----GKFS-
+GTS_ANOGA  ---------- --VAYEPD-- ---------- ---------- ----------
+GTS2_MANSE ---------- --VEYEQD-- ---------- ---------- ----------
+GT1_ONCVO  ---------- --WTHEKN-- ---------- ---------- ----------
+SC11_OMMSL ---------- --VYNEKD-- ---------- ---------- ----------
+SC2_OCTDO  FQRSGDRNGS SE-------- ---------- ---------- ----------
+1aw9_      ---------- ---------K L--------- ---------- ----------
+GTH3_ARATH ---------- ---------- ---------- ---------- ----------
+GTH7_ARATH ---------- ---------- ---------- ---------- ----------
+GTH6_ARATH ---------- ---------T T--------- ---------- ----------
+GTH_SILCU  ---------- ---------- Q--------- ---------- ----------
+GTH1_ARATH ---------- ---------- ---------- ---------- ----------
+GTH4_ARATH ---------- ---------I M--------- ---------- ----------
+GTH4_MAIZE ---------- ---------- ---------- ---------- ----------
+GTH1_MAIZE ---------- ---------- ---------- ---------- ----------
+GTH1_WHEAT ---------- ---------- ---------- ---------- ----------
+GTH5_ARATH ---------- ---------L F--------- ---------- ----------
+1eem_A     ---------- ---------- -PGKKLLPDD PYEKACQKMI LELFS-----
+GTO1_MOUSE ---------- ---------A YPEKKLFPDD PYKKARQKMT LESFS-----
+GTO2_HUMAN ---------- ---------A YPGRKLFPYD PYERARQKML LELFC-----
+YKJ3_CAEEL ---------- ---------I YPETRILPTD PYEKVQQKLL LDRISGQ---
+
+           301                                                350
+1ags_A     --------EE -Q-DAKLALI K---EKIKNR Y--------- ----------
+GTA1_BOVIN --------AE -K-DAKLTLI R---EKTTNR Y--------- ----------
+GTA1_MOUSE --------DQ -R-EAKTALA K---DRTKNR Y--------- ----------
+GTC1_RAT   --------GE -K-EASLAKI K---DKARNR Y--------- ----------
+GTC_RABIT  --------EE -Q-EAKLAQI K---DKAKNR Y--------- ----------
+GTA1_RABIT --------EQ -K-DAKVDFI K---EKIRTR Y--------- ----------
+GTA1_CAVPO --------EE -K-DAAKSLI K---DRAKNR F--------- ----------
+GTA3_RAT   --------QE -K-EESLALA V---KRAKNR Y--------- ----------
+GTA3_CHICK --------ED -K-VKQCAFV V---EKATSR Y--------- ----------
+GTA2_CHICK --------DV -K-EKNIALI T---ERATTR Y--------- ----------
+GTA1_CHICK --------DK -K-EEHLANA L---DKAANR Y--------- ----------
+GTA1_ANTST --------EE -K-KQRLVEI A---NKAKGR Y--------- ----------
+GTA4_HUMAN --------DD -Q-QKEVVNM A---QKAIIR Y--------- ----------
+1oe7_A     --------EE -K-QKIIKEI L---NGKVPV L--------- ----------
+GTP1_BUFBU --------EN G--K------ -DDYVKALPT N--------- ----------
+GT28_SCHJA --------EE -K-EKISKEI L---NGKVPI L--------- ----------
+GTS1_ASCSU RVLAGFEEGD -K-EKVLKEV A---VPARDK H--------- ----------
+GTS9_CAEEL RAKMGFSDGD -V-DQLYKDL F---VPAFNK M--------- ----------
+GTS3_CAEEL -VLSGESEEI -L-KNIREEV I---KPAVKT Y--------- ----------
+GTS5_CAEEL YAVMGFGPGD -V-ETLKKDI F---LPAFEK F--------- ----------
+GTS6_CAEEL TVLAGFKPGD -K-DQLRTDV F---VPAFKK N--------- ----------
+GTS4_CAEEL SVFYGSDADH -I-NKVRFEV V---EPARDD F--------- ----------
+GTS2_CAEEL AVIHGYPEYE -K-ERMKRDI V---KPAIKN Y--------- ----------
+GTS1_CAEEL RVLLGMIQAN -K-EQFFKEN V---LPDVEK Y--------- ----------
+GTS_ANOGA  --------DM VK-EKKMVTL N---NEVIPF Y--------- ----------
+GTS2_MANSE --------AA NK-EVKHEEN M---KNKYPF Q--------- ----------
+GT1_ONCVO  --------TT KK-AELFRNL S---ESDVMP F--------- ----------
+SC11_OMMSL --------AA -K-KTELQKR F---QNTCLR V--------- ----------
+SC2_OCTDO  ---------- --KR------ -TRYQETLRR I--------- ----------
+1aw9_      ---------- ---------- ---------- ---------- ----------
+GTH3_ARATH ---------- ---------- ---------- ---------- ----------
+GTH7_ARATH ---------- ---------- ---------- ---------- ----------
+GTH6_ARATH ---------- ---------- ---------- ---------- ----------
+GTH_SILCU  ---------- ---------- ---------- ---------- ----------
+GTH1_ARATH ---------- ---------- ---------- ---------- ----------
+GTH4_ARATH ---------- ---------- ---------- ---------- ----------
+GTH4_MAIZE ---------- ---------- ---------- ---------- ----------
+GTH1_MAIZE ---------- ---------- ---------- ---------- ----------
+GTH1_WHEAT ---------- ---------- ---------- ---------- ----------
+GTH5_ARATH ---------- ---------- ---------- ---------- ----------
+1eem_A     ---------- --K------- ---------- -VPSLVGS-F IRS---QNKE
+GTO1_MOUSE ---------- --K------- ---------- -VPPLIAS-F VRS---KRKE
+GTO2_HUMAN ---------- --K------- ---------- -VPHLTKECL VAL---RCGR
+YKJ3_CAEEL ---------- ---------- ---------- -VSPAFYG-V VQAVKN----
+
+           351                                                400
+1ags_A     ---------- ---------- ---------- ---------- ----------
+GTA1_BOVIN ---------- ---------- ---------- ---------- ----------
+GTA1_MOUSE ---------- ---------- ---------- ---------- ----------
+GTC1_RAT   ---------- ---------- ---------- ---------- ----------
+GTC_RABIT  ---------- ---------- ---------- ---------- ----------
+GTA1_RABIT ---------- ---------- ---------- ---------- ----------
+GTA1_CAVPO ---------- ---------- ---------- ---------- ----------
+GTA3_RAT   ---------- ---------- ---------- ---------- ----------
+GTA3_CHICK ---------- ---------- ---------- ---------- ----------
+GTA2_CHICK ---------- ---------- ---------- ---------- ----------
+GTA1_CHICK ---------- ---------- ---------- ---------- ----------
+GTA1_ANTST ---------- ---------- ---------- ---------- ----------
+GTA4_HUMAN ---------- ---------- ---------- ---------- ----------
+1oe7_A     ---------- ---------- ---------- ---------- ----------
+GTP1_BUFBU ---------- ---------- ---------- ---------- ----------
+GT28_SCHJA ---------- ---------- ---------- ---------- ----------
+GTS1_ASCSU ---------- ---------- ---------- ---------- ----------
+GTS9_CAEEL ---------- ---------- ---------- ---------- ----------
+GTS3_CAEEL ---------- ---------- ---------- ---------- ----------
+GTS5_CAEEL ---------- ---------- ---------- ---------- ----------
+GTS6_CAEEL ---------- ---------- ---------- ---------- ----------
+GTS4_CAEEL ---------- ---------- ---------- ---------- ----------
+GTS2_CAEEL ---------- ---------- ---------- ---------- ----------
+GTS1_CAEEL ---------- ---------- ---------- ---------- ----------
+GTS_ANOGA  ---------- ---------- ---------- ---------- ----------
+GTS2_MANSE ---------- ---------- ---------- ---------- ----------
+GT1_ONCVO  ---------- ---------- ---------- ---------- ----------
+SC11_OMMSL ---------- ---------- ---------- ---------- ----------
+SC2_OCTDO  ---------- ---------- ---------- ---------- ----------
+1aw9_      --------EV WLEVESHHFY PNASPLVFQL LVRPLL---- GGAPDAAVVD
+GTH3_ARATH ---------- --DVEATSYH PPLLALTLNI VFAPLM---- GFPADEKVIK
+GTH7_ARATH ---------- --EVENNYFY AVALPLVMNV VFKPKS---- GKPCDVALVE
+GTH6_ARATH --------NV WLQVEGQQFD PNASKLAFER VFKGMF---- GMTTDPAAVQ
+GTH_SILCU  --------LV WEEVEAHQFD PVASKLAWEL VFKGIF---- GMQTDTTVVE
+GTH1_ARATH --------AM GIEIESHEFD PVGSKLVWEQ VLKPLY---- GMTTDKTVVE
+GTH4_ARATH --------AI GMQVEDHQFD PVASKLAFEQ IFKSIY---- GLTTDEAVVA
+GTH4_MAIZE ---------- --EVEAHQLS PPAIAIVVEC VFAPFL---- GRERNQAVVD
+GTH1_MAIZE ---------- --EVEANQYT AALNPILFQV LISPML---- GGTTDQKVVD
+GTH1_WHEAT ---------- --EVEAQQYY PAISPVVFEC IIIPFIIPGG GAAPNQTVVD
+GTH5_ARATH --------EQ AASVEYSSFD PPASSLAYER VFAGMR---- GLKTNEELAK
+1eem_A     DYAGLKE--- ---------- ---------- ---------- ----------
+GTO1_MOUSE DSPNLRE--- ---------- ---------- ---------- ----------
+GTO2_HUMAN ECTNLKA--- ---------- ---------- ---------- ----------
+YKJ3_CAEEL --PDLREE-- ---------- ---------- ---------- ----------
+
+           401                                                450
+1ags_A     ---------- ------FPAF EKVLK----- --SHG--Q-- ------DYL-
+GTA1_BOVIN ---------- ------LPAF ENVLK----- --SHG--Q-- ------DYL-
+GTA1_MOUSE ---------- ------LPAF EKVLK----- --SHG--Q-- ------DYL-
+GTC1_RAT   ---------- ------FPAF EKVLK----- --SHG--Q-- ------DYL-
+GTC_RABIT  ---------- ------FPAF EKVLK----- --SHG--Q-- ------DYL-
+GTA1_RABIT ---------- ------FPAF EKVLK----- --SHG--Q-- ------DYL-
+GTA1_CAVPO ---------- ------LPAF EKVLK----- --SHG--Q-- ------GYL-
+GTA3_RAT   ---------- ------FPVF EKILK----- --DHG--E-- ------AFL-
+GTA3_CHICK ---------- ------FPAY EKVLK----- --DHG--Q-- ------DFL-
+GTA2_CHICK ---------- ------FPVY EKALK----- --DHG--Q-- ------DYL-
+GTA1_CHICK ---------- ------FPVF EKVLK----- --DHG--H-- ------DFL-
+GTA1_ANTST ---------- ------FPAF ENVLK----- --THG--Q-- ------NFL-
+GTA4_HUMAN ---------- ------FPVF EKILR----- --GHG--Q-- ------SFL-
+1oe7_A     ---------- ------LDII CESLK----- --AST--G-- ------KLA-
+GTP1_BUFBU ---------- ------LGHF ERLLA----- --SNNEGK-- ------GFV-
+GT28_SCHJA ---------- ------LQAI CETLK----- --EST--G-- ------NLT-
+GTS1_ASCSU ---------- ------LPLL EKFLA----- --KSG--S-- ------EYM-
+GTS9_CAEEL ---------- ------YSIF TESLK----- --SSG--S-- ------GFL-
+GTS3_CAEEL ---------- ------TAYL KAILE----- --KSS--S-- ------GYL-
+GTS5_CAEEL ---------- ------YGFL VNFLK----- --ASG--S-- ------GFL-
+GTS6_CAEEL ---------- ------FEFF ENILA----- --SNH--S-- ------GFF-
+GTS4_CAEEL ---------- ------LAII NKFLA----- --KSK--S-- ------GFL-
+GTS2_CAEEL ---------- ------FIAL NKILL----- --RSK--S-- ------GFL-
+GTS1_CAEEL ---------- ------APIV EKFLL----- --ENG-NN-- ------GLL-
+GTS_ANOGA  ---------- ------LTKL NVIAK----- ---EN--N-- ------GHL-
+GTS2_MANSE ---------- ------LNKL SEIIT----- ---KN--N-- ------GFL-
+GT1_ONCVO  ---------- ------LGRY EKFLK----- --EST--T-- ------GHI-
+SC11_OMMSL ---------- ------LPYM EKTLE----- --ANKGGA-- ------GWF-
+SC2_OCTDO  ---------- ------LPFM ERTLE----- --MYKSGG-- ------QFF-
+1aw9_      KHAEQLA--- ----KVLD-- -----VYEAH LAR----N-- ------KYL-
+GTH3_ARATH ESEEKLA--- ----EVLD-- -----VYEAQ LSK----N-- ------EYL-
+GTH7_ARATH ELKVKFD--- ----KVLD-- -----VYENR LAT----N-- ------RYL-
+GTH6_ARATH ELEGKLQ--- ----KVLD-- -----VYEAR LAK----S-- ------EFL-
+GTH_SILCU  ENEAKLA--- ----KVLD-- -----VYEAR LTE----S-- ------EYLG
+GTH1_ARATH EEEAKLA--- ----KVLD-- -----VYEHR LGE----S-- ------KYL-
+GTH4_ARATH EEEAKLA--- ----KVLD-- -----VYEAR LKE----F-- ------KYL-
+GTH4_MAIZE ENVEKLK--- ----KVLE-- -----VYEAR LAT----C-- ------TYL-
+GTH1_MAIZE ENLEKLK--- ----KVLE-- -----VYEAR LTK----C-- ------KYL-
+GTH1_WHEAT ESLERLR--- ----GVLG-- -----IYEAR LEK----S-- ------RYL-
+GTH5_ARATH KYVDTLN--- ----AKMD-- -----GYERI LSK----Q-- ------KYL-
+1eem_A     -------EFR KEFT----KL EEVLT----- --NKK--T-- ------TFF-
+GTO1_MOUSE -------ALE NEFK----KL EEGMDNYK-- ---------- ------SFL-
+GTO2_HUMAN -------ALR QEFS----NL EEILE----- --YQN--T-- ------TFF-
+YKJ3_CAEEL ----KFADIK KAYD------ -----NAEQ- --------LL TGDFYS---G
+
+           451                                                500
+1ags_A     ---VGNKLSR ADIHLVELLY Y------V-E EL------D- -SS-------
+GTA1_BOVIN ---VGNKLSR ADIHLVELLY Y------V-E EL------D- -PS-------
+GTA1_MOUSE ---VGNRLTR VDIHLLEVLL Y------V-E EF------D- -AS-------
+GTC1_RAT   ---VGNRLSR ADVYLVQVLY H------V-E EL------D- -PS-------
+GTC_RABIT  ---VGNKLSK ADILLVELLY N------V-E EL------N- -PG-------
+GTA1_RABIT ---VGNRLSK ADILLVELLY N------V-E EL------D- -PS-------
+GTA1_CAVPO ---VGNKLSK ADILLTELLY M------V-E EF------D- -AS-------
+GTA3_RAT   ---VGNQLSW ADIQLLEAIL M------V-E EV------S- -AP-------
+GTA3_CHICK ---VGNRLSW ADIHLLEAIL M------V-E EK------K- -SD-------
+GTA2_CHICK ---VGNKLSW ADIHLLEAIL M------T-E EL------K- -SD-------
+GTA1_CHICK ---VGNKLSR ADVHLLETIL A------V-E ES------K- -PD-------
+GTA1_ANTST ---VGNQLSM ADVQLFEAIL M------V-E EK------V- -PD-------
+GTA4_HUMAN ---VGNQLSL ADVILLQTIL A------L-E EK------I- -PN-------
+1oe7_A     ---VGDKVTL ADLVLIAVID H------V-T DL------D- -KE-------
+GTP1_BUFBU ---VGAHISF ADYNLVDLLH N------H-L VL------A- -PD-------
+GT28_SCHJA ---VGDKVTL ADVVLIASID H------I-T DL------D- -KEF------
+GTS1_ASCSU ---VGKSVTW ADLVITDSLA S------W-E SL------I- -PD-------
+GTS9_CAEEL ---VGDSLTW MDLAIAQHSA D------L-L EA------D- -GK-------
+GTS3_CAEEL ---VGNELTW ADLVIADNLT T------L-I NA------E- -LL-------
+GTS5_CAEEL ---VGDSLTW IDLAIAQHSA D------L-I AK-------- -GG-------
+GTS6_CAEEL ---VGNSLTW VDLLISQHVQ D------I-L DK------D- -LA-------
+GTS4_CAEEL ---VGDSLTW ADIVIADNLT S------L-L KN------G- -FL-------
+GTS2_CAEEL ---VGDDLTW ADLQIADNLS T------L-I -------N-I R--LF-----
+GTS1_CAEEL ---LGDRETW VDVFAAESFS K------L-I DY------G- SPD-------
+GTS_ANOGA  ---VLGKPTW ADVYFAGILD Y------L-N YL------T- KTN-------
+GTS2_MANSE ---ALGRLTW ADFVFVGMFD Y------L-K K--M--LRM- -PD-------
+GT1_ONCVO  ---VGNKVSV ADLTVFNMLM T------L-D D--------- -EV-------
+SC11_OMMSL ---IGDQILL CDMMTHAALE N------P-I QE------N- -AN-------
+SC2_OCTDO  ---MGDQMTM ADMMCYCALE N------P-I ME------E- -SS-------
+1aw9_      ---AGDEFTL ADANHASYLL Y------L-S --K-TP---- --------KA
+GTH3_ARATH ---AGDFVSL ADLAHLPFTE Y------LV- --GPIG---- --------KA
+GTH7_ARATH ---GGDEFTL ADLSHMPGMR Y------IM- --NETS---- --------LS
+GTH6_ARATH ---AGDSFTL ADLHHLPAIH Y------L-L GT------D- --------SK
+GTH_SILCU  A---NDSFTL VDLHHLPLLG Y------LM- --G-TQ---- --------VK
+GTH1_ARATH ---ASDHFTL VDLHTIPVIQ Y------LL- --G-TP---- --------TK
+GTH4_ARATH ---AGETFTL TDLHHIPAIQ Y------LL- --G-TP---- --------TK
+GTH4_MAIZE ---AGDFLSL ADLSPFTIMH C------LM- --A-TE---- --------YA
+GTH1_MAIZE ---AGDFLSL ADLNHVSVTL C------LF- --A-TP---- --------YA
+GTH1_WHEAT ---AGDSITF ADLNHIPFTF Y------FM- --T-TP---- --------YA
+GTH5_ARATH ---AGNDFTL ADLFHLPYGA M------V-A QL------E- -PT-------
+1eem_A     ---GGNSISM IDYLIWPWFE R------LE- --A-MK---- --------LN
+GTO1_MOUSE ---GGDSPSM VDYLTW---- --PWFQRLE- --A-LE---- --------LK
+GTO2_HUMAN ---GGTCISM IDYLLW---- --PWFER--- ------L--D -----VYGI-
+YKJ3_CAEEL TSK----PGF VDYLL----- -YPNIQR--- ---------- -----AYW--
+
+           501                                                550
+1ags_A     -LI-SSFPLL KALKTR---- ---------- ---------- ---------I
+GTA1_BOVIN -LL-ANFPLL KALKAR---- ---------- ---------- ---------V
+GTA1_MOUSE -LL-TPFPLL KAFKSR---- ---------- ---------- ---------I
+GTC1_RAT   -AL-ANFPLL KALRTR---- ---------- ---------- ---------V
+GTC_RABIT  -AT-ASFPLL QALKTR---- ---------- ---------- ---------I
+GTA1_RABIT -AI-ASFPLL KALKTR---- ---------- ---------- ---------I
+GTA1_CAVPO -LL-ANFTLL QALKTR---- ---------- ---------- ---------V
+GTA3_RAT   -VL-SDFPLL QAFKTR---- ---------- ---------- ---------I
+GTA3_CHICK -AL-SGFPLL QAFKKR---- ---------- ---------- ---------I
+GTA2_CHICK -IL-SAFPLL QAFKGR---- ---------- ---------- ---------M
+GTA1_CHICK -AL-AKFPLL QSFKAR---- ---------- ---------- ---------T
+GTA1_ANTST -AL-SGFPLL QAFKTR---- ---------- ---------- ---------I
+GTA4_HUMAN -IL-SAFPFL QEYTVK---- ---------- ---------- ---------L
+1oe7_A     FLT-GKYPEI HKHREN---- ---------- ---------- -------L-L
+GTP1_BUFBU -CL-SGFPLL CAYVKR---- ---------- ---------- ---------I
+GT28_SCHJA -LT-GKYPEI HKHRKH---- ---------- ---------- -------L-L
+GTS1_ASCSU -FL-SGHLQL KKYIEH---- ---------- ---------- ---------V
+GTS9_CAEEL -IL-DTFLEM KDHQKK---- ---------- ---------- ---------I
+GTS3_CAEEL -DI-ENDKLL KEFREK---- ---------- ---------- ---------I
+GTS5_CAEEL -DF-SKFPEL KAHAEK---- ---------- ---------- ---------I
+GTS6_CAEEL -VV-EEFKKV LAHRKK---- ---------- ---------- ---------V
+GTS4_CAEEL -DF-NKEKKL EEFYNK---- ---------- ---------- ---------I
+GTS2_CAEEL ---AEKEPHL NVFIRK---- ---------- ---------- ---------L
+GTS1_CAEEL -AL-DAYPHI LALINR---- ---------- ---------- ---------V
+GTS_ANOGA  -LL-ENFPNL QEVVQK---- ---------- ---------- ---------V
+GTS2_MANSE -LE-EQYPIF KKPIET---- ---------- ---------- ---------V
+GT1_ONCVO  -KL-EEYPQL ASFVNK---- ---------- ---------- ---------I
+SC11_OMMSL -LL-KEYPKL AALRTR---- ---------- ---------- ---------V
+SC2_OCTDO  -LL-NSYPKL QALRTR---- ---------- ---------- ---------V
+1aw9_      GLV-AARPHV KAWWEA---- ---------- ---------- ---------I
+GTH3_ARATH HLI-KDRKHV SAWWDK---- ---------- ---------- ---------I
+GTH7_ARATH GLV-TSRENL NRWWNE---- ---------- ---------- ---------I
+GTH6_ARATH VLF-DSRPKV SEWIKK---- ---------- ---------- ---------I
+GTH_SILCU  KLF-EERAHV SAWCKK---- ---------- ---------- ---------I
+GTH1_ARATH KLF-DERPHV SAWVAD---- ---------- ---------- ---------I
+GTH4_ARATH KLF-TERPRV NEWVAE---- ---------- ---------- ---------I
+GTH4_MAIZE ALV-HALPHV SAWWQG---- ---------- ---------- ---------L
+GTH1_MAIZE SVL-DAYPHV KAWWSG---- ---------- ---------- ---------L
+GTH1_WHEAT KVF-DDYPKV KAWWEM---- ---------- ---------- ---------L
+GTH5_ARATH -VL-DSKPHV KAWWA-A--S LRVIPG---- ---------- ----------
+1eem_A     ECV-DHTPKL KLWMAA---- ---------- ---------- ---------M
+GTO1_MOUSE E--------- -------CL- ---------- ------AHTP KLKLWMAAM-
+GTO2_HUMAN ---L------ ------DCV- ---------- ------SHTP ALRLWISAM-
+YKJ3_CAEEL ---A------ ------A--H --IVPDFPLE AESFPGPNYP RLSKWYKAL-
+
+           551                                                600
+1ags_A     SNL----PTV KKFLQP---- --------GS PRKPPMDEKS LEEARKIFR-
+GTA1_BOVIN SSL----PAV KKFLQP---- --------GS QRKPPTDEKK IEEARKVFK-
+GTA1_MOUSE SSL----PNV KKFLQP---- --------GS QRKPPMDAKQ IQEARKAFKI
+GTC1_RAT   SNL----PTV KKFLQP---- --------GS QRKPLEDEKC VESAVKIFS-
+GTC_RABIT  SNL----PTV KKFLQP---- --------GS QRNPPDDEKC REEAKIIFH-
+GTA1_RABIT SSL----PTV KKFLQP---- --------GS QRKPPMDEKN LEKAKKIFKI
+GTA1_CAVPO SNL----PNV KKFLQP---- --------GS QRKPFPTQEM FEEMRK----
+GTA3_RAT   SNI----PTI KKFLQP---- --------GS QRKPPPDGHY VDVVRTVLK-
+GTA3_CHICK SSI----PTI KKFLAP---- --------GS KRKPISDDKY VETVRRVLRM
+GTA2_CHICK SNV----PTI KKFLQP---- --------GS QRKPPLDEKS IANVRKIFS-
+GTA1_CHICK SNI----PNI KKFLQP---- --------GS QRKPRLEEKD IPRLMAIFH-
+GTA1_ANTST SNI----PTV KTFLAP---- --------GS KRKPVPDAKY VEDIIKIFY-
+GTA4_HUMAN SNI----PTI KRFLEP---- --------GS KKKPPPDEIY VRTVYNIFR-
+1oe7_A     ASS----PRL AKYLSDRA-- ---------- ---------- ----------
+GTP1_BUFBU SSR----PKL EAYLSS---- --------DA HKKRPINGNG KQ--------
+GT28_SCHJA ATS----PKL AKYLSERH-- ---------- ---------- ----------
+GTS1_ASCSU REL----PNI KKWIAERP-- ---------- ---------- ----------
+GTS9_CAEEL HSI----PNV KKWIEKRP-- ---------- ---------- ----------
+GTS3_CAEEL IET----PKL KEWLAKRP-- ---------- ---------- ----------
+GTS5_CAEEL QAI----PQI KKWIETRP-- ---------- ---------- ----------
+GTS6_CAEEL QSI----DRI QKYIANRP-- ---------- ---------- ----------
+GTS4_CAEEL HSI----PEI KNYVATRK-- ---------- ---------- ----------
+GTS2_CAEEL ---------- ---------- ---------- ---------- ----------
+GTS1_CAEEL FNH----PNI KKYVSQRK-- ---------- ---------- ----------
+GTS_ANOGA  LDN----ENV KAYIAKRP-- ---------- ---------- ----------
+GTS2_MANSE LSN----PKL KAYLDSAP-- ---------- ---------- ----------
+GT1_ONCVO  GQM----PGI KEWIKKRP-- ---------- ---------- ----------
+SC11_OMMSL AAH----PKI AAYIKKRN-- ---------- ---------- ----------
+SC2_OCTDO  MSH----LKM SPYLKKRS-- ---------- ---------- ----------
+1aw9_      VAR----PAF QKTVA----A -IP----L-- ---------- ----------
+GTH3_ARATH SSR----AAW KEVS----AK -Y-------- ---------- ----------
+GTH7_ARATH SAR----PAW KKLME----L -A-------- ---------- ----------
+GTH6_ARATH SAR----PAW AKVID----L -QK------- ---------- ----------
+GTH_SILCU  LAR----PSW EKTLA----L -Q-------- ---------- ----------
+GTH1_ARATH TSR----PSA QKVL------ ---------- ---------- ----------
+GTH4_ARATH TKR----PAS EKV------- ---------- ---------- ----------
+GTH4_MAIZE AAR----PAA NKVA----QF -MP----VGA G-APK----- ----------
+GTH1_MAIZE MER----PSV QKVAA----L -MK------- ---------- ----------
+GTH1_WHEAT MAR----PAV QRVC----KH -MPTEFKL-- ---------- ----------
+GTH5_ARATH ---RLL---- --------RN SS-KEF---- ---------- ----------
+1eem_A     KED----PTV SA-------- ---------- ---------- ----------
+GTO1_MOUSE ---------- ---------- ---------- QQDP------ ----------
+GTO2_HUMAN ----KWDP-- ---------- ---------- ---------- ----------
+YKJ3_CAEEL ESI----P-- ---------- ---------- ---------- ----------
+
+           601                                             647
+1ags_A     ---------- ---------- ---------- ---------- -----F-
+GTA1_BOVIN ---------- ---------- ---------- ---------- -----F-
+GTA1_MOUSE Q--------- ---------- ---------- ---------- -------
+GTC1_RAT   ---------- ---------- ---------- ---------- -------
+GTC_RABIT  ---------- ---------- ---------- ---------- -------
+GTA1_RABIT P--------- ---------- ---------- ---------- -------
+GTA1_CAVPO ---------- ---------- ---------- ---------- -----F-
+GTA3_RAT   ---------- ---------- ---------- ---------- -----F-
+GTA3_CHICK ---------- ---------Y YDVKPH---- ---------- -------
+GTA2_CHICK ---------- ---------- ---------- ---------- -----F-
+GTA1_CHICK ---------- ---------- ---------- ---------- -------
+GTA1_ANTST ---------- ---------- ---------- ---------- -----F-
+GTA4_HUMAN P--------- ---------- ---------- ---------- -------
+1oe7_A     ---------- ---------- ---------- ---------- -------
+GTP1_BUFBU ---------- ---------- ---------- ---------- ------Q
+GT28_SCHJA ---------- ---------- ---------- ---------- AT--AF-
+GTS1_ASCSU ---------- ---------- ---------- ---------- KT--PY-
+GTS9_CAEEL ---------- ---------- ---------- ---------- VT--SR-
+GTS3_CAEEL ---------- ---------- ---------- ---------- ET--RF-
+GTS5_CAEEL ---------- ---------- ---------- ---------- VT--PF-
+GTS6_CAEEL ---------- ---------- ---------- ---------- DY--PF-
+GTS4_CAEEL ---------- ---------- ---------- ---------- DS--IV-
+GTS2_CAEEL ---------- ---------- ---------- ---------- -------
+GTS1_CAEEL ---------- ---------- ---------- ---------- AT--PA-
+GTS_ANOGA  ---------- ---------- ---------- ---------- IT--EV-
+GTS2_MANSE ---------- ---------- ---------- ---------- KK--EF-
+GT1_ONCVO  ---------- ---------- ---------- ---------- KT--YF-
+SC11_OMMSL ---------- ---------- ---------- ---------- NT--AF-
+SC2_OCTDO  ---------- ---------- ---------- ---------- ST--EF-
+1aw9_      ---------- ---------- ---------- ---------P --PP--P
+GTH3_ARATH ---------- ---------- ---------- ---------- SL--PV-
+GTH7_ARATH ---------- ---------- ---------- ---------- ----AY-
+GTH6_ARATH ---------- ---------- ---------- ---------- ------Q
+GTH_SILCU  ---------- ---------- ---------- ---------- --KQ--A
+GTH1_ARATH ---------- ---------- ---------- ---------- -------
+GTH4_ARATH ---------- ---------- ---------- ---------- ------Q
+GTH4_MAIZE ---------- ---------- ---------- ---------- --EQ--E
+GTH1_MAIZE ---------- ---------- ---------- ---------- -P--S-A
+GTH1_WHEAT ---------- ---------- ---------- ---------G --AQ--Y
+GTH5_ARATH ---------- ---------- ---------- ---------- ------M
+1eem_A     -----LLTSE KDWQGFLELY LQNSPEACDY GL-------- -------
+GTO1_MOUSE -VASSHKIDA KTYREYLNLY LQDSPEACDY GL-------- -------
+GTO2_HUMAN -TVCALLMDK SIFQGFLNLY FQNNPNAFDF GLC------- -------
+YKJ3_CAEEL -EVAAASQPT ENGVGFFKDY LGGSPN-YDY GLTKLSETI- -------
+

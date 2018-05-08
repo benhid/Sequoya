@@ -1,0 +1,1010 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1aac_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 552 553 0 square solid STRUCT
+  FT   STRUCT        3      4  STRAND
+feature 560 562 0 square solid STRUCT
+  FT   STRUCT       11     13  STRAND
+feature 562 564 3 square solid STRUCT
+  FT   STRUCT       13     15  HELIX
+feature 570 575 0 square solid STRUCT
+  FT   STRUCT       21     26  STRAND
+feature 584 585 0 square solid STRUCT
+  FT   STRUCT       29     30  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       34     37  STRAND
+feature 599 604 0 square solid STRUCT
+  FT   STRUCT       42     47  STRAND
+feature 616 617 0 square solid STRUCT
+  FT   STRUCT       56     57  STRAND
+feature 638 639 0 square solid STRUCT
+  FT   STRUCT       67     68  STRAND
+feature 647 653 0 square solid STRUCT
+  FT   STRUCT       76     82  STRAND
+feature 660 666 0 square solid STRUCT
+  FT   STRUCT       86     92  STRAND
+feature 671 683 0 square solid STRUCT
+  FT   STRUCT       95    104  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........DKATIPSESPFAAAEVADGAIVVDIAK......MKYETPELHVKVGD..TV
+  TWINREAM...PHNVHFVAGVLGEAA...........LKGPMMKKEQAYSLTFTE...AG
+  TYDYHCT..PH...PFMRGKVVVE....................................
+}
+{
+name AMCY_METEX
+descrip Amicyanin-alpha precursor.
+creator Methylobacterium extorquens.Bacteria;
+type    PROTEIN
+group 1
+feature 556 684 5 square solid DOMAIN
+  FT   DOMAIN       21    119  Plastocyanin-like.
+feature 566 684 0 square solid PFAM-A
+  FT   PFAM-A       31    119  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE         67     67  METAL_Copper By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE        106    106  METAL_Copper By similarity
+feature 671 671 1 square solid SITE
+  FT   SITE        109    109  METAL_Copper By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE        112    112  METAL_Copper By similarity
+feature 536 555 4 square solid SIGNAL
+  FT   SIGNAL        1     20  cing; Electron transport; Periplasmic;
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................................MRALA
+  FAAALAAFSATAALAAGALEAVQEAPAGSTEVKIAK......MKFQTPEVRIKAGS..AV
+  TWTNTEAL...PHNVHFKSGPGVEKD...........VEGPMLRSNQTYSVKFNA...PG
+  TYDYICT..PH...PFMKGKVVVE....................................
+}
+{
+name AMCY_PARVE
+descrip Amicyanin precursor.
+creator Paracoccus versutus (Thiobacillus versutus).Bacteria;
+type    PROTEIN
+group 1
+feature 549 684 5 square solid DOMAIN
+  FT   DOMAIN       27    132  Plastocyanin-like.
+feature 566 684 0 square solid PFAM-A
+  FT   PFAM-A       44    132  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE         80     80  METAL_Copper
+feature 666 666 1 square solid SITE
+  FT   SITE        119    119  METAL_Copper
+feature 671 671 1 square solid SITE
+  FT   SITE        122    122  METAL_Copper
+feature 677 677 1 square solid SITE
+  FT   SITE        125    125  METAL_Copper
+feature 523 548 4 square solid SIGNAL
+  FT   SIGNAL        1     26  oxylic acid; Signal.
+feature 549 549 0 square solid MOD_RES
+  FT   MOD_RES      27     27  Pyrrolidone carboxylic acid
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................................MISAKTLRPAIAAIALFA
+  IGATGAWAQDKITVTSEKPVAAADVPADAVVVGIEK......MKYLTPEVTIKAGE..TV
+  YWVNGEVM...PHNVAFKKGIVGEDA...........FRGEMMTKDQAYAITFNE...AG
+  SYDYFCT..PH...PFMRGKVIVE....................................
+}
+{
+name 1adw_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 569 577 0 square solid STRUCT
+  FT   STRUCT        2     10  STRAND
+feature 582 586 0 square solid STRUCT
+  FT   STRUCT       15     19  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       22     25  STRAND
+feature 596 604 0 square solid STRUCT
+  FT   STRUCT       29     35  STRAND
+feature 616 617 0 square solid STRUCT
+  FT   STRUCT       43     44  STRAND
+feature 649 653 0 square solid STRUCT
+  FT   STRUCT       64     68  STRAND
+feature 660 665 0 square solid STRUCT
+  FT   STRUCT       72     77  STRAND
+feature 667 675 3 square solid STRUCT
+  FT   STRUCT       79     84  HELIX
+feature 678 683 0 square solid STRUCT
+  FT   STRUCT       87     92  STRAND
+feature 690 695 3 square solid STRUCT
+  FT   STRUCT       99    104  HELIX
+feature 700 710 3 square solid STRUCT
+  FT   STRUCT      109    119  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................ATHEVHMLNKGESGAMVFEPAFVRAEPGD..VI
+  NFVPTDK....SHNVEAIKEILPEG............VESFKSKINESYTLTVTE...PG
+  LYGVKCT..PHF.GMGMVGLVQVGDAPENLDAAKTAKMPKKARERMDAELAQVN......
+}
+{
+name 1paz_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 569 578 0 square solid STRUCT
+  FT   STRUCT        2     11  STRAND
+feature 581 586 0 square solid STRUCT
+  FT   STRUCT       14     19  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       22     25  STRAND
+feature 599 604 0 square solid STRUCT
+  FT   STRUCT       30     35  STRAND
+feature 616 617 0 square solid STRUCT
+  FT   STRUCT       43     44  STRAND
+feature 649 652 0 square solid STRUCT
+  FT   STRUCT       64     67  STRAND
+feature 660 665 0 square solid STRUCT
+  FT   STRUCT       72     77  STRAND
+feature 672 675 3 square solid STRUCT
+  FT   STRUCT       82     84  HELIX
+feature 678 683 0 square solid STRUCT
+  FT   STRUCT       87     92  STRAND
+feature 690 695 3 square solid STRUCT
+  FT   STRUCT       99    104  HELIX
+feature 700 710 3 square solid STRUCT
+  FT   STRUCT      109    119  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................ENIEVHMLNKGAEGAMVFEPAYIKANPGD..TV
+  TFIPVDK....GHNVESIKDMIPEG............AEKFKSKINENYVLTVTQ...PG
+  AYLVKCT..PHY.AMGMIALIAVGDSPANLDQIVSAKKPKIVQERLEKVIA.........
+}
+{
+name 1j5c_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 570 571 0 square solid STRUCT
+  FT   STRUCT        3      4  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       20     23  STRAND
+feature 599 602 0 square solid STRUCT
+  FT   STRUCT       28     31  STRAND
+feature 617 618 0 square solid STRUCT
+  FT   STRUCT       43     44  STRAND
+feature 624 634 3 square solid STRUCT
+  FT   STRUCT       50     56  HELIX
+feature 649 652 0 square solid STRUCT
+  FT   STRUCT       69     72  STRAND
+feature 663 664 0 square solid STRUCT
+  FT   STRUCT       80     81  STRAND
+feature 680 683 0 square solid STRUCT
+  FT   STRUCT       94     97  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................ANATVKMGSD..SGALVFEPSTVTIKAGE..EV
+  KWVNNKLS...PHNIVFAADGVDAD....TAAKLS..HKGLAFAAGESFTSTFTE...PG
+  TYTYYCE..PHR.GAGMVGKVVVD....................................
+}
+{
+name PLAS_SYNP7
+descrip Plastocyanin precursor.
+creator Synechococcus sp. (strain PCC 7942) (Anacystis nidulans R2).
+type    PROTEIN
+group 1
+feature 568 684 5 square solid DOMAIN
+  FT   DOMAIN       35    125  Plastocyanin-like.
+feature 570 684 0 square solid PFAM-A
+  FT   PFAM-A       37    125  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE         73     73  METAL_Copper
+feature 666 666 1 square solid SITE
+  FT   SITE        110    110  METAL_Copper
+feature 671 671 1 square solid SITE
+  FT   SITE        113    113  METAL_Copper
+feature 677 677 1 square solid SITE
+  FT   SITE        118    118  METAL_Copper
+feature 534 567 4 square solid SIGNAL
+  FT   SIGNAL        1     34  n transport; Signal.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................................................MKVLASF
+  ARRLSLFAVAAVLCVGSFFLSAAPASAQTVAIKMGAD..NGMLAFEPSTIEIQAGD..TV
+  QWVNNKLA...PHNVVVEGQ...........PELS..HKDLAFSPGETFEATFSE...PG
+  TYTYYCE..PHR.GAGMVGKIVVQ....................................
+}
+{
+name 1ag6_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 571 574 0 square solid STRUCT
+  FT   STRUCT        2      5  STRAND
+feature 585 586 0 square solid STRUCT
+  FT   STRUCT       14     15  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       18     21  STRAND
+feature 599 604 0 square solid STRUCT
+  FT   STRUCT       26     31  STRAND
+feature 616 617 0 square solid STRUCT
+  FT   STRUCT       40     41  STRAND
+feature 619 621 3 square solid STRUCT
+  FT   STRUCT       43     45  HELIX
+feature 631 634 3 square solid STRUCT
+  FT   STRUCT       52     55  HELIX
+feature 648 652 0 square solid STRUCT
+  FT   STRUCT       69     73  STRAND
+feature 660 665 0 square solid STRUCT
+  FT   STRUCT       78     83  STRAND
+feature 667 671 3 square solid STRUCT
+  FT   STRUCT       85     87  HELIX
+feature 678 683 0 square solid STRUCT
+  FT   STRUCT       93     98  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................VEVLLGGD..DGSLAFLPGDFSVASGE..EI
+  VFKNNAGF...PHNVVFDEDEIPSGV...DAAKISMSEEDLLNAPGETYKVTLTE...KG
+  TYKFYCS..PHQ.GAGMVGKVTVN....................................
+}
+{
+name 1b3i_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 570 576 0 square solid STRUCT
+  FT   STRUCT        3      9  STRAND
+feature 582 586 0 square solid STRUCT
+  FT   STRUCT       13     17  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       20     23  STRAND
+feature 599 604 0 square solid STRUCT
+  FT   STRUCT       28     33  STRAND
+feature 616 619 0 square solid STRUCT
+  FT   STRUCT       42     45  STRAND
+feature 631 634 3 square solid STRUCT
+  FT   STRUCT       52     55  HELIX
+feature 649 652 0 square solid STRUCT
+  FT   STRUCT       68     71  STRAND
+feature 661 665 0 square solid STRUCT
+  FT   STRUCT       77     81  STRAND
+feature 678 683 0 square solid STRUCT
+  FT   STRUCT       91     96  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................ASVQIKMGTD..KYAPLYEPKALSISAGD..TV
+  EFVMNKVG...PHNVIFDKV..PAGE...SAPALS..NTKLAIAPGSFYSVTLGT...PG
+  TYSFYCT..PHR.GAGMVGTITVE....................................
+}
+{
+name 1baw_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 569 574 0 square solid STRUCT
+  FT   STRUCT        2      7  STRAND
+feature 585 586 0 square solid STRUCT
+  FT   STRUCT       16     17  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       20     23  STRAND
+feature 599 604 0 square solid STRUCT
+  FT   STRUCT       28     33  STRAND
+feature 613 617 0 square solid STRUCT
+  FT   STRUCT       39     43  STRAND
+feature 623 625 3 square solid STRUCT
+  FT   STRUCT       49     51  HELIX
+feature 628 634 3 square solid STRUCT
+  FT   STRUCT       53     59  HELIX
+feature 638 642 0 square solid STRUCT
+  FT   STRUCT       61     65  STRAND
+feature 648 652 0 square solid STRUCT
+  FT   STRUCT       71     75  STRAND
+feature 660 665 0 square solid STRUCT
+  FT   STRUCT       83     88  STRAND
+feature 678 683 0 square solid STRUCT
+  FT   STRUCT       98    103  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................ETFTVKMGAD..SGLLQFEPANVTVHPGD..TV
+  KWVNNKLP...PHNILFDDKQVPGAS.KELADKLS..HSQLMFSPGESYEITFSSDFPAG
+  TYTYYCA..PHR.GAGMVGKITVEG...................................
+}
+{
+name AZUP_ACHCY
+descrip Pseudoazurin precursor (Blue copper protein).
+creator Achromobacter cycloclastes.Bacteria;
+type    PROTEIN
+group 1
+feature 572 684 5 square solid DOMAIN
+  FT   DOMAIN       33    121  Plastocyanin-like.
+feature 572 684 0 square solid PFAM-A
+  FT   PFAM-A       33    121  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE         68     68  METAL_Copper
+feature 666 666 1 square solid SITE
+  FT   SITE        106    106  METAL_Copper
+feature 671 671 1 square solid SITE
+  FT   SITE        109    109  METAL_Copper
+feature 677 677 1 square solid SITE
+  FT   SITE        114    114  METAL_Copper
+feature 540 567 4 square solid SIGNAL
+  FT   SIGNAL        1     28  protein sequencing; Electron transport;
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................................................M
+  EKTMLNAIKSGFGIAIAAMLVAAPAAAADFEVHMLNKGKDGAMVFEPASLKVAPGD..TV
+  TFIPTDK....GHNVETIKGMIPDG............AEAFKSKINENYKVTFTA...PG
+  VYGVKCT..PHY.GMGMVGVVQVGDAPANLEAVKGAKNPKKAQERLDAALAALGN.....
+}
+{
+name AZUP_RHILV
+descrip Putative pseudoazurin precursor (Blue copper protein).
+creator Rhizobium leguminosarum (biovar viciae).Bacteria;
+type    PROTEIN
+group 1
+feature 572 684 5 square solid DOMAIN
+  FT   DOMAIN       28    116  Plastocyanin-like.
+feature 572 684 0 square solid PFAM-A
+  FT   PFAM-A       28    116  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE         63     63  METAL_Copper By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE        101    101  METAL_Copper By similarity
+feature 671 671 1 square solid SITE
+  FT   SITE        104    104  METAL_Copper By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE        109    109  METAL_Copper By similarity
+feature 545 567 4 square solid SIGNAL
+  FT   SIGNAL        1     23  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....MPLKFGLIVATAALIASAASLMAADHQVQMLNKGTDGAMVFEPGFLKIAPGD..TV
+  TFIPTDK....SHNVETFKGLIPDG............VPDFKSKPNEQYQVKFDI...PG
+  AYVLKCT..PHV.GMGMVALIQVGDNPANLEPIKIAKVPNMVRKRLDADLAQITPAQITQ
+}
+{
+name PLAS_CHLFU
+descrip Plastocyanin.
+creator Chlorella fusca.Eukaryota;
+type    PROTEIN
+group 1
+feature 569 684 5 square solid DOMAIN
+  FT   DOMAIN        1     98  Plastocyanin-like.
+feature 570 684 0 square solid PFAM-A
+  FT   PFAM-A        2     98  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE         38     38  METAL_Copper By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE         83     83  METAL_Copper By similarity
+feature 671 671 1 square solid SITE
+  FT   SITE         86     86  METAL_Copper By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE         91     91  METAL_Copper By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................DVTVKLGAD..SGALVFEPSSVTIKAGE..TV
+  TWVNNAGF...PHNIVFDEDEVPSGA...NAEALS..HEDYLNAPGESYSAKFDT...AG
+  TYGYFCE..PHQ.GAGMKGTITVQ....................................
+}
+{
+name PLAS_SCEOB
+descrip Plastocyanin, chloroplast precursor.
+creator Scenedesmus obliquus.Eukaryota;
+type    PROTEIN
+group 1
+feature 570 684 5 square solid DOMAIN
+  FT   DOMAIN       49    145  Plastocyanin-like.
+feature 570 684 0 square solid PFAM-A
+  FT   PFAM-A       49    145  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE         85     85  METAL_Copper By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE        130    130  METAL_Copper By similarity
+feature 671 671 1 square solid SITE
+  FT   SITE        133    133  METAL_Copper By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE        138    138  METAL_Copper By similarity
+feature 522 569 12 square solid SIGNAL
+  FT   SIGNAL        1     48  Chloroplast.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................MASLMRKAAVAPAKATRTT
+  VKASASLQRVAQAAGVAVAGFSLALSANAANVKLGAD..SGALVFEPATVTIKAGD..SV
+  TWTNNAGF...PHNIVFDEDAVPAGV...NADALS..HDDYLNAPGESYTAKFDT...AG
+  EYGYFCE..PHQ.GAGMVGKVIVQ....................................
+}
+{
+name 1pmy_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 569 578 0 square solid STRUCT
+  FT   STRUCT        2     11  STRAND
+feature 581 586 0 square solid STRUCT
+  FT   STRUCT       14     19  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       22     25  STRAND
+feature 599 603 0 square solid STRUCT
+  FT   STRUCT       30     34  STRAND
+feature 616 617 0 square solid STRUCT
+  FT   STRUCT       43     44  STRAND
+feature 649 652 0 square solid STRUCT
+  FT   STRUCT       64     67  STRAND
+feature 660 665 0 square solid STRUCT
+  FT   STRUCT       72     77  STRAND
+feature 678 683 0 square solid STRUCT
+  FT   STRUCT       87     92  STRAND
+feature 690 694 3 square solid STRUCT
+  FT   STRUCT       99    103  HELIX
+feature 700 711 3 square solid STRUCT
+  FT   STRUCT      109    120  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................DEVAVKMLNSGPGGMMVFDPALVRLKPGD..SI
+  KFLPTDK....GHNVETIKGMAPDG............ADYVKTTVGQEAVVKFDK...EG
+  VYGFKCA..PHY.MMGMVALVVVGDKRDNLEAAKSVQHNKLTQKRLDPLFAQIQ......
+}
+{
+name PLAS_PHYPA
+descrip Plastocyanin, chloroplast precursor.
+creator Physcomitrella patens (Moss).Eukaryota;
+type    PROTEIN
+group 1
+feature 569 684 5 square solid DOMAIN
+  FT   DOMAIN       71    168  Plastocyanin-like.
+feature 570 684 0 square solid PFAM-A
+  FT   PFAM-A       72    168  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE        108    108  METAL_Copper By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE        153    153  METAL_Copper By similarity
+feature 671 671 1 square solid SITE
+  FT   SITE        156    156  METAL_Copper By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE        161    161  METAL_Copper By similarity
+feature 499 568 12 square solid SIGNAL
+  FT   SIGNAL        1     70  Chloroplast (By similarity).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................MASVAAAAVSVSSFSGLKAETKAAPARLSSTSVVRMAPVVRA
+  SASSDALKTVGKALLAASSSLLLVASANAATVKMGGD..DGALGFYPKDISVAAGE..SV
+  TFVNNKGF...PHNVVFDEDAVPAGV...KTEDIN..HEDYLNGPNESFSITFKT...PG
+  TYEFYCE..PHQ.GAGMKGVVTVS....................................
+}
+{
+name 1iuz_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 570 574 0 square solid STRUCT
+  FT   STRUCT        2      6  STRAND
+feature 585 586 0 square solid STRUCT
+  FT   STRUCT       15     16  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       19     22  STRAND
+feature 599 604 0 square solid STRUCT
+  FT   STRUCT       27     32  STRAND
+feature 613 617 0 square solid STRUCT
+  FT   STRUCT       38     42  STRAND
+feature 631 634 3 square solid STRUCT
+  FT   STRUCT       53     56  HELIX
+feature 638 642 0 square solid STRUCT
+  FT   STRUCT       58     62  STRAND
+feature 648 652 0 square solid STRUCT
+  FT   STRUCT       68     72  STRAND
+feature 660 665 0 square solid STRUCT
+  FT   STRUCT       77     82  STRAND
+feature 672 675 3 square solid STRUCT
+  FT   STRUCT       87     89  HELIX
+feature 678 683 0 square solid STRUCT
+  FT   STRUCT       92     97  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................AQIVKLGGD..DGSLAFVPSKISVAAGE..AI
+  EFVNNAGF...PHNIVFDEDAVPAGV...DADAIS..YDDYLNSKGETVVRKLST...PG
+  VYGVYCE..PHA.GAGMKMTITVQ....................................
+}
+{
+name PLAS_DAUCA
+descrip Plastocyanin.
+creator Daucus carota (Carrot).Eukaryota;
+type    PROTEIN
+group 1
+feature 570 684 5 square solid DOMAIN
+  FT   DOMAIN        1     97  Plastocyanin-like.
+feature 570 684 0 square solid PFAM-A
+  FT   PFAM-A        1     97  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE         37     37  METAL_Copper By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE         82     82  METAL_Copper By similarity
+feature 671 671 1 square solid SITE
+  FT   SITE         85     85  METAL_Copper By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE         90     90  METAL_Copper By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................AEVKLGAD..DGALVFSPSSFSVAKGE..GI
+  SFKNNAGF...PHNIVFDEDEVPAGV...DVSKIS..QEDYLDGAGESFTVTLTE...KG
+  TYKFYCE..PHA.GAGMKGEVTVT....................................
+}
+{
+name PLAS_CUCSA
+descrip Plastocyanin.
+creator Cucumis sativus (Cucumber).Eukaryota;
+type    PROTEIN
+group 1
+feature 570 684 5 square solid DOMAIN
+  FT   DOMAIN        1     99  Plastocyanin-like.
+feature 570 684 0 square solid PFAM-A
+  FT   PFAM-A        1     99  PF00127 copper-bind
+feature 613 613 1 square solid SITE
+  FT   SITE         37     37  METAL_Copper By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE         84     84  METAL_Copper By similarity
+feature 671 671 1 square solid SITE
+  FT   SITE         87     87  METAL_Copper By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE         92     92  METAL_Copper By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................IEILLGGD..DGSLAFVPNNFTVASGE..KI
+  TFKNNAGF...PHNVVFDEDEIPSGV...DSGKISMNEEDLLBAPGZVYZVZLTZ...KG
+  SYSFYCS..PHQ.GAGMVGKVTVN....................................
+}
+{
+name PLAS_ARATH
+descrip Plastocyanin minor isoform, chloroplast precursor.
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 570 684 5 square solid DOMAIN
+  FT   DOMAIN       73    171  Plastocyanin-like.
+feature 570 684 0 square solid PFAM-A
+  FT   PFAM-A       73    171  PF00127 copper-bind
+feature 496 569 0 square solid PFAM-B
+  FT   PFAM-B        1     72  PB008117 Pfam-B_8117
+feature 613 613 1 square solid SITE
+  FT   SITE        109    109  METAL_Copper By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE        156    156  METAL_Copper By similarity
+feature 671 671 1 square solid SITE
+  FT   SITE        159    159  METAL_Copper By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE        164    164  METAL_Copper By similarity
+feature 496 569 12 square solid SIGNAL
+  FT   SIGNAL        1     72  Chloroplast.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............M..AAITSATVTIPSFTGLKLAVSSKPKTLSTISRSTSATRAPPK
+  LALKSSLKDFGVIAVATAASIVLAGNAMAMEVLLGSD..DGSLAFVPSEFTVAKGE..KI
+  VFKNNAGF...PHNVVFDEDEIPSGV...DASKISMDETALLNGAGETYEVTLTE...PG
+  SYGFYCA..PHQ.GAGMVGKLTVK....................................
+}
+{
+name 1kdi_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 571 574 0 square solid STRUCT
+  FT   STRUCT        2      5  STRAND
+feature 585 586 0 square solid STRUCT
+  FT   STRUCT       14     15  STRAND
+feature 589 592 0 square solid STRUCT
+  FT   STRUCT       18     21  STRAND
+feature 600 604 0 square solid STRUCT
+  FT   STRUCT       27     31  STRAND
+feature 616 617 0 square solid STRUCT
+  FT   STRUCT       40     41  STRAND
+feature 625 633 3 square solid STRUCT
+  FT   STRUCT       49     57  HELIX
+feature 648 651 0 square solid STRUCT
+  FT   STRUCT       72     75  STRAND
+feature 660 665 0 square solid STRUCT
+  FT   STRUCT       81     86  STRAND
+feature 672 675 3 square solid STRUCT
+  FT   STRUCT       91     93  HELIX
+feature 678 683 0 square solid STRUCT
+  FT   STRUCT       96    101  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................AKVEVGDE..VGNFKFYPDSITVSAGE..AV
+  EFTLVGET...GHNIVFDIPAGAPGTVASELKAASMDENDLLSEDEPSFKAKVST...PG
+  TYTFYCT..PHK.SANMKGTLTVK....................................
+}
+{
+name PLAS_FRIAG
+descrip Plastocyanin, chloroplast precursor.
+creator Fritillaria agrestis (Stinkbells).Eukaryota;
+type    PROTEIN
+group 1
+feature 570 684 5 square solid DOMAIN
+  FT   DOMAIN       68    166  Plastocyanin-like.
+feature 570 684 0 square solid PFAM-A
+  FT   PFAM-A       68    166  PF00127 copper-bind
+feature 501 569 0 square solid PFAM-B
+  FT   PFAM-B        1     67  PB008117 Pfam-B_8117
+feature 613 613 1 square solid SITE
+  FT   SITE        104    104  METAL_Copper By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE        151    151  METAL_Copper By similarity
+feature 671 671 1 square solid SITE
+  FT   SITE        154    154  METAL_Copper By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE        159    159  METAL_Copper By similarity
+feature 501 569 12 square solid SIGNAL
+  FT   SIGNAL        1     67  Chloroplast (By similarity).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................MASLTSAAVTIPSFTGLKAGRAP..TTPSTSIKPPTPMSF
+  SVKASFKEAIGTALVATAAGAVLASNALAVEVLLGGS..DGSLAFVPSNIEVAAGE..TV
+  VFKNNAGF...PHNVLFDEDEVPKGV...DAGAISMKEEDLLNAPGETFSVTLKE...KG
+  TYSIYCS..PHQ.GAGMAGKITVN....................................
+}
+{
+name NOSZ_ALCEU
+descrip Nitrous-oxide reductase precursor (EC 1.7.99.6) (N(2)OR) (N2
+creator Alcaligenes eutrophus (Ralstonia eutropha).Bacteria;
+type    PROTEIN
+group 1
+feature 570 685 5 square solid DOMAIN
+  FT   DOMAIN      548    643  COX2-like.
+feature 66 490 0 square solid PFAM-B
+  FT   PFAM-B       66    480  PB004412 Pfam-B_4412
+feature 491 539 0 square solid PFAM-B
+  FT   PFAM-B      481    523  PB006579 Pfam-B_6579
+feature 559 685 0 square solid PFAM-B
+  FT   PFAM-B      543    643  PB006603 Pfam-B_6603
+feature 148 148 1 square solid SITE
+  FT   SITE        138    138  METAL_Copper Z2 By similarity
+feature 149 149 1 square solid SITE
+  FT   SITE        139    139  METAL_Copper Z3 By similarity
+feature 197 197 1 square solid SITE
+  FT   SITE        187    187  METAL_Copper Z2 By similarity
+feature 279 279 1 square solid SITE
+  FT   SITE        269    269  METAL_Calcium 2 via carbonyl oxygen By
+feature 282 282 1 square solid SITE
+  FT   SITE        272    272  METAL_Calcium 2 By similarity
+feature 290 290 1 square solid SITE
+  FT   SITE        280    280  METAL_Calcium 2 via carbonyl oxygen By
+feature 296 296 1 square solid SITE
+  FT   SITE        286    286  METAL_Calcium 2 By similarity
+feature 349 349 1 square solid SITE
+  FT   SITE        339    339  METAL_Calcium 2 By similarity
+feature 351 351 1 square solid SITE
+  FT   SITE        341    341  METAL_Copper Z1 By similarity
+feature 407 407 1 square solid SITE
+  FT   SITE        397    397  METAL_Copper Z1 By similarity
+feature 459 459 1 square solid SITE
+  FT   SITE        449    449  METAL_Copper Z3 By similarity
+feature 480 480 1 square solid SITE
+  FT   SITE        470    470  METAL_Calcium 1 via carbonyl oxygen By
+feature 495 495 1 square solid SITE
+  FT   SITE        485    485  METAL_Calcium 1 By similarity
+feature 520 520 1 square solid SITE
+  FT   SITE        510    510  METAL_Copper Z4 By similarity
+feature 613 613 1 square solid SITE
+  FT   SITE        589    589  METAL_Copper A1 By similarity
+feature 666 666 1 square solid SITE
+  FT   SITE        624    624  METAL_Copper A1 and A2 By similarity
+feature 668 668 1 square solid SITE
+  FT   SITE        626    626  METAL_Copper A2 via carbonyl oxygen By
+feature 670 670 1 square solid SITE
+  FT   SITE        628    628  METAL_Copper A1 and A2 By similarity
+feature 674 674 1 square solid SITE
+  FT   SITE        632    632  METAL_Copper A2 By similarity
+feature 677 677 1 square solid SITE
+  FT   SITE        635    635  METAL_Copper A1 By similarity
+feature 1 56 4 square solid SIGNAL
+  FT   SIGNAL        1     56  Tat-type signal (Potential).
+sequence
+  MSKEKASIGNGPGGIGRRQFLGTAALAGLAGVVACTDKGAAPAAAAVGAPASGAHGAAHG
+  AGASVHLKPGELDTYYGLWSGGHTGDMRVLGLPSGREILRIPCFVPDALVGWGITNESKK
+  VMG.A.........RPDGTLRYTVADTHHTHASYKDGNYDGRYAWVNDKINSRIARIRLD
+  YFICDKITELPNVQGFHGIFPDKRDPVDTKINYTTRVFCGGEFGIPLPSAPTEDAGKYRS
+  LFTCVDAETMAVRWQVLIDGNCDLVATSYDGKLAATNQYNTENGAHFEDMMSAERDACVF
+  FNIARIEAAVQAGKFKTYGDSKVPVVDGTQAANKDPKTALTAYVSVPKNPHGVNASPDQK
+  YFICAGKLSPTATVIELSRVLGWFDGKQEKLDDAIVAEVELGLGPLHTAFDGRGNAYTTL
+  FLDSQLVKWNLDAAIKFHKGDKNAKYVVDRLDLQYQPGHVNASQSETVAADGKYLAVGCK
+  FSKDRFLPVGPLHPENEQLIDISGQKMVLMADHPVRGEPHDFIIFKRELVR......PKQ
+  VYALDDFPLAIKDPKESGV.FR.....NGRKVTVKIT..SQAPAFSLREFKLKKGDEVTL
+  ILTNLDKIEDLTHGFAIPK.................YNVNFIVNPQETASVTFVADK.PG
+  VFWCYCTHFCHALHLEMRTRMIVEA...................................
+}
+{
+name 1fwx_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 73 77 0 square solid STRUCT
+  FT   STRUCT       13     17  STRAND
+feature 84 90 0 square solid STRUCT
+  FT   STRUCT       24     30  STRAND
+feature 95 100 0 square solid STRUCT
+  FT   STRUCT       35     40  STRAND
+feature 114 121 3 square solid STRUCT
+  FT   STRUCT       54     61  HELIX
+feature 126 134 3 square solid STRUCT
+  FT   STRUCT       66     74  HELIX
+feature 148 153 0 square solid STRUCT
+  FT   STRUCT       88     93  STRAND
+feature 156 166 0 square solid STRUCT
+  FT   STRUCT       96    106  STRAND
+feature 171 176 0 square solid STRUCT
+  FT   STRUCT      111    116  STRAND
+feature 181 187 0 square solid STRUCT
+  FT   STRUCT      121    127  STRAND
+feature 194 199 0 square solid STRUCT
+  FT   STRUCT      134    139  STRAND
+feature 207 212 0 square solid STRUCT
+  FT   STRUCT      147    152  STRAND
+feature 216 217 0 square solid STRUCT
+  FT   STRUCT      156    157  STRAND
+feature 228 231 3 square solid STRUCT
+  FT   STRUCT      168    171  HELIX
+feature 231 244 0 square solid STRUCT
+  FT   STRUCT      171    179  STRAND
+feature 249 256 0 square solid STRUCT
+  FT   STRUCT      184    191  STRAND
+feature 263 265 0 square solid STRUCT
+  FT   STRUCT      198    200  STRAND
+feature 271 276 0 square solid STRUCT
+  FT   STRUCT      206    211  STRAND
+feature 285 288 3 square solid STRUCT
+  FT   STRUCT      220    223  HELIX
+feature 293 301 0 square solid STRUCT
+  FT   STRUCT      228    236  STRAND
+feature 301 310 3 square solid STRUCT
+  FT   STRUCT      236    245  HELIX
+feature 316 318 0 square solid STRUCT
+  FT   STRUCT      249    251  STRAND
+feature 321 325 0 square solid STRUCT
+  FT   STRUCT      254    258  STRAND
+feature 328 330 3 square solid STRUCT
+  FT   STRUCT      261    263  HELIX
+feature 339 345 0 square solid STRUCT
+  FT   STRUCT      268    274  STRAND
+feature 351 353 0 square solid STRUCT
+  FT   STRUCT      280    282  STRAND
+feature 359 363 0 square solid STRUCT
+  FT   STRUCT      288    292  STRAND
+feature 370 375 0 square solid STRUCT
+  FT   STRUCT      299    304  STRAND
+feature 375 383 3 square solid STRUCT
+  FT   STRUCT      304    312  HELIX
+feature 388 392 3 square solid STRUCT
+  FT   STRUCT      317    321  HELIX
+feature 392 394 0 square solid STRUCT
+  FT   STRUCT      321    323  STRAND
+feature 403 408 0 square solid STRUCT
+  FT   STRUCT      331    336  STRAND
+feature 413 418 0 square solid STRUCT
+  FT   STRUCT      341    346  STRAND
+feature 423 429 0 square solid STRUCT
+  FT   STRUCT      351    357  STRAND
+feature 429 437 3 square solid STRUCT
+  FT   STRUCT      357    365  HELIX
+feature 444 450 0 square solid STRUCT
+  FT   STRUCT      372    377  STRAND
+feature 455 460 0 square solid STRUCT
+  FT   STRUCT      382    387  STRAND
+feature 472 477 0 square solid STRUCT
+  FT   STRUCT      399    404  STRAND
+feature 493 499 0 square solid STRUCT
+  FT   STRUCT      420    426  STRAND
+feature 506 513 0 square solid STRUCT
+  FT   STRUCT      433    440  STRAND
+feature 520 523 0 square solid STRUCT
+  FT   STRUCT      447    450  STRAND
+feature 540 551 3 square solid STRUCT
+  FT   STRUCT      467    478  HELIX
+feature 563 566 0 square solid STRUCT
+  FT   STRUCT      490    493  STRAND
+feature 569 577 0 square solid STRUCT
+  FT   STRUCT      496    504  STRAND
+feature 582 583 0 square solid STRUCT
+  FT   STRUCT      507    508  STRAND
+feature 587 591 0 square solid STRUCT
+  FT   STRUCT      512    516  STRAND
+feature 595 602 0 square solid STRUCT
+  FT   STRUCT      520    527  STRAND
+feature 611 615 0 square solid STRUCT
+  FT   STRUCT      536    540  STRAND
+feature 637 641 0 square solid STRUCT
+  FT   STRUCT      545    549  STRAND
+feature 646 652 0 square solid STRUCT
+  FT   STRUCT      554    560  STRAND
+feature 657 663 0 square solid STRUCT
+  FT   STRUCT      565    570  STRAND
+feature 676 682 0 square solid STRUCT
+  FT   STRUCT      583    589  STRAND
+sequence
+  ............................................................
+  ASADGSVAPGQLDDYYGFWSSGQSGEMRILGIPSMRELMRVPVFNRCSATGWGQTNESVR
+  IHERTMSERTKKFLAANGKRIHDNGDLHHVHMSFTEGKYDGRFLFMNDKANTRVARVRCD
+  VMKCDAILEIPNAKGIHGLRPQKWPRSNYVFCNGEDETPLVNDGTNMEDVANYVN.....
+  VFTAVDADKWEVAWQVLVSGNLDNCDADYEGKWAFSTSYNSEKGMTLPEMTAAEMDHIVV
+  FNIAEIEKAIAAG..DYQELNGVKVVDGRK....EASSLFTRYIPIANNPHGCNMAPDKK
+  HLCVAGKLSPTVTVLDVTRFDAVFYENADPRSAVVA.EPELGLGPLHTAFDGRGNAYTSL
+  FLDSQVVKWNIEDAIRAYAGEKVDPIK.DKLDVHYQPGHLKTVMGETLDATNDWLVCLSK
+  FSKDRFLNVGPLKPENDQLIDISGDKMVLVHDGPTFAEPHDAIAVHPSILSDIKSVWDRN
+  DPMWAETRAQAEADGVDIDNWTEEVIRDGNKVRVYMS..SVAPSFSIESFTVKEGDEVTV
+  IVTNLDEIDDLTHGFTMGN.................YGVAMEIGPQMTSSVTFVAAN.PG
+  VYWYYCQWFCHALHMEMRGRMLVEPKEA................................
+}

@@ -1,0 +1,600 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:   805  Type: P  octubre 20, 2015 11:11  Check:    0  ..
+
+ Name: 1ags_A     Len:   805  Check: 4426  Weight:  1.00
+ Name: 1oe7_A     Len:   805  Check: 6191  Weight:  1.00
+ Name: 2gsq_      Len:   805  Check: 8644  Weight:  1.00
+ Name: 10gs_A     Len:   805  Check: 4549  Weight:  1.00
+ Name: 1okt_A     Len:   805  Check: 1872  Weight:  1.00
+ Name: GTA1_BOVIN Len:   805  Check: 3305  Weight:  1.00
+ Name: GTA1_MOUSE Len:   805  Check: 6762  Weight:  1.00
+ Name: GTC1_RAT   Len:   805  Check:  895  Weight:  1.00
+ Name: GTC_RABIT  Len:   805  Check: 8183  Weight:  1.00
+ Name: GTA1_RABIT Len:   805  Check: 6967  Weight:  1.00
+ Name: GTA1_CAVPO Len:   805  Check: 3259  Weight:  1.00
+ Name: GTA3_RAT   Len:   805  Check: 7233  Weight:  1.00
+ Name: GTA3_CHICK Len:   805  Check:  188  Weight:  1.00
+ Name: GTA2_CHICK Len:   805  Check: 3503  Weight:  1.00
+ Name: GTA1_CHICK Len:   805  Check: 7482  Weight:  1.00
+ Name: GTA1_ANTST Len:   805  Check: 1836  Weight:  1.00
+ Name: GTA4_HUMAN Len:   805  Check: 7753  Weight:  1.00
+ Name: GT26_SCHMA Len:   805  Check:  197  Weight:  1.00
+ Name: GTS1_ASCSU Len:   805  Check: 9985  Weight:  1.00
+ Name: GTS7_CAEEL Len:   805  Check: 2584  Weight:  1.00
+ Name: GTS9_CAEEL Len:   805  Check: 8004  Weight:  1.00
+ Name: GTS3_CAEEL Len:   805  Check:  146  Weight:  1.00
+ Name: GTS1_BLAGE Len:   805  Check: 4976  Weight:  1.00
+ Name: GTP_DIRIM  Len:   805  Check:  447  Weight:  1.00
+ Name: GTP1_BUFBU Len:   805  Check: 4625  Weight:  1.00
+ Name: GTP2_BUFBU Len:   805  Check:  251  Weight:  1.00
+ Name: 1nhy_A     Len:   805  Check: 8803  Weight:  1.00
+ Name: 1ljr_A     Len:   805  Check:   71  Weight:  1.00
+ Name: 1eem_A     Len:   805  Check:  415  Weight:  1.00
+ Name: 1g6w_A     Len:   805  Check: 5954  Weight:  1.00
+ Name: 1k0m_A     Len:   805  Check: 6980  Weight:  1.00
+
+//
+
+           1                                                   50
+1ags_A     A--------- ---------- ---------- ---------- ----------
+1oe7_A     DH-------- ---------- ---------- ---------- ----------
+2gsq_      P--------- ---------- ---------- ---------- ----------
+10gs_A     P--------- ---------- ---------- ---------- ----------
+1okt_A     MG-------- ---------- ---------- ---------- ----------
+GTA1_BOVIN A--------- ---------- ---------- ---------- ----------
+GTA1_MOUSE A--------- ---------- ---------- ---------- ----------
+GTC1_RAT   P--------- ---------- ---------- ---------- ----------
+GTC_RABIT  A--------- ---------- ---------- ---------- ----------
+GTA1_RABIT MA-------- ---------- ---------- ---------- ----------
+GTA1_CAVPO S--------- ---------- ---------- ---------- ----------
+GTA3_RAT   ME-------- ---------- ---------- ---------- ----------
+GTA3_CHICK A--------- ---------- ---------- ---------- ----------
+GTA2_CHICK MA-------- ---------- ---------- ---------- ----------
+GTA1_CHICK MS-------- ---------- ---------- ---------- ----------
+GTA1_ANTST MA-------- ---------- ---------- ---------- ----------
+GTA4_HUMAN MA-------- ---------- ---------- ---------- ----------
+GT26_SCHMA MA-------- ---------- ---------- ---------- ----------
+GTS1_ASCSU PQ-------- ---------- ---------- ---------- ----------
+GTS7_CAEEL M--------- ---------- ---------- ---------- ----------
+GTS9_CAEEL M--------- ---------- ---------- ---------- ----------
+GTS3_CAEEL M--------- ---------- ---------- ---------- ----------
+GTS1_BLAGE A--------- ---------- ---------- ---------- ----------
+GTP_DIRIM  MS-------- ---------- ---------- ---------- ----------
+GTP1_BUFBU PE-------- ---------- ---------- ---------- ----------
+GTP2_BUFBU SG-------- ---------- ---------- ---------- ----------
+1nhy_A     XS-------- ---------- ---------- ---------- ----------
+1ljr_A     MGLEL----- ---------- FLD-LVSQPS RAV------- ----------
+1eem_A     SARSLGKGSA PPGPVPEGSI ---------- ---RIYSMRF -------CPF
+1g6w_A     SRITK----- ---------- FFQE---QPL EGYTLFSHRS -------A--
+1k0m_A     PQVEL----- ---------- FVK-AGS--- ---------- DGAKIGNCPF
+
+           51                                                 100
+1ags_A     --EKPKLHYF NARGR----- ---------- ---------- --------ME
+1oe7_A     ----IKVIYF NGRGR----- ---------- ---------- --------AE
+2gsq_      ---KYTLHYF PLMGR----- ---------- ---------- --------AE
+10gs_A     ----YTVVYF PVRGR----- ---------- ---------- --------CA
+1okt_A     --DNIVLYYF DARGK----- ---------- ---------- --------AE
+GTA1_BOVIN --GKPTLHYF NGRGR----- ---------- ---------- --------ME
+GTA1_MOUSE --GKPVLHYF NARGR----- ---------- ---------- --------ME
+GTC1_RAT   --GKPVLHYF DGRGR----- ---------- ---------- --------ME
+GTC_RABIT  --GKPKLHYF NARGR----- ---------- ---------- --------ME
+GTA1_RABIT --RKPLLHYF NGRGR----- ---------- ---------- --------ME
+GTA1_CAVPO --GKPVLHYF NVQGR----- ---------- ---------- --------ME
+GTA3_RAT   --VKPKLYYF QGRGR----- ---------- ---------- --------ME
+GTA3_CHICK --AKPVLYYF NGRGK----- ---------- ---------- --------ME
+GTA2_CHICK --GKPKLHYT RGRGK----- ---------- ---------- --------ME
+GTA1_CHICK --GKPVLHYA NTRGR----- ---------- ---------- --------ME
+GTA1_ANTST --GEQNIKYF NIKGR----- ---------- ---------- --------ME
+GTA4_HUMAN --ARPKLHYP NGRGR----- ---------- ---------- --------ME
+GT26_SCHMA ----PKFGYW KVKGL----- ---------- ---------- --------VQ
+GTS1_ASCSU ----YKLTYF DIRGL----- ---------- ---------- --------GE
+GTS7_CAEEL --VHYKVSYF PIRGA----- ---------- ---------- --------GE
+GTS9_CAEEL --VSYKLIYF QSRGN----- ---------- ---------- --------GE
+GTS3_CAEEL --VHYKLTYF NARGL----- ---------- ---------- --------AE
+GTS1_BLAGE --PSYKLTYC PVKAL----- ---------- ---------- --------GE
+GTP_DIRIM  ----YKLTYF PIRGL----- ---------- ---------- --------AE
+GTP1_BUFBU ----YTIIYF NARGR----- ---------- ---------- --------CE
+GTP2_BUFBU ----YTLTYF PLRGR----- ---------- ---------- --------AE
+1nhy_A     ---QGTL-YA NFRIRTWVPR GLVKALK--- --LDVKV--- VT--------
+1ljr_A     ---------- ---------- --------YI FA-----KKN ---GIPLE--
+1eem_A     AE-------- ---------- ---------- ---------- ----------
+1g6w_A     ---------- --------PN GFK------- --VAIVLS-- E-LGFHYN--
+1k0m_A     SQ-------- ---------- ---R---LFM VL-----WLK ----------
+
+           101                                                150
+1ags_A     STRWLLAAAG VEFEEKFIKS AEDL----D- -----KLRN- ----------
+1oe7_A     SIRMTLVAAG VNYEDERIS- FQDW----P- -----KIKP- ----------
+2gsq_      LCRFVLAAHG EEFTDRVVE- MADW----P- -----NLKA- ----------
+10gs_A     ALRMLLADQG QSWKEEVVT- VETW----QE G----SLKA- ----------
+1okt_A     LIRLIFAYLG IEYTDKRFGV N---GDAF-- -VEFKNFKK- ----------
+GTA1_BOVIN CIRWLLAAAG VEFEEKFIEK PEDL----D- -----KLKN- ----------
+GTA1_MOUSE CIRWLLAAAG VEFEEKFIQS PEDL----E- -----KLKK- ----------
+GTC1_RAT   PIRWLLAAAG VEFEEQFLKT RDDL----A- -----RLRN- ----------
+GTC_RABIT  SIRWLLTAAG VEFEEKCMKT REDL----E- -----KLRK- ----------
+GTA1_RABIT SIRWLLAAAG EEFDEKFMET AEDL----D- -----KLRN- ----------
+GTA1_CAVPO SIRWLLAAAG VEFEEKLIMC QEDL----D- -----KLKN- ----------
+GTA3_RAT   SIRWLLATAG VEFEEEFLET REQY----E- -----KLQK- ----------
+GTA3_CHICK SIRWLLAAAG VEFEEVFLET REQY----E- -----KLLQ- ----------
+GTA2_CHICK SIRWLLAAAG VEFEEEFIEK KEDL----E- -----KLRN- ----------
+GTA1_CHICK SVRWLLAAAG VEFEEKFLEK KEDL----Q- -----KLKS- ----------
+GTA1_ANTST AIRWLLAVAG VEFEEKFFET KEQL----Q- -----KLKE- ----------
+GTA4_HUMAN SVRWVLAAAG VEFDEEFLET KEQL----Y- -----KLQD- ----------
+GT26_SCHMA PTRLLLEHLE ETYEERAYD- RNEI-DAWSN D----KFKL- ----------
+GTS1_ASCSU GARLIFHQAG VKFEDNRLK- REDW----P- -----ALKP- ----------
+GTS7_CAEEL IARQILAYAG QDFEDNRIP- KEEW----P- -----AVKP- ----------
+GTS9_CAEEL IARQVFAFAG QEFIDERIS- KEQW----A- -----EIKN- ----------
+GTS3_CAEEL ISRQLFHMAG VEFEDERIN- EEKF----S- -----QLKP- ----------
+GTS1_BLAGE PIRFLLSYGE KDFEDYRFQ- EGDW----P- -----NLKP- ----------
+GTP_DIRIM  PIRLLLVDQG IKFTDEHIP- KDDF----V- -----SIKS- ----------
+GTP1_BUFBU AMRMLMADQG AQWKEEVVT- SDDW----QK G----DLKK- ----------
+GTP2_BUFBU AMRLLLGDQG VSWTDDEVQ- MQDW----AA G--IRDLKK- ----------
+1nhy_A     ---------- ---------- ---------- ---------- ---------P
+1ljr_A     ---------- ---------- ---------- ---------L RTV--DLVKG
+1eem_A     RTRLVLKAKG IRHEVINI-- ---------- ---------- -----NL---
+1g6w_A     ---------- ---------- ---------- ---------T I--FLDFNLG
+1k0m_A     ---------G VTFN------ ---------- ---------V TTV--DT---
+
+           151                                                200
+1ags_A     ---------- ---------- -DGY------ ---------- ---L-MFQQV
+1oe7_A     ---------- ---------- -T-------- ---------- ---I-PGGRL
+2gsq_      ---------- ---------- -T-------- ---------- ---M-YSNAM
+10gs_A     ---------- ---------- -S-------- ---------- ---C-LYGQL
+1okt_A     ---------- ---------- -EKD------ ---------- ---T-PFEQV
+GTA1_BOVIN ---------- ---------- -DGS------ ---------- ---L-MFQQV
+GTA1_MOUSE ---------- ---------- -DGN------ ---------- ---L-MFDQV
+GTC1_RAT   ---------- ---------- -DGS------ ---------- ---L-MFQQV
+GTC_RABIT  ---------- ---------- -DGV------ ---------- ---L-MFQQV
+GTA1_RABIT ---------- ---------- -DGS------ ---------- ---L-MYQQV
+GTA1_CAVPO ---------- ---------- -DGL------ ---------- ---L-MFQQV
+GTA3_RAT   ---------- ---------- -DGC------ ---------- ---L-LFGQV
+GTA3_CHICK ---------- ---------- -SGI------ ---------- ---L-MFQQV
+GTA2_CHICK ---------- ---------- -DGS------ ---------- ---L-LFQQV
+GTA1_CHICK ---------- ---------- -DGS------ ---------- ---L-LFQQV
+GTA1_ANTST ---------- ---------- -T-V------ ---------- ---L-LFQQV
+GTA4_HUMAN ---------- ---------- -GNH------ ---------- ---L-LFQQV
+GT26_SCHMA ---------- ---------- -G-------- ---------- ---L-EFPNL
+GTS1_ASCSU ---------- ---------- -K-------- ---------- ---T-PFGQL
+GTS7_CAEEL ---------- ---------- -S-------- ---------- ---T-PFGQL
+GTS9_CAEEL ---------- ---------- -M-------- ---------- ---T-PFGQV
+GTS3_CAEEL ---------- ---------- -T-------- ---------- ---F-PSGQV
+GTS1_BLAGE ---------- ---------- -S-------- ---------- ---M-PFGKT
+GTP_DIRIM  ---------- ---------- -Q-------- ---------- ---F-QFGQL
+GTP1_BUFBU ---------- ---------- -A-------- ---------- ---A-VYGQL
+GTP2_BUFBU ---------- ---------- -N-------- ---------- ---A-VFGQI
+1nhy_A     DAAAE----- Q-FARD---F P--------- ---------- ----L--KKV
+1ljr_A     QH-----KSK E-F---LQIN S--------- ---------- ----L--GKL
+1eem_A     -----KNKPE -WF---FKKN ---------- ---------- -----PFGLV
+1g6w_A     EH-----RAP E-F---VSVN P--------- ---------- ----N--ARV
+1k0m_A     -----KRRTE -TV---QKLC PGGELPFLLY GTEVHTDTNK IEE-------
+
+           201                                                250
+1ags_A     PMV--EIDG- -----MKLVQ TRAI-LNYI- ---------A SKYNL-----
+1oe7_A     PAV--KITDN HGHVK-WMVE SLAI-ARYM- ---------A KKHHM-----
+2gsq_      PVL--DIDG- -----TKMSQ SMCI-ARHL- ---------A REFGL-----
+10gs_A     PKF--QDGD- -----LTLYQ SNTI-LRHL- ---------G RTLGL-----
+1okt_A     PIL--QIGD- -----LILAQ SQAI-VRYL- ---------S KKYNI-----
+GTA1_BOVIN PMV--EIDG- -----MKLVQ TRAI-LNYI- ---------A TKYNL-----
+GTA1_MOUSE PMV--EIDG- -----MKLAQ TRAI-LNYI- ---------A TKYDL-----
+GTC1_RAT   PMV--EIDG- -----MKLVQ TRAI-LNYI- ---------A TKYNL-----
+GTC_RABIT  PMV--EIDG- -----MKLVQ TRAI-FNYI- ---------A DKHNL-----
+GTA1_RABIT PMV--EIDG- -----MKLVQ TRAI-LNYV- ---------A NKHNL-----
+GTA1_CAVPO PMV--EMDG- -----MKMVQ SRAI-LNYI- ---------A TKYNL-----
+GTA3_RAT   PLV--EIDG- -----MLLTQ TRAI-LSYL- ---------A AKYNL-----
+GTA3_CHICK PMV--EIDG- -----MKLVQ TRAI-LNYI- ---------A GKYNL-----
+GTA2_CHICK PMV--EIDG- -----MKMVQ SRAI-LCYI- ---------A GKYNL-----
+GTA1_CHICK PMV--EIDG- -----MKMVQ TRAI-LNYI- ---------A GKYNL-----
+GTA1_ANTST PMV--EIDG- -----MKLVQ TRAI-LHYI- ---------A EKYNL-----
+GTA4_HUMAN PMV--EIDG- -----MKLVQ TRSI-LHYI- ---------A DKHNL-----
+GT26_SCHMA PYY--IDGD- -----FKLTQ SMAI-IRYI- ---------A DKHNM-----
+GTS1_ASCSU PLL--EVDG- -----EVLAQ SAAI-YRYL- ---------G RQFGL-----
+GTS7_CAEEL PLL--EVDG- -----KVLAQ SHAI-ARYL- ---------A RQFGI-----
+GTS9_CAEEL PVL--EVDG- -----RQLAQ SITI-VRYL- ---------S KQFGI-----
+GTS3_CAEEL PIL--CIDG- -----AQFSQ STAI-ARYL- ---------A RKFGF-----
+GTS1_BLAGE PVL--EIDG- -----KQTHQ SVAI-SRYL- ---------G KQFGL-----
+GTP_DIRIM  PCF--YDGD- -----QQIVQ SGAI-LRHL- ---------A RKFNL-----
+GTP1_BUFBU PGF--KDGD- -----FTLYQ SNAM-LRLL- ---------A RNHDL-----
+GTP2_BUFBU PRF--QEGD- -----FVLYQ SQTI-LRLL- ---------A -RYGL-----
+1nhy_A     PA-FVGPKG- -----YKLTE AXAI-NYYLV KLS------- ----------
+1ljr_A     PTL--KDGD- -----FILTE SSAI-LIYL- ---------S CKYQ-TPDH-
+1eem_A     PVL--ENSQ- -----GQLIY ESAITCEYL- ---------D EAY-------
+1g6w_A     PA-LI----D HGMDNLSIWE SGAI-LLHL- ---------V NKY-------
+1k0m_A     ---------- ---------- ---------F ---LEAVLC- -----PP--R
+
+           251                                                300
+1ags_A     ---------- ---------- ---------- -YRK------ ----------
+1oe7_A     ---------- ---------- ---------- -MGG------ ----------
+2gsq_      ---------- ---------- ---------- -DGK------ ----------
+10gs_A     ---------- ---------- ---------- -YGK------ ----------
+1okt_A     ---------- ---------- ---------- -CGE------ ----------
+GTA1_BOVIN ---------- ---------- ---------- -YGK------ ----------
+GTA1_MOUSE ---------- ---------- ---------- -YGK------ ----------
+GTC1_RAT   ---------- ---------- ---------- -YGK------ ----------
+GTC_RABIT  ---------- ---------- ---------- -YGK------ ----------
+GTA1_RABIT ---------- ---------- ---------- -YGK------ ----------
+GTA1_CAVPO ---------- ---------- ---------- -YGK------ ----------
+GTA3_RAT   ---------- ---------- ---------- -YGK------ ----------
+GTA3_CHICK ---------- ---------- ---------- -YGK------ ----------
+GTA2_CHICK ---------- ---------- ---------- -YGK------ ----------
+GTA1_CHICK ---------- ---------- ---------- -YGK------ ----------
+GTA1_ANTST ---------- ---------- ---------- -LGK------ ----------
+GTA4_HUMAN ---------- ---------- ---------- -FGK------ ----------
+GT26_SCHMA ---------- ---------- ---------- -LGA------ ----------
+GTS1_ASCSU ---------- ---------- ---------- -AGK------ ----------
+GTS7_CAEEL ---------- ---------- ---------- -NGK------ ----------
+GTS9_CAEEL ---------- ---------- ---------- -SGK------ ----------
+GTS3_CAEEL ---------- ---------- ---------- -VGQ------ ----------
+GTS1_BLAGE ---------- ---------- ---------- -SGK------ ----------
+GTP_DIRIM  ---------- ---------- ---------- -NGE------ ----------
+GTP1_BUFBU ---------- ---------- ---------- -YGK------ ----------
+GTP2_BUFBU ---------- ---------- ---------- -SGS------ ----------
+1nhy_A     ---------- ----QDDKXK TQLL------ G---ADDDLN AQAQIIRW--
+1ljr_A     ---------- ---------- ---------- WYPS------ ----------
+1eem_A     ---------- ---------- ----PGKKLL ---------- --------PD
+1g6w_A     ---------- ----YKE--- ----TGNPLL W----SDDLA DQSQINAW--
+1k0m_A     YPKLAALNPE SNTA------ ---------- ---------- ----------
+
+           301                                                350
+1ags_A     DIKEKALIDM Y--------- ---------- ---------- --------IE
+1oe7_A     TEEEYYNVEK L--------- ---------- ---------- --------IG
+2gsq_      TSLEKYRVDE I--------- ---------- ---------- --------TE
+10gs_A     DQQEAALVDM V--------- ---------- ---------- --------ND
+1okt_A     SELNEFYADM I--------- ---------- ---------- --------FC
+GTA1_BOVIN DMKERALIDM Y--------- ---------- ---------- --------SE
+GTA1_MOUSE DMKERALIDM Y--------- ---------- ---------- --------SE
+GTC1_RAT   DMKERALIDM Y--------- ---------- ---------- --------AE
+GTC_RABIT  DIKERALIDM Y--------- ---------- ---------- --------TE
+GTA1_RABIT DMKERALIDM Y--------- ---------- ---------- --------TE
+GTA1_CAVPO DTKERLLIDM Y--------- ---------- ---------- --------TE
+GTA3_RAT   DLKERVRIDM Y--------- ---------- ---------- --------AD
+GTA3_CHICK DLKERALIDM Y--------- ---------- ---------- --------VG
+GTA2_CHICK DLKERAWIDM Y--------- ---------- ---------- --------VE
+GTA1_CHICK DLKERALIDM Y--------- ---------- ---------- --------VE
+GTA1_ANTST DMKEHAQIIM Y--------- ---------- ---------- --------SE
+GTA4_HUMAN NLKERTLIDM Y--------- ---------- ---------- --------VE
+GT26_SCHMA CPKERAEISM L--------- ---------- ---------- --------EG
+GTS1_ASCSU TPMEEAQVDS I--------- ---------- ---------- --------FD
+GTS7_CAEEL CAWEEAQVNS V--------- ---------- ---------- --------AD
+GTS9_CAEEL SSWEEAQVDA L--------- ---------- ---------- --------GD
+GTS3_CAEEL TAEEELQADE V--------- ---------- ---------- --------VD
+GTS1_BLAGE DDWENLEIDM I--------- ---------- ---------- --------VD
+GTP_DIRIM  NNAETSYVDM F--------- ---------- ---------- --------YE
+GTP1_BUFBU NPREASLIDM V--------- ---------- ---------- --------ND
+GTP2_BUFBU NEREIAINEM M--------- ---------- ---------- --------ND
+1nhy_A     ---------- -QS------- ------LANS DLCIQIANTI VPLKG-----
+1ljr_A     DLQARARVHE YLGWHADCIR GTFGIP---- -LWVQVL--- GPLIG-----
+1eem_A     DPYEKACQKM ---------- ---------- ---------- ----------
+1g6w_A     ---------- -LF------- ------FQTS ---------- -----GHA--
+1k0m_A     ---------- ---------- ---------- ---------- ----------
+
+           351                                                400
+1ags_A     GIADLGEMIL -----LLPFT Q-----P-EE ---------- ----------
+1oe7_A     QAEDLEHEYY -----KTLMK P-----E-EE ---------- ----------
+2gsq_      TLQDIFNDVV -----KIKFA P-----E-AA ---------- ----------
+10gs_A     GVEDLRCKYI -----SLIYT N-----Y-EA --G------- ----------
+1okt_A     GVQDIHYKFN -----NTNLF ---------- KQN------- ----------
+GTA1_BOVIN GVADLGEMIM -----HFPLC P-----P-AE ---------- ----------
+GTA1_MOUSE GILDLTEMIG -----QLVLC P-----P-DQ ---------- ----------
+GTC1_RAT   GVADLDEIVL -----HYPYI P-----P-GE ---------- ----------
+GTC_RABIT  GIVDLNELIL -----TRPFL P-----P-EE ---------- ----------
+GTA1_RABIT GVADLYELVL -----LLPLC P-----P-EQ ---------- ----------
+GTA1_CAVPO GMTDLYELFF -----KVILA P-----P-EE ---------- ----------
+GTA3_RAT   GTQDLMMMII -----GAPFK A-----P-QE ---------- ----------
+GTA3_CHICK GTDDLMGFLL -----SFPFL S-----A-ED ---------- ----------
+GTA2_CHICK GTTDLMGMIM -----ALPFQ A-----A-DV ---------- ----------
+GTA1_CHICK GLADLYELIM -----MNVVQ P-----A-DK ---------- ----------
+GTA1_ANTST GTMDLMELIM -----IYPFL K-----G-EE ---------- ----------
+GTA4_HUMAN GTLDLLELLI -----MHPFL K-----P-DD ---------- ----------
+GT26_SCHMA AVLDIRMGVL -----RIAYN K-----EYET --L------- ----------
+GTS1_ASCSU QFKDFMAELR PCFRV----- -LAGF---E- ---------- ----------
+GTS7_CAEEL QFKDYLNEVR PYFMV----- -KMGFA---- ---------- ----------
+GTS9_CAEEL QFKDYRVEAR PFFRA----- -KMGFS---- ---------- ----------
+GTS3_CAEEL TFKDFIESFR -----KFVIA VLSGE----- ---------- ----------
+GTS1_BLAGE TISDFRAAIA -----NYHYD A-----D-EN ---------- ----------
+GTP_DIRIM  GIRDLHSKYT -----RMIYE A-----Y-ET --Q------- ----------
+GTP1_BUFBU GVEDLRLKYL -----KMIYQ N-----Y-EN --G------- ----------
+GTP2_BUFBU GVEDLRLKYY -----KFIFW D-----N-EA --N------- ----------
+1nhy_A     ---------- ---------- ---------- ---------- ------G---
+1ljr_A     ---------- ---------- ---------- ---------- ----------
+1eem_A     ---------- ---------- ---------- ---ILELFSK VPSLVG----
+1g6w_A     ---------- ---------- ---------- ---------- --PMIGQALH
+1k0m_A     ---------- ---------- ---------- ---GLDIFAK FS--------
+
+           401                                                450
+1ags_A     ---------- ---------- ---------- -------QD- ------AKLA
+1oe7_A     ---------- ---------- ---------- -------K-- -----QKIIK
+2gsq_      ---------- ---------- ---------- -------KE- ------A-VQ
+10gs_A     ---------- ---------- ---------- ---------- ----KD----
+1okt_A     ---------- ---------- ---------- ---------- ---E-T----
+GTA1_BOVIN ---------- ---------- ---------- -------KD- ------AKLT
+GTA1_MOUSE ---------- ---------- ---------- -------RE- ------AKTA
+GTC1_RAT   ---------- ---------- ---------- -------KE- ------ASLA
+GTC_RABIT  ---------- ---------- ---------- -------QE- ------AKLA
+GTA1_RABIT ---------- ---------- ---------- -------KD- ------AKVD
+GTA1_CAVPO ---------- ---------- ---------- -------KD- ------AAKS
+GTA3_RAT   ---------- ---------- ---------- -------KE- ------ESLA
+GTA3_CHICK ---------- ---------- ---------- -------KV- ------KQCA
+GTA2_CHICK ---------- ---------- ---------- -------KE- ------KNIA
+GTA1_CHICK ---------- ---------- ---------- -------KE- ------EHLA
+GTA1_ANTST ---------- ---------- ---------- -------KK- ------QRLV
+GTA4_HUMAN ---------- ---------- ---------- -------QQ- ------KEVV
+GT26_SCHMA ---------- ---------- ---------- ---------- ----KV----
+GTS1_ASCSU ---------- ---------- ---------- ---------- -EGDKEKVLK
+GTS7_CAEEL ---------- ---------- ---------- ---------- -EGDLD----
+GTS9_CAEEL ---------- ---------- ---------- ---------- -DGDVD----
+GTS3_CAEEL ---------- ---------- ---------- -------S-- -E----EILK
+GTS1_BLAGE ---------- ---------- ---------- -------SK- -Q----KKWD
+GTP_DIRIM  ---------- ---------- ---------- ---------- ----KD----
+GTP1_BUFBU ---------- ---------- ---------- ---------- ----KD----
+GTP2_BUFBU ---------- ---------- ---------- ---------- ----KE----
+1nhy_A     ----APYNKK SVDSAXDAVD KIVDI----- ---------- ----------
+1ljr_A     ----VQVPEE KVERNRTAMD QALQW----- ---------- ----------
+1eem_A     ---------- ---------- -----SFI-- ---RSQNKED Y--------A
+1g6w_A     FRYF------ ---------- ---------- ---HSQK--- ----------
+1k0m_A     ---------- ---------- -----AYIKN SNP------- ----------
+
+           451                                                500
+1ags_A     ---------- ---------- ---------L IKE------- -KIKNRYFPA
+1oe7_A     ---------- ---------- ---------E ILN------- -GKVPVLLDI
+2gsq_      ---------- ---------- ---------Q NYE------- -KSCKRLAPF
+10gs_A     ---------- ---------- ---------- ---DY----- VKALPGQLKP
+1okt_A     ---------- ---------- ---------T FLN------- -EDLPKWSGY
+GTA1_BOVIN ---------- ---------- ---------L IRE------- -KTTNRYLPA
+GTA1_MOUSE ---------- ---------- ---------L AKD------- -RTKNRYLPA
+GTC1_RAT   ---------- ---------- ---------K IKD------- -KARNRYFPA
+GTC_RABIT  ---------- ---------- ---------Q IKD------- -KAKNRYFPA
+GTA1_RABIT ---------- ---------- ---------F IKE------- -KIRTRYFPA
+GTA1_CAVPO ---------- ---------- ---------L IKD------- -RAKNRFLPA
+GTA3_RAT   ---------- ---------- ---------L AVK------- -RAKNRYFPV
+GTA3_CHICK ---------- ---------- ---------F VVE------- -KATSRYFPA
+GTA2_CHICK ---------- ---------- ---------L ITE------- -RATTRYFPV
+GTA1_CHICK ---------- ---------- ---------N ALD------- -KAANRYFPV
+GTA1_ANTST ---------- ---------- ---------E IAN------- -KAKGRYFPA
+GTA4_HUMAN ---------- ---------- ---------N MAQ------- -KAIIRYFPV
+GT26_SCHMA ---------- ---------- ---------- ---DF----- LNKLPGRLKM
+GTS1_ASCSU ---------- ---------- ---------E VAV------- -PARDKHLPL
+GTS7_CAEEL ---------- ---------- ---------- ---ALAKDVF LPGFKKHYGF
+GTS9_CAEEL ---------- ---------- ---------- ---QLYKDLF VPAFNKMYSI
+GTS3_CAEEL ---------- ---------- ---------N IRE----EVI KPAVKTYTAY
+GTS1_BLAGE ---------- ---------- ---------P LKK------- -ETIPYYTKK
+GTP_DIRIM  ---------- ---------- ---------- ---PFIKN-- --ILPQELAK
+GTP1_BUFBU ---------- ---------- ---------- ---DY----- VKALPTNLGH
+GTP2_BUFBU ---------- ---------- ---------- ---KF----- LEELATQLGY
+1nhy_A     ---------- ---------- ---------- ---------- ----------
+1ljr_A     ---------- ---------- ---------- ---------- ----------
+1eem_A     GL-------- ---------- ---------- ---------- ----------
+1g6w_A     ---------- ---------- ---------- ---------- ----------
+1k0m_A     ALNDNLEKGL LKALKVLDNY LTSPLPEGV- ---------- ----------
+
+           501                                                550
+1ags_A     ---------- --------FE KVLKS----- -HG------- -----QD---
+1oe7_A     ---------- --------IC ESLKA----- -ST------- -----GK---
+2gsq_      ---------- --------LE GLLVS----N GGG------- -----DG---
+10gs_A     ---------- --------FE TLLSQ----N QGG------- -----KT---
+1okt_A     ---------- --------FE KLLKKNHTNN NND------- -----KY---
+GTA1_BOVIN ---------- --------FE NVLKS----- -HG------- -----QD---
+GTA1_MOUSE ---------- --------FE KVLKS----- -HG------- -----QD---
+GTC1_RAT   ---------- --------FE KVLKS----- -HG------- -----QD---
+GTC_RABIT  ---------- --------FE KVLKS----- -HG------- -----QD---
+GTA1_RABIT ---------- --------FE KVLKS----- -HG------- -----QD---
+GTA1_CAVPO ---------- --------FE KVLKS----- -HG------- -----QG---
+GTA3_RAT   ---------- --------FE KILKD----- -HG------- -----EA---
+GTA3_CHICK ---------- --------YE KVLKD----- -HG------- -----QD---
+GTA2_CHICK ---------- --------YE KALKD----- -HG------- -----QD---
+GTA1_CHICK ---------- --------FE KVLKD----- -HG------- -----HD---
+GTA1_ANTST ---------- --------FE NVLKT----- -HG------- -----QN---
+GTA4_HUMAN ---------- --------FE KILRG----- -HG------- -----QS---
+GT26_SCHMA ---------- --------FE DRLS------ --N------- -----KT---
+GTS1_ASCSU ---------- --------LE KFLAK----- -SG------- -----SE---
+GTS7_CAEEL ---------- --------FA NFLKS----- -AG------- -----SG---
+GTS9_CAEEL ---------- --------FT ESLKS----- -SG------- -----SG---
+GTS3_CAEEL ---------- --------LK AILEK----- -SS------- -----SG---
+GTS1_BLAGE ---------- --------FD EVVKA----- -NG------- ------G---
+GTP_DIRIM  ---------- --------LE KLLAT----R DNG------- -----KN---
+GTP1_BUFBU ---------- --------FE RLLAS----N NEG------- -----KG---
+GTP2_BUFBU ---------- --------FE RILTN----N -AG------- -----KTF--
+1nhy_A     ---------- --------FE NRLKN----- -Y-------- ------T---
+1ljr_A     ---------- ---------- ---------- -------LED KFLGDRP---
+1eem_A     --------KE EFRKEFTKLE EVLTN----- -KK------- -----TT---
+1g6w_A     IASAVERYTD EVRRVYGV-- ---------- ---V------ --------EM
+1k0m_A     ---------- ---------- ---------- ---DETSAED EGVSQRK---
+
+           551                                                600
+1ags_A     ---------- --------YL VGNKLSRADI HLVELLYYVE EL-DSS----
+1oe7_A     ---------- --------LA VGDKVTLADL VLIAVIDHVT DL-DKE----
+2gsq_      ---------- --------FF VGNSMTLADL HCYVALEVPL KH-TPE----
+10gs_A     ---------- --------FI VGDQISFADY NLLDLLLIHE VL-APG----
+1okt_A     ---------- --------YF VGNNLTYADL AVFNLYDDIE TK-YPS----
+GTA1_BOVIN ---------- --------YL VGNKLSRADI HLVELLYYVE EL-DPS----
+GTA1_MOUSE ---------- --------YL VGNRLTRVDI HLLEVLLYVE EF-DAS----
+GTC1_RAT   ---------- --------YL VGNRLSRADV YLVQVLYHVE EL-DPS----
+GTC_RABIT  ---------- --------YL VGNKLSKADI LLVELLYNVE EL-NPG----
+GTA1_RABIT ---------- --------YL VGNRLSKADI LLVELLYNVE EL-DPS----
+GTA1_CAVPO ---------- --------YL VGNKLSKADI LLTELLYMVE EF-DAS----
+GTA3_RAT   ---------- --------FL VGNQLSWADI QLLEAILMVE EV-SAP----
+GTA3_CHICK ---------- --------FL VGNRLSWADI HLLEAILMVE EK-KSD----
+GTA2_CHICK ---------- --------YL VGNKLSWADI HLLEAILMTE EL-KSD----
+GTA1_CHICK ---------- --------FL VGNKLSRADV HLLETILAVE ES-KPD----
+GTA1_ANTST ---------- --------FL VGNQLSMADV QLFEAILMVE EK-VPD----
+GTA4_HUMAN ---------- --------FL VGNQLSLADV ILLQTILALE EK-IPN----
+GT26_SCHMA ---------- --------YL NGNCVTHPDF MLYDALDVVL YM-DSQ----
+GTS1_ASCSU ---------- --------YM VGKSVTWADL VITDSLASWE SL-IPD----
+GTS7_CAEEL ---------- --------YL VGDSLTFVDL LVAQHTADLL AA-NAA----
+GTS9_CAEEL ---------- --------FL VGDSLTWMDL AIAQHSADLL EA-DGK----
+GTS3_CAEEL ---------- --------YL VGNELTWADL VIADNLTTLI NA-ELL----
+GTS1_BLAGE ---------- --------YL AAGKLTWADF YFVAILDYLN HMAKED----
+GTP_DIRIM  ---------- --------FI LGDKISFADY VLFEELDVQQ IL-DPH----
+GTP1_BUFBU ---------- --------FV VGAHISFADY NLVDLLHNHL VL-APD----
+GTP2_BUFBU ---------- --------VL VGDKISYADY NLLDTLFCVL DL-SPT----
+1nhy_A     ---------- --------YL ATENISLADL VA-------- ----------
+1ljr_A     ---------- --------FL AGQQVTLADL MALEELMQPV AL-GYE----
+1eem_A     ---------- --------FF GGNSISMIDY LIWPWFERLE A---------
+1g6w_A     ALAERREALV MELDDYPVWL VGDKLTIADL AFVPWNNVVD RI-GIN----
+1k0m_A     ---------- --------FL DGNELTLADC NLLPKLHIV- ------QVVC
+
+           601                                                650
+1ags_A     ---------- ---------- ---LISSFPL LKALKTR--- ISNLPTVKKF
+1oe7_A     --F------- ---------- ---LTGKYPE IHKHREN--L LASSPRLAKY
+2gsq_      ---------- ---------- ---LLKDCPK IVALRKR--- VAECPKIAAY
+10gs_A     ---------- ---------- ---CLDAFPL LSAYVGR--- LSARPKLKAF
+1okt_A     ---------- ---------- ---SLKNFPL LKAHNEF--- ISNLPNIKNY
+GTA1_BOVIN ---------- ---------- ---LLANFPL LKALKAR--- VSSLPAVKKF
+GTA1_MOUSE ---------- ---------- ---LLTPFPL LKAFKSR--- ISSLPNVKKF
+GTC1_RAT   ---------- ---------- ---ALANFPL LKALRTR--- VSNLPTVKKF
+GTC_RABIT  ---------- ---------- ---ATASFPL LQALKTR--- ISNLPTVKKF
+GTA1_RABIT ---------- ---------- ---AIASFPL LKALKTR--- ISSLPTVKKF
+GTA1_CAVPO ---------- ---------- ---LLANFTL LQALKTR--- VSNLPNVKKF
+GTA3_RAT   ---------- ---------- ---VLSDFPL LQAFKTR--- ISNIPTIKKF
+GTA3_CHICK ---------- ---------- ---ALSGFPL LQAFKKR--- ISSIPTIKKF
+GTA2_CHICK ---------- ---------- ---ILSAFPL LQAFKGR--- MSNVPTIKKF
+GTA1_CHICK ---------- ---------- ---ALAKFPL LQSFKAR--- TSNIPNIKKF
+GTA1_ANTST ---------- ---------- ---ALSGFPL LQAFKTR--- ISNIPTVKTF
+GTA4_HUMAN ---------- ---------- ---ILSAFPF LQEYTVK--- LSNIPTIKRF
+GT26_SCHMA ---------- ---------- ---CLNEFPK LVSFKKC--- IEDLPQIKNY
+GTS1_ASCSU ---------- ---------- ---FLSGHLQ LKKYIEH--- VRELPNIKKW
+GTS7_CAEEL ---------- ---------- ---LLDEFPQ FKAHQEK--- VHSNANIKKW
+GTS9_CAEEL ---------- ---------- ---ILDTFLE MKDHQKK--- IHSIPNVKKW
+GTS3_CAEEL ---------- ---------- ---DIENDKL LKEFREK--- IIETPKLKEW
+GTS1_BLAGE ---------- ---------- ---LVANQPN LKALREK--- VLGLPAIKAW
+GTP_DIRIM  ---------- ---------- ---CLEKFPL LKAFHQR--- LGDKPKIKEY
+GTP1_BUFBU ---------- ---------- ---CLSGFPL LCAYVKR--- ISSRPKLEAY
+GTP2_BUFBU ---------- ---------- ---CLSGFPL LSDYVER--- LGKRPKLQQY
+1nhy_A     ---ASIFTRY FESLFGTEWR AQH-----PA IVRWF--NTV ----------
+1ljr_A     ---------- ---------- ---LFEGRPR LAAWRGR--- V---------
+1eem_A     ---------- ---MKLNE-- ---CVDHTPK LKLWMAA--- MKEDPTVSAL
+1g6w_A     ---------- ---------- ---IKIEFPE VYKWTKH--- MMRRPAVIKA
+1k0m_A     KKY------- ---------- ---------- ---------- ----------
+
+           651                                                700
+1ags_A     LQ-------- ---------- ---------- ---------- ------PGSP
+1oe7_A     LS-------- ---------- ---------- ---------- ------DRA-
+2gsq_      LK-------- ---------- ---------- ---------- ------KR--
+10gs_A     LA-------- ---------- ---------- ---------- ------SPEY
+1okt_A     IT-------- ---------- ---------- ---------- ------NR--
+GTA1_BOVIN LQ-------- ---------- ---------- ---------- ------PGSQ
+GTA1_MOUSE LQ-------- ---------- ---------- ---------- ------PGSQ
+GTC1_RAT   LQ-------- ---------- ---------- ---------- ------PGSQ
+GTC_RABIT  LQ-------- ---------- ---------- ---------- ------PGSQ
+GTA1_RABIT LQ-------- ---------- ---------- ---------- ------PGSQ
+GTA1_CAVPO LQ-------- ---------- ---------- ---------- ------PGSQ
+GTA3_RAT   LQ-------- ---------- ---------- ---------- ------PGSQ
+GTA3_CHICK LA-------- ---------- ---------- ---------- ------PGSK
+GTA2_CHICK LQ-------- ---------- ---------- ---------- ------PGSQ
+GTA1_CHICK LQ-------- ---------- ---------- ---------- ------PGSQ
+GTA1_ANTST LA-------- ---------- ---------- ---------- ------PGSK
+GTA4_HUMAN LE-------- ---------- ---------- ---------- ------PGSK
+GT26_SCHMA LN-------- ---------- ---------- ---------- ------SSRY
+GTS1_ASCSU IA-------- ---------- ---------- ---------- ------ER--
+GTS7_CAEEL LE-------- ---------- ---------- ---------- ------TR--
+GTS9_CAEEL IE-------- ---------- ---------- ---------- ------KR--
+GTS3_CAEEL LA-------- ---------- ---------- ---------- ------KR--
+GTS1_BLAGE VA-------- ---------- ---------- ---------- ------K---
+GTP_DIRIM  CA-------- ---------- ---------- ---------- ------KRNA
+GTP1_BUFBU LS-------- ---------- ---------- ---------- ------SDAH
+GTP2_BUFBU LK-------- ---------- ---------- ---------- ------SEGR
+1nhy_A     ---------- ---------- ---------- ---------- ----------
+1ljr_A     ---------- ---------- ---------- ---------- ----------
+1eem_A     LTSEKDWQGF ---------- ---------- ---------- --LELY----
+1g6w_A     LRG------- ---------- ---------- ---------- ----------
+1k0m_A     -------RGF TIPEAFRGVH RYLSNAYARE EFASTCPDDE EI--------
+
+           701                                                750
+1ags_A     R-KPPMDE-- ------KSL- EEARKIFR-- ---------- ----------
+1oe7_A     ---------- ---------- ---------- ---------- ----------
+2gsq_      -P-------- ---------- --------VR D--------- ----------
+10gs_A     V-NLPING-- ------NGKQ ---------- ---------- ----------
+1okt_A     -K-------- ---------- --------ES V--------- ----------
+GTA1_BOVIN R-KPPTDE-- ------KKI- EEARKVFK-- ---------- ----------
+GTA1_MOUSE R-KPPMDA-- ------KQI- QEARKAFK-- ---------- ----------
+GTC1_RAT   R-KPLEDE-- ------KCV- ESAVKIFS-- ---------- ----------
+GTC_RABIT  R-NPPDDE-- ------KCR- EEAKIIFH-- ---------- ----------
+GTA1_RABIT R-KPPMDE-- ------KNL- EKAKKIFK-- ---------- ----------
+GTA1_CAVPO R-KPFPTQ-- ------EMF- EEMRK----- ---------- ----------
+GTA3_RAT   R-KPPPDG-- ------HYV- DVVRTVLK-- ---------- ----------
+GTA3_CHICK R-KPISDD-- ------KYV- ETVRRVLR-- ---------- ----------
+GTA2_CHICK R-KPPLDE-- ------KSI- ANVRKIFS-- ---------- ----------
+GTA1_CHICK R-KPRLEE-- ------KDI- PRLMAIFH-- ---------- ----------
+GTA1_ANTST R-KPVPDA-- ------KYV- EDIIKIFY-- ---------- ----------
+GTA4_HUMAN K-KPPPDE-- ------IYV- RTVYNIFR-- ---------- ----------
+GT26_SCHMA I-KWPLQGWD ATFGGG---- ---------- ---------- ----------
+GTS1_ASCSU -P-------- ---------- --------KT P--------- ----------
+GTS7_CAEEL -P-------- ---------- --------VT P--------- ----------
+GTS9_CAEEL -P-------- ---------- --------VT S--------- ----------
+GTS3_CAEEL -P-------- ---------- --------ET R--------- ----------
+GTS1_BLAGE --RP------ ---------- --------PT D--------- ----------
+GTP_DIRIM  S-KMPVNG-- ------NGKQ ---------- ---------- ----------
+GTP1_BUFBU K-KRPING-- ------NGK- Q--------- ---------- ----------
+GTP2_BUFBU K-RRPING-- ------NGKQ ---------- ---------- ----------
+1nhy_A     ---------- ---------- ---------- -RASP-FLKD EYKDFKF---
+1ljr_A     ---------- ---------- ---------- -E---AFL-- -------GAE
+1eem_A     ---------- ---------- ---------- ---------- ----------
+1g6w_A     ---------- ---------- ---------- ---------- ----------
+1k0m_A     ---------- ---------- ---------- ---------- ----------
+
+           751                                                800
+1ags_A     ---------- ---------- ---------- --------F- ----------
+1oe7_A     ---------- ---------- ---------- ---------- ----------
+2gsq_      ---------- ---------- ---------- --------F- ----------
+10gs_A     ---------- ---------- ---------- ---------- ----------
+1okt_A     ---------- ---------- ---------- --------Y- ----------
+GTA1_BOVIN ---------- ---------- ---------- --------F- ----------
+GTA1_MOUSE ---------- ---------- ---------- --------IQ ----------
+GTC1_RAT   ---------- ---------- ---------- ---------- ----------
+GTC_RABIT  ---------- ---------- ---------- ---------- ----------
+GTA1_RABIT ---------- ---------- ---------- --------IP ----------
+GTA1_CAVPO ---------- ---------- ---------- --------F- ----------
+GTA3_RAT   ---------- ---------- ---------- --------F- ----------
+GTA3_CHICK ---------- ---------- ---------- --------MY YDVK--P---
+GTA2_CHICK ---------- ---------- ---------- --------F- ----------
+GTA1_CHICK ---------- ---------- ---------- ---------- ----------
+GTA1_ANTST ---------- ---------- ---------- --------F- ----------
+GTA4_HUMAN ---------- ---------- ---------- --------P- ----------
+GT26_SCHMA ---------- ---------- ---------- ---------- -D--TPP---
+GTS1_ASCSU ---------- ---------- ---------- --------Y- ----------
+GTS7_CAEEL ---------- ---------- ---------- --------F- ----------
+GTS9_CAEEL ---------- ---------- ---------- --------R- ----------
+GTS3_CAEEL ---------- ---------- ---------- --------F- ----------
+GTS1_BLAGE ---------- ---------- ---------- --------L- ----------
+GTP_DIRIM  ---------- ---------- ---------- ---------- ----------
+GTP1_BUFBU ---------- ---------- ---------- ---------- ----------
+GTP2_BUFBU ---------- ---------- ---------- ---------- ----------
+1nhy_A     ---------- ------ADKP L--------- ---------- ----SPP---
+1ljr_A     LCQEAHSIIL SILEQAAKKT LPTPSPEAYQ AMLLRIARIP ----------
+1eem_A     ---------- ---------- ---------- ---------- LQNS--PEAC
+1g6w_A     ---------- ---------- ---------- ---------- ----------
+1k0m_A     ---------- ---------- ---------E LAYEQVAK-- ----------
+
+           801 805
+1ags_A     ----- 
+1oe7_A     ----- 
+2gsq_      ----- 
+10gs_A     ----- 
+1okt_A     ----- 
+GTA1_BOVIN ----- 
+GTA1_MOUSE ----- 
+GTC1_RAT   ----- 
+GTC_RABIT  ----- 
+GTA1_RABIT ----- 
+GTA1_CAVPO ----- 
+GTA3_RAT   ----- 
+GTA3_CHICK ----H 
+GTA2_CHICK ----- 
+GTA1_CHICK ----- 
+GTA1_ANTST ----- 
+GTA4_HUMAN ----- 
+GT26_SCHMA ----K 
+GTS1_ASCSU ----- 
+GTS7_CAEEL ----- 
+GTS9_CAEEL ----- 
+GTS3_CAEEL ----- 
+GTS1_BLAGE ----- 
+GTP_DIRIM  ----- 
+GTP1_BUFBU ----Q 
+GTP2_BUFBU ----- 
+1nhy_A     ----Q 
+1ljr_A     ----- 
+1eem_A     DYGL- 
+1g6w_A     ----- 
+1k0m_A     --AL- 
+

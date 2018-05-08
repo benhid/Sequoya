@@ -1,0 +1,3544 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 4tmk_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 58 63 0 square solid STRUCT
+  FT   STRUCT        4      9  STRAND
+feature 69 86 3 square solid STRUCT
+  FT   STRUCT       15     28  HELIX
+feature 95 99 0 square solid STRUCT
+  FT   STRUCT       34     38  STRAND
+feature 107 117 3 square solid STRUCT
+  FT   STRUCT       44     54  HELIX
+feature 144 161 3 square solid STRUCT
+  FT   STRUCT       66     83  HELIX
+feature 163 168 3 square solid STRUCT
+  FT   STRUCT       85     90  HELIX
+feature 175 179 0 square solid STRUCT
+  FT   STRUCT       94     98  STRAND
+feature 182 188 3 square solid STRUCT
+  FT   STRUCT      101    107  HELIX
+feature 201 212 3 square solid STRUCT
+  FT   STRUCT      116    127  HELIX
+feature 222 227 0 square solid STRUCT
+  FT   STRUCT      134    139  STRAND
+feature 233 243 3 square solid STRUCT
+  FT   STRUCT      142    152  HELIX
+feature 277 292 3 square solid STRUCT
+  FT   STRUCT      163    178  HELIX
+feature 312 316 0 square solid STRUCT
+  FT   STRUCT      183    187  STRAND
+feature 331 347 3 square solid STRUCT
+  FT   STRUCT      192    208  HELIX
+sequence
+  ......................................................RSKYIV
+  IEGLEGAGKTTA....RNVVVETLEQLG...IRDMVFTREPGG..TQLAEKLRSLLLDI.
+  ..............KSVGDEVITDKAEVLMFYAARVQLVETVIKPALAN...GTWVIGDR
+  HDLSTQAYQGGGR....GIDQHMLATLRDAVLG...DFRPDLTLYLDVT...PEVGLKRA
+  RARG.......................ELDRIEQESFDFFNRTRARYLELAAQDK.....
+  ..........SIHTIDATQ..........PLEAVMDAIRTTVTHWVKEL...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_THETN
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Thermoanaerobacter tengcongensis.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    195  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MRGKFIS
+  FEGIDGCGKTTQ....VKLLEEHLKKEG....YDLLVLREPGG..TRVGEKVREILLDR.
+  ..................ENLIFPVTEMLLYASSRAQLVEEKILPALSK...GQMVIVDR
+  FIDSSYVYQGYAR....GLGLEKVKIVNEIATK...GLFPDITVYIDIT...PEEAIKRR
+  QGK.K.......................ADRLEGEDYEFHKKVREGYLRLVKDFPE....
+  ..........RFILIDGMQ..........EVLAVHKMVVKAVEEYLKGAKV.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_CHLTE
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Chlorobium tepidum.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        5    202  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          7     14  NP_BIND_ATP Potential
+sequence
+  ........................................................MLIS
+  FEGIDGAGKSTQ....VMKLKRYLQERG....REVLALREPGG..TPVAEEIRELLLER.
+  ..................RNDITPVGELLLFAASRAELVQQVIQPALEN...DSDVILDR
+  FFDSTTAYQGYGR....GLDLDMLAEINRIASC...RLVPDVTFYLDLT...PEDALMRK
+  FSEKSLPLAFE..............SEELDRMENSGLDFYRRVREGYHKIGGENPN....
+  ..........RIIIIDALL..........SPSEIHRKIISSIDALCTKTA..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_ANASP
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Anabaena sp. (strain PCC 7120).Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    199  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MGGRFIV
+  FEGVEGCGKTSQ....MQLCAEWLQSLG....ISVVLTREPGG..TELGLDLRRLLLQK.
+  ................AEDKPIAEVTELLLYAADRAQHVAQELKPKLAQ...GKYILCDR
+  YVDSTIAYQGYGR....NLDMNLIHQLNDIATG...GLTSDITIWLDVD...VEVGLARK
+  RGDNVG......................LDRIEQETIAFHRRVQQGYADLAASSPK....
+  ..........RIIRVDGQL..........SKETVHKTIQEILSVHLKQWL..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_PSESM
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Pseudomonas syringae (pv. tomato).Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MTGLFIT
+  LEGPEGAGKSTN....RDYLAAQLRAQG....VQVLLTREPGG..TPLAERIRELLLAP.
+  .................SDEGMSADTELLLVFAARAQHLAEVIRPALAR...GEVVLCDR
+  FTDATYAYQGGGR....GLSHERIAALEQFVQG...DLRPDLTLVFDLP...VEIGLSRA
+  AARG.......................RLDRFEQEGRAFFDAVRSTYLNRAKAEPA....
+  ..........RYRLVDAAQ..........SLADVQASLDKLLPELLELQRG.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_PSEAE
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Pseudomonas aeruginosa.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    197  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MTGLFVT
+  LEGPEGAGKSTN....RDYLAERLRERG....IEVQLTREPGG..TPLAERIRELLLAP.
+  .................SDEPMAADTELLLMFAARAQHLAGVIRPALAR...GAVVLCDR
+  FTDATYAYQGGGR....GLPEARIAALESFVQG...DLRPDLTLVFDLP...VEIGLARA
+  AARG.......................RLDRFEQEDRRFFEAVRQTYLQRAAQAPE....
+  ..........RYQVLDAGL..........PLAEVQAGLDRLLPNLLERLNG.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_RALSO
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Ralstonia solanacearum (Pseudomonas solanacearum).Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    198  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MTGKFIT
+  FEGIDGAGKSTHLAWFAQQLEARLAPQG....RKVVVTREPGG..TPLGERLREVLLH..
+  ...................ERMHLETEALLMFASRREHIAEVIQPALER...GDWVISDR
+  FTDATFAYQGGGR....GLAIERLEALEQWVQQ...GLQPTRTLLFDLA...PEVAAARL
+  ADAR.......................TPDKFEAESAQFFVRTRAEYLRRAAAEPG....
+  ..........RFVVIDAAR..........ARDDIRKDLEKLLASL...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_NEIMA
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Neisseria meningitidis (serogroup A).Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    196  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MKPQFIT
+  LDGIDGAGKSTN....LAVIKAWFERRG....LPVLFTREPGG..TPVGEALREILLNP.
+  ..................ETKAGLRAETLMMFAARMQHIEDVILPALSD...GIHVVSDR
+  FTDATFAYQGGGR....GMPSEDIEILEHWVQG...GLRPDLTLLLDVP...LEVSMARI
+  GQTR.......................EKDRFEQEQADFFMRVRSVYLNRAAACPE....
+  ..........RYAVIDSNL..........GLDEVRNSIEKVLDRHFGC............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_DEIRA
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Deinococcus radiodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    197  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MSQGLFIT
+  LEGPEGAGKTTQ....LARLEARLRAAG....HAVTVTREPGG..TPLGTRVREVVLDP.
+  ..................AVEIEPLGEFLLYSASRAQLVREVLRPALER...GETVLCDR
+  YADSSLAYQGAGR....GLSLPLLRQITAEVTG...GLTPGLTVLLDLD...PALGLQRA
+  ARRG.......................QPDRLEQADLTFHRRVRQGFLDLAHAEPQ....
+  ..........RFLVLDATR..........PEDELEAEIWAAVSERGH.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_CAUCR
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Caulobacter crescentus.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    198  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MTQGFFIS
+  FEGGEGAGKSTQ....IRRLADRLKAAG....HDVIVTREPGG..SPGAEAIRELLVNG.
+  .................AADRWSPVTESLLMYAARRDHIERVIRPGLAR...GAVVLCDR
+  FADSTRAYQGAGG....DAPASLIAALEEHVLG...GTVPVLTLILDLP...AEVGLQRA
+  EARG.......................GAARFESKGLAFHERLRAGYLEIARREPD....
+  ..........RCVVIDADA..........ELDAVTAAISDVVVQRLGL............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_BRUME
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Brucella melitensis.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    200  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MSGLFIT
+  FEGGEGAGKSTQ....IALLASHLRNHG....FDPVITREPGG..SPGAEAIRHVILSG.
+  .................NAETYGPAMEALLFAAARADHVDQLIRPTLAE...GRIVLCDR
+  FIDSSRAYQGVTG....NLDATYMAAIERIAID...GAMPDLTLVLDIC...AERGLSRA
+  GKRRG....................SDTADRFEKEDIAVHEARRQAFLEIARQEPA....
+  ..........RCKVIDADR..........SQEKIADEIRSVVDTILTEKGLL........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_AGRT5
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Agrobacterium tumefaciens (strain C58 / ATCC 33970).Bacteria
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A       11    204  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         13     20  NP_BIND_ATP Potential
+sequence
+  ..................................................MAEKTGLFIS
+  FEGGEGAGKSTQ....IRTLAEALRGRG....FEVVVTREPGG..SPGAEAVRHVILSG.
+  .................AAESFGVRMEAILFAAARNDHVEEVIRPALAR...GEIVLCDR
+  FLDSSRVYQGTTG....NLEPDFIETLQRIAID...GVVPELTLIFDIA...AEKGLARA
+  RKRADEG...................ATPDRFEKEEIETHEKRREAYLDIALAEPR....
+  ..........RCRIVNADQ..........PEDKVTEDVMSFVEPLLERAGNAADAAHE..
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_RHIME
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A       19    211  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         21     28  NP_BIND_ATP Potential
+sequence
+  ..........................................MHADPGIEVSLAKGFFIT
+  FEGGEGTGKSTQ....MRLLAEALSARG....YRVLTTREPGG..SVGAEAVRHVLLSG.
+  .................AAESFGVRMEAILFAAARSDHVEEVIRPALEQ...GTIVLCDR
+  FMDSSRVYQGVTG....NLEPAFVETLERVAVN...GVIPDCTIIFDLP...ASVGLERA
+  RRRAAN....................DSPDRFEKEQLETHEKRREAFLDIAAADPE....
+  ..........RCRVVDANR..........PPTAIAAEVLSLVEALLPLEGKPQPSNAEAT
+  ..S.........................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_RHILO
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Rhizobium loti (Mesorhizobium loti).Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    202  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MARGFFIT
+  FEGGEGAGKSTQ....IERLARKMHAKK....YDVLLTREPGG..SPGAEAVRHVLLSG.
+  .................AAEPFGPKMEALLFAAARSDHVEQVIRPAVER...GSIVLCDR
+  FLDSSRVYQGVTG....GIDPAFMATLEQIAIN...GMMPDMTLIFDID...PAEGLRRA
+  TLRRGS...................DAGADRFEKETLAIHQARRAAFLAIAAAEPE....
+  ..........RCIVVDASA..........DPNTVEDVVTAAVFAALEARAPARNRQAAPV
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_CHLMU
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Chlamydia muridarum.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        5    195  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          7     14  NP_BIND_ATP Potential
+sequence
+  ........................................................MFIV
+  VEGGEGAGKTQF....TQALSKRLMEEG....KEVVLTREPGG..SALGEQLRDLVLDV.
+  ..................TQEISSYAELLLFLAARAQHIQEKILPALES...GKTVICDR
+  FHDSTIVYQGIAG....GLGEAFVTDLCYRVVGDE.PFLPDITFLLDLP...EKEGLLRK
+  TRQK.......................NLDRFEQKPTSFHRAAREGFISLAERSPD....
+  ..........RYKILDALL..........PTEVSVDQALLQIRALI..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_CHLTR
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Chlamydia trachomatis.Bacteria;
+type    PROTEIN
+group 1
+feature 61 337 0 square solid PFAM-A
+  FT   PFAM-A        5    195  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          7     14  NP_BIND_ATP Potential
+sequence
+  ........................................................MFIV
+  VEGGEGAGKTQF....IQALSKRLIEEG....REIVTTREPGG..CSLGDSVRGLLLDP.
+  ..................EQKISPYAELLLFLAARAQHIQEKIIPALKS...GKTVISDR
+  FHDSTIVYQGIAG....GLGESFVTNLCYHVVGDK.PFLPDITFLLDIP...AREGLLRK
+  ARQK.......................HLDKFEQKPQIFHRSVREGFLALAEKAPD....
+  ..........RYKVLDALLP.........TEASVDQALLQIRALI...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_CHLCV
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Chlamydophila caviae.Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE          7     14  NP_BIND_ATP Potential
+sequence
+  ........................................................MFIV
+  IEGCEGSGKSSL....TELLKDRLIAEG....KAVVATREPGG..SPLGERVRDLILEP.
+  .................STPSISPYTELFLFLAARAEHITKKIFPALES...GNIVICDR
+  FHDSTIVYQGIAE....GLGKEYVTSLCHHVVGEK.KFLPDLTCLLDIP...ADEGLRRK
+  QQQK.......................SLDKFEDKPLAYHTKIREGFLSLAEAHPN....
+  ..........SYLILDGRQ..........PLEESLNKVMTAYTELALCK...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_CHLPN
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        5    196  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          7     14  NP_BIND_ATP Potential
+sequence
+  ........................................................MFIV
+  IEGGEGSGKSSL....AKALGDQLVAQD....RKVLLTREPGG..CLIGERLRDLILEP.
+  .................PHLELSRCCELFLFLGSRAQHIQEVIIPALRD...GYIVICER
+  FHDSTIVYQGIAE....GLGADFVADLCSKVVGPT.PFLPNFVLLLDIP...ADIGLQRK
+  HRQK.......................VFDKFEKKPLSYHNRIREGFLSLASADPS....
+  ..........RYLVLDARE..........SLASLIDKVMLHTQLGLCT............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_LACLA
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Lactococcus lactis (subsp. lactis) (Streptococcus lactis).Ba
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    199  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MNGILIS
+  LEGPDGAGKTTV....LKEILPEIQKMK....REIVPTREPGG..VRVAEEIRQIILDP.
+  .................KNTDIDSKTELMLFAAARRLHMQEKMLPALQA...GKVVIVDR
+  FIDSSVAYQGYGR....DLGVEVVDWLNYFATD...GLKPDLTLYFDVD...TDVALERI
+  MKNR.....................ADEVNRLDLERAEMHRKVREGYLEIVVKEPE....
+  ..........RFVKIDASQ..........PLEKVVADTLSVLKKRFVSEF..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_STRP3
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Streptococcus pyogenes (serotype M3).Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    201  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MITGKLIT
+  VEGPDGAGKTTV....LEQLIPLLKQKVA...QEILTTREPGG..VAISEYIRELILDI.
+  .................NHTTMDPKTELLLYIAARRQHLVEKVLPALEA...GQLVFIDR
+  FIDSSVAYQGAGR....GLIKADIQWLNEFATD...GLEPDLTLYFDVP...SEIGLARI
+  NANQ.....................QREVNRLDLETIEIHQRVRKGYLALAKEHPK....
+  ..........RIVTIDATK..........PLKEVVSVALEHVLTLLLA............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_STRPN
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Streptococcus pneumoniae.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    200  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MSKGFLVS
+  LEGPEGAGKTSV....LEALLPILEEKG....VEVLTTREPGG..VLIGEKIREVILDP.
+  .................SHTQMDAKTELLLYIASRRQHLVEKVLPALEA...GKLVIMDR
+  FIDSSVAYQGFGR....GLDIEAIDWLNQFATD...GLKPDLTLYFDIE...VEEGLARI
+  AANS.....................DREVNRLDLEGLDLHKKVRQGYLSLLDKEGN....
+  ..........RIVKIDASL..........PLEQVVETTKAVLFDGMGLAK..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_BACSU
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    199  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MSGLFIT
+  FEGPEGAGKTTV....LQEIKNILTAEG....LQVMATREPGG..IDIAEQIREVILNE.
+  .................NNILMDPKTEALLYAAARRQHLVEKVKPALEQ...GFIVLCDR
+  FIDSPLAYQGYAR....GLGIDEVLSINEFAIG...DMMPHVTVYFSID...PEEGLKRI
+  YANG.....................SREKNRLDLEKLDFHTKVQEGYQELMKRFPE....
+  ..........RFHSVDAGQ..........SKDLVVQDVLKVIDEALKKIQL.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_BACHD
+descrip    Thymidylate kinase (EC 2.7.4.9).
+creator    Bacillus halodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    200  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MTKGCFIT
+  VEGGEGAGKTSA....LDAIEEMLRENG....LSVVRTREPGG..IPIAEQIRSIILDV.
+  .................DHTRMDPRTEALLYAAARRQHLVEKVLPALEA...GHVVLCDR
+  FIDSSLAYQGYAR....GIGFEDILAINEFAIE...GRYPDLTLLFRVD...PDVGLSRI
+  HRDQ.....................SREQNRLDQEALTFHQKVKEGYERIVETYPE....
+  ..........RVVEIDANQ..........SFDQVVADAVRMIKQRLSL............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_LACPL
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Lactobacillus plantarum.Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MLTGKLVT
+  FEGPDGAGKTSA....LNAIVAKLQPQLG...DRLVVTREPGG..NQISEAIRKIILDR.
+  .................HNTAMDDRTEALLYAAARRQHIVQTIQPALQN...DQLVLCDR
+  YIDSSVAYQGAGR....GIGEQAVYDMNQFATA...GLTADLTLYFDVD...AAVGLNRI
+  QQHR.....................QNEINRLDVEALSFHHRVQAAYLRLLADHPD....
+  ..........RIKRVDASQ..........PLDQVVTQALEIMASQLPTYVASKGGEDQ..
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_STAEP
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Staphylococcus epidermidis.Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE          9     16  NP_BIND_ATP Potential
+sequence
+  ......................................................MSTFIT
+  FEGPEGAGKTSV....IKKVSERLAKE.....YDIVTTREPGG..VLTSEEIRRIVLDG.
+  ...................DSIDIRTEAMLFAASRREHLVEKIIPSLQA...GKIVLCDR
+  YIDSSLAYQGYAR....GIGIKEVKLLNEFAIN...GLYPDLTIYLDVD...AEIGRQRI
+  LKNN......................REQNRLDKEEKAFHEKVIEGYQKVISDNPH....
+  ..........RFIKVNANH..........SLDKVVEETYQSIIKYLK.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_STAAM
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Staphylococcus aureus (strain Mu50 / ATCC 700699), andStaphy
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        7    194  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          9     16  NP_BIND_ATP Potential
+sequence
+  ......................................................MSAFIT
+  FEGPEGSGKTTV....INEVYHRLVKD.....YDVIMTREPGG..VPTGEEIRKIVLEG.
+  ...................NDMDIRTEAMLFAASRREHLVLKVIPALKE...GKVVLCDR
+  YIDSSLAYQGYAR....GIGVEEVRALNEFAIN...GLYPDLTIYLNVS...AEVGRERI
+  IKNS......................RDQNRLDQEDLKFHEKVIEGYQEIIHNESQ....
+  ..........RFKSVNADQ..........PLENVVEDTYQTIIKYLEKI...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_LISIN
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Listeria innocua.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    199  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MKAIFIT
+  LEGPDGSGKTTV....GTLLNQKMEEAG....IDFIKTREPGG..SPISEKVRNIVLGI.
+  .................GNEEMDPKTEVLLIAGARRQHVVETIRPALAA...GKTVLCDR
+  FMDSSLAYQGAGR....DMNMEQVLQVNLYAIE...DTIPDRTYYLDVP...AEVGLARI
+  AANK.....................GREVNRLDKEDITYHEKVQNGYEKIIQMFPD....
+  ..........RFMRVDATK..........TPEEITTIILADILKQLT.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_RICCN
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Rickettsia conorii.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A       12    199  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         14     21  NP_BIND_ATP Potential
+sequence
+  .................................................MNNLKQGKFIT
+  FEGGEGIGKSTQ....SQMLYEYLQSQN....TPVILTREVGG..TIVAEKMREILVH..
+  ...................EELLPMSELLQAMAARYDHMARKIIPALQE...GHIVICDR
+  FIESTVCYQGLEL....ENGIDLVYNLHKTLMP...SLMPDITFFIDVE...PDTAIKRV
+  NSRN.......................MNNKFDIRGIDFYKKIYYCFKELSNRFPE....
+  ..........RIKTIKASD.........LSPLEVHELIKKHL..................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_THEMA
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Thermotoga maritima.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        5    185  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          7     14  NP_BIND_ATP Potential
+sequence
+  ........................................................MFIT
+  FEGIDGSGKSTQ....IQLLAQYLEKRG....KKVILKREPGG..TETGEKIRKILLE..
+  ...................EEVTPKAELFLFLASRN.LLVTEIKQYLSE...GYAVLLDR
+  YTDSSVAYQGFGR....NLGKEIVEELNDFATD...GLIPDLTFYIDVD...VETALKRK
+  G..........................ELNRFEK..REFLERVREGYLVLAREHPE....
+  ..........RIVVLDGKR..........SIEEIHRDVVREVKRRWKLDV..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_METAC
+descrip    Probable thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Methanosarcina acetivorans.Archaea;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    194  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MRGKLIT
+  LEGIDGSGKSTV....AKKLQENSELRV....FEPVFTREP.....TRGTLTGNAVENA.
+  .................IQSDTDQLAELFLFTADHAEHLAKLVKPALED...GKTVISDR
+  YSDSRYAYQGITLKNRLDNPLEWVRDLHRGW.....TVIPDLTFLFDIE...PEIAVKRC
+  GKRG.......................EQTKFEK..IEFLRGVRELFLGLAAEEPE....
+  ..........RFVIVDASG..........SPEDVEKAVVQKILDFVQRIE..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_HALN1
+descrip    Probable thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        5    185  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          7     14  NP_BIND_ATP Potential
+sequence
+  ........................................................MLVT
+  LEGLDGSGKTTV....WESLRASHDDG.......VTFTAEPTD..SQYGQAVRRSESAA.
+  ....................DADPIAELFLFTADHADHLSRVVSPALDR...GDVVISDR
+  YSDSRYAYQGATLADTVPRAMEYVRGIHQPW.....TRPPDVTLYFDVD...PDTGAARS
+  GATN..........................KFET..AAFLADVRANYEQLIDYTPE....
+  ..........RFVRIDATQ..........SPEAVIADAEAALADALPDDAWA........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_MYCGE
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Mycoplasma genitalium.Bacteria;
+type    PROTEIN
+group 1
+feature 61 339 0 square solid PFAM-A
+  FT   PFAM-A        9    197  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MNKGVFVV
+  IEGVDGAGKTAL....IEGFKKLYPTKFL..NYQLTYTREPGG..TLLAEKIRQLLLN..
+  ...................ETMEPLTEAYLFAAARTEHISKLIKPAIEK...EQLVISDR
+  FVFSSFAYQGLSK....KIGIDTVKQINHHALR...NMMPNFTFILDCN...FKEALQRM
+  QKRG....................NDNLLDEFIK.GKNDFDTVRSYYLSLVDKK......
+  ..........NCFLINGDN...........KQEHLEKFIELLTRCLQQPTHY........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_MYCPN
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Mycoplasma pneumoniae.Bacteria;
+type    PROTEIN
+group 1
+feature 61 335 0 square solid PFAM-A
+  FT   PFAM-A        9    197  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MKQGVFVA
+  IEGVDGAGKTVL....LEAFKQRFPQSFL..GFKTLFSREPGG..TPLAEKIRALLLH..
+  ...................EAMEPLTEAYLFAASRTEHVRQLIQPALQQ...KQLVIVDR
+  FVWSSYAYQGLIK....KVGLDVVKKLNADAVG...DSMPDFTFIVDCD...FETALNRM
+  AKRG....................QDNLLDNTVK.KQADFNTMRQYYHSLVDNK......
+  ..........RVFLLDGQNQTG.......CLEQFIEQLSQCLTQPTLS............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_MYCPU
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Mycoplasma pulmonis.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A       18    213  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         20     27  NP_BIND_ATP Potential
+sequence
+  ...........................................MKIENKSDKEEDQMFIT
+  FEGIDASGKTSL....LAKLKAHVVQKNL..QGKCTFTWEPGGRKSPEIQTIRHLILNK.
+  ..................ESNLSPIAEAFLYSSARRIHLDKVILPNLAK...NKVVFCDR
+  FVDSSFAYQAFGR....DLGFEKIKLLNELATD...KKYPDITFILKIS...YEESMERR
+  KARQ......................EDEDRLEKEENSFYQKVIKGYDFLASYPEFQK..
+  ..........RIFVIDASK..........NQEEIFESVLKILKDHKTFQTHPIYKDFFS.
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_VIBCH
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Vibrio cholerae.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    198  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MNAKFIV
+  IEGLEGAGKSTA....IQVVVETLQQNG...IDHITRTREPGG..TLLAEKLRALVKEE.
+  ................HPGEELQDITELLLVYAARVQLVENVIKPALAR...GEWVVGDR
+  HDMSSQAYQGGGR....QIAPSTMQSLKQTALG...DFKPDLTLYLDID...PKLGLERA
+  RGRG.......................ELDRIEKMDISFFERARERYLELANSDD.....
+  ..........SVVMIDAAQ..........SIEQVTADIRRALQDWLSQVNRV........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_VIBPA
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Vibrio parahaemolyticus.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    199  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MMKANFIV
+  VEGLEGAGKSTA....IKTVLDTLKQAG...IENIVNTREPGG..TPLAEKMRALVKEE.
+  ................HEGEELKDMTELLLLYAARVQLVENVIKPALAN...GQWVVGDR
+  HDLSSQAYQGGGR....QIDASLMKNLRDTTLG...DFKPAFTLYMDID...PRIGLERA
+  RGRG.......................ELDRIEKMDISFFERTRERYLEIANADP.....
+  ..........SIVVINAEQ..........SIEEVSRDIQDALNEWLSRQ...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_YERPE
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Yersinia pestis.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    198  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MNSKFIV
+  IEGLEGAGKTTT....RDTVVAVLRAQG...INDIVFTREPGG..TPLAEKLRDLIKQG.
+  ................IDGEVLTDKAEVLMLYAARVQLVENVIKPALAR...GSWVVGDR
+  HDLSSQAYQGGGR....GIDSQLMASLRDTVLG...EFRPDLTLYLDLP...PAVGLARA
+  RARG.......................ELDRIEQESLAFFERTRARYLELAASDA.....
+  ..........SIKTIDASQ..........PIEQVSASISQALAQWLTNQEPV........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_HAEIN
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    197  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MKGKFIV
+  IEGLEGAGKSSA....HQSVVRVLHELG...IQDVVFTREPGG..TPLAEKLRHLIKHE.
+  .................TEEPVTDKAELLMLYAARIQLVENVIKPALMQ...GKWVVGDR
+  HDMSSQAYQGGGR....QLDPHFMLTLKETVLG...NFEPDLTIYLDID...PSVGLARA
+  RGRG.......................ELDRIEQMDLDFFHRTRARYLELVKDNP.....
+  ..........KAVVINAEQ..........SIELVQADIESAVKNWWKSNEK.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_PASMU
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Pasteurella multocida.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    198  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MTTGKFIV
+  LEGIEGAGKTTA....RDSIVRALHAHG...IHDIVFTREPGG..TPLAEKLRQLIKHE.
+  .................TEEPVTDKAELLMLYAARIQLVENVIKPALAQ...GKWVIGDR
+  HDMSSQAYQGGGR....QLDQHLLHTLKQTILG...EFEPDLTLYLDID...PVLGLSRA
+  KGRG.......................ALDRIEQQNLDFFHRTRQRYQELVRHNP.....
+  ..........KAVTIDASQ..........TMSKVAEDVESAIETWLTTR...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_WIGBR
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Wigglesworthia glossinidia brevipalpis.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    222  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MIKSKFIV
+  IEGLEGSGKTNA....ISKIVNLLNKQG...IKNVIFTREPGG..TPLAESLRTLIKEG.
+  ................VGYEKITDNAELLMIYAARIQLVESVIKPALEN...GSWVVGDR
+  HDLSSLAYQGGGR....KIDTKILKMLREVFLR...DFYPDLTFYLDIP...PIMGLARI
+  RARATVRAQIRDKVNKIKRNHSHDIKNALDRIEVEPISFFDRTRKKYKELASKNE.....
+  ..........KIITIDASK..........SLELVNKEIKHQLLKWLKKQI..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_BUCBP
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    199  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MLKGKFIV
+  IEGIEGSGKTTI....CKTLKNILYEHG...IKNVICVRDPGS..TPLAEKIRSLLITK.
+  ................DKNEYMVNETELLLFYAARIQLIKNIIQPALNK...GVWVISDR
+  YFLSSLAYQCAGR....KIKEEIVLLLQSLFLK...NFNPNITFYLDVT...PEIGLNRI
+  KNRN.......................EIDRIEQNTKFFFNNVRNKYLNLIKTKP.....
+  ..........GIIKINANR..........KIDKVKHSCKQQMLSWLNTENL.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_BUCAI
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    199  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MIKSKFIV
+  IEGLEGAGKTNA....CICIKNLLKKNS...IKNVLLVRQPGS..TPIAEDIRRLIKKK.
+  ................FNDDNLIKETELLLMYAARIQLVEKKIKPALKN...GIWVISDR
+  HDLSSLAYQGGGL....GIPKKIIYQLQSLFLN...NFIPDLTIYLDVS...PEIGLARA
+  LKRN.......................PLDLIESRSLFFFKKTRRCYLEKSKLDK.....
+  ..........KTIIINANL..........NIKKVTQNITKKMLNWLNKQVI.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_BUCAP
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Buchnera aphidicola (subsp. Schizaphis graminum).Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    199  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MIKSKFIV
+  IEGLEGAGKTHA....CICVQRILKENN...IKNVILVRQPGS..TPVAEKIRKLIKNN.
+  ................TYIEDFEKETELLLMYAARIQLVKKIIQPALKK...GTWVISDR
+  HDLSSLAYQGGGL....GIKRKLINKLKYLFLQ...DFIPDLTIYLDVY...PEIGLKRA
+  SKRN.......................HLDRIEHRSLTFFKKTRASYLKNIKLDK.....
+  ..........KIIKINANL..........NIKIVTQNIKNQILKWLQQKVV.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_PYRHO
+descrip    Probable thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Pyrococcus horikoshii.Archaea;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    194  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MRGYFIV
+  LEGIDGSGKTTQ....AKLLAEWFEDKG....YEVLLTKEPTD..SELGKLIRRIILEE.
+  ..............SVIDGSKISYEAEALLFAADRAEHVKKIILPALSE...GKVVICDR
+  YFYSSLAYQWAR.....GLDLNWLIQVNSF......APRPDLAILLDLP...VKESLRRI
+  KLRG.......................TLTEFDK.IVELQRKVRHNYLKLAEMFP.....
+  ..........EMRIVNALS..........SIEDIHSDIVALVKHELLGL...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_PYRAB
+descrip    Probable thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Pyrococcus abyssi.Archaea;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        8    194  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP Potential
+sequence
+  .....................................................MRGYFVV
+  LEGIDGSGKTTQ....AKLLAEWFEEQG....WDVLLTKEPTD..TEFGRLIRELVLKN.
+  ..............SIIDGSRISYEAEALLFAADRAEHVKKVILPALEK...GKVVICDR
+  YLYSSLAYQWAR.....GLSLEWLMQINSF......APRPDLAILLDLP...VKESIRRT
+  KARG.......................NMSEFDK.LLELQRKVRMNYLKLAEMFK.....
+  ..........EMRIVNAMA..........SVEEVHEDIVALVKHELLGL...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_PYRFU
+descrip    Probable thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Pyrococcus furiosus.Archaea;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        9    195  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP Potential
+sequence
+  ....................................................MKRGLFIV
+  LEGIDGSGKTTQ....ARLLARWFEDNG....FKVVLTKEPTD..TEFGKIIRKLVLEG.
+  ..............SIIDGGRISLEAEALLFAADRAEHVKKIIEPALRE...GKVVISDR
+  YFYSSLAYQWAR.....GLNLEWLIEINKF......APHPDIAILLDIP...PREGIKRI
+  KKRS.......................SQTEFDK.LFKLQEKVRENYIKLAKMFD.....
+  ..........EIKIIDATK..........SVEEVHREIISSIKEIWGKNYGSR.......
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_AQUAE
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Aquifex aeolicus.Bacteria;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        5    185  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          7     14  NP_BIND_ATP Potential
+sequence
+  ........................................................MLIA
+  FEGIDGSGKTTQ....AKKLYEYLKQKG....YFVSLYREPGG..TKVGEVLREILLT..
+  ...................EELDERTELLLFEASRSKLIEEKIIPDLKR...DKVVILDR
+  FVLSTIAYQGYGK....GLDVEFIKNLNEFATR...GVKPDITLLLDIP...VDIALRRL
+  K..........................EKNRFEN..KEFLEKVRKGFLELAKEEE.....
+  ..........NVVVIDASG..........EEEEVFKEILRALSGVLRV............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_ARCFU
+descrip    Probable thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Archaeoglobus fulgidus.Archaea;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        5    181  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          7     14  NP_BIND_ATP Potential
+sequence
+  ........................................................MLIA
+  VEGIDGAGKTTI....AAYIAELLKEKG....YKVKVLKEPGD..SKFGKKIKSSEER..
+  .....................LSPEEELELFLKDREIDARENILPALQS...GYAVVMDR
+  YYFSNIAYQSAR.....GIDARLIREMNEKI.....APKPDLTILLDVE...PEIALERV
+  RKRG.......................KLSPFEK..LDYLRKVRKCFLENADET......
+  ...........TVVVDASK..........PLEEVKEEVRKVIESFLNLKKNSN.......
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTH1_SULTO
+descrip    Probable thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Sulfolobus tokodaii.Archaea;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        7    179  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          9     16  NP_BIND_ATP Potential
+sequence
+  ......................................................MPRFIS
+  FEGIDGAGKTTL....AKKVYEVLKKKG....YNVILTQEP......FTREITELIKKA.
+  ...................GWNDPVLLTLLFSADRAFHIKWIME...QK...PEIVLMDR
+  YFHSTIAYQSVL.....GLDEKWIEEVNSK......FPKPDIVFLLDIK...VNEAIKRI
+  RKDD.......................QFNFEEK..IATLEAVRKKYLELARKY......
+  ..........NFIVLDAMS..........KIEELTEKTVQIICSLVKCS...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_PYRAE
+descrip    Probable thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Pyrobaculum aerophilum.Archaea;
+type    PROTEIN
+group 1
+feature 61 338 0 square solid PFAM-A
+  FT   PFAM-A        6    181  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE          8     15  NP_BIND_ATP Potential
+sequence
+  .......................................................MAFVA
+  IEGIDGSGKSTV....ISLLEKKLP........RVYATREPSS..GPIGRLIKEWALKG.
+  ...................GSVDPHVDALLFAADRIEHYKREIEPRVRE...GYIVISER
+  YIESSIAYQGAA.....GVSREFVKYINSL......VPKPDLTIILDVD...PSIAEARI
+  RQRG.......................GAEKYEY..LSFLRKVREIYLARAAEEG.....
+  ...........YPVIDASR..........RPEEVAADVAELIKRVVRFK...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KTHY_XANAC
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Xanthomonas axonopodis (pv. citri).Bacteria;
+type    PROTEIN
+group 1
+feature 61 331 0 square solid PFAM-A
+  FT   PFAM-A       14    192  PF02223 Thymidylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         16     23  NP_BIND_ATP Potential
+sequence
+  ...............................................MTIELKPGGLLIA
+  IEGIDGAGKTTL....ARRLAATLDAAG....ARVVLSKEPTN..GPWGTQLRQSAATG.
+  ....................RLSAEEEAELLIRDRHEHVDTLIAPALAR...GDIVILDR
+  YFPSMVAYQGAA.....GLPLDELLERNAF......APRPDVLLLLDLP...PPTGLARI
+  RARG......................DAPNHFET..QDNLERCRTIFAALELPG......
+  ...........KHVVDASADAD...SVLRQAHAIIVAALADRLSGDAAHTDTGKAALELL
+  SAGRPA......................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name 1bif_
+descrip    Thymidylate kinase (EC 2.7.4.9) (dTMP kinase).
+creator    Xanthomonas axonopodis (pv. citri).Bacteria;
+type    PROTEIN
+group 1
+feature 57 62 0 square solid STRUCT
+  FT   STRUCT        3      8  STRAND
+feature 69 86 3 square solid STRUCT
+  FT   STRUCT       15     28  HELIX
+feature 94 98 0 square solid STRUCT
+  FT   STRUCT       33     37  STRAND
+feature 109 117 3 square solid STRUCT
+  FT   STRUCT       38     46  HELIX
+feature 133 136 3 square solid STRUCT
+  FT   STRUCT       52     55  HELIX
+feature 146 168 3 square solid STRUCT
+  FT   STRUCT       60     82  HELIX
+feature 175 179 0 square solid STRUCT
+  FT   STRUCT       88     92  STRAND
+feature 199 212 3 square solid STRUCT
+  FT   STRUCT       98    111  HELIX
+feature 222 228 0 square solid STRUCT
+  FT   STRUCT      114    120  STRAND
+feature 233 243 3 square solid STRUCT
+  FT   STRUCT      125    135  HELIX
+feature 273 288 3 square solid STRUCT
+  FT   STRUCT      147    162  HELIX
+feature 311 315 0 square solid STRUCT
+  FT   STRUCT      178    182  STRAND
+feature 320 324 0 square solid STRUCT
+  FT   STRUCT      187    191  STRAND
+feature 332 341 3 square solid STRUCT
+  FT   STRUCT      196    205  HELIX
+feature 351 355 0 square solid STRUCT
+  FT   STRUCT      215    219  STRAND
+feature 360 364 3 square solid STRUCT
+  FT   STRUCT      224    228  HELIX
+feature 375 391 3 square solid STRUCT
+  FT   STRUCT      239    255  HELIX
+feature 397 400 0 square solid STRUCT
+  FT   STRUCT      261    264  STRAND
+feature 404 410 3 square solid STRUCT
+  FT   STRUCT      268    274  HELIX
+feature 420 421 0 square solid STRUCT
+  FT   STRUCT      282    283  STRAND
+feature 423 425 3 square solid STRUCT
+  FT   STRUCT      285    287  HELIX
+feature 431 433 3 square solid STRUCT
+  FT   STRUCT      293    295  HELIX
+feature 438 444 3 square solid STRUCT
+  FT   STRUCT      300    306  HELIX
+feature 446 454 3 square solid STRUCT
+  FT   STRUCT      308    316  HELIX
+feature 467 483 3 square solid STRUCT
+  FT   STRUCT      329    345  HELIX
+feature 487 491 0 square solid STRUCT
+  FT   STRUCT      349    353  STRAND
+feature 493 503 3 square solid STRUCT
+  FT   STRUCT      355    365  HELIX
+feature 511 513 3 square solid STRUCT
+  FT   STRUCT      373    375  HELIX
+feature 520 526 0 square solid STRUCT
+  FT   STRUCT      382    388  STRAND
+feature 531 537 0 square solid STRUCT
+  FT   STRUCT      393    399  STRAND
+feature 567 570 3 square solid STRUCT
+  FT   STRUCT      421    424  HELIX
+sequence
+  ......................................................CPTLIV
+  MVGLPARGKTYI....SKKLTRYLNFIG...VPTREFN..........VGQYRRDMVK..
+  ........TYKSFEFFL.....PDNEEGLKIRKQCALAALNDVRKFLSEE.GGHVAVFDA
+  TN..............TTRERRAMIFNFGEQN.......GYKTFFVESICVDPEVIAANI
+  VQVKLGSPDYVN..................RDSDEATEDFMRRIECYENSYESLD.....
+  ..EEQDRDLSYIKIMDVGQSYVVNR...VADHIQSRIVYYLMNIHVTPRSIYLCRHGESE
+  LNLKGRIGGDPGLSPRGREFSKHLAQFISDQNIKDLKVFTSQMKRTIQTAEALS..VPYE
+  QFKVLNEIDAGVCEEMTYEEIQDHYPLEFALRDQDKYRYRYPKGESYEDLVQRLEPVIME
+  LERQENVLVICHQAVMRCLLAYFLDKAAEELPYLKCPLHTVLKLTPVAYGCKVESIFLNV
+  AAVNTHRDRPQN........VDISRPSEEALVTVPAHQ......................
+  ...............................
+}
+{
+name F261_BOVIN
+descrip    6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 1 (6PF-2
+creator    Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 15 347 5 square solid DOMAIN
+  FT   DOMAIN        1    250  6-phosphofructo-2-kinase.
+feature 348 578 5 square solid DOMAIN
+  FT   DOMAIN      251    471  Fructose-2,6-bisphosphatase.
+feature 44 348 1 square solid PFAM-A
+  FT   PFAM-A       30    251  PF01591 6PF2K
+feature 349 536 2 square solid PFAM-A
+  FT   PFAM-A      252    437  PF00300 PGAM
+feature 15 43 0 square solid PFAM-B
+  FT   PFAM-B        1     29  PB020131 Pfam-B_20131
+feature 63 70 4 square solid SITE
+  FT   SITE         49     56  NP_BIND_ATP Potential
+feature 152 152 12 square solid SITE
+  FT   SITE        105    105  BINDING_Fructose6phosphate By similarity
+feature 179 179 0 square solid SITE
+  FT   SITE        131    131  ACT_SITE_Potential
+feature 230 230 0 square solid SITE
+  FT   SITE        161    161  ACT_SITE_Potential
+feature 283 283 12 square solid SITE
+  FT   SITE        196    196  BINDING_Fructose6phosphate By similarity
+feature 356 356 0 square solid SITE
+  FT   SITE        259    259  ACT_SITE_Telephosphohistidine intermediate
+feature 427 427 0 square solid SITE
+  FT   SITE        328    328  ACT_SITE_Potential
+feature 492 492 0 square solid SITE
+  FT   SITE        393    393  ACT_SITE_Proton donor By similarity
+feature 47 47 0 square solid MOD_RES
+  FT   MOD_RES      33     33  Phosphoserine by PKA By similarity
+sequence
+  ..............MSQEMGELTQTRLQKIWIPHNNGNSRLQRRRGSSIPQFTNSPTMVI
+  MVGLPARGKTYI....STKLTRYLNWIG...TPTKVFN..........LGQYRREAV...
+  ........SYKNYEFFL.....PDNMEALLIRKQCALAALKDVHSYLSHE.EGRVAVFDA
+  TN..............TTRERRSLILQFAKEH.......GYKVFFIESICNDPDVIAENI
+  RQVKLGSPDYID..................CDREKVLEDFLKRIECYEVNYQPLD.....
+  ..DELDSHLSYIKIFDVGTRYMVNR...VQDHIQSRTVYYLMNIHVTPRSIYLCRHGESE
+  LNLRGRIGGDSGLSARGKQYAYALANFIQSQGISSLKVGTSHMKRTIQTAEALG..LPYE
+  QWKALNEIDAGVCEEMTYEEIQEHYPEEFALRDQDKYRYRYPKGESYEDLVQRLEPVIME
+  LERQENVLVICHQAVMRCLLAYFLDKSSDELPYLKCPLHTVLKLTPVAYGCKVESIYLNV
+  EAVNTHREKPEN........VDITREPEEALDTVPAHY......................
+  ...............................
+}
+{
+name F26L_CHICK
+descrip    6PF-2-K/Fru-2,6-P2ASE liver isozyme [Includes: 6-phosphofruc
+creator    Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 14 347 5 square solid DOMAIN
+  FT   DOMAIN        1    249  6-phosphofructo-2-kinase.
+feature 348 577 5 square solid DOMAIN
+  FT   DOMAIN      250    469  Fructose-2,6-bisphosphatase.
+feature 44 348 1 square solid PFAM-A
+  FT   PFAM-A       28    250  PF01591 6PF2K
+feature 349 535 2 square solid PFAM-A
+  FT   PFAM-A      251    435  PF00300 PGAM
+feature 63 70 4 square solid SITE
+  FT   SITE         47     54  NP_BIND_ATP Potential
+feature 152 152 12 square solid SITE
+  FT   SITE        104    104  BINDING_Fructose6phosphate By similarity
+feature 179 179 0 square solid SITE
+  FT   SITE        130    130  ACT_SITE_Potential
+feature 230 230 0 square solid SITE
+  FT   SITE        160    160  ACT_SITE_Potential
+feature 283 283 12 square solid SITE
+  FT   SITE        195    195  BINDING_Fructose6phosphate By similarity
+feature 356 356 0 square solid SITE
+  FT   SITE        258    258  ACT_SITE_Telephosphohistidine intermediate
+feature 427 427 0 square solid SITE
+  FT   SITE        327    327  ACT_SITE_Potential
+feature 492 492 0 square solid SITE
+  FT   SITE        392    392  ACT_SITE_Proton donor By similarity
+feature 47 47 0 square solid MOD_RES
+  FT   MOD_RES      31     31  Phosphoserine by PKA By similarity
+sequence
+  .............MAAVASGQLTQNPLQKVWVPLSLHRLR...RRGSTVPQFTNCPTMVI
+  LVGLRRPGKTYI....SRKLTRYLNWIG...MPTRVFN..........VGQYRREAVQ..
+  ........SYKNYEFFR.....HDNEEAMQIRRQCALAALQDVRTYLSSE.EGQVAVFDA
+  TN..............TTRERRALIMQFAREN.......GYKVLFVESICDDPAIIEENI
+  KQVKLSSPDYKG..................CTPEEAVADFLQRIECYKATYEPLD.....
+  ..EQLDSGLSYIKIFDVGVRYLANR...VQGHVQSRTVYYLMNTHVTPRAIYLSRHGESQ
+  LNLKGRIGGDAGLSTRGRQYAQALAEFIRSQSIRELKVWTSHMKRTIETAEALG..VPYE
+  QWKALNEIDAGVCEEMTYEEIQERYPEEFALRDQDKYRYRYPKGESYEDLVQRLEPVIME
+  LERQENVLVICHQAVMRCLLAYFLDKSSEELPYLRCPLHTVLKLTPVAYGCEVESIFLNV
+  EAVNTHRERPQN........VDISRPPAEALVTVPEHY......................
+  ...............................
+}
+{
+name F262_BOVIN
+descrip    6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2 (6PF-2
+creator    Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 19 347 5 square solid DOMAIN
+  FT   DOMAIN        1    248  6-phosphofructo-2-kinase.
+feature 348 631 5 square solid DOMAIN
+  FT   DOMAIN      249    530  Fructose-2,6-bisphosphatase.
+feature 44 348 1 square solid PFAM-A
+  FT   PFAM-A       26    249  PF01591 6PF2K
+feature 349 536 2 square solid PFAM-A
+  FT   PFAM-A      250    435  PF00300 PGAM
+feature 553 606 0 square solid PFAM-B
+  FT   PFAM-B      452    505  PB024866 Pfam-B_24866
+feature 63 70 4 square solid SITE
+  FT   SITE         45     52  NP_BIND_ATP By similarity
+feature 152 152 12 square solid SITE
+  FT   SITE        102    102  BINDING_Fructose6phosphate By similarity
+feature 283 283 12 square solid SITE
+  FT   SITE        193    193  BINDING_Fructose6phosphate By similarity
+feature 179 179 0 square solid SITE
+  FT   SITE        128    128  ACT_SITE_Potential
+feature 230 230 0 square solid SITE
+  FT   SITE        158    158  ACT_SITE_Potential
+feature 356 356 0 square solid SITE
+  FT   SITE        257    257  ACT_SITE_Telephosphohistidine intermediate
+feature 427 427 0 square solid SITE
+  FT   SITE        326    326  ACT_SITE_Potential
+feature 492 492 0 square solid SITE
+  FT   SITE        391    391  ACT_SITE_Proton donor By similarity
+feature 567 567 0 square solid MOD_RES
+  FT   MOD_RES     466    466  Phosphoserine by PKA
+feature 576 576 0 square solid MOD_RES
+  FT   MOD_RES     475    475  Phosphothreonine by PKC
+sequence
+  ..................SGNPASSSEQNNNSYETKASLRISEKKCSWASYMTNSPTLIV
+  MIGLPARGKTYV....SKKLTRYLNWIG...VPTKVFN..........LGVYRRQAVK..
+  ........SYKSYDFFR.....HDNEEAMKIRKQCALVALKDVKAYLTEE.SGQIAVFDA
+  TN..............TTRERRDLILNFAEEN.......SFKVFFVESVCDDPDVIAANI
+  LEVKVSSPDYPE..................RNRENVMDDFLKRIECYKVTYQPLDP....
+  ..DSHDKDLSFIKVINVGQRFLVNK...VQDYIQSKIVYYLMNIHVHPRTIYLCRHGESE
+  FNLLGKIGGDSGLSVRGKQFAQALRKFLEEQEIADLKVWTSQLKRTIQTAESLG..VTYE
+  QWKILNEIDAGVCEEMTYAEIQEQYPDEFALRDEEKYLYRYPGGESYQDLVQRLEPVIME
+  LERQGNVLVISHQAVMRCLLAYFLDKGADELPYLRCPLHTIFKLTPVAYGCKVETIKLNV
+  EAVNTHRDKPTNNFPKSQTPVRMRRNSFTPLSSSNTIRRPRNYSVGSRPLQPLSPLRALD
+  TQEGADQPKTQAETSRAAHRLPSPAPPTSPS
+}
+{
+name F263_BOVIN
+descrip    6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 3 (6PF-2
+creator    Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 18 347 5 square solid DOMAIN
+  FT   DOMAIN        1    246  6-phosphofructo-2-kinase.
+feature 45 348 1 square solid PFAM-A
+  FT   PFAM-A       24    247  PF01591 6PF2K
+feature 349 536 2 square solid PFAM-A
+  FT   PFAM-A      248    433  PF00300 PGAM
+feature 63 70 4 square solid SITE
+  FT   SITE         42     49  NP_BIND_ATP By similarity
+feature 152 152 12 square solid SITE
+  FT   SITE         99     99  BINDING_Fructose6phosphate By similarity
+feature 283 283 12 square solid SITE
+  FT   SITE        191    191  BINDING_Fructose6phosphate By similarity
+feature 179 179 0 square solid SITE
+  FT   SITE        125    125  ACT_SITE_Potential
+feature 230 230 0 square solid SITE
+  FT   SITE        155    155  ACT_SITE_Potential
+feature 356 356 0 square solid SITE
+  FT   SITE        255    255  ACT_SITE_Telephosphohistidine intermediate By
+feature 427 427 0 square solid SITE
+  FT   SITE        324    324  ACT_SITE_Potential
+feature 492 492 0 square solid SITE
+  FT   SITE        389    389  ACT_SITE_Proton donor By similarity
+feature 576 576 0 square solid MOD_RES
+  FT   MOD_RES     462    462  Phosphoserine by PKA By similarity
+sequence
+  .................MPLELTQSRVQKIWIP....VDHRPSLPRTCGPKLTNSPTVIV
+  MVGLPARGKTYI....SKKLTRYLNWIG...VPTKVFN..........LGEYRRDGVK..
+  ........QYSSYNFFR.....PDNEEAMKVRKQCALAALRDVKSYLTKE.GGQIAVFDA
+  TN..............TTRERRHMILHFPKEN.......DFKVFFIESVCDDPTVVASNI
+  MEVKISSPDYKDC.................NSRENAMDDFMKRINCYEASYQPLDP....
+  ..DNDDRDLSLIKVIDVGQRFLVNR...VQDHIQRRIVYYLMNIHWQPRTIYLCRHGESK
+  HNLQGKIGGDSGLSSRGRKFANALSKFVEEQNLKDLKVWTSQLKSTIQTAEALQ..LPYE
+  QWKALNEIDAGVCEEMTYEEIKDTYPEEYALAEADKYYYRYPTGESYQDLVQRLEPVIME
+  LERQENVLVICHQAVCVCLLAYFLDKSAEEMPYLKCPLHAVLKLTPIAYGCRVESIYLNV
+  ESVSTHRERSED...........AKKGPNPLMRSNSH.......................
+  ...............................
+}
+{
+name F26_YEAST
+descrip    Fructose-2,6-bisphosphatase (EC 3.1.3.46).
+creator    Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 44 347 5 square solid DOMAIN
+  FT   DOMAIN        1    223  6-phosphofructo-2-kinase (By similarity).
+feature 348 577 5 square solid DOMAIN
+  FT   DOMAIN      224    452  Fructose-2,6-bisphosphatase.
+feature 44 348 1 square solid PFAM-A
+  FT   PFAM-A        1    224  PF01591 6PF2K
+feature 349 536 2 square solid PFAM-A
+  FT   PFAM-A      225    411  PF00300 PGAM
+feature 63 70 4 square solid SITE
+  FT   SITE         20     27  NP_BIND_ATP By similarity
+feature 152 152 12 square solid SITE
+  FT   SITE         78     78  BINDING_Fructose6phosphate By similarity
+feature 179 179 0 square solid SITE
+  FT   SITE        104    104  ACT_SITE_Potential
+feature 283 283 12 square solid SITE
+  FT   SITE        169    169  BINDING_Fructose6phosphate By similarity
+feature 356 356 0 square solid SITE
+  FT   SITE        232    232  ACT_SITE_Telephosphohistidine intermediate By
+feature 427 427 0 square solid SITE
+  FT   SITE        302    302  ACT_SITE_Potential
+feature 492 492 0 square solid SITE
+  FT   SITE        367    367  ACT_SITE_Proton donor By similarity
+sequence
+  ...........................................MGYSTISNDNDIKVCVI
+  MVGLPARGKSFI....SQKIIRYLSWLS...IKAKCFN..........VGNYRRDVSGN.
+  ........VPMDAEFFN.....FENTDNFKLRELAAQNAIKDIVNFFTKE.DGSVAVFDA
+  TN..............STRKRRKWLKDICEKN.......NIQPMFLESWSNDHELIINNA
+  KDIGSTSPDYEN..................SEPHVAEADFLERIRQYERFYEPLDP....
+  ..Q.KDKDMTFIKLVNIIEEVVINK...IRTYLESRIVFYVMNIRPKPKYIWLSRHGESI
+  YNVEKKIGGDSSLSERGFQYAKKLEQLVKESAG.EINLTVWTSTLKRTQQTANYLPYKKL
+  QWKALDELDAGVCDGMTYEEIEKEYPEDFKARDNDKYEYRYRGGESYRDVVIRLEPVIME
+  LERQENVLIITHQAVLRCIYAYFMNVPQEESPWMSIPLHTLIKLEPRAYGTKVTKIKANI
+  PAVSTYKEKGTSQVGELSQSSTKLHQLLNDSPLEDKF.......................
+  ...............................
+}
+{
+name F26_CAEEL
+descrip    Putative 6PF-2-K/Fru-2,6-P2ASE [Includes: 6-phosphofructo-2-
+creator    Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 28 347 5 square solid DOMAIN
+  FT   DOMAIN        1    244  6-phosphofructo-2-kinase.
+feature 348 577 5 square solid DOMAIN
+  FT   DOMAIN      245    457  Fructose-2,6-bisphosphatase.
+feature 50 348 1 square solid PFAM-A
+  FT   PFAM-A       23    245  PF01591 6PF2K
+feature 349 536 2 square solid PFAM-A
+  FT   PFAM-A      246    433  PF00300 PGAM
+feature 63 70 4 square solid SITE
+  FT   SITE         36     43  NP_BIND_ATP Potential
+feature 152 152 12 square solid SITE
+  FT   SITE         98     98  BINDING_Fructose6phosphate By similarity
+feature 179 179 0 square solid SITE
+  FT   SITE        124    124  ACT_SITE_Potential
+feature 230 230 0 square solid SITE
+  FT   SITE        154    154  ACT_SITE_Potential
+feature 283 283 12 square solid SITE
+  FT   SITE        190    190  BINDING_Fructose6phosphate By similarity
+feature 356 356 0 square solid SITE
+  FT   SITE        253    253  ACT_SITE_Telephosphohistidine intermediate By
+feature 427 427 0 square solid SITE
+  FT   SITE        324    324  ACT_SITE_Potential
+feature 492 492 0 square solid SITE
+  FT   SITE        389    389  ACT_SITE_Proton donor By similarity
+sequence
+  ...........................MEIPPGLETTKRKVAHSDEHGFSDQVRVPNVIV
+  MVGLPARGKTYI....SKKLCRYLKWTG...FTTKVFN..........VGEYRRSDANAA
+  .....DAIHGANASFFS.....PNNADALKVRAESARRAMEDMADYLNSG.TGGVAIFDA
+  TN..............TTKDRRRIIIDFCKKQ.......RLRCFFIESVCDDPAIIDCNV
+  TDVKVNSPDYKGL.................MTAEQAKEDFMNRIENYKKQYEPLD.....
+  ..ESEDESLSFIKVINAGRSFKVHQ...VRGHVQSRVVYFLMNIHLLPRSIYLTRHGQSE
+  YNAMGRLGGDSPLTEDGQKYASALADFFEEEEVPGLRVWCSQKVRAAQTAQHLKPDFHTE
+  YWKALDELDAGICEGLTYEDILQRYPKQADDRATDKYHYRYPSGESYEDVVSRLEPVIME
+  LERQANVLVVSHQAVLRCVLAYFYDRPLSELPYIDIPLHSLVKLTPRAYHCDSTIYALDL
+  ESGE.................WTETSDQLPLCDSPRD.......................
+  ...............................
+}
+{
+name 1uky_
+descrip    Putative 6PF-2-K/Fru-2,6-P2ASE [Includes: 6-phosphofructo-2-
+creator    Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 57 62 0 square solid STRUCT
+  FT   STRUCT        9     14  STRAND
+feature 69 83 3 square solid STRUCT
+  FT   STRUCT       21     31  HELIX
+feature 95 98 0 square solid STRUCT
+  FT   STRUCT       35     38  STRAND
+feature 108 117 3 square solid STRUCT
+  FT   STRUCT       39     48  HELIX
+feature 127 135 3 square solid STRUCT
+  FT   STRUCT       55     63  HELIX
+feature 152 168 3 square solid STRUCT
+  FT   STRUCT       70     86  HELIX
+feature 175 179 0 square solid STRUCT
+  FT   STRUCT       91     95  STRAND
+feature 201 210 3 square solid STRUCT
+  FT   STRUCT      101    110  HELIX
+feature 222 227 0 square solid STRUCT
+  FT   STRUCT      116    121  STRAND
+feature 233 246 3 square solid STRUCT
+  FT   STRUCT      124    137  HELIX
+feature 277 289 3 square solid STRUCT
+  FT   STRUCT      145    157  HELIX
+feature 292 300 3 square solid STRUCT
+  FT   STRUCT      160    168  HELIX
+feature 312 316 0 square solid STRUCT
+  FT   STRUCT      172    176  STRAND
+feature 331 345 3 square solid STRUCT
+  FT   STRUCT      181    195  HELIX
+sequence
+  ................................................PAFSPDQVSVIF
+  VLGGPGAGKGTQ....CEKLVKDY........SFVHLS.........AGDLLRAEQGRA.
+  ..GSQYGELIKNCIKEGQ..........IVPQEITLALLRNAISDNVKA..NKHKFLIDG
+  FPR................KMDQAISFERDIVE......SKFILFFDC...PEDIMLERL
+  LERGKTS.......................GRSDDNIESIKKRFNTFKETSMPVIEYFET
+  K........SKVVRVRCD..........RSVEDVYKDVQDAIRDSL..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_COREF
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Corynebacterium efficiens.Bacteria;
+type    PROTEIN
+group 1
+feature 61 313 4 square solid PFAM-A
+  FT   PFAM-A        5    160  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLV
+  LLGPPGAGKGTQ....AAILSEKLG........IPHIS.........TGDLFRANIGE..
+  ..GTPLGIEAKQYIDAGK..........LVPTDVTARMVQSRLAEAD....AAEGFLLDG
+  FPR................TVEQADILADLLDKA..GNPLDGVINYQV...SEDVVVERM
+  LSR...........................GRADDNEETIRTRLGVYRDETAPLISHYGD
+  ..........KIINIEAE..........GSVEDINARTLEALGK................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_XANAC
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Xanthomonas axonopodis (pv. citri).Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    164  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLV
+  LLGPPGSGKGTQ....ATRLKDTFD........IPHIS.........TGDLLRAEVAA..
+  ..GSPLGLKAKEVMARGD..........LVSDDILLGMLEARLGQAD....VAKGFILDG
+  YPR................NVAQANALDELLGKI..GQPLDAVVQLDV...ASELLVERI
+  AGRAKAEG.......................REDDNPESVRKRLQVYTDSTAPVIGFYEQ
+  R........GKLARVDGV..........GSLDEVLERISKALGR................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_XYLFA
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Xylella fastidiosa.Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    164  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLV
+  LLGPPGSGKGTQ....AAQMKETLQ........IPHIS.........TGDLLRSEVVA..
+  ..GTPLGLQAKQVMAQGD..........LVSDAILIGMLESRLSHTD....VVKGFILDG
+  YPR................NLSQAAALDGLLAKL..GHPLNAVVQLEV...PTDVLVERI
+  AGRAQAEG.......................REDDTPDAVRKRLQVYNDSTAPVIGFYQQ
+  R........GILLRVDGV..........GRLDEVSQRIVVALGC................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_MICLU
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Micrococcus luteus (Micrococcus lysodeikticus).Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        6    165  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          8     16  NP_BIND_ATP By similarity
+sequence
+  .......................................................MTRML
+  LMGPPGSGKGTQ....ATRIADKLG........IVPIS.........TGDIFRHNVKS..
+  ..MTPLGVEAKRYIDNGD..........FVPDEVTNRMVADRIAQAD....AEHGFLLDG
+  YPR................TKGQVEALDAMLAEA..GQSLSAVVELEV...PDEELVERL
+  LKRAEIEG.......................RADDTQEVIEHRLDLYHRETESVIQEYVE
+  R........GIVARVDGT..........GQIDDVTERLLQAVYSVRSATGSLPVIQPGAE
+  S...........................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD1_SYNY3
+descrip    Adenylate kinase 1 (EC 2.7.4.3) (ATP-AMP transphosphorylase 
+creator    Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        7    162  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          9     17  NP_BIND_ATP By similarity
+sequence
+  ......................................................MAKGLI
+  FLGAPGSGKGTQ....AVGLAETLG........IPHIS.........TGDMLRQAIAD..
+  ..GTELGNQAKGYMDKGE..........LVPDQLILGLIEERLGHKD....AKAGWILDG
+  FPR................NVNQAIFLDELLVNI..GHRTHWVINLKV...PDEVIVERL
+  LARG...........................RADDNETTIRNRLLVYTEQTAPLMAYYQE
+  Q........GKLYSLDGN..........QPVEAIATNLEKLVKP................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD1_ANASP
+descrip    Adenylate kinase 1 (EC 2.7.4.3) (ATP-AMP transphosphorylase 
+creator    Anabaena sp. (strain PCC 7120).Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        6    161  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          8     16  NP_BIND_ATP By similarity
+sequence
+  .......................................................MTRLI
+  FLGPPGAGKGTQ....AQILAEHLH........IPHIS.........TGDILRQAMKE..
+  ..QTPLGIKAQSYVDSGE..........LVPDQLVQDLVEERLEQAD....AKSGWILDG
+  FPR................KVTQAAFLEELLQKT..GQGGERVVNLDA...ADDVVVARL
+  LSRG...........................RKDDTEEVIRRRLEIYRSDTAPLIDYYSD
+  R........QKLLTINGD..........QSQEEVTHELKATLGS................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_SYNP6
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Synechococcus sp. (strain PCC 6301) (Anacystis nidulans).Bac
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        6    161  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          8     16  NP_BIND_ATP By similarity
+sequence
+  .......................................................MARLI
+  FLGPPGAGKGTQ....AVVVAEQLQ........LAHIS.........TGELLRAAVTA..
+  ..QTPLGIEAKGYMDRGE..........LVPDSLVLGLVRDRLQQPD....TANGWILDG
+  FPR................NRSQAEALNLLLTEI..NQQVDRAVNLDV...PDPVIIERM
+  LARG...........................RADDTESVIRRRLEVYREQTAPLIDFFRD
+  R........QQLLAIDGN..........SEVAAVTDRLVSALQVAA..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_SYNEL
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Synechococcus elongatus (Thermosynechococcus elongatus).Bact
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    168  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLI
+  LFGGPGSGKGTQ....AAILTTLLG........IPHIS.........TGDILRAERAA..
+  ..GTLLGQQAQSYMDRGE..........LVPDQVIVDMVANRLQQPD....TAAGWLLDG
+  FPR................NGAQAAVFEEMLKSI..HQDYDYLLFLDV...PAAILQERA
+  LNRAKQAVNG...................QQRSDDTPETILKRLQVYERETLPMIQQYMS
+  H........PKFVPIDGT..........RTIEEVTAAIQARIGEVNRV............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_DEIRA
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Deinococcus radiodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A       11    175  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         13     21  NP_BIND_ATP By similarity
+sequence
+  ..................................................MTQSKNKVVI
+  FLGPPGAGKGTQ....AARLAQEHQ........LVQLS.........TGDILRDHVAR..
+  ..GTALGQQAGPLMEAGQ..........LVPDELLIALIRDRLADME.....PVRVIFDG
+  FPR................TQAQAEALDLLLEEL..GAPVSAVPLLEV...PDQVLIDRI
+  VDRGRQAVAEG.................RAPRADDNEETARKRQQVYREQTQPLIDYYAR
+  R........GHLYTVDGL..........GTPDEVYERILSGMH.................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_MYCLE
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Mycobacterium leprae.Bacteria;
+type    PROTEIN
+group 1
+feature 61 313 4 square solid PFAM-A
+  FT   PFAM-A        5    160  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRVV
+  LLGPPGAGKGTQ....AQRLAEKLG........IPQIS.........TGELFRRNIEK..
+  ..DTKLGHEAKKYLDAGD..........LVPADLTNQLVDDRLNKSD....TVDGFILDG
+  YPR................SLEQAKALHEMLERR..GTDIDAVLEFRV...SQAVVLERL
+  KGR...........................GRADDTDDVVINRMNIYRDETASLLEYYSS
+  ..........ELKTIDAI..........GTMDEVFARALHALGK................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_LEPIN
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Leptospira interrogans.Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        6    165  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          8     16  NP_BIND_ATP By similarity
+sequence
+  .......................................................MKNII
+  FMGPPGAGKGTQ....AKILCERLS........IPQIS.........TGDILREAVKN..
+  ..QTAMGIEAKRYMDAGD..........LVPDSVVIGIIKDRIREAD....CKNGFLLDG
+  FPR................TVEQAEALDTLLKNE..GKSIDKAINLQV...PDAELLKRL
+  LGRAEIEG.......................RADDNEVTIKNRLDNYNKKTLPLLDFYAT
+  R........KKLSQVNGV..........GSLEEVTSLIQKELA.................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_RHIME
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    170  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLI
+  FLGPPGAGKGTQ....AKLLTERYG........IPQLS.........TGDMLRTAVAQ..
+  ..ATEVGKRAKAVMDAGQ..........LVSDEIVNEIVSDRIDSAD....CARGFILDG
+  YPR................TVPQAVALDRMLEEK..GLKLDAVIELKV...DEAALVRRM
+  ENRVTETVAAGG.................TVRSDDNPEAFRRRLQEYREKTAPLSEHYAR
+  T........GRLKTVDGM..........ADVHTVTAEIEKILA.................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_BRUME
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Brucella melitensis.Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    170  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLI
+  LLGPPGAGKGTQ....AGLLTKKHG........IPQLS.........TGDMLRAAVAQ..
+  ..QSEIGKRAKAVMDAGQ..........LVSDEIVNQIVSERIDAPD....CANGFILDG
+  YPR................TVPQAQALSQMLSGK..GLKLDAVIELKV...DENALVKRM
+  ESRVAETIAKG.................AQVRSDDNPEAFRKRLVEYREKTAPLSSYYAG
+  T........GELRIINGM..........APVEEVTAEIERILVPA...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_AGRT5
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Agrobacterium tumefaciens (strain C58 / ATCC 33970).Bacteria
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    170  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLI
+  FLGPPGAGKGTQ....AKRLTDKYG........IPQLS.........TGDMLRAAVSA..
+  ..GTEIGKRAKAVMDAGG..........LVSDDIVNQIVSERIEAPD....CAKGFILDG
+  YPR................TVPQAKALADNMRKK..NQVLDAVIELKV...DEEALIRRI
+  ENRVAETIAAGG.................TVRSDDNPEAFRKRLTEYREKTAPLSAYYSE
+  Q........GELVTLDGM..........ADVDAVTEAIERVLEKASA.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_RHILO
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Rhizobium loti (Mesorhizobium loti).Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    170  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLI
+  LLGPPGAGKGTQ....AQRLVEKHG........IPQLS.........TGDMLRAAVQA..
+  ..GSEVGKRAKAVMDAGE..........LVSDAIVNAIVAERIDQAD....CAKGFILDG
+  YPR................TLVQADAVESMLSER..GIGLDTVIELVV...DDRALVGRI
+  VKRAEDAKAAG.................QPVRKDDNPAVFEERLREYYKKTAPLTGYYYA
+  K........GKLKTVDGL..........ASIDAVTNEIEAVLTAAAEAR...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_CAUCR
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Caulobacter crescentus.Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    164  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MNLI
+  LFGPPAAGKGTQ....AKRLVTERG........MVQLS.........TGDMLRAAIAS..
+  ..GSELGQRVKGVLDRGE..........LVTDEIVIALIEDRLPEAE....AAGGAIFDG
+  FPR................TVAQAEALDKMLAAR..GQKIDVVLRLKV...DEPALIERI
+  KKRFEEQG.......................RPDDNPEVFVTRLAAYNAQTAPLLPYYEG
+  Q........GKLTELDGM..........GTVEAVAASIDSALEPVAAG............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KCY_DICDI
+descrip    Cytidylate kinase (EC 2.7.4.14) (Deoxycytidylate kinase) (UM
+creator    Dictyostelium discoideum (Slime mold).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A       11    168  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         13     21  NP_BIND_ATP By similarity
+sequence
+  ..................................................MEKSKPNVVF
+  VLGGPGSGKGTQ....CANIVRDFG........WVHLS.........AGDLLRQEQQS..
+  ..GSKDGEMIATMIKNGE..........IVPSIVTVKLLKNAIDANQ.....GKNFLVDG
+  FPR................NEENNNSWEENMKD...FVDTKFVLFFDC...PEEVMTQRL
+  LKRGESSG.......................RSDDNIESIKKRFNTFNVQTKLVIDHYNK
+  F........DKVKIIPAN..........RDVNEVYNDVENLFKSMGF.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KCY_HUMAN
+descrip    UMP-CMP kinase (EC 2.7.4.14) (Cytidylate kinase) (Deoxycytid
+creator    Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        8    171  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         10     18  NP_BIND_ATP By similarity
+sequence
+  .....................................................MKPLVVF
+  VLGGPGAGKGTQ....CARIVEKYG........YTHLS.........AGELLRDERKNP.
+  ..DSQYGELIEKYIKEGK..........IVPVEITISLLKREMDQTMAANAQKNKFLIDG
+  FPR................NQDNLQGWNKTMDG...KADVSFVLFFDC...NNEICIERC
+  LERGKSSG.......................RSDDNRESLEKRIQTYLQSTKPIIDLYEE
+  M........GKVKKIDAS..........KSVDEVFDEVVQIFDKEG..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name UMPK_SCHPO
+descrip    Probable uridylate kinase (EC 2.7.4.-) (UK) (Uridine monopho
+creator    Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        7    166  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          9     17  NP_BIND_ATP By similarity
+sequence
+  ......................................................MYNVIF
+  VLGGPGAGKGTQ....CDRLAEKFD.......KFVHIS.........AGDCLREEQNRP.
+  ..GSKYGNLIKEYIKDGK..........IVPMEITISLLETKMKECHDKG..IDKFLIDG
+  FPR................EMDQCEGFEKSVCP......AKFALYFRC...GQETMLKRL
+  IHRGKTSG.......................RSDDNIESIKKRFVTYTKASMPVVEYLKS
+  Q........NRLITIDAE..........QDPDAVFEDTVKALQPYL..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_ENTHI
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase) (
+creator    Entamoeba histolytica.Eukaryota;
+type    PROTEIN
+group 1
+feature 61 310 4 square solid PFAM-A
+  FT   PFAM-A        8    165  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         10     18  NP_BIND_ATP By similarity
+sequence
+  .....................................................MAKVFLI
+  MLGGPGAGKGTQ....CANIEKHLN.......SSAHIS.........TGDLLRAEIKN..
+  ..KTEIGLKVEDIIRNGQ..........LVSDEIICNMVNNFIAKNE.....KEVIVFDG
+  YPR................AVSQLEALLKEAT....AETKICVINLEI...PDEILIQRI
+  VSRGKTSG.......................RADDNTEAAAKRLAVYHAQHDEMIKAIKA
+  K.......NLPYFVVDHL..........GGPDEVFNEIKGVFANVGLH............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_CYPCA
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Cyprinus carpio (Common carp).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A       12    168  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         14     22  NP_BIND_ATP By similarity
+feature 50 50 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylalanine
+sequence
+  .................................................ADKIKDAKIVF
+  VVGGPGSGKGTQ....CEKIVEKYG........YTHLS.........SGDLLRAEVAS..
+  ..GSERGKQLQAIMQKGE..........LVPLDTVLDMIKDAMIAKAD...VSKGYLIDG
+  YPR................EVKQGEEFEKKIG......APALLLYIDA...KAETMVQRL
+  MKRGQTSG.......................RSDDNEETIKKRLDLYYKATEPVIAYYET
+  R........GIVRKINSE..........LPVDEVFAIVVKAIDELK..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD1_BOVIN
+descrip    Adenylate kinase isoenzyme 1 (EC 2.7.4.3) (ATP-AMP transphos
+creator    Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A       13    169  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         15     23  NP_BIND_ATP By similarity
+feature 49 49 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylmethionine
+sequence
+  ................................................MEEKLKKAKIIF
+  VVGGPGSGKGTQ....CEKIVQKYG........YTHLS.........TGDLLRAEVSS..
+  ..GSARGKMLSEIMEKGQ..........LVPLETVLDMLRDAMVAKVN...TSKGFLIDG
+  YPR................QVQQGEEFERRIA......QPTLLLYVDA...GPETMQKRL
+  LKRGETSG.......................RVDDNEETIKKRLETYYKATEPVIAFYEK
+  R........GIVRKVNAE..........GSVDNVFSQVCTHLDALK..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD1_CAEEL
+descrip    Probable adenylate kinase isoenzyme F38B2.4 (EC 2.7.4.3) (AT
+creator    Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A       25    182  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         27     35  NP_BIND_ATP
+sequence
+  ....................................MAPTVERKNINLAPLKAAGVPIFF
+  IVGGPGSGKGTQ....CDKIVAKYG........LTHLS.........SGDLLRDEVKS..
+  ..GSPRGAQLTAIMESGA..........LVPLEVVLDLVKEAMLKAIEK..GSKGFLIDG
+  YPR................EVAQGQQFESEIQ......EAKLVLFFDV...AEETLVKRL
+  LHRAQTSG.......................RADDNADTIKKRLHTFVTSTAPVVDYYES
+  K........GKLVRINAE..........GSVDDIFAVVVANLDKATSKL...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD5_HUMAN
+descrip    Adenylate kinase isoenzyme 5 (EC 2.7.4.3) (ATP-AMPtransphosp
+creator    Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A       16    172  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         18     26  NP_BIND_ATP By similarity
+feature 98 150 4 square solid SITE
+  FT   SITE         41     70  NP_BIND_AMP By similarity
+feature 96 96 0 square solid SITE
+  FT   SITE         39     39  ACT_SITE_By similarity
+feature 179 179 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+sequence
+  .............................................MGGFMEDLRKCKIIF
+  IIGGPGSGKGTQ....CEKLVEKYG........FTHLS.........TGELLREELAS..
+  ..ESERSKLIRDIMERGD..........LVPSGIVLELLKEAMVASLG...DTRGFLIDG
+  YPR................EVKQGEEFGRRIG......DPQLVICMDC...SADTMTNRL
+  LQRSRSS.......................LPVDDTTKTIAKRLEAYYRASIPVIAYYET
+  K........TQLHKINAE..........GTPEDVFLQLCTAIDSIIF.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_SCHMA
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase) (
+creator    Schistosoma mansoni (Blood fluke).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A       14    170  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         16     24  NP_BIND_ATP By similarity
+sequence
+  ...............................................MTDQKLAKAKVIF
+  VLGGPGSGKGTQ....CEKLVQKFH........FNHLS.........SGDLLRAEVQS..
+  ..GSPKGKELKAMMERGE..........LVPLEVVLALLKEAMINWLT...KIVISLSIR
+  YPR................ELDQGIKFEKEVC......PCLCVINFDV...SEEVMRKRL
+  LKRAETSN.......................RVDDNEETIVKRFRTFNELTKPVIEHYKQ
+  Q........NKVITIDAS..........GTVDAIFDKVNHELQKFGVK............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name UMPK_ARATH
+descrip    Uridylate kinase (EC 2.7.4.-) (UK) (Uridine monophosphate ki
+creator    Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A       19    172  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         21     29  NP_BIND_ATP
+sequence
+  ..........................................MGSVDAANGSGKKPTVIF
+  VLGGPGSGKGTQ....CAYIVEHYG........YTHLS.........AGDLLRAEIKS..
+  ..GSENGTMIQNMIKEGK..........IVPSEVTIKLLQKAIQENG.....NDKFLIDG
+  FPR................NEENRAAFEKVT.....EIEPKFVLFFDC...PEEEMEKRL
+  LGRNQG.........................REDDNIETIRKRFKVFLESSLPVIHYYEA
+  K........GKVRKINAA..........KPIEAVFEEVKAIFSPEAEKVEA.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_PRUAR
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Prunus armeniaca (Apricot).Eukaryota;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A       52    205  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE         54     62  NP_BIND_ATP By similarity
+sequence
+  .........MWRRVTSVSHLFSHSKSTKFNQGASTFKIWETFTSESEIPTPSKGSPFVTF
+  VLGGPGSGKGTQ....CAKIVEAFG........FTHVS.........AGDLLRREIAS..
+  ..GSAYGSVILSTIREGK..........IVPSQVTVELIQKEMESSD.....NYKFLIDG
+  FPR................SEENRKAFEQTI.....GAEPDVVLFFDC...PEQEMVKRV
+  LNRNQG.........................RVDDNIDTIKKRLEIFDELNWPVINYYSQ
+  R........GKLHKINAV..........GTVDEIFEKVRPIFAPLSK.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_CAMJE
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Campylobacter jejuni.Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        7    165  PF00406 ADK
+feature 312 342 0 square solid PFAM-B
+  FT   PFAM-B      166    186  PB037687 Pfam-B_37687
+feature 63 71 4 square solid SITE
+  FT   SITE          9     17  NP_BIND_ATP By similarity
+sequence
+  ......................................................MKELFL
+  IIGAPGSGKTTD....ASLIAQADA......TNITHYS.........TGDLLRAEVAS..
+  ..GSELGKTIDSFISKGN..........LVPLDVVINTIVYALKAAPT.....KTIIIDG
+  YPR................SVEQMMEFDKVLSEQ.NEICLKGVIEVRV...SEEVAKERV
+  LGRN..........................RGADDNEEVFYNRMKVYTEPLNEILDFYQK
+  K........KLHFIIDGE..........RTIEPIVADMKELIKKIQSI............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_HELPJ
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Helicobacter pylori J99 (Campylobacter pylori J99).Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        7    165  PF00406 ADK
+feature 312 347 0 square solid PFAM-B
+  FT   PFAM-B      166    191  PB037687 Pfam-B_37687
+feature 63 71 4 square solid SITE
+  FT   SITE          9     17  NP_BIND_ATP By similarity
+sequence
+  ......................................................MKQLFL
+  IIGAPGSGKTTD....AELIAKNNS......ETIAHFS.........TGDLLRAESAK..
+  ..KTERGLLIEKFTSQGE..........LVPLEIVVETILSAIKSSSK.....GIILIDG
+  YPR................SVEQMQALDKELNAQ.NEVILKSVIEVEV...SENTAKERV
+  LGRS..........................RGADDNERVFHNRMRVFLDPLVEIQNFYKA
+  KH........LHKIINGE..........RSIEEIVNEMQKYILSFAN.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD_BIFLO
+descrip    Adenylate kinase (EC 2.7.4.3) (ATP-AMP transphosphorylase).
+creator    Bifidobacterium longum.Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    164  PF00406 ADK
+sequence
+  ........................................................MRLL
+  IMGPQGVGKGTQ....AALLAEHFN........IPTIS.........TGDIFRYNIKN..
+  ..KTELGLEAMSYTDKGE..........LVPDSLTNKIVKDRLAKED....CKNGWILDG
+  YPR................NAAQVTALDEMLADL..DTPLDHVVALEA...ARDVLLERM
+  KKRAAEQG.......................RADDTPEAIAKRLETYEKETAPLLDIYEA
+  R........GLLVVVNGV..........GDIDEISGRIISHLE.................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD2_ANASP
+descrip    Probable adenylate kinase 2 (EC 2.7.4.3) (ATP-AMP transphosp
+creator    Anabaena sp. (strain PCC 7120).Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    160  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLV
+  ILGGSGSGKSTQ....AQRLCSHLE........ITQIS.........TGEILREAISH..
+  ..LSELGRHAQPYMIKGE..........LVPDEMIIELIRLRLKKSD....VIDGWVLEG
+  YPR................TAFQAEELDFLLDEL..GQKLDWAIYLQV...PEAVMVSRS
+  LGRSLP...........................DDQPEIVQRRVEIFYDRTVPILEYYDR
+  R........RRLLTINGD..........QSPELVLQSILKLLLVT...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KAD2_SYNY3
+descrip    Probable adenylate kinase 2 (EC 2.7.4.3) (ATP-AMP transphosp
+creator    Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 61 311 4 square solid PFAM-A
+  FT   PFAM-A        5    160  PF00406 ADK
+feature 63 71 4 square solid SITE
+  FT   SITE          7     15  NP_BIND_ATP By similarity
+sequence
+  ........................................................MRLV
+  MLGGPGSGKSTQ....SHNLSQELK........LPVIS.........MGGILREAIAN..
+  ..ATPLGIKAKPYVERGD..........LLPDPMMIEFIQQRLVQED....GGQGWILEG
+  YPR................TAFQAEELDFLLEDL..GQPLDWALYLKI...DEATMVERS
+  LNRS...........................LFDDHPEAITTRIGKFHEYTVPLLEYYAA
+  K........QNLLTVNAY..........PEVDQVTKLILARL..................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name 1gky_
+descrip    Probable adenylate kinase 2 (EC 2.7.4.3) (ATP-AMP transphosp
+creator    Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 59 62 0 square solid STRUCT
+  FT   STRUCT        4      7  STRAND
+feature 69 83 3 square solid STRUCT
+  FT   STRUCT       14     24  HELIX
+feature 95 97 0 square solid STRUCT
+  FT   STRUCT       29     31  STRAND
+feature 100 102 0 square solid STRUCT
+  FT   STRUCT       34     36  STRAND
+feature 122 124 0 square solid STRUCT
+  FT   STRUCT       50     52  STRAND
+feature 127 135 3 square solid STRUCT
+  FT   STRUCT       55     63  HELIX
+feature 139 145 0 square solid STRUCT
+  FT   STRUCT       67     73  STRAND
+feature 150 156 0 square solid STRUCT
+  FT   STRUCT       76     82  STRAND
+feature 156 165 3 square solid STRUCT
+  FT   STRUCT       82     91  HELIX
+feature 175 179 0 square solid STRUCT
+  FT   STRUCT       94     98  STRAND
+feature 201 208 3 square solid STRUCT
+  FT   STRUCT      101    108  HELIX
+feature 211 213 3 square solid STRUCT
+  FT   STRUCT      111    113  HELIX
+feature 222 227 0 square solid STRUCT
+  FT   STRUCT      116    121  STRAND
+feature 233 243 3 square solid STRUCT
+  FT   STRUCT      125    135  HELIX
+feature 277 294 3 square solid STRUCT
+  FT   STRUCT      140    157  HELIX
+feature 312 315 0 square solid STRUCT
+  FT   STRUCT      164    167  STRAND
+feature 331 343 3 square solid STRUCT
+  FT   STRUCT      171    183  HELIX
+sequence
+  .......................................................SRPIV
+  ISGPSGTGKSTL....LKKLFAEYP.......DSFGFSVSST......TRTPRAGEVNGK
+  DYNFVSVDEFKSMIKNNEFIEWAQFSG..NYYGSTVASVKQVSKS.......GKTCILDI
+  D...................MQGVKSVKAIPEL......NARFLFIAPP..SVEDLKKRL
+  EGRG.............................TETEESINKRLSAAQAELAYAETGA..
+  .........HDKVIVN............DDLDKAYKELKDFIFAEK..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_SYNY3
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       45    149  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B       13     44  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         17     24  NP_BIND_ATP By similarity
+sequence
+  ..............................................MAPDQTSVKGQLIV
+  LTGPSGVGKGTL....VQLLLERQP........HWFLSISAT......TRSPRAGEVDGQ
+  SYYFLTKEEFQTWIGEEKLLEWAEYAG..NYYGTPRQPVEEQIAQ.......GKTVLLEI
+  E...................VLGARQIKQT.......FPSARRIFILPP..SVEVLEERL
+  RGRG.............................SDSETAIAKRLAQAQQELQAAAE....
+  .........FDYQVVN............DDLDQALHRLVKLIGEEE..............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_STRCO
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Streptomyces coelicolor.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       52    156  PF00625 Guanylate_kin
+feature 56 102 0 square solid PFAM-B
+  FT   PFAM-B       17     51  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         24     31  NP_BIND_ATP By similarity
+sequence
+  .......................................MAATPRGTSPVPPDARPRLTV
+  LSGPSGVGKSTV....VAHMRKEHP........EVWLSVSAT......TRRPRPGEQHGV
+  HYFFVSDEEMDKLIANGELLEWAEFAG..NRYGTPRTAVLERLEA.......GEPVLLEI
+  D...................LQGARQVRES.......MPEARLVFLAPP..SWDELVRRL
+  TGRG.............................TEPPEVIERRLAAAKVELAAEPE....
+  .........FDQTLVN............TSVEDVARELLALTNVV...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_DEIRA
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Deinococcus radiodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       53    158  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B       22     52  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         26     33  NP_BIND_ATP By similarity
+sequence
+  .....................................MMASAPQDRPAGTPPQGRGLLIV
+  VTGASGVGKGTL....RERWLAGQD.........VFYSTSWT......TREPRPGEVNGR
+  DYVFVSPAEFLAKAQQNGFLEHAQFVG..NHYGTPIEPIEAALER.......GQDVVLEI
+  E...................VEGAMQVKDR......MGEQAILVFIMPP..SLTELRRRL
+  TGRA.............................TETPERIEKRLTRARDEIQAAHD....
+  .........FRYVIVN............DNLDRAVSELLAVQQAERAAQKAAEHWTPEEQ
+  QARALADTVRSTALSREALQQVVES...................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_MYCLE
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Mycobacterium leprae.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       58    164  PF00625 Guanylate_kin
+feature 57 102 0 square solid PFAM-B
+  FT   PFAM-B       24     57  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         30     37  NP_BIND_ATP By similarity
+sequence
+  .................................MPVSARGAPDAEHWAWSEQTDKGRVVV
+  LSGPSAVGKSTV....VRCLRERVS........NLHFSVSAT......TREPRPDEMDGV
+  DYHFVSPARFQQLIDQGALLEWAEIHGGMHRSGTLAEPVRVAAAA.......GFPVLIEV
+  D...................LAGARAVKKA.......MPEAIAVFLAPP..SWEDLEARL
+  VGRG.............................TETPEAIRRRLETARIELAAQDD....
+  .........FDEVVVN............RRLESACAELVSLLVGAVSGSA..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_MYCTU
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Mycobacterium tuberculosis, andMycobacterium bovis.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       56    162  PF00625 Guanylate_kin
+feature 57 102 0 square solid PFAM-B
+  FT   PFAM-B       22     55  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         28     35  NP_BIND_ATP By similarity
+sequence
+  ...................................MSVGEGPDTKPTARGQPAAVGRVVV
+  LSGPSAVGKSTV....VRCLRERIP........NLHFSVSAT......TRAPRPGEVDGV
+  DYHFIDPTRFQQLIDQGELLEWAEIHGGLHRSGTLAQPVRAAAAT.......GVPVLIEV
+  D...................LAGARAIKKT.......MPEAVTVFLAPP..SWQDLQARL
+  IGRG.............................TETADVIQRRLDTARIELAAQGD....
+  .........FDKVVVN............RRLESACAELVSLLVGTAPGSP..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_CORGL
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Corynebacterium glutamicum (Brevibacterium flavum).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       62    168  PF00625 Guanylate_kin
+feature 44 51 4 square solid SITE
+  FT   SITE         15     22  NP_BIND_ATP By similarity
+sequence
+  .............................MTVSVAHFSSVSASRINSSVSGDNQLGRLVI
+  LAGPSAVGKSTV....VDRLRNDVP........NLYFSVSMT......TRAPRPGEVDGR
+  DYFYVTAQEFQDKIDCGEMLEWADIHGGLQRSGTPAGPVNEARQN.......GRPVLVEV
+  D...................LAGARNIASL.......IPDAETIFLAPP..SWEVLVERL
+  TGRG.............................TESEDVIARRLETAREELAAQSE....
+  .........FKHVIIN............DDVDTAVKAIEDVLLGA...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_THETN
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Thermoanaerobacter tengcongensis.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       42    146  PF00625 Guanylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         14     21  NP_BIND_ATP By similarity
+sequence
+  .................................................MSIKKQGLLIV
+  ISGPSGAGKGTI....CKALIEKEK........DLKLSISAT......TRQPRAGEVDGK
+  NYFFKSEEEFKRMIEEDAFLEWAKVYD..HYYGTPKEFVLKNLEE.......GNDVVLEI
+  D...................IQGALKVKEK.......FPEGVFIFILPP..SMEELRNRI
+  KKRG.............................TESEEEIIKRFKSAYEELNYVSK....
+  .........YNYVVIN............DDVDRAVEKIRAIIIAEKCR....VDRNKDLY
+  LKIREESV....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_CLOPE
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Clostridium perfringens.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       45    149  PF00625 Guanylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         17     24  NP_BIND_ATP By similarity
+sequence
+  ..............................................MNKIHKDNRGVLIV
+  ISGPSGAGKGTI....CKALLEKHD........DIFISISAT......TRNPRVGEVDGV
+  NYHFLTKEEFKQRIAEDDFLEHAEVYG..NYYGTPKSSVEKMLDE.......GKNVILEI
+  D...................IQGALKVKEK.......ATDGVFIFILPP..SMEELKQRI
+  IKRG.............................SETPESLMTRFKSAYKEINYVSK....
+  .........YNYAVVN............DNVEDAVKKIEAILLAEKCR....VDRLKENL
+  LESKEDEMHEQLYD..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_CLOTE
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Clostridium tetani.Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP By similarity
+sequence
+  ....................................................MEKGLLIV
+  ISGPSGTGKGTV....CKELLRNNN.........FWFSVSST......TRDPREGEIQGK
+  SYYFMSKEEFEDKIKENDFLEYAKVYG..NYYGTPKSKVIEMLDK.......GKDVILEI
+  D...................IQGALQVKEN.......YKEGIFIFILPP..SMEELKNRI
+  IKRG.............................TETEESLMTRFKSAYKEINYVSK....
+  .........YNYAVVN............DKVHDAVEKIQSIISAEKCR....VDRIKDSI
+  LLSKEGIIHEQLYD..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_CLOAB
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Clostridium acetobutylicum.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       39    143  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B        8     38  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         12     19  NP_BIND_ATP By similarity
+sequence
+  ...................................................MSKKGLLIV
+  ISGPSGAGKGTI....CKALMKEQQ.........FWLSVSAT......TREPREKEVEGK
+  SYYFLTVDEFKSKISEDGFLEYAEVYG..NYYGTPKKSVCEKIDN.......GENVILEI
+  D...................IQGALKVKEN.......YPEGVFIFILPP..SMEELKKRI
+  IGRG.............................SETEKSLMTRFKSAYKEINYVSK....
+  .........YNYAIIN............DTVENAVTKINSIIVAEKCR....VDRIKDNI
+  IDSKEGKIHEQFYD..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_BACHD
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Bacillus halodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       41    145  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B        9     40  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         13     20  NP_BIND_ATP By similarity
+sequence
+  ..................................................MEKEKGLLIV
+  LSGPAGVGKGTV....CSALRKHDT........NIQYSVSAT......TRAPRKGEVDGV
+  NYFFKSREQFEAMIEKEELLEWAEYVG..NYYGTPIQYVRETIDS.......GKDIILEI
+  E...................VQGALKVRER.......FPEGVFIFLMPP..SLAELRSRI
+  VGRG.............................TETEEVINKRMNVAKEEIEMMKK....
+  .........YDYVVEN............DEVELAVDRIKAIVTAEHCK....RERLIEKY
+  HQLVEVE.....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_BACSU
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       41    145  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B        8     40  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         12     19  NP_BIND_ATP By similarity
+sequence
+  ...................................................MKERGLLIV
+  LSGPSGVGKGTV....RQAIFSQED.......TKFEYSISVT......TRSPREGEVNGV
+  DYFFKTRDEFEQMIADNKLLEWAEYVG..NYYGTPVDYVEQTLQD.......GKDVFLEI
+  E...................VQGALQVRNA.......FPEGLFIFLAPP..SLSELKNRI
+  VTRG.............................TETDALIENRMKAAKAEIEMMDA....
+  .........YDYVVEN............DNVETACDKIKAIVLAEHLK....RERVAPRY
+  KKMLEVE.....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_LISIN
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Listeria innocua.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       41    145  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B        8     40  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         12     19  NP_BIND_ATP By similarity
+sequence
+  ...................................................MTERGLLIV
+  LSGPSGVGKGTV....REAVFKDPE.......TSFDYSISMT......TRLPREGEQDGV
+  DYYFRSREVFEQAIKDGKMLEYAEYVG..NYYGTPLEYVEEKLAA.......GIDIFLEI
+  E...................VQGAMQVRKA.......MPEGIFIFLTPP..DLSELKNRI
+  IGRG.............................TESMEVVEERMETAKKEIEMMAS....
+  .........YDYAVVN............DVVSKAVQKIKGIVETEHLK....TERVIHRY
+  KKMLEGLQ....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_OCEIH
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Oceanobacillus iheyensis.Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         13     20  NP_BIND_ATP By similarity
+sequence
+  ..................................................MIKEKGILFI
+  LSGPSGVGKGTV....RKKLFEEET........DLQYSISMT......TRDRRPGEVDGV
+  DYFYKTKEEFEQLIKDGQLLEYAQYVN..NYYGTPRNYVEETLEN.......GQDVFLEI
+  E...................VQGALQVKEN.......FPEGVFIFLFPP..SLDELKNRI
+  VSRG.............................TESQELVLNRLKEARNEIEMMDA....
+  .........YDYVVVN............DKVQHAVDKVKTIIKSEHLK....RERIAKQY
+  KKILEDGLS...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_STAAM
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Staphylococcus aureus (strain Mu50 / ATCC 700699), andStaphy
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       42    146  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B        9     41  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         13     20  NP_BIND_ATP By similarity
+sequence
+  ..................................................MDNEKGLLIV
+  LSGPSGVGKGTV....RKRIFEDPS.......TSYKYSISMT......TRQMREGEVDGV
+  DYFFKTRDAFEALIKDDQFIEYAEYVG..NYYGTPVQYVKDTMDE.......GHDVFLEI
+  E...................VEGAKQVRKK.......FPDALFIFLAPP..SLDHLRERL
+  VGRG.............................TESNEKIQSRINEARKEVEMMNL....
+  .........YDYVVVN............DEVELAKNRIQCIVEAEHLK....RERVEAKY
+  RKMILEAKK...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_LACLA
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Lactococcus lactis (subsp. lactis) (Streptococcus lactis).Ba
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       40    144  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B        8     39  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         12     19  NP_BIND_ATP By similarity
+sequence
+  ...................................................MRERGLLIV
+  FSGPSGVGKGTV....RAKIFESEN........NFEYSVSMT......TRKQRPGEVDGK
+  DYYFRTRDEFEEMIRNGQMLEYAEYVG..NYYGTPLTYVNQTLDE.......GKDVFLEI
+  E...................VQGALQVKEK.......VPDGVFVFLTPP..DLEELRGRL
+  VGRG.............................TDSAEVIASRLEKAKEEIRLMSE....
+  .........YDYAVVN............DKVELAAERVKKIIEAEHYR....VDRVIERY
+  VHMIDDVKV...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_STRA3
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Streptococcus agalactiae (serotype III), andStreptococcus ag
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         12     19  NP_BIND_ATP By similarity
+sequence
+  ...................................................MSERGLLIV
+  FSGPSGVGKGTV....RQEIFSTPD.......HKFDYSVSMT......TRPQRPGEVDGV
+  DYFFRTREEFEALIKEGQMLEYAEYVG..NYYGTPLSYVNETLDK.......GIDVFLEI
+  E...................VQGALQVKSK.......VPDGVFIFLTPP..DLEELEERL
+  VGRG.............................TDSPEVIAQRIERAKEEIALMRE....
+  .........YDYAVVN............DQVSLAAERVKRVIEAEHYR....VDRVIGRY
+  TNMVKETDKKLS................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_LACPL
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Lactobacillus plantarum.Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         12     19  NP_BIND_ATP By similarity
+sequence
+  ...................................................MAKQGMLIV
+  LSGPSGVGKGTV....RKEIFDSDD.......NDFQYSVSMT......TRQMRPGEVDGK
+  DYYFVSKEEFEDEIKSGGMLEYAKYVD..NYYGTPLKYIKQSLAA.......GKDVFLEI
+  E...................VNGAMQVREK.......MPDGVFIFLTPP..DLMELKHRI
+  IGRG.............................TDDMSVINKRMAKAVDEIKMMRN....
+  .........YDYAVIN............DEVPLAAERIKAIIRSERFS....VKRVMPEY
+  EEMLGDAES...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_FUSNN
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Fusobacterium nucleatum (subsp. nucleatum).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       38    142  PF00625 Guanylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP By similarity
+sequence
+  ....................................................MSLGALYV
+  VSGPSGAGKSTV....CKLVRERLG.........INLSISAT......SRKPRNGEQEGV
+  DYFFITAEEFERKIKNDDFLEYANVHG..NYYGTLKSEVEERLKR.......GEKVLLEI
+  D...................VQGGVQVKNK.......FPEANLIFFKTA..NKEELEKRL
+  RGRN.............................TDSEEVIQARLKNSLKELEYESK....
+  .........YDRVIIN............NEIEQACNDLISIIENGVK.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_NEIMA
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Neisseria meningitidis (serogroup A).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       42    146  PF00625 Guanylate_kin
+feature 56 102 0 square solid PFAM-B
+  FT   PFAM-B        7     41  PB007083 Pfam-B_7083
+feature 63 70 4 square solid SITE
+  FT   SITE         14     21  NP_BIND_ATP By similarity
+sequence
+  .................................................MSAYRKGNIFI
+  ISAASGTGKTTL....VSRLLANHN........GLRVSVSHT......TRPPREGEANGV
+  HYHFVSKEEFESLIAQEAFLEYADVFG..NYYGTSAEGVNALAAA.......GYDVILEI
+  D...................VQGAAQVRDA.......LPEAVGIFILPP..SFDVLAARL
+  NGRG.............................TDSREVIQRRLSKARHEIEQSVL....
+  .........FDFVVVN............DDLARAEEDLRHIVNACRLK....RSRQLGFI
+  ADLLENS.....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_PSEAE
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Pseudomonas aeruginosa.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       38    142  PF00625 Guanylate_kin
+feature 56 102 0 square solid PFAM-B
+  FT   PFAM-B        3     37  PB007083 Pfam-B_7083
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP By similarity
+sequence
+  .....................................................MSGTLYI
+  VSAPSGAGKTSL....VKALLDAAP........EVRVSVSHT......TRGMRPGEVDGV
+  NYHFTSREEFLAMLERNEFLEHAEVFG..NLYGTSQRWVEKTLAE.......GLDLILEI
+  D...................WQGAQQVRRL.......MPEAQSIFILPP..SQEALRQRL
+  TNRG.............................QDSDEVIERRMREAVSEMSHYVE....
+  .........YDHLVIN............DDFAHALDDLKAIFRARQLR....QDAQQQRH
+  AELLGRLLA...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_PSESM
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Pseudomonas syringae (pv. tomato).Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         13     20  NP_BIND_ATP By similarity
+sequence
+  ..................................................MTHITGTLYI
+  ISAPSGAGKTSL....VKALMDAQQEPQHGAQAKIRVSVSHT......TRAMRPGEVDGV
+  NYNFVDRAEFVRMIEHGDFLEQAEVFG..NLYGTSQSHLQQTLDE.......GHDLILEI
+  D...................WQGARQVRTQ.......MPQARSIFILPP..SQQALRQRL
+  TNRG.............................QDSDEIIEARMREAVSEMSHYNE....
+  .........YEYVVVN............DDFAGALEDLKSIFRANRLT....QQHQQEQY
+  SELFQELLA...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_PSEPK
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Pseudomonas putida (strain KT2440).Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         13     20  NP_BIND_ATP By similarity
+sequence
+  ..................................................MNHSSGTLYI
+  VSAPSGAGKTSL....VTALTKDDQ........QIRVSVSHT......TRAMRPGEQHGV
+  NYHFVVHEEFKALIAQGDFLEHAEVFG..NFYGTSRSALQQTLDQ.......GYDLILEI
+  D...................WQGAQQVRKL.......MPQALSVFILPP..SQEALRHRL
+  DGRG.............................QDSEEIIAGRMKEAVSEMVHYDE....
+  .........YDYVIIN............DDFDTALADLKAVFRSNRLL....LKKQQQRH
+  AALLKQMIG...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_HAEIN
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       41    146  PF00625 Guanylate_kin
+feature 60 102 0 square solid PFAM-B
+  FT   PFAM-B        8     40  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP By similarity
+sequence
+  ....................................................MSQGNLYI
+  LSAPSGAGKSSL....ISALLASDSS......TQKMVSVSHT......TRAPRPGEVEGV
+  HYYFVSKEEFESLIEQDLFLEYAKVFG.GNYYGTSLPAIEENLAK.......GIDVFLDI
+  D...................WQGAQQIRKK.......VPSVKSIFILPP..SLPELERRL
+  IGRG.............................QDSEEVIAERMSKAMSEISHYDE....
+  .........YDYVIVN............DDFEKTLKDLQSILQSERLT....KDYQQKQN
+  AMLIQQLLAK..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_VIBCH
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Vibrio cholerae.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       41    145  PF00625 Guanylate_kin
+feature 56 102 0 square solid PFAM-B
+  FT   PFAM-B        4     40  PB007083 Pfam-B_7083
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP By similarity
+sequence
+  ....................................................MGKGTLYI
+  VSAPSGAGKSSL....IAALLEQNP......TYAMKVSVSHT......TRGMRPGEQDGV
+  HYHFVEKEHFIELIGKGEFLEYAEVFG..NYYGTSRVWIENTLNK.......GIDVFLDI
+  D...................WQGARQIRSQ.......MPEAKSIFILPP..SKEELERRL
+  NTRG.............................QDSDAVIAKRMGEAKSEISHYSE....
+  .........YDYVIIN............DDFDVALMDFKAIIRAERLK....QDKQAAKY
+  SAMLSALLAE..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_ECO57
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Escherichia coli O157:H7.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       41    145  PF00625 Guanylate_kin
+feature 60 102 0 square solid PFAM-B
+  FT   PFAM-B        8     40  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP By similarity
+sequence
+  ....................................................MAQGTLYI
+  VSAPSGAGKSSL....IQALLKTQP......LYDTQVSVSHT......TRQPRPGEVHGE
+  HYFFVNHDEFKEMISRDAFLEHAEVFG..NYYGTSREAIEQVLAT.......GVDVFLDI
+  D...................WQGAQQIRQK.......MPHARSIFILPP..SKIELDRRL
+  RGRD.............................QDSEEVIAKRMAQAVAEMSHYAE....
+  .........YDYLIVN............DDFDTALTDLKTIIRAERLR....MSRQKQRH
+  DALISKLLAD..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_SHEON
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Shewanella oneidensis.Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         12     19  NP_BIND_ATP By similarity
+sequence
+  ...................................................MTARGNLFI
+  VSAPSGAGKSSL....ISALLKDKP.......ADMQVSVSHT......TRAPRPGEINGQ
+  HYHFVNVEEFKALIAQNAFFEWAEVFG..NYYGTSRHVIEHTLTQ.......GIDVFLDI
+  D...................WQGAQQVKAV.......MPEAIGVFILPP..SRDELERRL
+  TGRG.............................QDSKDVIDSRMAQAVSEMSHYKE....
+  .........YDFIIVN............DDFDTALADLRAIIRSQRLT....GASQIHAQ
+  NDMLNDLLAG..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_BUCAI
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       41    145  PF00625 Guanylate_kin
+feature 56 102 0 square solid PFAM-B
+  FT   PFAM-B        4     40  PB007083 Pfam-B_7083
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP By similarity
+sequence
+  ....................................................MSEGILFI
+  ISAPSGTGKSSL....IQGLLKSKT......LYNTRVSISHT......TRIIRPGELHGK
+  HYYFISKKEFEIMIKQEYFLEYAKVFS..NYYGTSRKYIEKMLFS.......GIDVFLDI
+  D...................WQGAKQIKCK.......MPKSKSIFLLPP..SKDTLYKRL
+  RERG.............................QDSDSVIANRMEKAVDEMQHYSE....
+  .........YDYLIIN............DDFKQAVNDLITIITAEHLC....LFHQKNKH
+  NLLISNLLKC..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_BUCBP
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       41    145  PF00625 Guanylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP By similarity
+sequence
+  ....................................................MAKGLLFI
+  VSAPSGTGKSSL....IQALVNTHP......LYSIKVSVSHT......TRIIRPGECHGK
+  HYYFISNTEFQNMIDKEEFLEYAKVFN..NYYGTSKKQINYGLST.......GTDVFLDI
+  D...................WQGARQIRNK.......LPESKSIFILPP..SKEELYRRL
+  CKRG.............................QDSDIIIKKRMNQAVSEMKHYID....
+  .........YDYLIIN............DNFNLAVSDLYKIIRVAHLS....IKHQIQRN
+  NLLIRNLLNE..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_RALSO
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Ralstonia solanacearum (Pseudomonas solanacearum).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       55    159  PF00625 Guanylate_kin
+feature 56 102 0 square solid PFAM-B
+  FT   PFAM-B       20     54  PB007083 Pfam-B_7083
+feature 63 70 4 square solid SITE
+  FT   SITE         27     34  NP_BIND_ATP By similarity
+sequence
+  ....................................MPSSQAHSAVDTPIENHFPGSLFM
+  VVAPSGAGKSTL....VNALLAQDP........SIRLSVSAT......TRKPRPGEQHGR
+  EYNFMTVDEFKACRDRGEFLEWAEVHG..NYYATSRVWIEEQMRA.......GTDVLLEI
+  D...................WQGAQQVHRR.......FANAVEIFILPP..SLTALEDRL
+  KKRG.............................QDEPNVIVRRLLAAGSEMAHAPE....
+  .........ADYVIIN............EVFEAALAELRTVVQAARLR....YMAQKARH
+  AELFVELGIH..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_XANAC
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Xanthomonas axonopodis (pv. citri).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       38    142  PF00625 Guanylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP By similarity
+sequence
+  .....................................................MRGTLYI
+  VAAPSGAGKSSI....VNATLARDP........KIALSISFT......SRAPRPGERHAE
+  HYHFVSADEFQGMIEAGDFFEYALVHG..DWKGTARQSVEPQLAA.......GHDVLLEI
+  D...................WQGARQVRQK.......VPDAVSVFILPP..SRQALDERM
+  RKRG.............................QDSEVVMAQRLAAAREEMLHFEE....
+  .........FDYVIIN............ETFDTAVSEMCAIFTASRLR....RQAQQQRH
+  AGLIRALLD...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_XYLFA
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Xylella fastidiosa.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       38    142  PF00625 Guanylate_kin
+feature 54 102 0 square solid PFAM-B
+  FT   PFAM-B        1     37  PB007083 Pfam-B_7083
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP By similarity
+sequence
+  .....................................................MRGTLYI
+  VSAASGTGKSSI....VNATLERDQ........QIALSISFT......SRQPRPNERHAQ
+  HYYFVSADEFQRMIEAGDFFEYALVHD..DWKGTAHQSVEPQLAA.......GHDVLLEI
+  D...................WQGARQVRNK.......IPDAISIFILPP..SRAALEERL
+  RKRG.............................QDSEEVIHRRLAAVHEEMAHYDE....
+  .........FDYTIIN............EHFETAVSEMSAIFTASRLR....RQTQKVRH
+  ANLIRTLLTP..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_RICCN
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Rickettsia conorii.Bacteria;
+type    PROTEIN
+group 1
+feature 19 54 5 square solid DOMAIN
+  FT   DOMAIN        7     42  RPE1 insert.
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       79    183  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B       47     78  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         51     58  NP_BIND_ATP By similarity
+sequence
+  ............MTTKNKRVLQKCAYREEFKGDMERSTAATSKLPLEVELSRNSKGLIII
+  LSSPSGTGKSSL....AKALLKIDN........NLRLSISAT......TRKPRLGEVEGI
+  NYYFKTGLEFEELVKQNKFLEYAKIYD..NYYGTPKEYVEMLLNQ.......GLDVLFDI
+  D...................WQGARSIKKN.......ATNVVTIFVLPP..NIEVLEQRL
+  RNRA.............................TDNEEAIKLRMQLAQNEISHANE....
+  .........YDYVVTN............DDFDRTLKKIHAIIVAARDK....AF......
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_RHIME
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       50    155  PF00625 Guanylate_kin
+feature 58 102 0 square solid PFAM-B
+  FT   PFAM-B       17     49  PB029069 Pfam-B_29069
+feature 63 70 4 square solid SITE
+  FT   SITE         22     29  NP_BIND_ATP By similarity
+sequence
+  .........................................MKPATVSPIKIARRGLMLV
+  ISSPSGAGKSTI....ARNLLEADP........DLSISVSVT......TRSRRPSEIEGR
+  HYFFKSIREFEALRATDSLLEWAEVHG..NYYGTPRDAVEKAMGE.......GRDMLFDI
+  D...................WQGAQQLQEK......MAGDVVSIFILPP..SMAELQSRL
+  HRRA.............................EDSEEVIATRLANSRAEIEHWRE....
+  .........YDYIVVN............DDLDRAFSSVRAIVEAERLRR.DRRPGLFEFV
+  NGLLTENPL...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_AGRT5
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Agrobacterium tumefaciens (strain C58 / ATCC 33970).Bacteria
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       50    155  PF00625 Guanylate_kin
+feature 58 102 0 square solid PFAM-B
+  FT   PFAM-B       17     49  PB029069 Pfam-B_29069
+feature 63 70 4 square solid SITE
+  FT   SITE         22     29  NP_BIND_ATP By similarity
+sequence
+  .........................................MVPVNNSPVTIARRGLMLV
+  ISSPSGAGKSTI....ARNLLEKDK........NISLSVSVT......TRPRRQSEIEGI
+  HYHFISKRDFERMRDGDELLEWAEVHG..NFYGTPREPVEAAMAA.......GRDMLFDI
+  D...................WQGAEQLQDK......MKADVVSIFILPP..TMTELQSRL
+  HRRA.............................EDSEEVIKTRLLNSRAEIEHWRD....
+  .........YDYVILN............DDLQAAFEGIEAIVKAERVRR.DRRHGMFDFV
+  RSLLEEEPKL..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_RHILO
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Rhizobium loti (Mesorhizobium loti).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       49    154  PF00625 Guanylate_kin
+feature 63 70 4 square solid SITE
+  FT   SITE         21     28  NP_BIND_ATP By similarity
+sequence
+  ..........................................MVPRDLGSRIRRRGLMLV
+  LSSPSGAGKSTI....ARNLLESDS........SLELSVSVT......TRPRRGSEIEGV
+  HYHFRTMREFERLRDSDALLEWAEVHG..NCYATPREPAELALAQ.......GRDMLFDI
+  D...................WQGAQQLKEK......MRADIVSIFILPP..SMKELKARL
+  KRRA.............................EDQEAVIETRLKNARNEIEHWKE....
+  .........YDFVIVN............DDLDRAFAEVRGIVVAERLRR.DRRPGLFDFV
+  SGLLDEKTV...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_BRUME
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Brucella melitensis, andBrucella suis.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       50    155  PF00625 Guanylate_kin
+feature 58 102 0 square solid PFAM-B
+  FT   PFAM-B       16     49  PB029069 Pfam-B_29069
+feature 63 70 4 square solid SITE
+  FT   SITE         21     28  NP_BIND_ATP By similarity
+sequence
+  ..........................................MAISSVENGVARRGLMVV
+  ISSPSGAGKSTI....ARLLLEDPK.......MKLSLSISVT......TRQRRPSEIDGV
+  HYHFITIREFERLRDNDELIEWAEVHG..NFYGTLRETAEIALAD.......GQDMLFDI
+  D...................WQGADQLQAK......MPADVVSIFILPP..TMRELQQRL
+  NRRA.............................EDTAEVIETRLQNARFEIQKWVK....
+  .........YDYIVIN............EDLDRSYAAIKSIINAERLRR.DRRPGLFDFV
+  TGLLEEDPGM..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_BRAJA
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Bradyrhizobium japonicum.Bacteria;
+type    PROTEIN
+group 1
+feature 63 70 4 square solid SITE
+  FT   SITE         22     29  NP_BIND_ATP By similarity
+sequence
+  .........................................MTTGGHGTDGVERRGLMFV
+  LSSPSGAGKTTL....SRLLIERMP........GLRMSVSAT......TRPMRPGEVDGR
+  DYLFVDKPRFEAMVRDDELLEWATVFD..NRYGTPRAPVEAALSA.......GQDVLFDI
+  D...................WQGTQQLREK......ARADVVSVFILPP..SAGDLEKRL
+  HSRA.............................QDSDEVIRKRMSRASHEMSHWAE....
+  .........YDYIVIN............HDVDEAFAEVQSILKAERLKR.ERRIGLVGFV
+  RGLQGQLQG...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_CAUCR
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Caulobacter crescentus.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       45    150  PF00625 Guanylate_kin
+feature 56 102 0 square solid PFAM-B
+  FT   PFAM-B       10     44  PB007083 Pfam-B_7083
+feature 63 70 4 square solid SITE
+  FT   SITE         17     24  NP_BIND_ATP By similarity
+sequence
+  ..............................................MNKSHHPHRGLLLM
+  VVAPSGVGKTSL....TRRLVSDHG........DLHLSISAT......TRDPRPGEHDGR
+  DYHFVSRDKFQGMLAEDAFLEWAEVYG..NFYGSPKAPIMDALSR.......GESVLFDI
+  D...................FQGAMKVHKQ......AGADSVLVYILPP..SLAEMSRRL
+  HTRS.............................QDSEEVIHRRLSRAKDEVAAWEQ....
+  .........FDYVILN............DDFDRAYADLAHIYHAERLKR.ARNPWIGDLV
+  SDLLKEEI....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_HELPJ
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Helicobacter pylori J99 (Campylobacter pylori J99).Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       40    144  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B        8     39  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         12     19  NP_BIND_ATP By similarity
+sequence
+  ...................................................MNNDFNLLI
+  LSGPSGAGKSTL....TKYLQEKIP........KTHFSLSTT......TRKPREGEVDGL
+  HYNFVSEEEFKQGIEKGQFLEWAIVHN..HYYGTSKIPVEKALKE.......GKIVIFDI
+  D...................VQGHEILKKH.......YPNACSVFISTK..NQEILKERL
+  LLRG.............................TDSKETIEKRLINAYKEMQCLES....
+  .........FDYLIIN............EDLEKSKEIILSIAKTLVHR...LKAFNFEKI
+  CKAWKNESL...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_CAMJE
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Campylobacter jejuni.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       41    146  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B        8     40  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         12     19  NP_BIND_ATP By similarity
+sequence
+  ...................................................MKLQGFVLL
+  ISGPSGAGKSTL....LKKLFDEFED.......ELYFSISST......TRKPREGEKNGI
+  HYHFISHEEFQKGIDSDHFLEWARVHE..NFYGTSLKHTQNALDN.......GKIVVFDI
+  D...................VQGFKIARKK......MADKIVSVFITTK..NKDELKKRL
+  IKRN.............................TDTIIQLEKRLQNASDEMKELSE....
+  .........YDYLIIN............DELKQSYEALRAILIAHKFR...TKGQNLGQI
+  QNIWNEGE....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_THEMA
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Thermotoga maritima.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       38    142  PF00625 Guanylate_kin
+feature 60 102 0 square solid PFAM-B
+  FT   PFAM-B        7     37  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         10     17  NP_BIND_ATP By similarity
+sequence
+  .....................................................MKGQLFV
+  ICGPSGAGKTSI....IKEVLKRLD........NVVFSVSCT......TRPKRPHEEDGK
+  DYFFITEEEFLKRVERGEFLEWARVHG..HLYGTLRSFVESHINE.......GKDVVLDI
+  D...................VQGALSVKKK.......YSNTVFIYVAPP..SYADLRERI
+  LKRG.............................TEKEADVLVRLENAKWELMFMDE....
+  .........FDYIVVN............ENLEDAVEMVVSIVRSERAKVT.RNQDKIERF
+  KMEVKGWKKL..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_UREPA
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Ureaplasma parvum (Ureaplasma urealyticum biotype 1).Bacteri
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       40    146  PF00625 Guanylate_kin
+feature 57 102 0 square solid PFAM-B
+  FT   PFAM-B        5     39  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         11     18  NP_BIND_ATP By similarity
+sequence
+  ....................................................MKRGKLIV
+  FSGPSGVGKHTI....LSKIINRKD.......LNLAYSISMT......TRKKREGEVNGV
+  DYYFVNDEEFKKAILNNELIEWAEFVG..NKYGTPRTIVEKLRDE.......GKNVILEI
+  E...................VVGALKVLDL.....YKNDDLISIFLLPP..SIDELKKRL
+  LKRN.............................TETLETIKKRIQKATHEITIKDY....
+  .........YQYNIIN............DNPDHAANQLAEIILNEIKQS...........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_MYCGA
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Mycoplasma gallisepticum.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       48    152  PF00625 Guanylate_kin
+feature 59 102 0 square solid PFAM-B
+  FT   PFAM-B       15     47  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         19     26  NP_BIND_ATP By similarity
+sequence
+  ............................................MVVIYIMSNKQGLIIL
+  ISGPSGVGKGTI....VSRLLSDNN.......LKLNVSISAT......TRKKRASEVEGV
+  HYFFKTKEEFEQMIANNQLLEYANYVN..NYYGTPLSLVKEILDK.......NENLILEI
+  E...................YQGVIQVLRK.......GFRTLSIFVLPP..SEDELVARL
+  KKRG.............................TENDEVIKHRLEQAVKEYAHREL....
+  .........YDHTIIN............DDLEKTIEDIKQLILKYNQ.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_MYCGE
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Mycoplasma genitalium.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       92    197  PF00625 Guanylate_kin
+feature 60 102 0 square solid PFAM-B
+  FT   PFAM-B       60     91  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         63     70  NP_BIND_ATP By similarity
+sequence
+  MIQVSICSSIGKLTASVGLLIKALSSKTSQVLVGWKVIDKNSKVKIILTIEVNNQGRIFV
+  ITGPSGVGKSTL....VKALLDHFK.......EQLFYSISAT......TRKKRISEKEGI
+  DYFFKDKDEFENLIKQDAFIEWACYNN..HYYGTLKSQAEQAIKS.......GINLMLEI
+  E...................YQGALQVKSK......YPHNVVLIFIKPP..SMQELLKRL
+  KKRN.............................DEDETTIKKRLEQAKIEFQQIDN....
+  .........FKYVVTN............KEFDKTLNELKSILLSEFI.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_MYCPN
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Mycoplasma pneumoniae.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       91    196  PF00625 Guanylate_kin
+feature 56 102 0 square solid PFAM-B
+  FT   PFAM-B       55     90  PB007083 Pfam-B_7083
+feature 63 70 4 square solid SITE
+  FT   SITE         62     69  NP_BIND_ATP By similarity
+sequence
+  .MQSRLAWSKGNWTGLVGSLISLTSSSTSHALVGNNSILICGKIKIILNIEMVDTGRIFV
+  ITGPSGVGKSSL....VRCLIDHFK.......DKLRYSISAT......TRKMRNSETEGV
+  DYFFKDKAEFEKLIAADAFVEWAMYND..NYYGTLKSQAEQIIHN.......GGNLVLEI
+  E...................YQGALQVKQK......YPNDVVLIFIKPP..SMEELLVRL
+  KKRN.............................DEDAITIQNRLKQAEKECQQIGH....
+  .........FKYVVTN............NEFDKTLAELQAILLAEFN.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_CHLMU
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Chlamydia muridarum.Bacteria;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       54    157  PF00625 Guanylate_kin
+feature 56 102 0 square solid PFAM-B
+  FT   PFAM-B       18     53  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         25     32  NP_BIND_ATP By similarity
+sequence
+  ......................................MSVKVASPFSPDGVQCLPKLFT
+  ISAPAGAGKTTL....VHMLQEEFP.......SAFEKTVSST......TRSPRPGEVHGV
+  DYVFMSEDEFKDVLDKDGFLEWVFLFG..TYYGTSKEGISRILQK.......GKHCIAVI
+  D...................VQGALTLKK........QMQTVAIFIQAP..SQEELERRL
+  NTRD.............................SEKDLQKKERLEHSNVEIAAASQ....
+  .........FDYVVVN............DDLTTAYQVLRSIFIAEEHRMSHG........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}
+{
+name KGUA_SCHPO
+descrip    Guanylate kinase (EC 2.7.4.8) (GMP kinase).
+creator    Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 109 279 3 square solid PFAM-A
+  FT   PFAM-A       54    158  PF00625 Guanylate_kin
+feature 57 102 0 square solid PFAM-B
+  FT   PFAM-B       19     53  PB000585 Pfam-B_585
+feature 63 70 4 square solid SITE
+  FT   SITE         25     32  NP_BIND_ATP By similarity
+sequence
+  ......................................MTPQLSSSVASKLVTLKLKPVV
+  VFGPSGVGKSTL....LKRLLKDHG.......DKLGFSVSHT......TRTPRAGEKDGI
+  DYHFVTKEEFQKLVAEEKFVEWAVFSG..NMYGTSIMAIQELEAV.......NKKAILDI
+  D...................LQGVLQVKAS.......PIDAQYVFLAPP..SIEQLEVRL
+  RGRG.............................TENESAILQRLERARAEIEYSEKPGN.
+  .........FDALIVN............DDVEKAYKQLEAICLSD...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................
+}

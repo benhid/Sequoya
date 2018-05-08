@@ -1,0 +1,279 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1ar5_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 54 62 3 square solid STRUCT
+  FT   STRUCT       21     29  HELIX
+feature 64 85 3 square solid STRUCT
+  FT   STRUCT       31     52  HELIX
+feature 98 120 3 square solid STRUCT
+  FT   STRUCT       58     80  HELIX
+feature 137 147 3 square solid STRUCT
+  FT   STRUCT       94    104  HELIX
+feature 150 162 3 square solid STRUCT
+  FT   STRUCT      107    119  HELIX
+feature 169 176 0 square solid STRUCT
+  FT   STRUCT      125    132  STRAND
+feature 182 189 0 square solid STRUCT
+  FT   STRUCT      137    144  STRAND
+feature 202 208 0 square solid STRUCT
+  FT   STRUCT      155    161  STRAND
+feature 211 213 3 square solid STRUCT
+  FT   STRUCT      164    166  HELIX
+feature 215 218 3 square solid STRUCT
+  FT   STRUCT      168    171  HELIX
+feature 222 233 3 square solid STRUCT
+  FT   STRUCT      175    185  HELIX
+feature 236 246 3 square solid STRUCT
+  FT   STRUCT      188    198  HELIX
+sequence
+  .................................AVYTLPELPYDYSALEPYISGEIMELH
+  HDKHHKAYVDGANTALDKLAEARDKADFGA.......INKLEKDLAFNLAGHVNHSVFWK
+  NMAP..KGSAPE.RPTDELGAAIDEFFGSFDNMKAQFTAAATGI.QGSGWASLVWDPL.G
+  KRINTLQFYDHQ.NNLPAGS.IPLLQLDMWEHAFYLQYKNVKGDYVKSWW.NVVNWDDVA
+  LRFSEARVA.........
+}
+{
+name 1coj_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 41 43 3 square solid STRUCT
+  FT   STRUCT        8     10  HELIX
+feature 54 62 3 square solid STRUCT
+  FT   STRUCT       20     28  HELIX
+feature 64 80 3 square solid STRUCT
+  FT   STRUCT       30     46  HELIX
+feature 87 89 3 square solid STRUCT
+  FT   STRUCT       53     55  HELIX
+feature 97 119 3 square solid STRUCT
+  FT   STRUCT       62     84  HELIX
+feature 137 146 3 square solid STRUCT
+  FT   STRUCT       97    106  HELIX
+feature 150 163 3 square solid STRUCT
+  FT   STRUCT      110    123  HELIX
+feature 170 176 0 square solid STRUCT
+  FT   STRUCT      127    133  STRAND
+feature 182 188 0 square solid STRUCT
+  FT   STRUCT      138    144  STRAND
+feature 202 208 0 square solid STRUCT
+  FT   STRUCT      156    162  STRAND
+feature 211 213 3 square solid STRUCT
+  FT   STRUCT      165    167  HELIX
+feature 215 218 3 square solid STRUCT
+  FT   STRUCT      169    172  HELIX
+feature 222 232 3 square solid STRUCT
+  FT   STRUCT      176    185  HELIX
+feature 236 253 3 square solid STRUCT
+  FT   STRUCT      189    206  HELIX
+sequence
+  ................................VHKLE.PKDHLKPQNLEG.ISNEQIEPH
+  FEAHYKGYVAKYNEIQEKLADQNFADRSKANQ.NYSEYRELKVEETFNYMGVVLHELYFG
+  MLTP..GGKG...EPSEALKKKIEEDIGGLDACTNELKAAAMAF...RGWAILGLDIF.S
+  GRLVVNGLDAHN.VYNLTGL.IPLIVIDTYEHAYYVDYKNKRPPYIDAFF.KNINWDVVN
+  ERFEKAMKAYEALKDFIK
+}
+{
+name 1gv3_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 54 62 3 square solid STRUCT
+  FT   STRUCT       32     40  HELIX
+feature 64 77 3 square solid STRUCT
+  FT   STRUCT       42     55  HELIX
+feature 80 84 3 square solid STRUCT
+  FT   STRUCT       58     62  HELIX
+feature 87 92 3 square solid STRUCT
+  FT   STRUCT       65     70  HELIX
+feature 94 96 3 square solid STRUCT
+  FT   STRUCT       72     74  HELIX
+feature 102 120 3 square solid STRUCT
+  FT   STRUCT       80     98  HELIX
+feature 137 147 3 square solid STRUCT
+  FT   STRUCT      110    120  HELIX
+feature 150 163 3 square solid STRUCT
+  FT   STRUCT      123    136  HELIX
+feature 169 175 0 square solid STRUCT
+  FT   STRUCT      141    147  STRAND
+feature 183 189 0 square solid STRUCT
+  FT   STRUCT      153    159  STRAND
+feature 195 198 3 square solid STRUCT
+  FT   STRUCT      164    167  HELIX
+feature 202 208 0 square solid STRUCT
+  FT   STRUCT      170    176  STRAND
+feature 211 213 3 square solid STRUCT
+  FT   STRUCT      179    181  HELIX
+feature 215 218 3 square solid STRUCT
+  FT   STRUCT      183    186  HELIX
+feature 222 233 3 square solid STRUCT
+  FT   STRUCT      190    200  HELIX
+feature 236 245 3 square solid STRUCT
+  FT   STRUCT      203    212  HELIX
+sequence
+  ......................SIGFIDRQLGTNPAELPPLPYGYDALEKAIDAETMKLH
+  HDKHHAAYVNNLNNALKKHPELQNSSVEALLRDLNSVPEDIRTTVRNNGGGHLNHTIFWQ
+  IMSP..DGGG...QPTGDIAQEINQTFGSFEEFKKQFNQAGGDR.FGSGWVWLVRNPQ..
+  GQLQVVSTPNQD.NPIMEGS.YPIMGNDVWEHAYYLRYQNRRPEYLNNWW.NVVNWSEIN
+  RRTQAS............
+}
+{
+name SODF_NICPL
+descrip Superoxide dismutase [Fe], chloroplast (EC 1.15.1.1) (Fragme
+creator Nicotiana plumbaginifolia (Leadwort-leaved tobacco).Eukaryot
+type    PROTEIN
+group 1
+feature 35 123 0 square solid PFAM-A
+  FT   PFAM-A        1     86  PF00081 sodfe
+feature 129 248 1 square solid PFAM-A
+  FT   PFAM-A       90    202  PF02777 sodfe_C
+feature 60 60 1 square solid SITE
+  FT   SITE         26     26  METAL_Iron By similarity
+feature 115 115 1 square solid SITE
+  FT   SITE         78     78  METAL_Iron By similarity
+feature 208 208 1 square solid SITE
+  FT   SITE        162    162  METAL_Iron By similarity
+feature 212 212 1 square solid SITE
+  FT   SITE        166    166  METAL_Iron By similarity
+sequence
+  ..................................KFELQPPPYPMDALEPHMSSRTFEFH
+  WGKHHRAYVDNLNKQIDG.TELDGKTLEDIILVTYN..KGAPLPAFNNAAQAWNHQFFWE
+  SMKP..NGGG...EPSGELLELINRDFGSYDAFVKEFKAAAATQ.FGSGWAWLAYKPE.E
+  KKLALVKTPNAE.NPLVLGY.TPLLTIDVWEHAYYLDFQNRRPDYISIFMEKLVSWEAVS
+  SRLKAATA..........
+}
+{
+name SODM_ALCEU
+descrip Putative superoxide dismutase [Mn] (EC 1.15.1.1).
+creator Alcaligenes eutrophus (Ralstonia eutropha).Bacteria;
+type    PROTEIN
+group 1
+feature 128 248 1 square solid PFAM-A
+  FT   PFAM-A       85    196  PF02777 sodfe_C
+feature 34 122 0 square solid PFAM-B
+  FT   PFAM-B        1     82  PB049629 Pfam-B_49629
+feature 60 60 1 square solid SITE
+  FT   SITE         26     26  METAL_Manganese By similarity
+feature 115 115 1 square solid SITE
+  FT   SITE         75     75  METAL_Manganese By similarity
+feature 208 208 1 square solid SITE
+  FT   SITE        157    157  METAL_Manganese By similarity
+feature 212 212 1 square solid SITE
+  FT   SITE        161    161  METAL_Manganese By similarity
+sequence
+  .................................MLYEMKPLGCEPAKLTG.LSEKLIFSH
+  YENNYGGAVKRLNAITATLAELDMATAPVFTL......NGLKREELIATNSMILHEVYFD
+  SLGD...GG....SLDGALKTAIERDFGSVERWQAEFTAMGKALGGGSGWVLLTYSPR.D
+  GRLVNQWASDHA..HTLAGG.TPVLALDMYEHSYHMDYGAKAAAYVDAFM.QNIHWQRAA
+  TRFAAAVRD.........
+}
+{
+name SODM_CANAL
+descrip Superoxide dismutase [Mn], mitochondrial precursor (EC 1.15.
+creator Candida albicans (Yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 34 123 0 square solid PFAM-A
+  FT   PFAM-A       34    116  PF00081 sodfe
+feature 129 244 1 square solid PFAM-A
+  FT   PFAM-A      122    233  PF02777 sodfe_C
+feature 60 60 1 square solid SITE
+  FT   SITE         60     60  METAL_Manganese By similarity
+feature 115 115 1 square solid SITE
+  FT   SITE        108    108  METAL_Manganese By similarity
+feature 208 208 1 square solid SITE
+  FT   SITE        198    198  METAL_Manganese By similarity
+feature 212 212 1 square solid SITE
+  FT   SITE        202    202  METAL_Manganese By similarity
+feature 1 34 12 square solid SIGNAL
+  FT   SIGNAL        1     34  Mitochondrion.
+sequence
+  MFSIRSSSRVLLKASSATTRATLNAAASKTFTRSKYSLPELDYEFSATEPYISGQINEIH
+  YTKHHQTYVNNLNASIEQAVEAKSKGEVKKL.......VALEKAINFNGGGYLNHCLWWK
+  NLAPVSQGGGQPPSEDSKLGKQIVKQFGSLDKLIEITNGKLAGI.QGSGWAFIVKNKANG
+  DTIDVITTANQD..TVTDPNLVPLIAIDAWEHAYYLQYQNVKADYFKNLW.HVINWKEAE
+  RRFEF.............
+}
+{
+name SOD1_HALN1
+descrip Superoxide dismutase [Mn] 1 (EC 1.15.1.1).
+creator Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081), 
+type    PROTEIN
+group 1
+feature 34 123 0 square solid PFAM-A
+  FT   PFAM-A        1     83  PF00081 sodfe
+feature 129 248 1 square solid PFAM-A
+  FT   PFAM-A       87    196  PF02777 sodfe_C
+feature 61 61 1 square solid SITE
+  FT   SITE         28     28  METAL_Manganese By similarity
+feature 115 115 1 square solid SITE
+  FT   SITE         75     75  METAL_Manganese By similarity
+feature 208 208 1 square solid SITE
+  FT   SITE        157    157  METAL_Manganese By similarity
+feature 212 212 1 square solid SITE
+  FT   SITE        161    161  METAL_Manganese By similarity
+sequence
+  .................................SEYELPPLPYDYDALEPHISEQVLTWH
+  HDTHHQGYVNGWNDAEETLAENRETGDHAST.......AGALGDVTHNGSGHILHTLFWQ
+  SMSP..AGGD...EPSGALADRIAADFGSYENWRAEFEAAAS...AASGWALLVYDSH.S
+  NTLRNVAVDNHD.EGALWGS.HPILALDVWEHSYYYDYGPDRGSFVDAFF.EVVDWDEPT
+  ERFEQAAERFE.......
+}
+{
+name SODM_CHAFE
+descrip Superoxide dismutase [Mn], mitochondrial precursor (EC 1.15.
+creator Charybdis feriatus (Crab).Eukaryota;
+type    PROTEIN
+group 1
+feature 34 123 0 square solid PFAM-A
+  FT   PFAM-A       20    102  PF00081 sodfe
+feature 128 222 1 square solid PFAM-A
+  FT   PFAM-A      105    191  PF02777 sodfe_C
+feature 60 60 1 square solid SITE
+  FT   SITE         46     46  METAL_Manganese By similarity
+feature 115 115 1 square solid SITE
+  FT   SITE         94     94  METAL_Manganese By similarity
+feature 208 208 1 square solid SITE
+  FT   SITE        177    177  METAL_Manganese By similarity
+feature 212 212 1 square solid SITE
+  FT   SITE        181    181  METAL_Manganese By similarity
+feature 15 34 12 square solid SIGNAL
+  FT   SIGNAL        1     20  Mitochondrion (By similarity).
+sequence
+  ..............MLLARAFARRSLRAGLWCRQKHTLPDLPYDYGALEPTISAEIMQLH
+  HSKHHQTYVNNLNVAEEKLAEAKEKGDVSTI.......ISLAPALRFNGGGHINHSIFWQ
+  NLSA..DGG....EPEGELLAAINRDFGSVENMKNQLSAQTVAV.QGSGWGWLGYIAE..
+  GALQIATCPNQDPLEATTGL.VPLFGIDVWEHAYYLQYKNVRRIMLKPSGISLIGRISLQ
+  GSMQQSKNATSCSGA...
+}
+{
+name SODM_AGABI
+descrip Superoxide dismutase [Mn], mitochondrial precursor (EC 1.15.
+creator Agaricus bisporus (Common mushroom).Eukaryota;
+type    PROTEIN
+group 1
+feature 34 123 0 square solid PFAM-A
+  FT   PFAM-A        1     80  PF00081 sodfe
+feature 129 248 1 square solid PFAM-A
+  FT   PFAM-A       86    196  PF02777 sodfe_C
+feature 60 60 1 square solid SITE
+  FT   SITE         27     27  METAL_Manganese By similarity
+feature 115 115 1 square solid SITE
+  FT   SITE         72     72  METAL_Manganese By similarity
+feature 208 208 1 square solid SITE
+  FT   SITE        157    157  METAL_Manganese By similarity
+feature 212 212 1 square solid SITE
+  FT   SITE        161    161  METAL_Manganese By similarity
+sequence
+  .................................MAHVLPDLPYAYDALEPYISRQIMELH
+  HKKTSSDLCECAQHCRGC.LRHSTAVVGG.........FDLSLFFILTTLGHINHSLFWQ
+  NLAPAAGAGG..QLKPGPLKDAIDQTFGGLDNLKKEFNTTTAGI.QGSGWGWLGVNPS.N
+  KRLEISTTPNQD..PLLNL..VPIIGVDIWEHAFYLQYLNVKADYLNAIW.SVINFDEAQ
+  RRYVEATQGSKL......
+}

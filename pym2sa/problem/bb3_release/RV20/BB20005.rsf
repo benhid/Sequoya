@@ -1,0 +1,1634 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 2gsa_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 51 63 3 square solid STRUCT
+  FT   STRUCT        4     16  HELIX
+feature 65 67 3 square solid STRUCT
+  FT   STRUCT       18     20  HELIX
+feature 71 73 3 square solid STRUCT
+  FT   STRUCT       24     26  HELIX
+feature 86 90 0 square solid STRUCT
+  FT   STRUCT       38     42  STRAND
+feature 93 96 0 square solid STRUCT
+  FT   STRUCT       45     48  STRAND
+feature 101 104 0 square solid STRUCT
+  FT   STRUCT       53     56  STRAND
+feature 107 109 3 square solid STRUCT
+  FT   STRUCT       59     61  HELIX
+feature 121 132 3 square solid STRUCT
+  FT   STRUCT       71     81  HELIX
+feature 160 172 3 square solid STRUCT
+  FT   STRUCT       92    104  HELIX
+feature 187 191 0 square solid STRUCT
+  FT   STRUCT      110    114  STRAND
+feature 194 209 3 square solid STRUCT
+  FT   STRUCT      117    132  HELIX
+feature 239 243 0 square solid STRUCT
+  FT   STRUCT      136    140  STRAND
+feature 254 256 3 square solid STRUCT
+  FT   STRUCT      149    151  HELIX
+feature 262 266 3 square solid STRUCT
+  FT   STRUCT      157    161  HELIX
+feature 284 287 3 square solid STRUCT
+  FT   STRUCT      172    175  HELIX
+feature 290 293 0 square solid STRUCT
+  FT   STRUCT      178    181  STRAND
+feature 313 320 3 square solid STRUCT
+  FT   STRUCT      186    193  HELIX
+feature 334 339 0 square solid STRUCT
+  FT   STRUCT      200    205  STRAND
+feature 356 366 3 square solid STRUCT
+  FT   STRUCT      221    231  HELIX
+feature 370 374 0 square solid STRUCT
+  FT   STRUCT      235    239  STRAND
+feature 397 400 3 square solid STRUCT
+  FT   STRUCT      252    255  HELIX
+feature 419 422 0 square solid STRUCT
+  FT   STRUCT      262    265  STRAND
+feature 427 430 3 square solid STRUCT
+  FT   STRUCT      267    270  HELIX
+feature 437 441 0 square solid STRUCT
+  FT   STRUCT      276    280  STRAND
+feature 446 449 3 square solid STRUCT
+  FT   STRUCT      282    285  HELIX
+feature 472 485 3 square solid STRUCT
+  FT   STRUCT      304    317  HELIX
+feature 491 512 3 square solid STRUCT
+  FT   STRUCT      322    343  HELIX
+feature 528 532 0 square solid STRUCT
+  FT   STRUCT      349    353  STRAND
+feature 535 539 0 square solid STRUCT
+  FT   STRUCT      356    360  STRAND
+feature 571 574 3 square solid STRUCT
+  FT   STRUCT      369    372  HELIX
+feature 580 592 3 square solid STRUCT
+  FT   STRUCT      377    389  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      392    393  STRAND
+feature 621 622 0 square solid STRUCT
+  FT   STRUCT      402    403  STRAND
+feature 633 647 3 square solid STRUCT
+  FT   STRUCT      410    424  HELIX
+sequence
+  ...............................................FKTIKSDEIFAAA
+  QKLMPGGVSSPVRAFKSV.GGQPIVFDRVKDAYAWDVDGNRYIDYVGTWGPAIC..GHAH
+  PE.VIEALKVAMEK.................GTSFGAPCALENVLAEMVNDAVP......
+  ...SIEMVRFVNSGTEACMAVLRLMRAYTG..........................RDKI
+  IKFEGCYHGH..ADMFLVKAGSGVATL.......GLPSSPGVPKKTTANTLTTPY.....
+  ..........NDLEAVKALFAENP.......GEIAGVILEPI.VGNSGFIVPDAGFLEGL
+  REITLEHDALLVFDEVMTGFRIAYG..........GVQEKFGVTP............DLT
+  TLG...KIIGG.GLPVGAYGGK...REIMQLVAPAGP....MYQAGTLSGNPLAMTAGIK
+  TLELLRQ.PGTYEYLDQITKRLSDGLLAIAQETG..........HAACGGQVSGMFGFFF
+  TEGPVH.......................NYEDAKKSD.LQKFSRFHRGMLEQGIYLAPS
+  QFEA................GFTSLAHT....EEDIDATLAAARTVMSAL..........
+  ...............
+}
+{
+name GSA_AQUAE
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Aquifex aeolicus.Bacteria;
+type    PROTEIN
+group 1
+feature 72 650 0 square solid PFAM-A
+  FT   PFAM-A       22    424  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        264    264  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ..................................................MKNEKLYREA
+  LQVMPGGVNSPVRAFKAV.GGKPIFLVKGRGPRVWDAEGNEYIDFLASWGAIIL..GHAP
+  KK.VVKAVQEEAEK.................GLSFGLTNPHEVTLAKLVVEMVP......
+  ...SVEKVRFVNSGTEATMSAVRLARGVTG..........................RKYI
+  VKFEGCYHGH..YDSLLVSAGSGVATF.......GIPGTPGIPEEIAKLTIVLPY.....
+  ..........NDVQALEEAFKEYG.......SEIAGVIVEPI.AGNMGVVPPKKEFLIRL
+  RELTKEYGSLLMFDEVITGFRLSKG..........GAQELFGIEP............DIT
+  CLG...KILGG.GLPVGAYGGR...REIMERVAPEGE....VYQAGTLAGNPLAMVSGSE
+  TLKDLRD.KEPYKELEEKMEKLARGVKDILTEKG..........IQHTINKVGSMMTVFF
+  TDKKVV.......................DFQTAKTSD.TELFAKFFRALLNKGVLIPPS
+  QFEA................WFLTTAHE....EEVIDEALERIRDAVKEL..........
+  ...............
+}
+{
+name GSA_BACHD
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Bacillus halodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       26    428  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        268    268  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ..............................................MKTFEKSSAAFNRA
+  KPLMPGGVNSPVRAFKSV.NMDPVFMERGKGANIYDIDGNEYIDYVLSWGPLIL..GHAD
+  DQ.VVEKLKETTEK.................GTSFGAPSELETKLAELVIERVP......
+  ...SIEVVRMVNSGTEATMSALRLARGYTG..........................RNKI
+  LKFEGCYHGH..GDSLLIKAGSGVATL.......GLPDSPGVPETVAQNTLTVPY.....
+  ..........NDLESVRYAFEQFG.......DDLAGVIVEPV.AGNMGVVPPEPGFLEEL
+  RRLTEENGTLLIFDEVMTGFRVGYH..........CAQGAFGITP............DLT
+  CLG...KVIGG.GLPVGAYGGK...REIMEQIAPSGP....IYQAGTLSGNPLAMTAGYE
+  TLVQLT..EANYEYFDRLGDRLAEGLSAVAKEYD..........IPHYTSRAGSMVGFFF
+  TDKKVK.......................NFADASSSD.LEFFAKYFKEMLHLGVSLPPS
+  QFEG................MFLSTKHT....EADIDFTVDAARQAFKRLKK........
+  ...............
+}
+{
+name GSA_BACSU
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       26    428  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        268    268  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ..............................................MRSYEKSKTAFKEA
+  QKLMPGGVNSPVRAFKSV.DMDPIFMERGKGSKIFDIDGNEYIDYVLSWGPLIL..GHTN
+  DR.VVESLKKVAEY.................GTSFGAPTEVENELAKLVIDRVP......
+  ...SVEIVRMVSSGTEATMSALRLARGYTG..........................RNKI
+  LKFEGCYHGH..GDSLLIKAGSGVATL.......GLPDSPGVPEGIAKNTITVPY.....
+  ..........NDLESVKLAFQQFG.......EDIAGVIVEPV.AGNMGVVPPQEGFLQGL
+  RDITEQYGSLLIFDEVMTGFRVDYN..........CAQGYFGVTP............DLT
+  CLG...KVIGG.GLPVGAYGGK...AEIMEQIAPSGP....IYQAGTLSGNPLAMTAGLE
+  TLKQLT..PESYKNFIKKGDRLEEGISKTAGAHG..........IPHTFNRAGSMIGFFF
+  TNEPVI.......................NYETAKSSD.LKLFASYYKGMANEGVFLPPS
+  QFEG................LFLSTAHT....DEDIENTIQAAEKVFAEISRR.......
+  ...............
+}
+{
+name GSA_STAAM
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Staphylococcus aureus (strain Mu50 / ATCC 700699), andStaphy
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       25    427  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        267    267  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...............................................MRYTKSEEAMKVA
+  ETLMPGGVNSPVRAFKSV.DTPAIFMDHGKGSKIYDIDGNEYIDYVLSWGPLIL..GHRD
+  PQ.VISHLHEAIDK.................GTSFGASTLLENKLAQLVIDRVP......
+  ...SIEKVRMVSSGTEATLDTLRLARGYTG..........................RNKI
+  VKFEGCYHGH..SDSLLIKAGSGVATL.......GLPDSPGVPEGIAKNTITVPY.....
+  ..........NDLDALKIAFEKFG.......DDIAGVIVEPV.AGNMGVVPPIEGFLQGL
+  RDITTEYGALLIFDEVMTGFRVGYH..........CAQGYFGVTP............DLT
+  CLG...KVIGG.GLPVGAFGGK...KEIMDHIAPLGN....IYQAGTLSGNPLAMTSGYE
+  TLSQLT..PETYEYFNMLGDILEDGLKRVFAKHN..........VPITVNRAGSMIGYFL
+  NEGPVT.......................NFEQANKSD.LKLFAEMYREMAKEGVFLPPS
+  QFEG................TFLSTAHT....KEDIEKTIQAFDTALSRIVK........
+  ...............
+}
+{
+name GSA1_LISIN
+descrip Glutamate-1-semialdehyde 2,1-aminomutase 1 (EC 5.4.3.8) (GSA
+creator Listeria innocua.Bacteria;
+type    PROTEIN
+group 1
+feature 427 427 12 square solid SITE
+  FT   SITE        268    268  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ..............................................MQNYIKSEKAFKEA
+  KKVLPGGVNSPVRAFNSV.DASPVFMDHGKGAYITDVDGNEYIDYVLSWGPLIL..GHAD
+  PS.VVNAITNSAMK.................GTSFGTPTEIETELAKLVIERVP......
+  ...SIEIVRMVSSGTEATMSAIRLARGYTK..........................REKI
+  LKFEGSYHGH..GDSLLIKAGSGVATL.......GLPDSPGVTKGLAADTITVPY.....
+  ..........NDVEGAKLAFEKFG.......EEIAAVIVEPV.AGNMGVVPPIDGFLEGL
+  RELTTEYGALLIFDEVMTGFRVDYY..........SAQGYYVVTP............DIT
+  CLG...KVIGG.GLPVGAYGGK...KEIMEQIAPAGS....IYQAGTLSGNPLAMNAGFE
+  TVRQLT..PQHYDVFRSLIKRMEEGLTEISNRHE..........VPLSINKAGSMFGFFF
+  TDQKVT.......................NFDTAKTSD.LEFFRNYYREMLAQGIFLPPS
+  QFEG................VFISTMHT....EKEIDATLEAFDVTCKMLRG........
+  ...............
+}
+{
+name GSA_SYNY3
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 72 650 0 square solid PFAM-A
+  FT   PFAM-A       31    433  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        273    273  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .........................................MVNATPFITTKSEEIFAAA
+  QHLMPGGVSSPVRAFKSV.GGQPIVFDRVEGAQIWDVDGNQYIDYVGTWGPAIC..GHAH
+  PD.VISALKQALDK.................GTSFGAPCAQENVLAEMVIDAVP......
+  ...SIEMVRFVNSGTEACMSVLRLMRAFTG..........................REKI
+  IKFEGCYHGH..ADMFLVKAGSGVATL.......GLPDSPGVPSNTTKATLTAPY.....
+  ..........NDLEAVKALFVENP.......DSIAGVILEPV.VGNAGFILPDAGFLEGL
+  RELTKEYGALLVFDEVMTGFRVSYG..........GAQARFGITP............DLT
+  TLG...KVIGG.GLPVGAYGGR...EEIMAMVAPAGP....MYQAGTLSGNPLAMTAGIK
+  TLEILQK.PGSYEYLDKITKRLVDGLLAAAQDAG..........HEVCGGSISAMFGIFF
+  APGPVR.......................NYEDAKLAD.TNKFARFHRGMLERGIYLAPS
+  QYEA................GFPSLAHT....QEQIDQTIAVAKEVFATL..........
+  ...............
+}
+{
+name GSA_CHLRE
+descrip Glutamate-1-semialdehyde 2,1-aminomutase, chloroplast precur
+creator Chlamydomonas reinhardtii.Eukaryota;
+type    PROTEIN
+group 1
+feature 72 650 0 square solid PFAM-A
+  FT   PFAM-A       61    463  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        303    303  BINDING_Pyridoxal phosphate By similarity
+feature 12 41 12 square solid SIGNAL
+  FT   SIGNAL        1     30  Chloroplast (Potential).
+sequence
+  ...........MQMQLNAKTVQGAFKAQRPRSVRGNVAVRAVAAPPKLVTKRSEEIFKEA
+  QELLPGGVNSPVRAFRSV.GGGPIVFDRVKGAYCWDVDGNKYIDYVGSWGPAIC..GHGN
+  DE.VNNALKAQIDK.................GTSFGAPCELENVLAKMVIDRVP......
+  ...SVEMVRFVSSGTEACLSVLRLMRAYTG..........................REKV
+  LKFTGCYHGH..ADSFLVKAGSGVITL.......GLPDSPGVPKSTAAATLTATY.....
+  ..........NNLDSVRELFAANK.......GEIAGVILEPV.VGNSGFIVPTKEFLQGL
+  REICTAEGAVLCFDEVMTGFRIAKG..........CAQEHFGITP............DLT
+  TMG...KVIGG.GMPVGAYGGK...KEIMKMVAPAGP....MYQAGTLSGNPMAMTAGIK
+  TLEILGR.PGAYEHLEKVTKRLIDGIMAAAKEHS..........HEITGGNISGMFGFFF
+  CKGPVT.......................CFEDALAAD.TAKFARFHRGMLEEGVYLAPS
+  QFEA................GFTSLAHS....EADVDATIAAARRVFARI..........
+  ...............
+}
+{
+name GSA_SOYBN
+descrip Glutamate-1-semialdehyde 2,1-aminomutase, chloroplast precur
+creator Glycine max (Soybean).Eukaryota;
+type    PROTEIN
+group 1
+feature 72 650 0 square solid PFAM-A
+  FT   PFAM-A       64    466  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        306    306  BINDING_Pyridoxal phosphate By similarity
+feature 9 36 12 square solid SIGNAL
+  FT   SIGNAL        1     28  Chloroplast (Potential).
+sequence
+  ........MAVSAITGARLTLGMSLSSSTRSRTVAMAVSIDPKTDNKLTLTKSEEAFAAA
+  KELMPGGVNSPVRAFKSV.GGQPIVIDSVKGSRMWDIDGNEYIDYVGSWGPAII..GHAD
+  DQ.VLAALGETMKK.................GTSFGAPCLLENTLAELVIDAVP......
+  ...SIEMVRFVNSGTEACMGALRLARAYTG..........................REKI
+  IKFEGCYHGH..ADPFLVKAGSGVATL.......GLPDSPGVPKAATFETLTAPY.....
+  ..........NDTEAIEKLFEANK.......GEIAAVFLEPV.VGNAGFIVPKPDFHSFL
+  RKITKENNTLLVFDEVMTGFRLSYG..........GAQEYFGITP............DIT
+  TLG...KIIGG.GLPVGAYGGR...RDIMEKVAPAGP....MYQAGTLSGNPLAMTAGIE
+  TLQRIKE.PGTYEYLDKITGELVEGIIEAGKRAG..........HAICGGHIRGMFGFFF
+  TEGPVY.......................NFADAKKSD.TAKFARFFWGMLAEGVYLAPS
+  QFEA................GFTSLAHT....SDDIKKTIAAAEKVFREI..........
+  ...............
+}
+{
+name GSA_HORVU
+descrip Glutamate-1-semialdehyde 2,1-aminomutase, chloroplast precur
+creator Hordeum vulgare (Barley).Eukaryota;
+type    PROTEIN
+group 1
+feature 72 647 0 square solid PFAM-A
+  FT   PFAM-A       67    466  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        309    309  BINDING_Pyridoxal phosphate By similarity
+feature 6 39 12 square solid SIGNAL
+  FT   SIGNAL        1     34  Chloroplast.
+sequence
+  .....MAGAAAAVASGISIRPVAAPKISRAPRSRSVVRAAVSIDEKAYTVQKSEEIFNAA
+  KELMPGGVNSPVRAFKSV.GGQPIVFDSVKGSHMWDVDGNEYIDYVGSWGPAII..GHAD
+  DK.VNAALIETLKK.................GTSFGAPCALENVLAQMVISAVP......
+  ...SIEMVRFVNSGTEACMGALRLVRAFTG..........................REKI
+  LKFEGCYHGH..ADSFLVKAGSGVATL.......GLPDSPGVPKGATVGTLTAPY.....
+  ..........NDADAVKKLFEDNK.......GEIAAVFLEPV.VGNAGFIPPQPAFLNAL
+  REVTKQDGALLVFDEVMTGFRLAYG..........GAQEYFGITP............DVT
+  TLG...KIIGG.GLPVGAYGGR...KDIMEMVAPAGP....MYQAGTLSGNPLAMTAGIH
+  TLKRLME.PGTYEYLDKVTGELVRGILDVGAKTG..........HEMCGGHIRGMFGFFF
+  AGGPVH.......................NFDDAKKSD.TAKFGRFHRGMLGEGVYLAPS
+  QFEA................GFTSLAHT....TQDIEKTVEAAEKVLRWI..........
+  ...............
+}
+{
+name GSA1_ARATH
+descrip Glutamate-1-semialdehyde 2,1-aminomutase 1, chloroplast prec
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 72 650 0 square solid PFAM-A
+  FT   PFAM-A       72    474  PF00202 aminotran_3
+feature 1 51 0 square solid PFAM-B
+  FT   PFAM-B        1     51  PB068543 Pfam-B_68543
+feature 427 427 12 square solid SITE
+  FT   SITE        314    314  BINDING_Pyridoxal phosphate By similarity
+feature 1 38 12 square solid SIGNAL
+  FT   SIGNAL        1     38  Chloroplast (By similarity).
+sequence
+  MSATLTGSGTALGFSCSSKISKRVSSSPASNRCCIKMSVSVDEKKKSFSLQKSEEAFNAA
+  KNLMPGGVNSPVRAFKSV.GGQPVLIDSVKGSKMWDIDGNEYIDYVGSWGPAII..GHAD
+  DE.VLAALAETMKK.................GTSFGAPCLLENVLAEMVISAVP......
+  ...SIEMVRFVNSGTEACMGVLRLARAFTN..........................KEKF
+  IKFEGCYHGH..ANAFLVKAGSGVATL.......GLPDSPGVPKAATSDTLTAPY.....
+  ..........NDLEAVEKLFAAHK.......GEISAVILEPV.VGNSGFIPPTPEFINGL
+  RQLTKDNGVLLIFDEVMTGFRLAYG..........GAQEYFGITP............DLT
+  TLG...KIIGG.GLPVGAYGGR...RDIMEMVAPAGP....MYQAGTLSGNPLAMTAGIH
+  TLKRLKQ.AGTYEYLDKITKELTNGILEAGKKTG..........HPMCGGYISGMFGFFF
+  AEGPVY.......................NFADSKKSD.TEKFGRFFRGMLEEGVYFAPS
+  QFEA................GFTSLAHT....PEDIQLTIAAAERVLSRI..........
+  ...............
+}
+{
+name GSA_CLOPE
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Clostridium perfringens.Bacteria;
+type    PROTEIN
+group 1
+feature 72 647 0 square solid PFAM-A
+  FT   PFAM-A       23    424  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        265    265  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .................................................MDRNKEIFEES
+  KKYMPGGVNSPVRSFGSV.GINPPVIKSGKGAMIKDENGNEYIDFVLAWGPMIL..GHCD
+  ED.VVEAIKKTSEE.................SIAFGASTKLELDLAKLLCETLD......
+  ...NVDMIRMVNSGTEATMSAVKLARGYTK..........................KDKI
+  IKFAGCYHGH..FDGFLIEAGSGVLTE.......GIPGCLGVPEESIKNTLIGIY.....
+  ..........NDEKQVEELFEKYG.......NDIAGIIIEPV.AGNMGVVKCDPKFMRKL
+  RELCDKYGALLIFDEVMCGFRVAYK..........GAQTLFDVKP............DLV
+  TYA...KIMGG.GLPCGAYGGR...REIMENLSPLGG....VYQAGTMSGNPIVMSAGLA
+  TVKKLYENPSYYNHIEKIGSKLEKGVLEIAKKKG..........LGLVVNRQGGMITLFF
+  TDLKEVK......................CYDDVKTCD.GERFKRYFLHMLNKGFNIPPS
+  QFEA................MFLSVKHT....EEHIDKFLEAFETFEG............
+  ...............
+}
+{
+name GSA_CLOAB
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Clostridium acetobutylicum.Bacteria;
+type    PROTEIN
+group 1
+feature 72 646 0 square solid PFAM-A
+  FT   PFAM-A       22    422  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        264    264  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ..................................................MTNKEIFEES
+  KEYMPGGVNSPVRAYMDL.NIDPPIIKSGKDSHLFDEEGKEYIDFIEAWGPMIL..GHKN
+  QK.VLNEVKEVLDE.................GVGFGAPTSLELKLAKYICTTVD......
+  ...NVEMIRMVNSGTEATMSAVKLARGYTK..........................RDKI
+  IKFAGCYHGH..FDGFLVEAGSGVLTQ.......NIPGSPGVPKGSIENTLIAEY.....
+  ..........NNVESVEVLFNKYK.......DEIAAVIIEPV.AGNMGVIPAKKEFLVKL
+  RELCTENQSILIFDEVMSGFRVAYK..........GAQSLYGVTP............DLI
+  TFA...KIMGG.GFPCGAYGGK...KEIMKQLSPLGP....VYQAGTMSGNPVVMAAGYA
+  SLRQLHENPEYYTYMDKLGSKLEAGILEISKEKG..........IPLVVNRCVNMMTIFF
+  NKAKEVK......................SYSDAKASD.TKMFARFAEHMITSGIYVPPS
+  QFEA................MFLGVKHT....EEDIERFLDVMKKL..............
+  ...............
+}
+{
+name GSA_CAMJE
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Campylobacter jejuni.Bacteria;
+type    PROTEIN
+group 1
+feature 72 647 0 square solid PFAM-A
+  FT   PFAM-A       22    421  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        263    263  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ..................................................MTNKKAFKET
+  CKFIAGGVNSPVRAFANV.QSEPKFISHGKGAYIFDIDGNSYIDYVQSWGPLLF..GHCD
+  KD.IQKACQKALHK.................GSSFGAPTLLETELAKLVLSDFP......
+  ...HLEKIRFVSSGTEATMSAIRLARGFTK..........................KDKI
+  LKFEGCYHGH..SDSLLVSAGSGAATF.......NSPSSLGVLEDVAKHTLVAKY.....
+  ..........NDINSVKELFEKN........KDIACVIIEPI.AGNMGLVPAKQDFLEEL
+  AKICKNNQTLLIFDEVMSGYRASYL..........GSYGINHIQA............DII
+  TFG...KVIGG.GLPAAAFASR...AEIMDILSPLGG....VYQAGTLSGNPLAMAAGIA
+  SLTKAKKKTKLYDKLGKLAKKLTQGMKKLADEKG..........LPLQACHVGSMFGYFF
+  TKDPVS.......................NYQDALKSD.LALFSKFHKNMLENGIYLAPS
+  QFET................GFICSKMD....DKIIDTTLEAVRESFKRI..........
+  ...............
+}
+{
+name GSA_HELPJ
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Helicobacter pylori J99 (Campylobacter pylori J99).Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       25    427  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        265    265  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...............................................MELLHSINDFNEA
+  KQVIAGGVNSPVRAFKSV.KGTPPFILKGKGAYLYDVDNNHYIDFVQSWGPLIF..GHAD
+  EE.IEENIINVLKK.................GTSFGAPTELETTLAKEIISCYE......
+  ...GLDKVRLVNSGTEATMSAIRLARAYSQ..........................KDDL
+  IKFEGCYHGH..SDSLLVKAGSGCATF.......GSPSSLGVPNDFSKHTLVARY.....
+  ..........NDLNSTEECFKKG.........DVGCVIIEPI.AGNMGLVPAQKEFLLGL
+  KALCEKYQAVLILDEVMSGFRASLS..........GSQEFYGVVP............DLV
+  TFG...KVIGA.GLPLACFGGR...AEIMDLLSPIGG....VYQAGTLSGNPLAVCAGLS
+  ALYKIKRDKTLYTRLNALAVRLTQGLQKSAQNYN..........IALETLNMGSMFGFFF
+  NENAVR.......................DFDDALKSD.TEMFAKFHQKMLFKGVYLACS
+  SFET................GFICEPMT....EEMIDLAISKADESFDEIINGV......
+  ...............
+}
+{
+name GSA_ECO57
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Escherichia coli O157:H7.Bacteria;
+type    PROTEIN
+group 1
+feature 72 650 0 square solid PFAM-A
+  FT   PFAM-A       23    426  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        265    265  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .................................................MSKSENLYSAA
+  RELIPGGVNSPVRAFTG.VGGTPLFIEKADGAYLYDVDGKAYIDYVGSWGPMVL..GHNH
+  PA.IRNAVIEAAER.................GLSFGAPTEMEVKMAQLVTELVP......
+  ...TMDMVRMVNSGTEATMSAIRLARGFTG..........................RDKI
+  IKFEGCYHGH..ADCLLVKAGSGALTL.......GQPNSPGVPADFAKHTLTCTY.....
+  ..........NDLASVRAAFEQYP.......QEIACIIVEPV.AGNMNCVPPLPDFLPGL
+  RALCDEFGALLIIDEVMTGFRVALA..........GAQDYYGVEP............DLT
+  CLG...KIIGG.GMPVGAFGGR...RDVMDALAPTGP....VYQAGTLSGNPIAMAAGFA
+  CLNEVAQ.PGVHETLDELTTRLAEGLLEAAEEAG..........IPLVVNHVGGMFGIFF
+  TDAESVT......................CYQDVMACD.VERFKRFFHMMLDEGVYLAPS
+  AFEA................GFMSVAHS....MEDINNTIDAARRVFAKL..........
+  ...............
+}
+{
+name GSA_PASMU
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Pasteurella multocida.Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       23    427  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        265    265  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .................................................MTTSLSLFQRA
+  QHRIPGGVNSPVRAFKG.VGGTPIFIEKAQGAYLYDTEGNQYIDYVGSWGPMIL..GHNH
+  PT.ILDAVISTAQN.................GLSFGAPTALEIELAELVCSLVP......
+  ...SIDMVRMVSSGTEATMSAIRLARGYTK..........................RDKI
+  IKFEGCYHGH..ADSLLVKAGSGALTL.......GQPSSPGVPADFAKHTLTCTY.....
+  ..........NDLDSVKHAFEQYP.......NEIACLIVEPV.AGNMNCIPPQEGFLQGL
+  RALCDQYGAVFIIDEVMTGFRVALG..........GAQTYYGVTP............DLT
+  CLG...KVIGG.GMPVGAFGGK...KAIMQHIAPLGP....VYQAGTLSGNPIAMAAGLA
+  CLTELKK.AGNAQRLAQQTEKLALGLKALADKHH..........VPFVVNYVGGMFGIFF
+  TEQKTVS......................SYQAVMACD.TEKFNRFFHAMLAQGIYLAPS
+  AFEA................GFMSLAHS....DQDIERTLQAADQVFSQLA.........
+  ...............
+}
+{
+name GSA_VIBCH
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Vibrio cholerae.Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       23    427  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        265    265  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .................................................MTKSAELYQKA
+  QTTIPGGVNSPVRAFNG.VGGSPIFIDRADGALIFDADGKAYIDYVGSWGPMIL..GHNH
+  AV.IREAVIQAAQR.................GLSFGAPTEMEITMAELVSELVP......
+  ...SMEQLRMVNSGTEATMSAIRLARGYTG..........................RDKI
+  IKFEGCYHGH..ADSLLVKAGSGALTL.......GQPSSPGVPADFAKHTLTARF.....
+  ..........NDLDSVRELFAANQ.......GEIACIIVEPV.AGNMNCIPPVEGFHEGL
+  REICDQEGALLIFDEVMTGFRVALG..........GAQAHYNIKP............DLT
+  TLG...KVIGG.GMPVGAFGGR...REVMQYIAPTGP....VYQAGTLSGNPIAMAAGYA
+  CLNLLRE.EGNEKRLAAKTKQLADGFKSLADQHG..........IPLLVHQVGGMFGFFF
+  TEQETVT......................CYEDVARCD.VERFKRFFHLMLQHGVYLAPS
+  AFEA................SFTSLAHG....SKEIEATLEAADRSFAILAAEAKA....
+  ...............
+}
+{
+name GSA_SHEON
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Shewanella oneidensis.Bacteria;
+type    PROTEIN
+group 1
+feature 427 427 12 square solid SITE
+  FT   SITE        265    265  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .................................................MTRSEALFEQA
+  KKTIPGGVNSPVRAFNG.VGGSPLFIEKADGAYIYDADGKAYIDYVGSWGPMIL..GHNH
+  PK.IREAVLAAVHN.................GLSFGAPTELEVQMAEKVIAMVP......
+  ...SIEQVRMVSSGTEATMSAIRLARGFTN..........................RDKI
+  LKFEGCYHGH..ADCLLVKAGSGALTL.......GQPSSPGIPEDFAKHTLTAVY.....
+  ..........NDLDSVRSLFEQYP.......TEISCIIIEPV.AGNMNCIPPIPGFLEGL
+  RSLCDEFGALLIIDEVMTGFRVSKS..........GAQGHYGVTP............DLT
+  TLG...KVIGG.GMPVGAFGGR...KDVMQFIAPTGP....VYQAGTLSGNPIAMSAGLA
+  QMEALCE.EGLYEALSAKTKRIAEGFKAAADKHG..........IPMAINYVGGMFGFFF
+  TEQEHIT......................RFDQVTKCN.IEHFRTFYHGMLDEGVYLAPS
+  AYEA................GFLSMAHG....EEELRLTLEAADRVLARMKAAN......
+  ...............
+}
+{
+name GSA_PSEAE
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Pseudomonas aeruginosa.Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       23    427  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        265    265  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .................................................MSRSETLFNNA
+  QKHIPGGVNSPVRAFKS.VGGTPLFFKHAEGAYVLDEDDKRYVDYVGSWGPMIL..GHSH
+  PD.VLDAVRRQLDH.................GLSYGAPTALEVEMADLVCSMVP......
+  ...SMEMVRMVSSGTEATMSAIRLARGYTG..........................RDSI
+  IKFEGCYHGH..SDSLLVKAGSGALTF.......GVPNSPGVPAAFAKHTLTLPF.....
+  ..........NDIEAVRKTLGEVG.......KEVACIIVEPV.AGNMNCVPPAPGFLEGL
+  REACDEHGVVLIFDEVMTGFRVALG..........GAQAYYGVTP............DLS
+  TFG...KIIGG.GMPVGAFGGK...REIMQQISPLGP....VYQAGTLSGNPLAMAAGLT
+  TLRLISR.PGFHDELTAYTTRMLDGLQQRADAAG..........IPFVTTQAGGMFGLYF
+  SGADAIV......................TFEDVMASD.VERFKRFFHLMLDGGVYLAPS
+  AFEA................GFTSIAHG....DKELEITLNAAEKAFAALK.........
+  ...............
+}
+{
+name GSA_XANAC
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Xanthomonas axonopodis (pv. citri).Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       25    428  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        267    267  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...............................................MNHSRSHALFAQA
+  QTLLPGGVNSPVRAFKS.VGGEPFFVARADGPYLFDVDDNRYIDYVGSWGPMIA..GHNH
+  PA.VREAVEQSIRN.................GLSFGAPCAAEVAMAQTITRLVP......
+  ...SCEMVRMVNSGTEATLSAVRLARGATG..........................RNRI
+  IKFEGCYHGH..GDSFLVKAGSGMLTL.......GVPTSPGVPAGLSELTATLSF.....
+  ..........NDFEGATALFDEIG.......AEVAAVIIEPV.VGNANCIPPQAGYLQHL
+  RTLCTRHGALLIFDEVMTGFRVALG..........GAQAHYGVTP............DLT
+  TFG...KIIGG.GMPVGAYGGR...RDLMEQVAPAGP....IYQAGTLSGNPVAMAAGLA
+  MLELVQE.PGFHTRLSEATSMLCEGLEDAARAAG..........IAVTTNQVGGMFGLFF
+  TDDIVE.......................SYAQATACD.ITTFNRFFHAMLQQGVYLAPS
+  AYEA................GFMSSAHD....EAVIDATLAAAREAFAEVAR........
+  ...............
+}
+{
+name GSA_XYLFA
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Xylella fastidiosa.Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       25    428  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        267    267  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...............................................MNHSRSHTLFVQA
+  QTRIPGGVNSPVRAFRS.VGGEPFFVARADGPYLFDVDGHRYIDYVGSWGPMIV..GHNH
+  PA.VREAVQVAISN.................GLSYGAPCAAEVTMAETIARLVP......
+  ...SCDMVRMVNSGTEATLSAIRLARGATG..........................RNHI
+  VKFEGCYHGH..GDSFLVKGGSGMLTL.......GMPSSPGVPAELSKLTITLTY.....
+  ..........NDFDAATALFEEMG.......HHIAAVIVEPV.IGNANCIPPRPGYLQHL
+  RTLCTQYAVLLIFDEVMTGFRVALG..........GAQALYGVTP............DLT
+  TFG...KIIGG.GMPVGAYGGC...RDLMQHIAPAGP....IYQAGTLSGNPVAMAAGLA
+  MLELIQA.PDFYTHLSNAAAALCTGLQQAASQAG..........IAMTTQQIGGMFGLFF
+  TDQQVE.......................TYAQATACN.TDRFNRFFHAMLQRGVFFAPS
+  AYEA................GFISSAHS....PDIIEATLEAARAAFQTIANEAAILSES
+  EAPLKMP........
+}
+{
+name GSA_NEIMA
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Neisseria meningitidis (serogroup A).Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       23    426  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        265    265  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .................................................MNRNEILFDRA
+  KAVIPGGVNSPVRAFGS.VGGVPRFIKKAEGAYVWDENGTRYTDYVGSWGPAIV..GHAH
+  PE.VIEAVREAALG.................GLSFGAPTEGEIAIAEEIAKIMP......
+  ...SVERLRLVSSGTEATMTAIRLARGFTG..........................RDKI
+  IKFEGCYHGH..SDSLLVKAGSGLLTF.......GNPSSAGVPADFTKHTLVLEY.....
+  ..........NNIAQLEEAFAQSG.......NDIACVILEPF.VGNMNLVRPSEAFVKAL
+  RELTEKHGAVLIYDEVMTGFRVALG..........GAQSLHGITP............DLT
+  TMG...KVIGG.GMPLAAFGGR...KDIMECISPLGG....VYQAGTLSGNPIAVAAGLK
+  TLEIIRR.EGFYENLTARTEQLVQGFRTAADAAG..........IEFTADSVGGMFGLYF
+  AAHAPR.......................NYADMARSN.IEGFKQFFHGMLDRGIAFGPS
+  AYEA................GFVSAAHT....PELIDETVAVAVEVFKAMAA........
+  ...............
+}
+{
+name GSA_DEIRA
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Deinococcus radiodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       31    443  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        278    278  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .........................................MTLSETHPTARSEALFVRA
+  RAVTPGGVNSPVRAFRS.VGGVPRFIASAQGAYLTDADGARYLDYIGSWGPMIL..GHNH
+  PA.VRDAVAQALAS.................GTSFGAPNEREVELAELIVELTG......
+  ....AERVRFVSSGTEATMSALRLARGYTG..........................RKFI
+  VKFRGNYHGH..ADGLLVEAGSGLLTNAEGDLGAAAPSSAGVPEEYAGLTLVLDY.....
+  ..........NDPEALDALMAQRG.......DEIAAVIFEPV.VGNAGVLIPTSDFLAAL
+  HRVR.DFGAVLIADEVMTGFRLSLN..........GATGLLSLDP............DLR
+  CWG...KIVGG.GLPVGAYGGR...ADIMDFVSPQGP....VYQAGTLSGNPLAMAAGIA
+  TLRELKANPGLYRQLDEYAARLAAGLRGAAERAG..........VAVSINHIGSMLTVFF
+  QDAPDGSVR....................DYAAAARSD.TAAFAAWFQGLLARGIYWAPS
+  QFES................IFISAAHG....EPELAATLEAAAQAFEGVKP........
+  ...............
+}
+{
+name GSA_MYCLE
+descrip Glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8) (GSA)(
+creator Mycobacterium leprae.Bacteria;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       37    439  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        279    279  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...................................MGSTDQATAPAGPAVSISAKLFEDA
+  CAVIPGGVNSPVRAFSA.VGGTPLFITEARGCWLTDADGRRYVDLVCSWGPMIL..GHAH
+  PA.VVDAVATVAAS.................GLSFGAPTPAETQLAAEIIGRMA......
+  ...PVERIRLVNSGTEATMSAVRLARGFTG..........................RTKI
+  IKFSGCYHGH..VDALLADAGSGVATL.......SLPSSPGVTGAAAADTIVLPY.....
+  ..........NDIEAVRQTFARLG.......DQIAAVITEAS.PGNMGVVPPAPGYNAAL
+  RAITAEHGALLIIDEVMTGFRVSRS..........GWYGLDPVAA............DLF
+  IFG...KVMSG.GMPAAAFGGR...AEVMERLAPLGP....VYQAGTLSGNPVAMAAGLA
+  TLRAAA..DAVYATLDRNADRLVAMLSEALTDAG..........VPHQIPRAGNMFSVFF
+  SEAPVT.......................DFASACNSQ.VWRYPAFFHALLDAGVYPPCS
+  TFEA................WFVSAALD....DAAFGRIVDALPGAAAAAVAARHRES..
+  ...............
+}
+{
+name GSAB_BACSU
+descrip Glutamate-1-semialdehyde 2,1-aminomutase 2 (EC 5.4.3.8) (GSA
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 73 651 0 square solid PFAM-A
+  FT   PFAM-A       25    428  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        267    267  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ................................................MHTKSIELHNEA
+  LQHIVGGVNSPSRSYKAVGGGSPVAMEKASGAYFWDVDGNKYIDYLAAYGPIIT..GHAH
+  PH.ITEAIKKAAEN.................GVLYGTPTKHEVTFAKMLKEAIP......
+  ...AMDKVRFVNSGTEAVMTTIRVARAYTG..........................RTKI
+  IKFAGCYHGH..SDLVLVAAGSGPSTL.......GTPDSAGVPKSIANEVITVPF.....
+  ..........NDIDSYKAALEKWG.......SEIAAVLVEPI.VGNFGIVEPKEGFLEQV
+  NELTHNAGALVIYDEVITAFRFMYG..........GAQDLLQVKP............DLT
+  ALG...KIIGG.GLPIGAYGGK...QEIMEQVAPLGP....AYQAGTMAGNPASILSGIA
+  CLEVLKE.KGVYEKLDHLGAMLEEGIMKHAETHG..........ITITVNRLKGALTVYF
+  SDEKVE.......................NYEQAERSD.GETFSTFFKLMLERGINLAPS
+  KYEA................WFITTAHT....EQDIKDTLTAVEDAFKHLKN........
+  ...............
+}
+{
+name GSAB_LISIN
+descrip Glutamate-1-semialdehyde 2,1-aminomutase 2 (EC 5.4.3.8) (GSA
+creator Listeria innocua.Bacteria;
+type    PROTEIN
+group 1
+feature 427 427 12 square solid SITE
+  FT   SITE        268    268  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...............................................MDHSMSKKLHDEA
+  LLHIVGGVNSPSRSNKGVGGGIPVTMERANGAYFYDVDGNKYIDYLAAFGPIIT..GHAH
+  PH.ITEAITKAAQN.................GVLYGTPTKHEITFAKMLKEAIP......
+  ...SLEKVRFTNSGTEAVMTTIRVARAYTG..........................RDKI
+  IKFAGCYHGH..FDLVLVEAGSGPSTL.......GIPDSAGVTRSTAEEVITVPF.....
+  ..........NDLTSFKEALAVWG.......DQVAAVLVEPI.VGNFGMVAPAEGFLEAV
+  NELAHENGSLVIYDEVITAFRFMYG..........GAQNYLGVIP............DLT
+  AMG...KIIGG.GLPIGAYGGR...VDIMEKVAPLGP....AYQAGTHAGNPASILSGIA
+  CLEVLQE.EGLYDRFEKYGSMLKEGIEKAAIKHG..........IAVTVNQIVGALTVYF
+  TDEPVT.......................NYAEAGATN.GDLFGRFFKGMLEEGINLAPS
+  KYEA................WFITSAHS....EADILETIQAVDTVFGKLVQGK......
+  ...............
+}
+{
+name GSA_METKA
+descrip Probable glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.
+creator Methanopyrus kandleri.Archaea;
+type    PROTEIN
+group 1
+feature 69 651 0 square solid PFAM-A
+  FT   PFAM-A       26    429  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        268    268  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...........................................MGYEDEFPESLELFKRA
+  ERVMPGGVSSPVRRFDP....YPFYVERAEGSRLYTVDGHVLIDYCLAFGPLIL..GHAH
+  PE.VVEAVVERVRE.................GFHYGTPTLPELKLAEKVVELVP......
+  ...NVEKVRLVNTGTEATMSAIRLARAYTG..........................REKI
+  VKFEGCYHGA..HDAVLVRAGSGASEL.......GAPDSPGIPESVAENTLVCPF.....
+  ..........NDVEAFVETVERFD.......EEIGAVIVEPV.LGNAGCVPPDEEFLKVL
+  REYCDGTERLLIFDEVITGFRLELG..........GAQEYYGIDA............DLV
+  CLG...KILGG.GLPIGAFGGP...EEYMSRVAPEGK....VYQAGTFNGNPVSATAGLV
+  TLEVLER.ERPYDELSSKAERLASALEDGLEDRG..........IEGVVNRVESMFQVYF
+  GIEEVR.......................DYADVNSAD.HDAFKRFHRELLEHGVWIAAS
+  NYEA................WFLSIAHT....ETDLERTEEAFEEALDRLTG........
+  ...............
+}
+{
+name GSA_METJA
+descrip Probable glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.
+creator Methanococcus jannaschii.Archaea;
+type    PROTEIN
+group 1
+feature 69 651 0 square solid PFAM-A
+  FT   PFAM-A       24    426  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        266    266  BINDING_Pyridoxal phosphate By similarity
+sequence
+  .............................................MALKMDKSKELFEEA
+  KKYLVGGVNSPVRYFKP....YPFFVEKAKDCYLFDVDGNCYIDYCLAYGPMVL..GHAN
+  DA.VIKAVKEQLEL.................GSAYGCPTEKEIILAKEVVKRVP......
+  ...CAEMVRFVNSGTEATMSAIRLARGVTG..........................RKKI
+  IKFDGAYHGA..HDYVLVKSGSGALTH.......GHPNSPGIPEETTKNTILIPF.....
+  ..........NDEDAVKKAINENK.......DEIACIIVEPI.MGNVGCILPKEGYLEFL
+  REITEENDILLIFDEVITGFRLAKG..........GAQEYFGVVP............DIA
+  TLG...KILGG.GFPIGAIVGR...RELMEQFSPLGA....IYQAGTFNGNPISITAGIA
+  TLKQLD..DRFYKETARTAKILADTLRELADKHN..........IKAKVYNIASMFQIYF
+  NDKEVV.......................NYEIAKQSD.TEKFMKYFWRLLEKGVFVPPS
+  QFEC................CFTSIKHD....DEVVDKTIKAMEDVFEGLE.........
+  ...............
+}
+{
+name GSA_METAC
+descrip Probable glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.
+creator Methanosarcina acetivorans.Archaea;
+type    PROTEIN
+group 1
+feature 69 647 0 square solid PFAM-A
+  FT   PFAM-A       26    424  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        268    268  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...........................................MVSEVTLDKSRQMYEKA
+  KTLIPGGVSSPVRAIKP....YPFYTASADGSKIRDLDGNEYIDYCLAYGPAVL..GHNH
+  PV.IKAAIKEQLDK.................GWLYGTPTELEVTLAEKVAGYYP......
+  ...SIDMLRFVSTGTEATMSALRLARGFTR..........................KNKF
+  IKIEGGFHGA..HDAVLVKAGSGATTL.......GEPDSLGIPADFTKYTLQAPY.....
+  ..........NDIETMTTLVEKNR.......DDLAAVIIEPV.LGNIGPILPLPGYLKEL
+  RKLTKENDVLLIFDEVITGFRLAMG..........GAQEYFGVVP............DMT
+  TLG...KIVGG.GLPIGVFGGR...REIMEMIAPSGA....VYQAGTFSGSPCSVAAGIA
+  VLDYLKK.EDIHAKLNSTGDYMRAVVSEIVEDEG..........LDYTVCGIASMFKIFF
+  GAEPH........................NYQEALKCD.KEGYLSFFHRMLANGVFLPPS
+  QFET................NFISAAHS....EEDIEKTLEAYVENL.............
+  ...............
+}
+{
+name GSA_AERPE
+descrip Probable glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.
+creator Aeropyrum pernix.Archaea;
+type    PROTEIN
+group 1
+feature 70 651 0 square solid PFAM-A
+  FT   PFAM-A       27    430  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        269    269  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...........................................MDVLASGEKSRMLFERT
+  KELFPGGVNSPVRAAVK...PYPFYVKRGEGAYLYTVDGARIVDLVLAYGPLIL..GHKH
+  PR.VLEAVEEALAR.................GWLYGAPGEAEVLLAEKILGYVK......
+  ...RGGMIRFVNSGTEATMTAIRLARGYTG..........................RDLI
+  LKFDGCYHGS..HDAVLVAAGSAAAHY.......GVPTSAGVPEAVARLTLVTPY.....
+  ..........NDVEALERVFAEYG.......DRIAGVIVEPV.IANAGVIPPRREFLAAL
+  QRLSRESGALLILDEVVTGFRLGLE..........GAQGYFNIEG............DII
+  VLG...KIIGG.GFPVGAVAGS...REVMSLLTPQGK....VFNAGTFNAHPITMAAGLA
+  TLKALEE.EPVYSVSREAAKALEEAASEVLDRTG..........LPYTINRVESMMQLFI
+  GVEEVS.......................NAAQARKAD.KKFYVKLHEEMLRRGVFIAPS
+  NLEA................VFTGLPHQ....GEALEIAVEGLRSSLKTVLGS.......
+  ...............
+}
+{
+name GSA_PYRAE
+descrip Probable glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.
+creator Pyrobaculum aerophilum.Archaea;
+type    PROTEIN
+group 1
+feature 72 651 0 square solid PFAM-A
+  FT   PFAM-A       18    419  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        258    258  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ......................................................MLFERA
+  KSVFPGGVNSPARALKH..LPSPLVAKAASGAYLYTDRG.KLVDYCMAFGAIIL..GHAH
+  PR.VKKAVEEQLEK.................GWIYALLTEQEVEFAERIRRHMP......
+  ...SVEKMRIVNTGTEATMSAIRAARGYTK..........................RDVI
+  IKFEGNFHGS..HDYVLVKAGSGAATW.......GIPTSAGIPQEVARLTVVVPY.....
+  ..........NDIDAFIKAVREVG.......DRLAAVIVEPV.AGNYGLIIPDVEFLKAL
+  REETQRAGALLIFDEVITGFRVGLG..........GAQGLFGIRP............DLT
+  TLG...KVVGG.GFPIGIFGGR...GEVMDLVAPSGP....VYNAGTYNAHPVSIAAGLA
+  VLKELET.GEPYRIANEAAERLAKGVEDVAGRLG..........FDVVVKRMASMFQFYF
+  KKGDVK.......................TPQDVRESN.EKMYLKLHEIALKHGVYLTPS
+  QYEV................NFTSAAHG....REVVEETLAALEKSFQELQREIG.....
+  ...............
+}
+{
+name GSA_HALN1
+descrip Probable glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.
+creator Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A
+type    PROTEIN
+group 1
+feature 70 647 0 square solid PFAM-A
+  FT   PFAM-A       23    445  PF00202 aminotran_3
+feature 427 427 12 square solid SITE
+  FT   SITE        264    264  BINDING_Pyridoxal phosphate By similarity
+sequence
+  ...............................................MNRETSRELYDRS
+  LDVLVGGVNSTVRAAPQ...PYPTFVQSGDGGHVIDADGNRYIDWVMGLGPLLL..GHDL
+  PQPVTAAIQRRASD.................GPLFGTPTEIEVEHAEFVARHVP......
+  ...SVELLRFVNSGTEATVSAVRLARGYTG..........................RNKI
+  VVMQGGYHGA..QESTLVEGDADHRG..........PSSAGIPPAFAQHTIPVPF.....
+  ..........NDADAVTEVFETHG.......DDIAAVLVEPI.LANKGIVEPVAGYHETL
+  RDLTHDHGALLIWDEVITGFRVGGLG.........CAQSEFDITP............DVT
+  TFG...KIIGG.GFPVGAIGGR...TDVMEEFTPTGD....VFQAGTFSGHPVTMAAGLE
+  TLQYAAE.NDVYEHVNRLGGRLREGLAAVVAEHA..........PAYTVVGRDSMFKVVF
+  TRDGDAQSGACTDGCRQDPDCERHAACPKTGADVGDAAVQRWNRVFRPQLLDAGVLLSQN
+  QFES................QFVSYGHT....EADVDETIEAYRSAL.............
+  ...............
+}
+{
+name 1ohv_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 51 63 3 square solid STRUCT
+  FT   STRUCT       15     27  HELIX
+feature 86 88 3 square solid STRUCT
+  FT   STRUCT       39     41  HELIX
+feature 93 95 0 square solid STRUCT
+  FT   STRUCT       46     48  STRAND
+feature 101 104 0 square solid STRUCT
+  FT   STRUCT       54     57  STRAND
+feature 107 110 3 square solid STRUCT
+  FT   STRUCT       60     63  HELIX
+feature 121 129 3 square solid STRUCT
+  FT   STRUCT       72     79  HELIX
+feature 131 138 3 square solid STRUCT
+  FT   STRUCT       81     88  HELIX
+feature 161 167 3 square solid STRUCT
+  FT   STRUCT      101    107  HELIX
+feature 169 172 3 square solid STRUCT
+  FT   STRUCT      109    112  HELIX
+feature 187 191 0 square solid STRUCT
+  FT   STRUCT      119    123  STRAND
+feature 194 214 3 square solid STRUCT
+  FT   STRUCT      126    146  HELIX
+feature 221 228 3 square solid STRUCT
+  FT   STRUCT      153    160  HELIX
+feature 239 243 0 square solid STRUCT
+  FT   STRUCT      171    175  STRAND
+feature 252 257 3 square solid STRUCT
+  FT   STRUCT      184    189  HELIX
+feature 262 265 3 square solid STRUCT
+  FT   STRUCT      194    197  HELIX
+feature 292 293 0 square solid STRUCT
+  FT   STRUCT      207    208  STRAND
+feature 302 304 3 square solid STRUCT
+  FT   STRUCT      217    219  HELIX
+feature 306 329 3 square solid STRUCT
+  FT   STRUCT      221    244  HELIX
+feature 334 339 0 square solid STRUCT
+  FT   STRUCT      249    254  STRAND
+feature 354 366 3 square solid STRUCT
+  FT   STRUCT      268    280  HELIX
+feature 370 374 0 square solid STRUCT
+  FT   STRUCT      284    288  STRAND
+feature 397 401 3 square solid STRUCT
+  FT   STRUCT      302    306  HELIX
+feature 419 422 0 square solid STRUCT
+  FT   STRUCT      314    317  STRAND
+feature 427 429 3 square solid STRUCT
+  FT   STRUCT      319    321  HELIX
+feature 436 440 0 square solid STRUCT
+  FT   STRUCT      324    328  STRAND
+feature 446 448 3 square solid STRUCT
+  FT   STRUCT      330    332  HELIX
+feature 472 487 3 square solid STRUCT
+  FT   STRUCT      348    363  HELIX
+feature 491 512 3 square solid STRUCT
+  FT   STRUCT      366    387  HELIX
+feature 528 533 0 square solid STRUCT
+  FT   STRUCT      393    398  STRAND
+feature 536 540 0 square solid STRUCT
+  FT   STRUCT      401    405  STRAND
+feature 580 592 3 square solid STRUCT
+  FT   STRUCT      409    421  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      424    425  STRAND
+feature 598 600 0 square solid STRUCT
+  FT   STRUCT      427    429  STRAND
+feature 621 624 0 square solid STRUCT
+  FT   STRUCT      433    436  STRAND
+feature 633 648 3 square solid STRUCT
+  FT   STRUCT      444    459  HELIX
+sequence
+  ....................................FDYDGPLMKTEVPGPRSRELMKQL
+  NIIQNAEA...........VHFFCNYEESRGNYLVDVDGNRMLDLYSQISSIPI..GYSH
+  PA.LVKLVQQPQNVSTFINRPA.........LGILP.PENFVEKLRESLLSVAP......
+  ..KGMSQLITMACGSCSNENAFKTIFMWYRSKERGQSAFSKEELETCMINQAPGCPDYSI
+  LSFMGAFHGRTMGCLATTHSKAIHKID.................IPSFDWPIAPFPRLKY
+  PLEEFVKENQQEEARCLEEVEDLIVKYRKKKKTVAGIIVEPI.QSEGGDNHASDDFFRKL
+  RDISRKHGCAFLVDEVQTGGGSTGK.........FWAHEHWGLDDPA..........DVM
+  TFS...KKMM....TGGFFHK....EEFRPNAP........YRIFNTWLGDPSKNLLLAE
+  VINIIKR.EDLLSNAAHAGKVLLTGLLDLQARYP..........QFISRVRGRGTFCSFD
+  TPD....................................ESIRNKLISIARNKGVMLGGC
+  GDK.................SIRFRPTLV.FRDHHAHLFLNIFSDILADF..........
+  ...............
+}
+{
+name 1b5o_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 42 45 3 square solid STRUCT
+  FT   STRUCT        6      9  HELIX
+feature 51 64 3 square solid STRUCT
+  FT   STRUCT       15     28  HELIX
+feature 103 104 0 square solid STRUCT
+  FT   STRUCT       34     35  STRAND
+feature 122 134 3 square solid STRUCT
+  FT   STRUCT       47     58  HELIX
+feature 159 173 3 square solid STRUCT
+  FT   STRUCT       71     85  HELIX
+feature 185 188 3 square solid STRUCT
+  FT   STRUCT       91     94  HELIX
+feature 188 191 0 square solid STRUCT
+  FT   STRUCT       94     97  STRAND
+feature 193 205 3 square solid STRUCT
+  FT   STRUCT       99    111  HELIX
+feature 239 244 0 square solid STRUCT
+  FT   STRUCT      117    122  STRAND
+feature 254 261 3 square solid STRUCT
+  FT   STRUCT      127    134  HELIX
+feature 289 294 0 square solid STRUCT
+  FT   STRUCT      138    143  STRAND
+feature 297 299 3 square solid STRUCT
+  FT   STRUCT      146    148  HELIX
+feature 313 317 3 square solid STRUCT
+  FT   STRUCT      154    158  HELIX
+feature 334 340 0 square solid STRUCT
+  FT   STRUCT      165    171  STRAND
+feature 354 366 3 square solid STRUCT
+  FT   STRUCT      183    195  HELIX
+feature 370 374 0 square solid STRUCT
+  FT   STRUCT      199    203  STRAND
+feature 400 402 3 square solid STRUCT
+  FT   STRUCT      218    220  HELIX
+feature 419 424 0 square solid STRUCT
+  FT   STRUCT      226    231  STRAND
+feature 432 434 3 square solid STRUCT
+  FT   STRUCT      239    241  HELIX
+feature 437 440 0 square solid STRUCT
+  FT   STRUCT      244    247  STRAND
+feature 446 457 3 square solid STRUCT
+  FT   STRUCT      250    261  HELIX
+feature 472 483 3 square solid STRUCT
+  FT   STRUCT      269    280  HELIX
+feature 485 513 3 square solid STRUCT
+  FT   STRUCT      282    310  HELIX
+feature 537 541 0 square solid STRUCT
+  FT   STRUCT      322    326  STRAND
+feature 583 592 3 square solid STRUCT
+  FT   STRUCT      334    343  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      346    347  STRAND
+feature 598 599 0 square solid STRUCT
+  FT   STRUCT      349    350  STRAND
+feature 601 603 3 square solid STRUCT
+  FT   STRUCT      352    354  HELIX
+feature 621 625 0 square solid STRUCT
+  FT   STRUCT      359    363  STRAND
+feature 633 646 3 square solid STRUCT
+  FT   STRUCT      368    381  HELIX
+sequence
+  ....................................MRGLSRRVQAMKPSATVAVNAKAL
+  ELRRQ.................................GVDLVALTAGEPD......FDT
+  PE.HVKEAARRALAQGKT...........KYAPPAG.IPELREALAEKFRRENG......
+  LSVTPEETIVTVGGSQALFNLFQAILDP............................GDEV
+  IVLSPYW.....VSYPEMVRFAG........................GVVVEVETLPEEG
+  ........FVPDPERVRRAITP..........RTKALVVNSP.NNPTG.AVYPKEVLEAL
+  ARLAVEHDFYLVSDEIYEHLLYEG...........EHFSPGRVAP...........EHTL
+  TVNGAAKAFAMTGWRIGYACGP...KEVIKAMASVSSQ.......STTSPDTIAQWATLE
+  ALTNQEASRAFVEMAREAYRRRRDLLLEGLTALG............LKAVRPSGAFYVLM
+  DTSPIAP..................................DEVRAAERLLEAGVAVVPG
+  TDFA.............AFGHVRLSYAT...SEENLRKALERFARVL.............
+  ...............
+}
+{
+name 1b8g_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 56 63 3 square solid STRUCT
+  FT   STRUCT       12     19  HELIX
+feature 103 104 0 square solid STRUCT
+  FT   STRUCT       32     33  STRAND
+feature 120 130 3 square solid STRUCT
+  FT   STRUCT       43     52  HELIX
+feature 134 136 3 square solid STRUCT
+  FT   STRUCT       56     58  HELIX
+feature 138 139 0 square solid STRUCT
+  FT   STRUCT       60     61  STRAND
+feature 142 143 0 square solid STRUCT
+  FT   STRUCT       64     65  STRAND
+feature 145 150 3 square solid STRUCT
+  FT   STRUCT       67     72  HELIX
+feature 159 172 3 square solid STRUCT
+  FT   STRUCT       80     93  HELIX
+feature 185 188 3 square solid STRUCT
+  FT   STRUCT      102    105  HELIX
+feature 188 193 0 square solid STRUCT
+  FT   STRUCT      105    110  STRAND
+feature 193 205 3 square solid STRUCT
+  FT   STRUCT      110    122  HELIX
+feature 238 243 0 square solid STRUCT
+  FT   STRUCT      127    132  STRAND
+feature 254 257 3 square solid STRUCT
+  FT   STRUCT      139    142  HELIX
+feature 289 293 0 square solid STRUCT
+  FT   STRUCT      150    154  STRAND
+feature 297 299 3 square solid STRUCT
+  FT   STRUCT      158    160  HELIX
+feature 313 325 3 square solid STRUCT
+  FT   STRUCT      166    178  HELIX
+feature 333 340 0 square solid STRUCT
+  FT   STRUCT      182    189  STRAND
+feature 354 367 3 square solid STRUCT
+  FT   STRUCT      201    214  HELIX
+feature 370 374 0 square solid STRUCT
+  FT   STRUCT      217    221  STRAND
+feature 378 380 3 square solid STRUCT
+  FT   STRUCT      225    227  HELIX
+feature 400 406 3 square solid STRUCT
+  FT   STRUCT      237    243  HELIX
+feature 415 417 3 square solid STRUCT
+  FT   STRUCT      252    254  HELIX
+feature 419 424 0 square solid STRUCT
+  FT   STRUCT      256    261  STRAND
+feature 432 434 3 square solid STRUCT
+  FT   STRUCT      269    271  HELIX
+feature 436 441 0 square solid STRUCT
+  FT   STRUCT      273    278  STRAND
+feature 446 468 3 square solid STRUCT
+  FT   STRUCT      281    294  HELIX
+feature 472 482 3 square solid STRUCT
+  FT   STRUCT      298    308  HELIX
+feature 485 511 3 square solid STRUCT
+  FT   STRUCT      311    337  HELIX
+feature 527 528 0 square solid STRUCT
+  FT   STRUCT      342    343  STRAND
+feature 536 540 0 square solid STRUCT
+  FT   STRUCT      351    355  STRAND
+feature 542 544 3 square solid STRUCT
+  FT   STRUCT      357    359  HELIX
+feature 579 591 3 square solid STRUCT
+  FT   STRUCT      365    377  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      381    382  STRAND
+feature 598 600 0 square solid STRUCT
+  FT   STRUCT      384    386  STRAND
+feature 600 603 3 square solid STRUCT
+  FT   STRUCT      386    389  HELIX
+feature 621 625 0 square solid STRUCT
+  FT   STRUCT      396    400  STRAND
+feature 633 646 3 square solid STRUCT
+  FT   STRUCT      406    419  HELIX
+sequence
+  ............................................MLSRNATSSYFLGWQE
+  YEKN..........................PYHEVH.NTNGIIQMGLAENQ......LCF
+  DL.LESWLAKNPEAAAFKKNGESIFAELALFQDYHG.LPAFKKAMVDFMAEIRGN....K
+  VTFDPNHLVLTAGATSANETFIFCLADP............................GEAV
+  LIPTPYYP....GFDRDLKWRTG........................VEIVPIHCTSSNG
+  ........FQITETALEEAYQEAEKR....NLRVKGVLVTNP.SNPLG.TTMTRNELYLL
+  LSFVEDKGIHLISDEIYSGTAFSSP..........SFISVMEVLKDRNCDENSEVWQRVH
+  VVYSLSKDLGLPGFRVGAIYSND..DMVVAAATKMSSF.........GLVSSQTQHLLSA
+  MLSDKKLTKNYIAENHKRLKQRQKKLVSGLQKSG...........ISCLNGNAGLFCWVD
+  MRHLLRSN.............................TFEAEMELWKKIVYEVHLNISPG
+  SSCH...........CTEPGWFRVCFANL..PERTLDLAMQRLKAFVG............
+  ...............
+}
+{
+name 1fg3_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 53 56 3 square solid STRUCT
+  FT   STRUCT        4      7  HELIX
+feature 59 63 3 square solid STRUCT
+  FT   STRUCT       10     14  HELIX
+feature 103 104 0 square solid STRUCT
+  FT   STRUCT       30     31  STRAND
+feature 163 173 3 square solid STRUCT
+  FT   STRUCT       59     69  HELIX
+feature 185 188 3 square solid STRUCT
+  FT   STRUCT       73     76  HELIX
+feature 188 191 0 square solid STRUCT
+  FT   STRUCT       76     79  STRAND
+feature 193 205 3 square solid STRUCT
+  FT   STRUCT       81     93  HELIX
+feature 240 243 0 square solid STRUCT
+  FT   STRUCT      100    103  STRAND
+feature 254 262 3 square solid STRUCT
+  FT   STRUCT      110    118  HELIX
+feature 289 292 0 square solid STRUCT
+  FT   STRUCT      121    124  STRAND
+feature 313 317 3 square solid STRUCT
+  FT   STRUCT      135    139  HELIX
+feature 334 340 0 square solid STRUCT
+  FT   STRUCT      145    151  STRAND
+feature 354 364 3 square solid STRUCT
+  FT   STRUCT      163    173  HELIX
+feature 370 374 0 square solid STRUCT
+  FT   STRUCT      178    182  STRAND
+feature 378 380 3 square solid STRUCT
+  FT   STRUCT      186    188  HELIX
+feature 382 384 3 square solid STRUCT
+  FT   STRUCT      190    192  HELIX
+feature 398 400 3 square solid STRUCT
+  FT   STRUCT      195    197  HELIX
+feature 419 424 0 square solid STRUCT
+  FT   STRUCT      204    209  STRAND
+feature 432 434 3 square solid STRUCT
+  FT   STRUCT      217    219  HELIX
+feature 437 441 0 square solid STRUCT
+  FT   STRUCT      222    226  STRAND
+feature 446 453 3 square solid STRUCT
+  FT   STRUCT      228    235  HELIX
+feature 472 481 3 square solid STRUCT
+  FT   STRUCT      245    254  HELIX
+feature 484 512 3 square solid STRUCT
+  FT   STRUCT      257    283  HELIX
+feature 527 530 0 square solid STRUCT
+  FT   STRUCT      287    290  STRAND
+feature 537 542 0 square solid STRUCT
+  FT   STRUCT      297    302  STRAND
+feature 583 592 3 square solid STRUCT
+  FT   STRUCT      305    314  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      317    318  STRAND
+feature 598 599 0 square solid STRUCT
+  FT   STRUCT      320    321  STRAND
+feature 621 625 0 square solid STRUCT
+  FT   STRUCT      331    335  STRAND
+feature 633 644 3 square solid STRUCT
+  FT   STRUCT      339    350  HELIX
+sequence
+  .................................................TVTITDLAREN
+  VRNLTPYQSARR.......................L.GGNGDVWLNANEYP.........
+  TA.VEFQLTQQTL...................NRY..PECQPKAVIENYAQYAG......
+  ..VKPEQVLVSRGADEGIELLIRAFCEP............................GKDA
+  ILYCPPTY....GXYSVSAETIG........................VECRTVPTLDN..
+  ........WQLDLQGISDKLDG...........VKVVYVCSP.NNPTG.QLINPQDFRTL
+  LELTRG.KAIVVADEAYIEFCPQAS...........LAGWLAEYP............HLA
+  ILRTLSKAFALAGLRCGFTLAN...EEVINLLXKVI.........APYPLSTPVADIAAQ
+  ALSPQG..IVAXRERVAQIIAEREYLIAALKEIP...........CVEQVFDSETNYILA
+  RFKA......................................SSAVFKSLWDQGIILRDQ
+  NK............QPSLSGCLRITVG....TREESQRVIDALRAEQV............
+  ...............
+}
+{
+name 1lc5_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 58 64 3 square solid STRUCT
+  FT   STRUCT       11     17  HELIX
+feature 99 101 3 square solid STRUCT
+  FT   STRUCT       21     23  HELIX
+feature 103 104 0 square solid STRUCT
+  FT   STRUCT       25     26  STRAND
+feature 121 130 3 square solid STRUCT
+  FT   STRUCT       38     46  HELIX
+feature 132 153 3 square solid STRUCT
+  FT   STRUCT       48     52  HELIX
+feature 163 173 3 square solid STRUCT
+  FT   STRUCT       60     70  HELIX
+feature 186 189 3 square solid STRUCT
+  FT   STRUCT       74     77  HELIX
+feature 189 192 0 square solid STRUCT
+  FT   STRUCT       77     80  STRAND
+feature 195 206 3 square solid STRUCT
+  FT   STRUCT       83     94  HELIX
+feature 239 244 0 square solid STRUCT
+  FT   STRUCT       98    103  STRAND
+feature 254 261 3 square solid STRUCT
+  FT   STRUCT      108    115  HELIX
+feature 289 294 0 square solid STRUCT
+  FT   STRUCT      119    124  STRAND
+feature 297 299 3 square solid STRUCT
+  FT   STRUCT      127    129  HELIX
+feature 316 319 3 square solid STRUCT
+  FT   STRUCT      137    140  HELIX
+feature 336 340 0 square solid STRUCT
+  FT   STRUCT      147    151  STRAND
+feature 354 367 3 square solid STRUCT
+  FT   STRUCT      163    176  HELIX
+feature 370 374 0 square solid STRUCT
+  FT   STRUCT      179    183  STRAND
+feature 378 380 3 square solid STRUCT
+  FT   STRUCT      187    189  HELIX
+feature 398 400 3 square solid STRUCT
+  FT   STRUCT      197    199  HELIX
+feature 419 424 0 square solid STRUCT
+  FT   STRUCT      206    211  STRAND
+feature 437 440 0 square solid STRUCT
+  FT   STRUCT      224    227  STRAND
+feature 446 455 3 square solid STRUCT
+  FT   STRUCT      231    240  HELIX
+feature 472 483 3 square solid STRUCT
+  FT   STRUCT      248    259  HELIX
+feature 489 511 3 square solid STRUCT
+  FT   STRUCT      261    283  HELIX
+feature 528 530 0 square solid STRUCT
+  FT   STRUCT      288    290  STRAND
+feature 537 542 0 square solid STRUCT
+  FT   STRUCT      297    302  STRAND
+feature 586 591 3 square solid STRUCT
+  FT   STRUCT      309    314  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      318    319  STRAND
+feature 598 599 0 square solid STRUCT
+  FT   STRUCT      321    322  STRAND
+feature 621 625 0 square solid STRUCT
+  FT   STRUCT      333    337  STRAND
+feature 633 646 3 square solid STRUCT
+  FT   STRUCT      341    354  HELIX
+sequence
+  ...............................................LFNTAHGGNIREP
+  ATVLG..............................I.SPDQLLDFSANINP.....LGMP
+  VS.VKRALIDNLDC.................IERY..PDADYFHLHQALARHHQ......
+  ...VPASWILAGNGETESIFTVASGLKP.............................RRA
+  MIVTPGF.....AEYGRALAQSG........................CEIRRWSLREADG
+  ........WQL.TDAILEALTP..........DLDCLFLCTP.NNPTG.LLPERPLLQAI
+  ADRCKSLNINLILDEAFIDFIPHET..........GFIPALKDNP............HIW
+  VLRSLTKFYAIPGLRLGYLVNSD..DAAMARMRRQQ.........MPWSVNALAALAGEV
+  ALQD....SAWQQATWHWLREEGARFYQALCQLP............LLTVYPGRANYLLL
+  RCERE.....................................DIDLQRRLLTQRILIRSC
+  ANYPG...........LDSRYYRVAIR....SAAQNERLLAALRNVL.............
+  ...............
+}
+{
+name 1jg8_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 103 104 0 square solid STRUCT
+  FT   STRUCT        2      3  STRAND
+feature 108 110 3 square solid STRUCT
+  FT   STRUCT        7      9  HELIX
+feature 121 129 3 square solid STRUCT
+  FT   STRUCT       14     21  HELIX
+feature 153 155 3 square solid STRUCT
+  FT   STRUCT       28     30  HELIX
+feature 160 173 3 square solid STRUCT
+  FT   STRUCT       34     47  HELIX
+feature 187 191 0 square solid STRUCT
+  FT   STRUCT       51     55  STRAND
+feature 194 205 3 square solid STRUCT
+  FT   STRUCT       58     69  HELIX
+feature 239 243 0 square solid STRUCT
+  FT   STRUCT       75     79  STRAND
+feature 247 250 3 square solid STRUCT
+  FT   STRUCT       83     86  HELIX
+feature 257 261 3 square solid STRUCT
+  FT   STRUCT       91     95  HELIX
+feature 289 293 0 square solid STRUCT
+  FT   STRUCT       99    103  STRAND
+feature 295 296 0 square solid STRUCT
+  FT   STRUCT      105    106  STRAND
+feature 310 311 0 square solid STRUCT
+  FT   STRUCT      109    110  STRAND
+feature 313 319 3 square solid STRUCT
+  FT   STRUCT      112    118  HELIX
+feature 334 340 0 square solid STRUCT
+  FT   STRUCT      129    135  STRAND
+feature 354 367 3 square solid STRUCT
+  FT   STRUCT      148    161  HELIX
+feature 370 375 0 square solid STRUCT
+  FT   STRUCT      164    169  STRAND
+feature 378 385 3 square solid STRUCT
+  FT   STRUCT      172    179  HELIX
+feature 397 402 3 square solid STRUCT
+  FT   STRUCT      183    188  HELIX
+feature 419 423 0 square solid STRUCT
+  FT   STRUCT      192    196  STRAND
+feature 438 442 0 square solid STRUCT
+  FT   STRUCT      207    211  STRAND
+feature 446 459 3 square solid STRUCT
+  FT   STRUCT      213    226  HELIX
+feature 472 484 3 square solid STRUCT
+  FT   STRUCT      234    246  HELIX
+feature 492 509 3 square solid STRUCT
+  FT   STRUCT      251    268  HELIX
+feature 529 531 3 square solid STRUCT
+  FT   STRUCT      274    276  HELIX
+feature 536 540 0 square solid STRUCT
+  FT   STRUCT      281    285  STRAND
+feature 583 593 3 square solid STRUCT
+  FT   STRUCT      293    303  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      305    306  STRAND
+feature 598 601 0 square solid STRUCT
+  FT   STRUCT      308    311  STRAND
+feature 621 625 0 square solid STRUCT
+  FT   STRUCT      314    318  STRAND
+feature 633 650 3 square solid STRUCT
+  FT   STRUCT      325    342  HELIX
+sequence
+  ............................................................
+  .........................................MIDLRSDTVT......KPT
+  EE.MRKAMAQAEVG.................DDVYG.EDPTINELERLAAETFG......
+  ....KEAALFVPSGTMGNQVSIMAHTQR............................GDEV
+  ILEADSHIFW..YEVGAMAVLSG........................VMPHPVPGKNG..
+  .........AMDPDDVRKAIRPR....NIHFPRTSLIAIENTHNRSGG.RVVPLENIKEI
+  CTIAKEHGINVHIDGARIFNASIASG........VPVKEYAGYA.............DSV
+  MFC...LSXGL.CAPVGSVVVGD..RDFIERARKARKMLG.....GGMRQAGVLAAAGII
+  ALTKM...VDRLKEDHENARFLALKLKEIGYSVN..............PEDVKTNMVILR
+  TDNLKVN...................................AHGFIEALRNSGVLANAV
+  SD.................TEIRLVTHKD.VSRNDIEEALNIFEKLFRKFS.........
+  ...............
+}
+{
+name 1ax4_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 42 49 0 square solid STRUCT
+  FT   STRUCT        8     15  STRAND
+feature 55 64 3 square solid STRUCT
+  FT   STRUCT       21     30  HELIX
+feature 69 71 3 square solid STRUCT
+  FT   STRUCT       35     37  HELIX
+feature 98 100 3 square solid STRUCT
+  FT   STRUCT       40     42  HELIX
+feature 103 104 0 square solid STRUCT
+  FT   STRUCT       45     46  STRAND
+feature 121 124 0 square solid STRUCT
+  FT   STRUCT       56     58  STRAND
+feature 124 131 3 square solid STRUCT
+  FT   STRUCT       58     65  HELIX
+feature 160 173 3 square solid STRUCT
+  FT   STRUCT       75     88  HELIX
+feature 187 191 0 square solid STRUCT
+  FT   STRUCT       92     96  STRAND
+feature 194 211 3 square solid STRUCT
+  FT   STRUCT       99    116  HELIX
+feature 240 243 0 square solid STRUCT
+  FT   STRUCT      124    127  STRAND
+feature 248 261 3 square solid STRUCT
+  FT   STRUCT      132    140  HELIX
+feature 289 292 0 square solid STRUCT
+  FT   STRUCT      144    147  STRAND
+feature 296 299 3 square solid STRUCT
+  FT   STRUCT      151    154  HELIX
+feature 313 323 3 square solid STRUCT
+  FT   STRUCT      168    178  HELIX
+feature 331 334 3 square solid STRUCT
+  FT   STRUCT      180    183  HELIX
+feature 334 340 0 square solid STRUCT
+  FT   STRUCT      183    189  STRAND
+feature 354 367 3 square solid STRUCT
+  FT   STRUCT      202    215  HELIX
+feature 371 374 0 square solid STRUCT
+  FT   STRUCT      219    222  STRAND
+feature 378 388 3 square solid STRUCT
+  FT   STRUCT      226    236  HELIX
+feature 390 392 3 square solid STRUCT
+  FT   STRUCT      238    240  HELIX
+feature 397 407 3 square solid STRUCT
+  FT   STRUCT      245    255  HELIX
+feature 419 423 0 square solid STRUCT
+  FT   STRUCT      258    262  STRAND
+feature 438 442 0 square solid STRUCT
+  FT   STRUCT      273    277  STRAND
+feature 446 459 3 square solid STRUCT
+  FT   STRUCT      281    294  HELIX
+feature 472 484 3 square solid STRUCT
+  FT   STRUCT      305    317  HELIX
+feature 489 508 3 square solid STRUCT
+  FT   STRUCT      321    340  HELIX
+feature 537 541 0 square solid STRUCT
+  FT   STRUCT      353    357  STRAND
+feature 577 579 3 square solid STRUCT
+  FT   STRUCT      367    369  HELIX
+feature 581 593 3 square solid STRUCT
+  FT   STRUCT      371    383  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      385    386  STRAND
+feature 598 600 0 square solid STRUCT
+  FT   STRUCT      388    390  STRAND
+feature 602 605 3 square solid STRUCT
+  FT   STRUCT      392    395  HELIX
+feature 621 625 0 square solid STRUCT
+  FT   STRUCT      411    415  STRAND
+feature 633 644 3 square solid STRUCT
+  FT   STRUCT      423    434  HELIX
+feature 647 650 3 square solid STRUCT
+  FT   STRUCT      437    440  HELIX
+feature 656 660 0 square solid STRUCT
+  FT   STRUCT      446    450  STRAND
+feature 666 669 3 square solid STRUCT
+  FT   STRUCT      456    459  HELIX
+feature 671 674 0 square solid STRUCT
+  FT   STRUCT      461    464  STRAND
+sequence
+  ..................................AKRIVEPFRIKMVEKIRVPSREEREA
+  ALKEAGYNPFLL........................PSSAVYIDLLTDS.......GTNA
+  MS.DHQWAAMITGD..................EAYA.GSRNYYDLKDKAKELFN......
+  ....YDYIIPAHQGRGAENILFPVLLKYKQKE.....................GKAKNPV
+  FISNFHFD.....TTAAHVELNG........................CKAINIVTEKAFD
+  SETYDDWKGDFDIKKLKENIAQHG......ADNIVAIVSTVTCNSAGG.QPVSMSNLKEV
+  YEIAKQHGIFVVMDSARFCENAYFIKARDPKYKNATIKEVIFDMYKY.........ADAL
+  TMSA..KXDPL..LNIGGLVAIRDNEEIFTLARQRCVPME..GFVTYGGLAGRDMAAMVQ
+  GLEEGTE.EEYLHYRIGQVKYLGDRLREAGIP................IQYPTGGHAVFV
+  DCKKLVPQIP..........................GDQFPAQAVINALYLESGVRAVEI
+  GSFLLGRDPATGEQKHADMEFMRLTIARRVYTNDHMDYIADALIGLKEKFATLKGLEFEY
+  EPPVLRHFTARLKPI
+}
+{
+name 1ajs_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 55 64 3 square solid STRUCT
+  FT   STRUCT       16     25  HELIX
+feature 103 104 0 square solid STRUCT
+  FT   STRUCT       33     34  STRAND
+feature 121 132 3 square solid STRUCT
+  FT   STRUCT       51     61  HELIX
+feature 163 174 3 square solid STRUCT
+  FT   STRUCT       77     88  HELIX
+feature 179 182 3 square solid STRUCT
+  FT   STRUCT       93     96  HELIX
+feature 186 193 0 square solid STRUCT
+  FT   STRUCT      100    107  STRAND
+feature 193 208 3 square solid STRUCT
+  FT   STRUCT      107    122  HELIX
+feature 240 244 0 square solid STRUCT
+  FT   STRUCT      133    137  STRAND
+feature 254 261 3 square solid STRUCT
+  FT   STRUCT      142    149  HELIX
+feature 288 292 0 square solid STRUCT
+  FT   STRUCT      155    159  STRAND
+feature 294 295 0 square solid STRUCT
+  FT   STRUCT      161    162  STRAND
+feature 310 311 0 square solid STRUCT
+  FT   STRUCT      167    168  STRAND
+feature 313 322 3 square solid STRUCT
+  FT   STRUCT      170    179  HELIX
+feature 336 340 0 square solid STRUCT
+  FT   STRUCT      185    189  STRAND
+feature 354 367 3 square solid STRUCT
+  FT   STRUCT      202    215  HELIX
+feature 370 375 0 square solid STRUCT
+  FT   STRUCT      218    223  STRAND
+feature 385 393 3 square solid STRUCT
+  FT   STRUCT      233    236  HELIX
+feature 395 402 3 square solid STRUCT
+  FT   STRUCT      238    245  HELIX
+feature 419 424 0 square solid STRUCT
+  FT   STRUCT      250    255  STRAND
+feature 432 434 3 square solid STRUCT
+  FT   STRUCT      263    265  HELIX
+feature 436 442 0 square solid STRUCT
+  FT   STRUCT      267    273  STRAND
+feature 446 461 3 square solid STRUCT
+  FT   STRUCT      277    292  HELIX
+feature 473 483 3 square solid STRUCT
+  FT   STRUCT      301    311  HELIX
+feature 489 519 3 square solid STRUCT
+  FT   STRUCT      313    343  HELIX
+feature 527 531 3 square solid STRUCT
+  FT   STRUCT      351    355  HELIX
+feature 536 538 0 square solid STRUCT
+  FT   STRUCT      360    362  STRAND
+feature 583 591 3 square solid STRUCT
+  FT   STRUCT      367    375  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      379    380  STRAND
+feature 623 626 0 square solid STRUCT
+  FT   STRUCT      386    389  STRAND
+feature 626 628 3 square solid STRUCT
+  FT   STRUCT      389    391  HELIX
+feature 636 649 3 square solid STRUCT
+  FT   STRUCT      397    410  HELIX
+sequence
+  .......................................APPSVFAEVPQAQPVLVFKLI
+  ADFRE...............................DPDPRKVNLGVGAYRTDDCQPWVL
+  PV.VRKVEQRIANNSS..............LNHEYL.PILGLAEFRTCASRLALGDDSPA
+  LQEKRVGGVQSLGGTGALRIGAEFLARWYNGT.....................NNKDTPV
+  YVSSPTWE.....NHNGVFTTAG.....................FKDIRSYRYWDTEK..
+  ........RGLDLQGFLSDLENAP........EFSIFVLHACAHNPTG.TDPTPEQWKQI
+  ASVMKRRFLFPFFDSAYQGFASGNL.....EKDAWAIRYFVSEG............FELF
+  CAQSFSKNFGLYNERVGNLTVVAKEPDSILRVLSQMQKIVRVT...WSNPPAQGARIVAR
+  TLSD....PELFHEWTGNVKTMADRILSMRSELRARLEALKTPGTWNHITDQIGMFSFTG
+  LN........................................PKQVEYLINQKHIYLLPS
+  .....................GRINMCGL..TTKNLDYVATSIHEAVTKIQ.........
+  ...............
+}
+{
+name 1d2f_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 103 104 0 square solid STRUCT
+  FT   STRUCT        2      3  STRAND
+feature 121 132 3 square solid STRUCT
+  FT   STRUCT       15     25  HELIX
+feature 163 176 3 square solid STRUCT
+  FT   STRUCT       38     51  HELIX
+feature 185 188 3 square solid STRUCT
+  FT   STRUCT       58     61  HELIX
+feature 188 191 0 square solid STRUCT
+  FT   STRUCT       61     64  STRAND
+feature 194 204 3 square solid STRUCT
+  FT   STRUCT       67     77  HELIX
+feature 239 244 0 square solid STRUCT
+  FT   STRUCT       84     89  STRAND
+feature 255 263 3 square solid STRUCT
+  FT   STRUCT       93    101  HELIX
+feature 289 294 0 square solid STRUCT
+  FT   STRUCT      105    110  STRAND
+feature 296 297 0 square solid STRUCT
+  FT   STRUCT      112    113  STRAND
+feature 309 310 0 square solid STRUCT
+  FT   STRUCT      118    119  STRAND
+feature 313 320 3 square solid STRUCT
+  FT   STRUCT      122    129  HELIX
+feature 334 340 0 square solid STRUCT
+  FT   STRUCT      134    140  STRAND
+feature 356 366 3 square solid STRUCT
+  FT   STRUCT      154    164  HELIX
+feature 370 374 0 square solid STRUCT
+  FT   STRUCT      168    172  STRAND
+feature 399 401 3 square solid STRUCT
+  FT   STRUCT      188    190  HELIX
+feature 419 423 0 square solid STRUCT
+  FT   STRUCT      196    200  STRAND
+feature 426 429 3 square solid STRUCT
+  FT   STRUCT      203    206  HELIX
+feature 433 435 3 square solid STRUCT
+  FT   STRUCT      209    211  HELIX
+feature 438 442 0 square solid STRUCT
+  FT   STRUCT      214    218  STRAND
+feature 446 457 3 square solid STRUCT
+  FT   STRUCT      221    232  HELIX
+feature 472 484 3 square solid STRUCT
+  FT   STRUCT      242    254  HELIX
+feature 489 513 3 square solid STRUCT
+  FT   STRUCT      256    280  HELIX
+feature 537 541 0 square solid STRUCT
+  FT   STRUCT      294    298  STRAND
+feature 543 545 3 square solid STRUCT
+  FT   STRUCT      300    302  HELIX
+feature 582 591 3 square solid STRUCT
+  FT   STRUCT      306    315  HELIX
+feature 595 596 0 square solid STRUCT
+  FT   STRUCT      319    320  STRAND
+feature 598 600 0 square solid STRUCT
+  FT   STRUCT      322    324  STRAND
+feature 600 603 3 square solid STRUCT
+  FT   STRUCT      324    327  HELIX
+feature 616 618 3 square solid STRUCT
+  FT   STRUCT      329    331  HELIX
+feature 621 625 0 square solid STRUCT
+  FT   STRUCT      334    338  STRAND
+feature 633 650 3 square solid STRUCT
+  FT   STRUCT      343    360  HELIX
+sequence
+  ............................................................
+  .........................................LLPFTISDMD.....FATA
+  PC.IIEALNQRLMH................GVFGYS..RWKNDEFLAAIAHWFSTQH..Y
+  TAIDSQTVVYGPSVIYMVSELIRQWSETG............................EGV
+  VIHTPAY.......DAFYKAIEGN......................QRTVMPVALEKQAD
+  .......GWFCDMGKLEAVLAKP.........ECKIMLLCSP.QNPTG.KVWTCDELEIM
+  ADLCERHGVRVISDEIHMDMVWGEQ.........PHIPWSNVAR............GDWA
+  LLTSGSKSFNI.PALTGAYGIIEN.SSSRDAYLSALKG.....RDGLSSPSVLALTAHIA
+  AYQQG...APWLDALRIYLKDNLTYIADKMNAAF..........PELNWQIPQSTYLAWL
+  DLRPLN.................................IDDNALQKALIEQEKVAIMPG
+  YTYG...........EEGRGFVRLNAGC...PRSKLEKGVAGLINAIRAVR.........
+  ...............
+}

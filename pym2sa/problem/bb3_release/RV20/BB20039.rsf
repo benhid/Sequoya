@@ -1,0 +1,3252 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name  4enl_
+type    PROTEIN
+checksum    5527
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 18 25 0 square solid STRUCT 
+  FT   STRUCT        4     11  STRAND
+feature 64 72 0 square solid STRUCT 
+  FT   STRUCT       17     25  STRAND
+feature 75 86 0 square solid STRUCT 
+  FT   STRUCT       28     33  STRAND
+feature 113 115 3 square solid STRUCT 
+  FT   STRUCT       56     58  HELIX
+feature 119 128 3 square solid STRUCT 
+  FT   STRUCT       62     70  HELIX
+feature 130 137 3 square solid STRUCT 
+  FT   STRUCT       72     79  HELIX
+feature 144 156 3 square solid STRUCT 
+  FT   STRUCT       86     97  HELIX
+feature 171 189 3 square solid STRUCT 
+  FT   STRUCT      107    125  HELIX
+feature 193 201 3 square solid STRUCT 
+  FT   STRUCT      129    137  HELIX
+feature 209 211 0 square solid STRUCT 
+  FT   STRUCT      144    146  STRAND
+feature 213 214 0 square solid STRUCT 
+  FT   STRUCT      148    149  STRAND
+feature 216 220 0 square solid STRUCT 
+  FT   STRUCT      151    155  STRAND
+feature 222 224 3 square solid STRUCT 
+  FT   STRUCT      157    159  HELIX
+feature 234 238 0 square solid STRUCT 
+  FT   STRUCT      168    172  STRAND
+feature 249 271 3 square solid STRUCT 
+  FT   STRUCT      179    201  HELIX
+feature 273 276 3 square solid STRUCT 
+  FT   STRUCT      203    206  HELIX
+feature 295 308 3 square solid STRUCT 
+  FT   STRUCT      221    234  HELIX
+feature 328 332 0 square solid STRUCT 
+  FT   STRUCT      242    246  STRAND
+feature 335 339 3 square solid STRUCT 
+  FT   STRUCT      249    253  HELIX
+feature 339 340 0 square solid STRUCT 
+  FT   STRUCT      253    254  STRAND
+feature 346 347 0 square solid STRUCT 
+  FT   STRUCT      257    258  STRAND
+feature 369 371 3 square solid STRUCT 
+  FT   STRUCT      269    271  HELIX
+feature 375 388 3 square solid STRUCT 
+  FT   STRUCT      275    288  HELIX
+feature 395 399 0 square solid STRUCT 
+  FT   STRUCT      291    295  STRAND
+feature 411 421 3 square solid STRUCT 
+  FT   STRUCT      303    313  HELIX
+feature 429 432 0 square solid STRUCT 
+  FT   STRUCT      316    319  STRAND
+feature 440 448 3 square solid STRUCT 
+  FT   STRUCT      327    335  HELIX
+feature 454 457 0 square solid STRUCT 
+  FT   STRUCT      341    344  STRAND
+feature 459 462 3 square solid STRUCT 
+  FT   STRUCT      346    349  HELIX
+feature 465 477 3 square solid STRUCT 
+  FT   STRUCT      352    364  HELIX
+feature 481 485 0 square solid STRUCT 
+  FT   STRUCT      368    372  STRAND
+feature 499 507 3 square solid STRUCT 
+  FT   STRUCT      382    390  HELIX
+feature 512 514 0 square solid STRUCT 
+  FT   STRUCT      394    396  STRAND
+feature 521 542 3 square solid STRUCT 
+  FT   STRUCT      403    423  HELIX
+feature 542 544 0 square solid STRUCT 
+  FT   STRUCT      423    425  STRAND
+feature 546 548 3 square solid STRUCT 
+  FT   STRUCT      427    429  HELIX
+feature 552 554 3 square solid STRUCT 
+  FT   STRUCT      433    435  HELIX
+sequence  
+  ..............AVSKVYARSVYDSR................................
+  .GNPTVEVELTTEKG......VFRSIVPSGASTGVHEALEMRDG....DKSKWMGKGVLH
+  AVK.NVNDVIAPAFVKANIDVSDQKAVDDFLIS.LDGTAN.....KSKLGANAILGVSLA
+  ASRAAAAEKNVPLYKHLADLSK.SKTSPYVLPVPFLNVLNGGSHAGGA.LALQEFMIAPT
+  GAKT....FAEALRIGSEVYHNLKSLTKKRYGASAGNVGDEGGVAP....NIQTAEEALD
+  LIVDAIKAAGHDG............KVKIGLDCASSEFFKDG...KYDLDFKNPNS....
+  .......DKSKWLTGPQLADLYHSLMKRYP....IVSIEDPFAE....DDWEAWSHFFKT
+  AG.....IQIVADDLTVTNPKRIATAIEKKAADALLLKVNQIGTLSESIKAAQDSFAAGW
+  GVMVSHRSG....ETEDTFIADLVVGLRT.GQIKTGAPARSERLAKLNQLLRIEEELGDN
+  .AVFAGENFHHGDKL.......................
+}
+{
+name  ENO1_CANAL
+descrip    Enolase 1 (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-
+type    PROTEIN
+checksum    679
+creator    Candida albicans (Yeast).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 180 188 5 square solid DOMAIN 
+  FT   DOMAIN      118    126  Poly-Ala.
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      145    438  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    135  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        161    161  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        248    248  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        297    297  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        324    324  METAL_Magnesium By similarity
+sequence  
+  ............MSYATKIHARYVYDSR................................
+  .GNPTVEVDFTTDKG......LFRSIVPSGASTGVHEALELRDG....DKSKWLGKGVLK
+  AVA.NVNDIIAPALIKAKIDVVDQAKIDEFLLS.LDGTPN.....KSKLGANAILGVSLA
+  AANAAAAAQGIPLYKHIANISN.AKKGKFVLPVPFQNVLNGGSHAGGA.LAFQEFMIAPT
+  GVST....FSEALRIGSEVYHNLKSLTKKKYGQSAGNVGDEGGVAP....DIKTPKEALD
+  LIMDAIDKAGYKG............KVGIAMDVASSEFYKDG...KYDLDFKNPES....
+  .......DPSKWLSGPQLADLYEQLISEYP....IVSIEDPFAE....DDWDAWVHFFER
+  VG...DKIQIVGDDLTVTNPTRIKTAIEKKAANALLLKVNQIGTLTESIQAANDSYAAGW
+  GVMVSHRSG....ETEDTFIADLSVGLRS.GQIKTGAPARSERLAKLNQILRIEEELGSE
+  .AIYAGKDFQKASQL.......................
+}
+{
+name  ENO_ALTAL
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    8428
+creator    Alternaria alternata (Alternaria rot fungus).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      143    436  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        246    246  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        297    297  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        322    322  METAL_Magnesium By similarity
+sequence  
+  .............MTITKIHARSVYDSR................................
+  .GNPTVEVDIVTETG......LHRAIVPSGASTGSHEACELRDG....DKSKWGGKGVTK
+  AVA.NVNDTIAPALIKEKLDVKDQSAVDAFLNK.LDGTTN.....KTNLGANAILGVSMA
+  IAKAAAAEKGVPLYAHISDLAG..TKKPYVLPVPFQNVLNGGSHAGGR.LAFQEFMIVPC
+  EAPT....FSEAMRQGAEVYQKLKALAKKTYGQSAGNVGDEGGVAP....DIQTAEEALD
+  LITKAIEEAGYTG............KIKIAMDVASSEFYKADE.KKYDLDFKNPDS....
+  .......DKSKWLTYEQLAEMYKSLAEKYP....IVSIEDPFAE....DDWEAWSYFFKT
+  YD.....GQIVGDDLTVTNPEFIKKAIELKSCNALLLKVNQIGTITEAIQAAKDAFGAGW
+  GVMVSHRSG....ETEDVTIADIVVGLRS.GQIKTGAPARSERLAKLNQILRIEEELGDN
+  .AVYAGNNFRTAVNL.......................
+}
+{
+name  ERR1_YEAST
+type    PROTEIN
+checksum    7894
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      144    435  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    134  PF03952 enolase_N
+sequence  
+  .............MSITKVHARTVYDSR................................
+  .GNPTVEVEITTENG......LFRAIVPSGASTGIHEAVELRDG....NKSEWMGKGVTK
+  AVS.NVNSIIGPALIKSDLCVTNQKGIDELMIS.LDGTSN.....KSRLGANAILGVSLC
+  VARAAAAQKGITLYKYIAELAD.ARQDPFVIPVPFFNVLNGGAHAGGS.LAMQEFKIAPV
+  GAQS....FAEAMRMGSEVYHHLKILAKEQYGPSAGNVGDEGGVAP....DIDTAEDALD
+  MIVKAINICGYEG............RVKVGIDSAPSVFYKDG...KYDLNFKEPNS....
+  .......DPSHWLSPAQLAEYYHSLLKKYP....IISLEDPYAE....DDWSSWSAFLKT
+  VN.....VQIIADDLTCTNKTRIARAIEEKCANTLLLKLNQIGTLTESIEAANQAFDAGW
+  GVMISHRSG....ETEDPFIADLVVGLRC.GQIKSGALSRSERLAKYNELLRIEEELGDD
+  .CIYAGHRFHDGNKL.......................
+}
+{
+name  EN11_SCHPO
+descrip    Enolase 1-1 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 1-
+type    PROTEIN
+checksum    2375
+creator    Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      143    434  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        246    246  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        295    295  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        320    320  METAL_Magnesium By similarity
+sequence  
+  .............MAIQKVFARQIYDSR................................
+  .GNPTVEVDLTTETG......IHRAIVPSGASTGIWEALEMRDG....DKTKWGGKGVLK
+  AVG.NVNNIIAPAVVKANLDVTDQKAADEFLLK.LDGTEN.....KSKLGANAILGVSMA
+  ICRAGAAQKKLPLWKYIAENFG..TKGPYVLPVPSFNVLNGGSHAGGD.LAFQEFMILPT
+  GAPS....FSEAMRWGAETYHTLKSIAKKRYGSSAGNVGDEGGIAP....DLQTPQEALD
+  LIVEAINKAGYEG............KIKIGLDVASSEFYVDG...KYDLDIKAAKP....
+  .......KPENKLTYQQLTDLYVELSKKYP....IVSIEDPFDQ....DDWSAWTHMKAE
+  TD.....FQIVGDDLTVTNVKRLRTAIDKKCANALLLKVNQIGSVTESLNAVRMSYEAGW
+  GVMVSHRSG....ETADTFISHLTVGIGA.GQLKSGAPCRSERLAKYNELLRIEEELGSE
+  .GVYAGAHAGKYIKAAKF....................
+}
+{
+name  EN12_SCHPO
+descrip    Enolase 1-2 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 1-
+type    PROTEIN
+checksum    7201
+creator    Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      144    435  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    135  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        160    160  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        247    247  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        296    296  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        321    321  METAL_Magnesium By similarity
+sequence  
+  ............MTTIQKIYSRSIYDSR................................
+  .GNPTVEVELTTELG......TFRSMVPSGASTGEWEAKELRDN....DKNKWGGKGVTI
+  AVH.NVNNIIGPALVKSDIKITDQRGIDEFMIK.LDGTND.....KSKLGANSIVGVSMA
+  VARAAAAFLKIPLYEYIGKLAG..SKTTECIPVPSFNVLNGGRHAGGD.LAFQEFMIMPI
+  KAPT....FSEGLRWGSEVYHTLKALAKKKYGASAGNVGDEGGIAP....DLTTAEEALD
+  LVNEAIKEAGYDG............KVKIGFDVAASELYNG...KLYDLDFKSEHP....
+  .......KPENKLDYKKLYEKYSALIEKYP....IVFIEDPFSE....EDWGAFSYMSSK
+  TK.....VEVIADDLTVTNVKRLSKAIELKCANALLVKINQIGSLSETIDAANMAKKAGW
+  GLMVSHRSG....ETDDSFIAHLAVGLEA.GQMKSGAPCRSERLAKYNELLRIEDNLGDS
+  .AIYAGTRAADYIKSNTL....................
+}
+{
+name  ENO_NEOFR
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    4525
+creator    Neocallimastix frontalis (Rumen fungus).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      143    436  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        246    246  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        295    295  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        322    322  METAL_Magnesium By similarity
+sequence  
+  .............MAITKVHARQIFDSR................................
+  .GNPTVEVEVTTDKG......LFRAAVPSGASTGVHEALELRDG....IKADYVGKGVLK
+  AVE.NVNKTIAPALVAANLDVKNQKAVDDFLLK.LDGTPN.....KSKLGANAILGVSLA
+  VARAGAADKGVPLYQHLGELAG..NKGPWILPVPSMNVLNGGSHAGNK.LAMQEFMILPT
+  GAKS....FTEALKMGSEVYHALKSVIKAKYGQDACNVGDEGGFAP....NIQDNKEGLE
+  LLNEAIAKAGYTG............KVKIGMDVASSEFYKDG...KYDLDFKNPNS....
+  .......DPSKWISGEELGQFYKEITSEYP....IVSIEDPYDQ....DDFESWSKFRAD
+  MQ...DKIQIVGDDLTVTNPKRIAMAIEKKACNGLLLKVNQIGTVSESIQAALDAFNDGW
+  GVMVSHRSG....ETEDTFIADLVVGLKS.GQIKTGAPCRSERLAKYNQLLRIEEELGAN
+  .ATYAGENFRRPF.........................
+}
+{
+name  ENO_CUNEL
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    7353
+creator    Cunninghamella elegans.Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      143    434  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        246    246  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        295    295  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        320    320  METAL_Magnesium By similarity
+sequence  
+  .............STITKVHARQIFDSR................................
+  .GNPTVEVEVTTDKG......VFRAGVPSGASTGVHEALELRDG....VKSDYLGKGVLK
+  AVG.NVNTIINEELVKANLSVVDQKAVDDFLIQ.LDGTEN.....KEKLGANAILGVSLA
+  VAKAGAAEKGVPFYVHIADLAG..SKKPFVLPVPAFNVINGGSHAGNK.LAMQEFMIMPT
+  GAKS....FSEAMKLGSEVYHTLKKVINEKYGQDATNVGDEGGFAP....NIQDNQEGLE
+  LLVTAIEKAGYTG............KIKVAMDCAASDFYKDG...KYDLDFKNPNS....
+  .......DPSTYLTGQDLTDLYNSYAGKYP....IVSIEDAFDQ....DDWENWAHMNAS
+  AD.....YQLVGDDLTVTNPKRIATAVEKKACNALLLKVNQIGTLTESIQAALDSQKAGW
+  GVMVSHRSG....ETEDTSIASIVVGLRT.GQIKTGAPCRSERLAKYNELLRIEEELGDA
+  .AIYAGEHFRKAHDL.......................
+}
+{
+name  ENO_CAEEL
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    812
+creator    Caenorhabditis elegans.Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    432  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        1    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        293    293  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        318    318  METAL_Magnesium By similarity
+sequence  
+  ..............PITKIHARQIYDSR................................
+  .GNPTVEVDLFTEKG......VFRAAVPSGASTGVHEALELRDG....DKAVHLGKGVLK
+  AVS.NINEKIAPALIAKGFDVTAQKDIDDFMMA.LDGSEN.....KGNLGANAILGVSLA
+  VAKAGAVHKGLPLYKYIAELAG...TGKVVLPVPAFNVINGGSHAGNK.LAMQEFMILPV
+  GASS....FAEAMRMGSEVYHHLKAEIKKRYGLDATAVGDEGGFAP....NIQDNKEGLD
+  LLNTAIDKAGYTG............KISIGMDVAASEFFKDG...KYDLDFKNPAS....
+  .......DSSKWLSGEQLTELYQSFIKEYP....VVSIEDAFDQ....DDWDNWGKFHGA
+  TS.....IQLVGDDLTVTNPKRIQTAIDKKSCNCLLLKVNQIGSVTESIEAAKLSRANGW
+  GVMVSHRSG....ETEDTFIADLVVGLAT.GQIKTGAPCRSERLAKYNQLLRIEEELGAD
+  .AVYAGHNFRNPQV........................
+}
+{
+name  ENOA_ALLMI
+descrip    Alpha enolase (EC 4.2.1.11) (2-phospho-D-glycerate hydro-lya
+type    PROTEIN
+checksum    5021
+creator    Alligator mississippiensis (American alligator).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    431  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        1    133  PF03952 enolase_N
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        292    292  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        317    317  METAL_Magnesium By similarity
+sequence  
+  ..............SILKIHAREIFDSR................................
+  .GNPTVEVDLYTSKG......LFRAAVPSGASTGIYEALELRDN....DKTRFMGKGVSK
+  AVA.HVNKTIAPALISKNISVVEQEKIDRLMLE.MDGSEN.....KSKFGANAILGVSLA
+  VCKAGAAEKGVPLYRHIADLAG...NPEVILPVPAFNVINGGSHAGNK.LAMQEFMILPV
+  GAES....FKEAMRIGAEVYHNLKNVIKEKYGKDATNVGDEGGFAP....NILENKEALE
+  LLKNAINKAGYSD............KIVIGMDVAASEFYRDG...KYDLDFKSPD.....
+  .......DPSRYITPDQLADLYKSFVKNYP....VVSIEDPFDQ....DDWAAWKKFTAS
+  VG.....IQVVGDDLTVTNPKRIAKAVDDKACNCLLLKVNQIGSVTESLQACKLAQSNGW
+  GVMVSHRSG....ETEDTFIADLVVGLCT.GQIKTGAPCRSERLAKYNQILRIEEELGSK
+  .ARFAGRNFRNPRIN.......................
+}
+{
+name  ENO_LOLPE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    188
+creator    Loligo pealeii (Longfin squid).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      142    433  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        158    158  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        245    245  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        294    294  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        319    319  METAL_Magnesium By similarity
+sequence  
+  .............MVIKKVHSRQIFDSR................................
+  .GNPTVEVDLWTDKG......MFRAAVPSGASTGIYEALEMRDK....DAKNYHGKTLFN
+  AVG.NVNKIIAPALVDKKMDEKDQTAVDNFLLA.LDGTEN.....KNKLGANAILGVSLA
+  VCKAGAAAKGVPLYRHIADLAG...NKEVILPVPAFNVINGGSHAGNK.LAMQEFMILPT
+  GAKN....FTEAMKMGTEVYHHLKSVIKKKYGQDACNVGDEGGFAP....NILDNKEGLE
+  LLKTAIANAGYTA............EIEIGMDVAASEFCKEK...KYDLDFKNPDS....
+  .......NPNDWLTSDQLADVYKDFVKNYP....VVSIEDPFDQ....DDWEAYTKMTKD
+  MD.....IQIVGDDLLVTNPKRVQKGIDLKAANALLLKVNQIGSVTESIQACKMSQDAGW
+  GVMVSHRSG....ETEDTFIADLVVGLCT.GQIKTGAPCRSERLAKYNQILRIEEELGDK
+  .AVFAGKKFRNPLK........................
+}
+{
+name  ENO_FASHE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    648
+creator    Fasciola hepatica (Liver fluke).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 552 0 square solid PFAM-A 
+  FT   PFAM-A      141    431  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        293    293  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        318    318  METAL_Magnesium By similarity
+sequence  
+  .............MAIKAIHARQIFDSR................................
+  .GNPTVEVDVTTAKG......LFRAAVPSGASTGVHEALELRDG.....PPGYMGKGVLK
+  AVA.NVNSQIAPNLIKSGINVTDQAAVDKFMLD.LDGTPN.....KEKLGANAILGVSLA
+  XCKAGAAEKGLPLYKYIATLAG...NKEVIMPVPSFNVINGGSHAGNK.LAMQEFMIMPT
+  GASS....FTEAMKIGSEVYHNLRAVIKSKYGLDACNVGDEGGFAP....SIQDNLEGLE
+  LLRTAIDKAGYTG............KVXIAMDCAASEFYKEG...KYDLDFKNPKS....
+  .......QASSWITSDAMADVYKKMMSTYP....IVSIEDPFDQ....DDWPAWTKLTGE
+  CK.....IQIVGDDLTVTNPLRVQKAIDQKACNCLLLKVNQIGSVSESIKACKMAQEAGW
+  GVMVSHRSG....ETEDNFIADLVVGLRT.GQIKTGAPCRSERLAKYNQLLRIEEDLGGA
+  .AKYAGENFRRP..........................
+}
+{
+name  ENO_SCHJA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    2105
+creator    Schistosoma japonicum (Blood fluke).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      142    433  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        158    158  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        245    245  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        294    294  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        319    319  METAL_Magnesium By similarity
+sequence  
+  .............MAIIAIHARQIFDSR................................
+  .GNPTVEVDLKTAKG......LFRAAVPSGASTGVHEALELRDT....NSKAYMCKGVLT
+  AVS.NVNNIIAPALLKKQIPVTNQSEVDQFMIE.LDGKEN.....KGNLGANAILGVSLA
+  VCKAGAAELNLPLYRYIAKLAG...HKDVIMPVPAFNVINGGSHAGNK.LAMQEFMILPT
+  GASS....FTEAMQMGSEVYHNLKAVIKREFGLDACNVGDEGGFAP....NIQDNMKGLQ
+  LLEEAIKIAGYTG............KVEIGMDCAASEYYKKG...KYDLDFKNPQS....
+  .......AESHWLSPDEMANVYKEMIQKYP....IVSIEDPFDQ....DDWDAWPKLTAS
+  TN.....IQIVGDDLTVTNPKRIEKAIKVKACNCLLLKVNQIGSITESIEACKMAQKAGW
+  GVMVSHRSG....ETEDNFIADLVVGLCT.GQIKTGAPCRSERLAKYNQLLRIEEELGST
+  .AKYAGKHFRHPQI........................
+}
+{
+name  ENO_DROME
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    6086
+creator    Drosophila melanogaster (Fruit fly).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      142    433  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        158    158  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        245    245  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        294    294  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        319    319  METAL_Magnesium By similarity
+sequence  
+  .............MTIKAIKARQIYDSR................................
+  .GNPTVEVDLTTELG......LFRAAVPSGASTGVHEALELRDN....DKANYHGKSVLK
+  AVG.HVNDTLGPELIKANLDVVDQASIDNFMIK.LDGTEN.....KSKFGANAILGVSLA
+  VAKAGAAKKGVPLYKHIADLAG...NKEIILPVPAFNVINGGSHAGNK.LAMQEFMILPT
+  GATS....FTEAMKMGSEVYHHLKNVIKAKFGLDATAVGDEGGFAP....NIQSNKEALN
+  LISDAIAKAGYTG............KIEIGMDVAASEFYKDG...QYDLDFKNEKS....
+  .......DKSQWLPADKLANLYKEFIKDFP....IVSIEDPFDQ....DHWEAWSNLTGC
+  TD.....IQIVGDDLTVTNPKRIATAVEKKACNCLLLKVNQIGTVTESIAAHLLAKKNGW
+  GTMVSHRSG....ETEDSFIGDLVVGLST.GQIKTGAPCRSERLAKYNQILRIEEEIGAG
+  .VKFAGKSFGKPQ.........................
+}
+{
+name  ENO_HOMGA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    9153
+creator    Homarus gammarus (European lobster) (Homarus vulgaris).Eukar
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    433  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        1    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_Nacetylserine
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        294    294  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        319    319  METAL_Magnesium By similarity
+feature 15 15 0 square solid MOD_RES 
+  FT   MOD_RES       1      1  Nacetylserine
+sequence  
+  ..............SITKVFARTIFDSR................................
+  .GNPTVEVDLYTSKG......LFRAAVPSGASTGVHEALEMRDG....DKSKYHGKSVFN
+  AVK.NVNDVIVPEIIKSGLKVTQQKECDEFMCK.LDGTEN.....KSSLGANAILGVSLA
+  ICKAGAAELGIPLYRHIANLAN...YDEVILPVPAFNVINGGSHAGNK.LAMQEFMILPT
+  GATS....FTEAMRMGTEVYHHLKAVIKARFGLDATAVGDEGGFAP....NILNNKDALD
+  LIQEAIKKAGYTG............KIEIGMDVAASEFYKQN..NIYDLDFKTANN....
+  .......DGSQKISGDQLRDMYMEFCKDFP....IVSIEDPFDQ....DDWETWSKMTSG
+  TT.....IQIVGDDLTVTNPKRITTAVEKKACKCLLLKVNQIGSVTESIDAHLLAKKNGW
+  GTMVSHRSG....ETEDCFIADLVVGLCT.GQIKTGAPCRSERLAKYNQILRIEEELGSG
+  .AKFAGKNFRAPS.........................
+}
+{
+name  ENO1_HEVBR
+descrip    Enolase 1 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 1) (
+type    PROTEIN
+checksum    6661
+creator    Hevea brasiliensis (Para rubber tree).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      148    442  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        4    140  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        164    164  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        251    251  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        301    301  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        328    328  METAL_Magnesium By similarity
+sequence  
+  ...........MAITIVSVRARQIFDSR................................
+  .GNPTVEADVKLSDG.....YLARAAVPSGASTGIYEALELRDG.....GSDYLGKGVSK
+  AVE.NVNIIIGPALVGK..DPTDQVGIDNFMVQQLDGTVNEWGWCKQKLGANAILAVSLA
+  VCKAGAHVKGIPLYEHIANLAG...NKNLVLPVPAFNVINGGSHAGNK.LAMQEFMILPV
+  GASS....FKEAMKMGAEVYHHLKSVIKKKYGQDATNVGDEGGFAP....NIQENKEGLE
+  LLKTAIAKAGYTG............KVVIGMDVAASEFYGSD..QTYDLNFKEENN....
+  .......NGSQKISGEALKDLYKSFVAEYP....IVSIEDPFDQ....DDWAHYAKLTSE
+  IG...EKVQIVGDDLLVTNPKRVEKAIKEKACNALLLKVNQIGSVTESIEAVKMSKRAGW
+  GVMASHRSG....ETEDTFIADLSVGLAT.GQIKTGAPCRSERLAKYNQLLRIEEELGSE
+  .AVYAGANFRKPVEPY......................
+}
+{
+name  ENO_CHLRE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    9761
+creator    Chlamydomonas reinhardtii.Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A       79    371  PF00113 enolase
+feature 118 197 1 square solid PFAM-A 
+  FT   PFAM-A        1     71  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE         95     95  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        182    182  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        232    232  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        257    257  METAL_Magnesium By similarity
+sequence  
+  ............................................................
+  .........................................................VTK
+  AVE.NINAIIAPALKG..MDPVKQAEIDQKMKD.LDGTDN.....KGKLGANAILAVSMA
+  VCKAGAAEKGVPLYKHIADLAG...NSKLILPVPSFNIINGGSHAGNA.LAMQEFMILPV
+  GASS....FSEAMRMGCEVYHALKGLIKAKYGQDACNVGDEGGFAP....NIGSNDEGLN
+  LVNEAIEKAGYTG............KVKIGMDVASSEFYTED..GMYDLDFKNQPN....
+  .......DGSQKKTKEQMLELYNEFCKKYP....VISIEDPFEQ....DDWEPCAKLTTE
+  NI.....CQVVGDDILVTNPVRVKKAIDAKAVNALLLKVNQIGTITESIEAVRMAKEAGW
+  GVMTSHRSG....ETEDSFIADLAVGLAS.GQIKTGAPCRSERNAKYNQLLRIEEELGEN
+  .AVYAGESWRHIGW........................
+}
+{
+name  ENO_PLAFA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    9691
+creator    Plasmodium falciparum.Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      150    445  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        4    140  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        166    166  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        253    253  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        304    304  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        331    331  METAL_Magnesium By similarity
+sequence  
+  ...........MAHVITRINAREILDSR................................
+  .GNPTVEVDLETNLG......IFRAAVPSGASTGIYEALELRDN....DKSRYLGKGVQK
+  AIK.NINEIIAPKLIG..MNCTEQKKIDNLMVEELDGSKNEWGWSKSKLGANAILAISMA
+  VCRAGAAPNKVSLYKYLAQLAG.KKSDQMVLPVPCLNVINGGSHAGNK.LSFQEFMIVPV
+  GAPS....FKEALRYGAEVYHTLKSEIKKKYGIDATNVGDEGGFAP....NILNANEALD
+  LLVTAIKSAGYEG............KVKIAMDVAASEFYNSEN.KTYDLDFKTPNN....
+  .......DKSLVKTGAQLVDLYIDLVKKYP....IVSIEDPFDQ....DDWENYAKLTAA
+  IG...KDVQIVGDDLLVTNPTRITKALEKNACNALLLKVNQIGSITEAIEACLLSQKNNW
+  GVMVSHRSG....ETEDVFIADLVVALRT.GQIKTGAPCRSERNAKYNQLLRIEESLGNN
+  .AVFAGEKFRLQLN........................
+}
+{
+name  ENO_MASBA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    5514
+creator    Mastigamoeba balamuthi (Phreatamoeba balamuthi).Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    438  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        297    297  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        324    324  METAL_Magnesium By similarity
+sequence  
+  ............MSTIKSVFAREILDSR................................
+  .GNPTVEVDLTTEKG......LFRSAVPSGASTGIYEACELRDG....DKSRYLGKGVLK
+  AVE.NVNKILAPKLIG..LDVTKQGEIDRLMLQ.IDGTEN.....KTHLGANAILGCSMS
+  VCRAAAAFRGLPLYRYIAELSG...NKSPMLPLPCFNVINGGEHAGNK.LAMQEFMICPT
+  GATS....FHEALRMAAETYHNLKLVIKKRYGMDATNVGDEGGFAP....NIQANHEGLE
+  LIVEAIKQAGYTG............KIEIGMDVAASSFWDAKE.SKYDLGFKVPADKK..
+  .......TPDMLVSGEGLIKLYEEWTSKYP....IWSIEDPFDQ....DDWATYTRFTEL
+  IR...NRIQIVGDDLLVTNPKRIVEARNKKACNALLLKLNQIGSVSEAVEACRLAREVNW
+  GVMVSHRSG....ETEDAFIADLVVGLGC.GQIKTGAPCRSERLAKYNQLLRIEEELGAN
+  .AHYAAKTLSGVGH........................
+}
+{
+name  ENO1_ENTHI
+descrip    Enolase 1 (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-
+type    PROTEIN
+checksum    9636
+creator    Entamoeba histolytica.Eukaryota;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      140    435  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    132  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        156    156  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        243    243  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        296    296  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        322    322  METAL_Magnesium By similarity
+sequence  
+  .............MSIQKVHAREILDSR................................
+  .GNPTIEVEITTGKG......MFRSCVPSGASTGVHEAVELRDG....DKKRYGGKGVLK
+  AVE.NVNTIIGPALLG..KNVLNQAELDEMMIK.LDGTNN.....KGKLGANAILGCSMS
+  ICRAAAAEKGLPLYKYLAELTG...HKEMTMPVPCFNVINGGAHAGNA.LAMQEFMICPT
+  GATN....FHEALRMAAETYQCLKVVIKAKYGQDATNVGDEGGFAP....NVSGAREALD
+  LLVEAIAKAGYTG............KIEIAMDCAASEFYNEET.KKYDLGKKIPADKK..
+  .......DPSLVKDVDGLIAEYVDYGKHYP....IASIEDPFAE....DDWAAWNKFTVE
+  HG....NFQIVGDDLLVTNPARVQMAMDKNACNSVLIKVNQIGTLTETFKTIKMAQEKGW
+  GVMASHRSG....ETEDTFIADLVVGLNC.KQIKTGAPCRSERLCKYNQLMRIEEELGN.
+  .IPYAGKNWRNSTA........................
+}
+{
+name  ENO_METJA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    4335
+creator    Methanococcus jannaschii.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    423  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        6    136  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+sequence  
+  .........MDERFEIKDIVAREVIDSR................................
+  .GNPTVEVEVITKGN.....GYGSAIVPSGASTGTHEALELRDK....EK.RFGGKGVLM
+  AVE.NVNSIIRPEILG..YDARMQREIDTIMIE.LDGTPN.....KSRLGANAILAVSLA
+  VAKAAAATAKIPLYKYLGGFN......SYVMPVPMMNVINGGKHAGND.LDLQEFMIMPV
+  GATS....ISEAVRMGSEVYHVLKNVILEKYGKNAVNVGDEGGFAP....PLKTSREALD
+  LLTESVKKAGYED............EVVFALDAAASEFYKDG...YYYVEGKK.......
+  ............LTREELLDYYKALVDEYP....IVSIEDPFHE....EDFEGFAMITKE
+  LD.....IQIVGDDLFVTNVERLRKGIEMKAANALLLKVNQIGTLSEAVDAAQLAFRNGY
+  GVVVSHRSG....ETEDTTIADLSVALNS.GQIKTGAPARGERTAKYNQLIRIEQELGL.
+  .SKYAGRNFRCPF.........................
+}
+{
+name  ENO_METAC
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    2865
+creator    Methanosarcina acetivorans.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 544 0 square solid PFAM-A 
+  FT   PFAM-A      150    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A       15    145  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        166    166  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        254    254  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        295    295  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        321    321  METAL_Magnesium By similarity
+sequence  
+  MMSYIGLQQDSGEYKIQKIHAREILDSR................................
+  .GNPTIEVDVFTPKG......FGRASVPSGASTGTNEALELRDA....DPNRYGGKGVLT
+  AVK.NVNTIIQKELLG..LDVRNQREIDELMIE.LDETEN.....KSNLGANSILGVSMA
+  VAKAAADSLNMPLYRYFGGSN......AFTLPVPTMNVLNGGKHAGNE.LAIQEFMIQPK
+  GAET....FYEALQIGAEIYHVLGKYLEKKYGRSSTNVGYEGGYAP....KMSESTEALD
+  ALVQAIEEAGYTES...........EVTIGLDAAATEFYEEE...FYNIDGKK.......
+  ............LAAPELLDYYVELVNSYP....ILSIEDPFYE....EAFEDFEALTNE
+  LW....DTIIVGDDLFVTNIERLSRGVDMGAANALLLKVNQIGSISEAFDAASMASRNGY
+  TVIVSHRSA....ETEDTTISDLAVAIGA.EMIKTGAPARGERTAKYNQLLRIEEDLGEV
+  .AHYVQL...............................
+}
+{
+name  ENO_SULTO
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    6870
+creator    Sulfolobus tokodaii.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 209 538 0 square solid PFAM-A 
+  FT   PFAM-A      137    406  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        6    131  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        152    152  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        239    239  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        280    280  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        306    306  METAL_Magnesium By similarity
+sequence  
+  .........MNDYFRIKKIKGYQILDSR................................
+  .GNKTIRVKIETYGG.....ISETGDAPAGASKGSREAIELRDK..........DGGVTR
+  AVE.LVNTLINDSLRD..FDVRNQLGIDQTLIR.MDGTPN.....KSRVGGNTTIATSIA
+  VAKTAAKAMGLEIFQYIGGPR......VRYLPIPLLNILNGGLHAGNE.LKIQEFIIIPL
+  SFDS....FHEALYAADEVYKQLKGIITEKYGKLYTMLGDEGGVAP....PLSKTEDALD
+  LVYTAIKNSGYED............KIVMGIDAASSDFFNGSQ...YEIDGKK.......
+  ............LSPDEMIDYYIQLASRYP....LLYIEDPFNE....NDFERFSILQQK
+  LK....KTIVTGDDLFTTNIEYLKKGIEKSSAKGTIVKPNQIGTLSETFEYIEFAKKNSI
+  KIIVSHRSG....ETEDSFIADLAVGVQS.DFIKTGAPARGERTSKYNRLLEIENDYG..
+  .IEYYGKKIYL...........................
+}
+{
+name  ENO_AERPE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    4535
+creator    Aeropyrum pernix.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      142    429  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        7    137  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        158    158  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        247    247  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        288    288  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        315    315  METAL_Magnesium By similarity
+sequence  
+  ........MGVNDFAIERVWGLQVLDSR................................
+  .GNPTVKAYVKLAGG.....SLGWGIAPSGASRGEREAVELRDG.....GGKWRGKGVSR
+  AVS.LLNTVVAPRLEG..VDARRQAQIDRLLIE.LDGTPN.....KSRLGGNTTTALSIA
+  VSRAAAAQARLELFQYLGGAG......ARRLPIPLLNVINGGVHAGNE.LDFQEFMIIPY
+  GFES....FTEAMRAAVETYGELKSLLKDRYGASAVNVGDEGGFAP....PMRSAEEALK
+  TLVDAVEKAGYQPG..........SEIALGIDAAASQLYSNGR...YSVEGKS.......
+  ............LSREELLSLYQRLVEQYP....IVYLEDPFSE....DDYEGFKAAVDA
+  LS...TETIIVGDDLLVTNPQRVKEASALKAVTGLLVKVNQVGTLTEALEAIQAARDRGI
+  VHIVSHRSG....DTEDTFIADLAVATEA.LMIKTGAPARGERTSKYNRLLEIENILGYS
+  .AEYAGPELRGVMGRR......................
+}
+{
+name  ENO_PYRAB
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    8480
+creator    Pyrococcus abyssi.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      140    427  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        6    135  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        156    156  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        245    245  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        286    286  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        313    313  METAL_Magnesium By similarity
+sequence  
+  .........MENPYEIVAVIAREILDSR................................
+  .GNPTVEVDVHTPIS......MGRAAVPSGASTGTHEAVELRDG....GK.RYHGKGVRR
+  AVE.NVNKIIAPELVG..MDVRWQREIDRLLIE.LDGTEN.....KSNLGANAILAVSLA
+  VAKAAANALELPLYQYLGGVN......AYVLPVPLSNVINGGVHAGND.LDFQEFMIMPI
+  GANS....FREAIRWVSETYHVLKKVIAEKYGKNAVNVGDEGGFAP....PMKEVTEPLD
+  VLIKAIEEAGYKPG..........EEIALALDAASSEFYKDG...KYIVSGKE.......
+  ............YTREELLELYKELTSTYP....IVSIEDPFHE....EDWEGFVMITRE
+  LG...KKVQIVGDDLFVTNPKRLKKGIEMGAANALLLKVNQIGTLTEAMDAAYMAFRAGY
+  GVVVSHRSG....ETEDATIADLAVALNA.GQIKTGAPARSDRNAKYNQLIRIEEELEGV
+  .AVYAGKNFRKVFF........................
+}
+{
+name  ENO_METKA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    1538
+creator    Methanopyrus kandleri.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      138    427  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        243    243  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        286    286  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        313    313  METAL_Magnesium By similarity
+sequence  
+  ............MPRIVSVKAREVLDSR................................
+  .GEPTVEVEVELEDG.....TVGRAMVPSGASTGTYEALELRDG....DD.RYGGKGVRR
+  AVR.NVEEIIAPEIEG..LDATAQPDIDRTMIE.LDGTEN.....KSHLGANAILGVSLA
+  VARAAAKSLGIPLYRYLGGPT......ARRLPVPFMNVINGGEHAGNE.LDFQEHMIVPH
+  GFES....FSEALRAGVETYHVLGELLEEEYGPIATNVGDEGGYAP....PMKDTVEPLD
+  VLVEAIEEAGYAPG..........KEIALALDAAASEFYDEDS.GTYRAYG.........
+  ..........QKYTRDELIDVYKDLVSQYP....IVSIEDPLHE....EDFRGFAKITEE
+  LG...DKVQIVGDDLFVTNPDRLRKGIEMGAANALLLKVNQIGTLTEAVEAGELALQHGY
+  GVMVSHRSG....DTEDPFIADLAVALGC.GQIKTGAPARSSRTAKYNRLLRIEEDLAGA
+  .AEFGPRNDFFLP.........................
+}
+{
+name  ENO_SYNY3
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    923
+creator    Synechocystis sp. (strain PCC 6803).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      144    430  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        8    139  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        160    160  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        248    248  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        289    289  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        316    316  METAL_Magnesium By similarity
+sequence  
+  .......MLSKVPATIEEIAAREILDSR................................
+  .GRPTIEAEVRLESG.....AHGIAQVPSGASTGSFEAHELRDG....DPKRYDGKGVEK
+  AVR.NVTEKIAPVVEG..LDAFDQMAVDQAMID.RDGTDN.....KKELGANAILGVSLA
+  TAKAAAAELAIPLYRYLGGPL......ANVLPVPMMNVINGGAHADNN.VDFQEFMIMPV
+  GAET....FKEALRWGAEVFAVLGKVLKER.KLLSGGVGDEGGYAP....NLTSNQQALD
+  ILIEAIEQAGYKPG..........SQIALAMDIAASEFFKNG...QYEYDGGS.......
+  ............HSPQEFIDYQAKLVSQYP....IVSIEDGLHE....DDWESWKGLTTS
+  LG...TKTQLVGDDLMVTNPVRLQKSIDLGVANAILIKLNQIGTLSETLETISLATRHSY
+  RSVISHRSG....ETEDTTIADLAVATRV.GQIKTGSLCRSERVAKYNRLLRIEDELGDR
+  .AVYAPKIGLGPKHS.......................
+}
+{
+name  ENO_THETN
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    3451
+creator    Thermoanaerobacter tengcongensis.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    427  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        286    286  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        313    313  METAL_Magnesium By similarity
+sequence  
+  ............MSSIIDIYAREILDSR................................
+  .GNPTIEVEVELDSG.....AVGRAAVPSGASTGAFEAIELRDG....DKSRYLGKGVLK
+  AVQ.NVNDIIAPELIG..MEAQDQVAIDKAMIE.LDGTPN.....KSKLGANAILGVSLA
+  VAKAAAEELGLPLYQYLGGVN......AKTLPVPMMNILNGGKHADNN.VDIQEFMIMPV
+  GAPN....FKEALRMCSEVYHSLKNVLHSK.GLS.TTVGDEGGFAP....NLTSNEEAIK
+  VILEAIEKAGYVPG..........EDIVLALDPAATEMYKED..GKYHFEGEG.......
+  ..........IVRTSEEMIEFWEQLVSKYP....IVSIEDGLAE....EDWNGWKLLTER
+  LG...KKVQLVGDDLFVTNTERLSKGINMGVANSILIKLNQIGTLTETLDAIEMAKRAGY
+  TAIVSHRSG....ETEDTTIADLVVATNV.GQIKTGAPARTDRVAKYNQLLRIEEALGSV
+  .AQYPGKNAFYNIRK.......................
+}
+{
+name  ENO_CLOPE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    763
+creator    Clostridium perfringens.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      142    429  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        6    137  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        158    158  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        245    245  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        288    288  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        315    315  METAL_Magnesium By similarity
+sequence  
+  .........MKQYIEIIDVVARQILDSR................................
+  .CFPTVEVEVYLEDG.....TVGRAAVPSGASTGIYEAVELRDG....DKDKYLGKGVEK
+  AVA.NVNDTIAEEIIG..LNVLDQAYIDKTLIE.LDGTNN.....KGKLGANAILGVSLA
+  VAQAAANYLGMPLYQYIGGVN......AKVLPVPMMNIINGGSHADNS.VDIQEFMIMPV
+  GFDC....FERAVRACAEVYHALKKTLNSK.GYS.TGVGDEGGFAP....NLKSNAEAIE
+  VILEAIEKAGYEPG..........KEFFIAIDAASSEYYKDG...KYVLEHEG.......
+  ..........KTLTAAEMVDFFEDWVNKYP....IISIEDGMAE....EDWEGWKLMTER
+  LG...KKVQLVGDDLFVTNTERLKTGIEKGIANSILIKLNQIGTLTETLNAIEMANRAGY
+  TAVVSHRSG....ETEDTTIADLVVAVNA.GQIKTGAPARSERVAKYNQLIRINEELGEV
+  .AEYRGRNAFFNLSK.......................
+}
+{
+name  ENO_CLOAB
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    6649
+creator    Clostridium acetobutylicum.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      142    429  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        6    137  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        158    158  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        245    245  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        288    288  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        315    315  METAL_Magnesium By similarity
+sequence  
+  .........MKSYVEIVDVMARQILDSR................................
+  .ANPTVEVEVVLEDG.....TVGRASVPSGASTGQFEAVELRDN....DKAQYLGKSVLN
+  AVD.NVNETIATELIG..MNVFDQTLIDQTMLE.IDGTEN.....KSKLGANAMLGVSLA
+  VARAAAEYLGISLYQYLGGVN......AKVLPVPMMNIVNGGKHADNN.VDFQEFMIMPA
+  GAPS....FSEALRSCAEVYHTLKSLLQSK.GLE.TAVGDEGGFAP....NLNSNEEAIQ
+  IILEAVTKAGYEPG..........KDMFIAMDPASTEFYENG...KYNLKGEG.......
+  ..........KVYTSEEMVEVYANLVEKYP....IISLEDGMAE....EDWDGWKLLTDR
+  IG...DKVQLVGDDLFVTNTKRLSKGIQLGVANSILIKLNQIGTLTETLNAIEMAQRAGY
+  TAVVSHRSG....ETEDTTISDLVVAVNA.GQIKTGAPARTERVAKYNQLLRIEEELGEV
+  .AEFRGLNAFYNIKK.......................
+}
+{
+name  ENO_BACHD
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    7380
+creator    Bacillus halodurans.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      138    427  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        241    241  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        286    286  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        313    313  METAL_Magnesium By similarity
+sequence  
+  ............MTIITDVYAREVLDSR................................
+  .GNPTVEVEVYLESG.....AMGRALVPSGASTGEYEAVELRDG....GE.RFLGKGVLK
+  AVE.NVNEVIAPELIG..FDALDQIGIDQHMIE.LDGTEN.....KGKLGANAILGVSMA
+  VARAAANALDLPLYVYLGGFN......AKQLPVPMMNIINGGEHADNN.VDIQEFMIMPV
+  GAES....FKEALRTGTEIFHSLKKVLKSK.GYN.TAVGDEGGFAP....NLSSNEEALQ
+  TIIEAIEQAGYTPG..........EQVKLAMDVASSELYNKED.GKYHLSGEG.......
+  ..........KVLSSEEMVAFYEELVAKYP....IISIEDGLDE....NDWEGHKMLTDR
+  LG...DKVQLVGDDLFVTNTKKLAQGIEQGVGNSILIKVNQIGTLTETFDAIEMAKRAGY
+  TAVISHRSG....ETEDSTIADIAVATNA.GQIKTGAPSRTDRVAKYNQLLRIEDELGNL
+  .AQYNGLQSFYNLKK.......................
+}
+{
+name  ENO_LISMO
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    6307
+creator    Listeria monocytogenes, andListeria innocua.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 202 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    428  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        287    287  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        314    314  METAL_Magnesium By similarity
+sequence  
+  ............MSIITEVYAREVLDSR................................
+  .GNPTVEVEVYTEAG.....AFGRALVPSGASTGEYEAVELRDG....DKARYLGKGVLK
+  AVE.NVNDIIADKIIG..FDVTDQIGIDKAMIE.LDGTPN.....KGKLGANAILGVSLA
+  AARAAADELGVHLYEYLGGVNG......KVLPVPMMNILNGGEHADNN.VDVQEFMVMPV
+  GAPN....FKEALRMGAEILHALKAVLKGK.GLN.TGVGDEGGFAP....NLKSNEEALE
+  TIMQAIKDAGYKPG..........EEVKLAMDAASSEFYNRET.GKYELKGEG.......
+  ..........VTRTSEEMVTWYEEMITKYP....IISIEDGLDE....NDWDGFKLLTER
+  IG...DRVQLVGDDLFVTNTTKLKEGIEKGIANSILIKVNQIGTLTETLDAIEMAKRAGY
+  TAVISHRSG....ETEDSTIADIAVATNA.GQIKTGAPTRTDRVAKYNQLLRIEDNLADL
+  .AEYHGNDTFYNLKK.......................
+}
+{
+name  ENO_ENTFA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    8686
+creator    Enterococcus faecalis (Streptococcus faecalis).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    429  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        288    288  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        315    315  METAL_Magnesium By similarity
+sequence  
+  ............MSIITDIYAREVLDSR................................
+  .GNPTIEVEVYTESG.....AFGRGMVPSGASTGEYEAVELRDG....DKARYLGKGVTK
+  AVD.NVNNIIAEAIIG..YDVRDQMAIDKAMID.LDGTPN.....KGKLGANAILGVSIA
+  VARAAADYLEVPLYHYLGGFN......TKVLPTPMMNIINGGSHADNS.IDFQEFMIMPV
+  GAPT....FKEALRMGAEVFHALASILKGR.GLA.TSVGDEGGFAP....NLGSNEEGFE
+  VIIEAIEKAGYVPG..........KDVVLAMDAASSEFYDKEK.GVYVLADSGE......
+  ..........GEKTTEEMIAFYEELVSKYP....IISIEDGLDE....NDWDGFKKLTEV
+  LG...DKVQLVGDDLFVTNTTKLAEGIEKGIANSILIKVNQIGTLTETFEAIEMAKEAGY
+  TAVVSHRSG....ETEDSTISDIAVATNA.GQIKTGSLSRTDRIAKYNQLLRIEDQLGDV
+  .AEYKGLKSFYNLKNK......................
+}
+{
+name  ENO_BACFR
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    4356
+creator    Bacteroides fragilis.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      138    429  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        241    241  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        288    288  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        315    315  METAL_Magnesium By similarity
+sequence  
+  .............MKIEKITGREILDSR................................
+  .GNPTVEVDVVLESG.....IMGRASVPSGASTGEHEALELRDG....DKHRYGGKGVQK
+  AVE.NVNKVIAPHLIG..MSALDQIGIDHAMLA.LDGTKT.....KAKLGANAILGVSLA
+  VAKAAANYLDIPLYRYIGGTN......TYVLPVPMMNIINGGSHSDAP.IAFQEFMIRPV
+  GASS....FKEGLRMGAEVFHALKKVLKDR.GLS.TAVGDEGGFAP....NLEGTEDALN
+  SILAAIKAAGYEPG..........KDVMIGMDCASSEFYHDG...IYDYTKFEGEKG...
+  ..........KKRTADEQIDYLEKLINEYP....IDSIEDGMSE....NDWEGWKKLTQR
+  IG...DRCQLVGDDLFVTNVDFLAKGIEKGCANSILIKVNQIGSLTETLNAIEMAHRHGY
+  TTVTSHRSG....ETEDATIADIAVATNS.GQIKTGSLSRSDRMAKYNQLLRIEEELGDR
+  .AVYGYKRIVVKG.........................
+}
+{
+name  ENO_STAAM
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    554
+creator    Staphylococcus aureus (strain Mu50 / ATCC 700699),Staphyloco
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 202 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    432  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    136  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        291    291  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        318    318  METAL_Magnesium By similarity
+sequence  
+  ............MPIITDVYAREVLDSR................................
+  .GNPTVEVEVLTESG.....AFGRALVPSGASTGEHEAVELRDG....DKSRYLGKGVTK
+  AVE.NVNEIIAPEIIEGEFSVLDQVSIDKMMIA.LDGTPN.....KGKLGANAILGVSIA
+  VARAAADLLGQPLYKYLGGFNG......KQLPVPMMNIVNGGSHSDAP.IAFQEFMILPV
+  GATT....FKESLRWGTEIFHNLKSILSKR.GLE.TAVGDEGGFAP....KFEGTEDAVE
+  TIIQAIEAAGYKPG..........EEVFLGFDCASSEFYENG...VYDYSKFEGEHG...
+  ..........AKRTAAEQVDYLEQLVDKYP....IITIEDGMDE....NDWDGWKQLTER
+  IG...DRVQLVGDDLFVTNTEILAKGIENGIGNSILIKVNQIGTLTETFDAIEMAQKAGY
+  TAVVSHRSG....ETEDTTIADIAVATNA.GQIKTGSLSRTDRIAKYNQLLRIEDELFET
+  .AKYDGIKSFYNLDK.......................
+}
+{
+name  ENOA_LACLA
+descrip    Enolase 1 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 1) (
+type    PROTEIN
+checksum    7391
+creator    Lactococcus lactis (subsp. lactis) (Streptococcus lactis).Ba
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    431  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        243    243  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        290    290  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        317    317  METAL_Magnesium By similarity
+sequence  
+  ............MSIITDIYAREVLDSR................................
+  .GNPTLEVEVYTEDG.....AFGRGMVPSGASTGEHEAVELRDG....DKSRYNGLGTQK
+  AVD.NVNNIIAEAIIG..YEVTDQQAIDRAMIA.LDGTEN.....KGKLGANAILGVSIA
+  AARAAADELGVPLYNYLGGFN......AKVLPTPMMNIINGGSHSDAP.IAFQEFMIVPV
+  GAPT....FKEALRWGAEIFHALKKILKAR.GLE.TAVGDEGGFAP....KFDGTEDGVE
+  TILKAIEAAGYKAGE.........DGVMIGFDCASSEFYENG...VYDYTKFEGEGG...
+  ..........KKLSASEQVDYLEELVSKYP....IITIEDGMDE....NDWDGWKILTER
+  LG...KKVQLVGDDFFVTNTKYLERGIRENASNAILIKVNQIGTLTETFEAIEMAKEAGF
+  TAIVSHRSG....ETEDSTISDIAVATNA.GQIKTGSLSRTDRMAKYNQLLRIEDQLAEV
+  .AQYKGLKAFYNLKK.......................
+}
+{
+name  ENOA_LACPL
+descrip    Enolase 1 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 1) (
+type    PROTEIN
+checksum    9190
+creator    Lactobacillus plantarum.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        290    290  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        317    317  METAL_Magnesium By similarity
+sequence  
+  ............MSIITDIYAREVLDSR................................
+  .GNPTVEVELYTESG.....AFGRGIVPSGASTGEHEAVELRDG....DKSRFMGKGVTK
+  AVD.NVNKLIAKEIVG..YDVTDQRAIDQAMIK.LDGTPN.....KAKLGANAILGVSIA
+  AARAAADELEMPLYNYLGGFN......AHVLPTPMMNVINGGAHANND.VDFQEFMIMPV
+  GASS....VKEAIRMGSETFHNLKAILNER.GYS.TAVGDEGGFAP....DLKNNEEPFE
+  ILVEAIERAGYKPG..........KDIAIAFDCAASEFYNEET.GKYDLKGEGENG....
+  ..........QSFTAEEFVDLLDSIVDKYP....IVSIEDPLDE....NNWEDWQMATAK
+  LG...KKVQIVGDDLFVTNTDYLAKGIKMGVANSILIKVNQIGTLTETVEAIEMAKEAGY
+  TAIVSHRSG....ETEDTTIADLVVAMNA.GQIKTGSMSRTERIAKYNQLMRIEDQLEST
+  .SEYKGIHGFYNLDEAARNTITSK..............
+}
+{
+name  ENO_LEPIN
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    9639
+creator    Leptospira interrogans.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      142    432  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        6    137  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        158    158  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        245    245  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        291    291  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        318    318  METAL_Magnesium By similarity
+sequence  
+  .........MSHHSQIQKIQAREIMDSR................................
+  .GNPTVEVDVILLDG.....SFGRAAVPSGASTGEYEAVELRDG....DKHRYLGKGVLK
+  AVE.HVNLKIQEVLKG..ENAIDQNRIDQLMLD.ADGTKN.....KGKLGANAILGTSLA
+  VAKAAAAHSKLPLYRYIGGNF......ARELPVPMMNIINGGAHADNN.VDFQEFMILPV
+  GAKS....FREALRMGAEIFHSLKSVLKGK.KLN.TAVGDEGGFAP....DLTSNVEAIE
+  VILQAIEKAGYKPE..........KDVLLGLDAASSEFYDKSK.KKYVLGAENN......
+  ..........KEFSSAELVDYYANLVSKYP....IITIEDGLDE....NDWDGWKLLSEK
+  LG...KKIQLVGDDLFVTNIEKLSKGISSGVGNSILIKVNQIGSLSETLSSIEMAKKAKY
+  TNVVSHRSG....ETEDVTISHIAVATNA.GQIKTGSLSRTDRIAKYNELLRIEEELGKS
+  .AVYKGRETFYNL.........................
+}
+{
+name  ENO_RALSO
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    1815
+creator    Ralstonia solanacearum (Pseudomonas solanacearum).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+sequence  
+  ............MSAIVDIIGREVLDSR................................
+  .GNPTVECDVLLESG.....VMGRAAVPSGASTGSREAIELRDG....DKGRYLGKGVLK
+  AVE.HINTEISEAIMG..LDASEQAFLDRTLID.LDGTEN.....KGRLGANATLAVSMA
+  VAKAAAEEAGLPLYRYFGGSG......AMQMPVPMMNIVNGGAHANNS.LDIQEFMVMPV
+  GQQS....FREALRCGAEIFHALKKIIADK.GMS.TAVGDEGGFAP....NFASNEECLN
+  TILSAIEKAGYRPG..........EDVLLALDCAASEFYRDG...KYHLDGEG.......
+  ..........LQLSSVDFANYLANLADKFP....IVSIEDGMHE....SDWDGWKVLTEK
+  LG...NKVQLVGDDLFVTNTRILKEGIEKGIANSILIKINQIGTLTETFAAIEMAKRAGY
+  TAVISHRSG....ETEDSTIADIAVGTNA.GQIKTGSLSRSDRIAKYNQLLRIEEDLGDI
+  .ASYPGKSAFYNLR........................
+}
+{
+name  ENO_NITEU
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    5074
+creator    Nitrosomonas europaea.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+sequence  
+  ............MSAIVDVIAREIIDSR................................
+  .GNPTIEADVLLESG.....VLGRASVPSGASVGTREAVELRDG....DAQRYYGKGVLK
+  AVE.SVNGEISETIMG..LDAMEQCFIDKTLIE.LDGSEN.....KSRLGANAILAVSLA
+  VAKAAAEESGLPLYRYLGGIN......AKWLPVPMMNLVNGGVHANNR.LDMQEFMIIPL
+  GLPN....LREAVRCGAEVFSTLRTLLNKR.NLP.TTVGDEGGFAP....SFARNEEALA
+  LIVQAIDEAGYQPG..........SEVAIGVDCASSEFFREG...KYHLDVDG.......
+  ..........LGLTSAQFVDYLATWVEKYP....IISIEDGMSE....QDWEGWGLLTER
+  LG...KTVQLVGDDVFVTNTRILKEGISRNIANSILIKINQIGTLTETLNAIEMAKCAGY
+  TAIVSHRSG....ETEDTTIADIAVATNA.LQIKTGSLSRSDRLAKYNQLLRIEEDLGEM
+  .AQYAGRSAFYQLKP.......................
+}
+{
+name  ENO_NEIMA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    3251
+creator    Neisseria meningitidis (serogroup A).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+sequence  
+  ............MSAIVDIFAREILDSR................................
+  .GNPTVECDVLLESG.....VMGRAAVPSGASTGQKEALELRDG....DKSRYSGKGVLK
+  AVE.HVNNQIAQALIG..IDANEQSYIDQIMIE.LDGTEN.....KGNLGANATLAVSMA
+  VARAAAEDSGLPLYRYLGGAG......PMSLPVPMMNVINGGEHANNS.LNIQEFMIMPV
+  GAKS....FREALRCGAEIFHALKKLCDSK.GFP.TTVGDEGGFAP....NLNSHKEALQ
+  LMVEATEAAGYKAG..........EDVLFALDCASSEFYKDG...KYHLEAEG.......
+  ..........RSYTNAEFAEYLEGLVNEFP....IISIEDGMDE....NDWEGWKLLTEK
+  LG...GKVQLVGDDLFVTNPKILAEGIEKGVANALLVKVNQIGTLSETLKAVDLAKRNRY
+  ASVMSHRSG....ETEDSTIADLAVATNC.MQIKTGSLSRSDRMAKYNQLLRIEEELAEA
+  .ADYPSKAAFYQLGK.......................
+}
+{
+name  ENO_BORBU
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    3722
+creator    Borrelia burgdorferi (Lyme disease spirochete).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      140    430  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        4    135  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        156    156  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        243    243  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        289    289  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        316    316  METAL_Magnesium By similarity
+sequence  
+  ...........MGFHIYEIKARQIIDSR................................
+  .GNPTVEADVILEDG.....TYGRAAVPSGASTGINEAVELRDG....DKSVYMGKGVLK
+  AIE.NIKNIIAPELEG..MSALNQVAIDRKMLE.LDGTPT.....KEKLGANAILAVSMA
+  TAKAAAKYLGLRPYQYLGAYK......ANILPTPMCNIINGGAHSDNS.VDFQEFMIMPI
+  GAKT....FSEAIRMAAEVFHTLKGILSGK.GYA.TSVGDEGGFAP....NLKSNEEACE
+  VIIEAIKKAGYEPG..........KDIAIALDPATSELYDPKT.KKYVLKWSTK......
+  ..........EKLTSEQMVEYWAKWVEKYP....IISIEDGMAE....EDWDGWKKLTDK
+  IG...NKIQLVGDDLFVTNTSFLKKGIEMGVANSILIKVNQIGTLTETFEAVEMAKKAGY
+  TAIVSHRSG....ETEDTTIADLVVALGT.GQIKTGSLSRTDRIAKYNQLIRIEEELETT
+  .AEYHGKSVFYSIKQK......................
+}
+{
+name  ENO_AGRT5
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    919
+creator    Agrobacterium tumefaciens (strain C58 / ATCC 33970).Bacteria
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 552 0 square solid PFAM-A 
+  FT   PFAM-A      138    424  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        241    241  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        284    284  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        311    311  METAL_Magnesium By similarity
+sequence  
+  ............MTAITDIIAREILDSR................................
+  .GNPTVEVDVYLEDG.....SMGRAAVPSGASTGAHEAVELRDG....GK.RYLGKGVEK
+  AVE.AVNTEIFDAIGG..FDAENQIQIDQMMIA.LDGTPN.....KSRLGANAILGVSLA
+  IAKAAAEASGLPLYRYVGGPN......AHLLPVPMMNIINGGAHADNP.IDFQEFMILPV
+  GAEN....IREAVRMGSEVFHTLKKELSAQ.GHN.TNVGDEGGFAP....GLESAPAALD
+  FIMKSIEKAGYRPG..........EDMYVGLDCASTEFFKDG...KYVLEGEG.......
+  ..........RTLEPGAMAEYLAELVNKYP....IISVEDGMAE....DDWEGWKTLTDL
+  VG...NKCQLVGDDLFVTNSARLRDGIKMGVANSILVKVNQIGSLSETLDAVETAHKAGY
+  TAVMSHRSG....ETEDSTIADLAVATNC.GQIKTGSLARSDRLAKYNQLIRIEEMLGPQ
+  .AAYAGRSILRG..........................
+}
+{
+name  ENO_BARHE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    7294
+creator    Bartonella henselae (Rochalimaea henselae).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 547 0 square solid PFAM-A 
+  FT   PFAM-A      138    419  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        241    241  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        284    284  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        311    311  METAL_Magnesium By similarity
+sequence  
+  ............MTIIVDIIGREVLDSR................................
+  .GNPTVEVEVHLENG.....ALGRALVPSGASTGAHEAVELRDG....G.TRYQGKGVKK
+  AIA.AINGEILEELGG..RDARNQIGIDQAMIA.LDGTPN.....KARLGANALLGVSLA
+  VAKAAAESLSLPLYRYIGGTQ......AHILPTPMMNIINGGVHADNP.IDFQEFMIIPV
+  GAST....LKEAIRYGAEIFHTLKKRLKDA.GYN.TNVGDEGGFAP....QFKSAEQAID
+  FIMESIIACGYKPG..........EQIALGLDCAATEFYKNG...SYFYEGEG.......
+  ..........KYRDVGEQVDYLAQLIKTYP....IITIEDGMAE....DDWEGWKLLTDS
+  IG...KKCQLVGDDLFVTNSARLRDGIKMGAANSILIKVNQIGTLSETLDAVETAHKAGY
+  RAIISHRSG....ETEDSFIADLAVATNC.GQIKTGSLARSDRLAKYNQLIRIEEMLGLQ
+  .ACYAGNWYC............................
+}
+{
+name  ENO_CAUCR
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    7778
+creator    Caulobacter crescentus.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+sequence  
+  ............MTEIVDIIAREILDSR................................
+  .GNPTVEVDVILEDG.....AFGRAAVPSGASTGAHEANEKRDG....DKARYLGKGVQQ
+  AVD.AVNGEIFDALSG..VDAEDQRRVDNLMIE.LDGTPN.....KARLGANAILGVSLA
+  TAKAAAESAGLPLYKYVGGVN......ARVLPTPMMNIINGGAHADNP.IDIQEFMILPT
+  GAKD....FREGLRMGAEIFHALKKALKDA.GHN.TNVGDEGGFAP....NLASAEAALD
+  FIVKAGEKAGYKAG..........DDFVLGLDVASTEFFKNG...KYELEGEG.......
+  ..........KSLDPAAMVDYLAGLVAKFP....ILTIEDGMAE....DDFDGWKLLTDT
+  LG...KKVQLVGDDLFVTNPKRLQMGLDKGLANSILVKVNQIGTLSETIDAVELAHRHGY
+  TSVMSHRSG....ETEDSTIADLAVALNC.GQIKTGSLARSDRTAKYNQLLRIQEMLDDQ
+  .GVYAGRAALKGR.........................
+}
+{
+name  ENO_ZYMMO
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    691
+creator    Zymomonas mobilis.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    427  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        287    287  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        313    313  METAL_Magnesium By similarity
+sequence  
+  ............MTAIVSIHGRQVVDSR................................
+  .GNPTVEVDVTLEDG.....SFGRAAVPSGASTGVHEAVELRDG....DKTRWGGKGVTK
+  AVH.AVNNEIANAIIG..LEAEDQELIDQTMIK.LDGTPN.....KGKFGANAILGVSLA
+  VAKAAAEARGLPLYRYVGGTA......AHVLPVPMMNIVNGGMHADNP.IDFQEFMIAPV
+  GASS....INEAVRIGTEVFHTLKKELSAK.GMN.TNVGDEGGFAP....SLDSASSALD
+  FIVDSISKAGYKPG..........EDVFIALDAASSEFYNKDQ.NIYDLKGEG.......
+  ..........RKLTSAQLVDYYVELCGKYP....IYSIED.LAE....DDFEFWKILTEK
+  LG...DKVQLVGDDLFVTNVKRLSDGIERGIANSLLVKFNQIGSLSETLAAVNMANDASY
+  TPVMSHRSV....ETEDTTIADLAVATNC.GQIKTGSLCRSERIAKYNQLMRIEEELGSV
+  .AKYAGRSVLRKAK........................
+}
+{
+name  ENO2_CHLTE
+descrip    Enolase 2 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 2) (
+type    PROTEIN
+checksum    5371
+creator    Chlorobium tepidum.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 552 0 square solid PFAM-A 
+  FT   PFAM-A      138    437  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        251    251  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        297    297  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        324    324  METAL_Magnesium By similarity
+sequence  
+  ............MSVITRIHARQIMDSR................................
+  .GNPTVEVDVHTESS......FGRAAVPSGASTGVHEAVELRDK....DKSVFLGKGVLK
+  AVE.NVNTLINDALLG..MDVTEQEAIDAKLIE.LDGTPN.....KSKLGANAILGVSLA
+  CAKAGAEYSALPLYRYIGGTT......AKTLPVPMMNVLNGGAHADNT.VDFQEFMIMPI
+  GFER....YSDALRCGAEVFHSLKSLLHDR.GLS.TAVGDEGGFAP....NVESNEQAIE
+  LVIEAIGMAGYKAGAPTDRGGLGDGHVMIALDPASSEFYDAEK.KKYVFKKSSG......
+  ..........RELSSEEMASYWADWASRYP....IISIEDGMAE....DDWEGWKMLTDK
+  IG...GRVQLVGDDLFVTNSKRLAEGIEKGVGNSILIKVNQIGTLTETLQAIELAKRNGY
+  TSVISHRSG....ETEDTTIAQIAVATNA.GQIKTGSMSRSDRMAKYNELLRIEEELGST
+  .ALYPGIGAFRV..........................
+}
+{
+name  ENO_XANAC
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    9084
+creator    Xanthomonas axonopodis (pv. citri).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    428  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        287    287  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        314    314  METAL_Magnesium By similarity
+sequence  
+  ............MTTIAKILAREILDSR................................
+  .GNPTLEAEVTLDDG.....SFGRAAVPSGASTGTKEAVELRDG....DKTRYLGKGVRH
+  AVD.NVNGTIAETLKN..FDAADQQGLDRRLID.LDGTEN.....KGRLGANALLGVSLA
+  AAHAVAASRKQPLWQYLSTIT....EADVALPVPMMNIINGGAHADNN.VDFQEFMVLPV
+  GCSS....FSEALRAGTEIFHSLKSVLKGH.GLS.TAVGDEGGFAP....DFRSNVEALD
+  TILEAIGKAGYTAG..........EDILLGLDVASSEFYDNG...KYNLVGEN.......
+  ..........KRLTSEQFVDFLADWVAQYP....IISIEDGLAE....DDWAGWKLLTDR
+  VG...KKVQLVGDDLFVTNPKIFKQGIDSGTANAILIKVNQIGTLTETLEAIAMAHAANY
+  ASIVSHRSG....ETEDTTIADIAVATTA.TQIKTGSLCRSDRVAKYNQLLRIEQALGSG
+  .ARYAGRDAFVSIKR.......................
+}
+{
+name  ENO_FUSNN
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    9121
+creator    Fusobacterium nucleatum (subsp. nucleatum).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    432  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        243    243  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        291    291  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        318    318  METAL_Magnesium By similarity
+sequence  
+  ............MTGIVEVIGREILDSR................................
+  .GNPTVEVDVILECG.....AKGRAAVPSGASTGSHEAVELRDE....DKGRYLGKGVLK
+  AVN.NVNTEIREALLG..MDALNQVEIDKVMLE.LDRTPN.....KGRLGANAILGVSLA
+  VAKAAAEALGQPLYKYLGGVN......SKELPLPMMNILNGGAHADSA.VDLQEFMIQPV
+  GAKS....FREAMQMGAEVFHHLGKILKAN.GDS.TNVGNEGGYAP.S..KIQGTEGALA
+  LISEAVKAAGYELG..........KDITFALDAASSEFCKEVN.GKYEYHFKREGG....
+  ..........VVRTTDEMIKWYEELINKYP....IVSIEDGLGE....DDWDGWVKLTKA
+  IG...DRVQIVGDDLFVTNTERLKKGIELGAGNSILIKLNQIGSLTETLDAIEMAKRAGY
+  TAVVSHRSG....ETEDATIADVAVATNA.GQIKTGSTSRTDRMAKYNQLLRIEEELGSV
+  .AQYNGRDVFYNIKK.......................
+}
+{
+name  ENO_AQUAE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    6219
+creator    Aquifex aeolicus.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 202 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    424  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        283    283  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+sequence  
+  ............MSRIKRVHGREVLDSR................................
+  .GNPTVEVEVELESG.....ALGRAIVPSGASTGEREALELRDG....DPKRYLGKGVLK
+  AVD.NVNGVIAKALVG..LEPYNQREIDQILIE.LDGTEN.....KSKLGANAILGTSMA
+  VARAAANELGIPLYEYLGGKFG......YRLPVPLMNVINGGAHADNN.LDIQEFMIVPV
+  CGGA....FREALRAGVETFHHLKKILKEK.GYS.TNVGDEGGFAP....NLNSSEEALD
+  ILMQAIEKAGYKPG..........EDILLALDVASSEFYENG...VYKFEGKE.......
+  ............RSAEEMIEFYEKLIQKYP....IISIEDPMSE....NDWEGWKEITKR
+  LG...DKVQLVGDDLFTTNPKILRKGIEEGVANAILVKLNQIGTVSETLDTVMLAKERNY
+  SAIISHRSG....ETEDTFISHLAVATNA.GQIKTGSASRTDRIAKYNELLRIEERLGNG
+  .AVFWGREEFYRFTS.......................
+}
+{
+name  ENO_THEMA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    5866
+creator    Thermotoga maritima.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      140    427  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        4    135  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        156    156  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        243    243  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        286    286  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        313    313  METAL_Magnesium By similarity
+sequence  
+  ...........MYVEIVDVRAREVLDSR................................
+  .GNPTVEAEVVLEDG.....TMGRAIVPSGASTGKFEALEIRDK....DKKRYLGKGVLK
+  AVE.NVNETIAPALIG..MNAFDQPLVDKTLIE.LDGTEN.....KSKLGANAILAVSMA
+  VARAAANYLGLPLYKYLGGVN......AKVLPVPLMNVINGGQHADNN.LDLQEFMIVPA
+  GFDS....FREALRAGAEIFHTLKKILHEA.GHV.TAVGDEGGFAP....NLSSNEEAIK
+  VLIEAIEKAGYKPG..........EEVFIALDCAASSFYDEEK.GVYYVDGEE.......
+  ............KSSEVLMGYYEELVAKYP....IISIEDPFAE....EDWDAFVEFTKR
+  VG...NKVQIVGDDLYVTNVKRLSKGIELKATNSILIKLNQIGTVTETLDAVEMAQKNNM
+  TAIISHRSG....ESEDTFIADLAVATNA.GFIKTGSLSRSERIAKYNQLLRIEEELGKV
+  .AEFRGLKSFYSIKR.......................
+}
+{
+name  ENO1_STRCO
+descrip    Enolase 1 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 1) (
+type    PROTEIN
+checksum    1932
+creator    Streptomyces coelicolor.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    424  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        283    283  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+sequence  
+  ............MPSIDVVVAREILDSR................................
+  .GNPTVEVEVGLDDG.....STGRAAVPSGASTGAFEAIELRDG....DPSRYLGKGVEK
+  AVL.AVIEQIGPELVG..YDATEQRLIDQAMFD.LDATDN.....KGSLGANAILGVSLA
+  VAHAASEASDLPLFRYLGGPN......AHLLPVPMMNILNGGSHADSN.VDIQEFMIAPI
+  GAES....FSEALRWGAEVYHTLKKVLKNK.GLA.TGLGDEGGFAP....NLGSNREALD
+  LILEAIKEAGYTPG..........EQIALALDVAASEFYKDG...SYAFEGKN.......
+  ............RSAAEMTEYYAELVEAYP....LVSIEDPLFE....DDWDGWNTITAK
+  LG...DKVQLVGDDLFVTNPERLARGIEENSANALLVKVNQIGSLTETLDAVELAQRNGF
+  KCMMSHRSG....ETEDVTIADLAVATNC.GQIKTGAPARSERVAKYNQLLRIEEILDDA
+  .AVYAGRSAFPRFKG.......................
+}
+{
+name  ENO_COREF
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    4696
+creator    Corynebacterium efficiens.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      138    423  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        241    241  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        282    282  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        309    309  METAL_Magnesium By similarity
+sequence  
+  ............MAEIMHVFAREIMDSR................................
+  .GNPTVEAEVFLDDG.....SHGVAGVPSGASTGVHEAHELRDG....GD.RYLGKGVLK
+  AVE.NVNEEIGDELAG..LEADDQRLIDAAMIK.LDGTEN.....KSRLGANAILGVSMA
+  VAKAAADSAGLPLFRYIGGPN......AHVLPVPMMNIINGGAHADSG.VDVQEFMIAPI
+  GFDS....FSEALRAGAEVYHALKKVINEK.GLS.TGLGDEGGFAP....SVESTRAALD
+  LIVEAIKKAGFEPG..........KDIALALDVASSEFFKDG...KYHFEGGE.......
+  ............HTAEEMANVYAELVDEYP....IVSIEDPLQE....DDWDGYVALTAQ
+  IG...DKVQIVGDDFFVTNPARLKEGIAKKAANSILVKVNQIGTLTETFDAVDMAHRAGY
+  TSMMSHRSG....ETEDTTIADLAVALNC.GQIKTGAPARSDRVAKYNQLLRIEQLLGDA
+  .AVYAGRSAFPRFQG.......................
+}
+{
+name  ENO_MYCLE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    4668
+creator    Mycobacterium leprae.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      138    424  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        241    241  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        283    283  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+sequence  
+  ............MPVIEQVGAREILDSR................................
+  .GNPTVEVEVVLIDG.....TFARAAVPSGASTGEYEAVELRDG....DG.RYGGKGVKR
+  AVD.AVLDEIGPVVIG..LNANDQRLIDQELLD.LDGTPD.....KSRLGGNAILGVSLA
+  VAKAAADSAELPLFRYIGGSN......AHILPVPMMNILNGGAHADTA.VDVQEFMVAPI
+  GAPS....FVEALRWGAEVYHALKSVLKKK.GLS.TGLGDEGGFAP....EVAGTTAALD
+  LVTLAIEAAGFKPG..........ADVALALDAAATEFYTDG..IGYHFEGMT.......
+  ............HTADQMTEFYADLLGSYP....LVSIEDPLSE....DDWDGWAALTAS
+  IG...EQVQIVGDDIFATNPERLEEGIGRGVANALLVKVNQIGTLTETLEAVALAHHSGY
+  RTMISHRSG....ETEDTMIADLVVALGS.GQIKTGAPARSERVAKYNQLLRIEEELGDA
+  .ARYAGDLAFLRYVVETR....................
+}
+{
+name  ENO_DESVM
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    1028
+creator    Desulfovibrio vulgaris (strain Miyazaki).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+sequence  
+  ............MSTIVSVWAREILDSR................................
+  .GNPTVEVEVSLESG.....HTGRAAVPSGASTGSREALEMRDG....DKGRYKGKGVEK
+  AVD.NVMGEIAEAIVG..LDSLRQVQVDNTLLD.LDGTDN.....KSRLGANAMLGVSLA
+  TARAASSFLGLPLYQYLGGVN......AKVLPVPLMNIINGGAHAPNN.LDIQEFMIMPI
+  GAAT....FRDALRMGAETFHTLKALLAAD.GHV.TSVGDEGGFAP....NLKNHDEAFR
+  YIMKAIEEAGYIPG..........AEIALAIDAAASEFHKDG...KYVLAGEG.......
+  ..........KNLSNSEMVEWLGEFTTRYP....LISIEDGLAE....ADWDGWRELTYK
+  LG...DTIQLVGDDIFVTNPDILAEGIDEGVANSILIKLNQIGTLTETLDTIEMAKQAAY
+  TTVISHRSG....ETEDHFISDLAVGLNA.GQIKTGSLCRSDRLAKYNQLLRIEEDLDDT
+  .GIYFGPMMSSHFGFEEEGEE.................
+}
+{
+name  ENO_DEIRA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    1577
+creator    Deinococcus radiodurans.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 551 0 square solid PFAM-A 
+  FT   PFAM-A      137    422  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    132  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        153    153  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        240    240  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        283    283  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+sequence  
+  .............MNIEKVIAREVLDSR................................
+  .GNPTVEAEVHLDSG.....FSGRAIVPSGASTGSHEALELRDG....GE.RYMGKGVER
+  AVQ.NVREALGPALIG..MDASEQAAIDKALMD.VDGTSN.....KGNMGGNAILAVSLA
+  TARAAAAELDIPLYRYLGGSN......AKTLPVPMMNVINGGAHADNS.VDFQEFMVMPV
+  GAPS....FREALRYGAETFHHLKKVLSGR.GYN.TNVGDEGGFAP....DLKSNEEALE
+  VLLEAIQQAGYEPG..........KDICIALDPAVTELYKDG...QYHLESEG.......
+  ..........RVLSSDEMIDFWADWTSRYP....IVSIEDGLAE....DDWDGWERLTAK
+  VG...AKTQLVGDDLFVTNPERLQQGIDRKVGNAILVKVNQIGSLTESMDAIELAKRHHY
+  GTIISHRSG....ESEDAFIADLAVATNA.GQIKTGSASRSDRIAKYNQLLRIEDQLGDR
+  .AVFPGRKALR...........................
+}
+{
+name  ENO_SYNEL
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    6159
+creator    Synechococcus elongatus (Thermosynechococcus elongatus).Bact
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        5    136  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+sequence  
+  ..........MMDTAIATIRAREILDSR................................
+  .GRPTVEAEVELECG.....IVGLAQVPSGASTGSFEAHELRDG....DPKRYGGKGVLS
+  AVE.NIETRILSALVD..LNALDQTVIDQCLLE.LDGSEN.....KSNLGANAILAVSLA
+  TAKAAAEYLGQPLYRYLGGPL......ANVLPVPMMNVINGGAHAANN.IDFQEFMIMPI
+  GAPS....FREGLRWGAEVFAALSKVLADK.GLL.TGVGDEGGFAP....NLDSNQAALD
+  ILLQAIETAGYRPG..........TDVALALDVAANEFYEDG...KYVFDNTS.......
+  ............RTASELIRYYDQLVSTYP....IISIEDGLQE....EDWDNWALLTET
+  LG...SRIQLVGDDLFVTNPKRLQRGIDNGVANAILIKLNQIGSLTETLQTIDLATRKGY
+  RAVISHRSG....ETEDTTIADLAVATRA.GQIKTGSLCRSERVAKYNRLLRIEAELGDQ
+  .AVYAPKVGLGPR.........................
+}
+{
+name  ENO_ANASP
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    5923
+creator    Anabaena sp. (strain PCC 7120).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      144    429  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        8    139  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        160    160  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        247    247  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        288    288  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        315    315  METAL_Magnesium By similarity
+sequence  
+  .......MNNIVDTAIEAIVAREILDSR................................
+  .GRPTIEAEVHLLSG.....AVGLAQVPSGASTGTFEAHELRDK....DKSRYGGKGVLK
+  AVH.NVNEILAPKLID..LDALNQELIDRTMIA.LDGSGN.....KSNLGANAILAVSLA
+  AARAGAESLGIPLYRYLGGPL......ANLLPVPLMNVINGGAHASNN.VDFQEFMIVPV
+  GATS....FREALRWGAEVFATLSEVLHDK.GLL.TGVGDEGGFAP....NLESNQVALE
+  LLVAAIEKAGYKPG..........EQVALALDVAASEFYKEG...QYVYDGRP.......
+  ............HAPTEFIDYLGQLVDQYP....IVSIEDGLHE....EDWQHWQLLTQK
+  VG...SRVQLVGDDLFVTNATRLQKGIQEKAGNAILIKLNQIGSLTETLETIDLGTRNGF
+  RSVISHRSG....ETEDTTIADLAVATRA.GQIKTGSLCRSERVAKYNRLLRIEDELGDR
+  .AVYAGAVGLGPK.........................
+}
+{
+name  ENO2_STRCO
+descrip    Enolase 2 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 2) (
+type    PROTEIN
+checksum    2991
+creator    Streptomyces coelicolor.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      147    434  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A       11    142  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        163    163  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        250    250  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        293    293  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        320    320  METAL_Magnesium By similarity
+sequence  
+  ....MSATAVEPAAAIETVTARRIIDSR................................
+  .GNPTVEVDVVLEDG.....SLGRAAVPSGASTGAREAVELRDE....DPTRWHGKGVDR
+  AVA.HVNGEIAASVRG..RDAADQAGLDAALIA.LDGTAA.....KSRLGANALLGVSLA
+  AAKAAAAARRQPLYRYLGGAD......AHLLPLPMMNIVNGGAHADNP.LDFQEFMIVPV
+  GADT....FAEAVRMGSEVFHTLRRDLLAA.GHS.TGVGDEGGFAP....ALRTAEEALD
+  FVVAAIERTGYRAG..........PDIGLVMDPASSEFFRDG...GYDYAGEG.......
+  ..........VRRSPAEHADHLAGLIDAYP....VVSIEDPMAE....DDLDGWRELTDR
+  VG...DRCQLTGDDVFCTDEALVREGIRTGVGNSVLVKVNQIGTLTEALATVATAHEAGW
+  TVVMSHRSG....ETEDTTIADLAVATGC.GQIKTGSLSRSDRTAKYNRLIRIEEELGAS
+  .ARFAGRSALRRV.........................
+}
+{
+name  ENO1_PSESM
+descrip    Enolase 1 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 1) (
+type    PROTEIN
+checksum    2137
+creator    Pseudomonas syringae (pv. tomato).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        246    246  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        288    288  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        315    315  METAL_Magnesium By similarity
+sequence  
+  ............MAKIVDIKGREVLDSR................................
+  .GNPTVEADVLLDNG.....IIGSACAPSGASTGSREALELRDG....DKSRYMGKGVLK
+  AVA.NINGPIRDLLLG..KDPVDQKALDHAMIA.LDATEN.....KASLGANAILAVSLA
+  AAKAAAQDQDLPLYAHIANLNG..TPGVYSMPVPMMNIINGGEHADNN.IDIQEFMIQPV
+  GAKS....FAEALRWGTEIFHHLKAVLKAR.GLN.TAVGDEGGFAP....NLASNKEALE
+  AIAEAVANAGYTLG..........TDVTLALDCAASEFYKNG...KYTLSEEG.......
+  ...........EYSSAEFAEYLAELTRKHP....IISIEDGLDE....SDWDGWKVLTEK
+  IG...EKVQLVGDDLFVTNTKILKEGIDKNIANSILIKFNQIGTLTETLEAIQMAKAAGY
+  TAIISHRSG....ETEDSTIADLAVGTSA.GQIKTGSLCRSDRVSKYNQLLRIEEQLGSK
+  .AVYRGRAEFRG..........................
+}
+{
+name  ENO_AERHY
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    2303
+creator    Aeromonas hydrophila.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      143    432  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        246    246  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        291    291  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        318    318  METAL_Magnesium By similarity
+sequence  
+  ............MSKIVKVIGREIIDSR................................
+  .GNPTVEAEVHLEGG.....FVGMAAAPSGASTGSREALELRDG....DKSRFLGKGVLK
+  ALE.AVNGPIAQALLG..KDAKDQATVDQIMID.LDGTEN.....KSKFGANAILAVSLA
+  NAKAAAAAKGMPLYAHIAELNG..TPGVYSMPLPMMNIINGGEHADNN.VDIQEFMIQPV
+  GAKT....LKEAVRMGAEVFHNLAKVLKSK.GYN.TAVGDEGGFAP....NLKSNAEALE
+  VIAEAVAAAGYKLG..........TDVTLAMDCAASEFYDAEK.KEYNLKGEG.......
+  ..........RVFTSNGFSDFLEELTAKFP....IVSIEDGLDE....SDWEGFAYQTQK
+  LG...KKIQIVGDDLFVTNTKILKRGIDNGIANSILIKFNQIGSLTETLAAIKMAKDAGY
+  TAVISHRSG....ETEDATIADLAVGTAA.GQIKTGSMSRSDRVAKYNQLIRIEEALGAK
+  .APFRGLKEVKNQA........................
+}
+{
+name  ENO_BUCAI
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    3180
+creator    Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      143    433  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        246    246  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        291    291  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        318    318  METAL_Magnesium By similarity
+sequence  
+  ............MSKITKIIAREIIDSR................................
+  .GNPTVESEVHLEGG.....FVGLASSPSGASTGSLEALELRDE....NKDRFMGKGVEK
+  AVS.LINEKISIALKN..KNARNQSDIDHIMID.LDGTIN.....KSKLGANAILSVSLA
+  VAKAAAASKRMPLYAHIAEIN..ETPGVFSMPLPMINIINGGKHANNN.IDIQEFMIQPI
+  SAKT....VKESIRIGCEIFHALGELLKEK.GMS.TTVGDEGGYAP....NLKSNEEALN
+  IIQDAIQKTKYKLG..........QDIRLAIDCAASELYNKNE.KKYNLKGEN.......
+  ..........ISFSSKEFTHYLEKLSQKYP....IVSIEDGQDE....SDWEGFLYQTHV
+  LG...NKIQLVGDDLFVTNKNILKKGIKKGIANSILIKLNQIGTLTETLEAIKTAKQANY
+  GVIISHRSG....ETEDASIADLSVGTSS.GQIKTGSMSRSDRTSKYNQLIRIEENLGTK
+  YAPFHGLREIKSAF........................
+}
+{
+name  ENO_WIGBR
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    222
+creator    Wigglesworthia glossinidia brevipalpis.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      143    432  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        246    246  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        291    291  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        318    318  METAL_Magnesium By similarity
+sequence  
+  ............MSKIIKVIGREIIDSR................................
+  .GYPTVEAEVHLLGG.....IIGRASSPSGISIGSREAHEVRDR....DNSRFLGEGVTK
+  AVK.SINNKISKSLIS..KNAQKQKDIDQIMIN.LDGTKN.....KSNLGANAILAVSLA
+  NAKAASKIKNIPLYKHISEINN..TPGIFSMPLPMINIINGGKHTNNN.IDIQEFMIQPI
+  GAKS....IKQAIQMGSEIFHNLGKILNEK.GMS.TSIGDEGGYSP....NLKSNSNAFV
+  LIKEAVKRSKYHIG..........RDITFAIDCAASEFFEEST.QSYYLKSEN.......
+  ..........NFFSSYEFVLFLKKLTEEYP....ILSIEDGLHE....NDWEGFSMLTNY
+  LG...NKIQLVGDDLFTTNPKFLKYGIKKGIANSILIKPNQIGSLTETLEVIKIAKKYGY
+  ATIISHRSG....ETEDVTIADLSVGTSS.GQIKTGSMSRSDRTAKYNRLIRIEEELGSN
+  .AIFHGKMEIKNQFIYSNNNLKNF..............
+}
+{
+name  ENO_BUCBP
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    6508
+creator    Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 551 0 square solid PFAM-A 
+  FT   PFAM-A      143    431  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        246    246  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        291    291  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        318    318  METAL_Magnesium By similarity
+sequence  
+  ............MSKIKKIISREIIDSR................................
+  .GYPTIESEVHLQNG.....SIGLASIPSGASTGSREALELRDN....DPLRYFGKGVKT
+  AVS.IVNTSISSAIYN..QDAYDQENIDKIMIN.LDGTKN.....KSKIGANSILSVSIA
+  TAKAAAQSKKIPLYQYISELHG..IKEELLMPLPMMNIINGGKHADNN.IDIQEFMIQPI
+  KANT....IKEAIQIGAEVFYTLGLILKRR.GFN.TTVGDEGGYAP....NLKSNESAFL
+  ILSEAVSQSGYMLG..........KDITFCIDCAASELYNSKT.KTYKLTSEQ.......
+  ..........KKFTSYEFTNYLSALVDKYP....ITSIEDGLDE....SDWNGFKYQTKK
+  LG...KKIQLVGDDLFVTNTNILKKGIQNNIANTILIKLNQIGTLTETLNAIKLAQNSNY
+  NTVISHRSG....ETEDTTISDLAVGTNS.GQIKTGSVCRSERTAKYNQLIRIEEKLGAK
+  TKIFKNFYFNI...........................
+}
+{
+name  ENO_BIFLO
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    2478
+creator    Bifidobacterium longum.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+sequence  
+  ............MAVIESVYARQILDSR................................
+  .GNPTVQVVLDTEDG.....AQGLGLVPSGASTGEAEAWERRDG....DKSVYGGKGVLN
+  AVK.AVNEVIAPKVIG..MDAADQRALDDLMIE.LDGTPN.....KGKLGANAILGVSLA
+  ALYASAESAGLPLYRYIGGTN......GHILPVPNMNIMNGGAHADFA.TDIQEYMISPY
+  GFDT....YSEALRAGVEVYHTLKNVLKKE.GLN.TGLGDEGGFAP....KMKSNEDSLK
+  YIMDAISAAGYEPG..........KQIGICLDVASSEFYNKET.GKYRFDGEE.......
+  ............RDSAYMLDYYENLINEYP....IVSIEDPFNE....EGWEDWAAITAR
+  LG...DRLQFVGDDLLVTNPARLQKAIDLGAANSLLVKLNQIGSVTETLDAIELATANGY
+  TSMVSHRSG....ETPDTTISDLAVAKNT.RQIKTGAPARGERVAKYNRLLEIEEELGST
+  .AQYAGYSAFKACKKYLAK...................
+}
+{
+name  ENO_TREPA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    1784
+creator    Treponema pallidum.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    430  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        241    241  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        289    289  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        316    316  METAL_Magnesium By similarity
+sequence  
+  ............MSDIACIEAREIIDSR................................
+  .GNPTVEVDVSLSDG.....SFGRACVPSGASTGEFEALEMRDG....DKERYNGKGVLK
+  AVG.TVNTLIADTLEG..MDALNQGEIDHAMRN.LDGTDN.....KSKLGANAMLGVSMA
+  CARAAADFLGVPLYRYLGGVH......TFRMPVPMANIINGGKHSDNK.IDFQEFMVMPI
+  GAAS....MREAVRMTAEVFHALKGLLAAD.GKA.TSVGDEGGFAP.....DLDNEQALE
+  YIMKAIAKAGLAPR..........KDVCIALDCASSELFDEGDRRGYKFWKSNPG.....
+  ..........KLFTAQEMIDLYKKWIATYP....IVSIEDPLDQ....NDWAGYVQLTKE
+  LG...DKVQIVGDDFFVTNTGRLARGIKEGSCNSILIKLNQIGTVTETVDAVRMAQNAGY
+  AAVISHRSG....ETEDAFIADLAVALET.GQIKTGSMSRSDRVAKYNQLMRIEEELGAQ
+  .ARYYGAKTFERFGC.......................
+}
+{
+name  ENO_CAMJE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    7909
+creator    Campylobacter jejuni.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 534 0 square solid PFAM-A 
+  FT   PFAM-A      138    403  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        239    239  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        280    280  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        307    307  METAL_Magnesium By similarity
+sequence  
+  ............MLVIEDVRAYEVLDSR................................
+  .GNPTVKAEVTLSDG.....SVGAAIVPSGASTGSKEALELRDN....DE.RFGGKGVLK
+  AVA.NVNETIADEILG..LDAFNQTQLDDTLRE.LDGTNN.....YSNLGANATLGVSMA
+  TARAAAAALGMPLYRYLGGAN......ASILPVPMCNIINGGAHANNN.VDFQEFMIMPF
+  GFTS....FKEALRSVCEIYAILKKELANS.GHS.TALGDEGGFAP....NLANNTEPID
+  LLMTCIKKAGYEN............RVKIALDVASTEFFKDG...KYHMEGKA.......
+  ............FSSEALIERYVELCAKYP....ICSIEDGLAE....NDFEGWIKLTEK
+  LG...NKIQLVGDDLFVTNEDILREGIIKKMANAVLIKPNQIGTITQTMRTVRLAQRNNY
+  KCVMSHRSG....ESEDAFIADFAVALNT.GQIKTGALARGERTAKYNRLLEIEFESDE.
+  ...YLGEKL.............................
+}
+{
+name  ENO_HELPJ
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    3312
+creator    Helicobacter pylori J99 (Campylobacter pylori J99).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      139    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        286    286  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        313    313  METAL_Magnesium By similarity
+sequence  
+  ............MLTIKDIHALEVMDSR................................
+  .GNPTIQASVILSDN.....TKASAIVPSGASTGKREALELRDN....DKTRFLGKGVLR
+  ACE.NVNSVIKHHLIG..LEATNQAFVDERLRA.LDGTPN.....YANLGANAVLGVSMA
+  LARASAKALNLPLYRYLGGAN......ALTLPVPMLNIINGGTHANNS.IDFQEYMIMPL
+  GFES....FKEALRASAEVYHTLKKLLDEK.NQL.TSVGDEGGFAP....NFNNNVEPLE
+  IISQAIEKAGYKLG..........EEIALALDVASSELVDEH..FNYHLKGEN.......
+  ..........KILDSHELVAYYKELVAKYP....IVSIEDGLSE....DDWEGWAFLSKE
+  LG...RQIQLVGDDLFVTNASILQKGIEKNVANAILIKPNQIGTISETLETIRLAKHHAY
+  QCVISHRSG....ESEDSFIADFAVALNT.GEIKTGSTARSERIAKYNRLLEIEHELKGG
+  ..IYIGKELFKHG.........................
+}
+{
+name  ENO_CHLCV
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    9142
+creator    Chlamydophila caviae.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        283    283  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+sequence  
+  ..........MLEVVISDIQAREILDSR................................
+  .GYPTLYVKVTTDAG.....TFGEACVPSGASTGIKEALELRDQ....DSSRFQGKGVLQ
+  AVK.NVKEVLLPVLQG..ISIFDQILIDSIMVE.ADGTPN.....KEKLGANAILGVSLA
+  SAKAAAATLGRSFYRYLGGCF......AHVLPCPMMNLINGGMHANNG.LQFQEFMIRPI
+  GATS....LKEAVRMGADVFHSLKNILNEK.NLA.TGVGDEGGFAP....QLKSNSEALD
+  LLVLAIEKAGFQPG..........EDISLALDCAASSFYDTK...AETYDG.........
+  ............KSYEEQVNILADLCDRYP....IDSIEDGLAE....EDFDGWELLTAE
+  LG...ESIQIVGDDLFVTNPELIADGISRGLANAVLIKPNQIGTLTETSEAIQLAHSQGY
+  TTILSHRSG....ETEDTTIADLAVAFNT.GQIKTGSLSRSERIAKYNRLMAIEEELGPE
+  .GLFKDSNPFSGE.........................
+}
+{
+name  ENO_CHLTR
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    137
+creator    Chlamydia trachomatis.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    424  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        5    136  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        283    283  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+sequence  
+  ..........MFDVVISDIEAREILDSR................................
+  .GYPTLCVKVITNTG.....TFGEACVPSGASTGIKEALELRDK....DPKRYQGKGVLQ
+  AIS.NVEKVLMPALQG..FSVFDQITADAIMID.ADGTPN.....KEKLGANAILGVSLA
+  LAKAAANTLQRPLYRYLGGSF......SHVLPCPMMNLINGGMHATNG.LQFQEFMIRPI
+  SAPS....LTEAVRMGAEVFNALKKILQNR.QLA.TGVGDEGGFAP....NLASNAEALD
+  LLLTAIETAGFTPR..........EDISLALDCAASSFYNTQ...DKTYDG.........
+  ............KSYADQVGILAELCEHYP....IDSIEDGLAE....EDFEGWKLLSET
+  LG...DRVQLVGDDLFVTNSALIAEGIAQGLANAVLIKPNQIGTLTETAEAIRLATIQGY
+  ATILSHRSG....ETEDTTIADLAVAFNT.GQIKTGSLSRSERIAKYNRLMAIEEEMGPE
+  .ALFQDSNPFSKA.........................
+}
+{
+name  ENO_CHLPN
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    9798
+creator    Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      141    424  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        5    136  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        157    157  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        283    283  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+sequence  
+  ..........MFEAVIADIQAREILDSR................................
+  .GYPTLHVKVTTSTG.....SVGEARVPSGASTGKKEALEFRDT....DSPRYQGKGVLQ
+  AVK.NVKEILFPLVKG..CSVYEQSLIDSLMMD.SDGSPN.....KETLGANAILGVSLA
+  TAHAAAATLRRPLYRYLGGCF......ACSLPCPMMNLINGGMHADNG.LGFQEFMIRPI
+  GASS....IKEAVNMGADVFHTLKKLLHER.GLS.TGVGDEGGFAP....NLASNEEALE
+  LLLLAIEKAGFTPG..........KDISLALDCAASSFYNVK...TGTYDG.........
+  ............RHYEEQIAILSNLCDRYP....IDSIEDGLAE....EDYDGWALLTEV
+  LG...EKVQIVGDDLFVTNPELILEGISNGLANSVLIKPNQIGTLTETVYAIKLAQMAGY
+  TTIISHRSG....ETTDTTIADLAVAFNA.GQIKTGSLSRSERVAKYNRLMEIEEELGSE
+  .AIFTDSNVFSYEDSEE.....................
+}
+{
+name  ENO1_CHLTE
+descrip    Enolase 1 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 1) (
+type    PROTEIN
+checksum    154
+creator    Chlorobium tepidum.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      138    426  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        241    241  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+sequence  
+  .............MKIQNVNAIEILDSR................................
+  .GNPTVEVNLKLEDG.....TISRAMVPSGASTGEREATELRDG....DKKRYGGKGVLK
+  AVE.NVNSAIAKAIEN..KHFTNQRELDYFLIE.LDETNN.....KSKLGANAILGVSMA
+  FARAKAQSSRTPLYQYLGGSN......AHIMPVPCMNVINGGKHADNT.IDFQEFMIAPH
+  NAPS....FRESIRMGEEVFHALKAVLKLK.GLS.TGVGDEGGFAP....DLKSNEQAVE
+  MILEGITKAGYKPS..........VDVSICLDPASSEMWENG...KYKFFKSTQKL....
+  ............VSSDEMVKLWESWVNQYP....IVLLEDGMAE....NDWEGWKNLTDV
+  IG...NKIEIVGDDLFCTNKSILLNGINKGVANSILIKLNQIGTVTETLETIELAYKNSY
+  NCFVSHRSG....ETVDSFIADLTVGINA.GHLKSGSGCRGERIEKFNQLMRIENELGKS
+  .AQFAGLKAFKNAK........................
+}
+{
+name  ENO2_PSESM
+descrip    Enolase 2 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 2) (
+type    PROTEIN
+checksum    9450
+creator    Pseudomonas syringae (pv. tomato).Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 224 224 0 square solid SITE 
+  FT   SITE        156    156  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        244    244  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        287    287  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        314    314  METAL_Magnesium By similarity
+sequence  
+  ...........MKTQIQAIHAREILDSR................................
+  .GNPTVEVDVTLECG.....AMGRASVPSGASTGAHEAVELRDK....DTQRYSGKGVLK
+  AVS.NVNTEILESVRG..MNAIDQEQIDHLMIK.LDGTSD.....KSRLGGNAILGVSLA
+  VARAAASALNLPLFQYLGGEQ......AARMPVPMFNILNGGVHANWQGPDFQEFMIAPT
+  GAGS....FKEALRWGSEVYHELKAVLKDA.GYS.TAVGDEGGFAP....ALKKNSDAIE
+  LIIKAIERAGYTPG..........SQIEIAIDPASSGFYENG...LYHLRSEG.......
+  ..........RKVDAQELINLYSSWVDKYP....IAVLEDGLAE....DDWSGWKLLNAA
+  LG...DRIELVGDDLFVTNVERIQRGITENVANAVLIKPNQIGTLTETKAAIEMAYGANW
+  GAMVSHRSG....ETVDSSIADLTVAMGT.GHLKTGAPCRGERVEKYNQFLRIEEDLGSR
+  .AFYAGHDAFVR..........................
+}
+{
+name  ENO_MYCPN
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    23
+creator    Mycoplasma pneumoniae.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      153    451  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A       11    142  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        169    169  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        256    256  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        337    337  METAL_Magnesium By similarity
+sequence  
+  ....MSAQTGTDLFKIADLFAYQVFDSR................................
+  .GFPTVACVVKLASG.....HTGEAMVPSGASTGEKEAIELRDG....DPKAYFGKGVSQ
+  AVQ.NVNQTIAPKLIG..LNATDQAAIDALMIQ.LDGTPN.....KAKLGANAILAVSLA
+  VAKAAASAQKTSLFKYLANQVMGLNKTEFILTVPMLNVINGGAHADNN.IDFQEFMIMPL
+  GANS....MHQALKMASETFHALQKLLKQR.GLN.TNKGDEGGFAP....NLKLAEEALD
+  LMVEAIKAAGYQPG..........SDIAIALDVAASEFYDDTT.KRYVFKKGIKAKILDE
+  ........KEWSLTTAQMIAYLKKLTEQYP....IISIEDGLSE....HDWEGMETLTKT
+  LG...QHIQIVGDDLYCTNPAIAEKGVAHKATNSILIKLNQIGTLTETIKAINIAKDANW
+  SQVISHRSG....ETEDTTIADLAVAACT.GQIKTGSMSRSERIAKYNRLLQIELELGNN
+  .AKYLGWNTFKNIKPQKA....................
+}
+{
+name  ENO_MYCGE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    8849
+creator    Mycoplasma genitalium.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      153    451  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A       11    142  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        169    169  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        256    256  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        310    310  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        337    337  METAL_Magnesium By similarity
+sequence  
+  ....MGSSNLNINSKITDIFAYQVFDSR................................
+  .GVPTVACVVKLASG.....HVGEAMVPSGASTGEKEAIELRDN....DPKNYFGKGVNE
+  AVD.NVNKVIAPKLIG..LNAFDQLTVDQAMIK.LDNTPN.....KAKLGANAILSVSLA
+  VSKAAAKAQNSSLFQYISNKLIGLNTTNFVLPVPMLNVINGGAHADNY.IDFQEFMIMPL
+  GAKK....MHEALKMASETFHALQNLLKKR.GLN.TNKGDEGGFAP....NLKLAEDALD
+  IMVEAIKLAGYKPW..........DDIAIAIDVAASEFYDEDK.KLYVFKKGIKANILNA
+  ........KDWSLTSKEMIAYLEKLTKKYP....IISIEDGLSE....NDWEGMNQLTKT
+  IG...SHIQIVGDDTYCTNAELAKKGVAQNTTNSILIKLNQIGSISETIQTIEVAKKANW
+  SQVISHRSG....ETEDTTIADLAVAAQT.GQIKTGSMSRSERIAKYNRLLYIEIELGDK
+  .GKYLGWNTFTNIKPKNFNI..................
+}
+{
+name  ENO_MYCPE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    871
+creator    Mycoplasma penetrans.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      149    449  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        7    138  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        165    165  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        254    254  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        308    308  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        335    335  METAL_Magnesium By similarity
+sequence  
+  ........MFGSKFKICKIEAYEVIDSR................................
+  .GFPTVAAKVYAKNG.....VFAKAMVPSGASTGEREAVELRDG....DKERFNGKGVLK
+  AVN.NVNTIIAPKVVG..MDCRQQTKIDELMIS.LDGTPN.....KAKLGANAILAVSLA
+  VAKLAAMIEEKPLYKYIRQNIMGDSSDSWTMPVPMLNVINGGAHADNT.IDFQEFMFMPV
+  GAKS....LKEAVRMASECFHSLQSILKSK.KLD.TNKGDEGGFAP....NLKNADEALK
+  LMVEAVEKAGYKPG........VDADVAFALDPATSELFDADK.KTYTFEKALKAKILTA
+  ........KDAVKKSEDMVKYWDGLCKKYP....IISIEDGLAE....NDWDGFQLMVKD
+  LG...SRVQIVGDDLFCTNPKIVKEGISKGVANSVLIKVNQIGTLTETIETIKAAHAAGW
+  TCVVSHRSG....ETEDTTIADIAVGLST.GQIKTGSMSRSERIAKYNRLIEIENELGSK
+  .AHYPGKSTFKSIK........................
+}
+{
+name  ENOB_LACPL
+descrip    Enolase 2 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 2) (
+type    PROTEIN
+checksum    2607
+creator    Lactobacillus plantarum.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 224 224 0 square solid SITE 
+  FT   SITE        155    155  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        242    242  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        286    286  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        313    313  METAL_Magnesium By similarity
+sequence  
+  ..........MEKQVIETVKAREIFDSR................................
+  .GNPTVEADVILSDG.....TLGRAEVPSGASTGEKEAVELRDG....GD.RLAGKGVLK
+  AVN.NVNTVINHALHG..ADPFNQAHIDQIMID.LDGTPN.....KARLGANAILGVSMA
+  TARAAANALQQPLYRYLGGTD.......LELPQTFHNVINGGEHADNG.IDIQEFMITPV
+  ERTS....FRDGFEKIVNTYHTLKKVIEDA.GYT.SGLGDEGGFAP....DLKNSEEALQ
+  MLHDAIIKAGYTPG..........KEIAIAFDAAASYFYNRTT.HNYDFEGKT.......
+  ............YTPAALGDYYLQLLAKFP...EIVSIEDPYGE....EDWDNFASFTAA
+  HG...DQLQIVADDPVCTNPQLIRQAIQRGMANNILIKLNQIGTVTETLAAIRLARKNGY
+  ATMMSHRSG....ETGDTFVADFTVATNA.AQLKAGAPARSERVEKYNQLLRIEEELGAD
+  ...GARLAHFPNNVMFD.....................
+}
+{
+name  ENO_MYCPU
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    539
+creator    Mycoplasma pulmonis.Bacteria;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      143    453  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    138  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        159    159  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        250    250  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        339    339  METAL_Magnesium By similarity
+sequence  
+  ............MSEIVKIKALEVLDSR................................
+  .GNPTIQVEVHTISG.....AYGKALVPSGASTGSREALELRDESTKYKDNWYASKGVQK
+  AVD.NVNNKIADLLIG..QNVLDQRNIDNIMIE.ADGTEN.....KSKFGANAILGVSLA
+  AAHAGANFLQIPLYRYIGGIN......ANMLPLPMLNVINGGEHASNT.IDFQEFMIMPM
+  GAKT....FKESLQMANKVFHNLAKLLKKA.GHG.TQVGDEGGFAP....NLKNHEEVLD
+  FLMQAIEVAGFVAS......TSKEKGIAIAIDAASSELYDQST.GKYTFKKLKQAIKTKQ
+  PGFENVEKTKLDFTSDELIAYYGELISKYP....IISIEDGFAE....SDWQGFAKFTKI
+  YG...EKLQIVGDDLTVTNSKILERAIKEKSMNSILVKLNQIGSLSETLDTINMAHKAGF
+  SAVISHRSG....ETEDTTIADLAVALNT.GQIKTGSLSRTDRIAKYNRLLEIEDQLEEA
+  .AVFPGKKAFWNLKNR......................
+}
+{
+name  ENO_UREPA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    7595
+creator    Ureaplasma parvum (Ureaplasma urealyticum biotype 1).Bacteri
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 553 0 square solid PFAM-A 
+  FT   PFAM-A      144    440  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    133  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        160    160  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        249    249  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        300    300  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        326    326  METAL_Magnesium By similarity
+sequence  
+  .............MKIINLLAYQILDSR................................
+  .GQPTVAVKLFLEND.....QSVIAMVPSGASTGAKEALELRDG....DVNYFFNKSVKL
+  AIQ.NINNIIRPHLIN..KNVLNFFELDNLLIN.LDGTEN.....KSKLGANALLGVSIA
+  IVKAGAIAASKPLYQYIKEDLMHNYDVNYYAPIPLMNFINGGAHADND.LDIQEFMIVPL
+  NAIS....FSQAIQIGSEIFHQLDKLLKSN.HLS.TTKGDEGGFAP....MLKNNYVTLE
+  LLVHAIKKAHYLPS........KTQGVCLALDVAASELYENGK...YFFKKSSSHNITL.
+  ........EQTSFSSDEWIKYWSKLVSMFP....IISIEDCFEE....NDWNSFALFLKN
+  NP....HIQVVGDDLYCTNLKYLQKGIDFKATNAILIKPNQIGTISETLDVIKFAQKNNI
+  NTIISHRSG....ETEDTFIADLAIGVGA.GQIKTGSLSRSERIAKYNRILEIEQELKDK
+  .LIYEPSKFFKFR.........................
+}
+{
+name  ENO_SULSO
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    7678
+creator    Sulfolobus solfataricus.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 211 538 0 square solid PFAM-A 
+  FT   PFAM-A      140    409  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        6    132  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        153    153  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        240    240  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        283    283  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        309    309  METAL_Magnesium By similarity
+sequence  
+  .........MINRFSIEKVKGLEIVDSR................................
+  .GNPTIRVFIRTSDG.....VESFGDAPAGASKGTREAVEVRDE.........NGLTVKR
+  AVD.IVNYIIDPALHG..IDVREQGIIDKLLKD.IDSTEN.....KSKLGGNTIIATSIA
+  ALKTASKALGLEVFKYISGPR......LPKIPIPLLNIINGGLHAGNK.LKIQEFIIVPI
+  KFNT....FKEALFAAIDVYRTLKGLITERYGKIYTAVGDEGGFSP....PLEDTREALD
+  LIYTSINNAGYEG............KIYMGMDAAGSDFYDSKK.EKYIIDGRE.......
+  ............LDPNQLLEFYLDLVKQYP....IVYLEDPFEE....NSFDMFSQLQNK
+  LS....STIITGDDLYTTNIKYLKIGIEKRSTKGVIVKPNQVGTISETFEFTNLARRNSM
+  KLITSHRSG....ETEDNFIADFAVGIES.DFIKVGAPARGERTSKYNKLLEIENKFG..
+  .LEYEGKYFYL...........................
+}
+{
+name  ENO_METTH
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    917
+creator    Methanobacterium thermoautotrophicum.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 537 0 square solid PFAM-A 
+  FT   PFAM-A      131    406  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        4    126  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        147    147  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        236    236  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        281    281  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        308    308  METAL_Magnesium By similarity
+sequence  
+  ...........MESIIEDVRVRKILDSR................................
+  .GNPTVEVDVITWNG......FGRAAAPSGASTGSREVAAFPSG............GVDE
+  IIT.EVEDIISSELIG..MDAVDLQDIDLVLKE.IDGTEN.....LSSLGGNTVVAVSMA
+  TAKAAASSYNMPLYRFLGGNL......ATSIPYPLGNMINGGAHAGKNAPDIQEFLVVPV
+  GAED....ITEAVFANAAVHKRIRELIQKKDPSFAGGKGDEGGWVP.....SLSNGDALE
+  IQATACEEVTDELG..........VEVRPSLDLAASEFWDPEI.EKYVYRQEN.......
+  ..........VQKDTGEQIEFVKEIIETYD....MYYVEDPLHE....GDLEGFAELTSL
+  VG...DRCMICGDDIFVTNREILREGIEMGAANAIIIKPNQIGTLTDTYLTVKLALENRY
+  TPVVSHRSG....ETTDDTIAHLAVAFGA.PLIKTG.AIGGERIAKLNELIRIQEEIPYS
+  ..RMADLPF.............................
+}
+{
+name  ENO_PYRAE
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    2653
+creator    Pyrobaculum aerophilum.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 208 546 0 square solid PFAM-A 
+  FT   PFAM-A      135    412  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        2    130  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        151    151  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        240    240  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        283    283  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        309    309  METAL_Magnesium By similarity
+sequence  
+  .............MQISDAWIRKVFTGR................................
+  .GDVTVEVELTVEDSVTGDVLVTRAAAPAGASRGAHEVLYFPEG............GVDA
+  ALA.AFEKLVAPEIVG..LDVTEPYSTDGKLEE.VDGTQR.....FEKIGGAVAIATSFA
+  AAEAGAASLGVPLYSFIGGAY......ARRLPLPLGNVIGGGKHSRGLGPDIQEFLAMPL
+  NPPD....IYTAVYTNVEIHKRVLKYILKVDTSFTGGKNDEGAWTP.....RISSTTALK
+  ILREAAREVSGELG..........VEVGIGVDVAASSLWNGEK...YVYKNEG.......
+  ..........VERDPREQFEFIAKLIEEYD....LVYVEDPFHE....EDFQSFAELRDR
+  FK....DRLIVGDDLFVTNPERIKKGGKIGAATGVIIKPDQIGTLLRAHQAVSAAREFGM
+  RVIVSHRSG....DTEYKTLAHIAVGFGA.EVIKTG.IMGGERTAKLNELIRIGDYLG..
+  ..KWATITQIRIH.........................
+}
+{
+name  ENO_THEAC
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    9915
+creator    Thermoplasma acidophilum.Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 201 539 0 square solid PFAM-A 
+  FT   PFAM-A      130    401  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        4    126  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        146    146  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        233    233  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        274    274  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        301    301  METAL_Magnesium By similarity
+sequence  
+  ...........MELPIEEIKVRKVLDSR................................
+  .GNFTVEADVTVPNG......FGRTSAPAGASTGETEVIAFSKS............GIDA
+  SIQ.FFESKVKRSLIG..FNALDQSGFDKLLTD.IDGSGN.....FSNLGGNLATALSMS
+  VAKAAAQSLGIPLYRYVGGIR.......STIPRPMGNVIGGGKHARNG.TSIQEFLVSAQ
+  G.ST....FLESAYINVLVHRRIGDMLSDKFKDISIGVGDERTWSV.....NLSDEEAFE
+  ILNEAVKEISSEKK..........VKIYTGVDFAADSLYENGK...YVYKHTT.......
+  ............KSRDEQIDYAISISKDFG....VYYIEDPMYD....TDFDGFAEITAR
+  IG...DRSLIVGDDLYTTNPDRIRKGVEKKSTNAVLIKVNQIGTLSAAREAVAVATFAGM
+  KNIVSHRSG....ETTDDFLAHLSVAFGS.TFVKTG.VIGGERVAKLNEIARIEECLTS.
+  ......................................
+}
+{
+name  ENOB_LACLA
+descrip    Enolase 2 (EC 4.2.1.11) (2-phosphoglycerate dehydratase 2) (
+type    PROTEIN
+checksum    5131
+creator    Lactococcus lactis (subsp. lactis) (Streptococcus lactis).Ba
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 201 548 0 square solid PFAM-A 
+  FT   PFAM-A      138    418  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        4    134  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        241    241  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        312    312  METAL_Magnesium By similarity
+sequence  
+  ...........MTVTIENIHAREIFDSR................................
+  .GNPTVEVDVRLTDG.....TLGRAAVPSGASTGDREAVELRDG....GD.RLQGKGVSK
+  AVA.NVNGEIYEALKG..QSPFNQAKLDHLMIE.LDGTKN.....KSRLGANAILGVSMA
+  ISRAAANSEKIPLYRYLGGVD.......LELPQPFFNVINGGVHADSG.IDVQEFLITPV
+  KRES....FRDGLEKIANIYHTLKKILADK.GLE.TAVGDEGGFAP....KLGSTENAIA
+  TLYQAIESAGYVPG..........EEIAIAIDPASSEFYDDKE.KVYRFEGQK.......
+  ............LTSKELLTYYENLVEKYP...ALISIEDGFSE....HDWEGFAAQTKA
+  QG...QKIQLVGDDIFVTNPEIFKEGIKKGVANAILIKLNQIGTVTEAIEAISLARKAGY
+  KTMISHRSG....ETVDSYIADFAVAMHA.GQIKTGSMARSERVEKYNQFLRIEEELGKD
+  ....VALASFPG..........................
+}
+{
+name  ENO_HALN1
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    6523
+creator    Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 211 536 0 square solid PFAM-A 
+  FT   PFAM-A      133    397  PF00113 enolase
+feature 15 197 1 square solid PFAM-A 
+  FT   PFAM-A        3    124  PF03952 enolase_N
+feature 224 224 0 square solid SITE 
+  FT   SITE        146    146  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        232    232  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        273    273  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        300    300  METAL_Magnesium By similarity
+sequence  
+  ............MTRIEAVRYRPILDSR................................
+  .GNKTVEAEVTTDDGG.....FGRAAAPSGASTGEHEAVELP...........VGEAIAA
+  GRE.....RIAPRLEGR.EFAGDQRGVDAALHA.ADDTTD.....FSAVGANVAVATSMA
+  AAKAAADVLGVHTYQHLGGALR.....GRNFPVPLGNVLGGGAHAADA.TAIQEFLVAAT
+  GAPS....VRQAVFANAAVHQRVKDRLDDD.GVP.AAKGDEGAWAP.....SIDDATAFD
+  VVAGAAAEVADEFG..........FDVRLGLDLAAAERYDGDE...YVFGDDR.......
+  ............RSTAAQIEYVAGLVSEYD....LAYVEDPLDE....NDFEAFAELTDR
+  VG...DETLVCGDDLFVTNTERLQRGIDAGAANSILVKPNQIGTLTDAVDAIELATRNGY
+  DAVVSHRSG....ETEDTTIAHLAVATDA.PFIKTG.AVGGERTAKLNELIRIADEA...
+  ......................................
+}
+{
+name  ENO_HALMA
+descrip    Enolase (EC 4.2.1.11) (2-phosphoglycerate dehydratase) (2-ph
+type    PROTEIN
+checksum    52
+creator    Haloarcula marismortui (Halobacterium marismortui).Archaea;
+group    1
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 212 536 0 square solid PFAM-A 
+  FT   PFAM-A      134    398  PF00113 enolase
+feature 16 197 1 square solid PFAM-A 
+  FT   PFAM-A        4    124  PF03952 enolase_N
+feature 223 223 0 square solid SITE 
+  FT   SITE        145    145  ACT_SITE_By similarity
+feature 332 332 1 square solid SITE 
+  FT   SITE        231    231  METAL_Magnesium By similarity
+feature 399 399 1 square solid SITE 
+  FT   SITE        274    274  METAL_Magnesium By similarity
+feature 433 433 1 square solid SITE 
+  FT   SITE        301    301  METAL_Magnesium By similarity
+sequence  
+  ............MTLITDIRLRRVLDSR................................
+  .GNATVEADVLTESGG.....FGRGKAPSGASTGEYEAIELPAN...........EAIAK
+  ARE.....EALPRLIG.EVHAGNQRDVDTALHA.ADGTDD.....FSGIGANSAVAISMA
+  AAKAGADVLGAPLYQHLGGTFR.....GNEYPTPLGNIIGGEHAADAT..NIQEFLAAPV
+  GAPS....VEEAVFANAAVHQEVHDILADR.DLP.AGKGDEGAWAP.....SVSDDEAFE
+  IMDEAVETVADDFG..........FAISFGLDVARAELYDDEA.DGYVYDDG........
+  ...........VKSTEEQIEYIAGKVEEYD....LVYVEDPLDE....NDYEAFADLTAQ
+  VG...DQTLVCGDDLFVTNVERLQAGINADAGNSILIKPNQIGTLTDAVDAIELATASGY
+  ESVVSHRSG....ETEDTTIAHLAVATDA.PFIKTG.AVGGERTAKLNELIRIEDNAV..
+  ......................................
+}
+{
+name  1fhu_A
+type    PROTEIN
+checksum    7189
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 17 27 0 square solid STRUCT 
+  FT   STRUCT        2     12  STRAND
+feature 64 74 0 square solid STRUCT 
+  FT   STRUCT       17     27  STRAND
+feature 81 87 0 square solid STRUCT 
+  FT   STRUCT       30     36  STRAND
+feature 119 134 3 square solid STRUCT 
+  FT   STRUCT       47     62  HELIX
+feature 171 184 3 square solid STRUCT 
+  FT   STRUCT       72     85  HELIX
+feature 213 214 0 square solid STRUCT 
+  FT   STRUCT      100    101  STRAND
+feature 277 281 0 square solid STRUCT 
+  FT   STRUCT      107    111  STRAND
+feature 295 308 3 square solid STRUCT 
+  FT   STRUCT      117    130  HELIX
+feature 328 332 0 square solid STRUCT 
+  FT   STRUCT      135    139  STRAND
+feature 377 384 3 square solid STRUCT 
+  FT   STRUCT      146    153  HELIX
+feature 392 395 3 square solid STRUCT 
+  FT   STRUCT      161    164  HELIX
+feature 395 399 0 square solid STRUCT 
+  FT   STRUCT      164    168  STRAND
+feature 411 421 3 square solid STRUCT 
+  FT   STRUCT      174    184  HELIX
+feature 430 432 0 square solid STRUCT 
+  FT   STRUCT      188    190  STRAND
+feature 434 437 3 square solid STRUCT 
+  FT   STRUCT      192    195  HELIX
+feature 452 457 0 square solid STRUCT 
+  FT   STRUCT      207    212  STRAND
+feature 459 462 3 square solid STRUCT 
+  FT   STRUCT      214    217  HELIX
+feature 465 477 3 square solid STRUCT 
+  FT   STRUCT      220    232  HELIX
+feature 481 484 0 square solid STRUCT 
+  FT   STRUCT      236    239  STRAND
+feature 494 507 3 square solid STRUCT 
+  FT   STRUCT      246    259  HELIX
+feature 522 524 3 square solid STRUCT 
+  FT   STRUCT      270    272  HELIX
+feature 528 529 0 square solid STRUCT 
+  FT   STRUCT      276    277  STRAND
+feature 540 541 0 square solid STRUCT 
+  FT   STRUCT      288    289  STRAND
+feature 543 545 3 square solid STRUCT 
+  FT   STRUCT      291    293  HELIX
+feature 547 548 0 square solid STRUCT 
+  FT   STRUCT      295    296  STRAND
+sequence  
+  ...............MRSAQVYRWQIPMDLK.............................
+  ...TRDGLYVCLREGE....REGWGEISPLPG.....................FSQETWE
+  EAQSVLLAWVNNWLAG......................DC.....ELPQMPSVAFGVSCA
+  LAELTD...TLPQAANYRAA...........PLCNGDE......................
+  ...................................KVAKVKVGLY........EAVRDGM
+  VVNLLLEAIPD...............LHLRLDANR.........................
+  .............AWTPLKGQQFAKYVNPDYRDRIAFLEEPCKT......RDDSRAFARE
+  TG.....IAIAWDESLRE..PDFAFVAEE.GVRAVVIKPTLTGSLEKVREQVQAAHALGL
+  TAVISSSIE...SSLGLTQLARIAAWLTP..DTIPG..LDTLDLMQAQQVRRWPGSTLPV
+  VEVDALERLL............................
+}
+{
+name  1jpd_X
+type    PROTEIN
+checksum    7411
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 20 29 0 square solid STRUCT 
+  FT   STRUCT        6     15  STRAND
+feature 65 75 0 square solid STRUCT 
+  FT   STRUCT       23     33  STRAND
+feature 83 89 0 square solid STRUCT 
+  FT   STRUCT       36     42  STRAND
+feature 114 116 3 square solid STRUCT 
+  FT   STRUCT       46     48  HELIX
+feature 120 130 3 square solid STRUCT 
+  FT   STRUCT       52     60  HELIX
+feature 133 137 3 square solid STRUCT 
+  FT   STRUCT       63     67  HELIX
+feature 143 149 3 square solid STRUCT 
+  FT   STRUCT       72     78  HELIX
+feature 174 189 3 square solid STRUCT 
+  FT   STRUCT       83     98  HELIX
+feature 195 199 3 square solid STRUCT 
+  FT   STRUCT      104    108  HELIX
+feature 212 214 0 square solid STRUCT 
+  FT   STRUCT      115    117  STRAND
+feature 217 219 0 square solid STRUCT 
+  FT   STRUCT      120    122  STRAND
+feature 255 267 3 square solid STRUCT 
+  FT   STRUCT      127    139  HELIX
+feature 279 283 0 square solid STRUCT 
+  FT   STRUCT      144    148  STRAND
+feature 300 310 3 square solid STRUCT 
+  FT   STRUCT      154    164  HELIX
+feature 330 334 0 square solid STRUCT 
+  FT   STRUCT      169    173  STRAND
+feature 379 388 3 square solid STRUCT 
+  FT   STRUCT      183    192  HELIX
+feature 399 401 0 square solid STRUCT 
+  FT   STRUCT      197    199  STRAND
+feature 414 417 3 square solid STRUCT 
+  FT   STRUCT      208    211  HELIX
+feature 432 434 0 square solid STRUCT 
+  FT   STRUCT      219    221  STRAND
+feature 441 447 3 square solid STRUCT 
+  FT   STRUCT      228    234  HELIX
+feature 456 459 0 square solid STRUCT 
+  FT   STRUCT      240    243  STRAND
+feature 461 464 3 square solid STRUCT 
+  FT   STRUCT      245    248  HELIX
+feature 467 479 3 square solid STRUCT 
+  FT   STRUCT      251    263  HELIX
+feature 483 486 0 square solid STRUCT 
+  FT   STRUCT      267    270  STRAND
+feature 496 508 3 square solid STRUCT 
+  FT   STRUCT      277    289  HELIX
+feature 513 514 0 square solid STRUCT 
+  FT   STRUCT      292    293  STRAND
+feature 524 527 3 square solid STRUCT 
+  FT   STRUCT      297    300  HELIX
+feature 537 539 0 square solid STRUCT 
+  FT   STRUCT      310    312  STRAND
+feature 542 543 0 square solid STRUCT 
+  FT   STRUCT      315    316  STRAND
+sequence  
+  ..............HMRTVKVFEEAWPLHTPSRS..........................
+  ..EARVVVVELEEEG.....IKGTGECTPYPR.....................YGESDAS
+  VMA.QIMS.VVPQLEKG.LTREELQKILPA....................GAARNALDCA
+  LWDLAARRQQQSLADLIGITL......PETVITAQTVVIG....................
+  ...........TPDQMANSASTLWQAGA.......KLLKVKLDN...........HLISE
+  RMVAIRTAVPD...............ATLIVDANE.........................
+  ..........SWRAEGLAARCQLLADLG......VAMLEQPLPA....QDDAALENFIHP
+  L.......PICADESCHTRSNLKALKGR...YEMVNIKLDKTGGLTEALALATEARAQGF
+  SLMLGCMLC...TSRAISAALPLVPQVSF..ADLD......GPTWLAVDVEPALQFTTGE
+  LHL...................................
+}
+{
+name  1bqg_
+type    PROTEIN
+checksum    248
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 16 27 0 square solid STRUCT 
+  FT   STRUCT        5     16  STRAND
+feature 41 43 0 square solid STRUCT 
+  FT   STRUCT       20     22  STRAND
+feature 46 47 0 square solid STRUCT 
+  FT   STRUCT       25     26  STRAND
+feature 62 72 0 square solid STRUCT 
+  FT   STRUCT       30     40  STRAND
+feature 82 88 0 square solid STRUCT 
+  FT   STRUCT       45     51  STRAND
+feature 120 128 3 square solid STRUCT 
+  FT   STRUCT       54     61  HELIX
+feature 131 134 3 square solid STRUCT 
+  FT   STRUCT       64     67  HELIX
+feature 141 154 3 square solid STRUCT 
+  FT   STRUCT       72     85  HELIX
+feature 169 190 3 square solid STRUCT 
+  FT   STRUCT       91    112  HELIX
+feature 194 197 3 square solid STRUCT 
+  FT   STRUCT      116    119  HELIX
+feature 211 213 0 square solid STRUCT 
+  FT   STRUCT      128    130  STRAND
+feature 216 218 0 square solid STRUCT 
+  FT   STRUCT      133    135  STRAND
+feature 220 221 0 square solid STRUCT 
+  FT   STRUCT      137    138  STRAND
+feature 224 226 3 square solid STRUCT 
+  FT   STRUCT      141    143  HELIX
+feature 241 245 3 square solid STRUCT 
+  FT   STRUCT      157    161  HELIX
+feature 253 267 3 square solid STRUCT 
+  FT   STRUCT      169    183  HELIX
+feature 278 282 0 square solid STRUCT 
+  FT   STRUCT      187    191  STRAND
+feature 296 309 3 square solid STRUCT 
+  FT   STRUCT      197    210  HELIX
+feature 329 333 0 square solid STRUCT 
+  FT   STRUCT      215    219  STRAND
+feature 375 382 3 square solid STRUCT 
+  FT   STRUCT      226    233  HELIX
+feature 398 400 0 square solid STRUCT 
+  FT   STRUCT      242    244  STRAND
+feature 411 422 3 square solid STRUCT 
+  FT   STRUCT      255    266  HELIX
+feature 431 433 0 square solid STRUCT 
+  FT   STRUCT      270    272  STRAND
+feature 440 449 3 square solid STRUCT 
+  FT   STRUCT      279    288  HELIX
+feature 455 456 0 square solid STRUCT 
+  FT   STRUCT      293    294  STRAND
+feature 466 479 3 square solid STRUCT 
+  FT   STRUCT      303    316  HELIX
+feature 495 505 3 square solid STRUCT 
+  FT   STRUCT      329    339  HELIX
+feature 524 526 3 square solid STRUCT 
+  FT   STRUCT      353    355  HELIX
+feature 539 540 0 square solid STRUCT 
+  FT   STRUCT      368    369  STRAND
+feature 543 545 0 square solid STRUCT 
+  FT   STRUCT      372    374  STRAND
+feature 558 569 3 square solid STRUCT 
+  FT   STRUCT      387    398  HELIX
+sequence  
+  ...........GAPVITDLKVVPVAGHDSM..........LLNLSGAHG...........
+  PLFTRNILILTDSSG.....HVGVGEVPG.............................GE
+  GIR.KTLEDARHLLIN..QSIGNYQSLLNKVRNAFA.........DLRIAVHAVTAVESA
+  LLDLLGQHLQVPVAALLGEGQQ.....RDAVEMLGYLFYVGDRNKTDL.GYRSEHEADNE
+  WFRLRNKEALTPESVVALAEAAYDRYGF.......KDFKLKGGV........LRGEDEIA
+  AVTALSERFPD...............ARITLDPNG.........................
+  ..........AWSLKEAVALCRDQHHV.......LAYAEDPCGAENGYSGREVMAEFRRS
+  TG.....LRTATNMIATDWRQMGHAIQLQ.SVDIPLADPHFW.TMQGSVRVAQMCNEWGL
+  TWGSHSNN...HFDISLAMFTHVAAAAPGNITAID.....THWIWQDGQRLTKEPLQIKG
+  GLVEVPKKPGLGVELDWDALMKAHEVYKSM........
+}
+{
+name  1kcz_A
+type    PROTEIN
+checksum    5866
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 16 24 0 square solid STRUCT 
+  FT   STRUCT        3     11  STRAND
+feature 29 31 0 square solid STRUCT 
+  FT   STRUCT       16     18  STRAND
+feature 33 37 3 square solid STRUCT 
+  FT   STRUCT       20     24  HELIX
+feature 41 43 0 square solid STRUCT 
+  FT   STRUCT       28     30  STRAND
+feature 46 48 0 square solid STRUCT 
+  FT   STRUCT       33     35  STRAND
+feature 60 62 0 square solid STRUCT 
+  FT   STRUCT       47     49  STRAND
+feature 65 72 0 square solid STRUCT 
+  FT   STRUCT       52     59  STRAND
+feature 82 87 0 square solid STRUCT 
+  FT   STRUCT       64     69  STRAND
+feature 118 129 3 square solid STRUCT 
+  FT   STRUCT       86     96  HELIX
+feature 131 134 3 square solid STRUCT 
+  FT   STRUCT       98    101  HELIX
+feature 144 153 3 square solid STRUCT 
+  FT   STRUCT      109    118  HELIX
+feature 155 156 0 square solid STRUCT 
+  FT   STRUCT      120    121  STRAND
+feature 167 168 0 square solid STRUCT 
+  FT   STRUCT      124    125  STRAND
+feature 171 189 3 square solid STRUCT 
+  FT   STRUCT      128    146  HELIX
+feature 193 201 3 square solid STRUCT 
+  FT   STRUCT      150    158  HELIX
+feature 215 216 0 square solid STRUCT 
+  FT   STRUCT      169    170  STRAND
+feature 257 264 3 square solid STRUCT 
+  FT   STRUCT      179    186  HELIX
+feature 277 280 0 square solid STRUCT 
+  FT   STRUCT      191    194  STRAND
+feature 296 312 3 square solid STRUCT 
+  FT   STRUCT      209    225  HELIX
+feature 328 332 0 square solid STRUCT 
+  FT   STRUCT      234    238  STRAND
+feature 336 340 3 square solid STRUCT 
+  FT   STRUCT      242    246  HELIX
+feature 374 388 3 square solid STRUCT 
+  FT   STRUCT      251    265  HELIX
+feature 396 399 0 square solid STRUCT 
+  FT   STRUCT      270    273  STRAND
+feature 407 424 3 square solid STRUCT 
+  FT   STRUCT      281    298  HELIX
+feature 428 432 0 square solid STRUCT 
+  FT   STRUCT      302    306  STRAND
+feature 439 447 3 square solid STRUCT 
+  FT   STRUCT      313    321  HELIX
+feature 454 457 0 square solid STRUCT 
+  FT   STRUCT      327    330  STRAND
+feature 460 462 3 square solid STRUCT 
+  FT   STRUCT      333    335  HELIX
+feature 466 477 3 square solid STRUCT 
+  FT   STRUCT      339    350  HELIX
+feature 481 484 0 square solid STRUCT 
+  FT   STRUCT      354    357  STRAND
+feature 492 505 3 square solid STRUCT 
+  FT   STRUCT      365    378  HELIX
+feature 510 512 0 square solid STRUCT 
+  FT   STRUCT      382    384  STRAND
+feature 520 538 3 square solid STRUCT 
+  FT   STRUCT      392    410  HELIX
+sequence  
+  .............MKIVDVLCTPGLTGFYFDDQRAIKKGAGHDGFTYTGSTVTEGFTQVR
+  QKGESISVLLVLEDG.....QVAHGDCAAVQYSGAGGRD..............PLFLAKD
+  FIP.VIEKEIAPKLIG..REITNFKPMAEEFDKMTVN........GNRLHTAIRYGITQA
+  ILDAVAKTRKVTMAEVIRDEYN...PGAEINAVPVFAQSG....................
+  ............DDRYDNVDKMIIKEAD........VLPHALINNVE.EKLGLKGEKLLE
+  YVKWLRDRIIKLRVREDY.......APIFHIDVYGTIGAAF...................
+  ..........DVDIKAMADYIQTLAEAAKP...FHLRIEGPMDVEDRQKQMEAMRDLRAE
+  LDGRGVDAELVADEWCNTVEDVKFFTDNK.AGHMVQIKTPDLGGVNNIADAIMYCKANGM
+  GAYCGGTXNETNRSAEVTTNIGMACGAR.QVLAKPGMGVDEGMMIVKNEMNRVLALVGRR
+  K.....................................
+}
+{
+name  2mnr_
+type    PROTEIN
+checksum    5813
+creation-date 11/17/2004 14:10:14
+strand  1
+feature 16 26 0 square solid STRUCT 
+  FT   STRUCT        4     14  STRAND
+feature 41 43 0 square solid STRUCT 
+  FT   STRUCT       20     22  STRAND
+feature 46 48 0 square solid STRUCT 
+  FT   STRUCT       25     27  STRAND
+feature 63 72 0 square solid STRUCT 
+  FT   STRUCT       30     39  STRAND
+feature 82 88 0 square solid STRUCT 
+  FT   STRUCT       44     50  STRAND
+feature 116 134 3 square solid STRUCT 
+  FT   STRUCT       54     71  HELIX
+feature 144 154 3 square solid STRUCT 
+  FT   STRUCT       78     88  HELIX
+feature 168 188 3 square solid STRUCT 
+  FT   STRUCT       96    116  HELIX
+feature 193 196 3 square solid STRUCT 
+  FT   STRUCT      121    124  HELIX
+feature 213 218 0 square solid STRUCT 
+  FT   STRUCT      132    137  STRAND
+feature 252 265 3 square solid STRUCT 
+  FT   STRUCT      142    155  HELIX
+feature 277 281 0 square solid STRUCT 
+  FT   STRUCT      160    164  STRAND
+feature 295 309 3 square solid STRUCT 
+  FT   STRUCT      170    184  HELIX
+feature 328 332 0 square solid STRUCT 
+  FT   STRUCT      189    193  STRAND
+feature 374 387 3 square solid STRUCT 
+  FT   STRUCT      200    213  HELIX
+feature 397 399 0 square solid STRUCT 
+  FT   STRUCT      217    219  STRAND
+feature 411 419 3 square solid STRUCT 
+  FT   STRUCT      227    235  HELIX
+feature 430 432 0 square solid STRUCT 
+  FT   STRUCT      241    243  STRAND
+feature 439 447 3 square solid STRUCT 
+  FT   STRUCT      250    258  HELIX
+feature 454 455 0 square solid STRUCT 
+  FT   STRUCT      264    265  STRAND
+feature 464 478 3 square solid STRUCT 
+  FT   STRUCT      274    288  HELIX
+feature 497 505 3 square solid STRUCT 
+  FT   STRUCT      298    306  HELIX
+feature 514 516 0 square solid STRUCT 
+  FT   STRUCT      314    316  STRAND
+feature 524 526 3 square solid STRUCT 
+  FT   STRUCT      321    323  HELIX
+feature 532 534 0 square solid STRUCT 
+  FT   STRUCT      329    331  STRAND
+feature 537 539 0 square solid STRUCT 
+  FT   STRUCT      334    336  STRAND
+feature 552 558 3 square solid STRUCT 
+  FT   STRUCT      349    355  HELIX
+sequence  
+  ............EVLITGLRTRAVNVPLAYP.........VHTAVGTVG...........
+  .TAPLVLIDLATSAG.....VVGHSYLFAYT........................PVALK
+  SLK.QLLDDMAAMIVN...EPLAPVSLEAMLAKRFCLAG......YTGLIRMAAAGIDMA
+  AWDALGKVHETPLVKLLGANA.........RPVQAYDSHSL...................
+  ..........DGVKLATERAVTAAELGF.......RAVKTKIGY........PALDQDLA
+  VVRSIRQAVGDD..............FGIMVDYNQ.........................
+  ..........SLDVPAAIKRSQALQQEG......VTWIEEPTLQ....HDYEGHQRIQSK
+  LN.....VPVQMGENWLGPEEMFKALSIG.ACRLAMPDAMKIGGVTGWIRASALAQQFGI
+  PMSSHL.........FQEISAHLLAATPT.AHWLER...LDLAGSVIEPTLTFEGGNAVI
+  PDLPGVGIIWREKEIGKYLV..................
+}

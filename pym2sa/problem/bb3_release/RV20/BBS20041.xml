@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref2/test/kinase_ref2_truncated</aln-name>
+<sequence seq-type="Protein">
+<seq-name>1ad5_A</seq-name>
+<seq-info>
+<accession>1ad5_A</accession>
+<nid>1ad5_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>e-ipreslkl--ekklgagqfgevwmatyn--------khtkvavktmkp-------gsmsveaflaeanvmktlq---hdklvklhavvtk----epiyiitefmakgslldflksdegsk--------------qplpklidfsaqiaegmafieqr---nyihrdlraanilvsas--------lvckiadfglarvg-----------------akfpikwtapeainf---gsftiksdvwsfgillmeivtygripypgm---snpeviralerg---yrmprp--encpeelynimmrcwknrpeer----ptfeyiqsvlddfytatesqxqqqp
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FAK1_CHICK</seq-name>
+<seq-info>
+<accession>FAK1_CHICK</accession>
+<nid>FAK1_CHICK</nid>
+<definition>   Focal adhesion kinase 1 (EC 2.7.1.112) (FADK 1) (PP125FAK).</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>rdyeiqrerielgrcigegqfgdvhqgiym----spenpamavaiktcknctsd-----svrekflqealtmrqfd---hphivkligvi----tenpvwiimelctlgelrsflqvr---------------kfsldlaslilyayqlstalaylesk---rfvhrdiaarnvlvsat--------dcvklgdfglsrymeds------tyyka-skgklpikwmapesinf---rrftsasdvwmfgvcmweilmhgvkpfqgv---knndvigrieng---erlpmp--pncpptlyslmtkcwaydpsrr----prftelkaqlstileeeklqqeerm
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FAK2_HUMAN</seq-name>
+<seq-info>
+<accession>FAK2_HUMAN</accession>
+<nid>FAK2_HUMAN</nid>
+<definition>   Protein tyrosine kinase 2 beta (EC 2.7.1.112) (Focal adhesio</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>pqygiaredvvlnrilgegffgevyegvyt----nhkgekinvavktckkdctl-----dnkekfmseavimknld---hphivkligii----eeeptwiimelypygelghylern---------------knslkvltlvlyslqickamaylesi---ncvhrdiavrnilvasp--------ecvklgdfglsryiede------dyyka-svtrlpikwmspesinf---rrfttasdvwmfavcmweilsfgkqpffwl---enkdvigvlekg---drlpkp--dlcppvlytlmtrcwdydpsdr----prftelvcslsdvyqmekdiameqe
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>M3K9_HUMAN</seq-name>
+<seq-info>
+<accession>M3K9_HUMAN</accession>
+<nid>M3K9_HUMAN</nid>
+<definition>   Mitogen-activated protein kinase kinase kinase 9 (EC 2.7.1.3</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>-------aeltleeiigiggfgkvyraf---------wigdevavkaarhdpded--isqtienvrqeaklfamlk---hpniialrgvclke---pnlclvmefarggplnrvlsgkr-----------------ippdilvnwavqiargmnylhdeaivpiihrdlkssnililqkvengdlsnkilkitdfglarewhrt---------tk-msaagtyawmapevira---smfskgsdvwsygvllwell-tgevpfrgi--dglrvaygvamnk---lalpip--stcpepfaklmedcwnpdphsr----psftnildqlttieesgffempkds
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ACK1_HUMAN</seq-name>
+<seq-info>
+<accession>ACK1_HUMAN</accession>
+<nid>ACK1_HUMAN</nid>
+<definition>   Activated CDC42 kinase 1 (EC 2.7.1.112) (ACK-1).</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ltcligekdlrlleklgdgsfgvvrrgewd----apsgktvsvavkclkpdvlsq---peamddfirevnamhsld---hrnlirlygvvltp----pmkmvtelaplgslldrlrkh---------------qghfllgtlsryavqvaegmgylesk---rfihrdlaarnlllatr--------dlvkigdfglmralpqnd----dhyvmq-ehrkvpfawcapeslkt---rtfshasdtwmfgvtlwemf-tygqepwig--lngsqilhkidke--gerlprp--edcpqdiynvmvqcwahkpedr----ptfvalrdflleaqptdmralqdfe
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>MIL_AVIMH</seq-name>
+<seq-info>
+<accession>MIL_AVIMH</accession>
+<nid>MIL_AVIMH</nid>
+<definition>   Serine/threonine-protein kinase transforming protein mil(EC </definition>
+<organism>   Avian retrovirus MH2.Viruses;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>yyweieasevllstrigsgsfgtvykgkwh----------gdvavkilkvvdptp----eqfqafrnevavlrktr---hvnillfmgymtkd----nlaivtqwcegsslykhlhvqet---------------kfqmfqlidiarqtaqgmdylhak---niihrdmksnniflhgg--------ltvkigdfglatvksrws-----gsqqv-eqptgsilwmapevirmqdsnpfsfqsdvysygivlyelm-tgelpyshi-nnrdqiifmvgrgyaspdlskly--kncpkamkrlvadclkkvreer----plfpqilssiallqhslpkinrsas
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>KROS_AVISU</seq-name>
+<seq-info>
+<accession>KROS_AVISU</accession>
+<nid>KROS_AVISU</nid>
+<definition>   Tyrosine-protein kinase transforming protein ros (EC 2.7.1.1</definition>
+<organism>   Avian sarcoma virus (strain UR2).Viruses;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>slpafprdklnlhkllgsgafgevyegtaldila-dgsgesrvavktlkrgatd-----qekseflkeahlmskfd---hphilkllgvclln---epqylilelmeggdllsylrgarkqkfqs---------plltltdlldicldickgcvylekm---rfihrdlaarnclvsekqyg--scsrvvkigdfglardiyknd-----yyrkr-gegllpvrwmapeslid---gvftnhsdvwafgvlvwetltlgqqpypgl---snievlhhvrsg---grlesp--nncpddirdlmtrcwaqdphnr----ptffyiqhklqeirhsplcfsyflg
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CD96_DROME</seq-name>
+<seq-info>
+<accession>CD96_DROME</accession>
+<nid>CD96_DROME</nid>
+<definition>   Tyrosine kinase receptor Cad96Ca precursor (EC 2.7.1.112) (C</definition>
+<organism>   Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>drwefpryrlkffnilgegafgqvwrceatning--negittvavktlkesate-----vdrkdllselevmkslep--hinvvhllgcctdk---dptfvileyvnrgklqtylrssraer---hygnthgksnvltscdltsfmyqvakgmdyltsr---giihrdlaarnilitdd--------htckvadfgfardvitsk-----iyerk-segklpirwmateslyd---nifsvksdiwsfgilmweivtlgstpypgi---saadvmrkvrdg---yrlekp--ehcrrelynimyycwshdpqer----plfaeiiqmldkllht--emdyiel
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FGR4_HUMAN</seq-name>
+<seq-info>
+<accession>FGR4_HUMAN</accession>
+<nid>FGR4_HUMAN</nid>
+<definition>   Fibroblast growth factor receptor 4 precursor (EC 2.7.1.112)</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>---------lvlgkplgegcfgqvvraeafgmdparpdqastvavkmlkdnasd-----kdladlvsemevmkligr--hkniinllgvctqe---gplyvivecaakgnlreflrarrppgpdlspdgprssegplsfpvlvscayqvargmqylesr---kcihrdlaarnvlvted--------nvmkiadfglargvhhid-----yykkt-sngrlpvkwmapealfd---rvythqsdvwsfgillweiftlggspypgi---pveelfsllreg---hrmdrp--phcppelyglmrecwhaapsqr----ptfkqlvealdkvlla-vseeyldl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FGR3_HUMAN</seq-name>
+<seq-info>
+<accession>FGR3_HUMAN</accession>
+<nid>FGR3_HUMAN</nid>
+<definition>   Fibroblast growth factor receptor 3 precursor (EC 2.7.1.112)</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>---------ltlgkplgegcfgqvvmaeaigidkdraakpvtvavkmlkddatd-----kdlsdlvsememmkmigk--hkniinllgactqg---gplyvlveyaakgnlreflrarrppgldysfdtckppeeqltfkdlvscayqvargmeylasq---kcihrdlaarnvlvted--------nvmkiadfglardvhnld-----yykkt-tngrlpvkwmapealfd---rvythqsdvwsfgvllweiftlggspypgi---pveelfkllkeg---hrmdkp--ancthdlymimrecwhaapsqr----ptfkqlvedldrvltvtstdeyldl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CEK2_CHICK</seq-name>
+<seq-info>
+<accession>CEK2_CHICK</accession>
+<nid>CEK2_CHICK</nid>
+<definition>   Tyrosine kinase receptor CEK2 precursor (EC 2.7.1.112).</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>---------ltlgkplgegcfgqvvmaeaigidkdkpnkaitvavkmlkddatd-----kdlsdlvsememmkmigk--hkniinllgactqd---gplyvlveyaskgnlreylrarrppgmdysfdtcklpeeqltfkdlvscayqvargmeylasq---kcihrdlaarnvlvted--------nvmkiadfglardvhnid-----yykkt-tngrlpvkwmapealfd---rvythqsdvwsfgvllweiftlggspypgi---pveelfkllkeg---hrmdkp--ancthdlymimrecwhavpsqr----ptfkqlvedldrvltmtstdeyldl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FGR1_CHICK</seq-name>
+<seq-info>
+<accession>FGR1_CHICK</accession>
+<nid>FGR1_CHICK</nid>
+<definition>   Basic fibroblast growth factor receptor 1 precursor (EC 2.7.</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>---------lilgkplgegcfgqvvlaeaigldkdkpnrvtkvavkmlksdate-----kdlsdlisememmkmigk--hkniinllgactqd---gplyviveyaskgnlreylqarrppgmeycynptripeeqlsfkdlvscayqvargmeylask---kcihrdlaarnvlvted--------nvmkiadfglardihhid-----yykkt-tngrlpvkwmapealfd---riythqsdvwsfgvllweiftlggspypgv---pveelfkllkeg---hrmdkp--snctnelymmmrdcwhavpsqr----ptfkqlvedldrivamtsnqeyldl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CEK3_CHICK</seq-name>
+<seq-info>
+<accession>CEK3_CHICK</accession>
+<nid>CEK3_CHICK</nid>
+<definition>   Tyrosine kinase receptor CEK3 precursor (EC 2.7.1.112).</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>---------ltlgkplgegcfgqvvmaeavgidkdrpkeavtvavkmlkddate-----kdlsdlvsememmkmigk--hkniinllgactqd---gplyviveyaskgnlreylrarrppgmeysfdinrvpeeqmtfkdlvsctyqlargmeylasq---kcihrdlaarnvlvten--------nvmkiadfglardinnid-----yykkt-tngrlpvkwmapealfd---rvythqsdvwsfgvlmweiftlggspypgi---pveelfkllkeg---hrmdkp--anctnelymmmrdcwqavpsqr----ptfkqlvedldriltlttneeyldl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>LYN_HUMAN</seq-name>
+<seq-info>
+<accession>LYN_HUMAN</accession>
+<nid>LYN_HUMAN</nid>
+<definition>   Tyrosine-protein kinase LYN (EC 2.7.1.112).</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>daweipresiklvkrlgagqfgevwmgyyn--------nstkvavktlkpgtms-------vqafleeanlmktlq---hdklvrlyavvtre---epiyiiteymakgslldflksdeg--------------gkvllpklidfsaqiaegmayierk---nyihrdlraanvlvses--------lmckiadfglarviedn------eytar-egakfpikwtapeainf---gcftiksdvwsfgillyeivtygkipypgr---tnadvmtalsqg---yrmprv--encpdelydimkmcwkekaeer----ptfdylqsvlddfyta-tegqyqqq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ABL2_HUMAN</seq-name>
+<seq-info>
+<accession>ABL2_HUMAN</accession>
+<nid>ABL2_HUMAN</nid>
+<definition>   Tyrosine-protein kinase ABL2 (EC 2.7.1.112) (Tyrosine kinase</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dkwemertditmkhklgggqygevyvgvwk-------kysltvavktlkedtmevee-------flkeaavmkeik---hpnlvqllgvctle---ppfyivteympygnlldylrecn--------------reevtavvllymatqissameylekk---nfihrdlaarnclvgen--------hvvkvadfglsrlmtgd------tytah-agakfpikwtapeslay---ntfsiksdvwafgvllweiatygmspypgi---dlsqvydllekg---yrmeqp--egcppkvyelmracwkwspadr----psfaethqafetmfhd-ssiseeva
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ABL1_HUMAN</seq-name>
+<seq-info>
+<accession>ABL1_HUMAN</accession>
+<nid>ABL1_HUMAN</nid>
+<definition>   Proto-oncogene tyrosine-protein kinase ABL1 (EC 2.7.1.112) (</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dkwemertditmkhklgggqygevyegvwk-------kysltvavktlkedtmevee-------flkeaavmkeik---hpnlvqllgvctre---ppfyiitefmtygnlldylrecnrq--------------evnavvllymatqissameylekk---nfihrdlaarnclvgen--------hlvkvadfglsrlmtgd------tytah-agakfpikwtapeslay---nkfsiksdvwafgvllweiatygmspypgi---dlsqvyellekd---yrmerp--egcpekvyelmracwqwnpsdr----psfaeihqafetmfqe-ssisdeve
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ABL1_CAEEL</seq-name>
+<seq-info>
+<accession>ABL1_CAEEL</accession>
+<nid>ABL1_CAEEL</nid>
+<definition>   Tyrosine-protein kinase abl-1 (EC 2.7.1.112).</definition>
+<organism>   Caenorhabditis elegans.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>deweldrseiimhnklgggqygdvyegywk-------rhdctiavkalkedamplhe-------flaeaaimkdlh---hknlvrllgvcthe---apfyiitefmcngnlleylrrtdks--------------llppiilvqmasqiasgmsylear---hfihrdlaarnclvseh--------nivkiadfglarfmked------tytah-agakfpikwtapeglaf---ntfssksdvwafgvllweiatygmapypgv---elsnvyglleng---frmdgp--qgcppsvyrlmlqcwnwspsdr----prfrdihfnlenliss-nslndevq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ABL_DROME</seq-name>
+<seq-info>
+<accession>ABL_DROME</accession>
+<nid>ABL_DROME</nid>
+<definition>   Tyrosine-protein kinase Abl (EC 2.7.1.112) (D-ash).</definition>
+<organism>   Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>deweicrtdimmkhklgggqygevyeavwk-------rygntvavktlkedtmalkd-------fleeaaimkemk---hpnlvqligvctre---ppfyiitefmshgnlldflrsagre--------------tldavallymatqiasgmsylesr---nyihrdlaarnclvgdn--------klvkvadfglarlmrdd------tytah-agakfpikwtapeglay---nkfstksdvwafgvllweiatygmspypaid---ltdvyhkldkg---yrmerp--pgcppevydlmrqcwqwdatdr----ptfksihhalehmfqe-ssiteave
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SRK3_SPOLA</seq-name>
+<seq-info>
+<accession>SRK3_SPOLA</accession>
+<nid>SRK3_SPOLA</nid>
+<definition>   Tyrosine-protein kinase SRK3 (EC 2.7.1.112) (Fragment).</definition>
+<organism>   Spongilla lacustris (Freshwater sponge).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>deweidrttiqlqrklgqgnfgevwagvwn--------gttavavktlkpdtme-------vkdfvqeaqvmkkih---hpnllqlyavctig---epiyivtelmkygsmleylkhgeg--------------knitlhqmvdmsaqiasgmtyleah---syihrdlaarnilvgeg--------nvckvadfglarviked------iynpr-egtkfpikwtapeaaly---nrftiksdvwsfgvliseivthgrmpypgm---tnrqvleavdrg---yrmpcp--egcpdplykimlscwkhepddr----ptfeslknlledyyvsaaegsyrep
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SRK2_SPOLA</seq-name>
+<seq-info>
+<accession>SRK2_SPOLA</accession>
+<nid>SRK2_SPOLA</nid>
+<definition>   Tyrosine-protein kinase SRK2 (EC 2.7.1.112) (Fragment).</definition>
+<organism>   Spongilla lacustris (Freshwater sponge).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dmweisrdsitlirklgagqfgevyqglwn--------nstpvavktlkagtmq-------paaflaeaqimkklr---hpkliqlyavctqg---epvyiitelmskgslldylqgeag---------------alklpqlidmaaqvaagmaylelh---nyihrdlaarnilvgdn--------nickvadfglarlivsd------dynat-egakfpikwtapeaalf---nrfsiksdvwsfgilitelvtygripypgm---snaevlqnldkg---yrmpcp--vttpeslyqimldcwkrnpadr----ptfealqwrledffvl-dagqyqha
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SR42_DROME</seq-name>
+<seq-info>
+<accession>SR42_DROME</accession>
+<nid>SR42_DROME</nid>
+<definition>   Tyrosine-protein kinase Src42A (EC 2.7.1.112) (Dsrc41).</definition>
+<organism>   Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dqweidrtslkfvrklgsgqfgdvweglwn--------nttpvaiktlksgtmd-------pkdflaeaqimkklr---htkliqlyavctve---epiyiitelmkhgslleylqaiagkg------------rslkmqtlidmaaqiaagmaylesq---nyihrdlaarnvlvgdg--------nivkiadfglarliked------eyear-vgarfpikwtapeaany---skfsiksdvwsfgilltelvtygripypgm---tnaevltqvehg---yrmpqp--pnceprlyeimlecwhkdpmrr----ptfetlqwkledfyts-dqsdykea
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>STK_HYDAT</seq-name>
+<seq-info>
+<accession>STK_HYDAT</accession>
+<nid>STK_HYDAT</nid>
+<definition>   Tyrosine-protein kinase STK (EC 2.7.1.112) (P57-STK).</definition>
+<organism>   Hydra attenuata (Hydra) (Hydra vulgaris).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>daweipreslrlnrklgagqfgevwagvwn--------nttqvavktlkpgtms-------pasfldeagvmkklr---hkhlvqlyaicsdr---epiyivteymsggslldylskgeg--------------vnlqlptlidmaaqvasgmafleaq---gyihrdlaarnilvgen--------yickvadfglarliedd------eytah-egakfpikwtapeaaly---nrftiksdvwsfgilmaeivtkgripypgm---tnaqtiaevekg---yrmpim--pgcpeplynimlqtwnkdpenr----ptfdylqgvledyfvs-teqgyrdl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SRK1_SPOLA</seq-name>
+<seq-info>
+<accession>SRK1_SPOLA</accession>
+<nid>SRK1_SPOLA</nid>
+<definition>   Tyrosine-protein kinase isoform SRK1 (EC 2.7.1.112).</definition>
+<organism>   Spongilla lacustris (Freshwater sponge).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>eeweiektqikllrrlgagqfgevweglwn--------gttsvavktlkpgtms-------veeflqeasimkrlr---hpkliqlyavctke---epiyivtelmkygslleylrgedg---------------vlkieqlvdvaaqvasgmsyleqq---nyihrdlaarnilvgeh--------gickvadfglarvidee------iyeah-tgakfpikwtapeaamy---nrftiksdvwsfgvvlyeiitygrfpypgm---tnpevlekiqqn---yrmpcp--ancpkqfhdimldcwredpasr----ptfetlqwqleeffns---egyrdp
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FRK_HUMAN</seq-name>
+<seq-info>
+<accession>FRK_HUMAN</accession>
+<nid>FRK_HUMAN</nid>
+<definition>   Tyrosine-protein kinase FRK (EC 2.7.1.112) (Nuclear tyrosine</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dqweidrnsiqllkrlgsgqfgevweglwn--------nttpvavktlkpgsmd-------pndflreaqimknlr---hpkliqlyavctle---dpiyiitelmrhgslqeylqndtg--------------skihltqqvdmaaqvasgmaylesr---nyihrdlaarnvlvgeh--------niykvadfglarvfkvd---nediyesr-heiklpvkwtapeairs---nkfsiksdvwsfgillyeiitygkmpysgm---tgaqviqmlaqn---yrlpqp--sncpqqfynimlecwnaepker----ptfetlrwkledyfet--dssysda
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SRC1_XENLA</seq-name>
+<seq-info>
+<accession>SRC1_XENLA</accession>
+<nid>SRC1_XENLA</nid>
+<definition>   Tyrosine-protein kinase SRC-1 (EC 2.7.1.112) (p60-SRC-1).</definition>
+<organism>   Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>daweiprdslrlelklgqgcfgevwmgtwn--------gttrvaiktlkpgtms-------peaflqeaqvmkklr---heklvqlyavvsee----piyivteyiskgslldflkgemg--------------rylrlpqlvdmaaqiasgmayverm---nyvhrdlraanilvgen--------lvckvadfglarliedn------eytar-qgakfpikwtapeaaly---grftiksdvwsfgilltelttkgrvpypgm---vnrevldqverg---yrmpcp--pdcpeslhdlmfqcwrkdpeer----ptfeylqafledyfta-tepqyqpg
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>YES_AVISY</seq-name>
+<seq-info>
+<accession>YES_AVISY</accession>
+<nid>YES_AVISY</nid>
+<definition>   Tyrosine-protein kinase transforming protein YES (EC 2.7.1.1</definition>
+<organism>   Avian sarcoma virus (strain Y73).Viruses;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>daweipreslrlevklgqgcfgevwmgtwn--------gttkvaiktlklgtmm-------peaflqeaqimkklr---hdklvplyavvsee----piyivtefmtkgslldflkegeg--------------kflklpqlvdmaaqiadgmayierm---nyihrdlraanilvgdn--------lvckiadfglarliedn------eytar-qgakfpikwtapeaaly---grftiksdvwsfgilltelvtkgrvpypgm---vnrevleqverg---yrmpcp--qgcpeslhelmklcwkkdpder----ptfeyiqsfledyfta-aepsgy--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>YRK_CHICK</seq-name>
+<seq-info>
+<accession>YRK_CHICK</accession>
+<nid>YRK_CHICK</nid>
+<definition>   Proto-oncogene tyrosine-protein kinase YRK (EC 2.7.1.112) (p</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dvweipreslqllqklgngqfgevwmgtwn--------gttkvavktlkpgtms-------peafleeaqimkrlr---hdklvqlyavvsee----piyivtefmsqgslldflkdgdg--------------rylklpqlvdmaaqiaagmayierm---nyihrdlraanilvgdn--------lvckiadfglarliedn------eytar-qgakfpikwtapeaalf---gkftiksdvwsfgilltelvtkgrvpypgm---nnrevleqverg---yrmqcp--ggcppslhdvmvqcwkrepeer----ptfeylqsfledyfta-tepqyqpg
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FYN_CHICK</seq-name>
+<seq-info>
+<accession>FYN_CHICK</accession>
+<nid>FYN_CHICK</nid>
+<definition>   Proto-oncogene tyrosine-protein kinase FYN (EC 2.7.1.112) (P</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dawevardslfleqklgqgcfaevwrgtwn--------gntkvaiktlkpgtms-------pesfleeaqimkklk---hdklvqlyavvsrr----piyivteymskgslliflkdgeg--------------ralklpnlvdmaaqvaagmayierm---nyihrdlrsanilvgng--------lickiadfglarliedn------eytar-qgakfpikwtapeaaly---grftiksdvwsfgilltelvtkgrvpypgm---nnrevleqverg---yrmpcp--qdcpislhelmihcwkkdpeer----ptfeylqgfledyfta-tepqyqpg
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FGR_HUMAN</seq-name>
+<seq-info>
+<accession>FGR_HUMAN</accession>
+<nid>FGR_HUMAN</nid>
+<definition>   Proto-oncogene tyrosine-protein kinase FGR (EC 2.7.1.112) (P</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>daweisrssitlerrlgtgcfgdvwlgtwn--------gstkvavktlkpgtms-------pkafleeaqvmkllr---hdklvqlyavvsee----piyivtefmchgslldflknpeg--------------qdlrlpqlvdmaaqvaegmaymerm---nyihrdlraanilvger--------lackiadfglarlikdd------eynpc-qgskfpikwtapeaalf---grftiksdvwsfgilltelitkgripypgm---nkrevleqveqg---yhmpcp--pgcpaslyeameqtwrldpeer----ptfeylqsfledyfts-aepqyqpg
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FGR_FSVGR</seq-name>
+<seq-info>
+<accession>FGR_FSVGR</accession>
+<nid>FGR_FSVGR</nid>
+<definition>   Tyrosine-protein kinase transforming protein FGR (EC 2.7.1.1</definition>
+<organism>   Feline sarcoma virus (strain Gardner-Rasheed).Viruses;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>daweisrssitlqrrlgtgcfgdvwlgmwn--------gstkvavktlkpgtms-------pkasleeaqimkllr---hdklvqlyavvpee----piyivtefmchgslleflkdqeg--------------qdltlpqlvdmaaqvaegmaymerm---dyihrdlraanilvger--------lvckiadfglarliedn------eynpr-qgakfpikwtapeaalf---grftiksdvwsfgillteliskgrvpypgm---nnrevleqvehg---yhmpcp--pgcpaslyeameqtwrldpeer----ptfeylqsfledyfng---pqqn--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>LCK_CHICK</seq-name>
+<seq-info>
+<accession>LCK_CHICK</accession>
+<nid>LCK_CHICK</nid>
+<definition>   Proto-oncogene tyrosine-protein kinase LCK (EC 2.7.1.112) (P</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dewevpreslklveklgagqfgevwmgfyn--------ghtkvaiknlkqgsms-------psaflaeanlmknlq---hprlvrlyavvtke----piyiiteymekgslvdflktseg--------------iklsinklldmaaqiaegmafieak---nyihrdlraanilvsea--------lcckiadfglarliedn------eytar-egakfpikwtapeainy---gtftiksdvwsfgillteivtygripypgm---tnpeviqnlerg---yrmpqp--dncpqelyelmmqcwkeqpeer----ptfeymksvledffta-tegqyqqq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>BLK_HUMAN</seq-name>
+<seq-info>
+<accession>BLK_HUMAN</accession>
+<nid>BLK_HUMAN</nid>
+<definition>   Tyrosine-protein kinase BLK (EC 2.7.1.112) (B lymphocyte kin</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>deweiprqslrlvrklgsgqfgevwmgyyk--------nnmkvaiktlkegtms-------peaflgeanmmkalq---herlvrlyavvtke----piyivteymargclldflktdeg--------------srlslprlidmsaqiaegmayierm---nsihrdlraanilvsea--------lcckiadfglariids-------eytaq-egakfpikwtapeaihf---gvftikadvwsfgvllmevvtygrvpypgm---snpevirnlerg---yrmprpd-tcppelyrgviaecwrsrpeer----ptfeflqsvledfyta-terqyelq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SR64_DROME</seq-name>
+<seq-info>
+<accession>SR64_DROME</accession>
+<nid>SR64_DROME</nid>
+<definition>   Tyrosine-protein kinase Src64B (EC 2.7.1.112) (Dsrc64).</definition>
+<organism>   Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dkyeiprseiqllrklgrgnfgevfygkwr--------nsidvavktlregtms-------taaflqeaaimkkfr---hnrlvalyavcsqe---epiyivqeymskgslldflregdg--------------rylhfedliyiatqvasgmeylesk---qlihrdlaarnvligen--------nvakicdfglarviadd------eycpk-qgsrfpvkwtapeaiiy---gkfsiksdvwsygillmelftygqvpypgm---hsrevienierg---frmpkptnhyfpdniyqlllqcwdavpekr----ptfeflnhyfesfsvt-sevpyrev
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PTK6_HUMAN</seq-name>
+<seq-info>
+<accession>PTK6_HUMAN</accession>
+<nid>PTK6_HUMAN</nid>
+<definition>   Tyrosine-protein kinase 6 (EC 2.7.1.112) (Breast tumor kinas</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ddwerpreeftlcrklgsgyfgevfeglwk--------drvqvaikvisrdnllh------qqmlqseiqamkklr---hkhilalyavvsvg---dpvyiitelmakgsllellrdsde--------------kvlpvselldiawqvaegmcylesq---nyihrdlaarnilvgen--------tlckvgdfglarliked------vyls--hdhnipykwtapealsr---ghystksdvwsfgillhemfsrgqvpypgm---snheaflrvdag---yrmpcp--lecppsvhklmltcwcrdpeqr----pcfkalrerlssft------syenp
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PTK6_MOUSE</seq-name>
+<seq-info>
+<accession>PTK6_MOUSE</accession>
+<nid>PTK6_MOUSE</nid>
+<definition>   Tyrosine-protein kinase 6 (EC 2.7.1.112) (SRC-related intest</definition>
+<organism>   Mus musculus (Mouse).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ddwerpreeftlckklgagyfgevfealwk--------gqvhvavkvisrdnllh------qhtfqaeiqamkklr---hkhilslyavatag---dpvyiitelmpkgnllqllrdsde--------------kalpilelvdfasqvaegmcylesq---nyihrdlaarnvlvten--------nlckvgdfglarlvked------iyls--hehnvpykwtapealsr---ghysiksdvwsfgvllheifsrgqmpypgm---snhetflrvdag---yrmpcp--lecppnihklmlscwsrdpkqr----pcfkdlcekltgit------ryenl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SRMS_MOUSE</seq-name>
+<seq-info>
+<accession>SRMS_MOUSE</accession>
+<nid>SRMS_MOUSE</nid>
+<definition>   Tyrosine-protein kinase Srms (EC 2.7.1.112) (PTK70).</definition>
+<organism>   Mus musculus (Mouse).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dewerprsefvlrrklgegffgevweglwl--------gsipvavkviksadmk-------ladltkeiealkslr---herlirlhaicslg---epvyivtelmgkgnlqvylgsseg--------------kalslphllgfacqvaegmsyleer---rvvhrdlaarnvlvgdd--------ltckvadfglarllkdd------vysps-sgskipvkwtapeaany---rvfsqksdvwsfgillyevftygqcpyegm---tnhetlqqisrg---yrlprp--avcpaevyvlmvecwkgspeer----ptfailreklnainrr----lhlgl
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SRMS_HUMAN</seq-name>
+<seq-info>
+<accession>SRMS_HUMAN</accession>
+<nid>SRMS_HUMAN</nid>
+<definition>   Tyrosine-protein kinase Srms (EC 2.7.1.112).</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dvwerphsefalgrklgegyfgevweglwl--------gslpvaikviksanmk-------ltdlakeiqtlkglr---herlirlhavcsgg---epvyivtelmrkgnlqaflgtpeg--------------ralrlppllgfacqvaegmsyleeq---rvvhrdlaarnvlvddg--------lackvadfglarllkdd------iysps-ssskipvkwtapeaany---rvfsqksdvwsfgvllhevftygqcpyegm---tnhetlqqimrg---yrlprp--aacpaevyvlmlecwrsspeer----psfatlreklhaihrc-hp------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CSK_CHICK</seq-name>
+<seq-info>
+<accession>CSK_CHICK</accession>
+<nid>CSK_CHICK</nid>
+<definition>   Tyrosine-protein kinase CSK (EC 2.7.1.112) (C-SRC kinase).</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>sgwalnmkdlkllqiigkgefgdvmlgdyr---------gnkvavkcikndat--------aqaflaeasvmtqlr---hsnlvqllgviveek--sglyivteymakgslvdylrsrgr--------------svlggdcllkfsldvceameylean---nfvhrdlaarnvlvsed--------niakvsdfgltkeasst-----------qdtgklpvkwtapealre---kkfstksdvwsfgillweiysfgrvpypri---plkdvvprvekg---ykmdpp--dgcpaivyevmkkcwtldpghr----psfhqlreqlvhikek-elyl----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>BTKL_DROME</seq-name>
+<seq-info>
+<accession>BTKL_DROME</accession>
+<nid>BTKL_DROME</nid>
+<definition>   Tyrosine-protein kinase Btk29A (EC 2.7.1.112) (Dsrc28C).</definition>
+<organism>   Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dkweihpmelmlmeelgsgqfgvvrrgkwr--------gsidtavkmmkegtms-------eddfieeakvmtklq---hpnlvqlygvcskh---rpiyivteymkhgsllnylrrhek-------------tlignmgllldmciqvskgmtylerh---nyihrdlaarnclvgse--------nvvkvadfglaryvldd------qytss-ggtkfpikwappevlny---trfssksdvwaygvlmweiftcgkmpygrl---kntevvervqrg---iilekp--kscakeiydvmklcwshgpeer----pafrvlmdqlalvaqt-ltd-----
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>FER_HUMAN</seq-name>
+<seq-info>
+<accession>FER_HUMAN</accession>
+<nid>FER_HUMAN</nid>
+<definition>   Proto-oncogene tyrosine-protein kinase FER (EC 2.7.1.112) (p</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>lshed--vilg--ellgkgnfgevykgtlk-------dk-tsvavktckedlpqe-----lkikflqeakilkqyd---hpnivkligvctqr---qpvyiimelvsggdfltflrrkkd---------------elklkqlvkfsldaaagmlylesk---ncihrdlaarnclvgen--------nvlkisdfgmsrqedgg------vysss-glkqipikwtapealny---gryssesdvwsfgillwetfslgvcpypgm---tnqqareqverg---yrmsap--qhcpediskimmkcwdykpenr----pkfselqkeltiikrk-lt------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EPB1_CHICK</seq-name>
+<seq-info>
+<accession>EPB1_CHICK</accession>
+<nid>EPB1_CHICK</nid>
+<definition>   Ephrin type-B receptor 1 (EC 2.7.1.112) (Tyrosine-protein ki</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>fakeidvsfvkieevigagefgevykgrlkl----pgkreiyvaiktlkagyse-----kqrrdflseasimgqfd---hpniirlegvvtks---rpvmiitefmengaldsflrqndg---------------qftviqlvgmlrgiaagmkylaem---nyvhrdlaarnilvnsn--------lvckvsdfglsrylqdd--tsdptytss-lggkipvrwtapeaiay---rkftsasdvwsygivmwevmsfgerpywdm---snqdvinaieqd---yrlppp--mdcpaalhqlmldcwqkdrntr----prlaeivntldkmirn-paslktv-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EPA5_CHICK</seq-name>
+<seq-info>
+<accession>EPA5_CHICK</accession>
+<nid>EPA5_CHICK</nid>
+<definition>   Ephrin type-A receptor 5 precursor (EC 2.7.1.112) (Tyrosine-</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>fakeieascitiervigagefgevcsgrlkl----qgkrefpvaiktlkvgyte-----kqrrdflgeasimgqfd---hpniihlegvvtks---kpvmivteymengsldtflkkndg---------------qftviqlvgmlrgiasgmkylsdm---gyvhrdlaarnilinsn--------lvckvsdfglsrvledd---peaaytt--rggkipirwtapeaiaf---rkftsasdvwsygivmwevmsygerpywem---tnqdvikaveeg---yrlpsp--mdcpaalyqlmldcwqkdrnsr----pkfdeivsmldklirn-psslktl-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EPA7_CHICK</seq-name>
+<seq-info>
+<accession>EPA7_CHICK</accession>
+<nid>EPA7_CHICK</nid>
+<definition>   Ephrin type-A receptor 7 precursor (EC 2.7.1.112) (Tyrosine-</definition>
+<organism>   Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>fakeldascikiervigagefgevcsgrlkl----pgkrdvavaiktlkvgyte-----kqrrdflceasimgqfd---hpnvvhlegvvtrg---kpvmivieymengaldaflrkhdg---------------qftviqlvgmlrgiaagmryladm---gyvhrdlaarnilvnsn--------lvckvsdfglsrviedd---peavytt--tggkipvrwtapeaiqy---rkftsasdvwsygivmwevmsygerpywdm---snqdvikaieeg---yrlpap--mdcpaglhqlmldcwqkerger----pkfeqivgildkmirn-pnslktp-
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EPA3_BRARE</seq-name>
+<seq-info>
+<accession>EPA3_BRARE</accession>
+<nid>EPA3_BRARE</nid>
+<definition>   Ephrin type-A receptor 3 precursor (EC 2.7.1.112) (Tyrosine-</definition>
+<organism>   Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>fakeievsniriervigagefgevcsgrlrl----pskreiqvaikslkagyse-----hqrrdflseasimgqfd---hpniirlegvvtrc---kpvmivteymengsldtflkkhdg---------------qftviqllgmlrgiaagmqylsem---nyvhrdlaarnilvnrn--------lvckvsdfglsrvledd---peaaytt--rggkipirwtapeaity---rkftsasdvwsygivmwevisygerpywem---snqdvikavdeg---yrlpap--mdcpvvlhqlmldcweknrsdr----pkfgqivntldrlirn-psslkqla
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EPA2_HUMAN</seq-name>
+<seq-info>
+<accession>EPA2_HUMAN</accession>
+<nid>EPA2_HUMAN</nid>
+<definition>   Ephrin type-A receptor 2 precursor (EC 2.7.1.112) (Tyrosine-</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ftteihpscvtrqkvigagefgevykgmlkts---sgkkevpvaiktlkagyte-----kqrvdflgeagimgqfs---hhniirlegvisky---kpmmiiteymengaldkflrekdg---------------efsvlqlvgmlrgiaagmkylanm---nyvhrdlaarnilvnsn--------lvckvsdfglsrvledd---peatytt--sggkipirwtapeaisy---rkftsasdvwsfgivmwevmtygerpywel---snhevmkaindg---frlptp--mdcpsaiyqlmmqcwqqerarr----pkfadivsildklira-pdslktla
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>EPA1_HUMAN</seq-name>
+<seq-info>
+<accession>EPA1_HUMAN</accession>
+<nid>EPA1_HUMAN</nid>
+<definition>   Ephrin type-A receptor 1 precursor (EC 2.7.1.112) (Tyrosine-</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ftreldpawlmvdtvigegefgevyrgtlrl----psqdcktvaiktlkdtspg-----gqwwnflreatimgqfs---hphilhlegvvtkr---kpimiitefmengaldaflrered---------------qlvpgqlvamlqgiasgmnylsnh---nyvhrdlaarnilvnqn--------lcckvsdfgltrlldd----fdgtyet--qggkipirwtapeaiah---rifttasdvwsfgivmwevlsfgdkpygem---snqevmksiedg---yrlppp--vdcpaplyelmkncwaydrarr----phfqklqahleqllan-phslrtia
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1csn_</seq-name>
+<seq-info>
+<accession>1csn_</accession>
+<nid>1csn_</nid>
+<definition>   Ephrin type-A receptor 1 precursor (EC 2.7.1.112) (Tyrosine-</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>n-vvgvhykv--grrigegsfgvifegtnl-------lnnqqvaikfeprrsda--------pqlrdeyrtykllag--ctgipnvyyfgqeg---lhnvlvidllg-psledlldlcgr---------------kfsvktvamaakqmlarvqsihek---slvyrdikpdnfligrpn---sknanmiyvvdfgmvkfyrdpvtkqhipyre-kknlsgtarymsinthlg---reqsrrddlealghvfmyfl-rgslpwqglkaatnkqkyerigekkqstplrelc-agfpeefykymhyarnlafdat----pdydylqglfskvlerlnttede--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1omw_A</seq-name>
+<seq-info>
+<accession>1omw_A</accession>
+<nid>1omw_A</nid>
+<definition>   Ephrin type-A receptor 1 precursor (EC 2.7.1.112) (Tyrosine-</definition>
+<organism>   Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>nih-ltmndfsvhriigrggfgevygcrka-------dtgkmyamkcldkkrikm---kqgetlalnerimlslvstgdcpfivcmsyafhtp---dklsfildlmnggdlhyhlsqhg----------------vfseadmrfyaaeiilglehmhnr---fvvyrdlkpanillde--------hghvrisdlglacdfsk----------kkphasvgthgymapevlqkg--vaydssadwfslgcmlfkll-rghspfrqhktkdkheidrmtltm--avelp----dsfspelrsllegllqrdvnrrlgclgrgaqevkespffrsldwqmvf---
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

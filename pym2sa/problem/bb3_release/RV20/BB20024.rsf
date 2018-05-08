@@ -1,0 +1,1186 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1au7_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 477 495 3 square solid STRUCT
+  FT   STRUCT        2     19  HELIX
+feature 499 508 3 square solid STRUCT
+  FT   STRUCT       23     32  HELIX
+feature 519 526 3 square solid STRUCT
+  FT   STRUCT       40     47  HELIX
+feature 532 549 3 square solid STRUCT
+  FT   STRUCT       53     69  HELIX
+feature 617 629 3 square solid STRUCT
+  FT   STRUCT       80     92  HELIX
+feature 635 645 3 square solid STRUCT
+  FT   STRUCT       98    108  HELIX
+feature 649 662 3 square solid STRUCT
+  FT   STRUCT      112    125  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................................GMRAL
+  EQFANEF.KVRRIKLGYTQTNVGEALAAVHG...SEFSQTTICRFENLQLSF.KNACKLK
+  AILSKWLEEAEQ................................................
+  .........KRRTTISIAAKDALERHFGEHSKPSSQEIMRMAEELNLEKEVVRVWFCNRR
+  QREKRVK.....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PO21_CHICK
+descrip POU domain, class 2, transcription factor 1 (Octamer-binding
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      278    348  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      375    434  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      376    432  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      274    348  PF00157 pou
+feature 935 973 0 square solid PFAM-B
+  FT   PFAM-B      701    739  PB013391 Pfam-B_13391
+feature 827 851 0 square solid PFAM-B
+  FT   PFAM-B      593    617  PB013392 Pfam-B_13392
+feature 680 744 0 square solid PFAM-B
+  FT   PFAM-B      446    510  PB013728 Pfam-B_13728
+feature 180 295 0 square solid PFAM-B
+  FT   PFAM-B        1    116  PB013830 Pfam-B_13830
+feature 772 798 0 square solid PFAM-B
+  FT   PFAM-B      538    564  PB058823 Pfam-B_58823
+feature 852 923 0 square solid PFAM-B
+  FT   PFAM-B      618    689  PB007900 Pfam-B_7900
+feature 323 471 0 square solid PFAM-B
+  FT   PFAM-B      144    273  PB009920 Pfam-B_9920
+sequence
+  ............................................................
+  ............................................................
+  ...........................................................M
+  NNPSETSKPSMESGDGNTGTQTNGLDFQKQPVPVGGPISTAQAQAFLGHLHQVQLAGTSL
+  QAAAQSLNVQSKSNEESGDSQQPSQPSQQPSVQAAIPQTQLMLAGGQITGLTLTPAQQQL
+  LLQQAQAQLLAAAVQHSASQQHSAAGATISASAATPMTQIPLSQPIQIAQHLQQLQQQNL
+  NLQQFVLVHPTTNLQPAQFIISQT..PQGQQGL..LQAQNLLTQLPQQ.SQANLLQSQ.P
+  SITLASQPATPTRTIAATPIQPLPQSQS...........TPK..RIDTPSLEEPSDLEEL
+  EQFAKTF.KQRRIKLGFTQGDVGLAMGKLYG...NDFSQTTISRFEALNLSF.KNMCKLK
+  PLLEKWLNDAENLSSDS....TLSSPSALNS.........................PGQG
+  IEGV.NRRRKKRTSIETNIRVALEKSFLENQKPTSEEITMIADQLNMEKEVIRVWFCNRR
+  QKEKRINPPS.SGGTSSSPIKAIFPSPTSLVATTPSLVTSSAATTLTVNPVLPLTSPAVT
+  SLSVTGTTETTSNNTATVISTAPPASSAVTSPSLSPSPSASASISEASSASETSTTQTTS
+  TPLSSPLGTSQVMVTASGLQTAAAAALQGAAQLPANASLAAMAAAAGLNPGLMASSQFAA
+  GGALLSLNPGTLGGALSPALMSNSTLATIQALASSGSLPITSLDASGNLVFANAGGTPNI
+  VTAPLFLNPQNLSLLTSNPVSLVSAAAASAGASGPVASLHATSTSAESIQNSLLTVASAS
+  GATSTTTTASKAQ
+}
+{
+name PO22_HUMAN
+descrip POU domain, class 2, transcription factor 2 (Octamer-binding
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      198    268  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      296    355  DNA_BINDHomeobox
+feature 701 722 5 square solid DOMAIN
+  FT   DOMAIN      388    409  Leucine-zipper.
+feature 729 736 5 square solid DOMAIN
+  FT   DOMAIN      416    423  Gly-rich.
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      297    353  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      194    268  PF00157 pou
+feature 718 779 0 square solid PFAM-B
+  FT   PFAM-B      405    466  PB016635 Pfam-B_16635
+feature 339 393 0 square solid PFAM-B
+  FT   PFAM-B       85    137  PB006901 Pfam-B_6901
+feature 255 325 0 square solid PFAM-B
+  FT   PFAM-B        1     71  PB007341 Pfam-B_7341
+feature 396 471 0 square solid PFAM-B
+  FT   PFAM-B      138    193  PB009802 Pfam-B_9802
+feature 432 447 1 square solid VARSPLIC
+  FT   VARSPLIC    167    182  Missing (in isoform 3 and isoform 4).
+feature 712 728 1 square solid VARSPLIC
+  FT   VARSPLIC    399    415  VTTLSSAVGTLHPSRTA -> AQTPALKAATRLSACQA
+feature 729 791 1 square solid VARSPLIC
+  FT   VARSPLIC    416    478  Missing (in isoform 4).
+feature 780 791 1 square solid VARSPLIC
+  FT   VARSPLIC    467    478  Missing (in isoform 2).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..............VHSSMGAPEIRMSKPLEAEKQGLDSPSEHTDTERNGPDTNHQNPQN
+  KTSPFSVSPTGPSTKIKAEDPSGDSAPAAPLPPQPAQPHLPQAQLMLTGSQLAGDIQQLL
+  QLQQLVLVPGHHLQPPAQFLLPQA..QQSQPGL..LPTPN.LFQLPQQ.TQGALLTSQ.P
+  RAG....LPTQAVTRPTLPDPHLSHPQP...........PKC..LEPPSHPEEPSDLEEL
+  EQFARTF.KQRRIKLGFTQGDVGLAMGKLYG...NDFSQTTISRFEALNLSF.KNMCKLK
+  PLLEKWLNDAETMSVDS....SLPSPNQLSS.........................PSLG
+  FDGLPGRRRKKRTSIETNVRFALEKSFLANQKPTSEEILLIAEQLHMEKEVIRVWFCNRR
+  QKEKRINPCS.AAPMLPSPGKPASYSPHMVTPQGGAGTLPLSQASSSLSTTVTTLSSAVG
+  TLHPSRTAGGGGGGGGAAPPLNSIPSVTPPPPATTNSTNPSPQGSHSAIGLSGLNPSTGP
+  GLWWNPAPYQP.................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PDM2_DROME
+descrip POU domain protein 2 (didymous protein) (Pdm-2) (dPOU-28) (d
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 172 177 5 square solid DOMAIN
+  FT   DOMAIN        5     10  Poly-Gln.
+feature 241 246 5 square solid DOMAIN
+  FT   DOMAIN       74     79  Poly-Glu.
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      290    360  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      391    450  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      392    448  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      286    360  PF00157 pou
+sequence
+  ............................................................
+  ............................................................
+  ...............................................MMVLQQQQQQRLW
+  DATTTSNTNTQTQQSANVESTPTKVCHQENAATHTFMRHMSNSPTPPSPLRSLSDCGKSF
+  EEEELELGENCEMPQNLSSKRQARELDSELENEVLDLAPPPKRLAEEQEEEKVASVNPPQ
+  PVAFAPEEMHQALQLQLHSYIEMVRQLAPEAFPNPNLATQFLLQNSLQALAQFQALQQMK
+  QQQREDPLPSYSTPLAKSPLRSPS..LSPVPRH..SKSQQRTPPNSMT.ANSLGMSSA.V
+  MTPNTPSMQQQPQLQQSTPKPTSGLTVA...........SAM..AKLEQSPEETTDLEEL
+  EQFAKTF.KQRRIKLGFTQGDVGLAMGKLYG...NDFSQTTISRFEALNLSF.KNMCKLK
+  PLLQKWLEDADSTVAKSG.GGVFNINTMTST.........................LSST
+  PESILGRRRKKRTSIETTVRTTLEKAFLMNCKPTSEEISQLSERLNMDKEVIRVWFCNRR
+  QKEKRINPSL.DLDSPTGTPLSSHAFGYPPQALNMSHMQMEGGSGSFCGSSISSGE....
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PDM1_DROME
+descrip Nubbin protein (Twain protein) (POU domain protein 1) (PDM-1
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 136 139 5 square solid DOMAIN
+  FT   DOMAIN      104    107  Poly-His.
+feature 223 233 5 square solid DOMAIN
+  FT   DOMAIN      191    201  Poly-Ala.
+feature 393 400 5 square solid DOMAIN
+  FT   DOMAIN      359    364  Poly-His.
+feature 445 466 5 square solid DOMAIN
+  FT   DOMAIN      407    415  Poly-Ala.
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      425    495  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      523    582  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      524    580  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      421    495  PF00157 pou
+sequence
+  ................................MVMSELRWHTASPEDNKNSLKRDLLKST
+  PTSAREAAVHIMQNRYISRLSRSPSPLQSNASDCDDNNSSVGTSSDRCRSPLSPALSLSH
+  QQAKRQLMSLQPHPAHHHHNPHHLNHLNHHQYKQEEDYDDANGGALNLTSDNSRHSTQSP
+  SNSVKSATASPVPVISVPSPVPPMISPVLAPSGCGSTTPNSMAAAAAAAAAVASTMGSGI
+  SPLLALPGMSSPQAQLAAAGLGMNNPLLTGSLSPQDFAQFHQLLQQRQVALTQQFNSYME
+  LLRSGSLGLAQDDPALTAQVAAAQFLMQSQLQALSQASQQLQALQKQQQRQVDEPLQLNH
+  KMTQQPRSSTPHSIRSPIAIRSPA..SSPQQLH..HHHHHPLQITPPS.SAASLKLSG.M
+  LTPSTPTSGTQMSQGTTTPQPKTVASAA...........AAR..AAGEPSPEETTDLEEL
+  EQFAKTF.KQRRIKLGFTQGDVGLAMGKLYG...NDFSQTTISRFEALNLSF.KNMCKLK
+  PLLQKWLDDADRTIQATG....GVFDPAALQ.........................ATVS
+  TPEIIGRRRKKRTSIETTIRGALEKAFLANQKPTSEEITQLADRLSMEKEVVRVWFCNRR
+  QKEKRINPSL.DSPTGADDDESSYMMH.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name BR31_BRARE
+descrip Brain-specific homeobox/POU domain protein 3.1 (Brn-3.1) (Fr
+creator Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;
+type    PROTEIN
+group 1
+feature 609 652 0 square solid PFAM-A
+  FT   PFAM-A       73    116  PF00046 homeobox
+feature 497 551 1 square solid PFAM-A
+  FT   PFAM-A        1     54  PF00157 pou
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................VTQADVGSALANLKIPGVGSLSQSTICRFESLTLSH.NNMIALK
+  PVLQAWLEEAEAAYRE.........KNGKPD.........................LFNG
+  NE.....RKRKRTSIAAPEKRSLEAYFAIQPRPSSEKIARIAEKLDLKKNVV........
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name UN86_CAEEL
+descrip Transcription factor unc-86 (Uncoordinated protein 86).
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 333 342 5 square solid DOMAIN
+  FT   DOMAIN      145    154  POU-IV BOX.
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      269    342  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      363    422  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      364    420  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      265    342  PF00157 pou
+feature 317 322 1 square solid VARSPLIC
+  FT   VARSPLIC    129    134  FNNSLF -> DFILFI (in isoform a).
+feature 323 360 1 square solid VARSPLIC
+  FT   VARSPLIC    135    172  Missing (in isoform a).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ........MEKAHRFRLPFCSFFPVPLLVSVLIFHHSAPFLIQLFFPSPLFNPLLRPSKI
+  SRGSENGACTSHSTLQRTRKIIQWELPKRGGDQDIGDPRPFRIHLSPPSFKVPLFSTDMQ
+  NTAPVPTTTTASKMQPFNNSLFGSFDDPILNARAAQVALADIDVKNVPQLTNPLMRPHDM
+  FSYSNYFSGIHDTSAATNIYQGLP..SSSEPFD..ASVVVPTSSDDQM.TPLQQVMAM.Q
+  QSYGAPPPFQYNMTHPFSTTSIASSNNL...........ARY..PIAPPTSDMDTDPRQL
+  ETFAEHF.KQRRIKLGVTQADVGKALAHLKMPGVGSLSQSTICRFESLTLSH.NNMVALK
+  PILHSWLEKAEEAMKQ......KDTIGDING.........................ILPN
+  TD.....KKRKRTSIAAPEKRELEQFFKQQPRPSGERIASIADRLDLKKNVVRVWFCNQR
+  QKQKRDFRSQ.FRARSAAAVMGPRVMPVLNGNNSNNNLKQGQTTYNGLPGFFD.......
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name POU1_XENLA
+descrip Transcription factor POU1 (XLPOU1) (Homeotic protein NRL-22/
+creator Xenopus laevis (African clawed frog).Eukaryota;
+type    PROTEIN
+group 1
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      179    249  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      267    326  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      268    324  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      175    249  PF00157 pou
+feature 334 432 0 square solid PFAM-B
+  FT   PFAM-B       56    148  PB048147 Pfam-B_48147
+feature 279 333 0 square solid PFAM-B
+  FT   PFAM-B        1     55  PB078223 Pfam-B_78223
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......................................MHPDSDRMHQGTTYREVQKMMH
+  QEYLQGLATNAGHHMSLTPHQWLPNPASDWGSGSHLGVQAEHAKSGVQSNREDLSSGFHH
+  HRSHLVHQQSPSSHAWAQSGGHHL..APMSPSS..NSHQPLIYSQSSY.TNLNGMLGP.Q
+  ASSLHHSMRDPLHDDPGVHDTQVDSPPQ...........HLG..HHQDHSDEDAPSSDDL
+  EQFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLNKWLEETDSTTGS.........PTNLDK.........................IAAQ
+  GR.....KRKKRTSIEVGVKGALENHFLKCPKPSAHEITSLADSLQLEKEVVRVWFCNRR
+  QKEKRMTPAG.VPHPPMEDVYSQAETPPLHHTLQTSVQ......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name ZP50_BRARE
+descrip POU domain protein ZP-50.
+creator Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;
+type    PROTEIN
+group 1
+feature 475 551 5 square solid DOMAIN
+  FT   DOMAIN      190    261  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      279    338  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      280    336  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      187    261  PF00157 pou
+feature 335 440 0 square solid PFAM-B
+  FT   PFAM-B       76    168  PB048147 Pfam-B_48147
+feature 279 333 0 square solid PFAM-B
+  FT   PFAM-B       20     74  PB078223 Pfam-B_78223
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................MATTAQYIPRNNSLPSNPLMHPDSDRMHQGTTYREVQKMMH
+  HEYLQGLATNTGHPMSLTHHQWLPTSNTDWTSGTHIG..QAEHNKASVQSREDLGNGYHR
+  SHLVHQPTQNSHHGSWAPTTTHHL..SPLSPAS..NGHQSLVYSQTGY.TMLS......P
+  QPSLHHGLRDPLHDDAGSHDNQMESPQQ...........PFS..HHQDHSDEDAPSSDDL
+  EQFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLNKWLEETDSNTGS.........PTNLDK.........................IAAQ
+  GR.....KRKKRTSIEVGVKGALENHFLKCPKPSAHEITTLAGTLQLEKEVVRVWFCNRR
+  QKEKRMTPVG.VPHPTMEDVYSQAETPPLHHTLQSPVQ......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PO31_HUMAN
+descrip POU domain, class 3, transcription factor 1 (Octamer-binding
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      248    318  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      336    395  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      337    393  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      244    318  PF00157 pou
+feature 255 285 0 square solid PFAM-B
+  FT   PFAM-B       44     74  PB028712 Pfam-B_28712
+feature 320 369 0 square solid PFAM-B
+  FT   PFAM-B      109    158  PB047682 Pfam-B_47682
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................MATTAQYLPRGPGGGAGGTGPLMHPDAAA
+  AAAAAAERLHAGAAYREVQKLMHHEWLGAGAGHPVGLAHPQWLPTGGGGGGDWAGAHLEH
+  GKAGGGGTGRADDGGGGGGFHARLVHQGAAHAGAAWAQGSTAHHLGPAMSPSPGASGGHQ
+  PQPLGLYAQAAYPGGGGGGLAGML..AAGGGGA..GPGLHHALHEDGH.EAQLEPSPP.P
+  HLGAHGHAHGHAHAGGLHAAAAHLHPGA...........GGGGSSVGEHSDEDAPSSDDL
+  EQFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLNKWLEETDSSSGS.........PTNLDK.........................IAAQ
+  GR.....KRKKRTSIEVGVKGALESHFLKCPKPSAHEITGLADSLQLEKEVVRVWFCNRR
+  QKEKRMTPAAGAGHPPMDDVYAPGELGPGGGGASPPSAPPPPPPAALHHHHHHTLPGSVQ
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PO34_HUMAN
+descrip POU domain, class 3, transcription factor 4 (Brain-specifich
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      190    260  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      278    337  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      279    335  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      186    260  PF00157 pou
+feature 332 417 0 square solid PFAM-B
+  FT   PFAM-B       63    143  PB039416 Pfam-B_39416
+feature 418 471 0 square solid PFAM-B
+  FT   PFAM-B      144    185  PB046895 Pfam-B_46895
+feature 262 331 0 square solid PFAM-B
+  FT   PFAM-B        1     62  PB007105 Pfam-B_7105
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................MATAASNPYSILSSTSLVHADSAGMQQGSPFRNPQKLLQ
+  SDYLQGVPS........NGHPLGHHWVTSLSDGGPWSSTLATSPLDQQDVKPGREDLQLG
+  AIIHHRSPHVAHHSPHTNHPNAWG..ASPAPNP..SITSSGQPLNVYS.QPGFTVSGM.L
+  EHGGLTPPPAAASAQSLHPVLREPPDHG...........ELGSHHCQDHSDEETPTSDEL
+  EQFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLNKWLEEADSSTGS.........PTSIDK.........................IAAQ
+  GR.....KRKKRTSIEVSVKGVLETHFLKCPKPAAQEISSLADSLQLEKEVVRVWFCNRR
+  QKEKRMTPPGDQQPHEVYSHTVKTDTSCHDL.............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name ZP47_BRARE
+descrip POU domain protein ZP-47.
+creator Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;
+type    PROTEIN
+group 1
+feature 475 551 5 square solid DOMAIN
+  FT   DOMAIN      203    274  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      292    351  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      293    349  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      200    274  PF00157 pou
+feature 320 370 0 square solid PFAM-B
+  FT   PFAM-B       65    115  PB048169 Pfam-B_48169
+feature 256 319 0 square solid PFAM-B
+  FT   PFAM-B        1     64  PB007105 Pfam-B_7105
+feature 374 440 0 square solid PFAM-B
+  FT   PFAM-B      119    179  PB009939 Pfam-B_9939
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............MATTASNHYNILTSSPSIVHSEPGSMQQATAYRDAQTLLQSDYSL
+  QSNSHPLSHAHQWITALSHGEGGPWSSSPLGEQDIKPAVQSPRDEMHNSSNLQHQSRPPH
+  LVHQTHGNHHDSRAWRTTTAAHIP..SMATSNG..QSLIYSQPSFSVN.GLIPGSGQG.I
+  HHHSMRDAHEDHHSPHLSDHGHPPSQHQ...........HQSHQSHHDHSDEDTPTSDDL
+  EQFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLNKWLEEADSTSGS.........PTSLDK.........................IAAQ
+  GR.....KRKKRTSIEVSVKGALESHFLKCPKPAASEITSLADSLQLEKEVVRVWFCNRR
+  QKEKRMTPPGGPLPGTEDVYGDTPPHHGVQTPVQ..........................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PO3A_XENLA
+descrip Transcription factor POU3A (XLPOU3).
+creator Xenopus laevis (African clawed frog).Eukaryota;
+type    PROTEIN
+group 1
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      205    275  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      293    352  DNA_BINDHomeobox
+feature 445 463 5 square solid DOMAIN
+  FT   DOMAIN      185    192  Gln-rich.
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      294    350  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      201    275  PF00157 pou
+feature 320 373 0 square solid PFAM-B
+  FT   PFAM-B       65    118  PB048169 Pfam-B_48169
+feature 256 319 0 square solid PFAM-B
+  FT   PFAM-B        1     64  PB007105 Pfam-B_7105
+feature 374 428 0 square solid PFAM-B
+  FT   PFAM-B      119    168  PB009939 Pfam-B_9939
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............MATTASNHYNLLGSGSSIVHADPGGMQQAQSYRDAQTLVQSDYTL
+  QSNGHPLSHAHQWITALSHGDGAPWATSPLGQQDIKPTVQSSRDELHVSGTLQHQSRAPH
+  LVHPAHGNHHGPGAWRSTGSTHLS..SMASSNG..QGLLYSQPSFTVNGMINPGSGQG.I
+  HHHGLRDSHDDHHGDHGHQQVSQAQQQH...........SQLQGGHQDHSDEDTPTSDDL
+  EQFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLNKWLEEADSSSGS.........PTSIDK.........................IAAQ
+  GR.....KRKKRTSIEVSVKGALESHFLKCPKPSAPEITSLADSLQLEKEVVRVWCCNRR
+  QKEKRMTPPGGTIPGAEDIYGASRDTPPHLGVQTSVQ.......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PO32_HUMAN
+descrip POU domain, class 3, transcription factor 2 (Nervous-system 
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 275 297 5 square solid DOMAIN
+  FT   DOMAIN       68     90  Poly-Gly.
+feature 332 356 5 square solid DOMAIN
+  FT   DOMAIN      125    149  Poly-Gln.
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      266    336  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      354    413  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      355    411  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      262    336  PF00157 pou
+feature 298 331 0 square solid PFAM-B
+  FT   PFAM-B       91    124  PB042779 Pfam-B_42779
+feature 208 274 0 square solid PFAM-B
+  FT   PFAM-B        1     67  PB007105 Pfam-B_7105
+feature 374 431 0 square solid PFAM-B
+  FT   PFAM-B      167    221  PB009939 Pfam-B_9939
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MATAASNHYSLLTSSASIVHAEPPGGMQQGAGG
+  YREAQSLVQGDYGALQSNGHPLSHAHQWITALSHGGGGGGGGGGGGGGGGGGGGGDGSPW
+  STSPLGQPDIKPSVVVQQGGRGDELHGPGALQQQHQQQQQQQQQQQQQQQQQQQQQRPPH
+  LVHHAANHHPGPGAWRTAAAAAHLPPSMGASNG..GLLYSQPSFTVNGMLGAGGQPAG.L
+  HHHGLRDAHDEPHHADHHPHPHSHPHQQPPPPPPPQGPPGHPGAHHDPHSDEDTPTSDDL
+  EQFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLNKWLEEADSSSGS.........PTSIDK.........................IAAQ
+  GR.....KRKKRTSIEVSVKGALESHFLKCPKPSAQEITSLADSLQLEKEVVRVWFCNRR
+  QKEKRMTPPGGTLPGAEDVYGGSRDTPPHHGVQTPVQ.......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PO33_HUMAN
+descrip POU domain, class 3, transcription factor 3 (Brain-specifich
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 183 205 5 square solid DOMAIN
+  FT   DOMAIN       28     50  Poly-Gly.
+feature 259 270 5 square solid DOMAIN
+  FT   DOMAIN      104    115  Poly-Ala.
+feature 291 299 5 square solid DOMAIN
+  FT   DOMAIN      136    144  Poly-Pro.
+feature 329 334 5 square solid DOMAIN
+  FT   DOMAIN      174    179  Poly-Pro.
+feature 344 359 5 square solid DOMAIN
+  FT   DOMAIN      189    204  Poly-Ala.
+feature 396 407 5 square solid DOMAIN
+  FT   DOMAIN      239    250  Poly-Gly.
+feature 428 452 5 square solid DOMAIN
+  FT   DOMAIN      270    294  His-rich.
+feature 428 439 5 square solid DOMAIN
+  FT   DOMAIN      270    281  Poly-His.
+feature 453 462 5 square solid DOMAIN
+  FT   DOMAIN      295    304  Poly-Gly.
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      318    388  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      406    465  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      407    463  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      314    388  PF00157 pou
+feature 271 322 0 square solid PFAM-B
+  FT   PFAM-B      116    167  PB033781 Pfam-B_33781
+feature 156 180 0 square solid PFAM-B
+  FT   PFAM-B        1     25  PB044535 Pfam-B_44535
+feature 218 258 0 square solid PFAM-B
+  FT   PFAM-B       63    103  PB009667 Pfam-B_9667
+sequence
+  ............................................................
+  ............................................................
+  ...................................MATAASNPYLPGNSLLAAGSIVHSD
+  AAGAGGGGGGGGGGGGGGAGGGGGGMQPGSAAVTSGAYRGDPSSVKMVQSDFMQGAMAAS
+  NGGHMLSHAHQWVTALPHAAAAAAAAAAAAVEASSPWSGSAVGMAGSPQQPPQPPPPPPQ
+  GPDVKGGAGRDDLHAGTALHHRGPPHLGPPPPPPHQGHPGGWGAAAAAAAAAAAAAAAAH
+  LPSMAGGQQPPPQSLLYSQPGGFTVNGMLSAPP..GPGGGGGGAGGGAQSLVHPGLVR.G
+  DTPELAEHHHHHHHHAHPHPPHPHHAQGPPHHGGGGGGAGPGLNSHDPHSDEDTPTSDDL
+  EQFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLNKWLEEADSSTGS.........PTSIDK.........................IAAQ
+  GR.....KRKKRTSIEVSVKGALESHFLKCPKPSAQEITNLADSLQLEKEVVRVWFCNRR
+  QKEKRMTPPGIQQQTPDDVYSQVGTVSADTPPPHHGLQTSVQ..................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PO33_BRARE
+descrip Brain-specific homeobox/POU domain protein 1.1 (Brn-1.1) (Fr
+creator Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;
+type    PROTEIN
+group 1
+feature 475 551 5 square solid DOMAIN
+  FT   DOMAIN      240    311  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      329    388  DNA_BINDHomeobox
+feature 306 321 5 square solid DOMAIN
+  FT   DOMAIN       81     96  Poly-Ala.
+feature 433 440 5 square solid DOMAIN
+  FT   DOMAIN      205    212  Poly-His.
+feature 444 460 5 square solid DOMAIN
+  FT   DOMAIN      216    225  Poly-His.
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      330    386  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      237    311  PF00157 pou
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .............................................ASNPYLASSTILSSA
+  SLVHSESGGGGMQPGSGAVTSVSGGYRGDPTVKMVQSDFMQGAMAASNGGHMLSHAHQWV
+  TSLPHAAAAAAAAAAAAAAEAGSPWSSSPVGMAGSPQQQDVKSSSNREDLHSGTALHHRP
+  SHLGAHQSHQSAWGGTTASHISTITGGQQQSQQ..SLIYSQPGGFTVNGMLNPPGSLV.H
+  PGLMRGESPEMDHHHHHHHHQQQHPHHHHHQH.......HAGVNSHDSHSDEDTPTSDDL
+  EQFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLNKWLEEADSTTGS.........PTSIDK.........................IAAQ
+  GR.....KRKKRTSIEVSVKGALESHFLKCPKPSAQEITSLADNLQLEKEVVRVWFCNRR
+  QKEKRMTPPGVPQTPEDVYTHAGNGSFVVDYLKGASLKDEPDSNHNVTTASSYGQEILVH
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name SGF3_BOMMO
+descrip Silk gland factor 3 (SGF-3) (POU domain protein M1).
+creator Bombyx mori (Silk moth).Eukaryota;
+type    PROTEIN
+group 1
+feature 475 551 5 square solid DOMAIN
+  FT   DOMAIN      152    223  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      241    300  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      242    298  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      149    223  PF00157 pou
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................MAATTYMPAEMELGNIGGYHAASPR
+  SAEPADMKYQHPLHSGGSPSPGAPVIGNPWTSLPPADPWAMHQHHAHAHQPDVKPPPAPH
+  DHRHLQHAAHGWHAPVVSP.......HYGAARP..SHCMEDTQCPCTN...........T
+  ICSETSSPRDPLHHHAME............................RDQPEEDTPTSDDL
+  EAFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLQKWLEEADSTTGS.........PTSIDK.........................IAAQ
+  GR.....KRKKRTSIEVSVKGALEQHFHKQPKPSAQEITSLADSLQLEKEVVRVWFCNRR
+  QKEKRMTPPNTLGGEMMEGMGHAHYGHGDVHGSPLQHSPPGLSPQHGLPQGAHTLAAH..
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name CF1A_DROME
+descrip POU-domain protein CF1A (Chorion factor 1A) (CF1-A) (Ventral
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      216    286  POU.
+feature 601 666 1 square solid DOMAIN
+  FT   DOMAIN      302    362  DNA_BINDHomeobox
+feature 276 279 5 square solid DOMAIN
+  FT   DOMAIN       19     22  Poly-Gly.
+feature 299 458 5 square solid DOMAIN
+  FT   DOMAIN       42    198  His-rich.
+feature 305 311 5 square solid DOMAIN
+  FT   DOMAIN       48     54  Poly-Ala.
+feature 360 368 5 square solid DOMAIN
+  FT   DOMAIN      103    111  Poly-Ala.
+feature 684 708 5 square solid DOMAIN
+  FT   DOMAIN      380    404  His-rich.
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      305    361  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      212    286  PF00157 pou
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .................MAATSYMTPPSGDLDMALGGGGYHTSSPRSAADAGEMKYMQHH
+  HHHHAAAAAAAHHQLPSSPSPNGQGNGGGLGLGSGSGLGSWSALHPDPWMQTHHTHHLPA
+  AAAVASAADTVKQEMSHLSQQTRIQQGMASPHA..AWHAPHAGHYAPTGGSPLQYHHA.M
+  NGMLHHPAHAVAAAHHQSVAPLHHTLRGESPQLHIHHHMGGGDRDAISGGEEDTPTSDDL
+  EAFAKQF.KQRRIKLGFTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLK
+  PLLQKWLEEADSTTGS.........PTSIDK.........................IAAQ
+  GR.....KRKKRTSIEVSVKGALEQHFHKQPKPSAQEITSLADSLQLEKEVVRVWFCNRR
+  QKEKRMTPPNTLGGDMMDGMPPGHMHHGGYHPHHDMHGSPMGTHSHSHSPPMLSPQNMQS
+  SAVAAHQLAAH.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name HM06_CAEEL
+descrip Homeobox protein ceh-6.
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 271 297 5 square solid DOMAIN
+  FT   DOMAIN        5     31  Ser-rich.
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      191    261  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      281    340  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      282    338  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      187    261  PF00157 pou
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................MLIPSSSSIPSSLSASASDSEPSSLNGSGISDQN
+  ILPNYHLHHHLINENEMEAANYAQVIKPTCEAFQDWPHTPMLYQQPQLHFMLPQHDWAYP
+  HLAQSLPPPHHLTPSTAAVAAATIASQSSIINQ..TSVVTSTPSCQIKQEVERPEIIQ.R
+  LMPPWPPAYQFSCDDSGSVSGAGGPHQP................LSDISDDSEQTCPDDL
+  EGFAKQF.KQRRIKLGYTQADVGVALGTLYG...NIFSQTTICRFEALQLSF.KNMCKLK
+  PLLFKWLEEADSTTGS........PNSTFEK.........................MTGQ
+  AG....RKRKKRTSIEVNVKSRLEFHFQSNQKPNAQEITQVAMELQLEKEVVRVWFCNRR
+  QKEKRIAPNQYDAPHPMALNNGYPMTADLFPYQAVVNHYTQQSPRQQ.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name POU1_DUGJA
+descrip POU domain protein 1 (DjPOU1).
+creator Dugesia japonica (Planarian).Eukaryota;
+type    PROTEIN
+group 1
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      263    333  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      351    410  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      352    408  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      259    333  PF00157 pou
+feature 206 471 0 square solid PFAM-B
+  FT   PFAM-B        1    258  PB081093 Pfam-B_81093
+feature 667 752 0 square solid PFAM-B
+  FT   PFAM-B      410    495  PB083724 Pfam-B_83724
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................MTQVSHIGSSHFNINSSIKTALPLINSQYNSLVNE
+  STISSNINLPFRLDAPSLFNGLPEEWGPTDAELSTHSNVNYPGLTEATIDYKFCSTLNSY
+  FDTNQRFGNVPNDTYLMANSMAANIENNSWHNSRYYFDGNHPLSQWLPVPVNCWSNNNYI
+  RDDFYDKSIQEEEFKSRSVLQTNEKNSTNVSSD..INHYKPLITDENENLKMTKPTHN.L
+  LNNDSINLCRFPQNEIIMPDLINAPSPTLTNN.....NLFYSCGDHRSGKTEDLPSSDDL
+  EQFAKMF.KQRRIKLGYTQADVGLALGTLYG...NVFSQTTICRFEALQLSF.KNMCKLR
+  PLLQKWLHEADSSSES.........PTNFDK.........................ISAQ
+  SR.....KRKKRTSIEANVKSILESSFMKLSKPSAQDISSLAEKLSLEKEVVRVWFCNRR
+  QKEKRITPSFDVNEQFDNEVSSTMPYSTLNDDRNEKTIKNSFENHEKLIKQTGETNHEQN
+  NNSSVKRLKIRKEPDQISINDENTSCRAESSGIVPDTHYRQECDNHSICGYNIHDIHESS
+  VLMSDPVSFYPRSFFMKNNIYSNGTTPTLFDHSQMI........................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PO51_BOVIN
+descrip POU domain, class 5, transcription factor 1 (Octamer-binding
+creator Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 472 551 5 square solid DOMAIN
+  FT   DOMAIN      138    212  POU.
+feature 602 667 1 square solid DOMAIN
+  FT   DOMAIN      230    289  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      231    287  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      138    212  PF00157 pou
+feature 335 471 0 square solid PFAM-B
+  FT   PFAM-B       29    137  PB010002 Pfam-B_10002
+feature 669 738 0 square solid PFAM-B
+  FT   PFAM-B      291    360  PB008537 Pfam-B_8537
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......MAGHLASDFAFSPPPGGGGDGPGGPEPGWVDPRTWMSFQGPPGGSGIGPGVVPG
+  AEVWGLPPCPPPYDLCGGMAYCAPQVGVGPVPP..GGLETPQPEGEAG........AG.V
+  ESNSEGASPDPCAAPAGAPKLDKEKLEP.................NPEESQDIKALQKDL
+  EQFAKLL.KQKRITLGYTQADVGLTLGVLFG...KVFSQTTICRFEALQLSF.KNMCKLR
+  PLLQKWVEEADNNENLQ........EICKAE.........................TLVQ
+  AR......KRKRTSIENRVRGNLESMFLQCPKPTLQQISHIAQQLGLEKDVVRVWFCNRR
+  QKGKRSSSDYSQREDFEAAGSPFTGGPVSSPLAPGPHFGTPGYGGPHFTTLYSSVPFPEG
+  EVFPSVSVTALGSPMHAN..........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name SPM1_HUMAN
+descrip Sperm 1 POU-domain transcription factor (SPRM-1).
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 472 551 5 square solid DOMAIN
+  FT   DOMAIN      118    192  POU.
+feature 602 667 1 square solid DOMAIN
+  FT   DOMAIN      210    269  DNA_BINDHomeobox
+feature 609 664 0 square solid PFAM-A
+  FT   PFAM-A      211    266  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      118    192  PF00157 pou
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................MAGHRPSNHFCPLPGSGGGGPRGPMP
+  LRVDTLTWLSTQAAPGRVMVWPAVRPGICPGPD..VWRIPLGPLPHEFRGWIAPCRPR.L
+  GASEAGDWLRRPSEGALPGPYIALRSIP.................KLPPPEDISGILKEL
+  QQLAKEL.RQKRLSLGYSQADVGIAVGALFG...KVLSQTTICRFEAQQLSV.ANMWKLR
+  PLLKKWLKEVEAENLLG........LCKMEM.........................ILQQ
+  SG......KWRRASRERRIGNSLEKFFQRCPKPTPQQISHIAGCLQLQKDVVRVWFYNRS
+  KMGSRPTNDASPREIVGTAGPPCPGAPVCFHLGLGLPVDIPHYTRLYSAGVAHSSAPATT
+  LGLLRF......................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name SPM1_MOUSE
+descrip Sperm 1 POU-domain transcription factor (SPRM-1).
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 472 551 5 square solid DOMAIN
+  FT   DOMAIN      107    181  POU.
+feature 602 667 1 square solid DOMAIN
+  FT   DOMAIN      199    258  DNA_BINDHomeobox
+feature 609 659 0 square solid PFAM-A
+  FT   PFAM-A      200    250  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      107    181  PF00157 pou
+feature 342 471 0 square solid PFAM-B
+  FT   PFAM-B        1    106  PB075967 Pfam-B_75967
+feature 671 738 0 square solid PFAM-B
+  FT   PFAM-B      262    329  PB008537 Pfam-B_8537
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................MAGRRSSNVFPLSGNSGGG
+  LEVDTPTWLSSQAATSRLMVRPSMGPGICPGPE..VWGVPLGSSPYEFRGGIAP.....Y
+  RACEARAWSQSSSEDTCPGPYIALRYMP.................NLALPEDVSAIQKEM
+  EQLAKEL.RQKRMTLGYSQADVGFAVGAMFG...KVLSQTTICRFEAQQLSL.ANMWKLR
+  PLLKMWLEEVDEKNLLG........ICRMEM.........................ILEQ
+  AR......KRRRASRERRIGSNLEKLFLQCPEPTPQQISYIAGRLRLQKDLVQVWFSNRS
+  QMGSWPTNDTSRREDVGATGSPFPGPPVCFPMAPGLHFDFTHYEGSCLTPLYSSTPFPVR
+  GALLSAPTTTLGLPRLSS..........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name POU2_BRARE
+descrip POU domain protein 2.
+creator Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;
+type    PROTEIN
+group 1
+feature 470 473 5 square solid DOMAIN
+  FT   DOMAIN      247    250  Poly-Glu.
+feature 684 688 5 square solid DOMAIN
+  FT   DOMAIN      419    423  Poly-Pro.
+feature 475 551 5 square solid DOMAIN
+  FT   DOMAIN      252    323  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      343    402  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      344    400  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      249    323  PF00157 pou
+feature 651 664 1 square solid VARSPLIC
+  FT   VARSPLIC    386    399  VVRVWFCNRRQKGK -> CVYGSATVDRRESV (in
+feature 665 737 1 square solid VARSPLIC
+  FT   VARSPLIC    400    472  Missing (in isoform T-POU2).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................MTERAQSPTAADCRPYEVNRAMYPQAAG
+  LDGLGGASLQFAHGMLQDPSLIFNKAHFNGITPATAQTFFPFSGDFKTNDLQGGDFTQPK
+  HWYPFAAPEFTGQVAGATAATQPANISPPIGETREQIKMPSEVKTEKDVEEYGNEENKPP
+  SQYHLTAGTSSIPTGVNYYTPWNPNFWPGLSQI..TAQANISQAPPTPSASSPSLSPS.P
+  PGNGFGSPGFFSGGTAQNIPSAQAQSAPRSS........GSSSGGCSNSEEEETLTTEDL
+  EQFAKEL.KHKRITLGFTQADVGLALGNLYG...KMFSQTTICRFEALQLSF.KNMCKLK
+  PLLQRWLNEAENSENP.......QDMYKIER.........................VFVD
+  TR.....KRKRRTSLEGTVRSALESYFVKCPKPNTLEITHISDDLGLERDVVRVWFCNRR
+  QKGKRLALPFDDECVEAQYYEQSPPPPPHMGGTVLPGQGYPGPAHPGGAPALYMPSLHRP
+  DVFKNGFHPGLVGHLNS...........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name HM18_CAEEL
+descrip Homeobox protein ceh-18.
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 224 248 5 square solid DOMAIN
+  FT   DOMAIN       48     72  Glu-rich (acidic).
+feature 476 551 5 square solid DOMAIN
+  FT   DOMAIN      294    364  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      421    480  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      422    478  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      290    364  PF00157 pou
+sequence
+  ............................................................
+  ............................................................
+  ........................................................MNTL
+  ENTFQFLAEVFEANGGCLVTERVSPSLSGASKRKSRPVKRIITEDEVIPEEEVVEEEEEE
+  KVEQPSEEVTCPAMQVDATDAILASLRQIANNDLSEHCIREDEGNTSAEVFSNGNGEDME
+  QAGLAGTDLLRRVADMLQGNHNGSLNSHFLQQQFAAFKETVDPTPVSTNGNGLLTPITTQ
+  LSPLFTSTDAFNSPEKLLQAIMTPSLGFLGANG..LGASNSGLLSSPLIAPSPTLLQS.L
+  MNTPTQPTASLTPKKAENRPPVVSQTLKASKR...RLFDDTSRIEAASMSGDDRIDMNEL
+  EAFAQTF.KKQRIKFGFTQGDVGVALGKRYG...TDFSQTTISRFEALNLSF.KNMCKLR
+  PLLKEWLADVEMAIEGGATVTDLIDKKTIHNGNHHTIHHVDIHETSISNSISSVTASSLL
+  SREQHVKRRRKRTNLDMNQRNALDTFFALNPRPDHDKMTDIANSLELDRDVVRVWFCNRR
+  QKMRRVDEPIEGEMVTPSVSPVFPHFSSMSALEQIQEAARLASCQASNDDSDGTSGSPDA
+  PSNDGCSDL...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name PO61_HUMAN
+descrip POU domain, class 6, transcription factor 1 (mPOU homeobox p
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 314 472 5 square solid DOMAIN
+  FT   DOMAIN        1    139  Gln/Pro-rich.
+feature 473 551 5 square solid DOMAIN
+  FT   DOMAIN      140    213  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      234    293  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      235    291  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      139    213  PF00157 pou
+feature 314 471 0 square solid PFAM-B
+  FT   PFAM-B        1    138  PB021688 Pfam-B_21688
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............MPGISSQILTNAQGQVIGTLPWVVNSASVAAPAPAQSLQVQAVTPQL
+  LLNAQGQVIATLASSPLPPPVAVRKPSTPESPA..KSEVQPIQPTPTVPQPAVVIASP.A
+  PAAKPSASAPIPITCSETPTVSQLVSKP.................HTPSLDEDGINLEEI
+  REFAKNF.KIRRLSLGLTQTQVGQALTATEG...PAYSQSAICRFEKLDITP.KSAQKLK
+  PVLEKWLNEAELRNQE........GQQNLMEF........................VGGE
+  PS....KKRKRRTSFTPQAIEALNAYFEKNPLPTGQEITEIAKELNYDREVVRVWFCNRR
+  QTLKNTSKLNVFQIP.............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name POUC_BRARE
+descrip POU domain protein C (POU[C]) (ZFPOU[C]).
+creator Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;
+type    PROTEIN
+group 1
+feature 475 551 5 square solid DOMAIN
+  FT   DOMAIN      451    522  POU.
+feature 608 667 1 square solid DOMAIN
+  FT   DOMAIN      543    602  DNA_BINDHomeobox
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      544    600  PF00046 homeobox
+feature 472 551 1 square solid PFAM-A
+  FT   PFAM-A      448    522  PF00157 pou
+feature 325 471 0 square solid PFAM-B
+  FT   PFAM-B      304    447  PB021688 Pfam-B_21688
+feature 137 233 0 square solid PFAM-B
+  FT   PFAM-B      116    212  PB071234 Pfam-B_71234
+sequence
+  .....................MDTEDLPANNAPLTVNEQLLGSCTLKFPAQDAQVIVMSG
+  QETIRVLEVEVDTALSSAGAAESGGDEEGSGQSLEATEEAQLDGPVTTSSTTAVTVEVSA
+  PVVQTVVSKAAISVSPAQQTSVPITVQACPQVLTQDGLASLMTGMLAQQSSLGQPLLIPL
+  SMAGSVGGQGGLAVLTLPTATVATLPGLAAASPAGGLLKLPFAGLQAATVLNSVQTQLQA
+  PAQAVLQPQMSALQAMQQTQTTAATTASIVQKASEPSVSVATLQTAGLSINPAIISAASL
+  GAQPQFISSLTTTPIITSAMSNVAGLTSQLITNAQGQVIGTLPLLVNPASLAGAAAASAL
+  PAQGLQVQTVAPQLLLNSQGQIIATIGNGPTAA..IPSTASVLPKATVPLTLTKTTTQ.G
+  PVGKVAPSKVIIAPQPSVVKPVTSLTAAGVIACGEMPTVGQLVNKPSAVKDEEAINLEEI
+  REFAKNF.KIRRLSLGLTQTQVGQALTATEG...PAYSQSAICRFEKLDITP.KSAQKLK
+  PVLERWLAEAELWNQK........GQQNLMEF........................VGGE
+  PS....KKRKRRTSFTPQAIEVLNTYFEKNSLPTGQEITEIAKELNYDREVVRVWFCNRR
+  QTLKNTSKINVFQSQ.............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name RPF1_HUMAN
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 609 665 0 square solid PFAM-A
+  FT   PFAM-A      601    657  PF00046 homeobox
+feature 472 586 1 square solid PFAM-A
+  FT   PFAM-A      469    579  PF00157 pou
+feature 321 413 0 square solid PFAM-B
+  FT   PFAM-B      321    411  PB021688 Pfam-B_21688
+feature 1 169 0 square solid PFAM-B
+  FT   PFAM-B        1    169  PB071234 Pfam-B_71234
+sequence
+  MIAGQVSKPLLSVRSEMNAELRGEDKAATSDSELNEPLLAPVESNDSEDTPSKLFGARGN
+  PALSDPGTPDQHQASQTHPPFPVGPQPLLTAQQLASAVAGVMPGGPPALNQPILIPFNMA
+  GQLGGQQGLVLTLPTANLTNIQGLVAAAAAGGIMTLPLQNLQATSSLNSQLQQLQLQLQQ
+  QQQQQQQQQPPPSTNQHPQPAPQAPSQSQQQPLQPTPPQQPPPASQQPPAPTSQLQQAPQ
+  PQQHQPHSHSHNQNQPSPTQQSSSPPQKPSQSPGHGLPSPLTPPNPLQLVNNPLASQAAA
+  AAAAMSSIASSQAFGNALSSLQGVTGQLVTNAQGQIIGTIPLMPNPGPSSQAASGTQGLQ
+  VQPITPQLLTNAQGQIIATVIGNQILPVINTQG..ITLSPIKPGQQLHQPSQTSVGQA.A
+  SQGNLLHLAHSQASMSQSPVRQASSSSSSSSSSSALSVGQLVSNPQTAAGEVDGVNLEEI
+  REFAKAF.KIRRLSLGLTQTQVGQALSATEG...PAYSQSAICRHTILRSHFFLPQEAQE
+  NTIASSLTAKLNPGLLYPARFEKLDITPKSAQKIKPVLERWMAEAEARHRAG.MQNLTEF
+  IGSEPSKKRKRRTSFTPQALEILNAHFEKNTHPSGQEMTEIAEKLNYDREVVRVWFCNKR
+  QALKNTIKRLKQHEPATAVPLEPLTDSLEENS............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name 1a04_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 315 320 0 square solid STRUCT
+  FT   STRUCT        3      8  STRAND
+feature 324 335 3 square solid STRUCT
+  FT   STRUCT       12     22  HELIX
+feature 341 348 0 square solid STRUCT
+  FT   STRUCT       28     34  STRAND
+feature 351 361 3 square solid STRUCT
+  FT   STRUCT       37     47  HELIX
+feature 365 369 0 square solid STRUCT
+  FT   STRUCT       51     55  STRAND
+feature 378 387 3 square solid STRUCT
+  FT   STRUCT       63     72  HELIX
+feature 393 398 0 square solid STRUCT
+  FT   STRUCT       78     83  STRAND
+feature 404 412 3 square solid STRUCT
+  FT   STRUCT       88     96  HELIX
+feature 417 420 0 square solid STRUCT
+  FT   STRUCT      101    104  STRAND
+feature 425 437 3 square solid STRUCT
+  FT   STRUCT      109    121  HELIX
+feature 447 474 3 square solid STRUCT
+  FT   STRUCT      131    137  HELIX
+feature 479 481 3 square solid STRUCT
+  FT   STRUCT      142    144  HELIX
+feature 484 494 3 square solid STRUCT
+  FT   STRUCT      147    157  HELIX
+feature 499 506 3 square solid STRUCT
+  FT   STRUCT      162    169  HELIX
+feature 519 537 3 square solid STRUCT
+  FT   STRUCT      173    187  HELIX
+feature 542 552 3 square solid STRUCT
+  FT   STRUCT      192    202  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............EPATILLIDDHPMLRTGVKQ.LISMAPDITVVGE.ASNGEQGIELAES
+  LDPDLILLDLNM.PGMNGLETLDKLREKSLSGRIVVFSVSNH.EEDVVTALKRGADGYLL
+  KDMEPEDLLKALHQAAAGEMVLSEALTPVL.....................AASLERDVN
+  QLTPRERDILKLIAQGLPNKMIARRLD.........ITESTVKVHVKHMLK....KMKLK
+  SRVEAAVWVHQERIF.............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}
+{
+name 1neq_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 484 493 3 square solid STRUCT
+  FT   STRUCT       11     19  HELIX
+feature 499 506 3 square solid STRUCT
+  FT   STRUCT       25     32  HELIX
+feature 519 524 3 square solid STRUCT
+  FT   STRUCT       36     41  HELIX
+feature 537 546 3 square solid STRUCT
+  FT   STRUCT       48     57  HELIX
+feature 551 554 3 square solid STRUCT
+  FT   STRUCT       62     65  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................................................CSNEKAR
+  DWHRADV.IAGLKKRKLSLSALSRQFG.........YAPTTLANALERHW......PKGE
+  QIIANALETKPEVIWPSRYQAGE.....................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .............
+}

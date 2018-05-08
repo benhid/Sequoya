@@ -1,0 +1,1450 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:  1820  Type: P  octubre 20, 2015 18:55  Check:    0  ..
+
+ Name: DIN7_YEAST Len:  1820  Check: 9885  Weight:  1.00
+ Name: RA13_SCHPO Len:  1820  Check: 2185  Weight:  1.00
+ Name: RAD2_YEAST Len:  1820  Check: 3242  Weight:  1.00
+ Name: XPG_HUMAN  Len:  1820  Check: 4772  Weight:  1.00
+ Name: XPG_MOUSE  Len:  1820  Check:  817  Weight:  1.00
+ Name: XPG_XENLA  Len:  1820  Check: 4061  Weight:  1.00
+ Name: FEN_ARCFU  Len:  1820  Check: 4112  Weight:  1.00
+ Name: FEN_METAC  Len:  1820  Check: 2841  Weight:  1.00
+ Name: FEN_METTH  Len:  1820  Check:  305  Weight:  1.00
+ Name: FEN_PYRAE  Len:  1820  Check: 6386  Weight:  1.00
+ Name: FEN_AERPE  Len:  1820  Check: 5880  Weight:  1.00
+ Name: FEN_METKA  Len:  1820  Check: 1293  Weight:  1.00
+ Name: FEN_SULSO  Len:  1820  Check: 5422  Weight:  1.00
+ Name: FEN_SULTO  Len:  1820  Check: 5147  Weight:  1.00
+ Name: FEN_THEAC  Len:  1820  Check: 2532  Weight:  1.00
+ Name: FEN1_HUMAN Len:  1820  Check: 5360  Weight:  1.00
+ Name: RAD2_SCHPO Len:  1820  Check: 6483  Weight:  1.00
+ Name: RA27_YEAST Len:  1820  Check: 2006  Weight:  1.00
+ Name: FEN_HALN1  Len:  1820  Check: 3766  Weight:  1.00
+ Name: 1a76_      Len:  1820  Check: 8581  Weight:  1.00
+ Name: 1b43_A     Len:  1820  Check: 7707  Weight:  1.00
+ Name: EX9_ECOLI  Len:  1820  Check: 7708  Weight:  1.00
+ Name: EX9_VIBCH  Len:  1820  Check:  644  Weight:  1.00
+ Name: 1exn_A     Len:  1820  Check: 1419  Weight:  1.00
+ Name: EX53_BUCAI Len:  1820  Check: 9453  Weight:  1.00
+ Name: EX53_BUCAP Len:  1820  Check: 2524  Weight:  1.00
+ Name: EX53_BUCBP Len:  1820  Check: 3637  Weight:  1.00
+ Name: EX53_AQUAE Len:  1820  Check: 7812  Weight:  1.00
+ Name: EX53_MYCPU Len:  1820  Check: 6562  Weight:  1.00
+ Name: EX53_MYCPN Len:  1820  Check: 3297  Weight:  1.00
+ Name: EX53_MYCGE Len:  1820  Check: 1918  Weight:  1.00
+ Name: EX53_UREPA Len:  1820  Check: 4282  Weight:  1.00
+ Name: EX53_BACSU Len:  1820  Check: 5681  Weight:  1.00
+ Name: EX53_STRCO Len:  1820  Check: 2850  Weight:  1.00
+ Name: EX53_MYCTU Len:  1820  Check: 5837  Weight:  1.00
+ Name: EX53_BACHD Len:  1820  Check: 6336  Weight:  1.00
+
+//
+
+           1                                                   50
+DIN7_YEAST MGIPGLLPQL K----RI--Q K-------QV SL--KKYMYQ TLAIDGYAWL
+RA13_SCHPO MGVSGLWDIL E----PVK-- R-------PV KL--ETLVNK RLAIDASIWI
+RAD2_YEAST MGVHSFWDIA G----PTA-- R-------PV RL--ESLEDK RMAVDASIWI
+XPG_HUMAN  MGVQGLWKLL E----CSG-- R-------QV SP--EALEGK ILAVDISIWL
+XPG_MOUSE  MGVQGLWKLL E----CSG-- H-------RV SP--EALEGK VLAVDISIWL
+XPG_XENLA  MGVQGLWKLL E----CSG-- R-------PI NP--GTLEGK ILAVDISIWL
+FEN_ARCFU  MGA-DIGDLF E------R-- E-------EV EL--EYFSGK KIAVDAFNTL
+FEN_METAC  MGT-DIGDLL Q------K-- R-------KI EL--SDLSNR VVAVDAFNTL
+FEN_METTH  MGV-KLRDVV S------P-- R-------RI RL--EDLRGR TVAVDAANTL
+FEN_PYRAE  MGVTELGKLI GK---EVR-- R-------EV KL--ESLSGK CIALDAYNAL
+FEN_AERPE  MLGVNLRELI PP---EAR-- R-------EV EL--RALSGY VLALDAYNML
+FEN_METKA  MGLAELRELI E------P-- E-------ET DL--RALAGR EIAIDAFNAL
+FEN_SULSO  MDLADLV--- K----DVK-- R-------EL SF--SELKGK RVSIDGYNAL
+FEN_SULTO  MDLAELV--- E----EIK-- K-------EL SF--AELKGK KISIDAYNAL
+FEN_THEAC  MGT-DISDIV V------S-- H-------ET SL--KDQGNQ TFSIDTYNIL
+FEN1_HUMAN MGIQGLAKLI ADVAPSAI-- R-------EN DI--KSYFGR KVAIDASMSI
+RAD2_SCHPO MGIKGLAQVL SEHAPASV-- K-------HN DI--KNYFGR KVAIDASMSL
+RA27_YEAST MGIKGLNAII SEHVPSAI-- R-------KS DI--KSFFGR KVAIDASMSL
+FEN_HALN1  MGNADLRQLA A------I-- E-------ET PF--ADLEGS VVAVDAHNWL
+1a76_      -GV-QFGDFI P------K-- N-------II SF--EDLKGK KVAIDGMNAL
+1b43_A     -GV-PIGEII P------R-- K-------EI EL--ENLYGK KIAIDALNAI
+EX9_ECOLI  MRG--LFPIS H----PAVAC SGIECYPYRL IFKGVIVAVH LLIVDALNLI
+EX9_VIBCH  MGSN-LDGFD Y--------N KG-LTSPYFL WF--LVMSLH LVIIDALNLI
+1exn_A     RN-------- ---------- ---------- ---------- LXIVDGTNLG
+EX53_BUCAI MNHIK----- ---------- ---------- -------NNP VIIIDGSLYL
+EX53_BUCAP MPYTK----- ---------- ---------- -------KKP IIIVDGSLYL
+EX53_BUCBP MIIY-K---- ---------- ---------- ------KNVN YLLIDGTSYL
+EX53_AQUAE MKT------- ---------- ---------- ---------- LYILDGSSFV
+EX53_MYCPU MTKSGS---- ---------- ---------- ------KSEK FLLIDGNYLV
+EX53_MYCPN MKN------- ---------- ---------- ---------- AILIDGNSLA
+EX53_MYCGE MKK------- ---------- ---------- ---------- AILIDGNSLA
+EX53_UREPA MKK------- ---------- ---------- ---------- AIVIDGNSLI
+EX53_BACSU MNN------- ---------- ---------- --------NK LLLVDGMALL
+EX53_STRCO M--------- ---------- ---------- ---------- --LLDTASLY
+EX53_MYCTU MRS------- ---------- ---------- ---------P LVLLDGASMW
+EX53_BACHD MHS------- ---------- ---------- --------PV LLLIDGFNLL
+
+           51                                                 100
+DIN7_YEAST HRAS----CA CAFE-L---- -----VMNK- PTNKYLQFFI KRL-------
+RA13_SCHPO YQFL----KA V-R-DKEGNQ L-K------- -SSHV-VGFF RRI-------
+RAD2_YEAST YQFL----KA V-RD-Q---- --E-G-NAV- KNSHI-TGFF RRI-------
+XPG_HUMAN  NQAL----KG V-R-DRHGNS I-E------- -NPHL-LTLF HRL-------
+XPG_MOUSE  NQAL----KG V-R-DSHGNV I-E------- -NAHL-LTLF HRL-------
+XPG_XENLA  NQAV----KG A-R-DRQGNA I-Q------- -NAHL-LTLF HRL-------
+FEN_ARCFU  YQFI----SI I-R-QPDGTP L-K-DSQGR- ITSHL-SGIL YRV-------
+FEN_METAC  HQFL----SI I-R-QRDGSP L-V-NSRGK- VTSHL-SGLL YRT-------
+FEN_METTH  YQFL----SS I-R-QRDGTP L-M-DSRGR- VTSHL-SGIL YRT-------
+FEN_PYRAE  YQFL----AS I-R-QPDGTP L-M-DRAGR- ITSHL-SGLF YRT-------
+FEN_AERPE  YQFL----TA I-R-QPDGTP L-L-DREGR- VTSHL-SGLF YRT-------
+FEN_METKA  YQFL----TT I-M--KDGRP L-M-DSRGR- ITSHL-NGLL YRT-------
+FEN_SULSO  YQFL----AA I-R-QPDGTP L-M-DSQGR- VTSHL-SGLF YRT-------
+FEN_SULTO  YQFL----AA I-R-QPDGTP L-M-DSQGR- VTSHL-NGLF YRT-------
+FEN_THEAC  YQLL----SN V-R-QYDGMP L-M-DSHGN- VTSHL-YGIF YRT-------
+FEN1_HUMAN YQFL----IA V-R-Q-GGDV L-Q-NEEGE- TTSHL-MGMF YRT-------
+RAD2_SCHPO YQFL----IQ V-R-SQDGQQ L-M-NEQGE- TTSHL-MGMF YRT-------
+RA27_YEAST YQFL----IA V-R-QQDGGQ L-T-NEAGE- TTSHL-MGMF YRT-------
+FEN_HALN1  YKYL----TT T-V-QWTGAD V-YTTSDGT- EVANL-VGAV QGL-------
+1a76_      YQFL----TS I-R-LRDGSP L-R-NRKGE- ITSAY-NGVF YKT-------
+1b43_A     YQFL----ST I-R-QKDGTP L-M-DSKGR- ITSHL-SGLF YRT-------
+EX9_ECOLI  RRIH----A- ---------- -----VQGS- PCVET---CQ HAL-------
+EX9_VIBCH  RRVH----SA Q--------- -----PDPN- DITRTAETTT RTL-------
+1exn_A     FRFK----HN N-----SKKP F-A-SSYVST IQSLA-KSYS ART-------
+EX53_BUCAI YASY----YA F-CN-L---- --E-NTSGK- PCGAI-YGML KII-------
+EX53_BUCAP YRSY----FT F-QN-F---- --N-SNEEN- PSGAI-YGML KTI-------
+EX53_BUCBP YRAY----YA F-LK-F---- --K-NNFNK- PCGAIYG-ML NML-------
+EX53_AQUAE YRSF----FA L-PP-L---- --S-TSKGF- PTNAI-YGFL RML-------
+EX53_MYCPU HRSY----YV S-FK-F---- -----KN-N- FRST-IYLFF QTI-------
+EX53_MYCPN YRAY----FA T-WQQVEF-A KL---HNLP- FNNAI-RTML MMC-------
+EX53_MYCGE YRAY----FA T-WKQVEY-A KQ---NNLP- FNNAI-RTML LMC-------
+EX53_UREPA YRAF----HA T-YKQAEW-A VE---KQLM- PTNAI-KLVA SMI-------
+EX53_BACSU FRAF----FA T-AVHR--NF M-I-NDSGV- PTNGV-NGFL KHL-------
+EX53_STRCO FRAYFGVPDS V-K-APDGTP V-N------- ---AV-RGLL DFIDRLVKDH
+EX53_MYCTU FRSFFGVPSS I-T-APDGRP V-N------- ---AV-RGFI DSMAVVITQQ
+EX53_BACHD SRGY----FA T-SYGKDEAQ LPR-NEAGY- YINAL-RVFF PKL-------
+
+           101                                                150
+DIN7_YEAST -----QLLKR LKIKP---YI VFDGDS--L- FVKNHTETRR RKK-RLENEM
+RA13_SCHPO -----CKLLF FG---IKPVF VFDGGA--P- SLKRQTIQKR QAR-RLDREE
+RAD2_YEAST -----CKLLY FG---IRPVF VFDGGV--P- VLKRETIRQR KER-RQGKRE
+XPG_HUMAN  -----CKLLF FR---IRPIF VFDGDA--P- LLKKQTLVKR RQR-KDLASS
+XPG_MOUSE  -----CKLLF FR---IRPIF VFDGDA--P- LLKKQTLAKR RQR-KDSASI
+XPG_XENLA  -----CKLLF FR---IRPIF VFDGEA--P- LLKRQTLAKR RQR-TDKASN
+FEN_ARCFU  -----SNMVE VG---IRPVF VFDGEP--P- EFKKAEIEER KKR-RAEAEE
+FEN_METAC  -----ASLVE AG---IKPVF IFDGKP--P- DLKSETLSRR KEV-RETSLE
+FEN_METTH  -----AAVME RE---IRVIY VFDGRS--H- HLKGETVSRR ADI-RKKSEV
+FEN_PYRAE  -----INLLE AG---IRPVY VFDGKP--P- EFKLAEIEER RKT-REKAME
+FEN_AERPE  -----INLVE EG---IKPVY VFDGKP--P- EMKSREVEER LRR-KAEAEA
+FEN_METKA  -----VNLVE EG---IKPVY VFDGEP--P- DLKRETLERR RER-KEEAME
+FEN_SULSO  -----INILE EG---VIPIY VFDGKP--P- EQKSEELERR RKA-KEEAER
+FEN_SULTO  -----ISILE EG---IIPIY VFDGKP--P- EQKAQELERR KKV-KEEAEK
+FEN_THEAC  -----INLLE NR---IRPVY VFDGKP--S- PLKNRTISER QMM-KEKAKA
+FEN1_HUMAN -----IRMME NG---IKPVY VFDGKP--P- QLKSGELAKR SER-RAEAEK
+RAD2_SCHPO -----LRIVD NG---IKPCF VFDGKP--P- TLKSGELAKR VAR-HQKARE
+RA27_YEAST -----LRMID NG---IKPCY VFDGKP--P- DLKSHELTKR SSR-RVETEK
+FEN_HALN1  -----PKFFE HG---LTPVF VWDGGV--T- ELKDDEIADR REQ-RERYEE
+1a76_      -----IHLLE ND---ITPIW VFDGEP--P- KLKEKTRKVR REM-KEKAEL
+1b43_A     -----INLME AG---IKPVY VFDGEP--P- EFKKKELEKR REA-REEAEE
+EX9_ECOLI  -----DQLIM -HSQPTHAVA VFDDENRSS- GWRHQRLPDY KAG-RPPMPE
+EX9_VIBCH  -----QRIIN -EAQPSHMIA VFDHHLSDR- GWRAELLPTY KAN-RKPMPD
+1exn_A     -----TIVLG DK---GKSVF RLEHL---P- EYKGNRDEKY AQ--RTEEEK
+EX53_BUCAI -----DNIFK KYKNLKKIII IFDSSR--K- TFRNKLFKEY KKN-RSSMPD
+EX53_BUCAP -----QNILN KNYNSKKIII IFDSSK--K- NFRNTIFKEY KSN-RSAMPN
+EX53_BUCBP -----RSMLL -KYPYSNIVV IFDSPQ--K- TFRNELFIPY KKN-RPKMPN
+EX53_AQUAE -----FSLIK KE-RPQYLVV VFDAPA--K- TKREKIYADY KKQ-RPKAPD
+EX53_MYCPU -----IKIIK -NLNPENIFI AFDEEG--G- TWRHDLCKEY KSQ-RSKMED
+EX53_MYCPN -----WNLLQ SK-QYDYGVI SFDTKA--P- TFRDQLYSEY KSK-RSKTPS
+EX53_MYCGE -----WNLIK AN-VYQYGIV SFDTKA--P- TFRDQIYEGY KQK-RVKTPV
+EX53_UREPA -----FKILN QE-QFTYGLI AMDASK--Q- TFRAQEYAAY KAT-RKPMDA
+EX53_BACSU -----ITAVE TF-QPTHVVC CWDMGS--K- TYRNDLFQDY KAN-RSAPPV
+EX53_STRCO RPEHLVACMD AD---WRPHW RVELIP---- SYKAHRVAEE RPA-GPDAEE
+EX53_MYCTU RPNRLAVCLD LD---WRPQF RVDLIP---- SYKAHRVAEP EPNGQPDVEE
+EX53_BACHD -----FQLIR EH-NVTHVAV AWDVKR--ED SHRRQAFAFY KAS-RGELPE
+
+           151                                                200
+DIN7_YEAST IAKKLW---- ---------- ---------- ---------- ----------
+RA13_SCHPO NATVTANKLL ALQMRHQAML LEENNK--KA TALANASVQN ERQMPSSMTL
+RAD2_YEAST SAKSTARKLL ALQLQNGSND NVKNST--P- -SSG-SSVQI ----------
+XPG_HUMAN  DSRKTTEKLL KTFLKRQAIK TAFRSK--RD EALP-SLTQV ----------
+XPG_MOUSE  DSRKTTEKLL KTFLKRQALK TAFRSS--RH EAPP-SLTQV ----------
+XPG_XENLA  DARKTNEKLL RTFLKRQAIK AALSGNKQSN EELP-SFSQV ----------
+FEN_ARCFU  MWIAALQA-- ---------- ---------- ---------- ----------
+FEN_METAC  KWENAKAE-- ---------- ---------- ---------- ----------
+FEN_METTH  EWKRALEE-- ---------- ---------- ---------- ----------
+FEN_PYRAE  EVLRAIKE-- ---------- ---------- ---------- ----------
+FEN_AERPE  RYRRAVEA-- ---------- ---------- ---------- ----------
+FEN_METKA  KLRRAKTK-- ---------- ---------- ---------- ----------
+FEN_SULSO  KLERAKSE-- ---------- ---------- ---------- ----------
+FEN_SULTO  KLEQAKTE-- ---------- ---------- ---------- ----------
+FEN_THEAC  ELEEAIER-- ---------- ---------- ---------- ----------
+FEN1_HUMAN QLQQAQAA-- ---------- ---------- ---------- ----------
+RAD2_SCHPO DQEETKEV-- ---------- ---------- ---------- ----------
+RA27_YEAST KLAEATTE-- ---------- ---------- ---------- ----------
+FEN_HALN1  QLDDAREA-- ---------- ---------- ---------- ----------
+1a76_      KMKEAIKK-- ---------- ---------- ---------- ----------
+1b43_A     KWREALEK-- ---------- ---------- ---------- ----------
+EX9_ECOLI  ELHD------ ---------- ---------- ---------- ----------
+EX9_VIBCH  VLQQ------ ---------- ---------- ---------- ----------
+1exn_A     ALDEQ----- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP DLKE------ ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU EFWN------ ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           201                                                250
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO DNSEIKPVLN QRKNYLKPDP YQLPEMDV-S FDKLGSSYDP RIMSQDELTQ
+RAD2_YEAST ---------- --FK--PQDE WDLPDIPGFK YDKEDA---- RVNSNKTFEK
+XPG_HUMAN  ---------- --RR--ENDL YVLPPLQE-- EEKHSS---- EEEDEKEWQE
+XPG_MOUSE  ---------- --QR--QDDI YVLPPLPE-- EEKHSS---- EEEDEKQWQA
+XPG_XENLA  ---------- --PRKETEDL YILPPLED-- NENNSS---- EEEEEREWEE
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           251                                                300
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO YVSSFTKIED INLFDFSNID FDSELFQSLP DTDKYSILSA ARLRSRLRMG
+RAD2_YEAST LMNSINGDGL ED-IDLDTIN PASAEFEELP KATQYLILSS LRLKSRLRMG
+XPG_HUMAN  RMNQKQALQE EFFHNPQAID IESEDFSSLP PEVKHEILTD MKEFTKRRRT
+XPG_MOUSE  RMDQKQALQE EFFHNPQAID IESEDFSSLP PEVKHEILTD MKEFTKRRRT
+XPG_XENLA  RMNQKQRLQE DFFANPSSVD IESEEFKSLP PEVKHEILTD MKDFTKRRRT
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           301                                                350
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO LSSEQLSEMF PNRMDFSRFQ IERLKERNDL TQRLMDFTG- ----------
+RAD2_YEAST YSKEQLETIF PNSMDFSRFQ IDMVKRRNFF TQKLINTTGF QDGGASKLNE
+XPG_HUMAN  LF----EAMP EESDDFSQYQ LKGLLKKNYL NQHIEHVQK- ----------
+XPG_MOUSE  LF----EAMP EESNDFSQYQ LKGLLKKNYL NQHIENVQK- ----------
+XPG_XENLA  LF----EAMP EDSSDFSQYQ LKGLLKKNDL NKCIDNVRK- ----------
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           351                                                400
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ---------- ---------- M-NEF----- --------GP SRVVSEKNRE
+RAD2_YEAST EVINRISGQK SKEYK----L TKTNNGWILG LGANDGSDAQ KAIVIDDKDA
+XPG_HUMAN  EMNQQHSGHI RRQYEDEGGF L-KEV----- --------ES RRVVSEDTSH
+XPG_MOUSE  EMNQQHSGQI QRQYQDEGGF L-KEV----- --------ES RRVVSEDTSH
+XPG_XENLA  ELNQQYSGEV QAQFESEGGF L-KEV----- --------ET RRLVSEDDSH
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           401                                                450
+DIN7_YEAST ---------- ---SAGN--- ---------- ---------- ----------
+RA13_SCHPO YILVKNEGAE GGW----ALG VISGSTNNEP IIIDDEATK- --LSSNL---
+RAD2_YEAST GALVKQLDS- -NAEDGDV-- ---------- LRWDDLEDN- --SLKIVRHE
+XPG_HUMAN  YILIKGIQA- -KT----V-- ---------- AEVDSESLP- --SSSKMHGM
+XPG_MOUSE  YILIKGIQG- -KK----V-- ---------- MDVDSESLP- --SSSNVHSV
+XPG_XENLA  YILIKGIQS- -KQ----E-- ---------E KKVDSPPQSI TFNSSQTPKT
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           451                                                500
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO -IDE------ ---------- DEDEAFYDVP LPSRS---HS MNPRE-----
+RAD2_YEAST SSNATTAPQK RSNRSEDEGC DSDECEWEEV E--LKPK--- ----NVKFVE
+XPG_HUMAN  SFDV------ ---------- KSSPCEKLKT E--KEPDATP PSPRT-----
+XPG_MOUSE  SSNL------ ---------- KSSPHEKVKP E--REPEAAP PSPRT-----
+XPG_XENLA  YLDL------ ---------- KLASAHKTKP LQTSSAEAAP PSPRT-----
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           501                                                550
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ---LVAAKLK EIKENSFS-- ---ENQQSDE ADYNVTDDLI LQLATQQSLE
+RAD2_YEAST DFSLKAARLP YMGQS----- ---------- ---------- --------LN
+XPG_HUMAN  ---LLAMQAA LLGSSSEEEL ESENRRQAR- ---------- ----------
+XPG_MOUSE  ---LLAIQAA MLGSSSEDEP ESREGRQSK- ---------- ----------
+XPG_XENLA  ---LFAIQEA MAESWDHEKH E-------K- ---------- ----------
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           551                                                600
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ENKKSKELF- -SLSASEFDK LNSE---KKT FE----ILST DIPAEDSMNS
+RAD2_YEAST -NAGSKSFLD KRHDQA---- -SPSKTTPTM RISRISV--- ----------
+XPG_HUMAN  ------GRN- -APAAV---- -DEGSISPRT LSAIKRA--- ----------
+XPG_MOUSE  ------ERN- -SGATA---- -DAGSISPRT RAAIQKA--- ----------
+XPG_XENLA  ------PSV- -SGCEA---- --EGNVSPRT LQAIYQV--- ----------
+FEN_ARCFU  ---------- ---------- ---GD----- ---------- ----------
+FEN_METAC  ---------- ---------- ---GD----- ---------- ----------
+FEN_METTH  ---------- ---------- ---GD----- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---GR----- ---------- ----------
+FEN_AERPE  ---------- ---------- ---GE----- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---GK----- ---------- ----------
+FEN_SULTO  ---------- ---------- ---GS----- ---------- ----------
+FEN_THEAC  ---------- ---------- ---GE----- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---GA----- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---GT----- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---GD----- ---------- ----------
+1a76_      ---------- ---------- ---ED----- ---------- ----------
+1b43_A     ---------- ---------- ---GE----- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           601                                                650
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO LLNDEEN--- --LKLEHV-- ---------- --------GD VSNDSL-AFA
+RAD2_YEAST -EDDDED--- --YLKQIEEI E--------- ---------- ----------
+XPG_HUMAN  -LDDDED--- --VKVCAGDD VQTGGPG--A EEMRINSSTE NSDEGL-KVR
+XPG_MOUSE  -LDDDND--- --EKVSGSSD D-----L--A EKMLLGSRLE QEEHADETAE
+XPG_XENLA  -LAEDEAGES NKIKVVLQSD EE-RKPK--T KVLVISS-SD EEDDCL-NYQ
+FEN_ARCFU  ---------- ---------- ---------K ---------- ----------
+FEN_METAC  ---------- ---------- ------L--E ---------- ----------
+FEN_METTH  ---------- ---------- ------I--D ---------- ----------
+FEN_PYRAE  ---------- ---------- ------R--E ---------- ----------
+FEN_AERPE  ---------- ---------- ------V--E ---------- ----------
+FEN_METKA  ---------- ---------- ---------E ---------- ----------
+FEN_SULSO  ---------- ---------- ------I--E ---------- ----------
+FEN_SULTO  ---------- ---------- ------IKTS ---------- ----------
+FEN_THEAC  ---------- ---------- ---------E ---------- ----------
+FEN1_HUMAN ---------- ---------- ------E--Q ---------- ----------
+RAD2_SCHPO ---------- ---------- ------A--E ---------- ----------
+RA27_YEAST ---------- ---------- ---------L ---------- ----------
+FEN_HALN1  ---------- ---------- ------A--A ---------- ----------
+1a76_      ---------- ---------- ------F--E ---------- ----------
+1b43_A     ---------- ---------- ------I--E ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           651                                                700
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO EKKHPENGTS IF-------- ---------- --MDA----- -------LPS
+RAD2_YEAST ---------- MMEAVQLSKM EKK------- PEADDK---- --------SK
+XPG_HUMAN  DGKGIPFTAT LASSSVNSAE EHVASTNEGR EPTDS----- -------VPK
+XPG_MOUSE  RGGGVPFDTA PLTPSVTEVK ECVTSGSSAN EQTDSAHSFT TASHRCDTPK
+XPG_XENLA  DGTKTTLGAS LIKSISPSSM QCQEST---- --ADS----- -------LPN
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           701                                                750
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ASREKKT--- -NDLIDPLPF QPMDWGKSIF FEKLKKPTET FMDSKTDI--
+RAD2_YEAST IAK--PVTSK GTEARPPIVQ YGL------- ---------- -------LGA
+XPG_HUMAN  EQM--SLVHV GTEAF-PISD ESM------- ---------- -------IKD
+XPG_MOUSE  ETV--SLASA VKEAS-QISS ECE------- ---------- -------VEG
+XPG_XENLA  YTRSKPV--- -SQIEEPMAD HNL------- ---------- -------QGD
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           751                                                800
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ---------- ---------- ---------- ---------- ----------
+RAD2_YEAST Q--------- ---------- PDSKQPYHV- TNLNSKSESV IKRTSKTVLS
+XPG_HUMAN  RKDRLPLESA VVRHSDAPGL PNGRE----- ---------- ----------
+XPG_MOUSE  RPAALSPAFI GTPSSHVSGV LSERE----- ---------- ----------
+XPG_XENLA  N--------- -------CNV PNAKDKLIVP PSLGNVDKPI ILSNTIPVNS
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           801                                                850
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ----PS---- ---------- ---------- ---------- -------EAP
+RAD2_YEAST EFRPPSQQED KG-------A ILTEGEQNLN FISH------ ----------
+XPG_HUMAN  ---------- -----LTPAS PTC------- ------TNSV SKNETHAEVL
+XPG_MOUSE  ---------- -----PTLAP PTTR------ ------THSD QGIDIHPEDP
+XPG_XENLA  EFRIPLLPVN MSMRETVIIP NNTGSLGSSR YISLERDATK QGFSDNPVGD
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           851                                                900
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO DNSKLVEDTN LHTINATVNI ESDLDAAKPG IENPIISPLL PVKDDEKDLD
+RAD2_YEAST ---------- ---------- ---------- ---------- ----------
+XPG_HUMAN  ---------- ---------- ---------- ---------- ----------
+XPG_MOUSE  ---------- ---------- ---------- ---------- ----------
+XPG_XENLA  ---------- ---------- ---------- ---------- ----------
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           901                                                950
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO LRELNPLEPF --------E- --NM-KEQAD DGTVTNPLN- -----VSSDK
+RAD2_YEAST ---------- ---------- ---------- ---------- -------KIP
+XPG_HUMAN  ---------E QQNELCPYES KFDSSLLSSD DETKCKP-N- ----------
+XPG_MOUSE  ---------E LQNGLYPLET KCNSSRLSSD DETEGGQ-N- ----------
+XPG_XENLA  ---------L VRS---PDEP ALNASSALSD RKTSATQ-SL LCNNIECTEQ
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           951                                               1000
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO AMSVYL---- ---------- ---------- ---------- ----------
+RAD2_YEAST QFDFNNENSL LFQKNTES-- -------NVS QEATKEKSPI PEMPSWFSST
+XPG_HUMAN  ---------- -----SASEV IGPVSLQETS S--------- ------IVSV
+XPG_MOUSE  ---------- -----PAP-- -------KAC S--------- ------TVHV
+XPG_XENLA  SMVQGCSNTL DVTQTTQP-- -------SGG SEVNKPAEYN PQDKKVFGSN
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           1001                                              1050
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ---------- LSSENAKDTG D-IKSESIDA VLPTLE---- ----T-----
+RAD2_YEAST ASQQLYNPYN --------TT N-FVE-DKNV RNEQESGAET TNKGSSYELL
+XPG_HUMAN  PSEAVDNVEN VVSFNAKEHE N-FLE-TIQE QQTTES---- ----AGQDLI
+XPG_MOUSE  PAEAMSNLEN ALPSNAEERG D-FQE-TIQL REVPEA---- ----AARELI
+XPG_XENLA  DSSAMYVPMT --------PE SIIVS-DE-- ---------- ----------
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           1051                                              1100
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO SSPSLSIPTD FQKEASPNKG AAALSSKVEP EVVEKLLDEE E-EEMII---
+RAD2_YEAST TGLNATEILE RESEKESSND ENK---DDDL EVLSEELFED V-PTKSQISK
+XPG_HUMAN  SIPKAVEPME IDSEESESDG SFI---EVQS VISDEELQAE F-PETSKPPS
+XPG_MOUSE  SAPKPMGPME MESEESESDG SFI---EVQS VVSNSELQTE S-SEASTHLS
+XPG_XENLA  -------EFV NEKEDSDSDD SFI---EVDS EFSTSNSQHV VFKE-PGDTR
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           1101                                              1150
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ---------- ---------- ---------- ------RM-A EEEKEYDRFV
+RAD2_YEAST -EAEDNDSRK -VESINKEHR KPLIFDYDFS ---------- ---EDEEDNI
+XPG_HUMAN  EQGEE-ELVG -TREGEAPAE SESLL-RDNS ERDDVDGEPQ EAEKDAEDSL
+XPG_MOUSE  EKDAE-EPRE ILEEGTS-RD TECLL-QDSS DIEAMEGH-R EADIDAEDMP
+XPG_XENLA  -ETAT-NFQA -VEEGNS-GS QDIPLEHDSG EP-HEQSN-S EESKDLDDVS
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           1151                                              1200
+DIN7_YEAST ---------- ---------- ---------- ---------R YNAMEYFQKS
+RA13_SCHPO SELNQRHET- -EEW------ -------NQE AFEKRLKELK NQKRSEKRDA
+RAD2_YEAST VENMIKEQEE FDTFKNTTLS TSAERNVAEN AF-V-EDELF EQQMKDKRDS
+XPG_HUMAN  HEWQDINLEE LETL------ -------ESN LL-AQQNSLK AQKQQQERIA
+XPG_MOUSE  NEWQDINLEE LDAL------ -------ESN LL-AEQNSLK AQKQQQDRIA
+XPG_XENLA  NEWQDISVEE LESL------ -------ENN LY-VQQTSLQ AQQQQQERIA
+FEN_ARCFU  ---------- ---------- ---------- ---------- -DAKKYAQAA
+FEN_METAC  ---------- ---------- ---------- ---------- -AAYKYAQAS
+FEN_METTH  ---------- ---------- ---------- ---------- -RAKKYAVRS
+FEN_PYRAE  ---------- ---------- ---------- ---------- -DVAKYAKRA
+FEN_AERPE  ---------- ---------- ---------- ---------- -EARKYAMMA
+FEN_METKA  ---------- ---------- ---------- ---------- -EREKYARQV
+FEN_SULSO  ---------- ---------- ---------- ---------- -ELRKYSQAI
+FEN_SULTO  ---------- ---------- ---------- ---------- -ELKKYAQMS
+FEN_THEAC  ---------- ---------- ---------- ---------- -DLRQYYSRI
+FEN1_HUMAN ---------- ---------- ---------- ---------- -EVEKFTKRL
+RAD2_SCHPO ---------- ---------- ---------- ---------- -MVDRFAKRT
+RA27_YEAST ---------- ---------- ---------- ---------- -EKMKQERRL
+FEN_HALN1  ---------- ---------- ---------- ---------- -EAARLDART
+1a76_      ---------- ---------- ---------- ---------- -EAAKYAKRV
+1b43_A     ---------- ---------- ---------- ---------- -EARKYAQRA
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- --------VP
+EX53_MYCTU ---------- ---------- ---------- ---------- --------VP
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           1201                                              1250
+DIN7_YEAST VDITPEMAKC IIDYCKLHSI PYIV-A-PFE ADPQMVYLE- ---K----M-
+RA13_SCHPO DEVTQVMIKE CQELLRLFGL PYIV-APQ-E AEAQ----CS KLLE----L-
+RAD2_YEAST DEVTMDMIKE VQELLSRFGI PYIT-APM-E AEA----QCA ELLQ----L-
+XPG_HUMAN  ATVTGQMFLE SQELLRLFGI PYIQ-APM-E AEAQ----CA ILDL----T-
+XPG_MOUSE  ASVTGQMFLE SQELLRLFGV PYIQ-APM-E AEAQ----CA MLDL----S-
+XPG_XENLA  ATVTGQMCLE SQELLQLFGI PYIV-APM-E AEAQ----CA ILDL----T-
+FEN_ARCFU  GRVDEYIVDS AKTLLSYMGI PFVD-APS-E GEAQ----AA YMAA----K-
+FEN_METAC  SRVDQEIVED SKYLLGIMGI PWIQ-APC-E GEAQ----AA HMVL----K-
+FEN_METTH  SRMSSEILES SKRLLELLGI PYVQ-APG-E GEAQ----AS YMVK----M-
+FEN_PYRAE  VFITSEMVDE AKRLLSYMGV PWVQ-APS-E GEAQ----AA YMAR----K-
+FEN_AERPE  ARLTSDMVEE SKELLDAMGM PWVQ-APA-E GEAQ----AA YMAR----K-
+FEN_METKA  ARLDESLVED AKRLLDLMGI PWVQ-APS-E GEAQ----CA YMAR----C-
+FEN_SULSO  LRLSNIMVEE SKKLLRAMGI PIVQ-APS-E GEAE----AA YLNK----L-
+FEN_SULTO  IRLTNEMAEE SKELLKAMGI PVVQ-APS-E GEAE----AA YINI----L-
+FEN_THEAC  NYITPQIVDD TKKLLDYMGI PYVD-APS-E GEAQ----AS YMTK----K-
+FEN1_HUMAN VKVTKQHNDE CKHLLSLMGI PYLD-APS-E AEAS----CA ALVK----A-
+RAD2_SCHPO VKVTRQHNDE AKRLLELMGI PFVN-APC-E AEAQ----CA ALAR----S-
+RA27_YEAST VKVSKEHNEE AQKLLGLMGI PYII-APT-E AEAQ----CA ELAK----K-
+FEN_HALN1  QRLTPTIHET TRELFDLLDI PQVE-APA-E GEAQ----AA YMTR----T-
+1a76_      SYLTPKMVEN CKYLLSLMGI PYVE-APS-E GEAQ----AS YMAK----K-
+1b43_A     TRVNEMLIED AKKLLELMGI PIVQ-APS-E GEAQ----AA YMAA----K-
+EX9_ECOLI  ------EMPA LRAAFEQRGV PCWS-TSGNE ADDLAATLAV KVTQ----A-
+EX9_VIBCH  ------GIDA IQDAWWQLGI DSLL-SEGDE ADDLVATLAC KVAA----H-
+1exn_A     ---FFEYLKD AFELCKT-TF PTFTIRGV-E ADDX----AA YIVKLIGHL-
+EX53_BUCAI --LLVMQIQP LFEILKKIGI KTLT-IPGIE ADDVIGSLSY QLEK----Q-
+EX53_BUCAP --KLYVQIQP LFKILEEIGI KTLS-ILGIE ADDIIGSLAY KLEQ----K-
+EX53_BUCBP ------QILP IHHIIKHIGI PIIS-IPHVE ADDIIGTLAT KLYK----K-
+EX53_AQUAE --PLKVQIPV IKEILKLAGI PLLE-LPGYE ADD----VIA YLAE----KF
+EX53_MYCPU ------IFKA IREILDSINL NSGG-FRGHE ADDVIATITS KF-K----D-
+EX53_MYCPN --ELLVQIPV VKESLRHLGF LVCE-QDGFE ADDLIGSYAR LMTQ----N-
+EX53_MYCGE --ELLVQIPL IKQALVYLGF LVCE-KDGFE ADDLIGSYAN LFTK----Q-
+EX53_UREPA --KLIVQLPY LKKLFVAMGF RIIS-QPGIE ADDFVGSFSN LMNK----F-
+EX53_BACSU --ELIPQFDL AKEAAAELGI MNIG-FAGYE ADDCIGTLAD LFAN------
+EX53_STRCO DTLS-PQVPV IEAVLDALGI ARVG-VAGYE ADDV----IG TYTARA----
+EX53_MYCTU DELT-PQVDM IMELLDAFGI AMAG-APGFE ADDV----LG TLATRE--R-
+EX53_BACHD --ALIEQYET ATSLLEEIGV AQVT-IPPYE ADDTIGAFAC RWAK-E--E-
+
+           1251                                              1300
+DIN7_YEAST ---GL-IQGI ISEDSDLLVF GC--KTLITK LNDQ-G-KAL EISKD-----
+RA13_SCHPO ---KL-VDGI VTDDSDVFLF GG--TRVYRN MFNQ-NK--F ----------
+RAD2_YEAST ---NL-VDGI ITDDSDVFLF GG--TKIYKN MFH--EKNYV E---------
+XPG_HUMAN  ---DQ-TSGT ITDDSDIWLF GA--RHVYRN FFNK-NK--F ----------
+XPG_MOUSE  ---DQ-TSGT ITDDSDIWLF GA--RHVYKN FFNK-NK--F ----------
+XPG_XENLA  ---DQ-TSGT ITDDSDIWLF GA--RHVYKN FFSQ-NK--H ----------
+FEN_ARCFU  ---GD-VEYT GSQDYDSLLF GS--PRLARN LAIT-GKRKL -PGKNVYVDV
+FEN_METAC  ---KD-ADYV ASQDYDSFLF GA--PKVVRN MAVT-GKRKL -PGKNVYVDV
+FEN_METTH  ---GD-AWAV ASQDYDCLLF GA--PRVVRN LTLS-GKLED ----------
+FEN_PYRAE  ---GH-CWAV GSQDYDSLLF GS--PKLVRN LAVS-PKRKI -GE--EVIEL
+FEN_AERPE  ---GD-AWAT GSQDYDSLLF GS--PRLVRN LAIT-GRRKL -PGRDQYVEI
+FEN_METKA  ---GD-VWAT GSQDYDSLLF GS--PRLVRN ITIV-GKRKH -PHTGEIIEV
+FEN_SULSO  ---GL-SWAA ASQDYDAILF GA--KRLVRN LTIT-GKRKL -PNKDVYVEI
+FEN_SULTO  ---GL-SWAT ASQDYDSLLF GA--KRLIRN LTLS-GKRKL -PGKDVYVEI
+FEN_THEAC  ----N-VDGV ISQDYDCLLF GA--RKILRN FAIY-GRRKV -PRKNIYKTV
+FEN1_HUMAN ---GK-VYAA ATEDMDCLTF GS--PVLMRH LTAS-EAKKL -PI-------
+RAD2_SCHPO ---GK-VYAA ASEDMDTLCF QA--PVLLRH LTFS-EQRKE -PI-------
+RA27_YEAST ---GK-VYAA ASEDMDTLCY RT--PFLLRH LTFS-EAKKE -PI-------
+FEN_HALN1  ---DDAVDYA GSDDYDCLLL GS--PVTLRQ LTSS-GH--- ----------
+1a76_      ---GD-VWAV VSQDYDALLY GA--PRVVRN LTTT-KE--- ----------
+1b43_A     ---GS-VYAS ASQDYDSLLF GA--PRLVRN LTIT-GKRKL -PGKNVYVEI
+EX9_ECOLI  ---GH-QATI VSTDKGYCQL LS--PTLRIR DYFQ-K---- R---------
+EX9_VIBCH  ---QE-KVTI ISTDKGYCQL LS--PTLQIR DYFQ-Q---- R---------
+1exn_A     ---YD-HVWL ISTDGDWDTL LT--DKVSR- FSFT-TRRE- ----------
+EX53_BUCAI ---GE-KILI LSHDKDMLQL VT--ENINI- --F--HKKNN C---------
+EX53_BUCAP ---GE-QVLI VSHDKDMIQL IT--DNINV- --L--NISKN S---------
+EX53_BUCBP ---KY-FILI STNDKDLAQL VN--IHIHVL IGTS-N---- I---------
+EX53_AQUAE SQKGF-KVKI YSPDKDLLQL VS--ENVLV- --I--NPMND E---------
+EX53_MYCPU ---EN-QIYI FSRDKDLLQL ID--KNVYIT HDN----ELK N---------
+EX53_MYCPN ---NV-AVDI YSSDRDLLQL VD--SMTSVW LCVK-GTKEM K---------
+EX53_MYCGE ---EI-TVDI YSSDRDMLQL VN--AFTNVF LCIK-GTKEM V---------
+EX53_UREPA ---DV-DTTI YSSDRDMLQL IN--KNTKLK LLKT-GTSVM Q---------
+EX53_BACSU ---EA-DITV VTGDRDLLQL LT--DKVSVA LLQK-GIGNY K---------
+EX53_STRCO ---TG-PVDI VTGDRDLYQL VDDA-RGVRV LYPVKGVG-T ----------
+EX53_MYCTU ---RD-PVIV VSGDRDLLQV VADDPVPVRV LYLGRGLA-K ----------
+EX53_BACHD ---KG-HCFI YSNDRDLLQL LS--KSTSQI ISSK---GKD L---------
+
+           1301                                              1350
+DIN7_YEAST --DFSALPE- NFPLGEL-S- ---EQQFRNL VCLAG--CDY T-SGIWKVGV
+RA13_SCHPO -VELYLMDD- MKREFNV-N- ---QMDLIKL AHLLGS--DY T-MGLSRVGP
+RAD2_YEAST ---FYDAES- ILKLLGL-D- ---RKNMIEL AQLLGS--DY T-NGLKGMGP
+XPG_HUMAN  -VEYYQYVD- FHNQLGL-D- ---RNKLINL AYLLGS--DY T-EGIPTVGC
+XPG_MOUSE  -VEYYQYVD- FYSQLGL-D- ---RNKLINL AYLLGS--DY T-EGIPTVGC
+XPG_XENLA  -VEYYQYAD- IHNQLGL-D- ---RSKLINL AYLLGS--DY T-EGIPTVGY
+FEN_ARCFU  KPEIIILES- NLKRLGL-T- ---REQLIDI AILVGT--DY N-EGVKGVGV
+FEN_METAC  ELEVIELEE- TLRALEI-N- ---RDQLIDI AICVGT--DY N-KGLEKVGP
+FEN_METTH  -PEIIELES- TLRELSI-S- ---HTQLVDM ALLVGT--DF N-EGVKGIGA
+FEN_PYRAE  TPEIIELDA- VLRALRLKN- ---REQLIDL AILLGT--DY NPDGVPGVGP
+FEN_AERPE  KPEIIELEP- LLSKLGI-T- ---REQLIAV GILLGT--DY NPGGVRGYGP
+FEN_METKA  KPEIMRLED- VLDQLGLES- ---REQLVDL AILLGT--DY NPDGVPGIGP
+FEN_SULSO  KPELIETEI- LLKKLGI-T- ---REQLIDI GILIGT--DY NPDGIRGIGP
+FEN_SULTO  KPELIELDT- LLKKLGL-T- ---REQLIDI GIIVGT--DY NPDGIKGYGV
+FEN_THEAC  YPEYIILDE- VLSANQI-N- ---QDQLIGI GILVGT--DF N-EGIKGIGA
+FEN1_HUMAN --QEFHLSR- ILQELGL-N- ---QEQFVDL CILLGS--DY C-ESIRGIGP
+RAD2_SCHPO --SEYNIEK- ALNGLDM-S- ---VEQFVDL CILLGC--DY C-EPIRGVGP
+RA27_YEAST --HEIDTEL- VLRGLDL-T- ---IEQFVDL CIMLGC--DY C-ESIRGVGP
+FEN_HALN1  -PELMDFDA- TLAEHDL-T- ---WEQLVDV GILCGT--DF N-PGIDGFGP
+1a76_      MPELIELNE- VLEDLRI-S- ---LDDLIDI AIFMGT--DY NPGGVKGIGF
+1b43_A     KPELIILEE- VLKELKL-T- ---REKLIEL AILVGT--DY NPGGIKGIGL
+EX9_ECOLI  ---WLDAPF- IDKEFGV-Q- ---PQQLPDY WGLAGISSSK V-PGVAGIGP
+EX9_VIBCH  ---WLDEPF- IAQEFGV-T- ---PAQLTDY WGLTGVSSSQ I-PGVAGIGP
+1exn_A     ----YHLRD- XYEHHNVDD- ---VEQFISL KAIXGDLGDN I-RGVEGIGA
+EX53_BUCAI ---IITSEI- IQEKYGI-K- ---PKEFIDF LALMGDATDN I-PGVPKIGI
+EX53_BUCAP ---ILTPEK- IQEKYGI-Y- ---PKEFIDL LALMGDSSDN I-PGVPKIGI
+EX53_BUCBP ---VLDESK- VKKKYGI-I- ---PKLIPDL LGLMGDNSDN I-PGVPTVGK
+EX53_AQUAE ---VFTKER- VIKKFGV-E- ---PQKIPDY LALVGDKVDN V-PGIEGVGP
+EX53_MYCPU ---LISIEN- FYQNFQL-E- ---PDQIVDF KAIAGDSSDN L-KGIAGIGE
+EX53_MYCPN ---EYNTDNF AEQFFGL-T- ---PKQVIEY KGLVGDNSDN L-TGIKGIGP
+EX53_MYCGE ---MYNNENF KSLFYGL-A- ---PYQVVEY KGLVGDNSDN L-AGIKGIGP
+EX53_UREPA ---EINLTNF SLLNNGI-L- ---PYQIIEY KGLVGDSSDN L-IGVKGIGP
+EX53_BACSU ---VYTKET- FYEETGV-M- ---PKALIDI KALMGDSSDN Y-PGVKGIGE
+EX53_STRCO -LNLVDEAA- LREKYGV-D- ---GAGYADL ALLRGDPSDG L-PGVPGIGE
+EX53_MYCTU -ATLFGPAE- VAERYGL-PA HRAGAAYAEL ALLRGDPSDG L-PGVPGVGE
+EX53_BACHD ---IYTEEN- FRNDYNI-S- ---PAQWVDV KALLGDKSDN I-PGCPGVGE
+
+           1351                                              1400
+DIN7_YEAST VTAMKIVKRY SE--MKDILI QI-ERTE-K- ---------- LCFSK-----
+RA13_SCHPO VLALEILHEF PG--DTGLFE FK-KWFQRLS TGH-ASK--N DV-N----TP
+RAD2_YEAST VSSIEVIAEF GN--LKNFKD WY-NNGQ-F- ---------- D--KRKQETE
+XPG_HUMAN  VTAMEILNEF PGHGLEPLLK FS-EWWHEAQ KNPKIRPNPH D-------TK
+XPG_MOUSE  VTAMEILNEF PGRGLDPLLK FS-EWWHEAQ NNKKVAENPY D-------TK
+XPG_XENLA  VSAMEILNEF PGQGLEPLVK FK-EWWSEAQ KDKKMRPNPN D-------TK
+FEN_ARCFU  KKALNYIKTY GD--IFRALK AL-K----V- ---------- N-------I-
+FEN_METAC  KTALKLIKKH GD--IHAVLR EK-DM----- ---------- E-------I-
+FEN_METTH  RRGLKLIREK GD--IFKVIR DL-EA----- ---------- D-------I-
+FEN_PYRAE  QKALKLIWEF GS--LEKLLE TV-LKGA-Y- ---------- --------F-
+FEN_AERPE  KTALRLVKSL GD--PMKVLA SV-PRGE-Y- ---------- D-------P-
+FEN_METKA  KRALQLIRKY GS--LDELKD TD-IWPK-IE R--------- H-------L-
+FEN_SULSO  ERALKIIKKY GK--IEKAME YG-EISK-K- ---------- D-------I-
+FEN_SULTO  KTAYRIIKKY GS--LEKAIE KG-EIPK-I- ---------- K-------V-
+FEN_THEAC  KKALALIKKE GD--IKSVLK HI-GK----- ---------- N-------I-
+FEN1_HUMAN KRAVDLIQKH KS--IEEIVR RL-DPNK-Y- ---------- P-------V-
+RAD2_SCHPO ARAVELIRQY GT--LDRFVK EA-DRSK-Y- ---------- P-------I-
+RA27_YEAST VTALKLIKTH GS--IEKIVE FI-ESGE-S- ---------- N--NTKWKI-
+FEN_HALN1  TTALDAIGEH GD--LWDVLA AEGEHVAH-- ---------- ----------
+1a76_      KRAYELVRSG VA--KDVLKK EV-EY----- ---------- ----------
+1b43_A     KKALEIVRHS KD--PLAKFQ K--Q----S- ---------- D-------V-
+EX9_ECOLI  KSATQLLVEF QS--LEGIYE NL-DAVA-E- ---------- KWR-------
+EX9_VIBCH  KAAKEILNQF SS--IEEAYA SP-EL-P-A- ---------- KYR-------
+1exn_A     KRGYNIIREF GN--VLDIID QL-PLPG-K- ---------- Q---------
+EX53_BUCAI KTALFLINKF SN--IENIYN NI-EKIK-S- ---------- LPLRNAK---
+EX53_BUCAP KTALFLLKKF SN--IKNIYN NI-EKIQ-S- ---------- LPFRNAK---
+EX53_BUCBP KTALILLKTF GS--LENIYN NI-EKIP-K- ---------- CLIKKAK---
+EX53_AQUAE KTAINILKKY GS--VENILK NW-EKFQ-R- ---------- E---------
+EX53_MYCPU KGAKNLLNNF KS--LEKIFD SL-ESTN-L- ---------- I--SK-----
+EX53_MYCPN KKGIDLLKQY GT--IDNIFA NF-DKLS-K- ---------- AL--------
+EX53_MYCGE IKGIELLQQY GT--IDNIYT NF-NNLP-N- ---------- QL--------
+EX53_UREPA KTAINLLLKY DN--IENIYT NL-EKIA-P- ---------- SV--------
+EX53_BACSU KTAYKLIREY ET--IDRLLE NL-SLLP-K- ---------- G---------
+EX53_STRCO KTAAKLLAEF GD--LAGIQA AV-DDPK--- ---------A RL-T------
+EX53_MYCTU KTAATLLARH GS--LDQIMA AA-DDRK--- ---------T TM-A------
+EX53_BACHD KSALPLIQQY GT--IETLYE QI-EDLD-P- ---------- KY----K---
+
+           1401                                              1450
+DIN7_YEAST ---AFKQQV- EFANYAF--- ---------- -QYQRVFCPL SNQITTLNNI
+RA13_SCHPO VKKRINKLV- --------GK IILPSE---- FP-------- NPLVDE----
+RAD2_YEAST --NKFE---K DLRKKLVNNE IILDDD---- FP-------- SVMVYD----
+XPG_HUMAN  VKKK----L- --------RT LQLTPG---- FP-------- NPAVAE----
+XPG_MOUSE  VKKK----L- --------RK LQLTPG---- FP-------- NPAVAD----
+XPG_XENLA  VKKK----L- --------RL LDLQQS---- FP-------- NPAVAS----
+FEN_ARCFU  ---------- ---------- -----D---- -H-------- VEEIRN----
+FEN_METAC  ---------- ---------- -----E---- G--------- LDRIRK----
+FEN_METTH  ---------- ---------- -----G---- GD-------- PQVLRR----
+FEN_PYRAE  ---------- ---------- -----P---- ID-------- PLEIKK----
+FEN_AERPE  ---------- ---------- -----D---- -Y-------- LRKVYE----
+FEN_METKA  ---------- ---------- -----P---- VE-------- PEKLRR----
+FEN_SULSO  ---------- ---------- -----N---- FN-------- IDEIRG----
+FEN_SULTO  ---------- ---------- -----N---- FN-------- VEEIRS----
+FEN_THEAC  ---------- ---------- -----E---- -N-------- LDEIID----
+FEN1_HUMAN ---------- ---------- ---PEN---- WL-------- HKEAHQ----
+RAD2_SCHPO ---------- ---------- ---PED---- WP-------- YEDARR----
+RA27_YEAST ---------- ---------- ---PED---- WP-------- YKQARM----
+FEN_HALN1  ---------- ---------- ---------- ---------- GDRIRE----
+1a76_      ---------- ---------- ---------- ---------- YDEIKR----
+1b43_A     ---------- ---------- -----D---- ---------- LYAIKE----
+EX9_ECOLI  ------KKLE THKEMAF--- ---------- -L-------- CRDIAR----
+EX9_VIBCH  ------KKLD PHIEMAR--- ---------- -I-------- CKQVSA----
+1exn_A     --KY------ ---------- ---I-Q---- -N-------- LNASEE----
+EX53_BUCAI ---NISIQLK NNKERAL--- ---------- -L-------- SYKLAR----
+EX53_BUCAP ---NAAIQLK NYKKTAF--- ---------- -L-------- SYQLAK----
+EX53_BUCBP ---TIYNNLH TYKKLAF--- ---------- -L-------- SQKLAT----
+EX53_AQUAE ----FP---R AKKEDLE--- ---------- -L-------- SYKLVK----
+EX53_MYCPU ---AQKQKIR DGKEQAL--- ---------- -F-------- LKKIVT----
+EX53_MYCPN -----QTILQ GQIDTAK--- ---------- -K-------- FSFLAS----
+EX53_MYCGE -----QKLLN NQKEIAK--- ---------- -T-------- FSFLAK----
+EX53_UREPA -----KNKLI EHKDMAF--- ---------- -L-------- SKKLAA----
+EX53_BACSU ----QQGKIQ QGLSDLE--- ---------- -M-------- SRKLAE----
+EX53_STRCO --PTQRKR-- ---------- --LTEAGPYL AV-------- APKVVR----
+EX53_MYCTU --KGLRTK-- ---------- --LLAASAYI KA-------- ADRVVR----
+EX53_BACHD ---RYHKKLV AGEESVI--- ---------- -I-------- SKELAT----
+
+           1451                                              1500
+DIN7_YEAST PKAVTNSHAE IIKIMKCIGS VVERGSGVRK DVINTKNIDH KVHE--MIAK
+RA13_SCHPO ---------- ---------- -------AYL H------PAV DDSK--Q--S
+RAD2_YEAST ---------- ---------- -------AYM R------PEV DHDT--T--P
+XPG_HUMAN  ---------- ---------- -------AYL K------PVV DDSK--G--S
+XPG_MOUSE  ---------- ---------- -------AYL R------PVV DDSR--G--S
+XPG_XENLA  ---------- ---------- -------AYL K------PVV DESK--S--A
+FEN_ARCFU  ---------- ---------- -------FFL N------PPV TDD---Y--R
+FEN_METAC  ---------- ---------- -------LFT H------PEV TED---Y--E
+FEN_METTH  ---------- ---------- -------IFL E------PEV SED---Y--E
+FEN_PYRAE  ---------- ---------- -------FFL N------PPV TDQ---Y--A
+FEN_AERPE  ---------- ---------- -------YFL N------PPV TDD---Y--K
+FEN_METKA  ---------- ---------- -------LFL E------PEV TDD---Y--E
+FEN_SULSO  ---------- ---------- -------LFL N------PQV VKPE--E--A
+FEN_SULTO  ---------- ---------- -------LFL K------PQV VEPK--E--N
+FEN_THEAC  ---------- ---------- -------FFK N------PPV VD----Y--D
+FEN1_HUMAN ---------- ---------- -------LFL E------PEV LDPE-SV--E
+RAD2_SCHPO ---------- ---------- -------LFL D------AEV LPGE-EI--E
+RA27_YEAST ---------- ---------- -------LFL D------PEV IDGN-EI--N
+FEN_HALN1  ---------- ---------- -------LFL N------PDV TDDY-----V
+1a76_      ---------- ---------- -------IFK E------PKV TDN---Y--S
+1b43_A     ---------- ---------- -------FFL N------PPV TDN---Y--N
+EX9_ECOLI  ---------- ---------- -------LQT D------LHI DGNL--Q--Q
+EX9_VIBCH  ---------- ---------- -------LKT D------IEL GFNL--Q--D
+1exn_A     ---------L ---------- -------LFR N------LIL VDL-------
+EX53_BUCAI ---------- ---------- -------IKL D------IPI DIKL--K--D
+EX53_BUCAP ---------- ---------- -------IKL D------VPI NITS--E--E
+EX53_BUCBP ---------- ---------- -------IKT D------INV NITT--K--K
+EX53_AQUAE ---------- ---------- -------LYT D------LDI ELSE--E--D
+EX53_MYCPU ---------- ---------- -------LNK E------VPM KLEK--E---
+EX53_MYCPN ---------- ---------- -------IKT D------IKL NDDI--V--H
+EX53_MYCGE ---------- ---------- -------IKT D------IEL DQNI--D--L
+EX53_UREPA ---------- ---------- -------IQT D------LLF DEKL--E--N
+EX53_BACSU ---------- ---------- -------IHC S------VPL ACTL--K--D
+EX53_STRCO ---------- ---------- -------VAA D------VPL PDTG--T--A
+EX53_MYCTU ---------- ---------- -------VAT D------APV TLSTPTD--R
+EX53_BACHD ---------- ---------- -------ITT E------IEA ISSF--SLNS
+
+           1501                                              1550
+DIN7_YEAST GEL-HPVDMA SKLINRERKL KARKLFKVGL LGGESNSFNK KVEQPLVDTQ
+RA13_SCHPO FQW-GIPDL- ---------- ---------- ---------D ELRQFLMATV
+RAD2_YEAST FVW-GVPDL- ---------- ---------- ---------D MLRSFMKTQL
+XPG_HUMAN  FLW-GKPDL- ---------- ---------- ---------D KIREFCQRYF
+XPG_MOUSE  FLW-GKPDV- ---------- ---------- ---------D KIREFXQRYF
+XPG_XENLA  FSW-GRPDL- ---------- ---------- ---------E QIREFCESRF
+FEN_ARCFU  IEF-REPDF- ---------- ---------- ---------E KAIEFLCEEH
+FEN_METAC  IKW-TKPDS- ---------- ---------- ---------E KLIKFLCEEN
+FEN_METTH  IRW-RKPDV- ---------- ---------- ---------E GVIEFLCTEH
+FEN_PYRAE  TEV-RDPDE- ---------- ---------- ---------A ALKDFLIREH
+FEN_AERPE  IEF-RKPDQ- ---------- ---------- ---------D KVREILVERH
+FEN_METKA  LDW-DEPDE- ---------- ---------- ---------E GLVEFLVEER
+FEN_SULSO  LDL-NEPNG- ---------- ---------- ---------E DIINILVYEH
+FEN_SULTO  LEL-VDCDS- ---------- ---------- ---------N KILDILVKTH
+FEN_THEAC  FKF-RKPDT- ---------- ---------- ---------D AIEHFLCDEH
+FEN1_HUMAN LKW-SEPNE- ---------- ---------- ---------E ELIKFMCGEK
+RAD2_SCHPO LKW-KSPDA- ---------- ---------- ---------D GIIQFLVKEK
+RA27_YEAST LKW-SPPKE- ---------- ---------- ---------K ELIEYLCDDK
+FEN_HALN1  IDPDVSPAI- ---------- ---------- ---------D AARAFVTDEW
+1a76_      LSL-KLPDK- ---------- ---------- ---------E GIIKFLVDEN
+1b43_A     LVW-RDPDE- ---------- ---------- ---------E GILKFLCDEH
+EX9_ECOLI  LRL-V----- ---------- ---------- ---------R ----------
+EX9_VIBCH  IRF-NSSSA- ---------- ---------- ---------D ----------
+1exn_A     ---------- ---------- ---------- ---------- ---------P
+EX53_BUCAI IIL-KKYCS- ---------- ---------- ---------K NT--------
+EX53_BUCAP ITL-KKTCF- ---------- ---------- ---------K KL--------
+EX53_BUCBP IKM-LPPCT- ---------- ---------- ---------T EISNFFLHYK
+EX53_AQUAE LKI-KRPDL- ---------- ---------- ---------N KLKQKLQE--
+EX53_MYCPU ---------- ---------- ---------- ---------L FAIKININEE
+EX53_MYCPN AAL-KPIDK- ---------- ---------- ---------Q ALLELLDK--
+EX53_MYCGE TGL-KPIQK- ---------- ---------- ---------Q ALIQLLSE--
+EX53_UREPA FVL-KPYNT- ---------- ---------- ---------Q ELDELFTS--
+EX53_BACSU ALF-TL-QM- ---------- ---------- ---------E QAADMLRR--
+EX53_STRCO LPH-GPRDA- ---------- ---------- ---------A ALEALA-AR-
+EX53_MYCTU FPL-VAADP- ---------- ---------- ---------E RTAELA-TR-
+EX53_BACHD LVL-TT-PA- ---------- ---------- ---------D LIIDTLAR--
+
+           1551                                              1600
+DIN7_YEAST D---VLS--- -ER-ENSLDN ----KNASSI YMTSP----A AISGTVPSIF
+RA13_SCHPO GW---SKQRT N----EVLLP VIQDM-HKK- ---QF----V GTQSNLTQFF
+RAD2_YEAST GW---PHEKS DEILIPLIRD ----V-NKR- ---KK----K GKQKRINEFF
+XPG_HUMAN  GW---NRTKT D----ESLFP ---VL-KQL- ---DA----Q QTQLRIDSFF
+XPG_MOUSE  GW---NRMKT D----ESLYP ---VL-KHL- ---NA----H QTQLRIDSFF
+XPG_XENLA  GW---YRLKT D----EVLLP ---VL-KQL- ---NA----Q QTQLRIDSFF
+FEN_ARCFU  DF---SRERV E----KALEK ----L-KAL- ---------K STQATLERWF
+FEN_METAC  DF---STDRV E----KAAER ----L-KAA- ---S-----G ARQKTLDQWF
+FEN_METTH  GF---SEDRV R----AALKK ----F-EGA- ---------S STQKSLEDWF
+FEN_PYRAE  DF---SEERV S----KALER ----L-RKA- ---R----GK LKTSSLDSFF
+FEN_AERPE  DF---NPERV E----RALER ----L-GKA- ---YRE-KLR GRQSRLDMWF
+FEN_METKA  DF---SEDRV R----RAVER ----L-KEA- ---LQELRKG GRQETLDAFF
+FEN_SULSO  NF---SEERV K----NGIER ----L-TKA- ---IKEAKGA SRQTGLDRWF
+FEN_SULTO  DF---NEERV K----NGIER ----L-EKA- ---KREAKGA SRQTGLDQWF
+FEN_THEAC  DF---SRERI R----DHLES ----L-RKN- ---DQ----A STQFRLDSFD
+FEN1_HUMAN QF---SEERI R----SGVKR ----L-SKS- ---RQ----G STQGRLDDFF
+RAD2_SCHPO GF---NEDRV K----LGINR ----L-EKA- ---SK----T IPQGRLDSFF
+RA27_YEAST KF---SEERV K----SGISR ----L-KKG- ---LK----S GIQGRLDGFF
+FEN_HALN1  EV---DADAV A----RGFER --------I- ---DA----A AAQTGLDRW-
+1a76_      DF---NYDRV K----KHVDK ----L-YNL- ---IA----N KT--------
+1b43_A     DF---SEERV K----NGLER ----L-KKA- ---IK----S GKQSTLESWF
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     TY---CVDA- ---------- ---------- ---IA----A VGQDVLDKFT
+EX53_BUCAI ---------- -------F-- ---------- ---------- ---QIFKNYF
+EX53_BUCAP ---------- ---------- ---------- ---------- ---SNLIRWY
+EX53_BUCBP F---YNW--- -NKLLKQGLW ----L-KNCK ---------- ----------
+EX53_AQUAE ---------- -LEMKSLLKE ----V-DKI- ---------- FRQASQRSLF
+EX53_MYCPU ILEKLDK--- -YDSRYVLKQ ----FE-KA- ---------- -LESDDYL-W
+EX53_MYCPN ---------- -YGIKA---- ---------- ---------- -----LAQKF
+EX53_MYCGE ---------- -NKINT---- ---------- ---------- -----LVEKF
+EX53_UREPA ---------- -LKINN---- ---------- ---------- -----MQNYY
+EX53_BACSU ---------- -HQIK-GIE- ---------- ---------- ---R-MLEKL
+EX53_STRCO -------WGL G----GSLQR LLT------- ---------- ----------
+EX53_MYCTU -------FGV E----SSIAR LQK------- ---------- ----------
+EX53_BACHD ---------- -CGIRVKLA- ---------- ---------- ---P-VQTEL
+
+           1601                                              1650
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO EGGNTNVYAP RVAYHFKSKR LENALSSFKN QISNQSPMSE EIQA------
+RAD2_YEAST PREYISG--- D-KKLNTSKR I-------ST ---------- ----------
+XPG_HUMAN  RLAQQEK--- EDAKRIKSQR LNRAVTCMLR KEKE--AAAS EIEAVSVAME
+XPG_MOUSE  RLAQQEK--- QDAKLIKSHR LSRAVTCMLR KERE--EKAP ELTK------
+XPG_XENLA  RLEQHEA--- ---AGLKSQR LRRAVTCMKR KERD--VEAE EVEA------
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN KVTGSLS--- SAKR------ ---------- ---------- ----------
+RAD2_SCHPO KPVPSSP--- K-KP------ ---------- ---------- ----------
+RA27_YEAST QVVPKTK--- E-QL------ ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     K--------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     KDI------- ---------- ----LEIAE- ---------- ----------
+EX53_BUCAI ---------- ---------- --------SS ---------- ----------
+EX53_BUCAP S--------- ---------- F-------NE ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- --------SQ ---------- ----------
+EX53_MYCGE ---------- ---------- --------SK ---------- ----------
+EX53_UREPA ---------- ---------- --------K- ---------- ----------
+EX53_BACSU ---------- ---------- --------NA ---------- ----------
+EX53_STRCO ---------- ---------- ------TLTA ---------- ----------
+EX53_MYCTU ---------- ---------- ---ALDTLPG ---------- ----------
+EX53_BACHD ---------- ---------- --------KL ---------- ----------
+
+           1651                                              1700
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO -DADAFGESK GS------DE -L-QSRI-LR RKKMM----- ----------
+RAD2_YEAST --------AT G--------- ---------- ---------- ----------
+XPG_HUMAN  KEFELLDKAK RKTQKRGITN TLEESSS-LK RKRLSDS--K RKNTCGGFLG
+XPG_MOUSE  -VTEALDDAK GKTQKRELPY KK-ETSV-PK RRRPS----- ---GNGGFLG
+XPG_XENLA  -AVAVMEREC TN-QRKGQKT NT-KSQG-TK RRKPTECSQE DQDPGGGFIG
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------K E-PEPKGSTK KK-------- AKTGAAGK--
+RAD2_SCHPO ---------- ---------V D-TKSKGSAK RK-------- RDSNKGGE--
+RA27_YEAST ---------- ---------A A-AAKRAQEN KK-------- LNKNKNKV--
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU --------RE I--------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           1701                                              1750
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ---------- ---------- ---------- ---------- ----------
+RAD2_YEAST ---------- ---------- ---------- ---------- ----------
+XPG_HUMAN  ETCLSE---- -SSDGSSSEH AE-SSSLMNV QRRTAAKEPK TSASDSQNSV
+XPG_MOUSE  DPYCSE---- -SPQESSCED GE-GSSVMSA RQRSAAESSK IGCSDVPDLV
+XPG_XENLA  IELKTLSSKA YSSDGSSSDA EDLPSGLIDK QSQ------- ----------
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- ---------- ----------
+RAD2_SCHPO ---------- ---------- ---------- ---------- ----------
+RA27_YEAST ---------- ---------- ---------- ---------- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           1751                                              1800
+DIN7_YEAST ---------- ---------- ---------- ---------- ----------
+RA13_SCHPO ---------- -ASKNSSDSD SDS--EDN-F LASLTPKTNS SSISIENLPR
+RAD2_YEAST ---------- ---------- ---------- ---------- ----------
+XPG_HUMAN  KEAPVKNGGA TT--SSSSDS DDDGGKEKMV LVTARSVFG- ----------
+XPG_MOUSE  RDSPHGRQGC VS--TSS-SS EDGEDKAKTV LVTARPVFG- ----------
+XPG_XENLA  -SGIVGRQKA SNKVESS-SS SDD--EDRTV MVTAKPVFQ- ----------
+FEN_ARCFU  ---------- ---------- ---------- ---------- ----------
+FEN_METAC  ---------- ---------- ---------- ---------- ----------
+FEN_METTH  ---------- ---------- ---------- ---------- ----------
+FEN_PYRAE  ---------- ---------- ---------- ---------- ----------
+FEN_AERPE  ---------- ---------- ---------- ---------- ----------
+FEN_METKA  ---------- ---------- ---------- ---------- ----------
+FEN_SULSO  ---------- ---------- ---------- ---------- ----------
+FEN_SULTO  ---------- ---------- ---------- ---------- ----------
+FEN_THEAC  ---------- ---------- ---------- ---------- ----------
+FEN1_HUMAN ---------- ---------- ---------- -------F-- ----------
+RAD2_SCHPO ---------- ---------- ---------- -------S-- ----------
+RA27_YEAST ---------- ---------- ---------- -------T-- ----------
+FEN_HALN1  ---------- ---------- ---------- ---------- ----------
+1a76_      ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+
+           1801             1820
+DIN7_YEAST ---------- ---------- 
+RA13_SCHPO KTKLSTSLLK KPSK-RRR-K 
+RAD2_YEAST -------KL- -----KKRKM 
+XPG_HUMAN  KKRRK---LR RARGR-KRKT 
+XPG_MOUSE  KKKLK---LK SMKRR-KKKT 
+XPG_XENLA  GKKTK---SK TMKETVKR-K 
+FEN_ARCFU  ---------- ---------- 
+FEN_METAC  ---------- ---------- 
+FEN_METTH  ---------- ---------- 
+FEN_PYRAE  ---------- ---------- 
+FEN_AERPE  ---------- ---------G 
+FEN_METKA  ---------- ---------- 
+FEN_SULSO  ---------- ---------- 
+FEN_SULTO  ---------- ---------- 
+FEN_THEAC  ---------- ---------- 
+FEN1_HUMAN ---------- -----KRG-K 
+RAD2_SCHPO ---------- -----KKK-R 
+RA27_YEAST ---------- -----KGR-R 
+FEN_HALN1  ---------- ---------T 
+1a76_      ---------- ---------- 
+1b43_A     ---------- ---------R 
+EX9_ECOLI  ---------- ---------- 
+EX9_VIBCH  ---------- ---------- 
+1exn_A     ---------- ---------- 
+EX53_BUCAI ---------- ---------- 
+EX53_BUCAP ---------- ---------- 
+EX53_BUCBP ---------- ---------- 
+EX53_AQUAE ---------- ---------- 
+EX53_MYCPU ---------- ---------- 
+EX53_MYCPN -------L-- ---------- 
+EX53_MYCGE -------I-- ---------- 
+EX53_UREPA ---------- ---------- 
+EX53_BACSU -------V-- ---------- 
+EX53_STRCO ---------- ---------- 
+EX53_MYCTU ---------- ---------- 
+EX53_BACHD -------G-- ---------- 
+

@@ -1,0 +1,934 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1tim_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  .....................APRKFFVGGNWKMN..GKRKSLGELIHTLDGAKLS....
+  ..ADTEVVCGAPSIYLDFARQKL........DAKIGVAAQN.CYKVPKGAFTGEISPAMI
+  KDIGAAWVILGHSERRHV.............FGESDELIGQKVAHALAEGLGVIACIGEK
+  LDEREAGITEKVVFQETKAIADNVK..................DWSKVVLAYEPVWAIG.
+  TGKTAT...PQQAQEVHEKLRGWLKTHV..SDAVAVQSRIIYGGSVTG.GNCKELASQHD
+  VDGFLVGGASLK.....PEFVDIINAKH........
+}
+{
+name 1tmh_D
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ......................MRHPLVMGNWKLN..GSRHMVHELVSNLRKELAGV...
+  ..AGCAVAIAPPEMYIDMAKREAE.......GSHIMLGAQN.VDLNLSGAFTGETSAAML
+  KDIGAQYIIIGHSERRTY.............HKESDELIAKKFAVLKEQGLTPVLCIGET
+  EAENEAGKTEEVCARQIDAVLKTQG................AAAFEGAVIAYEPVWAIG.
+  TGKSAT...PAQAQAVHKFIRDHIAKV...DANIAEQVIIQYGGSVNA.SNAAELFAQHD
+  VDGFLVGGASLK.....PEFVDIINAAEAAKQA...
+}
+{
+name 1lyx_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  .......................RKYFVAANWKCN..GTLESIKSLTNSFNNLDFDP...
+  ..SKLDVVVFPVSVHYDHTRKLL........QSKFSTGIQN.VSKFGNGSYTGEVSAEIA
+  KDLNIEYVIIGHFERRKY.............FHETDEDVREKLQASLKNNLKAVVCFGES
+  LEQREQNKTIEVITKQVKAFVDLID..................NFDNVILVYEPLWAIG.
+  TGKTAT...PEQAQLVHKEIRKIVKDTC..GEKQANQIRILYGGSVNT.ENCSSLIQQED
+  IDGFLVGNASLK.....ESFVDIIKSAM........
+}
+{
+name 1m6j_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  .....................GAGKFVVGGNWKCN..GTLASIETLTKGVAASVDAELA.
+  ..KKVEVIVGVPFIYIPKVQQILAG...EANGANILVSAEN.AWTK.SGAYTGEVHVGML
+  VDCQVPYVILGHSERRQI.............FHESNEQVAEKVKVAIDAGLKVIACIGET
+  EAQRIANQTEEVVAAQLKAINNAIS................KEAWKNIILAYEPVWAIG.
+  TGKTAT...PDQAQEVHQYIRKWMTENI..SKEVAEATRIQYGGSVNP.ANCNELAKKAD
+  IDGFLVGGASLD....AAKFKTIINSVSEKL.....
+}
+{
+name TPIS_PHOLL
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Photorhabdus luminescens (subsp. laumondii).Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         95     95  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        167    167  ACT_SITE_By similarity
+sequence
+  ......................MRHPLVMGNWKLN..GSTHMVNELITGLRQELSSV...
+  ..TGCDVAIAPPALYLSQAKQALA.......GSRIALGAQD.VDVNLSGAFTGETSATML
+  KDIGAEYIIIGHSERRTY.............HQESDEFIAKKFAILKQQGLIPVLCIGET
+  EQENEAGQTESVCARQIDAVLNTLG................VAAFQGAVIAYEPVWAIG.
+  TGKSAT...PAQAQAVHKFIRDHIAQK...DAAIAQQIIIQYGGSVNA.DNAAELFSQPD
+  IDGALVGGASLK....ANAFAVIVKAAAAAKKA...
+}
+{
+name TPIS_HAEDU
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Haemophilus ducreyi.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         97     97  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  .....................MARRPLVMGNWKLN..GSKAFTQQLIAELKTELAEI...
+  ..TGCDVAIAPPVMYLSEAEIALA......GQSTIRLGAQN.VDINTQGAFTGDISTAML
+  QEFCAKYIIIGHSERRTY.............HAESDQFIAKKFAALKTAGLTPVLCIGET
+  EAENEAGQTQQVCARQIDAIINSLG................VEAFNQAVIAYEPIWAIG.
+  TGKSAT...PAQAQAVHAFIRQHIAEK...SQAVADQLIIQYGGSVND.TNAAELFSQPD
+  IDGALVGGASLK....ATAFAEIVKAAEKAKA....
+}
+{
+name TPIS_VIBCH
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Vibrio cholerae.Bacteria;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A        2    252  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         97     97  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  ......................MRRPVVMGNWKLN..GSKAMVTDLLNGLNAELEGV...
+  ..EGVDVVVAPPAMYLDLAERLIKE.....GGNKLILGAQN.TDTHNSGAYTGDMSPAML
+  KDFGASHIIIGHSERRDY.............HKESDEFVAKKFAFLKENGLTPVFCIGET
+  EAQNEAGETEAVCARQINAVIDAYG................VEALNGAIIAYEPIWAIG.
+  TGKAAT...ADDAQRIHASIRALIAAK...DAAVAEQVIIQYGGSVKP.ENAASYFAQPD
+  IDGALVGGASLD....AKGFAAIAKAAAEAKKA...
+}
+{
+name TPIS_CAEEL
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A        3    247  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         94     94  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        164    164  ACT_SITE_By similarity
+sequence
+  .....................MTRKFFVGGNWKMN..GDYASVDGIVTFLNASADN....
+  ..SSVDVVVAPPAPYLAYAKSKLK........AGVLVAAQN.CYKVPKGAFTGEISPAMI
+  KDLGLEWVILGHSERRHV.............FGESDALIAEKTVHALEAGIKVVFCIGEK
+  LEEREAGHTKDVNFRQLQAIVDKGV..................SWENIVIAYEPVWAIG.
+  TGKTAS...GEQAQEVHEWIRAFLKEKV..SPAVADATRIIYGGSVTA.DNAAELGKKPD
+  IDGFLVGGASLK.....PDFVKIINARS........
+}
+{
+name TPIS_TAESO
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Taenia solium (Pork tapeworm).Eukaryota;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         94     94  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        167    167  ACT_SITE_By similarity
+sequence
+  .....................MTRKLFVGGNWKMN..GSYSHINTFFDTLQKADTD....
+  ..PNADIVIGVPACYLKYAQDKAP........KGIKIAAEN.CYKVGSGAFTGEISTEMI
+  KDCGCEWVILGHSERRHI.............FGESNELIGEKVKHALDSGLNVIPCIGEL
+  LSEREAGKTNDVCFAQMDAIAKNVPS...............KEAWDKVVIAYEPVWAIG.
+  TGKTAT...PAQAQEVHKVVRDWIRKHV..DAGIADKVRILYGGSVTA.SNAKDLGTQPD
+  VDGFLVGGASLK.....PDFITIINARR........
+}
+{
+name TPIS_RHOBA
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Rhodopirellula baltica.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+sequence
+  .....................MSRRILIAGNWKMN..MRAESGASLAKGIVDAVGKS...
+  ..PAVEVVLCPPSVYLSGVADAVV.......GTPVELGAQN.LYAAEDGAFTGEVNASML
+  TDVGCRFVILGHSERRQL.............MGETDACVAKKLHAALAGNLVPIVCVGET
+  LEQREADDTESVIETQIRGSLEGLD................EARAANIVIAYEPVWAIG.
+  TGKTAS...KEQAEAVHAFIRELLGKMF..STEVAEQIRIQYGGSVKP.GNAEELLSQPN
+  IDGALVGGSSLK....VDDFAGIIKAAPSA......
+}
+{
+name TPIS_XANAC
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Xanthomonas axonopodis (pv. citri).Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         94     94  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        166    166  ACT_SITE_By similarity
+sequence
+  ......................MRRKIVAGNWKLH..GSRAFATELVAKVAAHMPL....
+  ..EGVEVVILPPLPYLGDLIEDFE.......AHHLSFGAQD.VSSNEKGAYTGEVSASML
+  VDVGAGYGLVGHSERRQY.............HQESSELVARKFAAALHAGLIPVLCVGES
+  LEQREAGQTEAILRAQLDPVLALVG................SAGFAGAVLAYEPIWAIG.
+  TGRTAT...PEQAQAVHAFLRGEVAKA...DARIADSLPILYGGSVKP.DNAGELFAQPD
+  VDGGLVGGASLV....AEDFLAIARAAAAC......
+}
+{
+name TPIS_SHEON
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Shewanella oneidensis.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE        103    103  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        175    175  ACT_SITE_By similarity
+sequence
+  ....................MALRRPMVAGNWKMN..GSAALAQELFKKFASKLQN....
+  ..DSAEVVLCPPSIYLESVRQLLEANKEALDGSLVRMGAQN.LSQHDFGAYTGEVSGQML
+  KDCGCRYVIIGHSERRRM.............YGETSNIVAEKFAAAQKHGLTPILCVGES
+  GPAREARRTFEVIAEELDIVIQKNG................TMAFDNAIIAYEPLWAVG.
+  TGKSAT...PEQAQEVHAFIRKRLSEV...SPFIGENIRILYGGSVTP.SNAADLFAQPD
+  VDGGLIGGASLN....STEFLSLCTIAMSA......
+}
+{
+name TPIS_RALSO
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Ralstonia solanacearum (Pseudomonas solanacearum).Bacteria;
+type    PROTEIN
+group 1
+feature 24 325 0 square solid PFAM-A
+  FT   PFAM-A        4    247  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         95     95  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        167    167  ACT_SITE_By similarity
+sequence
+  ....................MSARPKLVVGNWKLH..GSLNGNAELLEKIKAAGQ.....
+  ..TRAALAVCAPFPYLAQCQSVLA.......GSSVAWGAQD.VSAETRGAFTGEVAASML
+  SEFGCGYAIVGHSERRTY.............HGETDAQVAIKALRALEHGITPIVCVGET
+  LAQREAGETELVVARQLEAVLESLS................VEQLGHIVVAYEPVWAIG.
+  TGKTAT...SEQAQAVHAFLRGRVAAC...DAGVAQRMPILYGGSVKP.DNAAELFTMAD
+  IDGGLIGGASLK....AEDFLAIGRA..........
+}
+{
+name TPIS_NITEU
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Nitrosomonas europaea.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+sequence
+  .....................MGRAGFVAGNWKMH..GSLVRNQELLDAVVSGTRSL...
+  ..QNVSCVVCVPYPYIAQTQSVLE.......GSHVLWGGQN.VSQYHHGAYTGEVSADML
+  ADLGCRYVIVGHSERRTL.............FGEGNQVVAEKFRAAQERSITPILCVGET
+  LAQRESDETEQVIAMQLDAVIDLAG................IEALGQSVIAYEPVWAIG.
+  TGKTAT...PQQAQDVHKFIRSRIAVH...SGGIAENIQILYGGSVKA.DNARELFTMPD
+  IDGGLIGGASLV....AAEFISICLAAQN.......
+}
+{
+name TPIS_BORBR
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Bordetella bronchiseptica (Alcaligenes bronchisepticus).Bact
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         99     99  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        170    170  ACT_SITE_By similarity
+sequence
+  .................MTTAENRARLVLGNWKMH..GNLAENAALLAELRAADAA....
+  ..AHCEMGVCVPFPYLAQTAAALQ.......GSAIGWGAQD.VSAHAKGAYTGEVAAPML
+  AEFGCRWVLVGHSERRTL.............HAESDQLVADKARAALEAGLTPVVCVGES
+  LQEREGGNTLGVIERQLEPVLALGR.................DALVRMVLAYEPVWAIG.
+  TGRTAS...PEQAQEVHSAIRVALDG......LQASQVRVLYGGSVKG.ANAASLFAMPD
+  IDGGLVGGASLV....AEEFLRIAAA..........
+}
+{
+name TPIS_COXBU
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Coxiella burnetii.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  .....................MQRRPLVAGNWKMH..GSRESVGQLLRALKHGCERL...
+  ..ETAELAVFPPFVFLQQCEEALM.......RTQISWGAQD.VSEFERGAYTGEVSAAML
+  RDFHCRYVIVGHSERRQR.............HGETNEQVAAKVRAALRCGIRPIICVGET
+  EKQRNANQTLSVIKEQLAVVLQMNDN...............LASLEGMVVAYEPIWAIG.
+  TGKNAT...PSQAEEVHAALRDQLHRQ...DATLAESTRLLYGGSVKP.DNAAALFEMPN
+  IDGALVGGASLE....AEQFLKIGQQCNQSF.....
+}
+{
+name TPIS_CHLTE
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Chlorobium tepidum.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         91     91  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        161    161  ACT_SITE_By similarity
+sequence
+  ...........................MVGNWKMN..NTIAESVDLATAIAEKVGADG..
+  ..VQCEVGIAPTFPALYEVCKVIE.......WSGIRLCAQN.CHYESDGPFTGEVSTRML
+  AAAGCSYVILGHSERRQL.............FGETNATVNLKVKKALAEGLSVILCVGET
+  LDERERGVTGQIVTAQVVEGLIDVT..................DISKLVIAYEPVWAIG.
+  TGKTAT...KEQAQEVHALIRAKVTELY..GQKAADHLRIQYGGSVKP.SNAAELFAMPD
+  IDGGLIGGASLN....ADDFMAIVEAAG........
+}
+{
+name TPIS_PORGI
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Porphyromonas gingivalis (Bacteroides gingivalis).Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+sequence
+  ......................MRKNIVAGNWKMN..KTLQEGLALAKELDAALKGRT..
+  ..INCDVIIGTPFIHLASIAAAID.......TTRIGVAAEN.CADKESGAYTGEVSAAMV
+  ASTGARYVIIGHSERRAY.............YHETSPILMEKVKLALSNGLTPIFCVGEV
+  LEEREAGKHFEVVARQVEEALFTLD................QTDFAKLILAYEPVWAIG.
+  TGKTAT...ADQAQEMHAHIRKSIAAKY..GKEVANGCSILYGGSCNA.ANAKELFSRAD
+  VDGGLIGGASLS....VDKFLPIIEAF.........
+}
+{
+name TPIS_LEPIN
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Leptospira interrogans.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+sequence
+  ......................MRKTIIAGNWKMN..LSLKEAVFLAHSIREKIPSIS..
+  ..KDKVSMVFPSTLHLENVSKILE.......GSSVIVGAQN.CYHSGLAAFTGETSPDQL
+  KEIGVKVVMVGHSERRQF.............LGESNFFCNDKIRFLLKNEFTVLYCVGET
+  LSERESGKTLEVLSSQIREGLKGID................SVFFSNLILAYEPVWAIG.
+  TGKVAT...PSQAQEVHSFIRKEISGLFVGASSISESISILYGGSVKP.DNIQDLLKEKD
+  IDGGLVGGASQK....ISSFAELF............
+}
+{
+name TPIS_STRAW
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Streptomyces avermitilis.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE        101    101  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        173    173  ACT_SITE_By similarity
+sequence
+  ....................MTSRMPLMAGNWKMN..LNHLEAIAHVQKLAFALADKDY.
+  ..EACEVAVLPPYTDLRSVQTLVDG.....DKLKIKYGAQD.VSAHDSGAYTGEISGSML
+  AKLKCTYVAVGHSERRQY.............HHETDEIVNAKVKASFRHGLIPILCVGEE
+  LEVREAGNHVTHTLTQVEGGLKDVP................AEQAETIVIAYEPVWAIG.
+  TGKVCG...ADDAQEVCAAIRAKLAELY..SQELADQVRIQYGGSVKS.GNVAEIMAKPD
+  IDGALVGGASLD....ADEFVKIARFRDQ.......
+}
+{
+name TPIS_BIFLO
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Bifidobacterium longum.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE        104    104  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        176    176  ACT_SITE_By similarity
+sequence
+  ...................MASKRIPLVAGNWKMN..FDHLEATYFVQKLVWLLRDAHF.
+  DFKRCEVALFPSFTSLRSVQVLVEA.....DKLHVAYGAQS.VSVTTQGAFTGDVSADMI
+  AHLGCSYVIVGHSERRKY.............HPEDDANIVDQVRAVLAAGMQPILCVGES
+  FEERRQGIELDFAVGQVRDVTRDLN................EEQAAKLIVAYEPVWAIG.
+  TGMVAT...PQSAQDAANAIRNDLKTTF..GTKVSDSVRILYGGSVTS.KNAAELISQPD
+  VDGFLIGGAALD....VEELAKIARLALKSTKSRN.
+}
+{
+name TPIS_AQUAE
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Aquifex aeolicus.Bacteria;
+type    PROTEIN
+group 1
+feature 23 326 0 square solid PFAM-A
+  FT   PFAM-A        1    246  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         94     94  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        165    165  ACT_SITE_By similarity
+sequence
+  ......................MRR.LIAANWKMN..KTVKETEEYINTFLKFVEHP...
+  ..ESREILICPPFTSLYVAGKMLQ.......GTGVKLGAQN.CHYEKRGAFTGEISIPML
+  QEVGCEYVIVGHSERRHI.............FGESDELIHKKIVACLEMGIRPILCVGEK
+  KEEREAGMTFKVIETQIKLALTGVE.................EHTDKIDIAYEPVWAIG.
+  TGTPAT...PEDAVEVHTFIRNLINQLN...PKNEGKTRILYGGSVNP.QNAKEFMKHEE
+  INGLLVGTASLD....PESFAKIVYSF.........
+}
+{
+name TPIS_SYNY3
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 24 327 0 square solid PFAM-A
+  FT   PFAM-A        2    241  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        165    165  ACT_SITE_By similarity
+sequence
+  ......................MRKIIIAGNWKMH..KTQAEAQAFLQGFKPLIEDAA..
+  ..ESREVVLCVPFTDLSGMSQQLH.......GGRVRLGAQN.VHWEASGAYTGEISAAML
+  TEIGIHYVVIGHSERRQY.............FGETDETANLRVLAAQKAGLIPILCVGES
+  KAQRDAGETEQVIVDQVKKGLVNVD...................QSNLVIAYEPIWAIG.
+  TGDTCA...ATEANRVIGLIREQLTN.........SQVTIQYGGSVNA.NNVDEIMAQPE
+  IDGALVGGASLE....PQSFARIVNFQP........
+}
+{
+name TPIS_ANASP
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Anabaena sp. (strain PCC 7120).Bacteria;
+type    PROTEIN
+group 1
+feature 24 327 0 square solid PFAM-A
+  FT   PFAM-A        2    241  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        165    165  ACT_SITE_By similarity
+sequence
+  ......................MRKIVIAGNWKMF..KTQAESQEFLKEFLPALEETP..
+  ..QEREVLLCVPFTDLAILSQSLH.......GSLVQLGAQN.VHWAENGAYTGEISGPML
+  TEIGVRYVIVGHSERRQF.............FGETDETVNLRLQAAQKYGLTPILCVGET
+  KQQRDSGETESLIVSQLDKDLINVD...................QTNLVIAYEPIWAIG.
+  TGDTCE...TTEANRVIGLIRSQLKN.........SDVPIQYGGSVKP.NNIDEIMAQPE
+  IDGVLVGGASLE....AASFARIVNYL.........
+}
+{
+name TPIS_SYNEL
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Synechococcus elongatus (Thermosynechococcus elongatus).Bact
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE        118    118  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        187    187  ACT_SITE_By similarity
+sequence
+  MIRDNPCGTLDQVKFRRGKSRGVRPKVLAGNWKMH..KTQQEAVAFLQEFLGELVDTP..
+  ..SDREVVLCVPYTCLSVLSKSLH.......GTRVKLGAQN.VHWADQGAFTGEISPPML
+  VELGVRYVIIGHSERRQY.............FGETDATVNQRLRAAQSHGLTPILCVGET
+  KAQRAAGETENHIFQQLALDLVDVD...................QTNLVIAYEPIWAIG.
+  TGDTCE...ETEANRVIGLIRSQLHN.........PDVPIQYGGSVNA.NNIDAIMAQPE
+  IDGVLVGGASLQ....PQSFGRIVNYKPL.......
+}
+{
+name TPIS_GLOVI
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Gloeobacter violaceus.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         94     94  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        163    163  ACT_SITE_By similarity
+sequence
+  ......................MRRKVLAGNWKMY..KTRGEARAFLEAFVPLISPGA..
+  ..ENREVILCGPFTCLDLLSAQAG.........PYAVGAQN.VHWADHGAYTGEIAPQML
+  VELGVHYVIVGHSERREY.............FNETDSTVNRRLNNAQDHDLVPILCVGET
+  ESVRKDGITEAHIRSQLDRDLELVD...................MRRLIIAYEPIWAIG.
+  TGKTCE...ANEANRVCAMIRKHVN.........FEGVPILYGGSVKP.ENIDELMAQSD
+  IDGVLVGGASLE....AKSFARIVNFEV........
+}
+{
+name TPIS_SYNPX
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Synechococcus sp. (strain WH8102).Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        165    165  ACT_SITE_By similarity
+sequence
+  ......................MRRPVIAGNWKMH..MTCAQARDYMAAFLPQIERAP..
+  ..QDREIVLAPPFTALSTMAAAAE.......HSVVGLASQN.VHWQDHGAFTAEISAEML
+  LEHGVAYTIVGHSEPRKY.............FSESDEQINHRARCSQAKGLIPIVCVGES
+  DEQRERGEAERVIRRQIEQGLEGLD...................ANKLVVAYEPIWAIG.
+  TGKTCE...AAEANRICGLIRSWVG.........ATDLIIQYGGSVKP.TNIDELMAMSD
+  IDGVLVGGASLK....PDSFARIANYQAI.......
+}
+{
+name TPIS_PROMA
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Prochlorococcus marinus.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        165    165  ACT_SITE_By similarity
+sequence
+  ......................MRKTVIAGNWKMH..MTCSSAKEYIDKFIPFSKEFP..
+  ..SDRHVVIAPPFTAISTLASLLQ.......GTNIQLSSQN.VHWEDTGAFTAEISPSML
+  LEHDVRYAIVGHSEPRKY.............FSESDEQINLRARSAQSNGLIPIVCVGES
+  IEQRERGEAERVIRRQVEQGLEQTD...................LTKLVIAYEPIWAIG.
+  TGKTCE...SNEANRICGLIREWAG.........FSDLIIQYGGSVKP.ANIDEIMSMSD
+  IDGVLVGGASLD....PENFARIANYQSI.......
+}
+{
+name TPIS_PROMP
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Prochlorococcus marinus subsp. pastoris (strain CCMP 1378 / 
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        165    165  ACT_SITE_By similarity
+sequence
+  ......................MRKSVIAGNWKMH..MTCADTKKYLEEFLPLIEEIP..
+  ..NDRKIVIAPPFTAISTFSNYTN.......FDYLNIASQN.IHWEDKGAFTAEISPNML
+  IEHKVKYAIVGHSEPRKY.............FSESDEQINKRAVFAQSSGLTPIVCVGET
+  LEQRERGEADRVITRQVEQGLENTD...................PSNLIVAYEPIWAIG.
+  TGKTCE...ASDANKICALIRSLIG.........FSDVIIQYGGSVKP.NNIDEIMSMSD
+  IDGVLVGGSSLD....PISFSRIANFE.........
+}
+{
+name TPIS_MYCPU
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Mycoplasma pulmonis.Bacteria;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A        2    246  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE        101    101  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        170    170  ACT_SITE_By similarity
+sequence
+  ......................MKKLLIIGNWKMN..KTYDEARDFINAFSNAYALNGAK
+  ISENIEYGIAPSFTNMSLFNKELLE......KTNINLVAQN.INENRSGAFTGEISAQML
+  KSINAKYVIVGHSERRQN.............YRETNKIVNQKAKAAIENGLIPIICVGES
+  LEEYEAGKTKAVIKKQIKQSLEALD...................LSKIVVAYEPIWAIG.
+  TGKVAT...AEVAQQICKFIRSITS..........KDLIIQYGGSVSP.SNIENLMKQED
+  IDGALVGGASLE....VDSFFELITFNALK......
+}
+{
+name TPIS_MYCHR
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Mycoplasma hyorhinis.Bacteria;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A        2    243  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         98     98  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        167    167  ACT_SITE_By similarity
+sequence
+  ......................MSKTIIIGNWKMN..KTFTQTKEFFSAFNQLYIENKNK
+  INQNLDFAVALPAINVAAFSKNTT.........KLELAVQN.MSQFEKGAYTGEISAQML
+  LDLNVKYAIIGHSERRQY.............FKETDLDVNAKTQQAIKNNIIPVVCVGET
+  LEEYEAQKTSQVIEYQLKNSLKDVD...................LSKVIVAYEPIWAIG.
+  TGKTAT...PEQAQQVCKFIRKQTN..........KNLTILYGGSVSQ.ENIEQLLNQAD
+  INGALVGGASLK....VDSFIKLLTLNK........
+}
+{
+name TPIS_MYCFL
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Mycoplasma flocculare.Bacteria;
+type    PROTEIN
+group 1
+feature 24 326 0 square solid PFAM-A
+  FT   PFAM-A        1    241  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         98     98  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        167    167  ACT_SITE_By similarity
+sequence
+  .......................MKKIIIGNWKMN..KTVHETRDFIQKFDIFYSKNLGK
+  IKDNLDFAIAPSFTSLALISTSKI........DKLKVAAQN.LSQFDSGAFTGEISAKML
+  QDLAVHYVIIGHSERREI.............FKEIGEDLTNKILQAQKYNLIPVFCVGES
+  LSEFEANETEKVIIGQINEVKSVLN...................FEKAIIAYEPIWAIG.
+  TGKTAT...AQIAEQVCKLIKNNFG..........KNIRVIYGGSVNS.KNINELLLQKN
+  IDGALVGKASLD....PEEFVKILANI.........
+}
+{
+name TPI1_RHILO
+descrip Triosephosphate isomerase 1 (EC 5.3.1.1) (TIM 1) (Triose-pho
+creator Rhizobium loti (Mesorhizobium loti).Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         99     99  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  ...................MTPGIRPLVAGNWKMN..GTSASLNELRMIGNGFMSGLD..
+  ..AETEALVCVPATLLSHAAEILS.......RTPVHAGGED.CHTKESGAYTGCISAEML
+  KDAGASHVIVGHSECREQ.............RGEDDATVQAKAAAAWRAGLVAIICIGET
+  QQQREAGATLEVLSRQVAGSVPPSA..................TPSNTVIAYEPVWAIG.
+  TGLTPT...AADVAEAHAHIRERLSEKL...GASAAKTRILYGGSVKP.SNAVELLGVRN
+  VDGALVGGASLK....AADFLGIAEAYRSISG....
+}
+{
+name TPI1_RHIME
+descrip Triosephosphate isomerase 1 (EC 5.3.1.1) (TIM 1) (Triose-pho
+creator Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         99     99  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  ...................MTPDIRPLVAGNWKMN..GTRASLDQIKAMAEGVKGDLS..
+  ..ARVDALICPPATLLYVATALCD.......DSPLMIGAQD.CHQKQSGAHTGEVSAEMV
+  ADCFGTHVIVGHSERRTD.............HGEGDALVRAKTEAAHGADLVAIVCVGET
+  EEERKAGRTLDILKRQLSESLPDQA..................TAENTVIAYEPVWAIG.
+  TGLTPT...VSDVEEAHAFMRRELVSRF...GAEGGKMRILYGGSVKP.SNAKELMGVAN
+  VDGALIGGASLK....ADDFLAIYRAYEELTA....
+}
+{
+name TPIS_BARHE
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Bartonella henselae (Rochalimaea henselae).Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         99     99  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  ...................MSPNIRPFIAGNWKMN..GTGESLGELRAIAAGISSDLG..
+  ..RLFEALICVPATLLSRAFDILG.......GENILLGGQN.CHFDDYGPYTGDISAFML
+  KEAGASHVIIGHSERRTV.............YQESDAIVRAKVQAAWRAGLVALICVGET
+  LEERKSNKVLDVLTRQLEGSLPDGA..................TAENIIIAYEPVWAVG.
+  TGNTAT...SADVAEVHAFIHHKMHSRF...GDEGAKIRLLYGGSVKP.SNAFELLSTAH
+  VNGALIGGASLK....AIDFLTICDVYRKL......
+}
+{
+name TPIS_CHLTR
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Chlamydia trachomatis.Bacteria;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A       24    272  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE        118    118  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        188    188  ACT_SITE_By similarity
+sequence
+  MFTDKETHRKPFPTWAHLLHSEPSKQFVFGNWKMN..KTLTEAQTFLKSFISSDILSN..
+  ..PQIITGIIPPFTLLSACQQAVS.......DSPIFLGAQT.THEADSGAFTGEISAPML
+  KDIGVDFVLIGHSERRHI.............FHEQNPVLAEKAAAAIHSGMIPVLCIGET
+  LEEQESGATQDILLNQLTTGLSKLP..................EQASFILAYEPVWAIG.
+  TGKVAH...PDLVQETHAFCRKTIASLF..SKDIAERTPILYGGSVKA.DNARSLSLCPD
+  VNGLLVGGASLS....SENFLSIIQQIDIP......
+}
+{
+name TPIS_CHLMU
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Chlamydia muridarum.Bacteria;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A       20    268  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE        114    114  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        184    184  ACT_SITE_By similarity
+sequence
+  ....MLTDKKSSPTWSSLLPSETSQYFVFGNWKMN..KTFSEAQTFLKDFVSCEILSN..
+  ..PKIITGIIPPFTLLSSCQQIIKN.......TPIRLGAQT.LHEVDSGAFTGEISAPML
+  KDIGVDFVLIGHSERRHI.............FHEQNHSLAEKLLAAIRNGIVPVLCIGET
+  LEEQEAGATQDILLEQLTVGLSRLP..................EHAPFILAYEPVWAIG.
+  TGKVAN...PDLVQEIHAFCRNVVKDLI..SKDAAERTPILYGGSVKA.DNTRALTLCPD
+  VNGLLVGGASLS....VESFLAIIQQIAVS......
+}
+{
+name TPIS_CHLPN
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A        3    253  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         99     99  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  .....................MTRQSYVLGNWKMH..KTIQEAKEYVQTLASLLQGEP..
+  ..LSCTIGIASPFTSLRAIHEMINTT.....GAFLWLGAQN.VHPELSGAFTGEISLPML
+  KEVGVEFVLVGHSERRHI.............FGESDAFIASKVKSVAQAGLVPVLCVGES
+  LEVREEGKAHQVIKKQLLLGLEQMD..................NGSEFLIAYEPVWAIG.
+  TGKVAE...ASDVQDIHMFCREVVAERF..SEATAEEISILYGGSVKV.DNAQRFGQCSD
+  VDGLLVGGASLE....GQSFFEVAKNFNV.......
+}
+{
+name TPIS_MYCPN
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Mycoplasma pneumoniae.Bacteria;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A        2    244  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         93     93  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        160    160  ACT_SITE_By similarity
+sequence
+  ......................MRTKYLIGNWKTN..KDLHQALAFVEQFKQHPAKT...
+  ...KAVLGIAPVHVHLTEVNKVLP........NNLLLLAQD.ANFIASGSYTGTVSYTQL
+  QDIKVNSVIIGHSERRKY.............FNETAQVINQKLKACLQAGMLVVLCIGET
+  E.....GQPISFLKEDLTQVLQGID................LSLLKQLVIAYEPIWAIG.
+  TGKTAT...PEIANNTIAQIRVYLSELY..NKEIAQQTSILYGGSVAK.DNIKELAQTEQ
+  IDGFLVGKASLD....VNDFLVMAQVYA........
+}
+{
+name TPIS_MYCPE
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Mycoplasma penetrans.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         93     93  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        165    165  ACT_SITE_By similarity
+sequence
+  .......................MKKLIIANWKMF..KTLNDIKTFKEEFDKNIKNVK..
+  ..VNADYSVGVPSIYLNQAKEILK.........GIKVIAQD.AHFKNEGAYTGNISWSQL
+  KDCGIDGSIIGHSERRQM.............FNETDETVNLKTISLVENNMQAVVCVGET
+  LEEYEANKSFDVVWNQTKKALANVS................EAQLKNVVIAYEPVWAIG.
+  TGKVPT...GKEVDDLIQKVRDELSKLY..SKQAVESLVVLYGGSVND.KNAEEFFKQKN
+  INGALVGSFCLK....AENFVKLIELGGN.......
+}
+{
+name TPIS_NEIMA
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Neisseria meningitidis (serogroup A).Bacteria;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A        3    249  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         99     99  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        167    167  ACT_SITE_By similarity
+sequence
+  .....................MWDQKWVIGNWKMN..GRLQNNNSLMHRFRILPTAER..
+  ....VLIGLAAPTVYLLQLHNAMQIV....LNNRILTCAQDVSRFPDNGAYTGEVSAEML
+  ADTGTDIVLIGHSERSLY.............FGEKNEIQRRKMENVLNVGLIPLLCVGES
+  LEEREAGKEHEVIAHQL.SILQGLD...................TKNIAVAYEPVWAIG.
+  TGKVAT...VEQIADMHAFIYKEILSLC....GSDVKIRVLYGGSVKA.DNAADIFAVPY
+  VDGALVGGASLS....YDSFTAIISAAQNA......
+}
+{
+name TPIS_BUCAI
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A        2    251  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+sequence
+  ......................MKKFFITANWKLN..GNIKMISSFFKYLKLYSSSYL..
+  ..EKNTVIIAPPTIYLERVCKNIS.......NMNIFLGSQN.VDINLNGAFTGETSILML
+  RDIGVKYVIIGHSERRFL.............HHETDDIIAKKFHLIKKSNLTPILCVGET
+  EIEKKHNQTEQVIQRQLNLILKNLG................TSAFKNIIIAYEPIWAIG.
+  TGVSAD...PEHVQLIHVFIKNYILKYS...SINRNDIIIQYGGSINH.TNVKKFIEQPD
+  INGLLIGNSSLS....AKEFLEIIKIAHEHYS....
+}
+{
+name TPIS_BUCAP
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Buchnera aphidicola (subsp. Schizaphis graminum).Bacteria;
+type    PROTEIN
+group 1
+feature 24 328 0 square solid PFAM-A
+  FT   PFAM-A        2    251  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+sequence
+  ......................MKKKIIAANWKLN..GSIKTISYFLTFLKSQISSFL..
+  ..KNNIIIIAPPTVFLERVYKDIN.......SINIHLAAQN.IDVNLTGAFTGENSALMM
+  KDIGVKYIIIGHSERRLL.............HNENNEIIAKKFCLVKNLNLVPILCIGET
+  EAEKKSNKTEKILKEQLNSIFNSFG................EKAFRNAVIAYEPIWSIG.
+  TGVSAD...PKNVQLIHKFIKNYIKKY...DIVSAENLIVQYGGSVTS.LNAGNFLKQPD
+  IDGLLIGSASLK....HEEFLKIIKISDSFL.....
+}
+{
+name TPIS_CANBF
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Candidatus Blochmannia floridanus.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         99     99  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        171    171  ACT_SITE_By similarity
+sequence
+  ......................MKNLSIIANWKLN..GNKNTITNSLINLTTQLTNIP..
+  ..QYIKIAIAPPILYIDMVKNHLTSYN....NKTIELCSQN.VDIHLSGAFTGDISASML
+  KDLSVKYVLIGHSERRIY.............HKENNSLIAQKFSIIKQTELIPILCIGEN
+  KEERDSGSTQSICIQQIDSIIKLVG................IKAFENTIIAYEPVWAIG.
+  SGSSAS...PRNVQSIHQFIRNYIAQY...DKTIANQISIQYGGSITT.DNVLEFITQKD
+  IDGVLVGSASLD....IRNLIKIINLSSNLIKKTYQ
+}
+{
+name TPIS_BUCBP
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;
+type    PROTEIN
+group 1
+feature 24 326 0 square solid PFAM-A
+  FT   PFAM-A        2    251  PF00121 TIM
+feature 132 132 0 square solid SITE
+  FT   SITE         98     98  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        170    170  ACT_SITE_By similarity
+sequence
+  ......................MKKKIIIANWKLN..GNIQLLQTLLKPLVNFYIRHKNK
+  ..SSIKLVIMPPYVYLYPMKSIIS.......HSSILLGSQN.VDINLIGAFTGEVSINML
+  KDVGVSYVLVGHSERRQY.............HRENDVIIAKKFKIVKDSHLIPVLCIGET
+  EHEYLSCKTEKICKFQIDAIFDLLG................PSGFNNSVIAYEPKWAIG.
+  TNTIPS...INFIQKILMFIQNYIFNKQ...NSTIKLFSLQYGGSVNE.HNIIELYDVKN
+  IDGFLVGSASLS....LDFFKKLLNNC.........
+}
+{
+name TPI2_RHIME
+descrip Triosephosphate isomerase 2 (EC 5.3.1.1) (TIM 2) (Triose-pho
+creator Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         98     98  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        171    171  ACT_SITE_By similarity
+sequence
+  ....................MSKSGLWVGTSWKMN..KTLAEAMVFADGLAAADDARD..
+  ..QRIQRFVIPPFTAARQVKERLK.......ATSVKVGAQN.MHWDDAGAWTGEISPVML
+  SDCDLDIVELGHSERREH.............FGETDRTVGLKTAAAVKHGLVPLICIGET
+  LAQREAGEADTVLKRQVEGAFAFLEG...............AARKAPVLLAYEPVWAIGV
+  NGIPAT...ADYADARHRLIGEVAER......ALGVKVPVLYGGSVNP.QNCEELILQPH
+  IDGLFIGRSAWD....VGGYLDILQRVARAI.....
+}
+{
+name TPI2_BRUME
+descrip Triosephosphate isomerase 2 (EC 5.3.1.1) (TIM 2) (Triose-pho
+creator Brucella melitensis.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  ......................MTKFWIGTSWKMN..KTLAEARLFAEALKAADAGRS..
+  ..PDIQRFVIPPFTAVREVKEILSG.......TSVKVGAQN.MHWADQGTWTGEISPLML
+  KDCNLDIVELGHSERREH.............FGETNETVGLKVEAAVRHGLIPLICIGET
+  LEDCESGRAAAVLEEEVRGALSKLS...............EAQKQAEILFAYEPVWAIGE
+  NGIPAS...ADYADARQAEIIAVAQS......VLARRVPCLYGGSVNP.GNCEELIACPH
+  IDGLFIGRSAWN....VEGYLDILARCATKVQAN..
+}
+{
+name TPI2_LISIN
+descrip Triosephosphate isomerase 2 (EC 5.3.1.1) (TIM 2) (Triose-pho
+creator Listeria innocua.Bacteria;
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+sequence
+  ......................MRKPLVGINMKNY.INTRAQTSEWLEATIPLLENFS..
+  ...DVDTFIFPSMGTLETTANLLAG.......TSFGFGPQN.MAPEKSGPLTGEFSVESI
+  IDLNANYVEIGHAERKNL.............FHEKTSEIAKKIKLALDEKITPVVCVGEE
+  VHANDTNELKNALKKQIEALFQTIN................LAQWENVVLAYEPEWAIGK
+  ASSAET....NYIESAHQALREIIRELG....GDETLVRIIYGGSVSK.ENAAEIVRQKN
+  VDGLFVGRFGHK....PQNFADIVSIVSKTKG....
+}
+{
+name TPIS_UREPA
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Ureaplasma parvum (Ureaplasma urealyticum biotype 1).Bacteri
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE         91     91  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        158    158  ACT_SITE_By similarity
+sequence
+  ........................MKYIIANFKMN..ATQELINHFLNNLTLFDEQK...
+  ....IIIGLAPGDLYLKTFVNLAEI.......KKVNLYAQN.PSLHNKGPYTGQISCLQL
+  LDINIKNALVGHSEIR...............IDFSQSIIDQKIKISMDLLEQVIICVGET
+  FDAYKQNKSLNFVLNQLANIINYKG...................LKKIIIAYEPIWAIG.
+  TDLELD...FKHINYMIEGIKTYLYN......CTGINIPILYGGSVND.NNINELCNQKL
+  IDGFLIGNASLD....VNVFNKIIDKCK........
+}
+{
+name TPIS_TROW8
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Tropheryma whipplei (strain TW08/27) (Whipple's bacillus).Ba
+type    PROTEIN
+group 1
+feature 132 132 0 square solid SITE
+  FT   SITE        117    117  ACT_SITE_By similarity
+feature 233 233 0 square solid SITE
+  FT   SITE        218    218  ACT_SITE_By similarity
+sequence
+  ......MLPKRAYPVQDSNVHSQEKKIIAGNWKMN..INHSQAVSYLQELNWRLIDNGHD
+  .FDACEIAVFPPFTDLRSVQTLVAS.....DDIQISYGAQD.VSAFSDGAHTGQISAQFL
+  KDLDCKYVLIGHSEQRCLPCYPGNNSAINELNNKHDGLIANKLLRSFAAGICPILCIGDI
+  SPGDHFDATLSRFRSVLSHLKAISDKKHSIGYALGSKTHFLDSDQLHMLVAYEPSSAIN.
+  SGNCAN...SGDIVRMAAAIKDIVN............VRVLYGGGVNL.FNASAVFNEDL
+  LDGILVGRASLN....ASDFASLIKTCCL.......
+}
+{
+name 1hg3_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ....................AKLKEPIIAINFKTYIEATGKRALEIAKAAEKVYKET...
+  ...GVTIVVAPQLVDLRMIAESV..........EIPVFAQH.IDPIKPGSHTGHVLPEAV
+  KEAGAVGTLLNHSENRMI.................LADLEAAIRRAEEVGLMTMVCSNN.
+  ..........PAVSAAVAALN.........................PDYVAVEPPELIG.
+  TGIPVSKAKPEVITNTVELVKKVN...........PEVKVLCGAGISTGEDVKKAIELG.
+  TVGVLLASGVTKAKDPEKAIWDLVSGI.........
+}

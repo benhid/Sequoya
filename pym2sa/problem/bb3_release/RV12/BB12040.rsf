@@ -1,0 +1,121 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1hrb_
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  .GFPIPDPYVWDPSFRTFYSIIDDEHKTLFNGIFHLAIDDN...........ADNLGELR
+  RCTGKHFLNQEVLMEASQYQFYDEHKKEHDGFINALDNWKG.............DVKWAK
+  AWLVNHIKTIDFKYKGKI..........................
+}
+{
+name HEML_NAEFO
+descrip Hemerythrin-like protein.
+creator Naegleria fowleri.Eukaryota;
+type    PROTEIN
+group 1
+feature 2 137 0 square solid PFAM-A
+  FT   PFAM-A        2    118  PF01814 Hemerythrin
+feature 26 26 1 square solid SITE
+  FT   SITE         26     26  METAL_Iron 1 By similarity
+feature 66 66 1 square solid SITE
+  FT   SITE         56     56  METAL_Iron 1 By similarity
+feature 70 70 1 square solid SITE
+  FT   SITE         60     60  METAL_Iron 1 and 2 By similarity
+feature 85 85 1 square solid SITE
+  FT   SITE         75     75  METAL_Iron 2 By similarity
+feature 89 89 1 square solid SITE
+  FT   SITE         79     79  METAL_Iron 2 By similarity
+feature 126 126 1 square solid SITE
+  FT   SITE        107    107  METAL_Iron 2 By similarity
+feature 131 131 1 square solid SITE
+  FT   SITE        112    112  METAL_Iron 1 and 2 By similarity
+sequence
+  MATTIPSPFNWDSSFCVGNNELNEQHKKLFALINALDANRSS..........ASALKELL
+  DFVVMHFKAEEDLFAKVNFSDSTSHKETHDKFVQDALGLKT.VG........DAEIQFIK
+  QWLVNHIKGSDMKYKGVL..........................
+}
+{
+name HEMT_METJA
+descrip Hemerythrin-like protein MJ0747.
+creator Methanococcus jannaschii.Archaea;
+type    PROTEIN
+group 1
+feature 7 137 0 square solid PFAM-A
+  FT   PFAM-A        4    131  PF01814 Hemerythrin
+feature 26 26 1 square solid SITE
+  FT   SITE         23     23  METAL_Iron 1 By similarity
+feature 66 66 1 square solid SITE
+  FT   SITE         60     60  METAL_Iron 1 By similarity
+feature 70 70 1 square solid SITE
+  FT   SITE         64     64  METAL_Iron 1 and 2 By similarity
+feature 85 85 1 square solid SITE
+  FT   SITE         79     79  METAL_Iron 2 By similarity
+feature 89 89 1 square solid SITE
+  FT   SITE         83     83  METAL_Iron 2 By similarity
+feature 126 126 1 square solid SITE
+  FT   SITE        120    120  METAL_Iron 2 By similarity
+feature 131 131 1 square solid SITE
+  FT   SITE        125    125  METAL_Iron 1 and 2 By similarity
+sequence
+  ...MKKEIIKWSKDFETGIKAFDDEHKILVKTLNDIYNLLNE...GKRDEAKELLKRRVV
+  NYAAKHFKHEEEVMEKYGYPDLERHRKTHEIFVKTVIEKLLPKIEEGSENDFRSALSFLV
+  GWLTMHIAKPDKKYGEWFKEKGIVIEDEAVKID...........
+}
+{
+name HEMT_CLOAB
+descrip Hemerythrin-like protein CAC0069.
+creator Clostridium acetobutylicum.Bacteria;
+type    PROTEIN
+group 1
+feature 9 127 0 square solid PFAM-A
+  FT   PFAM-A        2    120  PF01814 Hemerythrin
+feature 26 26 1 square solid SITE
+  FT   SITE         19     19  METAL_Iron 1 By similarity
+feature 66 66 1 square solid SITE
+  FT   SITE         59     59  METAL_Iron 1 By similarity
+feature 70 70 1 square solid SITE
+  FT   SITE         63     63  METAL_Iron 1 and 2 By similarity
+feature 85 85 1 square solid SITE
+  FT   SITE         78     78  METAL_Iron 2 By similarity
+feature 89 89 1 square solid SITE
+  FT   SITE         82     82  METAL_Iron 2 By similarity
+feature 126 126 1 square solid SITE
+  FT   SITE        119    119  METAL_Iron 2 By similarity
+feature 131 131 1 square solid SITE
+  FT   SITE        124    124  METAL_Iron 1 and 2 By similarity
+sequence
+  .......MFVWKDEFELGIDKIDNEHRKLFEIANKGYELLKNEFYVDKYDKIMDIIVELK
+  EYAEFHFSEEEDYLASIGYKKLFTHKLEHDSFIKKVESFNIKEIDYDQDKYIQEMLDFVV
+  TWIKEHILEKDREYID............................
+}
+{
+name HEMT_PSEAE
+descrip Hemerythrin-like protein PA1673.
+creator Pseudomonas aeruginosa.Bacteria;
+type    PROTEIN
+group 1
+feature 10 137 0 square solid PFAM-A
+  FT   PFAM-A        5    126  PF01814 Hemerythrin
+feature 26 26 1 square solid SITE
+  FT   SITE         21     21  METAL_Iron 1 By similarity
+feature 66 66 1 square solid SITE
+  FT   SITE         57     57  METAL_Iron 1 By similarity
+feature 70 70 1 square solid SITE
+  FT   SITE         61     61  METAL_Iron 1 and 2 By similarity
+feature 85 85 1 square solid SITE
+  FT   SITE         76     76  METAL_Iron 2 By similarity
+feature 89 89 1 square solid SITE
+  FT   SITE         80     80  METAL_Iron 2 By similarity
+feature 126 126 1 square solid SITE
+  FT   SITE        115    115  METAL_Iron 2 By similarity
+feature 131 131 1 square solid SITE
+  FT   SITE        120    120  METAL_Iron 1 and 2 By similarity
+sequence
+  .....MAHLVWQDDLNTGIQVIDNQHKRIVEMINHLHDAQQ....GKEHAAIAEVIEELV
+  DYTLSHFAFEETLMEDAGYQFSRAHKKIHELFIRRVSEYRVRFQAGEDVG..DELKGLLS
+  RWLFNHIRNDDAGYVDAVRHSMSELVKDKSEGGWLSRSMKRFFG
+}

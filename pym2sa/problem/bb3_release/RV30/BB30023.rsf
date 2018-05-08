@@ -1,0 +1,2272 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 2hsd_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 47 51 0 square solid STRUCT
+  FT   STRUCT        7     11  STRAND
+feature 61 72 3 square solid STRUCT
+  FT   STRUCT       16     27  HELIX
+feature 83 88 0 square solid STRUCT
+  FT   STRUCT       31     36  STRAND
+feature 93 102 3 square solid STRUCT
+  FT   STRUCT       39     48  HELIX
+feature 114 117 3 square solid STRUCT
+  FT   STRUCT       50     53  HELIX
+feature 117 121 0 square solid STRUCT
+  FT   STRUCT       53     57  STRAND
+feature 127 141 3 square solid STRUCT
+  FT   STRUCT       63     77  HELIX
+feature 148 151 0 square solid STRUCT
+  FT   STRUCT       82     85  STRAND
+feature 170 172 3 square solid STRUCT
+  FT   STRUCT       95     97  HELIX
+feature 175 185 3 square solid STRUCT
+  FT   STRUCT      100    110  HELIX
+feature 187 202 3 square solid STRUCT
+  FT   STRUCT      112    127  HELIX
+feature 212 217 0 square solid STRUCT
+  FT   STRUCT      131    136  STRAND
+feature 220 222 3 square solid STRUCT
+  FT   STRUCT      139    141  HELIX
+feature 258 283 3 square solid STRUCT
+  FT   STRUCT      149    172  HELIX
+feature 285 292 0 square solid STRUCT
+  FT   STRUCT      174    181  STRAND
+feature 299 302 3 square solid STRUCT
+  FT   STRUCT      187    190  HELIX
+feature 354 365 3 square solid STRUCT
+  FT   STRUCT      212    223  HELIX
+feature 367 369 3 square solid STRUCT
+  FT   STRUCT      225    227  HELIX
+feature 377 380 0 square solid STRUCT
+  FT   STRUCT      234    237  STRAND
+feature 391 396 3 square solid STRUCT
+  FT   STRUCT      247    252  HELIX
+sequence
+  ........................................NDLSGKTVIITGGAR.....
+  GLGAEAARQAVAA.......GARVVLADVL..DEEGAATAREL..........GDAARYQ
+  HLDVTIEEDWQRVVAYAREEF..GSVDGLVNNAGIST.........GMFLETESVERFRK
+  VVEINLTGVFIGMKTVIPAMKDA......GGGSIVNISSAAGLMG...............
+  .............LALTSSYGASKWGVRGLSKLAAVELG..TDRIRVNSVHPGMTY.TPM
+  TAETG.............IRQGEGNYPNTPMG.................RVGEPGEIAGA
+  VVKLLSDTSS.YVTGAELAV.DGGWTTGPTVKYVMGQ.......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YQJQ_BACSU
+descrip Hypothetical oxidoreductase yqjQ (EC 1.-.-.-).
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 299 0 square solid PFAM-A
+  FT   PFAM-A        5    188  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         11     35  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        152    152  ACT_SITE_By similarity
+sequence
+  .......................................MKHIAGKRIWITGASG.....
+  GLGERIAYLCAAE.......GAHVLLSARR..EDRLIEIKRKITEEW......SGQCEIF
+  PLDVGR....LEDIARVRDQI..GSIDVLINNAGFG.........IFETVLDSTLDDMKA
+  MFDVNVFGLIACTKAVLPQMLEQ......KKGHIINIASQAGKIA...............
+  .............TPKSSLYSATKHAVLGYSNALRMELS..GTGIYVTTVNPGPIQ.TDF
+  FSIADKG................GDYAKNVGR.................WMLDPDDVAAQ
+  ITAAIFTKKREINLPRLMNA.GTKLYQLFPALVEKLAGRALMKK................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YOXD_BACSU
+descrip Hypothetical oxidoreductase yoxD (EC 1.-.-.-).
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        5    238  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         10     34  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        155    155  ACT_SITE_By similarity
+sequence
+  .......................................MQSLQHKTALITGGGR.....
+  GIGRATALALAKE.......GVNIGLIGRT..SANVEKVAEEVKAL.......GVKAAFA
+  AADVKDADQVNQAVAQVKEQL..GDIDILINNAGISK.........FGGFLDLSADEWEN
+  IIQVNLMGVYHVTRAVLPEMIER......KAGDIINISSTAGQRG...............
+  .............AAVTSAYSASKFAVLGLTESLMQEVR..KHNIRVSALTPSTVA.SDM
+  SIELN...................LTDGNPE..................KVMQPEDLAEY
+  MVAQLKLDPR.IFIKTAGLW.STNP...................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name Y432_LISMO
+descrip Hypothetical oxidoreductase Lmo0432 (EC 1.-.-.-) (ORFA).
+creator Listeria monocytogenes.Bacteria;
+type    PROTEIN
+group 1
+feature 44 384 0 square solid PFAM-A
+  FT   PFAM-A        4    245  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE          9     33  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        154    154  ACT_SITE_By similarity
+sequence
+  ........................................MTIKNKVIIITGASS.....
+  GIGKATALLLAEK.......GAKLVLAARR..VEKLEKIVQTIKAN.......SGEAIFA
+  KTDVTKREDNKKLVELAIERY..GKVDAIFLNAGIMP.........NSPLSALKEDEWEQ
+  MIDINIKGVLNGIAAVLPSFIAQ......KSGHIIATSSVAGLKA...............
+  .............YPGGAVYGATKWAVRDLMEVLRMESAQEGTNIRTVTIYPAAIN.TEL
+  LETITDK............ETEQGMTSLYKQY..................GITPDRIASI
+  VAYAIDQPED.VNVNEFTVG.PTSQPW.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YM71_YEAST
+descrip Hypothetical oxidoreductase in MRPL44-MTF1 intergenic region
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       12    258  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         17     44  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+sequence
+  ................................MSQGRKAAERLAKKTVLITGASA.....
+  GIGKATALEYLEASNG....DMKLILAARR..LEKLEELKKTIDQEFP.....NAKVHVA
+  QLDITQAEKIKPFIENLPQEF..KDIDILVNNAGKALG........SDRVGQIATEDIQD
+  VFDTNVTALINITQAVLPIFQAK......NSGDIVNLGSIAGRDA...............
+  .............YPTGSIYCASKFAVGAFTDSLRKELI..NTKIRVILIAPGLVE.TEF
+  SLVRYRG.............NEEQAKNVYKDT.................TPLMADDVADL
+  IVYATSRKQN.TVIADTLIF.PTNQASPHHIFRG..........................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name Y945_MYCTU
+descrip Putative oxidoreductase Rv0945/MT0971 (EC 1.-.-.-).
+creator Mycobacterium tuberculosis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 328 0 square solid PFAM-A
+  FT   PFAM-A        6    212  PF00106 adh_short
+feature 329 390 0 square solid PFAM-B
+  FT   PFAM-B      213    253  PB065055 Pfam-B_65055
+feature 260 260 0 square solid SITE
+  FT   SITE        159    159  ACT_SITE_By similarity
+sequence
+  ......................................MLTGVTRQKILITGASS.....
+  GLGAGMARSFAAQ.......GRDLALCARR..TDRLTELKAELSQRYP.....DIKIAVA
+  ELDVNDHERVPKVFAELSDEI..GGIDRVIVNAGIGK.........GARLGSGKLWANKA
+  TIETNLVAALVQIETALDMFNQR......GSGHLVLISSVLGVKG...............
+  ............VPGVKAAYAASKAGVRSLGESLRAEYA..QRPIRVTVLEPGYIE.SEM
+  TAKSAS............TMLMVDNATGVKAL.................VAAIEREPGRA
+  AVPWWPWAP...LVRLMWVL.PPRLTRRFA..............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YDFG_ECOLI
+descrip Probable oxidoreductase ydfG (EC 1.-.-.-).
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 47 391 0 square solid PFAM-A
+  FT   PFAM-A        2    244  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE          4     28  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        147    147  ACT_SITE_By similarity
+sequence
+  .............................................MIVLVTGATA.....
+  GFGECITRRFIQQ.......GHKVIATGRR..QERLQELKDELG..........DNLYIA
+  QLDVRNRAAIEEMLASLPAEW..CNIDILVNNAGLALG........MEPAHKASVEDWET
+  MIDTNNKGLVYMTRAVLPGMVER......NHGHIINIGSTAGSWP...............
+  .............YAGGNVYGATKAFVRQFSLNLRTDLH..GTAVRVTDIEPGLVGGTEF
+  SNVRFKG.............DDGKAEKTYQNT.................VALTPEDVSEA
+  VWWVSTLPAH.VNINTLEMM.PVTQSYAGLNVHRQ.........................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name SDH_AGRT5
+descrip Serine 3-dehydrogenase (EC 1.1.1.276).
+creator Agrobacterium tumefaciens (strain C58 / ATCC 33970).Bacteria
+type    PROTEIN
+group 1
+feature 49 85 4 square solid SITE
+  FT   SITE          6     30  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        148    148  ACT_SITE_By similarity
+sequence
+  ...........................................MSGTILITGATS.....
+  GFGQATARRFVKE.......GWKVIGTGRR..AERLEALAAELG..........QAFHGI
+  AFDITDEDATEKALAALPDGF..RDIDILVNNAGLALG........TAPAPQVALKDWQT
+  MVDTNITGLLNITHHLLPTLIKQ.......KGIVVNLSSVAAHYP...............
+  .............YLGGNVYGGTKAFLRQFSLGLRSDLH..GKGVRVTSIEPGMCE.TEF
+  TLVRTGG.............NQEASDNLYKGV.................NPITADDIANT
+  IYWVASQPKH.ININSLELM.PVNQSFAGFQVYRES........................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name DHKR_STRCM
+descrip Monensin polyketide synthase putative ketoacyl reductase (EC
+creator Streptomyces cinnamonensis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        5    258  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         10     34  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        157    157  ACT_SITE_By similarity
+sequence
+  .......................................MTQSTSRVALVTGATS.....
+  GIGLATARLLAAQ.......GHLVFLGART..ESDVIATVKALRNDG.......LEAEGQ
+  VLDVRDGASVTAFVQAAVDRY..GRIDVLVNNAGRSG.........GGVTADLTDELWDD
+  VIDTNLNSVFRMTRAVLTTGGMRTR....ERGRIINVASTAGKQG...............
+  .............VVLGAPYSASKHGVVGFTKALGNELA..PTGITVNAVCPGYVE.TPM
+  AQRVRQGYAA..AYDTTEEAILTKFQAKIPLG.................RYSTPEEVAGL
+  IGYLASDTAA.SITSQALNV.CGGLGNF................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name 1cyd_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 47 51 0 square solid STRUCT
+  FT   STRUCT        7     11  STRAND
+feature 61 72 3 square solid STRUCT
+  FT   STRUCT       16     27  HELIX
+feature 83 88 0 square solid STRUCT
+  FT   STRUCT       31     36  STRAND
+feature 93 102 3 square solid STRUCT
+  FT   STRUCT       39     48  HELIX
+feature 118 121 0 square solid STRUCT
+  FT   STRUCT       53     56  STRAND
+feature 131 138 3 square solid STRUCT
+  FT   STRUCT       62     69  HELIX
+feature 148 151 0 square solid STRUCT
+  FT   STRUCT       77     80  STRAND
+feature 170 172 3 square solid STRUCT
+  FT   STRUCT       90     92  HELIX
+feature 175 185 3 square solid STRUCT
+  FT   STRUCT       95    105  HELIX
+feature 187 203 3 square solid STRUCT
+  FT   STRUCT      107    123  HELIX
+feature 212 217 0 square solid STRUCT
+  FT   STRUCT      127    132  STRAND
+feature 220 222 3 square solid STRUCT
+  FT   STRUCT      135    137  HELIX
+feature 258 283 3 square solid STRUCT
+  FT   STRUCT      145    168  HELIX
+feature 285 292 0 square solid STRUCT
+  FT   STRUCT      170    177  STRAND
+feature 299 304 3 square solid STRUCT
+  FT   STRUCT      183    188  HELIX
+feature 319 328 3 square solid STRUCT
+  FT   STRUCT      192    201  HELIX
+feature 354 365 3 square solid STRUCT
+  FT   STRUCT      210    221  HELIX
+feature 367 369 3 square solid STRUCT
+  FT   STRUCT      223    225  HELIX
+feature 377 380 0 square solid STRUCT
+  FT   STRUCT      232    235  STRAND
+feature 385 387 3 square solid STRUCT
+  FT   STRUCT      239    241  HELIX
+sequence
+  ........................................LNFSGLRALVTGAGK.....
+  GIGRDTVKALHAS.......GAKVVAVTRT..NSDLVSLAKECPG...........IEPV
+  CVDLGD....WDATEKALGGI..GPVDLLVNNAALV.........IMQPFLEVTKEAFDR
+  SFSVNLRSVFQVSQMVARDMINRG.....VPGSIVNVSSMVAHVT...............
+  .............FPNLITYSSTKGAMTMLTKAMAMELG..PHKIRVNSVNPTVVL.TDM
+  GKKVS...........ADPEFARKLKERHPLR.................KFAEVEDVVNS
+  ILFLLSDRSA.STSGGGILV.DAGYLAS................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name PHBB_RHIME
+descrip Acetoacetyl-CoA reductase (EC 1.1.1.36).
+creator Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        1    238  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE          7     31  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        147    147  ACT_SITE_By similarity
+sequence
+  ...........................................MSRVALVTGGSR.....
+  GIGAAICVALKAA.......GYKVAANYAG..NDERAKAFEQESG...........IPVY
+  KWDVSSYQACVDGIARVEADL..GPVDILVNNAGITR.........DAMFHKMTPEQWGE
+  VIGTNLTGVFNMTHPLWSGMRDR......GFGRIVNISSINGQKG...............
+  .............QMGQVNYSAAKAGDLGLTKALAQEGA..AKGITVNAICPGYIG.TEM
+  VRAVP............EKVLNERIIPQIPVG.................RLGEPEEVARC
+  VVFLASDDAG.FITGSTISA.NGGQYFA................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YOHF_ECOLI
+descrip Hypothetical oxidoreductase yohF (EC 1.-.-.-).
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        1    243  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE          6     30  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+sequence
+  ...........................................MAQVAIITASDS.....
+  GIGKECALLLAQQ.......GFDIGITWHS.DEEGAKDTAREVVSHG.......VRAEIV
+  QLDLGNLPEGALALEKLIQRL..GRIDVLVNNAGAMT.........KAPFLDMAFDEWRK
+  IFTVDVDGAFLCSQIAARQMVKQG.....QGGRIINITSVHEHTP...............
+  .............LPDASAYTAAKHALGGLTKAMALELV..RHKILVNAVAPGAIA.TPM
+  NGMDD.............SDVKPDAEPSIPLR.................RFGATHEIASL
+  VVWLCSEGAN.YTTGQSLIV.DGGFMLANPQFNPE.........................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name CBR2_CAEEL
+descrip Probable carbonyl reductase [NADPH] (EC 1.1.1.184) (NADPH-de
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 321 324 5 square solid DOMAIN
+  FT   DOMAIN      203    206  Poly-Lys.
+feature 60 385 0 square solid PFAM-A
+  FT   PFAM-A       19    248  PF00106 adh_short
+feature 52 89 4 square solid SITE
+  FT   SITE         11     41  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        156    156  ACT_SITE_By similarity
+sequence
+  .........................................MKTSDGVIVNHTSQFITFA
+  GIGKEICLSLAKA.......GAQVIAFARN..EANLLSLVKETTSLR.......YTIIPI
+  VGDVSAN..EEVLFKLIVPHF...PIHGLVNNAGIAT.........NHAIGQITQQSIDR
+  TFAVNVRGPILIAQLVARNFVDR.....QIKGSIVNISSQAAIRP...............
+  .............LDNHTVYCASKAALDMVTRCLANELG..SQNIRVNSVNPTVVM.TDM
+  GRDNWS...........DPDKKKKMLDRMPIK.................RFAEVDEVVNA
+  VLFLLSDNAS.MTTGSTLPV.DGGFSNN................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name 1o5i_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 47 51 0 square solid STRUCT
+  FT   STRUCT        6     10  STRAND
+feature 61 72 3 square solid STRUCT
+  FT   STRUCT       15     26  HELIX
+feature 83 88 0 square solid STRUCT
+  FT   STRUCT       30     35  STRAND
+feature 97 102 3 square solid STRUCT
+  FT   STRUCT       38     43  HELIX
+feature 118 121 0 square solid STRUCT
+  FT   STRUCT       47     50  STRAND
+feature 130 136 3 square solid STRUCT
+  FT   STRUCT       57     63  HELIX
+feature 148 151 0 square solid STRUCT
+  FT   STRUCT       69     72  STRAND
+feature 170 172 3 square solid STRUCT
+  FT   STRUCT       82     84  HELIX
+feature 175 185 3 square solid STRUCT
+  FT   STRUCT       87     97  HELIX
+feature 187 203 3 square solid STRUCT
+  FT   STRUCT       99    115  HELIX
+feature 212 217 0 square solid STRUCT
+  FT   STRUCT      118    123  STRAND
+feature 220 222 3 square solid STRUCT
+  FT   STRUCT      126    128  HELIX
+feature 258 283 3 square solid STRUCT
+  FT   STRUCT      136    159  HELIX
+feature 285 292 0 square solid STRUCT
+  FT   STRUCT      161    168  STRAND
+feature 301 304 3 square solid STRUCT
+  FT   STRUCT      176    179  HELIX
+feature 319 326 3 square solid STRUCT
+  FT   STRUCT      182    189  HELIX
+feature 354 365 3 square solid STRUCT
+  FT   STRUCT      200    211  HELIX
+feature 367 369 3 square solid STRUCT
+  FT   STRUCT      213    215  HELIX
+feature 377 380 0 square solid STRUCT
+  FT   STRUCT      222    225  STRAND
+sequence
+  .........................................GIRDKGVLVLAASR.....
+  GIGRAVADVLSQE.......GAEVTICARN......EELLKRSG............HRYV
+  VCDLRKD..LDLLFEKVK......EVDILVLNAGGPK.........AGFFDELTNEDFKE
+  AIDSLFLNMIKIVRNYLPAMKEK......GWGRIVAITSFSVISP...............
+  .............IENLYTSNSARMALTGFLKTLSFEVA..PYGITVNCVAPGWTE.TER
+  VKELL............SEEKKKQVESQIPMR.................RMAKPEEIASV
+  VAFLCSEKAS.YLTGQTIVV.DGGLSKFPL..............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name 1ae1_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 47 51 0 square solid STRUCT
+  FT   STRUCT        8     12  STRAND
+feature 61 72 3 square solid STRUCT
+  FT   STRUCT       17     28  HELIX
+feature 83 88 0 square solid STRUCT
+  FT   STRUCT       32     37  STRAND
+feature 93 105 3 square solid STRUCT
+  FT   STRUCT       40     52  HELIX
+feature 117 121 0 square solid STRUCT
+  FT   STRUCT       57     61  STRAND
+feature 127 140 3 square solid STRUCT
+  FT   STRUCT       67     80  HELIX
+feature 148 151 0 square solid STRUCT
+  FT   STRUCT       87     90  STRAND
+feature 175 185 3 square solid STRUCT
+  FT   STRUCT      105    115  HELIX
+feature 187 203 3 square solid STRUCT
+  FT   STRUCT      117    133  HELIX
+feature 212 217 0 square solid STRUCT
+  FT   STRUCT      136    141  STRAND
+feature 220 222 3 square solid STRUCT
+  FT   STRUCT      144    146  HELIX
+feature 258 283 3 square solid STRUCT
+  FT   STRUCT      154    177  HELIX
+feature 285 292 0 square solid STRUCT
+  FT   STRUCT      179    186  STRAND
+feature 319 328 3 square solid STRUCT
+  FT   STRUCT      192    201  HELIX
+feature 354 365 3 square solid STRUCT
+  FT   STRUCT      210    221  HELIX
+feature 367 369 3 square solid STRUCT
+  FT   STRUCT      223    225  HELIX
+feature 377 380 0 square solid STRUCT
+  FT   STRUCT      232    235  STRAND
+feature 385 387 3 square solid STRUCT
+  FT   STRUCT      239    241  HELIX
+sequence
+  .......................................RWSLKGTTALVTGGSK.....
+  GIGYAIVEELAGL.......GARVYTCSRN..EKELDECLEIWREKG.......LNVEGS
+  VCDLLSRTERDKLMQTVAHVF.DGKLNILVNNAGVVI.........HKEAKDFTEKDYNI
+  IMGTNFEAAYHLSQIAYPLLKAS......QNGNVIFLSSIAGFSA...............
+  .............LPSVSLYSASKGAINQMTKSLACEWA..KDNIRVNSVAPGVIL....
+  .................QKEEIDNFIVKTPMG.................RAGKPQEVSAL
+  IAFLCFPAAS.YITGQIIWA.DGGFTANGGF.............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name BDHA_ALCEU
+descrip D-beta-hydroxybutyrate dehydrogenase (EC 1.1.1.30) (BDH) (3-
+creator Alcaligenes eutrophus (Ralstonia eutropha).Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        3    255  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE          8     32  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+sequence
+  .........................................MLNGKTALVTGSTS.....
+  GIGLGIAKALAAQ.......GANIIVNGFG.DADAAKAEIAQAGQ.G.......IRVGYH
+  GADMSKAAEIEDMMRYAQSDF..GGADILVNNAGIQH.........VAAIEDFPPERWDA
+  IIAINLTSAFHTTRLALPGMKQK......DWGRIINVASTHGLVA...............
+  .............SAQKSAYVAAKHGIVGFTKVTALETA..QTGVTANAICPGWVL.TPL
+  VQKQVEARAQK.EGIPVEQAKRELVLEKQPSG.................QFVTPDELGAL
+  AVFQSSEAAR.QVRGAIWNM.DGGWVAQ................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name 1h5q_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 39 41 0 square solid STRUCT
+  FT   STRUCT        3      5  STRAND
+feature 46 51 0 square solid STRUCT
+  FT   STRUCT       10     15  STRAND
+feature 61 72 3 square solid STRUCT
+  FT   STRUCT       20     31  HELIX
+feature 82 88 0 square solid STRUCT
+  FT   STRUCT       34     40  STRAND
+feature 95 106 3 square solid STRUCT
+  FT   STRUCT       46     57  HELIX
+feature 117 121 0 square solid STRUCT
+  FT   STRUCT       61     65  STRAND
+feature 127 140 3 square solid STRUCT
+  FT   STRUCT       71     84  HELIX
+feature 146 151 0 square solid STRUCT
+  FT   STRUCT       88     93  STRAND
+feature 170 172 3 square solid STRUCT
+  FT   STRUCT      103    105  HELIX
+feature 175 185 3 square solid STRUCT
+  FT   STRUCT      108    118  HELIX
+feature 187 203 3 square solid STRUCT
+  FT   STRUCT      120    136  HELIX
+feature 212 217 0 square solid STRUCT
+  FT   STRUCT      140    145  STRAND
+feature 220 222 3 square solid STRUCT
+  FT   STRUCT      148    150  HELIX
+feature 227 229 0 square solid STRUCT
+  FT   STRUCT      155    157  STRAND
+feature 253 254 0 square solid STRUCT
+  FT   STRUCT      160    161  STRAND
+feature 258 283 3 square solid STRUCT
+  FT   STRUCT      165    188  HELIX
+feature 285 292 0 square solid STRUCT
+  FT   STRUCT      190    197  STRAND
+feature 299 303 3 square solid STRUCT
+  FT   STRUCT      203    207  HELIX
+feature 319 327 3 square solid STRUCT
+  FT   STRUCT      210    218  HELIX
+feature 354 365 3 square solid STRUCT
+  FT   STRUCT      228    239  HELIX
+feature 367 369 3 square solid STRUCT
+  FT   STRUCT      241    243  HELIX
+feature 377 380 0 square solid STRUCT
+  FT   STRUCT      250    253  STRAND
+feature 385 387 3 square solid STRUCT
+  FT   STRUCT      257    259  HELIX
+sequence
+  ....................................PGFTISFVNKTIIVTGGNR.....
+  GIGLAFTRAVAAA.......GANVAVIYRS.AADAVEVTEKVGKEFG.......VKTKAY
+  QCDVSNTDIVTKTIQQIDADL..GPISGLIANAGVSV.........VKPATELTHEDFAF
+  VYDVNVFGVFNTCRAVAKLWLQKQ.....QKGSIVVTSSMSSQIINQSSLN.........
+  ............GSLTQVFYNSSKAACSNLVKGLAAEWA..SAGIRVNALSPGYVN.TDQ
+  TAHMD.............KKIRDHQASNIPLN.................RFAQPEEMTGQ
+  AILLLSDHAT.YMTGGEYFI.DGGQLIW................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FABG_MYCAV
+descrip 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100) (3
+creator Mycobacterium avium.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       22    251  PF00106 adh_short
+feature 35 66 4 square solid SITE
+  FT   SITE         13     39  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        161    161  ACT_SITE_By similarity
+sequence
+  ......................MTDTATENTTESAADYGRPAFVSRSVLVTGGNR.....
+  GIGLAIAQRLAAE.......AHKVAVTHRG..........SGAPDGL..........FGV
+  ECDVTDNDAVDRAFTEVEEHQ..GPVEVLVSNAGISK.........DAFLIRMTEERFTE
+  VINANLTGAFRVTQRAARSMQKK......RFGRIIYIGSVSGMWG...............
+  .............IGNQANYAAAKAGLIGMARSISRELS..KAGVTANVVAPGYID.TEM
+  TRALD.............ERIQAGALEFIPAK.................RVGTAAEVPGA
+  VSFLASEDAS.YIAGAVIPV.DGGMGMGH...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FABG_ECOLI
+descrip 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100) (3
+creator Escherichia coli, andShigella flexneri.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        4    241  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         10     34  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        151    151  ACT_SITE_By similarity
+sequence
+  ........................................MNFEGKIALVTGASR.....
+  GIGRAIAETLAAR.......GAKVIGTATS..ENGAQAISDYLGANG..........KGL
+  MLNVTDPASIESVLEKIRAEF..GEVDILVNNAGITR.........DNLLMRMKDEEWND
+  IIETNLSSVFRLSKAVMRAMMKK......RHGRIITIGSVVGTMG...............
+  .............NGGQANYAAAKAGLIGFSKSLAREVA..SRGITVNVVAPGFIE.TDM
+  TRALS.............DDQRAGILAQVPAG.................RLGGAQEIANA
+  VAFLASDEAA.YITGETLHV.NGGMYMV................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FABG_VIBHA
+descrip 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100) (3
+creator Vibrio harveyi.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        4    241  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         10     34  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        151    151  ACT_SITE_By similarity
+sequence
+  ........................................MNLEGKIALVTGASR.....
+  GIGRAIAELLVER.......GATVIGTATS..EGGAAAISEYLGENG..........KGL
+  ALNVTDVESIEATLKTINDEC..GAIDILVNNAGITR.........DNLLMRMKDDEWND
+  IINTNLTPIYRMSKAVLRGMMKK......RAGRIINVGSVVGTMG...............
+  .............NAGQTNYAAAKAGVIGFTKSMAREVA..SRGVTVNTVAPGFIE.TDM
+  TKALN.............DDQRAATLSNVPAG.................RLGDPREIASA
+  VVFLASPEAA.YITGETLHV.NGGMYMV................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FABG_BUCAP
+descrip 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100) (3
+creator Buchnera aphidicola (subsp. Schizaphis graminum).Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        4    241  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         10     34  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        151    151  ACT_SITE_By similarity
+sequence
+  ........................................MKIEKKTALVTGANQ.....
+  GLGKEIAIKLSQK.......GIQVIGTSTT..VDGVKTINKYLKKNG..........FGF
+  ILDLKDTDSILEKMKEICQKK..YSIDILINNAGITS.........DNLLVYMSNKEWEN
+  VIKINLTSVFYMSKSVIRSMIKK......RYGRIVTIGSVIGYLG...............
+  .............NRGQINYSASKSGLIGFHKSLALEVA..QKGITVNIVSPGFIK.TNL
+  TKNLN.............VFQYKKHLSKIPMK.................RIGTAEEIANA
+  VIFLSSEKAS.YITGQTIHV.NGGMYMT................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FABG_BUCAI
+descrip 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100) (3
+creator Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        4    241  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         10     34  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        151    151  ACT_SITE_By similarity
+sequence
+  ........................................MNINRQTAFITGANQ.....
+  GIGKAIAKKLIKK.......GIQVIGTSTT..EDGVKRINDYLEGNG..........FGF
+  VLNLKNIDSITEKIQEIYKKK..HSIDILINNAGIKE.........DNLLVNMKSTEWDD
+  VIKTNLSSVFHLVKSVIRSMIKK......RQGRIITIGSVIAYTG...............
+  .............NKGQVNYSASKSGLIGFHKSLALEVA..SKGITVNIVSPGLIK.TNF
+  TEKLN.............SIQYQKYLSNIPMK.................RFGQKEEVADA
+  VIFLASKKAS.YITGHTLHV.NGGMYMI................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FABG_BUCBP
+descrip 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100) (3
+creator Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        4    242  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         10     35  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        152    152  ACT_SITE_By similarity
+sequence
+  ........................................MKTTKKIAVITGANR.....
+  GLGKGIAEELSNTN......NITVIGTSTS..QKGCKIINKYLKNNG..........IGI
+  KLDITNPNEITKTMDFVYKNF..GRVDILINNAGIIR.........DKLLINMKTQDWNS
+  VLNVNLNSIFYMSKSVIRNMIKN......KQGKIITIGSVIAHIG...............
+  .............NCGQTNYSAAKLGLVGFHKSLALELA..PKGITVNMIAPGLIK.TGM
+  TNNLS.............QKQLSKYLSKIPMK.................RLGTIKEISKI
+  TLFLISNDAN.YITGQVIHV.NGGMYMP................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FABG_RICPR
+descrip 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100) (3
+creator Rickettsia prowazekii.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        5    238  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         11     35  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        148    148  ACT_SITE_By similarity
+sequence
+  .......................................MIDLTGKTSLITGASS.....
+  GIGSAIARLLHKL.......GSKVIISGSN..EEKLKSLGNALKDNY..........TIE
+  VCNLANKEECSNLISKTSN......LDILVCNAGITS.........DTLAIRMKDQDFDK
+  VIDINLKANFILNREAIKKMIQK......RYGRIINISSIVGIAG...............
+  .............NPGQANYCASKAGLIGMTKSLSYEVA..TRGITVNAVAPGFIK.SDM
+  TDKLN.............EKQREAIVQKIPLG.................TYGIPEDVAYA
+  VAFLASNNAS.YITGQTLHV.NGGMLMV................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name PHAB_ACISP
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        3    245  PF00106 adh_short
+sequence
+  .........................................MSEQKVALVTGALG.....
+  GIGSEICRQLVTA.......GYKIIATVVPREEDREKQWLQSEGFQD.......SDVRFV
+  LTDLNNHEAATAAIQEAIAAE..GRVDVLVNNAGITR.........DATFKKMSYEQWSQ
+  VIDTNLKTLFTVTQPVFNKMLEQ......KSGRIVNISSVNGLKG...............
+  .............QFGQANYSASKAGIIGFTKALAQEGA..RSNICVNVVAPGYTA.TPM
+  VTAMR.............EDVIKSIEAQIPLQ.................RLAAPAEIAAA
+  VMYLVSEHGA.YVTGETLSI.NGGLYMH................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name DHB8_HUMAN
+descrip Estradiol 17-beta-dehydrogenase 8 (EC 1.1.1.62) (17-beta-HSD
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       10    259  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         15     39  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  ..................................MASQLQNRLRSALALVTGAGS.....
+  GIGRAVSVRLAGE.......GATVAACDLD..RAAAQETVRLLGGPGSKEGPPRGNHAAF
+  QADVSEARAARCLLEQVQACFS.RPPSVVVSCAGITQ.........DEFLLHMSEDDWDK
+  VIAVNLKGTFLVTQAAAQALVSNG.....CRGSIINISSIVGKVG...............
+  .............NVGQTNYAASKAGVIGLTQTAARELG..RHGIRCNSVLPGFIA.TPM
+  TQKVP.............QKVVDKITEMIPMG.................HLGDPEDVADV
+  VAFLASEDSG.YITGTSVEV.TGGLFM.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FABG_CHLPN
+descrip 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100) (3
+creator Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        6    246  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         12     36  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        156    156  ACT_SITE_By similarity
+sequence
+  ......................................MDITLVGKKVIVTGGSR.....
+  GIGLGIVKLFLEN.......GADVEIWGLN..EERGQAVIESLTGLG.......GEVSFA
+  RVDVSHNGGVKDCVQKFLDKH..NKIDILVNNAGITR.........DNLLMRMSEDDWQS
+  VISTNLTSLYYTCSSVIRHMIKAR......SGSIINVASIVAKIG...............
+  .............SAGQTNYAAAKAGIIAFTKSLAKEVA..ARNIRVNCLAPGFIE.TDM
+  TSVLN.............DNLKAEWLKSIPLG.................RAGTPEDVARV
+  ALFLASQLSS.YMTAQTLVV.DGGLTY.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name PHAB_PARDE
+descrip Acetoacetyl-CoA reductase (EC 1.1.1.36).
+creator Paracoccus denitrificans.Bacteria;
+type    PROTEIN
+group 1
+feature 44 384 0 square solid PFAM-A
+  FT   PFAM-A        1    238  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE          7     31  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        147    147  ACT_SITE_By similarity
+sequence
+  ...........................................MAKVALVTGGSR.....
+  GIGAAISKALKEA.......GYTVAANYAG....NDDAARAFTEETG.........IKTY
+  KWSVADYDACAAGIKQVEEEL..GPIAVLVNNAGITR.........DAMFHKMTPQQWKE
+  VIDTNLTGLFNMTHPVWSGMRDR......KYGRIVNISSINGQKG...............
+  .............QAGQANYSAAKAGDLGFTKALAQEGA..RAGITVNAICPGYIG.TEM
+  VRAID............EKVLNEGIIPQIPVA.................AWAEPEEIARC
+  VVFLASEDAG.FITGSTHQAPNGGQFFV................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YD50_MYCTU
+descrip Putative oxidoreductase Rv1350/MT1393/Mb1385 (EC 1.-.-.-).
+creator Mycobacterium tuberculosis, andMycobacterium bovis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        6    245  PF00106 adh_short
+feature 47 84 4 square solid SITE
+  FT   SITE          9     34  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        155    155  ACT_SITE_By similarity
+sequence
+  ......................................MASLLNARTAVITGGAQ.....
+  GLGLAIGQRFVAE.......GARVVLGDVN..LEATEVAAKRLGGD........DVALAV
+  RCDVTQADDVDILIRTAVERF..GGLDVMVNNAGITR.........DATMRTMTEEQFDQ
+  VIAVHLKGTWNGTRLAAAIMRER......KRGAIVNMSSVSGKVG...............
+  .............MVGQTNYSAAKAGIVGMTKAAAKELA..HLGIRVNAIAPGLIR.SAM
+  TEAMP.............QRIWDQKLAEVPMG.................RAGEPSEVASV
+  AVFLASDLSS.YMTGTVLDV.TGGRFI.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name NODG_AZOBR
+descrip Nodulation protein G.
+creator Azospirillum brasilense.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        2    243  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE          8     32  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+sequence
+  ..........................................MSQKIALVTGAMG.....
+  GLGTAICQALAKD.......GCIVAANCLP.NFEPAAAWLGQQEALG.......FKFYVA
+  EGDVSDFESCKAMVAKIEADL..GPVDILVNNAGITR.........DKFFAKMDKAQWDA
+  VIATNLSSLFNVTQQVSPKMAER......GWGRIINISSVNGVKG...............
+  .............QAGQTNYSAAKAGVIGFTKALAAELA..TKGVTVNAIAPGYIG.TDM
+  VMAIR.............EDIRQAITDSVPMK.................RLGRPDEIGGA
+  VSYLASEIAG.YVTGSTLNI.NGGLNYQ................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name PHBB_ALCEU
+descrip Acetoacetyl-CoA reductase (EC 1.1.1.36).
+creator Alcaligenes eutrophus (Ralstonia eutropha).Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        2    243  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE          8     32  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+sequence
+  ..........................................MTQRIAYVTGGMG.....
+  GIGTAICQRLAKD.......GFRVVAGCGP.NSPRREKWLEQQKALG.......FDFIAS
+  EGNVADWDSTKTAFDKVKSEV..GEVDVLINNAGITR.........DVVFRKMTRADWDA
+  VIDTNLTSLFNVTKQVIDGMADR......GWGRIVNISSVNGQKG...............
+  .............QFGQTNYSTAKAGLHGFTMALAQEVA..TKGVTVNTVSPGYIA.TDM
+  VKAIR.............QDVLDKIVATIPVK.................RLGLPEEIASI
+  CAWLSSEESG.FSTGADFSL.NGGLHMG................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name PHBB_CHRVI
+descrip Acetoacetyl-CoA reductase (EC 1.1.1.36).
+creator Chromatium vinosum.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        1    243  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE          7     31  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+sequence
+  ...........................................MARIALVTGGIG.....
+  GIGTSICTRLAKD.......GCTVVANCHPSEAAAAEEWKQARAAEG.......FDIAVF
+  TADVSSFDDSARMVREITEQV..GPIDILVNCAGITR.........DKTFKKMEQAHWEA
+  VINVNLNSVFNVTRQVWDGMLER......GFGRIINISSVNGQRG...............
+  .............QFGQANYSAAKAGMHGFTMALAQEGA..SKGVTVNTISPGYVE.TAM
+  TLAMN.............DDVRNSIISGIPMR.................RMAQPNEIAAA
+  IAFLAGDESG.YMTGANLPV.NGGLFMH................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name 1doh_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 28 30 3 square solid STRUCT
+  FT   STRUCT        2      4  HELIX
+feature 37 41 3 square solid STRUCT
+  FT   STRUCT       11     15  HELIX
+feature 47 50 0 square solid STRUCT
+  FT   STRUCT       21     24  STRAND
+feature 61 72 3 square solid STRUCT
+  FT   STRUCT       30     41  HELIX
+feature 83 88 0 square solid STRUCT
+  FT   STRUCT       45     50  STRAND
+feature 93 105 3 square solid STRUCT
+  FT   STRUCT       54     66  HELIX
+feature 117 121 0 square solid STRUCT
+  FT   STRUCT       71     75  STRAND
+feature 127 141 3 square solid STRUCT
+  FT   STRUCT       81     95  HELIX
+feature 146 151 0 square solid STRUCT
+  FT   STRUCT       98    103  STRAND
+feature 170 172 3 square solid STRUCT
+  FT   STRUCT      113    115  HELIX
+feature 175 185 3 square solid STRUCT
+  FT   STRUCT      118    128  HELIX
+feature 187 200 3 square solid STRUCT
+  FT   STRUCT      130    143  HELIX
+feature 200 217 0 square solid STRUCT
+  FT   STRUCT      143    152  STRAND
+feature 220 222 3 square solid STRUCT
+  FT   STRUCT      155    157  HELIX
+feature 258 283 3 square solid STRUCT
+  FT   STRUCT      166    189  HELIX
+feature 286 292 0 square solid STRUCT
+  FT   STRUCT      192    198  STRAND
+feature 299 308 3 square solid STRUCT
+  FT   STRUCT      204    213  HELIX
+feature 317 327 3 square solid STRUCT
+  FT   STRUCT      222    232  HELIX
+feature 354 365 3 square solid STRUCT
+  FT   STRUCT      242    253  HELIX
+feature 367 369 3 square solid STRUCT
+  FT   STRUCT      255    257  HELIX
+feature 377 380 0 square solid STRUCT
+  FT   STRUCT      264    267  STRAND
+sequence
+  ..........................SKYDAIPGPLGPQSASLEGKVALVTGAGR.....
+  GIGREMAMELGRR.......GCKVIVNYAN.STESAEEVVAAIKKNG.......SDAACV
+  KANVGVVEDIVRMFEEAVKIF..GKLDIVCSNSGVVS.........FGHVKDVTPEEFDR
+  VFTINTRGQFFVAREAYKHLE........IGGRLILMGSITGQAK...............
+  ............AVPKHAVYSGSKGAIETFARCMAIDMA..DKKITVNVVAPGGIK.TDM
+  YHAVCREYIPNGENLSNEEVDEYAAVQWSPLR.................RVGLPIDIARV
+  VCFLASNDGG.WVTGKVIGI.DGGACM.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YWFD_BACSU
+descrip Hypothetical oxidoreductase ywfD (EC 1.-.-.-).
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        6    252  PF00106 adh_short
+feature 49 83 4 square solid SITE
+  FT   SITE         11     33  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        154    154  ACT_SITE_By similarity
+sequence
+  ......................................MIMNLTDKTVLITGGAS.....
+  GIGYAAVQAFLGQ.......QANVVVADID..EAQGEAMVRKENNDR.........LHFV
+  QTDITDEAACQHAVESAVHTF..GGLDVLINNAGIEI.........VAPIHEMELSDWNK
+  VLQVNLTGMFLMSKHALKHMLAA......GKGNIINTCSVGGLVA...............
+  .............WPDIPAYNASKGGVLQLTKSMAVDYA..KHQIRVNCVCPGIID.TPL
+  NEKSFLENNEG.....TLEEIKKEKAKVNPLL.................RLGKPEEIANV
+  MLFLASDLSS.YMTGSAITA.DGGYTAQ................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YXBG_BACSU
+descrip Hypothetical oxidoreductase yxbG (EC 1.-.-.-).
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 388 0 square solid PFAM-A
+  FT   PFAM-A        5    256  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         10     34  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        155    155  ACT_SITE_By similarity
+sequence
+  .......................................MGRLENKTAVITGAAT.....
+  GIGQATAEVFANE.......GARVIIGDIN..KDQMEETVDAIRKNG.......GQAESF
+  HLDVSDENSVKAFADQIKDAC..GTIDILFNNAGVDQ........EGGKVHEYPVDLFDR
+  IIAVDLRGTFLCSKYLIPLMLEN.......GGSIINTSSMSGRAA...............
+  .............DLDRSGYNAAKGGITNLTKAMAIDYA..RNGIRVNSISPGTIE.TPL
+  IDKLAGT.....KEQEMGEQFREANKWITPLG.................RLGQPKEMATV
+  ALFLASDDSS.YVTGEDITA.DGGIMAYTWPGKMLIEEKWKEETK...............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YK02_MYCTU
+descrip Putative oxidoreductase Rv2002/MT2058/Mb2025 (EC 1.-.-.-).
+creator Mycobacterium tuberculosis, andMycobacterium bovis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        6    238  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         11     35  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+sequence
+  ......................................MSGRLIGKVALVSGGAR.....
+  GMGASHVRAMVAE.......GAKVVFGDIL..DEEGKAVAAELADAA..........RYV
+  HLDVTQPAQWTAAVDTAVTAF..GGLHVLVNNAGILN.........IGTIEDYALTEWQR
+  ILDVNLTGVFLGIRAVVKPMKEA......GRGSIINISSIEGLAG...............
+  .............TVACHGYTATKFAVRGLTKSTALELG..PSGIRVNSIHPGLVK.TPM
+  TDWVP..................EDIFQTALG.................RAAEPVEVSNL
+  VVYLASDESS.YSTGAEFVV.DGGTVAGLAHNDFGAVEVSSQPEWVT.............
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name DHBA_BACSU
+descrip 2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase (EC 1.3.1.28
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        7    257  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         12     36  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        157    157  ACT_SITE_By similarity
+sequence
+  .....................................MNAKGIEGKIAFITGAAQ.....
+  GIGEAVARTLASQ.......GAHIAAVDYN..PEKLEKVVSSLKAEAR.......HAEAF
+  PADVRDSAAIDEITARIEREM..GPIDILVNVAGVLR.........PGLIHSLSDEEWEA
+  TFSVNSTGVFNASRSVSKYMMDR......RSGSIVTVGSNPAGVP...............
+  .............RTSMAAYASSKAAAVMFTKCLGLELA..EYNIRCNIVSPGSTE.TDM
+  QWSLWADEN...GAEQVIKGSLETFKTGIPLK.................KLAKPSDIADA
+  VLFLVSGQAG.HITMHNLCV.DGGATLGV...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name ENTA_ECOLI
+descrip 2,3-dihydro-2,3-dihydroxybenzoate dehydrogenase (EC 1.3.1.28
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        4    244  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE          9     33  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        144    144  ACT_SITE_By similarity
+sequence
+  ........................................MDFSGKNVWVTGAGK.....
+  GIGYATALAFVEA.......GAKVTGFDQA.......FTQEQYPFA............TE
+  VMDVADAAQVAQVCQRLLAET..ERLDALVNAAGILR.........MGATDQLSKEDWQQ
+  TFAVNVGGAFNLFQQTMNQFRRQ......RGGAIVTVASDAAHTP...............
+  .............RIGMSAYGASKAALKSLALSVGLELA..GSGVRCNVVSPGSTD.TDM
+  QRTLWVSDDAE...EQRIRGFGEQFKLGIPLG.................KIARPQEIANT
+  ILFLASDLAS.HITLQDIVV.DGGSTLGA...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name DHMA_FLAS1
+descrip N-acylmannosamine 1-dehydrogenase (EC 1.1.1.233) (NAM-DH).
+creator Flavobacterium sp. (strain 141-8).Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       13    257  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         19     43  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        165    165  ACT_SITE_By similarity
+sequence
+  ...............................TTAGVSRRPGRLAGKAAIVTGAAG.....
+  GIGRATVEAYLRE.......GASVVAMDLA.....PRLAATRYEEPG.........AIPI
+  ACDLADRAAIDAAMADAVARL..GGLDILVAGGALKG........GTGNFLDLSDADWDR
+  YVDVNMTGTFLTCRAGARAMVAAGAGKDGRSARIITIGSVNSFMA...............
+  .............EPEAAAYVAAKGGVAMLTRAMAVDLA..RHGILVNMIAPGPVDVTGN
+  NTGYS............EPRLAEQVLDEVALG.................RPGLPEEVATA
+  AVFLAEDGSS.FITGSTITI.DGGLSAMIFGGMREGRR......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YJGI_ECOLI
+descrip Hypothetical oxidoreductase yjgI (EC 1.-.-.-).
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        5    235  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         10     34  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        146    146  ACT_SITE_By similarity
+sequence
+  .......................................MGAFTGKTVLILGGSR.....
+  GIGAAIVRRFVTD.......GANVRFTYAG....SKDAAKRLAQETG.........ATAV
+  FTDSAD....RDAVIDVVRKS..GALDILVVNAGIGV.........FGEALELNADDIDR
+  LFKINIHAPYHASVEAARQMPEG........GRILIIGSVNGDRMP..............
+  .............VAGMAAYAASKSALQGMARGLARDFG..PRGITINVVQPGPID.TDA
+  NPANG..............PMRDMLHSLMAIK.................RHGQPEEVAGM
+  VAWLAGPEAS.FVTGAMHTI.DGAFGA.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name Y4VI_RHISN
+descrip Putative short-chain type dehydrogenase/reductase y4vI (EC 1
+creator Rhizobium sp. (strain NGR234).Bacteria;
+type    PROTEIN
+group 1
+feature 37 388 5 square solid DOMAIN
+  FT   DOMAIN        1    250  Short-chain dehydrogenase/reductase 1.
+feature 409 686 5 square solid DOMAIN
+  FT   DOMAIN      271    548  Short-chain dehydrogenase/reductase 2.
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        8    247  PF00106 adh_short
+feature 414 651 0 square solid PFAM-A
+  FT   PFAM-A      276    513  PF00106 adh_short
+feature 48 85 4 square solid SITE
+  FT   SITE         12     37  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 418 442 4 square solid SITE
+  FT   SITE        280    304  NP_BIND_NAD or NADP By similarity
+feature 558 558 0 square solid SITE
+  FT   SITE        420    420  ACT_SITE_By similarity
+sequence
+  ....................................MDDRQVQPGRVIVVTGAAG.....
+  GIGRALVDIFAAN.......GDVVVAVDLP.....DSGVIELGQNLG.......EPHLGL
+  EVDVSREDDVVALRALLEKRF..SRIEVLVNNAGIGP........TMAATADTALEDFQR
+  ALAINLVGAYSVACETAKLMKPG........AAIVNVASLAGLLG...............
+  .............NPKRSAYAASKAGLISITKSLACRWA..SRGIRVTAVAPGHVR.TPM
+  VAELERAG..........KLDVSAIRRRVPLG.................RIARPDEIARA
+  VRFLASAQAS.YITGSTLVV.DGGWMSVNQPGGAHQAQDRTPGAEFMRPVEDTDARTVIV
+  MGGATGVGAAIARRFAENGDTVVIADGDGEEAVKLAGLLGDKHLSRRVDRTVETEVVSLF
+  EELRERFGHLDVFVNGMNEILVPNTEESPEVLKRILDVNLTGAFTCVREAAISMRSGSVI
+  LNLGASLSLSPLAPSHAYGAYNAGIDMLTRCTAAELGPLGIRTATVAPGYIRTCAANRLA
+  AVAGMDSASLRQRIPLGRVGDAEEVAEAAYFLASFDASYINGSILHVDGGLISSREAGWG
+  SEVDGAISAEMRPQRRPAARWRLLSP
+}
+{
+name BUTA_STAAM
+descrip Acetoin(diacetyl) reductase (EC 1.1.1.5) (Acetoin dehydrogen
+creator Staphylococcus aureus (strain Mu50 / ATCC 700699),Staphyloco
+type    PROTEIN
+group 1
+feature 49 85 4 square solid SITE
+  FT   SITE          8     32  NP_BIND_NAD By similarity
+feature 219 219 0 square solid SITE
+  FT   SITE        141    141  ACT_SITE_By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        154    154  ACT_SITE_By similarity
+feature 264 264 0 square solid SITE
+  FT   SITE        158    158  ACT_SITE_By similarity
+sequence
+  .........................................MTNNKVALVTGGAQ.....
+  GIGFKIAERLVED.......GFKVAVVDFN..EEGAKAAALKLSSDG.......TKAIAI
+  KADVSNRDDVFNAVRQTAAQF..GDFHVMVNNAGLGP.........TTPIDTITEEQFKT
+  VYGVNVAGVLWGIQAAHEQFKKFN.....HGGKIINATSQAGVEG...............
+  .............NPGLSLYCSTKFAVRGLTQVAAQDLA..SEGITVNAFAPGIVQ.TPM
+  MESIAVATAEEA..GKPEAWGWEQFTSQIALG.................RVSQPEDVSNV
+  VSFLAGKDSD.YITGQTIIV.DGGMRFR................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name DHG2_BACSU
+descrip Glucose 1-dehydrogenase II (EC 1.1.1.47) (GLCDH-II) (GDH-II)
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        6    250  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         11     35  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        159    159  ACT_SITE_By similarity
+sequence
+  ......................................MYKDLTGKTAIVTGSSK.....
+  GIGKAIAERFGKE.......KMNVVVNYHS.DPSGADETLEIIKQNG.......GKAVSV
+  EADVSKEEGIQALLDTALEHF..GTLDVMVNNSGFNG........VEAMPHEMSLEDWQR
+  VIDVNVTGTFLGAKAALNHMMKNN.....IKGNVLNISSVHQQIP...............
+  .............RPVNVQYSTSKGGIKMMTETLALNYA..DKGIRVNAIAPGTIA.TES
+  NVDTK............KEESRQKQLKKIPMK.................AFGKPEEVAAA
+  AAWLVSEEAS.YVTGATLFV.DGGMTLYPSQLE...........................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YGFF_ECOLI
+descrip Hypothetical oxidoreductase ygfF (EC 1.-.-.-).
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 47 385 0 square solid PFAM-A
+  FT   PFAM-A        3    247  PF00106 adh_short
+feature 48 84 4 square solid SITE
+  FT   SITE          4     28  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        156    156  ACT_SITE_By similarity
+sequence
+  ............................................MAIALVTGGSR.....
+  GIGRATALLLAQE.......GYTVAVNYQQ.NLHAAQEVMNLITQAG.......GKAFVL
+  QADISDENQVVAMFTAIDQHD..EPLAALVNNAGILF........TQCTVENLTAERINR
+  VLSTNVTGYFLCCREAVKRMALKNG...GSGGAIVNVSSVASRLG...............
+  ............SPGEYVDYAASKGAIDTLTTGLSLEVA..AQGIRVNCVRPGFIY.TEM
+  HASGG............EPGRVDRVKSNIPMQ.................RGGQAEEVAQA
+  IVWLLSDKAS.YVTGSFIDL.AGGK...................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name DHS4_BOVIN
+descrip Dehydrogenase/reductase SDR family member 4 (EC 1.1.1.184) (
+creator Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 49 85 4 square solid SITE
+  FT   SITE         18     42  NP_BIND_NADP By similarity
+feature 387 389 12 square solid SITE
+  FT   SITE        258    260  SITE_Microbody targeting signal
+sequence
+  ...............................MASCGMARRNPLDNKVALVTASTD.....
+  GIGFAIARRLAQD.......GAHVVVSSRK..QQNVDRAVATLKGEG.......LSVTGT
+  VCHVGKAEDRERLVATAVKLH..GGVDILISNAAVSP........FFGSLMDVPEEVWDK
+  ILDVNVKATALLTKAVVPEMAKR......GGGSIVIVSSIAAYSP...............
+  .............FPSLGPYNVSKTALLGLTKNLALELA..ESNVRVNCLAPGLIR.TSF
+  SRVLW...........EDPARQESIKATFQIK.................RIGKPEECAGI
+  VSFLCSEDAS.YITGETVVV.AGGSLSHL...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name DHS4_PIG
+descrip Dehydrogenase/reductase SDR family member 4 (EC 1.1.1.184) (
+creator Sus scrofa (Pig).Eukaryota;
+type    PROTEIN
+group 1
+feature 49 85 4 square solid SITE
+  FT   SITE         18     42  NP_BIND_NADP By similarity
+feature 387 389 12 square solid SITE
+  FT   SITE        258    260  SITE_Microbody targeting signal
+sequence
+  ...............................MASTGVERRKPLENKVALVTASTD.....
+  GIGLAIARRLAQD.......GAHVVVSSRK..QENVDRTVATLQGEG.......LSVTGT
+  VCHVGKAEDRERLVAMAVNLH..GGVDILVSNAAVNP........FFGNIIDATEEVWDK
+  ILHVNVKATVLMTKAVVPEMEKR......GGGSVLIVSSVGAYHP...............
+  .............FPNLGPYNVSKTALLGLTKNLAVELA..PRNIRVNCLAPGLIK.TNF
+  SQVLW...........MDKARKEYMKESLRIR.................RLGNPEDCAGI
+  VSFLCSEDAS.YITGETVVV.GGGTASRL...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name DHS4_MOUSE
+descrip Dehydrogenase/reductase SDR family member 4 (EC 1.1.1.184) (
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 49 85 4 square solid SITE
+  FT   SITE         18     42  NP_BIND_NADP By similarity
+feature 387 389 12 square solid SITE
+  FT   SITE        258    260  SITE_Microbody targeting signal
+sequence
+  ...............................MASSGLTRRNPLSNKVALVTASTD.....
+  GIGFAIARRLAED.......GAHVVVSSRK..QQNVDRAVATLQGEG.......LSVTGI
+  VCHVGKAEDREKLITTALKRH..RGIDILVSNAAVNP........FFGNLMDVTEEVWDK
+  VLSINVTATAMMIKAVVPEMEKR......GGGSVVIVGSVAGFTR...............
+  .............FPSLGPYNVSKTALLGLTKNFAAELA..PKNIRVNCLAPGLIK.TRF
+  SSVLW...........EEKAREDFIKEAMQIR.................RLGKPEDCAGI
+  VSFLCSEDAS.YINGETVVV.GGGTPSRL...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name SORD_KLEPN
+descrip Sorbitol-6-phosphate 2-dehydrogenase (EC 1.1.1.140) (Glucito
+creator Klebsiella pneumoniae.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        8    264  PF00106 adh_short
+feature 45 86 4 square solid SITE
+  FT   SITE          9     38  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        160    160  ACT_SITE_By similarity
+sequence
+  ....................................MNTWLNLKDNVIIVTGGAS.....
+  GIGLAIVDELLSQ.......GAHVQMIDIH....GGDRHHNGDN............YHFW
+  STDISSATEVQQTIDAIIQRW..SRIDGLVNNAGVNFPRLLVDEKAPAGRYELNEAAFEK
+  MVNINQKGVFFMSQAVARQMVKQ......RAGVIVNVSSESGLEG...............
+  .............SEGQSCYAATKAALNSFTRSWSKELG..KYGIRVVGVAPGILEKTGL
+  RTPEYEEALAWTRNITVEQLREGYTKNAIPIG.................RAGKLSEVADF
+  VCYLLSARAS.YITGVTTNI.AGGKTRG................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FABG_ACTAC
+descrip 3-oxoacyl-[acyl-carrier-protein] reductase (EC 1.1.1.100) (3
+creator Actinobacillus actinomycetemcomitans (Haemophilusactinomycet
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        1    241  PF00106 adh_short
+feature 50 87 4 square solid SITE
+  FT   SITE          7     32  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+sequence
+  ...........................................MSETILITGSSR.....
+  GIGKAIALRLAQA.......GFDIVVHCRS.RIEEAEAVAQAVRELG.......QNARVL
+  QFDVSCRSEAADKLTADVEAH..GAYYGVVLNAGLTR.........DNAFPALTDEDWDR
+  VLRTNLDGFYNVLHPIMMPMIRRR.....KAGRIVCITSVSGLIG...............
+  .............NRGQVNYSASKAGIIGAAKALAVELA..KRKITVNCVAPGLID.TDI
+  LDEN...............VPIDEILKMIPAG.................RMGDPEEVAHA
+  VNFLMGEKAA.YVTRQVIAV.NGGLC..................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name NODG_RHIME
+descrip Nodulation protein G (Host-specificity of nodulation protein
+creator Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        5    242  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         11     35  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        152    152  ACT_SITE_By similarity
+sequence
+  .......................................MFELTGRKALVTGASG.....
+  AIGGAIARVLHAQ.......GAIVGLHGTQ.....IEKLETLATELG.......DRVKLF
+  PANLANRDEVKALGQRAEADL..EGVDILVNNAGITK.........DGLFLHMADPDWDI
+  VLEVNLTAMFRLTREITQQMIRR......RNGRIINVTSVAGAIG...............
+  .............NPGQTNYCASKAGMIGFSKSLAQEIA..TRNITVNCVAPGFIE.SAM
+  TDKLN.............HKQKEKIMVAIPIH.................RMGTGTEVASA
+  VAYLASDHAA.YVTGQTIHV.NGGMAMI................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name NOG4_RHIME
+descrip Nodulation protein G (Host-specificity of nodulation protein
+creator Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 152 385 0 square solid PFAM-A
+  FT   PFAM-A       87    241  PF00106 adh_short
+feature 50 86 4 square solid SITE
+  FT   SITE         11     35  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        152    152  ACT_SITE_By similarity
+sequence
+  .......................................MFELTGRKALVTGASG.....
+  AIGGAIARVLHAQ.......GAIVGLHGTQ..MKNWRHWQLSLETGS......SCSRLIW
+  PIETKS....RRLVRERKPIL..KASTSWSTNAGITK.........DGLFLHMADPDWDI
+  VLEVNLTAMFRLTREITQQMIRR......RNGRIINVTSVAGAIG...............
+  .............NPGQTNYCASKAGMIGFSKSWRRRST...RNITVNCVAPGFIE.SAM
+  TDKLN.............HKQKEKIMVAIPIH.................RMGTGTEVASA
+  VAYLASDHAA.YVTGQTIHV.NGGMAMI................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name SOU1_CANAL
+descrip Sorbitol utilization protein SOU1.
+creator Candida albicans (Yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       34    278  PF00106 adh_short
+feature 51 85 4 square solid SITE
+  FT   SITE         41     63  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        188    188  ACT_SITE_By similarity
+sequence
+  ..........MSEEIISFTNPALGPLPTKAPQLPSNVLDLFSLKGKVASVTGSSG.....
+  GIGWAVAEAFAQA.......GADVAIWYNS...KPADAKAEYLTEKYG......VKAKAY
+  KCNVTDPNDVSKVINEIEKDF..GTIDIFVANAGVAWTD.......GPEIDVQGYDQWKK
+  IVDCDLNGVYYCAHTVGQIFKKN......KSGSLIITSSMSGTIVN..............
+  ............IPQLQAPYNAAKAACTHLAKSLSVEWA..SFGARVNSISPGYIL.TDI
+  ADFAD.............PEMKKKWWQLTPLG.................REGLPQELVGA
+  YLYLASNAST.YTTGSNIAV.DGGYTCP................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name GS39_BACSU
+descrip General stress protein 39 (GSP39) (EC 1.-.-.-).
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       40    281  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         45     69  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        190    190  ACT_SITE_By similarity
+sequence
+  ....ANYPKELPAQTQSRQPGIESEMNPSPVYEYEDYKGADKLKGKVALITGGDS.....
+  GIGRAVSVAYAKE.......GADIAIVYKD.EHEDAEETKKRVEQEG.......VKCLLI
+  AGDVGEEEFCNEAVEKTVKEL..GGLDILVNNAGEQHP........KESIKDITSEQLHR
+  TFKTNFYSQFYLTKKAIDYLKP........GSAIINTTSINPYVG...............
+  .............NPTLIDYTATKGAINAFTRTMAQALV..KDGIRVNAVAPGPIW.TPL
+  IPATF............PEETVAQFGQDTPMG.................RPGQPVEHVGC
+  YVLLASDESS.YMTGQTLHV.NGGNFVTT...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YHDF_BACSU
+descrip Hypothetical oxidoreductase yhdF (EC 1.-.-.-).
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       44    285  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         49     73  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        194    194  ACT_SITE_By similarity
+sequence
+  MNPMDRQTEGQEPQHQDRQPGIESKMNPLPLSEDEDYRGSGKLKGKVAIITGGDS.....
+  GIGRAAAIAFAKE.......GADISILYLD.EHSDAEETRKRIEKEN.......VRCLLI
+  PGDVGDENHCEQAVQQTVDHF..GKLDILVNNAAEQHP........QDSILNISTEQLEK
+  TFRTNIFSMFHMTKKALPHLQE........GCAIINTTSITAYEG...............
+  .............DTALIDYSSTKGAIVSFTRSMAKSLA..DKGIRVNAVAPGPIW.TPL
+  IPATF............PEEKVKQHGLDTPMG.................RPGQPVEHAGA
+  YVLLASDESS.YMTGQTIHV.NGGRFIST...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name TRNH_DATST
+descrip Tropinone reductase homolog (EC 1.1.1.-) (P29X).
+creator Datura stramonium (Jimsonweed) (Common thornapple).Eukaryota
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       16    262  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         21     45  NP_BIND_NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        167    167  ACT_SITE_By similarity
+sequence
+  ............................MAGREIGGGDRRWSLRGMTALVTGGTR.....
+  GIGYAIVEELANF.......GAEVYTCSRS..QNDLDECLEKWRRKG.......FKVSGP
+  VCDVSSISQRQTLMESVTSSF.NGKLNILINNAGTTIP.........KEATNFTAEDYSI
+  IMGTNFEASYNLCQLAHPLLKAS......GNASIVFNSSAAGVIA...............
+  .............VPLSSIYAASKGAINQVTKSLACEWA..KDSIRVNAVAPWIIN.TPI
+  IEAACQVP........SQKKNIESLIGRAPMK.................RAGEPSEVSSL
+  VTYLCLPTAS.YITGQIICV.DGGYTVNGFI.............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name FIXR_BRAJA
+descrip FixR protein.
+creator Bradyrhizobium japonicum.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       35    276  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         40     64  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        189    189  ACT_SITE_By similarity
+sequence
+  .........MGLDLPNDNLIRGPLPEAHLDRLVDAVNARVDRGEPKVMLLTGASR.....
+  GIGHATAKLFSEA.......GWRIISCARQ..PFDGERCPWEAGNDD...........HF
+  QVDLGDHRMLPRAITEVKKRLAGAPLHALVNNAGVSPKTPTG...DRMTSLTTSTDTWMR
+  VFHLNLVAPILLAQGLFDELRAA.......SGSIVNVTSIAGSRVH..............
+  .............PFAGSAYATSKAALASLTRELAHDYA..PHGIRVNAIAPGEIR.TDM
+  LS................PDAEARVVASIPLR.................RVGTPDEVAKV
+  IFFLCSDAAS.YVTGAEVPI.NGGQHL.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name BDHA_RHIME
+descrip D-beta-hydroxybutyrate dehydrogenase (EC 1.1.1.30) (BDH) (3-
+creator Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        1    255  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE          6     30  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        153    153  ACT_SITE_By similarity
+sequence
+  ...........................................MTKTAVITGSTS.....
+  GIGLAIARTLAKA.......GANIVLNGFG.APDEIRTVTDEVAGLS......SGTVLHH
+  PADMTKPSEIADMMAMVADRF..GGADILVNNAGVQF.........VEKIEDFPVEQWDR
+  IIAVNLSSSFHTIRGAIPPMKKK......GWGRIINIASAHGLVA...............
+  .............SPFKSAYVAAKHGIMGLTKTVALEVA..ESGVTVNSICPGYVL.TPL
+  VEKQIPDQART.RGITEEQVINEVMLKGQPTK.................KFITVEQVASL
+  ALYLAGDDAA.QITGTHVSM.DGGWTAQ................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name KDUD_ECOLI
+descrip 2-deoxy-D-gluconate 3-dehydrogenase (EC 1.1.1.125) (2-keto-3
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        9    250  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         14     38  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        158    158  ACT_SITE_By similarity
+sequence
+  ...................................MILSAFSLEGKVAVVTGCDT.....
+  GLGQGMALGLAQA.......GCDIVGINIV....EPTETIEQVTALG.......RRFLSL
+  TADLRKIDGIPALLDRAVAEF..GHIDILVNNAGLIR.........REDALEFSEKDWDD
+  VMNLNIKSVFFMSQAAAKHFIAQG.....NGGKIINIASMLSFQG...............
+  .............GIRVPSYTASKSGVMGVTRLMANEWA..KHNINVNAIAPGYMA.TNN
+  TQQLR...........ADEQRSAEILDRIPAG.................RWGLPSDLMGP
+  IVFLASSASD.YVNGYTIAV.DGGWLAR................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YGCW_ECOLI
+descrip Hypothetical oxidoreductase ygcW (EC 1.-.-.-).
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A       17    258  PF00106 adh_short
+feature 49 85 4 square solid SITE
+  FT   SITE         22     46  NP_BIND_NAD or NADP By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        166    166  ACT_SITE_By similarity
+sequence
+  ...........................MSIESLNAFSMDFFSLKGKTAIVTGGNS.....
+  GLGQAFAMALAKA.......GANIFIPSFV...KDNGETKEMIEKQG.......VEVDFM
+  QVGITAEGAPQKIIAACCERF..GTVDILVNNAGICK.........LNKVLDFGRADWDP
+  MIDVNLTAAFELSYEAAKIMIPQ......KSGKIINICSLFSYLG...............
+  .............GQWSPAYSATKHALAGFTKAYCDELG..QYNIQVNGIAPGYYA.TDI
+  TLATRS...........NPETNQRVLDHIPAN.................RWGDTQDLMGA
+  AVFLASPASN.YVNGHLLVV.DGGYLVR................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name YKUF_BACSU
+descrip Hypothetical oxidoreductase ykuF (EC 1.-.-.-).
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 44 385 0 square solid PFAM-A
+  FT   PFAM-A        2    247  PF00106 adh_short
+feature 48 94 4 square solid SITE
+  FT   SITE          6     38  NP_BIND_NADP Potential
+sequence
+  ..........................................MEKKAVIITGGSS.....
+  GMGKAMAKKQAEL.......GWHVMVTGRN..HEALEETKKEIQTFE.......GQVACF
+  QMDVRSDSAASDMIKEAVKAF..GRLDALINNAAGN.........FICPAEKLTPNGWKA
+  VIEIVLNGTFFCSQAAARHWIDQK.....QQGVILNMAATYAWGAG..............
+  ..............AGVVHSAAAKAGVLSLTRTLAVEWG.SKYGIRTNAIAPGPIERTGG
+  AEKLFE...........SEKAMARTMNSVPLG.................RLGTPEEIAAL
+  AAFLLSDEAS.YINGDCITM.DGGQWLNPYPF............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name HCD2_DROME
+descrip 3-hydroxyacyl-CoA dehydrogenase type II (EC 1.1.1.35) (Type 
+creator Drosophila melanogaster (Fruit fly).Eukaryota;
+type    PROTEIN
+group 1
+feature 44 358 0 square solid PFAM-A
+  FT   PFAM-A        3    228  PF00106 adh_short
+feature 47 84 4 square solid SITE
+  FT   SITE          6     31  NP_BIND_NAD By similarity
+feature 260 260 0 square solid SITE
+  FT   SITE        162    162  ACT_SITE_By similarity
+sequence
+  .........................................MIKNAVSLVTGGAS.....
+  GLGRATAERLAKQ.......GASVILADLP..SSKGNEVAKELGDK..........VVFV
+  PVDVTSEKDVSAALQTAKDKF..GRLDLTVNCAGTATAVKTF...NFNKNVAHRLEDFQR
+  VININTVGTFNVIRLSAGLMGANEPNQDGQRGVIVNTASVAAFDG...............
+  .............QIGQAAYSASKAAVVGMTLPIARDLS..TQGIRICTIAPGLFN.TPM
+  LAALP.............EKVRTFLAKSIPFP................QRLGEPSEYAHL
+  VQAIYENP...LLNGEVIRI.DGALRMMP...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name 1kep_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 47 51 0 square solid STRUCT
+  FT   STRUCT        4      8  STRAND
+feature 61 73 3 square solid STRUCT
+  FT   STRUCT       13     25  HELIX
+feature 83 88 0 square solid STRUCT
+  FT   STRUCT       30     35  STRAND
+feature 97 99 3 square solid STRUCT
+  FT   STRUCT       43     45  HELIX
+feature 101 103 3 square solid STRUCT
+  FT   STRUCT       47     49  HELIX
+feature 117 121 0 square solid STRUCT
+  FT   STRUCT       54     58  STRAND
+feature 131 138 3 square solid STRUCT
+  FT   STRUCT       64     71  HELIX
+feature 148 151 0 square solid STRUCT
+  FT   STRUCT       76     79  STRAND
+feature 171 176 3 square solid STRUCT
+  FT   STRUCT       86     91  HELIX
+feature 179 185 3 square solid STRUCT
+  FT   STRUCT       94    100  HELIX
+feature 187 199 3 square solid STRUCT
+  FT   STRUCT      102    114  HELIX
+feature 213 220 0 square solid STRUCT
+  FT   STRUCT      117    124  STRAND
+feature 220 223 3 square solid STRUCT
+  FT   STRUCT      124    127  HELIX
+feature 229 231 3 square solid STRUCT
+  FT   STRUCT      133    135  HELIX
+feature 259 283 3 square solid STRUCT
+  FT   STRUCT      158    177  HELIX
+feature 287 292 0 square solid STRUCT
+  FT   STRUCT      181    186  STRAND
+feature 295 296 0 square solid STRUCT
+  FT   STRUCT      189    190  STRAND
+feature 319 329 3 square solid STRUCT
+  FT   STRUCT      199    209  HELIX
+feature 335 337 0 square solid STRUCT
+  FT   STRUCT      214    216  STRAND
+feature 349 351 0 square solid STRUCT
+  FT   STRUCT      222    224  STRAND
+feature 353 355 0 square solid STRUCT
+  FT   STRUCT      226    228  STRAND
+feature 355 368 3 square solid STRUCT
+  FT   STRUCT      228    241  HELIX
+feature 377 380 0 square solid STRUCT
+  FT   STRUCT      247    250  STRAND
+feature 386 389 0 square solid STRUCT
+  FT   STRUCT      255    258  STRAND
+feature 389 399 3 square solid STRUCT
+  FT   STRUCT      258    268  HELIX
+feature 419 421 0 square solid STRUCT
+  FT   STRUCT      277    279  STRAND
+feature 436 445 3 square solid STRUCT
+  FT   STRUCT      294    300  HELIX
+feature 454 467 3 square solid STRUCT
+  FT   STRUCT      309    322  HELIX
+feature 469 484 3 square solid STRUCT
+  FT   STRUCT      324    339  HELIX
+sequence
+  ...........................................QFKNIIVTGGAG.....
+  FIGSNFVHYVYNNHP.....DVHVTVLDKLT.YAGNKANLEAIL.........GDRVELV
+  VGDIAD....AELVDKLAAK.....ADAIVHYAAES.............HNDNSLNDPSP
+  FIHTNFIGTYTLLEAARKYDI...........RFHHVSTDEVYGDLPLREDLP.....GH
+  GEGPGEKFTAETNYNPSSPYSSTKAASDLIVKAWVR.....SFGVKATISNCSNNY.GPY
+  Q.............HIEKFIPRQITNILAGIK.PKLYG......EGKNVRDWIHTNDHST
+  GVWAILTK...GRMGETYLI.GADGEKNNKEVLELILEKMG...........QPKDAYDH
+  VTDRAGHDLRYAIDAS...KLRDELGWTPQFTDFSEGLEETIQWYTDNQDWWKAEKEAVE
+  ANYAKTQEVIK.................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name RFBB_NEIGO
+descrip dTDP-glucose 4,6-dehydratase (EC 4.2.1.46).
+creator Neisseria gonorrhoeae.Bacteria;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A        9    340  PF01370 Epimerase
+feature 52 63 4 square solid SITE
+  FT   SITE         13     19  NP_BIND_NAD Potential
+sequence
+  .......................................MQTEGKKNILVTGGAG.....
+  FIGSAVVRHIIQNT......RDSVVNLDKLT.YAGNLESLTDIAD........NPRYAFE
+  QVDICD....RAELDRVFAQY...RPDAVMHLAAES.............HVDRAIGSAGE
+  FIRTNIVGTFDLLEAARAYWQQMP.SEKREAFRFHHISTDEVYGDLHGTDD.........
+  ......LFTETTPYAPSSPYSASKAAADHLVRAWQR.....TYRLPSIVSNCSNNY.GPR
+  Q.............FPEKLIPLMILNALSGKP.LPVYG......DGAQIRDWLFVEDHAR
+  ALYQVVTE...GVVGETYNI.GGHNEKTNLEVVKTICALLEELAPEKPAGVARYEDLITF
+  VQDRPGHDARYAVDAA...KIRRDLGWLPLET.FESGLRKTVQWYLDNKTRRQNA.....
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name RFFG_ECOLI
+descrip dTDP-glucose 4,6-dehydratase (EC 4.2.1.46).
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A        4    335  PF01370 Epimerase
+feature 52 63 4 square solid SITE
+  FT   SITE          8     14  NP_BIND_NAD Potential
+sequence
+  ............................................MRKILITGGAG.....
+  FIGSALVRYIINET......SDAVVVVDKLT.YAGNLMSLAPVAQ........SERFAFE
+  KVDICD....RAELARVFTEH...QPDCVMHLAAES.............HVDRSIDGPAA
+  FIETNIVGTYTLLEAARAYWNALT.EDKKSAFRFHHISTDEVYGDLHSTDD.........
+  ......FFTETTPYAPSSPYSASKASSDHLVRAWLR.....TYGLPTLITNCSNNY.GPY
+  H.............FPEKLIPLMILNALAGKS.LPVYG......NGQQIRDWLYVEDHAR
+  ALYCVATT...GKVGETYNI.GGHNERKNLDVVETICELLEELAPNKPHGVAHYRDLITF
+  VADRPGHDLRYAIDAS...KIARELGCVPQET.FESGMRKTVQWYLANESWWKQVQDGSY
+  QGERLGLKG...................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name RBB1_ECOLI
+descrip dTDP-glucose 4,6-dehydratase (EC 4.2.1.46).
+creator Escherichia coli.Bacteria;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A        3    338  PF01370 Epimerase
+feature 470 492 0 square solid PFAM-B
+  FT   PFAM-B      339    361  PB002823 Pfam-B_2823
+feature 52 63 4 square solid SITE
+  FT   SITE          7     13  NP_BIND_NAD Potential
+sequence
+  .............................................MKILVTGGAG.....
+  FIGSAVVRHIINNT......QDSVVNVDKLT.YAGNRESLADVSD........SERYVFE
+  HADICD....APAMARIFAQH...QPDAVMHLAAES.............HVDRSITGPAA
+  FIETNIVGTYVLLEAARNYWSALD.SDKKNSFRFHHISTDEVYGDLPHPDE.......VN
+  NTEELPLFTETTAYAPSSPYSASKASSDHLVRAWKR.....TYGLPTIVTNCSNNY.GPY
+  H.............FPEKLIPLVILNALEGKA.LPIYG......KGDQIRDWLYVEDHAR
+  ALYTVVTE...GKAGETYNI.GGHNEKKNIDVVLTICDLLDEIVPKEKS....YREQITY
+  VADRPGHDRRYAIDAE...KIGRALGWKPQET.FESGIRKTVEWYLSNTKWVDNVKSGAY
+  QSWIEQNYEGRQ................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name RFFG_HAEIN
+descrip dTDP-glucose 4,6-dehydratase (EC 4.2.1.46).
+creator Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A        4    335  PF01370 Epimerase
+feature 52 63 4 square solid SITE
+  FT   SITE          8     14  NP_BIND_NAD Potential
+sequence
+  ............................................MMNILVTGGSG.....
+  FIGSALIRYIINHT......QDFVINIDKLT.YAANQSALREVEN........NPRYVFE
+  KVDICD....LNVIENIFEKY...QPDAVMHLAAES.............HVDRSISGAAD
+  FVQTNIVGTYTLLEVAKNYWHTLD.EAKKTTFRFHHISTDEVYGDLSLSEP.........
+  ......AFTEQSPYHPSSPYSASKAASNHLVQAWHR.....TYGLPVIITNSSNNY.GAY
+  Q.............HAEKLIPLMISNAVMGKP.LPIYG......DGQQIRDWLFVEDHVQ
+  ASYLVLTK...GRVGENYNI.GGNCEKTNLEVVKRICQLLEELAPSKPNHIKYYEDLMTF
+  VKDRPGHDVRYSLDCS...KIHAELGWQPQIT.FEQGLRQTVKWYLFNSSSS........
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name RFBB_RHISN
+descrip Probable dTDP-glucose 4,6-dehydratase (EC 4.2.1.46).
+creator Rhizobium sp. (strain NGR234).Bacteria;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A        3    328  PF01370 Epimerase
+feature 52 63 4 square solid SITE
+  FT   SITE          7     13  NP_BIND_NAD Potential
+sequence
+  .............................................MRILVTGGAG.....
+  FIGSALVRYLVSIN.......AEVLNVDKLT.YAGNLASLKPVEG........LRNYRFL
+  RADICD....RVAINEAFETF...QPDYVIHLAAES.............HVDRSITGADD
+  FVQTNVNGTFTMLETARQYWSNLS.QNRKAFFKMLHVSTDEVYGSLGDRGQ.........
+  .......FEEVSPYDPSSPYSASKAASDHFATAWQR.....TYGLPVVISNCSNNY.GPF
+  H.............FPEKLIPLMILNALDRKP.LPVYG......TGSNIRDWLYVDDHAR
+  ALWLIVRE...GRPGEKYNV.GGRNELRNIDVVNRICLLLDELSPNASH....YGDLITF
+  VKDRPGHDARYAIDAT...KLETELGWKAQEN.FDTGIRKTVEWYLENGWWWQPLRDKVY
+  SGERLGLLEKA.................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name ACBB_ACTS5
+descrip dTDP-glucose 4,6-dehydratase (EC 4.2.1.46).
+creator Actinoplanes sp. (strain 50/110).Bacteria;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A        3    316  PF01370 Epimerase
+feature 52 63 4 square solid SITE
+  FT   SITE          7     13  NP_BIND_NAD Potential
+sequence
+  .............................................MKILVTGGAG.....
+  FIGSHFVTSLISGDIATPQPVTQVTVVDKLG.YGGNLRNLAEASA........DPRFSFV
+  RGDICD....EGLIEGLMAR.....HDTVAHFAAET.............HVDRSVVASGP
+  FVASNLVGTQVLLDAALRHH..........IGRFLHVSTDEVYGSIDTGSW.........
+  .......AEGHPLA.PNSPYAASKAGSDLLALAYHQ.....THGMDVVVTRCSNNY.GPR
+  Q.............FPEKMIPLFVTRLLDGLD.VPVYG......DGRNIRDWLHVSDHCR
+  GLALALGA...GRAGEVYHI.GGGWEATNLELTEILLEACG...........ARRSRISF
+  VTDRKGHDRRYSLDYS...KIAGELGYRPRVD.FTDGIAETVAWYRANRSWWTDGNRWAD
+  GRRSLPAIGVRGPS..............................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name STRE_STRGR
+descrip dTDP-glucose 4,6-dehydratase (EC 4.2.1.46).
+creator Streptomyces griseus.Bacteria;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A        5    314  PF01370 Epimerase
+feature 47 81 4 square solid SITE
+  FT   SITE          4     30  NP_BIND_NAD By similarity
+sequence
+  ...........................................MTTHLLVTGAAG.....
+  FIGSQYVRTLLGPGG...PPDVVVTALDALT.YAGNPDNLAAVRG........HPRYRFE
+  RGDICD.....APGRRVMAG.....QDQVVHLAAES.............HVDRSLLDASV
+  FVRTNVHGTQTLLDAATRHG..........VASFVQVSTDEVYGSLEHGSW.........
+  .......TEDEPLR.PNSPYSASKASGDLLALAHHV.....SHGLDVRVTRCSNNY.GPR
+  Q.............FPEKLIPRFITLLMDGHR.VPLYG......DGLNVREWLHVDDHVR
+  GIEAVRTR...GRAGRVYNI.GGGATLSNKELVGLLLEAAG...........ADWGSVEY
+  VEDRKGHDRRYAVDST...RIQRELGFAPAVD.LADGLAATVAWYHKHRSWWEPLVPAGS
+  LPA.........................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name TGDS_HUMAN
+descrip dTDP-D-glucose 4,6-dehydratase (EC 4.2.1.46).
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A       20    335  PF01370 Epimerase
+sequence
+  ............................MSAACWEEPWGLPGGFAKRVLVTGGAG.....
+  FIASHMIVSLVEDY.....PNYMIINLDKLD.YCASLKNLETISN........KQNYKFI
+  QGDICD....SHFVKLLFETE...KIDIVLHFAAQT.............HVDLSFVRAFE
+  FTYVNVYGTHVLVSAAHEAR..........VEKFIYVSTDEVYGGSLDKEF.........
+  .......DESSPKQ.PTNPYASSKAAAECFVQSYWE.....QYKFPVVITRSSNVY.GPH
+  Q.............YPEKVIPKFISLLQHNRK.CCIHG......SGLQTRNFLYATDVVE
+  AFLTVLKK...GKPGEIYNI.GTNFEMSVVQLAKELIQLIKET.........NSESEMEN
+  WVDYVNDRPTNDMRYPMKSEKIHGLGWRPKVP.WKEGIKKTIEWYRENFHNWKNVEKALE
+  PFPV........................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name SPSJ_BACSU
+descrip Spore coat polysaccharide biosynthesis protein spsJ.
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A        5    314  PF01370 Epimerase
+sequence
+  ...........................................MAKSYLITGGAG.....
+  FIGLTFTKLMLRET......DARITVLDKLT.YASHPEEMEKLKQ........NSRFRFV
+  KGDISV....QEDIDRAFDE....TYDGVIHFAAES.............HVDRSISQAEP
+  FITTNVMGTYRLAEAVLKGK..........AKKLIHISTDEVYGDLKADDP.........
+  ......AFTETTPLSPNNPYSASKASSDLLVLSYVK.....THKLPAIITRCSNNY.GPY
+  Q.............HSEKMIPTIIRHAKQGLP.VPLYG......DGLQIRDWLFAEDHCR
+  AIKLILEK...GTDGEVYNI.GGGNERTNKELASVILKHLG............CEELFAH
+  VEDRKGHDRRYAINAS...KLKNELGWRQEVT.FEEGIARTIQWYTDNDR..........
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name GALE_METJA
+descrip Putative UDP-glucose 4-epimerase (EC 5.1.3.2) (Galactowalden
+creator Methanococcus jannaschii.Archaea;
+type    PROTEIN
+group 1
+feature 48 469 1 square solid PFAM-A
+  FT   PFAM-A        2    303  PF01370 Epimerase
+feature 47 90 4 square solid SITE
+  FT   SITE          1     32  NP_BIND_NAD Potential
+sequence
+  ..............................................MILVTGGAG.....
+  FIGSHIVDKLIEN.......NYDVIILDNLT..TGNKNNINPK.............AEFV
+  NADIRD.....KDLDEKINFK...DVEVVIHQAAQI.............NVRNSVENPVY
+  DGDINVLGTINILEMMRKYD.........IDKIVFASSGGAVYGEPNYLPV.........
+  .......DENHPIN.PLSPYGLSKYVGEEYIKLYNR.....LYGIEYAILRYSNVY.GER
+  QDPK..........GEAGVISIFIDKMLKNQS.PIIFG......DGNQTRDFVYVGDVAK
+  ANLMALN.....WKNEIVNI.GTGKETSVNELFDIIKHEIG...........FRGEAIYD
+  KP.REGEVYRIYLDI....KKAESLGWKPEID.LKEGIKRVVNWMKNNNRT.........
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name EXOB_RHIME
+descrip UDP-glucose 4-epimerase (EC 5.1.3.2) (Galactowaldenase).
+creator Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 48 470 1 square solid PFAM-A
+  FT   PFAM-A        6    325  PF01370 Epimerase
+sequence
+  ..........................................MQNNNILVVGGAG.....
+  YIGSHTCLQLAAK.......GYQPVVYDNLS..NGHEEFVKWG..............VLE
+  KGDIRD....RQRLDEVLARH...KPRAILHFAAMI.............EVGESVKDPAA
+  FYDNNVIGTLTLLSAALAAG..........IDAFVFSSTCATYGLPDSVPM.........
+  .......DESHKQA.PINPYGRTKWICEQALKDYGL.....YKGLRSVILRYFNAA.GAD
+  FEGRIGEWHE....PETHAIPLAIDAALGRREGFKVFGTDYDTRDGTCVRDYIHVLDLAD
+  AHVRAVDYLLEGGESVALNL.GTGTGTTVKELLDAIEKVA............KRPFNIGY
+  AERREGDSTTLVANND...KARQVLGWEPQYD..LAAITESAWNWHSRRNQGG.......
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name GALE_LACCA
+descrip UDP-glucose 4-epimerase (EC 5.1.3.2) (Galactowaldenase) (UDP
+creator Lactobacillus casei.Bacteria;
+type    PROTEIN
+group 1
+feature 48 470 1 square solid PFAM-A
+  FT   PFAM-A        3    324  PF01370 Epimerase
+feature 47 90 4 square solid SITE
+  FT   SITE          2     33  NP_BIND_NAD Potential
+sequence
+  .............................................MTIAVLGGAG.....
+  YIGSHTVKQLLAA.......GEDVVVLDNLI..TGHRKAVDPRA.............RFY
+  QGDIRD....YHFLSQVFSQE...KIDGIVHFAAFS.............IVPESMKDPLK
+  YFDNNTGGMITLLEAMNQFG..........IKKIVFSSTAATYGEPKQVPI.........
+  .......KETDPQV.PTNPYGESKLAMEKIMHWADV.....AYGLKFVALRYFNVA.GAM
+  PDGSIGEDHH....PETHIVPIILQVAAGTRTGLQIYGDDYPTKDGTNVRDYVHVVDLAD
+  AHILALKYLDAGNKSSAFNI.GSAHGFSNLEILNAARKVT............GQEIPATM
+  GPRRAGDPSTLIASSE...KARDILGWKPNYD.DIDKIIETAWNWHENHPEGFGDRN...
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name RFBE_SALTI
+descrip CDP-tyvelose-2-epimerase (EC 5.1.3.-).
+creator Salmonella typhi.Bacteria;
+type    PROTEIN
+group 1
+feature 48 467 1 square solid PFAM-A
+  FT   PFAM-A        3    337  PF01370 Epimerase
+sequence
+  .............................................MKLLITGGCG.....
+  FLGSNLASFALSQ.......GIDLIVFDNLS.RKGATDNLHWLSSLG........NFEFV
+  HGDIRN....KNDVTRLITKY...MPDSCFHLAGQV.............AMTTSIDNPCM
+  DFEINVGGTLNLLEAVRQYN.........SNCNIIYSSTNKVYGDLEQYKYNETETRYTC
+  VDKPNGYDESTQLD.FHSPYGCSKGAADQYMLDYAR.....IFGLNTVVFRHSSMY.GGR
+  QFATYDQG......WVGWFCQKAVEIKNGINKPFTISG......NGKQVRDVLHAEDMIS
+  LYFTALANVS.KIRGNAFNI.GGTIVNSLSLLELFKLLEDYCN..........IDMRFTN
+  LPVRESDQRVFVADIK...KITNAIDWSPKVS.AKDGVQKMYDWTSSI............
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name 1a9y_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 47 51 0 square solid STRUCT
+  FT   STRUCT        2      6  STRAND
+feature 61 72 3 square solid STRUCT
+  FT   STRUCT       11     22  HELIX
+feature 83 88 0 square solid STRUCT
+  FT   STRUCT       26     31  STRAND
+feature 99 107 3 square solid STRUCT
+  FT   STRUCT       40     48  HELIX
+feature 118 121 0 square solid STRUCT
+  FT   STRUCT       53     56  STRAND
+feature 131 140 3 square solid STRUCT
+  FT   STRUCT       62     71  HELIX
+feature 148 151 0 square solid STRUCT
+  FT   STRUCT       76     79  STRAND
+feature 171 176 3 square solid STRUCT
+  FT   STRUCT       86     91  HELIX
+feature 178 198 3 square solid STRUCT
+  FT   STRUCT       93    113  HELIX
+feature 213 220 0 square solid STRUCT
+  FT   STRUCT      118    125  STRAND
+feature 220 223 3 square solid STRUCT
+  FT   STRUCT      125    128  HELIX
+feature 259 277 3 square solid STRUCT
+  FT   STRUCT      148    166  HELIX
+feature 286 292 0 square solid STRUCT
+  FT   STRUCT      171    177  STRAND
+feature 294 296 0 square solid STRUCT
+  FT   STRUCT      179    181  STRAND
+feature 319 327 3 square solid STRUCT
+  FT   STRUCT      200    208  HELIX
+feature 334 337 0 square solid STRUCT
+  FT   STRUCT      215    218  STRAND
+feature 349 350 0 square solid STRUCT
+  FT   STRUCT      230    231  STRAND
+feature 352 355 0 square solid STRUCT
+  FT   STRUCT      233    236  STRAND
+feature 355 369 3 square solid STRUCT
+  FT   STRUCT      236    250  HELIX
+feature 374 380 0 square solid STRUCT
+  FT   STRUCT      255    261  STRAND
+feature 387 389 0 square solid STRUCT
+  FT   STRUCT      267    269  STRAND
+feature 389 400 3 square solid STRUCT
+  FT   STRUCT      269    280  HELIX
+feature 418 421 0 square solid STRUCT
+  FT   STRUCT      286    289  STRAND
+feature 436 445 3 square solid STRUCT
+  FT   STRUCT      304    310  HELIX
+feature 454 467 3 square solid STRUCT
+  FT   STRUCT      318    331  HELIX
+sequence
+  .............................................MRVLVTGGSG.....
+  YIGSHTCVQLLQN.......GHDVIILDNLC..NSKRSVLPVIERLG......GKHPTFV
+  EGDIRN....EALMTEILHDH...AIDTVIHFAGLK.............AVGESVQKPLE
+  YYDNNVNGTLRLISAMRAAN..........VKNFIFSSAATVYGDQPKIPY.........
+  .......VESFPTGTPQSPFGKSKLMVEQILTDLQKA....QPDWSIALLRYFNPV.GAH
+  PSGDMGEDPQG...IPNNLMPYIAQVAVGRRDSLAIFGNDYPTEDGTGVRDYIHVMDLAD
+  GHVVAMEKLANKPGVHIYNL.GAGVGNSVLDVVNAFSKACG............KPVNYHF
+  APRREGDLPAYWADAS...KADRELNWRVTRT.LDEMAQDTWHWQSRHPQGYPD......
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}
+{
+name GALE_YERPE
+descrip UDP-glucose 4-epimerase (EC 5.1.3.2) (Galactowaldenase) (UDP
+creator Yersinia pestis.Bacteria;
+type    PROTEIN
+group 1
+feature 48 470 1 square solid PFAM-A
+  FT   PFAM-A        3    333  PF01370 Epimerase
+feature 47 90 4 square solid SITE
+  FT   SITE          2     33  NP_BIND_NAD Potential
+sequence
+  .............................................MYVLVTGGSG.....
+  YIGSHTCVQLIEA.......GYKPVILDNLC..NSKSSVLARIHSLT......GYTPELY
+  AGDIRD....RTLLDSIFAAH...PIHAVIHFAGLK.............AVGESVNRPLE
+  YYNNNVFGTLVLLEAMRAAQ..........VKNLIFSSSATVYGDQPQIPY.........
+  .......VESFPTGSPSSPYGRSKLMVEQILQDVQLA....DPQWNMTILRYFNPV.GAH
+  PSGLMGEDPQG...IPNNLMPFIAQVAVGRRESLAIFGNGYPTPDGTGVRDYIHVVDLAD
+  GHVAAMKTLHGKPGVHIFNL.GAGVGHSVLQVVAAFSKAC............GKPLAYHF
+  APRREGDLPAYWADAT...KAAEQLGWRVSRS..LDEMAADTWHWQSKNPQGYPD.....
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................
+}

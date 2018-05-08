@@ -1,0 +1,602 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref4/test/1cpt_ref4</aln-name>
+<sequence seq-type="Protein">
+<seq-name>NOR2_CYLTO</seq-name>
+<seq-info>
+<accession>Q12599</accession>
+<nid>NOR2_CYLTO</nid>
+<definition>Cytochrome P450 55A3 (EC 1.14.-.-) (Cytochrome P450NOR2).</definition>
+<organism>Cylindrocarpon tonkinense (Cylindrocarpon lichenicola).Eukar</organism>
+<ec>1.14.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>141</fstart><fstop>374</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>4</fstart><fstop>79</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000393 Pfam-B_393</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>357</fstart><fstop>357</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------mhatedetttiprfpfqrasafeppaefarlrane-pisqvelfdgsl--awlvvkhedvcrva--tderlskertrlgfpelsag-gkaaaknk--------ptfvdm--dapahmnqrsmvepfft--edhvenlrpyiketvqgllndmvang-----ceepvdliekfalpvpsyiiytilgvp---------fedleylteqnairsng--------------sgtaqeaaaanqqllkylaklvdqrlqep------kddligrlvdqqlv-----pghieksdavqiaflllvagnatmvnmialgvvtlmqnpsqleelkadp--------------------tlvpgfveelcryhtgssm--amkrvakedmelgg-----kliragegiiasnqsanrdedvfp-npdvfdmhrdfd----------------------srdglgfgfgphrciaellakaeleivfetlfatlpdlrvsi-pldeiectpr-hkdvgiv-rlpvkw------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1cl6_A</seq-name>
+<seq-info>
+<accession>1cl6_A</accession>
+<nid>1cl6_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>17</fstart><fstop>24</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>27</fstart><fstop>31</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>37</fstart><fstop>41</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>44</fstart><fstop>52</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>56</fstart><fstop>57</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>70</fstart><fstop>75</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>82</fstart><fstop>84</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>89</fstart><fstop>94</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>98</fstart><fstop>101</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>103</fstart><fstop>126</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>134</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>136</fstart><fstop>139</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>143</fstart><fstop>153</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>157</fstart><fstop>171</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>177</fstart><fstop>200</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>206</fstart><fstop>213</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>222</fstart><fstop>234</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>237</fstart><fstop>253</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>255</fstart><fstop>263</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>265</fstart><fstop>278</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>287</fstart><fstop>290</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>294</fstart><fstop>296</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>299</fstart><fstop>301</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>306</fstart><fstop>309</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>311</fstart><fstop>314</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>351</fstart><fstop>368</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>373</fstart><fstop>374</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>378</fstart><fstop>380</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>382</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>392</fstart><fstop>394</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>396</fstart><fstop>398</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------apsfpfsrasgpeppaefaklratn-pvsqvklfdgsl--awlvtkhkdvcfva--tseklskvrtrqgfpelsas-gkqaakak--------ptfvdm--dppehmhqrsmveptft--peavknlqpyiqrtvddlleqmkqkg----cangpvdlvkefalpvpsyiiytllgvp---------fndleyltqqnairtng--------------sstareasaanqelldylailveqrlvep------kddiisklcteqvk-----pgnidksdavqiaflllvagnatmvnmialgvatlaqhpdqlaqlkanp--------------------slapqfveelcryhtasal--aikrtakedvmigd-----klvranegiiasnqsanrdeevfe-npdefnmnrkwp----------------------pqdplgfgfgdhrciaehlakaelttvfstlyqkfpdlkva-vplgkinytpl-nrdvgiv-dlpvif------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>C141_MYCTU</seq-name>
+<seq-info>
+<accession>O08362</accession>
+<nid>C141_MYCTU</nid>
+<definition>Putative cytochrome P450 141 (EC 1.14.-.-).</definition>
+<organism>Mycobacterium tuberculosis.Bacteria;</organism>
+<ec>1.14.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>216</fstart><fstop>347</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>2</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000393 Pfam-B_393</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>87</fstart><fstop>185</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB056571 Pfam-B_56571</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>346</fstart><fstop>346</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>225</fstart><fstop>245</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>294</fstart><fstop>314</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------mtstsiptfpfdrpvptepspmlselrnsc-pvapielpsght--awlvtrfddvkgvl--sdkrfscraaahpssppfvp-fvqlc-----------psllsi--dgpqhtaarrllaqgln--pgfiarmrpvvqqivdnalddlaaae-------ppvdfqeivsvpigeqlmakllgve---------pktvhelaahvdaamsvceig------------deevsrrwsalctmvidilhrklaep-------gddllstiaqanrq-----qstmtdeqvvgmlltvviggvdtpiavitnglasllhhrdqyerlvedp--------------------grvaraveeivrfnpatei--ehlrvvtedvviag-----talsagspaftsitsanrdsdqfl-dpdefdvern------------------------pnehiafgygphacpasaysrmclttfftsltqrfpqlqlar-pfedlerrgkglhsvgik-ellvtwpt----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CPXP_BRAJA</seq-name>
+<seq-info>
+<accession>Q59203</accession>
+<nid>CPXP_BRAJA</nid>
+<definition>Cytochrome P450 BJ-1 (EC 1.14.14.-) (Cytochrome P450 112).</definition>
+<organism>Bradyrhizobium japonicum.Bacteria;</organism>
+<ec>1.14.14.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>392</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>2</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB000393 Pfam-B_393</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>350</fstart><fstop>350</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------mseqqplptlpmwrvdhiepspemlalrang-pihrvrfpsghe--gwwvtgydeakavl--sdaafrpagmppaaftpdsv-ilgs------------pgwlvsh-egreharlraivapafs--drrvkllvqqveaiaahlfetlaaqp-------qpadlrrhlsfplpamvisalmgvl---------yedhaffaglsdevmthqhes-----------gprsasrlaweelrayirgkmrdkrqdp------ddnlltdllaavd------qgkaseeeavglaagmlvaghestvaqiefgllamfrhpqqrerlvgdp--------------------slvdkaveeilrmyppgagwdgimryprtdvtiag-----ehipaeskvlvglpatsfdphhfd-dpeifdierq------------------------ekphlafsygphacigvalarlelkvvfgsifqrlpalrlav-apeqlklrke-iitggfe-qfpvlw------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1oxa_</seq-name>
+<seq-info>
+<accession>1oxa_</accession>
+<nid>1oxa_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>9</fstart><fstop>11</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>15</fstart><fstop>25</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>28</fstart><fstop>33</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>36</fstart><fstop>41</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>44</fstart><fstop>52</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>56</fstart><fstop>57</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>72</fstart><fstop>74</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>79</fstart><fstop>85</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>89</fstart><fstop>91</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>96</fstart><fstop>105</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>110</fstart><fstop>114</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>117</fstart><fstop>131</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>136</fstart><fstop>139</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>139</fstart><fstop>142</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>146</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>165</fstart><fstop>174</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>178</fstart><fstop>204</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>210</fstart><fstop>216</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>218</fstart><fstop>219</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>223</fstart><fstop>224</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>227</fstart><fstop>258</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>260</fstart><fstop>268</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>270</fstart><fstop>283</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>290</fstart><fstop>294</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>298</fstart><fstop>300</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>303</fstart><fstop>305</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>310</fstart><fstop>313</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>315</fstart><fstop>318</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>353</fstart><fstop>370</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>375</fstart><fstop>376</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>380</fstart><fstop>382</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>398</fstart><fstop>400</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------atvpdlesdsfhvdwystyaelreta-pvtpvr-flgqd--awlvtgydeakaal--sdlrlssdpkkkypgvevef-paylgfpedvrnyfatnmgts---dppthtrlrklvsqeft--vrrveamrprveqitaelldevgdsg--------vvdivdrfahplpikvicellgvd---------eaargafgrwsseilvmd-------------peraeqrgqaarevvnfildlverrrtep------gddllsalisvqddd----dgrlsadeltsialvlllagfeasvsligigtylllthpdqlalvradp--------------------salpnaveeilryiappe---tttrfaaeeveigg-----vaipqystvlvangaanrdpsqfp-dphrfdvtrd------------------------trghlsfgqgihfcmgrplaklegevalralfgrfpalslg-idaddvvwrrs-lllrgid-hlpvrldg----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1cpt_</seq-name>
+<seq-info>
+<accession>1cpt_</accession>
+<nid>1cpt_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>9</fstart><fstop>16</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>19</fstart><fstop>22</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>24</fstart><fstop>37</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>40</fstart><fstop>43</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>51</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>57</fstart><fstop>65</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>70</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>82</fstart><fstop>91</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>102</fstart><fstop>104</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>109</fstart><fstop>118</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>123</fstart><fstop>145</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>150</fstart><fstop>153</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>153</fstart><fstop>156</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>161</fstart><fstop>170</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>174</fstart><fstop>185</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>193</fstart><fstop>215</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>223</fstart><fstop>229</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>239</fstart><fstop>270</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>272</fstart><fstop>280</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>282</fstart><fstop>296</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>303</fstart><fstop>306</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>310</fstart><fstop>312</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>315</fstart><fstop>317</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>322</fstart><fstop>325</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>327</fstart><fstop>330</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>365</fstart><fstop>383</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>383</fstart><fstop>388</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>393</fstart><fstop>394</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>403</fstart><fstop>405</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>407</fstart><fstop>412</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------mdaratipehiartvilpqgyaddeviypafkwlrdeq-plamahiegydp--mwiatkhadvmqig-kqpglfsnaegseilydqnne--afmrsisg-gcphvidsltsm--dppthtayrgltlnwfq--pasirkleenirriaqasvqrlldfd-------gecdfmtdcalyyplhvvmtalgvp---------eddeplmlkltqdffg---------------veaarrfhetiatfydyfngftvdrrscp------kddvmsllanskld-----gnyiddkyinayyvaiataghdttssssggaiiglsrnpeqlalaksdp--------------------aliprlvdeavrwtapvk---sfmrtaladtevrg-----qnikrgdrimlsypsanrdeevfs-npdefditrf------------------------pnrhlgfgwgahmclgqhlaklemkiffeellpklksvels--gpprlvat---nfvggpk-nvpirftka---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>Y4VG_RHISN</seq-name>
+<seq-info>
+<accession>Q53215</accession>
+<nid>Y4VG_RHISN</nid>
+<definition>Probable cytochrome P450 127A1 (EC 1.14.14.-).</definition>
+<organism>Rhizobium sp. (strain NGR234).Bacteria;</organism>
+<ec>1.14.14.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>197</fstart><fstop>413</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>12</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB048744 Pfam-B_48744</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>364</fstart><fstop>364</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------msdlrrkrvktnpipdhvppalvrhfslftspgmaptpngdphaavacvhddgp-pifyspsntrdgrgtwvitrardqrrvl-edtetfsshrsifas--------algehw--------pviplel--dppahgvfrallnplfs--srrvlaleptiharagalidciakek-------tscdvmkdfalpftfsvflsflgls---------qrrsevlvgwvsdllhgnaek----------------rraaarsvvafidemaamrrksp------avdfmtfvvqakie-----grslteeevrgigvlflvagldtvaaaigfdmaylarnpkhqellrnep--------------------arlglaaeellraystvq----iirvatkdiefeg-----vpiregdyvscpamianrdpsefk-cpntidlarq------------------------dnqhtafgygphlchgahlarreiviglrewlaripafrike-gtapithgg---hvfgis-niiltwa-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1phd_</seq-name>
+<seq-info>
+<accession>1phd_</accession>
+<nid>1phd_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>11</fstart><fstop>13</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>25</fstart><fstop>27</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>29</fstart><fstop>37</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>44</fstart><fstop>47</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>49</fstart><fstop>51</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>53</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>59</fstart><fstop>67</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>72</fstart><fstop>73</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>81</fstart><fstop>86</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>98</fstart><fstop>110</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>112</fstart><fstop>136</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>138</fstart><fstop>141</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>141</fstart><fstop>144</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>148</fstart><fstop>158</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>162</fstart><fstop>176</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>184</fstart><fstop>204</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>210</fstart><fstop>215</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>218</fstart><fstop>219</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>222</fstart><fstop>223</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>226</fstart><fstop>241</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>244</fstart><fstop>257</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>259</fstart><fstop>267</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>269</fstart><fstop>282</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>288</fstart><fstop>292</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>296</fstart><fstop>298</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>301</fstart><fstop>303</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>308</fstart><fstop>311</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>313</fstart><fstop>315</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>344</fstart><fstop>346</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>351</fstart><fstop>368</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>373</fstart><fstop>374</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>382</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>389</fstart><fstop>390</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>394</fstart><fstop>396</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>399</fstart><fstop>401</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------nlaplpphvpehlvfdfdmynpsnlsagvqeawavlqesnvpdlvwtrcngg---hwiatrgqlireay-edyrhfssecpfipreagea---yd-------------fiptsm--dppeqrqfralanqvvg--mpvvdklenriqelacslieslrpqg--------qcnftedyaepfpirifmllaglp---------eediphlkyltdqmtr---------------pdgsmtfaeakealydylipiieqrrqkp------gtdaisivangqvn-----grpitsdeakrmcglllvggldtvvnflsfsmeflakspehrqelierp--------------------eripaaceellrrfslv----adgriltsdyefhg-----vqlkkgdqillpqmlsglderena-cpmhvdfsrq------------------------kvshttfghgshlclgqhlarreiivtlkewltripdfsia--pgaqiqhks--givsgvq-alplvwdpattkav----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1lgf_A</seq-name>
+<seq-info>
+<accession>1lgf_A</accession>
+<nid>1lgf_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>5</fstart><fstop>7</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>9</fstart><fstop>10</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>13</fstart><fstop>14</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>16</fstart><fstop>19</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>24</fstart><fstop>27</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>32</fstart><fstop>35</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>38</fstart><fstop>46</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>51</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>78</fstart><fstop>80</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>85</fstart><fstop>96</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>99</fstart><fstop>123</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>127</fstart><fstop>129</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>129</fstart><fstop>132</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>137</fstart><fstop>146</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>150</fstart><fstop>162</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>170</fstart><fstop>193</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>199</fstart><fstop>210</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>213</fstart><fstop>226</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>229</fstart><fstop>243</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>246</fstart><fstop>252</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>256</fstart><fstop>270</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>279</fstart><fstop>281</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>285</fstart><fstop>287</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>290</fstart><fstop>292</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>297</fstart><fstop>300</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>302</fstart><fstop>305</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>340</fstart><fstop>357</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>362</fstart><fstop>363</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>371</fstart><fstop>373</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>380</fstart><fstop>383</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>385</fstart><fstop>387</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------dprplhirrqgldpadellaa--galtrvtaet----hwmatahavvrqvm-gdhqqfstrrrwdprdeigg--kgifrprel------vgnlmdy--dppehtrlrrkltpgft--lrkmqrmapyieqivndrldemerag-------spadliafvadkvpgavlcelvgvp---------rddrdmfmklchghldas--------------lsqkrraalgdkfsryllamiarerkep------gegmigavvaeyg-------ddatdeelrgfcvqvmlagddnisgmiglgvlamlrhpeqidafrgde--------------------qsaqravdeliryltvpys--ptpriaredltlag-----qeikkgdsvicslpaanrdpalap-dvdrldvtre------------------------piphvafghgvhhclgaalarlelrtvftelwrrfpalrlad-paqdtefrlt-tpayglt-elmvaw------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>YJIB_BACSU</seq-name>
+<seq-info>
+<accession>O34374</accession>
+<nid>YJIB_BACSU</nid>
+<definition>Putative cytochrome P450 yjiB (EC 1.14.-.-).</definition>
+<organism>Bacillus subtilis.Bacteria;</organism>
+<ec>1.14.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>76</fstart><fstop>151</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>181</fstart><fstop>396</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>27</fstart><fstop>68</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB020396 Pfam-B_20396</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>349</fstart><fstop>349</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------mnvlnrrqalqrallngknkqdayhpfpwyesmrkda-pvsfdeen-----qvwsvflyddvkkvv-gdkelfs---------------scmpqqtssi-----gnsiinm--dppkhtkirsvvnkaft--prvmkqwepriqeitdeliqkfqgrs--------efdlvhdfsyplpvivisellgvp---------sahmeqfkawsdllvstpkdkseeae-----kafleerdkceeelaaffagiieekrnkp------eqdiisilveaee-----tgeklsgeelipfctlllvagnetttnlisnamysiletpgvyeelrshp--------------------elmpqaveealrfrapap---vlrriakrdteigg-----hlikegdmvlafvasanrdeakfd-rphmfdirrh------------------------pnphiafghgihfclgaplarleanialtslisafphmecvs-itpiens-----viyglk-sfrvkm------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1f4t_A</seq-name>
+<seq-info>
+<accession>1f4t_A</accession>
+<nid>1f4t_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>2</fstart><fstop>11</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>14</fstart><fstop>16</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>21</fstart><fstop>23</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>26</fstart><fstop>34</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>39</fstart><fstop>40</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>46</fstart><fstop>54</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>63</fstart><fstop>65</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>68</fstart><fstop>70</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>75</fstart><fstop>80</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>89</fstart><fstop>108</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>115</fstart><fstop>117</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>117</fstart><fstop>120</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>124</fstart><fstop>134</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>141</fstart><fstop>155</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>166</fstart><fstop>181</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>184</fstart><fstop>190</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>196</fstart><fstop>208</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>211</fstart><fstop>227</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>231</fstart><fstop>237</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>240</fstart><fstop>250</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>257</fstart><fstop>261</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>265</fstart><fstop>267</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>270</fstart><fstop>272</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>277</fstart><fstop>280</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>282</fstart><fstop>285</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>320</fstart><fstop>338</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>338</fstart><fstop>348</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>357</fstart><fstop>366</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------mydwfsemrkkd-pvyydgn-------iwqvfsyrytkevl-nnfskfssdltgyherledlrngkirfdiptr-----ytmlts---dpplhdelrsmsadifs--pqklqtletfirettrslldsidpre---------ddivkklavplpiiviskilglp---------iedkekfkewsdlvafrlg---------------kpgeifelgkkyleligyvkdhlnsg-------tevvsrvvnsn----------lsdieklgyiillliagnetttnlisnsvidftrfn-lwqriree---------------------nlylkaieealrysppvm---rtvrktkervklgd-----qtieegeyvrvwiasanrdeevfh-dgekfipdrn------------------------pnphlsfgsgihlclgaplarleariaieefskrfrhieil--dtekvpn----evlngyk-rlvvrlksn---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1pkf_A</seq-name>
+<seq-info>
+<accession>1pkf_A</accession>
+<nid>1pkf_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>16</fstart><fstop>25</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>28</fstart><fstop>31</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>36</fstart><fstop>39</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>42</fstart><fstop>50</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>54</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>58</fstart><fstop>60</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>64</fstart><fstop>69</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>72</fstart><fstop>80</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>87</fstart><fstop>101</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>103</fstart><fstop>124</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>130</fstart><fstop>131</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>137</fstart><fstop>139</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>141</fstart><fstop>148</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>153</fstart><fstop>169</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>182</fstart><fstop>205</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>212</fstart><fstop>221</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>228</fstart><fstop>259</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>261</fstart><fstop>269</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>271</fstart><fstop>284</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>291</fstart><fstop>296</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>300</fstart><fstop>302</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>305</fstart><fstop>307</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>312</fstart><fstop>317</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>317</fstart><fstop>320</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>348</fstart><fstop>350</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>355</fstart><fstop>372</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>377</fstart><fstop>378</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>383</fstart><fstop>384</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>393</fstart><fstop>395</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>397</fstart><fstop>399</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------afdfkpfapgyaedpfpaierlreat-pifywdegr-----swvltryhdvsavf--rderfavsreewessaeyss-aipelsdmkk-----yglfgl---ppedharvrklvnpsft--sraidllraeiqrtvdqlldarsgqe--------efdvvrdyaegipmraisallkvp---------aecdekfrrfgsataralgvglvprv-----deetktlvasvteglallhgvlderrrnp-----lendvltmllqaead-----gsrlstkelvalvgaiiaagtdttiyliafavlnllrspealelvkaep--------------------glmrnaldevlrfenilri--gtvrfarqdleycg-----asikkgemvfllipsalrdgtvfs-rpdvfdvrrd------------------------tsaslaygrgphvcpgvslarleaeiavgtifrrfpemkl---ketpvfgyh--pafrnie-slnvilkps---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CYPE_BACSU</seq-name>
+<seq-info>
+<accession>O08336</accession>
+<nid>CYPE_BACSU</nid>
+<definition>Probable bifunctional P-450:NADPH-P450 reductase 2 [Includes</definition>
+<organism>Bacillus subtilis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>475</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Cytochrome P450.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>472</fstart><fstop>1053</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>NADPH-P-450 reductase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>486</fstart><fstop>625</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Flavodoxin-like.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>658</fstart><fstop>872</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>FAD-binding.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>658</fstart><fstop>872</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00667 FAD_binding_1</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>900</fstart><fstop>1017</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00175 NAD_binding_1</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>485</fstart><fstop>628</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00258 flavodoxin</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>451</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>403</fstart><fstop>403</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------mkqasaipqpktygplknlphlekeqlsq-slwriadelgpi--frfdfpgvssvfvsghnlvaevcdekrfdknlgk---glqkvrefgg-----dglftsw-thepnwqkahrillpsfs--qkamkgyhsmmldiatqliqkwsrln-----pneeidvaddmtrltldtiglcgfnyrfnsfyrdsqhpfitsmlralkeamnq-skrlglqdk-mmv-ktklqfqkdievmnslvdrmiaerkanpde---nikdllslmlyakdpv---tgetlddeniryqiitfliaghettsgllsfaiycllthpeklkkaqeeadrvltddt---peykqiqqlkyirmvlnetlrlyptap---afslyakedtvlgge----ypiskgqpvtvlipklhrdqnawgpdaedfrperfedpssip-----------------hhaykpfgngqracigmqfalqeatmvlglvlkhfelinh---tgyelkike--altikpd-dfkitvkprktaai-nvqrkeqadikaetkpketkpk--------hgtpllvlfgsnlgtaegiagelaaqgrqmgftaetaplddyigklpeegavvivtasyngappdnaagfvewlkeleegqlkgvsyavfgcgnrswastyqriprliddmmkakgasrltaigegdaaddfeshreswenrfwketmdafdineiaqkedrpslsitflseatetpvakaygafegivlenrelqtaastrstrhieleipagktykegdhigilpknsrelvqrvlsrfglqsnhvikvsgsahmahlpmdrpikvvdllssyvelqepasrlqlrelasytvcpphqkeleqlvsddgiykeqvlakrltmldfledypacempferflallpslkpryysissspkvhanivsmtvgvvkasawsgrgeyrgvasnylaelntgdaaacfirtpqsgfqmpndpetpmimvgpgtgiapfrgfiqarsvlkkegstlgeallyfgcrrpdhddlyreeldqaeqdglvtirrcysrvenepkgyvqhllkqdtqklmtliekgahiyvcgdgsqmapdvertlrlayeaekaasqeesavwlqklqdqrryvkdvwtgm
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>C505_FUSOX</seq-name>
+<seq-info>
+<accession>Q9Y8G7</accession>
+<nid>C505_FUSOX</nid>
+<definition>Bifunctional P-450:NADPH-P450 reductase (Fatty acid omega-hy</definition>
+<organism>Fusarium oxysporum.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>480</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Cytochrome P450.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>481</fstart><fstop>1066</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>NADPH-P-450 reductase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>500</fstart><fstop>641</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Flavodoxin-like.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>671</fstart><fstop>880</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>FAD-binding.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>671</fstart><fstop>880</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00667 FAD_binding_1</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>909</fstart><fstop>1026</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00175 NAD_binding_1</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>499</fstart><fstop>644</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00258 flavodoxin</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>456</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>407</fstart><fstop>407</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------maesvpipepp-gyplignlgeftsnpls-dlnrladtygpi--frlrlgakapifvssnslinevcdekrfkktlks---vlsqvregvh-----dglftaf-edepnwgkahrilvpafg--plsirgmfpemhdiatqlcmkfarhg-----prtpidtsdnftrlaldtlalcamdfrfysyykeelhpfieamgdfltesgnr-nrrppfapn-flyraanekfygdialmksvadevvaarkasps----drkdllaamlngvdpq---tgeklsdenitnqlitfliaghettsgtlsfamyqllknpeayskvqkevdevvgrgp---vlvehltklpyisavlretlrlnspit---afgleaiddtflggk----ylvkkgeivtallsrghvdpvvygndadkfipermlddefarlnkey------------pncwkpfgngkracigrpfawqesllamvvlfqnfnftmtd--pnyaleikq--tltikpd-hfyinatlrhgmtptelehvlagngatsssthnikaaanldakagsgkpmaifygsnsgtcealanrlasdapshgfsattvgpldqakqnlpedrpvvivtasyegqppsnaahfikwmedldgndmekvsyavfacghhdwvetfhripklvdstlekrggtrlvpmgsadaatsdmfsdfeawedivlwpglkekykisdeesggqkgllvevstprktslrqdveealvvaektltksgpakkhieiqlpsamtykagdylailplnpkstvarvfrrfslawdsflkiqsegpttlptnvaisafdvfsayvelsqpatkrnilalaeatedkdtiqelerlagdayqaeispkrvsvldllekfpavalpissylamlppmrvrqysissspfadpskltltyslldapslsgqgrhvgvatnflshltagdklhvsvrasseafhlpsdaektpiicvaagtglaplrgfiqeraamlaagrtlapallffgcrnpeiddlyaeeferwekmgavdvrraysratdksegckyvqdrvyhdradvfkvwdqgakvficgsreigkavedvcvrlaiekaqqngrdvteemarawfersrnerfatdvfd--
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1e9x_A</seq-name>
+<seq-info>
+<accession>1e9x_A</accession>
+<nid>1e9x_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>19</fstart><fstop>24</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>26</fstart><fstop>37</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>40</fstart><fstop>45</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>55</fstart><fstop>64</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>70</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>77</fstart><fstop>83</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>93</fstart><fstop>101</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>107</fstart><fstop>125</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>131</fstart><fstop>136</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>136</fstart><fstop>152</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>155</fstart><fstop>158</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>163</fstart><fstop>174</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>178</fstart><fstop>181</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>189</fstart><fstop>214</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>225</fstart><fstop>231</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>243</fstart><fstop>274</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>276</fstart><fstop>292</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>296</fstart><fstop>299</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>305</fstart><fstop>317</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>324</fstart><fstop>328</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>332</fstart><fstop>334</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>337</fstart><fstop>339</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>344</fstart><fstop>347</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>349</fstart><fstop>352</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>367</fstart><fstop>370</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>376</fstart><fstop>379</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>390</fstart><fstop>392</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>397</fstart><fstop>415</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>415</fstart><fstop>419</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>423</fstart><fstop>425</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>428</fstart><fstop>429</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>436</fstart><fstop>437</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>442</fstart><fstop>447</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------msavalprvsgghdehghleefrtdpig-lmqrvrdecgdv--gtfqlagkqvvllsgshanefffragdddldqaka--ypfmtpifg------egvvfda-sperrkemlhnaalr-----geqmkghaa---tiedqvrrmiadwge-----ageidlldffaeltiytssacligkkfr-------dqldgrfaklyhelerg-tdplayvdp-ylpiesfrrrdearnglvalvadimngrianpptd-ksdrdmldvliavkaet---gtprfsadeitgmfismmfaghhtssgtaswtlielmrhrdayaavideldelygdgr--svsfhalrqipqlenvlketlrlhppli---ilmrvakgefevqg-----hrihegdlvaaspaisnripedfp-dphdfvparyeqprqedlln--------------rwtwipfgagrhrcvgaafaimqikaifsvllreyefemaqppesyrndhsk--mvvqlaq-pacvryrrrt--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CP51_SORBI</seq-name>
+<seq-info>
+<accession>P93846</accession>
+<nid>CP51_SORBI</nid>
+<definition>Cytochrome P450 51 (EC 1.14.13.70) (CYPLI) (P450-LIA1) (Obtu</definition>
+<organism>Sorghum bicolor (Sorghum) (Sorghum vulgare).Eukaryota;</organism>
+<ec>1.14.13.70</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>182</fstart><fstop>483</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>12</fstart><fstop>41</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB052041 Pfam-B_52041</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>42</fstart><fstop>78</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB093801 Pfam-B_93801</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>434</fstart><fstop>434</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------mdladipqqqrlmaglalvvatviflklllsfrsgggk-krlpptip-gapvvgglvkfmrgpip-mireqyaalgsv--ftvpiitrritfligpevsahffkgneaemsqqev--yrfnvptfg------pgvvfdv--dysvrqeqfrfftealr--anklrsyvd---qmvaeaeeyfskwge-----sgtvdlkyelehliiltasrcllgrevr-------eklfddvsalfhdldng-iqpisvlfp-ylpipahkrrdkararlaeifatiiksrkasgqs----eedmlqcfidskykn----grpttegevtglliaalfagqhtssitstwtgaymlrfkqyfaeaveeqkdvmkrhgdk-idhdilaemdvlyrcikealrlhppli---mllrqshsdftvttkegkeydipkghivatspsfanrlphiyk-npdsydpdrfgpgreedkaag-------------afsyisfgggrhgclgepfaylqikaiwthllrnfefelvsp---fpendwn-amvvgikg-evmvnykrrklvvdn---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CP51_SCHPO</seq-name>
+<seq-info>
+<accession>Q09736</accession>
+<nid>CP51_SCHPO</nid>
+<definition>Probable cytochrome P450 51 (EC 1.14.13.70) (CYPLI) (P450-LI</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).Eukaryota;</organism>
+<ec>1.14.13.70</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>34</fstart><fstop>491</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>442</fstart><fstop>442</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------mafslvsillsialawyvgyiinqltsrn-skrppivfhwipfvgsavaygmdpyv-ffrecrakygdv--ftfvcmgrkmtaflgvqgndflfngkladlnaeeay-shlttpvfg------kdvvydi--pnhvfmehkkfiksglg--fsqfrsyvp---lilnemdaflstspdfgpgkegvadllktmpvmtiytasrtlqgaevr-------kgfdagfadlyhdldqg-fspvnfvfp-wlplprnrrrdrahkimqktylkiikdrrssten---pgtdmiwtlmsckyrd----grplkeheiagmmiallmagqhtsaativwvlallgskpeiiemlweeqkrvvgenle--lkfdqykdmpllnyviqetlrlhppih---shmrkvkrdlpvpgs---kivipannyllaapgltateeeyft-hatdfdpkrwndrvnedenaeqidygyglvtkgaaspylpfgagrhrcigeqfaymhlstiiskfvhdytwtligk---vpnvdys--smvalplgpvkiawkrrn--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CP51_HUMAN</seq-name>
+<seq-info>
+<accession>Q16850</accession>
+<nid>CP51_HUMAN</nid>
+<definition>Cytochrome P450 51A1 (EC 1.14.13.70) (CYPLI) (P450LI) (Stero</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>1.14.13.70</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>61</fstart><fstop>497</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>18</fstart><fstop>60</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB019864 Pfam-B_19864</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>449</fstart><fstop>449</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand By similarity</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>24</fstart><fstop>44</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mlllgllqaggsvlgqamekvtggnllsmlliacaftlslvylirlaaghlvqlpag-vksppyifspipflghaiafgkspie-flenayekygpv--fsftmvgktftyllgsdaaallfnsknedlnaedvy-srlttpvfg------kgvaydv--pnpvfleqkkmlksgln--iahfkqhvs---iieketkeyfeswge-----sgeknvfealseliiltashclhgkeir-------sqlnekvaqlyadldgg-fshaawllpgwlplpsfrrrdrahreikdifykaiqkrrqsqek----iddilqtlldatykd----grpltddevagmliglllagqhtssttsawmgfflardktlqkkcyleqktvcgenlpp-ltydqlkdlnlldrciketlrlrppim---immrmartpqtvag-----ytippghqvcvsptvnqrlkdswv-erldfnpdrylqdnpasge---------------kfayvpfgagrhrcigenfayvqiktiwstmlrlyefdlidg--yfptvnyt--tmihtpe-npvirykrrsk-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CPD6_HUMAN</seq-name>
+<seq-info>
+<accession>P10635</accession>
+<nid>CPD6_HUMAN</nid>
+<definition>Cytochrome P450 2D6 (EC 1.14.14.1) (CYPIID6) (P450-DB1) (Deb</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>1.14.14.1</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>34</fstart><fstop>494</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00067 p450</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>443</fstart><fstop>443</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>METAL_Iron heme axial ligand</fnote></fitem>
+</ftable>
+<length>1179</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------mglealvplavivaiflllvdlmhrrqrwaaryppgpl-plpglgnllhvdfqntpycfdqlrrrfgdv--fslqlawtpvvvlnglaavrealvthgedtadrppv-pitqilgfg---prsqgvflar--ygpawreqrrfsvstlrnlglgkksleqwvteeaaclcaafanhs------grpfrpnglldkavsnviasltcgrrfe--yddprflrlldlaqeglkeesgflrevlnavpvllhipalagkvlrfqkafltqldelltehrmtwdpaqpprdlteaflaemekakgnpessfndenlrivvadlfsagmvttsttlawglllmilhpdvqrrvqqeiddvigqvr--rpemgdqahmpyttavihevqrfgdivpl--gmthmtsrdievqg-----fripkgttlitnlssvlkdeavwe-kpfrfhpehfldaqghfvk---------------peaflpfsagrraclgeplarmelflfftsllqhfsfsvptg-qprpshhgvf-aflvsps-pyelcavpr---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

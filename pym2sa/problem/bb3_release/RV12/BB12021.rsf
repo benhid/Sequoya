@@ -1,0 +1,134 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1hpi_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 5 6 0 square solid STRUCT
+  FT   STRUCT        2      3  STRAND
+feature 13 17 3 square solid STRUCT
+  FT   STRUCT        9     13  HELIX
+feature 24 26 3 square solid STRUCT
+  FT   STRUCT       20     22  HELIX
+feature 44 46 3 square solid STRUCT
+  FT   STRUCT       34     36  HELIX
+feature 61 63 0 square solid STRUCT
+  FT   STRUCT       48     50  STRAND
+feature 72 75 0 square solid STRUCT
+  FT   STRUCT       57     60  STRAND
+sequence
+  ...MERLSED.DPAAQALEYRHDASSVQ.....HPAY.EEGQTCLNCLLYTDASA...QD
+  WGPCSV..FPGKLVSANGWCTAWVAR..
+}
+{
+name 1hip_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 13 18 3 square solid STRUCT
+  FT   STRUCT       12     17  HELIX
+feature 24 26 3 square solid STRUCT
+  FT   STRUCT       23     25  HELIX
+feature 29 32 3 square solid STRUCT
+  FT   STRUCT       28     31  HELIX
+feature 39 41 3 square solid STRUCT
+  FT   STRUCT       38     40  HELIX
+feature 44 46 3 square solid STRUCT
+  FT   STRUCT       43     45  HELIX
+feature 50 51 0 square solid STRUCT
+  FT   STRUCT       49     50  STRAND
+feature 61 64 0 square solid STRUCT
+  FT   STRUCT       60     63  STRAND
+feature 73 75 0 square solid STRUCT
+  FT   STRUCT       70     72  STRAND
+sequence
+  SAPANAVAAD.NATAIALKYNQDATKSERVAAARPGLPPEEQHCADCQFMQADAAGATDE
+  WKGCQL..FPGKLINVNGWCASWTLKAG
+}
+{
+name 2hip_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 24 27 3 square solid STRUCT
+  FT   STRUCT       16     19  HELIX
+feature 44 46 3 square solid STRUCT
+  FT   STRUCT       31     33  HELIX
+feature 50 55 0 square solid STRUCT
+  FT   STRUCT       37     42  STRAND
+feature 61 64 0 square solid STRUCT
+  FT   STRUCT       45     48  STRAND
+feature 67 69 3 square solid STRUCT
+  FT   STRUCT       51     53  HELIX
+feature 74 75 0 square solid STRUCT
+  FT   STRUCT       58     59  STRAND
+sequence
+  ...EPRAED.....GHAHDYVNEAADASG....HPRY.QEGQLCENCAFWGEAVQ...DG
+  WGRCTHPDFDEVLVKAEGWCSVYAPAS.
+}
+{
+name 1hlq_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 13 17 3 square solid STRUCT
+  FT   STRUCT       10     14  HELIX
+feature 24 26 3 square solid STRUCT
+  FT   STRUCT       21     23  HELIX
+feature 44 46 3 square solid STRUCT
+  FT   STRUCT       38     40  HELIX
+feature 61 62 0 square solid STRUCT
+  FT   STRUCT       51     52  STRAND
+feature 74 75 0 square solid STRUCT
+  FT   STRUCT       62     63  STRAND
+sequence
+  ..AAPLVAET.DANAKSLGYVADTTKADKTK..YPKH.TKDQSCSTCALYQGKTA....P
+  QGACPL..FAGKEVVAKGWCSAWAKKA.
+}
+{
+name HPIS_THIPF
+descrip High potential iron-sulfur protein (HiPIP).
+creator Thiocapsa pfennigii.Bacteria;
+type    PROTEIN
+group 1
+feature 10 84 0 square solid PFAM-A
+  FT   PFAM-A        9     77  PF01355 HIPIP
+feature 44 44 1 square solid SITE
+  FT   SITE         43     43  METAL_Ironsulfur 4Fe4S By similarity
+feature 47 47 1 square solid SITE
+  FT   SITE         46     46  METAL_Ironsulfur 4Fe4S By similarity
+feature 64 64 1 square solid SITE
+  FT   SITE         59     59  METAL_Ironsulfur 4Fe4S By similarity
+feature 80 80 1 square solid SITE
+  FT   SITE         73     73  METAL_Ironsulfur 4Fe4S By similarity
+sequence
+  .EDLPHVDAATNPIAQSLHYIEDANASERNPVTKTELPGSEQFCHNCSFIQADSG....A
+  WRPCTL..YPGYTVSEDGWCLSWAHKTA
+}
+{
+name HPIS_PARSP
+descrip High potential iron-sulfur protein (HiPIP).
+creator Paracoccus sp. (strain ATCC 12084).Bacteria;
+type    PROTEIN
+group 1
+feature 9 84 0 square solid PFAM-A
+  FT   PFAM-A        8     68  PF01355 HIPIP
+feature 44 44 1 square solid SITE
+  FT   SITE         37     37  METAL_Ironsulfur 4Fe4S By similarity
+feature 47 47 1 square solid SITE
+  FT   SITE         40     40  METAL_Ironsulfur 4Fe4S By similarity
+feature 64 64 1 square solid SITE
+  FT   SITE         50     50  METAL_Ironsulfur 4Fe4S By similarity
+feature 80 80 1 square solid SITE
+  FT   SITE         64     64  METAL_Ironsulfur 4Fe4S By similarity
+feature 2 2 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Pyrrolidone carboxylic acid
+sequence
+  .QDLPPLDPS.AEQAQALNYVKDTAEAAD....HPAH.QEGEQCDNCMFFQADSQ.....
+  ..GCQL..FPQNSVEPAGWCQSWTAQN.
+}

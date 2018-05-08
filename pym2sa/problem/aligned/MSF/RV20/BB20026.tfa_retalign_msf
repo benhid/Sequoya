@@ -1,0 +1,958 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:  1314  Type: P  octubre 20, 2015 11:12  Check:    0  ..
+
+ Name: DPO1_TREPA Len:  1314  Check: 1852  Weight:  1.00
+ Name: DPO1_RHILE Len:  1314  Check: 6939  Weight:  1.00
+ Name: DPO1_HAEIN Len:  1314  Check: 7682  Weight:  1.00
+ Name: DPO1_CHLAU Len:  1314  Check: 7725  Weight:  1.00
+ Name: DPO1_SYNY3 Len:  1314  Check: 6542  Weight:  1.00
+ Name: 1bgx_T     Len:  1314  Check: 4492  Weight:  1.00
+ Name: DPO1_THEFI Len:  1314  Check: 8028  Weight:  1.00
+ Name: DPO1_DEIRA Len:  1314  Check: 7802  Weight:  1.00
+ Name: EX53_BACSU Len:  1314  Check: 2636  Weight:  1.00
+ Name: EX53_STRCO Len:  1314  Check: 3939  Weight:  1.00
+ Name: EX53_MYCTU Len:  1314  Check: 7368  Weight:  1.00
+ Name: EX53_BACHD Len:  1314  Check: 5192  Weight:  1.00
+ Name: EX53_BUCBP Len:  1314  Check: 6409  Weight:  1.00
+ Name: EX53_BUCAI Len:  1314  Check: 6870  Weight:  1.00
+ Name: EX53_BUCAP Len:  1314  Check: 4757  Weight:  1.00
+ Name: EX53_AQUAE Len:  1314  Check: 5042  Weight:  1.00
+ Name: EX53_UREPA Len:  1314  Check: 7717  Weight:  1.00
+ Name: EX53_MYCPN Len:  1314  Check: 9534  Weight:  1.00
+ Name: EX53_MYCGE Len:  1314  Check: 3533  Weight:  1.00
+ Name: EX53_MYCPU Len:  1314  Check: 1185  Weight:  1.00
+ Name: EX9_ECOLI  Len:  1314  Check: 2568  Weight:  1.00
+ Name: EX9_VIBCH  Len:  1314  Check: 9040  Weight:  1.00
+ Name: 1exn_A     Len:  1314  Check: 1713  Weight:  1.00
+ Name: 1b43_A     Len:  1314  Check: 9696  Weight:  1.00
+ Name: DPO1_HELPJ Len:  1314  Check: 5098  Weight:  1.00
+ Name: DPO1_MYCLE Len:  1314  Check: 6465  Weight:  1.00
+ Name: DPO1_LACLA Len:  1314  Check:  667  Weight:  1.00
+ Name: DPO1_STRPN Len:  1314  Check: 8423  Weight:  1.00
+ Name: DPO1_BACSU Len:  1314  Check: 9538  Weight:  1.00
+ Name: DPO1_ANATH Len:  1314  Check: 8756  Weight:  1.00
+ Name: DPO1_RICFE Len:  1314  Check: 7961  Weight:  1.00
+ Name: DPO1_BORBU Len:  1314  Check: 2905  Weight:  1.00
+
+//
+
+           1                                                   50
+DPO1_TREPA ---------- ----M----- ---------- ---------- ----------
+DPO1_RHILE ---------- ----M----- ---------- ---------- PNSIWTSSDA
+DPO1_HAEIN ---------- ----M----- ---------- ---------- ----------
+DPO1_CHLAU ---------- ----M----- ---------- ---------- ----------
+DPO1_SYNY3 ---------- ----M----- ---------- ---------- ----------
+1bgx_T     ---------- ----M----- ---------- ---------- ----RGMLPL
+DPO1_THEFI ---------- ----M----- ---------- ---------- -------TPL
+DPO1_DEIRA ---------- ----MVFCGD GGLSCESIDF ALCCLRGRSG NYVQSRILPM
+EX53_BACSU ---------- ----M----- ---------- ---------- ----------
+EX53_STRCO ---------- ----M----- ---------- ---------- ----------
+EX53_MYCTU ---------- ----M----- ---------- ---------- ----------
+EX53_BACHD ---------- ----M----- ---------- ---------- ----------
+EX53_BUCBP ---------- ----M----- ---------- ---------- ----------
+EX53_BUCAI ---------- ----M----- ---------- ---------- ----------
+EX53_BUCAP ---------- ----M----- ---------- ---------- ----------
+EX53_AQUAE ---------- ----M----- ---------- ---------- ----------
+EX53_UREPA ---------- ----M----- ---------- ---------- ----------
+EX53_MYCPN ---------- ----M----- ---------- ---------- ----------
+EX53_MYCGE ---------- ----M----- ---------- ---------- ----------
+EX53_MYCPU ---------- ----M----- ---------- ---------- ----------
+EX9_ECOLI  ---------- ----M----- ---------- ------RGLF PISHPAVACS
+EX9_VIBCH  ---------- ----M----- ---------- ---------- --------GS
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     GVPIGEIIPR KEIEL----- ---------- ---------- ----------
+DPO1_HELPJ ---------- ----M----- ---------- ---------- ----------
+DPO1_MYCLE ---------- ----M----- ---------- ---------- -----SAAMT
+DPO1_LACLA ---------- ----M----- ---------- ---------- ----------
+DPO1_STRPN ---------- ----M----- ---------- ---------- ----------
+DPO1_BACSU ---------- ----M----- ---------- ---------- ----------
+DPO1_ANATH ---------- ----M----- ---------- ---------- ----------
+DPO1_RICFE ---------- ----M----- ---------- ---------- ----------
+DPO1_BORBU ---------- ----M----- ---------- ---------- ----------
+
+           51                                                 100
+DPO1_TREPA -------Q-- -EK------- ------KTLY LLDAYGLIYR SYHAF----A
+DPO1_RHILE RAIHARMK-- -KG------- ------DHLF LVDGSGFIFR AFHAL-----
+DPO1_HAEIN ----AQIA-- -TN------- ------P-LV LVDGSSYLYR AFHAF-----
+DPO1_CHLAU ---------- -AY------- ------PLLV LVDGHALAYR AFFAL----R
+DPO1_SYNY3 ----FMSA-- -KS------- ------PLLL LVDGHSLAFR AYYAF-GLSK
+1bgx_T     FE-------- -PK------- ------GRVL LVDGHHLAYR TFHAL-----
+DPO1_THEFI FDLEE----- -PP------- ------KRVL LVDGHHLAYR TFYAL-----
+DPO1_DEIRA ADASPDPS-- -KP------- ------DTLV LIDGHALAFR SYFAL-----
+EX53_BACSU ---------- -NN------- ------NKLL LVDGMALLFR AFFAT---AV
+EX53_STRCO ---------- ---------- ---------- LLDTASLYFR AYFGV-----
+EX53_MYCTU ---------- -RS------- -------PLV LLDGASMWFR SFFGV-----
+EX53_BACHD ---------- -HS------- ------PVLL LIDGFNLLSR GYFATSYGKD
+EX53_BUCBP ----IIYK-- -KN------- ------VNYL LIDGTSYLYR AYYAF-----
+EX53_BUCAI -----NHI-- -KN------- ------NPVI IIDGSLYLYA SYYAF-----
+EX53_BUCAP -----PYT-- -KK------- ------KPII IVDGSLYLYR SYFTF-----
+EX53_AQUAE ---------- -KT------- --------LY ILDGSSFVYR SFFAL-----
+EX53_UREPA ---------- -KK------- --------AI VIDGNSLIYR AFHAT---YK
+EX53_MYCPN ---------- -KN------- --------AI LIDGNSLAYR AYFAT---WQ
+EX53_MYCGE ---------- -KK------- --------AI LIDGNSLAYR AYFAT---WK
+EX53_MYCPU ---TKSGS-- -KS------- ------EKFL LIDGNYLVHR SYYVS-----
+EX9_ECOLI  GIECYPYRLI FKG------- --VIVAVHLL IVDALNLIRR IHAVQ-----
+EX9_VIBCH  NLDGFDYN-- -KGLTSPYFL WFLVMSLHLV IIDALNLIRR VHSAQ-----
+1exn_A     ---------- -RN------- --------LX IVDGTNLGFR --FKH-----
+1b43_A     ---------- -EN------- ----LYGKKI AIDALNAIYQ -FLST-----
+DPO1_HELPJ ---EQPVI-- -KE------- ------GTLA LIDTFAYLFR SYYMS---AK
+DPO1_MYCLE AEVCEDHT-- -KP------- -------MLM LLDGNSLAFR AFYAL----P
+DPO1_LACLA -------E-- -NK------- ------DRLL LIDGSSVAFR AFFAL--YNQ
+DPO1_STRPN ---------- -DK------- ------KKLL LIDGSSVAFR AFFAL--YQQ
+DPO1_BACSU -------T-- -ER------- ------KKLV LVDGNSLAYR AFFAL-----
+DPO1_ANATH ---------- ---------- -------KLV IFDGNSILYR AFFAL-----
+DPO1_RICFE -------T-- -QK------- ------NTLL LIDGYGFVFR AYYAQ-----
+DPO1_BORBU ---------- -KE------- --------LY LIDALNIIFR NYHVM----K
+
+           101                                                150
+DPO1_TREPA RAPLINDS-G AN-------- VSAVYGFFRS LHTLLCH-YR -------PRY
+DPO1_RHILE -PPLTRKTDG LP-------- IGAVSGFCNM LWKLLRD-AR NTDVGVTPTH
+DPO1_HAEIN -PSLTNAA-G EP-------- TSAMYGVLNM LKSLISQ-VQ -------PTH
+DPO1_CHLAU ESGLRSSR-G EP-------- TYAVFGFAQI LLTALAE-YR -------PDY
+DPO1_SYNY3 KGPLRTTA-G IP-------- TSVCFGFLNS LMQVMES-QK -------PAA
+1bgx_T     -KGLTTSR-G EP-------- VQAVYGFAKS LLKALKE--D -------GDA
+DPO1_THEFI --SLTTSR-G EP-------- VQMVYGFARS LLKALKE--D -------GQA
+DPO1_DEIRA -PPLNNSK-G EM-------- THAIVGFMKL LLRLARQ--K -------SNQ
+EX53_BACSU HRNFMINDSG VP-------- TNGVNGFLKH LITAVET-FQ -------PTH
+EX53_STRCO PDSVKAPD-G TP-------- VNAVRGLLDF IDRLVKD-HR -------PEH
+EX53_MYCTU PSSITAPD-G RP-------- VNAVRGFIDS MAVVITQ-QR -------PNR
+EX53_BACHD EAQLPRNEAG YY-------- INALRVFFPK LFQLIRE-HN -------VTH
+EX53_BUCBP -LKFKNNF-N KP-------- CGAIYGMLNM LRSMLLK-YP -------YSN
+EX53_BUCAI -CNLENTS-G KP-------- CGAIYGMLKI IDNIFKKYKN -------LKK
+EX53_BUCAP -QNFNSNE-E NP-------- SGAIYGMLKT IQNILNKNYN -------SKK
+EX53_AQUAE -PPLSTSK-G FP-------- TNAIYGFLRM LFSLIKK-ER -------PQY
+EX53_UREPA QAEWAVEKQL MP-------- TNAIKLVASM IFKILNQ-EQ -------FTY
+EX53_MYCPN QVEFAKLH-N LP-------F NNAIRTMLMM CWNLLQS-KQ -------YDY
+EX53_MYCGE QVEYAKQN-N LP-------F NNAIRTMLLM CWNLIKA-NV -------YQY
+EX53_MYCPU -FKFKNNF-- ---------- RSTIYLFFQT IIKIIKN-LN -------PEN
+EX9_ECOLI  ---------G SP-------- --CVETCQHA LDQLIMH-SQ -------PTH
+EX9_VIBCH  ---------P DP-----NDI TRTAETTTRT LQRIINE-AQ -------PSH
+1exn_A     -----NNS-K KP-------- --FASSYVST IQSLAKS-YS -------ART
+1b43_A     ---IRQKD-G TPLMDSKGRI TSHLSGLFYR TINLMEAGIK -------P--
+DPO1_HELPJ NKPLTNDK-G FP-------- TGLLTGLVGM VKKFYKDRKN -------MPF
+DPO1_MYCLE TENFKTRG-G LT-------- TNAVYGFTAM LINLLRE-EA -------PTH
+DPO1_LACLA IDRFKAPN-G LH-------- TNAIFAFHTM LSSLMER-IE -------PTH
+DPO1_STRPN LDRFKNVA-G LH-------- TNAIYGFQLM LSHLLER-VE -------PSH
+DPO1_BACSU -PLLSNDK-G VH-------- TNAVYGFAMI LMKMLED-EK -------PTH
+DPO1_ANATH -PELTTSN-N IP-------- TNAIYGFVNV ILKYLEQ-EK -------PDY
+DPO1_RICFE -QPLTSPK-G EP-------- VGALYGFASM LLKLLSD-FK -------PKH
+DPO1_BORBU NYPLLNTQ-G EN-------- VNAFIGFFKT LFFIIKE-KN -------PEH
+
+           151                                                200
+DPO1_TREPA FVAVFDSL-T PT--FRHVQY PAYKAKRDK- ---------- -TSAE--LYA
+DPO1_RHILE LAVIFDYS-A KT--FRKDLY DAYKANRSA- ---------- -PPEE--LIP
+DPO1_HAEIN IAVVFDAK-G KT--FRDEMF EQYKSHRPP- ---------- -MPDD--LRK
+DPO1_CHLAU AAVAFDVG-- RT--FRDDLY AEYKAGRAE- ---------- -TPEE--FYP
+DPO1_SYNY3 IAIAFDRR-E PT--FRHEAD GAYKSNRQE- ---------- -TPED--FAE
+1bgx_T     VIVVFDAK-A PS--FRHEAY GGYKAGRAP- ---------- -TPED--FPR
+DPO1_THEFI VVVVFDAK-A PS--FRHEAY EAYKAGRAP- ---------- -TPED--FPR
+DPO1_DEIRA VIVVFDPP-V KT--FRHEQY EGYKSGRAQ- ---------- -TPED--LPG
+EX53_BACSU VVCCWDMG-S KT--YRNDLF QDYKANRSA- ------P--- --PVE--LIP
+EX53_STRCO LVACMDADWR PH--WRVELI PSYKAHRVAE ERPAG-PDAE EVPDT--LSP
+EX53_MYCTU LAVCLDLDWR PQ--FRVDLI PSYKAHRVAE PEPNGQPDVE EVPDE--LTP
+EX53_BACHD VAVAWDVKRE DS--HRRQAF AFYKASRGE- ---------- -LPEA--LIE
+EX53_BUCBP IVVIFDSP-Q KT--FRNELF IPYKKNRPK- ---------- -MPND--LKE
+EX53_BUCAI IIIIFDSS-R KT--FRNKLF KEYKKNRSS- ---------- -MPDL--LVM
+EX53_BUCAP IIIIFDSS-K KN--FRNTIF KEYKSNRSA- ---------- -MPNK--LYV
+EX53_AQUAE LVVVFDAP-A KT--KREKIY ADYKKQRPK- ---------- -APDP--LKV
+EX53_UREPA GLIAMDAS-K QT--FRAQEY AAYKATRKP- ---------- -MDAK--LIV
+EX53_MYCPN GVISFDTK-A PT--FRDQLY SEYKSKRSK- ---------- -TPSE--LLV
+EX53_MYCGE GIVSFDTK-A PT--FRDQIY EGYKQKRVK- ---------- -TPVE--LLV
+EX53_MYCPU IFIAFDEE-G GT--WRHDLC KEYKSQRSK- ---------- -MEDE--FWN
+EX9_ECOLI  AVAVFDDE-N RSSGWRHQRL PDYKAGRPP- ---------- -MPEE--LHD
+EX9_VIBCH  MIAVFDHH-L SDRGWRAELL PTYKANRKP- ---------- -MPDV--LQQ
+1exn_A     TIVLGDKG-K SV--FRLEHL PEYKGNRDE- ------KYAQ RTEEEKALDE
+1b43_A     -VYVFDGE-P PE--FKKKEL EKRREAREE- ---------- -AEEK--WRE
+DPO1_HELPJ IVFALESQ-T KT--KRAEKL GEYKQNRKD- ---------- -APKE--MLL
+DPO1_MYCLE IAAAFDVS-R KT--FRSECY AGYKANRSS- ---------- -IPAE--FHG
+DPO1_LACLA VLIAFDAG-K TT--FRTEMF ADYKGGRSK- ---------- -TPDE--FRE
+DPO1_STRPN ILVAFDAG-K TT--FRTEMY ADYKGGRAK- ---------- -TPDE--FRE
+DPO1_BACSU MLVAFDAG-K TT--FRHGTF KEYKGGRQK- ---------- -TPPE--LSE
+DPO1_ANATH VAVAFDKR-G RE--ARKSEY EEYKANRKP- ---------- -MPDN--LQV
+DPO1_RICFE VAVVFDSG-G KN--FRHHIY PEYKANRPP- ---------- -PPED--LVV
+DPO1_BORBU LIITFDSE-V PT--FRKQKY PSYKATRDL- ---------- -PPDD--LIP
+
+           201                                                250
+DPO1_TREPA Q-IPL----- ---------- --------IE EILC--ALGI TVLRHDGFEA
+DPO1_RHILE Q-FGL----- ---------- --------IR EATR--AFNL PCIETEGFEA
+DPO1_HAEIN Q-IQP----- ---------- --------LH DMIR--ALGI PLLVVEGIEA
+DPO1_CHLAU Q-FER----- ---------- --------IK QLVQ--ALNI PIYTAEGYEA
+DPO1_SYNY3 D-LSY----- ---------- --------LQ QLLE--ALNL QTITYAGYEA
+1bgx_T     Q-LAL----- ---------- --------IK ELVD--LLGL ARLEVPGYEA
+DPO1_THEFI Q-LAL----- ---------- --------VK RLVD--LLGL VRLEAPGYEA
+DPO1_DEIRA Q-INR----- ---------- --------IR ALVD--ALGF PRLEEPGYEA
+EX53_BACSU Q-FDL----- ---------- --------AK EAAA--ELGI MNIGFAGYEA
+EX53_STRCO Q-VPV----- ---------- --------IE AVLD--ALGI ARVGVAGYEA
+EX53_MYCTU Q-VDM----- ---------- --------IM ELLD--AFGI AMAGAPGFEA
+EX53_BACHD Q-YET----- ---------- --------AT SLLE--EIGV AQVTIPPYEA
+EX53_BUCBP Q-ILP----- ---------- --------IH HIIK--HIGI PIISIPHVEA
+EX53_BUCAI Q-IQP----- ---------- --------LF EILK--KIGI KTLTIPGIEA
+EX53_BUCAP Q-IQP----- ---------- --------LF KILE--EIGI KTLSILGIEA
+EX53_AQUAE Q-IPV----- ---------- --------IK EILK--LAGI PLLELPGYEA
+EX53_UREPA Q-LPY----- ---------- --------LK KLFV--AMGF RIISQPGIEA
+EX53_MYCPN Q-IPV----- ---------- --------VK ESLR--HLGF LVCEQDGFEA
+EX53_MYCGE Q-IPL----- ---------- --------IK QALV--YLGF LVCEKDGFEA
+EX53_MYCPU I-FKA----- ---------- --------IR EILD--SINL NSGGFRGHEA
+EX9_ECOLI  E-MPA----- ---------- --------LR AAFE--QRGV PCWSTSGNEA
+EX9_VIBCH  G-IDA----- ---------- --------IQ DAWW--QLGI DSLLSEGDEA
+1exn_A     QFFEY----- ---------- --------LK DAFELCKTTF PTFTIRGVEA
+1b43_A     A-LEKGEIEE ARKYAQRATR VNEMLIEDAK KLLE--LMGI PIVQAPS-EG
+DPO1_HELPJ Q-IPI----- ---------- --------AL EWLQ--KMGF TCVEVGGFEA
+DPO1_MYCLE Q-IDI----- ---------- --------TK EVLG--ALGI TVFAEAGFEA
+DPO1_LACLA Q-LPF----- ---------- --------IK EMIE--KLGI RHYELANYEA
+DPO1_STRPN Q-FPF----- ---------- --------IR ELLD--HMGI RHYDLAQYEA
+DPO1_BACSU Q-MPF----- ---------- --------IR ELLD--AYQI SRYELEQYEA
+DPO1_ANATH Q-IPY----- ---------- --------VR EILY--AFNI PIIEFEGYEA
+DPO1_RICFE Q-LPL----- ---------- --------VR DVAS--NLNF PILEKNGYEA
+DPO1_BORBU Q-IGW----- ---------- --------IK EGLL--KAKI PIFEMEGYEA
+
+           251                                                300
+DPO1_TREPA DDLIATLAKR VA--AEHC-H VVIISSDKDV L-----QLVC --D---TV--
+DPO1_RHILE DDIIATYARQ AE--ATGA-D VTIVSSDKDL M-----QLVS --P---NV--
+DPO1_HAEIN DDVIGTLALQ AS--SLGK-K VLISTGDKDM A-----QLVD --D---NI--
+DPO1_CHLAU DDVIGTLARQ AT--ERGV-D TIILTGDSDV L-----QLVN --D---HV--
+DPO1_SYNY3 DDILGTLACQ GS--DAGY-Q VKILSGDRDL F-----QLVS PEK---NI--
+1bgx_T     DDVLASLAKK AE--KEGY-E VRILTADKDL Y-----QLLS --D---RI--
+DPO1_THEFI DDVLGTLAKK AE--REGM-E VRILTGDRDF F-----QLLS --E---KV--
+DPO1_DEIRA DDVIASLTRM AE--GKGY-E VRIVTSDRDA Y-----QLLD --E---HV--
+EX53_BACSU DDCIGTLADL FA--NEA--D ITVVTGDRDL L-----QLLT --D---KV--
+EX53_STRCO DDVIGTYTAR AT--G----P VDIVTGDRDL Y-----QLVD --D-ARGV--
+EX53_MYCTU DDVLGTLATR ER--RD---P VIVVSGDRDL L-----QVVA --DDPVPV--
+EX53_BACHD DDTIGAFACR WA--KEEKGH CFIYSNDRDL L-----QLLS --K---ST--
+EX53_BUCBP DDIIGTLATK LY--KKKY-F ILISTNDKDL A-----QLVN --I---HI--
+EX53_BUCAI DDVIGSLSYQ LE--KQGE-K ILILSHDKDM L-----QLVT --E---NI--
+EX53_BUCAP DDIIGSLAYK LE--QKGE-Q VLIVSHDKDM I-----QLIT --D---NI--
+EX53_AQUAE DDVIAYLAEK FS--QKGF-K VKIYSPDKDL L-----QLVS --E---NV--
+EX53_UREPA DDFVGSFSNL MN--KFDV-D TTIYSSDRDM L-----QLIN --K---NT--
+EX53_MYCPN DDLIGSYARL MT--QNNV-A VDIYSSDRDL L-----QLVD --S---MT--
+EX53_MYCGE DDLIGSYANL FT--KQEI-T VDIYSSDRDM L-----QLVN --A---FT--
+EX53_MYCPU DDVIATITSK FK--DEN--Q IYIFSRDKDL L-----QLID --K---NV--
+EX9_ECOLI  DDLAATLAVK VT--QAGH-Q ATIVSTDKGY C-----QLLS --P---TL--
+EX9_VIBCH  DDLVATLACK VA--AHQE-K VTIISTDKGY C-----QLLS --P---TL--
+1exn_A     DDXAAYIVKL IG--HLYD-H VWLISTDGDW D-----TLLT --D---KV--
+1b43_A     EAQAAYMAAK GS-------V YASASQDYDS LLFGAPRLVR --N---LTIT
+DPO1_HELPJ DDVIASLATL SP--Y----K TRIYSKDKDF N-----QLLS --D---KI--
+DPO1_MYCLE DDLIATLATQ AE--NEGY-R VLVVTGDRDA L-----QLVS --N---DV--
+DPO1_LACLA DDIIGTLDKM AEAPNVNF-D VTIVTGDKDM I-----QLVD --G---NT--
+DPO1_STRPN DDIIGTLDKL AE--QDGF-D ITIVSGDKDL I-----QLTD --E---HT--
+DPO1_BACSU DDIIGTLAKS AE--KDGF-E VKVFSGDKDL T-----QLAT --D---KT--
+DPO1_ANATH DDVIGSLVNQ FK--NTGL-D IVIITGDRDT L-----QLLD --K---NV--
+DPO1_RICFE DDIIATFAAK TA--ALGE-D VVVISSDKDL L-----QLMG --E---NI--
+DPO1_BORBU DDLLASFAKK AA--KNNY-L TYIISPDKDL L-----QTMS --E---YV--
+
+           301                                                350
+DPO1_TREPA --------QV LR--LDID-- ---HKWTCCD AAYVQQRW-T VMP----TQL
+DPO1_RHILE --------HM YD--SMKD-- ------KQIG IPDVIEKW-G VPP----EKM
+DPO1_HAEIN --------ML IN--TMNN-- ------SLLD RKGVIEKY-G IPP----ELI
+DPO1_CHLAU --------RV ----ALANPY GGKTSVTLYD LEQVRKRYDG LEP----DQL
+DPO1_SYNY3 --------SV LY--LTRNPF SSNTGYDELD WQGVVDKM-G VTP----AQI
+1bgx_T     --------HV LH--PEGY-- -------LIT PAWLWEKY-G LRP----DQW
+DPO1_THEFI --------SV LL--PDGT-- -------LVT PKDVQEKY-G VPP----ERW
+DPO1_DEIRA --------KV IA--NDFS-- -------LIG PAQVEEKY-G VTV----RQW
+EX53_BACSU --------SV AL--LQKG-- --IGNYKVYT KETFYEET-G VMP----KAL
+EX53_STRCO --------RV LY--PVKG-- --VGTLNLVD EAALREKY-G VDG----AGY
+EX53_MYCTU --------RV LY--LGRG-- --LAKATLFG PAEVAERY-G LPAHRAGAAY
+EX53_BACHD --------SQ II--SSKG-- ----KDLIYT EENFRNDY-N ISP----AQW
+EX53_BUCBP --------HV LI--GTSN-- ------IVLD ESKVKKKY-G IIP----KLI
+EX53_BUCAI --------NI FH--KKNN-- ------CIIT SEIIQEKY-G IKP----KEF
+EX53_BUCAP --------NV LN--ISKN-- ------SILT PEKIQEKY-G IYP----KEF
+EX53_AQUAE --------LV IN--PMND-- ------EVFT KERVIKKF-G VEP----QKI
+EX53_UREPA --------KL KL--LKTG-- --TSVMQEIN LTNFSLLNNG ILP----YQI
+EX53_MYCPN --------SV WL--CVKG-- --TKEMKEYN TDNFAEQFFG LTP----KQV
+EX53_MYCGE --------NV FL--CIKG-- --TKEMVMYN NENFKSLFYG LAP----YQV
+EX53_MYCPU --------YI TH--DNEL-- -----KNLIS IENFYQNF-Q LEP----DQI
+EX9_ECOLI  --------RI RD--YFQK-- ------RWLD APFIDKEF-G VQP----QQL
+EX9_VIBCH  --------QI RD--YFQQ-- ------RWLD EPFIAQEF-G VTP----AQL
+1exn_A     --------SR FS--FTTR-- ------REYH LRDXYEHH-N VDD---VEQF
+1b43_A     GKRKLPGKNV YV--EIKP-- ------ELII LEEVLKEL-K LTR----EKL
+DPO1_HELPJ --------AL FD--GKTE-- --------FL AKDCVEKY-G ILP----SQF
+DPO1_MYCLE --------TV LY--PRKG-- --VSELTRFT PEAVIEKY-G VTP----AQY
+DPO1_LACLA --------RV EI--SKKG-- --VAEFEEFT PDYLLEKM-G LTP----AQF
+DPO1_STRPN --------VV EI--SKKG-- --VAEFEAFT PDYLMEEM-G LTP----AQF
+DPO1_BACSU --------TV AI--TRKG-- --ITDVEFYT PEHVKEKY-G LTP----EQI
+DPO1_ANATH --------VV KIVSTKFD-- --KTVEDLYT VENVKEKY-G VWA----NQV
+DPO1_RICFE --------KI YD--PLKG-- ------KYIT EDDVVKKF-G TTS----DKL
+DPO1_BORBU --------KI LK--IENN-- ----SFIEMD NEYVTKKF-G VNS----FQI
+
+           351                                                400
+DPO1_TREPA LDLFSLMGDS SD-NVPGVRG IGPKTAAHLL HCFGTLDGIY ---RHTY---
+DPO1_RHILE IDLQAMTGDS VD-NVPGIPG IGPKTAAQLL EEYGDLDTLL ---ERAT---
+DPO1_HAEIN IDYLALMGDS AD-NIPGVAG VGEKTALGLL QGIGSMAEIY ANLEKVA---
+DPO1_CHLAU ADLRGLKGDT SD-NIPGVRG IGEKGAIALL KQFRSLDALL ---EQID---
+DPO1_SYNY3 VDFKALCGDK SD-CIPGING IGEKTAIKLL AEYETLEKVY ---ENLA---
+1bgx_T     ADYRALTGDE SD-NLPGVKG IGEKTARKLL EEWGSLEALL ---KNLD---
+DPO1_THEFI VDFRALTGDR SD-NIPGVAG IGEKTALRLL AEWGSVENLL ---KNLD---
+DPO1_DEIRA VDYRALTGDA SD-NIPGAKG IGPKTAAKLL QEYGTLEKVY ---EAAH--A
+EX53_BACSU IDIKALMGDS SD-NYPGVKG IGEKTAYKLI REYETIDRLL ---ENLS---
+EX53_STRCO ADLALLRGDP SD-GLPGVPG IGEKTAAKLL AEFGDLAGIQ ---AAVDDPK
+EX53_MYCTU AELALLRGDP SD-GLPGVPG VGEKTAATLL ARHGSLDQIM ---AAADDRK
+EX53_BACHD VDVKALLGDK SD-NIPGCPG VGEKSALPLI QQYGTIETLY ---EQIEDLD
+EX53_BUCBP PDLLGLMGDN SD-NIPGVPT VGKKTALILL KTFGSLENIY ---NNIE---
+EX53_BUCAI IDFLALMGDA TD-NIPGVPK IGIKTALFLI NKFSNIENIY ---NNIE---
+EX53_BUCAP IDLLALMGDS SD-NIPGVPK IGIKTALFLL KKFSNIKNIY ---NNIE---
+EX53_AQUAE PDYLALVGDK VD-NVPGIEG VGPKTAINIL KKYGSVENIL ---KNWE---
+EX53_UREPA IEYKGLVGDS SD-NLIGVKG IGPKTAINLL LKYDNIENIY ---TNLE---
+EX53_MYCPN IEYKGLVGDN SD-NLTGIKG IGPKKGIDLL KQYGTIDNIF ---ANFD---
+EX53_MYCGE VEYKGLVGDN SD-NLAGIKG IGPIKGIELL QQYGTIDNIY ---TNFN---
+EX53_MYCPU VDFKAIAGDS SD-NLKGIAG IGEKGAKNLL NNFKSLEKIF ---DSLE-ST
+EX9_ECOLI  PDYWGLAGIS SS-KVPGVAG IGPKSATQLL VEFQSLEGIY ---ENLD---
+EX9_VIBCH  TDYWGLTGVS SS-QIPGVAG IGPKAAKEIL NQFSSIEEAY ---ASPE---
+1exn_A     ISLKAIXGDL GD-NIRGVEG IGAKRGYNII REFGNVLDII ---DQLP---
+1b43_A     IELAILVG-- TDYNPGGIKG IGLKKALEIV RHSK------ ---DPLA---
+DPO1_HELPJ TDYQGIVGDS SD-NYKGVKG IGSKNAKELL QRLGSLEKIY ---ENLDLAK
+DPO1_MYCLE PDLAALRGDP SD-NLPGIPG VGEKTAAKWI VDYGSLQGLV ---DNVESVR
+DPO1_LACLA IDLKALMGDS SD-NYPGVTK VGEKTGLKLL QEFGSLENLY ---ENVD---
+DPO1_STRPN IDLKALMGDK SD-NIPGVTK VGEKTGIKLL LEHGSLEGIY ---ENID---
+DPO1_BACSU IDMKGLMGDS SD-NIPGVPG VGEKTAIKLL KQFDSVEKLL ---ESID---
+DPO1_ANATH PDYKALVGDQ SD-NIPGVKG IGEKSAQKLL EEYSSLEEIY ---QNLD---
+DPO1_RICFE REVMALIGDR SD-NIPGVPS IGPKTASSLI TQFGSVENIF ---NSLE---
+DPO1_BORBU KDYLAIVGDR SD-NIPGIKG IGAKGAANLL REFKTLDGIY ---SNLE---
+
+           401                                                450
+DPO1_TREPA -SL------- K---E-ALRT KI---VCGK- KDAFFSRSLI ELRDDVPCVF
+DPO1_RHILE -EI------- K---QVKRRE TI---LANI- DMARLSRDLV RLRTDVPLDL
+DPO1_HAEIN -EL------- PIRGAKKLGE KL---LAEK- NNADLSYTLA TIKTDVELNV
+DPO1_CHLAU -AA------- P-----KRYQ TL---LREQA EAARFSRQLA TIVTDVPVQL
+DPO1_SYNY3 -QI------- K--GALKTR- -L---DNGK- DDAMHSQMLA RIVVDVPLPV
+1bgx_T     -RL------- K---P-AIRE KI---LAHM- DDLKLSWDLA KVRTDLPLEV
+DPO1_THEFI -RV------- K---PDSLRR KI---EAHL- EDLHLSLDLA RIRTDLPLEV
+DPO1_DEIRA GTL------- K---PDGTRK KL---LDSE- ENVKFSHDLS CMVTDLPLDI
+EX53_BACSU -LL------- P---K-GQQG KI---QQGL- SDLEMSRKLA EIHC------
+EX53_STRCO ARL------- T---P-TQRK RL---TEAG- PYLAVAPKVV RVAA------
+EX53_MYCTU TTM------- A---K-GLRT KL---LAAS- AYIKAADRVV RVAT------
+EX53_BACHD PKY------- ----K-RYHK KL---VAGE- ESVIISKELA TITT------
+EX53_BUCBP -KIPKCLIKK A---K-TIYN NL---HTYK- KLAFLSQKLA TIKT------
+EX53_BUCAI -KIKSLPLRN A---K-NISI QL---KNNK- ERALLSYKLA RIKL------
+EX53_BUCAP -KIQSLPFRN A---K-NAAI QL---KNYK- KTAFLSYQLA KIKL------
+EX53_AQUAE -KF-QREFPR A---K----- --------K- EDLELSYKLV KLYT------
+EX53_UREPA -KI------- A---P-SVKN KL---IEHK- DMAFLSKKLA AIQT------
+EX53_MYCPN -KL------- S---K-ALQT IL---QGQI- DTAKKFSFLA SIKT------
+EX53_MYCGE -NL------- P---N-QLQK LL---NNQK- EIAKTFSFLA KIKT------
+EX53_MYCPU NLI------- S---K-AQKQ KI---RDGK- EQALFLKKIV TLNK------
+EX9_ECOLI  -AV------- A---E-KWRK KL---ETHK- EMAFLCRDIA RLQT------
+EX9_VIBCH  -LP------- A---K--YRK KL---DPHI- EMARICKQVS ALKT------
+1exn_A     -LP------- G---KQKYIQ NL---NASE- E--LLFRNLI LV--------
+1b43_A     -KF------- Q---K-QSDV DL---YAIK- E--FFLNPPV TDNY------
+DPO1_HELPJ NLL------- S---P-KMYQ AL---IQDK- GSAFLSKELA TLERGCIKEF
+DPO1_MYCLE GKV------- G---E-ALRT HLASVVRNR- ELTELVKDVP LVQTSDTLRL
+DPO1_LACLA -SL------- K---ASKMKE NL---IADK- EMAFLSQQLA TINTKAPIEI
+DPO1_STRPN -GM------- K---TSKMKE NL---INDK- EQAFLSKTLA TIDTKAPIAI
+DPO1_BACSU -EV------- S---GKKLKE KL---EEFK- DQALMSKELA TIMTDAPIEV
+DPO1_ANATH -KI------- K---S-SIRE KL---EAGK- DMAFLSKRLA TIVCDLPLNV
+DPO1_RICFE -QV------- S---SLKQRE TL---QNSK- EAALISWQLI GLDSNVDLDF
+DPO1_BORBU -II------- N---K-KHRE LL---IKEK- ENAFLSYELV SLEENLKIP-
+
+           451                                                500
+DPO1_TREPA SLEDSCCIPL DVTSAA-RIF VREGL---HA LAQQYRACVQ EIDTEATNDT
+DPO1_RHILE DLDALVLEPQ NGPKLI-GFL KTMEF---TT LTRRVAEACD CDASAIEPAI
+DPO1_HAEIN TTDQLLLGES QKDQLI-EYF ARYEF---KR WLNEVMNGAD SITQTTE---
+DPO1_CHLAU DLEAARIGVY DRSAVM-ALF QELEFGVSSN LIKKLPSVVQ APTLAELPA-
+DPO1_SYNY3 TWEDLQLTGF STDRLV-PLL EKLEL---RT FIDKIQAFHR NFSDNQSPV-
+1bgx_T     DFA--KRREP DRERLR-AFL ERLEF---GS LLHEF----- ----------
+DPO1_THEFI DFKALRRRTP DLEGLR-AFL EELEF---GS LLHEF----- ----------
+DPO1_DEIRA EFG--VRRLP DNPLVTEDLL TELEL---HS LRPMILGLNG PEQDGHAPD-
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+DPO1_HELPJ DFLSCAFPSE NPLLKIKDEL KEYGF---IS TLRDLENSPF IVE-------
+DPO1_MYCLE QPWDRDRIHR LFDNLEFRVL RDRLF---EA LAAAGERVPE VDEGF-----
+DPO1_LACLA GLDDTLLKGK KVDELS-QFY DEMGF---AQ FKSKL----- ----------
+DPO1_STRPN GLEDLVYSGP DVENLG-KFY DEMGF---KQ LKQAL----- ----------
+DPO1_BACSU SVSGLEYQGF NREQVI-AIF KDLGF---NT LLERL----- ----------
+DPO1_ANATH KLEDLRTKEW NKERLY-EIL VQLEF---KS IIKRL----- ----------
+DPO1_RICFE QLNNLEWSPP NSDKLT-GFL QEYGF---KS LYKRAE---- ----------
+DPO1_BORBU EIENFALKNF SEEII--SLF EKHSA---IA LIKTYKK--- ----------
+
+           501                                                550
+DPO1_TREPA LQMTESSVLT SGRCANECFL S-----QVEG RASTPEVNSV LKSELKTSAV
+DPO1_RHILE VRIEWGETAR GPDLDAAEP- -EPVAGGIPE VSGESVPMPP RAKAKSAVEG
+DPO1_HAEIN ---------- ---------- -QPV--KMNQ YKATSQ---- ---DQSAVEN
+DPO1_CHLAU ---------- --DLPAAPLT TAPT--QLSL FAGESEP--- ---AQPTAEP
+DPO1_SYNY3 ---------- --PMGNEADN GEPKK-TVKA KKSKEKVNPD DSQQLSLFDG
+1bgx_T     ---------- ---------- ------GLLE S--------- ----------
+DPO1_THEFI ---------- ---------- ------GLLG GEK------- ----------
+DPO1_DEIRA ---------- ---------- ------DLLE REHAQT---- ----------
+EX53_BACSU ---------- ---------- ------SV-- ---------- ----------
+EX53_STRCO ---------- ---------- ------DV-- ---------- ----------
+EX53_MYCTU ---------- ---------- ------DA-- ---------- ----------
+EX53_BACHD ---------- ---------- ------EI-- ---------- ----------
+EX53_BUCBP ---------- ---------- ------DI-- ---------- ----------
+EX53_BUCAI ---------- ---------- ------DI-- ---------- ----------
+EX53_BUCAP ---------- ---------- ------DV-- ---------- ----------
+EX53_AQUAE ---------- ---------- ------DL-- ---------- ----------
+EX53_UREPA ---------- ---------- ------DL-- ---------- ----------
+EX53_MYCPN ---------- ---------- ------DI-- ---------- ----------
+EX53_MYCGE ---------- ---------- ------DI-- ---------- ----------
+EX53_MYCPU ---------- ---------- ------EV-- ---------- ----------
+EX9_ECOLI  ---------- ---------- ------DL-- ---------- ----------
+EX9_VIBCH  ---------- ---------- ------DI-- ---------- ----------
+1exn_A     ---------- ---------- ------DL-- ---------- ----------
+1b43_A     ---------- ---------- ------NL-- ---------- ----------
+DPO1_HELPJ ---------- ---------- ------NV-- ---------- ----------
+DPO1_MYCLE ---------- ---------- ------DVRG ---------- ----------
+DPO1_LACLA ---------- ---------- -------LA- ---------- ----------
+DPO1_STRPN ---------- ---------- ------NVS- ---------- ----------
+DPO1_BACSU ---------- ---------- ------GED- ---------- ----------
+DPO1_ANATH ---------- ---------- ------GLS- ---------- ----------
+DPO1_RICFE ---------- ---------- ------NLF- ---------- ----------
+DPO1_BORBU ---------- ---------- ------DILK QEKENADQKS LFKQE-----
+
+           551                                                600
+DPO1_TREPA SGAIPI---- ---ENRDLRQ DVMLARSAGH YRGVTDPVEL KRIIDCACAN
+DPO1_RHILE AFS-PADLAK ARAEAFATLP FDHSAYVTI- RDLVTLDRWI ADA----RAT
+DPO1_HAEIN T---PK---- --------IQ IDRTKYETL- LTQADLTRWI EKL----NAA
+DPO1_CHLAU P---PV---- ---------- -------TIV RDATALADLV SRL----RNA
+DPO1_SYNY3 V---PV---V NQEDGLITIQ LPKQIQPQII TTIAQLEALV EELKKHTDAD
+1bgx_T     ----PK---- ---------- ---------- ---------A LEEAPW-PPP
+DPO1_THEFI ----PR---- ---------- ---------- ---------- -EEAPW-PPP
+DPO1_DEIRA ----PE---- ---------- --------ED EAAALPAFSA PELAEWQTPA
+EX53_BACSU ----PL---- ---------- ---------- AC-------- ----------
+EX53_STRCO ----PL---- ---------- ---------- ---------- ----------
+EX53_MYCTU ----PV---- ---------- ---------- TL-------- ----------
+EX53_BACHD ----EA---- ---------- ---------- IS-------- ----------
+EX53_BUCBP ----NV---- ---------- ---------- ---------- ----------
+EX53_BUCAI ----PI---- ---------- ---------- ---------- ----------
+EX53_BUCAP ----PI---- ---------- ---------- ---------- ----------
+EX53_AQUAE ----DI---- ---------- ---------- ---------- ----------
+EX53_UREPA ----LF---- ---------- ---------- ---------- ----------
+EX53_MYCPN ----KL---- ---------- ---------- ---------- ----------
+EX53_MYCGE ----EL---- ---------- ---------- ---------- ----------
+EX53_MYCPU ----PM---- ---------- ---------- ---------- ----------
+EX9_ECOLI  ----HI---- ---------- ---------- ---------- ----------
+EX9_VIBCH  ----EL---- ---------- ---------- ---------- ----------
+1exn_A     ----PT---- ---------- ---------- ---------- ----------
+1b43_A     ----VW---- ---------- ---------- ---------- ----------
+DPO1_HELPJ ----PI---- ---------- ---------- LNSTPILDNT PALDNAPKKS
+DPO1_MYCLE ----GL---- ---------- ---------- LESGTVGRWL AKHADDGRRS
+DPO1_LACLA ----EA---- ---------- ---------- -GGEVTDEKV VDEIDFEIVT
+DPO1_STRPN ----SA---- ---------- ---------- --------DV SESLDFTIVD
+DPO1_BACSU ----SA---- ---------- ---------- ---EAEQDQS LEDINVKTVT
+DPO1_ANATH ----EV---- ---------- ------VQFE FVQQRTDIPD VEQKELESIS
+DPO1_RICFE ----DI---- ---------- -------KIN DHKEIVENKV TEAKEISNAS
+DPO1_BORBU ----PT---- ----TNSLDD INTIDTENVK YRSITTKIEL DDLIESLKKA
+
+           601                                                650
+DPO1_TREPA GVVAFDCETD GLHPHDTRLV GFSICFQEA- --------EA FYVPLIVPDV
+DPO1_RHILE GLVAFDTETT SLDAMQAELV GFSLAIADNT ADPTGTKIRA AYVPLVHKNG
+DPO1_HAEIN KLIAVDTETD SLDYMSANLV GISFALENG- --------EA AYLPLQL---
+DPO1_CHLAU PAFAFDTECT SLQPVASDLV GISIAIAPD- --------TV CYIPVGH---
+DPO1_SYNY3 FPVAWDTETD SLDPLVANLV GIGCAWGQEP N-------QV AYIPLKH---
+1bgx_T     EGAFVGFVLS RKEPMWADLL ALAAARGGRV HRAP------ ----------
+DPO1_THEFI EGAFVGFLLS RKEPMWAELL ALAAASEGRV HRAT------ ----------
+DPO1_DEIRA EGAVWGYVLS REDDLTAALL AAATFEDGVA RPAPVSEPDE WAQAEAPENL
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+DPO1_HELPJ RMIVLESAEP LSMFLEKLEN PNARV---FM RLVLDKDKKI LALAFLLQDQ
+DPO1_MYCLE GLAIVGTHLP HGGDATALAV AAADGNGGYI DTAMLTPDDD DALAAWLADP
+DPO1_LACLA DGSI------ -SEKVNADDF FYLETLGEN- ------YHRE QIVAFAWGNA
+DPO1_STRPN QIS------- -QDMLSEESI FHFELFGEN- ------YHTD NLVGFVWSCG
+DPO1_BACSU DVT------- -SDILVSPSA FVVEQIGDN- ------YHEE PILGFSIVNE
+DPO1_ANATH QIR------- -SKEI--PLM FV---QGEK- --CFYLYDQE SNT-------
+DPO1_RICFE ELADFAKK-- -AEKIGIFGI YLLQHKGDNV ALILSLQNQS YIIKISNTSH
+DPO1_BORBU KYISIDTETS SLDTYTAKLI GISISFKEF- --------EG YYIPIEA---
+
+           651                                                700
+DPO1_TREPA SLHTESTQCT CARSTNVETE KECTEQHGVS ASAVQDPAYV QAVMHQLRRL
+DPO1_RHILE VGDLLGGG-- ---------- ---------- --LADNQIPM RDALPRLKAL
+DPO1_HAEIN --DYL----- ---------- ---------- --DAPKTLEK STALAAIKPI
+DPO1_CHLAU ---------- ---------- ---------- --QSETQVPC GEVVTALAPF
+DPO1_SYNY3 ---------- ---------- ---------- --HQGEQLSL GIIKDLLGEI
+1bgx_T     ---------- ---------- ---------- --EPY----- ----KALRDL
+DPO1_THEFI ---------- ---------- ---------- --SPV----- ----EALADL
+DPO1_DEIRA FGELLPSD-- ---------- ---------- --KPLTKKEQ KALEKAQKDA
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+DPO1_HELPJ GYFLPLEE-- ---------- ---------- --ALFSPFSL EFLQNAFSQM
+DPO1_MYCLE DNPKALHE-- ---------- ---------- --AKLAMHDL AGRGWTLGGI
+DPO1_LACLA EK-------- ---------- ---------- --IYVSKNID LLTKM---KF
+DPO1_STRPN DK-------- ---------- ---------- --LYATDKLE LLQDPIFKDF
+DPO1_BACSU TG-------- ---------- ---------- --AYFIPKDI AVESEVFKEW
+DPO1_ANATH ---------- ---------- ---------- --VFITSNKL LIE-----EI
+DPO1_RICFE DLF------- ---------- ---------- --SYNTKNNN DWFSDIIFNL
+DPO1_BORBU ---------- ---------- ---------- --KGKIYIEK NYIIQKFNNL
+
+           701                                                750
+DPO1_TREPA WNDETLTLVM HNGKFDYHVM HRA------- --GVFEHCA- CNI-------
+DPO1_RHILE LEDESVLKVA QNLKYDYLLL KRY------- --GI-ETRS- FD--------
+DPO1_HAEIN LENPNIHKIG QNIKFDESIF ARH------- --GI-ELQG- VEF-------
+DPO1_CHLAU FANPQQPKFA HNAKFDMEVL AGA------- --GI-KVSG- LAF-------
+DPO1_SYNY3 LGNAIYPKVL QNAKFDRRVL AHH------- --GI-ELGG- VVL-------
+1bgx_T     KEARGLL--- ---------- ---------- --AK-DLSV- LALREGLGLP
+DPO1_THEFI KEARGFL--- ---------- ---------- --AK-DLAV- LALREGVALD
+DPO1_DEIRA EKARAKL--R EQFPATVDEA EFVGQRTVTA AAAK-ALAAH LSV-RGTVVE
+EX53_BACSU ---------- ---------- ---------- --TL-KDAL- FTL-------
+EX53_STRCO ---------- ---------- ---------- -----PDTG- TAL-------
+EX53_MYCTU ---------- ---------- ---------- --ST-PTDR- FPL-------
+EX53_BACHD ---------- ---------- ---------- --SF-SLNS- LVL-------
+EX53_BUCBP ---------- ---------- ---------- --NI-TTKK- IKM-------
+EX53_BUCAI ---------- ---------- ---------- --DI-KLKD- IIL-------
+EX53_BUCAP ---------- ---------- ---------- --NI-TSEE- ITL-------
+EX53_AQUAE ---------- ---------- ---------- --EL-SEED- LKI-------
+EX53_UREPA ---------- ---------- ---------- --DE-KLEN- FVL-------
+EX53_MYCPN ---------- ---------- ---------- --ND-DIVH- AAL-------
+EX53_MYCGE ---------- ---------- ---------- --DQ-NIDL- TGL-------
+EX53_MYCPU ---------- ---------- ---------- --KL-EKEL- FAI-------
+EX9_ECOLI  ---------- ---------- ---------- --DG-NLQQ- LRL-------
+EX9_VIBCH  ---------- ---------- ---------- --GF-NLQD- IRF-------
+1exn_A     ---------- ---------- ---------- --YC-VDAI- AAV-------
+1b43_A     ---------- ---------- ---------- --RD-PDEE- GIL-------
+DPO1_HELPJ LQHACII--G HDLKPLLSFL KAKY------ --QV-PLEN- IRI-------
+DPO1_MYCLE TSDTALA--A YLVRPGQR-- ---------- --SF-TLDD- LSL-------
+DPO1_LACLA PEN------T YDFKKNRVLL SHL------- --DI-ELPL- VKF-------
+DPO1_STRPN LEKTSLR--V YDFKKVKVLL QRF------- --GV-DLQA- PAF-------
+DPO1_BACSU VENDEQKKWV FDSKRAVVAL RWQ------- --GI-ELKG- AEF-------
+DPO1_ANATH LKSDTVK-IM YDLKNIFHQL NLE------- --DTNNIKN- CE--------
+DPO1_RICFE LTDKSIRKIT YSLKPLLKFY AEQ------- --SH-EITA- IE--------
+DPO1_BORBU FESNPKI-IG QNYKFDYKIL KNN------- --GF-NPIP- PYF-------
+
+           751                                                800
+DPO1_TREPA --FDTMVAAW LLDPDRGTYG MDVLA----A SF-FQIRTIT FEEVV---AK
+DPO1_RHILE ---DTMLISY VLDAGTGAHG MDPLS----E KF-LGHTPIP YKDVAGSGKA
+DPO1_HAEIN ---DTMLLSY TLNS-TGRHN MDDLA----K RY-LGHETIA FESLAGKGKS
+DPO1_CHLAU ---DTMIAAA MLGK---RQG LKDLAFY--E LK-LPEPPTT IEDLIGRGNK
+DPO1_SYNY3 ---DTMLASY VLQPEE-THN LTDLC----R RYNLGLVALS YKDL-GL-KK
+1bgx_T     PGDDPMLLAY LLDPSNTTPE GVA------R RY-G------ --------GE
+DPO1_THEFI PTDDPLLVAY LLDPANTHPE GVA------R RY-G------ --------GE
+DPO1_DEIRA PGDDPLLYAY LLDPANTNMP VVA------K RY-LD----- --------RE
+EX53_BACSU ---------- ---------- ---------- ---Q------ --------ME
+EX53_STRCO ---------- ---------- ---------P HG-P------ --------RD
+EX53_MYCTU ---------- ---------- ---------V AA-D------ --------PE
+EX53_BACHD ---------- ---------- ---------- TT-P------ --------AD
+EX53_BUCBP ---------- ---------- ---------L PP-C------ --------TT
+EX53_BUCAI ---------- ---------- ---------K KY-C------ --------SK
+EX53_BUCAP ---------- ---------- ---------K KT-C------ --------FK
+EX53_AQUAE ---------- ---------- ---------K RP-D------ --------LN
+EX53_UREPA ---------- ---------- ---------K PY-N------ --------TQ
+EX53_MYCPN ---------- ---------- ---------K PI-D------ --------KQ
+EX53_MYCGE ---------- ---------- ---------K PI-Q------ --------KQ
+EX53_MYCPU ---------- ---------- ---------K IN-I------ --------NE
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- --------NS
+1exn_A     ---------- ---------- ---------- ---------- --------GQ
+1b43_A     ---------- ---------- ---------K FL-C------ --------DE
+DPO1_HELPJ --QDTQILAF LKNPEKVGFD EVL------K EY-L------ --------KE
+DPO1_MYCLE --RYLRRELR AETPEQ---- ---------E QF-S------ --------LL
+DPO1_LACLA ---DAMLAKY LISTTE-DNK ISTIARLFNS GH-L------ --------AT
+DPO1_STRPN ---DIRLAKY LLSTVE-DNE IATIASLYGQ TY-L------ --------VD
+DPO1_BACSU ---DTLLAAY IINPGNSYDD VASVAKDYGL HI-V------ --------SS
+DPO1_ANATH ---DVMIASY VLDSTRSSYE LETLF----V SY-L------ --------NT
+DPO1_RICFE ---DLELMQY ALSAGLSQKN LFEEALKEDN RH-LSKPAYR EEF-----KG
+DPO1_BORBU ---DTMIAAY LIDTNS-KVS LDFLA----E KY-LMHKNIK YEDVI---QK
+
+           801                                                850
+DPO1_TREPA GQTFAHVPYE CAVRYAAEDA DIT------- ---------- -FRLYHYLKL
+DPO1_RHILE NVTFDLVDID RATHYAAEDA DVT------- ---------- -LR----LWL
+DPO1_HAEIN QLTFNQIPLE QATEYAAEDA DVT------- ---------- -MKLQQALWL
+DPO1_CHLAU QISFAEVPVE QAAPYAAADA LYT------- ---------- -LRLTERLQR
+DPO1_SYNY3 DQTIADLPLE TAGQYCGLDC YAT------- ---------- -YLLASKLQK
+1bgx_T     WTE------E AGERAALSER L--------- ---------- -FANLWGRLE
+DPO1_THEFI FTE------D AAERALLSER L--------- ---------- -FQNLFPRLS
+DPO1_DEIRA WPA------D APTRAAITGH L--------- ---------- -LRELPPLLD
+EX53_BACSU QAA------D MLRRHQIKG- ---------- ---------- -IERMLEKLN
+EX53_STRCO AAA----LEA LAARWGLGGS ---------- ---------- -LQRLLTTLT
+EX53_MYCTU RTA------E LATRFGVESS IAR------- ---------- -LQKALDTLP
+EX53_BACHD LII------D TLARCGIRVK LAP------- ---------- -VQTELKL--
+EX53_BUCBP EIS------N FFLHYKFYNW NKL------- ---------- -LKQGLWLKN
+EX53_BUCAI NTF------Q IFKNY-FSS- ---------- ---------- ----------
+EX53_BUCAP KLS------N LIRWYSFNE- ---------- ---------- ----------
+EX53_AQUAE KLK------Q KLQELEMKSL LKE------- ---------- -VDKIFRQAS
+EX53_UREPA ELD------E LFTSLKINNM QNY------- ---------- -YK-------
+EX53_MYCPN ALL------E LLDKYGIKAL AQK------- ---------- -FSQL-----
+EX53_MYCGE ALI------Q LLSENKINTL VEK------- ---------- -FSKI-----
+EX53_MYCPU EIL------E KLDKYDSRYV LKQ------- ---------- -FEKALESDD
+EX9_ECOLI  --V------R ---------- ---------- ---------- ----------
+EX9_VIBCH  SSA------D ---------- ---------- ---------- ----------
+1exn_A     DVL------D KFT----KDI LEI------- ---------- -AE-------
+1b43_A     ---------H DFSEERVKNG LER------- ---------- -LKKAIKSGK
+DPO1_HELPJ DLI----PHE KIKDFKTKSK AEK------- ---------- -SELLSMELN
+DPO1_MYCLE DNV------D EVDKQAIQTL ILR------- ---------- -ARAVVDLAA
+DPO1_LACLA DEE----IFG KGTKIALPDD AVL------- ---------- -FEHLARKIK
+DPO1_STRPN DET----FYG KGVKKAIPER EKF------- ---------- -LEHLACKLA
+DPO1_BACSU DES----VYG KGAKRAVPSE DVL------- ---------- -SEHLGRKAL
+DPO1_ANATH DIE------- -----AVKKD KKI------- ---------- -VS-----VV
+DPO1_RICFE DTE----ALA TAAYKSVRED ASTGSTSKLP LETKFGKMSN VINESARIVA
+DPO1_BORBU NDNFANISLE MATSYSSEDA DIT------- ---------- -FRLFNIFTK
+
+           851                                                900
+DPO1_TREPA RLETA----- ------GLLS VFETIEMPLL PILARMEEVG IFLRKDVVQQ
+DPO1_RHILE VLKPR----- --LAAAGLTS VYERLERPLL PVLARMEARG ITVDRQILSR
+DPO1_HAEIN KLQEE----- -----PTLVE LYKTMELPLL HVLSRMERTG VLIDSDALFM
+DPO1_CHLAU QLEAE----- -----PALHD LYYRVELPLI EVLTDMELTG IRLDQEYLRE
+DPO1_SYNY3 ELDQY----- -----PELKE ILKEIEQPLE KILAAMEDRG IRIDCDYLQT
+1bgx_T     GEERL----- --------LW LYREVERPLS AVLAHMEATG VRLDVAYLRA
+DPO1_THEFI --EKL----- --------LW LYQEVERPLS RVLAHMEARG VRLDVPLLEA
+DPO1_DEIRA DARRK----- ---------- MYDEMEKPLS GVLGRMEVRG VQVDSDFLQT
+EX53_BACSU AREIV----- ---------- ---------- ---------- ----------
+EX53_STRCO A--------- ---------- ---------- ---------- ----------
+EX53_MYCTU G--------- ---------- ---------- ---------- ----------
+EX53_BACHD G--------- ---------- ---------- ---------- ----------
+EX53_BUCBP CK-------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE QRSLF----- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU YLW------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     QSTLE----- ---------- ---------- ---------- ----------
+DPO1_HELPJ ALKRLCEYFE KGGLEEDLLT LARDIETPFV KVLMGMEFQG FKIDAPYFKR
+DPO1_MYCLE ALDAE----- --LDLIDSTS LLGEMELPVQ QVLADMEKAG IAADLRLLTE
+DPO1_LACLA VLALAKEKMM AELLENEQEH LLSDMELPLA EVLAKMEITG IAVSQNTLEE
+DPO1_STRPN VLVETEPILL EKLSENGQLE LLYDMEQPLA FVLAKMEIAG IMVKKETLLE
+DPO1_BACSU AIQSLREKLV QELENNDQLE LFEELEMPLA LILGEMESTG VKVDVDRLKR
+DPO1_ANATH LLKRLWDELL RLIDLNSCQF LYESIERPLI PVLYEMEKTG FKVDRDALIQ
+DPO1_RICFE EFTSLYKQNI LELKDNKAFR LYSNIDLPIC FILDKMEKIG IKVDANYLNQ
+DPO1_BORBU KLKED----- ------KLDK LMHEIEMPFN KVIIEMEENG IYLDKEYLKE
+
+           901                                                950
+DPO1_TREPA LTRSFSDLIQ QYEHDIFSLA GHEFNIGSPK QLQTVLFQEL HLPP----GK
+DPO1_RHILE LSGELAQGAA RLEDEIYVLA GERFNIGSPK QLGDILFGKM GLSG----GS
+DPO1_HAEIN QSNEIASRLT ALEKQAYALA GQPFNLASTK QLQEILFDKL ELPV----LQ
+DPO1_CHLAU LGRHFAQRIA DLVERIYQQA GGPFNINSGQ QLNDVLFGRL GIDPRAHGLS
+DPO1_SYNY3 LSQQLAENLL TIETAAYEAA GESFNLSSPK QLGTILFDKL GLDRKK--SR
+1bgx_T     LSLEVAEEIA RLEAEVFRLA GHPFNLNSRD QLERVLFDEL GLPA----IG
+DPO1_THEFI LSFELEKEME RLEGEVFRLA GHPFNLNSRD QLERVLFDEL GLTP----VG
+DPO1_DEIRA LSIQAGVRLA DLESQIHEYA GEEFHIRSPK QLETVLYDKL ELAS----SK
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+DPO1_HELPJ LEQEFKNELN VLERQILDLI GVDFNLNSPK QLGEVLYDKL GLPK----NK
+DPO1_MYCLE LQSQFGDQIR DAAEAAYAVI GKQINLSSPK QLQVVLFEEL GMPK----TK
+DPO1_LACLA IGAENEEKLA SLTREIYDLA GEEFNINSPK QLGVILFEKL QLPV----GK
+DPO1_STRPN MQAENELVIE KLTQEIYELA GEEFNVNSPK QLGVLLFEKL GLPLEY--TK
+DPO1_BACSU MGEELGAKLK EYEEKIHEIA GEPFNINSPK QLGVILFEKI GLPV----VK
+DPO1_ANATH YTKEIENKIL KLETQIYQIA GEWFNINSPK QLSYILFEKL KLPV----IK
+DPO1_RICFE LSAEFGAEIL KLEEEIFALS GTKFNIGSPK QLGEILFEKM QLPF----GK
+DPO1_BORBU YGKELGKELE AIENEIIKSI GIDFNLNSPK QMHEILFEKL NLKL----PE
+
+           951                                               1000
+DPO1_TREPA KNTQG--YST DHSVLKKLAR K-HPIAEKIL LFRDLSKLRS TYTESLAKLA
+DPO1_RHILE KTKTGQ-WST SAQVLEDLAA AGFELPRKIV DWRQVTKLKS TYTDALPGYV
+DPO1_HAEIN KTPKGA-PST NEEVLEELSY S-HELPKILV KHRGLSKLKS TYTDKLPQMV
+DPO1_CHLAU KLKSGG-YSI TAEVLEELSQ L-YPIAADIL TYRQLTKLKS TYIDALPDLV
+DPO1_SYNY3 KTKTG--YST DHATLEKLQG D-HPIIDAIL EHRTLAKLKS TYVDALPELV
+1bgx_T     KTEKTGKRST SAAVLEALRE A-HPIVEKIL QYRELTKLKS TYIDPLPDLI
+DPO1_THEFI RTEKTGKRST AQGALEALRG A-HPIVELIL QYRELSKLKS TYLDPLPRLV
+DPO1_DEIRA KTKLTGQRST AVSALEPLRD A-HPIIPLVL EFRELDKLRG TYLDPIPNLV
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+DPO1_HELPJ S------HST DEKNLLKILD K-HPSIPLIL EYRELNKLFN TYTTPLLRLK
+DPO1_MYCLE RTKTGYTTDA DALQSLFCKT E-HPFLQHLL THRDVTRLKV T-VDGLLNAV
+DPO1_LACLA KTKTG--YST AVDVLEDLAA L-SPVVAKIL EYRQINKVQS TYVKGLIPQI
+DPO1_STRPN KTKTG--YST AVDVLERLAP I-APIVKKIL DYRQIAKIQS TYVIGLQDWI
+DPO1_BACSU KTKTG--YST SADVLEKLAD K-HDIVDYIL QYRQIGKLQS TYIEGLLKVT
+DPO1_ANATH KTKTG--YST DAEVLEELFD K-HEIVPLIL DYRMYTKILT TYCQGLLQAI
+DPO1_RICFE ASAKASSYST GAEILEKLSE HGYNIADLLL RWRQLTKLKN TYTDSLPKQI
+DPO1_BORBU KMKK---DST DIKVLESLRE Q-HESIENLI KYRQIAKLKS TYTDNLIELI
+
+           1001                                              1050
+DPO1_TREPA D-QTGRVHTS FVQIGTATGR LSSRNPNLQN IPIKSTEGRK IRQAFQA---
+DPO1_RHILE HPETKRVHTS YSLASTTTGR LSSSEPNLQN IPVRTAEGRK IRTAFIS---
+DPO1_HAEIN NSQTGRVHTS YHQAVTATGR LSSSDPNLQN IPIRNEEGRH IRQAFIA---
+DPO1_CHLAU NPRTGRIHTS YNQLGAATGR LSSNNPNLQN IPVRTEEGRE IRRAFVA---
+DPO1_SYNY3 NGQTQRIHTD FNQAVTSTGR LSSSNPNLQN IPIRSDFSRQ IRRAFLP---
+1bgx_T     HPRTGRLHTR FNQTATATGR LSSSDPNLQN IPVRTPLGQR IRRAFIA---
+DPO1_THEFI HPRTGRLHTR FNQTATATGR LSSSDPNLQN IPVRTPLGQR IRKAFVA---
+DPO1_DEIRA NPHTGRLHTT FAQTAVATGR LSSLNPNLQN IPIRSELGRE IRKGFIA---
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+DPO1_HELPJ D-KDDKIHTT FIQTGTATGR LSSHSPNLQN IPVRSPKGLL IRKGFIA---
+DPO1_MYCLE A-ADGRIHTT FNQTIATTGR LSSTEPNLQN IPIRTNAGRQ IRDAFVVGSE
+DPO1_LACLA A-DDGKIHTR YVQDLTQTGR LSSVDPNLQN IPVRLEEGRK IRKAFVP---
+DPO1_STRPN L-ADGKIHTR YVQDLTQTGR LSSVDPNLQN IPARLEQGRL IRKAFVP---
+DPO1_BACSU RPDSHKVHTR FNQALTQTGR LSSTDPNLQN IPIRLEEGRK IRQAFVP---
+DPO1_ANATH NPSSGRVHTT FIQTGTATGR LASSDPNLQN IPVKYDEGKL IRKVFVP---
+DPO1_RICFE DNITHRVHTT FLQTSTTTGR LSSQEPNLQN VPIRSSEGNK IRQAFIA---
+DPO1_BORBU NYKTNRLHTS FIQTKTATGR ITSINPNLQN IPIKDEKGRK IRKAFKP---
+
+           1051                                              1100
+DPO1_TREPA -TVGHELISA DYTQIELVVL AHLSQDRNLL NAFRQHIDIH ALTAAYIFNV
+DPO1_RHILE -TPGHKLISA DYSQIELRVL AHVAEIPQLT KAFEDGVDIH AMTASEMFGV
+DPO1_HAEIN -REGYSIVAA DYSQIELRIM AHLSGDQGLI NAFSQGKDIH RSTAAEIFGV
+DPO1_CHLAU -EPGWRFVAA DYSQIELRVL AHMSGDENLI AAFQQGLDIH AATASRLFGV
+DPO1_SYNY3 -QKDWLLVSA DYSQIELRIL AHLSQEPVLL QAYGDRQDVH GVTAKLLFGK
+1bgx_T     -EEGWLLVAL DYSQIELRVL AHLSGDENLI RVFQEGRDIH TETASWMFGV
+DPO1_THEFI -EEGWLLLAA DYSQIELRVL AHLSGDENLK RVFREGKDIH TETAAWMFGL
+DPO1_DEIRA -EDGFTLIAA DYSQIELRLL AHIADDPLMQ QAFVEGADIH RRTAAQVLGL
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+DPO1_HELPJ SSKEYCLLGV DYSQIELRLL AHFSQDKDLM EAFLKGRDIH LETSKALFG-
+DPO1_MYCLE NNGYTELMTA DYSQIEMRIM AHLSRDEGLI EAFHTGEDLH SFVASRAFGI
+DPO1_LACLA -SKDSLLLSS DYSQIELRVL AHISGDEHLI DAFKHGADIH TSTAMRVFGI
+DPO1_STRPN EWEDSVLLSS DYSQIELRVL AHISKDEHLI KAFQEGADIH TSTAMRVFGI
+DPO1_BACSU SEKDWLIFAA DYSQIELRVL AHISKDENLI EAFTNDMDIH TKTAMDVFHV
+DPO1_ANATH -EGGHVLIDA DYSQIELRIL AHISEDERLI SAFKNNVDIH SQTAAEVFGV
+DPO1_RICFE -EEGYKLISA DYSQIELRIL SHIANIDALK QAFINKDDIH TQTACQIFNL
+DPO1_BORBU -ENGNIFISA DYSQIELAIL AHLSQDEVLI KAFENNKDIH TETASKLFKI
+
+           1101                                              1150
+DPO1_TREPA SI-DDVQPAM RRIAKTINFG IVYGMSAFRL SDELKISQKE AQSFIYRYFE
+DPO1_RHILE PV-EGMPGEV RRRAKAINFG IIYGISAFGL ANQLSIERSE AGDYIKKYFE
+DPO1_HAEIN SL-DEVTSEQ RRNAKAINFG LIYGMSAFGL SRQLGISRAD AQKYMDLYFQ
+DPO1_CHLAU EP-TAVDKNQ RRVAKTVVFG VIYGISAFGL AQRLGIERDL ARQLIDNLFA
+DPO1_SYNY3 ---EDITPAE RNLGKTINFG VIYGMGAQRF ARETGISAVE GREFIDRYHR
+1bgx_T     PR-EAVDPLM RRAAKTINFG VLYGMSAHRL SQELAIPYEE AQAFIERYFQ
+DPO1_THEFI DP-ALVDPKM RRAAKTVNFG VLYGMSAHRL SQELGIDYKE AEAFIERYFQ
+DPO1_DEIRA DE-ATVDANQ RRAAKTVNFG VLYGMSAHRL SNDLGIPYAE AATFIEIYFA
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ------SWFK
+DPO1_HELPJ ---EDLAKEK RSIAKSINFG LVYGMGSKKL SETLSIPLSE AKSYIEAYFK
+DPO1_MYCLE PI-EDITPEL RRRVKAMSYG LAYGLSAYGL ATQLKISTEE AKLQMEQYFA
+DPO1_LACLA EKAEDVTAND RRNAKAVNFG VVYGISDFGL ARNLGITRKD AKNYIETYFE
+DPO1_STRPN ERPDDVTAND RRNAKAVNFG VVYGISDFGL SNNLGISRKE AKAYIDTYFE
+DPO1_BACSU AK-DEVTSAM RRQAKAVNFG IVYGISDYGL SQNLGITRKE AGAFIDRYLE
+DPO1_ANATH DI-ADVTPEM RSQAKAVNFG IVYGISDYGL ARDIKISRKE AAEFINKYFE
+DPO1_RICFE QK-HELTSEH RRKAKAINFG IIYGISAFGL AKQLNVSNGE ASEYIKKYFA
+DPO1_BORBU EE-KEITPNL RRIAKSINFG IIYRMSDFRL AKELGITKEE AKGFINSYFD
+
+           1151                                              1200
+DPO1_TREPA TYPGVYAFST QVAEQTRKTG YVTSLAGRRR YIRTIDSRNT LERARAE---
+DPO1_RHILE RFPGIRDYME SRKAMARDKG YVETIFGRRI NYPEIRSSNP SVRAFNE---
+DPO1_HAEIN RYPSVQQFMT DIREKAKAQG YVETLFGRRL YLPDINSSNA MRRKGAE---
+DPO1_CHLAU QFPGIRRYID QTLEFGRQHG YVQTLFGRRR VMEDLRASGA R-RAAAE---
+DPO1_SYNY3 TYAQVFDYLE TMKLEAIAKG YVTTIVGRRR YFNFVTEALR QLRGKTVTEL
+1bgx_T     SFPKVRAWIE KTLEEGRRRG YVETLFGRRR YVPDLEARVK SVREAAE---
+DPO1_THEFI SFPKVRAWIE RTLEEGRTRG YVETLFGRRR YVPDLASRVR SVREAAE---
+DPO1_DEIRA TYPGIRRYIN HTLDFGRTHG YVETLYGRRR YVPGLSSRNR VQREAEE---
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     R--------- ---------- ---------- ---------- ----------
+DPO1_HELPJ RFPSIKDYLN GMREEILKTS KAFTLLGRYR VF-DFTGVND YVKGNYL---
+DPO1_MYCLE RFGGVRDYLM DVVEQARKDG YTSTVLGRRR YLPELDSSNR QIREAAE---
+DPO1_LACLA RYPGIKTYME NIVREARDKG FVETMSHRRR KIPDINARNF NVRGFAE---
+DPO1_STRPN RFPGIKNYMD EVVREARDKG YVETLFKRRR ELPDINSRNF NIRGFAE---
+DPO1_BACSU SFQGVKAYME DSVQEAKQKG YVTTLMHRRR YIPELTSRNF NIRSFAE---
+DPO1_ANATH RYPKVKEYLD NTVKFARDNG FVLTLFNRKR YIKDIKSTNR NLRGYAE---
+DPO1_RICFE EYKGVQEYME QTKAFASSNG YVINFFGRKC FVPLIHDK-- KLKQFAE---
+DPO1_BORBU SYPKIKEFII NQINFVRNAG YSETILKRRR YIKEINSNNY LERSAAE---
+
+           1201                                              1250
+DPO1_TREPA ---------- -----RMALN TQIQSSAADI VKIAMIAIQR AFARRPL--R
+DPO1_RHILE ---------- -----RAAIN APIQGSAADV IRRAMIKIEP ALVEVGLADR
+DPO1_HAEIN ---------- -----RVAIN APMQGTAADI IKRAMIKLDE VIRHDP---D
+DPO1_CHLAU ---------- -----REAIN APIQGTAADL MKMAMVNVHR ALREQGL--R
+DPO1_SYNY3 DLVDVKMNYN DAQLLRSAAN APIQGSSADI IKIAMVKLAK LLESY----Q
+1bgx_T     ---------- -----RMAFN MPVQGTAADL MKLAMVKLFP RLEEM----G
+DPO1_THEFI ---------- -----RMAFN MPVQGTAADL MKIAMVKLFP RLKPL----G
+DPO1_DEIRA ---------- -----RLAYN MPIQGTAADI MKLAMVQLDP QLDAI----G
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+DPO1_HELPJ ---------- -----REGVN AIFQGSASDL LKLGMLKVSE RFKNNP---S
+DPO1_MYCLE ---------- -----RAALN APIQGSAADI IKVAMIAVDK SLKQAKL--A
+DPO1_LACLA ---------- -----RTAIN SPIQGSAADI LKIAMINLDK ALSARDF--K
+DPO1_STRPN ---------- -----RTAIN SPIQGSAADI LKIAMIQLDK ALVAGGY--Q
+DPO1_BACSU ---------- -----RTAMN TPIQGSAADI IKKAMIDMAA KLKEKQL--K
+DPO1_ANATH ---------- -----RIAMN SPIQGSPADI MKLAMIKVYQ KLKENNL--K
+DPO1_RICFE ---------- -----RAAIN APIQGTNADI IKIAMINLDQ EIEKNNL--K
+DPO1_BORBU ---------- -----RIAIN SIIQGSAADI MKIAMVKVFN EFKSKKM--E
+
+           1251                                              1300
+DPO1_TREPA AQLLLQVHDE LIFEAPAAET AIVKEILFAE MEHA----VE LSIPLRIHVE
+DPO1_RHILE VRMLLQVHDE LIFEVEDQDV EKAMPVIVSV MENATMPALE MRVPLRVDAR
+DPO1_HAEIN IEMIMQVHDE LVFEVRSEKV AFFREQIKQH MEAA----AE LVVPLIVEVG
+DPO1_CHLAU TRLLLQVHDE LIAEAPEDEV EPAARLLRDV MSSVY---RD LVVPLSVNLE
+DPO1_SYNY3 TRMLLQVHDE LIFEMPPEEW EELAPLIQNT MEQA----LT LSVPLVVEMH
+1bgx_T     ARMLLQVHDE LVLEA----A EAVARLAKEV MEGV----YP LAVPLEVEVG
+DPO1_THEFI AHLLLQVHDE LVLEVPEDRA EEAKALVKEV MENA----YP LDVPLEVEVG
+DPO1_DEIRA ARMLLQVHDE LLIEAPLDKA EQVAALTKKV MENV----VQ LKVPLAVEVG
+EX53_BACSU ---------- ---------- ---------- ---------- ----------
+EX53_STRCO ---------- ---------- ---------- ---------- ----------
+EX53_MYCTU ---------- ---------- ---------- ---------- ----------
+EX53_BACHD ---------- ---------- ---------- ---------- ----------
+EX53_BUCBP ---------- ---------- ---------- ---------- ----------
+EX53_BUCAI ---------- ---------- ---------- ---------- ----------
+EX53_BUCAP ---------- ---------- ---------- ---------- ----------
+EX53_AQUAE ---------- ---------- ---------- ---------- ----------
+EX53_UREPA ---------- ---------- ---------- ---------- ----------
+EX53_MYCPN ---------- ---------- ---------- ---------- ----------
+EX53_MYCGE ---------- ---------- ---------- ---------- ----------
+EX53_MYCPU ---------- ---------- ---------- ---------- ----------
+EX9_ECOLI  ---------- ---------- ---------- ---------- ----------
+EX9_VIBCH  ---------- ---------- ---------- ---------- ----------
+1exn_A     ---------- ---------- ---------- ---------- ----------
+1b43_A     ---------- ---------- ---------- ---------- ----------
+DPO1_HELPJ VRLLLQVHDE LIFEIEEKNA PELQQEIQRI LNDEV---YP LRVPLETSAF
+DPO1_MYCLE SRMLLQVHDE LLFEVAIGER EQIEAMVREQ MGSA----YP LDVPLEVSVG
+DPO1_LACLA SKLLLQVHDE IILDVPLEEL DEIKVLVKQT MEEA----IE LAVPLKVDEN
+DPO1_STRPN TKMLLQVHDE IVLEVPKSEL VEMKKLVKQT MEEA----IQ LSVPLIADEN
+DPO1_BACSU ARLLLQVHDE LIFEAPKEEI EILEKLVPEV MEHA----LA LDVPLKVDFA
+DPO1_ANATH SKIILQVHDE LLIEAPYEEK DIVKEIVKRE MENA----VR LKVPLVVEVK
+DPO1_RICFE TRLVLQIHDE LLFEVPEDEV ELVTPIIKKI MENS----TN MDVPIITEIR
+DPO1_BORBU SKILLQVHDE MLIESPIEEE NEVKKILKIM META----YT LNLPLRANIE
+
+           1301       1314
+DPO1_TREPA SGNSWGDFH- ---- 
+DPO1_RHILE AATNWDEAH- ---- 
+DPO1_HAEIN VGQNWDEAH- ---- 
+DPO1_CHLAU VGPNWDEMSP LAMG 
+DPO1_SYNY3 RGSNWMEAK- ---- 
+1bgx_T     IGEDWLSAKE ---- 
+DPO1_THEFI VGRDWLEAKQ D--- 
+DPO1_DEIRA TGPNWFDTK- ---- 
+EX53_BACSU ---------- ---- 
+EX53_STRCO ---------- ---- 
+EX53_MYCTU ---------- ---- 
+EX53_BACHD ---------- ---- 
+EX53_BUCBP ---------- ---- 
+EX53_BUCAI ---------- ---- 
+EX53_BUCAP ---------- ---- 
+EX53_AQUAE ---------- ---- 
+EX53_UREPA ---------- ---- 
+EX53_MYCPN ---------- ---- 
+EX53_MYCGE ---------- ---- 
+EX53_MYCPU ---------- ---- 
+EX9_ECOLI  ---------- ---- 
+EX9_VIBCH  ---------- ---- 
+1exn_A     ---------- ---- 
+1b43_A     ---------- ---- 
+DPO1_HELPJ IAKRWNELKG ---- 
+DPO1_MYCLE FGRSWGAAAH ---- 
+DPO1_LACLA TGKTWYEAK- ---- 
+DPO1_STRPN EGATWYEAK- ---- 
+DPO1_BACSU SGPSWYDAK- ---- 
+DPO1_ANATH EGLNWYETK- ---- 
+DPO1_RICFE VGNNWMEIH- ---- 
+DPO1_BORBU TGKSWGEIH- ---- 
+

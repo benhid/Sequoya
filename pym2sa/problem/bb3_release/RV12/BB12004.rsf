@@ -1,0 +1,356 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1amk_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 21 25 0 square solid STRUCT
+  FT   STRUCT        7     11  STRAND
+feature 33 44 3 square solid STRUCT
+  FT   STRUCT       18     29  HELIX
+feature 58 62 0 square solid STRUCT
+  FT   STRUCT       38     42  STRAND
+feature 65 74 3 square solid STRUCT
+  FT   STRUCT       45     54  HELIX
+feature 82 84 0 square solid STRUCT
+  FT   STRUCT       60     62  STRAND
+feature 104 109 3 square solid STRUCT
+  FT   STRUCT       80     85  HELIX
+feature 114 117 0 square solid STRUCT
+  FT   STRUCT       90     93  STRAND
+feature 120 125 3 square solid STRUCT
+  FT   STRUCT       96    101  HELIX
+feature 143 155 3 square solid STRUCT
+  FT   STRUCT      106    118  HELIX
+feature 159 164 0 square solid STRUCT
+  FT   STRUCT      122    127  STRAND
+feature 168 172 3 square solid STRUCT
+  FT   STRUCT      131    135  HELIX
+feature 176 188 3 square solid STRUCT
+  FT   STRUCT      139    151  HELIX
+feature 209 215 3 square solid STRUCT
+  FT   STRUCT      156    162  HELIX
+feature 215 219 0 square solid STRUCT
+  FT   STRUCT      162    166  STRAND
+feature 222 224 3 square solid STRUCT
+  FT   STRUCT      169    171  HELIX
+feature 234 251 3 square solid STRUCT
+  FT   STRUCT      180    197  HELIX
+feature 254 259 3 square solid STRUCT
+  FT   STRUCT      200    205  HELIX
+feature 262 265 0 square solid STRUCT
+  FT   STRUCT      208    211  STRAND
+feature 273 277 3 square solid STRUCT
+  FT   STRUCT      219    223  HELIX
+feature 284 287 0 square solid STRUCT
+  FT   STRUCT      230    233  STRAND
+feature 289 292 3 square solid STRUCT
+  FT   STRUCT      235    238  HELIX
+feature 297 302 3 square solid STRUCT
+  FT   STRUCT      242    247  HELIX
+sequence
+  ..............SAKPQPIAAANWKCN.GTTASIEKLVQVFNEHTIS.....HDVQCV
+  VAPTFVHIPLVQAKLR..NPKYVISAEN.AIAK.SGAFTGEVSMPILKDIGVHWVILGHS
+  ERRTY.............YGETDEIVAQKVSEACKQGFMVIACIGETLQQREANQTAKVV
+  LSQTSAIAAKLT................KDAWNQVVLAYEPVWAIG.TGKVATPEQAQEV
+  HLLLRKWVSENIGTDVAAKLRILYGGSVNAANAATLYAKPDINGFLVGGASLK.PEFRDI
+  IDATR.......
+}
+{
+name 1lyx_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 20 25 0 square solid STRUCT
+  FT   STRUCT        3      8  STRAND
+feature 33 45 3 square solid STRUCT
+  FT   STRUCT       15     27  HELIX
+feature 57 62 0 square solid STRUCT
+  FT   STRUCT       35     40  STRAND
+feature 65 74 3 square solid STRUCT
+  FT   STRUCT       43     52  HELIX
+feature 83 86 0 square solid STRUCT
+  FT   STRUCT       58     61  STRAND
+feature 104 109 3 square solid STRUCT
+  FT   STRUCT       78     83  HELIX
+feature 114 117 0 square solid STRUCT
+  FT   STRUCT       88     91  STRAND
+feature 120 124 3 square solid STRUCT
+  FT   STRUCT       94     98  HELIX
+feature 143 155 3 square solid STRUCT
+  FT   STRUCT      104    116  HELIX
+feature 159 164 0 square solid STRUCT
+  FT   STRUCT      120    125  STRAND
+feature 168 172 3 square solid STRUCT
+  FT   STRUCT      129    133  HELIX
+feature 176 185 3 square solid STRUCT
+  FT   STRUCT      137    146  HELIX
+feature 188 190 3 square solid STRUCT
+  FT   STRUCT      149    151  HELIX
+feature 215 219 0 square solid STRUCT
+  FT   STRUCT      158    162  STRAND
+feature 222 224 3 square solid STRUCT
+  FT   STRUCT      165    167  HELIX
+feature 234 252 3 square solid STRUCT
+  FT   STRUCT      176    194  HELIX
+feature 254 259 3 square solid STRUCT
+  FT   STRUCT      196    201  HELIX
+feature 262 265 0 square solid STRUCT
+  FT   STRUCT      204    207  STRAND
+feature 273 277 3 square solid STRUCT
+  FT   STRUCT      215    219  HELIX
+feature 284 287 0 square solid STRUCT
+  FT   STRUCT      226    229  STRAND
+feature 289 292 3 square solid STRUCT
+  FT   STRUCT      231    234  HELIX
+feature 297 302 3 square solid STRUCT
+  FT   STRUCT      238    243  HELIX
+sequence
+  .................RKYFVAANWKCN.GTLESIKSLTNSFNNLDFDP....SKLDVV
+  VFPVSVHYDHTRKLL...QSKFSTGIQN.VSKFGNGSYTGEVSAEIAKDLNIEYVIIGHF
+  ERRKY.............FHETDEDVREKLQASLKNNLKAVVCFGESLEQREQNKTIEVI
+  TKQVKAFVDLID..................NFDNVILVYEPLWAIG.TGKTATPEQAQLV
+  HKEIRKIVKDTCGEKQANQIRILYGGSVNTENCSSLIQQEDIDGFLVGNASLK.ESFVDI
+  IKSAM.......
+}
+{
+name TPIS_LATCH
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Latimeria chalumnae (Latimeria) (Coelacanth).Eukaryota;
+type    PROTEIN
+group 1
+feature 18 305 0 square solid PFAM-A
+  FT   PFAM-A        3    247  PF00121 TIM
+feature 119 119 0 square solid SITE
+  FT   SITE         94     94  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        164    164  ACT_SITE_By similarity
+sequence
+  ...............APRKFFVGGNWKMN.GDKKSLGELIQTLNAAKVP.....FTGEIV
+  CAPPEAYLDFARLKVD...PKFGVAAQN.CYKVSKGAFTGEISPAMIKDCGVTWVILGHS
+  ERRHV.............FGESDELIGQKVSHALSEGLGVVACIGEKLDEREAGITEGVV
+  FEVTEVIADDVK..................DWSKVVLAYEPVWAIG.TGKTASPQQSQEL
+  HGKLRKWLKENVSETVADSVRIIYGGSVTGATCKELASEPDVDGFLVGGASLK.PEFVEY
+  KDVRQ.......
+}
+{
+name TPIS_BACAA
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ................MRKPIIAGNWKMN.KTLSEAVSFVEEVKGQIPAA....SAVDAV
+  VCSPALFLERLVAATE..GTDLQVGAQN.MHFEKNGAFTGEISPVALSDLKVGYVVLGHS
+  ERREM.............FAETDESVNKKTIAAFEHGLTPIVCCGETLEERESGKTFDLV
+  AGQVTKALAGLT................EEQVKATVIAYEPIWAIG.TGKSSSSADANEV
+  CAHIRKVVAEVVSPAAAEAVRIQYGGSVKPENIKEYMAQSDIDGALVGGASLEPASFLGL
+  LGAVK.......
+}
+{
+name TPIS_BIFLO
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Bifidobacterium longum.Bacteria;
+type    PROTEIN
+group 1
+feature 119 119 0 square solid SITE
+  FT   SITE        104    104  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        176    176  ACT_SITE_By similarity
+sequence
+  .............MASKRIPLVAGNWKMN.FDHLEATYFVQKLVWLLRDAHFDFKRCEVA
+  LFPSFTSLRSVQVLVEADKLHVAYGAQS.VSVTTQGAFTGDVSADMIAHLGCSYVIVGHS
+  ERRKY.............HPEDDANIVDQVRAVLAAGMQPILCVGESFEERRQGIELDFA
+  VGQVRDVTRDLN................EEQAAKLIVAYEPVWAIG.TGMVATPQSAQDA
+  ANAIRNDLKTTFGTKVSDSVRILYGGSVTSKNAAELISQPDVDGFLIGGAALDVEELAKI
+  ARLALKSTKSRN
+}
+{
+name TPI1_BRUME
+descrip Triosephosphate isomerase 1 (EC 5.3.1.1) (TIM 1) (Triose-pho
+creator Brucella melitensis.Bacteria;
+type    PROTEIN
+group 1
+feature 119 119 0 square solid SITE
+  FT   SITE         99     99  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  .............MTPGIRPLVAGNWKMN.GKGESLTELRAIAAGLSSDLG...RKLDAV
+  ICVPATLLSRAAETLE..GETVGLGGQD.AHFKTSGAHTGDISPEMLKEAGATHVILGHS
+  ERRTD.............HHESNKLICAKTEAAWAAGLVAIVCVGETASERKAERALDVI
+  GDQLSGSLPDGV..................TAENTIIAYEPIWAIG.TGLTPTVQDVRAA
+  HAFMREQLIERF.GAKGAHLRLLYGGSVKPSNAAELLGVADVDGALVGGASLKAADFLAI
+  CETYRNL.....
+}
+{
+name TPIS_CHLCV
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Chlamydophila caviae.Bacteria;
+type    PROTEIN
+group 1
+feature 119 119 0 square solid SITE
+  FT   SITE         99     99  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        169    169  ACT_SITE_By similarity
+sequence
+  ...............MERKSYVFGNWKMH.KTAKEAKDFLSIFCPFVKEIS...PASLVG
+  IAPAFTTLSACCESIKEMDSSIWLGAQN.VHQDSSGAFTGEVSLPMLQEFHVNFVLLGHS
+  ECRHI.............FHEEDATIALKVGAAARSGVVPVLCIGETLEARENGTTKEVL
+  SNQLMLGLAQLP..................ETAPVIIAYEPVWAIG.TGKVASTADVQEV
+  HAFCREVLSRIFSKEKSEIISILYGGSVKADNAEGFARCPDVDGLLVGGASLDPQGFANV
+  LRNFNL......
+}
+{
+name TPIS_MYCGE
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Mycoplasma genitalium.Bacteria;
+type    PROTEIN
+group 1
+feature 18 305 0 square solid PFAM-A
+  FT   PFAM-A        2    244  PF00121 TIM
+feature 119 119 0 square solid SITE
+  FT   SITE         93     93  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        160    160  ACT_SITE_By similarity
+sequence
+  ................MRTRYLIGNWKTN.KNLKDAVSFVEQFQQN.KLN....YNAKIG
+  IAPVYVHLTEIKKIIS...DSLLLFAQD.ANFIESGSYTGTVSFTQLQDIGVNNSIIGHS
+  ERRKY.............YNETSAVINQKLFACLKASMQVVLCIGEAL.....GQEISFL
+  KTDLTNCLDTID................KSLIKNLVIAYEPLWAIG.TGKTATPEVANQT
+  IKTIREYINDLYDENVANNISILYGGSVDHNNIQKLAIMEQIDGFLVGKASLEIKNFLEM
+  ARVYA.......
+}
+{
+name TPIS_RHIET
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Rhizobium etli.Bacteria;
+type    PROTEIN
+group 1
+feature 28 286 0 square solid PFAM-A
+  FT   PFAM-A        1    226  PF00121 TIM
+feature 119 119 0 square solid SITE
+  FT   SITE         91     91  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        163    163  ACT_SITE_By similarity
+sequence
+  ...........................MN.PMQADAKQLLQEFKQLLQENEITEEKCNIG
+  LAPVTLALTSTQAELANAARSVFTVAQDVSRFGNMGAYTGEVSAELLKDSQIEYVLIGHS
+  ERREY.............FAESAAILNAKAQNALNAGLKVIYCVGESLEQRESGQAEVVV
+  LQQICDLASVVT................AEQWPHIVIAYEPIWAIG.TGKTASPEDAQTM
+  HAKIREGLTQIT..SHGANMAILYGGSVKAENAVELAACPDINGAL..............
+  ............
+}
+{
+name TPIS_FRATU
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Francisella tularensis.Bacteria;
+type    PROTEIN
+group 1
+feature 28 286 0 square solid PFAM-A
+  FT   PFAM-A        1    219  PF00121 TIM
+feature 119 119 0 square solid SITE
+  FT   SITE         83     83  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        155    155  ACT_SITE_By similarity
+sequence
+  ...........................MN.GNSTSIKELCSGISQVQYDT....SRVAIA
+  VFPSSVYVKEVISQLP...EKVGVGLQN.ITFYDDGAYTGEISARMLEDIGCDYLLIGHS
+  ERRSL.............FAESDEDVFKKLNKIIDTTITPVVCIGESLDDRKSGKLKQVL
+  ATQLSLILENLS................VEQLAKVVIAYEPVWAIG.TGVVASLEQIQET
+  HQFIRSLLAKVD.ERLAKNIKIVYGGSLKAENAKDILSLPDVDGGL..............
+  ............
+}
+{
+name TPI2_RHILO
+descrip Triosephosphate isomerase 2 (EC 5.3.1.1) (TIM 2) (Triose-pho
+creator Rhizobium loti (Mesorhizobium loti).Bacteria;
+type    PROTEIN
+group 1
+feature 119 119 0 square solid SITE
+  FT   SITE         97     97  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        170    170  ACT_SITE_By similarity
+sequence
+  ...............MRVVYWVGTSWKMN.KTLAEALDFAERLAGFIPGFD...DRIQPF
+  VIPPFTAVREVKRALSS..TRIKVGAQN.MHWADAGAWTGEISPPMLRDCGLDLVELGHS
+  ERREH.............FGETDRTVGLKTAAAVKHGMIPLICVGETLAERESGQADAVL
+  SAQVEGALQFLEG...............EAKTAKILFAYEPVWAIGDKGIPASADYADKQ
+  QALIKTVAGA....LLPSVPPVLYGGSVNPGNAAELVGQPNIDGLFIGRSAWQADGYIDI
+  LGRASAAI....
+}
+{
+name TPIS_WOLSU
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Wolinella succinogenes.Bacteria;
+type    PROTEIN
+group 1
+feature 119 119 0 square solid SITE
+  FT   SITE         90     90  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        159    159  ACT_SITE_By similarity
+sequence
+  ...................MILAANFKTN.HTRKSTRHYLERLSNFLFETS...CEHDIF
+  LFPPPLALDFFDDIGG.....VCIGTQN.AYPAPSGAFTGEVGSEQLEELAIQTILIGHS
+  ERRGI.............LGESQAFCAEKFRYYASLGYTIFYCIGESLEVRRAGIEATIR
+  HNLSQLEGIDLS...................YPKLIIAYEPIWAIG.TGVSASLEQIQET
+  HAALKAHLS..........CPLLYGGSVNLSNIAEILALPEVDGALIGSASLKVEDFCQM
+  IQKI........
+}
+{
+name TPI2_LISIN
+descrip Triosephosphate isomerase 2 (EC 5.3.1.1) (TIM 2) (Triose-pho
+creator Listeria innocua.Bacteria;
+type    PROTEIN
+group 1
+feature 119 119 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        168    168  ACT_SITE_By similarity
+sequence
+  ................MRKPLVGINMKNYINTRAQTSEWLEATIPLLENFS....DVDTF
+  IFPSMGTLETTANLLAG..TSFGFGPQN.MAPEKSGPLTGEFSVESIIDLNANYVEIGHA
+  ERKNL.............FHEKTSEIAKKIKLALDEKITPVVCVGEEVHANDTNELKNAL
+  KKQIEALFQTIN................LAQWENVVLAYEPEWAIGKASSAET.NYIESA
+  HQALREIIRELG..GDETLVRIIYGGSVSKENAAEIVRQKNVDGLFVGRFGHKPQNFADI
+  VSIVSKTKG...
+}
+{
+name TPIS_UREPA
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Ureaplasma parvum (Ureaplasma urealyticum biotype 1).Bacteri
+type    PROTEIN
+group 1
+feature 119 119 0 square solid SITE
+  FT   SITE         91     91  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        158    158  ACT_SITE_By similarity
+sequence
+  ..................MKYIIANFKMN.ATQELINHFLNNLTLFDEQK......IIIG
+  LAPGDLYLKTFVNLAEI..KKVNLYAQN.PSLHNKGPYTGQISCLQLLDINIKNALVGHS
+  EIR...............IDFSQSIIDQKIKISMDLLEQVIICVGETFDAYKQNKSLNFV
+  LNQLANIINYKG...................LKKIIIAYEPIWAIG.TDLELDFKHINYM
+  IEGIKTYLYN....CTGINIPILYGGSVNDNNINELCNQKLIDGFLIGNASLDVNVFNKI
+  IDKCK.......
+}
+{
+name TPIS_TROW8
+descrip Triosephosphate isomerase (EC 5.3.1.1) (TIM) (Triose-phospha
+creator Tropheryma whipplei (strain TW08/27) (Whipple's bacillus).Ba
+type    PROTEIN
+group 1
+feature 119 119 0 square solid SITE
+  FT   SITE        117    117  ACT_SITE_By similarity
+feature 220 220 0 square solid SITE
+  FT   SITE        218    218  ACT_SITE_By similarity
+sequence
+  MLPKRAYPVQDSNVHSQEKKIIAGNWKMN.INHSQAVSYLQELNWRLIDNGHDFDACEIA
+  VFPPFTDLRSVQTLVASDDIQISYGAQD.VSAFSDGAHTGQISAQFLKDLDCKYVLIGHS
+  EQRCLPCYPGNNSAINELNNKHDGLIANKLLRSFAAGICPILCIGDISPGDHFDATLSRF
+  RSVLSHLKAISDKKHSIGYALGSKTHFLDSDQLHMLVAYEPSSAIN.SGNCANSGDIVRM
+  AAAIKDIVN..........VRVLYGGGVNLFNASAVFNEDLLDGILVGRASLNASDFASL
+  IKTCCL......
+}

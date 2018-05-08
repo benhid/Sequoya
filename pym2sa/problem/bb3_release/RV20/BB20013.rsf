@@ -1,0 +1,1256 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1ct9_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 82 87 0 square solid STRUCT
+  FT   STRUCT        2      7  STRAND
+feature 98 110 3 square solid STRUCT
+  FT   STRUCT       13     25  HELIX
+feature 113 115 3 square solid STRUCT
+  FT   STRUCT       28     30  HELIX
+feature 119 124 0 square solid STRUCT
+  FT   STRUCT       34     39  STRAND
+feature 158 164 0 square solid STRUCT
+  FT   STRUCT       43     49  STRAND
+feature 179 180 0 square solid STRUCT
+  FT   STRUCT       62     63  STRAND
+feature 200 208 0 square solid STRUCT
+  FT   STRUCT       69     77  STRAND
+feature 211 218 3 square solid STRUCT
+  FT   STRUCT       80     87  HELIX
+feature 237 246 3 square solid STRUCT
+  FT   STRUCT      100    109  HELIX
+feature 268 270 3 square solid STRUCT
+  FT   STRUCT      114    116  HELIX
+feature 273 281 0 square solid STRUCT
+  FT   STRUCT      119    127  STRAND
+feature 287 292 0 square solid STRUCT
+  FT   STRUCT      132    137  STRAND
+feature 301 304 0 square solid STRUCT
+  FT   STRUCT      146    149  STRAND
+feature 314 317 0 square solid STRUCT
+  FT   STRUCT      155    158  STRAND
+feature 320 322 3 square solid STRUCT
+  FT   STRUCT      161    163  HELIX
+feature 351 354 0 square solid STRUCT
+  FT   STRUCT      170    173  STRAND
+feature 359 362 0 square solid STRUCT
+  FT   STRUCT      178    181  STRAND
+feature 379 381 0 square solid STRUCT
+  FT   STRUCT      187    189  STRAND
+feature 404 406 3 square solid STRUCT
+  FT   STRUCT      194    196  HELIX
+feature 408 412 3 square solid STRUCT
+  FT   STRUCT      198    201  HELIX
+feature 419 433 3 square solid STRUCT
+  FT   STRUCT      208    222  HELIX
+feature 450 453 0 square solid STRUCT
+  FT   STRUCT      229    232  STRAND
+feature 458 470 3 square solid STRUCT
+  FT   STRUCT      237    249  HELIX
+feature 508 513 0 square solid STRUCT
+  FT   STRUCT      252    257  STRAND
+feature 530 542 3 square solid STRUCT
+  FT   STRUCT      262    274  HELIX
+feature 545 550 0 square solid STRUCT
+  FT   STRUCT      277    282  STRAND
+feature 553 567 3 square solid STRUCT
+  FT   STRUCT      285    299  HELIX
+feature 577 596 3 square solid STRUCT
+  FT   STRUCT      304    322  HELIX
+feature 601 603 0 square solid STRUCT
+  FT   STRUCT      327    329  STRAND
+feature 608 612 3 square solid STRUCT
+  FT   STRUCT      334    338  HELIX
+feature 616 620 3 square solid STRUCT
+  FT   STRUCT      342    346  HELIX
+feature 624 640 3 square solid STRUCT
+  FT   STRUCT      350    366  HELIX
+feature 642 654 3 square solid STRUCT
+  FT   STRUCT      368    377  HELIX
+feature 740 742 0 square solid STRUCT
+  FT   STRUCT      382    384  STRAND
+feature 744 746 3 square solid STRUCT
+  FT   STRUCT      386    388  HELIX
+feature 749 757 3 square solid STRUCT
+  FT   STRUCT      390    398  HELIX
+feature 760 762 3 square solid STRUCT
+  FT   STRUCT      401    403  HELIX
+feature 770 793 3 square solid STRUCT
+  FT   STRUCT      411    420  HELIX
+feature 796 799 3 square solid STRUCT
+  FT   STRUCT      423    426  HELIX
+feature 817 830 3 square solid STRUCT
+  FT   STRUCT      439    452  HELIX
+feature 833 837 3 square solid STRUCT
+  FT   STRUCT      455    459  HELIX
+feature 839 842 3 square solid STRUCT
+  FT   STRUCT      461    464  HELIX
+feature 853 865 3 square solid STRUCT
+  FT   STRUCT      473    485  HELIX
+feature 869 872 3 square solid STRUCT
+  FT   STRUCT      489    492  HELIX
+sequence
+  ............................................................
+  ....................ASIFGVFDI.KT....DAVELRKKALELSRLMRHRGPDWS
+  GIYASD..............................NAILAHERLSIVD..VNAGAQPLY
+  NQQ..............KTHVLAVNGEIYNHQALRAEYGD..R....YQFQTGSDCEVIL
+  ALYQEKGPE.................FLDDLQGMFAFALYDSEKD.AYLIGRDHLGIIPL
+  YMGYDEH....GQLYVASEMKALVPVC......................RTIKEFPAGSY
+  LWSQ...........DGEIRS..................YYHRDWFDY.DAVKDNVTDKN
+  ELRQALEDSVKSHLMS..........DVPYGVLLSGGLDSSIISAITKKYAL........
+  ...........................HSFAVGLPGS............PDLKAAQEVAN
+  HLGTVHHEIHFTVQEGLDAIRDVIYHIETY.....DVTTIRASTPMYLMSRKIK.AMGIK
+  MVLSGEGSDEVFGGYLYFHKAPNAKELHEETVRKLLALHMYDC..ARANK.AMSAWGV..
+  ............................................................
+  ...................EARVPFL.DKKFLDVAMRINPQDKMCKMEKHILRE......
+  ........CFEAYLPASVAWRQKE....Q.FSDGVGYSWIDTLKEVAAQQVSDQQLETAR
+  FRFP..YNTPTSKEAYLYREIFEELFPLPSAA............................
+  ............................................................
+  ..................................................
+}
+{
+name ASNS_SCHPO
+descrip Probable asparagine synthetase [glutamine-hydrolyzing] (EC 6
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 81 245 5 square solid DOMAIN
+  FT   DOMAIN        1    108  Glutamine amidotransferase.
+feature 403 877 5 square solid DOMAIN
+  FT   DOMAIN      195    530  Asparagine synthetase.
+feature 403 877 0 square solid PFAM-A
+  FT   PFAM-A      195    530  PF00733 Asn_synthase
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        1    108  PF00310 GATase_2
+feature 878 910 0 square solid PFAM-B
+  FT   PFAM-B      531    551  PB012846 Pfam-B_12846
+feature 81 81 0 square solid SITE
+  FT   SITE          1      1  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ....................CGILAVHHVAE.....DIEAFKPKALHLSKQLRHRGPDWS
+  GKAIRN..............................QTILCHERLAIVG..VESGAQPLV
+  SDD..............GKLVLTVNGEIYNHLKLRENLKGN......YKFKTYSDCEVIL
+  YLYREHG.................PACANMLDGMFSWVLYDQDK.DKVVAARDPIGITTL
+  YQGFSSDS..PDTAYFASELKALHPV......................CDKIIAFPPGHY
+  YDSE..........TKQTVR...................YFKPSWWDE.NKIPSNPVDYK
+  LLRETLEASVRKRLMA..........EVPYGVLLSGGLDSSLIASIAARETEKLANSTSQ
+  SEEARTI..............TAWPKLHSFAIGLPGS............PDLLAARKVAD
+  FLHTFHHEHTFTIDEGLDALRDVIYHLETY.....DVTTIRASTPMYLLSRKIK.AQGVK
+  MVLSGEGSDEIFGGYLYFGNAPSREAFHSECVRRVKNLHLSDC..LRANK.STMAWGL..
+  ............................................................
+  ...................EARVPFL.DKDFLEVALNIDPEE..KMYINGRKEK.YILRK
+  AFDTTHDSSLQPYLPQDILWRQKE.....QFSDGVGYSWIDALKDTAELCISDD.EFALP
+  RREW.GDDIPTTKEAFWYRKLFDEIFPRQ.CADTVMRW...........VPKAEWGCPED
+  PSGRYQA.GHVAALK.............................................
+  ..................................................
+}
+{
+name ASN1_YEAST
+descrip Asparagine synthetase [glutamine-hydrolyzing] 1 (EC 6.3.5.4)
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 81 245 5 square solid DOMAIN
+  FT   DOMAIN        1    106  Glutamine amidotransferase.
+feature 403 877 5 square solid DOMAIN
+  FT   DOMAIN      193    545  Asparagine synthetase.
+feature 403 877 0 square solid PFAM-A
+  FT   PFAM-A      193    545  PF00733 Asn_synthase
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        1    106  PF00310 GATase_2
+feature 878 914 0 square solid PFAM-B
+  FT   PFAM-B      546    570  PB012846 Pfam-B_12846
+feature 265 358 0 square solid PFAM-B
+  FT   PFAM-B      109    177  PB036022 Pfam-B_36022
+feature 81 81 0 square solid SITE
+  FT   SITE          1      1  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ....................CGIFAAFRHED......VHRYKPKALQLSKRIRHRGPDWS
+  GNAIKN..............................STIFVHERLAIVG..VESGAQPIT
+  SSD..............GEYMLCVNGEIYNHIQLREECADY.......EFGTLSDCEPII
+  PMYLKHD.................IDAPKYLDGMFAWTLYDAKQ.DRIVAARDPIGITTL
+  YMGRSSAS..PKTVYFASELKCLTDD......................CDTITAFPPGHV
+  YDSK..........TDKITR...................YFTPDWLDE.KRIPSTPIDYM
+  AIRHSLEKAVRKRLMA..........EVPYGVLLSGGLDSSLIASIAARETAKATNDVEP
+  STYDSKARHLAGIDDDGKLHTAGWTSLHSFAIGLPNA............PDLQAARKVAK
+  FIGSIHHEHTFTLQEGLDALDDVIYHLETY.....DVTTIRASTPMFLLSRKIK.AQGVK
+  MVLSGEGSDEIFGGYLYFAQAPSAAEFHTESVQRVKNLHLADC..LRANK.STMAWGL..
+  ............................................................
+  ...................EARVPFL.DREFLQLCMNIDPNEKMIKPKEGRIEK.YILRK
+  AFDTTGEPDAKPYLPEEILWRQKE.....QFSDGVGYSWIDGLKDTAEAVISDE.MFASP
+  KAEW.GSDIPTTKEAFWYRLKFDALFPQKTVADTVMRW...........IPKADWGCAED
+  PSGRYAQ.IHEKHIE.............................................
+  ..................................................
+}
+{
+name ASN1_LOTJA
+descrip Asparagine synthetase [glutamine-hydrolyzing] 1 (EC 6.3.5.4)
+creator Lotus japonicus.Eukaryota;
+type    PROTEIN
+group 1
+feature 81 245 5 square solid DOMAIN
+  FT   DOMAIN        1    107  Glutamine amidotransferase.
+feature 403 876 5 square solid DOMAIN
+  FT   DOMAIN      192    515  Asparagine synthetase.
+feature 403 876 0 square solid PFAM-A
+  FT   PFAM-A      192    515  PF00733 Asn_synthase
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        1    107  PF00310 GATase_2
+feature 877 911 0 square solid PFAM-B
+  FT   PFAM-B      516    550  PB000894 Pfam-B_894
+feature 81 81 0 square solid SITE
+  FT   SITE          1      1  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ....................CGILAVLGCSD.....FTQAKRVRVLELSRRLKHRGPDWS
+  GLHQHG..............................DCYLAHQRLAIVD..PASGDQPLF
+  NED..............KSIIVTVNGEIYNHEELRKQLPNH.......QFRTGSDCDVIA
+  HLYEEHG.................ENFMDMLDGIFSFVLLDTRDN.TFIVARDAIGVTSL
+  YIGWGLDG....SVWISSEMKGLNDD......................CEHFEVFPPGHL
+  YSSR...........ERAFRR..................WYNPTWFS..ESIPSAPYDPL
+  AVRHAFEKAVIKRLMT..........DVPFGVLLSGGLDSSLVASITSRYLATTKAAEQW
+  G.......................SKLHSFCVGLEGS............PDLKAAKEVAD
+  YLGTVHHEFTFTVQDGIDAIEEVIYHVETY.....DVTTIRASTPMFLMSRKIK.SLGVK
+  WVISGEGSDEIFGGYLYFHKAPNKEEFHTETCRKIKALHQYDC..LRANK.STFAWGL..
+  ............................................................
+  ...................EARVPFL.DKEFINVAMNIDPEYKMIKRDEGRIEK.YILRR
+  AFDDEE....KPYLPKHILYRQKE.....QFSDGVGYSWIDGLKDHAAKHVTDK.MILNA
+  GNIF.RHNTPLTKEAYYYRMIFERFFPQNSARLTVPGGPTVACSTAKAVEWDAAWSNNLD
+  PSGRAALGVHLSAYDDKQNNLINNKPVEFEKLIPMEAPSLGVAIHS..............
+  ..................................................
+}
+{
+name ASNS_MAIZE
+descrip Asparagine synthetase [glutamine-hydrolyzing] (EC 6.3.5.4) (
+creator Zea mays (Maize).Eukaryota;
+type    PROTEIN
+group 1
+feature 81 245 5 square solid DOMAIN
+  FT   DOMAIN        1    107  Glutamine amidotransferase.
+feature 403 876 5 square solid DOMAIN
+  FT   DOMAIN      192    515  Asparagine synthetase.
+feature 403 876 0 square solid PFAM-A
+  FT   PFAM-A      192    515  PF00733 Asn_synthase
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        1    107  PF00310 GATase_2
+feature 889 909 0 square solid PFAM-B
+  FT   PFAM-B      528    548  PB012846 Pfam-B_12846
+feature 81 81 0 square solid SITE
+  FT   SITE          1      1  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ....................CGILAVLGVVE.....VSLAKRSRIIELSRRLRHRGPDWS
+  GLHCHE..............................DCYLAHQRLAIID..PTSGDQPLY
+  NED..............KTVVVTVNGEIYNHEELKAKLKTH.......EFQTGSDCEVIA
+  HLYEEYG.................EEFVDMLDGMFSFVLLDTRD.KSFIAARDAIGICPL
+  YMGWGLDG....SVWFSSEMKALSDD......................CERFITFPPGHL
+  YSSK...........TGGLRR..................WYNPPWFS..ETVPSTPYNAL
+  FLREMFEKAVIKRLMT..........DVPFGVLLSGGLDSSLVASVASRHLNETKVDRQW
+  G.......................NKLHTFCIGLKGS............PDLKAAREVAD
+  YLSTVHHEFHFTVQEGIDALEEVIYHIETY.....DVTTIRASTPMFLMSRKIK.SLGVK
+  MVISGEGSDEIFGGYLYFHKAPNKKEFLEETCRKIKALHLYDC..LRANK.ATSAWGV..
+  ............................................................
+  ...................EARVPFL.DKSFISVAMDIDPEWNMIKRDLGRIEK.WVMRK
+  AFDDDE....HPYLPKHILYRQKE.....QFSDGVGYNWIDGLKSFTEQQVTDE.MMNNA
+  AQMF.PYNTPVNKEAYYYRMIFERLFPQDSARETVPWGPSIACSTPAAIEWVEQWKASND
+  PSGRFISSHDSAATDHTAVSRRWPTAAARPANGTVNGKDVPVPIAV..............
+  ..................................................
+}
+{
+name ASNS_CRIGR
+descrip Asparagine synthetase [glutamine-hydrolyzing] (EC 6.3.5.4) (
+creator Cricetulus griseus (Chinese hamster).Eukaryota;
+type    PROTEIN
+group 1
+feature 81 245 5 square solid DOMAIN
+  FT   DOMAIN        1    106  Glutamine amidotransferase.
+feature 393 876 5 square solid DOMAIN
+  FT   DOMAIN      212    535  Asparagine synthetase.
+feature 393 876 0 square solid PFAM-A
+  FT   PFAM-A      212    535  PF00733 Asn_synthase
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        1    106  PF00310 GATase_2
+feature 894 915 0 square solid PFAM-B
+  FT   PFAM-B      539    560  PB013325 Pfam-B_13325
+feature 81 81 0 square solid SITE
+  FT   SITE          1      1  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ....................CGIWALFGSD.........DCLSVQCLSAMKIAHRGPDAF
+  RFENVNGYT...........................NCCFGFHRLAVVD..PLFGMQPIR
+  VKK.............YPYLWLCYNGEIYNHKALQQRFEFE........YQTNVDGEIIL
+  HLYDKGG................IEQTICMLDGVFAFILLDTAN.KKVFLGRDTYGVRPL
+  FKAMTED....GFLAVCSEAKGLVSL................KHSTTPFLKVEPFLPGHY
+  EVLDLKPNGK.....VASVEMVKYHHCRDEPLH.....ALYDSVEKL..FQGFELETVKS
+  NLRILFDSAVRKRLMT..........DRRIGCLLSGGLDSSLVAASLLKQL.........
+  ..................KEAQVQYPLQTFAIGMEDS............PDLLAARKVAN
+  YIGSEHHEVLFNSEEGIQALDEVIFSLETY.....DITTVRASVGMYLISKYIRKNTDSV
+  VIFSGEGSDELTQGYIYFHKAPSPEKAEEESERLLKELYLFDV..LRADR.TTAAHGL..
+  ............................................................
+  ...................ELRVPFL.DHRFSSYYLSLPPEMRIPKNGIEKHLL....RE
+  TFED......SNLLPKEILWRPKEAFS..DGITSVKNSWFKILQDYVEHQVDDE.MMATA
+  AQKF.PFNTPKTKEGYYYRQIFERHYPGRADWLTHYWM..............PKWINATD
+  PSARTLTHYKSAAKA.............................................
+  ..................................................
+}
+{
+name ASN1_METJA
+descrip Putative asparagine synthetase [glutamine-hydrolyzing] 1 (EC
+creator Methanococcus jannaschii.Archaea;
+type    PROTEIN
+group 1
+feature 80 245 5 square solid DOMAIN
+  FT   DOMAIN        1    126  Glutamine amidotransferase.
+feature 81 81 0 square solid SITE
+  FT   SITE          2      2  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ...................MCSISGIIVKDN.......QISAKYSIDMMKILKHRGRDNS
+  GLLLDD.........EVIYFNDFEDVEDLEEEMIG.NLSLAHNRLAIVG...RYGVQPIP
+  NED..............ETIWLVCNGEIYNYIELREYLKQN......HEFRTDSDNEVII
+  HLYEEEK....................LEELDGDYAFAIYDKSK.NVVRLARDMFGVKPL
+  FYVDR.....DKYFAFASERKALWHL.....................LINIDGCERDLDE
+  LNSKIKTLKP...NSQLIYYLDDNRFEIIEG.......FKKLELNYM...KERSYEEAKE
+  YLDRALKNSVLKRVRG..........LDKVGIICSGGVDSSLIAKLASLYC.........
+  .........................EVILYAVGTENS............EDLIYAERLAK
+  DLNLKLRKKIISEEEYEEYVFKVAKAIDEV.....DLMKIGVGIPIYVASEMAN.EDGLK
+  VVLSGQGADELFGGYARHERIYRERGEEELKKELLKDVYNLYKVNLERDDHCTMANGV..
+  ............................................................
+  ...................ELRVPFL.DEEVVEIALSIPIEYKMSELSNRPYAE.SNISL
+  KSEPING..LKNTNLNIKCVRSVR...........KKILRDVASQYLPDYIAYRPKKAAQ
+  YGSGGEKMIYKVAKKYGFSKKRINEFLDMLKRKIVSEF......................
+  ............................................................
+  ..................................................
+}
+{
+name ASNH_MYCTU
+descrip Putative asparagine synthetase [glutamine-hydrolyzing] (EC 6
+creator Mycobacterium tuberculosis, andMycobacterium bovis.Bacteria;
+type    PROTEIN
+group 1
+feature 403 791 0 square solid PFAM-A
+  FT   PFAM-A      243    566  PF00733 Asn_synthase
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        2    125  PF00310 GATase_2
+feature 338 380 0 square solid PFAM-B
+  FT   PFAM-B      190    229  PB036528 Pfam-B_36528
+feature 81 81 0 square solid SITE
+  FT   SITE          2      2  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ...................MCGLLAFVAAPAGAAGPEGADAASAIARASHLMRHRGPDES
+  GTWHAVDG.........................ASGGVVFGFNRLSIID..IAHSHQPLR
+  WGPPE..........APDRYVLVFNGEIYNYLELRDELRTQHG....AVFATDGDGEAIL
+  AGYHHWG.................TEVLQRLRGMFAFALWDTVT.RELFCARDPFGIKPL
+  FIATGA.....GGTAVASEKKCLLDL.....VELVGFDTEIDHRALQHYTVLQYVPEPET
+  LHRGVRRLES...GCFARIRADQLAPVIT.........RYFVPRFAASPITNDNDQARYD
+  EITAVLEDSVAKHMRA..........DVTVGAFLSGGIDSTAIAALAIRHN.........
+  ........................PRLITFTTGFEREGF..........SEIDVAVASAE
+  AIGARHIAKVVSADEFVAALPEIVWYLDEP.......VADPALVPLFFVAREA..RKHVK
+  VVLSGEGADELFGGYTIYREPLSLRPFDYLPKPLRRSMGKVSKP.LPEGM.RGKSLLHRG
+  SLTLEERYYGNARSFSGAQLREVLPGFRPDWTHTDVTAPVYAESAGWDPVARMQHIDLFT
+  WLRGDILVKADKITMANSLELRVPFL.DPEVFAVASRLPAGAKITRTTTKYALRRALEPI
+  VPAHVLHRPKLGFPVPIRHWLRA..........GELLEWAYATVGSSQAG.HLVDIAAVY
+  RMLDEHRCGSSDHSRRLWTMLIFMLWH.AIFVEHSVVPQISEPQYPVQL...........
+  ............................................................
+  ..................................................
+}
+{
+name ASNB_BACSU
+descrip Asparagine synthetase [glutamine-hydrolyzing] 1 (EC 6.3.5.4)
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 406 791 0 square solid PFAM-A
+  FT   PFAM-A      225    545  PF00733 Asn_synthase
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        2    112  PF00310 GATase_2
+feature 797 866 0 square solid PFAM-B
+  FT   PFAM-B      551    608  PB010160 Pfam-B_10160
+feature 293 380 0 square solid PFAM-B
+  FT   PFAM-B      142    212  PB003083 Pfam-B_3083
+feature 81 81 0 square solid SITE
+  FT   SITE          2      2  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ...................MCGFVGVFNKHP...LAQTADQEELIKQMNQMIVHRGPDSD
+  GYFHDEH..............................VGFGFRRLSIID..VENGGQPLS
+  YED..............ETYWIIFNGEIYNYIELREELEAKG.....YTFNTDSDTEVLL
+  ATYRHYK.................EEAASKLRGMFAFLIWNKND.HVLYGARDPFGIKPL
+  YYTTIN.....DQVYFASERKSLMVA.........QNDIEIDKEALQQYMSFQFVPEPST
+  LDAHVKKVEP...GSQFTIRPDGDITF.............KTYFKANFKPVQTEEDKLVK
+  EVRDAIYDSVNVHMRS..........DVPVGSFLSGGIDSSFIVSVAKEFH.........
+  ........................PSLKTFSVGFEQQGF..........SEVDVAKETAA
+  ALGIENISKVISPEEYMNELPKIVWHFDDP.......LADPAAIPLYFVAKEA..KKHVT
+  VALSGEGADELFGGYNIYREPLSLKPFERIPSGLKKMLLHVAAV.MPEGM.RGKSLLERG
+  CTPLQDRYIGNAKIFEESVKKQLLKHYNPNLSYRDVTKTYFTESSSYSDINKMQYVDIHT
+  WMRGDILLKADKMTMANSLELRVPFL.DKVVFDVASKIPDELKTKNGTTKYLLRKAAEGI
+  VPEHVLNRKKLGFPVPIRHWLKN...........EMNEWVRNIIQESQT.DAYIHKDYVL
+  QLLEDHCADKADNSRKIWTVLIFMIWHSINIEKRYMPEELSHQPKEVIFV..........
+  ............................................................
+  ..................................................
+}
+{
+name ASNH_BACSU
+descrip Asparagine synthetase [glutamine-hydrolyzing] 2 (EC 6.3.5.4)
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 80 333 5 square solid DOMAIN
+  FT   DOMAIN        1    175  Glutamine amidotransferase.
+feature 404 791 0 square solid PFAM-A
+  FT   PFAM-A      235    532  PF00733 Asn_synthase
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        2    110  PF00310 GATase_2
+feature 81 81 0 square solid SITE
+  FT   SITE          2      2  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ...................MCGLAGIINLAAP...RSQECTFHILKGMADAISYRGPDDE
+  .QYHIDSK.............................VGFAFRRLSILD..LVNGQQPFL
+  NED..............GSIVVMVNGEIYNYKELKASLHNHM.......FKTTSDCEVIV
+  HLYEEKG.................IGFVDDIIGMFSIAIWDKNK.NKVFLVRDRFGIKPL
+  FYTELK.....HELIFASEIKSLFSHPHCPRQFNWKEALSDICLSGEAASNHKETTSFFV
+  NIQNLDAGHY......LEINLTTNERKTASYW.....SLQDILLRQGYRE.NLHPDDLIE
+  GYRELLADSVHRCLQS..........DVEVGLFLSGGIDSAAVAHFAAEKQ.........
+  ........................D.LHTFTVLSQSTFTN.........EDAKYAHWLAK
+  DLHLPNHQVLYQLGNDELLQPESYKHLLWICETPFCGPEQLYKFHLHKYAKAI..RPNLK
+  VMLTGQGSDEFNGGYSTTLSPAENPSWEGFIESVNTMEMNRLHR.LQGNI.FRVWEEHFG
+  LSPINLSYLK...............................SNDSSQADPWQSYVLTKYR
+  DLQMYNCWHEDRIAAANHIENRVPFL.DHRLVEWVCGIPDGLRKDLLWDKSVLRKSLTNE
+  LHTSYTHRPKVPFFYGKDVRYTH....KMMFHLLKKNNYQLIEEAFSHSDASSIIQVEHI
+  HAIMTYLEDDPEFTNFEFLLRLVNMGLLSKMTKETPSVQLDITSHLESITIKDWHSQEGD
+  IASRLNISANKCEGQDILALNPGVTLLRPESDSEHCIYIAEEGFIQFIVSEEDVGAWLHI
+  LCDINGKDTLHTILDRHGVSLEEVAKYIQEAIEHNIILIKQKNLPEGAYR
+}
+{
+name ASN2_METJA
+descrip Putative asparagine synthetase [glutamine-hydrolyzing] 2 (EC
+creator Methanococcus jannaschii.Archaea;
+type    PROTEIN
+group 1
+feature 80 246 5 square solid DOMAIN
+  FT   DOMAIN        1    125  Glutamine amidotransferase.
+feature 81 81 0 square solid SITE
+  FT   SITE          2      2  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ...................MCGINGIIRFG.......KEVIKEEINKMNKAIKHRGPDDE
+  GIFIYNFK..........................NYSIGLGHVRLAILD.LSEKGHQPMG
+  YNVDEDKIIYRDDELDRADIIIVYNGEIYNYLELKEKFNLET........ETGTDTEVIL
+  KLYNKLG.................FDCVKEFNGMWAFCIFDKKK.GLIFCSRDRLGVKPF
+  YYYWDGN.....EFIFSSELKGILAV.....KEINKKENINKDAVELYFALGFIPSPY.S
+  IYKNTFKLEA......RQNLIFDLDKREIR........KYYYWELPDYKP.IYDKKKLIE
+  EGKKLLYDAVKIRMRS..........DVPVGAFLSGGLDSSTVVGVMREFT.........
+  ......................DLSKLHTFSIGFEGKY...........DETPYIKIVVD
+  YFKTQHHHYYFKERDFEELIDKYSWIYDEP.......FGDYSGFPTYKVSEMA..RKFVT
+  VVLSGDGGDEVFGGYMTHLNGYRMDFIRKLPKFLR.........................
+  ............................................................
+  .................VVGSKLPVKKDLNGIANLYLLKEAFRLSLINPEEFYAESIKED
+  AIRPEIYKKWTIEKLRYCLNKGDN....KLGEALRIFDLLFNTLCDNFLVKVDRASMLTL
+  WKLEVHF.....................................................
+  ............................................................
+  ..................................................
+}
+{
+name ASNO_BACSU
+descrip Asparagine synthetase [glutamine-hydrolyzing] 3 (EC 6.3.5.4)
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 390 838 0 square solid PFAM-A
+  FT   PFAM-A      221    566  PF00733 Asn_synthase
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        2    112  PF00310 GATase_2
+feature 334 386 0 square solid PFAM-B
+  FT   PFAM-B      171    217  PB067521 Pfam-B_67521
+feature 81 81 0 square solid SITE
+  FT   SITE          2      2  ACT_SITE_GATase By similarity
+sequence
+  ............................................................
+  ...................MCGITGWVDFKK.....QLVQEKQTMDRMTDTLSKRGPDDS
+  NVWGEH..............................HVLFGHKRLAVVD..IEGGRQPMA
+  CTY............KGDTYTIIYNGELYNTEDLRKELRARG.....HQFERTSDTEVLL
+  HSYIEWQ.................EDCVDHLNGIFAFAVWDEKR.NLLFAARDRLGVKPF
+  FYTKEG.....SSFLFGSEIKAILAH.......PDIKARVDRTGLSEIFGLGPSRTPGTG
+  IFKGIKEIRP......AHALTFSKDGLNIW..........RYWNVESEKH.TDSFDDTVA
+  NVRSLFQDAVTRQLVS..........DVPVCTFLSGGLDSSAITAIAAGHFEKE......
+  ......................GKAPLHTYSIDYEENDKYFQASAFQPNDDGPWIEKMTE
+  AFGTTHHKCVISQKDLVDHLEEAVLVKDLP......GMADVDSS.LLWFCREI..KKDFV
+  VSLSGECADEIFGGYPWFHTADVESGFPWMRSTEERIKLLSDS..WQKKL.NLKEYVNAK
+  YEETLAETPLLDGETGVDKARRQLFYLN..............................ML
+  WFMTNLLDRKDRMSMGASLEVRVPFA.DHRLVEYVWNIPWEMKMHDNREKGILRKALEGI
+  LPDDILYRKKSPYPKTHHPEYTK...........GVSEWLKTIRSQKDSVLHTLLDRKQL
+  DQLLETEGSSFKVPWFGQLMKGPQLIAHLAQIHTWFEAYRIDIDER..............
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_HAEIN
+descrip Amidophosphoribosyltransferase (EC 2.4.2.14) (Glutaminephosp
+creator Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        1    137  PF00310 GATase_2
+feature 406 626 2 square solid PFAM-A
+  FT   PFAM-A      257    420  PF00156 Pribosyltran
+feature 642 679 0 square solid PFAM-B
+  FT   PFAM-B      431    467  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE          1      1  ACT_SITE_GATase
+feature 561 561 1 square solid SITE
+  FT   SITE        367    367  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        368    368  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ....................CGIVGIVSQS.........PVNESIYAALTLLQHRGQDAA
+  GIVTVDDENRFRLRKANGLVSDVFHQEHML.RLQG.NAGLGHVRYPTAGSSSVSEAQPFY
+  VNS.............PYGVTLVHNGNLTNSVELKEKVFKTAR....RHVNTNSDSELLL
+  NILANHLDHIPQDHLDPQDIFYAVRKTHKDVRGAYACLAMIIGH..GMVAFRDPFGIRPL
+  VLGKREEN.GKTDYMFASETVALDIVG.....................FEFVRDIAAGEA
+  VYVTF...........DGELYSQQCAESAVLN......PCIFEYVYFARPDSTIDGVSVY
+  AARVHMGEKLGQKIAKEW.ADEIDNIDVVIPVPETSTDIALQIARVLGKP..........
+  ........................YRQGFVKNRYVGR.........TFIMPGQAQRISSV
+  R.RKLNTIKAEFKDKNVLLVDDSIVRG..........TTSEQIVEMARSAGAKK..IYFA
+  SAAPEIRYPNVYGIDMPSRDELIAYG.RNVDE....IAELIGVDKLIFQDLTALTESVQL
+  EN.PAIQGFDCSVFTGEYITGDISPEYLEKIATQR........NDNAKKKREKQ....AS
+  NLEIYNEQ....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_PSEAE
+descrip Amidophosphoribosyltransferase (EC 2.4.2.14) (Glutaminephosp
+creator Pseudomonas aeruginosa.Bacteria;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        1    136  PF00310 GATase_2
+feature 414 626 2 square solid PFAM-A
+  FT   PFAM-A      264    417  PF00156 Pribosyltran
+feature 642 679 0 square solid PFAM-B
+  FT   PFAM-B      428    464  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE          1      1  ACT_SITE_GATase By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        364    364  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        365    365  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ....................CGIVGIVGKS.........NVNQALYDALTVLQHRGQDAA
+  GIVTCHDDKLY.LRKDNGLVRDVFQQRHMQ.RLIG.SVGIGHVRYPTAGSSSSAEAQPFY
+  VNS.............PYGITLAHNGNLTNVEQLAKEIYESDL....RHVNTNSDSEVLL
+  NVFAHELAVRNKLQPTEEDIFAAVSCVHDRCVGGYAVVAMITGH..GIVGFRDPNAIRPI
+  VFGQRHTENG.VEYMIASESVALDVLG.....................FTLIRDLAPGEA
+  VYITE...........EGKLYTRQCAKAPKYA......PCIFEHVYLARPDSIMDGISVY
+  KARLRMGEKLADKILRER.PD..HDIDVVIPIPDTSRTAALELANRLGVK..........
+  ........................FREGFVKNRYIGR.........TFIMPGQAARKKSV
+  R.QKLNAIELEFRGKNVMLVDDSIVRG..........TTCKQIIQMAREAGAKN..VYFC
+  SAAPAVRYPNVYGIDMPSAHELIAHN.RSTED....VSKLIGADWLVYQDLPDLIDAVGG
+  GK.IKIDHFDCAVFDGEYVTGDVNEAYLNRIEQAR........NDATKAKSQAV....SA
+  IIDLYND.....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_SCHPO
+descrip Amidophosphoribosyltransferase (EC 2.4.2.14) (Glutaminephosp
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        2    141  PF00310 GATase_2
+feature 406 626 2 square solid PFAM-A
+  FT   PFAM-A      272    436  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      447    480  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE          2      2  ACT_SITE_GATase By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        383    383  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        384    384  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ...................MCGILALMLADP......HQQACPEIYEGLYSLQHRGQDAA
+  GIVTAGNKGRLYQCKGSGMVADVFSQHQLR.QLVG.SMGIGHLRYPTAGSCAHSEAQPFY
+  VNS.............PYGLVLGHNGNLINGPELRRFLDTEAH....RHVNTGSDSELLL
+  NIFAYELQRLDKFRINENDIFEALRNVYDRVNGGYACVAMIAGL..GVLGFRDPNGIRPL
+  VIGERDTPEG.KDYMLASESVVLTQFG.....................YRTFRDIRPGEC
+  VFIRRSNREDILAGFRGPRLFSRQILPCLRFT......PDIFEYVYFARPDSVIDGLSVY
+  QSRLNMGEKLAHTIMKRFGPDYMEKIDAVIPVPDSARTSALALAQTAQLP..........
+  ........................YVEAFIKNRYIGR.........TFIMPGQQIRRKSV
+  R.RKLNVQPQEFFDKNVLIVDDSIVRG..........TTSREIVQMARESGAKN..VYLA
+  SCAPMITHPHVYGIDLADCKDLIAYG.KTEDE....VAEAISADGVIYQTLEDLLDSCRT
+  ...AELTEFEVGLFTGEYTTG.ASKEYLVHLEQMR........IANNRARKHSF....AE
+  DEEREAPEDISLHNTHSDVTFDFV....................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_BACSU
+descrip Amidophosphoribosyltransferase precursor (EC 2.4.2.14) (Glut
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A       12    148  PF00310 GATase_2
+feature 406 626 2 square solid PFAM-A
+  FT   PFAM-A      253    409  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      420    456  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE         12     12  ACT_SITE_GATase
+feature 400 400 1 square solid SITE
+  FT   SITE        247    247  METAL_Ironsulfur 4Fe4S
+feature 455 455 1 square solid SITE
+  FT   SITE        294    294  METAL_Magnesium
+feature 561 561 1 square solid SITE
+  FT   SITE        356    356  METAL_Magnesium
+feature 562 562 1 square solid SITE
+  FT   SITE        357    357  METAL_Magnesium
+feature 610 610 1 square solid SITE
+  FT   SITE        393    393  METAL_Ironsulfur 4Fe4S
+feature 670 670 1 square solid SITE
+  FT   SITE        448    448  METAL_Ironsulfur 4Fe4S
+feature 673 673 1 square solid SITE
+  FT   SITE        451    451  METAL_Ironsulfur 4Fe4S
+sequence
+  ............................................................
+  .........MLAEIKGLNEECGVFGIWGHE.........EAPQITYYGLHSLQHRGQEGA
+  GIVATDGE.KLTAHKGQGLITEVFQNGELS.KVKG.KGAIGHVRYATAGGGGYENVQPLL
+  FRSQ...........NNGSLALAHNGNLVNATQLKQQLENQG.....SIFQTSSDTEVLA
+  HLIKRSG.........HFTLKDQIKNSLSMLKGAYAFLIMTETE...MIVALDPNGLRPL
+  SIGMMG.....DAYVVASETCAFDVVG.....................ATYLREVEPGEM
+  LIIN...........DEGMKSERFSMNINRS.......ICSMEYIYFSRPDSNIDGINVH
+  SARKNLGKMLAQESAVEA........DVVTGVPDSSISAAIGYAEATGIP..........
+  ........................YELGLIKNRYVGR.........TFIQPSQALREQGV
+  R.MKLSAVRGVVEGKRVVMVDDSIVRG..........TTSRRIVTMLREAGATE..VHVK
+  ISSPPIAHPCFYGIDTSTHEELIASS.HSVGE....IRQEIGADTLSFLSVEGLLKGIGR
+  KYDDSNCGQCLACFTGKYPTEIYQDTVLPHVKEAVLTK......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_STAAM
+descrip Amidophosphoribosyltransferase precursor (EC 2.4.2.14) (Glut
+creator Staphylococcus aureus (strain Mu50 / ATCC 700699), andStaphy
+type    PROTEIN
+group 1
+feature 81 81 0 square solid SITE
+  FT   SITE         11     11  ACT_SITE_GATase By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        356    356  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        357    357  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ..........MFNYSGLNEECGVFGIWNHP.........EAAQLTYMGLHSLQHRGQEGA
+  GIVVSDQN.ELKGERGLGLLTEAINDDQME.RLKGYQHAIGHVRYATSGNKGIENIQPFL
+  YHF............YDMSVGICHNGNLINAKSLRQNLEKQG.....AIFHSSSDTEVIM
+  HLIRRSK.........APTFEEALKESLRKVKGGFTFAILTKDA...LYGAVDPNAIRPL
+  VVGKMKDG....TYILASETCAIDVLG.....................AEFVQDIHAGEY
+  VVIN...........DKGITVKSYTHHTTTA.......ISAMEYIYFARPDSTIAGKNVH
+  AVRKASGKKLAQESPVNA........DMVIGVPNSSLSAASGYAEEIGLP..........
+  ........................YEMGLVKNQYVAR.........TFIQPTQELREQGV
+  R.VKLSAVKDIVDGKNIILVDDSIVRG..........TTIRRIVKMLKDSGANK..VHVR
+  IASPEFMFPSFYGIDVSTTAELISAS.KSPEE....IKDYIGADSLAYLSVDGLIESIGL
+  DYDAPYSGLCVESFTGDYPAGLYDYEANYKAHLSHR........QKQYISKNKH....FF
+  DSEGNLNV....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_RHIET
+descrip Amidophosphoribosyltransferase precursor (EC 2.4.2.14) (Glut
+creator Rhizobium etli.Bacteria;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A       22    158  PF00310 GATase_2
+feature 406 625 2 square solid PFAM-A
+  FT   PFAM-A      268    425  PF00156 Pribosyltran
+feature 660 713 0 square solid PFAM-B
+  FT   PFAM-B      456    498  PB026268 Pfam-B_26268
+feature 81 81 0 square solid SITE
+  FT   SITE         22     22  ACT_SITE_GATase By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        373    373  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        374    374  METAL_Magnesium By similarity
+sequence
+  ...........................................................M
+  NQSHSFPTDDPLDGDTLHEECGVFGILGHP.........DAAALTALGLHALQHRGQEAA
+  GIVSFDGKRFYQERHMGLVGDHYTNPMTLA.RLPG.SISIGHTRYSTTGEVAMRNVQPLF
+  AEL............EEGGIAIAHNGNFTNGLTLRRQIIATG.....AICQSTSDTEVVL
+  HLIARSR.........HASTSDRFIDAIRQMEGGYSMLAMTRTK...LIAASHPTGIRPL
+  VMGELDG.....KPIFCSETCALDIIG.....................AKFIRDVENGEV
+  IICEIQ.........PDGSISIDARKPSKPQPER....LCLFEYVYFARPDSVVGGRNVY
+  TTRKNMGMNLAKESPVDA........DVVVPVPDGGTSAAGGYAQESGIPFE........
+  ........................YEYGIIRNHYVGR.........TFIEPTQQIRAFGV
+  K.LKHSANRAMIEGKRVVLVDDSIVRG..........TTSLKIVQMIREAGARE..VHIR
+  VASPMIFFRDFYGSIRPTPDKLLANQYADVEA....MAKYIGADSLAFLSINGLYRAVGG
+  ED....RNPARPQFTDHYFTGDYPTRLLDKNGESMG.......NKLSMLASNG.......
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_SOYBN
+descrip Amidophosphoribosyltransferase, chloroplast precursor (EC 2.
+creator Glycine max (Soybean).Eukaryota;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A       81    217  PF00310 GATase_2
+feature 406 626 2 square solid PFAM-A
+  FT   PFAM-A      323    479  PF00156 Pribosyltran
+feature 642 675 0 square solid PFAM-B
+  FT   PFAM-B      490    522  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE         81     81  ACT_SITE_GATase By similarity
+feature 400 400 1 square solid SITE
+  FT   SITE        317    317  METAL_Ironsulfur 4Fe4S By similarity
+feature 455 455 1 square solid SITE
+  FT   SITE        364    364  METAL_Magnesium By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        426    426  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        427    427  METAL_Magnesium By similarity
+feature 610 610 1 square solid SITE
+  FT   SITE        463    463  METAL_Ironsulfur 4Fe4S By similarity
+feature 667 667 1 square solid SITE
+  FT   SITE        514    514  METAL_Ironsulfur 4Fe4S By similarity
+feature 670 670 1 square solid SITE
+  FT   SITE        517    517  METAL_Ironsulfur 4Fe4S By similarity
+feature 1 80 12 square solid SIGNAL
+  FT   SIGNAL        1     80  Chloroplast (Potential).
+sequence
+  MAAASNLSTLSSSSLSKPSSSFPFRNTPTNNNASFLHNKSLPNQNSLSHKLSSPLPLACN
+  PKNQNTCVFFDDEDQKPREECGVVGIYGDP.........EASRLCSLALHALQHRGQEGA
+  GIVAVHDN.HLQSVTGVGLVSDVFEQSKLS.RLPG.TSAIGHVRYSTAGQSMLKNVQPFL
+  ADY............RFAAVAVAHNGNFVNYRSLRARLEHNNG....SIFNTTSDTEVVL
+  HLIATSK.........HRPFLLRIVDACEHLQGAYSLVFVTEDK...LVAVRDPFGFRPL
+  VMGRRTNG....AVVLASETCALDLIE.....................ATYEREVYPGEV
+  IVVD...........HTGIQSLCLVSHPEPK.......QCIFEHIYFALPNSVVFGRSVY
+  ESRKKFGEILASESPVEC........DVVIAVPDSGVVAALGYAAKAGVP..........
+  ........................FQQGLIRSHYVGR.........TFIEPSQKIRDFGV
+  K.LKLSPVHAVLEGKRVVVVDDSIVRG..........TTSSKIVRLLKEAGAKE..VHMR
+  IACPPIVASCYYGVDTPSSEELISNR.MSVEE....IRKFIGSDSLAFLPLDKLKTLLGD
+  D.ALNYCYACFSGKYPVEPEELQMKRLGVAHFNWDDD.......FNGNFESIDVGGWV..
+  ......TNQDGFKIGSV...........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_METJA
+descrip Probable amidophosphoribosyltransferase (EC 2.4.2.14) (Gluta
+creator Methanococcus jannaschii.Archaea;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        1    138  PF00310 GATase_2
+feature 406 626 2 square solid PFAM-A
+  FT   PFAM-A      260    416  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      427    457  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE          1      1  ACT_SITE_GATase By similarity
+feature 400 400 1 square solid SITE
+  FT   SITE        254    254  METAL_Ironsulfur 4Fe4S By similarity
+feature 455 455 1 square solid SITE
+  FT   SITE        301    301  METAL_Magnesium By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        363    363  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        364    364  METAL_Magnesium By similarity
+feature 610 610 1 square solid SITE
+  FT   SITE        400    400  METAL_Ironsulfur 4Fe4S By similarity
+feature 670 670 1 square solid SITE
+  FT   SITE        449    449  METAL_Ironsulfur 4Fe4S By similarity
+feature 673 673 1 square solid SITE
+  FT   SITE        452    452  METAL_Ironsulfur 4Fe4S By similarity
+sequence
+  ............................................................
+  ....................CGIFGIYSYER.......LNVAKKIYYGLFALQHRGQEGA
+  GIATSDGK.NIHYYKNIGLVTDVFKNETLQ.NLFG.YIGIGHVRYSTTGGKAVENCQPFV
+  VKS............SFGNIAIAHNGDLVNSDELRRELEMKG.....HIFTSSTDSEVIA
+  QLLVRELLK.......TSDKIEAIKNTLKKLVGAYSLLIMFNDS...LIAVRDPWGFKPL
+  CIGRDES.....NIYISSEDCALTTLD.....................AEFVKDIEPGEI
+  IEIKDGEIISHKL..DYGVSEYNPVNVDVPCIYRGAA.TCMFEYVYFARPDSTIDGISVY
+  KVRKRIGKILAKEHPVDA........DVVSPIPDSGVTFALGFSEESGIP..........
+  ........................YYEGLIKNRYVGR.........TFILPSQNERELAV
+  R.LKLSPVKSVLEGKRVVLVDDSIVRG..........TTSRRIVNMVRKAGAKE..VHLR
+  IGCPKIISPCYYGIDMATKKELIASN.KTEEE....IGKAIGVDSIGYLSLEGLVKAIG.
+  .....RKDLCLACVTGKYPTEVNFEKILGRE.............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_ARCFU
+descrip Probable amidophosphoribosyltransferase (EC 2.4.2.14) (Gluta
+creator Archaeoglobus fulgidus.Archaea;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A        1    137  PF00310 GATase_2
+feature 406 626 2 square solid PFAM-A
+  FT   PFAM-A      244    400  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      411    445  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE          1      1  ACT_SITE_GATase By similarity
+feature 400 400 1 square solid SITE
+  FT   SITE        238    238  METAL_Ironsulfur 4Fe4S By similarity
+feature 455 455 1 square solid SITE
+  FT   SITE        285    285  METAL_Magnesium By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        347    347  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        348    348  METAL_Magnesium By similarity
+feature 610 610 1 square solid SITE
+  FT   SITE        384    384  METAL_Ironsulfur 4Fe4S By similarity
+feature 670 670 1 square solid SITE
+  FT   SITE        437    437  METAL_Ironsulfur 4Fe4S By similarity
+feature 673 673 1 square solid SITE
+  FT   SITE        440    440  METAL_Ironsulfur 4Fe4S By similarity
+sequence
+  ............................................................
+  ....................CGVVGIYHPDG.......ELAPRLAYYSLFSLQHRGQESA
+  GIASFDN..HIRQKRGMGLVTEVFNDEDFE.LLAG.KSVIGHVRYSTTGRSRLENAQPFV
+  VKS............KAGYIAVAHNGNLVNYSQLRNELENEG.....RVFTTDSDTEVIS
+  QLLSKFLIE.......EGDIINALERLNESLVGSYTMTMLVDDA...VIGYRDPLGFKPL
+  CVGRIDDG.....YVICSESCAIDALG.....................GEFIRDVQPGKA
+  AIIK............DGELEFVKIAKSERRA......VCIFEYIYFARPDSIIDGISVY
+  KARSEMGKVLARESPVEA........DFVSAVPDSGITAAIGYAQESGLP..........
+  ........................YFEGLIKNRYVGR.........TFIMPVQSLRETSV
+  R.LKVNVVRENVRGRRVVLVDDSIVRG..........TTSRRIVQMIKDAGAKE..VHMR
+  IGSPPIIAPCYFGIDMKSREELIAAS.HTVEE....IGRIFGTDSLAYLSLEGLLEAVRR
+  ..AGGKRGYCLACLTSKYPVSVPGEECEC...............................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_METTH
+descrip Amidophosphoribosyltransferase precursor (EC 2.4.2.14) (Glut
+creator Methanobacterium thermoautotrophicum.Archaea;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A       11    149  PF00310 GATase_2
+feature 406 626 2 square solid PFAM-A
+  FT   PFAM-A      256    412  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      423    455  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE         11     11  ACT_SITE_GATase By similarity
+feature 400 400 1 square solid SITE
+  FT   SITE        250    250  METAL_Ironsulfur 4Fe4S By similarity
+feature 455 455 1 square solid SITE
+  FT   SITE        297    297  METAL_Magnesium By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        359    359  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        360    360  METAL_Magnesium By similarity
+feature 610 610 1 square solid SITE
+  FT   SITE        396    396  METAL_Ironsulfur 4Fe4S By similarity
+feature 670 670 1 square solid SITE
+  FT   SITE        447    447  METAL_Ironsulfur 4Fe4S By similarity
+feature 673 673 1 square solid SITE
+  FT   SITE        450    450  METAL_Ironsulfur 4Fe4S By similarity
+sequence
+  ............................................................
+  ..........MLGESEVRDKCGIVGIYSQDK......KTGVASQIYYALYALQHRGQESA
+  GISTFNGN.DILTHRGMGLVCDVFNPEKLE.ELKG.NVGIGHVRYSTTGESRIENSQPFW
+  SEF............QGGKIAIAHNGDIINSMELREELEEEG.....HNFVSTTDSEVIC
+  HLLSREYDE.......KPNMIYSIKRVSEQLVGSYSLVVLLNQD...LYVVRDPVGIKPL
+  AFARKGS.....TQIVASETVAFDVIG.....................AEHVRDVQPGEI
+  LHLN............RGKSYWVANAPNTRRA......HCMFEYVYFARPDSVIDGRNVY
+  RVRLNIGEALYREHPANA........DVVVPVPDSSIPAAIGYSRASGIP..........
+  ........................YGEGLIKNRYVGR.........TFIMPTQEERETAV
+  K.LKMNPIRSELEGKRIVLIDDSIVRG..........TTSRALIDIIRDAGAEE..IHLR
+  IGCPPIKSPCYYGIAMATKKELIAST.RNVEE....IRRIIGVDSLGYLSIESLVECIG.
+  ...IKKGFLCTGCLDGDYPTPLPSDISEYEAMRSCSR.......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_PYRHO
+descrip Amidophosphoribosyltransferase precursor (EC 2.4.2.14) (Glut
+creator Pyrococcus horikoshii.Archaea;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A       10    141  PF00310 GATase_2
+feature 406 625 2 square solid PFAM-A
+  FT   PFAM-A      245    398  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      410    440  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE         10     10  ACT_SITE_GATase By similarity
+feature 400 400 1 square solid SITE
+  FT   SITE        239    239  METAL_Ironsulfur 4Fe4S By similarity
+feature 455 455 1 square solid SITE
+  FT   SITE        286    286  METAL_Magnesium By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        346    346  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        347    347  METAL_Magnesium By similarity
+feature 610 610 1 square solid SITE
+  FT   SITE        383    383  METAL_Ironsulfur 4Fe4S By similarity
+feature 670 670 1 square solid SITE
+  FT   SITE        432    432  METAL_Ironsulfur 4Fe4S By similarity
+feature 673 673 1 square solid SITE
+  FT   SITE        435    435  METAL_Ironsulfur 4Fe4S By similarity
+sequence
+  ............................................................
+  ...........MRGEIMKEKCGIFGAYSQD..........ATKKTYYGLMALQHRGQEGA
+  GISVWDG..DIRTVKGHGLVSEVFKGGSIR.RLNG.NPVIGHVRYSTSG..SLSEVQPLE
+  VEC............CGYKVSIAHNGTLTNFLPLRRFYESRG.....FKFRSSIDTEVIA
+  VSFLNHYS.......ELKDEFEAMSRVFEEVKGAYSVLMLFNGK...LIAVRDPVGFRPL
+  SFGAGDG......YYFSSEDSALRMF......................CTNIRDVSPGEV
+  IVVK............DGEAESKIVGRSEHAY.......CVFEYIYFARPDSIINGISVY
+  WARYRMGVELARESPAEG........DVVIAVPDSGRTAALGFAHESGIP..........
+  ........................YMEGLIKNRYIGR.........TFIMPSG..REIKV
+  R.LKLSPVKEVIKGRRIVLVDDSIVRG..........TTMKNIVKMLRDAGARE..VHVR
+  IASPPIRYPCYMGIDIPTRHELIAAW.KSIEE....IKKEIGADSLAYLSVEGLKRAIG.
+  .....TDKLCMACLTGNYPEWAFDFKV.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_PYRAB
+descrip Amidophosphoribosyltransferase precursor (EC 2.4.2.14) (Glut
+creator Pyrococcus abyssi.Archaea;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A       11    141  PF00310 GATase_2
+feature 406 625 2 square solid PFAM-A
+  FT   PFAM-A      245    398  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      410    440  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE         11     11  ACT_SITE_GATase By similarity
+feature 400 400 1 square solid SITE
+  FT   SITE        239    239  METAL_Ironsulfur 4Fe4S By similarity
+feature 455 455 1 square solid SITE
+  FT   SITE        286    286  METAL_Magnesium By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        346    346  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        347    347  METAL_Magnesium By similarity
+feature 610 610 1 square solid SITE
+  FT   SITE        383    383  METAL_Ironsulfur 4Fe4S By similarity
+feature 670 670 1 square solid SITE
+  FT   SITE        432    432  METAL_Ironsulfur 4Fe4S By similarity
+feature 673 673 1 square solid SITE
+  FT   SITE        435    435  METAL_Ironsulfur 4Fe4S By similarity
+sequence
+  ............................................................
+  ..........MAKVRGMREKCGIFGVSSED..........AVRKTYYGLIALQHRGQEGA
+  GISVWNG..RIRTIKGHGLVSEVFDENSLN.LAS..NIAIGHVRYSTSG..SLSEVQPLE
+  VRC............CGYELAIAHNGTLTNFIPLRRLYEGMG.....IKFHSSVDTEVIG
+  ISFLNHYS.......QVKDEFEAMRRVFEEVKGAYSILILFDGK...IIAARDPVGFRPL
+  VFGEGDG......YYFASEDSALRMFG.....................LETR.DVLPGEV
+  FVID............GESYESKVLAREKHAY.......CVFEYIYFARPDSTLNGINVY
+  CARYRMGVELARESPAEG........DVVIAVPDSGRTAALGFAHESGIP..........
+  ........................YMEGLIKNRYIGR.........TFIMPSG..RGLKV
+  K.LKLSPVREVVNGKRVVLVDDSIVRG..........TTMTRIVKMLRDAGARE..VHVR
+  IASPPIRYPCYMGIDIPTRHELIAAW.RSIED....IRKEIGADSLAYLSIEGLKRAVG.
+  .....TKNLCMACLTGEYPEWAFNF...................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_SYNP7
+descrip Amidophosphoribosyltransferase precursor (EC 2.4.2.14) (Glut
+creator Synechococcus sp. (strain PCC 7942) (Anacystis nidulans R2).
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A       27    163  PF00310 GATase_2
+feature 406 626 2 square solid PFAM-A
+  FT   PFAM-A      274    430  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      441    473  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE         27     27  ACT_SITE_GATase By similarity
+feature 400 400 1 square solid SITE
+  FT   SITE        268    268  METAL_Ironsulfur 4Fe4S By similarity
+feature 455 455 1 square solid SITE
+  FT   SITE        315    315  METAL_Magnesium By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        377    377  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        378    378  METAL_Magnesium By similarity
+feature 610 610 1 square solid SITE
+  FT   SITE        414    414  METAL_Ironsulfur 4Fe4S By similarity
+feature 670 670 1 square solid SITE
+  FT   SITE        465    465  METAL_Ironsulfur 4Fe4S By similarity
+feature 673 673 1 square solid SITE
+  FT   SITE        468    468  METAL_Ironsulfur 4Fe4S By similarity
+sequence
+  ......................................................MIPTQP
+  LTADLDCDLGLERPDRPEEACGVFALYAPGE........EVARMAYFGLYALQHRGQESA
+  GIAVFEGD.RVMLHKDMGLVSQVFDPEILQ.QLQG.SLAVGHTRYSTTGSSRIANAQPAL
+  LET............RLGPVALAHNGNLVNTVELRQELLAKN.....HELTTTTDSELIA
+  FAIMEAVAE.......GQDWRGAIESACRRSQGAFSLTIGTPEA...LYGTRDPNGIRPL
+  VLGTLESN.GQTRYVLSSETCGLDIIG.....................ADYVRDIAPGEM
+  VRIT...........DAGLESWTWAEAPQPK.......LCVFEMIYFARPDSLFHGESLY
+  SYRRRIGQRLAKEAPADV........DLVLGVPDSGIPAAIGFSEALGIP..........
+  ........................YAEGLIKNRYVGR.........TFIQPTQSMRETGI
+  R.MKLNPLKDVLAGKRIAIIDDSIVRG..........TTSRKLVKALRDAGATE..VHMR
+  ISSPPVTHPCFYGIDTDTQDQLIAAT.RSVSE....ITEQIGVDSLAYLTEQGMLEATR.
+  ...ESIGNFCTACFNGRYPIAIPEEIKRSKLMLETVTA......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_SYNY3
+descrip Amidophosphoribosyltransferase precursor (EC 2.4.2.14) (Glut
+creator Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A       29    166  PF00310 GATase_2
+feature 406 626 2 square solid PFAM-A
+  FT   PFAM-A      276    432  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      443    475  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE         29     29  ACT_SITE_GATase By similarity
+feature 400 400 1 square solid SITE
+  FT   SITE        270    270  METAL_Ironsulfur 4Fe4S By similarity
+feature 455 455 1 square solid SITE
+  FT   SITE        317    317  METAL_Magnesium By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        379    379  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        380    380  METAL_Magnesium By similarity
+feature 610 610 1 square solid SITE
+  FT   SITE        416    416  METAL_Ironsulfur 4Fe4S By similarity
+feature 670 670 1 square solid SITE
+  FT   SITE        467    467  METAL_Ironsulfur 4Fe4S By similarity
+feature 673 673 1 square solid SITE
+  FT   SITE        470    470  METAL_Ironsulfur 4Fe4S By similarity
+sequence
+  ....................................................MFPPSSDL
+  TELNDGQPLSGHHADKPEEACGVFGIYAPEE........AVAKLTYFGLYALQHRGQESA
+  GIATFAGT.TVHCHKDMGLVSQVFQESKLN.EMVG.TLAVGHTRYSTTGSSHRVNAQPAV
+  LPT............RLGPLALAHNGNLVNTNQLREALAERGC....EDFVTTTDSEMIA
+  VAIANEVDK.......GKDWVEGTIAALTLCAGAYSLVIGTPEG...IIGVRDPHGIRPL
+  VIGVLEEETP..RYVLASETCALDIIG.....................ATYVRTVEAGEL
+  VHIT...........ESGLVSHRLAESADRK.......LCVFEMIYFSRPDSVVNDESLY
+  TYRMRIGKHLAKESPVDA........DLVMGVPDSGIPAAIGFSQASGIP..........
+  ........................YAEGLIKNRYVGR.........TFIQPTQHMREHGI
+  R.MKLNPLKDVLAGKRIIIVDDSIVRG..........TTSRKIVRALREAGATE..VHMR
+  ISSPPVTHPCFYGIDTDSQDQLIAAR.LTVAE....IAEQIEVDSLAYLSQEGMLLCTG.
+  ...EDISHFCSACFNGRYPITVPDAVRRSKLMLENITA......................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name PUR1_MYCLE
+descrip Amidophosphoribosyltransferase precursor (EC 2.4.2.14) (Glut
+creator Mycobacterium leprae.Bacteria;
+type    PROTEIN
+group 1
+feature 81 245 1 square solid PFAM-A
+  FT   PFAM-A       58    200  PF00310 GATase_2
+feature 406 625 2 square solid PFAM-A
+  FT   PFAM-A      305    460  PF00156 Pribosyltran
+feature 642 678 0 square solid PFAM-B
+  FT   PFAM-B      477    509  PB000366 Pfam-B_366
+feature 81 81 0 square solid SITE
+  FT   SITE         58     58  ACT_SITE_GATase By similarity
+feature 400 400 1 square solid SITE
+  FT   SITE        299    299  METAL_Ironsulfur 4Fe4S By similarity
+feature 455 455 1 square solid SITE
+  FT   SITE        346    346  METAL_Magnesium By similarity
+feature 561 561 1 square solid SITE
+  FT   SITE        408    408  METAL_Magnesium By similarity
+feature 562 562 1 square solid SITE
+  FT   SITE        409    409  METAL_Magnesium By similarity
+feature 610 610 1 square solid SITE
+  FT   SITE        445    445  METAL_Ironsulfur 4Fe4S By similarity
+feature 670 670 1 square solid SITE
+  FT   SITE        501    501  METAL_Ironsulfur 4Fe4S By similarity
+feature 673 673 1 square solid SITE
+  FT   SITE        504    504  METAL_Ironsulfur 4Fe4S By similarity
+sequence
+  .......................MCLAVGVGVRAPKHVPQIRRLGRAGRRLRCVTNCALG
+  SCPIVTVQQPGRDFSSPREECGVFGVWAPG........ELVAKLTYFGLYALQHRGQEAA
+  GIAVADGS.QVLVFKDLGLVSQVFDEQTLA.AMEG.HVAIGHCRYSTTGDTTWENAQPVF
+  RNIA...........AGSGVALGHNGNLVNTAELAARARDAGLIAKRCPAPATTDSDILG
+  ALLAHGAA........DSTLEQAALELLPTVRGAFCLTFMDENT...LYACRDPYGVRPL
+  SLGRLDRG.....WVVASETAGLDIVG.....................ASFVRDIEPGEL
+  LAID...........ADGVRSTRFANPTPKG........CVFEYVYLARPDSTLAGRSVH
+  GTRVEIGRRLARECPVEA........DLVIGVPESGTPAAVGYAQESGIS..........
+  ........................YGQGLMKNAYVGR.........TFIQPSQTIRQLGI
+  R.LKLNPLKEVIRGKRLIVVDDSVVRG..........NTQRALVRMLREAGAVE..LHVR
+  IASPPVKWPCFYGIDFPSPAELIANVVADEEEMLEAVRQGIGADTLGYISLRGMIAASE.
+  ...QPASRLCYACFDGRYPIELPSEAMLGKNVIEHMLANAARGAGLRDLAADQV....PV
+  DADENCVWR...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................
+}
+{
+name 1jgt_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 82 87 0 square solid STRUCT
+  FT   STRUCT        8     13  STRAND
+feature 119 122 0 square solid STRUCT
+  FT   STRUCT       26     29  STRAND
+feature 150 153 3 square solid STRUCT
+  FT   STRUCT       35     37  HELIX
+feature 157 162 0 square solid STRUCT
+  FT   STRUCT       40     45  STRAND
+feature 174 178 3 square solid STRUCT
+  FT   STRUCT       51     55  HELIX
+feature 178 181 0 square solid STRUCT
+  FT   STRUCT       55     58  STRAND
+feature 200 208 0 square solid STRUCT
+  FT   STRUCT       64     72  STRAND
+feature 211 216 3 square solid STRUCT
+  FT   STRUCT       75     80  HELIX
+feature 235 269 3 square solid STRUCT
+  FT   STRUCT       91    108  HELIX
+feature 273 281 0 square solid STRUCT
+  FT   STRUCT      112    120  STRAND
+feature 287 292 0 square solid STRUCT
+  FT   STRUCT      123    128  STRAND
+feature 301 305 0 square solid STRUCT
+  FT   STRUCT      137    141  STRAND
+feature 313 317 0 square solid STRUCT
+  FT   STRUCT      144    148  STRAND
+feature 320 324 3 square solid STRUCT
+  FT   STRUCT      151    155  HELIX
+feature 344 345 0 square solid STRUCT
+  FT   STRUCT      167    168  STRAND
+feature 353 354 0 square solid STRUCT
+  FT   STRUCT      176    177  STRAND
+feature 359 364 0 square solid STRUCT
+  FT   STRUCT      182    187  STRAND
+feature 379 384 0 square solid STRUCT
+  FT   STRUCT      192    197  STRAND
+feature 415 433 3 square solid STRUCT
+  FT   STRUCT      210    228  HELIX
+feature 451 453 0 square solid STRUCT
+  FT   STRUCT      236    238  STRAND
+feature 458 471 3 square solid STRUCT
+  FT   STRUCT      243    256  HELIX
+feature 508 513 0 square solid STRUCT
+  FT   STRUCT      260    265  STRAND
+feature 533 543 3 square solid STRUCT
+  FT   STRUCT      272    282  HELIX
+feature 546 551 0 square solid STRUCT
+  FT   STRUCT      285    290  STRAND
+feature 554 558 3 square solid STRUCT
+  FT   STRUCT      293    297  HELIX
+feature 561 568 3 square solid STRUCT
+  FT   STRUCT      300    307  HELIX
+feature 577 592 3 square solid STRUCT
+  FT   STRUCT      312    327  HELIX
+feature 600 602 0 square solid STRUCT
+  FT   STRUCT      334    336  STRAND
+feature 609 612 3 square solid STRUCT
+  FT   STRUCT      342    345  HELIX
+feature 622 634 3 square solid STRUCT
+  FT   STRUCT      355    367  HELIX
+feature 654 657 3 square solid STRUCT
+  FT   STRUCT      377    380  HELIX
+feature 740 742 0 square solid STRUCT
+  FT   STRUCT      385    387  STRAND
+feature 744 746 3 square solid STRUCT
+  FT   STRUCT      389    391  HELIX
+feature 749 757 3 square solid STRUCT
+  FT   STRUCT      393    401  HELIX
+feature 760 764 3 square solid STRUCT
+  FT   STRUCT      404    408  HELIX
+feature 764 765 0 square solid STRUCT
+  FT   STRUCT      408    409  STRAND
+feature 768 769 0 square solid STRUCT
+  FT   STRUCT      412    413  STRAND
+feature 771 790 3 square solid STRUCT
+  FT   STRUCT      415    421  HELIX
+feature 796 800 3 square solid STRUCT
+  FT   STRUCT      427    431  HELIX
+feature 810 818 3 square solid STRUCT
+  FT   STRUCT      437    445  HELIX
+feature 825 840 3 square solid STRUCT
+  FT   STRUCT      452    467  HELIX
+feature 849 851 3 square solid STRUCT
+  FT   STRUCT      474    476  HELIX
+feature 854 862 3 square solid STRUCT
+  FT   STRUCT      479    487  HELIX
+sequence
+  ............................................................
+  ..............PVLPAAFGFLASART...................GGGPVFATRGSH
+  TDIDTPQ......................G.ERSL.AATLVHAPS......VAPDRAVAR
+  SLT.............GAPTTAVLAGEIYNRDELLSVLPAGP........APEGDAELVL
+  RLLERYDLH.................AFRLVNGRFATVVRTGD...RVLLATDHAGSVPL
+  YTCVAP.....GEVRASTEAKALAAHPKG........FPLADARRVAGLTGVYQVPAGAV
+  MDIDLGS..........GTAVTHR.................TWTPGLSRRILP.EGEAVA
+  AVRAALEKAVAQRVTP..........GDTPLVVLSGGIDSSGVAACAHRAAG........
+  .........................ELDTVSMGTDTS.............NEFREARAVV
+  DHLRTRHREITIPTTELLAQLPYAVWASES....VDPDIIEYLLPLTALYRALD.GPERR
+  ILTGY.GADIPLGGMHREDRLPALDTVLAHDMATFD....GLNEMSP......VLSTLAG
+  H...........................................................
+  ...................WTTHPYW.DREVLDLLVSLEAGLKRRHGRDKWVLR......
+  .......AAMADALPAETVNRPKL....SSFSRLLLDHGVAEDRVHEAKRQVVRELFDLT
+  VGGG..RHPSEVDTDDVVRSVADRT...................................
+  ............................................................
+  ..................................................
+}

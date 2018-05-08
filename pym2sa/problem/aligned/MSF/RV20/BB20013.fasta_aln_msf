@@ -1,0 +1,816 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:  1284  Type: P  octubre 20, 2015 11:11  Check:    0  ..
+
+ Name: 1ct9_A     Len:  1284  Check: 1872  Weight:  1.00
+ Name: ASNS_SCHPO Len:  1284  Check: 4771  Weight:  1.00
+ Name: ASN1_YEAST Len:  1284  Check: 1733  Weight:  1.00
+ Name: ASN1_LOTJA Len:  1284  Check: 4303  Weight:  1.00
+ Name: ASNS_MAIZE Len:  1284  Check:  678  Weight:  1.00
+ Name: ASNS_CRIGR Len:  1284  Check: 3208  Weight:  1.00
+ Name: ASN1_METJA Len:  1284  Check: 2397  Weight:  1.00
+ Name: ASNH_MYCTU Len:  1284  Check: 8036  Weight:  1.00
+ Name: ASNB_BACSU Len:  1284  Check: 7660  Weight:  1.00
+ Name: ASNH_BACSU Len:  1284  Check: 9584  Weight:  1.00
+ Name: ASN2_METJA Len:  1284  Check: 9561  Weight:  1.00
+ Name: ASNO_BACSU Len:  1284  Check: 1315  Weight:  1.00
+ Name: PUR1_HAEIN Len:  1284  Check: 5417  Weight:  1.00
+ Name: PUR1_PSEAE Len:  1284  Check: 5805  Weight:  1.00
+ Name: PUR1_SCHPO Len:  1284  Check: 6550  Weight:  1.00
+ Name: PUR1_BACSU Len:  1284  Check: 2190  Weight:  1.00
+ Name: PUR1_STAAM Len:  1284  Check: 5550  Weight:  1.00
+ Name: PUR1_RHIET Len:  1284  Check: 5613  Weight:  1.00
+ Name: PUR1_SOYBN Len:  1284  Check: 9395  Weight:  1.00
+ Name: PUR1_METJA Len:  1284  Check: 2394  Weight:  1.00
+ Name: PUR1_ARCFU Len:  1284  Check: 6215  Weight:  1.00
+ Name: PUR1_METTH Len:  1284  Check: 9315  Weight:  1.00
+ Name: PUR1_PYRHO Len:  1284  Check: 3884  Weight:  1.00
+ Name: PUR1_PYRAB Len:  1284  Check: 7921  Weight:  1.00
+ Name: PUR1_SYNP7 Len:  1284  Check: 9374  Weight:  1.00
+ Name: PUR1_SYNY3 Len:  1284  Check: 8968  Weight:  1.00
+ Name: PUR1_MYCLE Len:  1284  Check: 7954  Weight:  1.00
+ Name: 1jgt_A     Len:  1284  Check: 1459  Weight:  1.00
+
+//
+
+           1                                                   50
+1ct9_A     ---------- ---------- ---------- ---------- ----------
+ASNS_SCHPO ---------- ---------- ---------- ---------- ----------
+ASN1_YEAST ---------- ---------- ---------- ---------- ----------
+ASN1_LOTJA ---------- ---------- ---------- ---------- ----------
+ASNS_MAIZE ---------- ---------- ---------- ---------- ----------
+ASNS_CRIGR ---------- ---------- ---------- ---------- ----------
+ASN1_METJA M--------- ---------- ---------- ---------- ----------
+ASNH_MYCTU M--------- ---------- ---------- ---------- ----------
+ASNB_BACSU M--------- ---------- ---------- ---------- ----------
+ASNH_BACSU M--------- ---------- ---------- ---------- ----------
+ASN2_METJA M--------- ---------- ---------- ---------- ----------
+ASNO_BACSU M--------- ---------- ---------- ---------- ----------
+PUR1_HAEIN ---------- ---------- ---------- ---------- ----------
+PUR1_PSEAE ---------- ---------- ---------- ---------- ----------
+PUR1_SCHPO ---------- ---------- ---------- ---------- ----------
+PUR1_BACSU MLAEI----- ---------- ---------- ---------- ----------
+PUR1_STAAM MFNY------ ---------- ---------- ---------- ----------
+PUR1_RHIET MNQSHSFPTD D------P-- ---------- ---------- ----------
+PUR1_SOYBN MAAASNLSTL SSSSLSKPSS SFPFRNTPTN NNASFLHNKS LPNQ------
+PUR1_METJA ---------- ---------- ---------- ---------- ----------
+PUR1_ARCFU ---------- ---------- ---------- ---------- ----------
+PUR1_METTH MLGE------ ---------- ---------- ---------- ----------
+PUR1_PYRHO MRGE------ ---------- ---------- ---------- ----------
+PUR1_PYRAB MAKV------ ---------- ---------- ---------- ----------
+PUR1_SYNP7 MIPTQPLT-- ---------- ---------- ---------- ----------
+PUR1_SYNY3 MFPPSSDL-- ---------- ---------- ---------- ----------
+PUR1_MYCLE MCLAVGVGVR APKH------ ---------- ---------- VPQIRRLGRA
+1jgt_A     ---------- ---------- ---------- ---------- ----------
+
+           51                                                 100
+1ct9_A     ---------- ---------- ---------- ---------- -------ASI
+ASNS_SCHPO ---------- ---------- ---------- ---------- -------CGI
+ASN1_YEAST ---------- ---------- ---------- ---------- -------CGI
+ASN1_LOTJA ---------- ---------- ---------- ---------- -------CGI
+ASNS_MAIZE ---------- ---------- ---------- ---------- -------CGI
+ASNS_CRIGR ---------- ---------- ---------- ---------- -------CGI
+ASN1_METJA ---------- ---------- ---------- ---------- -------CSI
+ASNH_MYCTU ---------- ---------- ---------- ---------- -------CGL
+ASNB_BACSU ---------- ---------- ---------- ---------- -------CGF
+ASNH_BACSU ---------- ---------- ---------- ---------- -------CGL
+ASN2_METJA ---------- ---------- ---------- ---------- -------CGI
+ASNO_BACSU ---------- ---------- ---------- ---------- -------CGI
+PUR1_HAEIN ---------- ---------- ---------- ---------- -------CGI
+PUR1_PSEAE ---------- ---------- ---------- ---------- -------CGI
+PUR1_SCHPO ---------- ---------- ---------- ---------- ------MCGI
+PUR1_BACSU ---------- ---------- ---------- ---------- -KGLNEECGV
+PUR1_STAAM ---------- ---------- ---------- ---------- -SGLNEECGV
+PUR1_RHIET ---------- ---------- ---------- --------LD GDTLHEECGV
+PUR1_SOYBN -NSLSHKLSS PLPLACNPKN QNTCVF---- ------FDDE DQKPREECGV
+PUR1_METJA ---------- ---------- ---------- ---------- -------CGI
+PUR1_ARCFU ---------- ---------- ---------- ---------- -------CGV
+PUR1_METTH ---------- ---------- ---------- ---------- -SEVRDKCGI
+PUR1_PYRHO ---------- ---------- ---------- ---------- --IMKEKCGI
+PUR1_PYRAB ---------- ---------- ---------- ---------- -RGMREKCGI
+PUR1_SYNP7 -----ADLDC ---------- ----DL---- ------GLER PDRPEEACGV
+PUR1_SYNY3 -----TELND GQ-------- ----PL---- ------SGHH ADKPEEACGV
+PUR1_MYCLE GRRLRCVTNC ---------- ----ALGSCP IVTVQQPGRD FSSPREECGV
+1jgt_A     ---------- ---------- ---------- ---------- -------PVL
+
+           101                                                150
+1ct9_A     FGVFDIKTDA -----VEL-R KKALELSRLM RHRGPD---- WSGIYA-SD-
+ASNS_SCHPO LAVHHVAEDI -----EAF-K PKALHLSKQL RHRGPD---- WSGKAI-RN-
+ASN1_YEAST FAAFRHE-DV -----HRY-K PKALQLSKRI RHRGPD---- WSGNAI-KN-
+ASN1_LOTJA LAVLGCSDFT -----QAK-R VRVLELSRRL KHRGPD---- WSGLHQ-HG-
+ASNS_MAIZE LAVLGVVEVS -----LAK-R SRIIELSRRL RHRGPD---- WSGLHC-HE-
+ASNS_CRIGR WALFGSD-DC -----LSV-- -QCLS-AMKI AHRGPD---- AFRFEN-VNG
+ASN1_METJA SGIIVKDNQI -----SA--K -YSIDMMKIL KHRGRD---- NSGLLL-DDE
+ASNH_MYCTU LAFVAAPAGA AGPEGADA-A SAIARASHLM RHRGPD---- ESGTWHAVDG
+ASNB_BACSU VGVFNKHPLA ---QTADQ-E ELIKQMNQMI VHRGPD---- SDGYFH-D--
+ASNH_BACSU AGIINLAAPR ----SQECTF HILKGMADAI SYRGPD---- DEQYHI-D--
+ASN2_METJA NGIIRFGKEV -----IK--E -EINKMNKAI KHRGPD---- DEGIFI-YNF
+ASNO_BACSU TGWVDFKKQL -----VQE-K QTMDRMTDTL SKRGPD---- DSNVWG-E--
+PUR1_HAEIN VGIVSQSP-- ------VN-E -SIYAALTLL QHRGQD---- AAGIVT-VDD
+PUR1_PSEAE VGIVGKSN-- ------VN-Q -ALYDALTVL QHRGQD---- AAGIVT-CHD
+PUR1_SCHPO LALMLADPHQ -----QAC-P -EIYEGLYSL QHRGQD---- AAGIVT-AGN
+PUR1_BACSU FGIWGHEE-- ------AP-Q -ITYYGLHSL QHRGQE---- GAGIVA-TDG
+PUR1_STAAM FGIWNHPE-- ------AA-Q -LTYMGLHSL QHRGQE---- GAGIVV-SDQ
+PUR1_RHIET FGILGHPD-- ------AA-A -LTALGLHAL QHRGQE---- AAGIVS-FDG
+PUR1_SOYBN VGIYGDPE-- ------AS-R -LCSLALHAL QHRGQE---- GAGIVA-VHD
+PUR1_METJA FGIYSYERLN ------VA-K -KIYYGLFAL QHRGQE---- GAGIAT-SDG
+PUR1_ARCFU VGIYHPDGEL ------AP-R -LAYYSLFSL QHRGQE---- SAGIAS-FDN
+PUR1_METTH VGIYSQDKKT -----GVA-S -QIYYALYAL QHRGQE---- SAGIST-FNG
+PUR1_PYRHO FGAYSQD--- ------AT-K -KTYYGLMAL QHRGQE---- GAGISV-WDG
+PUR1_PYRAB FGVSSED--- ------AV-R -KTYYGLIAL QHRGQE---- GAGISV-WNG
+PUR1_SYNP7 FALYAPGEE- ------VA-R -MAYFGLYAL QHRGQE---- SAGIAV-FEG
+PUR1_SYNY3 FGIYAPEEA- ------VA-K -LTYFGLYAL QHRGQE---- SAGIAT-FAG
+PUR1_MYCLE FGVWAPGEL- ------VA-K -LTYFGLYAL QHRGQE---- AAGIAV-ADG
+1jgt_A     PAAFGFLASA -----RTG-- ----G-GPVF ATRGSHTDID TPQGER-SL-
+
+           151                                                200
+1ct9_A     ---------- ---------- --------N- AILAHERLSI VDV--NAGAQ
+ASNS_SCHPO ---------- ---------- --------Q- TILCHERLAI VGV--ESGAQ
+ASN1_YEAST ---------- ---------- --------S- TIFVHERLAI VGV--ESGAQ
+ASN1_LOTJA ---------- ---------- --------D- CYLAHQRLAI VDP--ASGDQ
+ASNS_MAIZE ---------- ---------- --------D- CYLAHQRLAI IDP--TSGDQ
+ASNS_CRIGR ---------- ---------- -----Y-TN- CCFGFHRLAV VDP--LFGMQ
+ASN1_METJA --VIYF---- ---NDFEDVE DLEEEMIGN- LSLAHNRLAI VGR---YGVQ
+ASNH_MYCTU ---------- ---------- -----ASGG- VVFGFNRLSI IDI--AHSHQ
+ASNB_BACSU ---------- ---------- -------EH- VGFGFRRLSI IDV--ENGGQ
+ASNH_BACSU ---------- ---------- -------SK- VGFAFRRLSI LDL--VNGQQ
+ASN2_METJA ---------- ---------- -----KNYS- IGLGHVRLAI LDLS-EKGHQ
+ASNO_BACSU ---------- ---------- -------HH- VLFGHKRLAV VDI--EGGRQ
+PUR1_HAEIN ENRFRLRKAN GLVSDVFHQ- EHMLRLQGN- AGLGHVRYPT AGSSSVSEAQ
+PUR1_PSEAE D-KLYLRKDN GLVRDVFQQ- RHMQRLIGS- VGIGHVRYPT AGSSSSAEAQ
+PUR1_SCHPO KGRLYQCKGS GMVADVFSQ- HQLRQLVGS- MGIGHLRYPT AGSCAHSEAQ
+PUR1_BACSU E-KLTAHKGQ GLITEVFQN- GELSKVKGK- GAIGHVRYAT AGGGGYENVQ
+PUR1_STAAM N-ELKGERGL GLLTEAIND- DQMERLKGYQ HAIGHVRYAT SGNKGIENIQ
+PUR1_RHIET K-RFYQERHM GLVGDHYTNP MTLARLPGS- ISIGHTRYST TGEVAMRNVQ
+PUR1_SOYBN N-HLQSVTGV GLVSDVFEQ- SKLSRLPGT- SAIGHVRYST AGQSMLKNVQ
+PUR1_METJA K-NIHYYKNI GLVTDVFKN- ETLQNLFGY- IGIGHVRYST TGGKAVENCQ
+PUR1_ARCFU --HIRQKRGM GLVTEVFND- EDFELLAGK- SVIGHVRYST TGRSRLENAQ
+PUR1_METTH N-DILTHRGM GLVCDVFNP- EKLEELKGN- VGIGHVRYST TGESRIENSQ
+PUR1_PYRHO --DIRTVKGH GLVSEVFKG- GSIRRLNGN- PVIGHVRYST SGS--LSEVQ
+PUR1_PYRAB --RIRTIKGH GLVSEVFDE- NSL-NLASN- IAIGHVRYST SGS--LSEVQ
+PUR1_SYNP7 D-RVMLHKDM GLVSQVFDP- EILQQLQGS- LAVGHTRYST TGSSRIANAQ
+PUR1_SYNY3 T-TVHCHKDM GLVSQVFQE- SKLNEMVGT- LAVGHTRYST TGSSHRVNAQ
+PUR1_MYCLE S-QVLVFKDL GLVSQVFDE- QTLAAMEGH- VAIGHCRYST TGDTTWENAQ
+1jgt_A     ---------- ---------- --------A- ATLVHAP-SV APD--RAVAR
+
+           201                                                250
+1ct9_A     PLYNQ----- ---------Q KTHVLAVNGE IYNHQALRAE YGD--R----
+ASNS_SCHPO PLVSD----- ---------D GKLVLTVNGE IYNHLKLREN LKG--N----
+ASN1_YEAST PITSS----- ---------D GEYMLCVNGE IYNHIQLREE CA---D----
+ASN1_LOTJA PLFNE----- ---------D KSIIVTVNGE IYNHEELRKQ LPN-------
+ASNS_MAIZE PLYNE----- ---------D KTVVVTVNGE IYNHEELKAK LKT-------
+ASNS_CRIGR PIRVK----- --------KY PYLWLCYNGE IYNHKALQQR FE--------
+ASN1_METJA PIPN------ --------ED ETIWLVCNGE IYNYIELREY LKQ--N----
+ASNH_MYCTU PLRWGPP--- -------EAP DRYVLVFNGE IYNYLELRDE LRTQHG----
+ASNB_BACSU PLSY------ --------ED ETYWIIFNGE IYNYIELREE LEAK-G----
+ASNH_BACSU PFLN------ --------ED GSIVVMVNGE IYNYKELKAS LHN-------
+ASN2_METJA PMGYNVDEDK IIYRDDELDR ADIIIVYNGE IYNYLELKEK FN--------
+ASNO_BACSU PMACTY---- --------KG DTYTIIYNGE LYNTEDLRKE LRAR-G----
+PUR1_HAEIN PFYVNS---- ---------P YGVTLVHNGN LTNSVELKEK VFK-TAR---
+PUR1_PSEAE PFYVNS---- ---------P YGITLAHNGN LTNVEQLAKE IYE-SDL---
+PUR1_SCHPO PFYVNS---- ---------P YGLVLGHNGN LINGPELRRF LDT-EAH---
+PUR1_BACSU PLLFRSQ--- --------NN GSLALAHNGN LVNATQLKQQ LEN-QG----
+PUR1_STAAM PFLYHFY--- ---------D MSVGICHNGN LINAKSLRQN LEK-QG----
+PUR1_RHIET PLFAELE--- ---------E GGIAIAHNGN FTNGLTLRRQ IIA-TG----
+PUR1_SOYBN PFLADYR--- ---------F AAVAVAHNGN FVNYRSLRAR LEHNNG----
+PUR1_METJA PFVVKSS--- ---------F GNIAIAHNGD LVNSDELRRE LEM-KG----
+PUR1_ARCFU PFVVKSK--- ---------A GYIAVAHNGN LVNYSQLRNE LEN-EG----
+PUR1_METTH PFWSEFQ--- ---------G GKIAIAHNGD IINSMELREE LEE-EG----
+PUR1_PYRHO PLEVECC--- ---------G YKVSIAHNGT LTNFLPLRRF YES-RG----
+PUR1_PYRAB PLEVRCC--- ---------G YELAIAHNGT LTNFIPLRRL YEG-MG----
+PUR1_SYNP7 PALLETR--- ---------L GPVALAHNGN LVNTVELRQE LLA-KN----
+PUR1_SYNY3 PAVLPTR--- ---------L GPLALAHNGN LVNTNQLREA LAE-RGC---
+PUR1_MYCLE PVFRNIA--- --------AG SGVALGHNGN LVNTAELAAR ARD-AGLIAK
+1jgt_A     S--LT----- ---------G APTTAVLAGE IYNRDELLSV LP--------
+
+           251                                                300
+1ct9_A     -YQFQTGSDC EVILALYQEK GP-------- ---------- -EFLDDLQGM
+ASNS_SCHPO -YKFKTYSDC EVILYLYREH GP-------- ---------- -ACANMLDGM
+ASN1_YEAST -YEFGTLSDC EPIIPMYLKH DI-------- ---------- -DAPKYLDGM
+ASN1_LOTJA -HQFRTGSDC DVIAHLYEEH GE-------- ---------- -NFMDMLDGI
+ASNS_MAIZE -HEFQTGSDC EVIAHLYEEY GE-------- ---------- -EFVDMLDGM
+ASNS_CRIGR -FEYQTNVDG EIILHLYDKG GI-------- ---------- EQTICMLDGV
+ASN1_METJA -HEFRTDSDN EVIIHLYEEE ---------- ---------- --KLEELDGD
+ASNH_MYCTU -AVFATDGDG EAILAGYHHW GT-------- ---------- -EVLQRLRGM
+ASNB_BACSU -YTFNTDSDT EVLLATYRHY KE-------- ---------- -EAASKLRGM
+ASNH_BACSU -HMFKTTSDC EVIVHLYEEK GI-------- ---------- -GFVDDIIGM
+ASN2_METJA -LETETGTDT EVILKLYNKL GF-------- ---------- -DCVKEFNGM
+ASNO_BACSU -HQFERTSDT EVLLHSYIEW QE-------- ---------- -DCVDHLNGI
+PUR1_HAEIN -RHVNTNSDS ELLLNILANH LDHIPQDHLD --PQDIFYAV RKTHKDVRGA
+PUR1_PSEAE -RHVNTNSDS EVLLNVFAHE LA-VR-NKLQ PTEEDIFAAV SCVHDRCVGG
+PUR1_SCHPO -RHVNTGSDS ELLLNIFAYE LQ-RL-DKFR INENDIFEAL RNVYDRVNGG
+PUR1_BACSU -SIFQTSSDT EVLAHLIKRS GHF------- ----TLKDQI KNSLSMLKGA
+PUR1_STAAM -AIFHSSSDT EVIMHLIRRS KAP------- ----TFEEAL KESLRKVKGG
+PUR1_RHIET -AICQSTSDT EVVLHLIARS RHA------- ----STSDRF IDAIRQMEGG
+PUR1_SOYBN -SIFNTTSDT EVVLHLIATS KHR------- ----PFLLRI VDACEHLQGA
+PUR1_METJA -HIFTSSTDS EVIAQLLVRE LLK------- --TSDKIEAI KNTLKKLVGA
+PUR1_ARCFU -RVFTTDSDT EVISQLLSKF LIE------- --EGDIINAL ERLNESLVGS
+PUR1_METTH -HNFVSTTDS EVICHLLSRE YDE------- --KPNMIYSI KRVSEQLVGS
+PUR1_PYRHO -FKFRSSIDT EVIAVSFLNH YSE------- --LKDEFEAM SRVFEEVKGA
+PUR1_PYRAB -IKFHSSVDT EVIGISFLNH YSQ------- --VKDEFEAM RRVFEEVKGA
+PUR1_SYNP7 -HELTTTTDS ELIAFAIMEA VAE------- --GQDWRGAI ESACRRSQGA
+PUR1_SYNY3 -EDFVTTTDS EMIAVAIANE VDK------- --GKDWVEGT IAALTLCAGA
+PUR1_MYCLE RCPAPATTDS DILGALLAHG AAD------- --S-TLEQAA LELLPTVRGA
+1jgt_A     -AGPAPEGDA ELVLRLLERY DL-------- ---------- -HAFRLVNGR
+
+           301                                                350
+1ct9_A     FAFALYDSEK DAYLIGRDHL GIIPLYMGYD EH---GQLYV ASEMKALV-P
+ASNS_SCHPO FSWVLYDQDK DKVVAARDPI GITTLYQGFS SDS-PDTAYF ASELKALH-P
+ASN1_YEAST FAWTLYDAKQ DRIVAARDPI GITTLYMGRS SAS-PKTVYF ASELKCLT-D
+ASN1_LOTJA FSFVLLDTRD NTFIVARDAI GVTSLYIGWG LD---GSVWI SSEMKGLN-D
+ASNS_MAIZE FSFVLLDTRD KSFIAARDAI GICPLYMGWG LD---GSVWF SSEMKALS-D
+ASNS_CRIGR FAFILLDTAN KKVFLGRDTY GVRPLFKAMT ED---GFLAV CSEAKGLV-S
+ASN1_METJA YAFAIYDKSK NVVRLARDMF GVKPLFYVDR D----KYFAF ASERKALW-H
+ASNH_MYCTU FAFALWDTVT RELFCARDPF GIKPLFIATG A----GGTAV ASEKKCLLDL
+ASNB_BACSU FAFLIWNKND HVLYGARDPF GIKPLYYTTI N----DQVYF ASERKSLM-V
+ASNH_BACSU FSIAIWDKNK NKVFLVRDRF GIKPLFYTEL K----HELIF ASEIKSLF-S
+ASN2_METJA WAFCIFDKKK GLIFCSRDRL GVKPFYYYWD G----NEFIF SSELKGIL-A
+ASNO_BACSU FAFAVWDEKR NLLFAARDRL GVKPFFYTKE G----SSFLF GSEIKAIL-A
+PUR1_HAEIN YACLAMI-IG HGMVAFRDPF GIRPLVLGKR EENGKTDYMF ASETVALD-I
+PUR1_PSEAE YAVVAMI-TG HGIVGFRDPN AIRPIVFGQR HTENGVEYMI ASESVALD-V
+PUR1_SCHPO YACVAMI-AG LGVLGFRDPN GIRPLVIGER DTPEGKDYML ASESVVLT-Q
+PUR1_BACSU YAFLIM--TE TEMIVALDPN GLRPLSIGMM GD----AYVV ASETCAFD-V
+PUR1_STAAM FTFAIL--TK DALYGAVDPN AIRPLVVGKM KD---GTYIL ASETCAID-V
+PUR1_RHIET YSMLAM--TR TKLIAASHPT GIRPLVMGEL D----GKPIF CSETCALD-I
+PUR1_SOYBN YSLVFV--TE DKLVAVRDPF GFRPLVMGRR TN---GAVVL ASETCALD-L
+PUR1_METJA YSLLIM--FN DSLIAVRDPW GFKPLCIGRD ES----NIYI SSEDCALT-T
+PUR1_ARCFU YTMTML--VD DAVIGYRDPL GFKPLCVGRI DD----GYVI CSESCAID-A
+PUR1_METTH YSLVVL--LN QDLYVVRDPV GIKPLAFARK GS----TQIV ASETVAFD-V
+PUR1_PYRHO YSVLML--FN GKLIAVRDPV GFRPLSFGAG -D----GYYF SSEDSALR-M
+PUR1_PYRAB YSILIL--FD GKIIAARDPV GFRPLVFGEG -D----GYYF ASEDSALR-M
+PUR1_SYNP7 FSLTIG--TP EALYGTRDPN GIRPLVLGTL ESNGQTRYVL SSETCGLD-I
+PUR1_SYNY3 YSLVIG--TP EGIIGVRDPH GIRPLVIGVL EEET-PRYVL ASETCALD-I
+PUR1_MYCLE FCLTFM--DE NTLYACRDPY GVRPLSLGRL DR----GWVV ASETAGLD-I
+1jgt_A     FATVVR--TG DRVLLATDHA GSVPLYTCVA -P---GEVRA STEAKALA-A
+
+           351                                                400
+1ct9_A     V--------- ---------- ---------- --------CR ------TIKE
+ASNS_SCHPO V--------- ---------- ---------- --------CD ------KIIA
+ASN1_YEAST D--------- ---------- ---------- --------CD ------TITA
+ASN1_LOTJA D--------- ---------- ---------- --------CE ------HFEV
+ASNS_MAIZE D--------- ---------- ---------- --------CE ------RFIT
+ASNS_CRIGR L--------- ---------- ---------- --------KH STTPFLKVEP
+ASN1_METJA LLINIDGCER DLD------- ---------- ------ELNS ------KIKT
+ASNH_MYCTU VELV--GFDT EID-HRALQH YTVLQY--V- -PEPE-TLHR ------GVRR
+ASNB_BACSU AQND-----I EID-KEALQQ YMSFQF--V- -PEPS-TLDA ------HVKK
+ASNH_BACSU HPHC--PR-- QFNWKEALSD ICLSGEAASN HKETT-SFFV ------NIQN
+ASN2_METJA VKEI--NKKE NIN-KDAVEL YFALGF--I- -PSPY-SIYK ------NTFK
+ASNO_BACSU HPDI--KA-- RVD-RTGLSE IFGLGP--S- -RTPGTGIFK ------GIKE
+PUR1_HAEIN VG-------- ---------- ---------- --------FE ------FVRD
+PUR1_PSEAE LG-------- ---------- ---------- --------FT ------LIRD
+PUR1_SCHPO FG-------- ---------- ---------- --------YR ------TFRD
+PUR1_BACSU VG-------- ---------- ---------- --------AT ------YLRE
+PUR1_STAAM LG-------- ---------- ---------- --------AE ------FVQD
+PUR1_RHIET IG-------- ---------- ---------- --------AK ------FIRD
+PUR1_SOYBN IE-------- ---------- ---------- --------AT ------YERE
+PUR1_METJA LD-------- ---------- ---------- --------AE ------FVKD
+PUR1_ARCFU LG-------- ---------- ---------- --------GE ------FIRD
+PUR1_METTH IG-------- ---------- ---------- --------AE ------HVRD
+PUR1_PYRHO FC-------- ---------- ---------- --------T- ------NIRD
+PUR1_PYRAB FG-------- ---------- ---------- --------L- ------ETRD
+PUR1_SYNP7 IG-------- ---------- ---------- --------AD ------YVRD
+PUR1_SYNY3 IG-------- ---------- ---------- --------AT ------YVRT
+PUR1_MYCLE VG-------- ---------- ---------- --------AS ------FVRD
+1jgt_A     HPKG--FP-- LAD-AR---R V--------- ------AGLT ------GVYQ
+
+           401                                                450
+1ct9_A     FPAGSYLWSQ --D--G-EI- ----RSYYHR D--------- --WFD-----
+ASNS_SCHPO FPPGHYYDSE --T--K-QT- ----VRYFKP S--------- --WWD-----
+ASN1_YEAST FPPGHVYDSK --T--D-KI- ----TRYFTP D--------- --WLD-----
+ASN1_LOTJA FPPGHLYSSR --E--R-AF- ----RRWYNP T--------- --WFS-----
+ASNS_MAIZE FPPGHLYSSK --T--G-GL- ----RRWYNP P--------- --WFS-----
+ASNS_CRIGR FLPGHYEVLD --LKPNGKVA SVEMVKYHHC ---------- --RDE-----
+ASN1_METJA LKPNSQLIYY --L--D-DNR F-EIIEGFKK L--------- --ELN-----
+ASNH_MYCTU LESGCFARIR --A--D-QLA P-VITRYFVP R--------- --FAA-----
+ASNB_BACSU VEPGSQFTIR --P--D-GDI --TFKTYFKA N--------- --F-------
+ASNH_BACSU LDAGHYLEIN --L--T-TNE R-KTASYWSL Q--------- ----D-----
+ASN2_METJA LEARQNLIFD --L--D-KR- --EIRKYYYW E--------- --LPD-----
+ASNO_BACSU IRPAHALTFS --K--D-GL- --NIWRYWNV E--------- ----S-----
+PUR1_HAEIN IAAGEAVYVT --F--D-GE- ---------- -LYS---QQC AES-------
+PUR1_PSEAE LAPGEAVYIT --E--E-GK- ---------- -LYT---RQC AKA-------
+PUR1_SCHPO IRPGECVFIR --R--S-NRE D-ILAGFRGP RLFS---RQI LPC-------
+PUR1_BACSU VEPGEMLIIN --D--E-G-- ---------- -MKS---ERF SMN-------
+PUR1_STAAM IHAGEYVVIN --D--K-G-- ---------- -ITV---KSY THH-------
+PUR1_RHIET VENGEVIICE IQP--D-G-- ---------- -SISIDARKP SKP-------
+PUR1_SOYBN VYPGEVIVVD --H--T-G-- ---------- -IQS---LCL VSH-------
+PUR1_METJA IEPGEIIEIK --D--G-E-- ---------- -IIS---HKL DYGVSEYNPV
+PUR1_ARCFU VQPGKAAIIK --D--G-E-- ---------- -LEF---VKI AKS-------
+PUR1_METTH VQPGEILHLN --R--G-K-- ---------- -SYW---VAN APN-------
+PUR1_PYRHO VSPGEVIVVK --D--G-E-- ---------- -AES---KIV G-R-------
+PUR1_PYRAB VLPGEVFVID --G--E-S-- ---------- -YES---KVL A-R-------
+PUR1_SYNP7 IAPGEMVRIT --D--A-G-- ---------- -LES---WTW AEA-------
+PUR1_SYNY3 VEAGELVHIT --E--S-G-- ---------- -LVS---HRL AES-------
+PUR1_MYCLE IEPGELLAID --A--D-G-- ---------- -VRS---TRF AN--------
+1jgt_A     VPAGAVMDID --L--G-SGT A-VTHRTWTP G--------- ---LS-----
+
+           451                                                500
+1ct9_A     ---------- -------Y-- DAV---KDNV TDKN------ --ELRQALED
+ASNS_SCHPO ---------- -------E-- NKI---PSNP VDYK------ --LLRETLEA
+ASN1_YEAST ---------- -------E-- KRI---PSTP IDYM------ --AIRHSLEK
+ASN1_LOTJA ---------- -------E-- -SI---PSAP YDPL------ --AVRHAFEK
+ASNS_MAIZE ---------- -------E-- -TV---PSTP YNAL------ --FLREMFEK
+ASNS_CRIGR ---------- -------P-L HALYDSVEKL FQGFELE-TV KSNLRILFDS
+ASN1_METJA ---------- -------Y-- MK----ERS- -----YE-EA KEYLDRALKN
+ASNH_MYCTU ---------- -------S-- PI----TND- -----NDQAR YDEITAVLED
+ASNB_BACSU ---------- -------K-- PV----QTE- -----ED-KL VKEVRDAIYD
+ASNH_BACSU ---------- -ILLRQGY-- RE----NLH- -----PD-DL IEGYRELLAD
+ASN2_METJA ---------- -------Y-- KP----IYD- -----KK-KL IEEGKKLLYD
+ASNO_BACSU ---------- -------E-- KH----TDS- -----FD-DT VANVRSLFQD
+PUR1_HAEIN --------AV LNPCIFEYVY FAR---PDST IDGV------ --SVY-AARV
+PUR1_PSEAE --------PK YAPCIFEHVY LAR---PDSI MDGI------ --SVY-KARL
+PUR1_SCHPO --------LR FTPDIFEYVY FAR---PDSV IDGL------ --SVY-QSRL
+PUR1_BACSU --------IN RSICSMEYIY FSR---PDSN IDGI------ --NVH-SARK
+PUR1_STAAM --------TT TAISAMEYIY FAR---PDST IAGK------ --NVH-AVRK
+PUR1_RHIET --------QP ERLCLFEYVY FAR---PDSV VGGR------ --NVY-TTRK
+PUR1_SOYBN --------PE PKQCIFEHIY FAL---PNSV VFGR------ --SVY-ESRK
+PUR1_METJA NVDVPCIYRG AATCMFEYVY FAR---PDST IDGI------ --SVY-KVRK
+PUR1_ARCFU --------ER RAVCIFEYIY FAR---PDSI IDGI------ --SVY-KARS
+PUR1_METTH --------TR RAHCMFEYVY FAR---PDSV IDGR------ --NVY-RVRL
+PUR1_PYRHO --------SE HAYCVFEYIY FAR---PDSI INGI------ --SVY-WARY
+PUR1_PYRAB --------EK HAYCVFEYIY FAR---PDST LNGI------ --NVY-CARY
+PUR1_SYNP7 --------PQ PKLCVFEMIY FAR---PDSL FHGE------ --SLY-SYRR
+PUR1_SYNY3 --------AD RKLCVFEMIY FSR---PDSV VNDE------ --SLY-TYRM
+PUR1_MYCLE --------PT PKGCVFEYVY LAR---PDST LAGR------ --SVH-GTRV
+1jgt_A     ---------- -------R-- -RI---LPEG EAVA------ --AVRAALEK
+
+           501                                                550
+1ct9_A     SVKSHLMS-- ------DVP- --YGVLLSGG -LDSSIISAI TKKY------
+ASNS_SCHPO SVRKRLMA-- ------EVP- --YGVLLSGG -LDSSLIASI AARETEKLAN
+ASN1_YEAST AVRKRLMA-- ------EVP- --YGVLLSGG -LDSSLIASI AARETAKATN
+ASN1_LOTJA AVIKRLMT-- ------DVP- --FGVLLSGG -LDSSLVASI TSRYLATT--
+ASNS_MAIZE AVIKRLMT-- ------DVP- --FGVLLSGG -LDSSLVASV ASRHLNET--
+ASNS_CRIGR AVRKRLMT-- ------DRR- --IGCLLSGG -LDSSLVAAS LLKQLKEA--
+ASN1_METJA SVLKRVRG-- ------LDK- --VGIICSGG -VDSSLIAKL ASLY------
+ASNH_MYCTU SVAKHMRA-- ------DVT- --VGAFLSGG -IDSTAIAAL AIRHN-----
+ASNB_BACSU SVNVHMRS-- ------DVP- --VGSFLSGG -IDSSFIVSV AKEFH-----
+ASNH_BACSU SVHRCLQS-- ------DVE- --VGLFLSGG -IDSAAVAHF AAEK------
+ASN2_METJA AVKIRMRS-- ------DVP- --VGAFLSGG -LDSSTVVGV MREFTD----
+ASNO_BACSU AVTRQLVS-- ------DVP- --VCTFLSGG -LDSSAITAI AAGHFEK---
+PUR1_HAEIN HMGEKLGQKI AK----EWAD EIDNIDVVIP VPETSTDIAL QIA-------
+PUR1_PSEAE RMGEKLADKI LR----ERP- -DHDIDVVIP IPDTSRTAAL ELA-------
+PUR1_SCHPO NMGEKLAHTI MKRFGPDYM- --EKIDAVIP VPDSARTSAL ALA-------
+PUR1_BACSU NLGKMLAQ-- ------ESA- --VEADVVTG VPDSSISAAI GYA-------
+PUR1_STAAM ASGKKLAQ-- ------ESP- --VNADMVIG VPNSSLSAAS GYA-------
+PUR1_RHIET NMGMNLAK-- ------ESP- --VDADVVVP VPDGGTSAAG GYA-------
+PUR1_SOYBN KFGEILAS-- ------ESP- --VECDVVIA VPDSGVVAAL GYA-------
+PUR1_METJA RIGKILAK-- ------EHP- --VDADVVSP IPDSGVTFAL GFS-------
+PUR1_ARCFU EMGKVLAR-- ------ESP- --VEADFVSA VPDSGITAAI GYA-------
+PUR1_METTH NIGEALYR-- ------EHP- --ANADVVVP VPDSSIPAAI GYS-------
+PUR1_PYRHO RMGVELAR-- ------ESP- --AEGDVVIA VPDSGRTAAL GFA-------
+PUR1_PYRAB RMGVELAR-- ------ESP- --AEGDVVIA VPDSGRTAAL GFA-------
+PUR1_SYNP7 RIGQRLAK-- ------EAP- --ADVDLVLG VPDSGIPAAI GFS-------
+PUR1_SYNY3 RIGKHLAK-- ------ESP- --VDADLVMG VPDSGIPAAI GFS-------
+PUR1_MYCLE EIGRRLAR-- ------ECP- --VEADLVIG VPESGTPAAV GYA-------
+1jgt_A     AVAQRVTP-- ------GDT- --PLVVLSGG -IDSSGVAAC AHRAA-----
+
+           551                                                600
+1ct9_A     ---------- ---------- ---------A LHSFAVGLPG S---------
+ASNS_SCHPO STS---QSEE ARTI------ -----TAWPK LHSFAIGLPG S---------
+ASN1_YEAST DVEPSTYDSK ARHLAGIDDD GKLHTAGWTS LHSFAIGLPN A---------
+ASN1_LOTJA ---------- ---------- -KAAEQWGSK LHSFCVGLEG S---------
+ASNS_MAIZE ---------- ---------- -KVDRQWGNK LHTFCIGLKG S---------
+ASNS_CRIGR ---------- ---------- -----QVQYP LQTFAIGMED S---------
+ASN1_METJA ---------- ---------- --------CE VILYAVGTEN S---------
+ASNH_MYCTU ---------- ---------- --------PR LITFTTGFER E---------
+ASNB_BACSU ---------- ---------- --------PS LKTFSVGFEQ Q---------
+ASNH_BACSU ---------- ---------- --------QD LHTFTVLSQS TF--------
+ASN2_METJA ---------- ---------- -------LSK LHTFSIGFEG KY--------
+ASNO_BACSU ---------- ---------- -----EGKAP LHTYSIDYEE NDKYFQASAF
+PUR1_HAEIN ---------- ---------- ---------- ---RVLGKPY ----------
+PUR1_PSEAE ---------- ---------- ---------- ---NRLGVKF ----------
+PUR1_SCHPO ---------- ---------- ---------- ---QTAQLPY ----------
+PUR1_BACSU ---------- ---------- ---------- ---EATGIPY ----------
+PUR1_STAAM ---------- ---------- ---------- ---EEIGLPY ----------
+PUR1_RHIET ---------- ---------- ---------- ---QESGIPF EY--------
+PUR1_SOYBN ---------- ---------- ---------- ---AKAGVPF ----------
+PUR1_METJA ---------- ---------- ---------- ---EESGIPY ----------
+PUR1_ARCFU ---------- ---------- ---------- ---QESGLPY ----------
+PUR1_METTH ---------- ---------- ---------- ---RASGIPY ----------
+PUR1_PYRHO ---------- ---------- ---------- ---HESGIPY ----------
+PUR1_PYRAB ---------- ---------- ---------- ---HESGIPY ----------
+PUR1_SYNP7 ---------- ---------- ---------- ---EALGIPY ----------
+PUR1_SYNY3 ---------- ---------- ---------- ---QASGIPY ----------
+PUR1_MYCLE ---------- ---------- ---------- ---QESGISY ----------
+1jgt_A     ---------- ---------- --------GE LDTVSMGTDT S---------
+
+           601                                                650
+1ct9_A     ---PDLKAAQ EVAN-HLGTV HHEIHFTV-- QEGLD--AIR DVIY--HIET
+ASNS_SCHPO ---PDLLAAR KVAD-FLHTF HHEHTFTI-- DEGLD--ALR DVIY--HLET
+ASN1_YEAST ---PDLQAAR KVAK-FIGSI HHEHTFTL-- QEGLD--ALD DVIY--HLET
+ASN1_LOTJA ---PDLKAAK EVAD-YLGTV HHEFTFTV-- QDGID--AIE EVIY--HVET
+ASNS_MAIZE ---PDLKAAR EVAD-YLSTV HHEFHFTV-- QEGID--ALE EVIY--HIET
+ASNS_CRIGR ---PDLLAAR KVAN-YIGSE HHEVLFNS-- EEGIQ--ALD EVIF--SLET
+ASN1_METJA ---EDLIYAE RLAK-DLNLK LRKKIISE-- EEYEE--YVF KVAK--AIDE
+ASNH_MYCTU -GFSEIDVAV ASAE-AIGAR HIAKVVSA-- DEFVA--ALP EIVW--YLDE
+ASNB_BACSU -GFSEVDVAK ETAA-ALGIE NISKVISP-- EEYMN--ELP KIVW--HFDD
+ASNH_BACSU -TNEDAKYAH WLAK-DLHLP NHQVLYQLGN DELLQPESYK HLLW--ICET
+ASN2_METJA ---DETPYIK IVVD-YFKTQ HHHYYFKE-- RDFEE--LID KYSW--IYDE
+ASNO_BACSU QPNDDGPWIE KMTE-AFGTT HHKCVISQ-- KDLVD--HLE EAVL--VKDL
+PUR1_HAEIN --RQGFVKNR YVGRTFIMPG QAQRISSVR- -RKLN--TIK AEFKDKNVLL
+PUR1_PSEAE --REGFVKNR YIGRTFIMPG QAARKKSVR- -QKLN--AIE LEFRGKNVML
+PUR1_SCHPO --VEAFIKNR YIGRTFIMPG QQIRRKSVR- -RKLN--VQP QEFFDKNVLI
+PUR1_BACSU --ELGLIKNR YVGRTFIQPS QALREQGVR- -MKLS--AVR GVVEGKRVVM
+PUR1_STAAM --EMGLVKNQ YVARTFIQPT QELREQGVR- -VKLS--AVK DIVDGKNIIL
+PUR1_RHIET --EYGIIRNH YVGRTFIEPT QQIRAFGVK- -LKHS--ANR AMIEGKRVVL
+PUR1_SOYBN --QQGLIRSH YVGRTFIEPS QKIRDFGVK- -LKLS--PVH AVLEGKRVVV
+PUR1_METJA --YEGLIKNR YVGRTFILPS QNERELAVR- -LKLS--PVK SVLEGKRVVL
+PUR1_ARCFU --FEGLIKNR YVGRTFIMPV QSLRETSVR- -LKVN--VVR ENVRGRRVVL
+PUR1_METTH --GEGLIKNR YVGRTFIMPT QEERETAVK- -LKMN--PIR SELEGKRIVL
+PUR1_PYRHO --MEGLIKNR YIGRTFIMPS G--REIKVR- -LKLS--PVK EVIKGRRIVL
+PUR1_PYRAB --MEGLIKNR YIGRTFIMPS G--RGLKVK- -LKLS--PVR EVVNGKRVVL
+PUR1_SYNP7 --AEGLIKNR YVGRTFIQPT QSMRETGIR- -MKLN--PLK DVLAGKRIAI
+PUR1_SYNY3 --AEGLIKNR YVGRTFIQPT QHMREHGIR- -MKLN--PLK DVLAGKRIII
+PUR1_MYCLE --GQGLMKNA YVGRTFIQPS QTIRQLGIR- -LKLN--PLK EVIRGKRLIV
+1jgt_A     ---NEFREAR AVVD-HLRTR HREITIPT-- TELLA--QLP YAVW--ASES
+
+           651                                                700
+1ct9_A     YDVTTIRAST PMY---LMSR KIKAMG-IKM VLSGEGSDEV FGGYLYFHKA
+ASNS_SCHPO YDVTTIRAST PMY---LLSR KIKAQG-VKM VLSGEGSDEI FGGYLYFGNA
+ASN1_YEAST YDVTTIRAST PMF---LLSR KIKAQG-VKM VLSGEGSDEI FGGYLYFAQA
+ASN1_LOTJA YDVTTIRAST PMF---LMSR KIKSLG-VKW VISGEGSDEI FGGYLYFHKA
+ASNS_MAIZE YDVTTIRAST PMF---LMSR KIKSLG-VKM VISGEGSDEI FGGYLYFHKA
+ASNS_CRIGR YDITTVRASV GMY---LISK YIRKNTDSVV IFSGEGSDEL TQGYIYFHKA
+ASN1_METJA VDLMKIGVGI PIY---VASE MANEDG-LKV VLSGQGADEL FGGYARHERI
+ASNH_MYCTU P--VADPALV PLF---FVAR EARK-H-VKV VLSGEGADEL FGGYTIYREP
+ASNB_BACSU P--LADPAAI PLY---FVAK EAKK-H-VTV ALSGEGADEL FGGYNIYREP
+ASNH_BACSU P--FCGPEQL YKFHLHKYAK AIRP-N-LKV MLTGQGSDEF NGGYSTTLSP
+ASN2_METJA P--FGDYSGF PTY---KVSE MARK-F-VTV VLSGDGGDEV FGGYMTHLNG
+ASNO_BACSU P--GMADVDS SLL---WFCR EIKK-D-FVV SLSGECADEI FGGYPWFHTA
+PUR1_HAEIN VDDSIVRGTT SEQ---IV-E MARSAG-AKK IYFASAAPEI RYPNVYGIDM
+PUR1_PSEAE VDDSIVRGTT CKQ---II-Q MAREAG-AKN VYFCSAAPAV RYPNVYGIDM
+PUR1_SCHPO VDDSIVRGTT SRE---IV-Q MARESG-AKN VYLASCAPMI THPHVYGIDL
+PUR1_BACSU VDDSIVRGTT SRR---IV-T MLREAG-ATE VHVKISSPPI AHPCFYGIDT
+PUR1_STAAM VDDSIVRGTT IRR---IV-K MLKDSG-ANK VHVRIASPEF MFPSFYGIDV
+PUR1_RHIET VDDSIVRGTT SLK---IV-Q MIREAG-ARE VHIRVASPMI FFRDFYGSIR
+PUR1_SOYBN VDDSIVRGTT SSK---IV-R LLKEAG-AKE VHMRIACPPI VASCYYGVDT
+PUR1_METJA VDDSIVRGTT SRR---IV-N MVRKAG-AKE VHLRIGCPKI ISPCYYGIDM
+PUR1_ARCFU VDDSIVRGTT SRR---IV-Q MIKDAG-AKE VHMRIGSPPI IAPCYFGIDM
+PUR1_METTH IDDSIVRGTT SRA---LI-D IIRDAG-AEE IHLRIGCPPI KSPCYYGIAM
+PUR1_PYRHO VDDSIVRGTT MKN---IV-K MLRDAG-ARE VHVRIASPPI RYPCYMGIDI
+PUR1_PYRAB VDDSIVRGTT MTR---IV-K MLRDAG-ARE VHVRIASPPI RYPCYMGIDI
+PUR1_SYNP7 IDDSIVRGTT SRK---LV-K ALRDAG-ATE VHMRISSPPV THPCFYGIDT
+PUR1_SYNY3 VDDSIVRGTT SRK---IV-R ALREAG-ATE VHMRISSPPV THPCFYGIDT
+PUR1_MYCLE VDDSVVRGNT QRA---LV-R MLREAG-AVE LHVRIASPPV KWPCFYGIDF
+1jgt_A     VDPDIIEYLL PLT---ALYR ALDG-P-ERR ILTGYGADIP LGGMHREDRL
+
+           701                                                750
+1ct9_A     ---PNAKELH ---------- ---------- ---------- ----------
+ASNS_SCHPO ---PSREAFH ---------- ---------- ---------- ----------
+ASN1_YEAST ---PSAAEFH ---------- ---------- ---------- ----------
+ASN1_LOTJA ---PNKEEFH ---------- ---------- ---------- ----------
+ASNS_MAIZE ---PNKKEFL ---------- ---------- ---------- ----------
+ASNS_CRIGR ---PSPEKAE ---------- ---------- ---------- ----------
+ASN1_METJA YRERGEEEL- ---------- ---------- ---------- ----------
+ASNH_MYCTU ---LSLRPFD YLPKP-LRRS MGKVSKPL-- --PEGMRGKS LLHRGSLTLE
+ASNB_BACSU ---LSLKPFE RIPSG-LKKM LLHVAAVM-- --PEGMRGKS LLERGCTPLQ
+ASNH_BACSU AENPSWEGFI E---S-VNTM EMNRL----- ---------- ----------
+ASN2_METJA ---YRM---- ---------- ---------D FIRKLPK--- ----------
+ASNO_BACSU ---DVESGFP WMRSTEERIK LLSDSWQKKL NLKEYVNA-- ----------
+PUR1_HAEIN ---PSRDELI ---------- ---------- ---------- ----------
+PUR1_PSEAE ---PSAHELI ---------- ---------- ---------- ----------
+PUR1_SCHPO ---ADCKDLI ---------- ---------- ---------- ----------
+PUR1_BACSU ---STHEELI ---------- ---------- ---------- ----------
+PUR1_STAAM ---STTAELI ---------- ---------- ---------- ----------
+PUR1_RHIET ---PTPDKLL ---------- ---------- ---------- ----------
+PUR1_SOYBN ---PSSEELI ---------- ---------- ---------- ----------
+PUR1_METJA ---ATKKELI ---------- ---------- ---------- ----------
+PUR1_ARCFU ---KSREELI ---------- ---------- ---------- ----------
+PUR1_METTH ---ATKKELI ---------- ---------- ---------- ----------
+PUR1_PYRHO ---PTRHELI ---------- ---------- ---------- ----------
+PUR1_PYRAB ---PTRHELI ---------- ---------- ---------- ----------
+PUR1_SYNP7 ---DTQDQLI ---------- ---------- ---------- ----------
+PUR1_SYNY3 ---DSQDQLI ---------- ---------- ---------- ----------
+PUR1_MYCLE ---PSPAELI ---------- ---------- ---------- ----------
+1jgt_A     ---PALDTVL ---------- ---------- ---------- ----------
+
+           751                                                800
+1ct9_A     ---------- ---------- ---------- ---------- ----------
+ASNS_SCHPO ---------- ---------- ---------- ---------- ----------
+ASN1_YEAST ---------- ---------- ---------- ---------- ----------
+ASN1_LOTJA ---------- ---------- ---------- ---------- ----------
+ASNS_MAIZE ---------- ---------- ---------- ---------- ----------
+ASNS_CRIGR ---------- ---------- ---------- ---------- ----------
+ASN1_METJA ---------- ---------- ---------- ---------- ----------
+ASNH_MYCTU ERY---YGNA RSFSGAQ--- --LREVLPGF RPDWTHTDVT APVYAESA--
+ASNB_BACSU DRY---IGNA KIFEESV--- --KKQLLKHY NPNLSYRDVT KTYFTESS--
+ASNH_BACSU HRL---QGNI FRVWEEHFGL SPINLS---- ---------- YLKSNDSSQA
+ASN2_METJA ---------- ---------- ---------- ---------- ----------
+ASNO_BACSU -KYEETLAET PLLDGET--- ---------- ---------- ----------
+PUR1_HAEIN ---------- ---------- ---------- ---------- ----------
+PUR1_PSEAE ---------- ---------- ---------- ---------- ----------
+PUR1_SCHPO ---------- ---------- ---------- ---------- ----------
+PUR1_BACSU ---------- ---------- ---------- ---------- ----------
+PUR1_STAAM ---------- ---------- ---------- ---------- ----------
+PUR1_RHIET ---------- ---------- ---------- ---------- ----------
+PUR1_SOYBN ---------- ---------- ---------- ---------- ----------
+PUR1_METJA ---------- ---------- ---------- ---------- ----------
+PUR1_ARCFU ---------- ---------- ---------- ---------- ----------
+PUR1_METTH ---------- ---------- ---------- ---------- ----------
+PUR1_PYRHO ---------- ---------- ---------- ---------- ----------
+PUR1_PYRAB ---------- ---------- ---------- ---------- ----------
+PUR1_SYNP7 ---------- ---------- ---------- ---------- ----------
+PUR1_SYNY3 ---------- ---------- ---------- ---------- ----------
+PUR1_MYCLE ---------- ---------- ---------- ---------- ----------
+1jgt_A     ---------- ---------- ---------- ---------- ----------
+
+           801                                                850
+1ct9_A     ----EETVRK LLAL-----H MYD-CARANK AMSAWGVEAR VPFLDKKFLD
+ASNS_SCHPO ----SECVRR VKNL-----H LSD-CLRANK STMAWGLEAR VPFLDKDFLE
+ASN1_YEAST ----TESVQR VKNL-----H LAD-CLRANK STMAWGLEAR VPFLDREFLQ
+ASN1_LOTJA ----TETCRK IKAL-----H QYD-CLRANK STFAWGLEAR VPFLDKEFIN
+ASNS_MAIZE ----EETCRK IKAL-----H LYD-CLRANK ATSAWGVEAR VPFLDKSFIS
+ASNS_CRIGR ----EESERL LKEL-----Y LFD-VLRADR TTAAHGLELR VPFLDHRFSS
+ASN1_METJA ---KKELLKD VYNL-----Y KVN-LERDDH CTMANGVELR VPFLDEEVVE
+ASNH_MYCTU ---GWDPVAR MQHIDLFTWL RGDILVKADK ITMANSLELR VPFLDPEVFA
+ASNB_BACSU ---SYSDINK MQYVDIHTWM RGDILLKADK MTMANSLELR VPFLDKVVFD
+ASNH_BACSU DPWQSYVLTK YRDL-----Q MYN-CWHEDR IAAANHIENR VPFLDHRLVE
+ASN2_METJA ---------- ---------- ---------- ---------- -------FLR
+ASNO_BACSU ---GVDKARR QLFYLNMLWF MTNLLDRKDR MSMGASLEVR VPFADHRLVE
+PUR1_HAEIN ----AYGR-- ---------- ---------- ---------- ----------
+PUR1_PSEAE ----AHNR-- ---------- ---------- ---------- ----------
+PUR1_SCHPO ----AYGK-- ---------- ---------- ---------- ----------
+PUR1_BACSU ----ASSH-- ---------- ---------- ---------- ----------
+PUR1_STAAM ----SASK-- ---------- ---------- ---------- ----------
+PUR1_RHIET ----ANQYA- ---------- ---------- ---------- ----------
+PUR1_SOYBN ----SNRM-- ---------- ---------- ---------- ----------
+PUR1_METJA ----ASNK-- ---------- ---------- ---------- ----------
+PUR1_ARCFU ----AASH-- ---------- ---------- ---------- ----------
+PUR1_METTH ----ASTR-- ---------- ---------- ---------- ----------
+PUR1_PYRHO ----AAWK-- ---------- ---------- ---------- ----------
+PUR1_PYRAB ----AAWR-- ---------- ---------- ---------- ----------
+PUR1_SYNP7 ----AATR-- ---------- ---------- ---------- ----------
+PUR1_SYNY3 ----AARL-- ---------- ---------- ---------- ----------
+PUR1_MYCLE ----ANVV-- ---------- ---------- ---------- ----------
+1jgt_A     ----AHDMAT FDGL------ --N-EMSPVL STLA-GHWTT HPYWDREVLD
+
+           851                                                900
+1ct9_A     VAMRINPQDK MC-------- ---------- ---------- --------K-
+ASNS_SCHPO VALNIDPEEK MY--IN---- ---------- ---------- -------GR-
+ASN1_YEAST LCMNIDPNEK MIKPKE---- ---------- ---------- -------GR-
+ASN1_LOTJA VAMNIDPEYK MIKRDE---- ---------- ---------- -------GR-
+ASNS_MAIZE VAMDIDPEWN MIKRDL---- ---------- ---------- -------GR-
+ASNS_CRIGR YYLSLPPEMR IP--KN---- ---------- ---------- --------G-
+ASN1_METJA IALSIPIEYK MS---ELSNR PYAESNISLK SEPINGLKNT NLNIKCVRS-
+ASNH_MYCTU VASRLPAGAK IT---R---- ---------- ---------- --------T-
+ASNB_BACSU VASKIPDELK TK---N---- ---------- ---------- --------G-
+ASNH_BACSU WVCGIPDGLR KD---L---- ---------- ---------- --------L-
+ASN2_METJA VVGSKLPVKK DL---N---- ---------- ---------- --------GI
+ASNO_BACSU YVWNIPWEMK MH---D---- ---------- ---------- --------N-
+PUR1_HAEIN ---N------ ---------- ---------- ---------- ----------
+PUR1_PSEAE ---S------ ---------- ---------- ---------- ----------
+PUR1_SCHPO ---T------ ---------- ---------- ---------- ----------
+PUR1_BACSU ---S------ ---------- ---------- ---------- ----------
+PUR1_STAAM ---S------ ---------- ---------- ---------- ----------
+PUR1_RHIET ---D------ ---------- ---------- ---------- ----------
+PUR1_SOYBN ---S------ ---------- ---------- ---------- ----------
+PUR1_METJA ---T------ ---------- ---------- ---------- ----------
+PUR1_ARCFU ---T------ ---------- ---------- ---------- ----------
+PUR1_METTH ---N------ ---------- ---------- ---------- ----------
+PUR1_PYRHO ---S------ ---------- ---------- ---------- ----------
+PUR1_PYRAB ---S------ ---------- ---------- ---------- ----------
+PUR1_SYNP7 ---S------ ---------- ---------- ---------- ----------
+PUR1_SYNY3 ---T------ ---------- ---------- ---------- ----------
+PUR1_MYCLE ---A--DEEE M--------- ---------- ---------- ----------
+1jgt_A     LLVSLEAGLK RR---H---- ---------- ---------- --------G-
+
+           901                                                950
+1ct9_A     MEKHILRECF E--------A Y--LPASVAW RQKEQ-FSD- ----G----V
+ASNS_SCHPO KEKYILRKAF DTTHDSSLQP Y--LPQDILW RQKEQ-FSD- ----G----V
+ASN1_YEAST IEKYILRKAF DTTGEPDAKP Y--LPEEILW RQKEQ-FSD- ----G----V
+ASN1_LOTJA IEKYILRRAF DDE----EKP Y--LPKHILY RQKEQ-FSD- ----G----V
+ASNS_MAIZE IEKWVMRKAF DDD----EHP Y--LPKHILY RQKEQ-FSD- ----G----V
+ASNS_CRIGR IEKHLLRETF EDS------N L--LPKEILW RPKEA-FSD- ----G----I
+ASN1_METJA VRKKILRDVA S--------Q Y--LPDYIAY RPKKA-AQY- ----G----S
+ASNH_MYCTU TTKYALRRAL E--------P I--VPAHVLH RPKLG-FPV- ----P----I
+ASNB_BACSU TTKYLLRKAA E--------G I--VPEHVLN RKKLG-FPV- ----P----I
+ASNH_BACSU WDKSVLRKSL T--------N E--LHTSYTH RPKVP-FFY- ----GKDVRY
+ASN2_METJA ANLYLLKEAF R--------L SLINPEEFY- ---------- ----------
+ASNO_BACSU REKGILRKAL E--------G I--LPDDILY RKKSP-YPK- ----T----H
+PUR1_HAEIN ---------- ---------- -------VDE IAELI-GVDK ---------L
+PUR1_PSEAE ---------- ---------- -------TED VSKLI-GADW ---------L
+PUR1_SCHPO ---------- ---------- -------EDE VAEAI-SADG ---------V
+PUR1_BACSU ---------- ---------- -------VGE IRQEI-GADT ---------L
+PUR1_STAAM ---------- ---------- -------PEE IKDYI-GADS ---------L
+PUR1_RHIET ---------- ---------- -------VEA MAKYI-GADS ---------L
+PUR1_SOYBN ---------- ---------- -------VEE IRKFI-GSDS ---------L
+PUR1_METJA ---------- ---------- -------EEE IGKAI-GVDS ---------I
+PUR1_ARCFU ---------- ---------- -------VEE IGRIF-GTDS ---------L
+PUR1_METTH ---------- ---------- -------VEE IRRII-GVDS ---------L
+PUR1_PYRHO ---------- ---------- -------IEE IKKEI-GADS ---------L
+PUR1_PYRAB ---------- ---------- -------IED IRKEI-GADS ---------L
+PUR1_SYNP7 ---------- ---------- -------VSE ITEQI-GVDS ---------L
+PUR1_SYNY3 ---------- ---------- -------VAE IAEQI-EVDS ---------L
+PUR1_MYCLE ---------- ---------- -------LEA VRQGI-GADT ---------L
+1jgt_A     RDKWVLRAAM A--------D A--LPAETVN RPKLSSFSRL LLDHG----V
+
+           951                                               1000
+1ct9_A     ---------- ---------- ---------- ---------- ----------
+ASNS_SCHPO ---------- ---------- ---------- ---------- ----------
+ASN1_YEAST ---------- ---------- ---------- ---------- ----------
+ASN1_LOTJA ---------- ---------- ---------- ---------- ----------
+ASNS_MAIZE ---------- ---------- ---------- ---------- ----------
+ASNS_CRIGR TS-------- ---------- ---------- ---------- ----------
+ASN1_METJA GGEK------ ---------- ---------- ---MIYKV-- ----------
+ASNH_MYCTU RHWL------ ---------- ---------- ---------- ----------
+ASNB_BACSU RHWL------ ---------- ---------- ---------- ----------
+ASNH_BACSU THKMMFHLLK KNNYQLIEEA FSHSDASSII QVEHIHAIMT YLEDDPEFTN
+ASN2_METJA --AE------ ---------- ---------- ---------- ----------
+ASNO_BACSU HPEY------ ---------- ---------- ---------- ----------
+PUR1_HAEIN ---------- ---------- ---------- ---------- ----------
+PUR1_PSEAE ---------- ---------- ---------- ---------- ----------
+PUR1_SCHPO ---------- ---------- ---------- ---------- ----------
+PUR1_BACSU ---------- ---------- ---------- ---------- ----------
+PUR1_STAAM ---------- ---------- ---------- ---------- ----------
+PUR1_RHIET ---------- ---------- ---------- ---------- ----------
+PUR1_SOYBN ---------- ---------- ---------- ---------- ----------
+PUR1_METJA ---------- ---------- ---------- ---------- ----------
+PUR1_ARCFU ---------- ---------- ---------- ---------- ----------
+PUR1_METTH ---------- ---------- ---------- ---------- ----------
+PUR1_PYRHO ---------- ---------- ---------- ---------- ----------
+PUR1_PYRAB ---------- ---------- ---------- ---------- ----------
+PUR1_SYNP7 ---------- ---------- ---------- ---------- ----------
+PUR1_SYNY3 ---------- ---------- ---------- ---------- ----------
+PUR1_MYCLE ---------- ---------- ---------- ---------- ----------
+1jgt_A     ---------- ---------- ---------- ---------- ----------
+
+           1001                                              1050
+1ct9_A     ---------- ---------- ---------- ---------- ----------
+ASNS_SCHPO ---------- ---------- ---------- ---------- ----------
+ASN1_YEAST ---------- ---------- ---------- ---------- ----------
+ASN1_LOTJA ---------- ---------- ---------- ---------- ----------
+ASNS_MAIZE ---------- ---------- ---------- ---------- ----------
+ASNS_CRIGR ---------- ---------- ---------- ---------- ----------
+ASN1_METJA ---------- ---------- ---------- ---------- ----------
+ASNH_MYCTU ---------- ---------- ---------- ---------- ----------
+ASNB_BACSU ---------- ---------- ---------- ---------- ----------
+ASNH_BACSU FEFLLRLVNM GLLSKMTKET PSVQLDITSH LESITIKDWH SQEGDIASRL
+ASN2_METJA ---------- ---------- ---------- ---------- ----------
+ASNO_BACSU ---------- ---------- ---------- ---------- ----------
+PUR1_HAEIN ---------- ---------- ---------- ---------- ----------
+PUR1_PSEAE ---------- ---------- ---------- ---------- ----------
+PUR1_SCHPO ---------- ---------- ---------- ---------- ----------
+PUR1_BACSU ---------- ---------- ---------- ---------- ----------
+PUR1_STAAM ---------- ---------- ---------- ---------- ----------
+PUR1_RHIET ---------- ---------- ---------- ---------- ----------
+PUR1_SOYBN ---------- ---------- ---------- ---------- ----------
+PUR1_METJA ---------- ---------- ---------- ---------- ----------
+PUR1_ARCFU ---------- ---------- ---------- ---------- ----------
+PUR1_METTH ---------- ---------- ---------- ---------- ----------
+PUR1_PYRHO ---------- ---------- ---------- ---------- ----------
+PUR1_PYRAB ---------- ---------- ---------- ---------- ----------
+PUR1_SYNP7 ---------- ---------- ---------- ---------- ----------
+PUR1_SYNY3 ---------- ---------- ---------- ---------- ----------
+PUR1_MYCLE ---------- ---------- ---------- ---------- ----------
+1jgt_A     ---------- ---------- ---------- ---------- ----------
+
+           1051                                              1100
+1ct9_A     ---------- ---------- ---------- --------GY S-WIDT----
+ASNS_SCHPO ---------- ---------- ---------- --------GY S-WIDA----
+ASN1_YEAST ---------- ---------- ---------- --------GY S-WIDG----
+ASN1_LOTJA ---------- ---------- ---------- --------GY S-WIDG----
+ASNS_MAIZE ---------- ---------- ---------- --------GY N-WIDG----
+ASNS_CRIGR ---------- ---------- ---------- -------VKN S-WFKI----
+ASN1_METJA ---------- ---------A KKY---GFS- KKRINE---- --FLDML---
+ASNH_MYCTU ---------- -----RAGEL LEW---AYAT VG--SSQAGH LVDIAA----
+ASNB_BACSU ---------- -----KN-EM NEW---VRNI IQ-ESQTDAY I-HKDY----
+ASNH_BACSU NISANKCEGQ DILALNP-GV TL----LRPE SD--SEHCIY I-AEEG----
+ASN2_METJA ---------- -----SI-KE DAIRPEIYKK WT--IEKLRY C-LNKGDNKL
+ASNO_BACSU ---------- -----TK-GV SEWL----KT IRSQKDSVLH T-LL------
+PUR1_HAEIN ---------- ---------- ---------- --------IF Q-DLTAL---
+PUR1_PSEAE ---------- ---------- ---------- --------VY Q-DLPDL---
+PUR1_SCHPO ---------- ---------- ---------- --------IY Q-TLEDL---
+PUR1_BACSU ---------- ---------- ---------- --------SF L-SVEGL---
+PUR1_STAAM ---------- ---------- ---------- --------AY L-SVDGL---
+PUR1_RHIET ---------- ---------- ---------- --------AF L-SINGL---
+PUR1_SOYBN ---------- ---------- ---------- --------AF L-PLDKL---
+PUR1_METJA ---------- ---------- ---------- --------GY L-SLEGL---
+PUR1_ARCFU ---------- ---------- ---------- --------AY L-SLEGL---
+PUR1_METTH ---------- ---------- ---------- --------GY L-SIESL---
+PUR1_PYRHO ---------- ---------- ---------- --------AY L-SVEGL---
+PUR1_PYRAB ---------- ---------- ---------- --------AY L-SIEGL---
+PUR1_SYNP7 ---------- ---------- ---------- --------AY L-TEQGM---
+PUR1_SYNY3 ---------- ---------- ---------- --------AY L-SQEGM---
+PUR1_MYCLE ---------- ---------- ---------- --------GY I-SLRGM---
+1jgt_A     ---------- ---------- ---------- --------AE D-RVHE----
+
+           1101                                              1150
+1ct9_A     ------LKEV AAQQVSD--- QQLETARFRF PYNTPTSKEA YLYREIFEEL
+ASNS_SCHPO ------LKDT AELCISD--- DEFALPRREW GDDIPTTKEA FWYRKLFDEI
+ASN1_YEAST ------LKDT AEAVISD--- EMFASPKAEW GSDIPTTKEA FWYRLKFDAL
+ASN1_LOTJA ------LKDH AAKHVTD--- KMILNAGNIF RHNTPLTKEA YYYRMIFERF
+ASNS_MAIZE ------LKSF TEQQVTD--- EMMNNAAQMF PYNTPVNKEA YYYRMIFERL
+ASNS_CRIGR ------LQDY VEHQVDD--- EMMATAAQKF PFNTPKTKEG YYYRQIFERH
+ASN1_METJA --KRKIVSE- ---------- ---------- ---------- ----------
+ASNH_MYCTU ------VYRM ---------- ---------- ---------- ----------
+ASNB_BACSU ------VLQL ---------- ---------- ---------- ----------
+ASNH_BACSU ------FIQF IVSEEDV--- GAWL------ ---------- ----------
+ASN2_METJA GEALRIFDLL ---------- ---------- ---------- ----------
+ASNO_BACSU --DRKQLDQL ---------- ---------- ---------- ----------
+PUR1_HAEIN -------TES VQLENP--AI QGFDCSVFTG EYITGDISPE YLEKIATQRN
+PUR1_PSEAE -------IDA VGGGKI--KI DHFDCAVFDG EYVTGDVNEA YLNRIEQARN
+PUR1_SCHPO -------LDS CRTAE----L TEFEVGLFTG EYTTGASKEY -LVHLEQMRI
+PUR1_BACSU -------LKG IGRKYDD-SN CGQCLACFTG KYPTEIYQDT VLPHVKEAVL
+PUR1_STAAM -------IES IGLDYDA-PY SGLCVESFTG DYPAGLYDYE ANYKAHLSHR
+PUR1_RHIET -------YRA VGGEDRNPAR PQFTDHYFTG DYPTRLLDKN GESMGNKLSM
+PUR1_SOYBN -------KTL LGDDA----- LNYCYACFSG KYPVEPEELQ MKR-LGVAHF
+PUR1_METJA -------VKA IGR------- KDLCLACVTG KYPTEVNFEK ILGR------
+PUR1_ARCFU -------LEA VRRAG---GK RGYCLACLTS KYPVSVPGEE CE--------
+PUR1_METTH -------VEC IGI-----KK GFLCTGCLDG DYPTPLPSDI SEYEAMRS--
+PUR1_PYRHO -------KRA IGT------- DKLCMACLTG NYPEWAFDFK V---------
+PUR1_PYRAB -------KRA VGT------- KNLCMACLTG EYPEWAFN-- F---------
+PUR1_SYNP7 -------LEA TRES-----I GNFCTACFNG RYPIAIPEEI KRSKLMLETV
+PUR1_SYNY3 -------LLC TGED-----I SHFCSACFNG RYPITVPDAV RRSKLMLENI
+PUR1_MYCLE -------IAA SEQP-----A SRLCYACFDG RYPIELPSEA MLGKNVIEHM
+1jgt_A     ------AKRQ V----VR--- ELFDL----- ---------- ----TVGGGR
+
+           1151                                              1200
+1ct9_A     F-PLPSA--- ---------- ---------- ---------- ----------
+ASNS_SCHPO F-PRQCA-DT VMRWVPK--- ---------- ----AEWGCP EDPSGRYQ-A
+ASN1_YEAST F-PQKTVADT VMRWIPK--- ---------- ----ADWGCA EDPSGRYA-Q
+ASN1_LOTJA F-PQNSAR-L TVPGGPTVAC STAKA----- VEWDAAWSNN LDPSGRAALG
+ASNS_MAIZE F-PQDSAR-E TVPWGPSIAC STPAA----- IEWVEQWKAS NDPSGRFI-S
+ASNS_CRIGR Y-PGRADW-L THYWMP---- ---------- -----KWINA TDPSARTL-T
+ASN1_METJA ---------- ---------- ---------- ---------- ----------
+ASNH_MYCTU ---------- ---------- ---------- LDEHR---C- ----------
+ASNB_BACSU ---------- ---------- ---------- LEDHC---A- ----------
+ASNH_BACSU ---------- -----HILCD INGKDTLHTI LDRHG---V- ----------
+ASN2_METJA ---------- ---------- ---------- FNTLC---D- ----------
+ASNO_BACSU ---------- ---------- ---------- LETEG---S- ----------
+PUR1_HAEIN D-NA--KK-- --K------- ---------- --REKQ---- ---------A
+PUR1_PSEAE D-AT--KA-- --K------- ---------- --SQAV---- ---------S
+PUR1_SCHPO A-NN--RA-- --R------- ---------- --KHSF---- ---------A
+PUR1_BACSU T-K------- ---------- ---------- ---------- ----------
+PUR1_STAAM Q-KQ------ ---------- ---------- ----YI---- ---------S
+PUR1_RHIET L-AS------ ---------- ---------- -----N---- ----------
+PUR1_SOYBN NWDD------ ---------- ---------- -----D---- --FNGNFE-S
+PUR1_METJA ---------- ---------- ---------- ---------- ----------
+PUR1_ARCFU ---------- ---------- ---------- ---------- ----------
+PUR1_METTH ---------- ---------- ---------- ---------- ---------C
+PUR1_PYRHO ---------- ---------- ---------- ---------- ----------
+PUR1_PYRAB ---------- ---------- ---------- ---------- ----------
+PUR1_SYNP7 T--------- ---------- ---------- ---------- ----------
+PUR1_SYNY3 T--------- ---------- ---------- ---------- ----------
+PUR1_MYCLE L-AN------ ---------- ---------- ---------- ---------A
+1jgt_A     H-PSEVDTDD VVRSVAD--- ---------- ---------- -----R----
+
+           1201                                              1250
+1ct9_A     ---------- ---------- ---------- ---------- ----------
+ASNS_SCHPO GHVAALK--- ---------- ---------- ---------- ----------
+ASN1_YEAST IHEKHIE--- ---------- ---------- ---------- ----------
+ASN1_LOTJA VHLSAYDD-- ----KQ---- ---------- -----NNLIN NKPVEFEK-L
+ASNS_MAIZE SHDSAATDHT AVSRRWPTAA ARP------- ----ANGTVN GKDVPV----
+ASNS_CRIGR HYKSAAK--- ---------- ---------- ---------- ----------
+ASN1_METJA ---------- ---------- ---------- ---------- ----------
+ASNH_MYCTU ----GSSDHS ---------- -RRLWTM-LI FMLWHAI-F- -----VEHSV
+ASNB_BACSU ----DKADNS ---------- -RKIWTV-LI FMIWHSI-N- -----IEKRY
+ASNH_BACSU ----SLEEVA ---------- -KY--IQEAI E--H-NIIL- -----IKQK-
+ASN2_METJA --------NF ---------- --LVKVD-R- ---------- ----------
+ASNO_BACSU --------SF ---------- -KVPWFG-Q- ----LMK--- ----------
+PUR1_HAEIN ---------- ---------- ---------- ---------- ----------
+PUR1_PSEAE ---------- ---------- ---------- ---------- ----------
+PUR1_SCHPO ----E----- ---------- ---------- ---------- -----DEERE
+PUR1_BACSU ---------- ---------- ---------- ---------- ----------
+PUR1_STAAM ---------- ---------- ---------- ---------- ------K---
+PUR1_RHIET ---------- ---------- ---------- ---------- ----------
+PUR1_SOYBN ---------- ---------- ---------- ---------- ------I---
+PUR1_METJA ---------- ---------- ---------- ---------- ----------
+PUR1_ARCFU ---------- ---------- ---------- ---------- ----------
+PUR1_METTH ---------- ---------- ---------- ---------- ------S---
+PUR1_PYRHO ---------- ---------- ---------- ---------- ----------
+PUR1_PYRAB ---------- ---------- ---------- ---------- ----------
+PUR1_SYNP7 ---------- ---------- ---------- ---------- ----------
+PUR1_SYNY3 ---------- ---------- ---------- ---------- ----------
+PUR1_MYCLE ---------- ---------- ---------- ---------- ------A---
+1jgt_A     ---------- ---------- ---------- ---------- ----------
+
+           1251                             1284
+1ct9_A     ---------- ---------- ---------- -A-- 
+ASNS_SCHPO ---------- ---------- ---------- ---- 
+ASN1_YEAST ---------- ---------- ---------- ---- 
+ASN1_LOTJA IPM--E---- -----APS-- --LGVAI--- HS-- 
+ASNS_MAIZE ---------- ---------- ---PIA---- -V-- 
+ASNS_CRIGR ---------- ---------- ---------- -A-- 
+ASN1_METJA ---------- ---------- ---------- -F-- 
+ASNH_MYCTU VPQ--I-S-- E-------P- -QYPVQ---- -L-- 
+ASNB_BACSU MPE--E-L-S H--------- --QPKEV--I FV-- 
+ASNH_BACSU ---------- ---------- -NLPEGA--- YR-- 
+ASN2_METJA --------AS M--LTLWKLE VHF------- ---- 
+ASNO_BACSU GPQLIA-HLA Q--IHTWFE- -AYRIDI--D ER-- 
+PUR1_HAEIN --SN----LE IYNE------ ---------- -Q-- 
+PUR1_PSEAE --AI----ID LYN------- ---------- -D-- 
+PUR1_SCHPO APED----IS LHNT------ ---HSDVTFD FV-- 
+PUR1_BACSU ---------- ---------- ---------- ---- 
+PUR1_STAAM ---N----KH FFDS------ -------EGN LNV- 
+PUR1_RHIET ---------- ---------- --------G- ---- 
+PUR1_SOYBN --DV---GGW VTNQ------ -DGFKIGSV- ---- 
+PUR1_METJA ---------- ---------- ---------- ---E 
+PUR1_ARCFU ---------- ---------- ---------- ---C 
+PUR1_METTH ---------- ---------- ---------- ---R 
+PUR1_PYRHO ---------- ---------- ---------- ---- 
+PUR1_PYRAB ---------- ---------- ---------- ---- 
+PUR1_SYNP7 ---------- ---------- ---------- ---A 
+PUR1_SYNY3 ---------- ---------- ---------- ---A 
+PUR1_MYCLE ---RGAGLRD LAAD------ -QVPVDADEN CVWR 
+1jgt_A     ---------- ---------- ---------- -T-- 
+

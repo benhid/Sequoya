@@ -1,0 +1,812 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1ags_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ................AEKPKLHYFN........ARGRMESTRWLLAAAGVEFEEKFIKS
+  ....AEDL....DKLRNDGYL.MFQQVPMVEIDG.....MKLVQTRAILNYIASKYN...
+  ....LYRKDIKEKALID.MYIEGIADLGEMILLLPFTQ........PEE.QDAKLALIKE
+  KIKNRYFPAFEKVLKSHG................QDYLVGNKLSRADIHLVELLYYVEEL
+  DS.....SLISSFPLLKALKTRISN.LPTVKKFLQPGSPRKPPMDEKSLEEARKIFRF..
+  ...........
+}
+{
+name 1oe7_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 19 24 0 square solid STRUCT
+  FT   STRUCT        2      7  STRAND
+feature 40 48 3 square solid STRUCT
+  FT   STRUCT       15     23  HELIX
+feature 54 57 0 square solid STRUCT
+  FT   STRUCT       29     32  STRAND
+feature 65 78 3 square solid STRUCT
+  FT   STRUCT       35     44  HELIX
+feature 80 85 3 square solid STRUCT
+  FT   STRUCT       46     48  HELIX
+feature 89 93 0 square solid STRUCT
+  FT   STRUCT       52     56  STRAND
+feature 99 103 0 square solid STRUCT
+  FT   STRUCT       62     66  STRAND
+feature 105 115 3 square solid STRUCT
+  FT   STRUCT       68     78  HELIX
+feature 130 152 3 square solid STRUCT
+  FT   STRUCT       86    107  HELIX
+feature 170 179 3 square solid STRUCT
+  FT   STRUCT      116    125  HELIX
+feature 182 195 3 square solid STRUCT
+  FT   STRUCT      128    141  HELIX
+feature 225 240 3 square solid STRUCT
+  FT   STRUCT      155    170  HELIX
+feature 254 266 3 square solid STRUCT
+  FT   STRUCT      180    192  HELIX
+feature 268 277 3 square solid STRUCT
+  FT   STRUCT      194    203  HELIX
+sequence
+  .................DHIKVIYFN........GRGRAESIRMTLVAAGVNYEDERIS.
+  ....FQDW....PKIKPTIP...GGRLPAVKITDNHGHVKWMVESLAIARYMAKKHH...
+  ....MMGGTEEEYYNVE.KLIGQAEDLEHEYYKTLMK.........PEEEKQKIIKEILN
+  GKVPVLLDIICESLKAST................GKLAVGDKVTLADLVLIAVIDHVTDL
+  DK....EFLTGKYPEIHKHRENLLASSPRLAKYLSDRA......................
+  ...........
+}
+{
+name 2gsq_
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 20 24 0 square solid STRUCT
+  FT   STRUCT        3      7  STRAND
+feature 37 48 3 square solid STRUCT
+  FT   STRUCT       12     23  HELIX
+feature 54 57 0 square solid STRUCT
+  FT   STRUCT       29     32  STRAND
+feature 68 78 3 square solid STRUCT
+  FT   STRUCT       38     44  HELIX
+feature 80 85 3 square solid STRUCT
+  FT   STRUCT       46     48  HELIX
+feature 89 92 0 square solid STRUCT
+  FT   STRUCT       52     55  STRAND
+feature 100 102 0 square solid STRUCT
+  FT   STRUCT       58     60  STRAND
+feature 105 115 3 square solid STRUCT
+  FT   STRUCT       63     73  HELIX
+feature 130 155 3 square solid STRUCT
+  FT   STRUCT       81    105  HELIX
+feature 172 195 3 square solid STRUCT
+  FT   STRUCT      112    135  HELIX
+feature 225 240 3 square solid STRUCT
+  FT   STRUCT      151    166  HELIX
+feature 254 264 3 square solid STRUCT
+  FT   STRUCT      175    185  HELIX
+feature 268 276 3 square solid STRUCT
+  FT   STRUCT      188    196  HELIX
+sequence
+  .................PKYTLHYFP........LMGRAELCRFVLAAHGEEFTDRVVE.
+  ....MADW....PNLKATMY...SNAMPVLDIDG.....TKMSQSMCIARHLAREFG...
+  ....LDGKTSLEKYRVD.EITETLQDIFNDVVKIKFA.........PEA.AKEAVQQNYE
+  KSCKRLAPFLEGLLVSNGGG..............DGFFVGNSMTLADLHCYVALEVPLKH
+  TP.....ELLKDCPKIVALRKRVAE.CPKIAAYLKKRP..VRDF................
+  ...........
+}
+{
+name 10gs_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 20 24 0 square solid STRUCT
+  FT   STRUCT        2      6  STRAND
+feature 37 48 3 square solid STRUCT
+  FT   STRUCT       11     22  HELIX
+feature 53 57 0 square solid STRUCT
+  FT   STRUCT       27     31  STRAND
+feature 65 69 3 square solid STRUCT
+  FT   STRUCT       34     38  HELIX
+feature 74 78 3 square solid STRUCT
+  FT   STRUCT       41     45  HELIX
+feature 89 92 0 square solid STRUCT
+  FT   STRUCT       53     56  STRAND
+feature 100 103 0 square solid STRUCT
+  FT   STRUCT       59     62  STRAND
+feature 105 116 3 square solid STRUCT
+  FT   STRUCT       64     75  HELIX
+feature 130 157 3 square solid STRUCT
+  FT   STRUCT       82    108  HELIX
+feature 172 195 3 square solid STRUCT
+  FT   STRUCT      110    133  HELIX
+feature 198 200 3 square solid STRUCT
+  FT   STRUCT      136    138  HELIX
+feature 225 240 3 square solid STRUCT
+  FT   STRUCT      149    164  HELIX
+feature 254 264 3 square solid STRUCT
+  FT   STRUCT      173    183  HELIX
+feature 268 275 3 square solid STRUCT
+  FT   STRUCT      186    193  HELIX
+feature 277 280 3 square solid STRUCT
+  FT   STRUCT      195    198  HELIX
+sequence
+  ..................PYTVVYFP........VRGRCAALRMLLADQGQSWKEEVVT.
+  ....VETWQ..EGSLKASCL...YGQLPKFQDGD.....LTLYQSNTILRHLGRTLG...
+  ....LYGKDQQEAALVD.MVNDGVEDLRCKYISLIYT.............NYEAGKDDYV
+  KALPGQLKPFETLLSQNQGG..............KTFIVGDQISFADYNLLDLLLIHEVL
+  AP.....GCLDAFPLLSAYVGRLSA.RPKLKAFLASPEYVNLPINGNGKQ..........
+  ...........
+}
+{
+name 1okt_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 20 25 0 square solid STRUCT
+  FT   STRUCT        5     10  STRAND
+feature 40 49 3 square solid STRUCT
+  FT   STRUCT       17     26  HELIX
+feature 54 58 0 square solid STRUCT
+  FT   STRUCT       31     35  STRAND
+feature 64 78 3 square solid STRUCT
+  FT   STRUCT       41     51  HELIX
+feature 89 92 0 square solid STRUCT
+  FT   STRUCT       61     64  STRAND
+feature 100 103 0 square solid STRUCT
+  FT   STRUCT       67     70  STRAND
+feature 105 115 3 square solid STRUCT
+  FT   STRUCT       72     82  HELIX
+feature 130 151 3 square solid STRUCT
+  FT   STRUCT       90    110  HELIX
+feature 175 180 3 square solid STRUCT
+  FT   STRUCT      120    125  HELIX
+feature 182 196 3 square solid STRUCT
+  FT   STRUCT      127    141  HELIX
+feature 225 238 3 square solid STRUCT
+  FT   STRUCT      160    173  HELIX
+feature 254 264 3 square solid STRUCT
+  FT   STRUCT      184    194  HELIX
+feature 268 276 3 square solid STRUCT
+  FT   STRUCT      197    205  HELIX
+sequence
+  ...............MGDNIVLYYFD........ARGKAELIRLIFAYLGIEYTDKRFGV
+  NGDAFVEF....KNFKKEKDT.PFEQVPILQIGD.....LILAQSQAIVRYLSKKYN...
+  ....ICGESELNEFYAD.MIFCGVQDIHYKFNNTNLF..............KQNETTFLN
+  EDLPKWSGYFEKLLKKNHTNNNND..........KYYFVGNNLTYADLAVFNLYDDIETK
+  YP.....SSLKNFPLLKAHNEFISN.LPNIKNYITNRK..ESVY................
+  ...........
+}
+{
+name GTA1_BOVIN
+descrip Glutathione S-transferase alpha 1 (EC 2.5.1.18) (GST class-a
+creator Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+sequence
+  ................AGKPTLHYFN........GRGRMECIRWLLAAAGVEFEEKFIEK
+  ....PEDL....DKLKNDGS.LMFQQVPMVEIDG.....MKLVQTRAILNYIATKYN...
+  ....LYGKDMKERALID.MYSEGVADLGEMIMHFPLCP........PAE.KDAKLTLIRE
+  KTTNRYLPAFENVLKSHG................QDYLVGNKLSRADIHLVELLYYVEEL
+  DP.....SLLANFPLLKALKARVSS.LPAVKKFLQPGSQRKPPTDEKKIEEARKVFKF..
+  ...........
+}
+{
+name GTA1_MOUSE
+descrip Glutathione S-transferase Ya chain (EC 2.5.1.18) (GST class-
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+sequence
+  ................AGKPVLHYFN........ARGRMECIRWLLAAAGVEFEEKFIQS
+  ....PEDL....EKLKKDGN.LMFDQVPMVEIDG.....MKLAQTRAILNYIATKYD...
+  ....LYGKDMKERALID.MYSEGILDLTEMIGQLVLCP........PDQ.REAKTALAKD
+  RTKNRYLPAFEKVLKSHG................QDYLVGNRLTRVDIHLLEVLLYVEEF
+  DA.....SLLTPFPLLKAFKSRISS.LPNVKKFLQPGSQRKPPMDAKQIQEARKAFKIQ.
+  ...........
+}
+{
+name GTC1_RAT
+descrip Glutathione S-transferase Yc-1 (EC 2.5.1.18) (Chain 2) (GST 
+creator Rattus norvegicus (Rat).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+sequence
+  ................PGKPVLHYFD........GRGRMEPIRWLLAAAGVEFEEQFLKT
+  ....RDDL....ARLRNDGS.LMFQQVPMVEIDG.....MKLVQTRAILNYIATKYN...
+  ....LYGKDMKERALID.MYAEGVADLDEIVLHYPYIP........PGE.KEASLAKIKD
+  KARNRYFPAFEKVLKSHG................QDYLVGNRLSRADVYLVQVLYHVEEL
+  DP.....SALANFPLLKALRTRVSN.LPTVKKFLQPGSQRKPLEDEKCVESAVKIFS...
+  ...........
+}
+{
+name GTC_RABIT
+descrip Glutathione S-transferase Yc (EC 2.5.1.18) (Alpha II) (GST c
+creator Oryctolagus cuniculus (Rabbit).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+sequence
+  ................AGKPKLHYFN........ARGRMESIRWLLTAAGVEFEEKCMKT
+  ....REDL....EKLRKDGV.LMFQQVPMVEIDG.....MKLVQTRAIFNYIADKHN...
+  ....LYGKDIKERALID.MYTEGIVDLNELILTRPFLP........PEE.QEAKLAQIKD
+  KAKNRYFPAFEKVLKSHG................QDYLVGNKLSKADILLVELLYNVEEL
+  NP.....GATASFPLLQALKTRISN.LPTVKKFLQPGSQRNPPDDEKCREEAKIIFH...
+  ...........
+}
+{
+name GTA1_RABIT
+descrip Glutathione S-transferase alpha I (EC 2.5.1.18) (GSTA1-1) (G
+creator Oryctolagus cuniculus (Rabbit).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+sequence
+  ...............MARKPLLHYFN........GRGRMESIRWLLAAAGEEFDEKFMET
+  ....AEDL....DKLRNDGS.LMYQQVPMVEIDG.....MKLVQTRAILNYVANKHN...
+  ....LYGKDMKERALID.MYTEGVADLYELVLLLPLCP........PEQ.KDAKVDFIKE
+  KIRTRYFPAFEKVLKSHG................QDYLVGNRLSKADILLVELLYNVEEL
+  DP.....SAIASFPLLKALKTRISS.LPTVKKFLQPGSQRKPPMDEKNLEKAKKIFKIP.
+  ...........
+}
+{
+name GTA1_CAVPO
+descrip Glutathione S-transferase A (EC 2.5.1.18) (GST A) (Class-alp
+creator Cavia porcellus (Guinea pig).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+feature 17 17 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylserine
+sequence
+  ................SGKPVLHYFN........VQGRMESIRWLLAAAGVEFEEKLIMC
+  ....QEDL....DKLKNDGL.LMFQQVPMVEMDG.....MKMVQSRAILNYIATKYN...
+  ....LYGKDTKERLLID.MYTEGMTDLYELFFKVILAP........PEE.KDAAKSLIKD
+  RAKNRFLPAFEKVLKSHG................QGYLVGNKLSKADILLTELLYMVEEF
+  DA.....SLLANFTLLQALKTRVSN.LPNVKKFLQPGSQRKPFPTQEMFEEMRKF.....
+  ...........
+}
+{
+name GTA3_RAT
+descrip Glutathione S-transferase 8 (EC 2.5.1.18) (GST 8-8) (Chain 8
+creator Rattus norvegicus (Rat).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+feature 16 16 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylmethionine
+sequence
+  ...............MEVKPKLYYFQ........GRGRMESIRWLLATAGVEFEEEFLET
+  ....REQY....EKLQKDGC.LLFGQVPLVEIDG.....MLLTQTRAILSYLAAKYN...
+  ....LYGKDLKERVRID.MYADGTQDLMMMIIGAPFKA........PQE.KEESLALAVK
+  RAKNRYFPVFEKILKDHG................EAFLVGNQLSWADIQLLEAILMVEEV
+  SA.....PVLSDFPLLQAFKTRISN.IPTIKKFLQPGSQRKPPPDGHYVDVVRTVLKF..
+  ...........
+}
+{
+name GTA3_CHICK
+descrip Glutathione S-transferase 3 (EC 2.5.1.18) (GST-CL3) (GST cla
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     76  PF02798 GST_N
+feature 17 17 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Blocked amino end Ala
+sequence
+  ................AAKPVLYYFN........GRGKMESIRWLLAAAGVEFEEVFLET
+  ....REQY....EKLLQSGI.LMFQQVPMVEIDG.....MKLVQTRAILNYIAGKYN...
+  ....LYGKDLKERALID.MYVGGTDDLMGFLLSFPFLS........AED.KVKQCAFVVE
+  KATSRYFPAYEKVLKDHG................QDFLVGNRLSWADIHLLEAILMVEEK
+  KS.....DALSGFPLLQAFKKRISS.IPTIKKFLAPGSKRKPISDDKYVETVRRVLRMYY
+  DVKPH......
+}
+{
+name GTA2_CHICK
+descrip Glutathione S-transferase (EC 2.5.1.18) (Class-alpha).
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+sequence
+  ...............MAGKPKLHYTR........GRGKMESIRWLLAAAGVEFEEEFIEK
+  ....KEDL....EKLRNDGS.LLFQQVPMVEIDG.....MKMVQSRAILCYIAGKYN...
+  ....LYGKDLKERAWID.MYVEGTTDLMGMIMALPFQA........ADV.KEKNIALITE
+  RATTRYFPVYEKALKDHG................QDYLVGNKLSWADIHLLEAILMTEEL
+  KS.....DILSAFPLLQAFKGRMSN.VPTIKKFLQPGSQRKPPLDEKSIANVRKIFSF..
+  ...........
+}
+{
+name GTA1_CHICK
+descrip Glutathione S-transferase (EC 2.5.1.18) (GST class-alpha).
+creator Gallus gallus (Chicken).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+sequence
+  ...............MSGKPVLHYAN........TRGRMESVRWLLAAAGVEFEEKFLEK
+  ....KEDL....QKLKSDGS.LLFQQVPMVEIDG.....MKMVQTRAILNYIAGKYN...
+  ....LYGKDLKERALID.MYVEGLADLYELIMMNVVQP........ADK.KEEHLANALD
+  KAANRYFPVFEKVLKDHG................HDFLVGNKLSRADVHLLETILAVEES
+  KP.....DALAKFPLLQSFKARTSN.IPNIKKFLQPGSQRKPRLEEKDIPRLMAIFH...
+  ...........
+}
+{
+name GTA1_ANTST
+descrip Glutathione S-transferase (EC 2.5.1.18) (GST class-alpha).
+creator Antechinus stuartii (Brown marsupial mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       86    191  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        7     76  PF02798 GST_N
+feature 16 16 0 square solid MOD_RES
+  FT   MOD_RES       1      1  Nacetylmethionine
+sequence
+  ...............MAGEQNIKYFN........IKGRMEAIRWLLAVAGVEFEEKFFET
+  ....KEQL....QKLKETVL..LFQQVPMVEIDG.....MKLVQTRAILHYIAEKYN...
+  ....LLGKDMKEHAQII.MYSEGTMDLMELIMIYPFLK........GEE.KKQRLVEIAN
+  KAKGRYFPAFENVLKTHG................QNFLVGNQLSMADVQLFEAILMVEEK
+  VP.....DALSGFPLLQAFKTRISN.IPTVKTFLAPGSKRKPVPDAKYVEDIIKIFYF..
+  ...........
+}
+{
+name GTA4_HUMAN
+descrip Glutathione S-transferase A4-4 (EC 2.5.1.18) (GST class-alph
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       87    192  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        7     77  PF02798 GST_N
+sequence
+  ...............MAARPKLHYPN........GRGRMESVRWVLAAAGVEFDEEFLET
+  ....KEQL....YKLQDGNH.LLFQQVPMVEIDG.....MKLVQTRSILHYIADKHN...
+  ....LFGKNLKERTLID.MYVEGTLDLLELLIMHPFLK........PDD.QQKEVVNMAQ
+  KAIIRYFPVFEKILRGHG................QSFLVGNQLSLADVILLQTILALEEK
+  IP.....NILSAFPFLQEYTVKLSN.IPTIKRFLEPGSKKKPPPDEIYVRTVYNIFRP..
+  ...........
+}
+{
+name GT26_SCHMA
+descrip Glutathione S-transferase 26 kDa (EC 2.5.1.18) (GST 26) (SM2
+creator Schistosoma mansoni (Blood fluke).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       87    187  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        5     77  PF02798 GST_N
+sequence
+  .................MAPKFGYWK........VKGLVQPTRLLLEHLEETYEERAYDR
+  ..NEIDAWS..NDKFKLGLE...FPNLPYYIDGD.....FKLTQSMAIIRYIADKHN...
+  ....MLGACPKERAEIS.MLEGAVLDIRMGVLRIAYNK............EYETLKVDFL
+  NKLPGRLKMFEDRLSNKT..................YLNGNCVTHPDFMLYDALDVVLYM
+  DS.....QCLNEFPKLVSFKKCIED.LPQIKNYLNSSRYIKWPLQGWDATFGGGDTPPK.
+  ...........
+}
+{
+name GTS1_ASCSU
+descrip Glutathione S-transferase 1 (EC 2.5.1.18) (GST class-sigma).
+creator Ascaris suum (Pig roundworm) (Ascaris lumbricoides).Eukaryot
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       82    191  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        5     72  PF02798 GST_N
+sequence
+  .................PQYKLTYFD........IRGLGEGARLIFHQAGVKFEDNRLK.
+  ....REDW....PALKPKTP...FGQLPLLEVDG.....EVLAQSAAIYRYLGRQFG...
+  ....LAGKTPMEEAQVD.SIFDQFKDFMAELRPCFRVLAGFE.....EGDKEKVLKEVAV
+  PARDKHLPLLEKFLAKSG................SEYMVGKSVTWADLVITDSLASWESL
+  IP.....DFLSGHLQLKKYIEHVRE.LPNIKKWIAERPKTPY..................
+  ...........
+}
+{
+name GTS7_CAEEL
+descrip Probable glutathione S-transferase 7 (EC 2.5.1.18) (GST clas
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 131 259 0 square solid PFAM-A
+  FT   PFAM-A       83    184  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     73  PF02798 GST_N
+sequence
+  ................MVHYKVSYFP........IRGAGEIARQILAYAGQDFEDNRIP.
+  ....KEEW....PAVKPSTP...FGQLPLLEVDG.....KVLAQSHAIARYLARQFG...
+  ....INGKCAWEEAQVN.SVADQFKDYLNEVRPYFMVKMGFA.....EGDLDALAKDVFL
+  PGFKKHYGFFANFLKSAG................SGYLVGDSLTFVDLLVAQHTADLLAA
+  NA.....ALLDEFPQFKAHQEKVHS.NANIKKWLETRPVTPF..................
+  ...........
+}
+{
+name GTS9_CAEEL
+descrip Probable glutathione S-transferase 9 (EC 2.5.1.18) (GST clas
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 181 231 0 square solid PFAM-A
+  FT   PFAM-A      127    161  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     73  PF02798 GST_N
+feature 17 78 1 square solid VARSPLIC
+  FT   VARSPLIC      1     45  MVSYKLIYFQSRGNGEIARQVFAFAGQEFIDERISKEQWAE
+sequence
+  ................MVSYKLIYFQ........SRGNGEIARQVFAFAGQEFIDERIS.
+  ....KEQW....AEIKNMTP...FGQVPVLEVDG.....RQLAQSITIVRYLSKQFG...
+  ....ISGKSSWEEAQVD.ALGDQFKDYRVEARPFFRAKMGFS.....DGDVDQLYKDLFV
+  PAFNKMYSIFTESLKSSG................SGFLVGDSLTWMDLAIAQHSADLLEA
+  DG.....KILDTFLEMKDHQKKIHS.IPNVKKWIEKRPVTSR..................
+  ...........
+}
+{
+name GTS3_CAEEL
+descrip Glutathione S-transferase 3 (EC 2.5.1.18) (GST class-sigma).
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       83    193  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     73  PF02798 GST_N
+sequence
+  ................MVHYKLTYFN........ARGLAEISRQLFHMAGVEFEDERIN.
+  ....EEKF....SQLKPTFP...SGQVPILCIDG.....AQFSQSTAIARYLARKFG...
+  ....FVGQTAEEELQAD.EVVDTFKDFIESFRKFVIAVLSGE....SEEILKNIREEVIK
+  PAVKTYTAYLKAILEKSS................SGYLVGNELTWADLVIADNLTTLINA
+  EL.....LDIENDKLLKEFREKIIE.TPKLKEWLAKRPETRF..................
+  ...........
+}
+{
+name GTS1_BLAGE
+descrip Glutathione S-transferase (EC 2.5.1.18) (GST class-sigma) (M
+creator Blattella germanica (German cockroach).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       83    189  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        6     73  PF02798 GST_N
+sequence
+  ................APSYKLTYCP........VKALGEPIRFLLSYGEKDFEDYRFQ.
+  ....EGDW....PNLKPSMP...FGKTPVLEIDG.....KQTHQSVAISRYLGKQFG...
+  ....LSGKDDWENLEID.MIVDTISDFRAAIANYHYDADEN........SKQKKWDPLKK
+  ETIPYYTKKFDEVVKANG.................GYLAAGKLTWADFYFVAILDYLNHM
+  AK....EDLVANQPNLKALREKVLG.LPAIKAWVAKRPPTDL..................
+  ...........
+}
+{
+name GTP_DIRIM
+descrip Glutathione S-transferase (EC 2.5.1.18) (GST class-pi).
+creator Dirofilaria immitis (Canine heartworm).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       82    186  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        5     72  PF02798 GST_N
+sequence
+  .................MSYKLTYFP........IRGLAEPIRLLLVDQGIKFTDEHIP.
+  ....KDDF....VSIKSQFQ...FGQLPCFYDGD.....QQIVQSGAILRHLARKFN...
+  ....LNGENNAETSYVD.MFYEGIRDLHSKYTRMIYEAYET............QKDPFIK
+  NILPQELAKLEKLLATRDNG..............KNFILGDKISFADYVLFEELDVQQIL
+  DP.....HCLEKFPLLKAFHQRLGD.KPKIKEYCAKRNASKMPVNGNGKQ..........
+  ...........
+}
+{
+name GTP1_BUFBU
+descrip Glutathione S-transferase P 1 (EC 2.5.1.18) (BBGSTP1-1) (GST
+creator Bufo bufo (European toad).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       84    187  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        5     74  PF02798 GST_N
+sequence
+  .................PEYTIIYFN........ARGRCEAMRMLMADQGAQWKEEVVT.
+  ....SDDWQ..KGDLKKAAV...YGQLPGFKDGD.....FTLYQSNAMLRLLARNHD...
+  ....LYGKNPREASLID.MVNDGVEDLRLKYLKMIYQNYE.............NGKDDYV
+  KALPTNLGHFERLLASNNEG..............KGFVVGAHISFADYNLVDLLHNHLVL
+  AP.....DCLSGFPLLCAYVKRISS.RPKLEAYLSSDAHKKRPINGNGKQQ.........
+  ...........
+}
+{
+name GTP2_BUFBU
+descrip Glutathione S-transferase P 2 (EC 2.5.1.18) (BBGSTP2-2) (GST
+creator Bufo bufo (European toad).Eukaryota;
+type    PROTEIN
+group 1
+feature 131 268 0 square solid PFAM-A
+  FT   PFAM-A       85    188  PF00043 GST_C
+feature 22 114 1 square solid PFAM-A
+  FT   PFAM-A        5     76  PF02798 GST_N
+sequence
+  .................SGYTLTYFP........LRGRAEAMRLLLGDQGVSWTDDEVQ.
+  ....MQDWAAGIRDLKKNAV...FGQIPRFQEGD.....FVLYQSQTILRLLARYG....
+  ....LSGSNEREIAINE.MMNDGVEDLRLKYYKFIFWDN.............EANKEKFL
+  EELATQLGYFERILTNNAG..............KTFVLVGDKISYADYNLLDTLFCVLDL
+  SP.....TCLSGFPLLSDYVERLGK.RPKLQQYLKSEGRKRRPINGNGKQ..........
+  ...........
+}
+{
+name 1nhy_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 22 24 0 square solid STRUCT
+  FT   STRUCT        5      7  STRAND
+feature 37 49 3 square solid STRUCT
+  FT   STRUCT       12     24  HELIX
+feature 54 56 0 square solid STRUCT
+  FT   STRUCT       29     31  STRAND
+feature 58 66 3 square solid STRUCT
+  FT   STRUCT       33     35  HELIX
+feature 68 78 3 square solid STRUCT
+  FT   STRUCT       37     43  HELIX
+feature 89 91 0 square solid STRUCT
+  FT   STRUCT       51     53  STRAND
+feature 93 95 3 square solid STRUCT
+  FT   STRUCT       55     57  HELIX
+feature 101 103 0 square solid STRUCT
+  FT   STRUCT       59     61  STRAND
+feature 105 115 3 square solid STRUCT
+  FT   STRUCT       63     73  HELIX
+feature 119 125 3 square solid STRUCT
+  FT   STRUCT       77     83  HELIX
+feature 132 147 3 square solid STRUCT
+  FT   STRUCT       90    104  HELIX
+feature 152 156 3 square solid STRUCT
+  FT   STRUCT      109    113  HELIX
+feature 158 161 3 square solid STRUCT
+  FT   STRUCT      115    118  HELIX
+feature 173 194 3 square solid STRUCT
+  FT   STRUCT      126    147  HELIX
+feature 225 240 3 square solid STRUCT
+  FT   STRUCT      160    175  HELIX
+feature 247 252 3 square solid STRUCT
+  FT   STRUCT      179    184  HELIX
+feature 254 265 3 square solid STRUCT
+  FT   STRUCT      186    197  HELIX
+feature 271 273 3 square solid STRUCT
+  FT   STRUCT      202    204  HELIX
+sequence
+  .................XSQGTLYAN........FRIRTWVPRGLVKALKLDVKVVTP..
+  ....DAAA....EQFARDFP...LKKVPAFVGPKG....YKLTEAXAINYYLVKLSQDDK
+  XKTQLLGADDDLNAQAQ.IIRWQSLANSDLCIQIANTIVPL....KGGAPYNKKSVDSAX
+  DAVDKIVDIFENRLKNY..................TYLATENISLADLVAASIFTRYFES
+  LFG...TEWRAQHPAIVRWFNTVRA.SPFLKDEYKDFKFADKPLSPPQ............
+  ...........
+}
+{
+name 1ljr_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 21 24 0 square solid STRUCT
+  FT   STRUCT        4      7  STRAND
+feature 37 48 3 square solid STRUCT
+  FT   STRUCT       12     23  HELIX
+feature 54 57 0 square solid STRUCT
+  FT   STRUCT       29     32  STRAND
+feature 66 68 3 square solid STRUCT
+  FT   STRUCT       39     41  HELIX
+feature 73 76 3 square solid STRUCT
+  FT   STRUCT       43     46  HELIX
+feature 89 92 0 square solid STRUCT
+  FT   STRUCT       56     59  STRAND
+feature 100 103 0 square solid STRUCT
+  FT   STRUCT       62     65  STRAND
+feature 105 115 3 square solid STRUCT
+  FT   STRUCT       67     77  HELIX
+feature 123 125 3 square solid STRUCT
+  FT   STRUCT       82     84  HELIX
+feature 130 146 3 square solid STRUCT
+  FT   STRUCT       89    105  HELIX
+feature 153 158 3 square solid STRUCT
+  FT   STRUCT      112    117  HELIX
+feature 160 164 3 square solid STRUCT
+  FT   STRUCT      119    122  HELIX
+feature 173 193 3 square solid STRUCT
+  FT   STRUCT      129    149  HELIX
+feature 225 239 3 square solid STRUCT
+  FT   STRUCT      164    178  HELIX
+feature 254 268 3 square solid STRUCT
+  FT   STRUCT      188    201  HELIX
+feature 270 277 3 square solid STRUCT
+  FT   STRUCT      203    210  HELIX
+feature 279 288 3 square solid STRUCT
+  FT   STRUCT      212    221  HELIX
+feature 297 308 3 square solid STRUCT
+  FT   STRUCT      230    241  HELIX
+sequence
+  .................MGLELFLDL........VSQPSRAVYIFAKKNGIPLELRTVDL
+  ..VKGQHK...SKEFLQINS...LGKLPTLKDGD.....FILTESSAILIYLSCKYQTP.
+  ..DHWYPSDLQARARVHEYLGWHADCIRGTFGIPLWVQVLG.PLIGVQV..PEEKVERNR
+  TAMDQALQWLEDKFLGDR.................PFLAGQQVTLADLMALEELMQPVAL
+  GY.....ELFEGRPRLAAWRGRVEA.FLGAELCQEAHSIILSILEQAAKKTLPTPSPEAY
+  QAMLLRIARIP
+}
+{
+name 1eem_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 20 24 0 square solid STRUCT
+  FT   STRUCT       20     24  STRAND
+feature 37 48 3 square solid STRUCT
+  FT   STRUCT       29     40  HELIX
+feature 53 57 0 square solid STRUCT
+  FT   STRUCT       45     49  STRAND
+feature 73 77 3 square solid STRUCT
+  FT   STRUCT       57     61  HELIX
+feature 89 92 0 square solid STRUCT
+  FT   STRUCT       70     73  STRAND
+feature 101 103 0 square solid STRUCT
+  FT   STRUCT       78     80  STRAND
+feature 105 115 3 square solid STRUCT
+  FT   STRUCT       82     92  HELIX
+feature 130 144 3 square solid STRUCT
+  FT   STRUCT      103    116  HELIX
+feature 147 154 3 square solid STRUCT
+  FT   STRUCT      119    126  HELIX
+feature 173 197 3 square solid STRUCT
+  FT   STRUCT      132    156  HELIX
+feature 225 237 3 square solid STRUCT
+  FT   STRUCT      168    180  HELIX
+feature 243 249 3 square solid STRUCT
+  FT   STRUCT      186    188  HELIX
+feature 254 264 3 square solid STRUCT
+  FT   STRUCT      193    203  HELIX
+feature 268 273 3 square solid STRUCT
+  FT   STRUCT      206    211  HELIX
+feature 277 289 3 square solid STRUCT
+  FT   STRUCT      215    227  HELIX
+feature 294 296 3 square solid STRUCT
+  FT   STRUCT      232    234  HELIX
+sequence
+  SARSLGKGSAPPGPVPEGSIRIYSMR........FCPFAERTRLVLKAKGIRHEVININ.
+  ....LKNK...PEWFFKKNP...FGLVPVLENSQG....QLIYESAITCEYLDEAYPGKK
+  ....LLPDDPYEKACQK.MILELFSKVPSLVGSFIRS.............QNKEDYAGLK
+  EEFRKEFTKLEEVLTNKK................TTFFGGNSISMIDYLIWPWFERLEAM
+  KLN....ECVDHTPKLKLWMAAMKE.DPTVSALLTSEKDWQGFLELYLQNSPEACDYGL.
+  ...........
+}
+{
+name 1g6w_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 9 13 3 square solid STRUCT
+  FT   STRUCT        4      8  HELIX
+feature 20 24 0 square solid STRUCT
+  FT   STRUCT       15     19  STRAND
+feature 37 48 3 square solid STRUCT
+  FT   STRUCT       24     35  HELIX
+feature 53 57 0 square solid STRUCT
+  FT   STRUCT       40     44  STRAND
+feature 60 64 3 square solid STRUCT
+  FT   STRUCT       47     49  HELIX
+feature 73 76 3 square solid STRUCT
+  FT   STRUCT       55     58  HELIX
+feature 89 93 0 square solid STRUCT
+  FT   STRUCT       68     72  STRAND
+feature 93 95 3 square solid STRUCT
+  FT   STRUCT       72     74  HELIX
+feature 100 102 0 square solid STRUCT
+  FT   STRUCT       77     79  STRAND
+feature 105 120 3 square solid STRUCT
+  FT   STRUCT       82     97  HELIX
+feature 130 146 3 square solid STRUCT
+  FT   STRUCT      107    123  HELIX
+feature 148 159 3 square solid STRUCT
+  FT   STRUCT      125    136  HELIX
+feature 173 202 3 square solid STRUCT
+  FT   STRUCT      143    172  HELIX
+feature 225 228 3 square solid STRUCT
+  FT   STRUCT      189    192  HELIX
+feature 231 234 3 square solid STRUCT
+  FT   STRUCT      195    198  HELIX
+feature 237 240 3 square solid STRUCT
+  FT   STRUCT      201    204  HELIX
+feature 249 252 3 square solid STRUCT
+  FT   STRUCT      208    211  HELIX
+feature 254 264 3 square solid STRUCT
+  FT   STRUCT      213    223  HELIX
+feature 268 273 3 square solid STRUCT
+  FT   STRUCT      226    231  HELIX
+sequence
+  .....SRITKFFQEQPLEGYTLFSHR........SAPNGFKVAIVLSELGFHYNTIFLDF
+  ..NLGEHR...APEFVSVNP...NARVPALIDHGMDN..LSIWESGAILLHLVNKYYKET
+  GNPLLWSDDLADQSQINAWLFFQTSGHAPMIGQALHFRYF.......HSQKIASAVERYT
+  DEVRRVYGVVEMALAERREALVM......ELDDYPVWLVGDKLTIADLAFVPWNNVVDRI
+  GI.....NIKIEFPEVYKWTKHMMR.RPAVIKALRG........................
+  ...........
+}
+{
+name 1k0m_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 20 25 0 square solid STRUCT
+  FT   STRUCT        3      8  STRAND
+feature 37 49 3 square solid STRUCT
+  FT   STRUCT       20     32  HELIX
+feature 54 58 0 square solid STRUCT
+  FT   STRUCT       37     41  STRAND
+feature 73 78 3 square solid STRUCT
+  FT   STRUCT       48     53  HELIX
+feature 89 92 0 square solid STRUCT
+  FT   STRUCT       61     64  STRAND
+feature 100 103 0 square solid STRUCT
+  FT   STRUCT       67     70  STRAND
+feature 105 115 3 square solid STRUCT
+  FT   STRUCT       72     82  HELIX
+feature 130 133 3 square solid STRUCT
+  FT   STRUCT       96     99  HELIX
+feature 140 149 3 square solid STRUCT
+  FT   STRUCT      105    114  HELIX
+feature 173 195 3 square solid STRUCT
+  FT   STRUCT      118    140  HELIX
+feature 206 210 3 square solid STRUCT
+  FT   STRUCT      151    155  HELIX
+feature 225 245 3 square solid STRUCT
+  FT   STRUCT      170    190  HELIX
+feature 254 264 3 square solid STRUCT
+  FT   STRUCT      199    209  HELIX
+feature 268 271 3 square solid STRUCT
+  FT   STRUCT      212    215  HELIX
+feature 277 283 3 square solid STRUCT
+  FT   STRUCT      221    227  HELIX
+sequence
+  .................PQVELFVKAGSDGAKIGNCPFSQRLFMVLWLKGVTFNVTTVD.
+  ....TKRR...TETVQKLCP...GGELPFLLYGT.....EVHTDTNKIEEFLEAVLCPPR
+  Y.PKLAALNPESNTAGL.DIFAKFSAYIKN....................SNPALNDNLE
+  KGLLKALKVLDNYLTSPLPEGVDETSAEDEGVSQRKFLDGNELTLADCNLLPKLHIVQVV
+  CKKYRGFTIPEAFRGVHRYLSNAYA.REEFASTCPDDEEIELAYEQVAKAL.........
+  ...........
+}

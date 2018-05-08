@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref5/test/kinase_ref5</aln-name>
+<sequence seq-type="Protein">
+<seq-name>ST11_YEAST</seq-name>
+<seq-info>
+<accession>P23561</accession>
+<nid>ST11_YEAST</nid>
+<definition>Serine/threonine-protein kinase STE11 (EC 2.7.1.37).</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>41</fstart><fstop>105</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>SAM.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>436</fstart><fstop>733</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>41</fstart><fstop>105</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>SAM.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>436</fstart><fstop>733</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>39</fstart><fstop>103</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PF00536 SAM</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>436</fstart><fstop>733</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>39</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF00536 SAM</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>436</fstart><fstop>733</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>231</fstart><fstop>341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB053750 Pfam-B_53750</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>231</fstart><fstop>341</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB053750 Pfam-B_53750</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>442</fstart><fstop>450</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>465</fstart><fstop>465</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>600</fstart><fstop>600</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>442</fstart><fstop>450</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>465</fstart><fstop>465</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>600</fstart><fstop>600</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mhkerplnkasmirspvdeiymeqtqtaegtdlligdektndlpfvqlfleeigctqyldsfiqcnlvteeeikyldkdilialgvnkigdrlkilrksksfqrdkrieqvnrlknlmekvsslstatlsmnselipekhcvifilndgsakkvnvngcfnadsikkrlirrlphellatnsngevtkmvqdydvfvldytknvlhllydvelvtichandrveknrlifvskdqtpsdkaistskklylrtlsalsqvgpsssnllaqnkgishnnaegklridntekdrirqifnqrppsefistnlagyfphtdmkrlqktmresfrhsarlsiaqrrplsaesnnigdillkhsnavdmallqgldqtrlsskldttkipklahkrpedndaisnqlellsvesgeeedhdffgedsdivslptkiatpknwlkgacigsgsfgsvylgmnahtgelmavkqveiknnnigvptdnnkqansdenneqeeqqekiedvgavshpktnqnihrkmvdalqhemnllkelh---------------------------------------henivtyygasqeg----------gnlnifl-eyvpggsvssmlnny-------------------------------------------------------------------------------------------------------------gpfeeslitnftrq-----------------------iligvaylhkk----------niihrdikganilidik-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------gcvkitdfgiskklsplnkkq--------------------------nkraslqgsvfwmspevvkq-------tattakadiwstgcvviemftgkhpfpdf---------------------------------------------------------------sqmqaifkigtnttpeip----------------------------------------------------------------------------swatsegknflrkafeldyqyr--------------------------psalellqhpwldahii--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PKN5_MYXXA</seq-name>
+<seq-info>
+<accession>P54737</accession>
+<nid>PKN5_MYXXA</nid>
+<definition>Serine/threonine-protein kinase pkn5 (EC 2.7.1.37).</definition>
+<organism>Myxococcus xanthus.Bacteria;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>9</fstart><fstop>378</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>9</fstart><fstop>378</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>380</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>380</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>15</fstart><fstop>23</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>38</fstart><fstop>38</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>244</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>15</fstart><fstop>23</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>38</fstart><fstop>38</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>244</fstart><fstop>244</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mplkvigpyrvletlgsggagtvyraldrrttdevalkllsagpard-----------------------------------------araarrlarefdtlvdls---------------------------------------hpnvvkvfesgvhqg-------vpylameli-egltlrhyldlssgdrqtppgshtprsplsvlrtadddfgplsrsfsdsmddsedspfdgtfgleafaeeapsedlesfassasphvgigsddslegfdlpppmprpaepeeepgrvvreedlnrpermgrlkdamlq-----------------------icealayihgh----------glvhrdlkpsnimvddd-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------rqvrlmdfglakfladd---------------------------aaiteagklvgtyrymapeqilg-------epldgradlyslgvilyellsgrppfdak----------------------------------------------------------------tphelwrqvletepppvlaln------------------------------------------------------------------------lhgdpqlarvahrlirkepddr--------------------------fqtaeevyealse------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SMA6_CAEEL</seq-name>
+<seq-info>
+<accession>Q09488</accession>
+<nid>SMA6_CAEEL</nid>
+<definition>Serine/threonine-protein kinase sma-6 precursor (EC 2.7.1.37</definition>
+<organism>Caenorhabditis elegans.Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>21</fstart><fstop>190</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Extracellular (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>212</fstart><fstop>636</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>265</fstart><fstop>606</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>21</fstart><fstop>190</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Extracellular (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>212</fstart><fstop>636</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Cytoplasmic (Potential).</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>265</fstart><fstop>606</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>53</fstart><fstop>158</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF01064 Activin_recp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>265</fstart><fstop>475</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>53</fstart><fstop>158</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF01064 Activin_recp</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>265</fstart><fstop>475</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>521</fstart><fstop>595</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB090632 Pfam-B_90632</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>521</fstart><fstop>595</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB090632 Pfam-B_90632</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>271</fstart><fstop>279</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>292</fstart><fstop>292</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>397</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>80</fstart><fstop>80</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc   Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>184</fstart><fstop>184</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc   Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>271</fstart><fstop>279</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>292</fstart><fstop>292</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>397</fstart><fstop>397</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>80</fstart><fstop>80</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>184</fstart><fstop>184</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>CARBOHYD_Nlinked GlcNAc Potential</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>191</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>TRANSMEM</ftype><fstart>191</fstart><fstop>211</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+<fitem><ftype>SIGNAL</ftype><fstart>1</fstart><fstop>20</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>Potential.</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mnitfifilifgffntqkcskdydhfddedlalsipknaigvpkefrqqvlkemklrnrpndilknrcycnydqsicgnnmtcvkqdgaacyhavee-vynkaekrmetlhk-wgcatlergsgash----ltcnswraahhspksigccyegnycnknlippayvh--hhkekalqektdnpedydsplenmtrggk----mfimvfatvmsvfavigciylcitraeek--------------------skararaktvslktestymesksmleds-----gsgsgqaaliqrtvrqdltiiktigqgrygevrkalyr--gsyvavktfyt-----------------------------------------------tdedswknerdvyqtnmin-------------------------------------henilqfvaadiwse------edsmtkmllitdyhelgslsdylcree-------------------------------------------------------------------------------------------------------------tlttdealrlihs-----------------------cicgiehlhaavhgtgsfrkpeiahrdikskniivkr-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------pnvcciadlglalryqndk--------------------------ilpekfnvqvgtkrymapelisnkl-npkdfsqfkmadiysmalvmwevairvevntceevltvdetspdhsassgigesvsssgnisrmhlqktnveghstslkakqhvppfdgivhndpnfdemndvicvrrirpppdlawkn-----------------------------------------------------------------------vpalnelsklmedswhsiphfr--------------------------hsalklkkemaeliknpdrqnqsqrkvefqqqds-glvesatn-qs---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>KBN8_YEAST</seq-name>
+<seq-info>
+<accession>P38070</accession>
+<nid>KBN8_YEAST</nid>
+<definition>Probable serine/threonine-protein kinase YBR028C (EC 2.7.1.3</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>2.7.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>128</fstart><fstop>424</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>128</fstart><fstop>424</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>128</fstart><fstop>408</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>445</fstart><fstop>521</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00433 pkinase_C</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>128</fstart><fstop>408</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>445</fstart><fstop>521</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00433 pkinase_C</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>134</fstart><fstop>142</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>157</fstart><fstop>157</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>277</fstart><fstop>277</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>134</fstart><fstop>142</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>157</fstart><fstop>157</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>277</fstart><fstop>277</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mifsldeelhrvslddkkndikvdy--ssaiyndinheqgssityeesinhlsvhs----naiplngmspahrmrrrssayskfpiltp---------------------pntrrfsitgsdamrtntnrlsitpqd-----iissnigenelsrnlhdfkpvrvlgqgaygkvllvkdvntsklyamkqlrkaeilisqtatdskr---------------ededkndgnnndnddglskrlertfaersilseie---------------------------------------hpnivklfysfhdn----------sklylll-qyipggelfyhlkehg-------------------------------------------------------------------------------------------------------------tldettvsfyaae-----------------------iscalrflhtk----------gvvyrdlkpencllnqr-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ghlvltdfglskksandsa-------------------vdeedpenvnalysiigtpeycapeillg-------kaysqncdwyslgcllydmlvgkppytgs-------------------------------------------------------------nhkviinkiqqnkqgpkip-----------------------------------------------------------------------------fylsegmkdilnallkketakrwnvdkywaktgannkptkskkkksgaartslftehfifrkidwkllesgqlqkttlgpivpvitdlelaenfdteftsmsyeetytdskpininsvskspdmfkgfsykasgsylekyf----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>NPH1_ARATH</seq-name>
+<seq-info>
+<accession>O48963</accession>
+<nid>NPH1_ARATH</nid>
+<definition>Nonphototropic hypocotyl protein 1 (EC 2.7.1.37) (Phototropi</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>184</fstart><fstop>257</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PAS 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>258</fstart><fstop>312</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PAC 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>462</fstart><fstop>535</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PAS 2.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>536</fstart><fstop>590</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PAC 2.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>663</fstart><fstop>952</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>184</fstart><fstop>257</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PAS 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>258</fstart><fstop>312</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PAC 1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>462</fstart><fstop>535</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PAS 2.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>536</fstart><fstop>590</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PAC 2.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>663</fstart><fstop>952</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>261</fstart><fstop>303</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PF00785 PAC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>539</fstart><fstop>581</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PF00785 PAC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>489</fstart><fstop>530</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PF00989 PAS</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>663</fstart><fstop>952</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>261</fstart><fstop>303</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00785 PAC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>539</fstart><fstop>581</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00785 PAC</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>489</fstart><fstop>530</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>PF00989 PAS</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>663</fstart><fstop>952</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>113</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB011139 Pfam-B_11139</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>304</fstart><fstop>347</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB005755 Pfam-B_5755</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>582</fstart><fstop>662</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB006211 Pfam-B_6211</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>426</fstart><fstop>474</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB007565 Pfam-B_7565</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>113</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB011139 Pfam-B_11139</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>304</fstart><fstop>347</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB005755 Pfam-B_5755</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>582</fstart><fstop>662</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB006211 Pfam-B_6211</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>426</fstart><fstop>474</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB007565 Pfam-B_7565</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>669</fstart><fstop>677</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>692</fstart><fstop>692</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>788</fstart><fstop>788</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>669</fstart><fstop>677</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>692</fstart><fstop>692</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>788</fstart><fstop>788</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>meptekpstkpssrtlprdtrgslevfnpstqltrpdnpvfrpeppawqnlsdprgtspqprpqqepapsnpvrsdqeiavttswmalkdpspetiskktitaekpqksavaaeqraaewglvlktdtktgkpqgvgvrnsggtendpngkkttsqrnsqnscrssgemsdgdvpggrsgiprvsedlkdalstfqqtfvvsdatkpdypimyasagffnmtgytskevvgrncrflqgsgtdadelakiretlaagnnycgrilnykkdgtsfwnlltiapikdesgkvlkfigmqvevskhtegakekalrpnglpeslirydarqkdmatnsvtelveavkrpralsestnlhpfmtksesdelpkkparrmsenvvpsgrrnsgggrrnsmqrineipekksrksslsfmgikkksesldesiddgfieygeeddeisdrderpesvddkvrqkemrkgidlattlerieknfvitdprlpdnpi-ifasdsflelteysreeilgrncrflqgpetdlttvkkirnaidnqtevtvqlinytksgkkfwnifhlqpmrdqkgevqyfigvqldgskhvepvrnvieetavkegedlvkktavnideavrelpdanmtpedlwanhskvvhckphrkdsppwiaiqkvlesgepiglkhfkpvkplgsgdtgsvhlvelvgtdqlfamkamdkavmln-----------------------------------------rnkvhraraereildlld---------------------------------------hpflpalyasfqtk----------thiclit-dyypggelfmlldrqprk-----------------------------------------------------------------------------------------------------------vlkedavrfyaaq-----------------------vvvaleylhcq----------giiyrdlkpenvliqgn-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------gdislsdfdlscltsckpqllipsidekkkkkqqksqqtpifmaepmrasnsfvgteeyiapeiisga-------ghtsavdwwalgilmyemlygytpfrgk------------------------------------------------------------trqktftnvlqkdlkfpas------------------------------------------------------------------------------ipaslqvkqlifrllqrdpkkrlgcf----------------------eganevkqhsffkginwalirct------nppeletpifsgeaengekvvdpeledlqtnvf-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>KI82_YEAST</seq-name>
+<seq-info>
+<accession>P25341</accession>
+<nid>KI82_YEAST</nid>
+<definition>Probable serine/threonine-protein kinase KIN82 (EC 2.7.1.37)</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>324</fstart><fstop>602</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>324</fstart><fstop>602</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>324</fstart><fstop>602</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>324</fstart><fstop>602</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>100</fstart><fstop>271</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB045910 Pfam-B_45910</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>603</fstart><fstop>696</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078150 Pfam-B_78150</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>100</fstart><fstop>271</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB045910 Pfam-B_45910</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>603</fstart><fstop>696</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078150 Pfam-B_78150</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>330</fstart><fstop>338</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>353</fstart><fstop>353</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>449</fstart><fstop>449</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>330</fstart><fstop>338</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>353</fstart><fstop>353</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>449</fstart><fstop>449</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mtqqeyrspsqrlskgrsmslpkifarnlrslqnnappgkninvnclnvnscslsaspssqinmacngnkqdlpipfplhvecndswsssklnkfksmfnhnrskssgttdastsekgthkreprstihtellqssiigepnvhsttsstlipneaicstpneisgs----sspdaelftfdmptdpssfhtpsspsyiakdsrnls--ngslndineneelqnfhrkisengsaspl----anlslsnspidsprknsetrkdqipmnitprlrraas-----epfntakdglmredyialkqppslgdiveprrsrr---lrtksfgnkfqditvepqsfekirllgqgdvgkvylvrerdtnqifalkvlnkhemik-----------------------------------------rkkikrvlteqeilatsd---------------------------------------hpfivtlyhsfqtk----------dylylcm-eycmggeffralqtrksk-----------------------------------------------------------------------------------------------------------ciaeedakfyase-----------------------vvaaleylhll----------gfiyrdlkpenillhqs-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ghvmlsdfdlsiqatgskkptmkd-----------styldtkicsdgfrtnsfvgteeylapevirg-------nghtaavdwwtlgiliyemlfgctpfkgd------------------------------------------------------------nsnetfsniltkdvkfphd------------------------------------------------------------------------------kevsknckdlikkllnkneakrlgsk----------------------sgaadikrhpffkkvqwsflrnq------dpplipalndngcelpfilscnkhpkrnsvseqetkmfcekvanddeideadpfhdfnsmsltkkdhniltysenyttekfytkqlvqgqgitahievslktsylnynmfter---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>KN8R_YEAST</seq-name>
+<seq-info>
+<accession>P53739</accession>
+<nid>KN8R_YEAST</nid>
+<definition>Probable serine/threonine-protein kinase YNR047W (EC 2.7.1.3</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>2.7.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>496</fstart><fstop>777</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>496</fstart><fstop>777</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>496</fstart><fstop>777</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>496</fstart><fstop>777</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>390</fstart><fstop>495</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB045910 Pfam-B_45910</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>778</fstart><fstop>876</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078150 Pfam-B_78150</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>390</fstart><fstop>495</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB045910 Pfam-B_45910</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>778</fstart><fstop>876</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078150 Pfam-B_78150</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>502</fstart><fstop>510</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>525</fstart><fstop>525</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>621</fstart><fstop>621</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>502</fstart><fstop>510</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>525</fstart><fstop>525</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>621</fstart><fstop>621</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------maghhheheqerdheqehehdslqrpttgsertrsisfsklltrswkrnasssnnmsvssvnlysdpensresdhnnsgsegqssrfsklksmfqsgnssknasahnssqsslegdsassssklryvkpmtsvanaspaspplsptipetdvlqtpkmvhidqheherehsncgspimlssssfsptvartgtgrrrspstpimpsqnsnnssstsairpnnyrhhsgsqgfssnnpfreragtvrssnpyfayqglpthamsshdldegfqpyangsgihflstptsktnsltntknlsnlslneikeneevqefnnedfffhdipkdlslkdtlngs----psrgssksptitqtfpsiivgfdneyeednnndkhd--ekeeqqtttdnktrnlsptkqngkathpr----ikiplrraasepnglqlasatsptsssarktsgssni-----ndkipgqsvpppnsffpqepspkisdfpeprrsrr---lrtksfsnkfqdimvgpqsfekirllgqgdvgkvflvrekktnrvyalkvlskdemik-----------------------------------------rnkikrvlteqeilatsn---------------------------------------hpfivtlyhsfqse----------dylylcm-eycmggeffralqtrktk-----------------------------------------------------------------------------------------------------------ciceddarfyase-----------------------vtaaleylhll----------gfiyrdlkpenillhqs-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ghimlsdfdlsiqakdskvpvvkg--------saqstlvdtkicsdgfrtnsfvgteeyiapevirg-------nghtaavdwwtlgiliyemlfgftpfkgd------------------------------------------------------------ntnetftnilknevsfpnn------------------------------------------------------------------------------neisrtckdlikklltkneskrlgck----------------------mgaadvkkhpffkkvqwsllrnq------epplipvlsedgydf-aklssnkkrqtsqdshkhldeqeknmfeerveyddevseddpfhdfnsmslmeqdnnsmiygntnsygkiaytpnsnrsrsnshrtffkr----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>MRK3_HUMAN</seq-name>
+<seq-info>
+<accession>P27448</accession>
+<nid>MRK3_HUMAN</nid>
+<definition>MAP/microtubule affinity-regulating kinase 3 (EC 2.7.1.37) (</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>56</fstart><fstop>330</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>326</fstart><fstop>365</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>UBA.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>727</fstart><fstop>776</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KA1.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>56</fstart><fstop>330</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>326</fstart><fstop>365</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>UBA.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>727</fstart><fstop>776</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>KA1.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>727</fstart><fstop>776</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PF02149 KA1</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>350</fstart><fstop>389</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>PF00627 UBA</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>56</fstart><fstop>330</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>727</fstart><fstop>776</fstop><fcolor>6</fcolor><fscore>0.00</fscore><fnote>PF02149 KA1</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>350</fstart><fstop>389</fstop><fcolor>7</fcolor><fscore>0.00</fscore><fnote>PF00627 UBA</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>56</fstart><fstop>330</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>2</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016377 Pfam-B_16377</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>2</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016377 Pfam-B_16377</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>62</fstart><fstop>70</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>85</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>201</fstart><fstop>201</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>62</fstart><fstop>70</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>85</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>201</fstart><fstop>201</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>162</fstart><fstop>184</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 3, isoform 4, isoform</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>394</fstart><fstop>409</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 6 and isoform 7).</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>638</fstart><fstop>661</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 2, isoform 3 and</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>638</fstart><fstop>646</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 4).</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>162</fstart><fstop>184</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 3, isoform 4, isoform</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>394</fstart><fstop>409</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 6 and isoform 7).</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>638</fstart><fstop>661</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 2, isoform 3 and</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>638</fstart><fstop>646</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 4).</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mstrtplptvnerdtenhtshgdgrqevtsrtsrsgarcrnsiascadeqphignyrllktigkgnfakvklarhiltgrevaikiidktqlnp------------------------------------------tslqklfrevrimkiln---------------------------------------hpnivklfeviete----------ktlylim-eyasggevfdylvahg-------------------------------------------------------------------------------------------------------------rmkekearskfrqgcqagqtikvqvsfdllslmftfivsavqychqk----------rivhrdlkaenllldad-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mnikiadfgfsneftvg------------------------------gkldtfcgsppyaapelfqg------kkydgpevdvwslgvilytlvsgslpfdgq------------------------------------------------------------nlkelrervlrgkyrip--------------------------------------------------------------------------------fymstdcenllkrflvlnpikr--------------------------gtleqimkdrwinagheedelkpfvepeldisdqkridimvgmgysqeeiqeslskmkydeitatylllgrksseldasdsssssnlslakvrpssdlnnstgqsphhkvqrsvsssqkqrrysdhagpaipsvvaypkrsqtstadsdlkedgissrkssgsavggkgiapaspmlgnasnpnkadiperkksstvpssntasggmtrrntyvcserttadrhsviqngkenstipdqrtpvasthsissaatpdrirfprgtasrstfhgqprerrtatyngppaspslsheatplsqtrsrgstnlfskltskltrrnmsfrfikrlpteyerngryegssrnvsaeqkdenkeakprslrftwsmkttssmdpgdmmreirkvldanncdyeqrerfllfcvhgdghaenlvqwemevcklprlslngvrfkrisgtsiafkniaskianelkl-----------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>YAK1_YEAST</seq-name>
+<seq-info>
+<accession>P14680</accession>
+<nid>YAK1_YEAST</nid>
+<definition>Protein kinase YAK1 (EC 2.7.1.-).</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>2.7.1.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>56</fstart><fstop>85</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Gln-rich.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>369</fstart><fstop>704</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>56</fstart><fstop>85</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Gln-rich.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>369</fstart><fstop>704</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>369</fstart><fstop>704</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>369</fstart><fstop>704</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>304</fstart><fstop>359</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB025901 Pfam-B_25901</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>304</fstart><fstop>359</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB025901 Pfam-B_25901</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>375</fstart><fstop>383</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>398</fstart><fstop>398</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>496</fstart><fstop>496</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>375</fstart><fstop>383</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>398</fstart><fstop>398</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>496</fstart><fstop>496</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>127</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PHOSPHORYLATION PROBABLE</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>206</fstart><fstop>206</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PHOSPHORYLATION PROBABLE</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>240</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PHOSPHORYLATION PROBABLE</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>295</fstart><fstop>295</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PHOSPHORYLATION PROBABLE</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>530</fstart><fstop>530</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PHOSPHORYLATION</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>127</fstart><fstop>127</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine Probable</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>206</fstart><fstop>206</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine Probable</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>240</fstart><fstop>240</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine Probable</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>295</fstart><fstop>295</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphoserine Probable</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>530</fstart><fstop>530</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphotyrosine</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mnssnnndssssnsnmnnslsptlvthsdasmgsgraspdnshmgrgiwnpsyvnqgsqrspqqqhqnhhqqqqqqqqqqqqnsqfcfvnpwneekvtnsqqnlvyppqyddlnsnesldayrrrksslvvpparapapnpfqydsypaytssntslagnssgqypsgyqqqqqqvyqqgaihpsqfgsrfvpslydrqdfqrrqslaatnyssnfsslnsntnqgtnsipvmspyrrlsayppstspplqppfkqlrrdevqgqklsipqmqlcnskndlqpvlnatpkfrraslnsktisplvsvtkslittyslcspeftyqtsknpkrvltkpsegkcnngfdninsdyilyvndvlgveqnrkylvldilgqgtfgqvvkcqnlltkeilavkvvksrtey---------------------------------------------ltqsiteakilellnqkidptn--------------------------------khhflrmydsfvhk----------nhlclvf-ells-nnlyellkqnk-----------------------------------------------------------------------------------------------------------fhglsiqlirtfttq-----------------------ildslcvlkes----------klihcdlkpenillcap-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------dkpelkiidfgssceeart--------------------------------vytyiqsrfyrapeiilg-------ipystsidmwslgcivaelflgipifpgas------------------------------------------------------------eynqltriidtlgyppswmidmgknsgkfmkklapeesssstqkhrmktieefcreynivekpskqyfkwrklpdiirnyrypksiqnsqelidqemqnreclihflggvlnlnpler--------------------------wtpqqamlhpfitkqeftgewfppgsslpgpsekhddakgqqseygsandssnnaghnyvynpssatggadsvdigaiskrkentsgdisnnfavthsvqegptsafnklhivee------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>AFC3_ARATH</seq-name>
+<seq-info>
+<accession>P51568</accession>
+<nid>AFC3_ARATH</nid>
+<definition>Protein kinase AFC3 (EC 2.7.1.-).</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).Eukaryota;</organism>
+<ec>2.7.1.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>71</fstart><fstop>396</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>71</fstart><fstop>396</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>71</fstart><fstop>396</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>71</fstart><fstop>396</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>7</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB027633 Pfam-B_27633</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>7</fstart><fstop>70</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB027633 Pfam-B_27633</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>77</fstart><fstop>85</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>100</fstart><fstop>100</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>196</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>77</fstart><fstop>85</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>100</fstart><fstop>100</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>196</fstart><fstop>196</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------miangfesmdkervrk---rprmtwdeapaepeakravikghgsdgrilspplr-----dddrdghyvfslrdnltprykilskmgegtfgrvlecwdrdtkeyvaikiirsikkyr---------------------------------------------daamieidvlqklvksdkg----------------------------------rtrcvqmknwfdyr----------nhicivf-eklg-pslfdflkrnk-----------------------------------------------------------------------------------------------------------ysafplalvrdfgcq-----------------------llesvaymhel----------qlvhtdlkpenillvssenvklpdnkrsa-----anethfrc--------------------------------------------------------------------------------------------------------------------------------------------------lpkssaiklidfgstvcdnri--------------------------------hhsivqtrhyrspevilg-------lgwsyqcdlwsigcilfelctgealfqth------------------------------------------------------------dnlehlammeralgplpeh--mtrkasrg--aekyfr-rgcrlnwpegansresiravkrldrlkdmvskh-------------------------vdntrsrfadllygllaydpser--------------------------ltanealdhpffksss---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DSK1_SCHPO</seq-name>
+<seq-info>
+<accession>P36616</accession>
+<nid>DSK1_SCHPO</nid>
+<definition>Protein kinase dsk1 (EC 2.7.1.-) (Dis1-suppressing protein k</definition>
+<organism>Schizosaccharomyces pombe (Fission yeast).Eukaryota;</organism>
+<ec>2.7.1.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>81</fstart><fstop>516</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>81</fstart><fstop>516</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>81</fstart><fstop>516</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>81</fstart><fstop>516</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>87</fstart><fstop>95</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>110</fstart><fstop>110</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>214</fstart><fstop>214</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>87</fstart><fstop>95</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>110</fstart><fstop>110</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>214</fstart><fstop>214</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mgsdgsslspkvsqpghteivdhvsekvitn-----------------gknvnkkvnaevdgksmvekvktheenae--dyhyggyhpvyigeefhhrryvverklgwghfstvwlaydraakrrvalkvvrsaehy---------------------------------------------retsideirilqkiregdekhlg-------------------------------kkhiislldyfvhrg------pngahvcmvf-evlgenllsliqsyg------------------------------------------------------------------------------------------------------------hrgvpvgivkqiayq-----------------------llialdylhrec---------giihtdlkpenvlicidqdalqhieapattssptsntsssktrnntgytakapiikrgqsvdnsaqerktfaknptknskpagqvipsspftstlsrfpslegavseislrdsqkhnshpnspfssgdnslildgvngsqep-----------------------------------------------vpkitvkiadlgnacwtrkh--------------------------------ftndvqtrqyrspevilgc-------rwgasadcwsfaciifelltgdylfdpr------------------------------------------------------ngnsyskeddhiaqiiellvnypkq--malsgkhs--rdlfnr-rgelrnihklkfwp-lkdvleqkyhfs--------------------------------aelaqqisdflspmlcfdpakr--------------------------tnagymsnspwlrevadptfkiettgatgedvpgwateir---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ST23_HUMAN</seq-name>
+<seq-info>
+<accession>Q9UPE1</accession>
+<nid>ST23_HUMAN</nid>
+<definition>Serine/threonine-protein kinase 23 (EC 2.7.1.37) (Muscle-spe</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>79</fstart><fstop>531</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>17</fstart><fstop>21</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Ser.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>79</fstart><fstop>531</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>17</fstart><fstop>21</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Ser.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>79</fstart><fstop>531</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>79</fstart><fstop>531</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>93</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>108</fstart><fstop>108</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>212</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>85</fstart><fstop>93</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>108</fstart><fstop>108</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>212</fstart><fstop>212</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>1</fstart><fstop>42</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 2).</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>1</fstart><fstop>42</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 2).</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------msastggggdsggsggsssssqascgpe------------------ssgselalatpvpqmlqgllgsddeeqedp--kdyckggyhpvkigdvfngryhvvrklgwghfstvwlcwdiqrkrfvalkvvksag---------------------------------------------hytetavdeikllkcvrdsdpsdpk-------------------------------retivqliddfrisg------vngvhvcmvl-evlghqllkwiiksn------------------------------------------------------------------------------------------------------------yqglpvpcvksivrq-----------------------vlhgldylhtkc---------kiihtdikpenillcvgdayirrlaaeatewqqagapppsrsivstapqevltgklsknkrkkmrrkrkqqkrlleerlrdlqrleameaatqaedsglrldggsgstsssgfsgslfspascsilsgssnqretggllspstpfgasnllvnp------------------------------lepqnadkikikiadlgnacwvhkh--------------------------------ftediqtrqyravevliga-------eygppadiwstacmafelatgdylfeph------------------------------------------------------sgedysrdedhiahivellgdippa--falsgrys--reffnr-rgelrhihnlkhwg-lyevlmekyewp--------------------------------leqatqfsafllpmmeyipekr--------------------------asaadclqhpwlnp-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>YKD5_CAEEL</seq-name>
+<seq-info>
+<accession>Q03563</accession>
+<nid>YKD5_CAEEL</nid>
+<definition>Putative serine/threonine-protein kinase B0464.5 (EC 2.7.1.3</definition>
+<organism>Caenorhabditis elegans.Eukaryota;</organism>
+<ec>2.7.1.3</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>385</fstart><fstop>396</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Ser/Thr-rich.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>519</fstart><fstop>1001</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>385</fstart><fstop>396</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Ser/Thr-rich.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>519</fstart><fstop>1001</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>519</fstart><fstop>1001</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>519</fstart><fstop>1001</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB030988 Pfam-B_30988</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>443</fstart><fstop>487</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB030988 Pfam-B_30988</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1002</fstart><fstop>1079</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB046318 Pfam-B_46318</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB030988 Pfam-B_30988</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>443</fstart><fstop>487</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB030988 Pfam-B_30988</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1002</fstart><fstop>1079</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB046318 Pfam-B_46318</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>525</fstart><fstop>533</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>548</fstart><fstop>548</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>652</fstart><fstop>652</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>525</fstart><fstop>533</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>548</fstart><fstop>548</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>652</fstart><fstop>652</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------mggpeknstvplpnkkrkkktnkkkptapntptspqageknanlkngtvttngsnhverlagravhslsaidysgitndveaggsfsltdvfptvifmfvvlfcrwlngfsqhrerlykfedeavqrrrrfrvhseeseelndhesysetdictqllassadvtchinvdlvnqnrfyffvkqrnkkenstneeeeissqeintstqneetevnlvfasaednggvasnfdisdalmvtsnisevsklpetlceegetvqqksvvnendhsneddeqslqsqdgsrcsdedmnscvsasdeedvesqddsfhvndateesidsvssiesqeaeesatedlaschsnddknekdvlvdedtskydnlpvemrsakegeesegtidssvssstsssstgddgddsatsydsedieiqmfeydlgtacasasisiprps-iiprnnkktevnaneerlddlsvspgrsdspgggggghsdsfqdpmdpgeqlgsddeeqedprdykrggyhpvnigdvfnaryhvirklgwghfstvwlawdtqdkrfvamkivksaehy---------------------------------------------teaaldeiklllsvrsa-------------------------------------dpndigchkvvqlldeftvtgingqhvamvf-evlgcnllkliirsn------------------------------------------------------------------------------------------------------------yrglhleqvrkicrq-----------------------vlealgymhekc---------giihtdikpenvlitmsreeikimaqhavvarkmnmkmsgsavstapdhlvkmaqenmtknkkkkmkkkakkqrekleaelagleglkmdanglqeaynnapelenfnasqvedvtmedtvnengnrnkveirspdrfdrttltpfsdpeskfgdlaspsaeylsspmsqlppggilpappvgpnigdpycdidvkiadlgnacwvnhh--------------------------------ytddiqtrqyralevligs-------gygppadiwstacmafelatgdylfeph------------------------------------------------------qgdnysrdedhlahisellgaipps--iykkgkhw--reffhk-nghllhihqlkpws-lyevlrqkyews--------------------------------hedaqqfesflrpmldfdqekr--------------------------stakialkhpfllpfggrapksdcppellskmfpdglipepfdgnehqevyrdendsrsasersansrsaggsddddeeefnmnrpgpsghfpifcsrvftfmf-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CC2C_DROME</seq-name>
+<seq-info>
+<accession>P23573</accession>
+<nid>CC2C_DROME</nid>
+<definition>Cell division control protein 2 cognate (EC 2.7.1.37).</definition>
+<organism>Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>8</fstart><fstop>287</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>8</fstart><fstop>287</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>287</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>287</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>14</fstart><fstop>22</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>37</fstart><fstop>37</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>130</fstart><fstop>130</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>14</fstart><fstop>22</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>37</fstart><fstop>37</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>130</fstart><fstop>130</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>18</fstart><fstop>18</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PHOSPHORYLATION BY SIMILARITY</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>19</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PHOSPHORYLATION BY SIMILARITY</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>18</fstart><fstop>18</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>19</fstart><fstop>19</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphotyrosine By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mttildnfqraekigegtygivykarsnstgqdvalkkirlegete------------------------------------------gvpstaireisllknlk---------------------------------------hpnvvqlfdvvisg----------nnlymif-eyln-mdlkklmdkkkd------------------------------------------------------------------------------------------------------------vftpqliksymhq-----------------------ildavgfchtn----------rilhrdlkpqnllvdtag-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------kikladfglarafnvp-----------------------------mraythevvtlwyrapeillg------tkfystgvdiwslgcifsemimrrslfpgd------------------------------------------------------------seidqlyrifrtlstpdet-nwpgvtql---pdfkt--kfprwegtnmpqpit----------------------------------------------eh-eahelimsmlcydpnlr--------------------------isakdalqhayfrnvqhvdhvalpvdpnagsasrltrlv----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>KSGT_ARATH</seq-name>
+<seq-info>
+<accession>KSGT_ARATH</accession>
+<nid>KSGT_ARATH</nid>
+<definition>   Shaggy-related protein kinase theta (EC 2.7.1.-) (ASK-theta)</definition>
+<organism>   Arabidopsis thaliana (Mouse-ear cress).Eukaryota;</organism>
+<ec>2.7.1.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>138</fstart><fstop>423</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>138</fstart><fstop>422</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>138</fstart><fstop>422</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB010540 Pfam-B_10540</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>101</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB001778 Pfam-B_1778</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB010540 Pfam-B_10540</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>101</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB001778 Pfam-B_1778</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>144</fstart><fstop>152</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>167</fstart><fstop>167</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>263</fstart><fstop>263</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mnvmrrlksiasgrtsi--ssdpggdyalkrakldqendnlcvdpmqv----dqnsscfemkadvlsqesvagtsnvpavsekpvddql---pdvmiemkirdernanredkdmettvvngsgtetg-----qvitttvggrdgkpkqtisymaqrvvgtgsfgvvfqakcletgeqvaikkvlqdkryk------------------------------------------------nrelqimrlqd---------------------------------------hpnvvrlrhsffstt-----dkdelylnlvl-eyvp-etvyraskhytkmn---------------------------------------------------------------------------------------------------------qhmpiifvqlytyq-----------------------icralnylhrvv---------gvchrdikpqnllvnpqt------------------------------------------------------------------------------------------------------------------------------------------------------------------------------hqlkicdfgsakmlvpg------------------------------epnisyicsryyrapelifg------ateytnaidmwsggcvmaelllgqplfpge------------------------------------------------------------sgidqlveiikilgtpt----reeircmn--pnytef-kfpqikahpwhkifh--------------------------------------------krmppeavdlvsrllqyspnlr--------------------------ctaleacahpffddlrdpnvslpngralpplfnftaqelagastelrqrlipahcqgtgsss-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>MPK5_ARATH</seq-name>
+<seq-info>
+<accession>Q39025</accession>
+<nid>MPK5_ARATH</nid>
+<definition>Mitogen-activated protein kinase homolog 5 (EC 2.7.1.37) (MA</definition>
+<organism>Arabidopsis thaliana (Mouse-ear cress).Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>43</fstart><fstop>329</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>43</fstart><fstop>329</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>43</fstart><fstop>329</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>43</fstart><fstop>329</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>49</fstart><fstop>57</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>72</fstart><fstop>72</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>49</fstart><fstop>57</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>72</fstart><fstop>72</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>169</fstart><fstop>169</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>201</fstart><fstop>201</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PHOSPHORYLATION ACTIVATES THE KINASE</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>203</fstart><fstop>203</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PHOSPHORYLATION ACTIVATES THE KINASE</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>201</fstart><fstop>201</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphothreonine activates the kinase</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>203</fstart><fstop>203</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>Phosphotyrosine activates the kinase</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------makeiesatdlgdtnikgvlvhg-----gryfqynvygnlfevsnkyvppirpigrgaygfvcaavdsetheeiaikkigkafdn------------------------------------------kvdakrtlreikllrhle---------------------------------------henvvvikdiirppk-----kedfvdvyivf-elmd-tdlhqiirsnq-------------------------------------------------------------------------------------------------------------slnddhcqyflyq-----------------------ilrglkyihsa----------nvlhrdlkpsnlllnsn-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------cdlkitdfglarttset------------------------------eymteyvvtrwyrapellln------sseytsaidvwsvgcifaeimtreplfpgk------------------------------------------------------------dyvhqlkliteligspdga-sleflrsanarkyvkelpkfprqn---fsarf---------------------------------------------psmnstaidllekmlvfdpvkr--------------------------itveealcypylsalhdlndepvcsnhfsfhfedpssteeeikelvwlesvkfnplpsi--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1gng_A</seq-name>
+<seq-info>
+<accession>1gng_A</accession>
+<nid>1gng_A</nid>
+<definition>   Mitogen-activated protein kinase homolog 5 (EC 2.7.1.37) (MA</definition>
+<organism>   Arabidopsis thaliana (Mouse-ear cress).Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>3</fstart><fstop>10</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>17</fstart><fstop>30</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>34</fstart><fstop>41</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>46</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>61</fstart><fstop>69</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>77</fstart><fstop>84</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>90</fstart><fstop>99</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>104</fstart><fstop>114</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>120</fstart><fstop>140</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>142</fstart><fstop>144</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>149</fstart><fstop>152</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>152</fstart><fstop>155</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>161</fstart><fstop>164</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>170</fstart><fstop>172</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>185</fstart><fstop>188</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>190</fstart><fstop>194</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>202</fstart><fstop>218</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>227</fstart><fstop>239</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>243</fstart><fstop>250</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>266</fstart><fstop>270</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>276</fstart><fstop>286</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>290</fstart><fstop>293</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>296</fstart><fstop>301</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>303</fstart><fstop>310</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>329</fstart><fstop>333</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>336</fstart><fstop>343</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------kvtt-----vvatpgqgpdr-pqevsytdtkvigngsfgvvyqaklcdsgelvaikkvlqdk------------------------------------------------rfknrelqimrkld---------------------------------------hcnivrlryffyssge----kkdevylnlvl-dyvp-etvyrvarhysrak---------------------------------------------------------------------------------------------------------qtlpviyvklymyq-----------------------lfrslayihsf----------gichrdikpqnllldp------------------------------------------------------------------------------------------------------------------------------------------------------------------------------dtavlklcdfgsakqlvr------------------------------gepnvsxicsryyrapelifga-t-----dytssidvwsagcvlaelllgqpifpgd------------------------------------------------------------sgvdqlveiikvlgtpt----reqiremn--pnytef-kfpqikahpwtkvfr--------------------------------------------prtppeaialcsrlleytptar--------------------------ltpleacahsffdelrdpnvklpngrdtpalfnfttqelssnpplatilipphari-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>KC21_YEAST</seq-name>
+<seq-info>
+<accession>P15790</accession>
+<nid>KC21_YEAST</nid>
+<definition>Casein kinase II, alpha chain (EC 2.7.1.37) (CK II alpha sub</definition>
+<organism>Saccharomyces cerevisiae (Baker's yeast).Eukaryota;</organism>
+<ec>2.7.1.37</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>40</fstart><fstop>363</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>40</fstart><fstop>363</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Protein kinase.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>40</fstart><fstop>363</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>40</fstart><fstop>363</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00069 pkinase</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>5</fstart><fstop>39</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB030091 Pfam-B_30091</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>5</fstart><fstop>39</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB030091 Pfam-B_30091</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>46</fstart><fstop>54</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>69</fstart><fstop>69</fstop><fcolor>12</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>195</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>46</fstart><fstop>54</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>NP_BIND_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>69</fstart><fstop>69</fstop><fcolor>18</fcolor><fscore>0.00</fscore><fnote>BINDING_ATP By similarity</fnote></fitem>
+<fitem><ftype>SITE</ftype><fstart>195</fstart><fstop>195</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>ACT_SITE_Proton acceptor By similarity</fnote></fitem>
+</ftable>
+<length>1989</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mkcrvwsearvytni--nkqrte--------------------eywd--------------------------------yentvidwstntkdyeienkvgrgkysevfqgvkldskvkivikmlk-----------------------------------------------pvkkkkikreikiltdlsnekvppttlpfqkdqyytnqkedvlkfirpyifdqphnghaniihlfdiikdp--------isktpalvf-eyvdnvdfrilypklt----------------------------------------------------------------------------------------------------------------dleirfymfe-----------------------llkaldychsm----------gimhrdvkphnvmidhk------------------------------------------------------------------------------------------------------------------------------------------------------------------------------nkklrlidwglaefyhvn------------------------------meynvrvasrffkgpellvd------yrmydysldlwsfgtmlasmifkrepffhg-----------------------------------------------------------tsntdqlvkivkvlgtsdfekyllkyeitlp-refydmdqyirkp---whrfindgnk---------------------------------------hlsgndeiidlidnllrydhqer--------------------------ltakeamghpwfapireqiek----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

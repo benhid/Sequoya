@@ -1,0 +1,2886 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1ser_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 76 81 3 square solid STRUCT
+  FT   STRUCT        4      9  HELIX
+feature 87 102 3 square solid STRUCT
+  FT   STRUCT       11     21  HELIX
+feature 108 117 3 square solid STRUCT
+  FT   STRUCT       27     36  HELIX
+feature 203 211 3 square solid STRUCT
+  FT   STRUCT       41     49  HELIX
+feature 229 231 3 square solid STRUCT
+  FT   STRUCT       65     67  HELIX
+feature 233 238 0 square solid STRUCT
+  FT   STRUCT       69     74  STRAND
+feature 274 281 3 square solid STRUCT
+  FT   STRUCT       87     94  HELIX
+feature 291 295 3 square solid STRUCT
+  FT   STRUCT      101    105  HELIX
+feature 302 303 0 square solid STRUCT
+  FT   STRUCT      112    113  STRAND
+feature 305 323 3 square solid STRUCT
+  FT   STRUCT      115    133  HELIX
+feature 328 331 0 square solid STRUCT
+  FT   STRUCT      137    140  STRAND
+feature 335 338 0 square solid STRUCT
+  FT   STRUCT      144    147  STRAND
+feature 338 345 3 square solid STRUCT
+  FT   STRUCT      147    153  HELIX
+feature 355 357 3 square solid STRUCT
+  FT   STRUCT      160    162  HELIX
+feature 416 418 0 square solid STRUCT
+  FT   STRUCT      171    173  STRAND
+feature 423 429 3 square solid STRUCT
+  FT   STRUCT      178    184  HELIX
+feature 434 437 0 square solid STRUCT
+  FT   STRUCT      189    192  STRAND
+feature 437 443 3 square solid STRUCT
+  FT   STRUCT      192    194  HELIX
+feature 446 455 0 square solid STRUCT
+  FT   STRUCT      197    206  STRAND
+feature 474 485 0 square solid STRUCT
+  FT   STRUCT      225    235  STRAND
+feature 489 510 3 square solid STRUCT
+  FT   STRUCT      239    260  HELIX
+feature 514 518 0 square solid STRUCT
+  FT   STRUCT      264    268  STRAND
+feature 561 570 0 square solid STRUCT
+  FT   STRUCT      280    289  STRAND
+feature 570 583 3 square solid STRUCT
+  FT   STRUCT      289    291  HELIX
+feature 585 594 0 square solid STRUCT
+  FT   STRUCT      293    302  STRAND
+feature 600 603 3 square solid STRUCT
+  FT   STRUCT      308    311  HELIX
+feature 606 608 0 square solid STRUCT
+  FT   STRUCT      314    316  STRAND
+feature 617 619 0 square solid STRUCT
+  FT   STRUCT      322    324  STRAND
+feature 621 630 0 square solid STRUCT
+  FT   STRUCT      326    335  STRAND
+feature 632 640 3 square solid STRUCT
+  FT   STRUCT      337    345  HELIX
+feature 649 650 0 square solid STRUCT
+  FT   STRUCT      353    354  STRAND
+feature 653 660 3 square solid STRUCT
+  FT   STRUCT      357    363  HELIX
+feature 666 667 0 square solid STRUCT
+  FT   STRUCT      367    368  STRAND
+sequence
+  ............................................................
+  ............MVDLKRLRQ....EPEVFHRAIR.....EKGVALDLEALLALDREVQ.
+  ............................................................
+  ....................REKEARLEALLLQVPLPPWPGAPVG..GEEANREIKRVGG
+  PPE.FSF......................PPLDHVALMEKNG..WWEPR.ISQVSGSRSY
+  ALKGDLALYELALLRFAMDFMAR.RGFLPMTLPSYAREKAFLG.TGHFP...AYRDQVWA
+  IAET..................................................DLYLTG
+  TAEVVLNALHSGEILPY....EALPLRYAGYAPAFRSEAGSFGKDVRGLMRVHQF.HKVE
+  QYVLTEASLEASDRAFQELLENAEEILRLLELPYRLVEV.....................
+  ..........ATGDMGPGKWRQVDIEVYLP...........SEGRYRETHSCSALLDWQA
+  RRANLRYRDPE...GRVRYAYTLNNTALATPRILAMLLENH.QLQDGRVRVPQAL.IPYM
+  ..GKEVLEPCG.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_AQUAE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Aquifex aeolicus.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     49  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      163    317  PF00587 tRNA-synt_2b
+feature 625 660 0 square solid PFAM-B
+  FT   PFAM-B      384    417  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    383  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       50    114  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      115    162  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MIDINLIRE....KPDYVKERLA...TRDKELVSLVDKVLELDKRRRE
+  IIKRLEALRSERNKLSKEIGKLK...REGK..DTTEIQNRVKELKEEIDR..LEE.....
+  ..................ELRKVEEELKNTLLWIPNLPHPSVPVG.EDEKDNVEVRRWGE
+  PRK.FDF......................EPKPHWEIGERLG.ILDFKR.GAKLSGSRFT
+  VIAGWGARLERALINFMLDLHTK.KGYKEICPPHLVKPEILIG.TGQLP...KFEEDLYK
+  CERD..................................................NLYLIP
+  TAEVPLTNLYREEILKE....ENLPIYLTAYTPCYRREAGAYGKDIRGIIRQHQF.DKVE
+  LVKIVHP..DTSYDELEKLVKDAEEVLQLLGLPYRVVEL.....................
+  ..........CTGDLGFSAAKTYDIEVWFP...........SQNKYREISSCSNCEDFQA
+  RRMNTRFKDSK..TGKNRFVHTLNGSGLAVGRTLAAILENY.QQEDGSVVVPEVL.RDYV
+  .G.TDVIRPE..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_THEMA
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Thermotoga maritima.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      164    319  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      321    350  PB001109 Pfam-B_1109
+feature 625 659 0 square solid PFAM-B
+  FT   PFAM-B      386    418  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      351    385  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    115  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      116    163  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MIDIKLIRQ....NPDFVKEALR....KRGEDPAIIDEILKIDADWRA
+  TITKTNELRSRRNEISKNVARLK...KEGKNAEAEALIEEGKRLGEEIKA..LEE.....
+  ..................KEKELQKKLNDLLLMIPNIPHESVPVG.EDESQNVEVRRWGE
+  PRE.FDF......................TPLAHWDLGPAWG.LMDFSR.ASKLSGSRFT
+  VMYGKLARLERALINFMLDVHTKEHGYTEVWVPHLVKRETITI.TGQLP...KFEEELYL
+  AERD..................................................DLFLIP
+  TAEVPLAALHSGEILEE....KELPKKYVSYTPCYRREAGSYGKDVRGMIRQHQF.DKVE
+  LVWVTTP..ERSFEDLEELVKDAETILRKLELPYRVVSL.....................
+  ..........CTGDLGFTSAKTYDIEVWLP...........SYNAYKEISSCSNVTDFQA
+  RRGNMRYRRRS..DGKLEYVHTLNGSGIAVGRALVAILENY.QQPDGSVRVPEVL.VPYT
+  .G.FEVIP....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_CHLTE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Chlorobium tepidum.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     50  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      166    321  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDITYIRQ....NPDDVKEMLR..RRQQQGDAPKVDRLLERDAERKA
+  MVQRTDDLKALRNRVSKEIANIK...RTGQ.GSADELIGQMKQVSDEIA..DLDL.....
+  ..................ALSALEAEIEELLLTLPNKLHKSVPEG.RSAEENVLYKGPVS
+  FEHNLDF......................PVKNHLELGKSLG.ILDFER.GAKISGAGFP
+  VYTGKGARLERALINFMLDTHSANHGYTEVFPPFMVNQESLRG.TGQWP...KFADQVYH
+  MPED..................................................GLYAIP
+  TAEVPVTNLHRGEILDA....DKLPIAYAAYSACFRREAGSYGKDTRGFLRVHQF.NKVE
+  MVRFTRP..EASYEALEEILGHAEAILVALKIPYRVITL.....................
+  ..........CSGDISANAAKCYDIEVWSP...........AENKYLEASSVSNFEDYQA
+  RRSNIRFKPDS..KSKPEFVHTLNGSGLATSRLMVSLLEHY.QTADGKLMVPEAL.KPYT
+  .G.FEIIE....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_FUSNN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Fusobacterium nucleatum (subsp. nucleatum).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    315  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLELKFMRE....NVEMLKEMLK....NRN.SNVDMDAFVELDSKRRE
+  VLSEVENLKRERNNASAEIANLK....KEKKNADHIIEKMGEVSTKIKD...LDA.....
+  ..................ELVEIDEKIKDIQLNIPNVYHPSTPIG.PDEDYNLEIRKWGI
+  PKK.FDF......................EPKSHWDIGEDLG.ILDFER.GAKLSGSRFV
+  LYRGAAARLERAIINFMLDVHTLEEGYTEHITPFMVKAEVCEG.TGQLP...KFEEDMYK
+  TTDD...................................................MYLIS
+  TSEITMTNIHRKEILEQ....AELPKYYTAYSPCFRREAGSYGKDVKGLIRLHQF.NKVE
+  MVKITDA..ESSYDELEKMVNNAETILQRLELPYRVIQL.....................
+  ..........CSGDLGFSAAKTYDLEVWLP...........SQNKYREISSCSNCEAFQA
+  RRMGLKYRVPN....GSEFCHTLNGSGLAVGRTLVAIMENY.QQEDGSFLVPKVL.IPYM
+  .GGVDVIKK...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_METAC
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Methanosarcina acetivorans.Archaea;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    314  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLELKFVRN....NPDIVGRALV....NRNMGTELIDSLLEYDVAWRK
+  CLTEGDSLKHKRNVVTREIAQLK.....KENKDTLSKINEMQDINNRIK..EIDD.....
+  ..................KIRDYKSKINEIMLSIPNIPSETTPVG.KDENDNPVVRVVGE
+  KKK.FTF......................TPKPHWEIGEALD.ILDFER.GAKIAGQGFT
+  VYKGLGAKLERALINFMLDVHTR.QGYLEVFPPVLINEKAMTG.TGQLP...KFKEDMYL
+  CCAD..................................................GYYLAP
+  TAEVPVTNLFMDEYMEN......LPVSLTAYTACFRREAGKHGQDTRGIIRQHQF.NKVE
+  LVKFVKP..ETSYEELEKLTLDAEEILKLLKLPYRLVTL.....................
+  ..........CTGDLGFSAAKTYDIEVWVP...........TQEKYREISSCSNFENFQA
+  RRANIRFRTPE....GPQFVHTLNGSGLAVGRTVVAILENY.QREDGSVEIPEVL.RPYM
+  .GGVEEIREE..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BACHD
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Bacillus halodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    317  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      319    348  PB001109 Pfam-B_1109
+feature 625 665 0 square solid PFAM-B
+  FT   PFAM-B      384    421  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    383  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    113  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      114    161  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIKRLRK....DFAGIREKLQ....TRGEDISGLEKFGSLDEKRRQ
+  VIVKVEELKSRRNQVSQEVAQLK.....REKKDADHLIKEMRDVSDEIKG..LDE.....
+  ..................TLRQLDEELDQLLLAIPNVPHESTPVG.ETEDDNVEVRKWGE
+  VPN.FPF......................EPKAHWDLATALG.IVDFER.AAKVTGSRFA
+  FYKGAGARLERALINFMMDLHHDKHGYEEVLPPYLVNRTSMTG.TGQLP...KFEEDAFK
+  IREE..................................................DYFLIP
+  TAEVPVTNLHRDEILSA....DQLPIAYTAYSMNFRSEAGSAGRDTRGLIRQHQF.NKVE
+  LVRFVAP..EDSYDELEKLTGHAEKVLQLLKLPYRVMSM.....................
+  ..........CTADLGFTAAKKYDLEVWIP...........SANTYREISSCSNFEDFQA
+  RRANIKFRREA..KGKAEFVHTLNGSGLAVGRTVAAILENY.QQEDGTIVIPEVL.RPYM
+  .GGMEKFEA...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BACSU
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Bacillus subtilis.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    317  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      319    348  PB001109 Pfam-B_1109
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      384    423  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    383  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    113  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      114    161  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDTKMLRA....NFQEIKAKLV....HKGEDLTDFDKFEALDDRRRE
+  LIGKVEELKGKRNEVSQQVAVLK.....REKKDADHIIKEMREVGEEIK..KLDE.....
+  ..................ELRTVEAELDTILLSIPNIPHESVPVG.ETEDDNVEVRKWGE
+  KPS.FAY......................EPKPHWDIADELG.ILDFER.AAKVTGSRFV
+  FYKGLGARLERALYNFMLDLHVDEYNYTEVIPPYMVNRASMTG.TGQLP...KFEEDAFK
+  IREE..................................................DYFLIP
+  TAEVPITNMHRDEILSG....DSLPINYAAFSACFRSEAGSAGRDTRGLIRQHQF.NKVE
+  LVKFVKP..EDSYEELEKLTNQAERVLQLLELPYRVMSM.....................
+  ..........CTGDLGFTAAKKYDIEVWIP...........SQDTYREISSCSNFEAFQA
+  RRANIRFRREA..KGKPEHVHTLNGSGLAVGRTVAAILENY.QQEDGSVVIPKVL.RPYM
+  .GNREVMKP...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_LISIN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Listeria innocua.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    317  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      319    348  PB001109 Pfam-B_1109
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      384    423  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    383  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    113  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      114    161  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDVKLLRN....NFEEVKQKLQ....NRGEDLGEFEKFGELDKRRRT
+  LIVETEALKSQRNEVSQEIAKLK.....REKQDADAKIEEMRVVGDRIK..TLDI.....
+  ..................ELREIDEKLDTILMSIPNIPHESTPVG.ESEDDNVEIRKWGE
+  VRE.FDF......................EPKAHWDLGTDLD.ILDFEN.AAKVTGSRFV
+  FYKKLGARLERALINFMMDLHSNEHGYEEMLPPYMVNRASMTG.TGQLP...KFEEDAFL
+  IEAE..................................................DYFLIP
+  TAEVPVTNYHREDILKA....EDLPRKYTAFSACFRSEAGSAGRDTRGLIRQHQF.NKVE
+  LVQFVKP..EDSYAALEKLTGCAEEVLRRLELPYRVLSM.....................
+  ..........CTADLGFTAAKKYDLEVWIP...........SYDSYREISSCSNFESFQA
+  RRANIRFRREP..GSKPEYVHTLNGSGLALGRTVAAILENY.QEADGSVLIPKVL.QGYM
+  .GGIEKIELPK.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_OCEIH
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Oceanobacillus iheyensis.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    317  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDMKYLRQ....NFEEVQQRLQ....HRGEDLADLDKFGELDTNRRQ
+  LIAETEKLKAQRNEATKKISELK.....REKKDAEPAIKEMREVGQEIA..TLDK.....
+  ..................QLKDIEEKLEQIMLSIPNLPHESVPVG.EDEEDNIEARKWGE
+  APN.FAF......................EALPHWDVATNLD.IIDFER.AGKVTGSRFV
+  FYKGLGARLERALWNFMMDLHADEHGYQEMLPPYIVNRSSMTG.TGQLP...KFEEDAFK
+  LEEW..................................................DYFMVP
+  TAEVPVTNYHREEILGI....DDLPKKYVAFSASFRSEAGSAGRDTRGLIRQHQF.NKVE
+  LVNFVKP..EDSYDVLERLTGEAEKVLQLLKLPYRVMSM.....................
+  ..........CTGDLGFTAAKKYDIEVWIP...........SQETYREISSCSNFEDFQA
+  RRAGIRFRREA..NGKPEFVHTLNGSGLAIGRTVAAILENY.QQEDGTVVVPEVL.RPYM
+  .GGKEIIG....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_STAAM
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Staphylococcus aureus (strain Mu50 / ATCC 700699).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    317  PF00587 tRNA-synt_2b
+feature 519 587 0 square solid PFAM-B
+  FT   PFAM-B      322    348  PB001109 Pfam-B_1109
+feature 625 669 0 square solid PFAM-B
+  FT   PFAM-B      384    425  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    383  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    113  PB000341 Pfam-B_341
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      115    161  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIRLFRN....EPDTVKSKIE....LRGDDPKVVDEILELDEQRRK
+  LISATEEMKARRNKVSEEIALKK.....RNKENADDVIAEMRTLGDDIK..EKDS.....
+  ..................QLNEIDNKMTGILCRIPNLISDDVPQG.ESDEDNVEVKKWGT
+  PRE.FSF......................EPKAHWDIVEELK.MADFDR.AAKVSGARFV
+  YLTNEGAQLERALMNYMITKHTTQHGYTEMMVPQLVNADTMYG.TGQLP...KFEEDLFK
+  VEKE..................................................GLYTIP
+  TAEVPLTNFYRNEIIQP....GVLPEKFTGQSACFRSEAGSAGRDTRGLIRLHQF.DKVE
+  MVRFEQP..EDSWNALEEMTTNAEAILEELGLPYRRVIL.....................
+  ..........CTGDIGFSASKTYDIEVWLP...........SYNDYKEISSCSNCTDFQA
+  RRANIRFKRDK..AAKPELAHTLNGSGLAVGRTFAAIVENY.QNEDGTVTIPEAL.VPFM
+  .GGKTQISKPVK................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_LACLA
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Lactococcus lactis (subsp. lactis) (Streptococcus lactis).Ba
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    317  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      383    422  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    382  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    113  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      114    161  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIKKIRA....DFDGVAAKLA....TRGVEKEKLEKLHDLDIKRRE
+  LIVKSEALKAERNSVSDEISQVK.....RAKGDASAQIAAMQKVSAEIK..AIDA.....
+  ..................ELAEIEENLNEIIIMLPNLPHESTPIG.ADEDDNVEVRRVGQ
+  TPT.FNF......................EPKAHWDLGEDLG.ILDWER.GGKVTGSRFL
+  FYKGAGARLERALYNFMLDEHGK.EGYTEMITPYMVNQESMFG.TGQYP...KFKEDTFE
+  LKDDR.................................................GFVLIP
+  TAEVPLTNYYRGEILDG....AELPIKFTAMSPSFRSEAGSAGRDTRGLIRLHQF.HKVE
+  MVKFAKP..DQSYDELEKMTANAENILQKLGLAYRVVAL.....................
+  ..........STGDMGFSAAKTYDLEVWIP...........AQNTYREISSCSNCEDFQA
+  RRAQIRYRDEE...GKVQLLHTLNGSGLAVGRTVAAILENY.QNEDGSITVPEVL.RPYM
+  .GGLEVIK....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_STRA3
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Streptococcus agalactiae (serotype III), andStreptococcus ag
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    316  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDLKRIRT....DFDVVAKKLA....TRGVDQETLTTLKELDIKRRE
+  LLIKAEEAKAQRNVASAAIAQAK.....RNKENADEQIAAMQTLSADIK..AIDA.....
+  ..................ELADVDANLQSMVTVLPNTPADDVPLG.ADEDENVEVRRWGT
+  PRE.FDF......................ETKAHWDLGESLG.ILDWER.GAKVTGSRFL
+  FYKGLGARLERAIYSFMLDEHAK.EGYTEVIPPYMVNHDSMFG.TGQYP...KFKEDTFE
+  LADS..................................................PFVLIP
+  TAEVPLTNYYRDEIIDG....KELPIYFTAMSPSFRSEAGSAGRDTRGLIRLHQF.HKVE
+  MVKFAKP..EESYQELEKMTANAENILQKLNLPYRVITL.....................
+  ..........CTGDMGFSAAKTYDLEVWIP...........AQNTYREISSCSNTEDFQA
+  RRAQIRYRDEV..DGKVRLLHTLNGSGLAVGRTVAAILENY.QNEDGSVTIPEVL.RPYM
+  .GNIDIIKPN..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS2_LACPL
+descrip Seryl-tRNA synthetase 2 (EC 6.1.1.11) (Serine--tRNA ligase 2
+creator Lactobacillus plantarum.Bacteria;
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  ............MLDVKMIRQ....NPDFVKEQLG....HRGVAASDIDDLLAADEKRRE
+  LIAKSEQLKSTRNQVSGEISQKK.....RNKEDASAEIAEMQKVSADVK..TLDE.....
+  ..................ERRTVDAQVQDMAAHLPNMPHPDVPVS.LKEEDAVELRRIGT
+  PRH.FDF......................TPKAHWDIGEDLG.ILDFER.GAKVSGSRFL
+  YYVGDGAKLERAVYNFFLDQHEA.EGYTEVLPPYMVTDESMYG.TGQFP...KFKEDAFR
+  ITTQ..................................................DLTLIP
+  TAEVPLVNYYRDEVIPA....EKLPVYFTALSPAFREEAGSAGRDTKGLIRLHQF.NKVE
+  MVKFTKP..EDSWDELEKLTNNAESLLKKLGLPYHVITL.....................
+  ..........TTGDMSFTAAMTHDLEVWFP...........EQDKYREISSCSNCTDFQA
+  RRAHIQYRDDD...GKLQFVHTLNGSGLAVGRTVAAILENY.QNEDGTVTIPDVL.VPYM
+  .HGKTKIEKQG.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS1_LACPL
+descrip Seryl-tRNA synthetase 1 (EC 6.1.1.11) (Serine--tRNA ligase 1
+creator Lactobacillus plantarum.Bacteria;
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  ............MLNPKFVRN....NPELVKTKLQ....TRKVDPAEVDEYLQLDQQNRD
+  AITKVEGLKKQKNQLTEQIGQSD.....PQSEAGQALIQQVKQLNGDIK..STEA.....
+  ..................AQTEVNDRLHYLAIRFPNLPADDVPVG.PDEDSNVEMRKHGD
+  IPT.FDF......................KPKAHWELGESLG.ILDFDR.AAKVAGARFV
+  YYKDAGALLERAVYSFMLDLHTQKQGYHEIIPPYLVNAQTMYG.TGQFP...KFKEDVYT
+  VESS..................................................GMTLIP
+  TAEVPLTNYYANEILSE....DQLPTYFTAMTPCYRSEAGSAGRDTRGLIRMHQF.HKVE
+  MVKYCKP..ENSYDELEKLTDNAEEVLRELGLAYHVIKL.....................
+  ..........STGDTGFSSAKTYDVEVWMP...........EQGVYREISSCSNCLDFQA
+  RRAMIRYRKAD...GTVDYVHTLNGSGLAVGRTVAAILENY.QQADGTVKIPKVL.QPYM
+  .HGMTEIK....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_THETN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Thermoanaerobacter tengcongensis.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    316  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDIKFIRS....NPDVVRRAIE....LKGE.KADLDRLLLLDEKRRE
+  MLVELEALKNKRNTESDNIARLK.....REGKDASELIAKMKELSDKIK..DMEQ.....
+  ..................ELREIEEEMEKILWTIPNIPHESVPIG.ESDEDNVEVRRWGE
+  PRK.FDF......................EPKPHWEIGEALG.ILDFEA.ASRVTGSRFV
+  FYKGLGARLERALINFMLDLHIEKHGYKEVFPPFLVHRRSMFG.TGQLP...KFEEDAFK
+  VEGT..................................................DYFLIP
+  TAEVPVTNLYRETIIDG....EQLPIYHCAYSACFRQEAGAAGRDTRGLIRQHQF.DKVE
+  LVKFTEP..DKSYEELEKMTRDAEEVLQALGLPYRVVAI.....................
+  ..........CTGDLGFTASKKYDIEVWMP...........SYGRYVEISSCSNCEDFQA
+  RRANIRYRPKG..GGKLQYVHTLNGSGVAVGRTFAAILENY.QQEDGSVVVPEVL.RPYM
+  ..KVDVIRKEE.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_CLOAB
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     50  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      164    318  PF00587 tRNA-synt_2b
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       51    115  PB000341 Pfam-B_341
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      117    163  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDLKRIRT....NPEEIKKALT..NRGEDFDISVIDELVSLDEERRK
+  NLVEVENLKSKRNKDSGEIAKLK.....KSGQNADELLAEMKKISDDIKG..IDA.....
+  ..................KVSEIDEKMQYIMLRIPNIPHPSVPEG.KSDEENVEIRKWGE
+  PRK.FDF......................EFKAHWDIGTDLG.LLDFER.GGKVAGSRFT
+  FYKGLGARLERAVINYFLDTHVEKHGYTEILPPYMVNRVSMTG.TGQLP...KFEEDAFK
+  VDN...................................................GFFLIP
+  TAEVPVTNMFRDEILKA....EDLPYKFAAYSACFRSEAGSAGRDTRGLVRQHQF.NKVE
+  LVKFAKP..EESYDELEKLTHDAEEILQILNIPYRVVRI.....................
+  ..........CKGDLGFTAALKYDIEVWMP...........SYGRYVEISSCSNFEDFQA
+  RRANIKFRRDP..KAKPEFVHTLNGSGLAVGRTVAAILENY.QNEDGSVNVPEAL.KKYI
+  ..GKDVIR....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_CLOPE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Clostridium perfringens.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     50  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      164    319  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDLKKLRS....NTEEVKKALS..NRGEDFDVNVIDEVIALDEERRK
+  ILVDVEALKKQRNEVSAEIPKRK.....KAGEDVTEVMAEMREIGDKIK..ADDA.....
+  ..................KVAELNDKINYIMLRIPNIPNPAVPEG.ETDEDNVEIKRWGE
+  PTK.FNF......................EPKAHWDLGTDLD.LLDFER.GGKVAGSRFT
+  VYKGMGARLERSIINYFLDKHTFENGYTEVLPPYMVNRDSMTG.TGQLP...KFEEDAFK
+  VENN..................................................GYFLIP
+  TAEVPVTNMYRNETLEG....DKLPIKHAAYSACFRAEAGSAGRDTRGLIRQHQF.NKVE
+  LVKFCKP..EQSYEELDKLVQDAESVLQGLGLPYRIVRI.....................
+  ..........CKGDLGFTAALKYDIEVWMP...........SYNRYVEISSCSNFEDFQA
+  RRANIKYKNSP..KEKPQFVHTLNGSGVAIGRTVAAILENY.QQEDGSVVIPEAL.KEYM
+  ..RCDLLK....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_LEPIN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Leptospira interrogans.Bacteria;
+type    PROTEIN
+group 1
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      163    318  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDLRYITE....NTEDLKKVLE...LRGFKEIGIIDELKSIIQRKRE
+  FQKEADILREERNKASKEVGKIK.....QSGGDITKISASVKLVGEKIK..EIES.....
+  ..................KLEQEENALLNINLGLPNILDPKVPPG.KSEHDNIVQYEVGK
+  IPT.FQF......................VPKTHFEIGEALH.WIDFEK.GVKLSGARAY
+  TYWKDGARLERALMNFMLDVHTKEHDYTEVWVPSMVNDESMMA.TGQYP...KFKDEFYR
+  IDKD..................................................ELNLIP
+  TAEVPLTNLYRDEIIPE....DQLPISVTAHTSCFRREAGSYGKDTRGLVRVHQF.QKVE
+  LVKFCKP..EDSEEEHKKMLSHAENILKKLELPYRVIIL.....................
+  ..........CSGDISANSSITYDIEVWMP...........GLNRYMEISSVSNFRDFQA
+  RRGKIRYKSKD...GKNQLVHTINGSGLALGRTYAAILENF.QNEDGTLRIPEVL.KSYF
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_SYNEL
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Synechococcus elongatus (Thermosynechococcus elongatus).Bact
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      166    320  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MIDLKQLRE....NPQAFGDRLR.....RRGGDFDLDRILELDAQQRQ
+  LEQQRSQLQARSNEIGALVGKKIKSGIAPTDPEIQALKAEANALKQKLS..DLEP.....
+  ..................QERQLKEELESLLLTIPNPPSETTPIG.RDETDNVEVRRWGE
+  EYK.PTY......................PCQPHWDIGTRLG.LWDVER.SVKVAQSRFV
+  TLLGLGAALERALIQFMLDSHRE.RGYVEVLPPLLVNTASLTG.TGQLP...KFAEESFR
+  CADD..................................................DLWLIP
+  TAEVPVTNLYRDEILAA....DQLPIYHCAYTPCFRREAGSYGKDTRGLIRLHQF.NKVE
+  LVKFVHP..ETSAAEHEALVADAEFILQALKLPYRVIEL.....................
+  ..........CTGDLGFAAMKCYDLEVWLP...........AAGCYREISSCSNFGDFQA
+  RRAKIRFKGAK..HKGTQFVHTLNGSGLAVGRTMAAILENY.QQPDGTVRVPEVL.QPYL
+  ..KCSHIGGAKS................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_ANASP
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Anabaena sp. (strain PCC 7120).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      167    321  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      323    352  PB001109 Pfam-B_1109
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      388    426  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      353    387  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    117  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      118    166  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIKQIRE....NPQLIQERLN.....SRNGTYDIQPILQLDKQQRE
+  LEATRSQIQARSNEIGKIVGQKIKSGINPQDPEIQALRDEGNAIKAQLS..ELEP.....
+  ..................REKELKAEIEQLILALPNLPSDSTPIG.KGEEENVEVRLWGD
+  EYL.PQNP.....................NIIPHWEIGEKLG.ILNFER.AVKVAQSRFV
+  NLIGAGAALERALINFMLKMQTA.AGYIEVSPPLLVNTDSLTG.TGQLP...KFAEESFK
+  CADD..................................................ELWLIP
+  TAEVPVTNLYRGEILAA....ENLPIYHCAYTPCFRREAGSYGRDMRGLIRLHQF.NKVE
+  LVKVVHP..STSFDELEKLVGNAEAILQALKLPYRVINL.....................
+  ..........CTGDLGFGATKTYDLEVWLP...........SSGKYREISSCSNCFDFQA
+  RRADIRFKEAG..KKGTQFVHTLNGSGLAVGRTMAAILENY.QQPDGTILIPEVL.QPFL
+  ..GREVL.....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_SYNY3
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     49  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      170    324  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      326    355  PB001109 Pfam-B_1109
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      391    430  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      356    390  PB000259 Pfam-B_259
+feature 129 202 0 square solid PFAM-B
+  FT   PFAM-B       50     98  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      120    169  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDLKQIRE....NPTAIQNRLN...QRGGGASYDLEPILAIAAEQKA
+  KESERTVLQSRSNEIGKLIGQKIGQGADPKGEEIQTLREEGNSLKIQLA..DLEP.....
+  ..................QEKDLKEQLQKLLLELPNLPCETTPIG.ASEADNIEVKRWGD
+  QYLKAET.....................VGILPHWEIGEKLG.IIDSER.GVKVAQSRFI
+  SLMKAGAALERALINFMLERHIG.VGYQEIMPPILVNSDSLLG.TGQLP...KFAEESFQ
+  CRGD..................................................DLWLIP
+  TAEVPVTNLYRDEVLDL....EQLPIKHCAYTPCFRREAGSYGRDTKGLIRLHQF.NKVE
+  LVKLVKP..EESAAEHQALVADAEAILQALELPYRVVEL.....................
+  ..........CTGDLGFGAAKCYDLEVWLP...........SANTYREISSCSNFHDFQA
+  RRANIRYKEKG..KKGTQFVHTLNGSGLAIGRTMAAILENYYEPSSGQVKVPVVL.QDFL
+  ..KRDYL.....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_SYNP7
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Synechococcus sp. (strain PCC 7942) (Anacystis nidulans R2).
+type    PROTEIN
+group 1
+sequence
+  .........................................................MRR
+  NFVCASCIPAEPVLDLRLLRE....NPEATQARLD.....RRHSSYDIQPLLSLDQQVRQ
+  WEQERTQLQARSNEIGRSVGQKMREGADPQSEEIAALREEGNQLKQQIA..DLEQ.....
+  ..................QERQVRSELDTYLLTLPNLPDETVPLG.SSEDENREIHRWGD
+  DRIRE.......................GEFAPHWEIGERLG.LFDFER.STRIAQSRFV
+  TLLGAGAALERALIAFMLDRQTA.AGYTEVAPPYLINSASLTA.SGQLP...KFSEESFR
+  CDRD..................................................DLWLTP
+  TAEVPLTSLYRDEILSA....DQLPLRYCAYTPCFRREAGSYGRDTRGLIRLHQF.NKVE
+  LYQFVHP..DHSEAAHQQLLANAEAILQALELPYRTIEL.....................
+  ..........CTGDLGFSAQKTYDIEVWLP...........SAGRYREISSCSNCGDFQA
+  RRANIRFKEAG..QKGTRFVHTLNGSGLAVGRTMAAVLENY.QQPDGSVRVPEAL.QPTF
+  ..ARP.......................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BRUME
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Brucella melitensis.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      163    317  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDIKWIRE....NPETLDKALA.....KRGAAPLSSELIALDEKRRE
+  HVGKVQAAQERRNAASKEIGKAMA...AKDMGTAEKLKAEVGELKDFLA..HAEE.....
+  ..................DERRLSKELSDALSTIPNIPLDDVPLG.KDESDNVELRRIGN
+  PHNFSF.......................QPKEHFELGEALG.YMDFER.AAKLAGARFT
+  VLKGPLARLERALGQFMLDLHTTEHGYTEVMPPLMVRDEAVYG.TGQLP...KFSEDLFR
+  TTDG...................................................RWLIP
+  TAEVPLTNLVAEEIVDM....KGLPLRFTALTPCFRSEAGSAGRDTRGMLRQHQF.LKVE
+  MVSITDA..ESSVAEHERMTACAEEVLKRLGLPFRTVVL.....................
+  ..........CTGDMGFGAQRTYDIEVWLP...........GQNTYREISSCSTCGDFQG
+  RRMNARYRPEG..EKSTRFVHTLNGSGAAVGRALIAVMENY.QQEDGSIHIPEAL.QPYM
+  .GGLTRIEKAA.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_RHIME
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Rhizobium meliloti (Sinorhizobium meliloti).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      163    317  PF00587 tRNA-synt_2b
+feature 625 670 0 square solid PFAM-B
+  FT   PFAM-B      384    426  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    383  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    114  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      115    162  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIKWIRE....NADALDEALA.....KRGAEPLSASLIALDERRRA
+  VLQSLQDMQSRRNAASKEIGAAMAQ...KNSELADRLKAEVADLKNALP..AAEE.....
+  ..................ESRRIEAELSDALSRIPNTPLADVPVG.ADESANVVTRVVGA
+  KPGWN.......................HKPLEHFEIGEALG.LMDFEG.AARIAGSRFT
+  ILKGQLARLERALGQFMLDLHTGEHGYIEVQPPLLVRDDAMYG.TGQLP...KFSDDLFR
+  TTDG...................................................RWLIP
+  TAEVPLTNMVREQILDG....EKLPLRFTALTPCFRSEAGSAGRDTRGMLRQHQF.NKVE
+  LVSITDA..ESSIDEHERMTACAEEVLKRLGLHYRVMTL.....................
+  ..........CTGDMGFGARKTYDLEVWLP...........GQDAYREISSCSVCGDFQA
+  RRMNARYRGKE..EKGTKFVHTLNGSGVALGRALIAVIENY.LNDDGSITVPDVL.VPYM
+  .GGLRRIEKSA.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_AGRT5
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Agrobacterium tumefaciens (strain C58 / ATCC 33970).Bacteria
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      163    317  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MHDIKWIRE....NPEAFDAALA.....RRSVEPAAAGLIALDEKRRS
+  VIQSLQDMQSRRNAASKEIGAAMA...QKNMELAEKLKAEVADIKENMP..RAEE.....
+  ..................EDRQVSAELNDALSRLPNMPFDDVPDG.KDEHDNVVARVTGQ
+  KPGWN.......................HAAKEHFEIGEALG.YMDFER.AAKLSGSRFT
+  VLTSQLARLERALGQFMIDLHTSEHGYTEVSSPLMVRDEAMFG.TGQLP...KFAEDLFR
+  TTDG...................................................RWLIP
+  TAEVTLTNLVSGEILEQ....EKLPLRFTALTPSFRSEAGSAGRDTRGMLRQHQF.WKCE
+  LVSITDA..ESAVAEHERMTACAEEVLKRLGLHFRTLTL.....................
+  ..........CTGDMGFSARKTYDLEVWLP...........GQNTYREISSCSVCGDFQA
+  RRMNARYRGKD..DKATKFVHTLNGSGTAVGRCLIAVLENY.LNDDGSVTIPDVL.LPYM
+  .GGLTRIEKAA.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_RHILO
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Rhizobium loti (Mesorhizobium loti).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     52  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      168    325  PF00587 tRNA-synt_2b
+feature 625 660 0 square solid PFAM-B
+  FT   PFAM-B      392    425  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      357    391  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       53    119  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      120    167  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIKWIRD....NPKALVEALAKRSWSAGEAQSTVDDLIARDEARRE
+  HVTELQTKQERRNAASKEIGNAMR...SGDAALAEKLKAEVGDIKTFIQ..NGEA.....
+  ..................RERELDKALTDALAVLPNVPLDDVPVG.KDEHDNVVKHIVGK
+  VPTRSN.......................WVKEHFEIGEALG.MMDFER.AAKLSGSRFT
+  VLKSGLARMERAIGQFMLDLHTTEHGYEEVIPPLMVRDEVLFG.TNQLP...KFEEDLFF
+  TPHGE................................................GRLGLIP
+  TAEVPLTNLVREEITAH....EKLPLRFTALTPCFRSEAGSAGRDTRGMLRQHQF.YKVE
+  LVSITDQ..DSSLAEHERMTQCAEEVLKRLELPFRTMVL.....................
+  ..........CTGDMGFGARKTYDIEVWLP...........GQNAYREISSCSVCGDFQA
+  RRMDARYKDKD..GKGNRFVHTLNGSGTAVGRALIAVIENY.QNEDGSVTIPEVL.RPYM
+  .GGLAKIEAK..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_CAUCR
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Caulobacter crescentus.Bacteria;
+type    PROTEIN
+group 1
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      167    372  PF00587 tRNA-synt_2b
+feature 625 660 0 square solid PFAM-B
+  FT   PFAM-B      439    472  PB000251 Pfam-B_251
+feature 585 624 0 square solid PFAM-B
+  FT   PFAM-B      401    438  PB000259 Pfam-B_259
+feature 73 128 0 square solid PFAM-B
+  FT   PFAM-B        1     47  PB028001 Pfam-B_28001
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    114  PB000341 Pfam-B_341
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      116    166  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MHDIKAIRE....NPKAYDRHWS.....GKGRSGAADEAVRLDAELRA
+  AQTTLQEAQAKRNESSKLIGMAK...AKKDEAEAARLMAEVESLKGVMA..TAAE.....
+  ..................AENLADGQLKDLLASLPNIPAPEVPAG.EDEHGNLEQRRWGD
+  ATKLPAGKL...................NKPKDHVDLGAALG.GMDFEA.AARMSGARFV
+  VLKKEIARLERAIGQFMLDLQTVEHGYTEVSPPLLVKDHALYG.TGQLP...KFADDLFA
+  TTSFDLGRYDDEFARQAAAIGSALDKLSDEHRNQLKYLLSKEYIHASVQNALERSHWLIP
+  TAEVSLTNIVREQLVAE....EELPMRLTALTPSFRAEAGSAGRDTRGMIRQHQF.YKVE
+  LVSITTP..DQSEAEHQRMVECAETVLKKLELPFRTMLL.....................
+  ..........CTGDMGFGAKKTYDLEVWLP...........SQDMYREISSCSNCGDFQA
+  RRMDARYRKTG..EKGGHFVHTLNGSGLAVGRTLVAVLENY.QDEGGRIHIPAAL.QPYM
+  .GGVTHIGGQA.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_RICCN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Rickettsia conorii.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      160    314  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      381    420  PB000251 Pfam-B_251
+feature 584 624 0 square solid PFAM-B
+  FT   PFAM-B      342    380  PB000259 Pfam-B_259
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      114    159  PB000343 Pfam-B_343
+feature 129 224 0 square solid PFAM-B
+  FT   PFAM-B       48    113  PB056677 Pfam-B_56677
+sequence
+  ............................................................
+  ............MLNIKWIRE....NKELFDEKLS.....QRFIEPMSSKIAMLDGEKRK
+  ITSLIQEFQHARKVKSKILGNMAS....KSGEEFEGLQRDVKHINEKLEALEQDL.....
+  ..................NN...NNELNELLNMFPNIPDDEVPYG.MDESMNKLVRTYGE
+  TNPNALN........................KQHFELGIKLN.LMDFEQ.TAKISGTRFV
+  TLKGDLAKLERALINFMIDVHTKEWDFFEISPPVLVRDNAMYN.AGQLP...KFAEESFA
+  TTNG...................................................YRLIP
+  TAEVSLVNMVADTIIPR....EKLPIRYVAYTPCFRSEAGSSGRDTRGMIRLHQF.GKVE
+  LVSITTP..EESTNEHEYITNASETILQKLNLPYRVMLL.....................
+  ..........CTGDMGFAAKKTYDIEVWLP...........GQKQYREIASCSNCGDFQA
+  RRMKARYKEFG..SNETTLVHTLNASGLPIGRTMVAILENY.QNEDGSITIPDVL.INYM
+  .GGLQKIIAYSE................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_PSEAE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Pseudomonas aeruginosa.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    319  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      386    425  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      351    385  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    112  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      113    160  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDPKLVRT....QPQEVAARLA.....TRGFQLDVARIEALEEQRKS
+  VQTRTEQLQAERNARSKAIGQAK.....QRGEDIAPLLADVDRMGSELE..EGKR.....
+  ..................QLDAIQGELDAMLLGIPNLPHESVPVG.ADEDANVEVRRWGT
+  PKT.FDF......................EVKDHVALGERHG.WLDFET.AAKLSGARFA
+  LMRGPIARLHRALAQFMINLHTAEHGYEEAYTPYLVQAPALQG.TGQLP...KFEEDLFK
+  IGRDG...............................................EADLYLIP
+  TAEVSLTNIVSGQILDA....KQLPLKFVAHTPCFRSEAGASGRDTRGMIRQHQF.DKVE
+  MVQIVDP..ATSYEALEGLTANAERVLQLLELPYRVLAL.....................
+  ..........CTGDMGFGATKTYDLEVWVP...........SQDKYREISSCSNCGDFQA
+  RRMQARYRNPE..TGKPELVHTLNGSGLAVGRTLVAVLENY.QQADGSIRVPEVL.KPYM
+  .AGIEVIG....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_RALSO
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Ralstonia solanacearum (Pseudomonas solanacearum).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      160    329  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      395    434  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      361    394  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    112  PB000341 Pfam-B_341
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      114    159  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIQLLRK....DIDAVAARLN.....DRGYELDVAGFAALEAERKA
+  IQTRTEELQARRNSLSKQIGMLK.....GKGEDASAVMAEVAGIGDELK..ASAA.....
+  ..................QLDVVQGRLQDLLLSIPNVPHESVPAG.KSEAENVEVRREGT
+  PRA.FDF......................PVKDHVDLGAGLG..LDFDV.AAKLSGSRFA
+  VLKGPVARLHRALAQFMLDTHTQEHGYTEAYVPYIVNAASMRG.TGQLP...KFEEDLFR
+  VPRKMGQATEAEAGE....................................HVENFYLIP
+  TAEVPLTNLVRDEIVAG....DALPMKFAAHSPCFRSEAGSYGKDTRGMIRQHQF.DKVE
+  MVQIVQP..ETSFEALDAMTHHAENILRKLELPFRTVVL.....................
+  ..........CTGDMGFGSTKTYDIEVWIP...........AQNTYREISSCSNMGDFQA
+  RRMQARFRNAQ...GKPELLHTLNGSGLAVGRTLVAVLENY.QNADGSVTVPAAL.RPYL
+  .GGQAVLKPAA.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BURCE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Burkholderia cepacia (Pseudomonas cepacia).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      160    321  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      387    426  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      353    386  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    112  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      113    159  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIQLLRK....DLDGVAKRLA.....DRGYTLDVAAFSALEAERRA
+  IQTRTEELQARRNTLSKQIGAMK.....AKGEDTSAVMAEVGGIGDEMK..ASAA.....
+  ..................KLDEIQARLSELLLGMPNLAHESVPVG.KDEADNVEVRRWGT
+  PRQ.FDF......................DVKDHVDIGTPLG..LDFET.GAKLAGARFT
+  MLRGPIARLHRALAQFMLDTHTQQHGYSETYTPYIVNPEILYG.TGQLP...KFADDMFR
+  VEKGGAEN............................................TVTQYLIS
+  TSEISLTNTVRESIVEA....SALPIKLTAHSPCFRSEAGSYGRDTRGMIRQHQF.DKVE
+  MVQIVAP..ESSYAALDEMVGHAEAILQKLGLPYRVVAL.....................
+  ..........CTGDMGFSAAKTFDLEVWLP...........AQNTYREISSCSNTEAFQA
+  RRMQARFRNAQ...GKPELVHTLNGSGLAVGRTLVAVLENY.QNADGSVTVPEVL.RPYM
+  .GGLERIDAPAQAS..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_NEIMA
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Neisseria meningitidis (serogroup A).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    323  PF00587 tRNA-synt_2b
+feature 625 660 0 square solid PFAM-B
+  FT   PFAM-B      389    422  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      355    388  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    114  PB000341 Pfam-B_341
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      116    161  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIQLLRS....NTAAVAERLA.....RRGYDFDTARFDALEERRKS
+  VQVKTEELQASRNSISKQIGALKG...QGKHEEAQVAMDQVAQIKTDLE..QAAA.....
+  ..................DLDAVQKELDAWLLSIPNLPHEDVPFG.KDETENVEVRKVGT
+  PRE.FDF......................EIKDHVDLGEPLG..LDFEG.GAKLSGARFT
+  VMRGQIARLHRALAQFMLDTHTLKHGYTEHYTPYIVDDTTLQG.TGQLP...KFAEDLFH
+  VTRGGDESK............................................TTQYLIP
+  TAEVTLTNTVAGSIIPS....EQLPLKLTAHSPCFRSEAGSYGKDTRGLIRQHQF.DKVE
+  MVQIVHP..EKSYETLEEMVGHAENILKALELPYRVITL.....................
+  ..........CTGDMGFGATKTYDLEVWVP...........AQNTYREISSCSNCEDFQA
+  RRMKARFKDEN...GKNRLVHTLNGSGLAVGRTLVAVLENH.QNADGSINIPAAL.QPYM
+  .GGVAKLEVK..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_ECOLI
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Escherichia coli,Escherichia coli O6,Escherichia coli O157:H
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    323  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      390    429  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      355    389  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    112  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      113    160  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDPNLLRN....EPDAVAEKLA.....RRGFKLDVDKLGALEERRKV
+  LQVKTENLQAERNSRSKSIGQAK.....ARGEDIEPLRLEVNKLGEELD..AAKA.....
+  ..................ELDALQAEIRDIALTIPNLPADEVPVG.KDENDNVEVSRWGT
+  PRE.FDF......................EVRDHVTLGEMHS.GLDFAA.AVKLTGSRFV
+  VMKGQIARMHRALSQFMLDLHTEQHGYSENYVPYLVNQDTLYG.TGQLP...KFAGDLFH
+  TRPLEEEADT...........................................SNYALIP
+  TAEVPLTNLVRGEIIDE....DDLPIKMTAHTPCFRSEAGSYGRDTRGLIRMHQF.DKVE
+  MVQIVRP..EDSMAALEEMTGHAEKVLQLLGLPYRKIIL.....................
+  ..........CTGDMGFGACKTYDLEVWIP...........AQNTYREISSCSNVWDFQA
+  RRMQARCRSKS..DKKTRLVHTLNGSGLAVGRTLVAVMENY.QQADGRIEVPEVL.RPYM
+  .NGLEYIG....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_HAEIN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Haemophilus influenzae.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    321  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      388    427  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      353    387  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    113  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      114    161  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MIDPNLLRN....NLAEVAEKLK....VKRNFMLDTEKLTALEDQRKN
+  LQVTTENLQAERNARSKAIGAAK.....ARGEDIAPLLAEMDDMGNQLT..EAKA.....
+  ..................QLDAVLAEINQIALSIPNLPADEVPLG.KDDTENKEILRWGT
+  PRT.FDF......................EVKDHITLGEEAN.GLDFAA.GAKLAGARFA
+  VMKGQIAKMHRALAQFMLDLHTEQHGYLETYVPYLVNHATLYG.TGQLP...KFGEDLFH
+  TLALEGE..............................................QPYALIP
+  TAEVPVTNLVRDVIIDE....AELPIKMTAHTPCFRSEAGSYGRDTRGLIRMHQF.DKVE
+  MVQIVDP..DKSMEALEELTGHAEKVLQLLNLPYRKVLL.....................
+  ..........CTGDMGFGSCKTYDLEVWVP...........AQNTYREISSCSNMWDFQA
+  RRMQARCKAKG..DKKTRLVHTLNGSGLAVGRTLVAVLENY.QNADGSITVPEEL.RPYM
+  .GGLDVIGK...................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_VIBCH
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Vibrio cholerae.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      163    328  PF00587 tRNA-synt_2b
+feature 625 660 0 square solid PFAM-B
+  FT   PFAM-B      395    428  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      360    394  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    114  PB000341 Pfam-B_341
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      116    162  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDSKLLRT....ELDETAAKLA.....RRGFKLDVETIRTLEEQRKS
+  IQVEVENLQSTRNSISKQIGQLMAS...GDKAGAEAVKQQIGTLGDDLD..AKKV.....
+  ..................ELDAVMAQLDAITQTVPNIPDDAVPNG.KDDSENVEVSRWGT
+  PKT.YDF......................EVKDHVDLGEMGD.GLDFAS.ATKITGARFV
+  VMKGQFARLHRAIAQFMLDLHTDQHGYTELYVPYLVNAETLFG.TGQLP...KFGQDLFH
+  TEPLTEKASDEEP........................................RRLSLIP
+  TAEVPVTNLVRDTILDE....AELPLKMTAHTPCFRSEAGSYGRDTRGLIRMHQF.DKVE
+  LVQITRP..EDSMAALEELTGHAEKVLQLLELPYRKVIL.....................
+  ..........CTGDMGFGSCKTYDLEVWVP...........AQKTYREISSCSNMWDFQA
+  RRMQARFRRKG..EKKPELVHTLNGSGLAVGRTMVAILENY.QEADGRIAIPAVL.QKYM
+  .GGLTHIG....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_SHEON
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Shewanella oneidensis.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    321  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDPKFLRN....ELAVTAERLA.....TRGFILDVAHLTQLEEKRKS
+  LQVATEELQASRNAISKSIGQAK.....ARGEDVDAIMAQVGDLGAQLD..AKKV.....
+  ..................ELAAVLEEVNAIAMSMPNLPDESAPIG.ADETENVEVRRWGS
+  PRS.FDF......................PIKDHIDLGEGLN.GLDFKS.AVKITGSRFI
+  VMKGQIARLNRALGQFMLDLHTTEHGYTEAYVPLLVNEASLLG.TGQLP...KFGEDLFH
+  TKPATEEG.............................................QGLSLIP
+  TAEVPLTNLVRDSIVDE....DELPIKLTAHTACFRSEAGSYGKDTRGLIRQHQF.DKVE
+  LVQLVKP..EDSMAALEVLTGHAETVLQRLGLPYRTVVL.....................
+  ..........CTGDMGFGSSKTYDIEVWLP...........GQNTYREISSCSNMKDFQA
+  RRMQARYRVKA..DNKPVLLHTLNGSGLAVGRTLVAILENY.QNADGSVTVPEAL.RPYM
+  .GGLTQIG....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_XANAC
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Xanthomonas axonopodis (pv. citri).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    319  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDPALLRQ....HPADLAERLR....STRGFSLDTAELESLESERKR
+  IQVRTQELQSQRNSKSKAIGQAK.....AKGEDVAALMAEVAGFGDELK..ASED.....
+  ..................ALDAIRAKLEGIALGLPNLPAEGVPLG.KDESENLEQSRWGT
+  PRQ.FDF......................AVKDHVELGAPHG.WLDGET.AAKLSGARFT
+  VLRGPVARLHRALAQFMLDLHVGEHGYEETNVPLLVNADSMRG.TGQLP...KFEDDLFQ
+  TEVGE................................................SRRYLIP
+  TSEVPLTNIVREEIVDA....ERLPLRMTAHSMCFRAEAGSGGRDTRGMIRQHQF.EKVE
+  LVTACAP..EDSDAEHQRMTRCAEVVLEQLGLPYRKVLL.....................
+  ..........CTGDMGFSAIKTYDLEVWLP...........SQNTYREISSCSNCGDFQA
+  RRMQARWRNPVS..GKPELLHTLNGSGTAVGRAMIAVMENY.QNADGSIDVPQVL.RPYM
+  .GGIERIG....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_XYLFA
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Xylella fastidiosa.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    319  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDPTLLRQ....QLAKLAECLS....TVRGFTLDVAALEALESERKR
+  IQVHTQELQSLRNSKSKAIGQAR.....SKGEDVSSLMAEVAAFSDDLK..ASEI.....
+  ..................ALEEIRTELEKVALGIPNLPQQDVPLG.ADERDNVEQARWGV
+  PRT.FDF......................SIKDHVELGACHG.WLDAES.AAKLSGARFT
+  VLRGPIARLHRALAQCMLDLHVRQHGYEEVNVPIIVNADSLYG.TGQLP...KFEEDMFS
+  TQLG................................................EHRRYLIS
+  TSEISLTNLVRNEIIEA....DRLPLRMAAHSLCFRSEAGSGGRDTRGMIRQHQF.EKVE
+  LVSVCKP..QESEGEHQRMTRCAETVLEMLGLPYRKILL.....................
+  ..........CTGDMGFAATKTYDLEVWLP...........SQGMYREISSCSNCGDFQA
+  RRMQARWRNSV..TGKPELVHTLNGSGVAVGRAMIAVMENY.QNADGSITVPEVL.RPYM
+  .DGLSRIG....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_COXBU
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Coxiella burnetii.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    317  PF00587 tRNA-synt_2b
+feature 625 660 0 square solid PFAM-B
+  FT   PFAM-B      384    417  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    383  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    112  PB000341 Pfam-B_341
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      114    160  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDPKILRQ....NLEHVVEKLR.....RRGFEMDSDTFLQLENKRKE
+  AQLAIQSFQTKRNQLSKTIGMAK.....SKGENPELLMAEVSQLNDELK..QEEA.....
+  ..................NFETIQKAFSDFQLAIPNLPHDSVPDG.KSENDNREIRQWGA
+  PPG.FDF......................TPKDHTVLGERDN.QLDFEA.AAKLSGARFV
+  VLRGSLARAHRALAQFMLDLHTDQHGYEEVYVPYLVHEECLYG.TGQLP...KFREEQFQ
+  VAGD.................................................RNFFLVP
+  TGEVPLVNLARDEIIEA....PALPKKWVAQTPCFRSEAGSYGKDVRGMIRQHQF.QKVE
+  LVQLVQP..ENSYQALEEITRQAEKVLQLLALPYRVVEL.....................
+  ..........CAGDLGFAAAKTYDLEVWLP...........SQNKYREISSCSNCEDFQA
+  RRIQARWRNPK..TGKPELLHTLNGSGLAVGRTLVAVMENY.QQADGHIRVPDAL.KSYM
+  .GGVDYF.....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BUCAP
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Buchnera aphidicola (subsp. Schizaphis graminum).Bacteria;
+type    PROTEIN
+group 1
+feature 608 615 5 square solid DOMAIN
+  FT   DOMAIN      371    376  Poly-Lys.
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    319  PF00587 tRNA-synt_2b
+feature 519 587 0 square solid PFAM-B
+  FT   PFAM-B      324    350  PB001109 Pfam-B_1109
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      386    426  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      351    385  PB000259 Pfam-B_259
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      114    160  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLNPYLLRN....QIDAISKKLL.....KKKFKLDISLISSLEKKRKK
+  LQIKTDNLQYKHNTLSALFKKEK.....KIQELDENLKRTLTKSSKNLS..ELKI.....
+  ..................ELNLLQEKIHNFSLSIPNIPSDDVPEG.NSSENNKIVKYWGK
+  KRE.YSF......................AVRDHVEIGNKLN.QLDWKS.SAKISGARFI
+  VMKGNIALLHRALSQFMLDLHTIKHGYTETYVPYLVNHDSLYG.TGQLP...KFTDDLFH
+  INSIDK...............................................KKYVLIP
+  TAEVPLTNLFSNQILNE....TELPIMLTAHTPCFRSEASSYGRDSKGLIRLHQF.DKVE
+  LVQIIQP..ELSMNALELLTHHAEKVLQLLELPYRKVLL.....................
+  ..........CGGEMGFSATKTYDLEVWFP...........SQKKYREISSCSNMSDFQA
+  RRMKTRYKKKK..EKSNSFVHTLNGSGLAIGRTLAAILENY.QDSDGRVTIPKILQKKYM
+  .QGIEYIN....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BUCAI
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Buchnera aphidicola (subsp. Acyrthosiphon pisum) (Acyrthosip
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    319  PF00587 tRNA-synt_2b
+feature 519 587 0 square solid PFAM-B
+  FT   PFAM-B      324    350  PB001109 Pfam-B_1109
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      386    426  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      351    385  PB000259 Pfam-B_259
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      114    160  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLNPYLLRN....ELHLTAKKLL.....KKGYKLNISKISSMEEKRKT
+  LQIQTENLQFKHNALSNLFKENK.....NIKNKNELLRHQVIQSSKDLN..ASKI.....
+  ..................ELNSLKEKIHHFSMCIPNIPSDDVPEG.NTSINNKEIKYWGQ
+  KKK.YDF......................EIQDHIELGKKFN.ELDWKS.SAQMSGSRFV
+  IMKGKIALLHRALSQFMLDLHTLKHGYIESYVPYLVHSEALYG.TGQLP...KFSDDLFH
+  INLTDK...............................................KKYILIP
+  TGEVPLTNLVYDQIIDE....KDLPIMLTAHTPCFRSEASSYGRDTKGLIRLHQF.DKVE
+  LVQIVKP..EKSYEALEKLTNHAEKVLQLLNLPYRKMLL.....................
+  ..........CTGDTGFAAVKTYDLEVWFP...........SEKKYREVSSCSNMSDFQA
+  RRIKARYRKKS..EQKNFFVHTLNGSGLAIGRTLAAILENY.QHSNGRIEIPKVLQKKYM
+  .QGLEFIN....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BUCBP
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Buchnera aphidicola (subsp. Baizongia pistaciae).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    324  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLNPNLLRN....HIEFVFKNLA.....RRGFSLDVKQFTEMEKKRKI
+  LQTKVEELQSRHNTLSKHIGRIK.....LIHPNIQCMKERIITLKKKID..VMKK.....
+  ..................ELKILLEQIHIFLMNIPNLPDINIPDG.MGSDDNQEVSRWGI
+  IKN.YNF......................KIKNHVELGNHLN.GFDWKS.AANISGSRFF
+  IMKGKIALLYRVLGQFMLDLHTNEHGYLETYVPCLVKTNNLYG.TGQLP...RFKTDLFY
+  AKSLLDESQNN..........................................NNFALIP
+  TAEVPLTNLFRDCILDE....QQLPIMLVAKTPCFRSEALSYGRDTQGLIRTHQF.DKVE
+  IVQIVHP..SDSMQKLEELTIHAERVLKLLKLPYRKTLL.....................
+  ..........CTRDIGFSSSKTYDLEVWFP...........SQNVYREVSSCSNMLDFQA
+  RRIKARFHCNA..QNKKIFIHTINGSGLAVGRTLAAILENY.QQKDGRIKIPKILRNNYM
+  .NGLEFLE....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_WIGBR
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Wigglesworthia glossinidia brevipalpis.Bacteria;
+type    PROTEIN
+group 1
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    322  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MIDHKLIIK....NIEEVCKKLI.....LRNFYLDKKKILLQDQKRKI
+  LQIEVEKLQNKRNLQSKIISKIK.....INNKNIDIYKNKSNKINILLN..EKKQ.....
+  ..................KLKKIKKEIDNYLSTIPNILDEKVPIG.KDQKNNIEVKKWGS
+  PKI.YNF......................KIKSHVEIGEKIK.YLDFSR.SAKISGSRFV
+  VMKNKISYMHRALSQFMLNLHTNQHGYEEYYVPYLVNKNMLYG.TGQLP...KFYNDFFY
+  AKSFFED............................................IQSCYALIP
+  TAEVPLTNLMRNEIIDE....NYLPIKMTSHTPCFRSEAGSYGKDTKGLIRMHQF.DKVE
+  IVQIVSP..ENSIKALEEITHHAERVLQLLDLPYRKILL.....................
+  ..........CSGDTGFSSCKTYDLEVWMP...........SRNKYIEVSSCSNTSDFQS
+  RRTKIRYRKIS..NKEIHLTHILNGSALAISRTLASIIENY.QTKEGNIKVPKIL.QPYM
+  .DGLKLIK....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_CAMJE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Campylobacter jejuni.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      158    312  PF00587 tRNA-synt_2b
+feature 519 587 0 square solid PFAM-B
+  FT   PFAM-B      317    343  PB001109 Pfam-B_1109
+feature 625 659 0 square solid PFAM-B
+  FT   PFAM-B      378    410  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      344    377  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    109  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      110    157  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDLKNLQN....NFDEVAKKLK....NKKVDENILKKLAELFASLKK
+  EKIALEEFQAFQNKFSKELATAE.........DKESLKAKLSENKSKIN..EQSA.....
+  ..................KVNALENELEEIAHAIPNIPDECVPVG.EDENENVELKKVLN
+  PPS.FDF......................TPKEHFELGESLN.WLDFMR.GVKISQSRFC
+  VLKNEGALLSRALVNYMIDFNRS.RGFEFVNVPFLVNGATMFG.TGQLP...KFKEDMYK
+  VDDE..................................................DLYLIS
+  TSEIPVTNLYSGEILAS....ETLPIKMTCYSACFRKEAGSAGRDTRGIIRQHQF.EKVE
+  LVSITKP..EQSDSVFNEMLECASDLLSSLGLAHRHLML.....................
+  ..........CTGDLGFSAAKTVDLEVWLP...........GQNKYREISSVSNCRDFQA
+  RRAKIRYKNEQ...GKNELVHTLNGSSLAVGRTLVAIMENY.QDKEGKIHIPDVL.KKYF
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_HELPJ
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Helicobacter pylori J99 (Campylobacter pylori J99).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     49  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      163    317  PF00587 tRNA-synt_2b
+feature 517 587 0 square solid PFAM-B
+  FT   PFAM-B      320    348  PB001109 Pfam-B_1109
+feature 625 660 0 square solid PFAM-B
+  FT   PFAM-B      382    415  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    381  PB000259 Pfam-B_259
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      115    162  PB000343 Pfam-B_343
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       50    114  PB056679 Pfam-B_56679
+sequence
+  ............................................................
+  ............MIDRKLLLQ....DFDKVALSLK...KRNHAMDDELERLREAIAHYKK
+  QLIELEGLQAFQNKVSKEFGIKM.....AQKMDTSDLKKELENNKIKLN..ELSK.....
+  ..................SVGEAEQEMDLKLSIIPNLVDEKTPLG.ASEEDNIEIKKILT
+  PRN.FTF......................KPKEHFELAQQNG.WIDFES.GVKLAKSRFS
+  VIRGFGAKIYRALIHLMLDFNEK.NGFEIIYTPALVNEKMLFG.TGQLP...KFKEDVFK
+  IENE..................................................NLYLIP
+  TAEVTLTNLYNDTIISV....ENLPIKMTAHTPCFRSEAGSAGKDTRGMIRQHQF.DKVE
+  LVAITHP..KESDAMQEHMLESASEILKALELPHRFVQL.....................
+  ..........CSGDLGFSASNTIDIEVWLP...........GQNCYREISSVSNTRDFQA
+  RRAKIRFKENQ....KNQLVHTLNGSSLAVGRTMVALMENH.QQADGSIHIPKAL.EKYL
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_UREPA
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Ureaplasma parvum (Ureaplasma urealyticum biotype 1).Bacteri
+type    PROTEIN
+group 1
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      163    317  PF00587 tRNA-synt_2b
+feature 519 587 0 square solid PFAM-B
+  FT   PFAM-B      322    348  PB001109 Pfam-B_1109
+feature 625 660 0 square solid PFAM-B
+  FT   PFAM-B      384    417  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      349    383  PB000259 Pfam-B_259
+feature 73 128 0 square solid PFAM-B
+  FT   PFAM-B        1     48  PB028001 Pfam-B_28001
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    114  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      115    162  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MFDINLIRK....DIATTKEKML....NKKVPSNLFDQIFDLDVLVRS
+  LMQQEQNLNAKKNQLSKEIGILAK....NKDPKLQQTLDLVNNIKNELQ..DISL.....
+  ..................TLSNKQDELNKLLLVIPNMPDDSVPIG.NDENDNVEIKKVFK
+  PKK.FDF......................LPLAHWDLAVKNK.LIDFDK.STKITGSRFI
+  IYTNFGARLYRALQQFCLDMNVK.AGFSEIWAPVIVNQESLIG.SGNLP...KFADDLFK
+  LENS..................................................NYYLSP
+  TAEVQLTNLHRNEILKA....SDLPLYYTALTPCFRSEAGSAGRDVRGVIRQHQF.HKVE
+  LVKLCKP..EDSFKELESMTRQAESILEALELPYRRIVL.....................
+  ..........CTGDLGFSSAKTYDLEVWLP...........SYNAYKEISSCSNCTNFQA
+  RRAKIRYKETI..DATTELVHTLNGSSLAIDRLWAAIVENY.QQEDGSINIPKVL.KKYI
+  ..Y.........................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_MYCPE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Mycoplasma penetrans.Bacteria;
+type    PROTEIN
+group 1
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      163    317  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MINKSIIRN....DFKTLETSLK.....NRNSKLDISSLKDLDKKQSE
+  LLLIIESCNKKRNEISKSIGIYIG...KKDNKKVDELKKEMESIKNTLE..TTNE.....
+  ..................ELKTISAKVDDILLSIPNIPDSSVPIG.KSEDENVEIKKWGT
+  PTK.FDF......................NHKAHWDLITDLD.IGDFER.ATKVTGSRFF
+  IYKGLGSKLMRALQMLTLDINTS.NGYLEMSLPVIVNSASLTS.TGQLP...KFKEDLFA
+  LENS..................................................DYYLSP
+  TLEVQLTNYYRNEILEE....SALPMKFTASSLNFRSEAGSAGKDTRGIIRQHQF.YKTE
+  LVNLVHP..EKSYQALEEMTLNAESILEALELPYRRILL.....................
+  ..........CTGDMGFSSSKTYDIEVWLP...........SYNSYKEISSCSNCLDFQA
+  RRSMIRFKNSK..TNKNELVHTLNGSSLALDRLFAAVVENY.QNKDGSITIPKAL.VKYM
+  ..GIDSIKKTK.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_MYCPN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Mycoplasma pneumoniae.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      158    311  PF00587 tRNA-synt_2b
+feature 519 587 0 square solid PFAM-B
+  FT   PFAM-B      316    342  PB001109 Pfam-B_1109
+feature 625 671 0 square solid PFAM-B
+  FT   PFAM-B      378    420  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      343    377  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    109  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      110    157  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDRNKLRN....NLDFFKKKLV....ERGVSESQFEAYVQADKAMRK
+  LLHQIELANQKQTLLAQQVAKKK......GDPKLLKESKELKQKLEQLN.....I.....
+  ..................AFKEAETLSQELLLNLPNIADESVPVG.RDETANLELLKEGR
+  KPV.FDF......................TPLPHWELCERLQ.LVAFDK.ATKLTGARFV
+  AYTDKAAKLLRAIASLMIDLNK..NKYQEWNVPVIVNETSLTG.TGQLP...KFKDDVFK
+  LENT..................................................RYYLSP
+  TLEVQLANLHANEIFTE....GELPKYYTATGVNFRQEAGSAGKQTKGTIRLHQF.QKVE
+  LVKFCKP..SEAIHELEEMTRDAEQILLELKIPFRRLLL.....................
+  ..........CSGDMGFSAQKTYDLEVWMA...........GCNEYREVSSCSSCGDFQA
+  RRAMIRYKDLT..TGKNTYVATLNGTALAIDRIFAAILEHY.QTKAGEVMIPQAL.LKYL
+  ..DFDKITKPK.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_MYCGE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Mycoplasma genitalium.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      158    311  PF00587 tRNA-synt_2b
+feature 519 587 0 square solid PFAM-B
+  FT   PFAM-B      316    342  PB001109 Pfam-B_1109
+feature 625 663 0 square solid PFAM-B
+  FT   PFAM-B      378    412  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      343    377  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    109  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      110    157  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDPNKLRN....NYDFFKKKLL....ERNVNEQLLNQFIQTDKLMRK
+  NLQQLELANQKQSLLAKQVAKQK......DNKKLLAESKELKQKIENLN.....N.....
+  ..................AYKDSQNISQDLLLNFPNIAHESVPVG.KNESANLELLKEGR
+  KPV.FDF......................KPLPHRELCEKLN.LVAFDK.ATKISGTRFV
+  AYTDKAAKLLRAITNLMIDLNK..SKYQEWNLPVVINELSLRS.TGQLP...KFKDDVFK
+  LENT..................................................RYYLSP
+  TLEVQLINLHANEIFNE....EDLPKYYTATGINFRQEAGSAGKQTKGTIRLHQF.QKTE
+  LVKFCKP..ENAINELEAMVRDAEQILKALKLPFRRLLL.....................
+  ..........CTGDMGFSAEKTYDLEVWMA...........ASNEYREVSSCSSCGDFQA
+  RRAMIRYKDIN..NGKNSYVATLNGTALSIDRIFAAILENF.QTKDGKILIPQAL.KKYL
+  ..DFDTIK....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_HALMA
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Haloarcula marismortui (Halobacterium marismortui).Archaea;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      166    328  PF00587 tRNA-synt_2b
+feature 516 575 0 square solid PFAM-B
+  FT   PFAM-B      330    356  PB001109 Pfam-B_1109
+feature 625 676 0 square solid PFAM-B
+  FT   PFAM-B      404    452  PB000251 Pfam-B_251
+feature 586 624 0 square solid PFAM-B
+  FT   PFAM-B      367    403  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    115  PB000341 Pfam-B_341
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      117    165  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLSRQFVRE....HPETVRDAIE....RKGVTGVDLDEILDIDEEWRE
+  LKAEGDGLRQERNEVSSKIGELKQ...DGKDEEAQEAIDRSQELKDELQ..DIEE.....
+  ..................RADELESQLEEALLELPNIPHESVPTG.EGEADNVERYREGF
+  DDL.RDLP....................DEVVPHYDLGEDLD.LLDFER.GAKVSGGGYQ
+  FVKGEGARLEHALIQFMLDVHRE.QEYVDVLPPIPVNSDSMEG.TGQLP...KFAEDAYR
+  VGARQDDDYD..........................................SDDLWLLP
+  TAEVPVTNMYRGEILLD....DDLPVKHQAFSPNFRREAGEHGTETRGYVRVHQF.HKVE
+  LVNFVRP..ENSYDRLESLLDEAAEVLDRLELPYRVLDM.....................
+  ..........CTGDMGFTQAKKYDIEVWAP..GDDMEDGPDRGGRWLEVSSVSNFEDFQA
+  RRAGLRYRPER..HESADYLHTLNGSGLAVPRVLVAIMEYY.QNDDGTITVPEPL.RPYM
+  .GGQEVIEGSEKIGESAVGAGEKE....................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_HALN1
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      165    327  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLSRQFVRE....HPEKVRDALD....AKGV.DADLDRILEVDEEWRE
+  LKARGDELRHDRNEVSSKIGELK..Q.AGDEDAAQEAIERSQALKDELA..DVEA.....
+  ..................RADDLEAELERLLLTLPMVPDEDAPVG.DSEAENVERRREGF
+  DDR.RDLP....................ESVVPHYDLGEELD.ILDFER.GAKVSGGGFY
+  FSKGAGARLEHALVQFMLDVHRE.QGYEDVFPPMPVSARSMEG.TGQFP...KFVEDAYR
+  IGGENDADYD..........................................DDDLWLLP
+  TAEVPVTNMYRDEILLD....DDLPVKHQAYSPNFRREAGEHGTETRGIVRVHQF.NKVE
+  LVNFVRP..EDSAERFHGLLDEAEAVLRRLDLPYRVLEM.....................
+  ..........CTGDMGFTQAKKYDIEVWAP..GDDMDGGPEMGGRWLEVSSVSNFKDFQA
+  RRADIQYRPER..HESAEHLHTLNGSGVAVPRVLVAILEYY.QNDDGTVTVPEAL.QPYM
+  .NGQTRIEGSRKVGESALGDGDREA...................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_CHLCV
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Chlamydophila caviae.Bacteria;
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  ............MLDIKLIRK....APEECEIRLR.....KKDPNISLLPILDLDKEVRR
+  LKTDSESLQSQRKLLSTQIHKAK.....AQGEDASNMISEVERISQDLE..KLEA.....
+  ..................SLEEKNATLQDLLVRLPNYPEEDVPVC.PDKSGNQVIKSVGA
+  LPT.FSF......................TPKHHVELNQKLQ.ILDFKL.PAKTSGSGWP
+  AYKNQGVMLEWALLTYLLNKQRE.HGFQLWLPPLLVKREILFG.SGQIP...KFDGQYYC
+  VEDGD................................................QSLYLIP
+  TAEVVLNGFHSQEIFNE....KDLPIYYAACTPCFRREAGAAGANERGLVRVHQF.NKVE
+  MFAFTTP..EQADQAYEKMLAVVEDILTELKLPYRLSLL.....................
+  ..........STGDMSFTASKTIDAEVWLP...........GQQSYYEVSSISQCTDFQS
+  RRSETRYKDSQ...GKMHFIHTLNGSGLATPRLFVAILENN.QQKDGSVVIPEVL.RPYL
+  .GNQEVLLPQE.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_CHLPN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Chlamydia pneumoniae (Chlamydophila pneumoniae).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    317  PF00587 tRNA-synt_2b
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    112  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      113    160  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIKIIRK....TPEECETRLR.....KKDPKISLEPVLSLDKEVRQ
+  LKTDSETLQAQRRLLSQDIHKAK.....TQGVDATNLIQEVETLAADLE..KIEQ.....
+  ..................HLDQKNAQLHELLSHLPNYPADDIPVS.EDKAGNQVIKSVGD
+  LPI.FSF......................PPKHHLELNQELD.ILDFQA.AAKTTGSGWP
+  AYKNRGVLLEWALLTYMLQKQAA.HGFQLWLPPLLVKKEILFG.SGQIP...KFDGQYYR
+  VEDGE................................................QYLYLIP
+  TAEVVLNGFRSQDILTE....KELPLYYAACTPCFRREAGAAGAQERGLVRVHQF.HKVE
+  MFAFTTP..NQDDIAYEKMLSIVEEMLTELKLPYRLSLL.....................
+  ..........STGDMSFTASKTIDAEVWLP...........GQKAFYEVSSISQCTDFQS
+  RRSGTRYKDSQ...GKLQFVHTLNGSGLATPRLLVAILENN.QQADGSVVIPEVL.RPYL
+  .GGLEILLPKDQ................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_CHLMU
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Chlamydia muridarum.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      161    317  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      383    422  PB000251 Pfam-B_251
+feature 584 624 0 square solid PFAM-B
+  FT   PFAM-B      345    382  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    112  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      113    160  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIRLIRK....EPKECEARLQ.....KKDPSISLERLLDLDKNVRQ
+  LKADSESLLARRKALSGQIHKAK.....VANEDATPLIQGVNAIADQLV..AFEK.....
+  ..................TLQEQEALLLDLMARLPNYPDEDVPVS.PDKSGNKIIKSHGE
+  IPT.FTF......................PPKHHVQLNEKLQ.ILDFKL.PAKTSGSGWP
+  AYKNEGVLLEWALLTYLLNKQQA.HGFQLWLPPLLVKRDILFG.SGQIP...KFDGQYYR
+  VEDGE................................................QSLFLIP
+  TAEVVLNGFHSQEILNE....QDLPLYYAAFTPCFRREAGAGGSHERGLVRVHQF.HKVE
+  MFAFTTP..EQEEIAYQKMIGIVEEILSELQLPYQLSLL.....................
+  ..........STGDMSFTAKKTIDAEVWLP...........GQQAFYEVSSISKCGDFQS
+  RRSETRYRDAQ...GKLHFVNTLNGSGLATPRLLVAILENY.QQEDGSVVIPHAL.RPYM
+  .NNQEILLPKTDR...............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_DEIRA
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Deinococcus radiodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      159    315  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      381    420  PB000251 Pfam-B_251
+feature 584 624 0 square solid PFAM-B
+  FT   PFAM-B      343    380  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    110  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      111    158  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDLKFIRE....NPDAVREAIR.....VKNVALDLDDLLQRDRDLVA
+  LKQRVEAMQTERNANAKLVPKAS.......PEDRPGLIQKGKDLSEDLK..ALEP.....
+  ..................QLREQEDALKQLLLRVPNIPLPGVPVG.KDEDDNVELRREGE
+  LPG.FDF......................TPLDQVEILEKQG.WADFER.VARVSGSRSY
+  LLKGDAALLEMAVLMFALDFLSQ.RGFTPLSTTALVRRETLVN.SGHFP...GDEESVYK
+  LEGD..................................................ELLLAG
+  TAEVPINSLYAGEQLSA....DELPLTFAGFSAAFRREAGSAGRDVRGLIRVHEF.RKVE
+  QYVLCRADQEEGLKWFERLLSNAEGLLQALELPYRVIQN.....................
+  ..........CTGDMGAGKVLMYDIETWVP...........SEQKYRETHSCSYLGDWQA
+  RRTGLRYRDEH...GKLLYAHTLNNTGIASPRILVPLLENH.QQADGTVRVPAAL.RPYL
+  .GGREVLGQPVR................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BORBU
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Borrelia burgdorferi (Lyme disease spirochete).Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      160    314  PF00587 tRNA-synt_2b
+feature 516 579 0 square solid PFAM-B
+  FT   PFAM-B      316    340  PB001109 Pfam-B_1109
+feature 625 655 0 square solid PFAM-B
+  FT   PFAM-B      383    412  PB000251 Pfam-B_251
+feature 586 624 0 square solid PFAM-B
+  FT   PFAM-B      347    382  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       48    111  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      112    159  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDLKFIRD....NLDLVKRSIK.....ARGLVLDIDKLIYLDDKRKK
+  LITKIGELNAKRNENSSKMQENL......DKVLKISLIETGKILKKQLI..DLEE.....
+  ..................ELERVSVDFDLENKKVPNILSPDVPIG.SSEEDNFEIKRVGV
+  VPQ.FDF......................KPKDHLELGRDLD.LLDFDR.AREISGSKFY
+  YLKNEAVFLEIALINFSLNKLRD.KGFDVFITPDVAREFIVDG.IGFNP..RGNESNIYK
+  IED..................................................TDKYLVG
+  TSEITLGGYYYNKIIDL.....TLPIRMAGFSHCFRKEAGAYGQLSKGLYRVHQF.SKVE
+  MFCFCKA..EESGVIHDEFLSIQEQIFTELEIPYRVLNI.....................
+  ..........CSFDLGSPAYKKYDIEAWMP........GRDGKGGYGEVTSTSNCTDYQS
+  RRLKIRYKDQD...GQNKFAHMVNGTAIATTRVIISILENF.QDQKGGVRIPKSL.VKYT
+  ..GFDYIPFKN.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_TREPA
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Treponema pallidum.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     47  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      160    315  PF00587 tRNA-synt_2b
+feature 625 670 0 square solid PFAM-B
+  FT   PFAM-B      383    424  PB000251 Pfam-B_251
+feature 586 624 0 square solid PFAM-B
+  FT   PFAM-B      347    382  PB000259 Pfam-B_259
+feature 129 219 0 square solid PFAM-B
+  FT   PFAM-B       48    107  PB000341 Pfam-B_341
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      113    159  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDYRFIRE....NVDAVKENVK.....VRNVHADVDAIVHLYDQRVK
+  LLAELQELQRARNENAQTMKSSL......DALARSACVETGRALKDRIA..HSER.....
+  ..................LLVQISDQLLSATQALPNMTHMCTPHG.RSDSDNLEIKRCGV
+  PPC.FSF......................SPRDHVELARLLD.IVDFEA.GKKVSGIKFY
+  YLKREGVLLEQALIMFGLQFLQE.RGFVPFLTPDIAREGMVCG.LGFNP..RGSGSNIYR
+  IEG..................................................EHRCLVA
+  TAEITLGAYHAGEVLEE....RSLPRLYAGLSHCFRKEAGAAGQFSRGLYRVHQF.TKLE
+  MFAYCTP..SDSECLHERLRSLEEEIFTALEIPFRVVEV.....................
+  ..........CAGDLGAPAYRKWDLEAWMP.........GRQGGSWGEVTSASNCTDYQA
+  RRLNVRYKDAE...GKKHYVHMLNGTALAISRVLIALLENG.QDAEGRVRIPQAL.VPFC
+  ..GFEYLYPRVL................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYSM_BOVIN
+descrip Seryl-tRNA synthetase, mitochondrial precursor (EC 6.1.1.11)
+creator Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      227    386  PF00587 tRNA-synt_2b
+feature 625 668 0 square solid PFAM-B
+  FT   PFAM-B      452    492  PB000251 Pfam-B_251
+feature 586 624 0 square solid PFAM-B
+  FT   PFAM-B      416    451  PB000259 Pfam-B_259
+feature 239 297 0 square solid PFAM-B
+  FT   PFAM-B      193    226  PB000343 Pfam-B_343
+feature 1 223 0 square solid PFAM-B
+  FT   PFAM-B        1    179  PB042786 Pfam-B_42786
+feature 1 34 12 square solid SIGNAL
+  FT   SIGNAL        1     34  Mitochondrion.
+sequence
+  MAASIVRRLGPLVAGRGLRLRGGCVCNQSFKRSFATERQDRNLLYEHAREGYSALPLLDM
+  ESLCAYPEDAARALDLRKGEL...RSKDLPGIIS......TWQELRQLREQIRSLEEEKE
+  AVTEAVRALVVNQDNSQVQQ..........DPQYQSLRARGREIRKQLT..LLYP.....
+  ..................KEAQLEEQFYLRALRLPNQTHPDVPVG..DESQARVLHVVGD
+  KPA.FSF......................QPRGHLEIAEKLD.IIRQKR.LSHVSGHRSY
+  YLRGAGALLQHGLVNFTLNKLIH.RGFTPMTVPDLLRGVVFEG.CGMTP..NAKPSQIYN
+  IDPSR...............................................FEDLNLAG
+  TAEVGLAGYFMDHSVAF....RDLPIRMVCSSTCYRAETD.TGKEPWGLYRVHHF.TKVE
+  MFGVTGPGLEQSSELLEEFLSLQMEILTELGLHFRVLDM.....................
+  ..........PTQELGLPAYRKFDIEAWMP...........GRGRFGEVTSASNCTDFQS
+  RRLHIMFQTEA...GELQFAHTVNATGCAVPRLLIALLESY.QQKDGSVLVPPAL.QPYL
+  .GTDRITTPTHVPLQYIGPNQPQKPRLPGQPASS..........................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_PYRAB
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Pyrococcus abyssi.Archaea;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     50  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      184    338  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      340    369  PB001109 Pfam-B_1109
+feature 625 673 0 square solid PFAM-B
+  FT   PFAM-B      405    449  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      370    404  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       51    115  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      116    183  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDIKLIRE....NPELVKNDLK..KRGELEKIKWIDEILKLDAEWRA
+  KLKEINKLRHERNKIAIEIGKRR.....KKGEPVEELLAKSKEIVKRIE..SLEK.....
+  ..................EVEELKKKIDYYLWRLPNITHPSVPIG.ESEEDNVPIRFWGK
+  ARVWEGHLERFLEQSQGK...MEYEVLEWRPKLHVDLLEILG.GADFAR.AAKVSGSRFY
+  YLLNEIVILDLALIRFALDELIK.KGFTPVIPPYMVRRFVEEG.STTFE...DFEDVIYK
+  VEGE..................................................DLYLIP
+  TAEHPLAGMHANEILDG....KDLPLLYVGISPCFRKEAGTAGKDTKGIFRVHQF.HKVE
+  QFVYSRP..EESWEWHERIIRNAEELFQKLEIPYRVVNI.....................
+  ..........CTGDLGYVAAKKYDIEAWMP...........GQGRFREVVSASNCTDWQA
+  RRLNIRFRDRT..DEKPRYVHTLNSTAIATSRAIVAILENH.QEEDGTVKIPKVL.WKYT
+  ..GFKEIVPVEKKERCCSS.........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_ARCFU
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Archaeoglobus fulgidus.Archaea;
+type    PROTEIN
+group 1
+feature 76 128 0 square solid PFAM-A
+  FT   PFAM-A        5     49  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      181    335  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      337    366  PB001109 Pfam-B_1109
+feature 625 675 0 square solid PFAM-B
+  FT   PFAM-B      403    449  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      367    402  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       50    112  PB000341 Pfam-B_341
+feature 270 297 0 square solid PFAM-B
+  FT   PFAM-B      155    180  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ...........MWSILKAVRE....NPEILYESQR....RRGLSVDIVDRAIELDRKWRE
+  ELKRVNQLRKRRNELARAVKEAK.......GEERAKVIEEAKAVSEEVK..RAEE.....
+  ..................ELKRLEAELEEVLLSIPNIIHESVPVG.KDDSENVPIKYWGK
+  AKVYFEDVDAFVEMTQGM...AEYEVTDVKPIGHADAVEIFG.WADLER.AAKVAGARFY
+  YLLNDLVWLDFALTMYALDFLRK.EDFTIVSPPYMMRREAYSG.VTAFS...DFEEVIYK
+  VEDE..................................................DLYLIA
+  TSEHPIAAMHMREVLEE....RELPLLYAGVSPCFRKEAGAHGKDTKGIFRVHQF.NKVE
+  QFVFCLP..EQSWEWHEKLIENVEKLWQGLGIPYRIVNI.....................
+  ..........CTGDLGIVAAKKYDLEAWMP...........AQAKYREMVSCSNCTDWQS
+  YRLDIRFAEERG.KPSKGFVHTLNSTAIATTRAITAIIENF.QLEDGRVEIPRVL.RKYL
+  ..EPIESAPKDFIMPAKSQ.........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_SULTO
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Sulfolobus tokodaii.Archaea;
+type    PROTEIN
+group 1
+feature 76 128 0 square solid PFAM-A
+  FT   PFAM-A        6     50  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      184    338  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      340    369  PB001109 Pfam-B_1109
+feature 625 663 0 square solid PFAM-B
+  FT   PFAM-B      404    438  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      370    403  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       51    113  PB000341 Pfam-B_341
+feature 225 270 0 square solid PFAM-B
+  FT   PFAM-B      115    157  PB056673 Pfam-B_56673
+sequence
+  ............................................................
+  ..........MSWSILELVRN....NPDKLKEYIK....RRFIDVSLVDRAVELDKKWRQ
+  TLQEVEKLRHEHNVISSSIPKAK.......PEERQELIKKAKELLKALE..EKEK.....
+  ..................ELDNIENERDNILMQLPNIVDDSAPIG.PDETYSVPIRFWGK
+  FKVYEKDEAEFLSQLKGNR..VDYEIIHWKPVGHADMLENVLKLGDTKK.AAEVSGARFY
+  YLFDDIVWLDIALLNYAIDTMTS.KGYTLVLPPYMLRGEVIKS.VIDLD...TFKDAIYK
+  IENE..................................................DLYLIA
+  TAEHPIAALYFKEEIPK....EKLPLKYVGISPAFRKEAGAANKDLKGIFRVHQF.HKVE
+  QFIFSSP..EDSWKLHEELIRNAEEIFQGLGLPYRVINI.....................
+  ..........ATGDLGACAAKKYDLEVWMP...........AQAKFREMVSCSNCLDWQA
+  YRMRIRYVEKG...GKKGYVHTLNSTAIASTRTITAILENY.QREDGVVEIPKVL.KKYL
+  ..EPFSRAPKDYIYPRKE..........................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_SULSO
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Sulfolobus solfataricus.Archaea;
+type    PROTEIN
+group 1
+feature 78 128 0 square solid PFAM-A
+  FT   PFAM-A        8     50  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      184    338  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      340    369  PB001109 Pfam-B_1109
+feature 625 663 0 square solid PFAM-B
+  FT   PFAM-B      405    439  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      370    404  PB000259 Pfam-B_259
+feature 129 162 0 square solid PFAM-B
+  FT   PFAM-B       51     77  PB000341 Pfam-B_341
+feature 225 270 0 square solid PFAM-B
+  FT   PFAM-B      115    157  PB056673 Pfam-B_56673
+sequence
+  ............................................................
+  ..........MSWSILELLRK....NPEDLKNNLK....RRAIDVSLVDKAVELDKKWRQ
+  VLQEVEKLRHQHNVLSSQISKLS.......GEERKKKIEESKNLLKILE..EKEK.....
+  ..................ELEEIENERDRLLSSLPNLVADDVPNG.PDDSYNVPIKFWGK
+  FKVYEGDVQEFLKQIKDAK..VNYEVIKWKPKGHAEMLEDVLHLGNTLK.AAEIAGSRFY
+  YLFNDIVWLDFSLLLFAIDYITQ.QGYTLVLPPYMLRGEVIQS.VIDLD...TFKDAIYK
+  IENE..................................................DLYLIA
+  TAEHPIAAMFFKEEIEK....DKLPLKFAGISPAFRKEASAANKDLKGIFRVHQF.HKVE
+  QFIFSTP..EDSWKYHSELITNAESIFQQLELPYRIVNI.....................
+  ..........ASGDLGACAAKKFDLEVWMP...........AQAKFREMVSCSNCTDWQA
+  FRMKIRYVDRK..NNRRGYVHTLNSTAIASTRTITAILENY.QREDGVVEVPKVL.RKYL
+  ..EAFPKAPKDYIYPLKNKII.......................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_AERPE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Aeropyrum pernix.Archaea;
+type    PROTEIN
+group 1
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      190    344  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      346    375  PB001109 Pfam-B_1109
+feature 625 663 0 square solid PFAM-B
+  FT   PFAM-B      411    445  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      376    410  PB000259 Pfam-B_259
+feature 76 128 0 square solid PFAM-B
+  FT   PFAM-B       10     54  PB028001 Pfam-B_28001
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       55    118  PB000341 Pfam-B_341
+sequence
+  ............................................................
+  ......MYRVAGWSILELLRS....NPEALKEHVR....KRLMDPAIVDRAYRLDVEWRR
+  LLTMVNEVRRRHNEITRMIAKAG......SREERERLIAEAKRLLRERE..DLEE.....
+  ..................KLKKVEREREEALLGLPNIVAPDVPVG.DESA.TRPIEFWGK
+  PKVWKGHVDAFREQTEAYGFKVDHEVIEWRPRGHADMMEEVLKLGDTLR.AARVAGSRFY
+  YLFEDLVFLDLALLMYAIDFMTS.KGYVLVLPPYMLRYNVMSR.VIDLE...TFKDAIYE
+  IAGE..................................................DLYLIA
+  TAEHPLAALYYNSEIYD....EDLPLKLVGVSPCFRKEAGAGNRDLKGIFRVHQF.HKVE
+  QFVYSLP..EESSKLHEELISNAKEIFKGLEIPFRVVNI.....................
+  ..........ASGDLGACAVKKYDLEAWMP...........AQGKYREMVSASNCTDWQA
+  YRLGIRLVRRK..GMERGYVHTLNATAVASTRTITAILENF.QDEEGVVAIPRAL.RRYL
+  ..EVFKRAPTDAIHPRRRPPA.......................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_PYRAE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Pyrobaculum aerophilum.Archaea;
+type    PROTEIN
+group 1
+feature 76 128 0 square solid PFAM-A
+  FT   PFAM-A        6     50  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      179    333  PF00587 tRNA-synt_2b
+feature 516 584 0 square solid PFAM-B
+  FT   PFAM-B      335    361  PB001109 Pfam-B_1109
+feature 625 676 0 square solid PFAM-B
+  FT   PFAM-B      399    446  PB000251 Pfam-B_251
+feature 585 624 0 square solid PFAM-B
+  FT   PFAM-B      362    398  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       51    113  PB000341 Pfam-B_341
+sequence
+  ............................................................
+  ..........MSYSVLEALRN....SPDVVRKVLT....ARRMDASLVDKFLELDEKWRR
+  LKKEVDELRHEYNKLSKEGAKAP.......PERRREIADKARELAARLER..AEK.....
+  ..................ELEETERAREEVLWSFPNLIHESVPIC.PEGVDSIPVRHWGV
+  VKTTKDVVDKLDKG.......VDYLVVEKAPVGHADMAEVVLKMADTLK.AGEVAGSRFY
+  YLFDDLVWLDFALAMYALDYLAQ.KGFRPVIPPYMLKYDLIRR.VLDFD...TFKDAIYK
+  IDGE..................................................DLYLIA
+  TAEHGIAAYLYKRELLE....EELPQLYVGWSPCFRKEAGAGSRDIKGIFRVHIF.HKVE
+  QFVFSLP..EDSWKWHEEITKNTEELIRGLGLPYRVVNI.....................
+  ..........CAHDLGAPAAKKYDIEVWYP...........SQGMYRELASCSNVTDWQS
+  YRLGIRVTRKG...MKREYVHTLNCTGLATTRTITAILENF.QREDGAVEIPKVL.RQYL
+  ..EPIKAAPKDYILPKAAKSP.......................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_THEAC
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Thermoplasma acidophilum.Archaea;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      182    336  PF00587 tRNA-synt_2b
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       49    113  PB000341 Pfam-B_341
+feature 271 297 0 square solid PFAM-B
+  FT   PFAM-B      157    181  PB000343 Pfam-B_343
+feature 224 270 0 square solid PFAM-B
+  FT   PFAM-B      114    156  PB056671 Pfam-B_56671
+sequence
+  ............................................................
+  ............MIDVKLLRS....NRELFEKNCE....YRGVDKAPVEDFFRLDEEWRS
+  INRELNGLRSQKNRETRKIAELI.....KNNGDASAEKKAVEDINARIS..DLEN.....
+  ..................KLKKIEEERDRILWTIPNLVHESVPVC.FGDENNQLVRYVGH
+  AKVFRDDIEEFKKNSGNS...QDYEVLDERPKSHVDLGLDLN.VIDLES.AARISGSRFY
+  FIKNRLLKLEMALENYAVDFLSQ.RGFSIVEPPYMLNLESMRG.ATDLE...TFKDTLYK
+  IEGE..................................................DLYLIA
+  TSEHSIAAMLSNQFLEE....KDLPLRVAGISACFRREAGAHGKDTKGIFRVHQF.NKIE
+  QFVFCKP..EDSWDFLEEILGNAEAIYRSLGIPYRVVNV.....................
+  ..........CSGELGRLAAKKYDIEAWFP...........AQGKFREIVSASNDTDYQA
+  RSLNIKYRTSE....GNRFVHTLNSTAIATTRILVAIMENF.QEGDR.IRIPDVL.VPYT
+  ..GFQYIEKG..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_STRCO
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Streptomyces coelicolor.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    316  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      318    347  PB001109 Pfam-B_1109
+feature 129 169 0 square solid PFAM-B
+  FT   PFAM-B       49     82  PB000341 Pfam-B_341
+feature 229 297 0 square solid PFAM-B
+  FT   PFAM-B      115    161  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MIDLRLLRE....DPDRVRASQR....ARGEDVALVDSLLSADERRRS
+  SGVRFDELRAEQKGLGKLIGKAA.......GDEKAELLKRAEQLKTDVK..AADA.....
+  ..................ERDAADAETQELLQRLGNLVHPDVPVG..GEEDFVTLETHGT
+  HRD.FAAEGF...................EPRDHLELGQLLG.AIDVER.GAKVSGSRFY
+  FLTGVGALLELALVNAAIAQATA.AGFTPMLTPALVRPQSMAG.TGFLG...QAAQDVYH
+  LDKD..................................................DLYLVG
+  TSEVPLAAYHMDEILDG....DRLPLRYAGFSPCFRREAGSHGKDTRGIFRVHQF.DKVE
+  MFSYVLP..EDSQAEHQRLLEWEKQWLTSLELPFRVIDV.....................
+  ..........ASADLGSSAARKYDCEAWIP...........TQGKYRELTSTSDCTEFQS
+  RRLSIRVREGK....KVRPLATLNGTLCAVPRTIVAILENH.QQADGSVRVPEVL.RPYL
+  .GGREVLEPVAK................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_COREF
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Corynebacterium efficiens.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      158    312  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MIDLKFLRD....NPDVVRTSQI....TRGEDPALVDELLSADEARRQ
+  AIQVADELRSEQKAFGKKIGQAS.......PEDRPALLEGSNELKAKVK..EAEA.....
+  ..................AQETAEQRVHDLQMKLSNVVEG.APAG..GEDDFVVLEHVGE
+  PRT.FDF......................EPKDHLELGESLG.LIDMKR.GTKVSGARFY
+  YLTGDGAMLQLGMLTLAAQKATA.AGFTMMIPPVLVRPEIMAG.TGFLG...DHSEEIYY
+  LERD..................................................DMYLVG
+  TSEVALAGYHKDEIIDL....NNGPVKYAGWSSCFRREAGSYGKDTRGILRVHQF.DKVE
+  MFVYCKP..EEAEEQHRRLLEMEKDMLAAVEVPYRIIDV.....................
+  ..........AGGDLGASAARKFDTEAWVP...........TQGTYRELTSTSNCTTFQG
+  RRLQTRYRDEN...GKPQIAATLNGT.LATTRWLVAILENN.QQADGSVIVPEAL.RPFV
+  ..GKDVLEPVK.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_MYCLE
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Mycobacterium leprae.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      158    310  PF00587 tRNA-synt_2b
+feature 625 667 0 square solid PFAM-B
+  FT   PFAM-B      376    413  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      342    375  PB000259 Pfam-B_259
+feature 129 169 0 square solid PFAM-B
+  FT   PFAM-B       49     82  PB000341 Pfam-B_341
+feature 229 297 0 square solid PFAM-B
+  FT   PFAM-B      115    157  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MIDLQLLRE....DPDVVRRSQL....SRGEDPALVDALLTADTARRA
+  AISAADSLRAEQKATSKSLGAAS.......AEDRPALLERAKDLAEQVK..AAET.....
+  ..................TQAETAAAFAAAYMAISNVVLDGVPTG..GKDDYAVLDIVGD
+  PPP.LSN.......................PKDHLELGEALG.LIDMQR.GAKVSGSRFY
+  FLTGRGALLQLGLLQLALRLAVE.NDFIPMIPPVLVRPEVMSG.TGFLG...AHAEEVYR
+  VD....................................................DLYLVG
+  TSEVPMAGYHSDEILDL....SVGPLRYAGWSSCFRREAGSHGKDTRGIIRVHQF.DKVE
+  GFVYCAP..TDAEVEHQRLLGWQREMLARIEVPYRVIDV.....................
+  ..........AAGDLGSSAARKFDCEAWVP...........TQGSYCELTSTSNCTTFQA
+  RRLATRYRDAS...GKPQIVATLNGT.LGTTRWLVAILENH.QRPDGSVRVPPAL.VPFV
+  ..GTELLESPR.................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BIFLO
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Bifidobacterium longum.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    317  PF00587 tRNA-synt_2b
+sequence
+  ............................................................
+  ............MLDIQFIRE....HTDIVKESQR....KRGESVELVDEVLSSDTARRE
+  ALKAFEEARAQQKEIGKKVASAP.......ADEKAKLIAETKELSQKVS..EYKS.....
+  ..................KADSAAEEYTTAMWKLSNIVEPEAPEG..GEDDYVVVKKVGQ
+  IRD.FAAEG...................FEPKDHLTLGTGVA.GIDMRR.GVKVGGSRFY
+  FLRGQVARMQIAMLTMAVDQAEE.HGFTLAITPTLVRPEVMRG.TGFLN...SHADEIYR
+  LREP.................................................DDQYLVG
+  TSEVALAGMHENEILDL....GNGPLRYCGWSSCYRREAGAAGKDTSGIIRVHQF.DKVE
+  MFVYAKQ..EDSYKEHEHLLAMEQEMLAKVEVPYRIIDT.....................
+  ..........AAGDLGSSAARKFDCEAWVP...........TQGRYRELTSTSNCTEYQA
+  RRLNIRERMED...GGTRPVSTLNGT.LATTRWLVAIMENH.QQKDGSIEIPKAM.RAYM
+  .GGKEVIEPTKWEA..............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_ARATH
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     52  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      168    326  PF00587 tRNA-synt_2b
+feature 625 668 0 square solid PFAM-B
+  FT   PFAM-B      395    433  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      358    394  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       53    117  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      118    167  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDINLFREEKGNNPEIIRESQR....RRFASVEIVDEIIKLDKEWRQ
+  RQFEVDSFRKEFNKLNKQVAQLK.....IKKEDASEIIQQTEKNKQDST..AKEA.....
+  ..................EVREAYAALKAKLEQVGNLVHDSVPVD.KDEANNLVIKLWGE
+  KR..FSTPG...................LKLKNHVDLVELLG.IADTKR.GAEIAGARGF
+  FLKGDGLMLNQALINFGLTFLKK.RGFTGLQPPFFMRKDVMAK.CAQLA...QFDEELYK
+  VTGEG................................................DDKYLIA
+  TAEQPLCAYHIDEWIHP....TELPLRYAGYSSCFRKEAGSHGRDTLGIFRVHQF.EKIE
+  QFCITGPNENASWEMLDEMMKNSEDFYQALKLPYQIVSI.....................
+  ..........VSGALNDAAAKKYDLEAWFP...........SSETFRELVSCSNCTDYQA
+  RRLEIRYGQKKSNEQTKQYVHMLNSTLTATERTICCILENY.QREDG.VDIPEVL.QPFM
+  ..GGETFLPFKAKPVVADTKGKKSKA..................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_HELAN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Helianthus annuus (Common sunflower).Eukaryota;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     52  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      165    323  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      325    354  PB001109 Pfam-B_1109
+feature 625 674 0 square solid PFAM-B
+  FT   PFAM-B      392    436  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      355    391  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       53    117  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      118    164  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDINLFREEKGGNPEIVRESQR....RRGASVEIVDEIIKLDKEWRQ
+  RQFELEQLRKDFNRINKEVAKLR.....ISGGDASSLIKNTEENKDSTA..KKQA.....
+  ..................EVQEARTALYSKLETVGNLVHDSVPVS.NDEADNAVVRTWGE
+  RREETN........................LKNHVELVELLG.IADLKK.GANVAGGRGY
+  YLKGDGVRLNQALINFGLDFLEK.RKYTALQTPFFMRKDIMGK.CAQLA...QFDEELYK
+  VTGEG................................................DDKYLIA
+  TAEQPLCAYHIDDWIHP....NELPLRYAGYSSCFRKEAGSHGRDTLGIFRVHQF.EKVE
+  QFCLTKPSGNDSWEMHEEMIKNSEEFYQMLKLPYQVVSI.....................
+  ..........VSGALNDAAAKKYDLEAWFP...........ASKTYRELVSCSNCTDYQS
+  RKLEIRCGQKKGNEQAKQYCHLLNSTLTATERTLCCILENY.QTEKG.VAIPEVL.QPFM
+  ..GGKTFLDFLKKIKK............................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_BOVIN
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 73 124 0 square solid PFAM-A
+  FT   PFAM-A        1     52  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      191    358  PF00587 tRNA-synt_2b
+feature 125 222 0 square solid PFAM-B
+  FT   PFAM-B       53    142  PB020046 Pfam-B_20046
+feature 625 675 0 square solid PFAM-B
+  FT   PFAM-B      427    474  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      390    426  PB000259 Pfam-B_259
+sequence
+  ............................................................
+  ............VLDLDLFRVDKGGDPALIRESQEKRFKDPGLVDQLVKADSEWRRCRFR
+  ADNLNKLKNLCSKTIGEKMKKKE.......PVGNDESIPEDVLN.LDDLTADTLTNLKVS
+  QIKKVRLLVDEAILKCDAERIKLEAERFESLREIGNLLHPSVPISDDEDADNKVERIWGD
+  CTVRK.........................KYSHVDLVVMVD.GFEGEK.GAVVAGSRGY
+  FLKGVLVFLEQALIQFALRTLAS.RGYTPIYTPFFMRKEVMQE.VAQLS...QFDEELYK
+  VIGKG.......................................SEKSDDNSYEEKYLIA
+  TSEQPIAALHRDEWLRP....EDLPIKYAGLSTCFRQEVGSHGRDTRGIFRVHQF.EKIE
+  QFVYSSPHDNKSWEMFEEMIATAEEFYQSLGIPYHIVNI.....................
+  ..........VSGSLNHAASKKLDLEAWFP...........GSGAFRELVSCSNCTDYQA
+  RRLRIRYGQTKKMMDKVEFVHMLNATMCATTRTICAILENY.QTEKG.ILVPEKL.KEFM
+  PPGLQELIPFVKAAPIDQEPSKKQKKQHEGSKKKGAARDVALESQLQNMEVTDA......
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_CAEEL
+descrip Probable seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA l
+creator Caenorhabditis elegans.Eukaryota;
+type    PROTEIN
+group 1
+feature 73 124 0 square solid PFAM-A
+  FT   PFAM-A        2     53  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      192    359  PF00587 tRNA-synt_2b
+feature 516 587 0 square solid PFAM-B
+  FT   PFAM-B      361    390  PB001109 Pfam-B_1109
+feature 125 222 0 square solid PFAM-B
+  FT   PFAM-B       54    144  PB020046 Pfam-B_20046
+feature 625 660 0 square solid PFAM-B
+  FT   PFAM-B      428    460  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      391    427  PB000259 Pfam-B_259
+sequence
+  ............................................................
+  ...........MVLDIDMFRTEKGGNPEIIRKSQQDRFKDPKLVDEVIELDEKWRKERFV
+  ADQLNRQKNAISKAIGEKMKKKE.......PQGTDDSVADDIVARLAELKIDELSQLTVV
+  QLKKLRVLVDEKSVQTAAAVIANENARHEKLIQIGNLIHSSVVVS.KDEANNKIERTFGD
+  LSTKK.........................KYSHVDLVVMVD.GFDGER.GTVVAGGRGY
+  FLKGPLVFLEQAIIQLALQRLNV.KGYVPLYTPFFMRKEVMQE.VAQLS...QFDDELYK
+  VSSKG.......................................SEIAGDTSVDEKYLIA
+  TSEQPIAAYHRNEWIKE....TELPIKYAGVSTCFRQEVGSHGRDTRGIFRVHQF.EKIE
+  QFVLCSPNDNESWTLFDEMIGNAESYYQELQIPYQVVNI.....................
+  ..........VSGELNNAAAKKFDLEAWFP...........GSGAYRELVSCSNCLDYQS
+  RRLKVRYGQTKKLSGEVPFVHMLNATMCATTRVICAILENN.QTEEG.INVPTAI.QQWM
+  PENYRTFIPFVKPAPIDEDAKKATGKK.................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYSC_SCHPO
+descrip Seryl-tRNA synthetase, cytoplasmic (EC 6.1.1.11) (Serine--tR
+creator Schizosaccharomyces pombe (Fission yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     52  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      168    326  PF00587 tRNA-synt_2b
+feature 625 681 0 square solid PFAM-B
+  FT   PFAM-B      395    446  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      358    394  PB000259 Pfam-B_259
+feature 129 223 0 square solid PFAM-B
+  FT   PFAM-B       53    117  PB000341 Pfam-B_341
+feature 224 297 0 square solid PFAM-B
+  FT   PFAM-B      118    167  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDINLFQVEKGGNPEIIRESQR....KRGADVGVVDKVIEMYKEWVS
+  LRFELDNTNKSINRVQKEIGLKM.....KAKEDASELLEEKNSLTERKK..NLIE.....
+  ..................QETAKNKEMLNVVSSIGNIVHDSVPVS.MDEDNNEIIRKWAP
+  EGVTVEK.....................KNCLSHHEVLTRLD.GYDPER.GVKVSGHRGY
+  FLRQYGVFFNLALIQYGLDFLEK.RGYIALQAPTMLNKDVMAK.TAQLE...QFDEELYK
+  VIDGD................................................EERYLIA
+  TSEQPISAYHSGEWFEKPS..EQLPLKYAGYSTCYRREAGSHGRDAWGIFRVHAF.EKIE
+  QFVLTDP..EKSWEAFTEMINHAEDFYKSLELPYRIVAI.....................
+  ..........VSGALNNAAAKKYDLEAWFP...........FQGEYKELVSCSNCTDYQS
+  RNLEIRCGVKKMGDREKKYVHCLNSTLCATERALCCILENY.QTPDG.VNVPKVL.QPYM
+  ..GGKTFLPFTKELPKNSTSKKGKN...................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYSC_CANAL
+descrip Seryl-tRNA synthetase, cytoplasmic (EC 6.1.1.11) (Serine--tR
+creator Candida albicans (Yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     52  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      176    334  PF00587 tRNA-synt_2b
+feature 625 685 0 square solid PFAM-B
+  FT   PFAM-B      403    459  PB000251 Pfam-B_251
+feature 584 624 0 square solid PFAM-B
+  FT   PFAM-B      362    402  PB000259 Pfam-B_259
+feature 129 222 0 square solid PFAM-B
+  FT   PFAM-B       53    116  PB000341 Pfam-B_341
+sequence
+  ............................................................
+  ............MLDINAFLVEKGGDPEIIKASQK....KRGDSVELVDEIIAEYKEWVK
+  LRFDLDEHNKKLNSVQKEIGKRF.....KAKEDAKDLIAEKEKLSNEKK..EIIE.....
+  ..................KEAEADKNLRSKINQVGNIVHESVVDS.QDEENNELVRTWTP
+  ENYKKPEQIAAATG.............APAKLSHHEVLLRLD.GYDPER.GVRIVGHRGY
+  FLRNYGVFLNQALINYGLSFLSS.KGYVPLQAPVMMNKEVMAK.TAQLS...QFDEELYK
+  VIDGE................................................DEKYLIA
+  TSEQPISAYHAGEWFESPA..EQLPVRYAGYSSCFRREAGSHGKDAWGIFRVHAF.EKIE
+  QFVLTEP..EKSWEEFDRMIGCSEEFYQSLGLPYRVVGI.....................
+  ..........VSGELNNAAAKKYDLEAWFP...........FQQEYKELVSCSNCTDYQS
+  RNLEIRCGIKQQNQQEKKYVHCLNSTLSATERTICCILENY.QKEDG.LVIPEVL.RKYI
+  .PGEPEFIPYIKELPKNTTSVKKAKGKN................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYSC_YEAST
+descrip Seryl-tRNA synthetase, cytoplasmic (EC 6.1.1.11) (Serine--tR
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     52  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      176    334  PF00587 tRNA-synt_2b
+feature 625 664 0 square solid PFAM-B
+  FT   PFAM-B      403    438  PB000251 Pfam-B_251
+feature 588 624 0 square solid PFAM-B
+  FT   PFAM-B      366    402  PB000259 Pfam-B_259
+feature 129 222 0 square solid PFAM-B
+  FT   PFAM-B       53    116  PB000341 Pfam-B_341
+sequence
+  ............................................................
+  ............MLDINQFIEDKGGNPELIRQSQK....ARNASVEIVDEIISDYKDWVK
+  TRFELDELNKKFNKLQKDIGLKF.....KNKEDASGLLAEKEKLTQQKK..ELTE.....
+  ..................KEQQEDKDLKKKVFQVGNIVHPSVVVS.NDEENNELVRTWKP
+  EDLEAVGPIASVTG.............KPASLSHHEILLRLD.GYDPDR.GVKICGHRGY
+  FFRNYGVFLNQALINYGLQFLAA.KGYIPLQAPVMMNKELMSK.TAQLS...EFDEELYK
+  VIDGE................................................DEKYLIA
+  TSEQPISAYHSGEWFEKPQ..EQLPIHYVGYSSCFRREAGSHGKDAWGVFRVHAF.EKIE
+  QFVITEP..EKSWEEFEKMISYSEEFYKSLKLPYRIVGI.....................
+  ..........VSGELNNAAAKKYDLEAWFP...........YQKEYKELVSCSNCTDYQS
+  RNLEIRCGIKKMGDREKKYVHCLNSTLAATQRALCCILENY.QTEDG.LVVPEVL.RKYI
+  .PGEPEFLPFVNELPKNSTSSKDKKKKN................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name SYS_MYCPU
+descrip Seryl-tRNA synthetase (EC 6.1.1.11) (Serine--tRNA ligase) (S
+creator Mycoplasma pulmonis.Bacteria;
+type    PROTEIN
+group 1
+feature 73 128 0 square solid PFAM-A
+  FT   PFAM-A        1     48  PF02403 Seryl_tRNA_N
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      162    314  PF00587 tRNA-synt_2b
+feature 225 297 0 square solid PFAM-B
+  FT   PFAM-B      114    161  PB000343 Pfam-B_343
+sequence
+  ............................................................
+  ............MLDLKKILNNPDYYRNILLN........KKANISLFDELVKIGKKRGE
+  LMQKSQSLKAKINELSKSFIKLK......TNEEKNELKAKISKIKKEQE..QKEK.....
+  ..................KSELIDDRVFFLLANLPNIILDDVPFG.EDENSNIVIEKKEN
+  LGNGLIVH......................DFSHYDIAEKFG.LVDFKR.ASKLSGPRFV
+  IFKNQGAKLARALMDFMLDTNIQ.KGYKEILPPFIVKGHNLFG.TGQLP...KFEEDLFK
+  LENG...................................................MYLIP
+  TAEVPVTNYYNDEIINL.....DKPKMFVSFTECFRSEAGSGGKDNRGLIRSHQF.KKVE
+  IVKITNE..QDGIKEFEKTIEDASHLLELLEIPYQKVLL.....................
+  ..........CSGDTSFSSMKTIDLELWLP...........SEKRFRETSSISYFGDFQG
+  RRAKIRYKQND....KTYFAHTINGSALAIDRVFAALIELNYDSKNELIKIPEKL.VPYF
+  ..GSSQIARK..................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name YHH1_YEAST
+descrip Putative seryl-tRNA synthetase YHR011W (EC 6.1.1.11) (Serine
+creator Saccharomyces cerevisiae (Baker's yeast).Eukaryota;
+type    PROTEIN
+group 1
+feature 298 514 1 square solid PFAM-A
+  FT   PFAM-A      180    339  PF00587 tRNA-synt_2b
+feature 625 668 0 square solid PFAM-B
+  FT   PFAM-B      406    446  PB000251 Pfam-B_251
+feature 586 624 0 square solid PFAM-B
+  FT   PFAM-B      369    405  PB000259 Pfam-B_259
+sequence
+  .....................................................MIIRRLF
+  SISNRSFFLKKPQFDVKKIIEMIPQYQTSIQN......RELIEADSIIRSLQLLGERYQN
+  IKEIDKVIADIQIQRKSIEAQIK......KDKTKITEYSAALKALKEQYN.DQNS.....
+  ..................KSSELKKKILETCKSLPNTLDPTVPLD.APQIEQWINPLKTH
+  KTSEA..........................QAHVDIMLKKN.MLDLQT.ASNVTGMSWY
+  YLLNDGARLEQALVAYALKKANE.NGFSSCVPPSITKKELIDA.CGFNPRDMNNERQIYA
+  LQDT..................................................NLGLVA
+  TAEIPLAGLGANKVLELNS..GECSKKLVGVSRCYRAEAGARGKDTKGLYRVHEF.TKVE
+  LFCWSKP..ETSAKVLEEIKQFQISVVEELGIPAKVLNM.....................
+  ..........PSNDLGNPAFKKYDIEAWMP...........GRGKFGEISSASNCTDFQS
+  RRLNTKYRDDN..TGKLEYVHTLNGTAMAIPRVIVALVENFYDPSTGKISVPECL.REFM
+  ..NGQRYI....................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name 1evk_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 280 286 3 square solid STRUCT
+  FT   STRUCT        3      9  HELIX
+feature 290 291 0 square solid STRUCT
+  FT   STRUCT       13     14  STRAND
+feature 301 302 0 square solid STRUCT
+  FT   STRUCT       24     25  STRAND
+feature 304 323 3 square solid STRUCT
+  FT   STRUCT       27     46  HELIX
+feature 328 329 0 square solid STRUCT
+  FT   STRUCT       50     51  STRAND
+feature 335 338 0 square solid STRUCT
+  FT   STRUCT       57     60  STRAND
+feature 338 342 3 square solid STRUCT
+  FT   STRUCT       60     64  HELIX
+feature 347 357 3 square solid STRUCT
+  FT   STRUCT       68     75  HELIX
+feature 360 363 0 square solid STRUCT
+  FT   STRUCT       78     81  STRAND
+feature 413 418 0 square solid STRUCT
+  FT   STRUCT       84     88  STRAND
+feature 423 430 3 square solid STRUCT
+  FT   STRUCT       93    100  HELIX
+feature 446 450 0 square solid STRUCT
+  FT   STRUCT      112    116  STRAND
+feature 453 455 0 square solid STRUCT
+  FT   STRUCT      119    121  STRAND
+feature 460 465 3 square solid STRUCT
+  FT   STRUCT      126    128  HELIX
+feature 474 485 0 square solid STRUCT
+  FT   STRUCT      137    147  STRAND
+feature 487 509 3 square solid STRUCT
+  FT   STRUCT      149    169  HELIX
+feature 515 520 0 square solid STRUCT
+  FT   STRUCT      175    180  STRAND
+feature 530 545 3 square solid STRUCT
+  FT   STRUCT      190    205  HELIX
+feature 552 553 0 square solid STRUCT
+  FT   STRUCT      212    213  STRAND
+feature 564 570 0 square solid STRUCT
+  FT   STRUCT      224    230  STRAND
+feature 586 595 0 square solid STRUCT
+  FT   STRUCT      236    245  STRAND
+feature 598 602 3 square solid STRUCT
+  FT   STRUCT      248    251  HELIX
+feature 607 608 0 square solid STRUCT
+  FT   STRUCT      256    257  STRAND
+feature 614 615 0 square solid STRUCT
+  FT   STRUCT      263    264  STRAND
+feature 618 630 0 square solid STRUCT
+  FT   STRUCT      267    277  STRAND
+feature 630 641 3 square solid STRUCT
+  FT   STRUCT      277    288  HELIX
+feature 665 669 0 square solid STRUCT
+  FT   STRUCT      301    305  STRAND
+feature 680 692 3 square solid STRUCT
+  FT   STRUCT      311    323  HELIX
+feature 697 700 0 square solid STRUCT
+  FT   STRUCT      328    331  STRAND
+feature 706 715 3 square solid STRUCT
+  FT   STRUCT      337    346  HELIX
+feature 720 724 0 square solid STRUCT
+  FT   STRUCT      351    355  STRAND
+feature 726 733 3 square solid STRUCT
+  FT   STRUCT      357    362  HELIX
+feature 735 740 0 square solid STRUCT
+  FT   STRUCT      364    369  STRAND
+feature 745 751 0 square solid STRUCT
+  FT   STRUCT      374    380  STRAND
+feature 751 763 3 square solid STRUCT
+  FT   STRUCT      380    392  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................................RDHRKIGKQLDLYHMQEEAPGMV
+  FWHNDGWTIFRELEVFVRSKLKE.YQYQEVKGPFMMDRVLWEK.TGHWD...NYKDAMFT
+  TSSE...............................................NR.EYCIKP
+  MNCPGHVQIFNQGLKSY....RDLPLRMAEFGSCHRNEPS...GSLHGLMRVRGF.TQDD
+  AHIFCTE..EQIRDEVNGCIRLVYDMYSTFGFEKIVVKLSTRPEKRIGSDEMWDRAEADL
+  AVALEENNIPFEYQLGEGAFYGPKIEFTLYDC..........LDRAWQCGTVQLDFSLPS
+  .RLSASYVGEDNERKVPVMIHRAILGS..MERFIGILTEEFA......GFFPTWL.APVQ
+  ....VVIMNI.....TDSQSEYVNELTQKLSNAGIRVKADLRNEKIGFKIREHTLRRVPY
+  MLVCGDKEVE..SGKVAVRTRRGKDLGSMDVNEVIEKLQQEIRSRSLKQLEE........
+  ............................................................
+  ............................................................
+  ............
+}
+{
+name 1nj8_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 275 285 3 square solid STRUCT
+  FT   STRUCT        4     14  HELIX
+feature 304 323 3 square solid STRUCT
+  FT   STRUCT       32     51  HELIX
+feature 328 329 0 square solid STRUCT
+  FT   STRUCT       55     56  STRAND
+feature 335 338 0 square solid STRUCT
+  FT   STRUCT       62     65  STRAND
+feature 338 344 3 square solid STRUCT
+  FT   STRUCT       65     71  HELIX
+feature 349 357 3 square solid STRUCT
+  FT   STRUCT       76     81  HELIX
+feature 359 363 0 square solid STRUCT
+  FT   STRUCT       83     87  STRAND
+feature 411 418 0 square solid STRUCT
+  FT   STRUCT       92     99  STRAND
+feature 423 431 3 square solid STRUCT
+  FT   STRUCT      104    112  HELIX
+feature 448 452 0 square solid STRUCT
+  FT   STRUCT      125    129  STRAND
+feature 478 485 0 square solid STRUCT
+  FT   STRUCT      151    158  STRAND
+feature 489 510 3 square solid STRUCT
+  FT   STRUCT      161    182  HELIX
+feature 515 519 0 square solid STRUCT
+  FT   STRUCT      187    191  STRAND
+feature 561 568 0 square solid STRUCT
+  FT   STRUCT      202    209  STRAND
+feature 586 596 0 square solid STRUCT
+  FT   STRUCT      215    225  STRAND
+feature 598 602 3 square solid STRUCT
+  FT   STRUCT      227    231  HELIX
+feature 606 608 0 square solid STRUCT
+  FT   STRUCT      235    237  STRAND
+feature 617 619 0 square solid STRUCT
+  FT   STRUCT      243    245  STRAND
+feature 621 627 0 square solid STRUCT
+  FT   STRUCT      247    253  STRAND
+feature 632 641 3 square solid STRUCT
+  FT   STRUCT      256    265  HELIX
+feature 665 669 0 square solid STRUCT
+  FT   STRUCT      282    286  STRAND
+feature 676 691 3 square solid STRUCT
+  FT   STRUCT      293    308  HELIX
+feature 697 699 0 square solid STRUCT
+  FT   STRUCT      313    315  STRAND
+feature 706 715 3 square solid STRUCT
+  FT   STRUCT      322    331  HELIX
+feature 720 724 0 square solid STRUCT
+  FT   STRUCT      336    340  STRAND
+feature 726 730 3 square solid STRUCT
+  FT   STRUCT      342    346  HELIX
+feature 735 740 0 square solid STRUCT
+  FT   STRUCT      349    354  STRAND
+feature 746 750 0 square solid STRUCT
+  FT   STRUCT      360    364  STRAND
+feature 754 782 3 square solid STRUCT
+  FT   STRUCT      368    395  HELIX
+feature 782 784 0 square solid STRUCT
+  FT   STRUCT      395    397  STRAND
+feature 790 796 3 square solid STRUCT
+  FT   STRUCT      403    409  HELIX
+feature 803 807 0 square solid STRUCT
+  FT   STRUCT      416    420  STRAND
+feature 810 812 3 square solid STRUCT
+  FT   STRUCT      423    425  HELIX
+feature 815 821 3 square solid STRUCT
+  FT   STRUCT      428    434  HELIX
+feature 825 830 0 square solid STRUCT
+  FT   STRUCT      438    443  STRAND
+feature 835 840 0 square solid STRUCT
+  FT   STRUCT      448    453  STRAND
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................MLEFSEWYSDILEKAEIYDVR.YPIKGCG
+  VYLPYGFKIRRYTFEIIRNLLDE.SGHDEALFPMLIPEDLLAKEAEHIK...GFEDEVYW
+  VTHGG...........................................KTQLDVKLALRP
+  TSETPIYYMMKLWVKVH....TDLPIKIYQIVNTFRYETK....HTRPLIRLREIMTFKE
+  AHTAHST.KEEAENQVKEAISIYKKFFDTLGIPYLISKRPE...................
+  ...........WDKFPG.AEYTMAFDTIFP............DGRTMQIATVHNLGQNFS
+  KTFEIIFETPTG...DKDYAYQTCYGI..SDRVIASIIAIH.GDEKG.LILPPIV.APIQ
+  ....VVIVPLIFKGKEDIVMEKAKEIYEKLKG.KFRVHIDDRDIRPGRKFNDWEIKGVPL
+  RIEVGPKDIENK..KITLFRRDTMEKFQVDETQLME.VVEKTLNNIMENIKNRAWEKFEN
+  FITILEDINPDEIKNILSEKRGVILVPFKEEIYNEELEEKVEATILGETEYKGNKYIAIA
+  KTY.........................................................
+  ............
+}

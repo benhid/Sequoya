@@ -1,0 +1,1478 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name CTRA_GADMO
+descrip Chymotrypsin A precursor (EC 3.4.21.1).
+creator Gadus morhua (Atlantic cod).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       34    256  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         75     75  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        120    120  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        213    213  ACT_SITE_Charge relay system By similarity
+feature 551 726 3 square solid SITE
+  FT   SITE         19    140  DISULFID_By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         60     76  DISULFID_By similarity
+feature 742 820 3 square solid SITE
+  FT   SITE        154    219  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        186    200  DISULFID_By similarity
+feature 810 845 3 square solid SITE
+  FT   SITE        209    238  DISULFID_By similarity
+feature 533 550 4 square solid SIGNAL
+  FT   SIGNAL        1     18  gen.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....................................................MGHEVDSV
+  LPGLFRRTYGCGRPAISPVITG.......................YSRIVNGEEAVPHSW
+  SWQVSLQDQ...TGFHFCGGSLINENWVVTAAHCNVK......NYHRVVLGEHDRSSNS.
+  EGVQVMTVGQVFKHPRYNGFTI.............NNDILLVKLATP.......ATLNMR
+  .VSPVCLAETDD..VFEGGMKCVTSGWGLTRYNA.ADTPALLQQAALPLLTNEQCKK..F
+  WGN.......KISDLMICAGA...AGASSCMGDSGGPLVCQKAG....SWTLVGIVSWG.
+  .SGTCTPTMPGVYARVTELRAWVDQTIAAN..............................
+  .........................
+}
+{
+name TMS3_HUMAN
+descrip Transmembrane protease, serine 3 (EC 3.4.21.-) (Serine prote
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 365 412 5 square solid DOMAIN
+  FT   DOMAIN        1     48  Cytoplasmic (Potential).
+feature 434 873 5 square solid DOMAIN
+  FT   DOMAIN       70    454  Extracellular (Potential).
+feature 436 472 5 square solid DOMAIN
+  FT   DOMAIN       72    108  LDL-receptor class A.
+feature 473 577 5 square solid DOMAIN
+  FT   DOMAIN      109    205  SRCR.
+feature 589 873 5 square solid DOMAIN
+  FT   DOMAIN      217    454  Serine protease.
+feature 435 473 1 square solid PFAM-A
+  FT   PFAM-A       71    109  PF00057 ldl_recept_a
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A      217    444  PF00089 trypsin
+feature 365 434 0 square solid PFAM-B
+  FT   PFAM-B        1     70  PB032922 Pfam-B_32922
+feature 633 633 0 square solid SITE
+  FT   SITE        257    257  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        304    304  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        401    401  ACT_SITE_Charge relay system By similarity
+feature 588 589 12 square solid SITE
+  FT   SITE        216    217  SITE_Cleavage Potential
+feature 437 449 3 square solid SITE
+  FT   SITE         73     85  DISULFID_By similarity
+feature 443 462 3 square solid SITE
+  FT   SITE         79     98  DISULFID_By similarity
+feature 456 471 3 square solid SITE
+  FT   SITE         92    107  DISULFID_By similarity
+feature 493 558 3 square solid SITE
+  FT   SITE        129    194  DISULFID_By similarity
+feature 506 568 3 square solid SITE
+  FT   SITE        142    204  DISULFID_By similarity
+feature 579 726 3 square solid SITE
+  FT   SITE        207    324  DISULFID_By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE        242    258  DISULFID_By similarity
+feature 742 820 3 square solid SITE
+  FT   SITE        338    407  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        370    386  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        397    425  DISULFID_By similarity
+feature 593 593 5 square solid SITE
+  FT   SITE        221    221  CARBOHYD_Nlinked GlcNAc Potential
+feature 413 433 0 square solid TRANSMEM
+  FT   TRANSMEM     49     69  Signal-anchor for type II membrane
+feature 365 491 1 square solid VARSPLIC
+  FT   VARSPLIC      1    127  Missing (in isoform B).
+feature 719 873 1 square solid VARSPLIC
+  FT   VARSPLIC    318    454  EMIQPVCLPNSEENFPDGKVCWTSGWGATEDGAGDASPVLN
+feature 637 674 1 square solid VARSPLIC
+  FT   VARSPLIC    261    293  DLYLPKSWTIQVGLVSLLDNPAPSHLVEKIVYH -> EIVA
+feature 675 873 1 square solid VARSPLIC
+  FT   VARSPLIC    294    454  Missing (in isoform T).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....MGENDPPAVEAPFSFRSLFGLDDLKISPVAPDADAVAAQILSLLPLKFFPIIVIGI
+  IALILALAIGLGIHFDCSGKYRCRSSFKCIELIARCDGVSDCKDGEDEYRCVRVGGQNAV
+  LQVFTAASWKTMCSDDWKGHYANVACAQLGFPSYVSSDNLRVSSLEGQFREEFVSIDHLL
+  PDDKVTALHHSVYVREGCASGHVVTLQC........TACGHRRGYSSRIVGGNMSLLSQW
+  PWQASLQF....QGYHLCGGSVITPLWIITAAHCVYD..LYLPKSWTIQVGLVSLLDNP.
+  ..APSHLVEKIVYHSKYKPKRLG.............NDIALMKLAGP.......LTFNEM
+  .IQPVCLPNSEE..NFPDGKVCWTSGWGATEDGAG.DASPVLNHAAVPLISNKICNHRDV
+  YGG.......IISPSMLCAGYLT.GGVDSCQGDSGGPLVCQERR....LWKLVGATSFG.
+  .IGCAEVNKPGVYTRVTSFLDWIHEQMERDLKT...........................
+  .........................
+}
+{
+name PLMN_BOVIN
+descrip Plasminogen precursor (EC 3.4.21.7).
+creator Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 29 105 5 square solid DOMAIN
+  FT   DOMAIN       29    105  PAN.
+feature 110 188 5 square solid DOMAIN
+  FT   DOMAIN      110    188  Kringle 1.
+feature 192 269 5 square solid DOMAIN
+  FT   DOMAIN      192    269  Kringle 2.
+feature 282 359 5 square solid DOMAIN
+  FT   DOMAIN      282    359  Kringle 3.
+feature 386 463 5 square solid DOMAIN
+  FT   DOMAIN      384    461  Kringle 4.
+feature 489 568 5 square solid DOMAIN
+  FT   DOMAIN      485    564  Kringle 5.
+feature 589 870 5 square solid DOMAIN
+  FT   DOMAIN      584    812  Serine protease.
+feature 24 106 2 square solid PFAM-A
+  FT   PFAM-A       24    106  PF00024 PAN
+feature 110 188 3 square solid PFAM-A
+  FT   PFAM-A      110    188  PF00051 kringle
+feature 192 269 3 square solid PFAM-A
+  FT   PFAM-A      192    269  PF00051 kringle
+feature 282 359 3 square solid PFAM-A
+  FT   PFAM-A      282    359  PF00051 kringle
+feature 386 463 3 square solid PFAM-A
+  FT   PFAM-A      384    461  PF00051 kringle
+feature 489 568 3 square solid PFAM-A
+  FT   PFAM-A      485    564  PF00051 kringle
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A      584    805  PF00089 trypsin
+feature 315 315 5 square solid SITE
+  FT   SITE        315    315  CARBOHYD_Nlinked GlcNAc
+feature 365 365 5 square solid SITE
+  FT   SITE        365    365  CARBOHYD_Olinked GalNAc
+feature 633 633 0 square solid SITE
+  FT   SITE        624    624  ACT_SITE_Charge relay system
+feature 698 698 0 square solid SITE
+  FT   SITE        667    667  ACT_SITE_Charge relay system
+feature 814 814 0 square solid SITE
+  FT   SITE        762    762  ACT_SITE_Charge relay system
+feature 1 26 4 square solid SIGNAL
+  FT   SIGNAL        1     26  mogen.
+sequence
+  MLPASPKMEHKAVVFLLLLFLKSGLGDLLDDYVNTQGASLLSLSRKNLAGRSVEDCAAKC
+  EEETDFVCRAFQYHSKEQQCVVMAENSKNTPVFRMRDVILYEKRIYLLECKTGNGQTYRG
+  TTAETKSGVTCQKWSATSPHVPKFSPEKFPLAGLEENYCRNPDNDENGPWCYTTDPDKRY
+  DYCDIPECEDKCMHCSGENYEGKIAKTMSGRDCQAWDSQSPHAHGYIPSKFPNKNLKMNY
+  CRNPDGEPRPWCFTTDPQKRWEFCDIPRCTTPPPSSGPKYQCLKGTGKNYGGTVAVTESG
+  HTCQRWSEQTPHKHNRTPENFPCKNLEENYCRNPNGEKAPWCYTTNSEVRWEYCTIPSCE
+  SSPLSTE..RMDVPVPPEQTPVPQDCYHGNGQSYRGTSSTTITGRKCQSWSSMTPHRHLK
+  TPENYPNAGLTMNYCRNPDADKSPWCYTTDPRVRWEFCNLKKCS..ETPEQVPAAPQAPG
+  VENPPEADCMIGTGKSYRGKKATTVAGVPCQEWAAQEPHQHSIFTPETNPQSGLERNYCR
+  NPDGDVNGPWCYTMNPRKPFDYCDVPQCESS.FDCGKPKVEPKKCSGRIVGGCVSKPHSW
+  PWQVSLRR....SSRHFCGGTLISPKWVLTAAHCLDN..ILALSFYKVILGAHNEKVRE.
+  QSVQEIPVSRLFREPS...................QADIALLKLSRP.......AIITKE
+  .VIPACLPPPNY..MVAARTECYITGWGETQGTFG...EGLLKEAHLPVIENKVCNRNEY
+  LDG.......RVKPTELCAGHLI.GGTDSCQGDSGGPLVCFEKD....KYILQGVTSWG.
+  .LGCARPNKPGVYVRVSPYVPWIEETMRRN..............................
+  .........................
+}
+{
+name TRYP_ASTFL
+descrip Trypsin I (EC 3.4.21.4).
+creator Astacus fluviatilis (Broad-fingered crayfish) (Astacus astac
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A        1    232  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         45     45  ACT_SITE_Charge relay system By similarity
+feature 652 652 1 square solid SITE
+  FT   SITE         64     64  METAL_Calcium By similarity
+feature 657 657 1 square solid SITE
+  FT   SITE         69     69  METAL_Calcium via carbonyl oxygen By
+feature 663 663 1 square solid SITE
+  FT   SITE         74     74  METAL_Calcium By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        189    189  ACT_SITE_Charge relay system By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         30     46  DISULFID_Charge relay system By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        159    174  DISULFID_Charge relay system By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        185    213  DISULFID_Charge relay system By similarity
+feature 808 808 12 square solid SITE
+  FT   SITE        183    183  SITE_Required for specificity By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................................IVGGTDAVLGEF
+  PYQLSFQETFLGFSFHFCGASIYNENYAITAGHCVYGDDYENPSGLQIVAGELDMSVNE.
+  GSEQTITVSKIILHENFDYDLL.............DNDISLLKLSGS.......LTFNNN
+  .VAPIALPAQG....HTATGNVIVTGWGTTSEGG..NTPDVLQKVTVPLVSDAECRDDYG
+  AD........EIFDSMICAGVPE.GGKDSCQGDSGGPLAASDTG....STYLAGIVSWG.
+  .YGCARPGYPGVYTEVSYHVDWIKANAV................................
+  .........................
+}
+{
+name TMS5_HUMAN
+descrip Transmembrane protease, serine 5 (EC 3.4.21.-) (Spinesin).
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 372 420 5 square solid DOMAIN
+  FT   DOMAIN        1     49  Cytoplasmic (Potential).
+feature 442 872 5 square solid DOMAIN
+  FT   DOMAIN       71    457  Extracellular (Potential).
+feature 483 578 5 square solid DOMAIN
+  FT   DOMAIN      112    207  SRCR.
+feature 589 872 5 square solid DOMAIN
+  FT   DOMAIN      218    457  Serine protease.
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A      218    448  PF00089 trypsin
+feature 372 483 0 square solid PFAM-B
+  FT   PFAM-B        1    112  PB053138 Pfam-B_53138
+feature 484 583 0 square solid PFAM-B
+  FT   PFAM-B      113    212  PB005943 Pfam-B_5943
+feature 633 633 0 square solid SITE
+  FT   SITE        258    258  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        308    308  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        405    405  ACT_SITE_Charge relay system By similarity
+feature 588 589 12 square solid SITE
+  FT   SITE        217    218  SITE_Cleavage Potential
+feature 506 567 3 square solid SITE
+  FT   SITE        135    196  DISULFID_By similarity
+feature 519 577 3 square solid SITE
+  FT   SITE        148    206  DISULFID_By similarity
+feature 580 726 3 square solid SITE
+  FT   SITE        209    328  DISULFID_By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE        243    259  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        374    390  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        401    429  DISULFID_By similarity
+feature 534 534 5 square solid SITE
+  FT   SITE        163    163  CARBOHYD_Nlinked GlcNAc Potential
+feature 541 541 5 square solid SITE
+  FT   SITE        170    170  CARBOHYD_Nlinked GlcNAc Potential
+feature 566 566 5 square solid SITE
+  FT   SITE        195    195  CARBOHYD_Nlinked GlcNAc Potential
+feature 716 716 5 square solid SITE
+  FT   SITE        319    319  CARBOHYD_Nlinked GlcNAc Potential
+feature 776 776 5 square solid SITE
+  FT   SITE        375    375  CARBOHYD_Nlinked GlcNAc Potential
+feature 421 441 0 square solid TRANSMEM
+  FT   TRANSMEM     50     70  Signal-anchor for type II membrane
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........MSLMLDDQPPMEAQYAEEGPGPGIFRAEPGDQQHPISQAVCWRSMRRGC
+  AVLGALGLLAGAGVGSWLLVLYLCPAASQPISGTLQDEEITLSCSEASAEEALLPALPKT
+  VSFRINSEDFLLEAQVRDQPRWLLVCHEGWSPALGLQICWSLGHLRLTHHKGVNLTDIKL
+  NSSQEFAQLSPRLGGFLEEAWQPRNNCTSGQVVSLRCSECGARPLASRIVGGQSVAPGRW
+  PWQASVALG....FRHTCGGSVLAPRWVVTAAHCMHSFRLARLSSWRVHAGLVSHSAVR.
+  .PHQGALVERIIPHPLYSAQNH.............DYDVALLRLQTA.......LNFSDT
+  .VGAVCLPAKEQ..HFPKGSRCWVSGWGHTHPSH.TYSSDMLQDTVVPLFSTQLCNSSCV
+  YSG.......ALTPRMLCAGYLD.GRADACQGDSGGPLVCPDGD....TWRLVGVVSWG.
+  .RACAEPNHPGVYAKVAEFLDWIHDTAQDSLL............................
+  .........................
+}
+{
+name KAL_HUMAN
+descrip Plasma kallikrein precursor (EC 3.4.21.34) (Plasma prekallik
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 219 302 5 square solid DOMAIN
+  FT   DOMAIN       21    104  Apple 1.
+feature 309 392 5 square solid DOMAIN
+  FT   DOMAIN      111    194  Apple 2.
+feature 399 482 5 square solid DOMAIN
+  FT   DOMAIN      201    284  Apple 3.
+feature 490 573 5 square solid DOMAIN
+  FT   DOMAIN      292    375  Apple 4.
+feature 587 863 5 square solid DOMAIN
+  FT   DOMAIN      389    621  Serine protease.
+feature 219 302 2 square solid PFAM-A
+  FT   PFAM-A       21    104  PF00024 PAN
+feature 309 392 2 square solid PFAM-A
+  FT   PFAM-A      111    194  PF00024 PAN
+feature 399 482 2 square solid PFAM-A
+  FT   PFAM-A      201    284  PF00024 PAN
+feature 490 573 2 square solid PFAM-A
+  FT   PFAM-A      292    375  PF00024 PAN
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A      391    621  PF00089 trypsin
+feature 325 325 5 square solid SITE
+  FT   SITE        127    127  CARBOHYD_Nlinked GlcNAc
+feature 506 506 5 square solid SITE
+  FT   SITE        308    308  CARBOHYD_Nlinked GlcNAc
+feature 594 594 5 square solid SITE
+  FT   SITE        396    396  CARBOHYD_Nlinked GlcNAc
+feature 654 654 5 square solid SITE
+  FT   SITE        453    453  CARBOHYD_Nlinked GlcNAc
+feature 716 716 5 square solid SITE
+  FT   SITE        494    494  CARBOHYD_Nlinked GlcNAc
+feature 633 633 0 square solid SITE
+  FT   SITE        434    434  ACT_SITE_Charge relay system
+feature 698 698 0 square solid SITE
+  FT   SITE        483    483  ACT_SITE_Charge relay system
+feature 814 814 0 square solid SITE
+  FT   SITE        578    578  ACT_SITE_Charge relay system
+feature 219 302 3 square solid SITE
+  FT   SITE         21    104  DISULFID_Charge relay system
+feature 245 275 3 square solid SITE
+  FT   SITE         47     77  DISULFID_Charge relay system
+feature 249 255 3 square solid SITE
+  FT   SITE         51     57  DISULFID_Charge relay system
+feature 309 392 3 square solid SITE
+  FT   SITE        111    194  DISULFID_Charge relay system
+feature 335 364 3 square solid SITE
+  FT   SITE        137    166  DISULFID_Charge relay system
+feature 339 345 3 square solid SITE
+  FT   SITE        141    147  DISULFID_Charge relay system
+feature 399 482 3 square solid SITE
+  FT   SITE        201    284  DISULFID_Charge relay system
+feature 425 454 3 square solid SITE
+  FT   SITE        227    256  DISULFID_Charge relay system
+feature 429 435 3 square solid SITE
+  FT   SITE        231    237  DISULFID_Charge relay system
+feature 490 573 3 square solid SITE
+  FT   SITE        292    375  DISULFID_Charge relay system
+feature 516 545 3 square solid SITE
+  FT   SITE        318    347  DISULFID_Charge relay system
+feature 520 526 3 square solid SITE
+  FT   SITE        322    328  DISULFID_Charge relay system
+feature 538 543 3 square solid SITE
+  FT   SITE        340    345  DISULFID_Charge relay system
+feature 581 726 3 square solid SITE
+  FT   SITE        383    503  DISULFID_Charge relay system
+feature 618 634 3 square solid SITE
+  FT   SITE        419    435  DISULFID_Charge relay system
+feature 742 820 3 square solid SITE
+  FT   SITE        517    584  DISULFID_Charge relay system
+feature 775 798 3 square solid SITE
+  FT   SITE        548    563  DISULFID_Charge relay system
+feature 810 844 3 square solid SITE
+  FT   SITE        574    602  DISULFID_Charge relay system
+feature 199 217 4 square solid SIGNAL
+  FT   SIGNAL        1     19  al; Zymogen.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................MILFKQATYFISLFATVSCGCLTQLYENAFFRGGDVASMYTP
+  NAQYCQMRCTFHPRCLLFSFLPASSINDMEKRFGCFLKDSVTGTLPKVHRTGAVSGHSLK
+  QCGHQISACHRDIYKGVDMRGVNFNVSKVSSVEECQKRCTNNIRCQFFSYATQTFHKAEY
+  RNNCLLKYSPGGTPTAIKVLSNVESGFSLKPCALSEIGCHMNIFQHLAFSDVDVARVLTP
+  DAFVCRTICTYHPNCLFFTFYTNVWKIESQRNVCLLKTSESGTPSSSTPQENTISGYSLL
+  TCKRTLPEPCHSKIYPGVDFGGEELNVTFVKGVNVCQETCTKMIRCQFFTYSLLPEDCKE
+  EKCKCFLRLSMDGSPTRIAYGTQGSSGYSLRLCNTGDNSVCTTKTSTRIVGGTNSSWGEW
+  PWQVSLQVKL.TAQRHLCGGSLIGHQWVLTAAHCFDG..LPLQDVWRIYSGILNLSDIT.
+  KDTPFSQIKEIIIHQNYKVSEG.............NHDIALIKLQAP.......LNYTEF
+  .QKPICLPSKGD..TSTIYTNCWVTGWGFSKEKG..EIQNILQKVNIPLVTNEECQKRYQ
+  DY........KITQRMVCAGYKE.GGKDACKGDSGGPLVCKHNG....MWRLVGITSWG.
+  .EGCARREQPGVYTKVAEYMDWILEKTQSSDGKAQMQSPA....................
+  .........................
+}
+{
+name TRY5_AEDAE
+descrip Trypsin 5G1 precursor (EC 3.4.21.4) (Fragment).
+creator Aedes aegypti (Yellowfever mosquito).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       12    232  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         53     53  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE         97     97  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        193    193  ACT_SITE_Charge relay system By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         38     54  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        162    178  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        189    213  DISULFID_By similarity
+feature 808 808 12 square solid SITE
+  FT   SITE        187    187  SITE_Required for specificity By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........TMVERSDSSG..........................RIVGGFEVPVEEV
+  PFQVSLSG...VGSSHFCGGSLLSERWVMTAGHCAASG....QTNLQVRIGSSQHASGG.
+  ...QLIKVKKVNRHPKYDEVTT.............DYDFALLELEET.......VTFSDS
+  .CAPVKLPQKDT..PVNEGTCLQVSGWGNTQNPS..ESSEVLRAAYVPAVSQKECHKAYL
+  SFG.......GVTDRMVCAGFKE.GGKDSCQGDSGGPLVHD........NTLVGVVSWG.
+  .YGCAQAGYPGVYARVASVRDWVKEVSGL...............................
+  .........................
+}
+{
+name TRY3_AEDAE
+descrip Trypsin 3A1 precursor (EC 3.4.21.4).
+creator Aedes aegypti (Yellowfever mosquito).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       28    248  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         68     68  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        113    113  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        209    209  ACT_SITE_Charge relay system By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         53     69  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        178    194  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        205    229  DISULFID_By similarity
+feature 808 808 12 square solid SITE
+  FT   SITE        203    203  SITE_Required for specificity By similarity
+feature 536 555 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................................MNQFL
+  FVSFCALLDSAKVSAATLSSG..........................RIVGGFQIDIAEV
+  PHQVSLQR....SGRHFCGGSIISPRWVLTRAHCTTNT...DPAAYTIRAGSTDRTNGG.
+  ...IIVKVKSVIPHPQYNGDTY.............NYDFSLLELDES.......IGFSRS
+  .IEAIALPDASE..TVADGAMCTVSGWGDTKNVF..EMNTLLRAVNVPSYNQAECAAALV
+  NVV.......PVTEQMICAGYAA.GGKDSCQGDSGGPLVSG........DKLVGVVSWG.
+  .KGCALPNLPGVYARVSTVRQWIREVSEV...............................
+  .........................
+}
+{
+name GILX_HELHO
+descrip Gilatoxin (EC 3.4.21.-).
+creator Heloderma horridum horridum (Mexican beaded lizard).Eukaryot
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A        1    234  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         41     41  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        196    196  ACT_SITE_Charge relay system By similarity
+feature 835 835 5 square solid SITE
+  FT   SITE        209    209  CARBOHYD_Nlinked GlcNAc
+feature 595 764 3 square solid SITE
+  FT   SITE          7    156  DISULFID_By similarity
+feature 687 873 3 square solid SITE
+  FT   SITE         85    244  DISULFID_By similarity
+feature 741 820 3 square solid SITE
+  FT   SITE        135    202  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        167    181  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        192    216  DISULFID_By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................................IIGGQECDETGH
+  PWLALLHR....SEGSTWSGVLLNRDWILTAAHCEEL......GPMKICFGMKNRNVLR.
+  ...GDEQVKVAAVKKCYPATAGTIYNCNYVNTVLMNNDLLKRELFPMLIKLDSSVDYNER
+  .VAPLSLPTSP...ASLGAECS.VLGWGTTTPDD.VTLPDVPVCVNIEIFNNAVCQVARD
+  L.........WKFTNKLCAGVDF.GGKDSCKGDSGGPLVCD........NQLTGNVSWG.
+  .FNCEQGEKYG.YIKLIKFNFWIQNIIQGGTTCP..........................
+  .........................
+}
+{
+name TRYT_PIG
+descrip Tryptase precursor (EC 3.4.21.59).
+creator Sus scrofa (Pig).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       31    267  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         74     74  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        121    121  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        224    224  ACT_SITE_Charge relay system By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         59     75  DISULFID_By similarity
+feature 742 820 3 square solid SITE
+  FT   SITE        155    230  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        188    211  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        220    248  DISULFID_By similarity
+feature 716 716 5 square solid SITE
+  FT   SITE        132    132  CARBOHYD_Nlinked GlcNAc Potential
+feature 823 823 5 square solid SITE
+  FT   SITE        233    233  CARBOHYD_Nlinked GlcNAc Potential
+feature 535 554 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......................................................MLNLLV
+  LALPLLVSLVHTAPAPGQALER........................AGIVGGKEAPGHKW
+  PWQVSLRCLD.QYWKHFCGGSLIHPQWVLTAAHCFGP.EKADPLYIRVQLGEQHLYYQD.
+  ...RLLLVSRIIVHPNYYDEVN.............GADIALLELEDP.......VNLSSH
+  .VQPVTLPPASE..TFPKGTRCWVTGWGDVHSGWPLPPPYPLKQVRVPIVENSECDMQYH
+  LGLSTGDNIPIVRDDMLCAGS...EGHDSCQGDSGGPLVCRVNG....TWLQAGVVSWG.
+  .EGCALPNRPGIYTRVTHYLDWIHQCIPRES.............................
+  .........................
+}
+{
+name TMS2_MOUSE
+descrip Transmembrane protease, serine 2 (EC 3.4.21.-) (Epitheliasin
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 336 418 5 square solid DOMAIN
+  FT   DOMAIN        1     83  Cytoplasmic (Potential).
+feature 440 871 5 square solid DOMAIN
+  FT   DOMAIN      105    490  Extracellular (Potential).
+feature 446 484 5 square solid DOMAIN
+  FT   DOMAIN      111    149  LDL-receptor class A.
+feature 485 577 5 square solid DOMAIN
+  FT   DOMAIN      150    242  SRCR.
+feature 589 871 5 square solid DOMAIN
+  FT   DOMAIN      254    490  Serine protease.
+feature 491 526 4 square solid PFAM-A
+  FT   PFAM-A      156    191  PF00530 SRCR
+feature 445 484 1 square solid PFAM-A
+  FT   PFAM-A      110    149  PF00057 ldl_recept_a
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A      254    482  PF00089 trypsin
+feature 336 444 0 square solid PFAM-B
+  FT   PFAM-B        1    109  PB031792 Pfam-B_31792
+feature 633 633 0 square solid SITE
+  FT   SITE        294    294  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        343    343  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        439    439  ACT_SITE_Charge relay system By similarity
+feature 588 589 12 square solid SITE
+  FT   SITE        253    254  SITE_Cleavage Potential
+feature 411 460 3 square solid SITE
+  FT   SITE         76    125  DISULFID_By similarity
+feature 454 473 3 square solid SITE
+  FT   SITE        119    138  DISULFID_By similarity
+feature 467 482 3 square solid SITE
+  FT   SITE        132    147  DISULFID_By similarity
+feature 506 565 3 square solid SITE
+  FT   SITE        171    230  DISULFID_By similarity
+feature 519 575 3 square solid SITE
+  FT   SITE        184    240  DISULFID_By similarity
+feature 578 726 3 square solid SITE
+  FT   SITE        243    363  DISULFID_Interchain By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE        279    295  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        408    424  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        435    463  DISULFID_By similarity
+feature 446 446 5 square solid SITE
+  FT   SITE        111    111  CARBOHYD_Nlinked GlcNAc Potential
+feature 547 547 5 square solid SITE
+  FT   SITE        212    212  CARBOHYD_Nlinked GlcNAc Potential
+feature 855 855 5 square solid SITE
+  FT   SITE        474    474  CARBOHYD_Nlinked GlcNAc Potential
+feature 419 439 0 square solid TRANSMEM
+  FT   TRANSMEM     84    104  Signal-anchor for type II membrane
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................MALNSGSPPGIGPCYENHGYQSEHI
+  CPPRPPVAPNGYNLYPAQYYPSPVPQYAPRITTQASTSVIHTHPKSSGAPCTSKSKKSLC
+  LALALGTVLTGAAVAAVLLWRFWDSNCSTSEMECGSSGTCISSSLWCDGVAHCPNGEDEN
+  RCVRLYGQSFILQVYSSQRKAWYPVCQDDWSESYGRAACKDMGYKNNFYSSQGIPDQSGA
+  TSFMKLNVSSGNVDLYKKLYHSDSCSSRMVVSLRCIECGVRSVKRQSRIVGGLNASPGDW
+  PWQVSLHVQ....GVHVCGGSIITPEWIVTAAHCVEE.PLSGPRYWTAFAGILRQSLMF.
+  .YGSRHQVEKVISHPNYDSKTK.............NNDIALMKLQTP.......LAFNDL
+  .VKPVCLPNPGM..MLDLDQECWISGWGATYEKG..KTSDVLNAAMVPLIEPSKCNSKYI
+  YN.......NLITPAMICAGFLQ.GSVDSCQGDSGGPLVTLKNG....IWWLIGDTSWG.
+  .SGCAKALRPGVYGNVTVFTDWIYQQMRANS.............................
+  .........................
+}
+{
+name CFAD_MOUSE
+descrip Complement factor D precursor (EC 3.4.21.46) (C3 convertase 
+creator Mus musculus (Mouse).Eukaryota;
+type    PROTEIN
+group 1
+feature 563 863 0 square solid PFAM-A
+  FT   PFAM-A       26    249  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         66     66  ACT_SITE_Charge relay system
+feature 698 698 0 square solid SITE
+  FT   SITE        115    115  ACT_SITE_Charge relay system
+feature 814 814 0 square solid SITE
+  FT   SITE        209    209  ACT_SITE_Charge relay system
+feature 618 634 3 square solid SITE
+  FT   SITE         51     67  DISULFID_By similarity
+feature 742 820 3 square solid SITE
+  FT   SITE        149    215  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        180    196  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        205    230  DISULFID_By similarity
+feature 609 609 5 square solid SITE
+  FT   SITE         46     46  CARBOHYD_Nlinked GlcNAc Potential
+feature 707 707 5 square solid SITE
+  FT   SITE        124    124  CARBOHYD_Nlinked GlcNAc Potential
+feature 771 771 5 square solid SITE
+  FT   SITE        176    176  CARBOHYD_Nlinked GlcNAc Potential
+feature 865 865 5 square solid SITE
+  FT   SITE        251    251  CARBOHYD_Nlinked GlcNAc Potential
+feature 870 870 5 square solid SITE
+  FT   SITE        256    256  CARBOHYD_Nlinked GlcNAc Potential
+feature 538 557 4 square solid SIGNAL
+  FT   SIGNAL        1     20  Or 19 (Potential).
+feature 557 557 1 square solid VARSPLIC
+  FT   VARSPLIC     20     20  Missing (in isoform 2).
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................................MHS
+  SVYFVALVILGAAVCAAQPRGRIL..........................GGQEAAAHAR
+  PYMASVQVN....GTHVCGGTLLDEQWVLSAAHCMDG..VTDDDSVQVLLGAHSLSAPE.
+  PYKRWYDVQSVVPHPGSRPDSL.............EDDLILFKLSQN.......ASLGPH
+  .VRPLPLQYEDK..EVEPGTLCDVAGWGVVTHAG..RRPDVLHQLRVSIMNRTTCNLRTY
+  HDG.......VVTINMMCAES...NRRDTCRGDSGSPLVCG........DAVEGVVTWG.
+  SRVCGNGKKPGVYTRVSSYRMWIENITNGNMTS...........................
+  .........................
+}
+{
+name DER3_DERPT
+descrip Mite allergen Der p 3 precursor (EC 3.4.21.-) (Der p III).
+creator Dermatophagoides pteronyssinus (House-dust mite).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       30    255  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         69     69  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        114    114  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        214    214  ACT_SITE_Charge relay system By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         54     70  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        181    198  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        210    236  DISULFID_By similarity
+feature 808 808 12 square solid SITE
+  FT   SITE        208    208  SITE_Required for specificity
+feature 536 553 4 square solid SIGNAL
+  FT   SIGNAL        1     18  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................................MIIYN
+  ILIVLLLAINTLANPILPASPNA........................TIVGGEKALAGEC
+  PYQISLQS.....SSHFCGGTILDEYWILTAAHCVAG...QTASKLSIRYNSLKHSLGG.
+  ...EKISVAKIFAHEKYDSYQI.............DNDIALIKLKSP.......MKLNQK
+  NAKAVGLPAKGS..DVKVGDQVRVSGWGYLEEGS.YSLPSELRRVDIAVVSRKECNELYS
+  KAN......AEVTDNMICGGDVANGGKDSCQGDSGGPVVDVKN......NQVVGIVSWG.
+  .YGCARKGYPGVYTRVGNFIDWIESKRSQ...............................
+  .........................
+}
+{
+name DEF3_DERFA
+descrip Mite allergen Der f 3 precursor (EC 3.4.21.-) (Der f III).
+creator Dermatophagoides farinae (House-dust mite).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       28    253  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         67     67  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        112    112  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        212    212  ACT_SITE_Charge relay system By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         52     68  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        179    196  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        208    234  DISULFID_By similarity
+feature 808 808 12 square solid SITE
+  FT   SITE        206    206  SITE_Required for specificity
+feature 538 553 4 square solid SIGNAL
+  FT   SIGNAL        1     16  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................................MMI
+  LTIVVLLAANILATPILPSSPNA........................TIVGGVKAQAGDC
+  PYQISLQS.....SSHFCGGSILDEYWILTAAHCVNG...QSAKKLSIRYNTLKHASGG.
+  ...EKIQVAEIYQHENYDSMTI.............DNDVALIKLKTP.......MTLDQT
+  NAKPVPLPAQGS..DVKVGDKIRVSGWGYLQEGS.YSLPSELQRVDIDVVSREQCDQLYS
+  KAG......ADVSENMICGGDVANGGVDSCQGDSGGPVVDVAT......KQIVGIVSWG.
+  .YGCARKGYPGVYTRVGNFVDWIESKRSQ...............................
+  .........................
+}
+{
+name HEPS_HUMAN
+descrip Serine protease hepsin (EC 3.4.21.-) (Transmembrane protease
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 427 443 5 square solid DOMAIN
+  FT   DOMAIN        1     17  Cytoplasmic (Potential).
+feature 471 880 5 square solid DOMAIN
+  FT   DOMAIN       45    417  Extracellular (Potential).
+feature 589 880 5 square solid DOMAIN
+  FT   DOMAIN      163    417  Serine protease.
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A      163    400  PF00089 trypsin
+feature 430 588 0 square solid PFAM-B
+  FT   PFAM-B        4    162  PB089560 Pfam-B_89560
+feature 633 633 0 square solid SITE
+  FT   SITE        203    203  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        257    257  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        353    353  ACT_SITE_Charge relay system By similarity
+feature 579 726 3 square solid SITE
+  FT   SITE        153    277  DISULFID_Interchain By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE        188    204  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        322    338  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        349    381  DISULFID_By similarity
+feature 538 538 5 square solid SITE
+  FT   SITE        112    112  CARBOHYD_Nlinked GlcNAc Potential
+feature 444 470 0 square solid TRANSMEM
+  FT   TRANSMEM     18     44  Signal-anchor for type II membrane
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......MAQKEGGRTVPCCSRPKVAALTAGTLLLLTAIGAASWAIVAVLLRSDQEPLYPV
+  QVSSADARLMVFDKTEGTWRLLCSSRSNARVAGLSCEEMGFLRALTHSELDVRTAGANGT
+  SGFFCVDEGRLPHTQRLLEVISVCDCPRGRFLAAICQDCGRRKLPVDRIVGGRDTSLGRW
+  PWQVSLRY....DGAHLCGGSLLSGDWVLTAAHCFPE.RNRVLSRWRVFAGAVAQASPH.
+  ..GLQLGVQAVVYHGGYLPFRDPNSE.......ENSNDIALVHLSSP.......LPLTEY
+  .IQPVCLPAAGQ..ALVDGKICTVTGWGNTQYYG..QQAGVLQEARVPIISNDVCNGADF
+  YG.......NQIKPKMFCAGYPE.GGIDACQGDSGGPFVCEDSISRTPRWRLCGIVSWG.
+  .TGCALAQKPGVYTKVSDFREWIFQAIKTHSEASGMVTQL....................
+  .........................
+}
+{
+name PSS8_HUMAN
+descrip Prostasin precursor (EC 3.4.21.-).
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 868 5 square solid DOMAIN
+  FT   DOMAIN       45    286  Serine protease.
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       45    281  PF00089 trypsin
+feature 529 588 0 square solid PFAM-B
+  FT   PFAM-B        1     44  PB027143 Pfam-B_27143
+feature 864 906 0 square solid PFAM-B
+  FT   PFAM-B      282    324  PB031036 Pfam-B_31036
+feature 565 726 3 square solid SITE
+  FT   SITE         37    154  DISULFID_Interchain By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         70     86  DISULFID_By similarity
+feature 742 820 3 square solid SITE
+  FT   SITE        168    244  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        201    223  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        234    262  DISULFID_By similarity
+feature 633 633 0 square solid SITE
+  FT   SITE         85     85  ACT_SITE_Charge relay system
+feature 698 698 0 square solid SITE
+  FT   SITE        134    134  ACT_SITE_Charge relay system
+feature 814 814 0 square solid SITE
+  FT   SITE        238    238  ACT_SITE_Charge relay system
+feature 731 731 5 square solid SITE
+  FT   SITE        159    159  CARBOHYD_Nlinked GlcNAc Potential
+feature 902 922 0 square solid TRANSMEM
+  FT   TRANSMEM    320    340  Potential.
+feature 529 557 4 square solid SIGNAL
+  FT   SIGNAL        1     29  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................................MAQKGVLGPGQL
+  GAVAILLYLGLLRSGTGAEGAEAPCG................VAPQARITGGSSAVAGQW
+  PWQVSITY....EGVHVCGGSLVSEQWVLSAAHCFPS..EHHKEAYEVKLGAHQLDSYS.
+  EDAKVSTLKDIIPHPSYLQEGS.............QGDIALLQLSRP.......ITFSRY
+  .IRPICLPAANA..SFPNGLHCTVTGWGHVAPSVSLLTPKPLQQLEVPLISRETCNCLYN
+  IDAKPEEP.HFVQEDMVCAGYVE.GGKDACQGDSGGPLSCPVEG....LWYLTGIVSWG.
+  .DACGARNRPGVYTLASSYASWIQSKVTELQPRVVPQTQESQPDSNLCGSHLAFSSAPAQ
+  GLLRPILFLPLGLALGLLSPWLSEH
+}
+{
+name FA9_RAT
+descrip Coagulation factor IX (EC 3.4.21.22) (Christmas factor) (Fra
+creator Rattus norvegicus (Rat).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 862 0 square solid PFAM-A
+  FT   PFAM-A       56    282  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         96     96  ACT_SITE_Charge relay system
+feature 698 698 0 square solid SITE
+  FT   SITE        144    144  ACT_SITE_Charge relay system
+feature 814 814 0 square solid SITE
+  FT   SITE        240    240  ACT_SITE_Charge relay system
+feature 558 558 5 square solid SITE
+  FT   SITE         25     25  CARBOHYD_Nlinked GlcNAc Potential
+feature 569 569 5 square solid SITE
+  FT   SITE         36     36  CARBOHYD_Nlinked GlcNAc Potential
+feature 575 575 5 square solid SITE
+  FT   SITE         42     42  CARBOHYD_Nlinked GlcNAc Potential
+feature 678 678 5 square solid SITE
+  FT   SITE        135    135  CARBOHYD_Nlinked GlcNAc Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................................................RVSVAYN
+  SKKITRAETVFSNTDYGNSTELILDDITNSTILDNLTENSEPINDFTRVVGGENAKPGQI
+  PWQVILNG....EIEAFCGGAIINEKWIVTAAHCLK.....PGDKIEVVAGEHNIDEKE.
+  DTEQRRNVIRTIPHHQYNATIN...........KYSHDIALLELDKP.......LILNSY
+  .VTPICVANKEYTNIFLKFGSGYVSGWGKVFNKG..RQASILQYLRVPLVDRATCLRSTK
+  F.........SIYNNMFCAGYRE.GGKDSCEGDSGGPHVTEVEG....TSFLTGIISWG.
+  .EECAMKGKYGIYTKVSRYVNW......................................
+  .........................
+}
+{
+name FA9_BOVIN
+descrip Coagulation factor IX (EC 3.4.21.22) (Christmas factor).
+creator Bos taurus (Bovine).Eukaryota;
+type    PROTEIN
+group 1
+feature 408 453 5 square solid DOMAIN
+  FT   DOMAIN        1     46  Gla.
+feature 454 490 5 square solid DOMAIN
+  FT   DOMAIN       47     83  EGF-like 1, calcium-binding (Potential).
+feature 491 532 5 square solid DOMAIN
+  FT   DOMAIN       84    125  EGF-like 2.
+feature 589 870 5 square solid DOMAIN
+  FT   DOMAIN      182    416  Serine protease.
+feature 458 489 5 square solid PFAM-A
+  FT   PFAM-A       51     82  PF00008 EGF
+feature 495 531 5 square solid PFAM-A
+  FT   PFAM-A       88    124  PF00008 EGF
+feature 413 454 6 square solid PFAM-A
+  FT   PFAM-A        6     47  PF00594 gla
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A      182    409  PF00089 trypsin
+feature 532 582 0 square solid PFAM-B
+  FT   PFAM-B      125    175  PB015348 Pfam-B_15348
+feature 553 554 12 square solid SITE
+  FT   SITE        146    147  SITE_Cleavage by factor XIa
+feature 588 589 12 square solid SITE
+  FT   SITE        181    182  SITE_Cleavage by factor XIa
+feature 425 430 3 square solid SITE
+  FT   SITE         18     23  DISULFID_By similarity
+feature 458 469 3 square solid SITE
+  FT   SITE         51     62  DISULFID_By similarity
+feature 463 478 3 square solid SITE
+  FT   SITE         56     71  DISULFID_By similarity
+feature 480 489 3 square solid SITE
+  FT   SITE         73     82  DISULFID_By similarity
+feature 495 506 3 square solid SITE
+  FT   SITE         88     99  DISULFID_By similarity
+feature 502 516 3 square solid SITE
+  FT   SITE         95    109  DISULFID_By similarity
+feature 518 531 3 square solid SITE
+  FT   SITE        111    124  DISULFID_By similarity
+feature 460 460 5 square solid SITE
+  FT   SITE         53     53  CARBOHYD_Olinked Glc
+feature 565 565 5 square solid SITE
+  FT   SITE        158    158  CARBOHYD_Nlinked GlcNAc
+feature 575 575 5 square solid SITE
+  FT   SITE        168    168  CARBOHYD_Nlinked GlcNAc
+feature 580 580 5 square solid SITE
+  FT   SITE        173    173  CARBOHYD_Nlinked GlcNAc
+feature 678 678 5 square solid SITE
+  FT   SITE        261    261  CARBOHYD_Nlinked GlcNAc
+feature 633 633 0 square solid SITE
+  FT   SITE        222    222  ACT_SITE_Charge relay system
+feature 698 698 0 square solid SITE
+  FT   SITE        270    270  ACT_SITE_Charge relay system
+feature 814 814 0 square solid SITE
+  FT   SITE        366    366  ACT_SITE_Charge relay system
+feature 414 414 0 square solid MOD_RES
+  FT   MOD_RES       7      7  4carboxyglutamate
+feature 415 415 0 square solid MOD_RES
+  FT   MOD_RES       8      8  4carboxyglutamate
+feature 422 422 0 square solid MOD_RES
+  FT   MOD_RES      15     15  4carboxyglutamate
+feature 424 424 0 square solid MOD_RES
+  FT   MOD_RES      17     17  4carboxyglutamate
+feature 427 427 0 square solid MOD_RES
+  FT   MOD_RES      20     20  4carboxyglutamate
+feature 428 428 0 square solid MOD_RES
+  FT   MOD_RES      21     21  4carboxyglutamate
+feature 433 433 0 square solid MOD_RES
+  FT   MOD_RES      26     26  4carboxyglutamate
+feature 434 434 0 square solid MOD_RES
+  FT   MOD_RES      27     27  4carboxyglutamate
+feature 437 437 0 square solid MOD_RES
+  FT   MOD_RES      30     30  4carboxyglutamate
+feature 440 440 0 square solid MOD_RES
+  FT   MOD_RES      33     33  4carboxyglutamate
+feature 443 443 0 square solid MOD_RES
+  FT   MOD_RES      36     36  4carboxyglutamate
+feature 447 447 0 square solid MOD_RES
+  FT   MOD_RES      40     40  4carboxyglutamate
+feature 471 471 0 square solid MOD_RES
+  FT   MOD_RES      64     64  3hydroxyaspartate
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...............................................YNSGKLEEFVRGN
+  LERECKEEKCSFEEAREVFENTEKTTEFWKQYVDGDQCESNPCLNGGMCKDDINSYECWC
+  QAGFEGTNCELDATCSIKNGRCKQFCKRDTDNKVVCSCTDGYRLAEDQKSCEPAVPFPCG
+  RVSVSHISKKLTRAETIFSNTNYENSSEAEIIWDNVTQSNQSFDEFSRVVGGEDAERGQF
+  PWQVLLHG....EIAAFCGGSIVNEKWVVTAAHCIK.....PGVKITVVAGEHNTEKPE.
+  PTEQKRNVIRAIPYHSYNASIN...........KYSHDIALLELDEP.......LELNSY
+  .VTPICIADRDYTNIFSKFGYGYVSGWGKVFNRG..RSASILQYLKVPLVDRATCLRSTK
+  FS.........IYSHMFCAGYHE.GGKDSCQGDSGGPHVTEVEG....TSFLTGIISWG.
+  .EECAMKGKYGIYTKVSRYVNWIKEKTKLT..............................
+  .........................
+}
+{
+name FA12_CAVPO
+descrip Coagulation factor XII precursor (EC 3.4.21.38) (Hageman fac
+creator Cavia porcellus (Guinea pig).Eukaryota;
+type    PROTEIN
+group 1
+feature 276 317 5 square solid DOMAIN
+  FT   DOMAIN       46     87  Fibronectin type-II.
+feature 323 360 5 square solid DOMAIN
+  FT   DOMAIN       93    130  EGF-like 1.
+feature 362 402 5 square solid DOMAIN
+  FT   DOMAIN      132    172  Fibronectin type-I.
+feature 403 439 5 square solid DOMAIN
+  FT   DOMAIN      173    209  EGF-like 2.
+feature 446 524 5 square solid DOMAIN
+  FT   DOMAIN      216    294  Kringle.
+feature 542 572 5 square solid DOMAIN
+  FT   DOMAIN      312    342  Pro-rich.
+feature 589 869 5 square solid DOMAIN
+  FT   DOMAIN      359    603  Serine protease.
+feature 327 359 5 square solid PFAM-A
+  FT   PFAM-A       97    129  PF00008 EGF
+feature 407 438 5 square solid PFAM-A
+  FT   PFAM-A      177    208  PF00008 EGF
+feature 364 399 7 square solid PFAM-A
+  FT   PFAM-A      134    169  PF00039 fn1
+feature 276 317 8 square solid PFAM-A
+  FT   PFAM-A       46     87  PF00040 fn2
+feature 446 524 3 square solid PFAM-A
+  FT   PFAM-A      216    294  PF00051 kringle
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A      359    597  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE        398    398  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        447    447  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        551    551  ACT_SITE_Charge relay system By similarity
+feature 327 339 3 square solid SITE
+  FT   SITE         97    109  DISULFID_By similarity
+feature 333 348 3 square solid SITE
+  FT   SITE        103    118  DISULFID_By similarity
+feature 350 359 3 square solid SITE
+  FT   SITE        120    129  DISULFID_By similarity
+feature 364 392 3 square solid SITE
+  FT   SITE        134    162  DISULFID_By similarity
+feature 390 399 3 square solid SITE
+  FT   SITE        160    169  DISULFID_By similarity
+feature 407 418 3 square solid SITE
+  FT   SITE        177    188  DISULFID_By similarity
+feature 412 427 3 square solid SITE
+  FT   SITE        182    197  DISULFID_By similarity
+feature 429 438 3 square solid SITE
+  FT   SITE        199    208  DISULFID_By similarity
+feature 446 524 3 square solid SITE
+  FT   SITE        216    294  DISULFID_By similarity
+feature 467 506 3 square solid SITE
+  FT   SITE        237    276  DISULFID_By similarity
+feature 495 519 3 square solid SITE
+  FT   SITE        265    289  DISULFID_By similarity
+feature 575 726 3 square solid SITE
+  FT   SITE        345    472  DISULFID_By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE        383    399  DISULFID_By similarity
+feature 626 712 3 square solid SITE
+  FT   SITE        391    461  DISULFID_By similarity
+feature 657 663 3 square solid SITE
+  FT   SITE        422    425  DISULFID_By similarity
+feature 742 820 3 square solid SITE
+  FT   SITE        488    557  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        520    536  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        547    578  DISULFID_By similarity
+feature 478 478 5 square solid SITE
+  FT   SITE        248    248  CARBOHYD_Nlinked GlcNAc Potential
+feature 500 500 5 square solid SITE
+  FT   SITE        270    270  CARBOHYD_Nlinked GlcNAc Potential
+feature 654 654 5 square solid SITE
+  FT   SITE        419    419  CARBOHYD_Nlinked GlcNAc Potential
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................................................GRLLLGSLLV
+  SLESALSAPPPWKAPKERRHRAEEFTVGLTVTGEPCYFPFQYNRQLYHHCIHKGRPGPRP
+  WCATTPNFDQDQQWAYCLEPKKVKDHCSKHNPCQRGGICVNTLSSPHCLCPDHLTGKHCQ
+  REKCFEPQLHRFFHENEIWFRTGPAGVAKCHCKGPDAHCKQMHSQECQTNPCLNGGRCLE
+  VEGHHLCDCPMGYTGPFCDLDTTASCYEGRGVSYRGMARTTVSGAKCQRWASEATYRNMT
+  AEQALRRGLGHHTFCRNPDNDTRPWCFVWMGNRLSWEYCDLAQCQYPPQPTATPHDRFEH
+  PKLPSSRLSILQTPQPTTQNQALANELPETSSLLCGQRLRKRLSSLSRIVGGLVALPGAH
+  PYIAALYW.....GSNFCSGSLIAPCWVLTAAHCLQNRPAPEELKVVLGQDRHNQSCEH.
+  ..CQTLAVHSYRLHEAFSPSSY.............LNDLALLRLQKSADGSC..AQLSPY
+  .VQTVCLPSGPAPPSESETTCCEVAGWGHQFEGA.EEYSSFLQEAQVPLISSERCSSPEV
+  HG.......DAFLSGMLCAGFLE.GGTDACQGDSGGPLVCEDEA.AEHRLILRGIVSWG.
+  .SGCGDRNKPGVYTDVASYLTWIQKHTAS...............................
+  .........................
+}
+{
+name HGFA_HUMAN
+descrip Hepatocyte growth factor activator precursor (EC 3.4.21.-) (
+creator Homo sapiens (Human).Eukaryota;
+type    PROTEIN
+group 1
+feature 289 329 5 square solid DOMAIN
+  FT   DOMAIN      108    148  Fibronectin type-II.
+feature 341 379 5 square solid DOMAIN
+  FT   DOMAIN      160    198  EGF-like 1.
+feature 381 421 5 square solid DOMAIN
+  FT   DOMAIN      200    240  Fibronectin type-I.
+feature 422 460 5 square solid DOMAIN
+  FT   DOMAIN      241    279  EGF-like 2.
+feature 467 548 5 square solid DOMAIN
+  FT   DOMAIN      286    367  Kringle.
+feature 589 877 5 square solid DOMAIN
+  FT   DOMAIN      408    655  Serine protease.
+feature 345 378 5 square solid PFAM-A
+  FT   PFAM-A      164    197  PF00008 EGF
+feature 426 459 5 square solid PFAM-A
+  FT   PFAM-A      245    278  PF00008 EGF
+feature 383 418 7 square solid PFAM-A
+  FT   PFAM-A      202    237  PF00039 fn1
+feature 289 329 8 square solid PFAM-A
+  FT   PFAM-A      108    148  PF00040 fn2
+feature 467 548 3 square solid PFAM-A
+  FT   PFAM-A      286    367  PF00051 kringle
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A      408    641  PF00089 trypsin
+feature 182 261 0 square solid PFAM-B
+  FT   PFAM-B        1     80  PB034387 Pfam-B_34387
+feature 549 587 0 square solid PFAM-B
+  FT   PFAM-B      368    406  PB039908 Pfam-B_39908
+feature 633 633 0 square solid SITE
+  FT   SITE        447    447  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        497    497  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        598    598  ACT_SITE_Charge relay system By similarity
+feature 289 314 3 square solid SITE
+  FT   SITE        108    133  DISULFID_By similarity
+feature 303 329 3 square solid SITE
+  FT   SITE        122    148  DISULFID_By similarity
+feature 345 356 3 square solid SITE
+  FT   SITE        164    175  DISULFID_By similarity
+feature 350 367 3 square solid SITE
+  FT   SITE        169    186  DISULFID_By similarity
+feature 369 378 3 square solid SITE
+  FT   SITE        188    197  DISULFID_By similarity
+feature 383 411 3 square solid SITE
+  FT   SITE        202    230  DISULFID_By similarity
+feature 409 418 3 square solid SITE
+  FT   SITE        228    237  DISULFID_By similarity
+feature 426 437 3 square solid SITE
+  FT   SITE        245    256  DISULFID_By similarity
+feature 431 448 3 square solid SITE
+  FT   SITE        250    267  DISULFID_By similarity
+feature 450 459 3 square solid SITE
+  FT   SITE        269    278  DISULFID_By similarity
+feature 467 548 3 square solid SITE
+  FT   SITE        286    367  DISULFID_By similarity
+feature 488 530 3 square solid SITE
+  FT   SITE        307    349  DISULFID_By similarity
+feature 519 543 3 square solid SITE
+  FT   SITE        338    362  DISULFID_By similarity
+feature 575 726 3 square solid SITE
+  FT   SITE        394    521  DISULFID_Interchain By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE        432    448  DISULFID_By similarity
+feature 626 712 3 square solid SITE
+  FT   SITE        440    510  DISULFID_By similarity
+feature 742 820 3 square solid SITE
+  FT   SITE        535    604  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        567    583  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        594    622  DISULFID_By similarity
+feature 229 229 5 square solid SITE
+  FT   SITE         48     48  CARBOHYD_Nlinked GlcNAc Potential
+feature 471 471 5 square solid SITE
+  FT   SITE        290    290  CARBOHYD_Nlinked GlcNAc Potential
+feature 656 656 5 square solid SITE
+  FT   SITE        468    468  CARBOHYD_Nlinked GlcNAc Potential
+feature 681 681 5 square solid SITE
+  FT   SITE        492    492  CARBOHYD_Nlinked GlcNAc Potential
+feature 753 753 5 square solid SITE
+  FT   SITE        546    546  CARBOHYD_Nlinked GlcNAc Potential
+feature 182 216 4 square solid SIGNAL
+  FT   SIGNAL        1     35  ne protease; Signal; Zymogen.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .MGRWAWVPSPWPPPGLGPFLLLLLLLLLLPRGFQPQPGGNRTESPEPNATATPAIPTIL
+  VTSVTSETPATSAPEAEGPQSGGLPPPPRAVPSSSSPQAQALTEDGRPCRFPFRYGGRML
+  HACTSEGSAHRKWCATTHNYDRDRAWGYCVEATPPPGGPAALDPCASGPCLNGGSCSNTQ
+  DPQSYHCSCPRAFTGKDCGTEKCFDETRYEYLEGGDRWARVRQGHVEQCECFGGRTWCEG
+  TRHTACLSSPCLNGGTCHLIVATGTTVCACPPGFAGRLCNIEPDERCFLGNGTGYRGVAS
+  TSASGLSCLAWNSDLLYQELHVDSVGAAALLGLGPHAYCRNPDNDERPWCYVVKDSALSW
+  EYCRLEACESLTRVQLSPDLLATLPEPASPGRQACGRRHKKRTFLRPRIIGGSSSLPGSH
+  PWLAAIYI.....GDSFCAGSLVHTCWVVSAAHCFSHS..PPRDSVSVVLGQHFFNRTT.
+  DVTQTFGIEKYIPYTLYSVFNPS............DHDLVLIRLKKKGDR.C..ATRSQF
+  .VQPICLPEPGS..TFPAGHKCQIAGWGHLDENV.SGYSSSLREALVPLVADHKCSSPEV
+  YG.......ADISPNMLCAGYFD.CKSDACQGDSGGPLACEKNG....VAYLYGIISWG.
+  .DGCGRLHKPGVYTRVANYVDWINDRIRPPRRLVAPS.......................
+  .........................
+}
+{
+name VSP3_BOTJA
+descrip Venom serine proteinase A precursor (EC 3.4.21.-).
+creator Bothrops jararaca (Jararaca).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       25    244  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         65     65  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        110    110  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        204    204  ACT_SITE_Charge relay system By similarity
+feature 595 764 3 square solid SITE
+  FT   SITE         31    163  DISULFID_By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         50     66  DISULFID_By similarity
+feature 673 875 3 square solid SITE
+  FT   SITE         98    256  DISULFID_By similarity
+feature 742 820 3 square solid SITE
+  FT   SITE        142    210  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        174    189  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        200    225  DISULFID_By similarity
+feature 596 596 5 square solid SITE
+  FT   SITE         32     32  CARBOHYD_Nlinked GlcNAc Potential
+feature 608 608 5 square solid SITE
+  FT   SITE         44     44  CARBOHYD_Nlinked GlcNAc Potential
+feature 678 678 5 square solid SITE
+  FT   SITE        103    103  CARBOHYD_Nlinked GlcNAc Potential
+feature 716 716 5 square solid SITE
+  FT   SITE        121    121  CARBOHYD_Nlinked GlcNAc Potential
+feature 754 754 5 square solid SITE
+  FT   SITE        154    154  CARBOHYD_Nlinked GlcNAc Potential
+feature 771 771 5 square solid SITE
+  FT   SITE        170    170  CARBOHYD_Nlinked GlcNAc Potential
+feature 821 821 5 square solid SITE
+  FT   SITE        211    211  CARBOHYD_Nlinked GlcNAc Potential
+feature 870 870 5 square solid SITE
+  FT   SITE        251    251  CARBOHYD_Nlinked GlcNAc Potential
+feature 540 557 4 square solid SIGNAL
+  FT   SIGNAL        1     18  By similarity.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................................................M
+  VLIRVIANLLILQLSNAQKSS.........................ELVIGGDECNITEH
+  RFLVEIFN....SSGLFCGGTLIDQEWVLSAAHCDMR.......NMRIYLGVHNEGVQHA
+  DQQRRFAREKFFCLSSRNYTKW.............DKDIMLIRLNRP.......VNNSEH
+  .IAPLSLPSNP....PSVGSVCRIMGWGTITSPN.ATFPDVPHCANINLFNYTVCRGAHA
+  G........LPATSRTLCAGVLQ.GGIDTCGGDSGGPLICN........GTFQGIVSWG.
+  GHPCAQPGEPALYTKVFDYLPWIQSIIAGNTTATCPP.......................
+  .........................
+}
+{
+name VSP1_AGKCO
+descrip Ancrod (EC 3.4.21.74) (Venombin A) (Protein C activator) (AC
+creator Agkistrodon contortrix contortrix (Southern copperhead).Euka
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A        1    217  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         40     40  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE         85     85  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        177    177  ACT_SITE_Charge relay system By similarity
+feature 595 764 3 square solid SITE
+  FT   SITE          7    138  DISULFID_By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         25     41  DISULFID_By similarity
+feature 673 875 3 square solid SITE
+  FT   SITE         73    229  DISULFID_By similarity
+feature 742 820 3 square solid SITE
+  FT   SITE        117    183  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        149    162  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        173    198  DISULFID_By similarity
+feature 614 614 5 square solid SITE
+  FT   SITE         21     21  CARBOHYD_Nlinked GlcNAc Probable
+feature 678 678 5 square solid SITE
+  FT   SITE         78     78  CARBOHYD_Nlinked GlcNAc
+feature 754 754 5 square solid SITE
+  FT   SITE        129    129  CARBOHYD_Nlinked GlcNAc
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................................VIGGDECNINEH
+  RFLALVYA.....NGSLCGGTLINQEWVLTARHCDRG.......NMRIYLGMHNLKVLNK
+  DALRRFPKEKYFCLNTRNDTIW.............DKDIMLIRLNRP.......VRNSAH
+  .IAPLSLPSNP....PSVGSVCRIMGWGTITSPN.ATLPDVPHCANINILDYAVCQAAYK
+  G..........LAATTLCAGILE.GGKDTCKGDSGGPLICN........GQFQGILSVG.
+  GNPCAQPRKPGIYTKVFDYTDWIQSIISGNTDATCPP.......................
+  .........................
+}
+{
+name TRY1_RAT
+descrip Trypsin I, anionic precursor (EC 3.4.21.4) (Pretrypsinogen I
+creator Rattus norvegicus (Rat).Eukaryota;
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       24    239  PF00089 trypsin
+feature 633 633 0 square solid SITE
+  FT   SITE         63     63  ACT_SITE_Charge relay system
+feature 652 652 1 square solid SITE
+  FT   SITE         75     75  METAL_Calcium
+feature 654 654 1 square solid SITE
+  FT   SITE         77     77  METAL_Calcium via carbonyl oxygen
+feature 657 657 1 square solid SITE
+  FT   SITE         80     80  METAL_Calcium via carbonyl oxygen
+feature 663 663 1 square solid SITE
+  FT   SITE         85     85  METAL_Calcium
+feature 698 698 0 square solid SITE
+  FT   SITE        107    107  ACT_SITE_Charge relay system
+feature 814 814 0 square solid SITE
+  FT   SITE        200    200  ACT_SITE_Charge relay system
+feature 595 764 3 square solid SITE
+  FT   SITE         30    160  DISULFID_Charge relay system
+feature 618 634 3 square solid SITE
+  FT   SITE         48     64  DISULFID_Charge relay system
+feature 731 857 3 square solid SITE
+  FT   SITE        132    233  DISULFID_Charge relay system
+feature 742 820 3 square solid SITE
+  FT   SITE        139    206  DISULFID_Charge relay system
+feature 775 798 3 square solid SITE
+  FT   SITE        171    185  DISULFID_Charge relay system
+feature 810 844 3 square solid SITE
+  FT   SITE        196    220  DISULFID_Charge relay system
+feature 808 808 12 square solid SITE
+  FT   SITE        194    194  SITE_Required for specificity
+feature 538 552 4 square solid SIGNAL
+  FT   SIGNAL        1     15  gen.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .........................................................MSA
+  LLILALVGAAVAFPL.EDDD...........................KIVGGYTCPEHSV
+  PYQVSLNS.....GYHFCGGSLINDQWVVSAAHCYKS.......RIQVRLGEHNINVLE.
+  GDEQFINAAKIIKHPNYSSWTL.............NNDIMLIKLSSP.......VKLNAR
+  .VAPVALPSAC....APAGTQCLISGWGNTLSNG.VNNPDLLQCVDAPVLSQADCEAAYP
+  G.........EITSSMICVGFLE.GGKDSCQGDSGGPVVCN........GQLQGIVSWG.
+  .YGCALPDNPGVYTKVCNFVGWIQDTIAAN..............................
+  .........................
+}
+{
+name CTR1_PENVA
+descrip Chymotrypsin BI precursor (EC 3.4.21.1).
+creator Penaeus vannamei (Penoeid shrimp) (European white shrimp).Eu
+type    PROTEIN
+group 1
+feature 589 863 0 square solid PFAM-A
+  FT   PFAM-A       46    263  PF00089 trypsin
+feature 536 571 0 square solid PFAM-B
+  FT   PFAM-B        1     36  PB027137 Pfam-B_27137
+feature 633 633 0 square solid SITE
+  FT   SITE         86     86  ACT_SITE_Charge relay system By similarity
+feature 698 698 0 square solid SITE
+  FT   SITE        132    132  ACT_SITE_Charge relay system By similarity
+feature 814 814 0 square solid SITE
+  FT   SITE        223    223  ACT_SITE_Charge relay system By similarity
+feature 618 634 3 square solid SITE
+  FT   SITE         71     87  DISULFID_By similarity
+feature 775 798 3 square solid SITE
+  FT   SITE        196    209  DISULFID_By similarity
+feature 810 844 3 square solid SITE
+  FT   SITE        219    245  DISULFID_By similarity
+feature 536 550 4 square solid SIGNAL
+  FT   SIGNAL        1     15  Potential.
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................................MIGKL
+  SLLLVCVAVASGNPAAGKPWHWKSPKPLVDPRIHVN........ATPRIVGGVEATPHSW
+  PHQAALFI....DDMYFCGGSLISSEWVLTAAHCMD.....GAGFVEVVLGAHNIRQNE.
+  ASQVSITSTDFFTHENWNSWLL.............TNDIALIRLPSP.......VSLNSN
+  .IKTVKLPSSD....VSVGTTVTPTGWGRPSDSAS.GISDVLRQVNVPVMTNADCDSVYG
+  ..........IVGDGVVCIDGT..GGKSTCNGDSGGPLNLN........GMTYGITSFGS
+  SAGCEK.GYPAAFTRVYYYLDWIQQKTGVTP.............................
+  .........................
+}
+{
+name 5ptp_
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ................................................IVGGYTCGANTV
+  PYQVSLNS.....GYHFCGGSLINSQWVVSAAHCYK........SGIQVLGEDNINVVE.
+  GNEQFISASKSIVHPSYNSNTL.............NNDIMLIKLKSA.......ASLNSR
+  .VASISLPTSC....ASAGTQCLISGWGNTKSSG.TSYPDVLKCLKAPILSDSSCKSAYP
+  .........GQITSNMFCAGL...EGGDSCQGDXGGPVVCS........GKLQGIVSWG.
+  .SGCAK.NKPGVYTKVCNYVSWIKQTIASN..............................
+  .........................
+}

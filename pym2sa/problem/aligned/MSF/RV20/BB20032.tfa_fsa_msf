@@ -1,0 +1,510 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:   347  Type: P  octubre 20, 2015 11:12  Check:    0  ..
+
+ Name: 1a7n_L     Len:   347  Check: 1049  Weight:  1.00
+ Name: KV1G_HUMAN Len:   347  Check: 9968  Weight:  1.00
+ Name: KV1V_HUMAN Len:   347  Check: 2926  Weight:  1.00
+ Name: KV1L_HUMAN Len:   347  Check: 1284  Weight:  1.00
+ Name: KV1D_HUMAN Len:   347  Check: 8258  Weight:  1.00
+ Name: KV1X_HUMAN Len:   347  Check: 6520  Weight:  1.00
+ Name: KV1C_HUMAN Len:   347  Check: 7762  Weight:  1.00
+ Name: KV3P_MOUSE Len:   347  Check:  489  Weight:  1.00
+ Name: KV3F_HUMAN Len:   347  Check: 6502  Weight:  1.00
+ Name: KV3K_HUMAN Len:   347  Check: 2831  Weight:  1.00
+ Name: KV3A_HUMAN Len:   347  Check: 3883  Weight:  1.00
+ Name: LV1H_HUMAN Len:   347  Check: 1390  Weight:  1.00
+ Name: LV2C_HUMAN Len:   347  Check: 6578  Weight:  1.00
+ Name: LV2K_HUMAN Len:   347  Check: 9586  Weight:  1.00
+ Name: LV2B_HUMAN Len:   347  Check: 7991  Weight:  1.00
+ Name: LV2I_HUMAN Len:   347  Check: 7389  Weight:  1.00
+ Name: KV03_RABIT Len:   347  Check: 1245  Weight:  1.00
+ Name: KV05_RABIT Len:   347  Check: 9753  Weight:  1.00
+ Name: KV16_RABIT Len:   347  Check: 3743  Weight:  1.00
+ Name: KV01_RABIT Len:   347  Check: 6548  Weight:  1.00
+ Name: KV1A_HUMAN Len:   347  Check: 8049  Weight:  1.00
+ Name: KV1E_HUMAN Len:   347  Check: 1463  Weight:  1.00
+ Name: KV5P_MOUSE Len:   347  Check: 9569  Weight:  1.00
+ Name: KV5J_MOUSE Len:   347  Check: 4123  Weight:  1.00
+ Name: KV5G_MOUSE Len:   347  Check: 5323  Weight:  1.00
+ Name: KV3A_MOUSE Len:   347  Check: 2672  Weight:  1.00
+ Name: KV6F_MOUSE Len:   347  Check: 9602  Weight:  1.00
+ Name: KV4A_MOUSE Len:   347  Check: 5538  Weight:  1.00
+ Name: KV5B_MOUSE Len:   347  Check:  797  Weight:  1.00
+ Name: KV5A_MOUSE Len:   347  Check: 2789  Weight:  1.00
+ Name: KV2F_HUMAN Len:   347  Check: 5483  Weight:  1.00
+ Name: KV2B_HUMAN Len:   347  Check: 2539  Weight:  1.00
+ Name: KV2D_MOUSE Len:   347  Check: 7577  Weight:  1.00
+ Name: KV1_CANFA  Len:   347  Check: 1471  Weight:  1.00
+ Name: LV7A_HUMAN Len:   347  Check: 8999  Weight:  1.00
+ Name: LV1I_HUMAN Len:   347  Check: 2540  Weight:  1.00
+ Name: LV1B_HUMAN Len:   347  Check: 1016  Weight:  1.00
+ Name: LV1A_HUMAN Len:   347  Check: 7841  Weight:  1.00
+ Name: LV1E_HUMAN Len:   347  Check: 8588  Weight:  1.00
+ Name: LV2F_HUMAN Len:   347  Check: 6382  Weight:  1.00
+ Name: LV2L_HUMAN Len:   347  Check: 5124  Weight:  1.00
+ Name: LV6E_HUMAN Len:   347  Check: 8658  Weight:  1.00
+ Name: TVA3_MOUSE Len:   347  Check: 3412  Weight:  1.00
+ Name: TVA1_RABIT Len:   347  Check: 5957  Weight:  1.00
+ Name: TVA1_MOUSE Len:   347  Check: 4628  Weight:  1.00
+ Name: TVA3_HUMAN Len:   347  Check: 9150  Weight:  1.00
+ Name: KV1N_HUMAN Len:   347  Check: 4886  Weight:  1.00
+ Name: KV1A_MOUSE Len:   347  Check: 2134  Weight:  1.00
+ Name: KV2A_MOUSE Len:   347  Check: 7896  Weight:  1.00
+ Name: LV1C_HUMAN Len:   347  Check: 8313  Weight:  1.00
+ Name: KV1K_HUMAN Len:   347  Check: 4081  Weight:  1.00
+ Name: KV3F_MOUSE Len:   347  Check: 3062  Weight:  1.00
+ Name: KV2D_HUMAN Len:   347  Check: 8225  Weight:  1.00
+ Name: KV2C_HUMAN Len:   347  Check:  428  Weight:  1.00
+ Name: KV2G_MOUSE Len:   347  Check:  565  Weight:  1.00
+ Name: KV1U_HUMAN Len:   347  Check: 8508  Weight:  1.00
+ Name: KV2F_MOUSE Len:   347  Check: 8476  Weight:  1.00
+ Name: 1tlk_      Len:   347  Check: 6144  Weight:  1.00
+ Name: 1wit_      Len:   347  Check: 5593  Weight:  1.00
+ Name: 2ncm_      Len:   347  Check: 3060  Weight:  1.00
+ Name: 1a64_A     Len:   347  Check: 2106  Weight:  1.00
+
+//
+
+           1                                                   50
+1a7n_L     ---------- ---------- ---------- ---------- ----------
+KV1G_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1V_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1L_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1D_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1X_HUMAN MD-------- M-----R--V P--AQLLGLL LLWLRR---- ---VRC----
+KV1C_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3P_MOUSE ---------- ---------- ---------- ---------- ----------
+KV3F_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3K_HUMAN MET------- ---------- PA--QLLFLL LLWLPD---- ---TTG----
+KV3A_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1H_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2C_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2K_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2B_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2I_HUMAN ---------- ---------- ---------- ---------- ----------
+KV03_RABIT A--------- ---------- ---------- ---------- ----------
+KV05_RABIT ---------- ---------- ---------- ---------- ----------
+KV16_RABIT ---------- ---------- ---------- ---------- ----------
+KV01_RABIT ---------- ---------- ---------- ---------- ----------
+KV1A_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1E_HUMAN ---------- ---------- ---------- ---------- ----------
+KV5P_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5J_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5G_MOUSE MD-------- M-----R--A P--AQIFGFL LLLFQG---- ---TRC----
+KV3A_MOUSE ---------- ---------- ---------- ---------- ----------
+KV6F_MOUSE ---------- ---------- ---------- ---------- ----------
+KV4A_MOUSE MD-------- L-----Q--- -V--QIIXFL LISVT----- VIMSRG----
+KV5B_MOUSE MHQTSMGIK- M-----E--S H--TLVFISI LLCLYG---- ---ADG----
+KV5A_MOUSE MHHTSMGIK- M-----E--S Q--IQVFVFV FLWLSGVDGD IVM---TQFA
+KV2F_HUMAN MRL------- ---------- PA--QLLGLL MLWVPG---- ---SSG----
+KV2B_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2D_MOUSE ---------- ---------- ---------- ---------- ----------
+KV1_CANFA  ---------- ---------- ---------- ---------- ----------
+LV7A_HUMAN VTF------- -Y-------- ---------- ---------- ----------
+LV1I_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1B_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1A_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1E_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2F_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2L_HUMAN ---------- ---------- ---------- ---------- ----------
+LV6E_HUMAN MAWA------ ---------- -PL--LL-TL LAHCTD---- ---CWA----
+TVA3_MOUSE MN-------- M-----R--- -PDTCSVLVL LLMLRR---- ---NNG----
+TVA1_RABIT MFSA------ ---------- -SCSVTVVVL LITVRR---- ---TNG----
+TVA1_MOUSE ML-------- L-----ALL- -----PVLGI HFVLRD---- ---AQA----
+TVA3_HUMAN ML-------- L-----LLV- -----PVLEV IFTLGG---- ---TRA----
+KV1N_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1A_MOUSE ---------- ---------- ---------- ---------- ----------
+KV2A_MOUSE ---------- ---------- ---------- ---------- ----------
+LV1C_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1K_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3F_MOUSE MET------- ---------- DT--LLLWVL LLWVPG---- ---STG----
+KV2D_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2C_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2G_MOUSE ---------- ---------- ---------- ---------- ----------
+KV1U_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2F_MOUSE ---------- ---------- ---------- ---------- ----------
+1tlk_      VA-------- ---------- ---------- ---------- ----------
+1wit_      LK-------P -KILTA---- ---------- ---------- ----------
+2ncm_      RV-------- LQ-------- ---------- ---------- ----------
+1a64_A     G--------- ---------- ---------- ---------- ----------
+
+           51                                                 100
+1a7n_L     ---------- ---------- ---------- ---------- ----------
+KV1G_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1V_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1L_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1D_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1X_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1C_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3P_MOUSE ---------- ---------- ---------- ---------- ----------
+KV3F_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3K_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3A_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1H_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2C_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2K_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2B_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2I_HUMAN ---------- ---------- ---------- ---------- ----------
+KV03_RABIT ---------- ---------- ---------- ---------- ----------
+KV05_RABIT ---------- ---------- ---------- ---------- ----------
+KV16_RABIT ---------- ---------- ---------- ---------- ----------
+KV01_RABIT ---------- ---------- ---------- ---------- ----------
+KV1A_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1E_HUMAN ---------- ---------- ---------- ---------- ----------
+KV5P_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5J_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5G_MOUSE ---------- ---------- ---------- ---------- ----------
+KV3A_MOUSE ---------- ---------- ---------- ---------- ----------
+KV6F_MOUSE ---------- ---------- ---------- ---------- ----------
+KV4A_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5B_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5A_MOUSE GVDG------ ---------- ---------- ---------- ----------
+KV2F_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2B_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2D_MOUSE ---------- ---------- ---------- ---------- ----------
+KV1_CANFA  ---------- ---------- ---------- ---------- ----------
+LV7A_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1I_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1B_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1A_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1E_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2F_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2L_HUMAN ---------- ---------- ---------- ---------- ----------
+LV6E_HUMAN ---------- ---------- ---------- ---------- ----------
+TVA3_MOUSE -D--S----- ---------- ---------- ---------- ----------
+TVA1_RABIT -A--S----- ---------- ---------- ---------- ----------
+TVA1_MOUSE -Q--S----- ---------- ---------- ---------- ----------
+TVA3_HUMAN -Q--S----- ---------- ---------- ---------- ----------
+KV1N_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1A_MOUSE ---------- ---------- ---------- ---------- ----------
+KV2A_MOUSE ---------- ---------- ---------- ---------- ----------
+LV1C_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1K_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3F_MOUSE ---------- ---------- ---------- ---------- ----------
+KV2D_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2C_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2G_MOUSE ---------- ---------- ---------- ---------- ----------
+KV1U_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2F_MOUSE ---------- ---------- ---------- ---------- ----------
+1tlk_      -----EEKPH VKPYFTKTIL DMDVVEG--- ---------- ----------
+1wit_      -----SRKIK IKAGFTHN-L EVDF------ ---------- ----------
+2ncm_      ---------- ---------- -V-------- ---------- ----------
+1a64_A     ---------- ---------- -------TVW GALGHGINLN IPNFQMTDDI
+
+           101                                                150
+1a7n_L     -DIVLTQSPA SLSASVGETV T--IT-CRAS GN-I------ HNYLAWYQQK
+KV1G_HUMAN -DIQMTQSPS SLSASVGDRV T--II-CRAS QG-I------ RNDLTWYQQK
+KV1V_HUMAN -DIQLTQSPS SLSASVGDRV T--IT-CRAS QS-V------ YNYVAWFQQK
+KV1L_HUMAN -DIQMTQSPS TQPASVGDRV T--IT-CRAS QS-I------ NIWLAWYQQK
+KV1D_HUMAN -DIQMTQSPS TLSASVGDRV A--IT-CRAS QN-I------ SSWLAWYQQK
+KV1X_HUMAN -DIQMTQSPS SLSASVGDRV T--IT-CRAG HN-I------ TNFLSWYQQK
+KV1C_HUMAN -DIQMTQSPS PLSASVGDSV T--IT-CQAS QD-I------ RNSLIWYQQK
+KV3P_MOUSE -DIVLTQSPA SLAVSLGQRA T--IS-CKAS QS-LDY-D-G DSYMNWYQQK
+KV3F_HUMAN -EIVMTQSPV TLSVSPGERA T--LS-CRAS QS-I-----S NSYLAWYQQK
+KV3K_HUMAN -EIVLTQSPG TLSLSPGESA T--LS-CRAS QS-V------ SSNLAWYQQK
+KV3A_HUMAN -ZIVLTZSPG TLSLSPGZRA A--LS-CRAS QS-L-----S GNYLAWYQQK
+LV1H_HUMAN -QSVLTQPP- SASGTPGGRV T--IS-CSGS SS-NV--G-S NZPAYWYQQL
+LV2C_HUMAN -QSALTQ-PR SVSGSPGQSV T--IS-CAGT SS-DV--G-G NHFVSWYQQH
+LV2K_HUMAN -QSALTQ-PA SVSGSPGQSI T--IS-CTGT TS-DV--G-G YDFVSWYQQH
+LV2B_HUMAN -QSALTQ-PA SVSGSPGQSI T--IS-CTGT TS-DV--G-S YNFVSWYQQN
+LV2I_HUMAN -QSALTQPP- RVSGSPGQSV T--IS-CTGS YS-NV--T-G YNHVSWYQQD
+KV03_RABIT -DIVMTQTPA SVSAAVGGTV T--IN-CQAS QN-I------ DSWLAWYQQK
+KV05_RABIT -DVVMTQTPA SVSEPVGGTV T--IK-CQAS QS-I------ YSGLAWYQZK
+KV16_RABIT --IVMTQTPS SKSVPVGDTV T--IN-CQAA QS-VY----S NNRLSWFQQK
+KV01_RABIT -VEVLTQTPS PVSAAVGGTV T--IS-CQST KS-IY----B BBYLAWYQZK
+KV1A_HUMAN -DIQMTQSPS SLSASVGDRV T--IT-CQAS QD-I------ NHYLNWYQQG
+KV1E_HUMAN -BIZMTQSPS SLSASVGDRV T--IT-CRAG QS-V------ NKYLNWYQQK
+KV5P_MOUSE -DIQMTQTPS SLSASLGDRV S--IS-CRAS QD-L------ SQYLFWYQQK
+KV5J_MOUSE -DIQMTQTTS SLSASLGDRV T--IS-CSAS QS-I------ GNYLBWYQQK
+KV5G_MOUSE -DIQMTQSPS SLSASLGERV S--LT-CRAS QD-I------ GSSLNWLQQE
+KV3A_MOUSE -DIVLTQSPA SLAVSLGQRA T--IS-CRAS ES-VD-NY-G ISFMNWFQQK
+KV6F_MOUSE -QIVLTQSPA IMSASPGQKV T--MT-CSAS SS-V------ -SYMHWYQQK
+KV4A_MOUSE -ENVLTQSPA IMAASLGQKV T--MT-CSAS SS-V-----S SSYLHWYQQK
+KV5B_MOUSE -NIVMTQSPK SMSMSVGERV T--LT-CKAS EN-V------ VTYVSWYQQK
+KV5A_MOUSE -DIVMTQSHK FMSTSVGDRV S--IT-CKAS QD-V------ STTVAWYQQK
+KV2F_HUMAN -DVVMTQSPL SLPVTLGQPA S--IS-CRSS QS-LVYSD-G NTYLNWFQQR
+KV2B_HUMAN -DVVMTQSPL FLPVTLGEPA S--IQ-CRSS QS-LVYRB-G BTYLBWYLQK
+KV2D_MOUSE -DIVMTQAAF SNPVTLGTSA S--FS-CRSS KS-LQQSK-G ITYLYWYLQK
+KV1_CANFA  -DIVMTQTPL SLSVSPGEPA S--IS-CRSS QS-N------ LDYLNWYLQK
+LV7A_HUMAN ---ELTQPP- SVSLAAGQTA M--IT-CEGN DI-------G ERSVHWYQQK
+LV1I_HUMAN -QSVLTQPP- SLSAAPGQRV S--IS-CSGS SS-NI----G KNYVDWYQQL
+LV1B_HUMAN -QSVLTQPP- SVSGTPGQRV T--IS-CSGG SS-NG--T-G NNYVYWYQQL
+LV1A_HUMAN -QSVLTQPP- SASGTPGQRV T--IS-CSGG NF-DI----G RNSVNWYQVH
+LV1E_HUMAN -QSVLTQPP- SVSGAPGQRV T--IS-CTGS SS-NI--G-A GNHVKWYQQL
+LV2F_HUMAN -QSALTQPP- SASGSLGQSV T--IS-CTGT SS-DV--G-G YNYVSWYQQH
+LV2L_HUMAN -ASALTQ-PR SLSGSPGQAV T--IS-CTGL PS-VV--D-D DNFVSWYQQT
+LV6E_HUMAN -NFMLTQ-PH SVSESPGKTV T--IS-CTGN SGSI-----A SNYVQWYQQR
+TVA3_MOUSE ----VTQTEG LVTLTEGLPV M--LN-CTYQ ST-Y------ SPFLFWYVQH
+TVA1_RABIT ----VTQTEG PVILSEGSSL T--LN-CNYQ TS-Y------ SGFLFWYVQY
+TVA1_MOUSE ----VTQPDA RVTVSEGASL Q--LR-CKYS YS-A------ TPYLFWYVQY
+TVA3_HUMAN ----VTQLGS HVSVSEGALV L--LR-CNYS SS-V------ PPYLFWYVQY
+KV1N_HUMAN -DIQMTZSPS SLSASVGBRV T--IT-CRAS ZT-I------ SSYLBWYZZK
+KV1A_MOUSE -DIVMTQSPT FLAVTASKKV T--IS-CTAS ES-LYSSKHK VHYLAWYQKK
+KV2A_MOUSE -DIVITQDEL SNPVTSGESV S--IS-CRSS KS-LLYKD-G KTYLNWFLQR
+LV1C_HUMAN -QSVLTQPP- SVSAAPGQKV T--IS-CSGG STNI-----G NNYVSWHQHL
+KV1K_HUMAN -DIQMTQSPS TLSVSVGDRV T--IT-CEAS QT-V------ LSYLNWYQQK
+KV3F_MOUSE -DIVLTQSPA SLAVSLGQRA T--IS-CRAS KS-VN-TY-G NSFMZWYZZK
+KV2D_HUMAN -DIVMTQSPL SLPVTPGEPA S--IS-CRSS QS-LLHSD-G FDYLNWYLQK
+KV2C_HUMAN -DIVLTQSPL SLPVTPGEPA S--IS-CRSS QN-LLZS--B GBYLDWYLZK
+KV2G_MOUSE -DVVMTQTPL SLPVSLGDQA S--IS-CRSS QS-LVHSN-G NTYLNWYLQK
+KV1U_HUMAN -DIQMTQSPS SLSATVGDRV T--LL-CEAS QS-VLE-S-G NTFLAWYQQK
+KV2F_MOUSE -DIVMTQTAP SALVTPGESV S--IS-CRSS KS-LLHSN-G NTYLYWFLQR
+1tlk_      S--------- --------A- -ARF-DC--- ---------- ----------
+1wit_      ---------- ---------- ---------- ---------- ----------
+2ncm_      -DIV----PS QGEISVGESK F--FL-CQ-- ---------- ----------
+1a64_A     D--------- ---------- -EV--R---- ---------- ----------
+
+           151                                                200
+1a7n_L     QGKSPQLLVY YTTT---LAD GV-------- ---------- ----------
+KV1G_HUMAN PGKAPKELIY AASN---LQS GV-------- ---------- ----------
+KV1V_HUMAN PGKAPKSLIY DAST---LQS GV-------- ---------- ----------
+KV1L_HUMAN PEKAPKLLIY KAST---LET GV-------- ---------- ----------
+KV1D_HUMAN PGKAPKVLIY KSSS---LES GV-------- ---------- ----------
+KV1X_HUMAN PGKAPTLLIY AVSN---LQV GV-------- ---------- ----------
+KV1C_HUMAN PGKAPKFLIY DAEN---LEI GV-------- ---------- ----------
+KV3P_MOUSE PGQPPKLLIY AASN---LES GI-------- ---------- ----------
+KV3F_HUMAN PSGSPRLLIY GAST---RAT GI-------- ---------- ----------
+KV3K_HUMAN RGQSPRLLIR DASS---RAN GI-------- ---------- ----------
+KV3A_HUMAN PGQAPRLLMY GVSS---RAT GI-------- ---------- ----------
+LV1H_HUMAN PGTAPKLLIY NYNQ---RPS GV-------- ---------- ----------
+LV2C_HUMAN PGKAPKLIIY GVNK---RPS GV-------- ---------- ----------
+LV2K_HUMAN PGKAPKLLIY DVNS---RPS GI-------- ---------- ----------
+LV2B_HUMAN PGKAPKLMIY EGNK---RPS GV-------- ---------- ----------
+LV2I_HUMAN PGKVPKLMIY DVDK---RPS GV-------- ---------- ----------
+KV03_RABIT PGQPPKVLIY RTST---LAS GV-------- ---------- ----------
+KV05_RABIT PGQPPKLLIY KAST---LAS GV-------- ---------- ----------
+KV16_RABIT PGQPPKGLIY YAST---LAS GV-------- ---------- ----------
+KV01_RABIT PGQPPKALIY TASS---LAS GV-------- ---------- ----------
+KV1A_HUMAN PKKAPKILIY DASN---LET GV-------- ---------- ----------
+KV1E_HUMAN PGKAPKVLIF AASS---LKS GV-------- ---------- ----------
+KV5P_MOUSE PGQPPKLLIY RVSR---LTN GV-------- ---------- ----------
+KV5J_MOUSE PDGTVKLLIY YTSS---LHS GV-------- ---------- ----------
+KV5G_MOUSE PDGTIKRLIY ATSS---LDS GV-------- ---------- ----------
+KV3A_MOUSE PGQPPKLLIY AASN---QGS GV-------- ---------- ----------
+KV6F_MOUSE SGTSPKRWIY DTSK---LAS GV-------- ---------- ----------
+KV4A_MOUSE SGASPKPLIH RTSN---LAS GV-------- ---------- ----------
+KV5B_MOUSE PEQSPKLLIY GASN---RYT GV-------- ---------- ----------
+KV5A_MOUSE PGQSPKLLIY SASY---RYT GV-------- ---------- ----------
+KV2F_HUMAN PGQSPRRLIY KVSN---RDS GV-------- ---------- ----------
+KV2B_HUMAN PGQSPELLIY LSSY---RDS GV-------- ---------- ----------
+KV2D_MOUSE PGQSPQLLIY QMSN---LAS GV-------- ---------- ----------
+KV1_CANFA  AGQSPRLLPE QDSQ---RAS GV-------- ---------- ----------
+LV7A_HUMAN PGQAPVPVIY DDAD---RPS GV-------- ---------- ----------
+LV1I_HUMAN PGTAPKLLIF NNNK---RPS GI-------- ---------- ----------
+LV1B_HUMAN PGTAPKLLIY RDDK---RPS GV-------- ---------- ----------
+LV1A_HUMAN PGTAPRLLIY SSDQ---RSS GV-------- ---------- ----------
+LV1E_HUMAN PGTAPKLLIF HNN------- ---------- ---------- ----------
+LV2F_HUMAN AGKAPKVIIY EVNK---RPS GV-------- ---------- ----------
+LV2L_HUMAN PGRAPRLLIY DDSL---RPS GV-------- ---------- ----------
+LV6E_HUMAN RVSAPTIVIY EDNQ---RPL GV-------- ---------- ----------
+TVA3_MOUSE LNEAPKLLFK SFTD---NKR PE-------- ---------- ----------
+TVA1_RABIT LHEGPQLLLQ STTE---NQR ME-------- ---------- ----------
+TVA1_MOUSE PRQGLQLLLK YYS-GDPVVQ GV-------- ---------- ----------
+TVA3_HUMAN PNQGLQLLLK YTS-AATLVK GI-------- ---------- ----------
+KV1N_HUMAN PGKAPBLLIY AASB---LHS GV-------- ---------- ----------
+KV1A_MOUSE PEQSPKLLIY GASN---RYI GV-------- ---------- ----------
+KV2A_MOUSE PGQSPQLLIS LMST---RAS GV-------- ---------- ----------
+LV1C_HUMAN PGTAPKLLIY EDNK---RPS GI-------- ---------- ----------
+KV1K_HUMAN PGKAPKLLIY AASS---LET GV-------- ---------- ----------
+KV3F_MOUSE PGZPPKLLIY RASN---LZS GI-------- ---------- ----------
+KV2D_HUMAN PGQSPZLLIY ALSN---RAS GV-------- ---------- ----------
+KV2C_HUMAN PGZSPZLLIY LGSN---RAS GV-------- ---------- ----------
+KV2G_MOUSE AGQSPKLLIY KVSN---RFS GV-------- ---------- ----------
+KV1U_HUMAN PKKAPKLLIY DASN---LET GV-------- ---------- ----------
+KV2F_MOUSE PGQCPQLLIY RMSN---LAS GV-------- ---------- ----------
+1tlk_      ---------- ---------- --KVEG---- YPDPEVMWFK DDNPVKESRH
+1wit_      ---------- ---------- ----IG---- APDPTATWTV GDSGAALAPE
+2ncm_      ---------- ---------- ---VAG---D AKDKDISWFS P-NGEKLSPN
+1a64_A     ---------- ---------- --W---ERGS ---------- ----------
+
+           201                                                250
+1a7n_L     ---------- ---------- ---------- ---------- ----------
+KV1G_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1V_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1L_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1D_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1X_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1C_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3P_MOUSE ---------- ---------- ---------- ---------- ----------
+KV3F_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3K_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3A_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1H_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2C_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2K_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2B_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2I_HUMAN ---------- ---------- ---------- ---------- ----------
+KV03_RABIT ---------- ---------- ---------- ---------- ----------
+KV05_RABIT ---------- ---------- ---------- ---------- ----------
+KV16_RABIT ---------- ---------- ---------- ---------- ----------
+KV01_RABIT ---------- ---------- ---------- ---------- ----------
+KV1A_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1E_HUMAN ---------- ---------- ---------- ---------- ----------
+KV5P_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5J_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5G_MOUSE ---------- ---------- ---------- ---------- ----------
+KV3A_MOUSE ---------- ---------- ---------- ---------- ----------
+KV6F_MOUSE ---------- ---------- ---------- ---------- ----------
+KV4A_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5B_MOUSE ---------- ---------- ---------- ---------- ----------
+KV5A_MOUSE ---------- ---------- ---------- ---------- ----------
+KV2F_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2B_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2D_MOUSE ---------- ---------- ---------- ---------- ----------
+KV1_CANFA  ---------- ---------- ---------- ---------- ----------
+LV7A_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1I_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1B_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1A_HUMAN ---------- ---------- ---------- ---------- ----------
+LV1E_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2F_HUMAN ---------- ---------- ---------- ---------- ----------
+LV2L_HUMAN ---------- ---------- ---------- ---------- ----------
+LV6E_HUMAN ---------- ---------- ---------- ---------- ----------
+TVA3_MOUSE ---------- ---------- ---------- ---------- ----------
+TVA1_RABIT ---------- ---------- ---------- ---------- ----------
+TVA1_MOUSE ---------- ---------- ---------- ---------- ----------
+TVA3_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1N_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1A_MOUSE ---------- ---------- ---------- ---------- ----------
+KV2A_MOUSE ---------- ---------- ---------- ---------- ----------
+LV1C_HUMAN ---------- ---------- ---------- ---------- ----------
+KV1K_HUMAN ---------- ---------- ---------- ---------- ----------
+KV3F_MOUSE ---------- ---------- ---------- ---------- ----------
+KV2D_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2C_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2G_MOUSE ---------- ---------- ---------- ---------- ----------
+KV1U_HUMAN ---------- ---------- ---------- ---------- ----------
+KV2F_MOUSE ---------- ---------- ---------- ---------- ----------
+1tlk_      -----FQIDY DEEGN----- ---------- ---------- ----------
+1wit_      -----LLV-- -DAKS----- ---------- ---------- S----TTSIF
+2ncm_      QQRIS--VVW NDDDS----- ---------- ---------- ----------
+1a64_A     ---------- -----TLVAE FKRKPFLKSG AFEILANGDL KIKNL-----
+
+           251                                                300
+1a7n_L     ---------- PSRFSGS--G SGTQYSLKIN SLQPDDFGS- Y-YCQ-----
+KV1G_HUMAN ---------- PSRFSGS--G AGTEFTLTIS SLQPEDFAT- Y-YCL-----
+KV1V_HUMAN ---------- PSNFTGS--G SGTDFILTIS SLQPEDFAT- Y-YCQ-----
+KV1L_HUMAN ---------- PSRFSGS--G SGTEFTLTIN SLQPDDFAT- Y-YCQ-----
+KV1D_HUMAN ---------- PSRFSGS--G SGTDFTLTIS SLZPBBFAT- Y-YCQ-----
+KV1X_HUMAN ---------- PSRFSGS--G SGAEFTLTIS SLQPEDFAT- Y-YCQ-----
+KV1C_HUMAN ---------- PSRFRGS--G SGTDFALSIS SLQPEDFAT- Y-YCQ-----
+KV3P_MOUSE ---------- PARFSGS--G SGTDFTLNIH PVEEEDAAT- Y-YCH-----
+KV3F_HUMAN ---------- PARFSGS--G SGTEFTLTIS SLQSEDFAV- Y-YCQ-----
+KV3K_HUMAN ---------- PDRFSGS--G SGTDFTLIIS RLEPEDFAV- Y-YCQ-----
+KV3A_HUMAN ---------- PDRFSGS--G SGADFTLTIS RLZPEDFAV- Y-YCQ-----
+LV1H_HUMAN ---------- PDRFSAS--R SGTSASLAIS GLQSEDEAD- Y-YCA-----
+LV2C_HUMAN ---------- PYRFSGS--K SGNTASLTIS GLQAEDEAH- Y-YCC-----
+LV2K_HUMAN ---------- SNRFSGS--K SGNTASLTIS GLQAEDEAD- Y-YCS-----
+LV2B_HUMAN ---------- SNRFSGS--K SGKTASLTIS GLQVEDEAD- Y-YCC-----
+LV2I_HUMAN ---------- PDRFSGS--K SANTASLTIS GLQANNEAD- Y-YCS-----
+KV03_RABIT ---------- PSRFKGS--R SGTEFTLTIS DLECADAAT- Y-YCQ-----
+KV05_RABIT ---------- SSRFKGS--G SGTEFTLTIS DLECADAAT- Y-FCZ-----
+KV16_RABIT -------QQD PSRFKGS--G SGTQFTLTIS DVQCBBAATV Y-YCQ-----
+KV01_RABIT ---------- PSRFTGS--G SGTZFTLTLS DVZCDDAAT- Y-YCG-----
+KV1A_HUMAN ---------- PSRFSGS--G FGTDFTFTIS GLQPEDIAT- Y-YCQ-----
+KV1E_HUMAN ---------- PSRFSGS--G SGTDFTLTIS GLLPEDFAT- Y-YCQ-----
+KV5P_MOUSE ---------- PDRFSGS--G SGTDFTLTID PMEEDDTAT- Y-FCQ-----
+KV5J_MOUSE ---------- PSRFSGS--G SGTDYSLTIS BLZPZBIAT- Y-YCQ-----
+KV5G_MOUSE ---------- PKRFSGS--R SGSDYSLTIS SLESEDFVD- Y-YCL-----
+KV3A_MOUSE ---------- PARFSGS--G SGTDFSLNIH PMEEDDTAM- Y-FCQ-----
+KV6F_MOUSE ---------- PARFSGS--G SATSYSLTIT SMQAEDAAT- Y-YCQ-----
+KV4A_MOUSE ---------- PARFSGS--G SGTSYSLTIS SVEAEDDAT- Y-YCQ-----
+KV5B_MOUSE ---------- PDRFTGS--G SATDFTLTIS SVQAEDLAD- Y-HCG-----
+KV5A_MOUSE ---------- PDRFTGS--G SGTDFTFTIS SVQAEDLAV- Y-YCQ-----
+KV2F_HUMAN ---------- PDRFSGS--G SGTDFTLKIS RVEAEDVGV- Y-YCM-----
+KV2B_HUMAN ---------- PDRFSDS--G SGTDFTLKIT RVQAEDVGV- Y-YCM-----
+KV2D_MOUSE ---------- PDRFSGS--G SGTDFTLRIS RVEAEDVGV- Y-YCA-----
+KV1_CANFA  ---------- PDRFSGS--G SGTDFTLRIG RVEAEDAGI- Y-YCM-----
+LV7A_HUMAN ---------- PARFSGY--N SGNSAILTIN RVEAGDEAD- Y-FCQ-----
+LV1I_HUMAN ---------- PDRFSGS--K SGTSATLGIT GLQTGDEAI- Y-YCG-----
+LV1B_HUMAN ---------- PDRFSGS--K SGTSASLAIS GLRSEDEAH- Y-HCA-----
+LV1A_HUMAN ---------- PDRFSGS--K SGTSASLAIS GLQSENEAD- Y-FCA-----
+LV1E_HUMAN ---------- -ARFSVS--K SGSSATLAIT GLQAEDEAD- Y-YCQ-----
+LV2F_HUMAN ---------- PDRFSGS--K SGNTASLTVS GLQAEDEAD- Y-YCS-----
+LV2L_HUMAN ---------- PNRFSGS--K SDTKAALTIS GLQPDDEAT- Y-FCC-----
+LV6E_HUMAN ---------- PDRFSGSIDS SSNSASLTIS GLKTEDEAD- Y-YCQ-----
+TVA3_MOUSE ---------- HQGFHATLHK SSSSFHLQKS SAQLSDSAL- Y-YCA-----
+TVA1_RABIT ------HQGF HATFV----K KDSSFHLHKS SLQLSDSAV- Y-YCA-----
+TVA1_MOUSE -------NGF EAEFS----K SNSSFHLRKA SVHWSDSAV- Y-FCA-----
+TVA3_HUMAN -------NGF EAEFK----K SETSFHLTKP SAHMSDAAE- Y-FCA-----
+KV1N_HUMAN ---------- PSRFSGS--G SGTBFTFTIS SLZPZBFAT- Y-YCZ-----
+KV1A_MOUSE ---------- PDRFTGS--G SGTDFTLTIS SVQVEDLTH- Y-YCA-----
+KV2A_MOUSE ---------- SDRFSGS--G SRTDFTLEIS RVKAEDVGV- Y-YCQ-----
+LV1C_HUMAN ---------- PDRISAS--K SGTSATLGIT GLRTGDEAD- Y-YCA-----
+KV1K_HUMAN ---------- PSRFSGQ--G SGTBFTFTIS SVZPZBFAT- Y-YCQ-----
+KV3F_MOUSE ---------- PARFSGS--G SRTBFTLTIB PVZABDVAT- Y-FCZ-----
+KV2D_HUMAN ---------- PDRFSGS--G SGTDFTLKIS RVEAEDVGV- Y-YCM-----
+KV2C_HUMAN ---------- PNRFSGS--G SGTBFTLKIS RVZAZBVGV- Y-YCM-----
+KV2G_MOUSE ---------- PDRFSGS--G SGTDFTLKIS RVEAEDLGI- Y-FCS-----
+KV1U_HUMAN ---------- PSRFSES--G SGTDFTFTIS GLZPZBFAV- Y-YCQ-----
+KV2F_MOUSE ---------- PDRFSGS--G SGTAFTLRIS RVEAEDVGV- Y-YCM-----
+1tlk_      ---------- ---------- ----CSLTIS EVCGDDDAK- Y-TCKAVNSL
+1wit_      FPSAKRA--- -------DS- ---------- -------G-N YK-LKVKNEL
+2ncm_      ---------- ---------- ----STLTIY NANIDDAGI- Y-KCVVTAED
+1a64_A     ----TRD--- -------DS- ---------- -------G-T YN-VTVYSTN
+
+           301                                             347
+1a7n_L     ---------- ---------H FWS------T PRTFGGGTKL EI---K-
+KV1G_HUMAN ---------- ---------Q QNS------Y PRSFGQGTKV EI---KR
+KV1V_HUMAN ---------- ---------Q YNS------Y PYTFGQGTKV QI---KR
+KV1L_HUMAN ---------- ---------Q YSR------Y PYTFGQGTKL DI---KR
+KV1D_HUMAN ---------- ---------Q YNT------- FFTFGPGTKV DI---KR
+KV1X_HUMAN ---------- ---------Q NYN------F SFTFGGGTKV DN---K-
+KV1C_HUMAN ---------- ---------Q YYN------L PYTFGQGTKL EI---KR
+KV3P_MOUSE ---------- ---------Q SE-------D PWTFGSGTKL EI---K-
+KV3F_HUMAN ---------- ---------Q YNN------W PPTFGQGTRV EI---KR
+KV3K_HUMAN ---------- ---------Q YST------S PYTFGQGTKL EI---KR
+KV3A_HUMAN ---------- ---------Q YGS------S PFTFGQGSKL EI---K-
+LV1H_HUMAN ---------- ---------A WDD----SLD GYVFGTGTKV TV---LR
+LV2C_HUMAN ---------- ---------S YAG----R-F TWVFGGGTNL TV---LG
+LV2K_HUMAN ---------- ---------S FTT----TNS RAVFGGGTKL SV---LG
+LV2B_HUMAN ---------- ---------S YAG----N-S TRVFGGGTRV TV---LS
+LV2I_HUMAN ---------- ---------S YGG----T-Y SLIFGGGTKL TV---LG
+KV03_RABIT ---------- ---------S YYS------I SSAFGGGTEV VV---KG
+KV05_RABIT ---------- ---------G STY------G GGYFGGGTEV VV---KG
+KV16_RABIT ---------- ---------G YKS----S-D TRAFGGGTEV VV---KG
+KV01_RABIT ---------- ---------G ADY------T GYSFGGGTEV VV---KG
+KV1A_HUMAN ---------- ---------Q YDT------L PRTFGQGTKL EI---KR
+KV1E_HUMAN ---------- ---------Q SYT------T PYTFGPGTKV EM---TR
+KV5P_MOUSE ---------- ---------Q SRL------I PRTFGGGTKL EI---KR
+KV5J_MOUSE ---------- ---------Q YSK------L PRTFGGGTKL EI---KR
+KV5G_MOUSE ---------- ---------Q YAS------S PWTFGGGTKL EI---KR
+KV3A_MOUSE ---------- ---------Q SKE------V PWTFGGGTKL EI---K-
+KV6F_MOUSE ---------- ---------Q WSS------N PLTFGAGTKL EL---KR
+KV4A_MOUSE ---------- ---------Q WSG------Y --PFGSGTKL EI---KR
+KV5B_MOUSE ---------- ---------Q GYS------Y PYTFGGGTKL EI---K-
+KV5A_MOUSE ---------- ---------Q HYS------T PPTFGGGTKL EI---KR
+KV2F_HUMAN ---------- ---------Q GTH------W SWTFGQGTKV EI---KR
+KV2B_HUMAN ---------- ---------Q ATZ------S PYTFGQGTKL ZI---KR
+KV2D_MOUSE ---------- ---------N LQE------L PYTFGGGTKL EI---K-
+KV1_CANFA  ---------- ---------Q RSF------Y PYTFGQGTRL EV---RR
+LV7A_HUMAN ---------- ---------S WDN----GSY EVVFGTGTMV TV---LG
+LV1I_HUMAN ---------- ---------T WDN------R RSVFGGGTNV TV---VG
+LV1B_HUMAN ---------- ---------A WDY----RLS AVVFGGGTQL TV---LR
+LV1A_HUMAN ---------- ---------T WDD----SLD GPVFGGGTKV TV---LG
+LV1E_HUMAN ---------- ---------S YDR------S LRVFGGGTKL TV---LR
+LV2F_HUMAN ---------- ---------S YEG----S-D NFVFGTGTKV TV---LG
+LV2L_HUMAN ---------- ---------S YVG----N-Y IFVFGQGTDL TV---LG
+LV6E_HUMAN ---------- ---------S FDN----T-N QGVFGGGTKL TV---LG
+TVA3_MOUSE ---------- ---------L SNA----G-A KLTFGGGTRL TV---RP
+TVA1_RABIT ---------- ---------L RRG----ASN KLTLGTGTLL KVE--LN
+TVA1_MOUSE ---------- ---------V SGF----A-S ALTFGSGTKV IV---L-
+TVA3_HUMAN ---------- ---------V SDLEPNSSAS KIIFGSGTRL SI---R-
+KV1N_HUMAN ---------- ---------Z SYS------S PTTFGZGTRL ZI---KR
+KV1A_MOUSE ---------- ---------Q FYS------Y PLTFGAGTKL EL---KR
+KV2A_MOUSE ---------- ---------Q LVE------Y PLTFGAGTKL EL---K-
+LV1C_HUMAN ---------- ---------T WDS----SLN AVVFGGGTKV TV---LG
+KV1K_HUMAN ---------- ---------Z YLD------L PRTFGQGTKV DL---KR
+KV3F_MOUSE ---------- ---------Z SBZ------B PWTFGSGTKL EI---KR
+KV2D_HUMAN ---------- ---------Z ALQ------A PITFGQGTRL EI---KR
+KV2C_HUMAN ---------- ---------Q ALQ------T PLTFGGGTNV EI---KR
+KV2G_MOUSE ---------- ---------Q TTH------V PPTFGGGTKL EI---KR
+KV1U_HUMAN ---------- ---------Z YDT------L PSTFGVASKV ES---KR
+KV2F_MOUSE ---------- ---------Q QRE------Y PYTFGGGTKL EI---KR
+1tlk_      G-------EA TCTA-ELLV- ---------- ---------- --ETM--
+1wit_      G-------ED EAIF-EVIV- ---------- ---------- --Q----
+2ncm_      GTQS-EAT-- --V-N----- ---------- ---------V KI---FQ
+1a64_A     GTRILDKA-- --L-DLRIL- ---------- ---------- ------E
+

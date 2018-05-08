@@ -1,0 +1,829 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref3/test/1r69_ref3</aln-name>
+<sequence seq-type="Protein">
+<seq-name>1r69_</seq-name>
+<seq-info>
+<accession>1r69_</accession>
+<nid>1r69_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>2</fstart><fstop>12</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>17</fstart><fstop>24</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>28</fstart><fstop>35</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>45</fstart><fstop>51</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>56</fstart><fstop>61</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------sissrvkskriqlglnqaelaqkv---------gttqqsieqlengkt---krprflpelasalgvsvdwllngt-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RCRO_BP434</seq-name>
+<seq-info>
+<accession>P03036</accession>
+<nid>RCRO_BP434</nid>
+<definition>Regulatory protein cro (Antirepressor).</definition>
+<organism>Bacteriophage 434.Viruses;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>8</fstart><fstop>61</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>HTH cro/C1-type.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>19</fstart><fstop>38</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>8</fstart><fstop>61</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01381 HTH_3</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mqtlserlkkrrialkmtqtelatka---------gvkqqsiqlieagvt---krprflfeiamalncdpvwlqygtkrgkaa-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>RDGA_ERWCA</seq-name>
+<seq-info>
+<accession>Q47587</accession>
+<nid>RDGA_ERWCA</nid>
+<definition>HTH-type transcriptional regulator rdgA.</definition>
+<organism>Erwinia carotovora.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>9</fstart><fstop>62</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>HTH cro/C1-type.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>20</fstart><fstop>39</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif Potential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>9</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01381 HTH_3</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>118</fstart><fstop>239</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB008473 Pfam-B_8473</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mkttlaerlktartaqglsqkalgdmi---------gvsqaaiqkievgka---sqttkivelsnnlrvrpewlangegpmrssevtrslqepsippkse----wgtvsawdsttelsedevevpflkdiefacgdgriqse-dyngfklrfskatlrkvgantdgsgvlcfpaagdsmepiipdgttvavdtnnkriidgklyaiaqegggndklkrikqlyrkpgglltihsfnret-deeayesd------veiigrvfwysvll---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PRTR_PSEAE</seq-name>
+<seq-info>
+<accession>Q06553</accession>
+<nid>PRTR_PSEAE</nid>
+<definition>HTH-type transcriptional regulator prtR (Pyocin repressor pr</definition>
+<organism>Pseudomonas aeruginosa.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>16</fstart><fstop>69</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>HTH cro/C1-type.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>27</fstart><fstop>46</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif Potential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>16</fstart><fstop>69</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PF01381 HTH_3</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>103</fstart><fstop>242</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB008473 Pfam-B_8473</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mdkstqippdsfaarlkqamamrnlkqetlaeaa---------gvsqntihkltsgka---qstrklieiaaalgvspvwlqtgegapaarsavsvadgsplv--------leplhpwdsdtpldedevelplykevemsagagrtavr-eiegrklrfsyatlrasgv--dpsaaicaqltgnsmeplimdgstigvdtatthitdgeiyalehdg-----mlrvkfvyrlpgggirlrsfnreeypdeeyspedmrsrqismigwvfwwstvrhrrgpslvr------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1neq_</seq-name>
+<seq-info>
+<accession>1neq_</accession>
+<nid>1neq_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>11</fstart><fstop>19</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>25</fstart><fstop>32</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>36</fstart><fstop>41</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>48</fstart><fstop>57</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>62</fstart><fstop>65</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------csnekardwhradviaglkkrklslsalsrqf---------gyapttlanalerhw-----pkgeqiianaletkpeviwpsryqage--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>NER_BPD10</seq-name>
+<seq-info>
+<accession>P06903</accession>
+<nid>NER_BPD10</nid>
+<definition>DNA-binding protein Ner.</definition>
+<organism>Bacteriophage D108.Viruses;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>28</fstart><fstop>47</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif Probable</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>6</fstart><fstop>73</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB005267 Pfam-B_5267</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mhmnkrtnrqdwhradivaelrkrnmslaelgrsn---------hlssstlknaldkry-----pkaekiiadalgmtpqdiwpsry------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>NER_HAEIN</seq-name>
+<seq-info>
+<accession>P46496</accession>
+<nid>NER_HAEIN</nid>
+<definition>Mu-like prophage FluMu DNA-binding protein Ner.</definition>
+<organism>Haemophilus influenzae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>57</fstart><fstop>76</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif By similarity</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>9</fstart><fstop>76</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB005267 Pfam-B_5267</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------msvlekpkktaeqdwhradilaelkkngwslrslakeg---------qvsyntlktvldksy-----pkmerlvanaigvppeviwagrfaernkrptlqhky-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SFSB_ECOLI</seq-name>
+<seq-info>
+<accession>P18837</accession>
+<nid>SFSB_ECOLI</nid>
+<definition>Sugar fermentation stimulation protein B (Ner-like protein).</definition>
+<organism>Escherichia coli,Escherichia coli O6,Escherichia coli O157:H</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>50</fstart><fstop>69</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif By similarity</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>69</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB005267 Pfam-B_5267</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mesnfidwhpadiiaglrkkgtsmaaesrrn---------glssstlanalsrpw-----pkgemiiakalgtdpwviwpsryhdpqthefidrtqlm---rsytkpkk----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1au7_A</seq-name>
+<seq-info>
+<accession>1au7_A</accession>
+<nid>1au7_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>2</fstart><fstop>19</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>23</fstart><fstop>32</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>40</fstart><fstop>47</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>53</fstart><fstop>69</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>80</fstart><fstop>92</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>98</fstart><fstop>108</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>112</fstart><fstop>125</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------gmraleqfanefkvrriklgytqtnvgealaavhg---sefsqtticrfenlqlsfknacklkailskwleeaeq--------------------------------krrttisiaakdalerhfgehskpssqeimrmaeelnlekevvrvwfcnrrqrekrvk-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>HM16_XENLA</seq-name>
+<seq-info>
+<accession>P20912</accession>
+<nid>HM16_XENLA</nid>
+<definition>Homeotic protein NRL-16 (NRL-21) (Fragment).</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>74</fstart><fstop>110</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>49</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------qgdvglamgklyg---ndfsqttisrfealnlsfknmcklkpllekwlndaesapsdt-----altpsanyaqlsemfg---rkrkkrtsietnirltlekrfqdnpkpsseeismiaeqlv----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PO21_CHICK</seq-name>
+<seq-info>
+<accession>P15143</accession>
+<nid>PO21_CHICK</nid>
+<definition>POU domain, class 2, transcription factor 1 (Octamer-binding</definition>
+<organism>Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>278</fstart><fstop>348</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>375</fstart><fstop>434</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>376</fstart><fstop>432</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>274</fstart><fstop>348</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>701</fstart><fstop>739</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB013391 Pfam-B_13391</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>593</fstart><fstop>617</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB013392 Pfam-B_13392</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>446</fstart><fstop>510</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB013728 Pfam-B_13728</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>116</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB013830 Pfam-B_13830</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>538</fstart><fstop>564</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB058823 Pfam-B_58823</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>618</fstart><fstop>689</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB007900 Pfam-B_7900</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>144</fstart><fstop>273</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB009920 Pfam-B_9920</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------mnnpsetskpsmesgdgntgtqtngldfqkqpvpvggpistaqaqaflghlhqvqlagtslqaaaqslnvqsksneesgdsqqpsqpsqqpsvqaaipqtqlmlaggqitgltltpaqqqlllqqaqaqllaaavqhsasqqhsaagatisasaatpmtqiplsqpiqiaqhlqqlqqqnlnlqqfvlvhpttnlqpaqfiisqt--pqgqqgl--lqaqnlltqlpqq-sqanllqsq-psitlasqpatptrtiaatpiqplpqsqs-------------tpk--ridtpsleepsdleeleqfaktfkqrriklgftqgdvglamgklyg---ndfsqttisrfealnlsfknmcklkpllekwlndaenlssds----tlsspsalnspgqgiegv-nrrrkkrtsietnirvaleksflenqkptseeitmiadqlnmekevirvwfcnrrqkekrinpps-sggtssspikaifpsptslvattpslvtssaattltvnpvlpltspavtslsvtgttettsnntatvistappassavtspslspspsasasiseassasetsttqttstplssplgtsqvmvtasglqtaaaaalqgaaqlpanaslaamaaaaglnpglmassqfaaggallslnpgtlggalspalmsnstlatiqalassgslpitsldasgnlvfanaggtpnivtaplflnpqnlslltsnpvslvsaaaasagasgpvaslhatstsaesiqnslltvasasgatsttttaskaq-------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PO22_HUMAN</seq-name>
+<seq-info>
+<accession>P09086</accession>
+<nid>PO22_HUMAN</nid>
+<definition>POU domain, class 2, transcription factor 2 (Octamer-binding</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>198</fstart><fstop>268</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>296</fstart><fstop>355</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>388</fstart><fstop>409</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Leucine-zipper.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>416</fstart><fstop>423</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Gly-rich.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>297</fstart><fstop>353</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>194</fstart><fstop>268</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>405</fstart><fstop>466</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB016635 Pfam-B_16635</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>85</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB006901 Pfam-B_6901</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>71</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB007341 Pfam-B_7341</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>138</fstart><fstop>193</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB009802 Pfam-B_9802</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>167</fstart><fstop>182</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 3 and isoform 4).</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>399</fstart><fstop>415</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>VTTLSSAVGTLHPSRTA -> AQTPALKAATRLSACQA</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>416</fstart><fstop>478</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 4).</fnote></fitem>
+<fitem><ftype>VARSPLIC</ftype><fstart>467</fstart><fstop>478</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>Missing (in isoform 2).</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------vhssmgapeirmskpleaekqgldspsehtdterngpdtnhqnpqnktspfsvsptgpstkikaedpsgdsapaaplppqpaqphlpqaqlmltgsqlagdiqqllqlqqlvlvpghhlqppaqfllpqa--qqsqpgl--lptpn-lfqlpqq-tqgalltsq-prag----lptqavtrptlpdphlshpqp-------------pkc--leppshpeepsdleeleqfartfkqrriklgftqgdvglamgklyg---ndfsqttisrfealnlsfknmcklkpllekwlndaetmsvds----slpspnqlsspslgfdglpgrrrkkrtsietnvrfaleksflanqkptseeilliaeqlhmekevirvwfcnrrqkekrinpcs-aapmlpspgkpasysphmvtpqggagtlplsqassslsttvttlssavgtlhpsrtaggggggggaapplnsipsvtppppattnstnpspqgshsaiglsglnpstgpglwwnpapyqp---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PDM2_DROME</seq-name>
+<seq-info>
+<accession>P31369</accession>
+<nid>PDM2_DROME</nid>
+<definition>POU domain protein 2 (didymous protein) (Pdm-2) (dPOU-28) (d</definition>
+<organism>Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>5</fstart><fstop>10</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Gln.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>74</fstart><fstop>79</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Glu.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>290</fstart><fstop>360</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>391</fstart><fstop>450</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>392</fstart><fstop>448</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>286</fstart><fstop>360</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------mmvlqqqqqqrlwdatttsntntqtqqsanvestptkvchqenaathtfmrhmsnsptppsplrslsdcgksfeeeelelgencempqnlsskrqareldselenevldlapppkrlaeeqeeekvasvnppqpvafapeemhqalqlqlhsyiemvrqlapeafpnpnlatqfllqnslqalaqfqalqqmkqqqredplpsystplaksplrsps--lspvprh--sksqqrtppnsmt-anslgmssa-vmtpntpsmqqqpqlqqstpkptsgltva-------------sam--akleqspeettdleeleqfaktfkqrriklgftqgdvglamgklyg---ndfsqttisrfealnlsfknmcklkpllqkwledadstvaksg-ggvfnintmtstlsstpesilgrrrkkrtsiettvrttlekaflmnckptseeisqlserlnmdkevirvwfcnrrqkekrinpsl-dldsptgtplsshafgyppqalnmshmqmeggsgsfcgssissge------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PDM1_DROME</seq-name>
+<seq-info>
+<accession>P31368</accession>
+<nid>PDM1_DROME</nid>
+<definition>Nubbin protein (Twain protein) (POU domain protein 1) (PDM-1</definition>
+<organism>Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>104</fstart><fstop>107</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-His.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>191</fstart><fstop>201</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Ala.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>359</fstart><fstop>364</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-His.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>407</fstart><fstop>415</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Ala.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>425</fstart><fstop>495</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>523</fstart><fstop>582</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>524</fstart><fstop>580</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>421</fstart><fstop>495</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>mvmselrwhtaspednknslkrdllkstptsareaavhimqnryisrlsrspsplqsnasdcddnnssvgtssdrcrsplspalslshqqakrqlmslqphpahhhhnphhlnhlnhhqykqeedyddanggalnltsdnsrhstqspsnsvksataspvpvisvpspvppmispvlapsgcgsttpnsmaaaaaaaaavastmgsgispllalpgmsspqaqlaaaglgmnnplltgslspqdfaqfhqllqqrqvaltqqfnsymellrsgslglaqddpaltaqvaaaqflmqsqlqalsqasqqlqalqkqqqrqvdeplqlnhkmtqqprsstphsirspiairspa--sspqqlh--hhhhhplqitpps-saaslklsg-mltpstptsgtqmsqgtttpqpktvasaa-------------aar--aagepspeettdleeleqfaktfkqrriklgftqgdvglamgklyg---ndfsqttisrfealnlsfknmcklkpllqkwlddadrtiqatg----gvfdpaalqatvstpeiigrrrkkrtsiettirgalekaflanqkptseeitqladrlsmekevvrvwfcnrrqkekrinpsl-dsptgadddessymmh-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>BR31_BRARE</seq-name>
+<seq-info>
+<accession>Q90435</accession>
+<nid>BR31_BRARE</nid>
+<definition>Brain-specific homeobox/POU domain protein 3.1 (Brn-3.1) (Fr</definition>
+<organism>Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>PFAM-A</ftype><fstart>73</fstart><fstop>116</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>1</fstart><fstop>54</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------vtqadvgsalanlkipgvgslsqsticrfesltlshnnmialkpvlqawleeaeaayre---------kngkpdlfngne-----rkrkrtsiaapekrsleayfaiqprpssekiariaekldlkknvv----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>POU1_XENLA</seq-name>
+<seq-info>
+<accession>P31363</accession>
+<nid>POU1_XENLA</nid>
+<definition>Transcription factor POU1 (XLPOU1) (Homeotic protein NRL-22/</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>179</fstart><fstop>249</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>267</fstart><fstop>326</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>268</fstart><fstop>324</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>175</fstart><fstop>249</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>56</fstart><fstop>148</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB048147 Pfam-B_48147</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078223 Pfam-B_78223</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mhpdsdrmhqgttyrevqkmmhqeylqglatnaghhmsltphqwlpnpasdwgsgshlgvqaehaksgvqsnredlssgfhhhrshlvhqqspsshawaqsgghhl--apmspss--nshqpliysqssy-tnlngmlgp-qasslhhsmrdplhddpgvhdtqvdsppq-------------hlg--hhqdhsdedapssddleqfakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllnkwleetdsttgs---------ptnldkiaaqgr-----krkkrtsievgvkgalenhflkcpkpsaheitsladslqlekevvrvwfcnrrqkekrmtpag-vphppmedvysqaetpplhhtlqtsvq------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ZP50_BRARE</seq-name>
+<seq-info>
+<accession>Q90482</accession>
+<nid>ZP50_BRARE</nid>
+<definition>POU domain protein ZP-50.</definition>
+<organism>Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>190</fstart><fstop>261</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>279</fstart><fstop>338</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>280</fstart><fstop>336</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>187</fstart><fstop>261</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>76</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB048147 Pfam-B_48147</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>20</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB078223 Pfam-B_78223</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mattaqyiprnnslpsnplmhpdsdrmhqgttyrevqkmmhheylqglatntghpmslthhqwlptsntdwtsgthig--qaehnkasvqsredlgngyhrshlvhqptqnshhgswapttthhl--splspas--nghqslvysqtgy-tmls------pqpslhhglrdplhddagshdnqmespqq-------------pfs--hhqdhsdedapssddleqfakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllnkwleetdsntgs---------ptnldkiaaqgr-----krkkrtsievgvkgalenhflkcpkpsaheittlagtlqlekevvrvwfcnrrqkekrmtpvg-vphptmedvysqaetpplhhtlqspvq------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PO31_HUMAN</seq-name>
+<seq-info>
+<accession>Q03052</accession>
+<nid>PO31_HUMAN</nid>
+<definition>POU domain, class 3, transcription factor 1 (Octamer-binding</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>248</fstart><fstop>318</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>336</fstart><fstop>395</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>337</fstart><fstop>393</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>244</fstart><fstop>318</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>44</fstart><fstop>74</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB028712 Pfam-B_28712</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>109</fstart><fstop>158</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB047682 Pfam-B_47682</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mattaqylprgpgggaggtgplmhpdaaaaaaaaaerlhagaayrevqklmhhewlgagaghpvglahpqwlptggggggdwagahlehgkaggggtgraddggggggfharlvhqgaahagaawaqgstahhlgpamspspgasgghqpqplglyaqaaypgggggglagml--aagggga--gpglhhalhedgh-eaqlepspp-phlgahghahghahagglhaaaahlhpga-------------ggggssvgehsdedapssddleqfakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllnkwleetdsssgs---------ptnldkiaaqgr-----krkkrtsievgvkgaleshflkcpkpsaheitgladslqlekevvrvwfcnrrqkekrmtpaagaghppmddvyapgelgpggggasppsappppppaalhhhhhhtlpgsvq--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PO34_HUMAN</seq-name>
+<seq-info>
+<accession>P49335</accession>
+<nid>PO34_HUMAN</nid>
+<definition>POU domain, class 3, transcription factor 4 (Brain-specifich</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>190</fstart><fstop>260</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>278</fstart><fstop>337</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>279</fstart><fstop>335</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>186</fstart><fstop>260</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>63</fstart><fstop>143</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB039416 Pfam-B_39416</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>144</fstart><fstop>185</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB046895 Pfam-B_46895</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB007105 Pfam-B_7105</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mataasnpysilsstslvhadsagmqqgspfrnpqkllqsdylqgvps--------nghplghhwvtslsdggpwsstlatspldqqdvkpgredlqlgaiihhrsphvahhsphtnhpnawg--aspapnp--sitssgqplnvys-qpgftvsgm-lehggltpppaaasaqslhpvlreppdhg-------------elgshhcqdhsdeetptsdeleqfakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllnkwleeadsstgs---------ptsidkiaaqgr-----krkkrtsievsvkgvlethflkcpkpaaqeissladslqlekevvrvwfcnrrqkekrmtppgdqqphevyshtvktdtschdl-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ZP47_BRARE</seq-name>
+<seq-info>
+<accession>P79746</accession>
+<nid>ZP47_BRARE</nid>
+<definition>POU domain protein ZP-47.</definition>
+<organism>Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>203</fstart><fstop>274</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>292</fstart><fstop>351</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>293</fstart><fstop>349</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>200</fstart><fstop>274</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>65</fstart><fstop>115</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB048169 Pfam-B_48169</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>64</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB007105 Pfam-B_7105</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>119</fstart><fstop>179</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB009939 Pfam-B_9939</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mattasnhyniltsspsivhsepgsmqqatayrdaqtllqsdyslqsnshplshahqwitalshgeggpwsssplgeqdikpavqsprdemhnssnlqhqsrpphlvhqthgnhhdsrawrtttaahip--smatsng--qsliysqpsfsvn-glipgsgqg-ihhhsmrdahedhhsphlsdhghppsqhq-------------hqshqshhdhsdedtptsddleqfakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllnkwleeadstsgs---------ptsldkiaaqgr-----krkkrtsievsvkgaleshflkcpkpaaseitsladslqlekevvrvwfcnrrqkekrmtppggplpgtedvygdtpphhgvqtpvq----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PO3A_XENLA</seq-name>
+<seq-info>
+<accession>P31365</accession>
+<nid>PO3A_XENLA</nid>
+<definition>Transcription factor POU3A (XLPOU3).</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>205</fstart><fstop>275</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>293</fstart><fstop>352</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>185</fstart><fstop>192</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Gln-rich.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>294</fstart><fstop>350</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>201</fstart><fstop>275</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>65</fstart><fstop>118</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB048169 Pfam-B_48169</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>64</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB007105 Pfam-B_7105</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>119</fstart><fstop>168</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB009939 Pfam-B_9939</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mattasnhynllgsgssivhadpggmqqaqsyrdaqtlvqsdytlqsnghplshahqwitalshgdgapwatsplgqqdikptvqssrdelhvsgtlqhqsraphlvhpahgnhhgpgawrstgsthls--smassng--qgllysqpsftvngminpgsgqg-ihhhglrdshddhhgdhghqqvsqaqqqh-------------sqlqgghqdhsdedtptsddleqfakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllnkwleeadsssgs---------ptsidkiaaqgr-----krkkrtsievsvkgaleshflkcpkpsapeitsladslqlekevvrvwccnrrqkekrmtppggtipgaediygasrdtpphlgvqtsvq-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PO32_HUMAN</seq-name>
+<seq-info>
+<accession>P20265</accession>
+<nid>PO32_HUMAN</nid>
+<definition>POU domain, class 3, transcription factor 2 (Nervous-system </definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>68</fstart><fstop>90</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Gly.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>125</fstart><fstop>149</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Gln.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>266</fstart><fstop>336</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>354</fstart><fstop>413</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>355</fstart><fstop>411</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>262</fstart><fstop>336</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>91</fstart><fstop>124</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB042779 Pfam-B_42779</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>67</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB007105 Pfam-B_7105</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>167</fstart><fstop>221</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB009939 Pfam-B_9939</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mataasnhyslltssasivhaeppggmqqgaggyreaqslvqgdygalqsnghplshahqwitalshgggggggggggggggggggggdgspwstsplgqpdikpsvvvqqggrgdelhgpgalqqqhqqqqqqqqqqqqqqqqqqqqqrpphlvhhaanhhpgpgawrtaaaaahlppsmgasng--gllysqpsftvngmlgaggqpag-lhhhglrdahdephhadhhphphshphqqpppp--pppqgppghpgahhdphsdedtptsddleqfakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllnkwleeadsssgs---------ptsidkiaaqgr-----krkkrtsievsvkgaleshflkcpkpsaqeitsladslqlekevvrvwfcnrrqkekrmtppggtlpgaedvyggsrdtpphhgvqtpvq-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PO33_HUMAN</seq-name>
+<seq-info>
+<accession>P20264</accession>
+<nid>PO33_HUMAN</nid>
+<definition>POU domain, class 3, transcription factor 3 (Brain-specifich</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>28</fstart><fstop>50</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Gly.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>104</fstart><fstop>115</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Ala.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>136</fstart><fstop>144</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Pro.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>174</fstart><fstop>179</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Pro.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>189</fstart><fstop>204</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Ala.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>239</fstart><fstop>250</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Gly.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>270</fstart><fstop>294</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>His-rich.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>270</fstart><fstop>281</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-His.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>295</fstart><fstop>304</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Gly.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>318</fstart><fstop>388</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>406</fstart><fstop>465</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>407</fstart><fstop>463</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>314</fstart><fstop>388</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>116</fstart><fstop>167</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB033781 Pfam-B_33781</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>1</fstart><fstop>25</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB044535 Pfam-B_44535</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>63</fstart><fstop>103</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB009667 Pfam-B_9667</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------mataasnpylpgnsllaagsivhsdaagaggggggggggggggaggggggmqpgsaavtsgayrgdpssvkmvqsdfmqgamaasngghmlshahqwvtalphaaaaaaaaaaaaveasspwsgsavgmagspqqppqppppppqgpdvkggagrddlhagtalhhrgpphlgpppppphqghpggwgaaaaaaaaaaaaaaaahlpsmaggqqpppqsllysqpggftvngmlsapp--gpggggggagggaqslvhpglvr-gdtpelaehhhhhhhhahphpphphhaqgpphh--ggggggagpglnshdphsdedtptsddleqfakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllnkwleeadsstgs---------ptsidkiaaqgr-----krkkrtsievsvkgaleshflkcpkpsaqeitnladslqlekevvrvwfcnrrqkekrmtppgiqqqtpddvysqvgtvsadtppphhglqtsvq--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PO33_BRARE</seq-name>
+<seq-info>
+<accession>Q90436</accession>
+<nid>PO33_BRARE</nid>
+<definition>Brain-specific homeobox/POU domain protein 1.1 (Brn-1.1) (Fr</definition>
+<organism>Brachydanio rerio (Zebrafish) (Danio rerio).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>240</fstart><fstop>311</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>329</fstart><fstop>388</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>81</fstart><fstop>96</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Ala.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>205</fstart><fstop>212</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-His.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>216</fstart><fstop>225</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-His.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>330</fstart><fstop>386</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>237</fstart><fstop>311</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------asnpylasstilssaslvhsesggggmqpgsgavtsvsggyrgdptvkmvqsdfmqgamaasngghmlshahqwvtslphaaaaaaaaaaaaaaeagspwssspvgmagspqqqdvksssnredlhsgtalhhrpshlgahqshqsawggttashistitggqqqsqq--sliysqpggftvngmlnppgslv-hpglmrgespemdhhhhhhhhqqqhphhhhhqh---------hagvnshdshsdedtptsddleqfakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllnkwleeadsttgs---------ptsidkiaaqgr-----krkkrtsievsvkgaleshflkcpkpsaqeitsladnlqlekevvrvwfcnrrqkekrmtppgvpqtpedvythagngsfvvdylkgaslkdepdsnhnvttassygqeilvh--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>SGF3_BOMMO</seq-name>
+<seq-info>
+<accession>Q17237</accession>
+<nid>SGF3_BOMMO</nid>
+<definition>Silk gland factor 3 (SGF-3) (POU domain protein M1).</definition>
+<organism>Bombyx mori (Silk moth).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>152</fstart><fstop>223</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>241</fstart><fstop>300</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>242</fstart><fstop>298</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>149</fstart><fstop>223</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------maattympaemelgniggyhaasprsaepadmkyqhplhsggspspgapvignpwtslppadpwamhqhhahahqpdvkpppaphdhrhlqhaahgwhapvvsp-------hygaarp--shcmedtqcpctn-----------ticsetssprdplhhhame------------------------------rdqpeedtptsddleafakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllqkwleeadsttgs---------ptsidkiaaqgr-----krkkrtsievsvkgaleqhfhkqpkpsaqeitsladslqlekevvrvwfcnrrqkekrmtppntlggemmegmghahyghgdvhgsplqhsppglspqhglpqgahtlaah----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>CF1A_DROME</seq-name>
+<seq-info>
+<accession>P16241</accession>
+<nid>CF1A_DROME</nid>
+<definition>POU-domain protein CF1A (Chorion factor 1A) (CF1-A) (Ventral</definition>
+<organism>Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>216</fstart><fstop>286</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>302</fstart><fstop>362</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>19</fstart><fstop>22</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Gly.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>42</fstart><fstop>198</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>His-rich.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>48</fstart><fstop>54</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Ala.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>103</fstart><fstop>111</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Poly-Ala.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>380</fstart><fstop>404</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>His-rich.</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>305</fstart><fstop>361</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>212</fstart><fstop>286</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------maatsymtppsgdldmalggggyhtssprsaadagemkymqhhhhhhaaaaaaahhqlpsspspngqgnggglglgsgsglgswsalhpdpwmqthhthhlpaaaavasaadtvkqemshlsqqtriqqgmaspha--awhaphaghyaptggsplqyhha-mngmlhhpahavaaahhqsvaplhhtlrgespq--lhihhhmgggdrdaisggeedtptsddleafakqfkqrriklgftqadvglalgtlyg---nvfsqtticrfealqlsfknmcklkpllqkwleeadsttgs---------ptsidkiaaqgr-----krkkrtsievsvkgaleqhfhkqpkpsaqeitsladslqlekevvrvwfcnrrqkekrmtppntlggdmmdgmppghmhhggyhphhdmhgspmgthshshsppmlspqnmqssavaahqlaah---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>HM06_CAEEL</seq-name>
+<seq-info>
+<accession>P20268</accession>
+<nid>HM06_CAEEL</nid>
+<definition>Homeobox protein ceh-6.</definition>
+<organism>Caenorhabditis elegans.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>5</fstart><fstop>31</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Ser-rich.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>191</fstart><fstop>261</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>281</fstart><fstop>340</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>282</fstart><fstop>338</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>187</fstart><fstop>261</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mlipssssipsslsasasdsepsslngsgisdqnilpnyhlhhhlinenemeaanyaqvikptceafqdwphtpmlyqqpqlhfmlpqhdwayphlaqslppphhltpstaavaaatiasqssiinq--tsvvtstpscqikqeverpeiiq-rlmppwppayqfscddsgsvsgaggphqp------------------lsdisddseqtcpddlegfakqfkqrriklgytqadvgvalgtlyg---nifsqtticrfealqlsfknmcklkpllfkwleeadsttgs--------pnstfekmtgqag----rkrkkrtsievnvksrlefhfqsnqkpnaqeitqvamelqlekevvrvwfcnrrqkekriapnqydaphpmalnngypmtadlfpyqavvnhytqqsprqq---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>PO51_BOVIN</seq-name>
+<seq-info>
+<accession>O97552</accession>
+<nid>PO51_BOVIN</nid>
+<definition>POU domain, class 5, transcription factor 1 (Octamer-binding</definition>
+<organism>Bos taurus (Bovine).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>138</fstart><fstop>212</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>POU.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>230</fstart><fstop>289</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHomeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>231</fstart><fstop>287</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>PF00046 homeobox</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>138</fstart><fstop>212</fstop><fcolor>2</fcolor><fscore>0.00</fscore><fnote>PF00157 pou</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>29</fstart><fstop>137</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB010002 Pfam-B_10002</fnote></fitem>
+<fitem><ftype>PFAM-B</ftype><fstart>291</fstart><fstop>360</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>PB008537 Pfam-B_8537</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------maghlasdfafspppggggdgpggpepgwvdprtwmsfqgppggsgigpgvvpgaevwglppcpppydlcggmaycapqvgvgpvpp--ggletpqpegeag--------ag-vesnsegaspdpcaapagapkldkeklep-------------------npeesqdikalqkdleqfakllkqkritlgytqadvgltlgvlfg---kvfsqtticrfealqlsfknmcklrpllqkwveeadnnenlq--------eickaetlvqar------krkrtsienrvrgnlesmflqcpkptlqqishiaqqlglekdvvrvwfcnrrqkgkrsssdysqredfeaagspftggpvssplapgphfgtpgyggphfttlyssvpfpegevfpsvsvtalgspmhan--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1a04_A</seq-name>
+<seq-info>
+<accession>1a04_A</accession>
+<nid>1a04_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>STRUCT</ftype><fstart>3</fstart><fstop>8</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>12</fstart><fstop>22</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>28</fstart><fstop>34</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>37</fstart><fstop>47</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>51</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>63</fstart><fstop>72</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>78</fstart><fstop>83</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>88</fstart><fstop>96</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>101</fstart><fstop>104</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>STRAND</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>109</fstart><fstop>121</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>131</fstart><fstop>137</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>142</fstart><fstop>144</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>147</fstart><fstop>157</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>162</fstart><fstop>169</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>173</fstart><fstop>187</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+<fitem><ftype>STRUCT</ftype><fstart>192</fstart><fstop>202</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>HELIX</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------epatilliddhpmlrtgvkq-lismapditvvge-asngeqgielaesldpdlilldlnm-pgmngletldklrekslsgrivvfsvsnh-eedvvtalkrgadgyllkdmepedllkalhqaaagemvlsealtpvl---------------------aaslerdvnqltprerdilkliaq-glpnkmiarrl---------ditestvkvhvkhmlk-kmklksrveaavwvhqerif------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>NARP_HAEIN</seq-name>
+<seq-info>
+<accession>P44845</accession>
+<nid>NARP_HAEIN</nid>
+<definition>Nitrate/nitrite response regulator protein homolog.</definition>
+<organism>Haemophilus influenzae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>6</fstart><fstop>122</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Response regulatory.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>166</fstart><fstop>185</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif By similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>146</fstart><fstop>208</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00196 GerE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>5</fstart><fstop>126</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00072 response_reg</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>57</fstart><fstop>57</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4aspartylphosphate By similarity</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mqdklkvlliddhplmrrgikq-lvelddnfevvadvs-sgtegisvalqtspdviildlnm-kglsgldtlkglraegvdarililtvsda-kndiytlidagadgyllkdtepdtlleqikriaqgevilsdsiknll-------------------lerthednpldsltdremgvlrqiat-glsnkqiaaql---------fiseetvkvhirnllr-klnvhsrvaatvlffeqnr-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>NARP_ECOLI</seq-name>
+<seq-info>
+<accession>P31802</accession>
+<nid>NARP_ECOLI</nid>
+<definition>Nitrate/nitrite response regulator protein narP.</definition>
+<organism>Escherichia coli.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>8</fstart><fstop>124</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Response regulatory.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>171</fstart><fstop>190</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif By similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>151</fstart><fstop>215</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00196 GerE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>7</fstart><fstop>128</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00072 response_reg</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>59</fstart><fstop>59</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4aspartylphosphate By similarity</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mpeatpfqvmivddhplmrrgvrq-lleldpgsevvaeag-dgasaidlanrldidvilldlnm-kgmsgldtlnalrrdgvtaqiiiltvsda-ssdvfalidagadgyllkdsdpevlleairagakgskvfservnqyl----------------reremfgaeedpfsvltereldvlhelaq-glsnkqiasvl---------niseqtvkvhirnllr-klnvrsrvaatilflqqrgaq-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>YXJL_BACSU</seq-name>
+<seq-info>
+<accession>P55184</accession>
+<nid>YXJL_BACSU</nid>
+<definition>Hypothetical sensory transduction protein yxjL.</definition>
+<organism>Bacillus subtilis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>7</fstart><fstop>123</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Response regulatory.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>174</fstart><fstop>193</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif Potential</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>154</fstart><fstop>218</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00196 GerE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>6</fstart><fstop>127</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00072 response_reg</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>58</fstart><fstop>58</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4aspartylphosphate By similarity</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mnkdkirvaladdqplvregfry-vinaqtdmtvsgeag-dghdiialakqtkpdvilmdvqm-prcsgieaakdimsalpntkivilttfdt-eeyvfegiragavgyllkdtlpeelidairaaargeaifrtvtaakiisetfrakqq------------thaeelaepftkrelevlqqmay-glrnediaekl---------fvsestvkthvhrilq-kcnaqdrtqavvfairngivq-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DEGU_BACSU</seq-name>
+<seq-info>
+<accession>P13800</accession>
+<nid>DEGU_BACSU</nid>
+<definition>Transcriptional regulatory protein degU (Protease production</definition>
+<organism>Bacillus subtilis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>121</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Response regulatory.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>183</fstart><fstop>202</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif By similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>163</fstart><fstop>228</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00196 GerE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>4</fstart><fstop>125</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00072 response_reg</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>56</fstart><fstop>56</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4aspartylphosphate By similarity</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mtkvniviiddhqlfregvkr-ildfeptfevvaegd-dgdeaarivehyhpdvvimdinm-pnvngveatkqlvelypeskviilsihdd-enyvthalktgargyllkemdadtlieavkvvaeggsylhpkvthnlvnefrrlats-gvsahpqhevypeirrplhiltrrecevlqmlad-gksnrgigesl---------fisektvknhvsnilq-kmnvndrtqavvvaikngwvemr---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>DEGU_BACBR</seq-name>
+<seq-info>
+<accession>P54662</accession>
+<nid>DEGU_BACBR</nid>
+<definition>Transcriptional regulatory protein degU.</definition>
+<organism>Bacillus brevis (Brevibacillus brevis).Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>11</fstart><fstop>127</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Response regulatory.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>190</fstart><fstop>209</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif By similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>170</fstart><fstop>235</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00196 GerE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>10</fstart><fstop>131</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00072 response_reg</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>62</fstart><fstop>62</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4aspartylphosphate By similarity</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mneqvnenkiqiviiddhqlfregvkr-ilamepefevvadge-dgenavelvekynpdvilmdinm-pkvngveatrdliqrypdvkvlvlsihdd-esyvthvlktgasgyllkemdadalieavkvvaqggayihpkvthnlikeyrrlvnedeqesseigfkeveyrkplhiltrrecevlqlmtd-gysnrmigeal---------yisektvknhvsnilq-kmnvndrtqavvesikngwvkvr---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>AGMR_PSEAE</seq-name>
+<seq-info>
+<accession>P29369</accession>
+<nid>AGMR_PSEAE</nid>
+<definition>Glycerol metabolism activator (AgmR protein).</definition>
+<organism>Pseudomonas aeruginosa.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>120</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Response regulatory.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>173</fstart><fstop>192</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif By similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>153</fstart><fstop>218</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00196 GerE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>124</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00072 response_reg</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>55</fstart><fstop>55</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4aspartylphosphate By similarity</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mykiliaddhplfreaihnviadgfpgsevmetad-ldsalgltqehddldlilldlnm-pgmhglnglmnlrneaptipvvivsaeqd-kqvvlqaitygavgfitksspraqmteaieqilngnvylpsdvirtq----------kssprrsgheehgispellqaltrkqllvlermtk-gesnkqiaynl---------diaettvkahvsailr-klkvhnrvqailsagdidfaaylrr-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPO_PSEAE</seq-name>
+<seq-info>
+<accession>P24908</accession>
+<nid>TRPO_PSEAE</nid>
+<definition>Putative transcriptional regulator.</definition>
+<organism>Pseudomonas aeruginosa.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>118</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Response regulatory.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>155</fstart><fstop>174</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif By similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>144</fstart><fstop>207</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00196 GerE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>2</fstart><fstop>122</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00072 response_reg</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>9</fstart><fstop>9</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4aspartylphosphate By similarity</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>53</fstart><fstop>53</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4aspartylphosphate By similarity</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mskvlivddhpairlavr--llferdgftivgead-ngaealqvarkkspdlaildigi-pkidgleviarlkslkldtkvlvltrqnp-aqfaprclqagamgfvskrenlselllaakavlagyihfptgalrsin-----------------qqsrdnearmleslsdremtvlqylan-gntnkaiaqql---------flsektvstyksriml-klnahslaglidfarrheli------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>BVGA_BORPE</seq-name>
+<seq-info>
+<accession>P16574</accession>
+<nid>BVGA_BORPE</nid>
+<definition>Virulence factors putative positive transcription regulator </definition>
+<organism>Bordetella pertussis,Bordetella bronchiseptica (Alcaligenes </organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+<ftable>
+<fitem><ftype>DOMAIN</ftype><fstart>1</fstart><fstop>119</fstop><fcolor>5</fcolor><fscore>0.00</fscore><fnote>Response regulatory.</fnote></fitem>
+<fitem><ftype>DOMAIN</ftype><fstart>166</fstart><fstop>185</fstop><fcolor>1</fcolor><fscore>0.00</fscore><fnote>DNA_BINDHTH motif By similarity</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>146</fstart><fstop>209</fstop><fcolor>3</fcolor><fscore>0.00</fscore><fnote>PF00196 GerE</fnote></fitem>
+<fitem><ftype>PFAM-A</ftype><fstart>3</fstart><fstop>123</fstop><fcolor>4</fcolor><fscore>0.00</fscore><fnote>PF00072 response_reg</fnote></fitem>
+<fitem><ftype>MOD_RES</ftype><fstart>54</fstart><fstop>54</fstop><fcolor>0</fcolor><fscore>0.00</fscore><fnote>4aspartylphosphate By similarity</fnote></fitem>
+</ftable>
+<length>941</length>
+<weight>100</weight>
+</seq-info>
+<seq-data>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------mynkvliiddhpvlrfavr--vlmekegfevigetd-ngidglkiarekipnlvvldigi-pkldgleviarlqslglplrvlvltgqpp-slfarrclnsgaagfvckhenlhevinaakavmagytyfpsttlsemr----------------mgdnaksdstlisvlsnreltvlqllaq-gmsnkdiadsm---------flsnktvstyktrllq-klnatslvelidlakrnnla------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+ -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 </colsco-data>
+</column-score>
+</alignment>
+</macsim>

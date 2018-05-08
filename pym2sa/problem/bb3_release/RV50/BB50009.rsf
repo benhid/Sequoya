@@ -1,0 +1,1034 @@
+!!RICH_SEQUENCE 1.0
+..
+{
+name 1b70_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+feature 321 335 3 square solid STRUCT
+  FT   STRUCT       17     31  HELIX
+feature 339 341 0 square solid STRUCT
+  FT   STRUCT       35     37  STRAND
+feature 347 350 0 square solid STRUCT
+  FT   STRUCT       42     45  STRAND
+feature 350 354 3 square solid STRUCT
+  FT   STRUCT       45     49  HELIX
+feature 366 369 3 square solid STRUCT
+  FT   STRUCT       61     64  HELIX
+feature 374 376 0 square solid STRUCT
+  FT   STRUCT       69     71  STRAND
+feature 419 422 0 square solid STRUCT
+  FT   STRUCT       88     91  STRAND
+feature 427 436 3 square solid STRUCT
+  FT   STRUCT       96    105  HELIX
+feature 445 455 0 square solid STRUCT
+  FT   STRUCT      109    119  STRAND
+feature 467 478 0 square solid STRUCT
+  FT   STRUCT      130    141  STRAND
+feature 482 497 3 square solid STRUCT
+  FT   STRUCT      145    160  HELIX
+feature 586 591 0 square solid STRUCT
+  FT   STRUCT      166    171  STRAND
+feature 597 608 0 square solid STRUCT
+  FT   STRUCT      176    187  STRAND
+feature 626 637 0 square solid STRUCT
+  FT   STRUCT      191    202  STRAND
+feature 638 675 3 square solid STRUCT
+  FT   STRUCT      203    216  HELIX
+feature 685 693 0 square solid STRUCT
+  FT   STRUCT      226    234  STRAND
+feature 693 702 3 square solid STRUCT
+  FT   STRUCT      234    243  HELIX
+feature 706 713 3 square solid STRUCT
+  FT   STRUCT      247    252  HELIX
+feature 716 723 3 square solid STRUCT
+  FT   STRUCT      255    262  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ....VDVSLPGASLFSGGLHPITLMERELVEIFRALGYQAV.EGPEVESEFFNFDALNIP
+  EHHPARDMWDTFWLTGEGFRLEGP..........................LGEEVEGRLL
+  LRTHTSPMQVRYMVAHTP.....PFRIVVPGRVFRFEQTDA.THEAVFHQLEGLVVGEGI
+  AMAHLKGAIYELAQALFGP.........................................
+  ..........................................DSKVRFQPVYFPF.VEPG
+  AQFAVWWPE..............GGKWLELGGAGMVHPKVFQAV................
+  ........DAYRERLGLPPAYRGVTGFAFGLGVERLAMLRYGIPDIRYFF..GGRLKFLE
+  QFKGVL......................................................
+  ..........................
+}
+{
+name 1pys_A
+descrip 
+creator 
+type    PROTEIN
+group 1
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .......................................MLEEALAAIQNARDLEELKAL
+  KARYLGKKGLLTQEMKGLSALPLEERRKRGQELNAIKAALEAALEAREKALEEAALKEAL
+  ERERVDVSLPGASLFSGGLHPITLMERELVEIFRALGYQAV.EGPEVESEFFNFDALNIP
+  EHHPARDMWDTFWLTGEGFRLEGP..........................LGEEVEGRLL
+  LRTHTSPMQVRYMVAHTP.....PFRIVVPGRVFRFEQTDA.THEAVFHQLEGLVVGEGI
+  AMAHLKGAIYELAQALFGP.........................................
+  ..........................................DSKVRFQPVYFPF.VEPG
+  AQFAVWWPE..............GGKWLELGGAGMVHPKVFQAV................
+  ........DAYRERLGLPPAYRGVTGFAFGLGVERLAMLRYGIPDIRYFF..GGRLKFLE
+  QFKGVL......................................................
+  ..........................
+}
+{
+name SYFA_DEIRA
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Deinococcus radiodurans.Bacteria;
+type    PROTEIN
+group 1
+feature 221 300 0 square solid PFAM-A
+  FT   PFAM-A        6     82  PF02912 Phe_tRNA-synt_N
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      102    321  PF01409 tRNA-synt_2d
+feature 221 300 0 square solid PFAM-A
+  FT   PFAM-A        6     82  PF02912 Phe_tRNA-synt_N
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      102    321  PF01409 tRNA-synt_2d
+feature 598 598 1 square solid SITE
+  FT   SITE        247    247  METAL_Magnesium By similarity
+feature 598 598 1 square solid SITE
+  FT   SITE        247    247  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...................................MQDTAIQEIQGAE..TLEALQAVKT
+  KYVG.KSGLVTKELGSLGKLPPEERKACGAEINVVRAAIQAALDEKESALKRAALDAKLA
+  SEA.IDVTLPGLPLPAGGLHPISRVLDDLIGIYRQMGYAVI.EGPEVEEEHYNFEALNVP
+  WYHPARDLQDTFWLE.........................................DGRL
+  LRTHTSPMQIRYMVDHEP.....PFKIVVRGKVYRYEATDA.THEAMFHQLEGLVVGDGI
+  SMSDLKGTIAEMARGLYGA.........................................
+  ..........................................SAKARFQPSYYPF.VEPG
+  ADFAVYWENPRG...........ESKWLELGGCGMVHPNVFKAV................
+  ........DDLREAAGKDRVYEGKTGFAFGLGLERIAMLKYGIPDIRYFY..ANDPRVIG
+  QFRGELG.....................................................
+  ..........................
+}
+{
+name SYFA_MYCBO
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Mycobacterium bovis.Bacteria;
+type    PROTEIN
+group 1
+feature 598 598 1 square solid SITE
+  FT   SITE        259    259  METAL_Magnesium By similarity
+feature 598 598 1 square solid SITE
+  FT   SITE        259    259  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..........................MLSPEALTTAVDAAQQAIALAD..TLDVLARVKT
+  EHLG.DRSPLALARQALAVLPKEQRAEAGKRVNAARNAAQRSYDERLATLRAERDAAVLV
+  AEG.IDVTLPSTRVPAGARHPIIMLAEHVADTFIAMGWELA.EGPEVETEQFNFDALNFP
+  ADHPARGEQDTFYIAPED......................................SRQL
+  LRTHTSPVQIRTLLAREL.....PVYIISIGRTFRTDELDA.THTPIFHQVEGLAVDRGL
+  SMAHLRGTLDAFARAEFGP.........................................
+  ..........................................SARTRIRPHFFPF.TEPS
+  AEVDVWFANKIG...........GADWVEWGGCGMVHPNVLRAT................
+  ...............GIDP..DLYSGFAFGMGLERTLQFRNGIPDMRDMV..EGDVRFSL
+  PFGVGA......................................................
+  ..........................
+}
+{
+name SYFA_COREF
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Corynebacterium efficiens.Bacteria;
+type    PROTEIN
+group 1
+feature 598 598 1 square solid SITE
+  FT   SITE        258    258  METAL_Magnesium By similarity
+feature 598 598 1 square solid SITE
+  FT   SITE        258    258  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ...........................MTEASLNEAATAAITAFDGAD..NLEELAALRR
+  DHLG.DNAPIPQARRSLGTIPKDQRKDAGRFVNMALGRVEKHFAQVKAQLEEKRNREVLE
+  QER.VDVTVPTTRTQVGALHPITILNEQIADIFVGMGWEVA.EGPEVEAEYFNFDALNFL
+  PDHPARTLQDTFHIGPEG......................................SRQV
+  LRTHTSPVQIRSMLDREV.....PIYIACPGRVFRTDELDA.THTPVFHQIEGLAVDKGL
+  TMAHLRGTLDHLARELFGP.........................................
+  ..........................................ETKTRMRSNYFPF.TEPS
+  AEVDVWFPNKKG...........GAGWIEWGGCGMVNPNVLRAV................
+  ...............GIDP..EEYSGFAFGMGIERTLQFRNGLSDMRDMV..EGDVRFTL
+  PFGIQA......................................................
+  ..........................
+}
+{
+name SYFA_BIFLO
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Bifidobacterium longum.Bacteria;
+type    PROTEIN
+group 1
+feature 598 598 1 square solid SITE
+  FT   SITE        273    273  METAL_Magnesium By similarity
+feature 598 598 1 square solid SITE
+  FT   SITE        273    273  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  .....................MAEQMVFDADQVTAEVAEGIEKIQNAS..NLEELKAIKT
+  TYAG.ADSAMTKASKAIGSLPADQKKEAGKLMGKLRADFGRAYGPKEVELKEAAEKAALA
+  AET.VDMTLPVSRKPLGARHPLPKLMEDVEDFFISMGWQIS.SGPEIEAEWYNFDSLNFG
+  PDHPARQMQDTFYVKGNQAKDAAG.............................FVGSNMV
+  VRTQTSSDQVRALLTRGV.....PLYIASPGRVFRTDELDA.THTPVFHQCEALAVDKHL
+  TMADLKGVLDKLAVAMFGP.........................................
+  ..........................................EAKTRLRPSYFPF.TEPS
+  AELDLWFPDKKG...........GPGWLEWGGCGMVNPNVLKSA................
+  ...............GIDP..DVYTGFAFGVGMERTLLLRSDINDMHDLV..EGDVRFAE
+  QFVMGE......................................................
+  ..........................
+}
+{
+name SYFA_THETN
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Thermoanaerobacter tengcongensis.Bacteria;
+type    PROTEIN
+group 1
+feature 222 300 0 square solid PFAM-A
+  FT   PFAM-A       14     89  PF02912 Phe_tRNA-synt_N
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      109    326  PF01409 tRNA-synt_2d
+feature 222 300 0 square solid PFAM-A
+  FT   PFAM-A       14     89  PF02912 Phe_tRNA-synt_N
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      109    326  PF01409 tRNA-synt_2d
+feature 598 598 1 square solid SITE
+  FT   SITE        254    254  METAL_Magnesium By similarity
+feature 598 598 1 square solid SITE
+  FT   SITE        254    254  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................MEELLKELSKRAEEEILKAK..SLQEIESLRV
+  KYLG.KKGELTQILRGMGSLSPEERPVIGQLANDVREKIENMILERREKIAKEEKERKIK
+  EEY.IDITMPGKPYKYGHKHPITLVMDEIKRIFLGLGFSIA.EGPEVELAYYNFEALNTP
+  EDHPARDLQDTFYIT.........................................SDIL
+  LRTQTSPVQVRTMEKTKP.....PIRVISPGRVYRSDDIDA.THSPVFHQMEGLVVDEGI
+  TMGDLKGVLNVFAKKFFGE.........................................
+  ..........................................QTKTKFRPHFFPF.TEPS
+  AEMDVSCFACGGKGCRVC....GYTGWIEILGAGMVHPNVLRMS................
+  ...............GIDP..EKYTGFAFGLGIDRIAMLKYGIEDLRLLF..ENDMRFIE
+  QF..........................................................
+  ..........................
+}
+{
+name SYFA_SYNY3
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Synechocystis sp. (strain PCC 6803).Bacteria;
+type    PROTEIN
+group 1
+feature 222 300 0 square solid PFAM-A
+  FT   PFAM-A       18     93  PF02912 Phe_tRNA-synt_N
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      113    318  PF01409 tRNA-synt_2d
+feature 222 300 0 square solid PFAM-A
+  FT   PFAM-A       18     93  PF02912 Phe_tRNA-synt_N
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      113    318  PF01409 tRNA-synt_2d
+feature 598 598 1 square solid SITE
+  FT   SITE        258    258  METAL_Magnesium By similarity
+feature 598 598 1 square solid SITE
+  FT   SITE        258    258  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ........................MTISLEADLKSLQQSAQAAISGCD..DLDGLDKLRV
+  QYLG.KKGELSLILKGMGKLSAEERPKFGAIANEVKEALQHDLESRKANLQNAAIEAQLA
+  AET.LDVTMAGSYRPQGRRHPLNSTVDRVLDIFVGLGYTVA.TGPQVETDYYNFEALNIP
+  ADHPARDMQDTFFLK.........................................DGRL
+  LRTHTSPVQIRYMEKHDP.....PIRIVAPGRVYRRDTVDA.THSAVFHQVELLAIDKGL
+  AFTHLKGTIQAFIKQMFGE.........................................
+  ..........................................ALPIRFRASYFPF.TEPS
+  AEVDVQWQG................KWLEVMGCGMVDPNVMEAV................
+  ...............GYDP..EVYTGFAAGFGVERFAMVLHQIDDIRRLY..NSDLRFLR
+  QF..........................................................
+  ..........................
+}
+{
+name SYFA_SYNEL
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Synechococcus elongatus (Thermosynechococcus elongatus).Bact
+type    PROTEIN
+group 1
+feature 598 598 1 square solid SITE
+  FT   SITE        263    263  METAL_Magnesium By similarity
+feature 598 598 1 square solid SITE
+  FT   SITE        263    263  METAL_Magnesium By similarity
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ..................MTSPILDRDRLSQQLQDLQAKALQAIATAS..TLDALEQLRV
+  AYLG.KKGELSQILALMGKLPAGDRPTIGTLANTLKEKLLQELEARRATLQAEKIAAQLA
+  AES.LDVTMPGVYRPQGHIHPLHSTIDRILDIFVGLGYTVA.NGPEMETEYYNFEALNTP
+  ADHPARDMQDTFYLP.........................................DGNL
+  LRTHTSSVQIRYMELYEP.....PIRIVAPGRCYRRDTEDA.THAAVFHQIEILAVDEGL
+  TFTDLKGTVTTFLAELFGD.........................................
+  ...........................................VPIRFRASYFPF.TEPS
+  AEVDVQWQG................RWLEVMGCGMVDPAVLKNV................
+  ...............GYDP..EVYTGFAAGFGVERFAMVLHQIDDIRRFY..TSDLRFLR
+  QF..........................................................
+  ..........................
+}
+{
+name SYFA_ARATH
+descrip Probable phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.
+creator Arabidopsis thaliana (Mouse-ear cress).Eukaryota;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      215    463  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      215    463  PF01409 tRNA-synt_2d
+sequence
+  ..................MAEEAILGFLQNNEQITDSGQFSAEFNIDHNELVNVIKSLHG
+  FRYIDVQ.DIKKETWILTDEGKKYAAEGSPEVQLFLAVPEEG..................
+  ......SISKDELQKKLA....PAVFKIGCSQAGKNKWVEMGKQ.........VSRKVKD
+  VEDKVKGQLL.....................QIQQGKEFDKESINSLKARKLIVPQIWKG
+  YSVKKGP...........................NYAPERKKVATDLTRE..NLQNWKEL
+  EFKEYNFKAKGAPVDAGHLHALLKVRKQFKDIFVQMGFEEMPTNNYVESSFWNFDALFQP
+  QQHPARDSHDTFFLKVPSTTRTLPEDYVERVKRV.HESGG.YGSRGYNYDWKREEANKNL
+  LRTHTTAVSSRMLYALAQKPFV.PKKYFSIDRVFRNEAVDR.THLAEFHQIEGLICDRGL
+  TLGDLIGVLEDFFSRLGMS.........................................
+  ............................................KLRFKPAYNPY.TEPS
+  MEIFSYHEG..............LGKWVEIGNSGMFRPEMLLPM................
+  ...............GLP...EDVRVIAWGLSLERPTMILYGIDNIRDLFGHKVDLDLIK
+  RNPICRIGI...................................................
+  ..........................
+}
+{
+name SYFA_HALN1
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Halobacterium sp. (strain NRC-1 / ATCC 700922 / JCM 11081).A
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      236    483  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      236    483  PF01409 tRNA-synt_2d
+feature 22 305 0 square solid PFAM-B
+  FT   PFAM-B        7    220  PB005500 Pfam-B_5500
+feature 22 305 0 square solid PFAM-B
+  FT   PFAM-B        7    220  PB005500 Pfam-B_5500
+sequence
+  ...............MQLPTQQVAVLDAASTDDPQRIEALAADTDYPPETIAGAALALEA
+  EGLVAVT.ETTTTTVSLTDEGHAYATDGLPEVRLYRAALDAG..................
+  .ADDAPVEMGSVIGAAGLDG..PQVDIALSN.YARKGYGTIDSG...ALAADPDADPEND
+  PEADALATLTDGDSVDDDA................VVDQLASRDL.VTVSERTVRSVTLT
+  EAGVTELMA...........................GVEATDEVGELTPELLASGEWADV
+  EFADYNVAADAADHTPGKTHVLRQAAERVTDVLVGMGFQEM.AGPHVDADFYINDCLFMP
+  QDHPARNHWDRFALSNPARIDELPDALVERVERA.HREGAGDDGDGYHSPWDEDFARALA
+  LRGHTTSLTARHLAGLADADVEAPARYFSVEKAYRNDTLDA.THLLEFFQIEGWVLADDL
+  SVRDLMGTFREFYSQFGIH.........................................
+  ............................................DLQFKPTYNPY.TEPS
+  FELFGRHPETG..............ELIEIGNSGIFRPEMLDPL................
+  ...............DVD.....GDVMAWGLALERLLMLMTGFEDIRDVHGTLCDVGFLR
+  NAEVVY......................................................
+  ..........................
+}
+{
+name SYFA_PYRAB
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Pyrococcus abyssi.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      240    483  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      240    483  PF01409 tRNA-synt_2d
+feature 23 298 0 square solid PFAM-B
+  FT   PFAM-B        8    217  PB005500 Pfam-B_5500
+feature 23 298 0 square solid PFAM-B
+  FT   PFAM-B        8    217  PB005500 Pfam-B_5500
+sequence
+  ...............MTLGYNEKLVLLTIAKLEKASVEEIVKETRLDQVAVMRAILTLEK
+  EGLIKLH.ERKEKIIVLTDIGKEYSKIGLPEIRALRVLREKK..................
+  .....KAYLDELKDVLREDE...LKAIVGI..LRREGLANVRKDEKGLVLEITEKGEKLG
+  ERPIDIALKLLSEKGEVSVDE...............ISRIIDVKD.LKRRKIAREDERVE
+  RTVEITEKGKKL..................V...SKGIELKREVTRLTPELIASGKWREV
+  ELKPFNIKAPVKRIYPGKKQPYRVFLDKIRRRLIEMGFIEMTVDSLIETQFWNFDALFQP
+  QNHPAREWTDTYQLKYPEKGYLPDESLVSRVKEA.HERG.LAGSRGWGYVWSPERAMLLM
+  PRAHATALSARQLAKGIEI....PGKYFTIQRVFRPDVLDR.THLIEFNQIDGFVAGEDL
+  TFRHLLGILKRFAIEIAGA.........................................
+  ...........................................KKVKFFPDYYPF.TEPS
+  VQLSAYHPE...............LGWVEFGGAGVFREEMTEAL................
+  ...............GIK.....VPVIAWGIGIDRLAMFKLGIDDIRYLF..SYDLRWLR
+  EAKLIW......................................................
+  ..........................
+}
+{
+name SYFA_PYRAE
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Pyrobaculum aerophilum.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      220    456  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      220    456  PF01409 tRNA-synt_2d
+feature 38 298 0 square solid PFAM-B
+  FT   PFAM-B       22    197  PB005500 Pfam-B_5500
+feature 38 298 0 square solid PFAM-B
+  FT   PFAM-B       22    197  PB005500 Pfam-B_5500
+sequence
+  ................MLVLPLPLYEIIRHAPEWKPLEEVARELGSSVDSLMRYVEEGRA
+  KGVLRVE.RKVIEFYELTEEGRQRAAEGLPEYKLLKSAVCRE..................
+  .....GRCTAHLSQHPE......AQIALAN..LAKLGVKPRGN....VVELDEETYKKIV
+  AMLEEKQKALAAPHSAP.....................PEVLKEF.IKRKLVRKIEKTQV
+  YVKAAVP...........................LELVKPAEVKTVITSEDIATGRWRNY
+  TLKPFDLNIEPPEYPAPVPHFFNEFLDYVREVMIGLGFEEV.RGPVLEVEFWNFDALFQA
+  QDHPAREVHDTFYVQWSGPLETPPEHLMESVGRV.HEEK.......WRYKWDRKKALNPV
+  LRTQTTATTIRALAERGDG....EYKVFTIGRVFRPEKLDP.KHSMEFHQLDGIVVGPGL
+  TFKHLLGQLEEIAKALGMT.........................................
+  ............................................KVKFRPAYFPF.TSPS
+  VEVYAQHPK...............LGWVEFGGAGIFRPEVTEPL................
+  ...............GVKK....SRVLAWGWGLDRIAMILLGIDDIRELF..TKDLEKLK
+  EYYARWARYKASVGAVGTLFTL......................................
+  ..........................
+}
+{
+name SYFA_THEVO
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Thermoplasma volcanium.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      226    465  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      226    465  PF01409 tRNA-synt_2d
+feature 18 163 0 square solid PFAM-B
+  FT   PFAM-B        4    119  PB005500 Pfam-B_5500
+feature 18 163 0 square solid PFAM-B
+  FT   PFAM-B        4    119  PB005500 Pfam-B_5500
+sequence
+  ..............MSEISKNEALILKYLASKNQEIEESNIEIKGLSRQDIASATSWLQV
+  KGLIDVK.TREEVAYVLTDEGKRYAENGLPELRAYSILKRKG..................
+  .....KLSLRDLQEAMPDE....YKIVLAQ..LAKFGITPKNG....VLEYSDGHI...E
+  AEISRRQRFLSDLNTD......................DQEMIEH.FKRRKNVIEEKKRS
+  VRIVSINSKGLEQL.....................NNFDQFEAIGEIDSGIITSQAWKTA
+  PFRKYDLDAPVSPTKSYAKHPLVYFINEIRRIFLDMGFTEM.SGHYIESALWDMDALFIP
+  QDHPARDMQDTFYVKDSNFTIEHPEIEKRIKRI..HERGFDGYS.GWGYRWSSDDGKKLI
+  LRTHTTVTTARYLYEHNTY....PQAIFSVEKVFRHESVDW.KHLAEFYQIEGAVYDKNV
+  SVATLKWILRTFYGKLGFE.........................................
+  ............................................KIRLVPSYYPY.TEPS
+  LDVVVEVDG................KEMELGGSGIFRPEVGKIL................
+  ...............GLK.....APVMAWGMGLERLAMLYYGLTDVRDLY..NTDFSFLE
+  GYKIKY......................................................
+  ..........................
+}
+{
+name SYFA_THEAC
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Thermoplasma acidophilum.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      232    471  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      232    471  PF01409 tRNA-synt_2d
+feature 18 305 0 square solid PFAM-B
+  FT   PFAM-B       10    216  PB005500 Pfam-B_5500
+feature 18 305 0 square solid PFAM-B
+  FT   PFAM-B       10    216  PB005500 Pfam-B_5500
+sequence
+  ........MHIPIPMVQISEAEYRVLRAIQSRGATAIESELSVEGLSDREIASAISWLEV
+  KGLLDVE.RREIKTYALSSEGKRYLREGLPELVLYRKLKERG..................
+  .....EMTMDEIRDLMPDT....YRIALAQ..LAKFGITPKEG....KLIYRNSGI...E
+  AAIEERQRFLQSMDPK......................NTAMIDH.FRHRSGVIDEKIRT
+  ERIVRLNDSAYEAI.....................AEFGGEGLIGSLDPSIIASGEWKTK
+  NFRKYDLNSPSSVIRSSLKHPMTYLIEEIREIFLNMGFTEM.GGHYIESTLWDMDSLFIP
+  QDHPARDMQDTFYVEADSFDIDHPEISKKIRKI..HEKGFDGYS.GWGYRWSDAEARKLV
+  LRTHTTVSTARYLYENNEP....PQAIFSVEKVFRHESVDW.KHLAEFYQIEGAVYSKDV
+  SVSTLKWILRDFYAKLGFN.........................................
+  ............................................DIKLIPSYYPY.TEPS
+  LDVVVRVNG................KEVELGGSGLFRPEVLKIL................
+  ...............GLK.....APVMAWGMGLERLAMMYYGLTDVRDLY..NTDFEFLS
+  SFRFNISRNGRNNYGKA...........................................
+  ..........................
+}
+{
+name SYFA_AERPE
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Aeropyrum pernix.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      235    470  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      235    470  PF01409 tRNA-synt_2d
+feature 16 305 0 square solid PFAM-B
+  FT   PFAM-B        5    219  PB005500 Pfam-B_5500
+feature 16 305 0 square solid PFAM-B
+  FT   PFAM-B        5    219  PB005500 Pfam-B_5500
+sequence
+  ...........MEVTLSQGEYRLLKLMAERGFREGTLEEASKILGVDKSSLASLSNLLAE
+  KGVVEVE.ERVEEHYVLTERGRDALERGLPEEKLVLFLAGRG..................
+  ....GEASVEEVRRALGEE....AGIALGQ..AARKGLVVIAG....GVVRLAVDQAEAL
+  KTITPLKKLLENVAS................GSKPTVGDELLREA.LSRGLIRREARRSI
+  VLRLKVNPA.........................EALARARVEAAVLTRDMLKSGEWRRL
+  RFKPYNVKAEPPRVLPARRHFLAEFIERLRDILRELGFREV.RGPLVELELFNFDVLFQA
+  QDHPAREIHDSLWIKSPRRGDLSGYSDLVERVASVHERG.......WKYRWSPEVASRYI
+  LRSQTTAVSARILATRPNP....PARFFTVGKVFRSDAVGP.TRLPEFHQLDGIEGDEGY
+  TFRDLLGRLDEIASMLGL..........................................
+  ............................................KLKFKPAYFPF.TEPS
+  VEGYVKLPN...............GRWLELFGAGMFRPEVLEAV................
+  ...............GVD.....YPVGAWGFGIERLAMAFYGVSDIRKLY..TRNVDEVR
+  EMRVRWL.....................................................
+  ..........................
+}
+{
+name SYFA_METJA
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Methanococcus jannaschii.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      229    467  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      229    467  PF01409 tRNA-synt_2d
+feature 46 298 0 square solid PFAM-B
+  FT   PFAM-B       31    206  PB005500 Pfam-B_5500
+feature 46 298 0 square solid PFAM-B
+  FT   PFAM-B       31    206  PB005500 Pfam-B_5500
+sequence
+  ...............MELHIDEKRLLKIFQDNNRDEFNLNELEKFMPKEKILRVSLWLKG
+  KNLVETE.EKVKKIIKLIKEEEFPERKIANYLKQHNIKEIEI..................
+  ......KNLKDILPKEE......INAALGA..IKRKGIARIEKG...KIIFDNLDYKDVE
+  EQLLQKIKENKYLDDFS..................EEEKKIIDIL.KKRGYVDFDEEKEI
+  KIKLTEKGKEFIKNP......................IEIEEEITQLTRDIIISGKWKKA
+  YIRPYDVKVPTKPIYPAKVHPLTRIIREVKEILLAMGFKEV.KSPIVETEFWNFDMLFEP
+  QDHPAREMQDTFFLKYPNEGDIPEDLLSKVKEV..HERC.......WKYKFDENVSRRLI
+  LRTHTTASSIRYLASLSDEEKNKPHKVFCIDRVFRNEAIDY.KHLPEFYQCEGIIMDDNV
+  NFNNLIGVLKEFLNRLGFE.........................................
+  ............................................KVRFRPAYFPF.TEPS
+  LEAEVYLEG...............KGWLEILGAGIFRPEVLEPI................
+  ...............GIE.....KPVLAWGIGFSRLAMLRYGLTDIRDLH..KNDLDWLK
+  RV..........................................................
+  ..........................
+}
+{
+name SYFA_METAC
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Methanosarcina acetivorans.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      235    474  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      235    474  PF01409 tRNA-synt_2d
+sequence
+  ..........MSAQDNLTINEKKVLLALEELGSAA.PDKLEEKSGLQVDAAMQAAFMLQE
+  KGLASVS.EKVLERYSLTKEGEEYTKTGLPERQIIDALKAPA..................
+  .......PLEELRSRFSPKT...VGIATGW..LIKKGWAKVENG...VMVPSGNAP..AG
+  RDEEVLAAFAGKAKT................LEELAADEGTVKEL.LKRKLVIKHEEKSR
+  TVSVTGAG......................SALAAEGIVLEEEIAQLTPELLKSGAWKGK
+  KFRPYRLDIAPNPLYGVKIHPYRRLIEQMRQIFLEMGFTEI.KGGIIQSSFWNFDALFQP
+  QDHPARDMQDTFHLGSICQLPAEYSDKVAAM....HESGGDIDSCGWGGIWDRELARRNV
+  LRTHTTSVTIKYLADNPEP....PVKAFCIDRAYRRETIDP.THTPEFEQLEGVVMDKDM
+  SFADLLGLLAEFYHRMGFE.........................................
+  ............................................EVRFRPGYFPY.TEPS
+  VEPEVYVDG...............LGWVELGGAGVFRKEVTEPF................
+  ...............GIK.....EPVLAWGLGVSRLAMLKLGLKDLRLLY..QSDIDWLR
+  KSEVCRI.....................................................
+  ..........................
+}
+{
+name SYFA_SULTO
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Sulfolobus tokodaii.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      215    448  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      215    448  PF01409 tRNA-synt_2d
+feature 16 305 0 square solid PFAM-B
+  FT   PFAM-B        1    199  PB005500 Pfam-B_5500
+feature 16 305 0 square solid PFAM-B
+  FT   PFAM-B        1    199  PB005500 Pfam-B_5500
+sequence
+  ...............MLSENEIKILEYLSKK.REASAEDISKQLNIPIESVFSISQLLKE
+  KGYIEVE.EKKVIKYELTDEGKRRLKEGFPEEKLVKLLDGKE..................
+  ......KKIHELKDKLGRD....FEISIGW..AKRKGLVKIDGD...TVIPLVKDY...E
+  AKEEKEALINPEK.......................ANKDILQQL.LNRKLLIKKEEKIL
+  NIRLIREP.............................LEIKPALIFLTPELLASGEWKKY
+  ALREYNVEAYPPFYPIGKKHFFKEFLERLRDLMRDLGFKEV.YSDYVEIEFYNFDLLFQA
+  QDHPAREIHDSFAISGKGKLTDEKLIQRVKQI...HERG.......WKYNWDVNISMRLM
+  LRSQTTATTARVLASRPKP....PIRVFTIGKVFRPDSIDA.THLIEFHQLDGLVIEDNF
+  TFRDLLGTLKEIFNGIGIK.........................................
+  ............................................EIRFKPAYFPF.TEPS
+  VEVYGKIEG...............LGWVEMAGAGLLRPEILEAV................
+  ...............EIS.....SSAGAWGLGIDRLAMLLLGLKDIRLLY..ATDIEYLR
+  NRKVEINADN..................................................
+  ..........................
+}
+{
+name SYFA_SULSO
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Sulfolobus solfataricus.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      217    450  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      217    450  PF01409 tRNA-synt_2d
+feature 16 305 0 square solid PFAM-B
+  FT   PFAM-B        4    201  PB005500 Pfam-B_5500
+feature 16 305 0 square solid PFAM-B
+  FT   PFAM-B        4    201  PB005500 Pfam-B_5500
+sequence
+  ............MISMLSENEAKILFFLKDL.KKTNSVELAIKMGIPESSVLSLIELLRE
+  KGYVKTE.VKSEKHYVLTEEGRKRKESGLPEDILINTLNGQE..................
+  ......KDLNEIKNILNKD....FNIAISW..AKRKGLIDIKEG...KVIPKVKTY....
+  MSSEYLALSNLER.......................ADSNTINLL.KKRGLIEEKERKIV
+  SVELIKEP.............................KESEIGISNLNRELIISGEWKKY
+  KLKKYNVEAFPPYYTISKKHYFREFLEKVKDIMISLGFKEI.NTGYIEMEFYNFDLLFQP
+  QDHPAREIHDSFSVEGSGKIEDKDLLNNVKEI...HEKF.......WKYEWKQDITLRLM
+  LRSQTTATTARVLASRPKA....PQKVFTLGKVFRPDAIDA.THLIEFHQLDGVIIDNNF
+  TFKELLGVLKEIFYRLGIK.........................................
+  ............................................EVKFKPAYFPF.TEPS
+  VEAYGYLEK...............LGWVEMCGAGLLRPEILSSV................
+  ...............GID.....STAGAWGIGIERLAMSFLNISDIRLLY..SNNIEYIR
+  DTKVKIE.....................................................
+  ..........................
+}
+{
+name SYFA_METKA
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Methanopyrus kandleri.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      259    504  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      259    504  PF01409 tRNA-synt_2d
+sequence
+  ......MDPRELAERLTERDLRILIHLAESG..EATPEELAESLDVDLGPVMRSLYWLEE
+  RGLIESE.EETHEVYELGDEGKEYAEEGLPELRIVEVLR.....................
+  .KIGGEGRLEEVLDRAGVPRKL.AGPVLGW..LRRKGLAEIKREDGETSLVLLEEE...P
+  EDVDQSVLEALAA.......................EGSASVEEL.ARKLEMDEEEVEKA
+  LKRLSERGDVLRAREETVKKVRLTERGEEVAEHAP.EVLERDWITELKPEHLREGTWKEK
+  EFKPYDVKAPTSPTFPGKRHPLKEVINEIRRIFLEMGFVEV.SGPLVESSFWNFDALFQP
+  QDHAAREMQDTFYLKEPAEAELPDEEVVEKVRAV.HEDGGDTGSRGWGYEWDEGVARKTV
+  LRTHTTAVSVRKLYEVEGP....PLKAFSIGRVYRRETVDY.KHLPEFHQCEGIVLAKDV
+  SFRDLLGILEEFYRRMGFE.........................................
+  ............................................EVRFRPAYFPY.TVLS
+  VEPEVYFEE..............KGDWVELGGAGIFRPEVLQPL................
+  ...............GFDP...DVVCLAWGLGVERLAMLKLGIDDIRDLY..MSDLKTLL
+  ELPTARARR...................................................
+  ..........................
+}
+{
+name SYFA_ARCFU
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Archaeoglobus fulgidus.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      217    456  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      217    456  PF01409 tRNA-synt_2d
+feature 16 305 0 square solid PFAM-B
+  FT   PFAM-B        1    201  PB005500 Pfam-B_5500
+feature 16 305 0 square solid PFAM-B
+  FT   PFAM-B        1    201  PB005500 Pfam-B_5500
+sequence
+  ...............MLSKIELMLLRSLETG.KTYTPEEAAELSGLSKDAVLKAAYMLQE
+  RGYVRVI.ENVRTHYSLTEEGERYLKEGLPEEKLYSLVKSGV..................
+  ......NSMDELRKRMGRE....FQIALGW..LRRKGAVEVEGD...KVVPKREP....S
+  FDERAALQAIKEG.....................RGVDEGTLKTL.MKRKLVTKSETKQV
+  YIEVMKKP............................EIELEDIITDLTPEMLLEGTWRGK
+  QFLKYDITIPAKEIYGGKIHPYERIIEECRKVFLEMGFTEI.KGHYVQPAFWNFDALFQP
+  QDHPARDMQDTFYLDRYIDLEGEIVERVKAT....HENGWITGSTGWGGEWSLEKARQLV
+  LRTHTTAITIHYLAENPEP....PQKAFCIDRVYRRETIDA.THLPEFDQLEGVVLDRDV
+  GFKHLLGLLKEFFTKMGFE.........................................
+  ............................................DVRFRPGYFPY.TEPS
+  VEPEVYVEG...............LGWVELGGAGVFRKEVTEPL................
+  ...............GIR.....GKVLAWGLGIGRLAMLKIGLKDLRRLY..LPDLGWLR
+  SMPVARK.....................................................
+  ..........................
+}
+{
+name SYFA_METTH
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Methanobacterium thermoautotrophicum.Archaea;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      249    490  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      249    490  PF01409 tRNA-synt_2d
+feature 21 305 0 square solid PFAM-B
+  FT   PFAM-B       15    233  PB005500 Pfam-B_5500
+feature 21 305 0 square solid PFAM-B
+  FT   PFAM-B       15    233  PB005500 Pfam-B_5500
+sequence
+  ......MMDLDRIIDQLHIYEKKVLKAFEGSDKPLKPEEIAESQKIDIKSVMSASGALES
+  RGFVRVM.KDADEVVSLTEDGESCAREGLPERRLIEALKGEE..................
+  .....ELEMSELSRRAGLDKKE.AGIGIGW..LMRKGWGRISQG...MVSAVSDETPERG
+  ADERLLELLLERGSVRIRELPDEL.......RGALKDLKGRKGIV.DIRKIKRHTIELTT
+  EGRKLLER............................GIEIVEEATQVTHEHLKSGAWRKL
+  HYRGYNIDAEYPLVYPGKMHPLRRIIDEIRSIFLKLGFTES.RGPIVESAFWNFDCLFQP
+  QDHAAREMQDTFYVKNPAVTDLPCEDLVRAVQDA.HETGGSTGSEGWQYEWDRDVARQSV
+  LRTHTTCVSARFLSENEP.....PLKMFSVGRVFRRETITY.KHLPEFHQVEGIVAGDEV
+  NFRNLLGILREFYRKLGFE.........................................
+  .............................................VRFRPAYFPY.TYLS
+  TECEIYLPE..............KKSWIELGGAGMFRPEVLEPL................
+  ...............GVE.....TPVAAFGLGIERLAMIRFDIKDIRMLY..QSDLGWLR
+  GLPVTGDLEL..................................................
+  ..........................
+}
+{
+name SYFA_TREPA
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Treponema pallidum.Bacteria;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      297    539  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      297    539  PF01409 tRNA-synt_2d
+feature 8 310 0 square solid PFAM-B
+  FT   PFAM-B        8    286  PB058494 Pfam-B_58494
+feature 8 310 0 square solid PFAM-B
+  FT   PFAM-B        8    286  PB058494 Pfam-B_58494
+sequence
+  MMPRMTGKADLNTLVHKLHPLEIKVLKNCAMDEILSTSLLISRLGFKEGHANQAFSWLRA
+  KRIIEEHQREQMRSFELTPCGYAAASDGTAEERMLTFLSSPPSLTAIADAAEHLHPRPPL
+  CNGLSLPELAHALTLAPKD....VGSAFGI..LAQEGILRMDGE..KRIHIVSPHVSDRM
+  SL.TRTLLQRAAARVASPSEASDTPPGTLFESELSDDERRVMERI.AKKRGASDSLFKVS
+  VRERVTFTFTPTARA..............VQEALHTAGLTGNEIGALTVECLKSGAWKTQ
+  HLRRYNVHIPPARIIPGRSNAYADFLEHIKDRLVALGFQEF.DGPLVETDFWNADALFMP
+  QFHPARDIHDVYYLKHPTHAPTIPEPFLSRVAAT.HERGADSGSLGWRYSFDRDFTRRLL
+  LRSQGTALSARHLPTAHI.....PGKYFGIARCFRHDQVDA.THLADFYQTEGIVLGTDV
+  NVCTLLGMLKILATEIAGA.........................................
+  ...........................................QEVRYVGGYFPF.TEPS
+  IELHALHPA...............LGWFELGGAGLLRPEVTDPL................
+  ...............GVH.....VPVMAWGLGVDRMALLALGISDVRELF..SPDIESVR
+  LRV.........................................................
+  ..........................
+}
+{
+name SYFA_BORBU
+descrip Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator Borrelia burgdorferi (Lyme disease spirochete).Bacteria;
+type    PROTEIN
+group 1
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      262    504  PF01409 tRNA-synt_2d
+feature 321 707 1 square solid PFAM-A
+  FT   PFAM-A      262    504  PF01409 tRNA-synt_2d
+feature 9 310 0 square solid PFAM-B
+  FT   PFAM-B        7    251  PB058494 Pfam-B_58494
+feature 9 310 0 square solid PFAM-B
+  FT   PFAM-B        7    251  PB058494 Pfam-B_58494
+sequence
+  ..MKVIFMKADLNLIKTLHPLEIKVIVNNEEEDDISASIIIEKLGFNEGQANKTIEWLNS
+  KGIIEEIYRKLNVFYKATERGLGALRDGFVEEKIINLVSQKAVL................
+  .....ASNLALELDIDVKE....VRKAFGN..LLKEGILSLDLD..KQIIINCLDGTETN
+  YQKVRVLLERAKN.............SDLLRESLTTEELLLISNF.AKKKGADSVFFKII
+  EKLDLKFRLSSFGLE..............VKNFLMKSKLTGDELTKLTPEILKNKTYENK
+  KFRAYNIHIPSAKTFIGRANSYLDYISKIKDKLVGLGFQEF.DGPLVETEFFNNDALFMP
+  QFHPSRDIKDVYYISDPSMQESLPEPYFSNVKLA.HETGYATGSRGWRYSFSEDLSKRLV
+  LRTHGTVLSAKQLINAKN.....PSRYFGVIRCFRYDQVDA.THGVDFYQTEGIVIEDGV
+  SIKTLLGLLEIFAKELAGA.........................................
+  ...........................................TEIKYVPAYFPF.TEPS
+  IEIHVKHPV...............LGWFELGGSGIFRPEVTKPL................
+  ...............GID.....LPVIAWGIGIDRMALMHLGLNDLRDLF..TYDIGDVI
+  LRRGKIDAKVRNL...............................................
+  ..........................
+}
+{
+name 1asz_B
+descrip    Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator    Borrelia burgdorferi (Lyme disease spirochete).Bacteria;
+type    PROTEIN
+group 1
+feature 171 174 3 square solid STRUCT
+  FT   STRUCT        3      6  HELIX
+feature 176 178 0 square solid STRUCT
+  FT   STRUCT        8     10  STRAND
+feature 197 199 3 square solid STRUCT
+  FT   STRUCT       29     31  HELIX
+feature 202 205 3 square solid STRUCT
+  FT   STRUCT       34     37  HELIX
+feature 209 223 0 square solid STRUCT
+  FT   STRUCT       41     55  STRAND
+feature 226 232 0 square solid STRUCT
+  FT   STRUCT       58     64  STRAND
+feature 237 241 0 square solid STRUCT
+  FT   STRUCT       69     73  STRAND
+feature 258 266 3 square solid STRUCT
+  FT   STRUCT       84     92  HELIX
+feature 272 281 0 square solid STRUCT
+  FT   STRUCT       98    107  STRAND
+feature 294 305 0 square solid STRUCT
+  FT   STRUCT      120    131  STRAND
+feature 315 319 3 square solid STRUCT
+  FT   STRUCT      141    145  HELIX
+feature 322 327 3 square solid STRUCT
+  FT   STRUCT      148    153  HELIX
+feature 335 340 3 square solid STRUCT
+  FT   STRUCT      161    166  HELIX
+feature 342 346 3 square solid STRUCT
+  FT   STRUCT      168    172  HELIX
+feature 349 370 3 square solid STRUCT
+  FT   STRUCT      175    196  HELIX
+feature 375 376 0 square solid STRUCT
+  FT   STRUCT      201    202  STRAND
+feature 408 411 0 square solid STRUCT
+  FT   STRUCT      221    224  STRAND
+feature 417 420 0 square solid STRUCT
+  FT   STRUCT      227    230  STRAND
+feature 426 434 3 square solid STRUCT
+  FT   STRUCT      236    244  HELIX
+feature 447 454 0 square solid STRUCT
+  FT   STRUCT      250    257  STRAND
+feature 467 474 0 square solid STRUCT
+  FT   STRUCT      270    277  STRAND
+feature 482 517 3 square solid STRUCT
+  FT   STRUCT      285    305  HELIX
+feature 519 526 3 square solid STRUCT
+  FT   STRUCT      307    314  HELIX
+feature 543 547 0 square solid STRUCT
+  FT   STRUCT      331    335  STRAND
+feature 547 555 3 square solid STRUCT
+  FT   STRUCT      335    343  HELIX
+feature 569 582 3 square solid STRUCT
+  FT   STRUCT      357    370  HELIX
+feature 587 591 0 square solid STRUCT
+  FT   STRUCT      375    379  STRAND
+feature 619 624 0 square solid STRUCT
+  FT   STRUCT      402    407  STRAND
+feature 627 633 0 square solid STRUCT
+  FT   STRUCT      410    416  STRAND
+feature 639 660 3 square solid STRUCT
+  FT   STRUCT      422    431  HELIX
+feature 668 678 3 square solid STRUCT
+  FT   STRUCT      439    449  HELIX
+feature 688 691 0 square solid STRUCT
+  FT   STRUCT      457    460  STRAND
+feature 693 701 3 square solid STRUCT
+  FT   STRUCT      462    470  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ................................................EDTAKDNYGKLP
+  LIQSRDSDRTGQKRVKFVDLDEAKDSDKEVLFRARVHNTRQQGATLAFLTLRQQASLIQG
+  LVKA......NKEGTISKNMVKWAGSLNLESIVLVRGIVKKVDEPIKSATVQNLEIHITK
+  IYTISETPEALPILLEDASRSEAEAEAAGLPVVNLDTRLDYRVIDLRTVTNQAIFRIQAG
+  VCELFREYLATKKFTEVHTPKLLGAPSE.............GGSSVFEVTY...FKGKAY
+  LAQSPQFNKQQLIVAD.......FERVYEIGPVFRAENSNTHRHMTEFTGLDMEMAFEEH
+  YHEVLDTLSELFVFIFSEL...............PKRFAHEIELVRKQYPVEEFKLPKDG
+  KMVRLTYKEGIEMLRAAGKEIGDFEDLSTENEKFLGKLVRDKYDTDFYILDKFPLEIRPF
+  YTMPDPANPKYSN.....SYDFFMRGEEILSGAQRIHDHALLQE............RMKA
+  HGLSPEDPGLKDYCDGFSY..GCPPHAGGGIGLERVVMFYLDLKNIRRASLFPRDPKRLR
+  P...........................................................
+  ..........................
+}
+{
+name 1adj_A
+descrip    Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator    Borrelia burgdorferi (Lyme disease spirochete).Bacteria;
+type    PROTEIN
+group 1
+feature 351 370 3 square solid STRUCT
+  FT   STRUCT       13     32  HELIX
+feature 374 377 0 square solid STRUCT
+  FT   STRUCT       36     39  STRAND
+feature 381 384 0 square solid STRUCT
+  FT   STRUCT       43     46  STRAND
+feature 384 391 3 square solid STRUCT
+  FT   STRUCT       46     53  HELIX
+feature 401 405 3 square solid STRUCT
+  FT   STRUCT       58     62  HELIX
+feature 409 411 0 square solid STRUCT
+  FT   STRUCT       66     68  STRAND
+feature 417 420 0 square solid STRUCT
+  FT   STRUCT       74     77  STRAND
+feature 425 434 3 square solid STRUCT
+  FT   STRUCT       82     91  HELIX
+feature 437 439 3 square solid STRUCT
+  FT   STRUCT       94     96  HELIX
+feature 444 453 0 square solid STRUCT
+  FT   STRUCT      101    110  STRAND
+feature 466 475 0 square solid STRUCT
+  FT   STRUCT      122    131  STRAND
+feature 480 496 3 square solid STRUCT
+  FT   STRUCT      136    152  HELIX
+feature 503 508 0 square solid STRUCT
+  FT   STRUCT      159    164  STRAND
+feature 512 532 3 square solid STRUCT
+  FT   STRUCT      168    188  HELIX
+feature 535 540 3 square solid STRUCT
+  FT   STRUCT      191    196  HELIX
+feature 545 548 3 square solid STRUCT
+  FT   STRUCT      201    204  HELIX
+feature 554 563 3 square solid STRUCT
+  FT   STRUCT      210    219  HELIX
+feature 568 571 3 square solid STRUCT
+  FT   STRUCT      224    227  HELIX
+feature 574 589 3 square solid STRUCT
+  FT   STRUCT      230    245  HELIX
+feature 594 596 0 square solid STRUCT
+  FT   STRUCT      250    252  STRAND
+feature 610 626 0 square solid STRUCT
+  FT   STRUCT      266    271  STRAND
+feature 635 641 0 square solid STRUCT
+  FT   STRUCT      280    286  STRAND
+feature 645 648 3 square solid STRUCT
+  FT   STRUCT      290    293  HELIX
+feature 685 692 0 square solid STRUCT
+  FT   STRUCT      301    308  STRAND
+feature 692 701 3 square solid STRUCT
+  FT   STRUCT      308    317  HELIX
+feature 715 719 0 square solid STRUCT
+  FT   STRUCT      330    334  STRAND
+feature 722 735 3 square solid STRUCT
+  FT   STRUCT      337    350  HELIX
+feature 741 743 0 square solid STRUCT
+  FT   STRUCT      356    358  STRAND
+feature 750 759 3 square solid STRUCT
+  FT   STRUCT      365    374  HELIX
+feature 764 768 0 square solid STRUCT
+  FT   STRUCT      379    383  STRAND
+feature 770 775 3 square solid STRUCT
+  FT   STRUCT      385    390  HELIX
+feature 777 782 0 square solid STRUCT
+  FT   STRUCT      392    397  STRAND
+feature 788 792 0 square solid STRUCT
+  FT   STRUCT      403    407  STRAND
+feature 795 804 3 square solid STRUCT
+  FT   STRUCT      410    419  HELIX
+sequence
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ............................................................
+  ......................................MTARAVRGTKDLFGKELRMHQR
+  IVATARKVLEAAGALELVTPIFEETQVFEKG.....VGAATDIVRKEMFTFQDRGGRSLT
+  LRPEGTAAMVRAYLEHGMKVWPQPVRLWMAGPMFRAERPQK.GRYRQFHQVNYEALGSEN
+  PILDAEAVVLLYECLKELGLRRLKVKLSSVGDPEDRARYNAYLREVLSPHREALSEDSKE
+  RLEENPMRILDSKSERDQALLKELGVRPMLDFLGEEARAHLKEVERHLERLSVPYELEPA
+  LVRGLDYYVRTAF...........EVHHEEIGAQSALGGGGRYDGLSE............
+  ...............LLGG..PRVPGVGFAFGVERVALALEAEGFGLPEE.KGPDLYLIP
+  LTEEAVAEAFYLAEALRPRLRAEYALAPRKPAKGLEEALKRGAAFAGFLGEDELRAGEVT
+  LKRLATGEQVRLSREEVPGYLLQALG
+}
+{
+name 1lyl_A
+descrip    Phenylalanyl-tRNA synthetase alpha chain (EC 6.1.1.20)(Pheny
+creator    Borrelia burgdorferi (Lyme disease spirochete).Bacteria;
+type    PROTEIN
+group 1
+feature 180 195 3 square solid STRUCT
+  FT   STRUCT       15     30  HELIX
+feature 210 217 3 square solid STRUCT
+  FT   STRUCT       45     52  HELIX
+feature 222 227 3 square solid STRUCT
+  FT   STRUCT       57     62  HELIX
+feature 231 243 0 square solid STRUCT
+  FT   STRUCT       66     78  STRAND
+feature 253 260 0 square solid STRUCT
+  FT   STRUCT       82     89  STRAND
+feature 263 270 0 square solid STRUCT
+  FT   STRUCT       92     99  STRAND
+feature 278 281 3 square solid STRUCT
+  FT   STRUCT      107    110  HELIX
+feature 283 285 3 square solid STRUCT
+  FT   STRUCT      112    114  HELIX
+feature 301 301 0 square solid STRUCT
+  FT   STRUCT      130    130  STRAND
+feature 305 317 0 square solid STRUCT
+  FT   STRUCT      134    146  STRAND
+feature 333 338 3 square solid STRUCT
+  FT   STRUCT      162    167  HELIX
+feature 340 346 3 square solid STRUCT
+  FT   STRUCT      169    175  HELIX
+feature 348 370 3 square solid STRUCT
+  FT   STRUCT      177    199  HELIX
+feature 375 376 0 square solid STRUCT
+  FT   STRUCT      203    204  STRAND
+feature 382 383 0 square solid STRUCT
+  FT   STRUCT      210    211  STRAND
+feature 409 411 0 square solid STRUCT
+  FT   STRUCT      223    225  STRAND
+feature 418 421 0 square solid STRUCT
+  FT   STRUCT      232    235  STRAND
+feature 426 435 3 square solid STRUCT
+  FT   STRUCT      240    249  HELIX
+feature 446 454 0 square solid STRUCT
+  FT   STRUCT      253    261  STRAND
+feature 467 476 0 square solid STRUCT
+  FT   STRUCT      273    282  STRAND
+feature 480 500 3 square solid STRUCT
+  FT   STRUCT      286    305  HELIX
+feature 508 513 0 square solid STRUCT
+  FT   STRUCT      307    312  STRAND
+feature 516 519 0 square solid STRUCT
+  FT   STRUCT      315    318  STRAND
+feature 525 528 0 square solid STRUCT
+  FT   STRUCT      324    327  STRAND
+feature 529 536 3 square solid STRUCT
+  FT   STRUCT      328    335  HELIX
+feature 542 546 3 square solid STRUCT
+  FT   STRUCT      341    345  HELIX
+feature 548 558 3 square solid STRUCT
+  FT   STRUCT      347    357  HELIX
+feature 568 579 3 square solid STRUCT
+  FT   STRUCT      367    378  HELIX
+feature 581 583 3 square solid STRUCT
+  FT   STRUCT      380    382  HELIX
+feature 588 594 0 square solid STRUCT
+  FT   STRUCT      387    393  STRAND
+feature 595 597 3 square solid STRUCT
+  FT   STRUCT      394    396  HELIX
+feature 610 626 0 square solid STRUCT
+  FT   STRUCT      409    417  STRAND
+feature 629 636 0 square solid STRUCT
+  FT   STRUCT      420    427  STRAND
+feature 641 656 3 square solid STRUCT
+  FT   STRUCT      432    447  HELIX
+feature 667 675 3 square solid STRUCT
+  FT   STRUCT      458    466  HELIX
+feature 686 693 0 square solid STRUCT
+  FT   STRUCT      471    478  STRAND
+feature 693 701 3 square solid STRUCT
+  FT   STRUCT      478    486  HELIX
+feature 706 708 3 square solid STRUCT
+  FT   STRUCT      491    493  HELIX
+sequence
+  ............................................................
+  ............................................................
+  .............................................SEQETRGANEAIDFN
+  DELRNRREKLAALRQQGVAFPNDFRRDHTSDQLHEEFDAKDNQELESLNIEVSVAGRMMT
+  RRIM......GKASFVTLQDVGGRIQLYVARDSLPEGVYNDQFKKWDLGDIIGARGTLFK
+  TQTGELSIHCTELRLLTKALRPLPDKFHGLQDQEVRYRQRYLDLIANDKSRQTFVVRSKI
+  LAAIRQFMVAR.GFMEVETPMMQVIPGG..............ASARPFITHHNALDLDMY
+  LRIAPELYLKRLVVGG.......FERVFEINRNFRNEGISV.RHNPEFTMMELYMAYADY
+  H.DLIELTESLFRTLAQEVL......GTTKVTYGEHVFDFGKPFEKLTMREAIKKYRPET
+  DMADLDNFDAAKALAESIGITVEKSWGLGRIVTEIFDEVAEAHLIQPTFITEYPAEVSPL
+  ARRNDVNPEITDR........FEFFIGGREIGNGFSELNDAEDQAERFQEQVNAKAAGDD
+  EAMFYDEDYVTALEYGLPP......TAGLGIGIDRMIMLFTNSHTIRDVI....LFPAMR
+  PQK.........................................................
+  ..........................
+}

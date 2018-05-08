@@ -1,0 +1,886 @@
+!!AA_MULTIPLE_ALIGNMENT 1.0
+PileUp (MView)
+
+   MSF:   938  Type: P  octubre 20, 2015 11:09  Check:    0  ..
+
+ Name: 2gsa_A     Len:   938  Check: 6597  Weight:  1.00
+ Name: GSA_AQUAE  Len:   938  Check: 9235  Weight:  1.00
+ Name: GSA_BACHD  Len:   938  Check: 8494  Weight:  1.00
+ Name: GSA_BACSU  Len:   938  Check: 2043  Weight:  1.00
+ Name: GSA_STAAM  Len:   938  Check: 8003  Weight:  1.00
+ Name: GSA1_LISIN Len:   938  Check: 7470  Weight:  1.00
+ Name: GSA_SYNY3  Len:   938  Check: 6808  Weight:  1.00
+ Name: GSA_CHLRE  Len:   938  Check: 4368  Weight:  1.00
+ Name: GSA_SOYBN  Len:   938  Check: 6898  Weight:  1.00
+ Name: GSA_HORVU  Len:   938  Check: 3661  Weight:  1.00
+ Name: GSA1_ARATH Len:   938  Check: 7130  Weight:  1.00
+ Name: GSA_CLOPE  Len:   938  Check: 9714  Weight:  1.00
+ Name: GSA_CLOAB  Len:   938  Check: 8682  Weight:  1.00
+ Name: GSA_CAMJE  Len:   938  Check:  186  Weight:  1.00
+ Name: GSA_HELPJ  Len:   938  Check: 9567  Weight:  1.00
+ Name: GSA_ECO57  Len:   938  Check: 4306  Weight:  1.00
+ Name: GSA_PASMU  Len:   938  Check: 2816  Weight:  1.00
+ Name: GSA_VIBCH  Len:   938  Check: 2603  Weight:  1.00
+ Name: GSA_SHEON  Len:   938  Check:   95  Weight:  1.00
+ Name: GSA_PSEAE  Len:   938  Check: 1434  Weight:  1.00
+ Name: GSA_XANAC  Len:   938  Check: 2131  Weight:  1.00
+ Name: GSA_XYLFA  Len:   938  Check: 5383  Weight:  1.00
+ Name: GSA_NEIMA  Len:   938  Check: 1781  Weight:  1.00
+ Name: GSA_DEIRA  Len:   938  Check: 7790  Weight:  1.00
+ Name: GSA_MYCLE  Len:   938  Check: 9202  Weight:  1.00
+ Name: GSAB_BACSU Len:   938  Check: 3977  Weight:  1.00
+ Name: GSAB_LISIN Len:   938  Check: 8140  Weight:  1.00
+ Name: GSA_METKA  Len:   938  Check: 1614  Weight:  1.00
+ Name: GSA_METJA  Len:   938  Check:  325  Weight:  1.00
+ Name: GSA_METAC  Len:   938  Check: 6415  Weight:  1.00
+ Name: GSA_AERPE  Len:   938  Check:  121  Weight:  1.00
+ Name: GSA_PYRAE  Len:   938  Check: 6231  Weight:  1.00
+ Name: GSA_HALN1  Len:   938  Check: 8391  Weight:  1.00
+ Name: 1ohv_A     Len:   938  Check: 7141  Weight:  1.00
+ Name: 1b5o_A     Len:   938  Check: 8570  Weight:  1.00
+ Name: 1b8g_A     Len:   938  Check:  342  Weight:  1.00
+ Name: 1fg3_A     Len:   938  Check: 7352  Weight:  1.00
+ Name: 1lc5_A     Len:   938  Check: 3871  Weight:  1.00
+ Name: 1jg8_A     Len:   938  Check: 3793  Weight:  1.00
+ Name: 1ax4_A     Len:   938  Check: 5495  Weight:  1.00
+ Name: 1ajs_A     Len:   938  Check: 8651  Weight:  1.00
+ Name: 1d2f_A     Len:   938  Check: 3876  Weight:  1.00
+
+//
+
+           1                                                   50
+2gsa_A     F--------- ---------- ---------- ---------- --------K-
+GSA_AQUAE  M--------- ---------- ---------- ---------- ----------
+GSA_BACHD  MKT------- ---------- ---------- ---------- ----------
+GSA_BACSU  MRS------- ---------- ---------- ---------- ----------
+GSA_STAAM  MR-------- ---------- ---------- ---------- ----------
+GSA1_LISIN MQN------- ---------- ---------- ---------- ----------
+GSA_SYNY3  MVNA------ ---------- ---------- ---------- -----TPFI-
+GSA_CHLRE  MQMQ------ -----LNAKT VQGAFKAQRP RSVRGNVAVR AVAAPPKLV-
+GSA_SOYBN  MAVS------ --AITGARLT LGMSLSSSTR SRTVAMAVSI DPKTDNKLT-
+GSA_HORVU  MAGA-----A AAVASGISIR PVAAPKISRA PRSRSVVRAA VSIDEKAYT-
+GSA1_ARATH MSATLTGSGT ALGFSCSSKI SKRVSSSPAS NRCCIKMSVS VDEKKKSFS-
+GSA_CLOPE  M--------- ---------- ---------- ---------- ----------
+GSA_CLOAB  M--------- ---------- ---------- ---------- ----------
+GSA_CAMJE  MT-------- ---------- ---------- ---------- ----------
+GSA_HELPJ  ME-------- ---------- ---------- ---------- ----------
+GSA_ECO57  M--------- ---------- ---------- ---------- ----------
+GSA_PASMU  M--------- ---------- ---------- ---------- ----------
+GSA_VIBCH  M--------- ---------- ---------- ---------- ----------
+GSA_SHEON  M--------- ---------- ---------- ---------- ----------
+GSA_PSEAE  M--------- ---------- ---------- ---------- ----------
+GSA_XANAC  MN-------- ---------- ---------- ---------- ----------
+GSA_XYLFA  MN-------- ---------- ---------- ---------- ----------
+GSA_NEIMA  MN-------- ---------- ---------- ---------- ----------
+GSA_DEIRA  MTLS------ ---------- ---------- ---------- -------ETH
+GSA_MYCLE  MGST------ ---------- ---------- ---------D QATAPAGPA-
+GSAB_BACSU MH-------- ---------- ---------- ---------- ----------
+GSAB_LISIN MD-------- ---------- ---------- ---------- ----------
+GSA_METKA  MGYE------ ---------- ---------- ---------- -------DE-
+GSA_METJA  MAL------- ---------- ---------- ---------- --------K-
+GSA_METAC  MVSE------ ---------- ---------- ---------- -------VT-
+GSA_AERPE  MDVL------ ---------- ---------- ---------- -------AS-
+GSA_PYRAE  ---------- ---------- ---------- ---------- ----------
+GSA_HALN1  MN-------- ---------- ---------- ---------- ----------
+1ohv_A     F--------- ---------- ---------- ---------- ----------
+1b5o_A     MRG------- ---------- ---------- ---------- ----------
+1b8g_A     MLS------- ---------- ---------- ---------- ----------
+1fg3_A     TVT------- ---------- ---------- ---------- ----------
+1lc5_A     LFN------- ---------- ---------- ---------- ----------
+1jg8_A     MID------- ---------- ---------- ---------- ----------
+1ax4_A     AKR------- ---------- ---------- ---------- ----------
+1ajs_A     APPS------ ---------- ---------- ---------- ----------
+1d2f_A     LLP------- ---------- ---------- ---------- ----------
+
+           51                                                 100
+2gsa_A     -TIKSDEIFA AA-------- --------QK LMPGGVSSP- ---VR-----
+GSA_AQUAE  ---KNEKLYR EA-------- --------LQ VMPGGVNSP- ---VR-----
+GSA_BACHD  -FEKSSAAFN RA-------- --------KP LMPGGVNSP- ---VR-----
+GSA_BACSU  -YEKSKTAFK EA-------- --------QK LMPGGVNSP- ---VR-----
+GSA_STAAM  -YTKSEEAMK VA-------- --------ET LMPGGVNSP- ---VR-----
+GSA1_LISIN -YIKSEKAFK EA-------- --------KK VLPGGVNSP- ---VR-----
+GSA_SYNY3  -TTKSEEIFA AA-------- --------QH LMPGGVSSP- ---VR-----
+GSA_CHLRE  -TKRSEEIFK EA-------- --------QE LLPGGVNSP- ---VR-----
+GSA_SOYBN  -LTKSEEAFA AA-------- --------KE LMPGGVNSP- ---VR-----
+GSA_HORVU  -VQKSEEIFN AA-------- --------KE LMPGGVNSP- ---VR-----
+GSA1_ARATH -LQKSEEAFN AA-------- --------KN LMPGGVNSP- ---VR-----
+GSA_CLOPE  --DRNKEIFE ES-------- --------KK YMPGGVNSP- ---VR-----
+GSA_CLOAB  --T-NKEIFE ES-------- --------KE YMPGGVNSP- ---VR-----
+GSA_CAMJE  ----NKKAFK ET-------- --------CK FIAGGVNSP- ---VR-----
+GSA_HELPJ  -LLHSINDFN EA-------- --------KQ VIAGGVNSP- ---VR-----
+GSA_ECO57  --SKSENLYS AA-------- --------RE LIPGGVNSP- ---VR-----
+GSA_PASMU  --TTSLSLFQ RA-------- --------QH RIPGGVNSP- ---VR-----
+GSA_VIBCH  --TKSAELYQ KA-------- --------QT TIPGGVNSP- ---VR-----
+GSA_SHEON  --TRSEALFE QA-------- --------KK TIPGGVNSP- ---VR-----
+GSA_PSEAE  --SRSETLFN NA-------- --------QK HIPGGVNSP- ---VR-----
+GSA_XANAC  -HSRSHALFA QA-------- --------QT LLPGGVNSP- ---VR-----
+GSA_XYLFA  -HSRSHTLFV QA-------- --------QT RIPGGVNSP- ---VR-----
+GSA_NEIMA  ---RNEILFD RA-------- --------KA VIPGGVNSP- ---VR-----
+GSA_DEIRA  PTARSEALFV RA-------- --------RA VTPGGVNSP- ---VR-----
+GSA_MYCLE  -VSISAKLFE DA-------- --------CA VIPGGVNSP- ---VR-----
+GSAB_BACSU --TKSIELHN EA-------- --------LQ HIVGGVNSP- ---SR-----
+GSAB_LISIN -HSMSKKLHD EA-------- --------LL HIVGGVNSP- ---SR-----
+GSA_METKA  -FPESLELFK RA-------- --------ER VMPGGVSSP- ---VR-----
+GSA_METJA  -MDKSKELFE EA-------- --------KK YLVGGVNSP- ---VR-----
+GSA_METAC  -LDKSRQMYE KA-------- --------KT LIPGGVSSP- ---VR-----
+GSA_AERPE  -GEKSRMLFE RT-------- --------KE LFPGGVNSP- ---VR-----
+GSA_PYRAE  ------MLFE RA-------- --------KS VFPGGVNSP- ---AR-----
+GSA_HALN1  -RETSRELYD RS-------- --------LD VLVGGVNST- ---VR-----
+1ohv_A     --DYDGPL-- -M-------- --------KT EVPGPRSREL MKQLN-----
+1b5o_A     -LS--RR--- -VQAM----- --------KP SATVAVNAK- ---AL-----
+1b8g_A     -RNATSSYF- ---------- ---------- ---------- ----------
+1fg3_A     -IT--DLARE NVR------- ---------- -----NLTP- ---YQ-----
+1lc5_A     -TA------- ---------- ---------- -HGGNIREP- ---AT-----
+1jg8_A     -LR------- ---------- ---------- --SDTVTKP- ---TEE----
+1ax4_A     -IV--EP--- -F-------- --------RI KMVEKIRVP- ---SREEREA
+1ajs_A     -VF--AE--- -VPQAQPVLV FKLIADFRED PDPRKVNLG- --------VG
+1d2f_A     -FTISDMDFA TA-------- ---------- ---------- ----------
+
+           101                                                150
+2gsa_A     AFK---SVG- GQP--IVFDR VKDAYAWDVD -GNRYIDYVG ---TWGPAIC
+GSA_AQUAE  AFK---AVG- GKP--IFLVK GRGPRVWDAE -GNEYIDFLA ---SWGAIIL
+GSA_BACHD  AFK---SVN- MDP--VFMER GKGANIYDID -GNEYIDYVL ---SWGPLIL
+GSA_BACSU  AFK---SVD- MDP--IFMER GKGSKIFDID -GNEYIDYVL ---SWGPLIL
+GSA_STAAM  AFK---SVD- TPA--IFMDH GKGSKIYDID -GNEYIDYVL ---SWGPLIL
+GSA1_LISIN AFN---SVD- ASP--VFMDH GKGAYITDVD -GNEYIDYVL ---SWGPLIL
+GSA_SYNY3  AFK---SVG- GQP--IVFDR VEGAQIWDVD -GNQYIDYVG ---TWGPAIC
+GSA_CHLRE  AFR---SVG- GGP--IVFDR VKGAYCWDVD -GNKYIDYVG ---SWGPAIC
+GSA_SOYBN  AFK---SVG- GQP--IVIDS VKGSRMWDID -GNEYIDYVG ---SWGPAII
+GSA_HORVU  AFK---SVG- GQP--IVFDS VKGSHMWDVD -GNEYIDYVG ---SWGPAII
+GSA1_ARATH AFK---SVG- GQP--VLIDS VKGSKMWDID -GNEYIDYVG ---SWGPAII
+GSA_CLOPE  SFG---SVG- INP--PVIKS GKGAMIKDEN -GNEYIDFVL ---AWGPMIL
+GSA_CLOAB  AYM---DLN- IDP--PIIKS GKDSHLFDEE -GKEYIDFIE ---AWGPMIL
+GSA_CAMJE  AFA---NVQ- SEP--KFISH GKGAYIFDID -GNSYIDYVQ ---SWGPLLF
+GSA_HELPJ  AFK---SVK- GTP--PFILK GKGAYLYDVD -NNHYIDFVQ ---SWGPLIF
+GSA_ECO57  AFT---GVG- GTP--LFIEK ADGAYLYDVD -GKAYIDYVG ---SWGPMVL
+GSA_PASMU  AFK---GVG- GTP--IFIEK AQGAYLYDTE -GNQYIDYVG ---SWGPMIL
+GSA_VIBCH  AFN---GVG- GSP--IFIDR ADGALIFDAD -GKAYIDYVG ---SWGPMIL
+GSA_SHEON  AFN---GVG- GSP--LFIEK ADGAYIYDAD -GKAYIDYVG ---SWGPMIL
+GSA_PSEAE  AFK---SVG- GTP--LFFKH AEGAYVLDED -DKRYVDYVG ---SWGPMIL
+GSA_XANAC  AFK---SVG- GEP--FFVAR ADGPYLFDVD -DNRYIDYVG ---SWGPMIA
+GSA_XYLFA  AFR---SVG- GEP--FFVAR ADGPYLFDVD -GHRYIDYVG ---SWGPMIV
+GSA_NEIMA  AFG---SVG- GVP--RFIKK AEGAYVWDEN -GTRYTDYVG ---SWGPAIV
+GSA_DEIRA  AFR---SVG- GVP--RFIAS AQGAYLTDAD -GARYLDYIG ---SWGPMIL
+GSA_MYCLE  AFS---AVG- GTP--LFITE ARGCWLTDAD -GRRYVDLVC ---SWGPMIL
+GSAB_BACSU SYK---AVGG GSP--VAMEK ASGAYFWDVD -GNKYIDYLA ---AYGPIIT
+GSAB_LISIN SNK---GVGG GIP--VTMER ANGAYFYDVD -GNKYIDYLA ---AFGPIIT
+GSA_METKA  RF------D- PYP--FYVER AEGSRLYTVD -GHVLIDYCL ---AFGPLIL
+GSA_METJA  YFK---P--- -YP--FFVEK AKDCYLFDVD -GNCYIDYCL ---AYGPMVL
+GSA_METAC  AI------K- PYP--FYTAS ADGSKIRDLD -GNEYIDYCL ---AYGPAVL
+GSA_AERPE  AA-----VK- PYP--FYVKR GEGAYLYTVD -GARIVDLVL ---AYGPLIL
+GSA_PYRAE  ALK---HLP- -SP--LVAKA ASGAYLYT-D -RGKLVDYCM ---AFGAIIL
+GSA_HALN1  AAP-----Q- PYP--TFVQS GDGGHVIDAD -GNRYIDWVM ---GLGPLLL
+1ohv_A     IIQ---NAE- AVHFFCNYEE SRGNYLVDVD -GNRMLDLYS ---QISSIPI
+1b5o_A     ELR---RQG- V--------- ---------- ------DLVA LTAGEPDFDT
+1b8g_A     ---------- ---------- ---------- ---------- ----------
+1fg3_A     SAR---RLG- G--------- ---------- ------N--- ----------
+1lc5_A     VLGISPDQL- L--------- ---------- ------DFSA ---NINPLGM
+1jg8_A     ---------- ---------- ---------- ---------- ----------
+1ax4_A     ALK---EAG- YNP--FLLPS ---------- -SAVYIDLLT ---DSGT---
+1ajs_A     AYR---TDD- CQP--WVLPV VRKVEQ-RIA NNSSLNHEYL ---PILG---
+1d2f_A     ---------- ---------- ---------- ---------- ----------
+
+           151                                                200
+2gsa_A     GHAHPE-VIE ALKVAMEKGT -------SFG -A-------- ----------
+GSA_AQUAE  GHAPKK-VVK AVQEEAEKGL -------SFG -L-------- ----------
+GSA_BACHD  GHADDQ-VVE KLKETTEKGT -------SFG -A-------- ----------
+GSA_BACSU  GHTNDR-VVE SLKKVAEYGT -------SFG -A-------- ----------
+GSA_STAAM  GHRDPQ-VIS HLHEAIDKGT -------SFG -A-------- ----------
+GSA1_LISIN GHADPS-VVN AITNSAMKGT -------SFG -T-------- ----------
+GSA_SYNY3  GHAHPD-VIS ALKQALDKGT -------SFG -A-------- ----------
+GSA_CHLRE  GHGNDE-VNN ALKAQIDKGT -------SFG -A-------- ----------
+GSA_SOYBN  GHADDQ-VLA ALGETMKKGT -------SFG -A-------- ----------
+GSA_HORVU  GHADDK-VNA ALIETLKKGT -------SFG -A-------- ----------
+GSA1_ARATH GHADDE-VLA ALAETMKKGT -------SFG -A-------- ----------
+GSA_CLOPE  GHCDED-VVE AIKKTSEESI -------AFG -A-------- ----------
+GSA_CLOAB  GHKNQK-VLN EVKEVLDEGV -------GFG -A-------- ----------
+GSA_CAMJE  GHCDKD-IQK ACQKALHKGS -------SFG -A-------- ----------
+GSA_HELPJ  GHADEE-IEE NIINVLKKGT -------SFG -A-------- ----------
+GSA_ECO57  GHNHPA-IRN AVIEAAERGL -------SFG -A-------- ----------
+GSA_PASMU  GHNHPT-ILD AVISTAQNGL -------SFG -A-------- ----------
+GSA_VIBCH  GHNHAV-IRE AVIQAAQRGL -------SFG -A-------- ----------
+GSA_SHEON  GHNHPK-IRE AVLAAVHNGL -------SFG -A-------- ----------
+GSA_PSEAE  GHSHPD-VLD AVRRQLDHGL -------SYG -A-------- ----------
+GSA_XANAC  GHNHPA-VRE AVEQSIRNGL -------SFG -A-------- ----------
+GSA_XYLFA  GHNHPA-VRE AVQVAISNGL -------SYG -A-------- ----------
+GSA_NEIMA  GHAHPE-VIE AVREAALGGL -------SFG -A-------- ----------
+GSA_DEIRA  GHNHPA-VRD AVAQALASGT -------SFG -A-------- ----------
+GSA_MYCLE  GHAHPA-VVD AVATVAASGL -------SFG -A-------- ----------
+GSAB_BACSU GHAHPH-ITE AIKKAAENGV -------LYG -T-------- ----------
+GSAB_LISIN GHAHPH-ITE AITKAAQNGV -------LYG -T-------- ----------
+GSA_METKA  GHAHPE-VVE AVVERVREGF -------HYG -T-------- ----------
+GSA_METJA  GHANDA-VIK AVKEQLELGS -------AYG -C-------- ----------
+GSA_METAC  GHNHPV-IKA AIKEQLDKGW -------LYG -T-------- ----------
+GSA_AERPE  GHKHPR-VLE AVEEALARGW -------LYG -A-------- ----------
+GSA_PYRAE  GHAHPR-VKK AVEEQLEKGW -------IYA -L-------- ----------
+GSA_HALN1  GHDLPQPVTA AIQRRASDGP -------LFG -T-------- ----------
+1ohv_A     GYSHPA-LVK LVQQPQNVST -------FIN -R-------- ----------
+1b5o_A     ---PEH-VKE AARRALAQGK -------TKY -A-------- ----------
+1b8g_A     ---------- ---------- LGWQEYEKNP -YHEVHNTNG IIQMGLAENQ
+1fg3_A     ---------- ----GDVWLN -------ANE -Y-------- ----------
+1lc5_A     ---PVS-VKR ALIDNLD--- ---------- ---------- ----------
+1jg8_A     -------MRK AMAQAEV-GD -------DVY GE-------- ----------
+1ax4_A     ---NAM-SDH QWAAMIT-GD -------EAY AG-------- ----------
+1ajs_A     ---LAE-FRT CASRLAL-G- ---------- DD-------- ----------
+1d2f_A     ----PC-IIE ALNQRLMHGV FGYSRWKNDE -F-------- ----------
+
+           201                                                250
+2gsa_A     ---------- ---------- ----PCALE- ------N--- ----------
+GSA_AQUAE  ---------- ---------- ----TNPHE- ------V--- ----------
+GSA_BACHD  ---------- ---------- ----PSELE- ------T--- ----------
+GSA_BACSU  ---------- ---------- ----PTEVE- ------N--- ----------
+GSA_STAAM  ---------- ---------- ----STLLE- ------N--- ----------
+GSA1_LISIN ---------- ---------- ----PTEIE- ------T--- ----------
+GSA_SYNY3  ---------- ---------- ----PCAQE- ------N--- ----------
+GSA_CHLRE  ---------- ---------- ----PCELE- ------N--- ----------
+GSA_SOYBN  ---------- ---------- ----PCLLE- ------N--- ----------
+GSA_HORVU  ---------- ---------- ----PCALE- ------N--- ----------
+GSA1_ARATH ---------- ---------- ----PCLLE- ------N--- ----------
+GSA_CLOPE  ---------- ---------- ----STKLE- ------L--- ----------
+GSA_CLOAB  ---------- ---------- ----PTSLE- ------L--- ----------
+GSA_CAMJE  ---------- ---------- ----PTLLE- ------T--- ----------
+GSA_HELPJ  ---------- ---------- ----PTELE- ------T--- ----------
+GSA_ECO57  ---------- ---------- ----PTEME- ------V--- ----------
+GSA_PASMU  ---------- ---------- ----PTALE- ------I--- ----------
+GSA_VIBCH  ---------- ---------- ----PTEME- ------I--- ----------
+GSA_SHEON  ---------- ---------- ----PTELE- ------V--- ----------
+GSA_PSEAE  ---------- ---------- ----PTALE- ------V--- ----------
+GSA_XANAC  ---------- ---------- ----PCAAE- ------V--- ----------
+GSA_XYLFA  ---------- ---------- ----PCAAE- ------V--- ----------
+GSA_NEIMA  ---------- ---------- ----PTEGE- ------I--- ----------
+GSA_DEIRA  ---------- ---------- ----PNERE- ------V--- ----------
+GSA_MYCLE  ---------- ---------- ----PTPAE- ------T--- ----------
+GSAB_BACSU ---------- ---------- ----PTKHE- ------V--- ----------
+GSAB_LISIN ---------- ---------- ----PTKHE- ------I--- ----------
+GSA_METKA  ---------- ---------- ----PTLPE- ------L--- ----------
+GSA_METJA  ---------- ---------- ----PTEKE- ------I--- ----------
+GSA_METAC  ---------- ---------- ----PTELE- ------V--- ----------
+GSA_AERPE  ---------- ---------- ----PGEAE- ------V--- ----------
+GSA_PYRAE  ---------- ---------- ----LTEQE- ------V--- ----------
+GSA_HALN1  ---------- ---------- ----PTEIE- ------V--- ----------
+1ohv_A     ---------- ---------- ----PALGIL PPENFVE--- ----------
+1b5o_A     ---------- ---------- ----PPAGI- ------P--- ----------
+1b8g_A     LCFDLLESWL AKNPEAAAFK KNGESIFAE- ---------- ----------
+1fg3_A     ---------- ---------- ----PTAVE- ------F--- ----------
+1lc5_A     ---------- ---------- -------CI- ------E--- ----------
+1jg8_A     ---------- ---------- ---DPTINE- ------L--- ----------
+1ax4_A     ---------- ---------- ---SRNYYD- ------L--- ----------
+1ajs_A     ---------- ---------- ---SPALQE- ------KRVG GVQSLGGTGA
+1d2f_A     ---------- ---------- ---------- ---------- ----------
+
+           251                                                300
+2gsa_A     ------VLAE MVNDAV---- ---------- ---------- ----PS----
+GSA_AQUAE  ------TLAK LVVEMV---- ---------- ---------- ----PS----
+GSA_BACHD  ------KLAE LVIERV---- ---------- ---------- ----PS----
+GSA_BACSU  ------ELAK LVIDRV---- ---------- ---------- ----PS----
+GSA_STAAM  ------KLAQ LVIDRV---- ---------- ---------- ----PS----
+GSA1_LISIN ------ELAK LVIERV---- ---------- ---------- ----PS----
+GSA_SYNY3  ------VLAE MVIDAV---- ---------- ---------- ----PS----
+GSA_CHLRE  ------VLAK MVIDRV---- ---------- ---------- ----PS----
+GSA_SOYBN  ------TLAE LVIDAV---- ---------- ---------- ----PS----
+GSA_HORVU  ------VLAQ MVISAV---- ---------- ---------- ----PS----
+GSA1_ARATH ------VLAE MVISAV---- ---------- ---------- ----PS----
+GSA_CLOPE  ------DLAK LLCETL---- ---------- ---------- ----DN----
+GSA_CLOAB  ------KLAK YICTTV---- ---------- ---------- ----DN----
+GSA_CAMJE  ------ELAK LVLSDF---- ---------- ---------- ----PH----
+GSA_HELPJ  ------TLAK EIISCY---- ---------- ---------- ----EG----
+GSA_ECO57  ------KMAQ LVTELV---- ---------- ---------- ----PT----
+GSA_PASMU  ------ELAE LVCSLV---- ---------- ---------- ----PS----
+GSA_VIBCH  ------TMAE LVSELV---- ---------- ---------- ----PS----
+GSA_SHEON  ------QMAE KVIAMV---- ---------- ---------- ----PS----
+GSA_PSEAE  ------EMAD LVCSMV---- ---------- ---------- ----PS----
+GSA_XANAC  ------AMAQ TITRLV---- ---------- ---------- ----PS----
+GSA_XYLFA  ------TMAE TIARLV---- ---------- ---------- ----PS----
+GSA_NEIMA  ------AIAE EIAKIM---- ---------- ---------- ----PS----
+GSA_DEIRA  ------ELAE LIVEL----- ---------- ---------- ----TG----
+GSA_MYCLE  ------QLAA EIIGRM---- ---------- ---------- ----AP----
+GSAB_BACSU ------TFAK MLKEAI---- ---------- ---------- ----PA----
+GSAB_LISIN ------TFAK MLKEAI---- ---------- ---------- ----PS----
+GSA_METKA  ------KLAE KVVELV---- ---------- ---------- ----PN----
+GSA_METJA  ------ILAK EVVKRV---- ---------- ---------- ----PC----
+GSA_METAC  ------TLAE KVAGYY---- ---------- ---------- ----PS----
+GSA_AERPE  ------LLAE KILGYV---- ---------- ---------- ----KR----
+GSA_PYRAE  ------EFAE RIRRHM---- ---------- ---------- ----PS----
+GSA_HALN1  ------EHAE FVARHV---- ---------- ---------- ----PS----
+1ohv_A     ------KLRE SLLSVAPKGM SQLITMACGS CSNENAFKTI FMWYRS----
+1b5o_A     ------ELRE ---------- ---------- ---------- ----------
+1b8g_A     ------LALF QDYHGL---- ---------- ---------- ----PA----
+1fg3_A     ------QLTQ QTLNRY---- ---------- ---------- ----PE----
+1lc5_A     ------RYPD ---------- ---------- ---------- ----------
+1jg8_A     --------ER ---------- ---------- ---------- ----------
+1ax4_A     --------KD ---------- ---------- ---------- ----------
+1ajs_A     LRIGAEFLAR ---------- ---------- ---------- ----------
+1d2f_A     ---------- ---------- ---------- ---------- ------LAAI
+
+           301                                                350
+2gsa_A     ---------- ---------- ---------- -IEMVRFV-N SGTEAC----
+GSA_AQUAE  ---------- ---------- ---------- -VEKVRFV-N SGTEAT----
+GSA_BACHD  ---------- ---------- ---------- -IEVVRMV-N SGTEAT----
+GSA_BACSU  ---------- ---------- ---------- -VEIVRMV-S SGTEAT----
+GSA_STAAM  ---------- ---------- ---------- -IEKVRMV-S SGTEAT----
+GSA1_LISIN ---------- ---------- ---------- -IEIVRMV-S SGTEAT----
+GSA_SYNY3  ---------- ---------- ---------- -IEMVRFV-N SGTEAC----
+GSA_CHLRE  ---------- ---------- ---------- -VEMVRFV-S SGTEAC----
+GSA_SOYBN  ---------- ---------- ---------- -IEMVRFV-N SGTEAC----
+GSA_HORVU  ---------- ---------- ---------- -IEMVRFV-N SGTEAC----
+GSA1_ARATH ---------- ---------- ---------- -IEMVRFV-N SGTEAC----
+GSA_CLOPE  ---------- ---------- ---------- -VDMIRMV-N SGTEAT----
+GSA_CLOAB  ---------- ---------- ---------- -VEMIRMV-N SGTEAT----
+GSA_CAMJE  ---------- ---------- ---------- -LEKIRFV-S SGTEAT----
+GSA_HELPJ  ---------- ---------- ---------- -LDKVRLV-N SGTEAT----
+GSA_ECO57  ---------- ---------- ---------- -MDMVRMV-N SGTEAT----
+GSA_PASMU  ---------- ---------- ---------- -IDMVRMV-S SGTEAT----
+GSA_VIBCH  ---------- ---------- ---------- -MEQLRMV-N SGTEAT----
+GSA_SHEON  ---------- ---------- ---------- -IEQVRMV-S SGTEAT----
+GSA_PSEAE  ---------- ---------- ---------- -MEMVRMV-S SGTEAT----
+GSA_XANAC  ---------- ---------- ---------- -CEMVRMV-N SGTEAT----
+GSA_XYLFA  ---------- ---------- ---------- -CDMVRMV-N SGTEAT----
+GSA_NEIMA  ---------- ---------- ---------- -VERLRLV-S SGTEAT----
+GSA_DEIRA  ---------- ---------- ---------- -AERVRFV-S SGTEAT----
+GSA_MYCLE  ---------- ---------- ---------- -VERIRLV-N SGTEAT----
+GSAB_BACSU ---------- ---------- ---------- -MDKVRFV-N SGTEAV----
+GSAB_LISIN ---------- ---------- ---------- -LEKVRFT-N SGTEAV----
+GSA_METKA  ---------- ---------- ---------- -VEKVRLV-N TGTEAT----
+GSA_METJA  ---------- ---------- ---------- -AEMVRFV-N SGTEAT----
+GSA_METAC  ---------- ---------- ---------- -IDMLRFV-S TGTEAT----
+GSA_AERPE  ---------- ---------- ---------- -GGMIRFV-N SGTEAT----
+GSA_PYRAE  ---------- ---------- ---------- -VEKMRIV-N TGTEAT----
+GSA_HALN1  ---------- ---------- ---------- -VELLRFV-N SGTEAT----
+1ohv_A     ---------- ---------- ---------- -KERGQSA-F SKEELE----
+1b5o_A     ---------- -AL-----AE KFRRENGLSV TPEE-TIVTV GGSQAL----
+1b8g_A     ---------- -FKKAMVDFM AEIRGNKVTF DPNH-LVLTA GATSAN----
+1fg3_A     ---------- -CQ---PKAV IENYAQYAGV KPEQ-VLVSR GADEGI----
+1lc5_A     ---------- -AD---YF-- HLHQALARHH QVPA-SWI-L AGNGET----
+1jg8_A     ---------- -LA-----AE TFG------- -KEAALFV-P SGTMGN----
+1ax4_A     ---------- ---------- ----KAKELF NYDYIIPA-H QGRGAENILF
+1ajs_A     ---------- ---------- ----WYNGTN NKDTPVYV-S SPT-------
+1d2f_A     AHWFSTQHYT AID------- ---------- -SQT-VVYGP SVIYMV----
+
+           351                                                400
+2gsa_A     MAVLRLMRAY TGRDKIIKFE GCYH------ -----GHADM FLVKAGSGVA
+GSA_AQUAE  MSAVRLARGV TGRKYIVKFE GCYH------ -----GHYDS LLVSAGSGVA
+GSA_BACHD  MSALRLARGY TGRNKILKFE GCYH------ -----GHGDS LLIKAGSGVA
+GSA_BACSU  MSALRLARGY TGRNKILKFE GCYH------ -----GHGDS LLIKAGSGVA
+GSA_STAAM  LDTLRLARGY TGRNKIVKFE GCYH------ -----GHSDS LLIKAGSGVA
+GSA1_LISIN MSAIRLARGY TKREKILKFE GSYH------ -----GHGDS LLIKAGSGVA
+GSA_SYNY3  MSVLRLMRAF TGREKIIKFE GCYH------ -----GHADM FLVKAGSGVA
+GSA_CHLRE  LSVLRLMRAY TGREKVLKFT GCYH------ -----GHADS FLVKAGSGVI
+GSA_SOYBN  MGALRLARAY TGREKIIKFE GCYH------ -----GHADP FLVKAGSGVA
+GSA_HORVU  MGALRLVRAF TGREKILKFE GCYH------ -----GHADS FLVKAGSGVA
+GSA1_ARATH MGVLRLARAF TNKEKFIKFE GCYH------ -----GHANA FLVKAGSGVA
+GSA_CLOPE  MSAVKLARGY TKKDKIIKFA GCYH------ -----GHFDG FLIEAGSGVL
+GSA_CLOAB  MSAVKLARGY TKRDKIIKFA GCYH------ -----GHFDG FLVEAGSGVL
+GSA_CAMJE  MSAIRLARGF TKKDKILKFE GCYH------ -----GHSDS LLVSAGSGAA
+GSA_HELPJ  MSAIRLARAY SQKDDLIKFE GCYH------ -----GHSDS LLVKAGSGCA
+GSA_ECO57  MSAIRLARGF TGRDKIIKFE GCYH------ -----GHADC LLVKAGSGAL
+GSA_PASMU  MSAIRLARGY TKRDKIIKFE GCYH------ -----GHADS LLVKAGSGAL
+GSA_VIBCH  MSAIRLARGY TGRDKIIKFE GCYH------ -----GHADS LLVKAGSGAL
+GSA_SHEON  MSAIRLARGF TNRDKILKFE GCYH------ -----GHADC LLVKAGSGAL
+GSA_PSEAE  MSAIRLARGY TGRDSIIKFE GCYH------ -----GHSDS LLVKAGSGAL
+GSA_XANAC  LSAVRLARGA TGRNRIIKFE GCYH------ -----GHGDS FLVKAGSGML
+GSA_XYLFA  LSAIRLARGA TGRNHIVKFE GCYH------ -----GHGDS FLVKGGSGML
+GSA_NEIMA  MTAIRLARGF TGRDKIIKFE GCYH------ -----GHSDS LLVKAGSGLL
+GSA_DEIRA  MSALRLARGY TGRKFIVKFR GNYH------ -----GHADG LLVEAGSGLL
+GSA_MYCLE  MSAVRLARGF TGRTKIIKFS GCYH------ -----GHVDA LLADAGSGVA
+GSAB_BACSU MTTIRVARAY TGRTKIIKFA GCYH------ -----GHSDL VLVAAGSGPS
+GSAB_LISIN MTTIRVARAY TGRDKIIKFA GCYH------ -----GHFDL VLVEAGSGPS
+GSA_METKA  MSAIRLARAY TGREKIVKFE GCYH------ -----GAHDA VLVRAGSGAS
+GSA_METJA  MSAIRLARGV TGRKKIIKFD GAYH------ -----GAHDY VLVKSGSGAL
+GSA_METAC  MSALRLARGF TRKNKFIKIE GGFH------ -----GAHDA VLVKAGSGAT
+GSA_AERPE  MTAIRLARGY TGRDLILKFD GCYH------ -----GSHDA VLVAAGSAAA
+GSA_PYRAE  MSAIRAARGY TKRDVIIKFE GNFH------ -----GSHDY VLVKAGSGAA
+GSA_HALN1  VSAVRLARGY TGRNKIVVMQ GGYH------ -----GAQES TLVEG---DA
+1ohv_A     TCMINQAPGC PD-YSILSFM GAFH------ -----GRTMG CLATTHSKAI
+1b5o_A     FNLFQA-I-L DPGDEVIVLS PYWV------ -----SYPEM VRFAGGVVVE
+1b8g_A     E-TFIFCLAD PGE-AVLIPT PYYP------ -----GFDRD LKWRTGVEIV
+1fg3_A     E-LLIRAFCE PGKDAILYCP PTY------- -------GXY SVSAETIGVE
+1lc5_A     ESIFTVASGL KPRRAMIVTP G-FA------ -----EYGRA LA-QSGCEIR
+1jg8_A     QVSI-MAHTQ RGDEVILEAD SH-I------ -----FWYEV GAMAVLSGVM
+1ax4_A     PVLL-KYKQK EGKAKNPVFI SN-FHFDTTA AHVELNGCKA INIVTEKAFD
+1ajs_A     ---------- ---------- ---------- --WENHNGVF TTAGFKDIRS
+1d2f_A     S-ELIRQWSE TGE-GVVIHT PAYD------ -----AFYKA -----IEGNQ
+
+           401                                                450
+2gsa_A     -TL------- GLPSSPG--V P--------K KTTANTLTTP ---YNDLEAV
+GSA_AQUAE  -TF------- GIPGTPG--I P--------E EIAKLTIVLP ---YNDVQAL
+GSA_BACHD  -TL------- GLPDSPG--V P--------E TVAQNTLTVP ---YNDLESV
+GSA_BACSU  -TL------- GLPDSPG--V P--------E GIAKNTITVP ---YNDLESV
+GSA_STAAM  -TL------- GLPDSPG--V P--------E GIAKNTITVP ---YNDLDAL
+GSA1_LISIN -TL------- GLPDSPG--V T--------K GLAADTITVP ---YNDVEGA
+GSA_SYNY3  -TL------- GLPDSPG--V P--------S NTTKATLTAP ---YNDLEAV
+GSA_CHLRE  -TL------- GLPDSPG--V P--------K STAAATLTAT ---YNNLDSV
+GSA_SOYBN  -TL------- GLPDSPG--V P--------K AATFETLTAP ---YNDTEAI
+GSA_HORVU  -TL------- GLPDSPG--V P--------K GATVGTLTAP ---YNDADAV
+GSA1_ARATH -TL------- GLPDSPG--V P--------K AATSDTLTAP ---YNDLEAV
+GSA_CLOPE  -TE------- GIPGCLG--V P--------E ESIKNTLIGI ---YNDEKQV
+GSA_CLOAB  -TQ------- NIPGSPG--V P--------K GSIENTLIAE ---YNNVESV
+GSA_CAMJE  -TF------- NSPSSLG--V L--------E DVAKHTLVAK ---YNDINSV
+GSA_HELPJ  -TF------- GSPSSLG--V P--------N DFSKHTLVAR ---YNDLNST
+GSA_ECO57  -TL------- GQPNSPG--V P--------A DFAKHTLTCT ---YNDLASV
+GSA_PASMU  -TL------- GQPSSPG--V P--------A DFAKHTLTCT ---YNDLDSV
+GSA_VIBCH  -TL------- GQPSSPG--V P--------A DFAKHTLTAR ---FNDLDSV
+GSA_SHEON  -TL------- GQPSSPG--I P--------E DFAKHTLTAV ---YNDLDSV
+GSA_PSEAE  -TF------- GVPNSPG--V P--------A AFAKHTLTLP ---FNDIEAV
+GSA_XANAC  -TL------- GVPTSPG--V P--------A GLSELTATLS ---FNDFEGA
+GSA_XYLFA  -TL------- GMPSSPG--V P--------A ELSKLTITLT ---YNDFDAA
+GSA_NEIMA  -TF------- GNPSSAG--V P--------A DFTKHTLVLE ---YNNIAQL
+GSA_DEIRA  -TNAEGDLGA AAPSSAG--V P--------E EYAGLTLVLD ---YNDPEAL
+GSA_MYCLE  -TL------- SLPSSPG--V T--------G AAAADTIVLP ---YNDIEAV
+GSAB_BACSU -TL------- GTPDSAG--V P--------K SIANEVITVP ---FNDIDSY
+GSAB_LISIN -TL------- GIPDSAG--V T--------R STAEEVITVP ---FNDLTSF
+GSA_METKA  -EL------- GAPDSPG--I P--------E SVAENTLVCP ---FNDVEAF
+GSA_METJA  -TH------- GHPNSPG--I P--------E ETTKNTILIP ---FNDEDAV
+GSA_METAC  -TL------- GEPDSLG--I P--------A DFTKYTLQAP ---YNDIETM
+GSA_AERPE  -HY------- GVPTSAG--V P--------E AVARLTLVTP ---YNDVEAL
+GSA_PYRAE  -TW------- GIPTSAG--I P--------Q EVARLTVVVP ---YNDIDAF
+GSA_HALN1  -DH------- RGPSSAG--I P--------P AFAQHTIPVP ---FNDADAV
+1ohv_A     HKI------- DIPSFDWPIA PFPRLKYPLE EFVKENQQEE ARCLEEVEDL
+1b5o_A     -VE------- TLPEEGF--V P--------- ---------- -----DPERV
+1b8g_A     -PI------- HCTSSNG--F Q--------- --------IT ---ETALEEA
+1fg3_A     -CR------- T--------V P--------- ---------T ---LDNWQLD
+1lc5_A     -RW------- SLREADG--W Q--------- ---------- -----LTDAI
+1jg8_A     -PH------- PVPGKNG--A M--------- ---------- -----DPDDV
+1ax4_A     -SE------- TYDDWKG--D F--------- ---------- -----DIKKL
+1ajs_A     -YR------- YWDTEKR--G L--------- ---------- -----DLQGF
+1d2f_A     -RT------- VMPVALE--K Q--------- --------AD ---GWFCDMG
+
+           451                                                500
+2gsa_A     ---KALF--- AENPGEIA-- -GVILEPIV- GNS-GFIVPD AGFLEGLREI
+GSA_AQUAE  ---EEAF--- KEYGSEIA-- -GVIVEPIA- GNM-GVVPPK KEFLIRLREL
+GSA_BACHD  ---RYAF--- EQFGDDLA-- -GVIVEPVA- GNM-GVVPPE PGFLEELRRL
+GSA_BACSU  ---KLAF--- QQFGEDIA-- -GVIVEPVA- GNM-GVVPPQ EGFLQGLRDI
+GSA_STAAM  ---KIAF--- EKFGDDIA-- -GVIVEPVA- GNM-GVVPPI EGFLQGLRDI
+GSA1_LISIN ---KLAF--- EKFGEEIA-- -AVIVEPVA- GNM-GVVPPI DGFLEGLREL
+GSA_SYNY3  ---KALF--- VENPDSIA-- -GVILEPVV- GNA-GFILPD AGFLEGLREL
+GSA_CHLRE  ---RELF--- AANKGEIA-- -GVILEPVV- GNS-GFIVPT KEFLQGLREI
+GSA_SOYBN  ---EKLF--- EANKGEIA-- -AVFLEPVV- GNA-GFIVPK PDFHSFLRKI
+GSA_HORVU  ---KKLF--- EDNKGEIA-- -AVFLEPVV- GNA-GFIPPQ PAFLNALREV
+GSA1_ARATH ---EKLF--- AAHKGEIS-- -AVILEPVV- GNS-GFIPPT PEFINGLRQL
+GSA_CLOPE  ---EELF--- EKYGNDIA-- -GIIIEPVA- GNM-GVVKCD PKFMRKLREL
+GSA_CLOAB  ---EVLF--- NKYKDEIA-- -AVIIEPVA- GNM-GVIPAK KEFLVKLREL
+GSA_CAMJE  ---KELF--- EKN-KDIA-- -CVIIEPIA- GNM-GLVPAK QDFLEELAKI
+GSA_HELPJ  ---EECF--- KK--GDVG-- -CVIIEPIA- GNM-GLVPAQ KEFLLGLKAL
+GSA_ECO57  ---RAAF--- EQYPQEIA-- -CIIVEPVA- GNM-NCVPPL PDFLPGLRAL
+GSA_PASMU  ---KHAF--- EQYPNEIA-- -CLIVEPVA- GNM-NCIPPQ EGFLQGLRAL
+GSA_VIBCH  ---RELF--- AANQGEIA-- -CIIVEPVA- GNM-NCIPPV EGFHEGLREI
+GSA_SHEON  ---RSLF--- EQYPTEIS-- -CIIIEPVA- GNM-NCIPPI PGFLEGLRSL
+GSA_PSEAE  ---RKTL--- GEVGKEVA-- -CIIVEPVA- GNM-NCVPPA PGFLEGLREA
+GSA_XANAC  ---TALF--- DEIGAEVA-- -AVIIEPVV- GNA-NCIPPQ AGYLQHLRTL
+GSA_XYLFA  ---TALF--- EEMGHHIA-- -AVIVEPVI- GNA-NCIPPR PGYLQHLRTL
+GSA_NEIMA  ---EEAF--- AQSGNDIA-- -CVILEPFV- GNM-NLVRPS EAFVKALREL
+GSA_DEIRA  ---DALM--- AQRGDEIA-- -AVIFEPVV- GNA-GVLIPT SDFLAALHRV
+GSA_MYCLE  ---RQTF--- ARLGDQIA-- -AVITEASP- GNM-GVVPPA PGYNAALRAI
+GSAB_BACSU ---KAAL--- EKWGSEIA-- -AVLVEPIV- GNF-GIVEPK EGFLEQVNEL
+GSAB_LISIN ---KEAL--- AVWGDQVA-- -AVLVEPIV- GNF-GMVAPA EGFLEAVNEL
+GSA_METKA  ---VETV--- ERFDEEIG-- -AVIVEPVL- GNA-GCVPPD EEFLKVLREY
+GSA_METJA  ---KKAI--- NENKDEIA-- -CIIVEPIM- GNV-GCILPK EGYLEFLREI
+GSA_METAC  ---TTLV--- EKNRDDLA-- -AVIIEPVL- GNI-GPILPL PGYLKELRKL
+GSA_AERPE  ---ERVF--- AEYGDRIA-- -GVIVEPVI- ANA-GVIPPR REFLAALQRL
+GSA_PYRAE  ---IKAV--- REVGDRLA-- -AVIVEPVA- GNY-GLIIPD VEFLKALREE
+GSA_HALN1  ---TEVF--- ETHGDDIA-- -AVLVEPIL- ANK-GIVEPV AGYHETLRDL
+1ohv_A     ---IVKY--- RKKKKTVA-- -GIIVEPIQ- SEG-GDNHAS DDFFRKLRDI
+1b5o_A     ---RRA---- --ITPRTK-- -ALVVNSPN- NPT-GAV-YP KEVLEALARL
+1b8g_A     YQEAEK---- --RNLRVK-- -GVLVTNPS- NPL-GTT-MT RNELYLLLSF
+1fg3_A     ---LQG---- --ISDKLDGV KVVYVCSPN- NPT-GQL-IN PQDFRTLLEL
+1lc5_A     ---LEA---- --LTPDLD-- -CLFLCTPN- NPT-GLL-PE RPLLQAIADR
+1jg8_A     ---RKAIRPR NIHFPRTS-- -LIAIENTH- NRSGGRV-VP LENIKEICTI
+1ax4_A     ---KENI--- AQHGADNI-- -VAIVSTVTC NSAGGQP-VS MSNLKEVYEI
+1ajs_A     ---LSDL--- -ENAPEFS-- -IFVLHACA- HNPTGTD-PT PEQWKQIASV
+1d2f_A     KLEAVL---- --AKPECK-- -IMLLCSPQ- NPT-GKV-WT CDELEIMADL
+
+           501                                                550
+2gsa_A     TLEHDALLVF DEVMTGFR-I -A--YGGVQE KFGVT--PD- ----------
+GSA_AQUAE  TKEYGSLLMF DEVITGFR-L -S--KGGAQE LFGIE--PD- ----------
+GSA_BACHD  TEENGTLLIF DEVMTGFR-V -G--YHCAQG AFGIT--PD- ----------
+GSA_BACSU  TEQYGSLLIF DEVMTGFR-V -D--YNCAQG YFGVT--PD- ----------
+GSA_STAAM  TTEYGALLIF DEVMTGFR-V -G--YHCAQG YFGVT--PD- ----------
+GSA1_LISIN TTEYGALLIF DEVMTGFR-V -D--YYSAQG YYVVT--PD- ----------
+GSA_SYNY3  TKEYGALLVF DEVMTGFR-V -S--YGGAQA RFGIT--PD- ----------
+GSA_CHLRE  CTAEGAVLCF DEVMTGFR-I -A--KGCAQE HFGIT--PD- ----------
+GSA_SOYBN  TKENNTLLVF DEVMTGFR-L -S--YGGAQE YFGIT--PD- ----------
+GSA_HORVU  TKQDGALLVF DEVMTGFR-L -A--YGGAQE YFGIT--PD- ----------
+GSA1_ARATH TKDNGVLLIF DEVMTGFR-L -A--YGGAQE YFGIT--PD- ----------
+GSA_CLOPE  CDKYGALLIF DEVMCGFR-V -A--YKGAQT LFDVK--PD- ----------
+GSA_CLOAB  CTENQSILIF DEVMSGFR-V -A--YKGAQS LYGVT--PD- ----------
+GSA_CAMJE  CKNNQTLLIF DEVMSGYR-A -S--YLGSYG INHIQ--AD- ----------
+GSA_HELPJ  CEKYQAVLIL DEVMSGFR-A -S--LSGSQE FYGVV--PD- ----------
+GSA_ECO57  CDEFGALLII DEVMTGFR-V -A--LAGAQD YYGVE--PD- ----------
+GSA_PASMU  CDQYGAVFII DEVMTGFR-V -A--LGGAQT YYGVT--PD- ----------
+GSA_VIBCH  CDQEGALLIF DEVMTGFR-V -A--LGGAQA HYNIK--PD- ----------
+GSA_SHEON  CDEFGALLII DEVMTGFR-V -S--KSGAQG HYGVT--PD- ----------
+GSA_PSEAE  CDEHGVVLIF DEVMTGFR-V -A--LGGAQA YYGVT--PD- ----------
+GSA_XANAC  CTRHGALLIF DEVMTGFR-V -A--LGGAQA HYGVT--PD- ----------
+GSA_XYLFA  CTQYAVLLIF DEVMTGFR-V -A--LGGAQA LYGVT--PD- ----------
+GSA_NEIMA  TEKHGAVLIY DEVMTGFR-V -A--LGGAQS LHGIT--PD- ----------
+GSA_DEIRA  -RDFGAVLIA DEVMTGFR-L -S--LNGATG LLSLD--PD- ----------
+GSA_MYCLE  TAEHGALLII DEVMTGFR-V -S--RSGWYG LDPVA--AD- ----------
+GSAB_BACSU THNAGALVIY DEVITAFR-F -M--YGGAQD LLQVK--PD- ----------
+GSAB_LISIN AHENGSLVIY DEVITAFR-F -M--YGGAQN YLGVI--PD- ----------
+GSA_METKA  CDGTERLLIF DEVITGFR-L -E--LGGAQE YYGID--AD- ----------
+GSA_METJA  TEENDILLIF DEVITGFR-L -A--KGGAQE YFGVV--PD- ----------
+GSA_METAC  TKENDVLLIF DEVITGFR-L -A--MGGAQE YFGVV--PD- ----------
+GSA_AERPE  SRESGALLIL DEVVTGFR-L -G--LEGAQG YFNIE--GD- ----------
+GSA_PYRAE  TQRAGALLIF DEVITGFR-V -G--LGGAQG LFGIR--PD- ----------
+GSA_HALN1  THDHGALLIW DEVITGFR-V -G-GLGCAQS EFDIT--PD- ----------
+1ohv_A     SRKHGCAFLV DEVQTGGGST -G--KFWAHE HWGLDDPAD- ----------
+1b5o_A     AVEHDFYLVS DEIYEHLL-Y -E--G-EHFS PGRVA--PEH ----------
+1b8g_A     VEDKGIHLIS DEIYSGTA-F -S--SPSFIS VMEVL--KDR NCDENSEVWQ
+1fg3_A     TR-GKAIVVA DEAYIEFC-P -QASLAGWLA E---Y--P-- ----------
+1lc5_A     CKSLNINLIL DEAFIDFI-P -H--ETGFIP ALKDN--P-- ----------
+1jg8_A     AKEHGINVHI DGARI----- ---------- ---------- ----------
+1ax4_A     AKQHGIFVVM DSARFCEN-A YF--IK---- ----A--RD- ----------
+1ajs_A     MKRRFLFPFF DSAYQGFA-S -G--NL---- ----E--KD- ----------
+1d2f_A     CERHGVRVIS DEIHMDMV-W -G--EQPHIP WSNV------ -------ARG
+
+           551                                                600
+2gsa_A     ----LTTLGK -IIG-GGLPV ---------- ---------- GAYG--GKRE
+GSA_AQUAE  ----ITCLGK -ILG-GGLPV ---------- ---------- GAYG--GRRE
+GSA_BACHD  ----LTCLGK -VIG-GGLPV ---------- ---------- GAYG--GKRE
+GSA_BACSU  ----LTCLGK -VIG-GGLPV ---------- ---------- GAYG--GKAE
+GSA_STAAM  ----LTCLGK -VIG-GGLPV ---------- ---------- GAFG--GKKE
+GSA1_LISIN ----ITCLGK -VIG-GGLPV ---------- ---------- GAYG--GKKE
+GSA_SYNY3  ----LTTLGK -VIG-GGLPV ---------- ---------- GAYG--GREE
+GSA_CHLRE  ----LTTMGK -VIG-GGMPV ---------- ---------- GAYG--GKKE
+GSA_SOYBN  ----ITTLGK -IIG-GGLPV ---------- ---------- GAYG--GRRD
+GSA_HORVU  ----VTTLGK -IIG-GGLPV ---------- ---------- GAYG--GRKD
+GSA1_ARATH ----LTTLGK -IIG-GGLPV ---------- ---------- GAYG--GRRD
+GSA_CLOPE  ----LVTYAK -IMG-GGLPC ---------- ---------- GAYG--GRRE
+GSA_CLOAB  ----LITFAK -IMG-GGFPC ---------- ---------- GAYG--GKKE
+GSA_CAMJE  ----IITFGK -VIG-GGLPA ---------- ---------- AAFA--SRAE
+GSA_HELPJ  ----LVTFGK -VIG-AGLPL ---------- ---------- ACFG--GRAE
+GSA_ECO57  ----LTCLGK -IIG-GGMPV ---------- ---------- GAFG--GRRD
+GSA_PASMU  ----LTCLGK -VIG-GGMPV ---------- ---------- GAFG--GKKA
+GSA_VIBCH  ----LTTLGK -VIG-GGMPV ---------- ---------- GAFG--GRRE
+GSA_SHEON  ----LTTLGK -VIG-GGMPV ---------- ---------- GAFG--GRKD
+GSA_PSEAE  ----LSTFGK -IIG-GGMPV ---------- ---------- GAFG--GKRE
+GSA_XANAC  ----LTTFGK -IIG-GGMPV ---------- ---------- GAYG--GRRD
+GSA_XYLFA  ----LTTFGK -IIG-GGMPV ---------- ---------- GAYG--GCRD
+GSA_NEIMA  ----LTTMGK -VIG-GGMPL ---------- ---------- AAFG--GRKD
+GSA_DEIRA  ----LRCWGK -IVG-GGLPV ---------- ---------- GAYG--GRAD
+GSA_MYCLE  ----LFIFGK -VMS-GGMPA ---------- ---------- AAFG--GRAE
+GSAB_BACSU ----LTALGK -IIG-GGLPI ---------- ---------- GAYG--GKQE
+GSAB_LISIN ----LTAMGK -IIG-GGLPI ---------- ---------- GAYG--GRVD
+GSA_METKA  ----LVCLGK -ILG-GGLPI ---------- ---------- GAFG--GPEE
+GSA_METJA  ----IATLGK -ILG-GGFPI ---------- ---------- GAIV--GRRE
+GSA_METAC  ----MTTLGK -IVG-GGLPI ---------- ---------- GVFG--GRRE
+GSA_AERPE  ----IIVLGK -IIG-GGFPV ---------- ---------- GAVA--GSRE
+GSA_PYRAE  ----LTTLGK -VVG-GGFPI ---------- ---------- GIFG--GRGE
+GSA_HALN1  ----VTTFGK -IIG-GGFPV ---------- ---------- GAIG--GRTD
+1ohv_A     ----VMTFSK KMMT-GGFF- ---------- ---------- ------H---
+1b5o_A     TLT-VNGAAK -AFAMTGWRI ---------- ---------- GYAC--GPKE
+1b8g_A     RVHVVYSLSK -DLGLPGFRV ---------- ---------- GAIY--SNDD
+1fg3_A     HLAILRTLSK -AFALAGLRC ---------- ---------- GFTL--ANEE
+1lc5_A     HIWVLRSLTK -FYAIPGLRL ---------- ---------- GYLV--NSDD
+1jg8_A     -------FNA -SIA-SGVPV ---------- ---------- KEYA--GYAD
+1ax4_A     ----PKYKNA -TIK-EVIFD ---------- ---------- MYKY--ADAL
+1ajs_A     ----AWAIRY -FVS-EGFEL FCAQSFSKNF GLYNERVGNL TVVA--KEPD
+1d2f_A     DWALLTSGSK -SFNI-PALT ---------- ---------- GAYGIIENSS
+
+           601                                                650
+2gsa_A     -IM------- ---------- -----Q---- -LVAP----A GPMY-QAGTL
+GSA_AQUAE  -IM------- ---------- -----E---- -RVAP----E GEVY-QAGTL
+GSA_BACHD  -IM------- ---------- -----E---- -QIAP----S GPIY-QAGTL
+GSA_BACSU  -IM------- ---------- -----E---- -QIAP----S GPIY-QAGTL
+GSA_STAAM  -IM------- ---------- -----D---- -HIAP----L GNIY-QAGTL
+GSA1_LISIN -IM------- ---------- -----E---- -QIAP----A GSIY-QAGTL
+GSA_SYNY3  -IM------- ---------- -----A---- -MVAP----A GPMY-QAGTL
+GSA_CHLRE  -IM------- ---------- -----K---- -MVAP----A GPMY-QAGTL
+GSA_SOYBN  -IM------- ---------- -----E---- -KVAP----A GPMY-QAGTL
+GSA_HORVU  -IM------- ---------- -----E---- -MVAP----A GPMY-QAGTL
+GSA1_ARATH -IM------- ---------- -----E---- -MVAP----A GPMY-QAGTL
+GSA_CLOPE  -IM------- ---------- -----E---- -NLSP----L GGVY-QAGTM
+GSA_CLOAB  -IM------- ---------- -----K---- -QLSP----L GPVY-QAGTM
+GSA_CAMJE  -IM------- ---------- -----D---- -ILSP----L GGVY-QAGTL
+GSA_HELPJ  -IM------- ---------- -----D---- -LLSP----I GGVY-QAGTL
+GSA_ECO57  -VM------- ---------- -----D---- -ALAP----T GPVY-QAGTL
+GSA_PASMU  -IM------- ---------- -----Q---- -HIAP----L GPVY-QAGTL
+GSA_VIBCH  -VM------- ---------- -----Q---- -YIAP----T GPVY-QAGTL
+GSA_SHEON  -VM------- ---------- -----Q---- -FIAP----T GPVY-QAGTL
+GSA_PSEAE  -IM------- ---------- -----Q---- -QISP----L GPVY-QAGTL
+GSA_XANAC  -LM------- ---------- -----E---- -QVAP----A GPIY-QAGTL
+GSA_XYLFA  -LM------- ---------- -----Q---- -HIAP----A GPIY-QAGTL
+GSA_NEIMA  -IM------- ---------- -----E---- -CISP----L GGVY-QAGTL
+GSA_DEIRA  -IM------- ---------- -----D---- -FVSP----Q GPVY-QAGTL
+GSA_MYCLE  -VM------- ---------- -----E---- -RLAP----L GPVY-QAGTL
+GSAB_BACSU -IM------- ---------- -----E---- -QVAP----L GPAY-QAGTM
+GSAB_LISIN -IM------- ---------- -----E---- -KVAP----L GPAY-QAGTH
+GSA_METKA  -YM------- ---------- -----S---- -RVAP----E GKVY-QAGTF
+GSA_METJA  -LM------- ---------- -----E---- -QFSP----L GAIY-QAGTF
+GSA_METAC  -IM------- ---------- -----E---- -MIAP----S GAVY-QAGTF
+GSA_AERPE  -VM------- ---------- -----S---- -LLTP----Q GKVF-NAGTF
+GSA_PYRAE  -VM------- ---------- -----D---- -LVAP----S GPVY-NAGTY
+GSA_HALN1  -VM------- ---------- -----E---- -EFTP----T GDVF-QAGTF
+1ohv_A     --K------- ---------- -----E---- -EFRP----N APYR-IFNTW
+1b5o_A     -VI------- ---------- ---------- ---KA----M ASVS-SQSTT
+1b8g_A     -MV------- ---------- ---------- --VAA----A TKMS-SFGLV
+1fg3_A     -VI------- ---------- ---------- ---NLLXKVI APYP--LS--
+1lc5_A     -A-------- ---------- ---------- ---AM----A RMRR-QQMPW
+1jg8_A     SVMFCLSXGL CAPVGSVVVG DRDFIERARK ARKML----G GGMR-QA---
+1ax4_A     TMSAKXDPLL NIGGLVAIRD NEEI-FTLAR QRCVP----M EGFV-TY---
+1ajs_A     SIL------- ---------- -----R---- -VLSQ----M QKIV-RV--T
+1d2f_A     -SR------- ---------- ---------- --DAY----L SALKGRDGLS
+
+           651                                                700
+2gsa_A     SGNPLAMTAG IKT-LELL-- --R-Q-PG-T Y-EYLD---- QI-----TKR
+GSA_AQUAE  AGNPLAMVSG SET-LKDL-- --R-D-KE-P Y-KELE---- EK-----MEK
+GSA_BACHD  SGNPLAMTAG YET-LVQL-- --T---EA-N Y-EYFD---- RL-----GDR
+GSA_BACSU  SGNPLAMTAG LET-LKQL-- --T---PE-S Y-KNFI---- KK-----GDR
+GSA_STAAM  SGNPLAMTSG YET-LSQL-- --T---PE-T Y-EYFN---- ML-----GDI
+GSA1_LISIN SGNPLAMNAG FET-VRQL-- --T---PQ-H Y-DVFR---- SL-----IKR
+GSA_SYNY3  SGNPLAMTAG IKT-LEIL-- --Q-K-PG-S Y-EYLD---- KI-----TKR
+GSA_CHLRE  SGNPMAMTAG IKT-LEIL-- --G-R-PG-A Y-EHLE---- KV-----TKR
+GSA_SOYBN  SGNPLAMTAG IET-LQRI-- --K-E-PG-T Y-EYLD---- KI-----TGE
+GSA_HORVU  SGNPLAMTAG IHT-LKRL-- --M-E-PG-T Y-EYLD---- KV-----TGE
+GSA1_ARATH SGNPLAMTAG IHT-LKRL-- --K-Q-AG-T Y-EYLD---- KI-----TKE
+GSA_CLOPE  SGNPIVMSAG LAT-VKKL-- --Y-ENPS-Y Y-NHIE---- KI-----GSK
+GSA_CLOAB  SGNPVVMAAG YAS-LRQL-- --H-ENPE-Y Y-TYMD---- KL-----GSK
+GSA_CAMJE  SGNPLAMAAG IAS-LTKA-- --K-KKTK-L Y-DKLG---- KL-----AKK
+GSA_HELPJ  SGNPLAVCAG LSA-LYKI-- --K-RDKT-L Y-TRLN---- AL-----AVR
+GSA_ECO57  SGNPIAMAAG FAC-LNEV-- --A-Q-PG-V H-ETLD---- EL-----TTR
+GSA_PASMU  SGNPIAMAAG LAC-LTEL-- --K-K-AG-N A-QRLA---- QQ-----TEK
+GSA_VIBCH  SGNPIAMAAG YAC-LNLL-- --R-E-EG-N E-KRLA---- AK-----TKQ
+GSA_SHEON  SGNPIAMSAG LAQ-MEAL-- --C-E-EG-L Y-EALS---- AK-----TKR
+GSA_PSEAE  SGNPLAMAAG LTT-LRLI-- --S-R-PG-F H-DELT---- AY-----TTR
+GSA_XANAC  SGNPVAMAAG LAM-LELV-- --Q-E-PG-F H-TRLS---- EA-----TSM
+GSA_XYLFA  SGNPVAMAAG LAM-LELI-- --Q-A-PD-F Y-THLS---- NA-----AAA
+GSA_NEIMA  SGNPIAVAAG LKT-LEII-- --R-R-EG-F Y-ENLT---- AR-----TEQ
+GSA_DEIRA  SGNPLAMAAG IAT-LREL-- --KAN-PG-L Y-RQLD---- EY-----AAR
+GSA_MYCLE  SGNPVAMAAG LAT-LRAA-- --A---DA-V Y-ATLD---- RN-----ADR
+GSAB_BACSU AGNPASILSG IAC-LEVL-- --K-E-KG-V Y-EKLD---- HL-----GAM
+GSAB_LISIN AGNPASILSG IAC-LEVL-- --Q-E-EG-L Y-DRFE---- KY-----GSM
+GSA_METKA  NGNPVSATAG LVT-LEVL-- --E-R-ER-P Y-DELS---- SK-----AER
+GSA_METJA  NGNPISITAG IAT-LKQL-- --D-D--R-F Y-KETA---- RT-----AKI
+GSA_METAC  SGSPCSVAAG IAV-LDYL-- --K-K-ED-I H-AKLN---- ST-----GDY
+GSA_AERPE  NAHPITMAAG LAT-LKAL-- --E-E-EP-V Y-SVSR---- EA-----AKA
+GSA_PYRAE  NAHPVSIAAG LAV-LKEL-- --E-T-GE-P Y-RIAN---- EA-----AER
+GSA_HALN1  SGHPVTMAAG LET-LQYA-- --A-E-ND-V Y-EHVN---- RL-----GGR
+1ohv_A     LGDPSKNLLL AEV-INII-- --K-R-ED-L L-SNAA---- HA-----GKV
+1b5o_A     SPDTIAQWAT LEA-LTNQ-- --E-A-SR-A F-VEMA---- REAYRRRRDL
+1b8g_A     SSQTQHLLSA MLSDKKLT-- --KNY-IAEN H-KRLK---- QR-----QKK
+1fg3_A     --TPVADIAA -----QAL-- --S-P-QGIV A-XRER---- VAQIIAEREY
+1lc5_A     SVNALAALAG EVA-LQDS-- --A-W-QQAT W-HWLR---- EE-----GAR
+1jg8_A     ---GVLAAAG IIA-LTKMVD RLK-E----- ---DHE---- -N-----ARF
+1ax4_A     ---GGLAGRD MAA-MVQGLE EGT-E-EE-Y LHYRIG---- -Q-----VKY
+1ajs_A     WSNPPAQGAR IVA-RTL--- --S-D-PE-L FHEWTG---- -N-----VKT
+1d2f_A     SPSVLALTAH I-AAYQQG-- --APW-LDAL R-IYLKDNLT YI-----ADK
+
+           701                                                750
+2gsa_A     LSDGL----- ------LAIA QETGHAACGG --Q-VSGMFG FFFTEG---P
+GSA_AQUAE  LARGV----- ------KDIL TEKGIQHTIN --K-VGSMMT VFFTDK---K
+GSA_BACHD  LAEGL----- ------SAVA KEYDIPHYTS --R-AGSMVG FFFTDK---K
+GSA_BACSU  LEEGI----- ------SKTA GAHGIPHTFN --R-AGSMIG FFFTNE---P
+GSA_STAAM  LEDGL----- ------KRVF AKHNVPITVN --R-AGSMIG YFLNEG---P
+GSA1_LISIN MEEGL----- ------TEIS NRHEVPLSIN --K-AGSMFG FFFTDQ---K
+GSA_SYNY3  LVDGL----- ------LAAA QDAGHEVCGG --S-ISAMFG IFFAPG---P
+GSA_CHLRE  LIDGI----- ------MAAA KEHSHEITGG --N-ISGMFG FFFCKG---P
+GSA_SOYBN  LVEGI----- ------IEAG KRAGHAICGG --H-IRGMFG FFFTEG---P
+GSA_HORVU  LVRGI----- ------LDVG AKTGHEMCGG --H-IRGMFG FFFAGG---P
+GSA1_ARATH LTNGI----- ------LEAG KKTGHPMCGG --Y-ISGMFG FFFAEG---P
+GSA_CLOPE  LEKGV----- ------LEIA KKKGLGLVVN --R-QGGMIT LFFTDL--KE
+GSA_CLOAB  LEAGI----- ------LEIS KEKGIPLVVN --R-CVNMMT IFFNKA--KE
+GSA_CAMJE  LTQGM----- ------KKLA DEKGLPLQAC --H-VGSMFG YFFTKD---P
+GSA_HELPJ  LTQGL----- ------QKSA QNYNIALETL --N-MGSMFG FFFNEN---A
+GSA_ECO57  LAEGL----- ------LEAA EEAGIPLVVN --H-VGGMFG IFFTDA--ES
+GSA_PASMU  LALGL----- ------KALA DKHHVPFVVN --Y-VGGMFG IFFTEQ--KT
+GSA_VIBCH  LADGF----- ------KSLA DQHGIPLLVH --Q-VGGMFG FFFTEQ--ET
+GSA_SHEON  IAEGF----- ------KAAA DKHGIPMAIN --Y-VGGMFG FFFTEQ--EH
+GSA_PSEAE  MLDGL----- ------QQRA DAAGIPFVTT --Q-AGGMFG LYFSGA--DA
+GSA_XANAC  LCEGL----- ------EDAA RAAGIAVTTN --Q-VGGMFG LFFTDD---I
+GSA_XYLFA  LCTGL----- ------QQAA SQAGIAMTTQ --Q-IGGMFG LFFTDQ---Q
+GSA_NEIMA  LVQGF----- ------RTAA DAAGIEFTAD --S-VGGMFG LYFAAH---A
+GSA_DEIRA  LAAGL----- ------RGAA ERAGVAVSIN --H-IGSMLT VFFQDAPDGS
+GSA_MYCLE  LVAML----- ------SEAL TDAGVPHQIP --R-AGNMFS VFFSEA---P
+GSAB_BACSU LEEGI----- ------MKHA ETHGITITVN --R-LKGALT VYFSDE---K
+GSAB_LISIN LKEGI----- ------EKAA IKHGIAVTVN --Q-IVGALT VYFTDE---P
+GSA_METKA  LASAL----- ------EDGL EDRGIEGVVN --R-VESMFQ VYFGIE---E
+GSA_METJA  LADTL----- ------RELA DKHNIKAKVY --N-IASMFQ IYFNDK---E
+GSA_METAC  MRAVV----- ------SEIV EDEGLDYTVC --G-IASMFK IFFGAE---P
+GSA_AERPE  LEEAA----- ------SEVL DRTGLPYTIN --R-VESMMQ LFIGVE---E
+GSA_PYRAE  LAKGV----- ------EDVA GRLGFDVVVK --R-MASMFQ FYFKKG---D
+GSA_HALN1  LREGL----- ------AAVV AEHAPAYTVV --G-RDSMFK VVFTRD---G
+1ohv_A     LLTGL----- ------LDLQ ARYPQFISRV --R-GRGTFC SFDTPD--ES
+1b5o_A     LLEGL----- ------TA-- --LGLKAV-- --R-PSGAFY VLMDTS---P
+1b8g_A     LVSGL----- ------QK-- --SGISCL-- --NGNAGLFC WV-DMR---H
+1fg3_A     LIAAL----- ------K--- ----EIPC-- --V-EQVFDS ETNYIL---A
+1lc5_A     FYQAL----- ------CQ-- --LPLLTV-- --Y-PGR--- ANYLLL---R
+1jg8_A     LALKL----- ------KE-- --IGYS---- ---------- ----VN---P
+1ax4_A     LGDRL----- ------RE-- --AGIPIQ-- --------YP TG-GHA---V
+1ajs_A     MADRILSMRS ELRARLEA-- --LKTPGTWN HITDQIGMFS FT-GLN---P
+1d2f_A     MNA------- ---------- -----AFP-- --ELNWQIPQ ST-YLA---W
+
+           751                                                800
+2gsa_A     --VH------ ---------- ------NYED AKKS-DLQKF -----S-RFH
+GSA_AQUAE  --VV------ ---------- ------DFQT AKTS-DTELF -----A-KFF
+GSA_BACHD  --VK------ ---------- ------NFAD ASSS-DLEFF -----A-KYF
+GSA_BACSU  --VI------ ---------- ------NYET AKSS-DLKLF -----A-SYY
+GSA_STAAM  --VT------ ---------- ------NFEQ ANKS-DLKLF -----A-EMY
+GSA1_LISIN --VT------ ---------- ------NFDT AKTS-DLEFF -----R-NYY
+GSA_SYNY3  --VR------ ---------- ------NYED AKLA-DTNKF -----A-RFH
+GSA_CHLRE  --VT------ ---------- ------CFED ALAA-DTAKF -----A-RFH
+GSA_SOYBN  --VY------ ---------- ------NFAD AKKS-DTAKF -----A-RFF
+GSA_HORVU  --VH------ ---------- ------NFDD AKKS-DTAKF -----G-RFH
+GSA1_ARATH --VY------ ---------- ------NFAD SKKS-DTEKF -----G-RFF
+GSA_CLOPE  --VK------ ---------- ------CYDD VKTC-DGERF -----K-RYF
+GSA_CLOAB  --VK------ ---------- ------SYSD AKAS-DTKMF -----A-RFA
+GSA_CAMJE  --VS------ ---------- ------NYQD ALKS-DLALF -----S-KFH
+GSA_HELPJ  --VR------ ---------- ------DFDD ALKS-DTEMF -----A-KFH
+GSA_ECO57  --VT------ ---------- ------CYQD VMAC-DVERF -----K-RFF
+GSA_PASMU  --VS------ ---------- ------SYQA VMAC-DTEKF -----N-RFF
+GSA_VIBCH  --VT------ ---------- ------CYED VARC-DVERF -----K-RFF
+GSA_SHEON  --IT------ ---------- ------RFDQ VTKC-NIEHF -----R-TFY
+GSA_PSEAE  --IV------ ---------- ------TFED VMAS-DVERF -----K-RFF
+GSA_XANAC  --VE------ ---------- ------SYAQ ATAC-DITTF -----N-RFF
+GSA_XYLFA  --VE------ ---------- ------TYAQ ATAC-NTDRF -----N-RFF
+GSA_NEIMA  --PR------ ---------- ------NYAD MARS-NIEGF -----K-QFF
+GSA_DEIRA  --VR------ ---------- ------DYAA AARS-DTAAF -----A-AWF
+GSA_MYCLE  --VT------ ---------- ------DFAS ACNS-QVWRY -----P-AFF
+GSAB_BACSU --VE------ ---------- ------NYEQ AERS-DGETF -----S-TFF
+GSAB_LISIN --VT------ ---------- ------NYAE AGAT-NGDLF -----G-RFF
+GSA_METKA  --VR------ ---------- ------DYAD VNSA-DHDAF -----K-RFH
+GSA_METJA  --VV------ ---------- ------NYEI AKQS-DTEKF -----M-KYF
+GSA_METAC  ---H------ ---------- ------NYQE ALKC-DKEGY -----L-SFF
+GSA_AERPE  --VS------ ---------- ------NAAQ ARKA-DKKFY -----V-KLH
+GSA_PYRAE  --VK------ ---------- ------TPQD VRES-NEKMY -----L-KLH
+GSA_HALN1  -DAQSGACTD GCRQDPDCER HAACPKTGAD VGDA-AVQRW -----N-RVF
+1ohv_A     --IR------ ---------- ------N--- ---------- -------KLI
+1b5o_A     ---------- ---------- ---------- -----IAPDE -----V-RAA
+1b8g_A     ---------- ---------- ---------- -----LLRSN TFEAEM-ELW
+1fg3_A     ---------- ---------- ---------- -----RFKAS -----S-AVF
+1lc5_A     ---------- ---------- ---------- -----CERED -----I-DLQ
+1jg8_A     EDVK------ ---------- ------TNMV ILRTDNLKVN -----AHGFI
+1ax4_A     FVDC------ ---------- ------KKLV PQIPGDQFPA -----QAVIN
+1ajs_A     KQV------- ---------- ---------- ---------- ----------
+1d2f_A     ---------- ---------- ---------- -----LDLRP LNIDDN-ALQ
+
+           801                                                850
+2gsa_A     R-GM-LE--- ---------- ---------- ---------- --QGIYLAPS
+GSA_AQUAE  R-AL-LN--- ---------- ---------- ---------- --KGVLIPPS
+GSA_BACHD  K-EM-LH--- ---------- ---------- ---------- --LGVSLPPS
+GSA_BACSU  K-GM-AN--- ---------- ---------- ---------- --EGVFLPPS
+GSA_STAAM  R-EM-AK--- ---------- ---------- ---------- --EGVFLPPS
+GSA1_LISIN R-EM-LA--- ---------- ---------- ---------- --QGIFLPPS
+GSA_SYNY3  R-GM-LE--- ---------- ---------- ---------- --RGIYLAPS
+GSA_CHLRE  R-GM-LE--- ---------- ---------- ---------- --EGVYLAPS
+GSA_SOYBN  W-GM-LA--- ---------- ---------- ---------- --EGVYLAPS
+GSA_HORVU  R-GM-LG--- ---------- ---------- ---------- --EGVYLAPS
+GSA1_ARATH R-GM-LE--- ---------- ---------- ---------- --EGVYFAPS
+GSA_CLOPE  L-HM-LN--- ---------- ---------- ---------- --KGFNIPPS
+GSA_CLOAB  E-HM-IT--- ---------- ---------- ---------- --SGIYVPPS
+GSA_CAMJE  K-NM-LE--- ---------- ---------- ---------- --NGIYLAPS
+GSA_HELPJ  Q-KM-LF--- ---------- ---------- ---------- --KGVYLACS
+GSA_ECO57  H-MM-LD--- ---------- ---------- ---------- --EGVYLAPS
+GSA_PASMU  H-AM-LA--- ---------- ---------- ---------- --QGIYLAPS
+GSA_VIBCH  H-LM-LQ--- ---------- ---------- ---------- --HGVYLAPS
+GSA_SHEON  H-GM-LD--- ---------- ---------- ---------- --EGVYLAPS
+GSA_PSEAE  H-LM-LD--- ---------- ---------- ---------- --GGVYLAPS
+GSA_XANAC  H-AM-LQ--- ---------- ---------- ---------- --QGVYLAPS
+GSA_XYLFA  H-AM-LQ--- ---------- ---------- ---------- --RGVFFAPS
+GSA_NEIMA  H-GM-LD--- ---------- ---------- ---------- --RGIAFGPS
+GSA_DEIRA  Q-GL-LA--- ---------- ---------- ---------- --RGIYWAPS
+GSA_MYCLE  H-AL-LD--- ---------- ---------- ---------- --AGVYPPCS
+GSAB_BACSU K-LM-LE--- ---------- ---------- ---------- --RGINLAPS
+GSAB_LISIN K-GM-LE--- ---------- ---------- ---------- --EGINLAPS
+GSA_METKA  R-EL-LE--- ---------- ---------- ---------- --HGVWIAAS
+GSA_METJA  W-RL-LE--- ---------- ---------- ---------- --KGVFVPPS
+GSA_METAC  H-RM-LA--- ---------- ---------- ---------- --NGVFLPPS
+GSA_AERPE  E-EM-LR--- ---------- ---------- ---------- --RGVFIAPS
+GSA_PYRAE  E-IA-LK--- ---------- ---------- ---------- --HGVYLTPS
+GSA_HALN1  RPQL-LD--- ---------- ---------- ---------- --AGVLLSQN
+1ohv_A     S-IA-RN--- ---------- ---------- ---------- --KGVMLGGC
+1b5o_A     E-RL-LE--- ---------- ---------- ---------- --AGVAVVPG
+1b8g_A     K-KIVYE--- ---------- ---------- ---------- --VHLNISPG
+1fg3_A     K-SL-WD--- ---------- ---------- ---------- --QGIILRDQ
+1lc5_A     R-RL-LT--- ---------- ---------- ---------- --QRILIRSC
+1jg8_A     E-AL-RNSGV ---------- ---------- -----LANAV SDTEIR----
+1ax4_A     A-LY-LESGV RAVEIGSFLL GRDPATGEQK HADMEFMRLT IARRVY----
+1ajs_A     ---------- ---------- ---------- ------EYLI NQKHIYLLPS
+1d2f_A     K-ALIEQ--- ---------- ---------- ---------- --EKVAIMPG
+
+           851                                                900
+2gsa_A     -----Q---- FEAG----FT S-L-AHT--- -EEDIDATLA AARTVM----
+GSA_AQUAE  -----Q---- FEAW----FL T-T-AHE--- -EEVIDEALE RIRDAV----
+GSA_BACHD  -----Q---- FEGM----FL S-T-KHT--- -EADIDFTVD AARQAF----
+GSA_BACSU  -----Q---- FEGL----FL S-T-AHT--- -DEDIENTIQ AAEKVF----
+GSA_STAAM  -----Q---- FEGT----FL S-T-AHT--- -KEDIEKTIQ AFDTAL----
+GSA1_LISIN -----Q---- FEGV----FI S-T-MHT--- -EKEIDATLE AFDVTC----
+GSA_SYNY3  -----Q---- YEAG----FP S-L-AHT--- -QEQIDQTIA VAKEVF----
+GSA_CHLRE  -----Q---- FEAG----FT S-L-AHS--- -EADVDATIA AARRVF----
+GSA_SOYBN  -----Q---- FEAG----FT S-L-AHT--- -SDDIKKTIA AAEKVF----
+GSA_HORVU  -----Q---- FEAG----FT S-L-AHT--- -TQDIEKTVE AAEKVL----
+GSA1_ARATH -----Q---- FEAG----FT S-L-AHT--- -PEDIQLTIA AAERVL----
+GSA_CLOPE  -----Q---- FEAM----FL S-V-KHT--- -EEHIDKFLE AFET-F----
+GSA_CLOAB  -----Q---- FEAM----FL G-V-KHT--- -EEDIERFLD VMK-------
+GSA_CAMJE  -----Q---- FETG----FI C-S-KMD--- -DKIIDTTLE AVRESF----
+GSA_HELPJ  -----S---- FETG----FI C-E-PMT--- -EEMIDLAIS KADESF----
+GSA_ECO57  -----A---- FEAG----FM S-V-AHS--- -MEDINNTID AARRVF----
+GSA_PASMU  -----A---- FEAG----FM S-L-AHS--- -DQDIERTLQ AADQVF----
+GSA_VIBCH  -----A---- FEAS----FT S-L-AHG--- -SKEIEATLE AADRSF----
+GSA_SHEON  -----A---- YEAG----FL S-M-AHG--- -EEELRLTLE AADRVL----
+GSA_PSEAE  -----A---- FEAG----FT S-I-AHG--- -DKELEITLN AAEKAF----
+GSA_XANAC  -----A---- YEAG----FM S-S-AHD--- -EAVIDATLA AAREAF----
+GSA_XYLFA  -----A---- YEAG----FI S-S-AHS--- -PDIIEATLE AARAAF----
+GSA_NEIMA  -----A---- YEAG----FV S-A-AHT--- -PELIDETVA VAVEVF----
+GSA_DEIRA  -----Q---- FESI----FI S-A-AHG--- -EPELAATLE AAAQAF----
+GSA_MYCLE  -----T---- FEAW----FV S-A-ALD--- -DAAFGRIVD ALPGAA----
+GSAB_BACSU -----K---- YEAW----FI T-T-AHT--- -EQDIKDTLT AVEDAF----
+GSAB_LISIN -----K---- YEAW----FI T-S-AHS--- -EADILETIQ AVDTVF----
+GSA_METKA  -----N---- YEAW----FL S-I-AHT--- -ETDLERTEE AFEEAL----
+GSA_METJA  -----Q---- FECC----FT S-I-KHD--- -DEVVDKTIK AMEDVF----
+GSA_METAC  -----Q---- FETN----FI S-A-AHS--- -EEDIEKTLE AYVEN-----
+GSA_AERPE  -----N---- LEAV----FT G-L-PHQ--- -GEALEIAVE GLRSSL----
+GSA_PYRAE  -----Q---- YEVN----FT S-A-AHG--- -REVVEETLA ALEKSF----
+GSA_HALN1  -----Q---- FESQ----FV S-Y-GHT--- -EADVDETIE AYRSA-----
+1ohv_A     GDKSIR---- FRPT----LV F-R-DHH--- ----AHLFLN IFSDIL----
+1b5o_A     -----T---- DFAA----FG H-V-RLS--- -YATSEENLR KALERF----
+1b8g_A     -----SSCHC TEPG----W- --F-RVC--- FANLPERTLD LAMQRL----
+1fg3_A     -----N---- KQPS----LS GCL-RIT--- -VGTREE-SQ RVIDAL----
+1lc5_A     -----A---- NYPGLDSRYY R-VAIRS--- -AAQNE---- RLLAAL----
+1jg8_A     ---------- L-------VT H-K-DVS--- -RNDIEEALN IFEKLF----
+1ax4_A     ---------- T-------ND H-----M--- --DYIADALI GLKEKFATLK
+1ajs_A     -----G---- R-------IN M-C-GLT--- -TKNLDYVAT SIHEAV----
+1d2f_A     -----YTYGE EGRG----F- --V-RLNAGC PRSKLEKGVA GLINAI----
+
+           901                                   938
+2gsa_A     ---------- -------S-- ---------- ------AL 
+GSA_AQUAE  ---------- -------K-- ---------- ------EL 
+GSA_BACHD  ---------- -------K-R L--------- ------KK 
+GSA_BACSU  ---------- -------A-E I--------- -----SRR 
+GSA_STAAM  ---------- -------S-R I--------- ------VK 
+GSA1_LISIN ---------- -------K-M L--------- ------RG 
+GSA_SYNY3  ---------- -------A-- ---------- ------TL 
+GSA_CHLRE  ---------- -------A-R ---------- -------I 
+GSA_SOYBN  ---------- -------R-E ---------- -------I 
+GSA_HORVU  ---------- -------R-- ---------- ------WI 
+GSA1_ARATH ---------- -------S-- ---------- ------RI 
+GSA_CLOPE  ---------- ---------- ---------- ------EG 
+GSA_CLOAB  ---------- ---------- ---------- ------KL 
+GSA_CAMJE  ---------- -------K-- ---------- ------RI 
+GSA_HELPJ  ---------- -------D-E II-------- -----NGV 
+GSA_ECO57  ---------- -------A-K ---------- -------L 
+GSA_PASMU  ---------- -------S-Q ---------- ------LA 
+GSA_VIBCH  ---------- -------A-I LA-------- ---AEAKA 
+GSA_SHEON  ---------- -------A-R MK-------- -----AAN 
+GSA_PSEAE  ---------- -------A-A ---------- ------LK 
+GSA_XANAC  ---------- -------A-E V--------- ------AR 
+GSA_XYLFA  ---------- -------Q-T IANEAAILSE SEAPLKMP 
+GSA_NEIMA  ---------- -------K-A M--------- ------AA 
+GSA_DEIRA  ---------- -------E-G V--------- ------KP 
+GSA_MYCLE  ---------- AAAVAA-R-H R--------- ------ES 
+GSAB_BACSU ---------- -------K-H L--------- ------KN 
+GSAB_LISIN ---------- -------G-K LV-------- -----QGK 
+GSA_METKA  ---------- -------D-R L--------- ------TG 
+GSA_METJA  ---------- -------E-G ---------- ------LE 
+GSA_METAC  ---------- ---------- ---------- -------L 
+GSA_AERPE  ---------- -------K-T V--------- -----LGS 
+GSA_PYRAE  ---------- -------Q-E LQ-------- ----REIG 
+GSA_HALN1  ---------- ---------- ---------- -------L 
+1ohv_A     ---------- -------A-- ---------- ------DF 
+1b5o_A     ---------- -------A-R ---------- ------VL 
+1b8g_A     ---------- -------KAF ---------- ------VG 
+1fg3_A     ---------- -------RAE ---------- ------QV 
+1lc5_A     ---------- -------R-N ---------- ------VL 
+1jg8_A     ---------- -------R-K ---------- ------FS 
+1ax4_A     GLEFEYEPPV LRHFTARL-K ---------- ------PI 
+1ajs_A     ---------- -------T-K ---------- ------IQ 
+1d2f_A     ---------- -------R-A ---------- ------VR 
+

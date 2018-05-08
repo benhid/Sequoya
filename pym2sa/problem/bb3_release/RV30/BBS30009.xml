@@ -1,0 +1,464 @@
+<?xml version="1.0"?>
+<!DOCTYPE macsim SYSTEM "http://www-bio3d-igbmc.u-strasbg.fr/macsim.dtd">
+<macsim>
+<alignment>
+<aln-name>ref3/test/1idy_ref3_truncated</aln-name>
+<sequence seq-type="Protein">
+<seq-name>1hst_A</seq-name>
+<seq-info>
+<accession>1hst_A</accession>
+<nid>1hst_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>shptysemiaaairaeksrgg-ssrqsiqkyikshykv---ghnadlqiklsirr-llaagvlkqtkgvgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H5A_XENLA</seq-name>
+<seq-info>
+<accession>P22844</accession>
+<nid>H5A_XENLA</nid>
+<definition>Histone H5A (XLH5A) (H1D) (H1-SA).</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dhpkysdmilaavqaeksrsg-ssrqsiqkyiknhykv---genadsqiklsikr-lvtsgalkqtkgvgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1D_STRPU</seq-name>
+<seq-info>
+<accession>P15870</accession>
+<nid>H1D_STRPU</nid>
+<definition>Histone H1-delta.</definition>
+<organism>Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>shpkysdmiasaleslkekkg-ssrqailkyvkanftv---gdnanvhikqalkr-gvtsgqlrhvkgsgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_TIGCA</seq-name>
+<seq-info>
+<accession>P35060</accession>
+<nid>H1_TIGCA</nid>
+<definition>Histone H1.</definition>
+<organism>Tigriopus californicus (Marine copepod).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>thpptsvmvmaaikalkerng-sslpaikkyiaanykv--dvvknahfikkalks-lvekkklvqtkgagasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_DROHY</seq-name>
+<seq-info>
+<accession>P17268</accession>
+<nid>H1_DROHY</nid>
+<definition>Histone H1.</definition>
+<organism>Drosophila hydei (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>thpptqqmvdasiqnlkergg-ssllaikkyisatykc--daqklapfikkylkn-svangkliqtkgkgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_DROVI</seq-name>
+<seq-info>
+<accession>Q24704</accession>
+<nid>H11_DROVI</nid>
+<definition>Histone H1.1.</definition>
+<organism>Drosophila virilis (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>shpptqqmvdasiknlkergg-ssllaikkyigatykc--daqklapfikkylkn-avangnviqtkgkgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_DROME</seq-name>
+<seq-info>
+<accession>P02255</accession>
+<nid>H1_DROME</nid>
+<definition>Histone H1.</definition>
+<organism>Drosophila melanogaster (Fruit fly).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>shpptqqmvdasiknlkergg-ssllaikkyitatykc--daqklapfikkylks-avvngkliqtkgkgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1G_STRPU</seq-name>
+<seq-info>
+<accession>P07796</accession>
+<nid>H1G_STRPU</nid>
+<definition>Histone H1-gamma, late.</definition>
+<organism>Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ahppssqmvvaavtalkergg-sstqaikkyiaanytv--dmtkqgpfirralvk-gvasgalvqtkgkgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1B_STRPU</seq-name>
+<seq-info>
+<accession>P15869</accession>
+<nid>H1B_STRPU</nid>
+<definition>Histone H1-beta, late embryonic.</definition>
+<organism>Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ahpsssemvlaaitalkergg-ssaqairkyieknytv--dikkqaifikralit-gvekgtlvqvkgkgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1E_CHIPA</seq-name>
+<seq-info>
+<accession>P40262</accession>
+<nid>H1E_CHIPA</nid>
+<definition>Histone H1E.</definition>
+<organism>Chironomus pallidivittatus (Midge).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>thppvsemvvnaittlkergg-ssliaikkfvaaqykv--dveklvpfikkflka-svakgtllqakgkgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H12_GLYBA</seq-name>
+<seq-info>
+<accession>P40264</accession>
+<nid>H12_GLYBA</nid>
+<definition>Histone H1-II.</definition>
+<organism>Glyptotendipes barbipes.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>thppvsemvvnaiktlkergg-sslqaikkflvaqykv--dveklapfikkylkggavvkgellqtkgkgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_GLYBA</seq-name>
+<seq-info>
+<accession>P40263</accession>
+<nid>H11_GLYBA</nid>
+<definition>Histone H1-I.</definition>
+<organism>Glyptotendipes barbipes.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>thppvsemvvnalktlnekgg-ssviaikkflvatykv--eiekllpfikkflkg-avlkgevlqvkgtgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1A_PLADU</seq-name>
+<seq-info>
+<accession>P06894</accession>
+<nid>H1A_PLADU</nid>
+<definition>Histone H1A, sperm.</definition>
+<organism>Platynereis dumerilii (Dumeril's clam worm).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ahppvatmvvtailglkerkg-ssmvaikkyiaanyrv--dvarlapfirkfir------kavkqtkgtgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1E_STRPU</seq-name>
+<seq-info>
+<accession>P19375</accession>
+<nid>H1E_STRPU</nid>
+<definition>Histone H1, early embryonic.</definition>
+<organism>Strongylocentrotus purpuratus (Purple sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ahppaaemvataitelkdrng-sslqaikkyiatnfdv--qmdrqllfikralks-gvekgklvqtkgkgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_PARAN</seq-name>
+<seq-info>
+<accession>P02256</accession>
+<nid>H1_PARAN</nid>
+<definition>Histone H1, gonadal.</definition>
+<organism>Parechinus angulosus (Angulate sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>thppvlemvqaaitamkerkg-ssaakiksymaanyrv--dmnvlaphvrralrn-gvasgalkqvtgtgasgr
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_ECHCR</seq-name>
+<seq-info>
+<accession>P02257</accession>
+<nid>H1_ECHCR</nid>
+<definition>Histone H1, gonadal (Fragment).</definition>
+<organism>Echinolampas crassa (Sea urchin).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ahppvidmitaaiaaqkerrg-ssvakiqsyiaakyrc--dinalnphirralkn-qvksgalkqvsgvgatgr
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H12_CAEEL</seq-name>
+<seq-info>
+<accession>P15796</accession>
+<nid>H12_CAEEL</nid>
+<definition>Histone H1.2.</definition>
+<organism>Caenorhabditis elegans.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ahppfinmikeaikqlkerkg-sskiailkyitanykvgdqltrinsrlraalnk-gvaskalvqsvgngasgr
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_CAEEL</seq-name>
+<seq-info>
+<accession>P10771</accession>
+<nid>H11_CAEEL</nid>
+<definition>Histone H1.1.</definition>
+<organism>Caenorhabditis elegans.Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>ahppyintikeaikqlkdrkg-askqailkfisqnyklgdnviqinahhrqalkr-gvtskalvqargsgangr
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_BOVIN</seq-name>
+<seq-info>
+<accession>P02253</accession>
+<nid>H11_BOVIN</nid>
+<definition>Histone H1.1 (Fragment).</definition>
+<organism>Bos taurus (Bovine).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>sgppvselitkavaaskersg-vslaalkkalaaagy---dveknnsriklglks-lvskgtlvqtkgtgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_MOUSE</seq-name>
+<seq-info>
+<accession>P43275</accession>
+<nid>H11_MOUSE</nid>
+<definition>Histone H1.1 (H1 VAR.3) (H1a).</definition>
+<organism>Mus musculus (Mouse).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>agpsvselivqavssskersg-vslaalkkslaaagy---dveknnsriklglks-lvnkgtlvqtkgtgaags
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H11_HUMAN</seq-name>
+<seq-info>
+<accession>Q02539</accession>
+<nid>H11_HUMAN</nid>
+<definition>Histone H1.1.</definition>
+<organism>Homo sapiens (Human).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>agpsvselivqaassskergg-vslaalkkalaaagy---dveknnsriklgiks-lvskgtlvqtkgtgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H101_CHICK</seq-name>
+<seq-info>
+<accession>P08284</accession>
+<nid>H101_CHICK</nid>
+<definition>Histone H1.01.</definition>
+<organism>Gallus gallus (Chicken).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>agpsvtelitkavsaskerkg-lslaalkkalaaggy---dveknnsriklglks-lvskgtlvqtkgtgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1_ONCMY</seq-name>
+<seq-info>
+<accession>P06350</accession>
+<nid>H1_ONCMY</nid>
+<definition>Histone H1 [Contains: Oncorhyncin II].</definition>
+<organism>Oncorhynchus mykiss (Rainbow trout) (Salmo gairdneri).Eukary</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>agpsvgelivkavsaskersg-vslaalkkslaaggy---dveknnsrvkiavks-lvtkgtlvqtkgtgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1B_XENLA</seq-name>
+<seq-info>
+<accession>P06893</accession>
+<nid>H1B_XENLA</nid>
+<definition>Histone H1B.</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>sgpsaselivkavssskersg-vslaalkkalaaggy---dvdknnsrlklalka-lvtkgtltqvkgsgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>H1A_XENLA</seq-name>
+<seq-info>
+<accession>P06892</accession>
+<nid>H1A_XENLA</nid>
+<definition>Histone H1A.</definition>
+<organism>Xenopus laevis (African clawed frog).Eukaryota;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>sgpsvseqivtavsaskersg-vslaalkktlaaggy---dvdknnsrlklalk---vtketllqvkgsgasgs
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1aoy_</seq-name>
+<seq-info>
+<accession>1aoy_</accession>
+<nid>1aoy_</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>rssakqeelvkafkallkeekfssqgeivaalqeqgf---dninqskvsrmltkf-gavrtrnakmemvyclpa
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ARGR_HAEIN</seq-name>
+<seq-info>
+<accession>P45110</accession>
+<nid>ARGR_HAEIN</nid>
+<definition>Arginine repressor.</definition>
+<organism>Haemophilus influenzae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>----mtenltrafkellnqerfgsqseivdalkkqgf---tginqskisrmlskf-gavrtrntkmemvyclpn
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ARGR_PASMU</seq-name>
+<seq-info>
+<accession>P57850</accession>
+<nid>ARGR_PASMU</nid>
+<definition>Arginine repressor.</definition>
+<organism>Pasteurella multocida.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>mnyekqdnllnafkellaqerfgsqseivqalqelgf---tqinqskvsrmltkf-gavrtrntrmemvyclpn
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>ARGR_SHEON</seq-name>
+<seq-info>
+<accession>Q8EIR6</accession>
+<nid>ARGR_SHEON</nid>
+<definition>Arginine repressor.</definition>
+<organism>Shewanella oneidensis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>qttknqddlvrifkailkeerfgsqseivtalqaegf---tninqskvsrmlskf-gavrtrnakqemvyclpa
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>1jhg_A</seq-name>
+<seq-info>
+<accession>1jhg_A</accession>
+<nid>1jhg_A</nid>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>derealgtrvriieellrge--msqrelknelg---------agiatitrgsnsl-kaapvelrqwleevllks
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_YERPE</seq-name>
+<seq-info>
+<accession>P58700</accession>
+<nid>TRPR_YERPE</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Yersinia pestis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>dertalgtrvriieelmrge--lsqrelksqlg---------agiatitrgsnsl-ktappqlkswleaqllan
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_VIBPA</seq-name>
+<seq-info>
+<accession>Q87S71</accession>
+<nid>TRPR_VIBPA</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Vibrio parahaemolyticus.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>deresltarvnilnellkge--lsqrqisqmlg---------vgiatitrgsnel-kskseaekdklk-llleq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_VIBVU</seq-name>
+<seq-info>
+<accession>Q8DEU5</accession>
+<nid>TRPR_VIBVU</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Vibrio vulnificus.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>derealvsrvnivrellkge--lsqrqisqmlg---------vgiatitrgsnel-klksdedkarln-qlleg
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_VIBCH</seq-name>
+<seq-info>
+<accession>Q9KU28</accession>
+<nid>TRPR_VIBCH</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Vibrio cholerae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>derealvarvnivhellqge--lsqrqisqmlg---------vgiatitrgsnel-ksrsedekaala-qllmp
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_CHLTR</seq-name>
+<seq-info>
+<accession>O84171</accession>
+<nid>TRPR_CHLTR</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Chlamydia trachomatis.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>serkdvasryhiirallege--ltqreiaekyg---------vsiaqitrgsnal-kgldpqfkeflqkei---
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_CHLCV</seq-name>
+<seq-info>
+<accession>Q822W7</accession>
+<nid>TRPR_CHLCV</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Chlamydophila caviae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>geresmasrflivqallaeq--ltqreiaqkyg---------vsiaqitrgsnal-kaidpkfkeflk-nlnrk
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_PASMU</seq-name>
+<seq-info>
+<accession>Q9CNU9</accession>
+<nid>TRPR_PASMU</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Pasteurella multocida.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>derdsvglrlqivaqlldks--vpqreiqqnln---------tsaatitrgsnmi-ktmppefmawvkeqldeq
+</seq-data></sequence>
+<sequence seq-type="Protein">
+<seq-name>TRPR_HAEIN</seq-name>
+<seq-info>
+<accession>P44889</accession>
+<nid>TRPR_HAEIN</nid>
+<definition>Trp operon repressor homolog.</definition>
+<organism>Haemophilus influenzae.Bacteria;</organism>
+<ec>0.0.0.0</ec>
+<group>0</group>
+</seq-info>
+<seq-data>derdavglrlqivsqlidkn--mpqreiqqnln---------tsaatitrgsnmi-ktmdpdfmqwmkqhldli
+</seq-data></sequence>
+<column-score>
+<colsco-name>coreblock</colsco-name>
+<colsco-owner>0</colsco-owner>
+<colsco-type>int</colsco-type>
+<colsco-data>
+0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </colsco-data>
+</column-score>
+</alignment>
+</macsim>
