@@ -10,41 +10,33 @@ from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 from pym2sa.core.problem import MSAProblem
 from pym2sa.core.solution import MSASolution
 from pym2sa.operators.crossover import GapSequenceSolutionSinglePoint
+from pym2sa.problem.BalibaseMSA import BalisebaseMSA
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 BASE_PATH = dirname(join(dirname(__file__)))
-ALIGNED_SEQUENCES_PATH = '/problem/aligned'
-DATA_FILES = ['tfa_clu', 'tfa_muscle', 'tfa_kalign', 'tfa_retalign',
-              'fasta_aln', 'tfa_probcons', 'tfa_mafft', 'tfa_fsa']
+ALIGNED_SEQUENCES_PATH = '/problem/dummy'
+DATA_FILES = ['aln']
 
 
-class BalisebaseMSA(MSAProblem):
+class DummyMSA(BalisebaseMSA):
 
     def __init__(self, instance: str, number_of_variables: int) -> None:
-        super(BalisebaseMSA, self).__init__()
-        self.problem_name = instance
-        self.number_of_objectives = 2
-        self.number_of_variables = number_of_variables
-        self.number_of_constraints = 0
-
-    def evaluate(self, solution: MSASolution):
-        solution.objectives[0] = PercentageOfTotallyConservedColumns().compute(solution.decode_alignment())
-        solution.objectives[1] = -1.0 * SumOfPairs().compute(solution.decode_alignment())
+        super().__init__(instance, number_of_variables)
+        self.instance = instance
 
     def create_solutions(self, population_size: int) -> List[MSASolution]:
         population = []
 
-        r_v_file = '/RV' + self.problem_name[2:4] + '/'
-        computed_path = BASE_PATH + ALIGNED_SEQUENCES_PATH + r_v_file
+        computed_path = BASE_PATH + ALIGNED_SEQUENCES_PATH + '/' + self.instance
         logger.info('Reading path ' + computed_path)
 
         try:
             for file in listdir(computed_path):
-                if file.split('.')[0] == self.problem_name and file.split('.')[1] in DATA_FILES:
-                    logger.info('Reading file ' + r_v_file + file)
-                    fasta_file = read_fasta_file_as_list_of_pairs(file, computed_path)
+                if file.split('.')[1] in DATA_FILES:
+                    logger.info('Reading file ' + file)
+                    fasta_file = read_fasta_file_as_list_of_pairs(file, computed_path + '/')
 
                     msa = MSASolution(aligned_sequences=fasta_file, number_of_objectives=2)
                     population.append(msa)
@@ -73,9 +65,3 @@ class BalisebaseMSA(MSAProblem):
         logger.info('Population incremented to: {0}'.format(len(population)))
 
         return population
-
-    def create_solution(self) -> Exception:
-        raise NotImplemented
-
-    def get_name(self) -> str:
-        return "Multiple Sequence Alignment (MSA) BaliBASE problem"
