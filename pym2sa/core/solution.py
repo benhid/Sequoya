@@ -63,14 +63,23 @@ class MSASolution(Solution[str]):
 
             # for each gap on the gaps group
             for j in range(0, len(gaps_group) - 1, 2):
-                if gaps_group[i][j] == gaps_group[i][j + 1] or gaps_group[i][j] + 1 == gaps_group[i][j + 1]:
-                    gaps_group.remove(j)
-                    gaps_group.remove(j + 1)
+                if gaps_group[j] == gaps_group[j + 1] or gaps_group[j] + 1 == gaps_group[j + 1]:
+                    gaps_group.pop(j)
+                    gaps_group.pop(j+1)
 
     def add_gap_to_sequence(self, seq_index: int, position: int):
         new_gaps_group = self.gaps_groups[seq_index]
 
-        if self.is_gap_char_at_sequence(seq_index, position):
+        if position == self.get_length_of_alignment():
+            if self.is_gap_char_at_sequence(seq_index, position - 1):
+                new_gaps_group[position - 1] += 1
+            else:
+                new_gaps_group.append(position)
+                new_gaps_group.append(position)
+        elif position >= self.get_length_of_alignment():
+            new_gaps_group.append(self.get_length_of_alignment())
+            new_gaps_group.append(self.get_length_of_alignment())
+        elif self.is_gap_char_at_sequence(seq_index, position):
             # increments gaps group size
             gap_added = False
             for j in range(0, len(new_gaps_group) - 1, 2):
@@ -241,7 +250,7 @@ class MSASolution(Solution[str]):
             symbol_position = -1
         else:
             found = False
-            while symbol_position < self.get_length_of_sequence(seq_index) and not found:
+            while symbol_position < self.get_length_of_alignment() and not found:
                 if self.is_gap_char_at_sequence(seq_index, symbol_position):
                     symbol_position += 1
                 else:
@@ -336,8 +345,9 @@ class MSASolution(Solution[str]):
         return len(self.variables[seq_index]) + self.get_length_of_gaps(seq_index)
 
     def is_valid(self) -> bool:
-        # Check if all sequences have the same length
+        """ Check if all sequences have the same length """
         if not all(self.get_length_of_sequence(seq_index) == self.get_length_of_sequence(0)
                    for seq_index in range(1, self.number_of_variables)):
+            print([self.get_length_of_sequence(seq_index) for seq_index in range(1, self.number_of_variables)])
             return False
         return True

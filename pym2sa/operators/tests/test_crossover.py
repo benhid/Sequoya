@@ -18,7 +18,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
                             number_of_objectives=3)
         msa_2 = MSASolution(aligned_sequences=[('seq1', 'CT-G'), ('seq2', '-T-G'), ('seq3', '-ATG')],
                             number_of_objectives=3)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = GapSequenceSolutionSinglePoint(probability=0.0, remove_gap_columns=False)
 
         # run
         offspring = crossover.execute([msa_1, msa_2])
@@ -169,8 +169,9 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         self.assertEqual(["GKGD-PKK",  "--M--QDR"], children[1].decode_alignment())
 
     @mock.patch('random.randint')
-    def test_should_single_point_crossover_work_properly_case_e(self, random_call):
-        """ GKGD---PK|KP, GKGD-PK|KP   => GKGD---PK-KP, GKGD-PK--KP
+    def test_should_single_point_crossover_work_properly_case_g(self, random_call):
+        """ Example of MSA in Ortuño's paper
+            GKGD---PK|KP, GKGD-PK|KP   => GKGD---PK-KP, GKGD-PK--KP
             M------QD|RV, --M--QD|RV   => M------QD-RV, --M--QD--RV
             MKKLKKHPD|FP, MKKLKKHPD|FP => MKKLKKHPD-FP, MKKLKKHPDFP
             M--------|HI, ---M--H|I-   => M--------HI-, ---M--H---I """
@@ -192,6 +193,145 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         # check
         self.assertEqual(["GKGD---PK-KP", "M------QD-RV", "MKKLKKHPD-FP", "M--------HI-"], children[0].decode_alignment())
         self.assertEqual(["GKGD-PK--KP", "--M--QD--RV", "MKKLKKHPDFP", "---M--H---I"], children[1].decode_alignment())
+
+    @mock.patch('random.randint')
+    def test_should_single_point_crossover_work_properly_case_f(self, random_call):
+        """ GKGD---P|KK, GKGD-P|KK   => GKGD---PKK, GKGD-P-KK
+            M------Q|DR-, --M--Q|DR  => M------QDR, --M--QDR- """
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('seq1', 'GKGD---PKK'),
+                                               ('seq2', 'M------QDR-')], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('seq1', 'GKGD-PKK'),
+                                               ('seq2', '--M--QDR')], number_of_objectives=2)
+        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_call.return_value = 7
+        children = crossover.execute([msa_1, msa_2])
+
+        # check
+        self.assertEqual(["GKGD---PKK", "M------QDR"], children[0].decode_alignment())
+        self.assertEqual(["GKGD-P-KK", "--M--QDR-"], children[1].decode_alignment())
+
+    @mock.patch('random.randint')
+    def test_should_single_point_crossover_work_properly_case_h(self, random_call):
+        """ MSA with no crossover in the first sequence
+            -----------|-M, --M|------  =>  ------------M------, --M """
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('seq1', '------------M')], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('seq1', '--M------')], number_of_objectives=2)
+        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_call.return_value = 10
+        children = crossover.execute([msa_1, msa_2])
+
+        # check
+        self.assertEqual(["------------M------"], children[0].decode_alignment())
+        self.assertEqual(["--M"], children[1].decode_alignment())
+
+    @mock.patch('random.randint')
+    def test_should_single_point_crossover_work_properly_case_i(self, random_call):
+        """ MSA with no crossover in the first sequence
+            GKGD---PKKP|--, GKGD-PKKP|  =>  GKGD---PKKP--------, GKGD-PKKP--
+            -----------|-M, --M|------  =>  ------------M------, --M-------- """
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('seq1', 'GKGD---PKKP--'),
+                                               ('seq2', '------------M')], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('seq1', 'GKGD-PKKP'),
+                                               ('seq2', '--M------')], number_of_objectives=2)
+        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_call.return_value = 10
+        children = crossover.execute([msa_1, msa_2])
+
+        # check
+        self.assertEqual(["GKGD---PKKP--------", "------------M------"], children[0].decode_alignment())
+        self.assertEqual(19, children[0].get_length_of_alignment())
+        self.assertEqual(["GKGD-PKKP--", "--M--------"], children[1].decode_alignment())
+        self.assertEqual(11, children[1].get_length_of_alignment())
+
+    @mock.patch('random.randint')
+    def test_should_single_point_crossover_work_properly_real_case(self, random_call):
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('1bbt_ac', '------GIFPVACSDGYGGLVTTDPKTAD---PVYGKVFNPPRNQLPGRFTNLLDVAEACP--------TFLRFEGGVPYVTTKTDSDRVLAQFDMSL----AAKHMSNTFLAG---------------------LAQYYTQYSGT-----INLHFMFTGPTDAKA-------RYMVAY----APPGMEPPKTPEAAAH---------------CIHAEWDTGLNSKF---------TFSIPYLSAADYT----YTASDVAETTNV--------QGWVCLFQ--------ITHGKADG-------DALVVLASAGKDF-----------------------ELRLPVDARAE----'),
+                                               ('1al2_ad', '-------GLPVMNTPGSNQYLTADNFQSP---CALPEFDVTPPIDIPGEVKNMMELAEIDTMIPFDL--SATKKNTMEMYRVRLSDKPHTDDPILCLSLSPASDPRLSHTMLGE---------------------ILNYYTHWAGS-----LKFTFLFCGSMMATG-------KLLVSY----APPGADPPKKRKEAML---------------GTHVIWDIGLQSSC---------TMVVPWISNTT------YRQTIDDSFTE---------GGYISVFYQTRIV---VPLSTPRE-------MDILGFVSACNDF-----------------------SVRLLRDTTHIEQKA'),
+                                               ('1b35_C',  'SKPTVQGKIGECKLRGQGRMANFDGMDMSHKMALSSTNEIETNEGLAGTSLDVMDLSRVLSIPNYWDRFTWKTSDVINTVLWDNYVSPFKVKPYSATI-----TDRFRCTHMGK---------------------VANAFTYWRGS-----MVYTFKFVKTQYHSG---RLRISFIPYYYNTTISTGTPDVSRTQKI---------------------VVDLRTSTAV---------SFTVPYIGSRPWLYCIRPESSWLSKDNTDGALMYNCVSGIVRVEVLNQLVAAQNVFSEIDVICEVNGGPDLEFAGPTCPRY----------VPYAGDFTLADTRKIEAERTQEYSNNED'),
+                                               ('1bbt_ab', '-------LLEDRILTTRNGHTTSTTQSS----VGVTYGYATAEDFVSGPNTSGLETRVV----------QAERFFKTHLFDWVTSDSFGRCHLLELPT---------DHKGVYGS--------------------LTDSYAYMRNG-----WDVEVTAVGNQFNGG-------CLLVAM----VPELCSIQKRELYQLT--------------LFPHQFINPRTNMTA---------HITVPFVGVNR------YDQYKVHKP-----------WTLVVMVVAPLTV---NTEGAPQI-------KVYANIAPTNVHV-----------------------AGEFPSKE-------'),
+                                               ('1mec_aa', '------------------GVENAEKGVTEN--TDATADFVAQPVYLPENQTKVAFFYDRSSPIGRFAVKSGSLESGFAPFSNKACPNSVILTPGPQFDPAYDQLRPQRLTEIWGNGNEETSEVFPLKTKQDYSFCLFSPFVYYKCD-----LEVTLSPHTSGAHGL---------LVRW----CPTGTPTKPTTQVLHEVSSLSEGRT------PQVYSAGPGTSNQI---------SFVVPYNSPLSVLPAVWYNGHKRFDNTGD--------LGIAPNSDFGTLF---FAGTKPDI-------KFTVYLRYKNMRVFCPRP--TVFFPWPT----SGDKIDMTPRAGVL-----'),
+                                               ('1bbt_aa', '---------------------TTSAGESADPVTTTVENYGGETQIQRRQHTDVSFI--------------------MDRFVKVTPQNQINILDLMQVP---------SHTLVGG---------------------LLRASTYYFSD-----LEIAVK------HEG---------DLTW----VPNGAPEK---------------------------ALDNTTNPTAYHKAPLT--RLALPYTAPHRVLATV-YNGECRTLPTSFN-------YGAIKATRVTELL---YRMKRAETYCP----RPLLAIHPTEARH---------------------KQKIVAP----------'),
+                                               ('1al2_ab', '------AATSRDALPNTEASGPTHSKEIP---ALTAVETGATNPLVPSDTVQTRHVVQH----------RSRSESSIESFFARGACVTIMTVDNPAST-----TNKDKLFAVWKITYKDTVQLRR----------KLEFFTYSRFD-----MELTFVVTANFTETNNGHALNQVYQIMY----IPPGAPVP----EKWD-----------------DYTWQTSSNPSIFYTYGTAPARISVPYVGISN-AYSHFYDGFSKVPLKDQSAALGDSLYGAASLNDFGILAVRVVNDHNPTKVT----SKIRVYLKPKHIRVWCPRPPRAVAYYGPGVDYKDGTLTPLSTKDLTTY----'),
+                                               ('1al2_ac', '----EACGYSDRVLQLTLGNSTITTQEA----ANSVVAYGRWPEYLRDSEANPVDQPTEPDV-------AACRFYTLDTVSWTKESRGWWWKLPDALRDMGLFGQNMYYHYLGRSGYTVHVQCNASKFHQGALGVFAVPEMCLAGDSNTTTMHTSYQNANPGEKGG-------TFTGTF----TPDNNQTSPARRFCPVDYLLGNGTLLGNAFVFPHQIINLRTNNCA---------TLVLPYVNSLS------IDSMVKHNN-----------WGIAILPLAPLNF---ASESSPEI-------PITLTIAPMCCEF-------------------NGLRNITLPRLQ-------'),
+                                               ], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('1bbt_ac', '------GIFPVACSDGYGGLVTTDPKTAD---PVYGKVFNPPRNQLPGRFTNLLDVAEACP--------TFLRFEGGVPYVTTKTDSDRVLAQFDMSL----AAKHMSNTFLAG---------------------LAQYYTQYSGT-----INLHFMFTGPTDAKA-------RYMVAY----APPGMEPPKTPEAAAH---------------CIHAEWDTGLNSKF---------TFSIPYLSAADYT----YTASDVAETTNV--------QGWVCLFQ--------ITHGKADG-------DALVVLASAGKDF-----------------------ELRLPVDARAE----'),
+                                               ('1al2_ad', '-------GLPVMNTPGSNQYLTADNFQSP---CALPEFDVTPPIDIPGEVKNMMELAEIDTMIPFDL--SATKKNTMEMYRVRLSDKPHTDDPILCLSLSPASDPRLSHTMLGE---------------------ILNYYTHWAGS-----LKFTFLFCGSMMATG-------KLLVSY----APPGADPPKKRKEAML---------------GTHVIWDIGLQSSC---------TMVVPWISNTT------YRQTIDDSFTE---------GGYISVFYQTRIV---VPLSTPRE-------MDILGFVSACNDF-----------------------SVRLLRDTTHIEQKA'),
+                                               ('1b35_C',  'SKPTVQGKIGECKLRGQGRMANFDGMDMSHKMALSSTNEIETNEGLAGTSLDVMDLSRVLSIPNYWDRFTWKTSDVINTVLWDNYVSPFKVKPYSATI-----TDRFRCTHMGK---------------------VANAFTYWRGS-----MVYTFKFVKTQYHSG---RLRISFIPYYYNTTISTGTPDVSRTQKI---------------------VVDLRTSTAV---------SFTVPYIGSRPWLYCIRPESSWLSKDNTDGALMYNCVSGIVRVEVLNQLVAAQNVFSEIDVICEVNGGPDLEFAGPTCPRY----------VPYAGDFTLADTRKIEAERTQEYSNNED'),
+                                               ('1bbt_ab', '-------LLEDRILTTRNGHTTSTTQSS----VGVTYGYATAEDFVSGPNTSGLETRVV----------QAERFFKTHLFDWVTSDSFGRCHLLELPT---------DHKGVYGS--------------------LTDSYAYMRNG-----WDVEVTAVGNQFNGG-------CLLVAM----VPELCSIQKRELYQLT--------------LFPHQFINPRTNMTA---------HITVPFVGVNR------YDQYKVHKP-----------WTLVVMVVAPLTV---NTEGAPQI-------KVYANIAPTNVHV-----------------------AGEFPSKE-------'),
+                                               ('1mec_aa', '------------------GVENAEKGVTEN--TDATADFVAQPVYLPENQTKVAFFYDRSSPIGRFAVKSGSLESGFAPFSNKACPNSVILTPGPQFDPAYDQLRPQRLTEIWGNGNEETSEVFPLKTKQDYSFCLFSPFVYYKCD-----LEVTLSPHTSGAHGL---------LVRW----CPTGTPTKPTTQVLHEVSSLSEGRT------PQVYSAGPGTSNQI---------SFVVPYNSPLSVLPAVWYNGHKRFDNTGD--------LGIAPNSDFGTLF---FAGTKPDI-------KFTVYLRYKNMRVFCPRP--TVFFPWPT----SGDKIDMTPRAGVL-----'),
+                                               ('1bbt_aa', '---------------------TTSAGESADPVTTTVENYGGETQIQRRQHTDVSFI--------------------MDRFVKVTPQNQINILDLMQVP---------SHTLVGG---------------------LLRASTYYFSD-----LEIAVK------HEG---------DLTW----VPNGAPEK---------------------------ALDNTTNPTAYHKAPLT--RLALPYTAPHRVLATV-YNGECRTLPTSFN-------YGAIKATRVTELL---YRMKRAETYCP----RPLLAIHPTEARH---------------------KQKIVAP----------'),
+                                               ('1al2_ab', '------AATSRDALPNTEASGPTHSKEIP---ALTAVETGATNPLVPSDTVQTRHVVQH----------RSRSESSIESFFARGACVTIMTVDNPAST-----TNKDKLFAVWKITYKDTVQLRR----------KLEFFTYSRFD-----MELTFVVTANFTETNNGHALNQVYQIMY----IPPGAPVP----EKWD-----------------DYTWQTSSNPSIFYTYGTAPARISVPYVGISN-AYSHFYDGFSKVPLKDQSAALGDSLYGAASLNDFGILAVRVVNDHNPTKVT----SKIRVYLKPKHIRVWCPRPPRAVAYYGPGVDYKDGTLTPLSTKDLTTY----'),
+                                               ('1al2_ac', '----EACGYSDRVLQLTLGNSTITTQEA----ANSVVAYGRWPEYLRDSEANPVDQPTEPDV-------AACRFYTLDTVSWTKESRGWWWKLPDALRDMGLFGQNMYYHYLGRSGYTVHVQCNASKFHQGALGVFAVPEMCLAGDSNTTTMHTSYQNANPGEKGG-------TFTGTF----TPDNNQTSPARRFCPVDYLLGNGTLLGNAFVFPHQIINLRTNNCA---------TLVLPYVNSLS------IDSMVKHNN-----------WGIAILPLAPLNF---ASESSPEI-------PITLTIAPMCCEF-------------------NGLRNITLPRLQ-------'),
+                                               ], number_of_objectives=2)
+        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_call.return_value = 176
+        children = crossover.execute([msa_1, msa_2])
+
+        # check
+        self.assertTrue(children[0].is_valid())
+        self.assertTrue(children[1].is_valid())
+
+    def test_should_single_point_crossover_work_properly_dummy_case(self):
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('a', '----GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKGKFEDMAKADKARYEREMKTYIPPK----------GE'),
+                                               ('b', '-------MQDRVKRPMNAFIVWSRDQRRKMALENPRMRN--SEISKQLGYQWKMLTEAEKWPFFQEAQKLQAMHREKYPNYKYRP---RRKAKMLPK'),
+                                               ('c', 'MKKLK---KHPDFPKKPLTPYFRFFMEKRAKYAKLHPEMSNLDLTKILSKKYKELPEKKKMKYIQDFQREKQEFERNLARFREDH---PDLIQNAKK'),
+                                               ('d', '---------MHIKKPLNAFMLYMKEMRANVVAESTLKES--AAINQILGRRWHALSREEQAKYYELARKERQLHMQLYPGWSARDNYGKKKKRKREK')
+                                               ], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('a', '----GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKGKFEDMAKADKARYEREMKTYIPPK---GE-------'),
+                                               ('b', '----M---QDRVKRPMNAFIVWSRDQRRKMALENPRMRN--SEISKQLGYQWKMLTEAEKWPFFQEAQKLQAMHREKYPNYKYRP---RRKAKMLPK'),
+                                               ('c', 'MKKLK-KHPDFPKKPLTPYFRFFMEKRAKYAKLHPEMSN--LDLTKILSKKYKELPEKKKMKYIQDFQREKQEFERNLARFREDH---PDLIQNAKK'),
+                                               ('d', '-------MH--IKKPLNAFMLYMKEMRANVVAESTLKES--AAINQILGRRWHALSREEQAKYYELARKERQLHMQLYPGWSARDNYGKKKKRKREK ')
+                                               ], number_of_objectives=2)
+        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+
+        # run
+        children = crossover.cross_parents(10, [msa_1, msa_2], [10, 10, 10, 10], [10, 10, 8, 8])
+
+        # check
+        self.assertTrue(children[0].is_valid())
+        self.assertTrue(children[1].is_valid())
+
+    def test_should_fill_sequences_with_gaps_to_reach_the_max_sequence_length(self):
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('a', '-----GE'), ('b', 'KWPFFQEAQK')], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('a', '-----GE'), ('b', 'KWPFFQEAQK')], number_of_objectives=2)
+        msa_3 = MSASolution(aligned_sequences=[('a', '-'), ('b', 'ABC')], number_of_objectives=2)
+
+        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+
+        # run
+        crossover.fill_sequences_with_gaps_to_reach_the_max_sequence_length(msa_1, 10, [-1, -1])
+        crossover.fill_sequences_with_gaps_to_reach_the_max_sequence_length(msa_2, 10, [-1, 5])
+        crossover.fill_sequences_with_gaps_to_reach_the_max_sequence_length(msa_3, 5, [-1, 1])
+
+        # check
+        self.assertEqual(["-----G---E", "KWPFFQEAQK"], msa_1.decode_alignment())
+        self.assertEqual(["-----G---E", "KWPFFQEAQK"], msa_2.decode_alignment())
+        self.assertEqual(["-----", "AB--C"], msa_3.decode_alignment())
+
+    def test_should_find_max_sequence_length(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('a', 'AAC'), ('b', 'AAAAAAAC'), ('c', 'C')], number_of_objectives=2)
+        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+
+        # run
+        max = crossover.find_length_of_the_largest_sequence(msa)
+
+        # check
+        self.assertEqual(8, max)
 
 
 if __name__ == "__main__":

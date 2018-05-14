@@ -77,16 +77,17 @@ class MSASolutionTestCases(unittest.TestCase):
         # check
         self.assertEqual(3, msa.get_number_of_gaps_of_sequence(0))
 
-    """
-    def test_should_return_is_valid(self):
+    def test_should_return_if_msa_is_valid(self):
         # setup
-        msa_valid = MSASolution(aligned_sequences=[('seq1', 'A'), ('seq2', 'A'), ('seq3', 'A')],
-                                number_of_objectives=2)
+        msa_valid = MSASolution(
+            aligned_sequences=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')],
+            number_of_objectives=2)
+        msa_not_valid = MSASolution(
+            aligned_sequences=[('seq1', 'A'), ('seq2', 'A'), ('seq3', 'AA')], number_of_objectives=2)
 
-        with self.assertRaises(Exception):
-            msa_not_valid = MSASolution(aligned_sequences=[('seq1', 'A'), ('seq2', 'A'), ('seq3', 'AA')],
-                                        number_of_objectives=2)
-    """
+        # check
+        self.assertTrue(msa_valid.is_valid())
+        self.assertFalse(msa_not_valid.is_valid())
 
     def test_should_return_alignment_as_list_of_pairs(self):
         # setup
@@ -283,13 +284,14 @@ class MSASolutionTestCases(unittest.TestCase):
         msa_4.add_gap_to_sequence(seq_index=0, position=1)
         msa_5.add_gap_to_sequence(seq_index=0, position=2)
         msa_5.add_gap_to_sequence(seq_index=0, position=5)
+        msa_5.add_gap_to_sequence(seq_index=0, position=50)
 
         # check
         self.assertEqual([('seq1', 'A--')], msa_1.decode_alignment_as_list_of_pairs())
         self.assertEqual([('seq1', '--A')], msa_2.decode_alignment_as_list_of_pairs())
         self.assertEqual([('seq1', 'A--C')], msa_3.decode_alignment_as_list_of_pairs())
         self.assertEqual([('seq1', 'A---C')], msa_4.decode_alignment_as_list_of_pairs())
-        self.assertEqual([('seq1', 'A---C--')], msa_5.decode_alignment_as_list_of_pairs())
+        self.assertEqual([('seq1', 'A---C---')], msa_5.decode_alignment_as_list_of_pairs())
 
     def test_should_create_new_gaps_group(self):
         # setup

@@ -8,8 +8,9 @@ from jmetal.component.observer import AlgorithmObserver
 
 from pym2sa.algorithm.multiobjective.nsgaii import NSGA2MSA
 from pym2sa.component.observer import SpyPopulation
-from pym2sa.problem.BalibaseMSA import BalisebaseMSA
 from pym2sa.core.solution import MSASolution
+from pym2sa.problem.BalibaseMSA import BalisebaseMSA
+from pym2sa.problem.DummyMSA import DummyMSA
 from pym2sa.operators.crossover import GapSequenceSolutionSinglePoint
 from pym2sa.operators.mutation import OneRandomGapInsertion, TwoRandomAdjacentGapGroup
 
@@ -18,7 +19,8 @@ logger = logging.getLogger(__name__)
 
 
 def main() -> None:
-    problem = BalisebaseMSA(instance='BB11006', number_of_variables=100)
+    # problem = BalisebaseMSA(instance='BB11006', number_of_variables=100)
+    problem = DummyMSA(instance='test', number_of_variables=100)
 
     algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
         problem=problem,
