@@ -19,15 +19,15 @@ logger = logging.getLogger(__name__)
 
 
 def main() -> None:
-    # problem = BalisebaseMSA(instance='BB11006', number_of_variables=100)
-    problem = DummyMSA(instance='test', number_of_variables=100)
+    problem = BalisebaseMSA(instance='BB11006', number_of_variables=100)
+    # problem = DummyMSA(instance='test', number_of_variables=100)
 
     algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
         problem=problem,
         population_size=100,
         max_evaluations=25000,
         mutation=TwoRandomAdjacentGapGroup(probability=0.2),
-        crossover=GapSequenceSolutionSinglePoint(probability=0.9),
+        crossover=GapSequenceSolutionSinglePoint(probability=0.9, remove_gap_columns=True),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()))
 
     algorithm.observable.register(observer=AlgorithmObserver(1*10e-3))
@@ -36,8 +36,6 @@ def main() -> None:
 
     result = algorithm.get_result()
     SolutionListOutput[MSASolution].plot_scatter_to_screen(result)
-
-    print(result[0].decode_alignment_as_list_of_pairs())
 
     logger.info("Algorithm: " + algorithm.get_name())
     logger.info("Problem: " + problem.get_name())

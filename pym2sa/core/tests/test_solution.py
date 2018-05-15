@@ -154,6 +154,36 @@ class MSASolutionTestCases(unittest.TestCase):
         # check
         self.assertEqual(['AC--TGAC', 'AC--TGAC', 'AC--TGAC'], msa.decode_alignment())
 
+    def test_should_remove_gap_case_b(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', 'AB--CD-E'), ('seq2', 'AB--CDE-')],
+                          number_of_objectives=2)
+
+        msa.remove_gap_from_sequence(0, 3)
+        self.assertEqual(['AB-CD-E', 'AB--CDE-'], msa.decode_alignment())
+
+        msa.remove_gap_from_sequence(0, 2)
+        self.assertEqual(['ABCD-E', 'AB--CDE-'], msa.decode_alignment())
+
+        msa.remove_gap_from_sequence(1, 3)
+        self.assertEqual(['ABCD-E', 'AB-CDE-'], msa.decode_alignment())
+
+        msa.remove_gap_from_sequence(1, 2)
+        self.assertEqual(['ABCD-E', 'ABCDE-'], msa.decode_alignment())
+
+    def test_should_remove_gap_case_c(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', 'AB----CD-E-')], number_of_objectives=2)
+
+        msa.remove_gap_from_sequence(0, 3)
+        self.assertEqual(['AB---CD-E-'], msa.decode_alignment())
+
+        msa.remove_gap_from_sequence(0, 3)
+        self.assertEqual(['AB--CD-E-'], msa.decode_alignment())
+
+        msa.remove_gap_from_sequence(0, 8)
+        self.assertEqual(['AB--CD-E'], msa.decode_alignment())
+
     def test_should_remove_all_gap_columns(self):
         # setup
         msa = MSASolution(aligned_sequences=[('seq1', 'AC---TGAC'), ('seq2', 'AC---TGAC'), ('seq3', 'AC---TGAC')],
@@ -183,6 +213,16 @@ class MSASolutionTestCases(unittest.TestCase):
 
         # check
         self.assertEqual(['--', '--', 'AA'], msa.decode_alignment())
+
+    def test_should_remove_all_gap_columns_case_d(self):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', 'AB--CDE-'), ('seq2', 'AB--CD-E')],
+                          number_of_objectives=2)
+
+        msa.remove_full_of_gaps_columns()
+
+        # check
+        self.assertEqual(['ABCDE-', 'ABCD-E'], msa.decode_alignment())
 
     def test_should_return_gap_columns(self):
         # setup

@@ -7,9 +7,9 @@ import random
 from pymsa.core.score import PercentageOfNonGaps, SumOfPairs, PercentageOfTotallyConservedColumns, Strike, Entropy
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
-from pym2sa.core.problem import MSAProblem
 from pym2sa.core.solution import MSASolution
 from pym2sa.operators.crossover import GapSequenceSolutionSinglePoint
+from pym2sa.problem.MSA import MSA
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -20,18 +20,14 @@ DATA_FILES = ['tfa_clu', 'tfa_muscle', 'tfa_kalign', 'tfa_retalign',
               'fasta_aln', 'tfa_probcons', 'tfa_mafft', 'tfa_fsa']
 
 
-class BalisebaseMSA(MSAProblem):
+class BalisebaseMSA(MSA):
 
     def __init__(self, instance: str, number_of_variables: int) -> None:
-        super(BalisebaseMSA, self).__init__()
+        super(BalisebaseMSA, self).__init__(number_of_variables)
         self.problem_name = instance
         self.number_of_objectives = 2
         self.number_of_variables = number_of_variables
         self.number_of_constraints = 0
-
-    def evaluate(self, solution: MSASolution):
-        solution.objectives[0] = PercentageOfTotallyConservedColumns().compute(solution.decode_alignment())
-        solution.objectives[1] = -1.0 * SumOfPairs().compute(solution.decode_alignment())
 
     def create_solutions(self, population_size: int) -> List[MSASolution]:
         population = []

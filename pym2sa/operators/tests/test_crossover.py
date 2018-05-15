@@ -108,16 +108,19 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         # setup
         msa_1 = MSASolution(aligned_sequences=[('seq1', 'AB--CD-E')], number_of_objectives=2)
         msa_2 = MSASolution(aligned_sequences=[('seq1', 'AB--CDE-')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=True)
+        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover_remove_full = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=True)
 
         # run
         random_call.return_value = 4
-        children = crossover.execute([msa_1, msa_2])
+        children_1 = crossover.execute([msa_1, msa_2])
+        children_2 = crossover_remove_full.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["ABCDE-"], children[0].decode_alignment())
-        self.assertEqual(["ABCD-E"], children[1].decode_alignment())
-
+        self.assertEqual(["AB--CDE-"], children_1[0].decode_alignment())
+        self.assertEqual(["AB--CD-E"], children_1[1].decode_alignment())
+        self.assertEqual(["ABCDE"], children_2[0].decode_alignment())
+        self.assertEqual(["ABCDE"], children_2[1].decode_alignment())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_case_b(self, random_call):

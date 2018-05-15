@@ -162,13 +162,20 @@ class MSASolution(Solution[str]):
         new_gaps_group = self.gaps_groups[seq_index]
 
         if self.is_gap_char_at_sequence(seq_index, position):
-            # decrements gaps group size
             for j in range(0, len(new_gaps_group) - 1, 2):
                 if new_gaps_group[j] == position or new_gaps_group[j + 1] == position:
-                    new_gaps_group[j + 1] -= 1
-                    break
+                    if new_gaps_group[j] == new_gaps_group[j + 1]:
+                        new_gaps_group[j + 2:] = [x - 1 for x in new_gaps_group[j + 2:]]
+                        del new_gaps_group[j]
+                        del new_gaps_group[j]
+                        break
+                    else:
+                        new_gaps_group[j + 1] -= 1
+                        new_gaps_group[j + 2:] = [x - 1 for x in new_gaps_group[j + 2:]]
+                        break
                 elif new_gaps_group[j] < position < new_gaps_group[j + 1]:
                     new_gaps_group[j + 1] -= 1
+                    new_gaps_group[j + 2:] = [x - 1 for x in new_gaps_group[j + 2:]]
                     break
 
         self.gaps_groups[seq_index] = new_gaps_group
@@ -348,6 +355,5 @@ class MSASolution(Solution[str]):
         """ Check if all sequences have the same length """
         if not all(self.get_length_of_sequence(seq_index) == self.get_length_of_sequence(0)
                    for seq_index in range(1, self.number_of_variables)):
-            print([self.get_length_of_sequence(seq_index) for seq_index in range(1, self.number_of_variables)])
             return False
         return True
