@@ -12,8 +12,8 @@ class MSA(MSAProblem):
         self.number_of_constraints = 0
 
     def evaluate(self, solution: MSASolution):
-        solution.objectives[0] = PercentageOfTotallyConservedColumns().compute(solution.decode_alignment())
-        solution.objectives[1] = -1.0 * SumOfPairs().compute(solution.decode_alignment())
+        solution.objectives[0] = -1.0 * SumOfPairs().compute(solution.decode_alignment())
+        solution.objectives[1] = PercentageOfTotallyConservedColumns().compute(solution.decode_alignment())
 
     def create_solution(self) -> None:
         raise Exception("Not able to create any solution to MSA!")

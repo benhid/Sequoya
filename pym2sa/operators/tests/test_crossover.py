@@ -2,7 +2,7 @@ import unittest
 from unittest import mock
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operators.crossover import GapSequenceSolutionSinglePoint
+from pym2sa.operators.crossover import SPXMSA
 
 
 class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
@@ -18,7 +18,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
                             number_of_objectives=3)
         msa_2 = MSASolution(aligned_sequences=[('seq1', 'CT-G'), ('seq2', '-T-G'), ('seq3', '-ATG')],
                             number_of_objectives=3)
-        crossover = GapSequenceSolutionSinglePoint(probability=0.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=0.0, remove_gap_columns=False)
 
         # run
         offspring = crossover.execute([msa_1, msa_2])
@@ -30,7 +30,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_find_the_cutting_points_in_the_first_parent_return_the_column_position_if_it_is_occupied_by_non_gap(self):
         # setup
         msa = MSASolution(aligned_sequences=[('seq1', 'BCDE'), ('seq2', 'ABCE')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         cutting_points = crossover.find_cutting_points_in_first_parent(msa, 1)
@@ -42,7 +42,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_find_the_cutting_points_in_the_first_parent_return_the_column_position_if_it_is_occupied_by_gap(self):
         # setup
         msa = MSASolution(aligned_sequences=[('seq1', 'BC-DE'), ('seq2', 'ABC-E')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         cutting_points = crossover.find_cutting_points_in_first_parent(msa, 2)
@@ -55,7 +55,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         # setup
         msa = MSASolution(aligned_sequences=[('seq1', 'BC-D-E--'),
                                              ('seq2', 'ABC-E---')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         cutting_points = crossover.find_cutting_points_in_first_parent(msa, 6)
@@ -66,7 +66,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_find_original_positions_in_solution_with_gaps(self):
         # setup
         msa = MSASolution(aligned_sequences=[('seq1', 'BC-D-E---'), ('seq2', '--C--E---')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         cutting_points = crossover.find_original_positions_in_original_sequences(msa, 5)
@@ -78,7 +78,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_find_original_positions_in_solution_with_no_gaps(self):
         # setup
         msa = MSASolution(aligned_sequences=[('seq1', 'ABCD'), ('seq2', 'DCBA')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         cutting_points = crossover.find_original_positions_in_original_sequences(msa, 2)
@@ -93,7 +93,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         # setup
         msa_1 = MSASolution(aligned_sequences=[('seq1', 'AB--CD-E')], number_of_objectives=2)
         msa_2 = MSASolution(aligned_sequences=[('seq1', 'AB--CDE-')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         random_call.return_value = 4
@@ -108,8 +108,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         # setup
         msa_1 = MSASolution(aligned_sequences=[('seq1', 'AB--CD-E')], number_of_objectives=2)
         msa_2 = MSASolution(aligned_sequences=[('seq1', 'AB--CDE-')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
-        crossover_remove_full = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=True)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
+        crossover_remove_full = SPXMSA(probability=1.0, remove_gap_columns=True)
 
         # run
         random_call.return_value = 4
@@ -128,7 +128,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         # setup
         msa_1 = MSASolution(aligned_sequences=[('seq1', 'A-BCD-E')], number_of_objectives=2)
         msa_2 = MSASolution(aligned_sequences=[('seq1', 'A-B-CDE-')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         random_call.return_value = 3
@@ -144,7 +144,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         # setup
         msa_1 = MSASolution(aligned_sequences=[('seq1', 'AB-CD-EF')], number_of_objectives=2)
         msa_2 = MSASolution(aligned_sequences=[('seq1', '---ABCD-EF')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         random_call.return_value = 0
@@ -161,7 +161,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         # setup
         msa_1 = MSASolution(aligned_sequences=[('seq1', 'GKGD---PKK'), ('seq2', 'M------QDR')], number_of_objectives=2)
         msa_2 = MSASolution(aligned_sequences=[('seq1', 'GKGD-PKK'),   ('seq1', '--M--QDR')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         random_call.return_value = 7
@@ -187,7 +187,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
                                                ('seq2', '--M--QDRV'),
                                                ('seq3', 'MKKLKKHPDFP'),
                                                ('seq4', '---M--HI-')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         random_call.return_value = 8
@@ -206,7 +206,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
                                                ('seq2', 'M------QDR-')], number_of_objectives=2)
         msa_2 = MSASolution(aligned_sequences=[('seq1', 'GKGD-PKK'),
                                                ('seq2', '--M--QDR')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         random_call.return_value = 7
@@ -223,7 +223,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         # setup
         msa_1 = MSASolution(aligned_sequences=[('seq1', '------------M')], number_of_objectives=2)
         msa_2 = MSASolution(aligned_sequences=[('seq1', '--M------')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         random_call.return_value = 10
@@ -243,7 +243,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
                                                ('seq2', '------------M')], number_of_objectives=2)
         msa_2 = MSASolution(aligned_sequences=[('seq1', 'GKGD-PKKP'),
                                                ('seq2', '--M------')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         random_call.return_value = 10
@@ -276,7 +276,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
                                                ('1al2_ab', '------AATSRDALPNTEASGPTHSKEIP---ALTAVETGATNPLVPSDTVQTRHVVQH----------RSRSESSIESFFARGACVTIMTVDNPAST-----TNKDKLFAVWKITYKDTVQLRR----------KLEFFTYSRFD-----MELTFVVTANFTETNNGHALNQVYQIMY----IPPGAPVP----EKWD-----------------DYTWQTSSNPSIFYTYGTAPARISVPYVGISN-AYSHFYDGFSKVPLKDQSAALGDSLYGAASLNDFGILAVRVVNDHNPTKVT----SKIRVYLKPKHIRVWCPRPPRAVAYYGPGVDYKDGTLTPLSTKDLTTY----'),
                                                ('1al2_ac', '----EACGYSDRVLQLTLGNSTITTQEA----ANSVVAYGRWPEYLRDSEANPVDQPTEPDV-------AACRFYTLDTVSWTKESRGWWWKLPDALRDMGLFGQNMYYHYLGRSGYTVHVQCNASKFHQGALGVFAVPEMCLAGDSNTTTMHTSYQNANPGEKGG-------TFTGTF----TPDNNQTSPARRFCPVDYLLGNGTLLGNAFVFPHQIINLRTNNCA---------TLVLPYVNSLS------IDSMVKHNN-----------WGIAILPLAPLNF---ASESSPEI-------PITLTIAPMCCEF-------------------NGLRNITLPRLQ-------'),
                                                ], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         random_call.return_value = 176
@@ -298,7 +298,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
                                                ('c', 'MKKLK-KHPDFPKKPLTPYFRFFMEKRAKYAKLHPEMSN--LDLTKILSKKYKELPEKKKMKYIQDFQREKQEFERNLARFREDH---PDLIQNAKK'),
                                                ('d', '-------MH--IKKPLNAFMLYMKEMRANVVAESTLKES--AAINQILGRRWHALSREEQAKYYELARKERQLHMQLYPGWSARDNYGKKKKRKREK ')
                                                ], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         children = crossover.cross_parents(10, [msa_1, msa_2], [10, 10, 10, 10], [10, 10, 8, 8])
@@ -313,7 +313,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         msa_2 = MSASolution(aligned_sequences=[('a', '-----GE'), ('b', 'KWPFFQEAQK')], number_of_objectives=2)
         msa_3 = MSASolution(aligned_sequences=[('a', '-'), ('b', 'ABC')], number_of_objectives=2)
 
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         crossover.fill_sequences_with_gaps_to_reach_the_max_sequence_length(msa_1, 10, [-1, -1])
@@ -328,7 +328,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_find_max_sequence_length(self):
         # setup
         msa = MSASolution(aligned_sequences=[('a', 'AAC'), ('b', 'AAAAAAAC'), ('c', 'C')], number_of_objectives=2)
-        crossover = GapSequenceSolutionSinglePoint(probability=1.0, remove_gap_columns=False)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
 
         # run
         max = crossover.find_length_of_the_largest_sequence(msa)

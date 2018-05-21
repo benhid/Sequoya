@@ -8,7 +8,7 @@ from pymsa.core.score import PercentageOfNonGaps, SumOfPairs, PercentageOfTotall
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operators.crossover import GapSequenceSolutionSinglePoint
+from pym2sa.operators.crossover import SPXMSA
 from pym2sa.problem.MSA import MSA
 
 logging.basicConfig(level=logging.INFO)
@@ -57,7 +57,7 @@ class BalisebaseMSA(MSA):
 
         logger.info('Number of pre-computed alignments: {0}'.format(len(population)))
 
-        crossover_operator = GapSequenceSolutionSinglePoint(probability=0.8)
+        crossover_operator = SPXMSA(probability=0.8)
 
         while len(population) < population_size:
             a, b = random.sample(range(len(population)-1), 2)

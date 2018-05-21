@@ -6,7 +6,7 @@ from jmetal.core.operator import Crossover
 from pym2sa.core.solution import MSASolution
 
 
-class GapSequenceSolutionSinglePoint(Crossover[MSASolution, MSASolution]):
+class SPXMSA(Crossover[MSASolution, MSASolution]):
     """ Implements a single point crossover for MSA representation. """
 
     def __init__(self, probability: float, remove_gap_columns: bool = False) -> None:
@@ -15,7 +15,7 @@ class GapSequenceSolutionSinglePoint(Crossover[MSASolution, MSASolution]):
 
         self.remove_full_of_gap_columns = remove_gap_columns
         self.has_solution_been_crossed = None
-        super(GapSequenceSolutionSinglePoint, self).__init__(probability=probability)
+        super(SPXMSA, self).__init__(probability=probability)
 
     def execute(self, parents: List[MSASolution]) -> List[MSASolution]:
         if len(parents) != 2:
