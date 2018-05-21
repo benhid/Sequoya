@@ -19,17 +19,22 @@ class TwoRandomAdjacentGapGroup(Mutation[MSASolution]):
 
     def do_mutation(self, solution: MSASolution) -> MSASolution:
         if random.random() <= self.probability:
-            for i in range(solution.number_of_variables):
-                gaps_group = solution.gaps_groups[i]
+            # Select one random sequence from all
+            if solution.number_of_variables > 1:
+                seq = random.randint(0, solution.number_of_variables - 1)
+            else:
+                seq = 0
 
-                if len(gaps_group) >= 4:
-                    random_gaps_group = random.randrange(0, len(gaps_group) - 2, 2)
+            gaps_group = solution.gaps_groups[seq]
 
-                    to_add = gaps_group[random_gaps_group + 3] - gaps_group[random_gaps_group + 2] + 1
-                    gaps_group[random_gaps_group + 1] += to_add
+            if len(gaps_group) >= 4:
+                random_gaps_group = random.randrange(0, len(gaps_group) - 2, 2)
 
-                    del gaps_group[random_gaps_group + 3]
-                    del gaps_group[random_gaps_group + 2]
+                to_add = gaps_group[random_gaps_group + 3] - gaps_group[random_gaps_group + 2] + 1
+                gaps_group[random_gaps_group + 1] += to_add
+
+                del gaps_group[random_gaps_group + 3]
+                del gaps_group[random_gaps_group + 2]
 
             # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid():
