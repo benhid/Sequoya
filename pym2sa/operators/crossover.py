@@ -9,7 +9,7 @@ from pym2sa.core.solution import MSASolution
 class SPXMSA(Crossover[MSASolution, MSASolution]):
     """ Implements a single point crossover for MSA representation. """
 
-    def __init__(self, probability: float, remove_gap_columns: bool = False) -> None:
+    def __init__(self, probability: float, remove_gap_columns: bool = True) -> None:
         if not 0 <= probability <= 1:
             raise Exception("Crossover probability value invalid: " + str(probability))
 
@@ -25,7 +25,7 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
 
     def do_crossover(self, parents: List[MSASolution]) -> List[MSASolution]:
         if random.random() <= self.probability:
-            cx_point = random.randint(0, parents[0].get_length_of_alignment() - 1)
+            cx_point = random.randint(1, parents[0].get_length_of_alignment() - 1)
 
             column_positions_in_first_parent = \
                 self.find_original_positions_in_original_sequences(parents[0], cx_point)

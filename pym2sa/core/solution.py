@@ -357,3 +357,17 @@ class MSASolution(Solution[str]):
                    for seq_index in range(1, self.number_of_variables)):
             return False
         return True
+
+    def __str__(self):
+        fasta = ""
+        n = 200
+
+        for index, seq in enumerate(self.sequences_names):
+            fasta += '>' + seq + '\n'
+            sequence = self.decode_sequence(index)
+            sequence = [sequence[i:i+n] for i in range(0, len(sequence), n)]
+
+            for wrap in sequence:
+                fasta += wrap + "\n \n"
+
+        return fasta
