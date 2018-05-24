@@ -4,7 +4,6 @@ from typing import List
 import logging
 import random
 
-from pymsa.core.score import PercentageOfNonGaps, SumOfPairs, PercentageOfTotallyConservedColumns, Strike, Entropy
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
 from pym2sa.core.solution import MSASolution
@@ -23,11 +22,10 @@ DATA_FILES = ['tfa_clu', 'tfa_muscle', 'tfa_kalign', 'tfa_retalign',
 
 class BAliBaseMSA(MSA):
 
-    def __init__(self, instance: str, number_of_variables: int) -> None:
-        super(BAliBaseMSA, self).__init__(number_of_variables)
+    def __init__(self, instance: str) -> None:
+        super(BAliBaseMSA, self).__init__(number_of_variables=0)
         self.problem_name = instance
         self.number_of_objectives = 2
-        self.number_of_variables = number_of_variables
         self.number_of_constraints = 0
 
     def create_solutions(self, population_size: int) -> List[MSASolution]:
@@ -52,11 +50,12 @@ class BAliBaseMSA(MSA):
             raise Exception('More than one pre-computed alignment is needed!')
 
         logger.info('Initial population imported!')
+        self.number_of_variables = population[0].number_of_variables
 
         for index, p in enumerate(population):
             self.evaluate(p)
             logger.info('Alignment {0} size: {1}, Objectives: {2}, {3}'.format(
-                index, p.original_alignment_size, p.objectives[0], p.objectives[1])
+                index, p.get_length_of_alignment(), p.objectives[0], p.objectives[1])
             )
 
         logger.info('Number of pre-computed alignments: {0}'.format(len(population)))
@@ -73,7 +72,7 @@ class BAliBaseMSA(MSA):
             a = random.randint(0, len(population)-1)
             b = random.randint(0, len(population)-1)
 
-            while a != b:
+            while a == b:
                 b = random.randint(0, len(population) - 1)
 
             offspring = crossover_operator.execute([population[a], population[b]])

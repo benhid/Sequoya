@@ -16,8 +16,8 @@ class MSA(MSAProblem):
     def evaluate(self, solution: MSASolution):
         solution.remove_full_of_gaps_columns()
 
-        solution.objectives[0] = -1.0 * SumOfPairs(PAM250()).compute(solution.decode_alignment())
-        solution.objectives[1] = -1.0 * PercentageOfTotallyConservedColumns().compute(solution.decode_alignment())
+        solution.objectives[0] = -1.0 * SumOfPairs(PAM250()).compute(solution.decode_alignment_as_list_of_sequences())
+        solution.objectives[1] = -1.0 * PercentageOfTotallyConservedColumns().compute(solution.decode_alignment_as_list_of_sequences())
 
     def create_solution(self) -> None:
         raise Exception("Not able to create any solution to MSA!")

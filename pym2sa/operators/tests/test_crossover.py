@@ -100,8 +100,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["AB--CDE-"], children[0].decode_alignment())
-        self.assertEqual(["AB--CD-E"], children[1].decode_alignment())
+        self.assertEqual(["AB--CDE-"], children[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["AB--CD-E"], children[1].decode_alignment_as_list_of_sequences())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_case_a_with_remove_gap_columns(self, random_call):
@@ -117,10 +117,10 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children_2 = crossover_remove_full.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["AB--CDE-"], children_1[0].decode_alignment())
-        self.assertEqual(["AB--CD-E"], children_1[1].decode_alignment())
-        self.assertEqual(["ABCDE"], children_2[0].decode_alignment())
-        self.assertEqual(["ABCDE"], children_2[1].decode_alignment())
+        self.assertEqual(["AB--CDE-"], children_1[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["AB--CD-E"], children_1[1].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["ABCDE"], children_2[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["ABCDE"], children_2[1].decode_alignment_as_list_of_sequences())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_case_b(self, random_call):
@@ -135,8 +135,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["A-BCDE-"], children[0].decode_alignment())
-        self.assertEqual(["A-B-CD-E"], children[1].decode_alignment())
+        self.assertEqual(["A-BCDE-"], children[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["A-B-CD-E"], children[1].decode_alignment_as_list_of_sequences())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_case_c(self, random_call):
@@ -151,8 +151,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["ABCD-EF"], children[0].decode_alignment())
-        self.assertEqual(["---AB-CD-EF"], children[1].decode_alignment())
+        self.assertEqual(["ABCD-EF"], children[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["---AB-CD-EF"], children[1].decode_alignment_as_list_of_sequences())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_case_d(self, random_call):
@@ -168,8 +168,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["GKGD---PKK", "M------QDR"], children[0].decode_alignment())
-        self.assertEqual(["GKGD-PKK",  "--M--QDR"], children[1].decode_alignment())
+        self.assertEqual(["GKGD---PKK", "M------QDR"], children[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["GKGD-PKK",  "--M--QDR"], children[1].decode_alignment_as_list_of_sequences())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_case_g(self, random_call):
@@ -194,8 +194,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["GKGD---PK-KP", "M------QD-RV", "MKKLKKHPD-FP", "M--------HI-"], children[0].decode_alignment())
-        self.assertEqual(["GKGD-PK--KP", "--M--QD--RV", "MKKLKKHPDFP", "---M--H---I"], children[1].decode_alignment())
+        self.assertEqual(["GKGD---PK-KP", "M------QD-RV", "MKKLKKHPD-FP", "M--------HI-"], children[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["GKGD-PK--KP", "--M--QD--RV", "MKKLKKHPDFP", "---M--H---I"], children[1].decode_alignment_as_list_of_sequences())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_case_f(self, random_call):
@@ -213,8 +213,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["GKGD---PKK", "M------QDR"], children[0].decode_alignment())
-        self.assertEqual(["GKGD-P-KK", "--M--QDR-"], children[1].decode_alignment())
+        self.assertEqual(["GKGD---PKK", "M------QDR"], children[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["GKGD-P-KK", "--M--QDR-"], children[1].decode_alignment_as_list_of_sequences())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_case_h(self, random_call):
@@ -230,8 +230,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["------------M------"], children[0].decode_alignment())
-        self.assertEqual(["--M"], children[1].decode_alignment())
+        self.assertEqual(["------------M------"], children[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["--M"], children[1].decode_alignment_as_list_of_sequences())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_case_i(self, random_call):
@@ -250,10 +250,25 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.execute([msa_1, msa_2])
 
         # check
-        self.assertEqual(["GKGD---PKKP--------", "------------M------"], children[0].decode_alignment())
+        self.assertEqual(["GKGD---PKKP--------", "------------M------"], children[0].decode_alignment_as_list_of_sequences())
         self.assertEqual(19, children[0].get_length_of_alignment())
-        self.assertEqual(["GKGD-PKKP--", "--M--------"], children[1].decode_alignment())
+        self.assertEqual(["GKGD-PKKP--", "--M--------"], children[1].decode_alignment_as_list_of_sequences())
         self.assertEqual(11, children[1].get_length_of_alignment())
+
+    @mock.patch('random.randint')
+    def test_should_single_point_crossover_work_properly_case_j(self, random_call):
+        # setup
+        msa_1 = MSASolution(aligned_sequences=[('seq1', 'MIKMIM-IK'), ('seq2', 'A-B-CDEF-')], number_of_objectives=2)
+        msa_2 = MSASolution(aligned_sequences=[('seq1', '--MIKMIMIK'), ('seq2', 'ABC-D-E-F-')], number_of_objectives=2)
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=True)
+
+        # run
+        random_call.return_value = 2
+        children = crossover.execute([msa_1, msa_2])
+
+        # check
+        self.assertEqual(["MIK--MIMIK", "A-BCD-E-F-"], children[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(["--MIKMIM-IK", "AB----CDEF-"], children[1].decode_alignment_as_list_of_sequences())
 
     @mock.patch('random.randint')
     def test_should_single_point_crossover_work_properly_real_case(self, random_call):
@@ -283,8 +298,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.execute([msa_1, msa_2])
 
         # check
-        self.assertTrue(children[0].is_valid())
-        self.assertTrue(children[1].is_valid())
+        self.assertTrue(children[0].is_valid_msa())
+        self.assertTrue(children[1].is_valid_msa())
 
     def test_should_single_point_crossover_work_properly_dummy_case(self):
         # setup
@@ -304,8 +319,8 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         children = crossover.cross_parents(10, [msa_1, msa_2], [10, 10, 10, 10], [10, 10, 8, 8])
 
         # check
-        self.assertTrue(children[0].is_valid())
-        self.assertTrue(children[1].is_valid())
+        self.assertTrue(children[0].is_valid_msa())
+        self.assertTrue(children[1].is_valid_msa())
 
     def test_should_fill_sequences_with_gaps_to_reach_the_max_sequence_length(self):
         # setup
@@ -321,9 +336,9 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         crossover.fill_sequences_with_gaps_to_reach_the_max_sequence_length(msa_3, 5, [-1, 1])
 
         # check
-        self.assertEqual(["-----G---E", "KWPFFQEAQK"], msa_1.decode_alignment())
-        self.assertEqual(["-----G---E", "KWPFFQEAQK"], msa_2.decode_alignment())
-        self.assertEqual(["-----", "AB--C"], msa_3.decode_alignment())
+        self.assertEqual(["-----G---E", "KWPFFQEAQK"], msa_1.decode_alignment_as_list_of_sequences())
+        self.assertEqual(["-----G---E", "KWPFFQEAQK"], msa_2.decode_alignment_as_list_of_sequences())
+        self.assertEqual(["-----", "AB--C"], msa_3.decode_alignment_as_list_of_sequences())
 
     def test_should_find_max_sequence_length(self):
         # setup

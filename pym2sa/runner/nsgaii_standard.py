@@ -18,18 +18,18 @@ logger = logging.getLogger(__name__)
 
 
 def main() -> None:
-    problem = BAliBaseMSA(instance='BB11002', number_of_variables=80)
+    problem = BAliBaseMSA(instance='BB11002')
 
     algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
         problem=problem,
-        population_size=80,
+        population_size=100,
         max_evaluations=25000,
         mutation=TwoRandomAdjacentGapGroup(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator())
     )
 
-    algorithm.observable.register(observer=VisualizerObserver())
+    algorithm.observable.register(observer=VisualizerObserver(1*10e-8))
     algorithm.observable.register(observer=WriteFrontToFileObserver("FUN"))
     algorithm.observable.register(observer=WriteSequencesToFileObserver("VAR"))
     algorithm.run()

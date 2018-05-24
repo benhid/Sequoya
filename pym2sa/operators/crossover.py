@@ -39,11 +39,14 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
 
             self.has_solution_been_crossed = True
 
+            offspring[0].merge_gaps_groups()
+            offspring[1].merge_gaps_groups()
+
             if self.remove_full_of_gap_columns:
                 offspring[0].remove_full_of_gaps_columns()
                 offspring[1].remove_full_of_gaps_columns()
         else:
-            offspring = parents
+            offspring = copy.deepcopy(parents)
             self.has_solution_been_crossed = False
 
         return offspring
@@ -53,8 +56,7 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
         offspring_1 = copy.deepcopy(parents[0])
         offspring_2 = copy.deepcopy(parents[1])
 
-        # Obtain first children
-        for i in range(0, offspring_1.number_of_variables):
+        for i in range(offspring_1.number_of_variables):
             new_gap_group_list = []
 
             if cutting_points_in_first_parent[i] != -1:
@@ -118,15 +120,15 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
             offspring_2, max_sequence_length, column_positions_in_second_parent)
 
         # Sanity check: alignment is valid (same length for all sequences)
-        if not offspring_1.is_valid():
+        if not offspring_1.is_valid_msa():
             raise Exception("Offspring 1 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}"
-                            .format(parents[0].decode_alignment(),  parents[1].decode_alignment(), cx_point,
-                                    offspring_1.decode_alignment(), offspring_2.decode_alignment(),
+                            .format(parents[0].decode_alignment_as_list_of_sequences(), parents[1].decode_alignment_as_list_of_sequences(), cx_point,
+                                    offspring_1.decode_alignment_as_list_of_sequences(), offspring_2.decode_alignment_as_list_of_sequences(),
                                     cutting_points_in_first_parent, column_positions_in_second_parent))
-        if not offspring_2.is_valid():
+        if not offspring_2.is_valid_msa():
             raise Exception("Offspring 2 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}"
-                            .format(parents[0].decode_alignment(),  parents[1].decode_alignment(), cx_point,
-                                    offspring_1.decode_alignment(), offspring_2.decode_alignment(),
+                            .format(parents[0].decode_alignment_as_list_of_sequences(), parents[1].decode_alignment_as_list_of_sequences(), cx_point,
+                                    offspring_1.decode_alignment_as_list_of_sequences(), offspring_2.decode_alignment_as_list_of_sequences(),
                                     cutting_points_in_first_parent, column_positions_in_second_parent))
 
         return [offspring_1, offspring_2]
@@ -134,7 +136,7 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
     def find_original_positions_in_original_sequences(self, solution: MSASolution, column: int) -> list:
         """ Given a solution, find for each sequence the original positions of the symbol in the column
         in the original unaligned sequences """
-        positions = [-1 for _ in range(0, solution.number_of_variables)]
+        positions = [-1 for _ in range(solution.number_of_variables)]
 
         for i in range(solution.number_of_variables):
             positions[i] = self.__find_symbol_position_in_original_sequence(solution, i, column)
@@ -158,25 +160,25 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
 
         return symbol_position
 
-    def __find_original_positions_in_aligned_sequences(self,  solution: MSASolution, column_positions_in_first_parent: list):
-        positions = [-1 for _ in range(0, solution.number_of_variables)]
+    def __find_original_positions_in_aligned_sequences(self, solution: MSASolution, column_positions_in_first_parent: list):
+        positions = [-1 for _ in range(solution.number_of_variables)]
 
-        for seq_index in range(0, solution.number_of_variables):
-            pos = column_positions_in_first_parent[seq_index]
-            positions[seq_index] = solution.get_original_char_position_in_aligned_sequence(seq_index, pos)
+        for i in range(solution.number_of_variables):
+            pos = column_positions_in_first_parent[i]
+            positions[i] = solution.get_original_char_position_in_aligned_sequence(i, pos)
 
         return positions
 
     def find_cutting_points_in_first_parent(self, solution: MSASolution, position: int) -> list:
         """ Find the real cutting points in a solution. If the column is a gap then the next non-gap
         symbol must be found """
-        positions = [-1 for _ in range(0, solution.number_of_variables)]
+        positions = [-1 for _ in range(solution.number_of_variables)]
 
-        for seq_index in range(0, solution.number_of_variables):
-            if solution.is_gap_char_at_sequence(seq_index, position):
-                positions[seq_index] = solution.get_next_char_position_after_gap(seq_index, position)
+        for i in range(solution.number_of_variables):
+            if solution.is_gap_char_at_sequence(i, position):
+                positions[i] = solution.get_next_char_position_after_gap(i, position)
             else:
-                positions[seq_index] = position
+                positions[i] = position
 
         return positions
 
@@ -192,14 +194,14 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
 
     def fill_sequences_with_gaps_to_reach_the_max_sequence_length(self, solution: MSASolution, max_length: int,
                                                                   cutting_points: list):
-        for i in range(0, solution.number_of_variables):
+        for i in range(solution.number_of_variables):
             sequence_length = solution.get_length_of_sequence(i)
             if sequence_length != max_length:
                 for j in range(sequence_length, max_length):
                     if cutting_points[i] == -1:
-                        solution.add_gap_to_sequence(seq_index=i, position=sequence_length - 1)
+                        solution.add_gap_to_sequence_at_index(seq_index=i, gap_position=sequence_length - 1)
                     else:
-                        solution.add_gap_to_sequence(seq_index=i, position=cutting_points[i] + 1)
+                        solution.add_gap_to_sequence_at_index(seq_index=i, gap_position=cutting_points[i] + 1)
 
     def get_number_of_parents(self) -> int:
         return 2
