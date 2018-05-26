@@ -58,12 +58,19 @@ class MSASolution(Solution[str]):
             gaps_group = self.gaps_groups[i]
 
             # for each gap on the gaps group
-            for j in range(1, len(gaps_group) - 2, 2):
-                if gaps_group[j] + 1 == gaps_group[j + 1]:
+            j = 1
+            while j <= len(gaps_group) - 2:
+                if gaps_group[j] == gaps_group[j + 1]:
                     gaps_group[j] = gaps_group[j + 2]
                     del gaps_group[j + 1]
                     del gaps_group[j + 1]
                     j -= 2
+                elif gaps_group[j] + 1 == gaps_group[j + 1]:
+                    gaps_group[j] = gaps_group[j + 2]
+                    del gaps_group[j + 1]
+                    del gaps_group[j + 1]
+                    j -= 2
+                j += 2
 
     def add_gap_to_sequence_at_index(self, seq_index: int, gap_position: int):
         new_gaps_group = self.gaps_groups[seq_index]

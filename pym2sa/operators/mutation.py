@@ -22,7 +22,6 @@ class ShiftGapGroup(Mutation[MSASolution]):
     def do_mutation(self, solution: MSASolution) -> MSASolution:
         if random.random() <= self.probability:
             # Select one random sequence from all
-
             for seq in range(solution.number_of_variables):
                 gaps_group = solution.gaps_groups[seq]
 

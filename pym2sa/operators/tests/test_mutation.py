@@ -14,18 +14,66 @@ class ShiftGapGroupTestCases(unittest.TestCase):
         print("tearDown: TEST ENDED")
 
     @mock.patch('random.randrange')
-    def test_should_execute_mutation_case_a(self, random_call):
+    @mock.patch('random.randint')
+    def test_should_execute_mutation_case_a(self, random_shift, random_group):
         # setup
         msa = MSASolution(aligned_sequences=[('seq1', '--AB--CD--')], number_of_objectives=2)
         mutation = ShiftGapGroup(probability=1.0, remove_gap_columns=False)
 
         # run
-        random_call.return_value = 0
+        random_group.return_value = 2
+        random_shift.return_value = 0
         solution = mutation.execute(msa)
 
         # check
-        self.assertEqual([('seq1', 'AB--CD')], solution.decode_alignment_as_list_of_pairs())
+        self.assertEqual([[0, 1, 3, 4, 8, 9]], solution.gaps_groups)
+        self.assertEqual([('seq1', '--A--BCD--')], solution.decode_alignment_as_list_of_pairs())
 
+    @mock.patch('random.randrange')
+    @mock.patch('random.randint')
+    def test_should_execute_mutation_case_a(self, random_shift, random_group):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', '--AB--CD--')], number_of_objectives=2)
+        mutation = ShiftGapGroup(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_group.return_value = 2
+        random_shift.return_value = 1
+        solution = mutation.execute(msa)
+
+        # check
+        self.assertEqual([[0, 1, 5, 6, 8, 9]], solution.gaps_groups)
+        self.assertEqual([('seq1', '--ABC--D--')], solution.decode_alignment_as_list_of_pairs())
+
+    @mock.patch('random.randrange')
+    @mock.patch('random.randint')
+    def test_should_execute_mutation_case_a(self, random_shift, random_group):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', '--AB--CD--')], number_of_objectives=2)
+        mutation = ShiftGapGroup(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_group.return_value = 0
+        random_shift.return_value = 1
+        solution = mutation.execute(msa)
+
+        # check
+        self.assertEqual([('seq1', 'A--B--CD--')], solution.decode_alignment_as_list_of_pairs())
+
+    @mock.patch('random.randrange')
+    @mock.patch('random.randint')
+    def test_should_execute_mutation_case_a(self, random_shift, random_group):
+        # setup
+        msa = MSASolution(aligned_sequences=[('seq1', '--AB--C--D')], number_of_objectives=2)
+        mutation = ShiftGapGroup(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_group.return_value = 2
+        random_shift.return_value = 1
+        solution = mutation.execute(msa)
+
+        # check
+        self.assertEqual([('seq1', '--ABC----D')], solution.decode_alignment_as_list_of_pairs())
 
 
 class TwoRandomAdjacentGapGroupTestCases(unittest.TestCase):

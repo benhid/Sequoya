@@ -107,12 +107,26 @@ class MSASolutionTestCases(unittest.TestCase):
 
         self.assertEqual(["AC-----TGAC", "AT-------CTC"], msa.decode_alignment_as_list_of_sequences())
 
+        # run
         msa.merge_gaps_groups()
 
         # check
-        self.assertEqual(["AC----TGAC",  "AT-------CTC"], msa.decode_alignment_as_list_of_sequences())
         self.assertEqual([2, 5], msa.gaps_groups[0])
         self.assertEqual([2, 8], msa.gaps_groups[1])
+
+    def test_should_merge_gaps_groups_case_b(self):
+        # setup
+        aln_seq = [('seq1', 'ACTGAC')]
+        msa = MSASolution(aligned_sequences=aln_seq, number_of_objectives=2)
+        msa.gaps_groups[0] = [2, 4, 4, 8, 8, 10]
+
+        self.assertEqual(["AC-----------TGAC"], msa.decode_alignment_as_list_of_sequences())
+
+        # run
+        msa.merge_gaps_groups()
+
+        # check
+        self.assertEqual([2, 10], msa.gaps_groups[0])
 
     def test_should_return_is_gap_column(self):
         # setup

@@ -11,7 +11,7 @@ from pym2sa.component.observer import WriteSequencesToFileObserver
 from pym2sa.core.solution import MSASolution
 from pym2sa.problem.BalibaseMSA import BAliBaseMSA
 from pym2sa.operators.crossover import SPXMSA
-from pym2sa.operators.mutation import OneRandomGapInsertion, TwoRandomAdjacentGapGroup
+from pym2sa.operators.mutation import OneRandomGapInsertion, TwoRandomAdjacentGapGroup, ShiftGapGroup
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -24,7 +24,7 @@ def main() -> None:
         problem=problem,
         population_size=100,
         max_evaluations=25000,
-        mutation=TwoRandomAdjacentGapGroup(probability=0.2),
+        mutation=ShiftGapGroup(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator())
     )
