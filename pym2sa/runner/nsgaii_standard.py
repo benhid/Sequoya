@@ -29,7 +29,7 @@ def main() -> None:
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator())
     )
 
-    algorithm.observable.register(observer=VisualizerObserver(1*10e-8))
+    algorithm.observable.register(observer=VisualizerObserver())
     algorithm.observable.register(observer=WriteFrontToFileObserver("FUN"))
     algorithm.observable.register(observer=WriteSequencesToFileObserver("VAR"))
     algorithm.run()

@@ -12,6 +12,10 @@
 pyM<sup>2</sup>SA is an open source software tool aimed at for solving
 *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
+This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) algorithm as shown in:
+
+> "M2Align: parallel multiple sequence alignment with a multi-objective metaheuristic". Cristian Zambrano-Vega, Antonio J. Nebro José García-Nieto, José F. Aldana-Montes. Bioinformatics, Volume 33, Issue 19, 1 October 2017, Pages 3011–3017 ([DOI](https://doi.org/10.1093/bioinformatics/btx338)).
+
 ## Features
 * The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA) (v1.0.0):
     * Sum of pairs,
@@ -30,12 +34,18 @@ pyM<sup>2</sup>SA is an open source software tool aimed at for solving
     * Random gap insertion (`OneRandomGapInsertion`),
     * Merge two random adjacent gaps group (`TwoRandomAdjacentGapGroup`).
 
-## Downloading
-To download pyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
+## Install
+To download and install pyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
 
 ```bash
 $ git clone https://github.com/benhid/pyM2SA.git
 $ python setup.py install
+```
+
+Or via pip:
+
+```bash
+$ pip install pym2sa
 ```
 
 ## Requirements
