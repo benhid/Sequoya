@@ -5,6 +5,28 @@ from jmetal.core.operator import Mutation
 from pym2sa.core.solution import MSASolution
 
 
+class MultipleMSAMutation(Mutation[MSASolution]):
+    """ Selects a gap group randomly in all the sequences of a solution
+        and shifts it one position to the left or to the right. """
+
+    def __init__(self, operator: list, global_probability: float) -> None:
+        super(MultipleMSAMutation, self).__init__(probability=global_probability)
+        self.operator = operator
+
+    def execute(self, solution: MSASolution) -> MSASolution:
+        if solution is None:
+            raise Exception("Solution is none")
+
+        return self.do_mutation(solution)
+
+    def do_mutation(self, solution: MSASolution) -> MSASolution:
+        if random.random() <= self.probability:
+            for op in self.operator:
+                op.execute(solution)
+
+        return solution
+
+
 class ShiftGapGroup(Mutation[MSASolution]):
     """ Selects a gap group randomly in all the sequences of a solution
         and shifts it one position to the left or to the right. """
@@ -41,6 +63,24 @@ class ShiftGapGroup(Mutation[MSASolution]):
             if not solution.is_valid_msa():
                 raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 
+        return solution
+
+
+class ShiftClosedGapGroups(Mutation[MSASolution]):
+    """ Selects a random group and shift it with the closest gap group. """
+
+    def __init__(self, probability: float, remove_gap_columns: bool = True) -> None:
+        super(ShiftClosedGapGroups, self).__init__(probability=probability)
+        self.remove_full_of_gap_columns = remove_gap_columns
+
+    def execute(self, solution: MSASolution) -> MSASolution:
+        if solution is None:
+            raise Exception("Solution is none")
+
+        return self.do_mutation(solution)
+
+    def do_mutation(self, solution: MSASolution) -> MSASolution:
+        # todo change lengths of gaps
         return solution
 
 
