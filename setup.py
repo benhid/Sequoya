@@ -5,8 +5,8 @@ setup(
     version='0.3.0',
     description='Solving Multiple Sequence Alignments with Python',
     url='https://github.com/benhid/pyM2SA',
-    author='Antonio Benitez',
-    author_email='antonio.benitez@lcc.uma.es',
+    author='Antonio Benítez-Hidalgo',
+    author_email='antonio.b@uma.es',
     license='MIT',
     python_requires='>=3',
     classifiers=[
