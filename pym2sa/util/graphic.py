@@ -1,66 +1,70 @@
 import logging
+import random
+from typing import List, Tuple, TypeVar
 
 from bokeh.application import Application
 from bokeh.application.handlers import FunctionHandler
+from bokeh.client import ClientSession
+from bokeh.io import curdoc
 from bokeh.layouts import column
 from bokeh.models import ColumnDataSource, HoverTool
 from bokeh.server.server import Server
 from bokeh.plotting import Figure, show
+from tornado import gen
 
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+import threading
+S = TypeVar('S')
+
+# https://groups.google.com/a/continuum.io/forum/#!topic/bokeh/zVzLyvJFWtE
 
 
-class ScatterPlot:
+class ScatterPlot(threading.Thread):
 
-    def __init__(self, title: str, circle_size: int = 10, period_milliseconds: int = 50, tools: [] = None):
-        if tools is None:
-            tools = [HoverTool(tooltips=[("index", "$index"), ("(x,y)", "($x, $y)")]), 'save']
+	def __init__(self, title: str, circle_size: int=3, tools: []=None):
+		super().__init__()
 
-        self.figure_title = title
-        self.app_title = 'pym2sa'
-        self.plot_tools = tools
-        self.plot_circle_size = circle_size
-        self.period_milliseconds = period_milliseconds
+		if tools is None:
+			tools = [HoverTool(tooltips=[("index", "$index"), ("(x,y)", "($x, $y)")]), 'save', 'lasso_select']
 
-        self.source = ColumnDataSource({'x': [], 'y': [], 'seq_names': []})
-        self.points = []
+		self.figure_title = title
+		self.plot_tools = tools
+		self.client = ClientSession()
+		self.plot_circle_size = circle_size
+		self.source = ColumnDataSource(data=dict(x=[], y=[]))
+		self.doc = curdoc()
 
-    def simple_plot(self, x: list, y: list, name: str) -> None:
-        fig = Figure(output_backend="webgl", sizing_mode='scale_width',
-                     title=self.figure_title, tools=self.plot_tools)
-        fig.circle(x=x, y=y, name=name, size=self.plot_circle_size)
-        show(fig)
+	def plot(self, solution_list: List[S], shw=True) -> None:
+		print("Opening Bokeh application on http://localhost:{0}/".format(5001))
+		x_values, y_values, z_values = self.__get_objectives(solution_list)
+		self.source.stream({'x': x_values, 'y': y_values})
 
-    def interactive_plot(self, port: int = 5001) -> None:
-        logger.info("Opening Bokeh application on http://localhost:{0}/".format(port))
+		# Set-up figure
+		self.figure = Figure(output_backend="webgl", sizing_mode='scale_width',
+		                     title=self.figure_title, tools=self.plot_tools)
+		self.figure.circle(x='x', y='y', name=self.figure_title, size=self.plot_circle_size, source=self.source)
 
-        app = {'/' + self.app_title: Application(FunctionHandler(self.__make_interactive_document))}
+		# Add to currdoc
+		self.doc.add_root(column(self.figure))
+		self.client.push(self.doc)
 
-        server = Server(app, port=port)
-        server.show('/' + self.app_title)
-        server.run_until_shutdown()
+		if shw:
+			self.client.show()
 
-    def replace_points(self, points: list) -> None:
-        print("updating points")
-        self.points = points
+	def update(self, solution_list: List[S]):
+		x_values, y_values, z_values = self.__get_objectives(solution_list)
+		self.source.stream({'x': x_values, 'y': y_values}, rollover=len(solution_list))
 
-    def __update_data_with_callback(self) -> None:
-        if self.points is not []:
-            new = {'x': [msa.objectives[0] for msa in self.points],
-                   'y': [msa.objectives[1] for msa in self.points],
-                   'seq_names': ['a' for _ in self.points]}
+	def __get_objectives(self, solution_list: List[S]) -> Tuple[list, list, list]:
+		""" Get coords (x,y,z) from a solution_list.
 
-            # keep only new solutions, remove old ones
-            self.source.stream(new, rollover=len(self.points))
+		:return: A tuple with (x,y,z) values. The third might be empty if working with a problem with 2 objectives."""
+		if solution_list is None:
+			raise Exception("Solution list is none!")
 
-    def __make_interactive_document(self, doc) -> None:
-        fig = Figure(output_backend="webgl", sizing_mode='scale_width',
-                     title=self.figure_title, tools=self.plot_tools)
-        fig.circle(source=self.source, x='x', y='y', name='seq_names', size=self.plot_circle_size)
+		points = list(solution.objectives for solution in solution_list)
 
-        # update plot
-        doc.add_periodic_callback(self.__update_data_with_callback, self.period_milliseconds)
+		x_values, y_values = [point[0] for point in points], [point[1] for point in points]
+		z_values = []
 
-        # put the plot in a layout and add to the document
-        doc.add_root(column(fig))
+		return x_values, y_values, z_values

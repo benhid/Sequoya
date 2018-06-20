@@ -14,9 +14,6 @@ from pym2sa.operators.crossover import SPXMSA
 from pym2sa.operators.mutation import OneRandomGapInsertion, TwoRandomAdjacentGapGroup, ShiftGapGroup, \
     MultipleMSAMutation
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
 
 def main() -> None:
     problem = BAliBaseMSA(instance='BB12010')
@@ -39,9 +36,18 @@ def main() -> None:
     result = algorithm.get_result()
     SolutionListOutput[MSASolution].plot_frontier_to_screen(result)
 
-    logger.info("Algorithm: " + algorithm.get_name())
-    logger.info("Problem: " + problem.get_name())
+    print("Algorithm: " + algorithm.get_name())
+    print("Problem: " + problem.get_name())
 
 
 if __name__ == '__main__':
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s",
+        handlers=[
+            logging.FileHandler('jmetalpy.log'),
+            logging.StreamHandler()
+        ]
+    )
+
     main()
