@@ -11,7 +11,6 @@ from pym2sa.operators.crossover import SPXMSA
 from pym2sa.operators.mutation import TwoRandomAdjacentGapGroup
 from pym2sa.problem.MSA import MSA
 
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 BASE_PATH = dirname(join(dirname(__file__))) + '/problem/aligned'
@@ -43,7 +42,7 @@ class BAliBaseMSA(MSA):
                     msa = MSASolution(aligned_sequences=fasta_file, number_of_objectives=2)
                     population.append(msa)
         except FileNotFoundError:
-            raise Exception('Invalid path provided: {0}'.format(computed_path))
+            raise Exception('Instance not found. Invalid path provided: {0}'.format(computed_path))
 
         if len(population) < 2:
             raise Exception('More than one pre-computed alignment is needed!')

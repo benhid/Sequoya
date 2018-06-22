@@ -102,7 +102,7 @@ After that, run the scatter plot:
 ```python
 pareto_front = ScatterMSA(plot_title='NSGAII for BB12010', number_of_objectives=problem.number_of_objectives,
                           xaxis_label='SOP', yaxis_label='TC', ws_url='localhost:5006')
-pareto_front.plot(result, output='output')
+pareto_front.plot(result, output='output_file_name')
 ```
 
 ## Authors

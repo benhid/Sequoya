@@ -7,7 +7,7 @@ from bokeh.embed import file_html
 from bokeh.resources import CDN
 from bokeh.client import ClientSession
 from bokeh.io import curdoc, reset_output
-from bokeh.layouts import column, row
+from bokeh.layouts import column
 from bokeh.models import HoverTool, ColumnDataSource, TapTool, CustomJS, WheelZoomTool, Markup
 from bokeh.plotting import Figure
 from jinja2 import Environment, FileSystemLoader
@@ -17,8 +17,6 @@ from jmetal.util.graphic import Plot
 
 logger = logging.getLogger(__name__)
 S = TypeVar('S')
-
-BASE_PATH = dirname(join(dirname(__file__)))
 
 
 class ScatterMSA(Plot):
@@ -111,6 +109,8 @@ class ScatterMSA(Plot):
             self.__save(output)
 
     def __save(self, file_name: str):
+        BASE_PATH = dirname(join(dirname(__file__)))
+
         env = Environment(loader=FileSystemLoader(BASE_PATH + '/util/'))
         env.filters['json'] = lambda obj: Markup(json.dumps(obj))
 

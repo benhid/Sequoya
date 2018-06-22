@@ -1,4 +1,4 @@
-from pymsa.core.score import PercentageOfNonGaps, SumOfPairs, PercentageOfTotallyConservedColumns, Strike, Entropy
+from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 from pymsa.core.substitution_matrix import PAM250
 
 from pym2sa.core.problem import MSAProblem
