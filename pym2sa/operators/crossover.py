@@ -10,12 +10,10 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
     """ Implements a single point crossover for MSA representation. """
 
     def __init__(self, probability: float, remove_gap_columns: bool = True) -> None:
-        if not 0 <= probability <= 1:
-            raise Exception("Crossover probability value invalid: " + str(probability))
+        super(SPXMSA, self).__init__(probability=probability)
 
         self.remove_full_of_gap_columns = remove_gap_columns
         self.has_solution_been_crossed = None
-        super(SPXMSA, self).__init__(probability=probability)
 
     def execute(self, parents: List[MSASolution]) -> List[MSASolution]:
         if len(parents) != 2:

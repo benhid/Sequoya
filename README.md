@@ -5,7 +5,7 @@
 </p>
 
 # Solving Multiple Sequence Alignments with Python
-[![Build Status](https://travis-ci.com/benhid/pyM2SA.svg?token=6p1jsqj6w1XK5sV6iy3j&branch=master?style=flat-square)](https://travis-ci.com/benhid/pyM2SA)
+[![Build Status](https://travis-ci.org/benhid/pyM2SA.svg?branch=master?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
 [![PyPI License](https://img.shields.io/pypi/l/pyM2SA.svg?style=flat-square)]()
 [![PyPI Python version](https://img.shields.io/pypi/pyversions/pyM2SA.svg?style=flat-square)]()
 
@@ -26,14 +26,16 @@ This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) alg
     * STRIKE.
 * The **algorithms** that are currently available are those from [jMetalPy](https://github.com/Metal/MetalPy) (v1.0.0):
     * NSGA-II,
-    * SMPSO.
+    * SMPSO (not tested),
+    * SMPSO/RP (not tested).
 * **Crossover operator**:
     * Single-point crossover (`GapSequenceSolutionSinglePoint`).
-* **Mutation operator**:
+* **Mutation operators**:
+    * Shift closest gap group (`ShiftClosedGapGroups`),
     * Shift gap group (`ShiftGapGroup`),
     * Random gap insertion (`OneRandomGapInsertion`),
-    * Merge two random adjacent gaps group (`TwoRandomAdjacentGapGroup`).
-
+    * Merge two random adjacent gaps group (`TwoRandomAdjacentGapGroup`),
+    * Multiple mutation (`MultipleMSAMutation`).
 ## Install
 To download and install pyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
 
@@ -58,12 +60,55 @@ $ pip install -r requirements.txt
 ```
 
 ## Usage
-Examples of running pyM<sup>2</sup>SA are located in the [`runner`](pym2sa/runner/) folder.
+Examples of running pyM<sup>2</sup>SA are located in the [`runner`](pym2sa/runner/) folder:
+
+```python
+# Defines the problem (as an instance from BAliBase 3.0)
+problem = BAliBaseMSA(instance='BB12010')
+
+# Defines the algorithm
+algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
+    problem=problem,
+    population_size=100,
+    max_evaluations=25000,
+    mutation=MultipleMSAMutation([ShiftGapGroup(1.0), TwoRandomAdjacentGapGroup(1.0)], global_probability=0.2),
+    crossover=SPXMSA(probability=0.8),
+    selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator())
+)
+
+# Register several observables
+algorithm.observable.register(observer=VisualizerObserver(problem))
+algorithm.observable.register(observer=WriteFrontToFileObserver("FUN"))
+algorithm.observable.register(observer=WriteSequencesToFileObserver("VAR"))
+
+# Run the algorithm
+algorithm.run()
+result = algorithm.get_result()
+```
+
+### Plotting
+
+It is possible to plot the final population list with an interactive MSA viewer using [Bokeh](https://bokeh.pydata.org/en/0.12.16/).
+First, a Bokeh server must be initialized:
+
+```bash
+$ bokeh serve
+yyyy/mm/dd HH:mm:ss.fff Starting Bokeh server version 0.12.16 (running on Tornado 5.0.2)
+yyyy/mm/dd HH:mm:ss.fff Bokeh app running at: http://localhost:5006/
+```
+
+After that, run the scatter plot:
+
+```python
+pareto_front = ScatterMSA(plot_title='NSGAII for BB12010', number_of_objectives=problem.number_of_objectives,
+                          xaxis_label='SOP', yaxis_label='TC', ws_url='localhost:5006')
+pareto_front.plot(result, output='output')
+```
 
 ## Authors
 ### Active development team
-* Antonio Benítez-Hidalgo <antonio.b@uma.es>
-* Antonio J. Nebro <antonio@lcc.uma.es>
+* [Antonio Benítez-Hidalgo](https://benhid.github.io/about/) <antonio.b@uma.es>
+* [Antonio J. Nebro](http://www.lcc.uma.es/%7Eantonio/) <antonio@lcc.uma.es>
 
 ## License
 This project is licensed under the terms of the MIT - see the [LICENSE](LICENSE) file for details.

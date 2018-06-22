@@ -4,15 +4,14 @@ from typing import List
 from jmetal.operator.selection import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.component.observer import VisualizerObserver, WriteFrontToFileObserver
-from jmetal.util.solution_list_output import SolutionListOutput
 
 from pym2sa.algorithm.multiobjective.nsgaii import NSGA2MSA
 from pym2sa.component.observer import WriteSequencesToFileObserver
 from pym2sa.core.solution import MSASolution
 from pym2sa.problem.BalibaseMSA import BAliBaseMSA
 from pym2sa.operators.crossover import SPXMSA
-from pym2sa.operators.mutation import OneRandomGapInsertion, TwoRandomAdjacentGapGroup, ShiftGapGroup, \
-    MultipleMSAMutation
+from pym2sa.operators.mutation import TwoRandomAdjacentGapGroup, ShiftGapGroup, MultipleMSAMutation
+from pym2sa.util.graphic import ScatterMSA
 
 
 def main() -> None:
@@ -27,17 +26,17 @@ def main() -> None:
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator())
     )
 
-    algorithm.observable.register(observer=VisualizerObserver(replace=True))
+    algorithm.observable.register(observer=VisualizerObserver(problem))
     algorithm.observable.register(observer=WriteFrontToFileObserver("FUN"))
     algorithm.observable.register(observer=WriteSequencesToFileObserver("VAR"))
 
     algorithm.run()
-
     result = algorithm.get_result()
-    SolutionListOutput[MSASolution].plot_frontier_to_screen(result)
 
-    print("Algorithm: " + algorithm.get_name())
-    print("Problem: " + problem.get_name())
+    # Plot final population
+    pareto_front = ScatterMSA(plot_title='NSGAII for BB12010', number_of_objectives=problem.number_of_objectives,
+                              xaxis_label='SOP', yaxis_label='TC')
+    pareto_front.plot(result, output='output')
 
 
 if __name__ == '__main__':

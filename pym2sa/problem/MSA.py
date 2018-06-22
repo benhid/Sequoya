@@ -19,8 +19,5 @@ class MSA(MSAProblem):
         solution.objectives[0] = -1.0 * SumOfPairs(PAM250()).compute(solution.decode_alignment_as_list_of_sequences())
         solution.objectives[1] = -1.0 * PercentageOfTotallyConservedColumns().compute(solution.decode_alignment_as_list_of_sequences())
 
-    def create_solution(self) -> None:
-        raise Exception("Not able to create any solution to MSA!")
-
     def get_name(self) -> str:
         return "Multiple Sequence Alignment problem"

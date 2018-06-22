@@ -14,8 +14,7 @@ from pym2sa.problem.MSA import MSA
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BASE_PATH = dirname(join(dirname(__file__)))
-ALIGNED_SEQUENCES_PATH = '/problem/aligned'
+BASE_PATH = dirname(join(dirname(__file__))) + '/problem/aligned'
 DATA_FILES = ['tfa_clu', 'tfa_muscle', 'tfa_kalign', 'tfa_retalign',
               'fasta_aln', 'tfa_probcons', 'tfa_mafft', 'tfa_fsa']
 
@@ -32,13 +31,13 @@ class BAliBaseMSA(MSA):
         population = []
 
         r_v_file = '/RV' + self.problem_name[2:4] + '/'
-        computed_path = BASE_PATH + ALIGNED_SEQUENCES_PATH + r_v_file
+        computed_path = BASE_PATH + r_v_file
         logger.info('Reading path ' + computed_path)
 
         try:
             for file in listdir(computed_path):
                 if file.split('.')[0] == self.problem_name and file.split('.')[1] in DATA_FILES:
-                    logger.info('Reading file ' + r_v_file + file)
+                    logger.info('...reading file ' + r_v_file + file)
                     fasta_file = read_fasta_file_as_list_of_pairs(file, computed_path)
 
                     msa = MSASolution(aligned_sequences=fasta_file, number_of_objectives=2)
@@ -91,9 +90,6 @@ class BAliBaseMSA(MSA):
                 of.write("\n")
 
         return population
-
-    def create_solution(self) -> Exception:
-        raise NotImplemented
 
     def get_name(self) -> str:
         return "Multiple Sequence Alignment (MSA) BaliBASE problem"
