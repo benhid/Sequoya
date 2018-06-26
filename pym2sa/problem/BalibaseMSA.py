@@ -7,8 +7,8 @@ import random
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operators.crossover import SPXMSA
-from pym2sa.operators.mutation import TwoRandomAdjacentGapGroup
+from pym2sa.operator.crossover import SPXMSA
+from pym2sa.operator.mutation import TwoRandomAdjacentGapGroup
 from pym2sa.problem.MSA import MSA
 
 logger = logging.getLogger(__name__)
@@ -27,8 +27,9 @@ class BAliBaseMSA(MSA):
     def create_solutions(self, population_size: int) -> List[MSASolution]:
         population = []
 
-        r_v_file = '/RV' + self.problem_name[2:4] + '/'
+        r_v_file = '/RV{0}/'.format(self.problem_name[2:4])
         computed_path = BASE_PATH + r_v_file
+
         logger.info('Reading path ' + computed_path)
 
         try:
@@ -40,7 +41,7 @@ class BAliBaseMSA(MSA):
                     msa = MSASolution(aligned_sequences=fasta_file, number_of_objectives=self.number_of_objectives)
                     population.append(msa)
         except FileNotFoundError:
-            raise Exception('Instance not found. Invalid path provided: {0}'.format(computed_path))
+            raise Exception('Instance not found. Invalid path provided? {0}'.format(computed_path))
 
         if len(population) < 2:
             raise Exception('More than one pre-computed alignment is needed!')
