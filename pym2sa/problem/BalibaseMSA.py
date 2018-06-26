@@ -20,11 +20,9 @@ DATA_FILES = ['tfa_clu', 'tfa_muscle', 'tfa_kalign', 'tfa_retalign',
 
 class BAliBaseMSA(MSA):
 
-    def __init__(self, instance: str) -> None:
-        super(BAliBaseMSA, self).__init__(number_of_variables=0)
+    def __init__(self, instance: str, score_list: list) -> None:
+        super(BAliBaseMSA, self).__init__(number_of_variables=0, score_list=score_list)
         self.problem_name = instance
-        self.number_of_objectives = 2
-        self.number_of_constraints = 0
 
     def create_solutions(self, population_size: int) -> List[MSASolution]:
         population = []
@@ -39,7 +37,7 @@ class BAliBaseMSA(MSA):
                     logger.info('...reading file ' + r_v_file + file)
                     fasta_file = read_fasta_file_as_list_of_pairs(file, computed_path)
 
-                    msa = MSASolution(aligned_sequences=fasta_file, number_of_objectives=2)
+                    msa = MSASolution(aligned_sequences=fasta_file, number_of_objectives=self.number_of_objectives)
                     population.append(msa)
         except FileNotFoundError:
             raise Exception('Instance not found. Invalid path provided: {0}'.format(computed_path))
@@ -58,7 +56,7 @@ class BAliBaseMSA(MSA):
 
         logger.info('Number of pre-computed alignments: {0}'.format(len(population)))
 
-        with open("PRECOMPUTED_ALIGNMENTS", 'w') as of:
+        with open('PRECOMPUTED_ALIGNMENTS_{0}'.format(self.get_name()), 'w') as of:
             for solution in population:
                 of.write(str(solution) + " ")
                 of.write("\n")
@@ -79,11 +77,11 @@ class BAliBaseMSA(MSA):
 
             population.append(offspring[0])
             population.append(offspring[1])
-            logger.info("Population incremented by 2; new population {0}".format(len(population)))
+            logger.info('Population incremented by 2; new population {0}'.format(len(population)))
 
         logger.info('Population incremented to: {0}'.format(len(population)))
 
-        with open("INITIAL_POPULATION", 'w') as of:
+        with open('INITIAL_POPULATION_{0}'.format(self.get_name()), 'w') as of:
             for solution in population:
                 of.write(str(solution) + " ")
                 of.write("\n")
@@ -91,4 +89,4 @@ class BAliBaseMSA(MSA):
         return population
 
     def get_name(self) -> str:
-        return "Multiple Sequence Alignment (MSA) BaliBASE problem"
+        return self.problem_name

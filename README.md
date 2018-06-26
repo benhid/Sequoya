@@ -5,7 +5,7 @@
 </p>
 
 # Solving Multiple Sequence Alignments with Python
-[![Build Status](https://travis-ci.org/benhid/pyM2SA.svg?branch=master?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
+[![Build Status](https://img.shields.io/travis/benhid/pyM2SA.svg?branch=master?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
 [![PyPI License](https://img.shields.io/pypi/l/pyM2SA.svg?style=flat-square)]()
 [![PyPI Python version](https://img.shields.io/pypi/pyversions/pyM2SA.svg?style=flat-square)]()
 
@@ -44,7 +44,7 @@ $ git clone https://github.com/benhid/pyM2SA.git
 $ python setup.py install
 ```
 
-Or via pip:
+Or via *pip*:
 
 ```bash
 $ pip install pym2sa
@@ -64,8 +64,9 @@ Examples of running pyM<sup>2</sup>SA are located in the [`runner`](pym2sa/runne
 
 ```python
 # Defines the problem (as an instance from BAliBase 3.0)
-problem = BAliBaseMSA(instance='BB12010')
-
+score_list = [SumOfPairs(PAM250()), PercentageOfTotallyConservedColumns()]
+problem = BAliBaseMSA(instance='BB12010', score_list=score_list)
+    
 # Defines the algorithm
 algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
     problem=problem,
@@ -78,8 +79,8 @@ algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
 
 # Register several observables
 algorithm.observable.register(observer=VisualizerObserver(problem))
-algorithm.observable.register(observer=WriteFrontToFileObserver("FUN"))
-algorithm.observable.register(observer=WriteSequencesToFileObserver("VAR"))
+algorithm.observable.register(observer=WriteFrontToFileObserver('FUN_' + problem.get_name()))
+algorithm.observable.register(observer=WriteSequencesToFileObserver('VAR_' + problem.get_name()))
 
 # Run the algorithm
 algorithm.run()
@@ -100,10 +101,17 @@ yyyy/mm/dd HH:mm:ss.fff Bokeh app running at: http://localhost:5006/
 After that, run the scatter plot:
 
 ```python
-pareto_front = ScatterMSA(plot_title='NSGAII for BB12010', number_of_objectives=problem.number_of_objectives,
-                          xaxis_label='SOP', yaxis_label='TC', ws_url='localhost:5006')
-pareto_front.plot(result, output='output_file_name')
+# Plot interactive MSA
+pareto_front = ScatterMSA(plot_title='NSGAII for ' + problem.get_name(), number_of_objectives=problem.number_of_objectives,
+                          xaxis_label='SOP', yaxis_label='TC')
+pareto_front.plot(result, output='plot-msa-' + problem.get_name())
 ```
+
+<p align="center">
+  <br/>
+  <img src=resources/msaviewer.png alt="Interactive MSA viewer">
+  <br/>
+</p>
 
 ## Authors
 ### Active development team

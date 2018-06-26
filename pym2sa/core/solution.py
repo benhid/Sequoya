@@ -6,7 +6,7 @@ GAP_IDENTIFIER = '-'
 class MSASolution(Solution[str]):
     """ Class representing MSA solutions """
 
-    def __init__(self, aligned_sequences: list, number_of_objectives: int=2) -> None:
+    def __init__(self, aligned_sequences: list, number_of_objectives: int) -> None:
         super(MSASolution, self).__init__(number_of_variables=len(aligned_sequences),
                                           number_of_objectives=number_of_objectives)
 

@@ -28,7 +28,7 @@ class ScatterMSA(Plot):
         if self.number_of_objectives == 2:
             self.source = ColumnDataSource(data=dict(x=[], y=[], str=[]))
         else:
-            raise Exception('Wrong number of objectives: {0}'.format(number_of_objectives))
+            raise Exception('Wrong number of objectives for ScatterMSA: {0}'.format(number_of_objectives))
 
         self.client = ClientSession(websocket_url="ws://{0}/ws".format(ws_url))
         self.doc = curdoc()
