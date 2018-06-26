@@ -2,7 +2,7 @@ import unittest
 from unittest import mock
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operators.crossover import SPXMSA
+from pym2sa.operator.crossover import SPXMSA
 
 
 class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):

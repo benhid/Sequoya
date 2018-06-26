@@ -9,8 +9,8 @@ from pym2sa.algorithm.multiobjective.nsgaii import NSGA2MSA
 from pym2sa.component.observer import WriteSequencesToFileObserver
 from pym2sa.core.solution import MSASolution
 from pym2sa.problem.BalibaseMSA import BAliBaseMSA
-from pym2sa.operators.crossover import SPXMSA
-from pym2sa.operators.mutation import TwoRandomAdjacentGapGroup, ShiftGapGroup, MultipleMSAMutation
+from pym2sa.operator.crossover import SPXMSA
+from pym2sa.operator.mutation import TwoRandomAdjacentGapGroup, ShiftGapGroup, MultipleMSAMutation
 from pym2sa.util.graphic import ScatterMSA
 
 

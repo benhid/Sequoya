@@ -7,8 +7,8 @@ import random
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operators.crossover import SPXMSA
-from pym2sa.operators.mutation import TwoRandomAdjacentGapGroup
+from pym2sa.operator.crossover import SPXMSA
+from pym2sa.operator.mutation import TwoRandomAdjacentGapGroup
 from pym2sa.problem.MSA import MSA
 
 logger = logging.getLogger(__name__)
@@ -29,8 +29,9 @@ class BAliBaseMSA(MSA):
     def create_solutions(self, population_size: int) -> List[MSASolution]:
         population = []
 
-        r_v_file = '/RV' + self.problem_name[2:4] + '/'
+        r_v_file = '/RV{0}/'.format(self.problem_name[2:4])
         computed_path = BASE_PATH + r_v_file
+
         logger.info('Reading path ' + computed_path)
 
         try:
@@ -42,7 +43,7 @@ class BAliBaseMSA(MSA):
                     msa = MSASolution(aligned_sequences=fasta_file, number_of_objectives=2)
                     population.append(msa)
         except FileNotFoundError:
-            raise Exception('Instance not found. Invalid path provided: {0}'.format(computed_path))
+            raise Exception('Instance not found. Invalid path provided? {0}'.format(computed_path))
 
         if len(population) < 2:
             raise Exception('More than one pre-computed alignment is needed!')
@@ -58,7 +59,7 @@ class BAliBaseMSA(MSA):
 
         logger.info('Number of pre-computed alignments: {0}'.format(len(population)))
 
-        with open("PRECOMPUTED_ALIGNMENTS", 'w') as of:
+        with open('PRECOMPUTED_ALIGNMENTS', 'w') as of:
             for solution in population:
                 of.write(str(solution) + " ")
                 of.write("\n")
@@ -79,11 +80,11 @@ class BAliBaseMSA(MSA):
 
             population.append(offspring[0])
             population.append(offspring[1])
-            logger.info("Population incremented by 2; new population {0}".format(len(population)))
+            logger.info('Population incremented by 2; new population {0}'.format(len(population)))
 
         logger.info('Population incremented to: {0}'.format(len(population)))
 
-        with open("INITIAL_POPULATION", 'w') as of:
+        with open('INITIAL_POPULATION', 'w') as of:
             for solution in population:
                 of.write(str(solution) + " ")
                 of.write("\n")
@@ -91,4 +92,4 @@ class BAliBaseMSA(MSA):
         return population
 
     def get_name(self) -> str:
-        return "Multiple Sequence Alignment (MSA) BaliBASE problem"
+        return "Multiple Sequence Alignment (MSA) BAliBASE problem"

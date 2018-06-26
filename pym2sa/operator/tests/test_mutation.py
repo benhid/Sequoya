@@ -2,7 +2,7 @@ import unittest
 from unittest import mock
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operators.mutation import OneRandomGapInsertion, TwoRandomAdjacentGapGroup, ShiftGapGroup
+from pym2sa.operator.mutation import OneRandomGapInsertion, TwoRandomAdjacentGapGroup, ShiftGapGroup
 
 
 class ShiftGapGroupTestCases(unittest.TestCase):
