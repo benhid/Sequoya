@@ -24,10 +24,8 @@ This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) alg
     * Percentage of non-gaps,
     * Percentage of totally conserved columns,
     * STRIKE.
-* The **algorithms** that are currently available are those from [jMetalPy](https://github.com/Metal/MetalPy) (v1.0.0):
-    * NSGA-II,
-    * SMPSO (not tested),
-    * SMPSO/RP (not tested).
+* The **algorithm** that is currently available is:
+    * NSGA-II
 * **Crossover operator**:
     * Single-point crossover (`GapSequenceSolutionSinglePoint`).
 * **Mutation operators**:
@@ -36,6 +34,7 @@ This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) alg
     * Random gap insertion (`OneRandomGapInsertion`),
     * Merge two random adjacent gaps group (`TwoRandomAdjacentGapGroup`),
     * Multiple mutation (`MultipleMSAMutation`).
+
 ## Install
 To download and install pyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
 
@@ -50,23 +49,15 @@ Or via *pip*:
 $ pip install pym2sa
 ```
 
-## Requirements
-pyM<sup>2</sup>SA has been developed with Python 3.6.0 :: [Anaconda](https://www.continuum.io) 4.3.0 (x86_64).
-
-To install all dependencies use:
-
-```bash
-$ pip install -r requirements.txt
-```
-
 ## Usage
-Examples of running pyM<sup>2</sup>SA are located in the [`runner`](pym2sa/runner/) folder:
+Examples of running pyM<sup>2</sup>SA are located in the [`examples`](examples/) folder:
 
 ```python
 # Defines the problem (as an instance from BAliBase 3.0)
 score_list = [SumOfPairs(PAM250()), PercentageOfTotallyConservedColumns()]
-problem = BAliBaseMSA(instance='BB12010', score_list=score_list)
-    
+problem = BAliBASE(instance='BB12010', balibase_path='resources', score_list=score_list)
+problem.obj_labels = ['TC', 'SOP']
+
 # Defines the algorithm
 algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
     problem=problem,
@@ -78,33 +69,17 @@ algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
 )
 
 # Register several observables
-algorithm.observable.register(observer=VisualizerObserver(problem))
-algorithm.observable.register(observer=WriteFrontToFileObserver('FUN_' + problem.get_name()))
-algorithm.observable.register(observer=WriteSequencesToFileObserver('VAR_' + problem.get_name()))
+algorithm.observable.register(observer=WriteFrontToFileObserver('FUN_' + problem.instance))
+algorithm.observable.register(observer=WriteSequencesToFileObserver('VAR_' + problem.instance))
 
 # Run the algorithm
 algorithm.run()
 result = algorithm.get_result()
-```
 
-### Plotting
-
-It is possible to plot the final population list with an interactive MSA viewer using [Bokeh](https://bokeh.pydata.org/en/0.12.16/).
-First, a Bokeh server must be initialized:
-
-```bash
-$ bokeh serve
-yyyy/mm/dd HH:mm:ss.fff Starting Bokeh server version 0.12.16 (running on Tornado 5.0.2)
-yyyy/mm/dd HH:mm:ss.fff Bokeh app running at: http://localhost:5006/
-```
-
-After that, run the scatter plot:
-
-```python
-# Plot interactive MSA
-pareto_front = ScatterMSA(plot_title='NSGAII for ' + problem.get_name(), number_of_objectives=problem.number_of_objectives,
-                          xaxis_label='SOP', yaxis_label='TC')
-pareto_front.plot(result, output='plot-msa-' + problem.get_name())
+# Plot the solution
+pareto_front = MSAPlot(plot_title='NSGAII for ' + problem.instance, axis_labels=problem.obj_labels)
+pareto_front.plot(front)
+pareto_front.to_html(filename='NSGAII-' + problem.instance)
 ```
 
 <p align="center">

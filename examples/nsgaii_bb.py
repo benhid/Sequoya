@@ -13,7 +13,6 @@ if __name__ == '__main__':
     # Creates the problem
     problem = BAliBASE(instance='BB12010', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
-    problem.obj_directions = [Problem.MINIMIZE, Problem.MAXIMIZE]
     problem.obj_labels = ['TC', 'SOP']
 
     # Creates the algorithm
