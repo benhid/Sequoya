@@ -1,4 +1,9 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages
+
+try:
+    from setuptools import setup
+except ImportError:
+    from distutils.core import setup
 
 setup(
     name='pyM2SA',
@@ -9,6 +14,7 @@ setup(
     author_email='antonio.b@uma.es',
     license='MIT',
     python_requires='>=3',
+    packages=find_packages(exclude=["test.*", "tests"]),
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Science/Research',
@@ -16,5 +22,8 @@ setup(
         'Topic :: Scientific/Engineering :: Bio-Informatics',
         'Programming Language :: Python :: 3.6'
     ],
-    packages=find_packages(exclude=["test.*", "tests"]),
+    install_requires=[
+        'jmetalpy==0.5.0',
+        'pymsa==1.0.0'
+    ]
 )

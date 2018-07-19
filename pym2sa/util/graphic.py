@@ -1,126 +1,236 @@
 import logging
-import json
-from typing import TypeVar, List
-from os.path import dirname, join
+from typing import TypeVar
 
-from bokeh.embed import file_html
-from bokeh.resources import CDN
-from bokeh.client import ClientSession
-from bokeh.io import curdoc, reset_output
-from bokeh.layouts import column
-from bokeh.models import HoverTool, ColumnDataSource, TapTool, CustomJS, WheelZoomTool, Markup
-from bokeh.plotting import Figure
-from jinja2 import Environment, FileSystemLoader
-
-from jmetal.util.graphic import Plot
+from jmetal.util import FrontPlot
 
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger('pyM2SA')
 S = TypeVar('S')
 
 
-class ScatterMSA(Plot):
+class MSAPlot(FrontPlot):
 
-    def __init__(self, plot_title: str, number_of_objectives: int,
-                 xaxis_label: str='', yaxis_label: str='', ws_url: str='localhost:5006'):
-        super().__init__(plot_title, number_of_objectives, xaxis_label=xaxis_label, yaxis_label=yaxis_label)
+    def __init__(self, plot_title: str, axis_labels: list = None):
+        """ Creates a new :class:`MSAPlot` instance. Suitable for problems with 2 or more objectives.
 
-        if self.number_of_objectives == 2:
-            self.source = ColumnDataSource(data=dict(x=[], y=[], str=[]))
-        else:
-            raise Exception('Wrong number of objectives for ScatterMSA: {0}'.format(number_of_objectives))
+        :param plot_title: Title of the graph.
+        :param axis_labels: List of axis labels. """
+        super(MSAPlot, self).__init__(plot_title, axis_labels)
 
-        self.client = ClientSession(websocket_url="ws://{0}/ws".format(ws_url))
-        self.doc = curdoc()
-        self.doc.title = plot_title
-        self.figure_xy = None
+    def to_html(self, filename: str = 'front') -> None:
+        """ Export the graph to an interactive HTML (solutions can be selected to show some metadata).
 
-        self.__initialize()
+        :param filename: Output file name. """
+        html_string = '''
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="utf-8">
+                <title>pyM2SA</title>
+                <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+                <script src="https://unpkg.com/sweetalert2@7.7.0/dist/sweetalert2.all.js"></script>
+                <!-- include MSA js + css -->
+                <script src="http://cdn.bio.sh.s3.eu-central-1.amazonaws.com/msa/latest/msa.min.gz.js"></script>
+                <!-- Style -->
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+                <link href="https://raw.githubusercontent.com/benhid/pyM2SA/gh-pages/lib/css/site.css" media="screen" rel="stylesheet" type="text/css" />
+                <style>
+                    * {
+                      box-sizing: border-box
+                    }
+        
+                    html {
+                      -webkit-font-smoothing: antialiased;
+                      -moz-osx-font-smoothing: grayscale;
+                      font-family: 'Open Sans', sans-serif;
+                      line-height: 1.6;
+                      color: #666;
+                      background: #F6F6F6;
+                    }
+        
+                    img {
+                      display: block;
+                      max-width: 100%;
+                    }
+        
+                    .logo{
+                      margin: 0.5rem auto;
+                      padding: 0.5rem 2.5rem;
+                    }
+        
+                    h1 {
+                      text-align: center;
+                      padding: 0.5rem 2.5rem;
+                      background-image: linear-gradient(120deg, #d64744 0%, #ff7c00 100%);
+                      margin: 0 0 2rem 0;
+                      font-size: 1.1rem;
+                      color: white;
+                    }
+        
+        
+                    h2 {
+                      text-align: center;
+                      padding: 0.5rem 2.5rem;
+                      background-image: linear-gradient(120deg, #990099 0%, #b72075 100%);
+                      margin: 0 0 2rem 0;
+                      font-size: 1.1rem;
+                      color: white;
+                    }
+        
+        
+                    p {
+                      padding: 0 2.5rem 1.5rem;
+                      margin: 0;
+                    }
+        
+                    .card {
+                      margin: 1rem;
+                      background: white;
+                      box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+                      border-radius: 12px;
+                      overflow: hidden;
+                      transition: all .2s linear;
+                    }
+        
+                    .card:hover {
+                      box-shadow: 2px 8px 45px rgba(0, 0, 0, .20);
+                    }
+        
+                    .btn {
+                      border-radius: 5px;
+                      padding: 2px 20px;
+                      text-decoration: none;
+                      color: #fff;
+                      position: relative;
+                      display: inline-block;
+                    }
+        
+                    .btn:active {
+                      transform: translate(0px, 3px);
+                      -webkit-transform: translate(0px, 3px);
+                      box-shadow: 0px 1px 0px 0px;
+                    }
+        
+                    .orange {
+                      background-image: linear-gradient(120deg, #e15631 0%, #ff7c00 100%);
+                      box-shadow: 0px 3px 0px 0px #e15631;
+                    }
+        
+                    .purple {
+                      background-image: linear-gradient(120deg, #990099 0%, #b72075 100%);
+                      box-shadow: 0px 3px 0px 0px #990099;
+                    }
+        
+                    .grid-container {
+                      margin: 2rem auto;
+                      display: grid;
+                      grid-template-columns: 100%; /*25% 10% auto auto;*/
+                      grid-template-rows: auto;
+                    }
+        
+                    .grid-container > div {
+                    }
+        
+                    .float{
+                      position:fixed;
+                      right:40px;
+                      bottom:40px;
+                    }
+        
+                    .bk-root{
+                        padding: 0 2.5rem 1.5rem;
+                        margin: 0;
+                    }
+        
+                    .msaviewer{
+                        padding: 0 2.5rem 1.5rem;
+                        margin: 0;
+                    }
+        
+                    .smenubar .smenubar_alink {
+                        background: #b72075;
+                        border-radius: 5px;
+                        padding: 2px 20px;
+                        text-decoration: none;
+                        background-image: none;
+                        color: #fff;
+                        padding: 3px 10px;
+                        margin-left: 10px;
+                        text-decoration: none;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="grid-container">
+                    <div class="item" style="align-self: center">
+                        <a href="https://benhid.github.io/pyM2SA/"><img src="https://raw.githubusercontent.com/benhid/pyM2SA/gh-pages/lib/img/pym2sa.png" class="logo"/></a>
+                    </div>
+                </div>
+        
+                <div class="container">
+                    <div class="card">
+                        <h1>Plot</h1>
+                        ''' + self.export(include_plotlyjs=False) + '''
+                    </div>
+        
+                    <div class="card">
+                        <h2>MSA Viewer</h2>
+                        <p>
+                            <div id="menuDiv" class="msaviewer"></div>
+                            <div id="rootDiv" class="msaviewer">Select solution.</div>
+                        </p>
+                    </div>
+                </div>
+        
+                <script>                
+                    var myPlot = document.getElementsByClassName('plotly-graph-div js-plotly-plot')[0];
+                    myPlot.on('plotly_click', function(data){
+                        var pts = '';
 
-    def __initialize(self) -> None:
-        """ Set-up tools for plot. """
-        code = '''
-            selected = source.selected['1d']['indices'][0]
-            var str = source.data.str[selected]
-            console.log(str)
-            
-            // read msa            
-            var opts = {
-                el: document.getElementById("rootDiv"),
-                seqs: msa.io.fasta.parse(str),
-                vis: {
-                    conserv: false,
-                    overviewbox: false,
-                    seqlogo: true
-                },
-                conf: {
-                    dropImport: true,
-                    debug: false,
-                },
-                zoomer: {
-                    menuFontsize: "12px",
-                    autoResize: true
-                }
-            };
+                        for(var i=0; i < data.points.length; i++){
+                            pts = '(x, y) = ('+data.points[i].x +', '+ data.points[i].y.toPrecision(4)+')';
+                            multiple_seq = data.points[i].customdata
+                            if(multiple_seq == undefined) multiple_seq = "";
+                        }
+                        
+                        // read msa            
+                        var opts = {
+                            el: document.getElementById("rootDiv"),
+                            seqs: msa.io.fasta.parse(multiple_seq),
+                            vis: {
+                                conserv: false,
+                                overviewbox: false,
+                                seqlogo: true
+                            },
+                            conf: {
+                                dropImport: true,
+                                debug: false,
+                            },
+                            zoomer: {
+                                menuFontsize: "12px",
+                                autoResize: true
+                            }
+                        };
+                        // init msa
+                        var m = new msa.msa(opts);
+                        renderMSA();
+                        
+                        function renderMSA() {
+                            // the menu is independent to the MSA container
+                            var menuOpts = {
+                                el: document.getElementById('menuDiv'),
+                                msa: m
+                            };
+                            var defMenu = new msa.menu.defaultmenu(menuOpts);
+                            m.addView("menu", defMenu);
+                
+                            // call render at the end to display the whole MSA
+                            m.render();
+                        }
+                    });
+                </script>
+            </body>
+        </html>'''
 
-            // init msa
-            var m = new msa.msa(opts);
-            renderMSA();
-            
-            function renderMSA() {
-                // the menu is independent to the MSA container
-                var menuOpts = {
-                    el: document.getElementById('menuDiv'),
-                    msa: m
-                };
-                var defMenu = new msa.menu.defaultmenu(menuOpts);
-                m.addView("menu", defMenu);
-    
-                // call render at the end to display the whole MSA
-                m.render();
-            }
-        '''
-
-        callback = CustomJS(args=dict(source=self.source), code=code)
-        self.plot_tools = [TapTool(callback=callback), WheelZoomTool(), 'save', 'pan',
-                           HoverTool(tooltips=[("index", "$index"), ("(x,y)", "($x, $y)")])]
-
-    def plot(self, solution_list: List[S], output: str='') -> None:
-        # This is important to purge data (if any) between calls
-        reset_output()
-
-        # Set up figure
-        self.figure_xy = Figure(output_backend='webgl', sizing_mode='scale_width', title=self.plot_title,
-                                tools=self.plot_tools)
-        self.figure_xy.scatter(x='x', y='y', legend='solution', fill_alpha=0.7, source=self.source)
-        self.figure_xy.xaxis.axis_label = self.xaxis_label
-        self.figure_xy.yaxis.axis_label = self.yaxis_label
-
-        x_values, y_values, _ = self.get_objectives(solution_list)
-
-        # Push data to server
-        self.source.stream({'x': [-v for v in x_values], 'y': [-v for v in y_values],
-                            'str': [s.__str__() for s in solution_list]})
-        self.doc.add_root(column(self.figure_xy))
-
-        self.client.push(self.doc)
-
-        if output:
-            self.__save(output)
-
-    def __save(self, file_name: str):
-        BASE_PATH = dirname(join(dirname(__file__)))
-
-        env = Environment(loader=FileSystemLoader(BASE_PATH + '/util/'))
-        env.filters['json'] = lambda obj: Markup(json.dumps(obj))
-
-        html = file_html(models=self.doc, resources=CDN, template=env.get_template('file.html'))
-        with open(file_name + '.html', 'w') as of:
-            of.write(html)
-
-    def disconnect(self):
-        if self.is_connected():
-            self.client.close()
-
-    def is_connected(self) -> bool:
-        return self.client.connected
+        with open(filename + '.html', 'w') as outf:
+            outf.write(html_string)

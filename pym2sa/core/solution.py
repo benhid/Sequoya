@@ -1,27 +1,27 @@
 from jmetal.core.solution import Solution
 
-GAP_IDENTIFIER = '-'
-
 
 class MSASolution(Solution[str]):
     """ Class representing MSA solutions """
 
-    def __init__(self, aligned_sequences: list, number_of_objectives: int) -> None:
-        super(MSASolution, self).__init__(number_of_variables=len(aligned_sequences),
-                                          number_of_objectives=number_of_objectives)
+    GAP_IDENTIFIER = '-'
 
-        self.original_sequences = list(pair[1] for pair in aligned_sequences)
-        self.sequences_names = list(pair[0] for pair in aligned_sequences)
+    def __init__(self, problem, msa: list) -> None:
+        super(MSASolution, self).__init__(number_of_variables=problem.number_of_variables,
+                                          number_of_objectives=problem.number_of_objectives)
+
+        self.sequences_names = problem.sequences_names
         self.gaps_groups = [[] for _ in range(self.number_of_variables)]
-        self.encode_alignment(self.original_sequences)
+
+        self.encode_alignment(list(pair[1] for pair in msa))
 
     def encode_alignment(self, aligned_sequences: list):
-        # for each aligned sequence
+        # for each bb3_aligned sequence
         for index, seq in enumerate(aligned_sequences):
             # get gaps groups
             self.gaps_groups[index] = self.__get_gaps_group_of_sequence(seq)
             # get encoded sequence
-            self.variables[index] = seq.replace(GAP_IDENTIFIER, "")
+            self.variables[index] = seq.replace(self.GAP_IDENTIFIER, "")
 
     def decode_sequence_at_index(self, seq_index: int):
         return self.__decode(self.variables[seq_index], self.gaps_groups[seq_index])

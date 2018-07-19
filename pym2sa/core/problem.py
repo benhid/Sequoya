@@ -1,3 +1,5 @@
+from abc import ABCMeta, abstractmethod
+
 from jmetal.core.problem import Problem
 
 from pym2sa.core.solution import MSASolution
@@ -6,8 +8,15 @@ from pym2sa.core.solution import MSASolution
 class MSAProblem(Problem[MSASolution]):
     """ Class representing MSA problems """
 
-    def evaluate(self, solution: MSASolution) -> None:
+    __metaclass__ = ABCMeta
+
+    def __init__(self):
+        super(MSAProblem, self).__init__(reference_front_path='')
+        self.number_of_constraints = 0
+
+    @abstractmethod
+    def evaluate(self, solution: MSASolution) -> MSASolution:
         pass
 
-    def create_solution(self) -> None:
-        pass
+    def get_name(self) -> str:
+        return 'Multiple Sequence Alignment problem'

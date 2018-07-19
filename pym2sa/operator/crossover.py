@@ -6,10 +6,10 @@ from jmetal.core.operator import Crossover
 from pym2sa.core.solution import MSASolution
 
 
-class SPXMSA(Crossover[MSASolution, MSASolution]):
+class SPXMSA(Crossover[List[MSASolution], MSASolution]):
     """ Implements a single point crossover for MSA representation. """
 
-    def __init__(self, probability: float, remove_gap_columns: bool = True) -> None:
+    def __init__(self, probability: float, remove_gap_columns: bool=True) -> None:
         super(SPXMSA, self).__init__(probability=probability)
 
         self.remove_full_of_gap_columns = remove_gap_columns
@@ -17,7 +17,7 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
 
     def execute(self, parents: List[MSASolution]) -> List[MSASolution]:
         if len(parents) != 2:
-            raise Exception("The number of parents is not two (2) but " + str(len(parents)))
+            raise Exception('The number of parents is not two (2) but {}'.format(len(parents)))
 
         return self.do_crossover(parents)
 
@@ -119,12 +119,12 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
 
         # Sanity check: alignment is valid (same length for all sequences)
         if not offspring_1.is_valid_msa():
-            raise Exception("Offspring 1 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}"
+            raise Exception('Offspring 1 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}'
                             .format(parents[0].decode_alignment_as_list_of_sequences(), parents[1].decode_alignment_as_list_of_sequences(), cx_point,
                                     offspring_1.decode_alignment_as_list_of_sequences(), offspring_2.decode_alignment_as_list_of_sequences(),
                                     cutting_points_in_first_parent, column_positions_in_second_parent))
         if not offspring_2.is_valid_msa():
-            raise Exception("Offspring 2 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}"
+            raise Exception('Offspring 2 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}'
                             .format(parents[0].decode_alignment_as_list_of_sequences(), parents[1].decode_alignment_as_list_of_sequences(), cx_point,
                                     offspring_1.decode_alignment_as_list_of_sequences(), offspring_2.decode_alignment_as_list_of_sequences(),
                                     cutting_points_in_first_parent, column_positions_in_second_parent))
@@ -145,7 +145,7 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
         """ Given a symbol position, finds the corresponding position of the symbol in the original
         sequence if gaps are not taken into account. If the symbol is a gap the returned value is -1 """
         if position > solution.get_length_of_alignment():
-            raise Exception("Position {0} is larger than the sequence size {1}".format(position, solution.get_length_of_alignment()))
+            raise Exception('Position {0} is larger than the sequence size {1}'.format(position, solution.get_length_of_alignment()))
 
         if not solution.is_gap_char_at_sequence(seq_index, position):
             symbol_position = solution.get_char_position_in_original_sequence(seq_index, position)
@@ -203,3 +203,6 @@ class SPXMSA(Crossover[MSASolution, MSASolution]):
 
     def get_number_of_parents(self) -> int:
         return 2
+
+    def get_name(self) -> str:
+        return 'Simplex Crossover for MSA'
