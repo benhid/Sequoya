@@ -21,7 +21,7 @@ class NSGA2MSA(NSGAII[S, R]):
                  crossover: Crossover[S, S],
                  selection: Selection[List[S], S],
                  evaluator: Evaluator = SequentialEvaluator()):
-        super().__init__(problem, population_size, max_evaluations, mutation, crossover, selection, evaluator)
+        super(NSGA2MSA, self).__init__(problem, population_size, max_evaluations, mutation, crossover, selection, evaluator)
 
     def create_initial_population(self) -> List[MSASolution]:
         return self.problem.import_instance(self.population_size)

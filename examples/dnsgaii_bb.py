@@ -19,7 +19,7 @@ if __name__ == '__main__':
     algorithm = dNSGA2MSA(
         problem=problem,
         population_size=100,
-        max_evaluations=25000,
+        max_evaluations=100,
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),

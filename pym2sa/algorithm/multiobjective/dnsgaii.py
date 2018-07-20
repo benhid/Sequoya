@@ -35,7 +35,7 @@ class dNSGAII(Generic[S, R]):
                  crossover: Crossover[S, S],
                  selection: Selection[List[S], S],
                  number_of_cores: int,
-                 client: Client = Client()):
+                 client: Client):
         self.problem = problem
         self.population_size = population_size
         self.max_evaluations = max_evaluations
@@ -116,7 +116,7 @@ class dNSGAII(Generic[S, R]):
                         task_pool.add(new_task)
 
                 if self.evaluations % 100 == 0:
-                    print("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations))
+                    logger.info("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations))
 
         self.total_computing_time = time.time() - start_computing_time
         self.population = population
@@ -136,10 +136,10 @@ class dNSGAII(Generic[S, R]):
 class dNSGA2MSA(dNSGAII[S, R]):
 
     def create_initial_population(self) -> List[MSASolution]:
-        return self.problem.import_instance(self.population_size)
+        return self.problem.import_instance(self.number_of_cores)
 
     def run(self):
-        logger.info('Creating initial population...')
+        logger.info('Importing initial population')
         population = self.create_initial_population()
 
         start_computing_time = time.time()
@@ -150,7 +150,7 @@ class dNSGA2MSA(dNSGAII[S, R]):
 
         task_pool = as_completed(futures)
 
-        # MAIN LOOP
+        logger.info('Running main loop')
         while self.evaluations < self.max_evaluations:
             for future in task_pool:
                 self.evaluations += 1
@@ -190,8 +190,10 @@ class dNSGA2MSA(dNSGAII[S, R]):
                     new_task = self.client.submit(self.problem.evaluate, solution_to_evaluate)
                     task_pool.add(new_task)
 
+                print(self.evaluations)
+
                 if self.evaluations % 100 == 0:
-                    print("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations))
+                    logger.info("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations))
 
         self.total_computing_time = time.time() - start_computing_time
         self.population = population

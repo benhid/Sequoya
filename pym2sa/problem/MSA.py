@@ -22,7 +22,7 @@ class MSA(MSAProblem):
     def create_solution(self) -> List[MSASolution]:
         raise NotImplementedError()
 
-    def evaluate(self, solution: MSASolution):
+    def evaluate(self, solution: MSASolution) -> MSASolution:
         solution.remove_full_of_gaps_columns()
 
         for i, score in enumerate(self.score_list):
@@ -30,6 +30,8 @@ class MSA(MSAProblem):
                 solution.objectives[i] = score.compute(solution.decode_alignment_as_list_of_sequences())
             else:
                 solution.objectives[i] = -1.0 * score.compute(solution.decode_alignment_as_list_of_sequences())
+
+        return solution
 
     def get_name(self) -> str:
         return 'Multiple Sequence Alignment problem'

@@ -17,7 +17,7 @@ This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) alg
 > "M2Align: parallel multiple sequence alignment with a multi-objective metaheuristic". Cristian Zambrano-Vega, Antonio J. Nebro José García-Nieto, José F. Aldana-Montes. Bioinformatics, Volume 33, Issue 19, 1 October 2017, Pages 3011–3017 ([DOI](https://doi.org/10.1093/bioinformatics/btx338)).
 
 ## Features
-* The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA) (v1.0.0):
+* The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA) (v0.5.0):
     * Sum of pairs,
     * Star,
     * Minimum entropy,
@@ -40,6 +40,7 @@ To download and install pyM<sup>2</sup>SA just clone the Git repository hosted i
 
 ```bash
 $ git clone https://github.com/benhid/pyM2SA.git
+$ cd pyM2SA
 $ python setup.py install
 ```
 

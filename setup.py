@@ -7,13 +7,16 @@ except ImportError:
 
 setup(
     name='pyM2SA',
-    version='0.3.0',
+    version='0.5.0',
     description='Solving Multiple Sequence Alignments with Python',
-    url='https://github.com/benhid/pyM2SA',
     author='Antonio Benítez-Hidalgo',
     author_email='antonio.b@uma.es',
-    license='MIT',
+    maintainer='Antonio Benítez-Hidalgo',
+    maintainer_email='antonio.b@uma.es',
     python_requires='>=3',
+    license='MIT',
+    url='https://github.com/benhid/pyM2SA',
+    long_description=open('README.md').read(),
     packages=find_packages(exclude=["test.*", "tests"]),
     classifiers=[
         'Development Status :: 3 - Alpha',

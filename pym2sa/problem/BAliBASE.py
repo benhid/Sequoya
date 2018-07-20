@@ -33,17 +33,6 @@ class BAliBASE(MSA):
     def create_solution(self) -> List[MSASolution]:
         raise NotImplementedError()
 
-    def __read_original_sequences(self):
-        bb3_release_path = self.__compute_path('bb3_release')
-
-        if os.path.isdir(bb3_release_path):
-            fasta_file = read_fasta_file_as_list_of_pairs(self.instance + '.tfa', bb3_release_path)
-            self.sequences_names = list(pair[0] for pair in fasta_file)
-            self.number_of_variables = len(self.sequences_names)
-            self.original_sequences = fasta_file
-        else:
-            raise Exception('Instance not found. Invalid path provided? {}'.format(bb3_release_path))
-
     def import_instance(self, population_size: int) -> List[MSASolution]:
         self.__read_original_sequences()
 
@@ -97,16 +86,27 @@ class BAliBASE(MSA):
 
             population.append(offspring[0])
             population.append(offspring[1])
-            logger.info('Population incremented by 2; new population {0}'.format(len(population)))
+            logger.info('Population incremented by 2; new population {}'.format(len(population)))
 
-        logger.info('Population incremented to: {0}'.format(len(population)))
+        logger.info('Population incremented to: {}'.format(len(population)))
 
-        with open('INITIAL_POPULATION_{0}'.format(self.get_name()), 'w') as of:
+        with open('INITIAL_POPULATION_{}'.format(self.get_name()), 'w') as of:
             for solution in population:
                 of.write(str(solution) + " ")
                 of.write("\n")
 
         return population
+
+    def __read_original_sequences(self):
+        bb3_release_path = self.__compute_path('bb3_release')
+
+        if os.path.isdir(bb3_release_path):
+            fasta_file = read_fasta_file_as_list_of_pairs(self.instance + '.tfa', bb3_release_path)
+            self.sequences_names = list(pair[0] for pair in fasta_file)
+            self.number_of_variables = len(self.sequences_names)
+            self.original_sequences = fasta_file
+        else:
+            raise Exception('Instance not found. Invalid path provided? {}'.format(bb3_release_path))
 
     def __compute_path(self, directory: str) -> str:
         return os.path.join(self.balibase_path, directory, 'RV' + self.instance[2:4] + '/')
