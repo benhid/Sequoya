@@ -1,3 +1,4 @@
+import logging
 from typing import List, TypeVar, Generic
 import time
 
@@ -7,6 +8,9 @@ from jmetal.operator import RankingAndCrowdingDistanceSelection
 from dask.distributed import Client, as_completed
 
 from pym2sa.core.solution import MSASolution
+from pym2sa.problem import MSA
+
+logger = logging.getLogger('pyM2SA')
 
 S = TypeVar('S')
 R = TypeVar(List[S])
@@ -31,7 +35,7 @@ class dNSGAII(Generic[S, R]):
                  crossover: Crossover[S, S],
                  selection: Selection[List[S], S],
                  number_of_cores: int,
-                 client: Client):
+                 client: Client = Client()):
         self.problem = problem
         self.population_size = population_size
         self.max_evaluations = max_evaluations
@@ -120,22 +124,22 @@ class dNSGAII(Generic[S, R]):
     def check_population(self, join_population: []):
         for solution in join_population:
             if solution is None:
-                raise Exception("Solution is none")
-
-    def get_name(self) -> str:
-        return "dNSGA-II"
+                raise Exception('Solution is none')
 
     def get_result(self) -> R:
         return self.population
+
+    def get_name(self) -> str:
+        return 'Dynamic Non-dominated Sorting Genetic Algorithm II'
 
 
 class dNSGA2MSA(dNSGAII[S, R]):
 
     def create_initial_population(self) -> List[MSASolution]:
-        population = self.problem.create_solution()
-        return population
+        return self.problem.import_instance(self.population_size)
 
     def run(self):
+        logger.info('Creating initial population...')
         population = self.create_initial_population()
 
         start_computing_time = time.time()

@@ -1,44 +1,38 @@
-import logging
-
-from dask.distributed import Client
-from jmetal.operator.selection import BinaryTournamentSelection
-from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
+from jmetal.component import RankingAndCrowdingDistanceComparator
+from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
-from pymsa.core.substitution_matrix import PAM250
+from dask.distributed import Client
 
-from pym2sa.algorithm.multiobjective.dnsgaii import dNSGA2MSA
-from pym2sa.problem.BalibaseMSA import BAliBASE
-from pym2sa.operator.crossover import SPXMSA
-from pym2sa.operator.mutation import TwoRandomAdjacentGapGroup, ShiftGapGroup, MultipleMSAMutation
-
-
-def main() -> None:
-    score_list = [SumOfPairs(PAM250()), PercentageOfTotallyConservedColumns()]
-    problem = BAliBASE(instance='BB12010', score_list=score_list)
-
-    algorithm = dNSGA2MSA(
-        problem=problem,
-        population_size=100,
-        max_evaluations=10000,
-        mutation=MultipleMSAMutation([ShiftGapGroup(1.0), TwoRandomAdjacentGapGroup(1.0)], probability=0.2),
-        crossover=SPXMSA(probability=0.8),
-        selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        number_of_cores=8,
-        client=Client('192.168.1.136:8786')
-    )
-
-    algorithm.run()
-    print("Computing time: " + str(algorithm.total_computing_time))
+from pym2sa.algorithm import dNSGA2MSA
+from pym2sa.problem import BAliBASE
+from pym2sa.operator import SPXMSA, ShiftClosedGapGroups
+from pym2sa.util.graphic import MSAPlot
 
 
 if __name__ == '__main__':
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s",
-        handlers=[
-            logging.FileHandler('jmetalpy.log'),
-            logging.StreamHandler()
-        ]
+    # Creates the problem
+    problem = BAliBASE(instance='BB12010', balibase_path='../resources',
+                       score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
+    problem.obj_labels = ['TC', 'SOP']
+
+    # Creates the algorithm
+    algorithm = dNSGA2MSA(
+        problem=problem,
+        population_size=100,
+        max_evaluations=25000,
+        mutation=ShiftClosedGapGroups(probability=0.2),
+        crossover=SPXMSA(probability=0.8),
+        selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
+        number_of_cores=8,
+        client=Client()
     )
 
-    main()
+    algorithm.run()
+    front = algorithm.get_result()
+
+    # Plot the solution
+    pareto_front = MSAPlot(plot_title='NSGAII for ' + problem.instance, axis_labels=problem.obj_labels)
+    pareto_front.plot(front)
+    pareto_front.to_html(filename='NSGAII-' + problem.instance)
+
+    print('Computing time: ' + str(algorithm.total_computing_time))

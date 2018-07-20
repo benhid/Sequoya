@@ -1,6 +1,5 @@
 from jmetal.component import SequentialEvaluator, ProgressBarObserver, RankingAndCrowdingDistanceComparator
 from jmetal.operator import BinaryTournamentSelection
-from jmetal.core.problem import Problem
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
 from pym2sa.algorithm import NSGA2MSA
@@ -20,7 +19,7 @@ if __name__ == '__main__':
         problem=problem,
         population_size=100,
         max_evaluations=25000,
-        mutation=ShiftClosedGapGroups(0.2),
+        mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         evaluator=SequentialEvaluator()
