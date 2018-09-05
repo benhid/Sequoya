@@ -11,19 +11,22 @@ from pym2sa.util.graphic import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(instance='BB12010', balibase_path='../resources',
+    problem = BAliBASE(instance='BB12001', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
     problem.obj_labels = ['TC', 'SOP']
+
+    # Setup Dask client
+    client = Client('dask-scheduler-id:8786')
+    client.upload_file('pyM2SA.egg')
 
     # Creates the algorithm
     algorithm = dNSGA2MSA(
         problem=problem,
-        population_size=100,
-        max_evaluations=100,
+        max_evaluations=25000,
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        number_of_cores=8,
+        number_of_cores=100,
         client=Client()
     )
 
