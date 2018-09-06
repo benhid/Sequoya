@@ -283,14 +283,7 @@ class MSASolution(Solution[str]):
             gaps_group = self.gaps_groups[seq_index]
 
             for j in range(0, len(gaps_group) - 1, 2):
-                if gaps_group[j + 1] != gaps_group[j]:
-                    length_of_gaps += gaps_group[j + 1] - gaps_group[j] + 1
-                else:
-                    length_of_gaps += 1
-
-            # length_of_gaps = \
-            #    sum([self.gaps_groups[seq_index][j+1] - self.gaps_groups[seq_index][j] for j in
-            #         range(0, len(self.gaps_groups[seq_index]) - 1, 2)]) + 1
+                length_of_gaps += gaps_group[j + 1] - gaps_group[j] + 1
 
         return length_of_gaps
 
