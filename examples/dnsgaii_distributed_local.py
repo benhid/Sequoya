@@ -1,4 +1,4 @@
-from jmetal.component import RankingAndCrowdingDistanceComparator, ProgressBarObserver
+from jmetal.component import RankingAndCrowdingDistanceComparator
 from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 from dask.distributed import Client, LocalCluster
@@ -29,9 +29,6 @@ if __name__ == '__main__':
         number_of_cores=100,
         client=client
     )
-
-    progress_bar = ProgressBarObserver(step=100, maximum=25000)
-    algorithm.observable.register(progress_bar)
 
     algorithm.run()
     front = algorithm.get_result()
