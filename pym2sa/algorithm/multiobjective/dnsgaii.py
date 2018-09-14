@@ -192,7 +192,7 @@ class dNSGA2MSA(dNSGAII[S, R]):
 
                     task_pool.add(new_task)
 
-                logger.info("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations))
+                logger.info("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations) + ". Time: " + str(self.get_current_computing_time()))
 
                 self.update_progress()
 
