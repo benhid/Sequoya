@@ -1,136 +1,236 @@
-import os
-import webbrowser
 import logging
-from typing import List, TypeVar
+from typing import TypeVar
 
-from jmetal.util.graphic import ScatterPlot
+from jmetal.util import FrontPlot
 
-from pym2sa.core.solution import MSASolution
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
+logger = logging.getLogger('pyM2SA')
 S = TypeVar('S')
-R = TypeVar(List[S])
 
 
-class ScatterPlotMSA(ScatterPlot):
+class MSAPlot(FrontPlot):
 
-    def retrieve_info(self, solution: MSASolution):
-        """ Let us specify the information that we want to retrieve from the points by clicking. """
-        logger.info('Saving into file...')
+    def __init__(self, plot_title: str, axis_labels: list = None):
+        """ Creates a new :class:`MSAPlot` instance. Suitable for problems with 2 or more objectives.
 
-        file_name = "solution-" + str(solution.objectives[0]) + "-" + str(solution.objectives[1])
+        :param plot_title: Title of the graph.
+        :param axis_labels: List of axis labels. """
+        super(MSAPlot, self).__init__(plot_title, axis_labels)
 
-        # Save solution to file
-        with open(file_name + ".txt", 'w') as output:
-            for i in range(0, solution.number_of_variables):
-                output.write('>{0}\n{1}\n'.format(solution.header[i], solution.variables[i]))
-            output.write('Scores: Sum of pairs = {0}, Percentage of non-gaps = {1}%'
-                         .format(solution.objectives[0], solution.objectives[1]))
+    def to_html(self, filename: str = 'front') -> None:
+        """ Export the graph to an interactive HTML (solutions can be selected to show some metadata).
 
-        # Save solution to .html
-        with open(file_name + ".html", 'w') as output:
-            fasta = ""
+        :param filename: Output file name. """
+        html_string = '''
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="utf-8">
+                <title>pyM2SA</title>
+                <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+                <script src="https://unpkg.com/sweetalert2@7.7.0/dist/sweetalert2.all.js"></script>
+                <!-- include MSA js + css -->
+                <script src="http://cdn.bio.sh.s3.eu-central-1.amazonaws.com/msa/latest/msa.min.gz.js"></script>
+                <!-- Style -->
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+                <link href="https://raw.githubusercontent.com/benhid/pyM2SA/gh-pages/lib/css/site.css" media="screen" rel="stylesheet" type="text/css" />
+                <style>
+                    * {
+                      box-sizing: border-box
+                    }
+        
+                    html {
+                      -webkit-font-smoothing: antialiased;
+                      -moz-osx-font-smoothing: grayscale;
+                      font-family: 'Open Sans', sans-serif;
+                      line-height: 1.6;
+                      color: #666;
+                      background: #F6F6F6;
+                    }
+        
+                    img {
+                      display: block;
+                      max-width: 100%;
+                    }
+        
+                    .logo{
+                      margin: 0.5rem auto;
+                      padding: 0.5rem 2.5rem;
+                    }
+        
+                    h1 {
+                      text-align: center;
+                      padding: 0.5rem 2.5rem;
+                      background-image: linear-gradient(120deg, #d64744 0%, #ff7c00 100%);
+                      margin: 0 0 2rem 0;
+                      font-size: 1.1rem;
+                      color: white;
+                    }
+        
+        
+                    h2 {
+                      text-align: center;
+                      padding: 0.5rem 2.5rem;
+                      background-image: linear-gradient(120deg, #990099 0%, #b72075 100%);
+                      margin: 0 0 2rem 0;
+                      font-size: 1.1rem;
+                      color: white;
+                    }
+        
+        
+                    p {
+                      padding: 0 2.5rem 1.5rem;
+                      margin: 0;
+                    }
+        
+                    .card {
+                      margin: 1rem;
+                      background: white;
+                      box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+                      border-radius: 12px;
+                      overflow: hidden;
+                      transition: all .2s linear;
+                    }
+        
+                    .card:hover {
+                      box-shadow: 2px 8px 45px rgba(0, 0, 0, .20);
+                    }
+        
+                    .btn {
+                      border-radius: 5px;
+                      padding: 2px 20px;
+                      text-decoration: none;
+                      color: #fff;
+                      position: relative;
+                      display: inline-block;
+                    }
+        
+                    .btn:active {
+                      transform: translate(0px, 3px);
+                      -webkit-transform: translate(0px, 3px);
+                      box-shadow: 0px 1px 0px 0px;
+                    }
+        
+                    .orange {
+                      background-image: linear-gradient(120deg, #e15631 0%, #ff7c00 100%);
+                      box-shadow: 0px 3px 0px 0px #e15631;
+                    }
+        
+                    .purple {
+                      background-image: linear-gradient(120deg, #990099 0%, #b72075 100%);
+                      box-shadow: 0px 3px 0px 0px #990099;
+                    }
+        
+                    .grid-container {
+                      margin: 2rem auto;
+                      display: grid;
+                      grid-template-columns: 100%; /*25% 10% auto auto;*/
+                      grid-template-rows: auto;
+                    }
+        
+                    .grid-container > div {
+                    }
+        
+                    .float{
+                      position:fixed;
+                      right:40px;
+                      bottom:40px;
+                    }
+        
+                    .bk-root{
+                        padding: 0 2.5rem 1.5rem;
+                        margin: 0;
+                    }
+        
+                    .msaviewer{
+                        padding: 0 2.5rem 1.5rem;
+                        margin: 0;
+                    }
+        
+                    .smenubar .smenubar_alink {
+                        background: #b72075;
+                        border-radius: 5px;
+                        padding: 2px 20px;
+                        text-decoration: none;
+                        background-image: none;
+                        color: #fff;
+                        padding: 3px 10px;
+                        margin-left: 10px;
+                        text-decoration: none;
+                    }
+                </style>
+            </head>
+            <body>
+                <div class="grid-container">
+                    <div class="item" style="align-self: center">
+                        <a href="https://benhid.github.io/pyM2SA/"><img src="https://raw.githubusercontent.com/benhid/pyM2SA/gh-pages/lib/img/pym2sa.png" class="logo"/></a>
+                    </div>
+                </div>
+        
+                <div class="container">
+                    <div class="card">
+                        <h1>Plot</h1>
+                        ''' + self.export(include_plotlyjs=False) + '''
+                    </div>
+        
+                    <div class="card">
+                        <h2>MSA Viewer</h2>
+                        <p>
+                            <div id="menuDiv" class="msaviewer"></div>
+                            <div id="rootDiv" class="msaviewer">Select solution.</div>
+                        </p>
+                    </div>
+                </div>
+        
+                <script>                
+                    var myPlot = document.getElementsByClassName('plotly-graph-div js-plotly-plot')[0];
+                    myPlot.on('plotly_click', function(data){
+                        var pts = '';
 
-            for i in range(0, solution.number_of_variables):
-                fasta = fasta + ('>{0}\n{1}\n'.format(solution.header[i], solution.variables[i]))
+                        for(var i=0; i < data.points.length; i++){
+                            pts = '(x, y) = ('+data.points[i].x +', '+ data.points[i].y.toPrecision(4)+')';
+                            multiple_seq = data.points[i].customdata
+                            if(multiple_seq == undefined) multiple_seq = "";
+                        }
+                        
+                        // read msa            
+                        var opts = {
+                            el: document.getElementById("rootDiv"),
+                            seqs: msa.io.fasta.parse(multiple_seq),
+                            vis: {
+                                conserv: false,
+                                overviewbox: false,
+                                seqlogo: true
+                            },
+                            conf: {
+                                dropImport: true,
+                                debug: false,
+                            },
+                            zoomer: {
+                                menuFontsize: "12px",
+                                autoResize: true
+                            }
+                        };
+                        // init msa
+                        var m = new msa.msa(opts);
+                        renderMSA();
+                        
+                        function renderMSA() {
+                            // the menu is independent to the MSA container
+                            var menuOpts = {
+                                el: document.getElementById('menuDiv'),
+                                msa: m
+                            };
+                            var defMenu = new msa.menu.defaultmenu(menuOpts);
+                            m.addView("menu", defMenu);
+                
+                            // call render at the end to display the whole MSA
+                            m.render();
+                        }
+                    });
+                </script>
+            </body>
+        </html>'''
 
-            output.write("""
-                            <!DOCTYPE html>
-                            <html lang="en">
-                                <head>
-                                    <meta charset="UTF-8">
-                                    <meta name="description" content="MSA Viewer" />
-
-                                    <!-- include MSA js + css -->
-                                    <script src="http://cdn.bio.sh.s3.eu-central-1.amazonaws.com/msa/latest/msa.min.gz.js"></script>
-                                    <!-- Bootstrap Core CSS -->
-                                    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-                                    <style>
-                                        body {
-                                            display: block;
-                                            margin: 8px;
-                                        }
-                                    </style>
-                                </head>
-
-                                <body>
-                                    <div class="container-fluid">
-                                        <div class="page-header">
-                                            <h1>MSA <small>Multiple Sequence Alignment</small></h1>
-                                        </div>
-                                        <div class="alert alert-info" role="alert">
-                                          <span class="glyphicon glyphicon-flash" aria-hidden="true"></span> This document was automatically generated by <a href="https://github.com/jMetal/jMetalPy" class="alert-link">jMetalPy</a>. It represents one solution of a MSA problem.
-                                        </div>
-
-                                        <div class="panel panel-info"> 
-                                            <div class="panel-heading"> 
-                                                <h3 class="panel-title">Scores</h3> 
-                                            </div> 
-                                            <div class="panel-body"> 
-                                                <p>Sum of pairs: <span class="badge">""" + str(solution.objectives[0]) + """</span></p>
-                                                <p>Percentage of non-gaps: <span class="badge">""" + str(solution.objectives[1]) + """</span></p>
-                                            </div>
-                                        </div>
-
-                                        <div class="panel panel-success">
-                                            <div class="panel-heading">
-                                                <div class="row">
-                                                  <div class="col col-lg-6 col-md-6 col-xs-6">
-                                                    <h3 class="panel-title">Viewer</h3>
-                                                  </div>
-                                                  <div class="col col-lg-6 col-md-6 col-xs-6">
-                                                    <a id="download" download="image.png">
-                                                      <button type="button" class="btn btn-default btn-xs pull-right" onclick="toPNG()">Export MSA image (as PNG)</button>
-                                                    </a>
-                                                  </div>
-                                                </div>
-                                            </div>
-                                            <div class="panel-body">
-                                                <div id="msa" style="overflow-y: auto; overflow-x: hidden;">Loading solution... </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <pre style="display: none" id="fasta-file">""" + fasta + """</pre>
-
-                                    <script>
-                                        var fasta = document.getElementById("fasta-file").innerText;
-
-                                        var opts = {
-                                            el: document.getElementById("yourDiv"),
-                                            vis: {
-                                                conserv: true,
-                                                seqlogo: true
-                                            },
-                                            conf: {
-                                                dropImport: true
-                                            },
-                                            el: document.getElementById("msa"),
-                                            seqs: msa.io.fasta.parse(fasta)
-                                        };
-
-                                        // init msa
-                                        var m = new msa.msa(opts);
-                                        m.render();
-                                    </script>
-                                    <script>
-                                        function toPNG(){
-                                          var download = document.getElementById("download");
-                                          var sequences = document.getElementsByClassName("biojs_msa_seqblock")[0].toDataURL("image/png")
-                                                      .replace("image/png", "image/octet-stream");
-                                          download.setAttribute("href", sequences);
-                                          download.click;
-                                        }
-                                    </script>
-                                </body>
-                            </html>
-                        """)
-
-            logger.info("Opening .HTML ...")
-
-            url = "file:///" + os.path.abspath(os.path.join(os.path.dirname(__file__), '..')) \
-                  + "\\" + file_name + ".html"
-
-            webbrowser.open(url, new=2)
+        with open(filename + '.html', 'w') as outf:
+            outf.write(html_string)

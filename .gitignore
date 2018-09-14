@@ -100,5 +100,11 @@ ENV/
 # mypy
 .mypy_cache/
 
-# IntelliJ
-.idea/
+# idea
+.idea
+
+# pypi
+.pypirc
+
+# Dask
+dask-worker-space
