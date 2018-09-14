@@ -1,6 +1,6 @@
 <p align="center">
   <br/>
-  <img src=resources/pym2sa.png alt="pyM2SA">
+  <img src=resources/pym2sa-new.png alt="pyM2SA">
   <br/>
 </p>
 
