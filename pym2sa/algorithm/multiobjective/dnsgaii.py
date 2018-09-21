@@ -21,7 +21,7 @@ R = TypeVar(List[S])
    :platform: Unix, Windows
    :synopsis: Implementation of dNSGA-II.
 
-.. moduleauthor:: Antonio J. Nebro <antonio@lcc.uma.es>
+.. moduleauthor:: Antonio Benítez-Hidalgo <antonio.b@uma.es>
 """
 
 

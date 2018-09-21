@@ -28,8 +28,8 @@ if __name__ == '__main__':
         #evaluator=ParallelEvaluator(workers=8)
     )
 
-    #progress_bar = ProgressBarObserver(step=100, maximum=25000)
-    #algorithm.observable.register(progress_bar)
+    progress_bar = ProgressBarObserver(step=100, maximum=25000)
+    algorithm.observable.register(progress_bar)
 
     algorithm.run()
     front = algorithm.get_result()

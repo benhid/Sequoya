@@ -16,8 +16,11 @@ if __name__ == '__main__':
     problem.obj_labels = ['TC', 'SOP']
 
     # Setup Dask client
-    client = Client('dask-scheduler-id:8786')
-    client.upload_file('pyM2SA.egg')
+    client = Client('<dask-scheduler-ip>:8786')
+
+    # This method will send (and import) the module up to all worker nodes in the cluster
+    # Note: this file must be created by running `python setup.py bdist_egg`
+    client.upload_file('./pym2sa.egg')
 
     # Creates the algorithm
     algorithm = dNSGA2MSA(
@@ -27,7 +30,7 @@ if __name__ == '__main__':
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         number_of_cores=100,
-        client=Client()
+        client=client
     )
 
     algorithm.run()

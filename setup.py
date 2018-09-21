@@ -27,6 +27,7 @@ setup(
     ],
     install_requires=[
         'jmetalpy==0.5.1',
-        'pymsa==0.5.0'
+        'pymsa==0.5.1',
+        'dask[distributed]==1.23.2'
     ]
 )
