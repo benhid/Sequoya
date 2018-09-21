@@ -15,12 +15,12 @@ if __name__ == '__main__':
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
     problem.obj_labels = ['TC', 'SOP']
 
-    # Setup Dask client
-    client = Client('<dask-scheduler-ip>:8786')
+    # Setup Dask client (web interface will be initialized at http://127.0.0.1:8787/workers)
+    client = Client('192.168.48.222:8786')
 
     # This method will send (and import) the module up to all worker nodes in the cluster
-    # Note: this file must be created by running `python setup.py bdist_egg`
-    client.upload_file('./pym2sa.egg')
+    # Note: this file must be created by running `python setup.py install`
+    client.upload_file('../dist/pym2sa.egg')
 
     # Creates the algorithm
     algorithm = dNSGA2MSA(

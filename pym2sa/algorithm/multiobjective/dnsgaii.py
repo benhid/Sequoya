@@ -1,11 +1,11 @@
 import logging
-from typing import List, TypeVar, Generic
+from typing import List, TypeVar
 import time
 
 from jmetal.core.algorithm import Algorithm
 from jmetal.core.operator import Mutation, Crossover, Selection
 from jmetal.core.problem import Problem
-from jmetal.operator import RankingAndCrowdingDistanceSelection
+from jmetal.operator.selection import RankingAndCrowdingDistanceSelection
 from dask.distributed import Client, as_completed
 
 from pym2sa.core.solution import MSASolution
