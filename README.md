@@ -5,7 +5,7 @@
 </p>
 
 # Solving Multiple Sequence Alignments with Python
-[![Build Status](https://img.shields.io/travis/benhid/pyM2SA.svg?branch=master?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
+[![Build Status](https://img.shields.io/travis/benhid/pyM2SA.svg?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
 [![PyPI License](https://img.shields.io/pypi/l/pyM2SA.svg?style=flat-square)]()
 [![PyPI Python version](https://img.shields.io/pypi/pyversions/pyM2SA.svg?style=flat-square)]()
 
@@ -17,7 +17,7 @@ This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) alg
 > "M2Align: parallel multiple sequence alignment with a multi-objective metaheuristic". Cristian Zambrano-Vega, Antonio J. Nebro José García-Nieto, José F. Aldana-Montes. Bioinformatics, Volume 33, Issue 19, 1 October 2017, Pages 3011–3017 ([DOI](https://doi.org/10.1093/bioinformatics/btx338)).
 
 ## Features
-* The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA) (v0.5.0):
+* The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA) (v0.5.1):
     * Sum of pairs,
     * Star,
     * Minimum entropy,
