@@ -9,18 +9,30 @@ from pym2sa.operator import SPXMSA, ShiftClosedGapGroups
 from pym2sa.util.graphic import MSAPlot
 
 
+def setup_distributed_client(address: str):
+    new_client = Client(address)
+
+    # This method will send (and import) the module up to all worker nodes in the cluster
+    # Note: this file must be created by running `python setup.py install`
+    new_client.upload_file('./pym2sa.egg')
+
+    # Also, each worker should install the dependencies
+    def install_dependencies_on_workers():
+        import os
+        os.system('pip install pymsa jmetalpy')
+    new_client.run(install_dependencies_on_workers)
+
+    return new_client
+
+
 if __name__ == '__main__':
     # Creates the problem
     problem = BAliBASE(instance='BB12001', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
     problem.obj_labels = ['TC', 'SOP']
 
-    # Setup Dask client (web interface will be initialized at http://127.0.0.1:8787/workers)
-    client = Client('192.168.48.222:8786')
-
-    # This method will send (and import) the module up to all worker nodes in the cluster
-    # Note: this file must be created by running `python setup.py install`
-    client.upload_file('../dist/pym2sa.egg')
+    # Setup Dask client
+    client = setup_distributed_client('<dask-scheduler-ip>:8786')
 
     # Creates the algorithm
     algorithm = dNSGA2MSA(
