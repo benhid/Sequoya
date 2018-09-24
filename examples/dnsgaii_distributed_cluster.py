@@ -1,4 +1,4 @@
-from jmetal.component import RankingAndCrowdingDistanceComparator
+from jmetal.component import RankingAndCrowdingDistanceComparator, VisualizerObserver
 from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 from dask.distributed import Client
@@ -29,9 +29,12 @@ if __name__ == '__main__':
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        number_of_cores=100,
+        number_of_cores=8,
         client=client
     )
+
+    visualizer = VisualizerObserver()
+    algorithm.observable.register(observer=visualizer)
 
     algorithm.run()
     front = algorithm.get_result()

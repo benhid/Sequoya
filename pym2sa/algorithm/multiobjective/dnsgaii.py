@@ -31,7 +31,6 @@ class dNSGAII(Algorithm[S, R]):
                  selection: Selection[List[S], S], number_of_cores: int, client: Client):
         super().__init__()
         self.problem = problem
-        self.population = []
         self.max_evaluations = max_evaluations
         self.mutation_operator = mutation
         self.crossover_operator = crossover
@@ -40,12 +39,10 @@ class dNSGAII(Algorithm[S, R]):
         self.number_of_cores = number_of_cores
         self.client = client
 
-    def update_progress(self):
-        self.evaluations += 1
-
+    def update_progress(self, population):
         observable_data = {'evaluations': self.evaluations,
                            'computing time': self.get_current_computing_time(),
-                           'population': self.population,
+                           'population': population,
                            'reference_front': self.problem.reference_front}
 
         self.observable.notify_all(**observable_data)
@@ -193,8 +190,10 @@ class dNSGA2MSA(dNSGAII[S, R]):
                     task_pool.add(new_task)
 
                 logger.info("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations) + ". Time: " + str(self.get_current_computing_time()))
+                self.evaluations += 1
 
-                self.update_progress()
+                if self.evaluations % 10 == 0:
+                    self.update_progress(population)
 
         self.total_computing_time = self.get_current_computing_time()
         self.population = population
