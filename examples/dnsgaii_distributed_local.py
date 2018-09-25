@@ -22,16 +22,16 @@ if __name__ == '__main__':
     # Creates the algorithm
     algorithm = dNSGA2MSA(
         problem=problem,
-        max_evaluations=25000,
+        max_evaluations=1000,
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        number_of_cores=8,
+        number_of_cores=100,
         client=client
     )
 
-    visualizer = VisualizerObserver()
-    algorithm.observable.register(observer=visualizer)
+    #visualizer = VisualizerObserver()
+    #algorithm.observable.register(observer=visualizer)
 
     algorithm.run()
     front = algorithm.get_result()

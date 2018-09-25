@@ -27,7 +27,7 @@ R = TypeVar(List[S])
 
 class dNSGAII(Algorithm[S, R]):
 
-    def __init__(self, problem: Problem[S], max_evaluations: int, mutation: Mutation[S], crossover: Crossover[S, S],
+    def __init__(self, problem: Problem[S], population_size: int, max_evaluations: int, mutation: Mutation[S], crossover: Crossover[S, S],
                  selection: Selection[List[S], S], number_of_cores: int, client: Client):
         super().__init__()
         self.problem = problem
@@ -36,6 +36,7 @@ class dNSGAII(Algorithm[S, R]):
         self.crossover_operator = crossover
         self.selection_operator = selection
 
+        self.population_size = population_size
         self.number_of_cores = number_of_cores
         self.client = client
 
@@ -72,7 +73,7 @@ class dNSGAII(Algorithm[S, R]):
                 self.evaluations += 1
 
                 # The initial population is not full
-                if len(population) < self.number_of_cores:
+                if len(population) < self.population_size:
                     received_solution = future.result()
                     population.append(received_solution)
 
@@ -87,28 +88,19 @@ class dNSGAII(Algorithm[S, R]):
                         # Replacement
                         join_population = population + offspring_population
                         self.check_population(join_population)
-                        population = RankingAndCrowdingDistanceSelection(self.number_of_cores).execute(join_population)
+                        population = RankingAndCrowdingDistanceSelection(self.population_size).execute(join_population)
 
                         # Selection
                         mating_population = []
-                        for i in range(self.number_of_cores):
+                        for i in range(2):
                             solution = self.selection_operator.execute(population)
                             mating_population.append(solution)
 
                         # Reproduction
-                        offspring_population = []
-                        for i in range(0, self.number_of_cores, 2):
-                            parents = []
-                            for j in range(2):
-                                parents.append(mating_population[i + j])
+                        offspring = self.crossover_operator.execute(mating_population)
 
-                            offspring = self.crossover_operator.execute(parents)
-
-                            for solution in offspring:
-                                self.mutation_operator.execute(solution)
-                                offspring_population.append(solution)
-
-                        solution_to_evaluate = offspring_population[0]
+                        self.mutation_operator.execute(offspring[0])
+                        solution_to_evaluate = offspring[0]
 
                         # Evaluation
                         new_task = self.client.submit(self.problem.evaluate, solution_to_evaluate)

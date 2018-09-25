@@ -32,16 +32,16 @@ if __name__ == '__main__':
     problem.obj_labels = ['TC', 'SOP']
 
     # Setup Dask client
-    client = setup_distributed_client('<dask-scheduler-ip>:8786')
+    client = setup_distributed_client('150.214.108.108:8786')
 
     # Creates the algorithm
     algorithm = dNSGA2MSA(
         problem=problem,
-        max_evaluations=25000,
+        max_evaluations=1000,
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        number_of_cores=8,
+        number_of_cores=100,
         client=client
     )
 

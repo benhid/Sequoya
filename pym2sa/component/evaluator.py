@@ -23,7 +23,7 @@ class ParallelEvaluator(Evaluator[S]):
 class MultithreadedEvaluator(Evaluator[S]):
 
     def __init__(self):
-        self.client = Client()
+        self.client = Client(processes=False)
 
     def evaluate(self, solution_list: List[S], problem: Problem) -> List[S]:
         futures = []

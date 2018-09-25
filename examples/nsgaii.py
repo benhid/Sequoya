@@ -1,4 +1,5 @@
-from jmetal.component import SequentialEvaluator, ProgressBarObserver, RankingAndCrowdingDistanceComparator
+from jmetal.component import SequentialEvaluator, ProgressBarObserver, RankingAndCrowdingDistanceComparator, \
+    VisualizerObserver
 from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
@@ -10,22 +11,25 @@ from pym2sa.util.graphic import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(instance='BB12010', balibase_path='../resources',
+    problem = BAliBASE(instance='BB12011', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
     problem.obj_labels = ['TC', 'SOP']
 
     # Creates the algorithm
     algorithm = NSGA2MSA(
         problem=problem,
-        population_size=100,
-        max_evaluations=25000,
+        population_size=40,
+        max_evaluations=300,
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         evaluator=SequentialEvaluator()
     )
 
-    progress_bar = ProgressBarObserver(step=100, maximum=25000)
+    #visualizer = VisualizerObserver()
+    #algorithm.observable.register(observer=visualizer)
+
+    progress_bar = ProgressBarObserver(step=100, maximum=300)
     algorithm.observable.register(progress_bar)
 
     algorithm.run()
