@@ -27,7 +27,7 @@ R = TypeVar(List[S])
 
 class dNSGAII(Algorithm[S, R]):
 
-    def __init__(self, problem: Problem[S], population_size: int, max_evaluations: int, mutation: Mutation[S], crossover: Crossover[S, S],
+    def __init__(self, population_size: int, problem: Problem[S], max_evaluations: int, mutation: Mutation[S], crossover: Crossover[S, S],
                  selection: Selection[List[S], S], number_of_cores: int, client: Client):
         super().__init__()
         self.problem = problem
@@ -98,8 +98,8 @@ class dNSGAII(Algorithm[S, R]):
 
                         # Reproduction
                         offspring = self.crossover_operator.execute(mating_population)
-
                         self.mutation_operator.execute(offspring[0])
+
                         solution_to_evaluate = offspring[0]
 
                         # Evaluation
@@ -125,23 +125,18 @@ class dNSGAII(Algorithm[S, R]):
 
 
 def reproduction(mating_population: List[S], problem, crossover_operator, mutation_operator) -> S:
-    offspring_pool = []
-    for parents in zip(*[iter(mating_population)] * 2):
-        offspring_pool.append(crossover_operator.execute(parents))
+    offspring = crossover_operator.execute(mating_population)
 
-    offspring_population = []
-    for pair in offspring_pool:
-        for solution in pair:
-            mutated_solution = mutation_operator.execute(solution)
-            offspring_population.append(mutated_solution)
+    # ???
+    offspring = mutation_operator.execute(offspring[0])
 
-    return problem.evaluate(offspring_population[0])
+    return problem.evaluate(offspring)
 
 
 class dNSGA2MSA(dNSGAII[S, R]):
 
     def create_initial_population(self) -> List[MSASolution]:
-        return self.problem.import_instance(self.number_of_cores)
+        return self.problem.import_instance(self.population_size)
 
     def run(self):
         logger.info('Importing initial population')
@@ -168,16 +163,18 @@ class dNSGA2MSA(dNSGAII[S, R]):
                     join_population = population + offspring_population
                     self.check_population(join_population)
 
-                    population = RankingAndCrowdingDistanceSelection(self.number_of_cores).execute(join_population)
+                    population = RankingAndCrowdingDistanceSelection(self.population_size).execute(join_population)
 
                     # Selection
                     mating_population = []
-                    for _ in range(self.number_of_cores):
+                    for i in range(2):
                         solution = self.selection_operator.execute(population)
                         mating_population.append(solution)
 
                     # Reproduction and evaluation
-                    new_task = self.client.submit(reproduction, mating_population, self.problem, self.crossover_operator, self.mutation_operator)
+                    new_task = self.client.submit(
+                        reproduction, mating_population, self.problem, self.crossover_operator, self.mutation_operator
+                    )
 
                     task_pool.add(new_task)
 

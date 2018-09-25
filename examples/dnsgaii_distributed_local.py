@@ -21,12 +21,13 @@ if __name__ == '__main__':
 
     # Creates the algorithm
     algorithm = dNSGA2MSA(
+        population_size=100,
         problem=problem,
         max_evaluations=1000,
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        number_of_cores=100,
+        number_of_cores=8,
         client=client
     )
 
