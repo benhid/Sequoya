@@ -4,6 +4,7 @@ from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
 from pym2sa.algorithm import NSGA2MSA
+from pym2sa.component import ParallelEvaluator
 from pym2sa.problem import BAliBASE
 from pym2sa.operator import SPXMSA, ShiftClosedGapGroups
 from pym2sa.util.graphic import MSAPlot
@@ -23,7 +24,7 @@ if __name__ == '__main__':
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        evaluator=SequentialEvaluator()
+        evaluator=ParallelEvaluator()
     )
 
     #visualizer = VisualizerObserver()
