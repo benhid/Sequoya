@@ -16,6 +16,15 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('../..'))
 
+
+# http://blog.rtwilson.com/how-to-make-your-sphinx-documentation-compile-with-readthedocs-when-youre-using-numpy-and-scipy/
+import mock
+
+MOCK_MODULES = ['plotly', 'plotly.offline', 'dask.distributed', 'distributed',
+                'matplotlib', 'matplotlib.pyplot', 'mpl_toolkits', 'mpl_toolkits.mplot3d']
+for mod_name in MOCK_MODULES:
+    sys.modules[mod_name] = mock.Mock()
+
 # -- Project information -----------------------------------------------------
 
 project = 'pyM2SA'

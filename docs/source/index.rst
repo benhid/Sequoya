@@ -1,4 +1,4 @@
-pyM:sup:`2`SA: Solving Multiple Sequence Alignments with Python
+pyM2SA: Solving Multiple Sequence Alignments with Python
 ========================================================
 
 .. warning:: Documentation is WIP!! Some information may be missing.
