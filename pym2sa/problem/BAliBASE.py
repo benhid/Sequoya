@@ -8,7 +8,7 @@ from pymsa.core.score import Score
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup, ShiftClosedGapGroups
+from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
 from pym2sa.problem.MSA import MSA
 
 logger = logging.getLogger('pyM2SA')
@@ -23,9 +23,8 @@ class BAliBASE(MSA):
         """ Creates a new problem based on an instance of BAliBASE.
 
         :param instance: Instance name (e.g., BB12010).
-        :param balibase_path: Path containing two directories: `bb_aligned`, with the pre-computed alignments and
-        `bb_release`, with the original sequences.
-        :param score_list: List of pyMSA solutions. """
+        :param balibase_path: Path containing two directories: `bb_aligned`, with the pre-computed alignments and `bb_release`, with the original sequences.
+        :param score_list: List of scores. """
         super(BAliBASE, self).__init__(score_list, [], [])
         self.balibase_path = balibase_path
         self.instance = instance
@@ -34,6 +33,9 @@ class BAliBASE(MSA):
         raise NotImplementedError()
 
     def import_instance(self, population_size: int) -> List[MSASolution]:
+        """ Read and import an instance of BAliBASE.
+
+        :param population_size: If the instance has less pre-computed alignments than this value, the population will be increased until the population_size is met. """
         self.__read_original_sequences()
         aligned_sequences = self.__read_aligned_sequences()
 
@@ -75,8 +77,7 @@ class BAliBASE(MSA):
             mutation_operator.execute(offspring[1])
 
             population.append(offspring[0])
-            population.append(offspring[1])
-            logger.info('Population incremented by 2, new population size: {}'.format(len(population)))
+            logger.info('Population incremented, new population size: {}'.format(len(population)))
 
         logger.info('Final population size: {}'.format(len(population)))
 

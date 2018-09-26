@@ -1,6 +1,8 @@
 pyM2SA: Solving Multiple Sequence Alignments with Python
 ========================================================
 
+pyM2SA is an open source software tool aimed at for solving Multiple Sequence Alignment problems with multi-objective metaheuristics.
+
 .. warning:: Documentation is WIP!! Some information may be missing.
 
 .. toctree::
@@ -30,7 +32,7 @@ Via Github:
 Features
 --------
 
-* The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA) (v0.5.0):
+* The **scores** that are currently available are those from `pyMSA <https://github.com/benhid/pyMSA>`_ (v0.5.1):
     * Sum of pairs,
     * Star,
     * Minimum entropy,
@@ -40,10 +42,10 @@ Features
 * The **algorithm** that is currently available is:
     * NSGA-II
 * **Crossover operator**:
-    * Single-point crossover (`GapSequenceSolutionSinglePoint`).
+    * Single-point crossover (:code:`GapSequenceSolutionSinglePoint`).
 * **Mutation operators**:
-    * Shift closest gap group (`ShiftClosedGapGroups`),
-    * Shift gap group (`ShiftGapGroup`),
-    * Random gap insertion (`OneRandomGapInsertion`),
-    * Merge two random adjacent gaps group (`TwoRandomAdjacentGapGroup`),
-    * Multiple mutation (`MultipleMSAMutation`).
+    * Shift closest gap group (:code:`ShiftClosedGapGroups`),
+    * Shift gap group (:code:`ShiftGapGroup`),
+    * Random gap insertion (:code:`OneRandomGapInsertion`),
+    * Merge two random adjacent gaps group (:code:`TwoRandomAdjacentGapGroup`),
+    * Multiple mutation (:code:`MultipleMSAMutation`).

@@ -6,6 +6,7 @@
 
 # Solving Multiple Sequence Alignments with Python
 [![Build Status](https://img.shields.io/travis/benhid/pyM2SA.svg?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
+[![Read the Docs](https://img.shields.io/readthedocs/pym2sa.svg?style=flat-square)](https://readthedocs.org/projects/pym2sa/)
 [![PyPI License](https://img.shields.io/pypi/l/pyM2SA.svg?style=flat-square)]()
 [![PyPI Python version](https://img.shields.io/pypi/pyversions/pyM2SA.svg?style=flat-square)]()
 
