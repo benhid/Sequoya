@@ -31,8 +31,8 @@ if __name__ == '__main__':
         client=client
     )
 
-    #visualizer = VisualizerObserver()
-    #algorithm.observable.register(observer=visualizer)
+    visualizer = VisualizerObserver()
+    algorithm.observable.register(observer=visualizer)
 
     algorithm.run()
     front = algorithm.get_result()

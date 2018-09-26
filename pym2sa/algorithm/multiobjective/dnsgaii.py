@@ -70,8 +70,6 @@ class dNSGAII(Algorithm[S, R]):
         # MAIN LOOP
         while self.evaluations < self.max_evaluations:
             for future in task_pool:
-                self.evaluations += 1
-
                 # The initial population is not full
                 if len(population) < self.population_size:
                     received_solution = future.result()
@@ -92,7 +90,7 @@ class dNSGAII(Algorithm[S, R]):
 
                         # Selection
                         mating_population = []
-                        for i in range(2):
+                        for _ in range(2):
                             solution = self.selection_operator.execute(population)
                             mating_population.append(solution)
 
@@ -106,7 +104,10 @@ class dNSGAII(Algorithm[S, R]):
                         new_task = self.client.submit(self.problem.evaluate, solution_to_evaluate)
                         task_pool.add(new_task)
 
-                if self.evaluations % 100 == 0:
+                self.evaluations += 1
+
+                if self.evaluations % 10 == 0:
+                    self.update_progress(population)
                     logger.info("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations))
 
         self.total_computing_time = time.time() - start_computing_time
@@ -127,7 +128,7 @@ class dNSGAII(Algorithm[S, R]):
 def reproduction(mating_population: List[S], problem, crossover_operator, mutation_operator) -> S:
     offspring = crossover_operator.execute(mating_population)
 
-    # ???
+    # todo Este operador podría ser el causante del problema "Minimum and maximum are the same!"
     offspring = mutation_operator.execute(offspring[0])
 
     return problem.evaluate(offspring)
@@ -167,7 +168,7 @@ class dNSGA2MSA(dNSGAII[S, R]):
 
                     # Selection
                     mating_population = []
-                    for i in range(2):
+                    for _ in range(2):
                         solution = self.selection_operator.execute(population)
                         mating_population.append(solution)
 
