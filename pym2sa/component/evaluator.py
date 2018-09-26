@@ -1,7 +1,8 @@
-from concurrent.futures import ProcessPoolExecutor
-from multiprocessing.pool import ThreadPool
 from typing import TypeVar, List
-from dask.distributed import Client, as_completed
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+from multiprocessing.pool import ThreadPool
+
+from dask.distributed import Client, as_completed, LocalCluster
 
 from jmetal.component.evaluator import Evaluator
 from jmetal.core.problem import Problem
@@ -9,10 +10,10 @@ from jmetal.core.problem import Problem
 S = TypeVar('S')
 
 
-class ParallelEvaluator(Evaluator[S]):
+class MapEvaluator(Evaluator[S]):
 
-    def __init__(self, workers=None):
-        self.pool = ThreadPool(workers)
+    def __init__(self, n_workers: int=4):
+        self.pool = ThreadPool(n_workers)
 
     def evaluate(self, solution_list: List[S], problem: Problem) -> List[S]:
         self.pool.map(lambda solution: Evaluator[S].evaluate_solution(solution, problem), solution_list)
@@ -22,8 +23,9 @@ class ParallelEvaluator(Evaluator[S]):
 
 class MultithreadedEvaluator(Evaluator[S]):
 
-    def __init__(self):
-        self.client = Client(processes=False)
+    def __init__(self, n_workers: int=1):
+        cluster = LocalCluster(n_workers=n_workers, processes=False)
+        self.client = Client(cluster)
 
     def evaluate(self, solution_list: List[S], problem: Problem) -> List[S]:
         futures = []
@@ -43,7 +45,7 @@ class SubmitEvaluator(Evaluator[S]):
         self.submit_func = submit_func
 
     def evaluate(self, solution_list: List[S], problem: Problem) -> List[S]:
-        futures = [self.submit_func(Evaluator.evaluate_solution, solution, problem) for solution in solution_list]
+        futures = [self.submit_func(Evaluator[S].evaluate_solution, solution, problem) for solution in solution_list]
         return [f.result() for f in futures]
 
 
@@ -55,3 +57,17 @@ class ProcessPoolEvaluator(SubmitEvaluator):
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.executor.shutdown()
+
+
+class ThreadPoolEvaluator(Evaluator[S]):
+
+    def __init__(self, workers: int=4):
+        self.executor = ThreadPoolExecutor(workers)
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.executor.shutdown()
+
+    def evaluate(self, solution_list: List[S], problem: Problem) -> List[S]:
+        self.executor.map(lambda solution: Evaluator[S].evaluate_solution(solution, problem), solution_list)
+
+        return solution_list

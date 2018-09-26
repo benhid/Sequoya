@@ -1,7 +1,7 @@
 from .observer import WriteSequencesToFileObserver
-from .evaluator import ParallelEvaluator, MultithreadedEvaluator, ProcessPoolEvaluator
+from .evaluator import MapEvaluator, MultithreadedEvaluator, ProcessPoolEvaluator, ThreadPoolEvaluator
 
 __all__ = [
     'WriteSequencesToFileObserver',
-    'ParallelEvaluator', 'MultithreadedEvaluator', 'ProcessPoolEvaluator'
+    'MapEvaluator', 'MultithreadedEvaluator', 'ProcessPoolEvaluator', 'ThreadPoolEvaluator'
 ]
