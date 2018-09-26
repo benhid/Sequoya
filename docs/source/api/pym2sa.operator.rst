@@ -1,17 +1,7 @@
-pym2sa.operator package
+Operators
 =======================
 
-Subpackages
------------
-
-.. toctree::
-
-    pym2sa.operator.tests
-
-Submodules
-----------
-
-pym2sa.operator.crossover module
+Crossover
 --------------------------------
 
 .. automodule:: pym2sa.operator.crossover
@@ -19,19 +9,10 @@ pym2sa.operator.crossover module
     :undoc-members:
     :show-inheritance:
 
-pym2sa.operator.mutation module
+Mutation
 -------------------------------
 
 .. automodule:: pym2sa.operator.mutation
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: pym2sa.operator
     :members:
     :undoc-members:
     :show-inheritance:

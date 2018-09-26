@@ -1,22 +1,10 @@
-pym2sa.util package
+Utils
 ===================
 
-Submodules
-----------
-
-pym2sa.util.graphic module
+Graphic
 --------------------------
 
 .. automodule:: pym2sa.util.graphic
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: pym2sa.util
     :members:
     :undoc-members:
     :show-inheritance:

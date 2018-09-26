@@ -1,10 +1,7 @@
-pym2sa.component package
+Components
 ========================
 
-Submodules
-----------
-
-pym2sa.component.evaluator module
+Evaluator
 ---------------------------------
 
 .. automodule:: pym2sa.component.evaluator
@@ -12,19 +9,10 @@ pym2sa.component.evaluator module
     :undoc-members:
     :show-inheritance:
 
-pym2sa.component.observer module
+Observer
 --------------------------------
 
 .. automodule:: pym2sa.component.observer
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: pym2sa.component
     :members:
     :undoc-members:
     :show-inheritance:

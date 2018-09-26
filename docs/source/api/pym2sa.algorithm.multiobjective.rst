@@ -1,10 +1,7 @@
-pym2sa.algorithm.multiobjective package
+Multiobjective algorithms
 =======================================
 
-Submodules
-----------
-
-pym2sa.algorithm.multiobjective.dnsgaii module
+dNSGA-II
 ----------------------------------------------
 
 .. automodule:: pym2sa.algorithm.multiobjective.dnsgaii
@@ -12,7 +9,7 @@ pym2sa.algorithm.multiobjective.dnsgaii module
     :undoc-members:
     :show-inheritance:
 
-pym2sa.algorithm.multiobjective.nsgaii module
+NSGA-II
 ---------------------------------------------
 
 .. automodule:: pym2sa.algorithm.multiobjective.nsgaii
@@ -20,11 +17,3 @@ pym2sa.algorithm.multiobjective.nsgaii module
     :undoc-members:
     :show-inheritance:
 
-
-Module contents
----------------
-
-.. automodule:: pym2sa.algorithm.multiobjective
-    :members:
-    :undoc-members:
-    :show-inheritance:

@@ -1,10 +1,8 @@
-pym2sa.problem package
+Problems
 ======================
 
-Submodules
-----------
 
-pym2sa.problem.BAliBASE module
+BAliBASE
 ------------------------------
 
 .. automodule:: pym2sa.problem.BAliBASE
@@ -12,19 +10,10 @@ pym2sa.problem.BAliBASE module
     :undoc-members:
     :show-inheritance:
 
-pym2sa.problem.MSA module
+Generic MSA
 -------------------------
 
 .. automodule:: pym2sa.problem.MSA
-    :members:
-    :undoc-members:
-    :show-inheritance:
-
-
-Module contents
----------------
-
-.. automodule:: pym2sa.problem
     :members:
     :undoc-members:
     :show-inheritance:
