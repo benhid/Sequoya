@@ -33,7 +33,8 @@ class SPXMSA(Crossover[List[MSASolution], MSASolution]):
                 self.find_cutting_points_in_first_parent(parents[0], cx_point)
 
             offspring = self.cross_parents(
-                cx_point, parents, cutting_points_in_first_parent, column_positions_in_second_parent)
+                cx_point, parents, cutting_points_in_first_parent, column_positions_in_second_parent
+            )
 
             self.has_solution_been_crossed = True
 
@@ -119,14 +120,18 @@ class SPXMSA(Crossover[List[MSASolution], MSASolution]):
 
         # Sanity check: alignment is valid (same length for all sequences)
         if not offspring_1.is_valid_msa():
-            raise Exception('Offspring 1 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}'
-                            .format(parents[0].decode_alignment_as_list_of_sequences(), parents[1].decode_alignment_as_list_of_sequences(), cx_point,
-                                    offspring_1.decode_alignment_as_list_of_sequences(), offspring_2.decode_alignment_as_list_of_sequences(),
+            raise Exception('Offspring 1 is not valid! \n parent 0 (before): {0} \n parent 1 (before): {1} \n '
+                            'cx_point: {2} \n parent 0 (after): {3} \n parent 1 (after): {4} \n '
+                            'cutting_points_in_first_parent: {5} \n column_positions_in_second_parent: {6}'
+                            .format(parents[0].decode_alignment_as_list_of_pairs(), parents[1].decode_alignment_as_list_of_pairs(), cx_point,
+                                    offspring_1.decode_alignment_as_list_of_pairs(), offspring_2.decode_alignment_as_list_of_pairs(),
                                     cutting_points_in_first_parent, column_positions_in_second_parent))
         if not offspring_2.is_valid_msa():
-            raise Exception('Offspring 2 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}'
-                            .format(parents[0].decode_alignment_as_list_of_sequences(), parents[1].decode_alignment_as_list_of_sequences(), cx_point,
-                                    offspring_1.decode_alignment_as_list_of_sequences(), offspring_2.decode_alignment_as_list_of_sequences(),
+            raise Exception('Offspring 2 is not valid! \n parent 0 (before): {0} \n parent 1 (before): {1} \n '
+                            'cx_point: {2} \n parent 0 (after): {3} \n parent 1 (after): {4} \n '
+                            'cutting_points_in_first_parent: {5} \n column_positions_in_second_parent: {6}'
+                            .format(parents[0].decode_alignment_as_list_of_pairs(), parents[1].decode_alignment_as_list_of_pairs(), cx_point,
+                                    offspring_1.decode_alignment_as_list_of_pairs(), offspring_2.decode_alignment_as_list_of_pairs(),
                                     cutting_points_in_first_parent, column_positions_in_second_parent))
 
         return [offspring_1, offspring_2]

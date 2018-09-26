@@ -8,7 +8,7 @@ from pymsa.core.score import Score
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
+from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup, ShiftClosedGapGroups
 from pym2sa.problem.MSA import MSA
 
 logger = logging.getLogger('pyM2SA')
@@ -23,10 +23,10 @@ class BAliBASE(MSA):
         """ Creates a new problem based on an instance of BAliBASE.
 
         :param instance: Instance name (e.g., BB12010).
-        :param balibase_path: Path containing two directories: `bb3_aligned`, with the pre-computed alignments and
-        `bb3_release`, with the original sequences.
-        :param score_list: List of pyMSA objects. """
-        super(BAliBASE, self).__init__(score_list)
+        :param balibase_path: Path containing two directories: `bb_aligned`, with the pre-computed alignments and
+        `bb_release`, with the original sequences.
+        :param score_list: List of pyMSA solutions. """
+        super(BAliBASE, self).__init__(score_list, [], [])
         self.balibase_path = balibase_path
         self.instance = instance
 
@@ -35,23 +35,13 @@ class BAliBASE(MSA):
 
     def import_instance(self, population_size: int) -> List[MSASolution]:
         self.__read_original_sequences()
+        aligned_sequences = self.__read_aligned_sequences()
 
-        bb3_aligned_path = self.__compute_path('bb3_aligned')
-
-        alignment_sequences = []
-        if os.path.isdir(bb3_aligned_path):
-            for file in listdir(bb3_aligned_path):
-                if file.split('.')[0] == self.instance and file.split('.')[1] in self.DATA_FILES:
-                    msa = read_fasta_file_as_list_of_pairs(file, bb3_aligned_path)
-                    alignment_sequences.append(msa)
-        else:
-            raise Exception('Instance not found. Invalid path provided? {}'.format(bb3_aligned_path))
-
-        if len(alignment_sequences) < 2:
+        if len(aligned_sequences) < 2:
             raise Exception('More than one pre-computed alignment is needed!')
 
         population = []
-        for msa in alignment_sequences:
+        for msa in aligned_sequences:
             new_individual = MSASolution(self, msa)
             population.append(new_individual)
 
@@ -59,13 +49,13 @@ class BAliBASE(MSA):
 
         for index, individual in enumerate(population):
             self.evaluate(individual)
-            logger.info('Alignment {0} size: {1}, Objectives: {2}'.format(
+            logger.info('Alignment no. {0}, length of alignment: {1}, objective values: {2}'.format(
                 index, individual.get_length_of_alignment(), individual.objectives)
             )
 
         logger.info('Number of pre-computed alignments: {0}'.format(len(population)))
 
-        with open('PRECOMPUTED_ALIGNMENTS_{0}'.format(self.get_name()), 'w') as of:
+        with open('pyM2SA-PRECOMPUTED_ALIGNMENTS_{}'.format(self.instance), 'w') as of:
             for solution in population:
                 of.write(str(solution) + " ")
                 of.write("\n")
@@ -86,11 +76,11 @@ class BAliBASE(MSA):
 
             population.append(offspring[0])
             population.append(offspring[1])
-            logger.info('Population incremented by 2; new population {}'.format(len(population)))
+            logger.info('Population incremented by 2, new population size: {}'.format(len(population)))
 
-        logger.info('Population incremented to: {}'.format(len(population)))
+        logger.info('Final population size: {}'.format(len(population)))
 
-        with open('INITIAL_POPULATION_{}'.format(self.get_name()), 'w') as of:
+        with open('pyM2SA-INITIAL_POPULATION_{}'.format(self.instance), 'w') as of:
             for solution in population:
                 of.write(str(solution) + " ")
                 of.write("\n")
@@ -98,15 +88,30 @@ class BAliBASE(MSA):
         return population
 
     def __read_original_sequences(self):
-        bb3_release_path = self.__compute_path('bb3_release')
+        bb3_release_path = self.__compute_path('bb_release')
 
         if os.path.isdir(bb3_release_path):
             fasta_file = read_fasta_file_as_list_of_pairs(self.instance + '.tfa', bb3_release_path)
+
             self.sequences_names = list(pair[0] for pair in fasta_file)
             self.number_of_variables = len(self.sequences_names)
             self.original_sequences = fasta_file
         else:
-            raise Exception('Instance not found. Invalid path provided? {}'.format(bb3_release_path))
+            raise Exception('Instance not found at {}'.format(bb3_release_path))
+
+    def __read_aligned_sequences(self):
+        bb3_aligned_path = self.__compute_path('bb_aligned')
+
+        alignment_sequences = []
+        if os.path.isdir(bb3_aligned_path):
+            for file in listdir(bb3_aligned_path):
+                if file.split('.')[0] == self.instance and file.split('.')[1] in self.DATA_FILES:
+                    msa = read_fasta_file_as_list_of_pairs(file, bb3_aligned_path)
+                    alignment_sequences.append(msa)
+        else:
+            raise Exception('Instance not found at {}'.format(bb3_aligned_path))
+
+        return alignment_sequences
 
     def __compute_path(self, directory: str) -> str:
         return os.path.join(self.balibase_path, directory, 'RV' + self.instance[2:4] + '/')

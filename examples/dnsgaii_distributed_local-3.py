@@ -1,6 +1,6 @@
 from jmetal.component import RankingAndCrowdingDistanceComparator, VisualizerObserver
 from jmetal.operator import BinaryTournamentSelection
-from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
+from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns, PercentageOfNonGaps
 from dask.distributed import Client, LocalCluster
 
 from pym2sa.algorithm import dNSGA2BAliBASE
@@ -11,9 +11,9 @@ from pym2sa.util.graphic import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(instance='BB12001', balibase_path='../resources',
-                       score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
-    problem.obj_labels = ['%TC', 'SOP']
+    problem = BAliBASE(instance='BB12010', balibase_path='../resources',
+                       score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns(), PercentageOfNonGaps()])
+    problem.obj_labels = ['SOP', '%TC', '%NonGaps']
 
     # Setup Dask client (web interface will be initialized at http://127.0.0.1:8787/workers)
     cluster = LocalCluster(n_workers=8, processes=True)
@@ -27,7 +27,7 @@ if __name__ == '__main__':
         mutation=TwoRandomAdjacentGapGroup(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        number_of_cores=8,
+        number_of_cores=4,
         client=client
     )
 

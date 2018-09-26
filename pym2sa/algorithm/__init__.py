@@ -1,7 +1,7 @@
-from .multiobjective.nsgaii import NSGA2MSA
-from .multiobjective.dnsgaii import dNSGA2MSA
+from .multiobjective.nsgaii import NSGA2BAliBASE
+from .multiobjective.dnsgaii import dNSGA2BAliBASE
 
 __all__ = [
-    'NSGA2MSA',
-    'dNSGA2MSA'
+    'NSGA2BAliBASE',
+    'dNSGA2BAliBASE'
 ]

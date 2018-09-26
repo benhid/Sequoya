@@ -3,7 +3,7 @@ from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 from dask.distributed import Client
 
-from pym2sa.algorithm import dNSGA2MSA
+from pym2sa.algorithm import dNSGA2BAliBASE
 from pym2sa.problem import BAliBASE
 from pym2sa.operator import SPXMSA, ShiftClosedGapGroups
 from pym2sa.util.graphic import MSAPlot
@@ -27,16 +27,17 @@ def setup_distributed_client(address: str):
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(instance='BB12001', balibase_path='../resources',
+    problem = BAliBASE(instance='BB12010', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
-    problem.obj_labels = ['TC', 'SOP']
+    problem.obj_labels = ['SOP', '%TC']
 
     # Setup Dask client
     client = setup_distributed_client('150.214.108.108:8786')
 
     # Creates the algorithm
-    algorithm = dNSGA2MSA(
+    algorithm = dNSGA2BAliBASE(
         problem=problem,
+        population_size=100,
         max_evaluations=1000,
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),

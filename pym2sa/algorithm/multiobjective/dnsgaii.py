@@ -65,6 +65,7 @@ class dNSGAII(Algorithm[S, R]):
         for solution in population:
             futures.append(self.client.submit(self.problem.evaluate, solution))
 
+        self.evaluations += len(population)
         task_pool = as_completed(futures)
 
         # MAIN LOOP
@@ -88,6 +89,8 @@ class dNSGAII(Algorithm[S, R]):
                         self.check_population(join_population)
                         population = RankingAndCrowdingDistanceSelection(self.population_size).execute(join_population)
 
+                        self.update_progress(population)
+
                         # Selection
                         mating_population = []
                         for _ in range(2):
@@ -106,12 +109,17 @@ class dNSGAII(Algorithm[S, R]):
 
                 self.evaluations += 1
 
-                if self.evaluations % 10 == 0:
-                    self.update_progress(population)
-                    logger.info("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations))
+                if self.evaluations % 100 == 0:
+                    logger.info(
+                        'PopSize: {0}. Evals: {1}. Time: {2}'.format(
+                            len(population), self.evaluations, self.get_current_computing_time()
+                        )
+                    )
 
         self.total_computing_time = time.time() - start_computing_time
         self.population = population
+
+        self.client.close()
 
     def check_population(self, join_population: []):
         for solution in join_population:
@@ -127,14 +135,12 @@ class dNSGAII(Algorithm[S, R]):
 
 def reproduction(mating_population: List[S], problem, crossover_operator, mutation_operator) -> S:
     offspring = crossover_operator.execute(mating_population)
-
-    # todo Este operador podría ser el causante del problema "Minimum and maximum are the same!"
     offspring = mutation_operator.execute(offspring[0])
 
     return problem.evaluate(offspring)
 
 
-class dNSGA2MSA(dNSGAII[S, R]):
+class dNSGA2BAliBASE(dNSGAII[S, R]):
 
     def create_initial_population(self) -> List[MSASolution]:
         return self.problem.import_instance(self.population_size)
@@ -163,8 +169,9 @@ class dNSGA2MSA(dNSGAII[S, R]):
                     # Replacement
                     join_population = population + offspring_population
                     self.check_population(join_population)
-
                     population = RankingAndCrowdingDistanceSelection(self.population_size).execute(join_population)
+
+                    self.update_progress(population)
 
                     # Selection
                     mating_population = []
@@ -179,11 +186,16 @@ class dNSGA2MSA(dNSGAII[S, R]):
 
                     task_pool.add(new_task)
 
-                logger.info("PopSize: " + str(len(population)) + ". Evals: " + str(self.evaluations) + ". Time: " + str(self.get_current_computing_time()))
                 self.evaluations += 1
 
-                if self.evaluations % 10 == 0:
-                    self.update_progress(population)
+                if self.evaluations % 100 == 0:
+                    logger.info(
+                        'PopSize: {0}. Evals: {1}. Time: {2}'.format(
+                            len(population), self.evaluations, self.get_current_computing_time()
+                        )
+                    )
 
         self.total_computing_time = self.get_current_computing_time()
         self.population = population
+
+        self.client.close()

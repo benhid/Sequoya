@@ -16,9 +16,6 @@ class MultipleMSAMutation(Mutation[S]):
         self.operator = operator
 
     def execute(self, solution: MSASolution) -> MSASolution:
-        if solution is None:
-            raise Exception("Solution is none")
-
         return self.do_mutation(solution)
 
     def do_mutation(self, solution: MSASolution) -> MSASolution:
@@ -42,7 +39,9 @@ class ShiftGapGroup(Mutation[S]):
 
     def execute(self, solution: MSASolution) -> MSASolution:
         if solution is None:
-            raise Exception("Solution is none")
+            raise Exception('Solution is none')
+        if not solution.is_valid_msa():
+            raise Exception('Solution is not valid')
 
         return self.do_mutation(solution)
 
@@ -64,7 +63,6 @@ class ShiftGapGroup(Mutation[S]):
             if self.remove_full_of_gap_columns:
                 solution.remove_full_of_gaps_columns()
 
-            # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
                 raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 
@@ -83,7 +81,9 @@ class ShiftClosedGapGroups(Mutation[S]):
 
     def execute(self, solution: MSASolution) -> MSASolution:
         if solution is None:
-            raise Exception("Solution is none")
+            raise Exception('Solution is none')
+        if not solution.is_valid_msa():
+            raise Exception('Solution is not valid')
 
         return self.do_mutation(solution)
 
@@ -118,13 +118,15 @@ class ShiftClosedGapGroups(Mutation[S]):
 
                             gaps_group[random_gaps_group + 3] -= diff
 
+            solution.merge_gaps_groups()
+
             if self.remove_full_of_gap_columns:
                 solution.remove_full_of_gaps_columns()
 
-            # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
                 raise Exception(
-                    "Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
+                    'Mutated solution is not valid! {0}'.format(solution.decode_alignment_as_list_of_pairs())
+                )
 
         return solution
 
@@ -141,7 +143,9 @@ class TwoRandomAdjacentGapGroup(Mutation[S]):
 
     def execute(self, solution: MSASolution) -> MSASolution:
         if solution is None:
-            raise Exception("Solution is none")
+            raise Exception('Solution is none')
+        if not solution.is_valid_msa():
+            raise Exception('Solution is not valid')
 
         return self.do_mutation(solution)
 
@@ -170,7 +174,6 @@ class TwoRandomAdjacentGapGroup(Mutation[S]):
             if self.remove_full_of_gap_columns:
                 solution.remove_full_of_gaps_columns()
 
-            # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
                 raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 
@@ -188,7 +191,9 @@ class OneRandomGapInsertion(Mutation[S]):
 
     def execute(self, solution: MSASolution) -> MSASolution:
         if solution is None:
-            raise Exception("Solution is none")
+            raise Exception('Solution is none')
+        if not solution.is_valid_msa():
+            raise Exception('Solution is not valid')
 
         return self.do_mutation(solution)
 
@@ -203,7 +208,6 @@ class OneRandomGapInsertion(Mutation[S]):
             if self.remove_full_of_gap_columns:
                 solution.remove_full_of_gaps_columns()
 
-            # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
                 raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 

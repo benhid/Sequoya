@@ -8,16 +8,18 @@ from pym2sa.core.solution import MSASolution
 
 class MSA(MSAProblem):
 
-    def __init__(self, score_list: List[Score]) -> None:
-        """ Creates a new MSA problem.
+    def __init__(self, score_list: List[Score], original_sequences: [], sequences_names: []) -> None:
+        """ Creates a new generic MSA problem.
 
-        :param score_list: """
+        :param score_list:
+        :param original_sequences:
+        :param sequences_names: """
         super(MSA, self).__init__()
         self.score_list = score_list
         self.number_of_objectives = len(self.score_list)
 
-        self.original_sequences: list = []
-        self.sequences_names: list = []
+        self.original_sequences = original_sequences
+        self.sequences_names = sequences_names
 
     def create_solution(self) -> List[MSASolution]:
         raise NotImplementedError()

@@ -9,7 +9,7 @@ from pym2sa.problem import MSA
 class ShiftClosedGapGroupsTestCases(unittest.TestCase):
 
     def setUp(self):
-        self.problem = MSA(score_list=[])
+        self.problem = MSA(score_list=[], sequences_names=[], original_sequences=[])
         self.problem.sequences_names = ['seq1']
         self.problem.number_of_variables = 1
 
@@ -56,7 +56,7 @@ class ShiftClosedGapGroupsTestCases(unittest.TestCase):
 class ShiftGapGroupTestCases(unittest.TestCase):
 
     def setUp(self):
-        self.problem = MSA(score_list=[])
+        self.problem = MSA(score_list=[], sequences_names=[], original_sequences=[])
         self.problem.sequences_names = ['seq1']
         self.problem.number_of_variables = 1
 
@@ -126,7 +126,7 @@ class ShiftGapGroupTestCases(unittest.TestCase):
 class TwoRandomAdjacentGapGroupTestCases(unittest.TestCase):
 
     def setUp(self):
-        self.problem = MSA(score_list=[])
+        self.problem = MSA(score_list=[], sequences_names=[], original_sequences=[])
         self.problem.sequences_names = ['seq1']
         self.problem.number_of_variables = 1
 
@@ -182,14 +182,14 @@ class TwoRandomAdjacentGapGroupTestCases(unittest.TestCase):
 class OneRandomGapInsertionTestCases(unittest.TestCase):
 
     def setUp(self):
-        self.problem = MSA(score_list=[])
+        self.problem = MSA(score_list=[], sequences_names=[], original_sequences=[])
         self.problem.sequences_names = ['seq1', 'seq2']
         self.problem.number_of_variables = 2
 
     @mock.patch('random.randint')
     def test_should_execute_mutation_case_a(self, random_call):
         # setup
-        problem = MSA(score_list=[])
+        problem = MSA(score_list=[], sequences_names=[], original_sequences=[])
         problem.sequences_names = ['seq1']
         problem.number_of_variables = 1
         msa = MSASolution(problem, msa=[('seq1', 'AB-D')])
