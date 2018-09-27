@@ -1,8 +1,8 @@
+from jmetal.algorithm import NSGAII
 from jmetal.component import ProgressBarObserver, RankingAndCrowdingDistanceComparator, VisualizerObserver
 from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
-from pym2sa.algorithm import NSGA2BAliBASE
 from pym2sa.component.evaluator import MultithreadedEvaluator
 from pym2sa.problem import BAliBASE
 from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
@@ -16,7 +16,7 @@ if __name__ == '__main__':
     problem.obj_labels = ['SOP', '%TC']
 
     # Creates the algorithm
-    algorithm = NSGA2BAliBASE(
+    algorithm = NSGAII(
         problem=problem,
         population_size=100,
         max_evaluations=10000,

@@ -8,9 +8,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_original_sequences(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
         # check
@@ -18,9 +16,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_original_alignment_size(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
         # check
@@ -28,9 +24,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_gaps_groups(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
         # check
@@ -38,15 +32,11 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_length_of_gaps_groups(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa_1 = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3', 'seq4']
-        problem.number_of_variables = 4
-        msa_2 = MSASolution(problem, msa=[('seq1', 'GKGD---PKKP'), ('seq2', 'M------QDRV'),
+        problem = MSA(score_list=[], original_sequences=['GKGDPKKP', 'GKGDPKKP', 'MKKLKKHPDFP', 'MHI'], sequences_names=['seq1', 'seq2', 'seq3', 'seq4'])
+        msa_2 = MSASolution(problem, msa=[('seq1', 'GKGD---PKKP'), ('seq2', 'GKGD---PKKP'),
                                           ('seq3', 'MKKLKKHPDFP'), ('seq4', 'M--------HI-')])
 
         # check
@@ -55,15 +45,13 @@ class MSASolutionTestCases(unittest.TestCase):
         self.assertEqual(3, msa_1.get_length_of_gaps(2))
 
         self.assertEqual(3, msa_2.get_length_of_gaps(0))
-        self.assertEqual(6, msa_2.get_length_of_gaps(1))
+        self.assertEqual(3, msa_2.get_length_of_gaps(1))
         self.assertEqual(0, msa_2.get_length_of_gaps(2))
         self.assertEqual(9, msa_2.get_length_of_gaps(3))
 
     def test_should_return_number_of_gaps_of_all_sequences(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
         # check
@@ -71,9 +59,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_number_of_gaps_of_one_sequences(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
         # check
@@ -81,9 +67,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_if_msa_is_valid(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa_valid = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
         msa_not_valid = MSASolution(problem, msa=[('seq1', 'A'), ('seq2', 'A'), ('seq3', 'AA')])
 
@@ -93,9 +77,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_alignment_as_list_of_pairs(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
         # check
@@ -104,12 +86,8 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_merge_gaps_groups(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2']
-        problem.number_of_variables = 2
-        aln_seq = [('seq1', 'ACTGAC'), ('seq2', 'ATCTC')]
-
-        msa = MSASolution(problem, msa=aln_seq)
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC'], sequences_names=['seq1', 'seq2'])
+        msa = MSASolution(problem, msa=[('seq1', 'ACTGAC'), ('seq2', 'ATCTC')])
         msa.gaps_groups[0] = [2, 4, 4, 5]
         msa.gaps_groups[1] = [2, 4, 5, 8]
 
@@ -124,12 +102,8 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_merge_gaps_groups_case_b(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1']
-        problem.number_of_variables = 1
-        aln_seq = [('seq1', 'ACTGAC')]
-
-        msa = MSASolution(problem, msa=aln_seq)
+        problem = MSA(score_list=[], original_sequences=['ACTGAC'], sequences_names=['seq1'])
+        msa = MSASolution(problem, msa=[('seq1', 'ACTGAC')])
         msa.gaps_groups[0] = [2, 4, 4, 8, 8, 10]
 
         self.assertEqual(["AC-----------TGAC"], msa.decode_alignment_as_list_of_sequences())
@@ -142,12 +116,8 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_merge_gaps_groups_case_c(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1']
-        problem.number_of_variables = 1
-        aln_seq = [('seq1', 'ACTGAC')]
-
-        msa = MSASolution(problem, msa=aln_seq)
+        problem = MSA(score_list=[], original_sequences=['ACTGAC'], sequences_names=['seq1'])
+        msa = MSASolution(problem, msa=[('seq1', 'ACTGAC')])
         msa.gaps_groups[0] = [2, 4, 4, 8, 8, 10, 10, 10]
 
         self.assertEqual(["AC------------TGAC"], msa.decode_alignment_as_list_of_sequences())
@@ -160,9 +130,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_is_gap_column(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
         # check
@@ -171,30 +139,26 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_split_gap_column(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['AC', 'TC', 'AA'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa_1 = MSASolution(problem, msa=[('seq1', '----AC'), ('seq2', 'T----C'), ('seq3', '--A-A-')])
         msa_2 = MSASolution(problem, msa=[('seq1', '----AC'), ('seq2', 'T----C'), ('seq3', '--A-A-')])
-        msa_3 = MSASolution(problem, msa=[('seq1', '----AC'), ('seq2', 'T----C'), ('seq3', '-A----')])
+        msa_3 = MSASolution(problem, msa=[('seq1', '----AC'), ('seq2', 'T----C'), ('seq3', '-A---A')])
 
         # actual = [[0, 2], [1, 3], [0, 1, 3, 3, 5, 5]]
         msa_1.split_gap_column(1)
         msa_2.split_gap_column(2)
 
-        # actual = [[0, 2], [1, 3], [0, 0, 2, 5]]
-        msa_3.split_gap_column(4)
+        # actual = [[0, 2], [1, 3], [0, 0, 2, 4]]
+        msa_3.split_gap_column(3)
 
         # check
         self.assertEqual([[0, 1, 2, 3], [1, 1, 2, 4], [0, 1, 3, 3, 5, 5]], msa_1.gaps_groups)
         self.assertEqual([[0, 2, 3, 3], [1, 2, 3, 4], [0, 1, 3, 3, 5, 5]], msa_2.gaps_groups)
-        self.assertEqual([[0, 3], [1, 4], [0, 0, 2, 4, 5, 5]], msa_3.gaps_groups)
+        self.assertEqual([[0, 3], [1, 3, 4, 4], [0, 0, 2, 3, 4, 4]], msa_3.gaps_groups)
 
     def test_should_remove_gap_column(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
         msa.remove_gap_column(3)
@@ -204,9 +168,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_remove_gap(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ACTGAC', 'ACTGAC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AC---TGAC'), ('seq3', 'AC---TGAC')])
 
         msa.remove_gap_from_sequence(0, 2)
@@ -218,9 +180,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_remove_gap_case_b(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2']
-        problem.number_of_variables = 2
+        problem = MSA(score_list=[], original_sequences=['ABCDE', 'ABCDE'], sequences_names=['seq1', 'seq2'])
         msa = MSASolution(problem, msa=[('seq1', 'AB--CD-E'), ('seq2', 'AB--CDE-')])
 
         msa.remove_gap_from_sequence(0, 3)
@@ -237,9 +197,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_remove_gap_case_c(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1']
-        problem.number_of_variables = 1
+        problem = MSA(score_list=[], original_sequences=['ABCDE'], sequences_names=['seq1'])
         msa = MSASolution(problem, msa=[('seq1', 'AB----CD-E-')])
 
         msa.remove_gap_from_sequence(0, 3)
@@ -253,9 +211,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_remove_all_gap_columns(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ACTGAC', 'ACTGAC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AC---TGAC'), ('seq3', 'AC---TGAC')])
 
         msa.remove_full_of_gaps_columns()
@@ -265,9 +221,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_remove_all_gap_columns_case_b(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ACTGC', 'ACAC', 'ACAC'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', 'AC--T--GC'), ('seq2', 'AC-----AC'), ('seq3', 'A---C--AC')])
 
         msa.remove_full_of_gaps_columns()
@@ -277,9 +231,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_remove_all_gap_columns_case_c(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['', '', 'AA'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', '----'), ('seq2', '----'), ('seq3', '-AA-')])
 
         msa.remove_full_of_gaps_columns()
@@ -289,9 +241,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_remove_all_gap_columns_case_d(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2']
-        problem.number_of_variables = 2
+        problem = MSA(score_list=[], original_sequences=['ABCDE', 'ABCDE'], sequences_names=['seq1', 'seq2'])
         msa = MSASolution(problem, msa=[('seq1', 'AB--CDE-'), ('seq2', 'AB--CD-E')])
 
         msa.remove_full_of_gaps_columns()
@@ -301,9 +251,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_gap_columns(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['AA', 'AA', 'AA'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', '--AA-'), ('seq2', '--AA-'), ('seq3', '--AA-')])
 
         # check
@@ -311,9 +259,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_is_gap_at_char_sequence_raise_exception_if_position_is_negative(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['AA', 'AA', 'AA'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', '--AA-'), ('seq2', '--AA-'), ('seq3', '--AA-')])
 
         # check
@@ -327,9 +273,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_remove_gap_group_at_column(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['AA', 'AA', 'AA'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', '--AA-'), ('seq2', '---AA'), ('seq3', '--AA-')])
 
         msa.remove_gap_group_from_sequence_at_column(0, 0)
@@ -341,9 +285,7 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_get_the_right_char_position_in_the_original_sequence(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1']
-        problem.number_of_variables = 1
+        problem = MSA(score_list=[], original_sequences=['ABC'], sequences_names=['seq1'])
         msa_1 = MSASolution(problem, msa=[('seq1', '-ABC')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'A--B-C')])
 
@@ -358,16 +300,12 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_get_next_char_position_after_gap(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2']
-        problem.number_of_variables = 2
+        problem = MSA(score_list=[], original_sequences=['ABC', 'ABC'], sequences_names=['seq1', 'seq2'])
         msa_1 = MSASolution(problem, msa=[('seq1', '-ABC'), ('seq2', 'AB-C')])
 
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1']
-        problem.number_of_variables = 1
+        problem = MSA(score_list=[], original_sequences=['ABC'], sequences_names=['seq1'])
         msa_2 = MSASolution(problem, msa=[('seq1', 'A--BC')])
-        msa_extra_gaps = MSASolution(problem, msa=[('seq1', '---A---BC--D---')])
+        msa_extra_gaps = MSASolution(problem, msa=[('seq1', '---A---BC------')])
 
         # check
         self.assertEqual(1, msa_1.get_next_char_position_after_gap(seq_index=0, gap_position=0))
@@ -376,19 +314,9 @@ class MSASolutionTestCases(unittest.TestCase):
         self.assertEqual(3, msa_2.get_next_char_position_after_gap(seq_index=0, gap_position=1))
         self.assertEqual(3, msa_2.get_next_char_position_after_gap(seq_index=0, gap_position=2))
 
-        self.assertEqual(3, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=0))
-        self.assertEqual(3, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=1))
-        self.assertEqual(7, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=4))
-        self.assertEqual(7, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=6))
-        self.assertEqual(11, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=9))
-        self.assertEqual(11, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=10))
-        self.assertEqual(-1, msa_extra_gaps.get_next_char_position_after_gap(seq_index=0, gap_position=12))
-
     def test_should_get_original_char_position_in_aligned_sequence(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
-        problem.number_of_variables = 3
+        problem = MSA(score_list=[], original_sequences=['ABC', 'ABCD', 'AB'], sequences_names=['seq1', 'seq2', 'seq3'])
         msa = MSASolution(problem, msa=[('seq1', '-ABC'), ('seq2', 'ABCD'), ('seq3', '--AB')])
 
         # check
@@ -405,11 +333,11 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_increments_gaps_group(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1']
-        problem.number_of_variables = 1
+        problem = MSA(score_list=[], original_sequences=['A'], sequences_names=['seq1'])
         msa_1 = MSASolution(problem, msa=[('seq1', 'A-')])
         msa_2 = MSASolution(problem, msa=[('seq1', '-A')])
+
+        problem = MSA(score_list=[], original_sequences=['AC'], sequences_names=['seq1'])
         msa_3 = MSASolution(problem, msa=[('seq1', 'A-C')])
         msa_4 = MSASolution(problem, msa=[('seq1', 'A--C')])
         msa_5 = MSASolution(problem, msa=[('seq1', 'A--C-')])
@@ -432,12 +360,14 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_create_new_gaps_group(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=[], sequences_names=[])
-        problem.sequences_names = ['seq1']
-        problem.number_of_variables = 1
+        problem = MSA(score_list=[], original_sequences=['A'], sequences_names=['seq1'])
         msa_1 = MSASolution(problem, msa=[('seq1', 'A-')])
         msa_2 = MSASolution(problem, msa=[('seq1', '-A')])
+
+        problem = MSA(score_list=[], original_sequences=['AC'], sequences_names=['seq1'])
         msa_3 = MSASolution(problem, msa=[('seq1', 'A-C')])
+
+        problem = MSA(score_list=[], original_sequences=['AAA'], sequences_names=['seq1'])
         msa_4 = MSASolution(problem, msa=[('seq1', 'AAA')])
 
         # run

@@ -1,5 +1,5 @@
-import logging
 from typing import List, TypeVar
+import logging
 import time
 
 from jmetal.core.algorithm import Algorithm
@@ -8,8 +8,6 @@ from jmetal.core.problem import Problem
 from jmetal.operator.selection import RankingAndCrowdingDistanceSelection
 from dask.distributed import Client, as_completed
 
-from pym2sa.core.solution import MSASolution
-
 logger = logging.getLogger('pyM2SA')
 
 S = TypeVar('S')
@@ -17,7 +15,7 @@ R = TypeVar(List[S])
 
 
 """
-.. module:: dNSGA-II
+.. module:: dNSGAII
    :platform: Unix, Windows
    :synopsis: Implementation of dNSGA-II.
 
@@ -25,10 +23,17 @@ R = TypeVar(List[S])
 """
 
 
+def reproduction(mating_population: List[S], problem, crossover_operator, mutation_operator) -> S:
+    offspring = crossover_operator.execute(mating_population)
+    offspring = mutation_operator.execute(offspring[0])
+
+    return problem.evaluate(offspring)
+
+
 class dNSGAII(Algorithm[S, R]):
 
-    def __init__(self, population_size: int, problem: Problem[S], max_evaluations: int, mutation: Mutation[S], crossover: Crossover[S, S],
-                 selection: Selection[List[S], S], number_of_cores: int, client: Client):
+    def __init__(self, population_size: int, problem: Problem[S], max_evaluations: int, mutation: Mutation[S],
+                 crossover: Crossover[S, S], selection: Selection[List[S], S], number_of_cores: int, client: Client):
         super().__init__()
         self.problem = problem
         self.max_evaluations = max_evaluations
@@ -36,6 +41,7 @@ class dNSGAII(Algorithm[S, R]):
         self.crossover_operator = crossover
         self.selection_operator = selection
 
+        self.population = []
         self.population_size = population_size
         self.number_of_cores = number_of_cores
         self.client = client
@@ -77,6 +83,7 @@ class dNSGAII(Algorithm[S, R]):
                     population.append(received_solution)
 
                     new_task = self.client.submit(self.problem.evaluate, self.problem.create_solution())
+
                     task_pool.add(new_task)
                 # Perform an algorithm step to create a new solution to be evaluated
                 else:
@@ -86,7 +93,7 @@ class dNSGAII(Algorithm[S, R]):
 
                         # Replacement
                         join_population = population + offspring_population
-                        self.check_population(join_population)
+                        self.__check_population(join_population)
                         population = RankingAndCrowdingDistanceSelection(self.population_size).execute(join_population)
 
                         self.update_progress(population)
@@ -97,14 +104,12 @@ class dNSGAII(Algorithm[S, R]):
                             solution = self.selection_operator.execute(population)
                             mating_population.append(solution)
 
-                        # Reproduction
-                        offspring = self.crossover_operator.execute(mating_population)
-                        self.mutation_operator.execute(offspring[0])
+                        # Reproduction and evaluation
+                        new_task = self.client.submit(
+                            reproduction, mating_population, self.problem, self.crossover_operator,
+                            self.mutation_operator
+                        )
 
-                        solution_to_evaluate = offspring[0]
-
-                        # Evaluation
-                        new_task = self.client.submit(self.problem.evaluate, solution_to_evaluate)
                         task_pool.add(new_task)
 
                 self.evaluations += 1
@@ -121,7 +126,7 @@ class dNSGAII(Algorithm[S, R]):
 
         self.client.close()
 
-    def check_population(self, join_population: []):
+    def __check_population(self, join_population: []):
         for solution in join_population:
             if solution is None:
                 raise Exception('Solution is none')
@@ -131,71 +136,3 @@ class dNSGAII(Algorithm[S, R]):
 
     def get_name(self) -> str:
         return 'Dynamic Non-dominated Sorting Genetic Algorithm II'
-
-
-def reproduction(mating_population: List[S], problem, crossover_operator, mutation_operator) -> S:
-    offspring = crossover_operator.execute(mating_population)
-    offspring = mutation_operator.execute(offspring[0])
-
-    return problem.evaluate(offspring)
-
-
-class dNSGA2BAliBASE(dNSGAII[S, R]):
-
-    def create_initial_population(self) -> List[MSASolution]:
-        return self.problem.import_instance(self.population_size)
-
-    def run(self):
-        logger.info('Importing initial population')
-        population = self.create_initial_population()
-
-        self.start_computing_time = time.time()
-
-        futures = []
-        for solution in population:
-            futures.append(self.client.submit(self.problem.evaluate, solution))
-
-        self.evaluations += len(population)
-        task_pool = as_completed(futures)
-
-        logger.info('Running main loop')
-        while self.evaluations < self.max_evaluations:
-            for future in task_pool:
-                offspring_population = []
-
-                if self.evaluations < self.max_evaluations:
-                    offspring_population.append(future.result())
-
-                    # Replacement
-                    join_population = population + offspring_population
-                    self.check_population(join_population)
-                    population = RankingAndCrowdingDistanceSelection(self.population_size).execute(join_population)
-
-                    self.update_progress(population)
-
-                    # Selection
-                    mating_population = []
-                    for _ in range(2):
-                        solution = self.selection_operator.execute(population)
-                        mating_population.append(solution)
-
-                    # Reproduction and evaluation
-                    new_task = self.client.submit(
-                        reproduction, mating_population, self.problem, self.crossover_operator, self.mutation_operator
-                    )
-
-                    task_pool.add(new_task)
-
-                self.evaluations += 1
-
-                if self.evaluations % 100 == 0:
-                    logger.info(
-                        'PopSize: {0}. Evals: {1}. Time: {2}'.format(
-                            len(population), self.evaluations, self.get_current_computing_time()
-                        )
-                    )
-
-        self.total_computing_time = self.get_current_computing_time()
-        self.population = population
-
-        self.client.close()

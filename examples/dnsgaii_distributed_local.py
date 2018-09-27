@@ -3,7 +3,7 @@ from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 from dask.distributed import Client, LocalCluster
 
-from pym2sa.algorithm import dNSGA2BAliBASE
+from pym2sa.algorithm import dNSGAII
 from pym2sa.problem import BAliBASE
 from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
 from pym2sa.util.graphic import MSAPlot
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     client = Client(cluster)
 
     # Creates the algorithm
-    algorithm = dNSGA2BAliBASE(
+    algorithm = dNSGAII(
         problem=problem,
         population_size=100,
         max_evaluations=1000,

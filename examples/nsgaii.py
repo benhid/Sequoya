@@ -1,22 +1,21 @@
+from jmetal.algorithm import NSGAII
 from jmetal.component import SequentialEvaluator, ProgressBarObserver, RankingAndCrowdingDistanceComparator, \
     VisualizerObserver
 from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
-from pym2sa.algorithm import NSGA2BAliBASE
-from pym2sa.problem import BAliBASE
 from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
+from pym2sa.problem.BAliBASE import BAliBASE
 from pym2sa.util.graphic import MSAPlot
 
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(instance='BB12010', balibase_path='../resources',
-                       score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
+    problem = BAliBASE(instance='BB12010', balibase_path='../resources', score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
     problem.obj_labels = ['SOP', '%TC']
 
     # Creates the algorithm
-    algorithm = NSGA2BAliBASE(
+    algorithm = NSGAII(
         problem=problem,
         population_size=100,
         max_evaluations=10000,

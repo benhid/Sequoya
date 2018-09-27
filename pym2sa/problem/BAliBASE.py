@@ -1,5 +1,4 @@
 import os
-from os import listdir
 from typing import List
 import logging
 import random
@@ -29,90 +28,77 @@ class BAliBASE(MSA):
         self.balibase_path = balibase_path
         self.instance = instance
 
-    def create_solution(self) -> List[MSASolution]:
-        raise NotImplementedError()
+        self.instance_population = []
+        self.instance_index = 0
 
-    def import_instance(self, population_size: int) -> List[MSASolution]:
-        """ Read and import an instance of BAliBASE.
+        self.__import_instance()
 
-        :param population_size: If the instance has less pre-computed alignments than this value, the population will be increased until the population_size is met. """
-        self.__read_original_sequences()
+    def create_solution(self) -> MSASolution:
+        """ Read and import an instance of BAliBASE. """
+        if self.instance_index < len(self.sequences_names):
+            solution = self.instance_population[self.instance_index]
+            self.instance_index += 1
+        else:
+            crossover_operator = SPXMSA(probability=1.0)
+            mutation_operator = TwoRandomAdjacentGapGroup(probability=1.0)
+
+            a = random.randint(0, len(self.sequences_names) - 1)
+            b = random.randint(0, len(self.sequences_names) - 1)
+
+            while a == b:
+                b = random.randint(0, len(self.sequences_names) - 1)
+
+            # We are only interested on one offspring
+            solution = crossover_operator.execute([self.instance_population[a], self.instance_population[b]])[0]
+            mutation_operator.execute(solution)
+
+        return solution
+
+    def __import_instance(self):
+        original_sequences = self.__read_original_sequences()
+
+        self.sequences_names = list(pair[0] for pair in original_sequences)
+        self.original_sequences = list(pair[1] for pair in original_sequences)
+        self.number_of_variables = len(self.sequences_names)
+
         aligned_sequences = self.__read_aligned_sequences()
 
         if len(aligned_sequences) < 2:
-            raise Exception('More than one pre-computed alignment is needed!')
+            raise Exception('More than one pre-computed alignment is required!')
 
-        population = []
         for msa in aligned_sequences:
             new_individual = MSASolution(self, msa)
-            population.append(new_individual)
 
-        logger.info('Instance imported')
-
-        for index, individual in enumerate(population):
-            self.evaluate(individual)
-            logger.info('Alignment no. {0}, length of alignment: {1}, objective values: {2}'.format(
-                index, individual.get_length_of_alignment(), individual.objectives)
+            self.evaluate(new_individual)
+            logger.info('Length of alignment: {0}, objective values: {1}'.format(
+                new_individual.get_length_of_alignment(), new_individual.objectives)
             )
 
-        logger.info('Number of pre-computed alignments: {0}'.format(len(population)))
-
-        with open('pyM2SA-PRECOMPUTED_ALIGNMENTS_{}'.format(self.instance), 'w') as of:
-            for solution in population:
-                of.write(str(solution) + " ")
-                of.write("\n")
-
-        crossover_operator = SPXMSA(probability=1.0)
-        mutation_operator = TwoRandomAdjacentGapGroup(probability=1.0)
-
-        while len(population) < population_size:
-            a = random.randint(0, len(population)-1)
-            b = random.randint(0, len(population)-1)
-
-            while a == b:
-                b = random.randint(0, len(population) - 1)
-
-            offspring = crossover_operator.execute([population[a], population[b]])
-            mutation_operator.execute(offspring[0])
-            mutation_operator.execute(offspring[1])
-
-            population.append(offspring[0])
-            logger.info('Population incremented, new population size: {}'.format(len(population)))
-
-        logger.info('Final population size: {}'.format(len(population)))
-
-        with open('pyM2SA-INITIAL_POPULATION_{}'.format(self.instance), 'w') as of:
-            for solution in population:
-                of.write(str(solution) + " ")
-                of.write("\n")
-
-        return population
+            self.instance_population.append(new_individual)
 
     def __read_original_sequences(self):
         bb3_release_path = self.__compute_path('bb_release')
 
         if os.path.isdir(bb3_release_path):
             fasta_file = read_fasta_file_as_list_of_pairs(self.instance + '.tfa', bb3_release_path)
-
-            self.sequences_names = list(pair[0] for pair in fasta_file)
-            self.number_of_variables = len(self.sequences_names)
-            self.original_sequences = fasta_file
         else:
             raise Exception('Instance not found at {}'.format(bb3_release_path))
 
-    def __read_aligned_sequences(self):
+        return fasta_file
+
+    def __read_aligned_sequences(self) -> List[list]:
         bb3_aligned_path = self.__compute_path('bb_aligned')
 
-        alignment_sequences = []
+        aligned_sequences = []
         if os.path.isdir(bb3_aligned_path):
-            for file in listdir(bb3_aligned_path):
+            for file in os.listdir(bb3_aligned_path):
                 if file.split('.')[0] == self.instance and file.split('.')[1] in self.DATA_FILES:
                     msa = read_fasta_file_as_list_of_pairs(file, bb3_aligned_path)
-                    alignment_sequences.append(msa)
+                    aligned_sequences.append(msa)
         else:
             raise Exception('Instance not found at {}'.format(bb3_aligned_path))
 
-        return alignment_sequences
+        return aligned_sequences
 
     def __compute_path(self, directory: str) -> str:
         return os.path.join(self.balibase_path, directory, 'RV' + self.instance[2:4] + '/')
