@@ -1,3 +1,4 @@
+import random
 from typing import List, TypeVar
 import logging
 import time
@@ -23,7 +24,12 @@ R = TypeVar(List[S])
 """
 
 
-def reproduction(mating_population: List[S], problem, crossover_operator, mutation_operator) -> S:
+def reproduction(population: List[S], problem, crossover_operator, mutation_operator) -> S:
+    if len(population) > 2:
+        mating_population = random.sample(set(population), 2)
+    else:
+        mating_population = population
+
     offspring = crossover_operator.execute(mating_population)[0]
     offspring = mutation_operator.execute(offspring)
 
@@ -65,6 +71,10 @@ class dNSGAII(Algorithm[S, R]):
     def run(self):
         start_computing_time = time.time()
 
+        distributed_instance_population = self.client.scatter(self.problem.instance_population, broadcast=True)
+        distributed_create_solution = self.client.scatter(self.problem.create_solution(), broadcast=True)
+        distributed_problem = self.client.scatter(self.problem, broadcast=True)
+
         population = self.create_initial_population()
 
         futures = []
@@ -85,7 +95,11 @@ class dNSGAII(Algorithm[S, R]):
                     received_solution = future.result()
                     population.append(received_solution)
 
-                    new_task = self.client.submit(self.problem.evaluate, self.problem.create_solution())
+                    new_task = self.client.submit(self.problem.evaluate, distributed_create_solution)
+                    #new_task = self.client.submit(
+                    #    reproduction, distributed_instance_population, distributed_problem,
+                    #    self.crossover_operator, self.mutation_operator
+                    #)
 
                     task_pool.add(new_task)
                 # Perform an algorithm step to create a new solution to be evaluated
@@ -108,8 +122,8 @@ class dNSGAII(Algorithm[S, R]):
 
                         # Reproduction and evaluation
                         new_task = self.client.submit(
-                            reproduction, mating_population, self.problem, self.crossover_operator,
-                            self.mutation_operator
+                            reproduction, mating_population, distributed_problem,
+                            self.crossover_operator, self.mutation_operator
                         )
 
                         task_pool.add(new_task)

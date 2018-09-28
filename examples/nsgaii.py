@@ -11,7 +11,7 @@ from pym2sa.util.graphic import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(instance='BB20001', balibase_path='../resources', score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
+    problem = BAliBASE(instance='BB30001', balibase_path='../resources', score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
     problem.obj_labels = ['SOP', '%TC']
 
     # Creates the algorithm

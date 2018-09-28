@@ -44,15 +44,10 @@ class BAliBASE(MSA):
             mutation_operator = MultipleMSAMutation(
                 [OneRandomGapInsertion(1.0), TwoRandomAdjacentGapGroup(1.0)], probability=1.0
             )
-
-            a = random.randint(0, len(self.instance_population) - 1)
-            b = random.randint(0, len(self.instance_population) - 1)
-
-            while a == b:
-                b = random.randint(0, len(self.instance_population) - 1)
+            mutation_operator = TwoRandomAdjacentGapGroup(1.0)
 
             # We are only interested on one offspring
-            solution = crossover_operator.execute([self.instance_population[a], self.instance_population[b]])[0]
+            solution = crossover_operator.execute(random.sample(set(self.instance_population), 2))[0]
             mutation_operator.execute(solution)
 
         return solution
