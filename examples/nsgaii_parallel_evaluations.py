@@ -3,7 +3,7 @@ from jmetal.component import ProgressBarObserver, RankingAndCrowdingDistanceComp
 from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
-from pym2sa.component.evaluator import MultithreadedEvaluator
+from pym2sa.component.evaluator import MultithreadedEvaluator, MapEvaluator
 from pym2sa.problem import BAliBASE
 from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
 from pym2sa.util.graphic import MSAPlot
@@ -11,7 +11,7 @@ from pym2sa.util.graphic import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(instance='BB12010', balibase_path='../resources',
+    problem = BAliBASE(instance='BB20001', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
     problem.obj_labels = ['SOP', '%TC']
 
@@ -23,7 +23,7 @@ if __name__ == '__main__':
         mutation=TwoRandomAdjacentGapGroup(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        evaluator=MultithreadedEvaluator(n_workers=4)
+        evaluator=MapEvaluator(n_workers=4)
     )
 
     visualizer = VisualizerObserver()

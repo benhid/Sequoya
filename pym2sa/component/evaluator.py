@@ -20,6 +20,9 @@ class MapEvaluator(Evaluator[S]):
 
         return solution_list
 
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.pool.close()
+
 
 class MultithreadedEvaluator(Evaluator[S]):
 
