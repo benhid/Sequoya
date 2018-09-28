@@ -11,7 +11,7 @@ R = TypeVar(List[S])
 
 class MultipleMSAMutation(Mutation[S]):
 
-    def __init__(self, operator: list, probability: float) -> None:
+    def __init__(self, operator: List[Mutation[S]], probability: float) -> None:
         super(MultipleMSAMutation, self).__init__(probability=probability)
         self.operator = operator
 

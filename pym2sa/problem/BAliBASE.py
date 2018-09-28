@@ -7,7 +7,7 @@ from pymsa.core.score import Score
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup, MultipleMSAMutation
+from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup, MultipleMSAMutation, OneRandomGapInsertion
 from pym2sa.problem.MSA import MSA
 
 logger = logging.getLogger('pyM2SA')
@@ -28,6 +28,7 @@ class BAliBASE(MSA):
         self.balibase_path = balibase_path
         self.instance = instance
 
+        # Population of pre-computed alignments
         self.instance_population = []
         self.instance_index = 0
 
@@ -40,7 +41,9 @@ class BAliBASE(MSA):
             self.instance_index += 1
         else:
             crossover_operator = SPXMSA(probability=1.0)
-            mutation_operator = TwoRandomAdjacentGapGroup(probability=1.0)
+            mutation_operator = MultipleMSAMutation(
+                [OneRandomGapInsertion(1.0), TwoRandomAdjacentGapGroup(1.0)], probability=1.0
+            )
 
             a = random.randint(0, len(self.instance_population) - 1)
             b = random.randint(0, len(self.instance_population) - 1)
@@ -66,28 +69,26 @@ class BAliBASE(MSA):
         if len(aligned_sequences) < 2:
             raise Exception('More than one pre-computed alignment is required!')
 
-        for msa in aligned_sequences:
+        for index, msa in enumerate(aligned_sequences):
             new_individual = MSASolution(self, msa)
-
-            self.evaluate(new_individual)
-            logger.info('Length of alignment: {0}, objective values: {1}'.format(
-                new_individual.get_length_of_alignment(), new_individual.objectives)
-            )
-
             self.instance_population.append(new_individual)
 
     def __read_original_sequences(self):
         bb3_release_path = self.__compute_path('bb_release')
+        logger.info('Reading original sequences from {}'.format(bb3_release_path))
 
         if os.path.isdir(bb3_release_path):
             fasta_file = read_fasta_file_as_list_of_pairs(self.instance + '.tfa', bb3_release_path)
         else:
             raise Exception('Instance not found at {}'.format(bb3_release_path))
 
+        logger.info('...OK ({} instances found)'.format(len(fasta_file)))
+
         return fasta_file
 
     def __read_aligned_sequences(self) -> List[list]:
         bb3_aligned_path = self.__compute_path('bb_aligned')
+        logger.info('Reading aligned sequences from {}'.format(bb3_aligned_path))
 
         aligned_sequences = []
         if os.path.isdir(bb3_aligned_path):
@@ -97,6 +98,8 @@ class BAliBASE(MSA):
                     aligned_sequences.append(msa)
         else:
             raise Exception('Instance not found at {}'.format(bb3_aligned_path))
+
+        logger.info('...OK ({} instances found)'.format(len(aligned_sequences)))
 
         return aligned_sequences
 

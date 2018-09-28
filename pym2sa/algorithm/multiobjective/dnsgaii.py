@@ -24,8 +24,8 @@ R = TypeVar(List[S])
 
 
 def reproduction(mating_population: List[S], problem, crossover_operator, mutation_operator) -> S:
-    offspring = crossover_operator.execute(mating_population)
-    offspring = mutation_operator.execute(offspring[0])
+    offspring = crossover_operator.execute(mating_population)[0]
+    offspring = mutation_operator.execute(offspring)
 
     return problem.evaluate(offspring)
 
@@ -63,9 +63,9 @@ class dNSGAII(Algorithm[S, R]):
         return population
 
     def run(self):
-        population = self.create_initial_population()
-
         start_computing_time = time.time()
+
+        population = self.create_initial_population()
 
         futures = []
         for solution in population:
@@ -74,11 +74,14 @@ class dNSGAII(Algorithm[S, R]):
         self.evaluations += len(population)
         task_pool = as_completed(futures)
 
-        # MAIN LOOP
+        logger.debug('Running main loop')
+
         while self.evaluations < self.max_evaluations:
             for future in task_pool:
                 # The initial population is not full
                 if len(population) < self.population_size:
+                    logger.debug('...initial population is not full!')
+
                     received_solution = future.result()
                     population.append(received_solution)
 
@@ -93,7 +96,6 @@ class dNSGAII(Algorithm[S, R]):
 
                         # Replacement
                         join_population = population + offspring_population
-                        self.__check_population(join_population)
                         population = RankingAndCrowdingDistanceSelection(self.population_size).execute(join_population)
 
                         self.update_progress(population)
@@ -122,14 +124,9 @@ class dNSGAII(Algorithm[S, R]):
                     )
 
         self.total_computing_time = time.time() - start_computing_time
+
         self.population = population
-
         self.client.close()
-
-    def __check_population(self, join_population: []):
-        for solution in join_population:
-            if solution is None:
-                raise Exception('Solution is none')
 
     def get_result(self) -> R:
         return self.population

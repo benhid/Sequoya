@@ -25,8 +25,9 @@ This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) alg
     * Percentage of non-gaps,
     * Percentage of totally conserved columns,
     * STRIKE.
-* The **algorithm** that is currently available is:
+* The **algorithms** that are currently available are:
     * NSGA-II
+    * dNSGA-II
 * **Crossover operator**:
     * Single-point crossover (`GapSequenceSolutionSinglePoint`).
 * **Mutation operators**:
