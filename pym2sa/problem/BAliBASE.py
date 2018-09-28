@@ -7,7 +7,7 @@ from pymsa.core.score import Score
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
+from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup, MultipleMSAMutation
 from pym2sa.problem.MSA import MSA
 
 logger = logging.getLogger('pyM2SA')
@@ -35,18 +35,18 @@ class BAliBASE(MSA):
 
     def create_solution(self) -> MSASolution:
         """ Read and import an instance of BAliBASE. """
-        if self.instance_index < len(self.sequences_names):
+        if self.instance_index < len(self.instance_population):
             solution = self.instance_population[self.instance_index]
             self.instance_index += 1
         else:
             crossover_operator = SPXMSA(probability=1.0)
             mutation_operator = TwoRandomAdjacentGapGroup(probability=1.0)
 
-            a = random.randint(0, len(self.sequences_names) - 1)
-            b = random.randint(0, len(self.sequences_names) - 1)
+            a = random.randint(0, len(self.instance_population) - 1)
+            b = random.randint(0, len(self.instance_population) - 1)
 
             while a == b:
-                b = random.randint(0, len(self.sequences_names) - 1)
+                b = random.randint(0, len(self.instance_population) - 1)
 
             # We are only interested on one offspring
             solution = crossover_operator.execute([self.instance_population[a], self.instance_population[b]])[0]
