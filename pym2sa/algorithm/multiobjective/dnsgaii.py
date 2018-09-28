@@ -71,9 +71,10 @@ class dNSGAII(Algorithm[S, R]):
     def run(self):
         start_computing_time = time.time()
 
-        distributed_instance_population = self.client.scatter(self.problem.instance_population, broadcast=True)
         distributed_create_solution = self.client.scatter(self.problem.create_solution(), broadcast=True)
         distributed_problem = self.client.scatter(self.problem, broadcast=True)
+
+        logger.debug('Creating initial population')
 
         population = self.create_initial_population()
 
@@ -90,16 +91,12 @@ class dNSGAII(Algorithm[S, R]):
             for future in task_pool:
                 # The initial population is not full
                 if len(population) < self.population_size:
-                    logger.debug('...initial population is not full!')
+                    logger.debug('Creating new solution ({0} out of {1})'.format(len(population), self.population_size))
 
                     received_solution = future.result()
                     population.append(received_solution)
 
                     new_task = self.client.submit(self.problem.evaluate, distributed_create_solution)
-                    #new_task = self.client.submit(
-                    #    reproduction, distributed_instance_population, distributed_problem,
-                    #    self.crossover_operator, self.mutation_operator
-                    #)
 
                     task_pool.add(new_task)
                 # Perform an algorithm step to create a new solution to be evaluated
@@ -130,7 +127,7 @@ class dNSGAII(Algorithm[S, R]):
 
                 self.evaluations += 1
 
-                if self.evaluations % 100 == 0:
+                if self.evaluations % 10 == 0:
                     logger.info(
                         'PopSize: {0}. Evals: {1}. Time: {2}'.format(
                             len(population), self.evaluations, self.get_current_computing_time()

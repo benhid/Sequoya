@@ -3,6 +3,7 @@ from typing import List
 import logging
 import random
 
+import dask.bag as db
 from pymsa.core.score import Score
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
@@ -41,10 +42,7 @@ class BAliBASE(MSA):
             self.instance_index += 1
         else:
             crossover_operator = SPXMSA(probability=1.0)
-            mutation_operator = MultipleMSAMutation(
-                [OneRandomGapInsertion(1.0), TwoRandomAdjacentGapGroup(1.0)], probability=1.0
-            )
-            mutation_operator = TwoRandomAdjacentGapGroup(1.0)
+            mutation_operator = TwoRandomAdjacentGapGroup(probability=1.0)
 
             # We are only interested on one offspring
             solution = crossover_operator.execute(random.sample(set(self.instance_population), 2))[0]
