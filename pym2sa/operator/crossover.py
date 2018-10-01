@@ -1,3 +1,4 @@
+import logging
 from typing import List
 import copy
 import random
@@ -5,9 +6,11 @@ import random
 from jmetal.core.operator import Crossover
 from pym2sa.core.solution import MSASolution
 
+logger = logging.getLogger('pyM2SA')
+
 
 class SPXMSA(Crossover[List[MSASolution], MSASolution]):
-    """ Implements a single point crossover for MSA representation. """
+    """ Implements a single point crossover for MSA. """
 
     def __init__(self, probability: float, remove_gap_columns: bool=True) -> None:
         super(SPXMSA, self).__init__(probability=probability)
@@ -210,4 +213,41 @@ class SPXMSA(Crossover[List[MSASolution], MSASolution]):
         return 2
 
     def get_name(self) -> str:
-        return 'Simplex Crossover for MSA'
+        return 'Single Point Crossover for MSA'
+
+
+class HMSA(Crossover[List[MSASolution], MSASolution]):
+    """ Implements an horizontal recombination for MSA. """
+
+    def __init__(self, probability: float) -> None:
+        super(HMSA, self).__init__(probability=probability)
+        self.has_solution_been_crossed = None
+
+    def execute(self, parents: List[MSASolution]) -> List[MSASolution]:
+        if len(parents) != 2:
+            raise Exception('The number of parents is not two (2) but {}'.format(len(parents)))
+        logger.warning('HMSA crossover operator is still experimental')
+
+        return self.do_crossover(parents)
+
+    def do_crossover(self, parents: List[MSASolution]) -> List[MSASolution]:
+        if random.random() <= self.probability:
+            offspring = [copy.deepcopy(parents[0]), copy.deepcopy(parents[1])]
+
+            for seq in range(offspring[0].number_of_variables):
+                if random.randint(0, 1) == 1:
+                    offspring[0].gaps_groups[seq], offspring[1].gaps_groups[seq] = \
+                        offspring[1].gaps_groups[seq], offspring[0].gaps_groups[seq]
+
+            self.has_solution_been_crossed = True
+        else:
+            offspring = copy.deepcopy(parents)
+            self.has_solution_been_crossed = False
+
+        return offspring
+
+    def get_number_of_parents(self) -> int:
+        return 2
+
+    def get_name(self) -> str:
+        return 'Horizontal Recombination for MSA'

@@ -2,6 +2,7 @@ from typing import TypeVar, List
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 from multiprocessing.pool import ThreadPool
 
+import dask
 from dask.distributed import Client, as_completed, LocalCluster
 
 from jmetal.component.evaluator import Evaluator
@@ -40,6 +41,22 @@ class MultithreadedEvaluator(Evaluator[S]):
             evaluated_list.append(future.result())
 
         return evaluated_list
+
+
+class DelayedEvaluator(Evaluator[S]):
+
+    def __init__(self):
+        pass
+
+    def evaluate(self, solution_list: List[S], problem: Problem) -> List[S]:
+        delayed_results = []
+
+        for solution in solution_list:
+            delayed_results.append(dask.delayed(problem.evaluate)(solution))
+
+        results = dask.compute(*delayed_results)
+
+        return list(results)
 
 
 class SubmitEvaluator(Evaluator[S]):

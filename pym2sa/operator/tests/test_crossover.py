@@ -2,7 +2,7 @@ import unittest
 from unittest import mock
 
 from pym2sa.core.solution import MSASolution
-from pym2sa.operator.crossover import SPXMSA
+from pym2sa.operator.crossover import SPXMSA, HMSA
 from pym2sa.problem import MSA
 
 
@@ -364,6 +364,43 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
 
         # check
         self.assertEqual(8, max)
+
+
+class HorizontalRecombinationTestCases(unittest.TestCase):
+
+    @mock.patch('random.randint')
+    def test_should_single_point_crossover_work_properly_case_a(self, random_call):
+        # setup
+        problem = MSA(score_list=[], original_sequences=['ACTC', 'ATC', 'AC'], sequences_names=['seq1', 'seq2', 'seq3'])
+        msa_1 = MSASolution(problem, msa=[('seq1', 'ACTC'), ('seq2', 'A-TC'), ('seq3', 'A--C')])
+        msa_2 = MSASolution(problem, msa=[('seq1', 'ACTC'), ('seq2', 'AT-C'), ('seq3', '-AC-')])
+
+        crossover = HMSA(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_call.return_value = 1
+        offspring = crossover.execute([msa_1, msa_2])
+
+        # check
+        self.assertEqual(['ACTC', 'AT-C', '-AC-'], offspring[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(['ACTC', 'A-TC', 'A--C'], offspring[1].decode_alignment_as_list_of_sequences())
+
+    @mock.patch('random.randint')
+    def test_should_single_point_crossover_work_properly_case_b(self, random_call):
+        # setup
+        problem = MSA(score_list=[], original_sequences=['ACTC', 'ATC', 'AC'], sequences_names=['seq1', 'seq2', 'seq3'])
+        msa_1 = MSASolution(problem, msa=[('seq1', 'ACTC'), ('seq2', 'A-TC'), ('seq3', 'A--C')])
+        msa_2 = MSASolution(problem, msa=[('seq1', 'ACT-C'), ('seq2', 'AT--C'), ('seq3', '--AC-')])
+
+        crossover = HMSA(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_call.return_value = 1
+        offspring = crossover.execute([msa_1, msa_2])
+
+        # check
+        self.assertEqual(['ACT-C', 'AT--C', '--AC-'], offspring[0].decode_alignment_as_list_of_sequences())
+        self.assertEqual(['ACTC', 'A-TC', 'A--C'], offspring[1].decode_alignment_as_list_of_sequences())
 
 
 if __name__ == "__main__":

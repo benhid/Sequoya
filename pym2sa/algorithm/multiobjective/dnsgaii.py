@@ -3,6 +3,8 @@ from typing import List, TypeVar
 import logging
 import time
 
+from dask import delayed, compute
+
 from jmetal.core.algorithm import Algorithm
 from jmetal.core.operator import Mutation, Crossover, Selection
 from jmetal.core.problem import Problem
@@ -34,6 +36,12 @@ def reproduction(population: List[S], problem, crossover_operator, mutation_oper
     offspring = mutation_operator.execute(offspring)
 
     return problem.evaluate(offspring)
+
+
+def create_new_solution(problem):
+    solution = problem.create_solution()
+
+    return problem.evaluate(solution)
 
 
 class dNSGAII(Algorithm[S, R]):
@@ -70,9 +78,7 @@ class dNSGAII(Algorithm[S, R]):
 
     def run(self):
         start_computing_time = time.time()
-
-        distributed_create_solution = self.client.scatter(self.problem.create_solution(), broadcast=True)
-        distributed_problem = self.client.scatter(self.problem, broadcast=True)
+        future_problem = self.client.scatter([self.problem], broadcast=True)
 
         logger.debug('Creating initial population')
 
@@ -96,7 +102,7 @@ class dNSGAII(Algorithm[S, R]):
                     received_solution = future.result()
                     population.append(received_solution)
 
-                    new_task = self.client.submit(self.problem.evaluate, distributed_create_solution)
+                    new_task = self.client.submit(create_new_solution, future_problem[0])
 
                     task_pool.add(new_task)
                 # Perform an algorithm step to create a new solution to be evaluated
@@ -119,7 +125,7 @@ class dNSGAII(Algorithm[S, R]):
 
                         # Reproduction and evaluation
                         new_task = self.client.submit(
-                            reproduction, mating_population, distributed_problem,
+                            reproduction, mating_population, future_problem[0],
                             self.crossover_operator, self.mutation_operator
                         )
 
