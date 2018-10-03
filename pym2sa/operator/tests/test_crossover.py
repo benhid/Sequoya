@@ -375,7 +375,7 @@ class HorizontalRecombinationTestCases(unittest.TestCase):
         msa_1 = MSASolution(problem, msa=[('seq1', 'ACTC'), ('seq2', 'A-TC'), ('seq3', 'A--C')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'ACTC'), ('seq2', 'AT-C'), ('seq3', '-AC-')])
 
-        crossover = HMSA(probability=1.0, remove_gap_columns=False)
+        crossover = HMSA(probability=1.0)
 
         # run
         random_call.return_value = 1
@@ -392,7 +392,7 @@ class HorizontalRecombinationTestCases(unittest.TestCase):
         msa_1 = MSASolution(problem, msa=[('seq1', 'ACTC'), ('seq2', 'A-TC'), ('seq3', 'A--C')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'ACT-C'), ('seq2', 'AT--C'), ('seq3', '--AC-')])
 
-        crossover = HMSA(probability=1.0, remove_gap_columns=False)
+        crossover = HMSA(probability=1.0)
 
         # run
         random_call.return_value = 1

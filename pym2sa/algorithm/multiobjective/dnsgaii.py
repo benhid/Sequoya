@@ -3,12 +3,11 @@ from typing import List, TypeVar
 import logging
 import time
 
-from dask import delayed, compute
-
 from jmetal.core.algorithm import Algorithm
 from jmetal.core.operator import Mutation, Crossover, Selection
 from jmetal.core.problem import Problem
 from jmetal.operator.selection import RankingAndCrowdingDistanceSelection
+from pymsa.core.score import PercentageOfTotallyConservedColumns
 from dask.distributed import Client, as_completed
 
 logger = logging.getLogger('pyM2SA')
@@ -26,16 +25,28 @@ R = TypeVar(List[S])
 """
 
 
-def reproduction(population: List[S], problem, crossover_operator, mutation_operator) -> S:
+def reproduction(population: List[S], problem: Problem[S], crossover_operator: Crossover[S, S], mutation_operator: Mutation[S]) -> S:
+    """ Cross and mutate a list of solutions and return an individual (whichever scores better attending to one
+    objective). """
     if len(population) > 2:
         mating_population = random.sample(set(population), 2)
     else:
         mating_population = population
 
-    offspring = crossover_operator.execute(mating_population)[0]
-    offspring = mutation_operator.execute(offspring)
+    offspring = crossover_operator.execute(mating_population)
 
-    return problem.evaluate(offspring)
+    for individual in offspring:
+        problem.evaluate(individual)
+
+    # We will select only the best solution among the offsprings
+    if problem.obj_directions[0] == problem.MAXIMIZE:
+        offspring = sorted(offspring, reverse=True, key=lambda solution: solution.objectives[0])
+    else:
+        offspring = sorted(offspring, key=lambda solution: solution.objectives[0])
+
+    individual = mutation_operator.execute(offspring[0])
+
+    return individual
 
 
 def create_new_solution(problem):

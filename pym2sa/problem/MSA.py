@@ -26,6 +26,14 @@ class MSA(MSAProblem):
         self.number_of_objectives = len(self.score_list)
         self.number_of_variables = len(self.sequences_names)
 
+        self.obj_directions = [0 for _ in range(len(self.score_list))]
+
+        for i, score in enumerate(score_list):
+            if score.is_minimization():
+                self.obj_directions[i] = self.MINIMIZE
+            else:
+                self.obj_directions[i] = self.MAXIMIZE
+
     def create_solution(self) -> MSASolution:
         raise NotImplementedError()
 
@@ -35,11 +43,11 @@ class MSA(MSAProblem):
         :param solution: MSA to evaluate. """
         solution.remove_full_of_gaps_columns()
 
-        for i, score in enumerate(self.score_list):
-            if score.is_minimization():
-                solution.objectives[i] = score.compute(solution.decode_alignment_as_list_of_sequences())
+        for i, direction in enumerate(self.obj_directions):
+            if direction == self.MAXIMIZE:
+                solution.objectives[i] = self.score_list[i].compute(solution.decode_alignment_as_list_of_sequences())
             else:
-                solution.objectives[i] = -1.0 * score.compute(solution.decode_alignment_as_list_of_sequences())
+                solution.objectives[i] = -1.0 * self.score_list[i].compute(solution.decode_alignment_as_list_of_sequences())
 
         return solution
 

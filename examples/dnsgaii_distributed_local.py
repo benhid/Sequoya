@@ -11,9 +11,9 @@ from pym2sa.util.graphic import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(instance='BB30001', balibase_path='../resources',
+    problem = BAliBASE(instance='BB12001', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
-    problem.obj_labels = ['%TC', 'SOP']
+    problem.obj_labels = ['SOP', '%TC']
 
     # Setup Dask client (web interface will be initialized at http://127.0.0.1:8787/workers)
     cluster = LocalCluster(n_workers=8, processes=True)
