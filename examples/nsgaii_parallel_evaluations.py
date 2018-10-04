@@ -3,7 +3,7 @@ from jmetal.component import ProgressBarObserver, RankingAndCrowdingDistanceComp
 from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
-from pym2sa.component.evaluator import MultithreadedEvaluator, MapEvaluator
+from pym2sa.component.evaluator import MapEvaluator
 from pym2sa.problem import BAliBASE
 from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
 from pym2sa.util.graphic import MSAPlot
@@ -11,7 +11,7 @@ from pym2sa.util.graphic import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(instance='BB20001', balibase_path='../resources',
+    problem = BAliBASE(balibase_instance='BB20001', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
     problem.obj_labels = ['SOP', '%TC']
 
@@ -36,8 +36,8 @@ if __name__ == '__main__':
     front = algorithm.get_result()
 
     # Plot the solution
-    pareto_front = MSAPlot(plot_title='NSGAII for ' + problem.instance, axis_labels=problem.obj_labels)
+    pareto_front = MSAPlot(plot_title='NSGAII for ' + problem.balibase_instance, axis_labels=problem.obj_labels)
     pareto_front.plot(front)
-    pareto_front.to_html(filename='NSGAII-' + problem.instance)
+    pareto_front.to_html(filename='NSGAII-' + problem.balibase_instance)
 
     print('Computing time: ' + str(algorithm.total_computing_time))

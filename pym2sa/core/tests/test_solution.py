@@ -8,8 +8,8 @@ class MSASolutionTestCases(unittest.TestCase):
 
     def test_should_return_original_sequences(self):
         # setup
-        problem = MSA(score_list=[], original_sequences=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
-        msa = MSASolution(problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
+        problem = MSA(score_list=[], sequences_without_gaps=['ACTGAC', 'ATCTC', 'AACTGC'], sequences_names=['seq1', 'seq2', 'seq3'])
+        msa = MSASolution(problem=problem, msa=[('seq1', 'AC---TGAC'), ('seq2', 'AT--CT--C'), ('seq3', 'AAC---TGC')])
 
         # check
         self.assertEqual(['AC---TGAC', 'AT--CT--C', 'AAC---TGC'], msa.decode_alignment_as_list_of_sequences())

@@ -35,18 +35,19 @@ def reproduction(population: List[S], problem: Problem[S], crossover_operator: C
 
     offspring = crossover_operator.execute(mating_population)
 
-    for individual in offspring:
-        problem.evaluate(individual)
+    #for individual in offspring:
+    #    problem.evaluate(individual)
 
     # We will select only the best solution among the offsprings
-    if problem.obj_directions[0] == problem.MAXIMIZE:
-        offspring = sorted(offspring, reverse=True, key=lambda solution: solution.objectives[0])
-    else:
-        offspring = sorted(offspring, key=lambda solution: solution.objectives[0])
+    #if problem.obj_directions[0] == problem.MAXIMIZE:
+    #    offspring = sorted(offspring, reverse=True, key=lambda solution: solution.objectives[0])
+    #else:
+    #    offspring = sorted(offspring, key=lambda solution: solution.objectives[0])
 
     individual = mutation_operator.execute(offspring[0])
 
-    return individual
+    #return individual
+    return problem.evaluate(individual)
 
 
 def create_new_solution(problem):
@@ -89,6 +90,11 @@ class dNSGAII(Algorithm[S, R]):
 
     def run(self):
         start_computing_time = time.time()
+
+        logger.debug('Initializing futures')
+
+        future_crossover = self.client.scatter([self.crossover_operator], broadcast=True)
+        future_mutation = self.client.scatter([self.mutation_operator], broadcast=True)
         future_problem = self.client.scatter([self.problem], broadcast=True)
 
         logger.debug('Creating initial population')
@@ -136,8 +142,7 @@ class dNSGAII(Algorithm[S, R]):
 
                         # Reproduction and evaluation
                         new_task = self.client.submit(
-                            reproduction, mating_population, future_problem[0],
-                            self.crossover_operator, self.mutation_operator
+                            reproduction, mating_population, future_problem[0], future_crossover[0], future_mutation[0]
                         )
 
                         task_pool.add(new_task)

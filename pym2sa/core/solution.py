@@ -4,7 +4,7 @@ from jmetal.core.solution import Solution
 class MSASolution(Solution[str]):
     """ Class representing MSA solutions. """
 
-    GAP_IDENTIFIER = '-'
+    __GAP_IDENTIFIER = '-'
 
     def __init__(self, problem, msa: list) -> None:
         super(MSASolution, self).__init__(number_of_variables=problem.number_of_variables,
@@ -24,13 +24,13 @@ class MSASolution(Solution[str]):
             self.gaps_groups[seq_index] = self.__get_gaps_group_of_sequence(seq)
 
     def decode_sequence_at_index(self, seq_index: int):
-        return self.__decode(self.problem.original_sequences[seq_index], self.gaps_groups[seq_index])
+        return self.__decode(self.problem.sequences_without_gaps[seq_index], self.gaps_groups[seq_index])
 
     def decode_alignment_as_list_of_sequences(self) -> list:
         aligned_sequences = []
 
         for i in range(self.number_of_variables):
-            aligned_sequences.append(self.__decode(self.problem.original_sequences[i], self.gaps_groups[i]))
+            aligned_sequences.append(self.__decode(self.problem.sequences_without_gaps[i], self.gaps_groups[i]))
 
         return aligned_sequences
 
@@ -38,7 +38,7 @@ class MSASolution(Solution[str]):
         list_of_pairs = []
 
         for i in range(self.number_of_variables):
-            sequence = self.__decode(self.problem.original_sequences[i], self.gaps_groups[i])
+            sequence = self.__decode(self.problem.sequences_without_gaps[i], self.gaps_groups[i])
             list_of_pairs.append((self.problem.sequences_names[i], sequence))
 
         return list_of_pairs
@@ -371,7 +371,7 @@ class MSASolution(Solution[str]):
         """ Get length of an specific sequence.
 
         :param seq_index: Index of the sequence in the alignment. """
-        return len(self.problem.original_sequences[seq_index]) + self.get_length_of_gaps(seq_index)
+        return len(self.problem.sequences_without_gaps[seq_index]) + self.get_length_of_gaps(seq_index)
 
     def is_valid_msa(self) -> bool:
         """ Check if all sequences of the alignment have the same length. """

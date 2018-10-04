@@ -11,18 +11,17 @@ logger = logging.getLogger('pyM2SA')
 
 class MSA(MSAProblem):
 
-    def __init__(self, score_list: List[Score], original_sequences: [], sequences_names: []):
+    def __init__(self, score_list: List[Score], sequences_without_gaps: List[str], sequences_names: List[str]):
         """ Creates a new generic MSA problem.
 
         :param score_list: List of scores to evaluate MSAs.
-        :param original_sequences: List of original sequences (without gaps).
+        :param sequences_without_gaps: List of original sequences (without gaps).
         :param sequences_names: List of sequences names. """
         super(MSA, self).__init__()
         self.score_list = score_list
-        self.original_sequences = original_sequences
+        self.sequences_without_gaps = sequences_without_gaps
         self.sequences_names = sequences_names
 
-        self.number_of_constraints = 0
         self.number_of_objectives = len(self.score_list)
         self.number_of_variables = len(self.sequences_names)
 
