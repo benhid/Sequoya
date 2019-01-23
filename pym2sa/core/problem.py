@@ -11,7 +11,7 @@ class MSAProblem(Problem[MSASolution]):
     __metaclass__ = ABCMeta
 
     def __init__(self):
-        super(MSAProblem, self).__init__(reference_front_path='')
+        super(MSAProblem, self).__init__()
         self.number_of_constraints = 0
 
     @abstractmethod

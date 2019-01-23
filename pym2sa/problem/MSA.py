@@ -26,10 +26,10 @@ class MSA(MSAProblem):
         solution.remove_full_of_gaps_columns()
 
         for i, score in enumerate(self.score_list):
-            if score.is_minimization():
-                solution.objectives[i] = score.compute(solution.decode_alignment_as_list_of_sequences())
-            else:
-                solution.objectives[i] = -1.0 * score.compute(solution.decode_alignment_as_list_of_sequences())
+            solution.objectives[i] = score.compute(solution.decode_alignment_as_list_of_sequences())
+
+            if not score.is_minimization():
+                solution.objectives[i] = -solution.objectives[i]
 
         return solution
 

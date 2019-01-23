@@ -7,7 +7,7 @@ except ImportError:
 
 setup(
     name='pyM2SA',
-    version='0.5.0',
+    version='0.5.1',
     description='Solving Multiple Sequence Alignments with Python',
     author='Antonio Benítez-Hidalgo',
     author_email='antonio.b@uma.es',
@@ -26,8 +26,8 @@ setup(
         'Programming Language :: Python :: 3.6'
     ],
     install_requires=[
-        'jmetalpy==0.5.1',
+        'jmetalpy==1.0.0',
         'pymsa==0.5.1',
-        'dask[distributed]==0.19.2'
+        'dask[complete]==1.0.0'
     ]
 )

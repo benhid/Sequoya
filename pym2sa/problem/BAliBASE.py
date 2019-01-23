@@ -19,21 +19,41 @@ class BAliBASE(MSA):
     DATA_FILES = ['tfa_clu', 'tfa_muscle', 'tfa_kalign', 'tfa_retalign',
                   'fasta_aln', 'tfa_probcons', 'tfa_mafft', 'tfa_fsa']
 
-    def __init__(self, instance: str, balibase_path: str, score_list: List[Score]) -> None:
+    def __init__(self, balibase_instance: str, balibase_path: str, score_list: List[Score]) -> None:
         """ Creates a new problem based on an instance of BAliBASE.
 
-        :param instance: Instance name (e.g., BB12010).
+        :param balibase_instance: Instance name (e.g., BB12010).
         :param balibase_path: Path containing two directories: `bb3_aligned`, with the pre-computed alignments and
         `bb3_release`, with the original sequences.
         :param score_list: List of pyMSA objects. """
         super(BAliBASE, self).__init__(score_list)
+        self.balibase_instance = balibase_instance
         self.balibase_path = balibase_path
-        self.instance = instance
+        self.instance = self.import_instance()
+        self.counter = 0
 
-    def create_solution(self) -> List[MSASolution]:
-        raise NotImplementedError()
+    def create_solution(self) -> MSASolution:
+        if self.counter < len(self.instance):
+            offspring = self.instance[self.counter]
+            self.counter += 1
+        else:
+            crossover_operator = SPXMSA(probability=1.0)
+            mutation_operator = TwoRandomAdjacentGapGroup(probability=1.0)
 
-    def import_instance(self, population_size: int) -> List[MSASolution]:
+            a = random.randint(0, len(self.instance) - 1)
+            b = random.randint(0, len(self.instance) - 1)
+
+            while a == b:
+                b = random.randint(0, len(self.instance) - 1)
+
+            offspring = crossover_operator.execute([self.instance[a], self.instance[b]])
+            mutation_operator.execute(offspring[0])
+
+            offspring = offspring[0]
+
+        return offspring
+
+    def import_instance(self) -> List[MSASolution]:
         self.__read_original_sequences()
 
         bb3_aligned_path = self.__compute_path('bb3_aligned')
@@ -41,7 +61,7 @@ class BAliBASE(MSA):
         alignment_sequences = []
         if os.path.isdir(bb3_aligned_path):
             for file in listdir(bb3_aligned_path):
-                if file.split('.')[0] == self.instance and file.split('.')[1] in self.DATA_FILES:
+                if file.split('.')[0] == self.balibase_instance and file.split('.')[1] in self.DATA_FILES:
                     msa = read_fasta_file_as_list_of_pairs(file, bb3_aligned_path)
                     alignment_sequences.append(msa)
         else:
@@ -51,6 +71,7 @@ class BAliBASE(MSA):
             raise Exception('More than one pre-computed alignment is needed!')
 
         population = []
+
         for msa in alignment_sequences:
             new_individual = MSASolution(self, msa)
             population.append(new_individual)
@@ -65,32 +86,7 @@ class BAliBASE(MSA):
 
         logger.info('Number of pre-computed alignments: {0}'.format(len(population)))
 
-        with open('PRECOMPUTED_ALIGNMENTS_{0}'.format(self.get_name()), 'w') as of:
-            for solution in population:
-                of.write(str(solution) + " ")
-                of.write("\n")
-
-        crossover_operator = SPXMSA(probability=1.0)
-        mutation_operator = TwoRandomAdjacentGapGroup(probability=1.0)
-
-        while len(population) < population_size:
-            a = random.randint(0, len(population)-1)
-            b = random.randint(0, len(population)-1)
-
-            while a == b:
-                b = random.randint(0, len(population) - 1)
-
-            offspring = crossover_operator.execute([population[a], population[b]])
-            mutation_operator.execute(offspring[0])
-            mutation_operator.execute(offspring[1])
-
-            population.append(offspring[0])
-            population.append(offspring[1])
-            logger.info('Population incremented by 2; new population {}'.format(len(population)))
-
-        logger.info('Population incremented to: {}'.format(len(population)))
-
-        with open('INITIAL_POPULATION_{}'.format(self.get_name()), 'w') as of:
+        with open('PRECOMPUTED_ALIGNMENTS_{0}'.format(self.balibase_instance), 'w') as of:
             for solution in population:
                 of.write(str(solution) + " ")
                 of.write("\n")
@@ -101,7 +97,7 @@ class BAliBASE(MSA):
         bb3_release_path = self.__compute_path('bb3_release')
 
         if os.path.isdir(bb3_release_path):
-            fasta_file = read_fasta_file_as_list_of_pairs(self.instance + '.tfa', bb3_release_path)
+            fasta_file = read_fasta_file_as_list_of_pairs(self.balibase_instance + '.tfa', bb3_release_path)
             self.sequences_names = list(pair[0] for pair in fasta_file)
             self.number_of_variables = len(self.sequences_names)
             self.original_sequences = fasta_file
@@ -109,7 +105,7 @@ class BAliBASE(MSA):
             raise Exception('Instance not found. Invalid path provided? {}'.format(bb3_release_path))
 
     def __compute_path(self, directory: str) -> str:
-        return os.path.join(self.balibase_path, directory, 'RV' + self.instance[2:4] + '/')
+        return os.path.join(self.balibase_path, directory, 'RV' + self.balibase_instance[2:4] + '/')
 
     def get_name(self) -> str:
         return 'BAliBASE problem'

@@ -204,5 +204,8 @@ class SPXMSA(Crossover[List[MSASolution], MSASolution]):
     def get_number_of_parents(self) -> int:
         return 2
 
+    def get_number_of_children(self) -> int:
+        return 2
+
     def get_name(self) -> str:
         return 'Simplex Crossover for MSA'
