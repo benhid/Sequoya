@@ -1,11 +1,10 @@
-from jmetal.algorithm.multiobjective.nsgaii import DistributedNSGAII
-
 from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 from dask.distributed import Client, LocalCluster
 
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.visualization import Plot
+from pym2sa.algorithm.multiobjective.nsgaii import DistributedNSGAII
 from pym2sa.problem import BAliBASE
 from pym2sa.operator import SPXMSA, ShiftClosedGapGroups
 
@@ -23,7 +22,7 @@ if __name__ == '__main__':
     algorithm = DistributedNSGAII(
         problem=problem,
         population_size=10,
-        max_evaluations=200,
+        max_evaluations=10000,
         mutation=ShiftClosedGapGroups(probability=0.2),
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),

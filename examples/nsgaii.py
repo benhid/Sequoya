@@ -4,11 +4,12 @@ from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.observer import VisualizerObserver, ProgressBarObserver
+from jmetal.util.solution_list.evaluator import MultiprocessEvaluator
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from jmetal.util.visualization import Plot
 from pym2sa.operator import SPXMSA, ShiftClosedGapGroups
 from pym2sa.problem import BAliBASE
-from pym2sa.util.graphic import MSAPlot
+from pym2sa.util.visualization import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
@@ -26,6 +27,7 @@ if __name__ == '__main__':
         crossover=SPXMSA(probability=0.8),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         termination_criterion=StoppingByEvaluations(max=max_evaluations),
+        population_evaluator=MultiprocessEvaluator()
     )
 
     algorithm.observable.register(observer=VisualizerObserver())
