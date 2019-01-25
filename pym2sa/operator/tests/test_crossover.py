@@ -412,6 +412,33 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         self.assertTrue(children[0].is_valid_msa())
         self.assertTrue(children[1].is_valid_msa())
 
+    def test_should_single_point_crossover_work_properly_real_case(self):
+        # setup
+        problem = MSA(score_list=[])
+        problem.sequences_names = ['a', 'b', 'c', 'd']
+        problem.number_of_variables = 4
+        msa_1 = MSASolution(problem, msa=[
+            ('a', '----GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKGKFEDMAKADKARYEREMKTYIPPK----------GE'),
+            ('b', '-------MQDRVKRPMNAFIVWSRDQRRKMALENPRMRN--SEISKQLGYQWKMLTEAEKWPFFQEAQKLQAMHREKYPNYKYRP---RRKAKMLPK'),
+            ('c', 'MKKLK---KHPDFPKKPLTPYFRFFMEKRAKYAKLHPEMSNLDLTKILSKKYKELPEKKKMKYIQDFQREKQEFERNLARFREDH---PDLIQNAKK'),
+            ('d', '---------MHIKKPLNAFMLYMKEMRANVVAESTLKES--AAINQILGRRWHALSREEQAKYYELARKERQLHMQLYPGWSARDNYGKKKKRKREK')
+        ])
+        msa_2 = MSASolution(problem, msa=[
+            ('a', '----GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKGKFEDMAKADKARYEREMKTYIPPK---GE-------'),
+            ('b', '----M---QDRVKRPMNAFIVWSRDQRRKMALENPRMRN--SEISKQLGYQWKMLTEAEKWPFFQEAQKLQAMHREKYPNYKYRP---RRKAKMLPK'),
+            ('c', 'MKKLK-KHPDFPKKPLTPYFRFFMEKRAKYAKLHPEMSN--LDLTKILSKKYKELPEKKKMKYIQDFQREKQEFERNLARFREDH---PDLIQNAKK'),
+            ('d', '-------MH--IKKPLNAFMLYMKEMRANVVAESTLKES--AAINQILGRRWHALSREEQAKYYELARKERQLHMQLYPGWSARDNYGKKKKRKREK')
+        ])
+
+        crossover = SPXMSA(probability=1.0, remove_gap_columns=False)
+
+        # run
+        children = crossover.cross_parents(10, [msa_1, msa_2], [10, 10, 10, 10], [10, 10, 8, 8])
+
+        # check
+        self.assertTrue(children[0].is_valid_msa())
+        self.assertTrue(children[1].is_valid_msa())
+
     def test_should_fill_sequences_with_gaps_to_reach_the_max_sequence_length(self):
         # setup
         problem = MSA(score_list=[])

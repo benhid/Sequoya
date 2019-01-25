@@ -53,6 +53,37 @@ class ShiftClosedGapGroupsTestCases(unittest.TestCase):
         self.assertEqual([('seq1', '--AB---CD-----E')], solution.decode_alignment_as_list_of_pairs())
 
 
+    @mock.patch('random.randrange')
+    def test_should_execute_mutation_case_d(self, random_group):
+        # setup
+        msa = MSASolution(self.problem, msa=[('seq1', '--A--')])
+        mutation = ShiftClosedGapGroups(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_group.return_value = 0
+        solution = mutation.execute(msa)
+
+        # check
+        self.assertEqual([('seq1', '--A--')], solution.decode_alignment_as_list_of_pairs())
+
+    @mock.patch('random.randrange')
+    def test_should_execute_mutation_case_e(self, random_group):
+        # setup
+        problem = MSA(score_list=[])
+        problem.sequences_names = ['seq1', 'seq2']
+        problem.number_of_variables = 2
+
+        msa = MSASolution(problem, msa=[('seq1', '---B--AA--'), ('seq2', '--B---AA--')])
+        mutation = ShiftClosedGapGroups(probability=1.0, remove_gap_columns=False)
+
+        # run
+        random_group.return_value = 0
+        solution = mutation.execute(msa)
+
+        # check
+        self.assertEqual([('seq1', '--B---AA--'), ('seq2', '---B--AA--')], solution.decode_alignment_as_list_of_pairs())
+
+
 class ShiftGapGroupTestCases(unittest.TestCase):
 
     def setUp(self):

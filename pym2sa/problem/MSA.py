@@ -29,6 +29,7 @@ class MSA(MSAProblem):
             solution.objectives[i] = score.compute(solution.decode_alignment_as_list_of_sequences())
 
             if not score.is_minimization():
+                # If score is maximization, invert sign
                 solution.objectives[i] = -solution.objectives[i]
 
         return solution

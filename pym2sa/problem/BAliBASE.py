@@ -11,7 +11,7 @@ from pym2sa.core.solution import MSASolution
 from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
 from pym2sa.problem.MSA import MSA
 
-logger = logging.getLogger('pyM2SA')
+LOGGER = logging.getLogger('pyM2SA')
 
 
 class BAliBASE(MSA):
@@ -76,15 +76,15 @@ class BAliBASE(MSA):
             new_individual = MSASolution(self, msa)
             population.append(new_individual)
 
-        logger.info('Instance imported')
+        LOGGER.info('Instance imported')
 
         for index, individual in enumerate(population):
             self.evaluate(individual)
-            logger.info('Alignment {0} size: {1}, Objectives: {2}'.format(
+            LOGGER.info('Alignment {0} size: {1}, Objectives: {2}'.format(
                 index, individual.get_length_of_alignment(), individual.objectives)
             )
 
-        logger.info('Number of pre-computed alignments: {0}'.format(len(population)))
+        LOGGER.info('Number of pre-computed alignments: {0}'.format(len(population)))
 
         with open('PRECOMPUTED_ALIGNMENTS_{0}'.format(self.balibase_instance), 'w') as of:
             for solution in population:

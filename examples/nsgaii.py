@@ -13,7 +13,7 @@ from pym2sa.util.visualization import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(balibase_instance='BB12010', balibase_path='../resources',
+    problem = BAliBASE(balibase_instance='BB11030', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
     # Creates the algorithm
@@ -24,7 +24,7 @@ if __name__ == '__main__':
         population_size=100,
         offspring_population_size=100,
         mutation=ShiftClosedGapGroups(probability=0.2),
-        crossover=SPXMSA(probability=0.8),
+        crossover=SPXMSA(probability=0.0),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         termination_criterion=StoppingByEvaluations(max=max_evaluations),
         population_evaluator=MultiprocessEvaluator()
