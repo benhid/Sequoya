@@ -1,10 +1,9 @@
 import time
-from typing import List, Generic, TypeVar
+from typing import List, TypeVar
 
 from distributed import as_completed, Client
-from jmetal.core.algorithm import Algorithm
 
-from jmetal.config import store
+from jmetal.core.algorithm import Algorithm
 from jmetal.core.operator import Mutation, Crossover, Selection
 from jmetal.core.problem import Problem
 from jmetal.operator import RankingAndCrowdingDistanceSelection

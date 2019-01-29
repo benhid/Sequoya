@@ -1,6 +1,6 @@
 import logging
 
-logger = logging.getLogger('pyM2SA')
+logger = logging.getLogger('Sequoya')
 logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s')
 

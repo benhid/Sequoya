@@ -11,7 +11,7 @@ from sequoya.core.solution import MSASolution
 from sequoya.operator import SPXMSA, TwoRandomAdjacentGapGroup
 from sequoya.problem.MSA import MSA
 
-LOGGER = logging.getLogger('pyM2SA')
+LOGGER = logging.getLogger('Sequoya')
 
 
 class BAliBASE(MSA):

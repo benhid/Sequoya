@@ -1,12 +1,12 @@
 import random
-from typing import TypeVar, List
+from typing import TypeVar
 
 from jmetal.core.operator import Mutation
 
 from sequoya.core.solution import MSASolution
 
 S = TypeVar('S')
-R = TypeVar(List[S])
+R = TypeVar('R')
 
 
 class MultipleMSAMutation(Mutation[S]):

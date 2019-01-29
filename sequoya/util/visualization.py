@@ -3,7 +3,7 @@ from typing import TypeVar
 
 from jmetal.util.visualization import InteractivePlot
 
-logger = logging.getLogger('pyM2SA')
+LOGGER = logging.getLogger('Sequoya')
 S = TypeVar('S')
 
 
