@@ -7,9 +7,9 @@ import random
 from pymsa.core.score import Score
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
 
-from pym2sa.core.solution import MSASolution
-from pym2sa.operator import SPXMSA, TwoRandomAdjacentGapGroup
-from pym2sa.problem.MSA import MSA
+from sequoya.core.solution import MSASolution
+from sequoya.operator import SPXMSA, TwoRandomAdjacentGapGroup
+from sequoya.problem.MSA import MSA
 
 LOGGER = logging.getLogger('pyM2SA')
 

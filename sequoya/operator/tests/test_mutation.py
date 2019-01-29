@@ -1,9 +1,9 @@
 import unittest
 from unittest import mock
 
-from pym2sa.core.solution import MSASolution
-from pym2sa.operator import OneRandomGapInsertion, TwoRandomAdjacentGapGroup, ShiftGapGroup, ShiftClosedGapGroups
-from pym2sa.problem import MSA
+from sequoya.core.solution import MSASolution
+from sequoya.operator import OneRandomGapInsertion, TwoRandomAdjacentGapGroup, ShiftGapGroup, ShiftClosedGapGroups
+from sequoya.problem import MSA
 
 
 class ShiftClosedGapGroupsTestCases(unittest.TestCase):

@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractmethod
 
 from jmetal.core.problem import Problem
 
-from pym2sa.core.solution import MSASolution
+from sequoya.core.solution import MSASolution
 
 
 class MSAProblem(Problem[MSASolution]):

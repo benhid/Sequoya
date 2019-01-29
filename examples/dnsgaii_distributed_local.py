@@ -6,9 +6,9 @@ from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.observer import ProgressBarObserver
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from jmetal.util.visualization import Plot
-from pym2sa.algorithm.multiobjective.nsgaii import DistributedNSGAII
-from pym2sa.problem import BAliBASE
-from pym2sa.operator import SPXMSA, ShiftClosedGapGroups
+from sequoya.algorithm.multiobjective.nsgaii import DistributedNSGAII
+from sequoya.problem import BAliBASE
+from sequoya.operator import SPXMSA, ShiftClosedGapGroups
 
 
 if __name__ == '__main__':

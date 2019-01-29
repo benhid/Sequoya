@@ -1,7 +1,7 @@
 import unittest
 
-from pym2sa.core.solution import MSASolution
-from pym2sa.problem import MSA
+from sequoya.core.solution import MSASolution
+from sequoya.problem import MSA
 
 
 class MSASolutionTestCases(unittest.TestCase):

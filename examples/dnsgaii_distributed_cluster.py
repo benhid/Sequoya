@@ -3,10 +3,10 @@ from jmetal.operator import BinaryTournamentSelection
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 from dask.distributed import Client
 
-from pym2sa.algorithm import dNSGA2MSA
-from pym2sa.problem import BAliBASE
-from pym2sa.operator import SPXMSA, ShiftClosedGapGroups
-from pym2sa.util.graphic import MSAPlot
+from sequoya.algorithm import dNSGA2MSA
+from sequoya.problem import BAliBASE
+from sequoya.operator import SPXMSA, ShiftClosedGapGroups
+from sequoya.util.graphic import MSAPlot
 
 
 def setup_distributed_client(address: str):
@@ -14,7 +14,7 @@ def setup_distributed_client(address: str):
 
     # This method will send (and import) the module up to all worker nodes in the cluster
     # Note: this file must be created by running `python setup.py install`
-    new_client.upload_file('./pym2sa.egg')
+    new_client.upload_file('./sequoya.egg')
 
     # Also, each worker should install the dependencies
     def install_dependencies_on_workers():

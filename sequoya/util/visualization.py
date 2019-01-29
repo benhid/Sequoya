@@ -152,7 +152,7 @@ class MSAPlot(InteractivePlot):
             <body>
                 <div class="grid-container">
                     <div class="item" style="align-self: center">
-                        <a href="https://benhid.github.io/pyM2SA/"><img src="https://raw.githubusercontent.com/benhid/pyM2SA/gh-pages/lib/img/pym2sa.png" class="logo"/></a>
+                        <a href="https://benhid.github.io/pyM2SA/"><img src="https://raw.githubusercontent.com/benhid/pyM2SA/gh-pages/lib/img/sequoya.png" class="logo"/></a>
                     </div>
                 </div>
 

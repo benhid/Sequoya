@@ -9,7 +9,7 @@ from jmetal.core.operator import Mutation, Crossover, Selection
 from jmetal.core.problem import Problem
 from jmetal.operator import RankingAndCrowdingDistanceSelection
 from jmetal.util.termination_criterion import TerminationCriterion
-from pym2sa.core.solution import MSASolution
+from sequoya.core.solution import MSASolution
 
 S = TypeVar('S')
 R = TypeVar('R')

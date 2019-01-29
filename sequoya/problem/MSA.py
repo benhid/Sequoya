@@ -2,8 +2,8 @@ from typing import List
 
 from pymsa.core.score import Score
 
-from pym2sa.core.problem import MSAProblem
-from pym2sa.core.solution import MSASolution
+from sequoya.core.problem import MSAProblem
+from sequoya.core.solution import MSASolution
 
 
 class MSA(MSAProblem):

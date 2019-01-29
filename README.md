@@ -1,15 +1,9 @@
-<p align="center">
-  <br/>
-  <img src=resources/pym2sa-new.png alt="pyM2SA">
-  <br/>
-</p>
-
 # Solving Multiple Sequence Alignments with Python
-[![Build Status](https://img.shields.io/travis/benhid/pyM2SA.svg?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
-[![PyPI License](https://img.shields.io/pypi/l/pyM2SA.svg?style=flat-square)]()
-[![PyPI Python version](https://img.shields.io/pypi/pyversions/pyM2SA.svg?style=flat-square)]()
+[![Build Status](https://img.shields.io/travis/benhid/Sequoya.svg?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
+[![PyPI License](https://img.shields.io/pypi/l/Sequoya.svg?style=flat-square)]()
+[![PyPI Python version](https://img.shields.io/pypi/pyversions/Sequoya.svg?style=flat-square)]()
 
-pyM<sup>2</sup>SA is an open source software tool aimed at for solving
+Sequoya is an open source software tool aimed at for solving
 *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
 This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) algorithm as shown in:
@@ -36,22 +30,22 @@ This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) alg
     * Multiple mutation (`MultipleMSAMutation`).
 
 ## Install
-To download and install pyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
+To download and install Sequoya just clone the Git repository hosted in GitHub:
 
 ```bash
-$ git clone https://github.com/benhid/pyM2SA.git
-$ cd pyM2SA
+$ git clone https://github.com/benhid/Sequoya.git
+$ cd Sequoya
 $ python setup.py install
 ```
 
 Or via *pip*:
 
 ```bash
-$ pip install pym2sa
+$ pip install Sequoya
 ```
 
 ## Usage
-Examples of running pyM<sup>2</sup>SA are located in the [`examples`](examples/) folder:
+Examples of running Sequoya are located in the [`examples`](examples/) folder:
 
 ## Authors
 ### Active development team

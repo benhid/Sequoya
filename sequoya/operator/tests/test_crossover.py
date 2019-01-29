@@ -1,9 +1,9 @@
 import unittest
 from unittest import mock
 
-from pym2sa.core.solution import MSASolution
-from pym2sa.operator.crossover import SPXMSA
-from pym2sa.problem import MSA
+from sequoya.core.solution import MSASolution
+from sequoya.operator.crossover import SPXMSA
+from sequoya.problem import MSA
 
 
 class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):

@@ -3,7 +3,7 @@ from typing import TypeVar, List
 
 from jmetal.core.operator import Mutation
 
-from pym2sa.core.solution import MSASolution
+from sequoya.core.solution import MSASolution
 
 S = TypeVar('S')
 R = TypeVar(List[S])

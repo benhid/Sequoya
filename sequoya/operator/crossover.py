@@ -3,7 +3,7 @@ import copy
 import random
 
 from jmetal.core.operator import Crossover
-from pym2sa.core.solution import MSASolution
+from sequoya.core.solution import MSASolution
 
 
 class SPXMSA(Crossover[List[MSASolution], MSASolution]):

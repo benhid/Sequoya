@@ -7,9 +7,9 @@ from jmetal.util.observer import VisualizerObserver, ProgressBarObserver
 from jmetal.util.solution_list.evaluator import MultiprocessEvaluator
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from jmetal.util.visualization import Plot
-from pym2sa.operator import SPXMSA, ShiftClosedGapGroups
-from pym2sa.problem import BAliBASE
-from pym2sa.util.visualization import MSAPlot
+from sequoya.operator import SPXMSA, ShiftClosedGapGroups
+from sequoya.problem import BAliBASE
+from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
