@@ -54,15 +54,15 @@ class BAliBASE(MSA):
         return offspring
 
     def import_instance(self) -> List[MSASolution]:
-        self.__read_original_sequences()
+        self.read_original_sequences()
 
-        bb3_aligned_path = self.__compute_path('bb3_aligned')
+        bb3_aligned_path = self.compute_path('bb3_aligned')
 
         alignment_sequences = []
         if os.path.isdir(bb3_aligned_path):
             for file in listdir(bb3_aligned_path):
                 if file.split('.')[0] == self.balibase_instance and file.split('.')[1] in self.DATA_FILES:
-                    msa = read_fasta_file_as_list_of_pairs(file, bb3_aligned_path)
+                    msa = read_fasta_file_as_list_of_pairs(bb3_aligned_path + '/' + file)
                     alignment_sequences.append(msa)
         else:
             raise Exception('Instance not found. Invalid path provided? {}'.format(bb3_aligned_path))
@@ -93,18 +93,18 @@ class BAliBASE(MSA):
 
         return population
 
-    def __read_original_sequences(self):
-        bb3_release_path = self.__compute_path('bb3_release')
+    def read_original_sequences(self):
+        bb3_release_path = self.compute_path('bb3_release')
 
         if os.path.isdir(bb3_release_path):
-            fasta_file = read_fasta_file_as_list_of_pairs(self.balibase_instance + '.tfa', bb3_release_path)
+            fasta_file = read_fasta_file_as_list_of_pairs(bb3_release_path + '/' + self.balibase_instance + '.tfa', )
             self.sequences_names = list(pair[0] for pair in fasta_file)
             self.number_of_variables = len(self.sequences_names)
             self.original_sequences = fasta_file
         else:
             raise Exception('Instance not found. Invalid path provided? {}'.format(bb3_release_path))
 
-    def __compute_path(self, directory: str) -> str:
+    def compute_path(self, directory: str) -> str:
         return os.path.join(self.balibase_path, directory, 'RV' + self.balibase_instance[2:4] + '/')
 
     def get_name(self) -> str:

@@ -24,9 +24,10 @@ class MSA(MSAProblem):
 
     def evaluate(self, solution: MSASolution) -> MSASolution:
         solution.remove_full_of_gaps_columns()
+        sequences = solution.decode_alignment_as_list_of_sequences()
 
         for i, score in enumerate(self.score_list):
-            solution.objectives[i] = score.compute(solution.decode_alignment_as_list_of_sequences())
+            solution.objectives[i] = score.compute(sequences)
 
             if not score.is_minimization():
                 # If score is maximization, invert sign

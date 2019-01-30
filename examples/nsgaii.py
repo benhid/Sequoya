@@ -1,5 +1,5 @@
 from jmetal.algorithm.multiobjective.nsgaii import NSGAII
-from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
+from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns, PercentageOfNonGaps
 
 from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
@@ -13,8 +13,8 @@ from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
     # Creates the problem
-    problem = BAliBASE(balibase_instance='BB11030', balibase_path='../resources',
-                       score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
+    problem = BAliBASE(balibase_instance='BB11001', balibase_path='../resources',
+                       score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns(), PercentageOfNonGaps()])
 
     # Creates the algorithm
     max_evaluations = 10000
