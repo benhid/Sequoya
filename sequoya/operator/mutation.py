@@ -66,7 +66,8 @@ class ShiftGapGroup(Mutation[S]):
 
             # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
-                raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
+                raise Exception(
+                    "Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 
         return solution
 
@@ -176,7 +177,8 @@ class TwoRandomAdjacentGapGroup(Mutation[S]):
 
             # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
-                raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
+                raise Exception(
+                    "Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 
         return solution
 
@@ -209,7 +211,8 @@ class OneRandomGapInsertion(Mutation[S]):
 
             # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
-                raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
+                raise Exception(
+                    "Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 
         return solution
 

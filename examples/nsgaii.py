@@ -1,12 +1,12 @@
 from jmetal.algorithm.multiobjective.nsgaii import NSGAII
-from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns, PercentageOfNonGaps
-
 from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.observer import VisualizerObserver, ProgressBarObserver
 from jmetal.util.solution_list.evaluator import MultiprocessEvaluator
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from jmetal.util.visualization import Plot
+from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns, PercentageOfNonGaps
+
 from sequoya.operator import SPXMSA, ShiftClosedGapGroups
 from sequoya.problem import BAliBASE
 from sequoya.util.visualization import MSAPlot
@@ -31,7 +31,7 @@ if __name__ == '__main__':
     )
 
     algorithm.observable.register(observer=VisualizerObserver())
-    algorithm.observable.register(ProgressBarObserver(max=max_evaluations))
+    algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
 
     algorithm.run()
     front = algorithm.get_result()

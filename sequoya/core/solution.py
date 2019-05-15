@@ -362,7 +362,7 @@ class MSASolution(Solution[str]):
         for index, seq in enumerate(self.sequences_names):
             fasta += '>' + seq + '\n'
             sequence = self.decode_sequence_at_index(index)
-            sequence = [sequence[i:i+n] for i in range(0, len(sequence), n)]
+            sequence = [sequence[i:i + n] for i in range(0, len(sequence), n)]
 
             for wrap in sequence:
                 fasta += wrap + "\n"

@@ -1,10 +1,10 @@
 from concurrent.futures import ProcessPoolExecutor
 from multiprocessing.pool import ThreadPool
 from typing import TypeVar, List
-from dask.distributed import Client, as_completed
 
-from jmetal.component.evaluator import Evaluator
+from dask.distributed import Client, as_completed
 from jmetal.core.problem import Problem
+from jmetal.util.solution_list import Evaluator
 
 S = TypeVar('S')
 

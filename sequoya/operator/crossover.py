@@ -1,15 +1,16 @@
-from typing import List
 import copy
 import random
+from typing import List
 
 from jmetal.core.operator import Crossover
+
 from sequoya.core.solution import MSASolution
 
 
 class SPXMSA(Crossover[List[MSASolution], MSASolution]):
     """ Implements a single point crossover for MSA representation. """
 
-    def __init__(self, probability: float, remove_gap_columns: bool=True) -> None:
+    def __init__(self, probability: float, remove_gap_columns: bool = True) -> None:
         super(SPXMSA, self).__init__(probability=probability)
 
         self.remove_full_of_gap_columns = remove_gap_columns
@@ -66,11 +67,11 @@ class SPXMSA(Crossover[List[MSASolution], MSASolution]):
                     gaps_group = parents[0].gaps_groups[i]
 
                     for j in range(0, len(gaps_group) - 1, 2):
-                            if gaps_group[j + 1] < cutting_points_in_first_parent[i]:
-                                new_gap_group_list.append(gaps_group[j])
-                                new_gap_group_list.append(gaps_group[j + 1])
-                            else:
-                                cutting_point_passed = True
+                        if gaps_group[j + 1] < cutting_points_in_first_parent[i]:
+                            new_gap_group_list.append(gaps_group[j])
+                            new_gap_group_list.append(gaps_group[j + 1])
+                        else:
+                            cutting_point_passed = True
                     cutting_point_passed = True
 
                 # offspring 1: Add the gap groups on the first parent after the cutting point
@@ -120,13 +121,17 @@ class SPXMSA(Crossover[List[MSASolution], MSASolution]):
         # Sanity check: alignment is valid (same length for all sequences)
         if not offspring_1.is_valid_msa():
             raise Exception('Offspring 1 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}'
-                            .format(parents[0].decode_alignment_as_list_of_sequences(), parents[1].decode_alignment_as_list_of_sequences(), cx_point,
-                                    offspring_1.decode_alignment_as_list_of_sequences(), offspring_2.decode_alignment_as_list_of_sequences(),
+                            .format(parents[0].decode_alignment_as_list_of_sequences(),
+                                    parents[1].decode_alignment_as_list_of_sequences(), cx_point,
+                                    offspring_1.decode_alignment_as_list_of_sequences(),
+                                    offspring_2.decode_alignment_as_list_of_sequences(),
                                     cutting_points_in_first_parent, column_positions_in_second_parent))
         if not offspring_2.is_valid_msa():
             raise Exception('Offspring 2 is not valid! \n {0} \n {1} \n {2} \n {3} \n {4} \n {5} \n {6}'
-                            .format(parents[0].decode_alignment_as_list_of_sequences(), parents[1].decode_alignment_as_list_of_sequences(), cx_point,
-                                    offspring_1.decode_alignment_as_list_of_sequences(), offspring_2.decode_alignment_as_list_of_sequences(),
+                            .format(parents[0].decode_alignment_as_list_of_sequences(),
+                                    parents[1].decode_alignment_as_list_of_sequences(), cx_point,
+                                    offspring_1.decode_alignment_as_list_of_sequences(),
+                                    offspring_2.decode_alignment_as_list_of_sequences(),
                                     cutting_points_in_first_parent, column_positions_in_second_parent))
 
         return [offspring_1, offspring_2]
@@ -145,7 +150,8 @@ class SPXMSA(Crossover[List[MSASolution], MSASolution]):
         """ Given a symbol position, finds the corresponding position of the symbol in the original
         sequence if gaps are not taken into account. If the symbol is a gap the returned value is -1 """
         if position > solution.get_length_of_alignment():
-            raise Exception('Position {0} is larger than the sequence size {1}'.format(position, solution.get_length_of_alignment()))
+            raise Exception('Position {0} is larger than the sequence size {1}'.format(position,
+                                                                                       solution.get_length_of_alignment()))
 
         if not solution.is_gap_char_at_sequence(seq_index, position):
             symbol_position = solution.get_char_position_in_original_sequence(seq_index, position)
@@ -158,7 +164,8 @@ class SPXMSA(Crossover[List[MSASolution], MSASolution]):
 
         return symbol_position
 
-    def __find_original_positions_in_aligned_sequences(self, solution: MSASolution, column_positions_in_first_parent: list):
+    def __find_original_positions_in_aligned_sequences(self, solution: MSASolution,
+                                                       column_positions_in_first_parent: list):
         positions = [-1 for _ in range(solution.number_of_variables)]
 
         for i in range(solution.number_of_variables):

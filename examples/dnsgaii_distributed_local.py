@@ -1,15 +1,14 @@
-from jmetal.operator import BinaryTournamentSelection
-from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 from dask.distributed import Client, LocalCluster
-
+from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.observer import ProgressBarObserver
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from jmetal.util.visualization import Plot
-from sequoya.algorithm.multiobjective.nsgaii import DistributedNSGAII
-from sequoya.problem import BAliBASE
-from sequoya.operator import SPXMSA, ShiftClosedGapGroups
+from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
+from sequoya.algorithm.multiobjective.nsgaii import DistributedNSGAII
+from sequoya.operator import SPXMSA, ShiftClosedGapGroups
+from sequoya.problem import BAliBASE
 
 if __name__ == '__main__':
     # Creates the problem

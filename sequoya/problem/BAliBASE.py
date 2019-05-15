@@ -1,8 +1,8 @@
+import logging
 import os
+import random
 from os import listdir
 from typing import List
-import logging
-import random
 
 from pymsa.core.score import Score
 from pymsa.util.fasta import read_fasta_file_as_list_of_pairs
@@ -15,7 +15,6 @@ LOGGER = logging.getLogger('Sequoya')
 
 
 class BAliBASE(MSA):
-
     DATA_FILES = ['tfa_clu', 'tfa_muscle', 'tfa_kalign', 'tfa_retalign',
                   'fasta_aln', 'tfa_probcons', 'tfa_mafft', 'tfa_fsa']
 
