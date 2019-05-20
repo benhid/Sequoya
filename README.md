@@ -7,7 +7,7 @@
 <hr>
 
 # Solving Multiple Sequence Alignments with Python
-[![Build Status](https://img.shields.io/travis/benhid/Sequoya.svg?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
+[![Build Status](https://img.shields.io/travis/benhid/Sequoya.svg?style=flat-square)](https://travis-ci.org/benhid/Sequoya)
 [![PyPI License](https://img.shields.io/pypi/l/Sequoya.svg?style=flat-square)]()
 [![PyPI Python version](https://img.shields.io/pypi/pyversions/Sequoya.svg?style=flat-square)]()
 

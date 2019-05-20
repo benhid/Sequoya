@@ -22,8 +22,8 @@ class MSAPlot(InteractivePlot):
           <!-- Bulma stylesheet -->
           <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="stylesheet" />
           <style>
-            .smenubar .smenubar_alink {
-              background: #b72075;
+            .smenubar a.smenubar_alink {
+              background: #00d1b2;
               border-radius: 5px;
               padding: 2px 20px;
               text-decoration: none;
@@ -33,6 +33,15 @@ class MSAPlot(InteractivePlot):
               margin-left: 10px;
               text-decoration: none;
             }
+        
+            .box {
+              overflow: hidden;
+            }
+        
+            .biojs_msa_div {
+              margin: 5px;
+              overflow: hidden;
+            }
           </style>
         </head>
         
@@ -40,20 +49,22 @@ class MSAPlot(InteractivePlot):
           <section class="hero is-primary">
             <div class="hero-body">
               <div class="container">
-                <h1 class="title">Sequoya Dashboard</h1>
+                <figure class="image is-128x128">
+                  <img src="https://raw.githubusercontent.com/benhid/Sequoya/develop/docs/sequoya-white.png" />
+                </figure>
               </div>
             </div>
           </section>
         
           <section class="section">
             <div class="container">
-                ''' + self.export_to_div(include_plotlyjs=False) + '''
+              ''' + self.export_to_div(include_plotlyjs=False) + '''
             </div>
           </section>
         
           <section class="section">
             <div class="container">
-              <h1 class="subtitle">Viewer</h1>
+              <h1 class="subtitle">MSA viewer</h1>
               <div class="box">
                 <div id="menuDiv"></div>
                 <div id="rootDiv">(select solution from figure)</div>
