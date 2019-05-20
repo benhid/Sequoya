@@ -1,3 +1,11 @@
+<p>
+  <br/>
+  <img src=docs/sequoya-black.png alt="Logo">
+  <br/>
+</p>
+
+<hr>
+
 # Solving Multiple Sequence Alignments with Python
 [![Build Status](https://img.shields.io/travis/benhid/Sequoya.svg?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
 [![PyPI License](https://img.shields.io/pypi/l/Sequoya.svg?style=flat-square)]()
