@@ -14,19 +14,19 @@
 Sequoya is an open source software tool aimed at for solving
 *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
-This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) algorithm as shown in:
+This tool implements a distributed version of the [M2Align](https://github.com/KhaosResearch/M2Align) algorithm as shown in:
 
 > "M2Align: parallel multiple sequence alignment with a multi-objective metaheuristic". Cristian Zambrano-Vega, Antonio J. Nebro José García-Nieto, José F. Aldana-Montes. Bioinformatics, Volume 33, Issue 19, 1 October 2017, Pages 3011–3017 ([DOI](https://doi.org/10.1093/bioinformatics/btx338)).
 
 ## Features
-* The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA) (v0.5.1):
+* The **scores** that are currently available are:
     * Sum of pairs,
     * Star,
     * Minimum entropy,
     * Percentage of non-gaps,
     * Percentage of totally conserved columns,
     * STRIKE.
-* The **algorithm** that is currently available is:
+* The only currently available **algorithm** is:
     * NSGA-II
 * **Crossover operator**:
     * Single-point crossover (`GapSequenceSolutionSinglePoint`).
