@@ -82,6 +82,7 @@ class DistributedNSGAII(Algorithm[S, R]):
         """ Execute the algorithm. """
         self.start_computing_time = time.time()
 
+        # create initial population
         population_to_evaluate = self.create_initial_solutions()
         task_pool = as_completed(self.evaluate(population_to_evaluate))
 
@@ -89,25 +90,25 @@ class DistributedNSGAII(Algorithm[S, R]):
 
         auxiliar_population = []
         for future in task_pool:
-            # The initial population is not full
+            # if initial population is not full
             if len(auxiliar_population) < self.population_size:
                 received_solution = future.result()
                 auxiliar_population.append(received_solution)
 
                 new_task = self.client.submit(self.problem.evaluate, self.problem.create_solution())
                 task_pool.add(new_task)
-            # Perform an algorithm step to create a new solution to be evaluated
+            # perform an algorithm step to create a new solution to be evaluated
             else:
                 offspring_population = []
 
                 if not self.stopping_condition_is_met():
                     offspring_population.append(future.result())
 
-                    # Replacement
+                    # replacement
                     join_population = auxiliar_population + offspring_population
                     auxiliar_population = RankingAndCrowdingDistanceSelection(self.population_size).execute(join_population)
 
-                    # Selection
+                    # selection
                     mating_population = []
 
                     for _ in range(2):
@@ -119,18 +120,15 @@ class DistributedNSGAII(Algorithm[S, R]):
                                                   self.crossover_operator, self.mutation_operator)
 
                     task_pool.add(new_task)
+
+                    # update progress
+                    self.evaluations += 1
+                    self.solutions = auxiliar_population
+
+                    self.update_progress()
                 else:
-                    try:
-                        for future in task_pool.futures:
-                            future.cancel()
-                    except Exception:
-                        pass
-                    break
-
-                self.evaluations += 1
-                self.solutions = auxiliar_population
-
-                self.update_progress()
+                    # gratefully cancel pending solution if it's not yet running
+                    future.cancel()
 
         self.total_computing_time = time.time() - self.start_computing_time
         self.solutions = auxiliar_population

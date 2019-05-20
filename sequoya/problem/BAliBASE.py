@@ -85,10 +85,10 @@ class BAliBASE(MSA):
 
         LOGGER.info('Number of pre-computed alignments: {0}'.format(len(population)))
 
-        with open('PRECOMPUTED_ALIGNMENTS_{0}'.format(self.balibase_instance), 'w') as of:
-            for solution in population:
-                of.write(str(solution) + " ")
-                of.write("\n")
+        # with open('PRECOMPUTED_ALIGNMENTS_{0}'.format(self.balibase_instance), 'w') as of:
+        #     for solution in population:
+        #         of.write(str(solution) + " ")
+        #         of.write("\n")
 
         return population
 
