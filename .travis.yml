@@ -3,12 +3,3 @@ python: '3.6'
 install:
   - python setup.py -q install
 script: python -m unittest discover
-deploy:
-  provider: pypi
-  skip_cleanup: true
-  user: benhid
-  distributions: sdist bdist_wheel
-  password:
-    secure: Az0kafHAPQ6y2iBWY/iclng1cdQUwYMsPhid+3RJ0hiOVjv4oEJaoarFt7I/4G/HbLbTn2bUC6onIaX6iJ8Ta6HKNd/5P9BW6HQR2I0yD/hYpkHdHKxu4QSz2mSiLaXQ0K1st12UeA0P49Jmh9ZesZVXngBZB830QZ/YMZnRvCbKv6BdG+Jw9SvzGwOdn/8mT/HzPOTSoLRM5xPLba+UEkR2ycQM3giPoKk2u8/I5K49TMZ31Ioxdqn0LXEtydci8H1KZuh5oxawvpku7pXYpPf5EOXK1FcuuocR5H2DwGEgSocpq3POjxtg7OXpZAiKqwcbUT54Ieb8ngLEJUcjQ92sm1piIdrBqPdZ7bL4PZjOn/6FJXHUVrxjGGEDkvLHYfgQ6+5GvclB9Oj9JrT8gJTjDzZjiI8zR5ULIxsHbgDHKETmtB6X43YsN7w/6XS0yT1xWnJKqt+R7KcwaoPjnm7EB/4PBtbdf+vAozKujNFDnHdf+sax2SNXhgd5714aZoVaVOnKueBbMdeMmaKndOuIknzgTblyDILamlzd7kJGwVTZENCB6NKegaOKOVfP64u4D6fE4cltI7hu5C8I7Bplv9oxM/LqY6ZaL0QM2H2NvddRh72imN9s9tL4h5O+i56YzKQ42S8X4zrQtofGrmF1H8FjHk/Hva1glsDWB24=
-  on:
-    branch: master
