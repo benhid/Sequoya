@@ -55,6 +55,34 @@ $ pip install Sequoya
 ## Usage
 Examples of running Sequoya are located in the [`examples`](examples/) folder:
 
+### Dask distributed
+
+For running Sequoya in a cluster of machines, first [setup a network](http://distributed.dask.org/en/latest/setup.html) 
+with at least one `dask-cheduler` node and several `dask-worker` nodes.
+
+To use a development version of Sequoya, create and send the (local) package up to all worker nodes instead of installing
+it with `pip`:
+
+> Note that the file must have the **same name as the package** (*sequoya*).
+
+```python
+def install_dependencies():
+    """ Install packages on worker nodes. Note that this may take a while (the first time)! """
+    import os
+    os.system('pip install pymsa jmetalpy')
+
+
+client = Client('127.0.0.1:8786')
+client.run(install_dependencies)
+client.upload_file('sequoya.egg')
+```
+
+To create the `.egg` file, run:
+
+```sh
+$ python setup.py bdist_egg
+```
+
 ## Authors
 ### Active development team
 * [Antonio Benítez-Hidalgo](https://benhid.github.io/about/) <antonio.b@uma.es>

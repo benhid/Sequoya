@@ -63,7 +63,8 @@ class DistributedNSGAII(Algorithm[S, R]):
 
     def get_observable_data(self) -> dict:
         ctime = time.time() - self.start_computing_time
-        return {'PROBLEM': self.problem, 'EVALUATIONS': self.evaluations, 'SOLUTIONS': self.get_result(), 'COMPUTING_TIME': ctime}
+        return {'PROBLEM': self.problem, 'EVALUATIONS': self.evaluations, 'SOLUTIONS': self.get_result(),
+                'COMPUTING_TIME': ctime}
 
     def init_progress(self) -> None:
         self.evaluations = self.number_of_cores
@@ -106,7 +107,8 @@ class DistributedNSGAII(Algorithm[S, R]):
 
                     # replacement
                     join_population = auxiliar_population + offspring_population
-                    auxiliar_population = RankingAndCrowdingDistanceSelection(self.population_size).execute(join_population)
+                    auxiliar_population = RankingAndCrowdingDistanceSelection(self.population_size).execute(
+                        join_population)
 
                     # selection
                     mating_population = []
