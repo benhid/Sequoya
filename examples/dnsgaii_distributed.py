@@ -1,7 +1,7 @@
 from dask.distributed import Client
 from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
-from jmetal.util.observer import ProgressBarObserver
+from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from jmetal.util.visualization import Plot
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
@@ -15,33 +15,38 @@ from sequoya.util.visualization import MSAPlot
 def install_dependencies():
     """ Install packages on worker nodes. Note that this may take a while (the first time)! """
     import os
-    os.system('pip install pymsa jmetalpy sequoya')
+    os.system('pip install pymsa jmetalpy')
 
 
 if __name__ == '__main__':
     # creates the problem
-    problem = BAliBASE(balibase_instance='BB20019', balibase_path='../resources',
+    problem = BAliBASE(balibase_instance='BB50011', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
-    # creates the Dask client
+    # setup Dask client
     client = Client('127.0.0.1:8786')
     client.run(install_dependencies)
+    client.upload_file('sequoya.egg')
+
+    ncores = sum(client.ncores().values())
+    print(f'{ncores} cores available')
 
     # creates the algorithm
     max_evaluations = 1000
 
     algorithm = DistributedNSGAII(
         problem=problem,
-        population_size=10,
-        mutation=ShiftClosedGapGroups(probability=0.2),
+        population_size=100,
+        mutation=ShiftClosedGapGroups(probability=0.3),
         crossover=SPXMSA(probability=0.7),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         termination_criterion=StoppingByEvaluations(max=max_evaluations),
-        number_of_cores=4,
+        number_of_cores=ncores,
         client=client
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
+    algorithm.observable.register(observer=VisualizerObserver())
 
     algorithm.run()
     front = algorithm.get_result()

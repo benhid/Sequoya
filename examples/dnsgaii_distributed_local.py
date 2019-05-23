@@ -20,17 +20,20 @@ if __name__ == '__main__':
     cluster = LocalCluster(n_workers=4, processes=True)
     client = Client(cluster)
 
+    ncores = sum(client.ncores().values())
+    print(f'{ncores} cores available')
+
     # creates the algorithm
     max_evaluations = 1000
 
     algorithm = DistributedNSGAII(
         problem=problem,
-        population_size=10,
-        mutation=ShiftClosedGapGroups(probability=0.2),
+        population_size=100,
+        mutation=ShiftClosedGapGroups(probability=0.3),
         crossover=SPXMSA(probability=0.7),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         termination_criterion=StoppingByEvaluations(max=max_evaluations),
-        number_of_cores=4,
+        number_of_cores=ncores,
         client=client
     )
 

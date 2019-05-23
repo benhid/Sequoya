@@ -49,7 +49,7 @@ class SubmitEvaluator(Evaluator[S]):
 
 class ProcessPoolEvaluator(SubmitEvaluator):
 
-    def __init__(self, processes: int=4):
+    def __init__(self, processes: int = 4):
         self.executor = ProcessPoolExecutor(processes)
         super(ProcessPoolEvaluator, self).__init__(self.executor.submit)
 

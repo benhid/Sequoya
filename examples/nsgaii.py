@@ -1,8 +1,8 @@
 from jmetal.algorithm.multiobjective.nsgaii import NSGAII
 from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
-from jmetal.util.observer import VisualizerObserver, ProgressBarObserver
-from jmetal.util.solution_list.evaluator import MultiprocessEvaluator
+from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
+from jmetal.util.solution_list.evaluator import SequentialEvaluator
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from jmetal.util.visualization import Plot
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
@@ -13,7 +13,7 @@ from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
     # creates the problem
-    problem = BAliBASE(balibase_instance='BB20019', balibase_path='../resources',
+    problem = BAliBASE(balibase_instance='BB50011', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
     # creates the algorithm
@@ -23,14 +23,15 @@ if __name__ == '__main__':
         problem=problem,
         population_size=100,
         offspring_population_size=100,
-        mutation=ShiftClosedGapGroups(probability=0.2),
+        mutation=ShiftClosedGapGroups(probability=0.3),
         crossover=SPXMSA(probability=0.7),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         termination_criterion=StoppingByEvaluations(max=max_evaluations),
-        population_evaluator=MultiprocessEvaluator()
+        population_evaluator=SequentialEvaluator()
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
+    algorithm.observable.register(observer=VisualizerObserver())
 
     algorithm.run()
     front = algorithm.get_result()
