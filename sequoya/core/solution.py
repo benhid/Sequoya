@@ -74,16 +74,17 @@ class MSASolution(Solution[str]):
 
     def add_gap_to_sequence_at_index(self, seq_index: int, gap_position: int):
         new_gaps_group = self.gaps_groups[seq_index]
+        length_of_alignment = self.get_length_of_alignment()
 
-        if gap_position == self.get_length_of_alignment():
+        if gap_position == length_of_alignment:
             if self.is_gap_char_at_sequence(seq_index, gap_position - 1):
                 new_gaps_group[gap_position - 1] += 1
             else:
                 new_gaps_group.append(gap_position)
                 new_gaps_group.append(gap_position)
-        elif gap_position >= self.get_length_of_alignment():
-            new_gaps_group.append(self.get_length_of_alignment())
-            new_gaps_group.append(self.get_length_of_alignment())
+        elif gap_position >= length_of_alignment:
+            new_gaps_group.append(length_of_alignment)
+            new_gaps_group.append(length_of_alignment)
         elif self.is_gap_char_at_sequence(seq_index, gap_position):
             # increments gaps group size
             gap_added = False
@@ -206,8 +207,8 @@ class MSASolution(Solution[str]):
         return True
 
     def is_gap_char_at_sequence(self, seq_index: int, index: int) -> bool:
-        if seq_index > self.number_of_variables - 1:
-            raise Exception("Sequence doesn't exist on this alignment!")
+        assert seq_index <= self.number_of_variables - 1, "Sequence doesn't exist on this alignment"
+
         if index > self.get_length_of_sequence(seq_index) or index < 0:
             raise Exception(
                 "Index out of sequence: index {0}, alignment length: {1}, sequence length: {2}".format(
@@ -215,8 +216,8 @@ class MSASolution(Solution[str]):
 
         gaps_group = self.gaps_groups[seq_index]
 
-        for j in range(0, len(gaps_group) - 1, 2):
-            if gaps_group[j] <= index <= gaps_group[j + 1]:
+        for a, b in zip(*[iter(gaps_group)] * 2):
+            if a <= index <= b:
                 return True
 
         return False
@@ -282,8 +283,8 @@ class MSASolution(Solution[str]):
 
             gaps_group = self.gaps_groups[seq_index]
 
-            for j in range(0, len(gaps_group) - 1, 2):
-                length_of_gaps += gaps_group[j + 1] - gaps_group[j] + 1
+            for a, b in zip(*[iter(gaps_group)] * 2):
+                length_of_gaps += b - a + 1
 
         return length_of_gaps
 
