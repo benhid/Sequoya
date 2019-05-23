@@ -29,6 +29,7 @@ setup(
         'jmetalpy==0.9.0',
         'pymsa==0.5.1',
         'dask[complete]==1.2.2',
+        'distributed==1.28.1',
         'bokeh==1.1.0'
     ]
 )
