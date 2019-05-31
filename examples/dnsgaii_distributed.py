@@ -1,7 +1,11 @@
+import matplotlib
+
+matplotlib.use('TkAgg')
+
 from dask.distributed import Client
 from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
-from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
+from jmetal.util.observer import ProgressBarObserver
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from jmetal.util.visualization import Plot
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
@@ -11,28 +15,20 @@ from sequoya.operator import SPXMSA, ShiftClosedGapGroups
 from sequoya.problem import BAliBASE
 from sequoya.util.visualization import MSAPlot
 
-
-def install_dependencies():
-    """ Install packages on worker nodes. Note that this may take a while (the first time)! """
-    import os
-    os.system('pip install pymsa jmetalpy')
-
-
 if __name__ == '__main__':
+    # setup Dask client
+    client = Client('192.168.213.3:8786')
+    client.restart()
+
+    ncores = sum(client.ncores().values())
+    print(f'{ncores} cores available on cluster')
+
     # creates the problem
     problem = BAliBASE(balibase_instance='BB50011', balibase_path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
-    # setup Dask client
-    client = Client('127.0.0.1:8786')
-    client.run(install_dependencies)
-    client.upload_file('sequoya.egg')
-
-    ncores = sum(client.ncores().values())
-    print(f'{ncores} cores available')
-
     # creates the algorithm
-    max_evaluations = 1000
+    max_evaluations = 25000
 
     algorithm = DistributedNSGAII(
         problem=problem,
@@ -46,7 +42,7 @@ if __name__ == '__main__':
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
-    algorithm.observable.register(observer=VisualizerObserver())
+    # algorithm.observable.register(observer=VisualizerObserver())
 
     algorithm.run()
     front = algorithm.get_result()

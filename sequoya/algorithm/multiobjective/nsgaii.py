@@ -2,6 +2,7 @@ import logging
 import time
 from typing import List, TypeVar
 
+import dask
 from distributed import as_completed, Client
 from jmetal.core.algorithm import Algorithm
 from jmetal.core.operator import Mutation, Crossover, Selection
@@ -59,7 +60,7 @@ class DistributedNSGAII(Algorithm[S, R]):
         return [self.problem.create_solution() for _ in range(self.number_of_cores)]
 
     def evaluate(self, solutions: List[S]) -> List[S]:
-        return [self.client.submit(self.problem.evaluate, solution) for solution in solutions]
+        return self.client.map(self.problem.evaluate, solutions)
 
     def stopping_condition_is_met(self) -> bool:
         return self.termination_criterion.is_met
@@ -87,30 +88,39 @@ class DistributedNSGAII(Algorithm[S, R]):
         self.start_computing_time = time.time()
 
         LOGGER.info(f'Creating initial set of {self.number_of_cores}-solutions')
-        population_to_evaluate = self.create_initial_solutions()
+        create_solution = dask.delayed(self.problem.create_solution)
+
+        population_to_evaluate = [create_solution() for _ in range(self.number_of_cores)]
+        population_to_evaluate = dask.compute(*population_to_evaluate)
 
         LOGGER.info('Evaluating initial set of solutions')
-        task_pool = as_completed(self.evaluate(population_to_evaluate), with_results=True)
+        population = self.client.map(self.problem.evaluate, population_to_evaluate)
+
+        task_pool = as_completed(population, with_results=True)
+        batches = task_pool.batches()
 
         LOGGER.info(f'Creating initial population of {self.population_size} individuals')
         auxiliar_population = []
         while len(auxiliar_population) < self.population_size:
-            future, received_solution = next(task_pool)
-            auxiliar_population.append(received_solution)
+            batch = next(batches)
 
-            # todo create_solution takes so much time
-            new_solution = self.problem.create_solution()
-            new_evaluated_solution = self.client.submit(self.problem.evaluate, new_solution)
-            task_pool.add(new_evaluated_solution)
+            for _, received_solution in batch:
+                auxiliar_population.append(received_solution)
+
+                # todo create_solution takes so much time
+                new_solution = self.client.submit(self.problem.create_solution)
+                new_evaluated_solution = self.client.submit(self.problem.evaluate, new_solution.result())
+
+                task_pool.add(new_evaluated_solution)
 
         LOGGER.info(f'Running main loop at {time.time() - self.start_computing_time}')
         self.init_progress()
-
+        """
         # perform an algorithm step to create a new solution to be evaluated
         while not self.stopping_condition_is_met():
             offspring_population = []
-
             _, received_solution = next(task_pool)
+
             offspring_population.append(received_solution)
 
             # replacement
@@ -123,7 +133,7 @@ class DistributedNSGAII(Algorithm[S, R]):
             for _ in range(2):
                 solution = self.selection_operator.execute(auxiliar_population)
                 mating_population.append(solution)
-
+            
             # Reproduction and evaluation
             new_task = self.client.submit(reproduction, mating_population, self.problem,
                                           self.crossover_operator, self.mutation_operator)
@@ -134,14 +144,12 @@ class DistributedNSGAII(Algorithm[S, R]):
             self.solutions = auxiliar_population
 
             self.update_progress()
-
-
         """
-        batches = task_pool.batches()
 
         # perform an algorithm step to create a new solution to be evaluated
         while not self.stopping_condition_is_met():
             batch = next(batches)
+
             for _, received_solution in batch:
                 offspring_population = [received_solution]
 
@@ -169,7 +177,6 @@ class DistributedNSGAII(Algorithm[S, R]):
 
                 if self.stopping_condition_is_met():
                     break
-        """
 
         self.total_computing_time = time.time() - self.start_computing_time
 
