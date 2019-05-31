@@ -19,14 +19,14 @@ This tool implements a distributed async version of the [M2Align](https://github
 > "M2Align: parallel multiple sequence alignment with a multi-objective metaheuristic". Cristian Zambrano-Vega, Antonio J. Nebro José García-Nieto, José F. Aldana-Montes. Bioinformatics, Volume 33, Issue 19, 1 October 2017, Pages 3011–3017 ([DOI](https://doi.org/10.1093/bioinformatics/btx338)).
 
 ## Features
-* The **scores** that are currently available are:
+* **Score functions**:
     * Sum of pairs,
     * Star,
     * Minimum entropy,
     * Percentage of non-gaps,
     * Percentage of totally conserved columns,
     * STRIKE.
-* The only currently available **algorithm** is:
+* **Algorithm**:
     * NSGA-II
 * **Crossover operator**:
     * Single-point crossover (`GapSequenceSolutionSinglePoint`).
@@ -40,16 +40,16 @@ This tool implements a distributed async version of the [M2Align](https://github
 ## Install
 To download and install Sequoya just clone the Git repository hosted in GitHub:
 
-```bash
-$ git clone https://github.com/benhid/Sequoya.git
-$ cd Sequoya
-$ python setup.py install
+```console
+git clone https://github.com/benhid/Sequoya.git
+cd Sequoya
+python setup.py install
 ```
 
 Or via *pip*:
 
-```bash
-$ pip install Sequoya
+```console
+pip install Sequoya
 ```
 
 ## Usage
