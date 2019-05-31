@@ -89,62 +89,40 @@ class DistributedNSGAII(Algorithm[S, R]):
 
         LOGGER.info(f'Creating initial set of {self.number_of_cores}-solutions')
         create_solution = dask.delayed(self.problem.create_solution)
+        evaluate_solution = dask.delayed(self.problem.evaluate)
 
-        population_to_evaluate = [create_solution() for _ in range(self.number_of_cores)]
-        population_to_evaluate = dask.compute(*population_to_evaluate)
+        task_pool = as_completed([], with_results=True)
 
-        LOGGER.info('Evaluating initial set of solutions')
-        population = self.client.map(self.problem.evaluate, population_to_evaluate)
+        for i in range(self.number_of_cores):
+            new_solution = create_solution()
+            new_evaluated_solution = evaluate_solution(new_solution)
+            future = self.client.compute(new_evaluated_solution)
 
-        task_pool = as_completed(population, with_results=True)
+            task_pool.add(future)
+
         batches = task_pool.batches()
 
         LOGGER.info(f'Creating initial population of {self.population_size} individuals')
+
         auxiliar_population = []
         while len(auxiliar_population) < self.population_size:
             batch = next(batches)
-
             for _, received_solution in batch:
                 auxiliar_population.append(received_solution)
 
-                # todo create_solution takes so much time
-                new_solution = self.client.submit(self.problem.create_solution)
-                new_evaluated_solution = self.client.submit(self.problem.evaluate, new_solution.result())
+                if len(auxiliar_population) < self.population_size:
+                    break
 
-                task_pool.add(new_evaluated_solution)
+            # submit as many new tasks as we collected
+            for _ in batch:
+                new_solution = create_solution()
+                new_evaluated_solution = evaluate_solution(new_solution)
+                future = self.client.compute(new_evaluated_solution)
+
+                task_pool.add(future)
 
         LOGGER.info(f'Running main loop at {time.time() - self.start_computing_time}')
         self.init_progress()
-        """
-        # perform an algorithm step to create a new solution to be evaluated
-        while not self.stopping_condition_is_met():
-            offspring_population = []
-            _, received_solution = next(task_pool)
-
-            offspring_population.append(received_solution)
-
-            # replacement
-            join_population = auxiliar_population + offspring_population
-            auxiliar_population = RankingAndCrowdingDistanceSelection(self.population_size).execute(
-                join_population)
-
-            # selection
-            mating_population = []
-            for _ in range(2):
-                solution = self.selection_operator.execute(auxiliar_population)
-                mating_population.append(solution)
-            
-            # Reproduction and evaluation
-            new_task = self.client.submit(reproduction, mating_population, self.problem,
-                                          self.crossover_operator, self.mutation_operator)
-            task_pool.add(new_task)
-
-            # update progress
-            self.evaluations += 1
-            self.solutions = auxiliar_population
-
-            self.update_progress()
-        """
 
         # perform an algorithm step to create a new solution to be evaluated
         while not self.stopping_condition_is_met():

@@ -15,63 +15,64 @@ LOGGER = logging.getLogger('Sequoya')
 
 
 class BAliBASE(MSA):
-    DATA_FILES = ['tfa_clu', 'tfa_muscle', 'tfa_kalign', 'tfa_retalign',
-                  'fasta_aln', 'tfa_probcons', 'tfa_mafft', 'tfa_fsa']
+    DATA_FILES = ['tfa_clu', 'tfa_muscle', 'tfa_kalign', 'tfa_retalign', 'fasta_aln', 'tfa_probcons', 'tfa_mafft',
+                  'tfa_fsa']
 
-    def __init__(self, balibase_instance: str, balibase_path: str, score_list: List[Score]) -> None:
-        """ Creates a new problem based on an instance of BAliBASE.
+    def __init__(self, instance: str, path: str, score_list: List[Score], auto_import: bool = True) -> None:
+        """
+        Creates a new problem based on an instance of BAliBASE.
 
-        :param balibase_instance: Instance name (e.g., BB12010).
-        :param balibase_path: Path containing two directories: `bb3_aligned`, with the pre-computed alignments and
+        :param instance: Instance name (e.g., BB12010).
+        :param path: Path containing two directories: `bb3_aligned`, with the pre-computed alignments and
         `bb3_release`, with the original sequences.
-        :param score_list: List of pyMSA objects. """
+        :param score_list: List of score functions.
+        """
         super(BAliBASE, self).__init__(score_list)
-        self.balibase_instance = balibase_instance
-        self.balibase_path = balibase_path
-        self.instance = self.import_instance()
-        self.counter = 0
+        self.instance = instance
+        self.path = path
+
+        if auto_import:
+            self.import_instance()
 
     def create_solution(self) -> MSASolution:
-        if self.counter < len(self.instance):
-            offspring = self.instance[self.counter]
-            self.counter += 1
-        else:
-            crossover_operator = SPXMSA(probability=1.0)
-            mutation_operator = TwoRandomAdjacentGapGroup(probability=1.0)
+        crossover_operator = SPXMSA(probability=1.0)
+        mutation_operator = TwoRandomAdjacentGapGroup(probability=1.0)
 
-            a = random.randint(0, len(self.instance) - 1)
-            b = random.randint(0, len(self.instance) - 1)
+        a = random.randint(0, len(self.sequences) - 1)
+        b = random.randint(0, len(self.sequences) - 1)
 
-            while a == b:
-                b = random.randint(0, len(self.instance) - 1)
+        while a == b:
+            b = random.randint(0, len(self.sequences) - 1)
 
-            offspring = crossover_operator.execute([self.instance[a], self.instance[b]])
-            mutation_operator.execute(offspring[0])
+        offspring = crossover_operator.execute([self.sequences[a], self.sequences[b]])
+        mutation_operator.execute(offspring[0])
 
-            offspring = offspring[0]
-
-        return offspring
+        return offspring[0]
 
     def import_instance(self) -> List[MSASolution]:
-        self.read_original_sequences()
+        bb3_release_path = self._compute_path('bb3_release')
+        assert os.path.isdir(bb3_release_path), 'Instance not found'
 
-        bb3_aligned_path = self.compute_path('bb3_aligned')
+        msa = read_fasta_file_as_list_of_pairs(f'{bb3_release_path}/{self.instance}.tfa')
+        self.identifiers = list(pair[0] for pair in msa)
+        self.number_of_variables = len(self.identifiers)
 
-        alignment_sequences = []
-        if os.path.isdir(bb3_aligned_path):
-            for file in listdir(bb3_aligned_path):
-                if file.split('.')[0] == self.balibase_instance and file.split('.')[1] in self.DATA_FILES:
-                    msa = read_fasta_file_as_list_of_pairs(bb3_aligned_path + '/' + file)
-                    alignment_sequences.append(msa)
-        else:
-            raise Exception('Instance not found. Invalid path provided? {}'.format(bb3_aligned_path))
+        bb3_aligned_path = self._compute_path('bb3_aligned')
+        assert os.path.isdir(bb3_aligned_path), 'Instance not found'
 
-        if len(alignment_sequences) < 2:
-            raise Exception('More than one pre-computed alignment is needed!')
+        multiple_alignments = []
+        for file in listdir(bb3_aligned_path):
+            name, fmt = file.split('.')
+
+            if name == self.instance and fmt in self.DATA_FILES:
+                msa = read_fasta_file_as_list_of_pairs(f'{bb3_aligned_path}/{file}')
+                multiple_alignments.append(msa)
+
+        if len(multiple_alignments) < 2:
+            raise Exception('More than one pre-computed MSA is required')
 
         population = []
-
-        for msa in alignment_sequences:
+        for msa in multiple_alignments:
             new_individual = MSASolution(self, msa)
             population.append(new_individual)
 
@@ -79,32 +80,14 @@ class BAliBASE(MSA):
 
         for index, individual in enumerate(population):
             self.evaluate(individual)
-            LOGGER.info('Alignment {0} size: {1}, Objectives: {2}'.format(
-                index, individual.get_length_of_alignment(), individual.objectives)
-            )
+            LOGGER.info(f'ALN {index}, LEN: {individual.get_length_of_alignment()}, OBJ: {individual.objectives}')
 
-        LOGGER.info('Number of pre-computed alignments: {0}'.format(len(population)))
-
-        # with open('PRECOMPUTED_ALIGNMENTS_{0}'.format(self.balibase_instance), 'w') as of:
-        #     for solution in population:
-        #         of.write(str(solution) + " ")
-        #         of.write("\n")
+        self.sequences = population
 
         return population
 
-    def read_original_sequences(self):
-        bb3_release_path = self.compute_path('bb3_release')
-
-        if os.path.isdir(bb3_release_path):
-            fasta_file = read_fasta_file_as_list_of_pairs(bb3_release_path + '/' + self.balibase_instance + '.tfa', )
-            self.sequences_names = list(pair[0] for pair in fasta_file)
-            self.number_of_variables = len(self.sequences_names)
-            self.original_sequences = fasta_file
-        else:
-            raise Exception('Instance not found. Invalid path provided? {}'.format(bb3_release_path))
-
-    def compute_path(self, directory: str) -> str:
-        return os.path.join(self.balibase_path, directory, 'RV' + self.balibase_instance[2:4] + '/')
+    def _compute_path(self, directory: str) -> str:
+        return os.path.join(self.path, directory, 'RV' + self.instance[2:4] + '/')
 
     def get_name(self) -> str:
-        return 'BAliBASE problem'
+        return 'BAliBASE v3.0'

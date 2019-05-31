@@ -10,13 +10,13 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
 
     def setUp(self):
         self.problem = MSA(score_list=[])
-        self.problem.sequences_names = ['seq1']
+        self.problem.identifiers = ['seq1']
         self.problem.number_of_variables = 1
 
     def test_should_the_solution_remain_unchanged_if_the_probability_is_zero(self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3']
+        problem.identifiers = ['seq1', 'seq2', 'seq3']
         problem.number_of_variables = 3
         msa_1 = MSASolution(problem, msa=[('seq1', 'ACTC'), ('seq2', 'A-TC'), ('seq3', 'A--C')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'CT-G'), ('seq2', '-T-G'), ('seq3', '-ATG')])
@@ -36,7 +36,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
             self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
         msa = MSASolution(problem, msa=[('seq1', 'BCDE'), ('seq2', 'ABCE')])
 
@@ -53,7 +53,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
             self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
         msa = MSASolution(problem, msa=[('seq1', 'BC-DE'), ('seq2', 'ABC-E')])
 
@@ -70,7 +70,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
             self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
         msa = MSASolution(problem, msa=[('seq1', 'BC-D-E--'), ('seq2', 'ABC-E---')])
 
@@ -85,7 +85,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_find_original_positions_in_solution_with_gaps(self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
         msa = MSASolution(problem, msa=[('seq1', 'BC-D-E---'), ('seq2', '--C--E---')])
 
@@ -101,7 +101,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_find_original_positions_in_solution_with_no_gaps(self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
         msa = MSASolution(problem, msa=[('seq1', 'ABCD'), ('seq2', 'DCBA')])
 
@@ -119,7 +119,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         """ AB--C|D-E, AB-C|DE- => AB--CDE-, AB-CD-E- """
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1']
+        problem.identifiers = ['seq1']
         problem.number_of_variables = 1
         msa_1 = MSASolution(problem, msa=[('seq1', 'AB--CD-E')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'AB--CDE-')])
@@ -138,7 +138,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_single_point_crossover_work_properly_case_a_with_remove_gap_columns(self, random_call):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1']
+        problem.identifiers = ['seq1']
         problem.number_of_variables = 1
         msa_1 = MSASolution(problem, msa=[('seq1', 'AB--CD-E')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'AB--CDE-')])
@@ -162,7 +162,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         """ A-BC|D-E-, A-B-C|DE-   => A-BCDE-, A-B-CD-E- """
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1']
+        problem.identifiers = ['seq1']
         problem.number_of_variables = 1
         msa_1 = MSASolution(problem, msa=[('seq1', 'A-BCD-E')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'A-B-CDE-')])
@@ -182,7 +182,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
         """ A|B-CD-EF, ---A|BCD-EF => ABCD-EF, ---AB-CD-EF """
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1']
+        problem.identifiers = ['seq1']
         problem.number_of_variables = 1
         msa_1 = MSASolution(problem, msa=[('seq1', 'AB-CD-EF')])
         msa_2 = MSASolution(problem, msa=[('seq1', '---ABCD-EF')])
@@ -203,7 +203,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
             M------Q|DR,  --M--Q|DR  => M------QDR, --M--QDR """
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
         msa_1 = MSASolution(problem, msa=[('seq1', 'GKGD---PKK'), ('seq2', 'M------QDR')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'GKGD-PKK'), ('seq1', '--M--QDR')])
@@ -227,7 +227,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
             M--------|HI, ---M--H|I-   => M--------HI-, ---M--H---I """
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2', 'seq3', 'seq4']
+        problem.identifiers = ['seq1', 'seq2', 'seq3', 'seq4']
         problem.number_of_variables = 4
         msa_1 = MSASolution(problem, msa=[('seq1', 'GKGD---PKKP'), ('seq2', 'M------QDRV'),
                                           ('seq3', 'MKKLKKHPDFP'), ('seq4', 'M--------HI')])
@@ -252,7 +252,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
             M------Q|DR-, --M--Q|DR  => M------QDR, --M--QDR- """
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
         msa_1 = MSASolution(problem, msa=[('seq1', 'GKGD---PKK'), ('seq2', 'M------QDR-')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'GKGD-PKK'), ('seq2', '--M--QDR')])
@@ -273,7 +273,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
             -----------|-M, --M|------  =>  ------------M------, --M """
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1']
+        problem.identifiers = ['seq1']
         problem.number_of_variables = 1
         msa_1 = MSASolution(problem, msa=[('seq1', '------------M')])
         msa_2 = MSASolution(problem, msa=[('seq1', '--M------')])
@@ -294,7 +294,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
             -----------|-M, --M|------  =>  ------------M------, --M-------- """
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
         msa_1 = MSASolution(problem, msa=[('seq1', 'GKGD---PKKP--'), ('seq2', '------------M')])
         msa_2 = MSASolution(problem, msa=[('seq1', 'GKGD-PKKP'), ('seq2', '--M------')])
@@ -316,7 +316,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_single_point_crossover_work_properly_case_j(self, random_call):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
         msa_1 = MSASolution(problem, msa=[('seq1', 'MIKMIM-IK'), ('seq2', 'A-B-CDEF-')])
         msa_2 = MSASolution(problem, msa=[('seq1', '--MIKMIMIK'), ('seq2', 'ABC-D-E-F-')])
@@ -335,7 +335,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_single_point_crossover_work_properly_real_case(self, random_call):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['1bbt_ac', '1al2_ad', '1b35_C', '1bbt_ab', '1mec_aa', '1bbt_aa', '1al2_ab',
+        problem.identifiers = ['1bbt_ac', '1al2_ad', '1b35_C', '1bbt_ab', '1mec_aa', '1bbt_aa', '1al2_ab',
                                    '1al2_ac']
         problem.number_of_variables = 8
         msa_1 = MSASolution(problem, msa=[
@@ -388,7 +388,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_single_point_crossover_work_properly_dummy_case(self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['a', 'b', 'c', 'd']
+        problem.identifiers = ['a', 'b', 'c', 'd']
         problem.number_of_variables = 4
         msa_1 = MSASolution(problem, msa=[
             ('a', '----GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKGKFEDMAKADKARYEREMKTYIPPK----------GE'),
@@ -415,7 +415,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_single_point_crossover_work_properly_real_case(self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['a', 'b', 'c', 'd']
+        problem.identifiers = ['a', 'b', 'c', 'd']
         problem.number_of_variables = 4
         msa_1 = MSASolution(problem, msa=[
             ('a', '----GKGDPKKPRGKMSSYAFFVQTSREEHKKKHPDASVNFSEFSKKCSERWKTMSAKEKGKFEDMAKADKARYEREMKTYIPPK----------GE'),
@@ -442,7 +442,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_fill_sequences_with_gaps_to_reach_the_max_sequence_length(self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['a', 'b']
+        problem.identifiers = ['a', 'b']
         problem.number_of_variables = 2
         msa_1 = MSASolution(problem, msa=[('a', '-----GE'), ('b', 'KWPFFQEAQK')])
         msa_2 = MSASolution(problem, msa=[('a', '-----GE'), ('b', 'KWPFFQEAQK')])
@@ -463,7 +463,7 @@ class GapSequenceSolutionSinglePointTestCases(unittest.TestCase):
     def test_should_find_max_sequence_length(self):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['a', 'b', 'c']
+        problem.identifiers = ['a', 'b', 'c']
         problem.number_of_variables = 3
         msa = MSASolution(problem, msa=[('a', 'AAC'), ('b', 'AAAAAAAC'), ('c', 'C')])
 

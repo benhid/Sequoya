@@ -2,7 +2,9 @@ from jmetal.core.solution import Solution
 
 
 class MSASolution(Solution[str]):
-    """ Class representing MSA solutions """
+    """
+    Class representing MSA solutions.
+    """
 
     GAP_IDENTIFIER = '-'
 
@@ -10,7 +12,7 @@ class MSASolution(Solution[str]):
         super(MSASolution, self).__init__(number_of_variables=problem.number_of_variables,
                                           number_of_objectives=problem.number_of_objectives)
 
-        self.sequences_names = problem.sequences_names
+        self.sequences_names = problem.identifiers
         self.gaps_groups = [[] for _ in range(self.number_of_variables)]
 
         self.encode_alignment(list(pair[1] for pair in msa))

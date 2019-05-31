@@ -1,3 +1,7 @@
+import matplotlib
+
+matplotlib.use('TkAgg')
+
 from jmetal.algorithm.multiobjective.nsgaii import NSGAII
 from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
@@ -13,7 +17,7 @@ from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
     # creates the problem
-    problem = BAliBASE(balibase_instance='BB50011', balibase_path='../resources',
+    problem = BAliBASE(instance='BB50011', path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
     # creates the algorithm

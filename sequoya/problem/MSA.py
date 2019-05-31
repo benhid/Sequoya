@@ -9,15 +9,16 @@ from sequoya.core.solution import MSASolution
 class MSA(MSAProblem):
 
     def __init__(self, score_list: List[Score]) -> None:
-        """ Creates a new MSA problem.
-
-        :param score_list: """
+        """
+        Creates a new MSA problem.
+        """
         super(MSA, self).__init__()
         self.score_list = score_list
         self.number_of_objectives = len(self.score_list)
 
-        self.original_sequences: list = []
-        self.sequences_names: list = []
+        self.sequences = []
+        self.identifiers: list = []
+        self.number_of_sequences = []
 
     def create_solution(self) -> List[MSASolution]:
         raise NotImplementedError()
@@ -30,7 +31,6 @@ class MSA(MSAProblem):
             solution.objectives[i] = score.compute(sequences)
 
             if not score.is_minimization():
-                # If score is maximization, invert sign
                 solution.objectives[i] = -solution.objectives[i]
 
         return solution

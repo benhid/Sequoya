@@ -14,7 +14,7 @@
 Sequoya is an open source software tool aimed at for solving
 *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
-This tool implements a distributed version of the [M2Align](https://github.com/KhaosResearch/M2Align) algorithm as shown in:
+This tool implements a distributed async version of the [M2Align](https://github.com/KhaosResearch/M2Align) algorithm as shown in:
 
 > "M2Align: parallel multiple sequence alignment with a multi-objective metaheuristic". Cristian Zambrano-Vega, Antonio J. Nebro José García-Nieto, José F. Aldana-Montes. Bioinformatics, Volume 33, Issue 19, 1 October 2017, Pages 3011–3017 ([DOI](https://doi.org/10.1093/bioinformatics/btx338)).
 
@@ -58,29 +58,25 @@ Examples of running Sequoya are located in the [`examples`](examples/) folder:
 ### Dask distributed
 
 For running Sequoya in a cluster of machines, first [setup a network](http://distributed.dask.org/en/latest/setup.html) 
-with at least one `dask-cheduler` node and several `dask-worker` nodes.
+with at least one `dask-cheduler` node and several `dask-worker` nodes:
 
-To use a development version of Sequoya, create and send the (local) package up to all worker nodes instead of installing
-it with `pip`:
+```console
+conda create --name dask-cluster
+conda activate dask-cluster
 
-> Note that the file must have the **same name as the package** (*sequoya*).
-
-```python
-def install_dependencies():
-    """ Install packages on worker nodes. Note that this may take a while (the first time)! """
-    import os
-    os.system('pip install pymsa jmetalpy')
-
-
-client = Client('127.0.0.1:8786')
-client.run(install_dependencies)
-client.upload_file('sequoya.egg')
+pip install git+https://github.com/benhid/Sequoya.git@develop
 ```
 
-To create the `.egg` file, run:
+Then, on the master node run:
 
-```sh
-$ python setup.py bdist_egg
+```console
+dask-scheduler
+```
+
+On each slave node run:
+
+```console
+dask-worker <master-ip>:8786 --nprocs <total-cores> --nthreads 1
 ```
 
 ## Authors

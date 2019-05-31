@@ -1,15 +1,19 @@
 from math import sqrt
 
-from dask.distributed import Client, LocalCluster
-from jmetal.operator import BinaryTournamentSelection
-from jmetal.operator.crossover import SBXCrossover
-from jmetal.operator.mutation import PolynomialMutation
+import matplotlib
 from jmetal.problem import ZDT1
+
+matplotlib.use('TkAgg')
+
+from jmetal.algorithm.multiobjective.nsgaii import NSGAII
+from jmetal.operator import BinaryTournamentSelection, PolynomialMutation, SBXCrossover
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
+from jmetal.util.solution_list.evaluator import SequentialEvaluator
 from jmetal.util.termination_criterion import StoppingByEvaluations
+from jmetal.util.visualization import Plot
 
-from sequoya.algorithm.multiobjective.nsgaii import DistributedNSGAII
+from sequoya.util.visualization import MSAPlot
 
 
 class ZDT1Modified(ZDT1):
@@ -27,7 +31,7 @@ class ZDT1Modified(ZDT1):
         solution.objectives[1] = h * g
 
         s: float = 0.0
-        for i in range(10000000):
+        for i in range(1000000000):
             s += i * 0.235 / 1.234
 
         return solution
@@ -49,28 +53,21 @@ class ZDT1Modified(ZDT1):
 
 
 if __name__ == '__main__':
-    # setup Dask client (web interface will be initialized at http://127.0.0.1:8787/workers)
-    cluster = LocalCluster(n_workers=4, processes=True)
-    client = Client(cluster)
-
-    ncores = sum(client.ncores().values())
-    print(f'{ncores} cores available')
-
     # creates the problem
     problem = ZDT1Modified()
 
     # creates the algorithm
     max_evaluations = 1000
 
-    algorithm = DistributedNSGAII(
+    algorithm = NSGAII(
         problem=problem,
         population_size=100,
+        offspring_population_size=100,
         mutation=PolynomialMutation(probability=1.0 / problem.number_of_variables, distribution_index=20),
         crossover=SBXCrossover(probability=1.0, distribution_index=20),
         selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         termination_criterion=StoppingByEvaluations(max=max_evaluations),
-        number_of_cores=ncores,
-        client=client
+        population_evaluator=SequentialEvaluator()
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
@@ -78,5 +75,13 @@ if __name__ == '__main__':
 
     algorithm.run()
     front = algorithm.get_result()
+
+    # plot front
+    plot_front = Plot(plot_title='Pareto front approximation')
+    plot_front.plot(front, label='ZDT1', filename='ZDT1')
+
+    # plot interactive front
+    pareto_front = MSAPlot(plot_title='Pareto front approximation')
+    pareto_front.plot(front, label='ZDT1', filename='ZDT1')
 
     print('Computing time: ' + str(algorithm.total_computing_time))

@@ -10,7 +10,7 @@ class ShiftClosedGapGroupsTestCases(unittest.TestCase):
 
     def setUp(self):
         self.problem = MSA(score_list=[])
-        self.problem.sequences_names = ['seq1']
+        self.problem.identifiers = ['seq1']
         self.problem.number_of_variables = 1
 
     @mock.patch('random.randrange')
@@ -70,7 +70,7 @@ class ShiftClosedGapGroupsTestCases(unittest.TestCase):
     def test_should_execute_mutation_case_e(self, random_group):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1', 'seq2']
+        problem.identifiers = ['seq1', 'seq2']
         problem.number_of_variables = 2
 
         msa = MSASolution(problem, msa=[('seq1', '---B--AA--'), ('seq2', '--B---AA--')])
@@ -88,7 +88,7 @@ class ShiftGapGroupTestCases(unittest.TestCase):
 
     def setUp(self):
         self.problem = MSA(score_list=[])
-        self.problem.sequences_names = ['seq1']
+        self.problem.identifiers = ['seq1']
         self.problem.number_of_variables = 1
 
     @mock.patch('random.randrange')
@@ -158,7 +158,7 @@ class TwoRandomAdjacentGapGroupTestCases(unittest.TestCase):
 
     def setUp(self):
         self.problem = MSA(score_list=[])
-        self.problem.sequences_names = ['seq1']
+        self.problem.identifiers = ['seq1']
         self.problem.number_of_variables = 1
 
     def test_should_execute_mutation_case_a(self):
@@ -214,14 +214,14 @@ class OneRandomGapInsertionTestCases(unittest.TestCase):
 
     def setUp(self):
         self.problem = MSA(score_list=[])
-        self.problem.sequences_names = ['seq1', 'seq2']
+        self.problem.identifiers = ['seq1', 'seq2']
         self.problem.number_of_variables = 2
 
     @mock.patch('random.randint')
     def test_should_execute_mutation_case_a(self, random_call):
         # setup
         problem = MSA(score_list=[])
-        problem.sequences_names = ['seq1']
+        problem.identifiers = ['seq1']
         problem.number_of_variables = 1
         msa = MSASolution(problem, msa=[('seq1', 'AB-D')])
 
