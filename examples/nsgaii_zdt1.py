@@ -76,12 +76,4 @@ if __name__ == '__main__':
     algorithm.run()
     front = algorithm.get_result()
 
-    # plot front
-    plot_front = Plot(plot_title='Pareto front approximation')
-    plot_front.plot(front, label='ZDT1', filename='ZDT1')
-
-    # plot interactive front
-    pareto_front = MSAPlot(plot_title='Pareto front approximation')
-    pareto_front.plot(front, label='ZDT1', filename='ZDT1')
-
     print('Computing time: ' + str(algorithm.total_computing_time))

@@ -24,9 +24,8 @@ if __name__ == '__main__':
     print(f'{ncores} cores available on cluster')
 
     # creates the problem
-    problem = BAliBASE(instance='BB50011.tfa', path='',
+    problem = BAliBASE(instance='BB50011', path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
-    problem.import_instance()
 
     # creates the algorithm
     max_evaluations = 25000

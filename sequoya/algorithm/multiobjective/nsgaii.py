@@ -67,7 +67,10 @@ class DistributedNSGAII(Algorithm[S, R]):
 
     def get_observable_data(self) -> dict:
         ctime = time.time() - self.start_computing_time
-        return {'PROBLEM': self.problem, 'EVALUATIONS': self.evaluations, 'SOLUTIONS': self.get_result(),
+
+        return {'PROBLEM': self.problem,
+                'EVALUATIONS': self.evaluations,
+                'SOLUTIONS': self.get_result(),
                 'COMPUTING_TIME': ctime}
 
     def init_progress(self) -> None:

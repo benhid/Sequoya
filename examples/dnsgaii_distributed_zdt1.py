@@ -63,7 +63,7 @@ if __name__ == '__main__':
     problem = ZDT1Modified()
 
     # creates the algorithm
-    max_evaluations = 1000
+    max_evaluations = 25000
 
     algorithm = DistributedNSGAII(
         problem=problem,
