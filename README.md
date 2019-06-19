@@ -1,6 +1,6 @@
 <p>
   <br/>
-  <img src=docs/sequoya-black.png alt="Logo">
+  <img src=docs/sequoya-black.png alt="Sequoya">
   <br/>
 </p>
 
@@ -9,10 +9,9 @@
 # Solving Multiple Sequence Alignments with Python
 [![Build Status](https://img.shields.io/travis/benhid/Sequoya.svg?style=flat-square)](https://travis-ci.org/benhid/Sequoya)
 [![PyPI License](https://img.shields.io/pypi/l/Sequoya.svg?style=flat-square)]()
-[![PyPI Python version](https://img.shields.io/pypi/pyversions/Sequoya.svg?style=flat-square)]()
+[![PyPI Python version](https://img.shields.io/pypi/pyversions/Sequoya.svg?style=flat-square)](https://pypi.org/project/Sequoya/)
 
-Sequoya is an open source software tool aimed at for solving
-*M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
+Sequoya is an open source software tool aimed at for solving *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
 This tool implements a distributed async version of the [M2Align](https://github.com/KhaosResearch/M2Align) algorithm as shown in:
 

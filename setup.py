@@ -1,14 +1,19 @@
-from setuptools import find_packages
+from os.path import abspath, dirname, join
 
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+from setuptools import find_packages, setup
+
+basedir = abspath(dirname(__file__))
+
+with open(join(basedir, 'README.md'), encoding='utf-8') as f:
+    README = f.read()
 
 setup(
     name='Sequoya',
     version='0.9.0',
     description='Solving Multiple Sequence Alignments with Python',
+    long_description=README,
+    long_description_content_type='text/markdown',
+    include_package_data=True,
     author='Antonio Benítez-Hidalgo',
     author_email='antonio.b@uma.es',
     maintainer='Antonio Benítez-Hidalgo',
@@ -16,7 +21,6 @@ setup(
     python_requires='>=3',
     license='MIT',
     url='https://github.com/benhid/Sequoya',
-    long_description=open('README.md').read(),
     packages=find_packages(exclude=["test.*", "tests"]),
     classifiers=[
         'Development Status :: 3 - Alpha',
