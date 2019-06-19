@@ -6,8 +6,8 @@ except ImportError:
     from distutils.core import setup
 
 setup(
-    name='pyM2SA',
-    version='0.5.0',
+    name='Sequoya',
+    version='0.9.0',
     description='Solving Multiple Sequence Alignments with Python',
     author='Antonio Benítez-Hidalgo',
     author_email='antonio.b@uma.es',
@@ -15,7 +15,7 @@ setup(
     maintainer_email='antonio.b@uma.es',
     python_requires='>=3',
     license='MIT',
-    url='https://github.com/benhid/pyM2SA',
+    url='https://github.com/benhid/Sequoya',
     long_description=open('README.md').read(),
     packages=find_packages(exclude=["test.*", "tests"]),
     classifiers=[
@@ -26,7 +26,10 @@ setup(
         'Programming Language :: Python :: 3.6'
     ],
     install_requires=[
-        'jmetalpy==0.5.1',
-        'pymsa==0.5.1'
+        'jmetalpy==0.9.0',
+        'pymsa==0.5.1',
+        'dask[complete]==1.2.2',
+        'distributed==1.28.1',
+        'bokeh==1.1.0'
     ]
 )

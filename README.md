@@ -1,31 +1,34 @@
-<p align="center">
+<p>
   <br/>
-  <img src=resources/pym2sa-new.png alt="pyM2SA">
+  <img src=docs/sequoya-black.png alt="Logo">
   <br/>
 </p>
 
-# Solving Multiple Sequence Alignments with Python
-[![Build Status](https://img.shields.io/travis/benhid/pyM2SA.svg?branch=master?style=flat-square)](https://travis-ci.org/benhid/pyM2SA)
-[![PyPI License](https://img.shields.io/pypi/l/pyM2SA.svg?style=flat-square)]()
-[![PyPI Python version](https://img.shields.io/pypi/pyversions/pyM2SA.svg?style=flat-square)]()
+<hr>
 
-pyM<sup>2</sup>SA is an open source software tool aimed at for solving
+# Solving Multiple Sequence Alignments with Python
+[![Build Status](https://img.shields.io/travis/benhid/Sequoya.svg?style=flat-square)](https://travis-ci.org/benhid/Sequoya)
+[![PyPI License](https://img.shields.io/pypi/l/Sequoya.svg?style=flat-square)]()
+[![PyPI Python version](https://img.shields.io/pypi/pyversions/Sequoya.svg?style=flat-square)]()
+
+Sequoya is an open source software tool aimed at for solving
 *M*ultiple *S*equence *A*lignment problems with multi-objective metaheuristics.
 
-This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) algorithm as shown in:
+This tool implements a distributed async version of the [M2Align](https://github.com/KhaosResearch/M2Align) algorithm as shown in:
 
 > "M2Align: parallel multiple sequence alignment with a multi-objective metaheuristic". Cristian Zambrano-Vega, Antonio J. Nebro José García-Nieto, José F. Aldana-Montes. Bioinformatics, Volume 33, Issue 19, 1 October 2017, Pages 3011–3017 ([DOI](https://doi.org/10.1093/bioinformatics/btx338)).
 
 ## Features
-* The **scores** that are currently available are those from [pyMSA](https://github.com/benhid/pyMSA) (v0.5.0):
+* **Score functions**:
     * Sum of pairs,
     * Star,
     * Minimum entropy,
     * Percentage of non-gaps,
     * Percentage of totally conserved columns,
     * STRIKE.
-* The **algorithm** that is currently available is:
-    * NSGA-II
+* **Algorithm**:
+    * NSGA-II,
+    * Distributed NSGA-II
 * **Crossover operator**:
     * Single-point crossover (`GapSequenceSolutionSinglePoint`).
 * **Mutation operators**:
@@ -36,62 +39,50 @@ This tool implements the [M2Align](https://github.com/KhaosResearch/M2Align) alg
     * Multiple mutation (`MultipleMSAMutation`).
 
 ## Install
-To download and install pyM<sup>2</sup>SA just clone the Git repository hosted in GitHub:
+To download and install Sequoya just clone the Git repository hosted in GitHub:
 
-```bash
-$ git clone https://github.com/benhid/pyM2SA.git
-$ cd pyM2SA
-$ python setup.py install
+```console
+git clone https://github.com/benhid/Sequoya.git
+cd Sequoya
+python setup.py install
 ```
 
 Or via *pip*:
 
-```bash
-$ pip install pym2sa
+```console
+pip install Sequoya
 ```
 
 ## Usage
-Examples of running pyM<sup>2</sup>SA are located in the [`examples`](examples/) folder:
+Examples of running Sequoya are located in the [`examples`](examples/) folder:
 
-```python
-# Defines the problem (as an instance from BAliBase 3.0)
-score_list = [SumOfPairs(PAM250()), PercentageOfTotallyConservedColumns()]
-problem = BAliBASE(instance='BB12010', balibase_path='resources', score_list=score_list)
-problem.obj_labels = ['TC', 'SOP']
+### Dask distributed
 
-# Defines the algorithm
-algorithm = NSGA2MSA[MSASolution, List[MSASolution]](
-    problem=problem,
-    population_size=100,
-    max_evaluations=25000,
-    mutation=MultipleMSAMutation([ShiftGapGroup(1.0), TwoRandomAdjacentGapGroup(1.0)], global_probability=0.2),
-    crossover=SPXMSA(probability=0.8),
-    selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator())
-)
+For running Sequoya in a cluster of machines, first [setup a network](http://distributed.dask.org/en/latest/setup.html) 
+with at least one `dask-cheduler` node and several `dask-worker` nodes:
 
-# Register several observables
-algorithm.observable.register(observer=WriteFrontToFileObserver('FUN_' + problem.instance))
-algorithm.observable.register(observer=WriteSequencesToFileObserver('VAR_' + problem.instance))
+```console
+conda create --name dask-cluster
+conda activate dask-cluster
 
-# Run the algorithm
-algorithm.run()
-result = algorithm.get_result()
-
-# Plot the solution
-pareto_front = MSAPlot(plot_title='NSGAII for ' + problem.instance, axis_labels=problem.obj_labels)
-pareto_front.plot(front)
-pareto_front.to_html(filename='NSGAII-' + problem.instance)
+pip install git+https://github.com/benhid/Sequoya.git@develop
 ```
 
-<p align="center">
-  <br/>
-  <img src=resources/msaviewer.png alt="Interactive MSA viewer">
-  <br/>
-</p>
+Then, on the master node run:
+
+```console
+dask-scheduler
+```
+
+On each slave node run:
+
+```console
+dask-worker <master-ip>:8786 --nprocs <total-cores> --nthreads 1
+```
 
 ## Authors
 ### Active development team
-* [Antonio Benítez-Hidalgo](https://benhid.github.io/about/) <antonio.b@uma.es>
+* [Antonio Benítez-Hidalgo](https://benhid.com/) <antonio.b@uma.es>
 * [Antonio J. Nebro](http://www.lcc.uma.es/%7Eantonio/) <antonio@lcc.uma.es>
 
 ## License

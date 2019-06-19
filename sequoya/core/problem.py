@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractmethod
 
 from jmetal.core.problem import Problem
 
-from pym2sa.core.solution import MSASolution
+from sequoya.core.solution import MSASolution
 
 
 class MSAProblem(Problem[MSASolution]):
@@ -11,7 +11,7 @@ class MSAProblem(Problem[MSASolution]):
     __metaclass__ = ABCMeta
 
     def __init__(self):
-        super(MSAProblem, self).__init__(reference_front_path='')
+        super(MSAProblem, self).__init__()
         self.number_of_constraints = 0
 
     @abstractmethod

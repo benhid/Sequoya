@@ -1,4 +1,8 @@
-from dask.distributed import Client, LocalCluster
+import matplotlib
+
+matplotlib.use('TkAgg')
+
+from dask.distributed import Client
 from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
@@ -12,15 +16,15 @@ from sequoya.problem import BAliBASE
 from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
-    # setup Dask client (web interface will be initialized at http://127.0.0.1:8787/workers)
-    cluster = LocalCluster(n_workers=12, processes=True)
-    client = Client(cluster)
+    # setup Dask client
+    client = Client('192.168.213.3:8786')
+    client.restart()
 
     ncores = sum(client.ncores().values())
-    print(f'{ncores} cores available')
+    print(f'{ncores} cores available on cluster')
 
     # creates the problem
-    problem = BAliBASE(instance='BB20019', path='../resources',
+    problem = BAliBASE(instance='BB12010', path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
     # creates the algorithm
@@ -38,17 +42,17 @@ if __name__ == '__main__':
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
-    algorithm.observable.register(observer=VisualizerObserver())
+    #algorithm.observable.register(observer=VisualizerObserver())
 
     algorithm.run()
     front = algorithm.get_result()
 
     # plot front
     plot_front = Plot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
-    plot_front.plot(front, label='NSGAIII-BB20019', filename='NSGAIII-BB20019')
+    plot_front.plot(front, label='NSGAIII-BB50012', filename='NSGAIII-BB50012')
 
     # plot interactive front
     pareto_front = MSAPlot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
-    pareto_front.plot(front, label='NSGAIII-BB20019', filename='NSGAIII-BB20019')
+    pareto_front.plot(front, label='NSGAIII-BB50011', filename='NSGAIII-BB50011')
 
     print('Computing time: ' + str(algorithm.total_computing_time))

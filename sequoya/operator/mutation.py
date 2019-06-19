@@ -1,12 +1,12 @@
 import random
-from typing import TypeVar, List
+from typing import TypeVar
 
 from jmetal.core.operator import Mutation
 
-from pym2sa.core.solution import MSASolution
+from sequoya.core.solution import MSASolution
 
 S = TypeVar('S')
-R = TypeVar(List[S])
+R = TypeVar('R')
 
 
 class MultipleMSAMutation(Mutation[S]):
@@ -66,7 +66,8 @@ class ShiftGapGroup(Mutation[S]):
 
             # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
-                raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
+                raise Exception(
+                    "Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 
         return solution
 
@@ -89,8 +90,8 @@ class ShiftClosedGapGroups(Mutation[S]):
 
     def do_mutation(self, solution: MSASolution) -> MSASolution:
         if random.random() <= self.probability:
-            for seq_index in range(solution.number_of_variables):
-                gaps_group = solution.gaps_groups[seq_index]
+            for i in range(solution.number_of_variables):
+                gaps_group = solution.gaps_groups[i]
 
                 if len(gaps_group) >= 4:
                     random_gaps_group = random.randrange(0, len(gaps_group) - 2, 2)
@@ -101,22 +102,26 @@ class ShiftClosedGapGroups(Mutation[S]):
                                (gaps_group[random_gaps_group + 1] - gaps_group[random_gaps_group])
 
                         if diff < 0:
-                            # diff < 0 means that gaps group 1 is lower than gaps group 1, thus we need to decrease
+                            # diff < 0 means that gaps group 2 is shorter than gaps group 1, thus we need to decrease
                             # the length of the gaps group 1
                             diff = -1 * diff
                             gaps_group[random_gaps_group + 1] -= diff
-                            # displace every gap after [random_gaps_group + 1] one position to the left (-1)
-                            gaps_group[random_gaps_group + 2:] = [x - diff for x in gaps_group[random_gaps_group + 2:]]
 
                             gaps_group[random_gaps_group + 3] += diff
+
+                            # displace gaps group 2 one position to the left
+                            gaps_group[random_gaps_group + 2] -= diff
+                            gaps_group[random_gaps_group + 3] -= diff
                         elif diff > 0:
-                            # diff > 0 means that gaps group 2 is bigger than gaps group 1, thus we need to increase
+                            # diff > 0 means that gaps group 2 is larger than gaps group 1, thus we need to increase
                             # the length of the gaps group 1
                             gaps_group[random_gaps_group + 1] += diff
-                            # displace every gap after [random_gaps_group + 1] one position to the right (+1)
-                            gaps_group[random_gaps_group + 2:] = [x + diff for x in gaps_group[random_gaps_group + 2:]]
 
                             gaps_group[random_gaps_group + 3] -= diff
+
+                            # displace gaps group 2 one position to the right
+                            gaps_group[random_gaps_group + 2] += diff
+                            gaps_group[random_gaps_group + 3] += diff
 
             if self.remove_full_of_gap_columns:
                 solution.remove_full_of_gaps_columns()
@@ -172,7 +177,8 @@ class TwoRandomAdjacentGapGroup(Mutation[S]):
 
             # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
-                raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
+                raise Exception(
+                    "Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 
         return solution
 
@@ -205,7 +211,8 @@ class OneRandomGapInsertion(Mutation[S]):
 
             # Sanity check: alignment is valid (same length for all sequences)
             if not solution.is_valid_msa():
-                raise Exception("Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
+                raise Exception(
+                    "Mutated solution is not valid! {0}".format(solution.decode_alignment_as_list_of_pairs()))
 
         return solution
 
