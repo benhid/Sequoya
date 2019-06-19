@@ -1,7 +1,3 @@
-import matplotlib
-
-matplotlib.use('TkAgg')
-
 from dask.distributed import Client, LocalCluster
 from jmetal.operator import BinaryTournamentSelection
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
@@ -28,7 +24,7 @@ if __name__ == '__main__':
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
     # creates the algorithm
-    max_evaluations = 1000
+    max_evaluations = 25000
 
     algorithm = DistributedNSGAII(
         problem=problem,

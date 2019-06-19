@@ -1,19 +1,12 @@
 from math import sqrt
 
-import matplotlib
-from jmetal.problem import ZDT1
-
-matplotlib.use('TkAgg')
-
 from jmetal.algorithm.multiobjective.nsgaii import NSGAII
 from jmetal.operator import BinaryTournamentSelection, PolynomialMutation, SBXCrossover
+from jmetal.problem import ZDT1
 from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
 from jmetal.util.solution_list.evaluator import SequentialEvaluator
 from jmetal.util.termination_criterion import StoppingByEvaluations
-from jmetal.util.visualization import Plot
-
-from sequoya.util.visualization import MSAPlot
 
 
 class ZDT1Modified(ZDT1):
@@ -31,7 +24,7 @@ class ZDT1Modified(ZDT1):
         solution.objectives[1] = h * g
 
         s: float = 0.0
-        for i in range(1000000000):
+        for i in range(50000000):
             s += i * 0.235 / 1.234
 
         return solution
@@ -57,7 +50,7 @@ if __name__ == '__main__':
     problem = ZDT1Modified()
 
     # creates the algorithm
-    max_evaluations = 1000
+    max_evaluations = 25000
 
     algorithm = NSGAII(
         problem=problem,

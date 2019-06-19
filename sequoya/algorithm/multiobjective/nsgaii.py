@@ -96,7 +96,7 @@ class DistributedNSGAII(Algorithm[S, R]):
 
         task_pool = as_completed([], with_results=True)
 
-        for i in range(self.number_of_cores):
+        for _ in range(self.number_of_cores):
             new_solution = create_solution()
             new_evaluated_solution = evaluate_solution(new_solution)
             future = self.client.compute(new_evaluated_solution)

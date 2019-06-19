@@ -27,7 +27,8 @@ This tool implements a distributed async version of the [M2Align](https://github
     * Percentage of totally conserved columns,
     * STRIKE.
 * **Algorithm**:
-    * NSGA-II
+    * NSGA-II,
+    * Distributed NSGA-II
 * **Crossover operator**:
     * Single-point crossover (`GapSequenceSolutionSinglePoint`).
 * **Mutation operators**:
@@ -81,7 +82,7 @@ dask-worker <master-ip>:8786 --nprocs <total-cores> --nthreads 1
 
 ## Authors
 ### Active development team
-* [Antonio Benítez-Hidalgo](https://benhid.github.io/about/) <antonio.b@uma.es>
+* [Antonio Benítez-Hidalgo](https://benhid.com/) <antonio.b@uma.es>
 * [Antonio J. Nebro](http://www.lcc.uma.es/%7Eantonio/) <antonio@lcc.uma.es>
 
 ## License
