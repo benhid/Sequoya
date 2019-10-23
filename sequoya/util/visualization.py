@@ -1,7 +1,7 @@
 import logging
 from typing import TypeVar
 
-from jmetal.util.visualization import InteractivePlot
+from jmetal.lab.visualization import InteractivePlot
 
 LOGGER = logging.getLogger('Sequoya')
 S = TypeVar('S')

@@ -1,11 +1,9 @@
 from math import sqrt
 
 from jmetal.algorithm.multiobjective.nsgaii import NSGAII
-from jmetal.operator import BinaryTournamentSelection, PolynomialMutation, SBXCrossover
+from jmetal.operator import PolynomialMutation, SBXCrossover
 from jmetal.problem import ZDT1
-from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
-from jmetal.util.solution_list.evaluator import SequentialEvaluator
 from jmetal.util.termination_criterion import StoppingByEvaluations
 
 
@@ -24,7 +22,7 @@ class ZDT1Modified(ZDT1):
         solution.objectives[1] = h * g
 
         s: float = 0.0
-        for i in range(50000000):
+        for i in range(5000000):
             s += i * 0.235 / 1.234
 
         return solution
@@ -58,9 +56,7 @@ if __name__ == '__main__':
         offspring_population_size=100,
         mutation=PolynomialMutation(probability=1.0 / problem.number_of_variables, distribution_index=20),
         crossover=SBXCrossover(probability=1.0, distribution_index=20),
-        selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
-        termination_criterion=StoppingByEvaluations(max=max_evaluations),
-        population_evaluator=SequentialEvaluator()
+        termination_criterion=StoppingByEvaluations(max=max_evaluations)
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))

@@ -26,10 +26,8 @@ setup(
         'Programming Language :: Python :: 3.6'
     ],
     install_requires=[
-        'jmetalpy==0.9.0',
-        'pymsa==0.5.1',
-        'dask[complete]==1.2.2',
-        'distributed==1.28.1',
-        'bokeh==1.1.0'
+        'jmetalpy==1.5.1',
+        'pyMSA==0.5.1',
+        'bokeh==1.1.0'  # optional for Dask web interface
     ]
 )

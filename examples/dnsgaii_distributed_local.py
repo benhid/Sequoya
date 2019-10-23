@@ -1,9 +1,7 @@
 from dask.distributed import Client, LocalCluster
-from jmetal.operator import BinaryTournamentSelection
-from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
+from jmetal.lab.visualization import Plot
 from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
 from jmetal.util.termination_criterion import StoppingByEvaluations
-from jmetal.util.visualization import Plot
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
 from sequoya.algorithm.multiobjective.nsgaii import DistributedNSGAII
@@ -13,14 +11,14 @@ from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
     # setup Dask client (web interface will be initialized at http://127.0.0.1:8787/workers)
-    cluster = LocalCluster(n_workers=12, processes=True)
+    cluster = LocalCluster(n_workers=4, processes=True)
     client = Client(cluster)
 
     ncores = sum(client.ncores().values())
     print(f'{ncores} cores available')
 
     # creates the problem
-    problem = BAliBASE(instance='BB20019', path='../resources',
+    problem = BAliBASE(instance='BB12005', path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
     # creates the algorithm
@@ -29,9 +27,8 @@ if __name__ == '__main__':
     algorithm = DistributedNSGAII(
         problem=problem,
         population_size=100,
-        mutation=ShiftClosedGapGroups(probability=0.3),
+        mutation=ShiftClosedGapGroups(probability=0.4),
         crossover=SPXMSA(probability=0.7),
-        selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         termination_criterion=StoppingByEvaluations(max=max_evaluations),
         number_of_cores=ncores,
         client=client
@@ -45,10 +42,10 @@ if __name__ == '__main__':
 
     # plot front
     plot_front = Plot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
-    plot_front.plot(front, label='NSGAIII-BB20019', filename='NSGAIII-BB20019')
+    plot_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
 
     # plot interactive front
     pareto_front = MSAPlot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
-    pareto_front.plot(front, label='NSGAIII-BB20019', filename='NSGAIII-BB20019')
+    pareto_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
 
     print('Computing time: ' + str(algorithm.total_computing_time))

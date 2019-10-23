@@ -5,7 +5,6 @@ from jmetal.operator import BinaryTournamentSelection
 from jmetal.operator.crossover import SBXCrossover
 from jmetal.operator.mutation import PolynomialMutation
 from jmetal.problem import ZDT1
-from jmetal.util.comparator import RankingAndCrowdingDistanceComparator
 from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
 from jmetal.util.termination_criterion import StoppingByEvaluations
 
@@ -27,7 +26,7 @@ class ZDT1Modified(ZDT1):
         solution.objectives[1] = h * g
 
         s: float = 0.0
-        for i in range(10000000):
+        for i in range(10000):
             s += i * 0.235 / 1.234
 
         return solution
@@ -67,7 +66,6 @@ if __name__ == '__main__':
         population_size=100,
         mutation=PolynomialMutation(probability=1.0 / problem.number_of_variables, distribution_index=20),
         crossover=SBXCrossover(probability=1.0, distribution_index=20),
-        selection=BinaryTournamentSelection(comparator=RankingAndCrowdingDistanceComparator()),
         termination_criterion=StoppingByEvaluations(max=max_evaluations),
         number_of_cores=ncores,
         client=client
