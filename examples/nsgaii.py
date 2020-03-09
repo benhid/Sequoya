@@ -6,6 +6,7 @@ from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
 from sequoya.operator import SPXMSA, ShiftClosedGapGroups
 from sequoya.problem import BAliBASE
+from sequoya.util.solution import restore_objs
 from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
@@ -30,6 +31,7 @@ if __name__ == '__main__':
 
     algorithm.run()
     front = algorithm.get_result()
+    front = restore_objs(front, problem)
 
     # plot front
     plot_front = Plot(title='Pareto front approximation', axis_labels=['%SOP', '%TC'])

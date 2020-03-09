@@ -182,14 +182,7 @@ class DistributedNSGAII(Algorithm[S, R]):
         except IndexError:
             non_dominated = None
 
-        front = non_dominated if non_dominated else self.solutions
-
-        for solution in front:
-            for i in range(self.problem.number_of_objectives):
-                if not self.problem.score_list[i].is_minimization():
-                    solution.objectives[i] = -1.0 * solution.objectives[i]
-
-        return front
+        return non_dominated if non_dominated else self.solutions
 
     def get_name(self) -> str:
         return 'dNSGA-II'
