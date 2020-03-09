@@ -2,13 +2,10 @@ from jmetal.algorithm.multiobjective.nsgaii import NSGAII
 from jmetal.lab.visualization import Plot
 from jmetal.operator import PolynomialMutation, SBXCrossover
 from jmetal.problem import ZDT1
-from jmetal.util.observer import ProgressBarObserver, VisualizerObserver, PlotFrontToFileObserver
+from jmetal.util.observer import ProgressBarObserver, PlotFrontToFileObserver
 from jmetal.util.solutions.comparator import GDominanceComparator
 from jmetal.util.termination_criterion import StoppingByEvaluations
-from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
-from sequoya.operator import SPXMSA, ShiftClosedGapGroups
-from sequoya.problem import BAliBASE
 from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
@@ -19,20 +16,20 @@ if __name__ == '__main__':
     max_evaluations = 25000
     reference_point = [0.2, 0.6]
 
+    dominance_comparator = GDominanceComparator(reference_point)
+
     algorithm = NSGAII(
         problem=problem,
         population_size=100,
         offspring_population_size=100,
         mutation=PolynomialMutation(probability=1.0 / problem.number_of_variables, distribution_index=20),
         crossover=SBXCrossover(probability=1.0, distribution_index=20),
-        dominance_comparator=GDominanceComparator(reference_point),
+        dominance_comparator=dominance_comparator,
         termination_criterion=StoppingByEvaluations(max=max_evaluations)
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
-    algorithm.observable.register(observer=PlotFrontToFileObserver(reference_point=reference_point,
-                                                                   output_directory='fronts_zdt1'))
-    #algorithm.observable.register(observer=VisualizerObserver(reference_point=reference_point))
+    algorithm.observable.register(observer=PlotFrontToFileObserver(output_directory='fronts_zdt1'))
 
     algorithm.run()
     front = algorithm.get_result()

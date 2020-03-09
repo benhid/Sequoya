@@ -7,7 +7,7 @@ except ImportError:
 
 setup(
     name='Sequoya',
-    version='0.9.0',
+    version='0.9.1',
     description='Solving Multiple Sequence Alignments with Python',
     author='Antonio Benítez-Hidalgo',
     author_email='antonio.b@uma.es',

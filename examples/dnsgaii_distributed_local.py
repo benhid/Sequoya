@@ -1,6 +1,6 @@
 from dask.distributed import Client, LocalCluster
 from jmetal.lab.visualization import Plot
-from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
+from jmetal.util.observer import ProgressBarObserver
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
@@ -11,14 +11,14 @@ from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
     # setup Dask client (web interface will be initialized at http://127.0.0.1:8787/workers)
-    cluster = LocalCluster(n_workers=4, processes=True)
+    cluster = LocalCluster(processes=True)
     client = Client(cluster)
 
     ncores = sum(client.ncores().values())
     print(f'{ncores} cores available')
 
     # creates the problem
-    problem = BAliBASE(instance='BB12005', path='../resources',
+    problem = BAliBASE(instance='BB50011', path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
     # creates the algorithm
@@ -35,17 +35,18 @@ if __name__ == '__main__':
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
-    algorithm.observable.register(observer=VisualizerObserver())
 
     algorithm.run()
     front = algorithm.get_result()
 
     # plot front
     plot_front = Plot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
-    plot_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
+    plot_front.plot(front, label='NSGAII-BB50011', filename='NSGAII-BB50011b')
 
-    # plot interactive front
-    pareto_front = MSAPlot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
-    pareto_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
+    plot_front = Plot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
+    plot_front.plot(front, label='NSGAII-BB50011', filename='NSGAII-BB50011a')
+
+    plot_front = MSAPlot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
+    plot_front.plot(front, label='NSGAII-BB50011', filename='NSGAII-BB50011c', format='HTML')
 
     print('Computing time: ' + str(algorithm.total_computing_time))

@@ -1,6 +1,6 @@
 from jmetal.algorithm.multiobjective.nsgaii import NSGAII
 from jmetal.lab.visualization import Plot
-from jmetal.util.observer import ProgressBarObserver, VisualizerObserver, PlotFrontToFileObserver
+from jmetal.util.observer import ProgressBarObserver, PlotFrontToFileObserver
 from jmetal.util.solutions.comparator import GDominanceComparator
 from jmetal.util.termination_criterion import StoppingByEvaluations
 from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     # creates the algorithm
     max_evaluations = 25000
-    reference_point = [-0.6,  11000]
+    reference_point = [-0.6, 11000]
 
     algorithm = NSGAII(
         problem=problem,
@@ -29,9 +29,7 @@ if __name__ == '__main__':
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
-    algorithm.observable.register(observer=PlotFrontToFileObserver(reference_point=[-0.6,  11000],
-                                                                   output_directory='fronts_zdt1'))
-    #algorithm.observable.register(observer=VisualizerObserver(reference_point=reference_point))
+    algorithm.observable.register(observer=PlotFrontToFileObserver(output_directory='fronts_zdt1'))
 
     algorithm.run()
     front = algorithm.get_result()

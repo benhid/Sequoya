@@ -1,4 +1,5 @@
 import logging
+import threading
 import time
 from typing import List, TypeVar
 
@@ -9,6 +10,7 @@ from jmetal.core.algorithm import Algorithm
 from jmetal.core.operator import Mutation, Crossover, Selection
 from jmetal.core.problem import Problem
 from jmetal.operator import RankingAndCrowdingDistanceSelection, BinaryTournamentSelection
+from jmetal.util.archive import ArchiveWithReferencePoint
 from jmetal.util.density_estimator import CrowdingDistance
 from jmetal.util.ranking import FastNonDominatedRanking
 from jmetal.util.replacement import RankingAndDensityEstimatorReplacement, RemovalPolicyType
@@ -76,7 +78,6 @@ class DistributedNSGAII(Algorithm[S, R]):
 
     def get_observable_data(self) -> dict:
         ctime = time.time() - self.start_computing_time
-
         return {'PROBLEM': self.problem,
                 'EVALUATIONS': self.evaluations,
                 'SOLUTIONS': self.get_result(),
@@ -175,7 +176,15 @@ class DistributedNSGAII(Algorithm[S, R]):
             future.cancel()
 
     def get_result(self) -> R:
-        return self.solutions
+        ranking = FastNonDominatedRanking(self.dominance_comparator)
+        ranking.compute_ranking(self.solutions)
+
+        try:
+            non_dominated = ranking.get_nondominated()
+        except IndexError:
+            non_dominated = None
+
+        return non_dominated if non_dominated else self.solutions
 
     def get_name(self) -> str:
         return 'dNSGA-II'

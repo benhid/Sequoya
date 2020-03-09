@@ -10,11 +10,11 @@ from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
     # creates the problem
-    problem = BAliBASE(instance='BB20019', path='../resources',
+    problem = BAliBASE(instance='BB50011', path='../resources',
                        score_list=[SumOfPairs(), PercentageOfTotallyConservedColumns()])
 
     # creates the algorithm
-    max_evaluations = 25000
+    max_evaluations = 50000
 
     algorithm = NSGAII(
         problem=problem,
@@ -33,10 +33,10 @@ if __name__ == '__main__':
 
     # plot front
     plot_front = Plot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
-    plot_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
+    plot_front.plot(front, label='NSGAII-BB50011', filename='NSGAII-BB50011')
 
     # plot interactive front
     pareto_front = MSAPlot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
-    pareto_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
+    pareto_front.plot(front, label='NSGAII-BB50011', filename='NSGAII-BB50011')
 
     print('Computing time: ' + str(algorithm.total_computing_time))

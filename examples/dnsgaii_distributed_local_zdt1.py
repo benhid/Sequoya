@@ -1,7 +1,6 @@
 from math import sqrt
 
 from dask.distributed import Client, LocalCluster
-from jmetal.operator import BinaryTournamentSelection
 from jmetal.operator.crossover import SBXCrossover
 from jmetal.operator.mutation import PolynomialMutation
 from jmetal.problem import ZDT1
