@@ -33,7 +33,7 @@ if __name__ == '__main__':
         population_size=100,
         mutation=ShiftClosedGapGroups(probability=0.3),
         crossover=SPXMSA(probability=0.7),
-        termination_criterion=StoppingByEvaluations(max=max_evaluations),
+        termination_criterion=StoppingByEvaluations(max_evaluations=max_evaluations),
         number_of_cores=ncores,
         client=client
     )
@@ -45,11 +45,11 @@ if __name__ == '__main__':
     front = algorithm.get_result()
 
     # plot front
-    plot_front = Plot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
+    plot_front = Plot(title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
     plot_front.plot(front, label='NSGAII-BB50011', filename='NSGAII-BB50011')
 
     # plot interactive front
-    pareto_front = MSAPlot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
+    pareto_front = MSAPlot(title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
     pareto_front.plot(front, label='NSGAII-BB50011', filename='NSGAII-BB50011')
 
     print('Computing time: ' + str(algorithm.total_computing_time))

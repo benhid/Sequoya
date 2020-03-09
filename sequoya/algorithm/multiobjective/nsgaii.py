@@ -1,5 +1,4 @@
 import logging
-import threading
 import time
 from typing import List, TypeVar
 
@@ -8,16 +7,15 @@ from distributed import as_completed, Client
 from jmetal.config import store
 from jmetal.core.algorithm import Algorithm
 from jmetal.core.operator import Mutation, Crossover, Selection
-from jmetal.core.problem import Problem
-from jmetal.operator import RankingAndCrowdingDistanceSelection, BinaryTournamentSelection
-from jmetal.util.archive import ArchiveWithReferencePoint
+from jmetal.operator import BinaryTournamentSelection
+from jmetal.util.comparator import MultiComparator, Comparator
 from jmetal.util.density_estimator import CrowdingDistance
 from jmetal.util.ranking import FastNonDominatedRanking
 from jmetal.util.replacement import RankingAndDensityEstimatorReplacement, RemovalPolicyType
-from jmetal.util.solutions.comparator import MultiComparator, Comparator
 from jmetal.util.termination_criterion import TerminationCriterion
 
 from sequoya.core.solution import MSASolution
+from sequoya.problem import MSA
 
 LOGGER = logging.getLogger('Sequoya')
 
@@ -42,7 +40,7 @@ def reproduction(mating_population: List[MSASolution], problem, crossover_operat
 class DistributedNSGAII(Algorithm[S, R]):
 
     def __init__(self,
-                 problem: Problem[MSASolution],
+                 problem: MSA,
                  population_size: int,
                  mutation: Mutation[MSASolution],
                  crossover: Crossover[MSASolution, MSASolution],
@@ -184,7 +182,14 @@ class DistributedNSGAII(Algorithm[S, R]):
         except IndexError:
             non_dominated = None
 
-        return non_dominated if non_dominated else self.solutions
+        front = non_dominated if non_dominated else self.solutions
+
+        for solution in front:
+            for i in range(self.problem.number_of_objectives):
+                if not self.problem.score_list[i].is_minimization():
+                    solution.objectives[i] = -1.0 * solution.objectives[i]
+
+        return front
 
     def get_name(self) -> str:
         return 'dNSGA-II'

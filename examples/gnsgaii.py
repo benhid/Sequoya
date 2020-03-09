@@ -25,7 +25,7 @@ if __name__ == '__main__':
         mutation=ShiftClosedGapGroups(probability=0.3),
         crossover=SPXMSA(probability=0.7),
         dominance_comparator=GDominanceComparator(reference_point),
-        termination_criterion=StoppingByEvaluations(max=max_evaluations)
+        termination_criterion=StoppingByEvaluations(max_evaluations=max_evaluations)
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
@@ -35,11 +35,11 @@ if __name__ == '__main__':
     front = algorithm.get_result()
 
     # plot front
-    plot_front = Plot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
+    plot_front = Plot(title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
     plot_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
 
     # plot interactive front
-    pareto_front = MSAPlot(plot_title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
+    pareto_front = MSAPlot(title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
     pareto_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
 
     print('Computing time: ' + str(algorithm.total_computing_time))
