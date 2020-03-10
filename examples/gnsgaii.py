@@ -7,6 +7,7 @@ from pymsa.core.score import SumOfPairs, PercentageOfTotallyConservedColumns
 
 from sequoya.operator import SPXMSA, ShiftClosedGapGroups
 from sequoya.problem import BAliBASE
+from sequoya.util.solution import get_representative_set
 from sequoya.util.visualization import MSAPlot
 
 if __name__ == '__main__':
@@ -38,8 +39,12 @@ if __name__ == '__main__':
     plot_front = Plot(title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
     plot_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
 
-    # plot interactive front
     pareto_front = MSAPlot(title='Pareto front approximation', axis_labels=['%SOP', '%TC'])
     pareto_front.plot(front, label='NSGAII-BB20019', filename='NSGAII-BB20019')
+
+    # find extreme solutions
+    solutions = get_representative_set(front)
+    for solution in solutions:
+        print(solution.objectives)
 
     print('Computing time: ' + str(algorithm.total_computing_time))

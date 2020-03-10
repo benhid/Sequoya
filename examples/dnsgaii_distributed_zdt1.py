@@ -8,7 +8,7 @@ from dask.distributed import Client
 from jmetal.operator.crossover import SBXCrossover
 from jmetal.operator.mutation import PolynomialMutation
 from jmetal.problem import ZDT1
-from jmetal.util.observer import ProgressBarObserver
+from jmetal.util.observer import ProgressBarObserver, VisualizerObserver
 from jmetal.util.termination_criterion import StoppingByEvaluations
 
 from sequoya.algorithm.multiobjective.nsgaii import DistributedNSGAII
@@ -74,7 +74,7 @@ if __name__ == '__main__':
     )
 
     algorithm.observable.register(observer=ProgressBarObserver(max=max_evaluations))
-    # algorithm.observable.register(observer=VisualizerObserver())
+    algorithm.observable.register(observer=VisualizerObserver())
 
     algorithm.run()
     front = algorithm.get_result()
