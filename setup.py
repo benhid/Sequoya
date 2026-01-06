@@ -28,6 +28,6 @@ setup(
     install_requires=[
         'jmetalpy==1.5.4',
         'pyMSA==0.5.1',
-        'bokeh==1.1.0'  # optional for Dask web interface
+        'bokeh==3.8.2'  # optional for Dask web interface
     ]
 )
